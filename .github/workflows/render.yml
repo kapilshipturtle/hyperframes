@@ -161,7 +161,17 @@ jobs:
 
       - name: hyperframes check (lint gate)
         working-directory: ${{ matrix.project }}
-        run: npx --yes hyperframes@0.8.17 check
+        # --timeout raised from the 10000ms default. Real failure caught on
+        # this exact project's first CI run: "check_runtime_failure:
+        # Navigation timeout of 10000 ms exceeded" — the GitHub runner has
+        # no hardware GPU (`browserGpuMode probe → software (WebGL
+        # unavailable)`, confirmed in that run's own log), so headless
+        # Chrome paints this composition (151 mounted sub-comps + the
+        # grain-overlay <video> + ambience <audio>) far slower than on a
+        # real GPU machine — comfortably passed locally, timed out here.
+        # 60000ms (60s) leaves real headroom over what a software-rendered
+        # first paint of a page this size should need.
+        run: npx --yes hyperframes@0.8.17 check --timeout 60000
 
       - name: Render
         working-directory: ${{ matrix.project }}
@@ -187,9 +197,21 @@ jobs:
         # pipeline enough headroom per worker to not time out. If a real run
         # still fails with VIDEO_SOURCE_UNRENDERABLE, lower this further
         # (e.g. 2) before assuming something else is wrong.
+        #
+        # --browser-timeout raised from render's own 60s default. The
+        # preceding `check` step already hit "Navigation timeout of 10000 ms
+        # exceeded" at ITS 10s default on this exact project, because the
+        # runner has no hardware GPU (`browserGpuMode probe → software`,
+        # confirmed in that run's log) — software-rendered Chrome paints
+        # this heavy a composition (151 sub-comps, grain video, ambience
+        # audio) much slower than on a real GPU machine. render's docs
+        # explicitly call out raising this for "heavy compositions (many
+        # videos / fonts / remote assets)" — this project is exactly that
+        # case, so raise it defensively rather than wait to hit it deeper
+        # into a much longer, more expensive step.
         run: |
           mkdir -p renders
-          npx --yes hyperframes@0.8.17 render --skill=documentary-broll --no-browser-gpu --workers 3 --quality high --output renders/video.mp4
+          npx --yes hyperframes@0.8.17 render --skill=documentary-broll --no-browser-gpu --workers 3 --browser-timeout 180 --quality high --output renders/video.mp4
 
       - name: Normalize loudness
         # On workflow_dispatch, respect the explicit input. On push (no

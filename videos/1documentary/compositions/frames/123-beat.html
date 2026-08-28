@@ -1,0 +1,236 @@
+<template>
+<div data-hf-id="hf-xdom" id="root" data-composition-id="123-beat" data-width="1920" data-height="1080" data-duration="5.23">
+  <style>
+    #root {
+      background: transparent;
+      font-family: -apple-system, "Inter", sans-serif;
+      color: #f2f2f0;
+      overflow: hidden;
+    }
+    .beat123-bg {
+      background: #0e0e10;
+    }
+    .beat123-stage {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .beat123-diagram {
+      position: relative;
+      width: 1200px;
+      height: 460px;
+    }
+    /* marsh cross-section */
+    .beat123-ground {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 90px;
+      height: 3px;
+      background: #3a3a3e;
+    }
+    .beat123-ground-fill {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      top: 380px;
+      background: linear-gradient(180deg, #1a1a1d 0%, #121214 100%);
+      border-top: 1px solid #333338;
+    }
+    .beat123-water {
+      position: absolute;
+      left: 60px;
+      right: 60px;
+      bottom: 93px;
+      height: 0px;
+      background: linear-gradient(180deg, rgba(169,180,192,0.35), rgba(169,180,192,0.12));
+      border-top: 1px solid rgba(169,180,192,0.55);
+      transform-origin: bottom;
+    }
+    /* ruler */
+    .beat123-ruler {
+      position: absolute;
+      left: 50%;
+      bottom: 93px;
+      width: 46px;
+      height: 0px;
+      transform: translateX(-50%);
+      background: rgba(20,20,22,0.9);
+      border: 1.5px solid #6b6f76;
+      border-radius: 3px;
+      overflow: hidden;
+    }
+    .beat123-ruler-ticks {
+      position: absolute;
+      inset: 0;
+    }
+    .beat123-tick {
+      position: absolute;
+      left: 6px;
+      width: 14px;
+      height: 1px;
+      background: #8a8e94;
+      opacity: 0.8;
+    }
+    .beat123-tick.major {
+      width: 24px;
+      background: #b6bac0;
+    }
+    .beat123-ruler-cap {
+      position: absolute;
+      left: 50%;
+      bottom: 93px;
+      width: 70px;
+      height: 10px;
+      background: #d9dce0;
+      border-radius: 2px;
+      opacity: 0;
+    }
+    .beat123-label {
+      position: absolute;
+      left: 50%;
+      bottom: 210px;
+      transform: translate(-50%, 0);
+      text-align: center;
+      opacity: 0;
+    }
+    .beat123-label-num {
+      font-size: 150px;
+      font-weight: 700;
+      line-height: 1;
+      color: #ffffff;
+      letter-spacing: -2px;
+    }
+    .beat123-label-num .beat123-accent {
+      color: #a9b4c0;
+    }
+    .beat123-label-sub {
+      margin-top: 10px;
+      font-size: 24px;
+      font-weight: 500;
+      color: #f2f2f0;
+      opacity: 0.75;
+      letter-spacing: 0.5px;
+    }
+    .beat123-caption {
+      position: absolute;
+      left: 50%;
+      bottom: 30px;
+      transform: translate(-50%, 0);
+      font-size: 22px;
+      font-weight: 500;
+      color: #f2f2f0;
+      opacity: 0;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+    }
+    .beat123-flowline {
+      position: absolute;
+      bottom: 93px;
+      left: 60px;
+      width: 0;
+      height: 1px;
+      border-top: 1px dashed rgba(169,180,192,0.5);
+    }
+  </style>
+
+  <div data-hf-id="hf-z326" class="clip beat123-bg" data-start="0" data-duration="6.43" data-track-index="0"></div>
+
+  <div data-hf-id="hf-402c" class="clip beat123-stage" data-start="0" data-duration="6.43" data-track-index="1">
+    <div data-hf-id="hf-g6ou" class="beat123-diagram" id="beat123-diagram">
+      <div data-hf-id="hf-tmji" class="beat123-ground-fill"></div>
+      <div data-hf-id="hf-kn1m" class="beat123-flowline" id="beat123-flowline"></div>
+      <div data-hf-id="hf-dcdo" class="beat123-ground"></div>
+      <div data-hf-id="hf-kumi" class="beat123-water" id="beat123-water"></div>
+      <div data-hf-id="hf-bsj4" class="beat123-ruler" id="beat123-ruler">
+        <div data-hf-id="hf-am65" class="beat123-ruler-ticks" id="beat123-ticks"></div>
+      </div>
+      <div data-hf-id="hf-djit" class="beat123-ruler-cap" id="beat123-cap"></div>
+      <div data-hf-id="hf-y9p8" class="beat123-label" id="beat123-label">
+        <div data-hf-id="hf-j97x" class="beat123-label-num" id="beat123-num">0<span data-hf-id="hf-g0f4" class="beat123-accent">"</span></div>
+        <div data-hf-id="hf-tcb7" class="beat123-label-sub">sheet-flow depth</div>
+      </div>
+      <div data-hf-id="hf-ae61" class="beat123-caption" id="beat123-caption">across the marsh</div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script>
+    (function () {
+      var ticksEl = document.getElementById('beat123-ticks');
+      // build ruler tick marks (16 minor ticks, majors every 4th)
+      var tickCount = 16;
+      for (var i = 0; i < tickCount; i++) {
+        var t = document.createElement('div');
+        t.className = 'beat123-tick' + (i % 4 === 0 ? ' major' : '');
+        t.style.bottom = (i * (200 / tickCount)) + 'px';
+        ticksEl.appendChild(t);
+      }
+
+      var tl = gsap.timeline({ paused: true });
+      var numEl = document.getElementById('beat123-num');
+      var counter = { v: 0 };
+
+      // Flow line draws in first, establishing the ground plane (0 - 18%)
+      tl.to('#beat123-flowline', {
+        width: 1080,
+        duration: 0.72,
+        ease: 'power2.out'
+      }, 0);
+
+      // Ruler rises into place (12% - 42%)
+      tl.to('#beat123-ruler', {
+        height: 200,
+        duration: 0.9,
+        ease: 'power2.out'
+      }, 0.48);
+      gsap.set('#beat123-cap', { xPercent: -50, y: 0 });
+      tl.to('#beat123-cap', {
+        opacity: 1,
+        y: -200,
+        duration: 0.5,
+        ease: 'power2.out'
+      }, 0.55);
+
+      // Water fills to the two-inch mark, starting ~38% into duration
+      tl.to('#beat123-water', {
+        height: 40,
+        duration: 1.1,
+        ease: 'power2.inOut'
+      }, 1.55);
+
+      // Number count-up starts ~45% in, synced with water rising
+      tl.to(counter, {
+        v: 2,
+        duration: 1.0,
+        ease: 'power1.inOut',
+        onUpdate: function () {
+          numEl.innerHTML = counter.v.toFixed(1).replace(/\.0$/, '') + '<span class="beat123-accent">"</span>';
+        },
+        onComplete: function () {
+          numEl.innerHTML = '2<span class="beat123-accent">"</span>';
+        }
+      }, 1.75);
+
+      tl.to('#beat123-label', {
+        opacity: 1,
+        duration: 0.5,
+        ease: 'power1.out'
+      }, 1.75);
+
+      // Caption settles last, quietly
+      tl.to('#beat123-caption', {
+        opacity: 0.7,
+        duration: 0.5,
+        ease: 'power1.out'
+      }, 2.9);
+
+      window.__timelines = window.__timelines || {};
+      window.__timelines['123-beat'] = tl;
+    })();
+  </script>
+</div>
+</template>

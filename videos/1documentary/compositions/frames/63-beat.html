@@ -1,0 +1,187 @@
+<template>
+  <style>
+    #root {
+      width: 1920px;
+      height: 1080px;
+      position: relative;
+      overflow: hidden;
+      font-family: -apple-system, "Inter", sans-serif;
+    }
+    .f-63-beat-bg {
+      background: #0c0c0e;
+    }
+    .f-63-beat-stage {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    /* rabbit silhouette shell, drawn in simple line-art via layered divs */
+    .f-63-beat-shell {
+      position: relative;
+      width: 480px;
+      height: 620px;
+    }
+    .f-63-beat-shell svg {
+      width: 100%;
+      height: 100%;
+      overflow: visible;
+    }
+    .f-63-beat-part {
+      position: absolute;
+      border-radius: 50%;
+      opacity: 0;
+    }
+    .f-63-beat-part-motor {
+      width: 84px;
+      height: 84px;
+      left: 198px;
+      top: 360px;
+      background: rgba(127, 176, 216, 0.16);
+      border: 2px solid #7fb0d8;
+    }
+    .f-63-beat-part-heater {
+      width: 96px;
+      height: 60px;
+      border-radius: 12px;
+      left: 190px;
+      top: 250px;
+      background: rgba(127, 176, 216, 0.16);
+      border: 2px solid #7fb0d8;
+    }
+    .f-63-beat-part-solar {
+      width: 130px;
+      height: 44px;
+      border-radius: 6px;
+      left: 175px;
+      top: 470px;
+      background: rgba(127, 176, 216, 0.16);
+      border: 2px solid #7fb0d8;
+    }
+    .f-63-beat-part-camera {
+      width: 34px;
+      height: 34px;
+      left: 236px;
+      top: 92px;
+      background: rgba(127, 176, 216, 0.22);
+      border: 2px solid #7fb0d8;
+    }
+    .f-63-beat-label {
+      position: absolute;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      opacity: 0;
+    }
+    .f-63-beat-label-line {
+      width: 60px;
+      height: 1.5px;
+      background: rgba(127, 176, 216, 0.55);
+    }
+    .f-63-beat-label-text {
+      font-size: 24px;
+      font-weight: 500;
+      color: #f2f2f0;
+      opacity: 0.85;
+      white-space: nowrap;
+      letter-spacing: 0.01em;
+    }
+    .f-63-beat-label-sub {
+      font-size: 16px;
+      font-weight: 400;
+      color: #7fb0d8;
+      opacity: 0.9;
+      display: block;
+      margin-top: 2px;
+    }
+    .f-63-beat-label-motor { left: 720px; top: 380px; }
+    .f-63-beat-label-motor .f-63-beat-label-line { order: -1; width: 210px; }
+    .f-63-beat-label-heater { left: 720px; top: 258px; }
+    .f-63-beat-label-heater .f-63-beat-label-line { order: -1; width: 218px; }
+    .f-63-beat-label-solar { left: 720px; top: 486px; }
+    .f-63-beat-label-solar .f-63-beat-label-line { order: -1; width: 233px; }
+    .f-63-beat-label-camera { left: 720px; top: 96px; }
+    .f-63-beat-label-camera .f-63-beat-label-line { order: -1; width: 172px; }
+
+  </style>
+
+  <div data-hf-id="hf-x4oe" id="root" data-composition-id="63-beat" data-width="1920" data-height="1080" data-duration="8.01">
+    <div data-hf-id="hf-16s4" id="f-63-beat-bg" class="f-63-beat-bg clip" data-start="0" data-duration="9.41" data-track-index="0"></div>
+
+    <div data-hf-id="hf-lwk3" id="f-63-beat-stage" class="f-63-beat-stage clip" data-start="0" data-duration="9.41" data-track-index="1">
+      <div data-hf-id="hf-z736" class="f-63-beat-shell" id="f-63-beat-shell">
+        <svg data-hf-id="hf-oqj1" viewBox="0 0 480 620" fill="none">
+          <!-- simple rabbit outline: head, ears, body -->
+          <ellipse data-hf-id="hf-pjwp" cx="240" cy="470" rx="150" ry="130" stroke="#f2f2f0" stroke-width="2.5" stroke-opacity="0.55" />
+          <ellipse data-hf-id="hf-ecdm" cx="240" cy="200" rx="95" ry="105" stroke="#f2f2f0" stroke-width="2.5" stroke-opacity="0.55" />
+          <path data-hf-id="hf-f211" d="M180 130 C170 30 165 -20 190 -10 C210 0 205 90 205 140" stroke="#f2f2f0" stroke-width="2.5" stroke-opacity="0.55" />
+          <path data-hf-id="hf-l08z" d="M300 130 C310 30 315 -20 290 -10 C270 0 275 90 275 140" stroke="#f2f2f0" stroke-width="2.5" stroke-opacity="0.55" />
+        </svg>
+
+        <div data-hf-id="hf-56gq" class="f-63-beat-part f-63-beat-part-camera"></div>
+        <div data-hf-id="hf-bapc" class="f-63-beat-part f-63-beat-part-heater"></div>
+        <div data-hf-id="hf-yomu" class="f-63-beat-part f-63-beat-part-motor"></div>
+        <div data-hf-id="hf-zs2i" class="f-63-beat-part f-63-beat-part-solar"></div>
+      </div>
+
+      <div data-hf-id="hf-ey6g" class="f-63-beat-label f-63-beat-label-camera">
+        <div data-hf-id="hf-l2ed" class="f-63-beat-label-line"></div>
+        <div data-hf-id="hf-yeow">
+          <span data-hf-id="hf-e8bo" class="f-63-beat-label-text">Camera</span>
+          <span data-hf-id="hf-jmtn" class="f-63-beat-label-sub">behind the eyes</span>
+        </div>
+      </div>
+      <div data-hf-id="hf-8gii" class="f-63-beat-label f-63-beat-label-heater">
+        <div data-hf-id="hf-fe0p" class="f-63-beat-label-line"></div>
+        <div data-hf-id="hf-y7yw">
+          <span data-hf-id="hf-pmma" class="f-63-beat-label-text">Heater</span>
+          <span data-hf-id="hf-xydp" class="f-63-beat-label-sub">chest cavity</span>
+        </div>
+      </div>
+      <div data-hf-id="hf-af0s" class="f-63-beat-label f-63-beat-label-motor">
+        <div data-hf-id="hf-gkxs" class="f-63-beat-label-line"></div>
+        <div data-hf-id="hf-x11t">
+          <span data-hf-id="hf-hp2w" class="f-63-beat-label-text">Motor</span>
+          <span data-hf-id="hf-q7mb" class="f-63-beat-label-sub">core, drives movement</span>
+        </div>
+      </div>
+      <div data-hf-id="hf-qp0w" class="f-63-beat-label f-63-beat-label-solar">
+        <div data-hf-id="hf-g6mr" class="f-63-beat-label-line"></div>
+        <div data-hf-id="hf-xfcu">
+          <span data-hf-id="hf-rpsi" class="f-63-beat-label-text">Solar panel</span>
+          <span data-hf-id="hf-2mis" class="f-63-beat-label-sub">under the fur</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script>
+    (function () {
+      window.__timelines = window.__timelines || {};
+      var tl = gsap.timeline({ paused: true });
+
+      var shell = document.getElementById("f-63-beat-shell");
+      gsap.set(shell, { opacity: 0, scale: 0.94, transformOrigin: "50% 50%" });
+
+      tl.to(shell, { opacity: 1, scale: 1, duration: 0.7, ease: "power2.out" }, 0.15);
+
+      // sequential reveal of components + labels, matched to narration
+      // pacing: camera -> heater -> motor -> solar, spread across duration
+      tl.to(".f-63-beat-part-camera", { opacity: 1, duration: 0.35, ease: "power1.out" }, 1.1)
+        .to(".f-63-beat-label-camera", { opacity: 1, duration: 0.4, ease: "power1.out" }, 1.2)
+
+        .to(".f-63-beat-part-heater", { opacity: 1, duration: 0.35, ease: "power1.out" }, 2.2)
+        .to(".f-63-beat-label-heater", { opacity: 1, duration: 0.4, ease: "power1.out" }, 2.3)
+
+        .to(".f-63-beat-part-motor", { opacity: 1, duration: 0.35, ease: "power1.out" }, 3.3)
+        .to(".f-63-beat-label-motor", { opacity: 1, duration: 0.4, ease: "power1.out" }, 3.4)
+
+        .to(".f-63-beat-part-solar", { opacity: 1, duration: 0.35, ease: "power1.out" }, 4.4)
+        .to(".f-63-beat-label-solar", { opacity: 1, duration: 0.4, ease: "power1.out" }, 4.5);
+
+      window.__timelines["63-beat"] = tl;
+    })();
+  </script>
+</template>

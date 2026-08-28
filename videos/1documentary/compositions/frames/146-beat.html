@@ -1,0 +1,153 @@
+<template>
+  <style>
+    #root {
+      width: 1920px;
+      height: 1080px;
+      position: relative;
+      overflow: hidden;
+      background: #0c0c0e;
+      font-family: -apple-system, "Inter", sans-serif;
+    }
+    .f-146-beat-bg {
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse at 50% 38%, #16171a 0%, #0c0c0e 70%);
+    }
+    /* wetland landscape silhouette: a low horizon shape, deliberately simple */
+    .f-146-beat-landscape {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      height: 560px;
+    }
+    .f-146-beat-landscape svg {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+    /* thin blue water sheet, clipped to the landscape band, grows from a
+       narrow seam at the base up to cover the whole basin */
+    .f-146-beat-water {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      height: 560px;
+      overflow: hidden;
+    }
+    .f-146-beat-water-fill {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      height: 100%;
+      background: linear-gradient(to top, rgba(127,176,216,0.55) 0%, rgba(127,176,216,0.22) 55%, rgba(127,176,216,0.04) 100%);
+      transform: scaleY(0.02);
+      transform-origin: bottom center;
+    }
+    .f-146-beat-water-sheen {
+      position: absolute;
+      left: -10%;
+      right: -10%;
+      bottom: 0;
+      height: 3px;
+      background: rgba(200,225,242,0.85);
+      opacity: 0;
+      box-shadow: 0 0 24px 4px rgba(127,176,216,0.5);
+    }
+    .f-146-beat-label {
+      position: absolute;
+      top: 120px;
+      left: 0;
+      right: 0;
+      text-align: center;
+      color: #f2f2f0;
+      font-size: 30px;
+      letter-spacing: 0.32em;
+      text-transform: uppercase;
+      font-weight: 500;
+      opacity: 0;
+    }
+    .f-146-beat-label span {
+      color: #a9b4c0;
+    }
+    .f-146-beat-sub {
+      position: absolute;
+      top: 178px;
+      left: 0;
+      right: 0;
+      text-align: center;
+      color: #f2f2f0;
+      font-size: 24px;
+      font-weight: 400;
+      opacity: 0;
+    }
+  </style>
+
+  <div data-hf-id="hf-qkxt" id="root" data-composition-id="146-beat" data-width="1920" data-height="1080" data-duration="5.72">
+    <div data-hf-id="hf-dhgd" class="f-146-beat-bg clip" data-start="0" data-duration="6.82" data-track-index="0"></div>
+
+    <div data-hf-id="hf-id6u" class="f-146-beat-landscape clip" data-start="0" data-duration="6.82" data-track-index="1">
+      <svg data-hf-id="hf-w7uc" viewBox="0 0 1920 560" preserveAspectRatio="none">
+        <path data-hf-id="hf-v941" d="M0,300 C220,240 380,320 560,290 C760,255 900,340 1120,300 C1340,262 1500,330 1700,295 C1800,278 1860,300 1920,290 L1920,560 L0,560 Z" fill="#1c1d20" />
+        <path data-hf-id="hf-zv8y" d="M0,340 C260,300 460,360 700,330 C920,304 1080,370 1300,335 C1500,305 1680,355 1920,330 L1920,560 L0,560 Z" fill="#141416" />
+      </svg>
+    </div>
+
+    <div data-hf-id="hf-tsab" class="f-146-beat-water clip" data-start="0" data-duration="6.82" data-track-index="2">
+      <div data-hf-id="hf-hd4a" class="f-146-beat-water-fill" id="f-146-beat-fill"></div>
+      <div data-hf-id="hf-dwmk" class="f-146-beat-water-sheen" id="f-146-beat-sheen"></div>
+    </div>
+
+    <div data-hf-id="hf-fon7" class="f-146-beat-label clip" id="f-146-beat-label" data-start="0" data-duration="6.82" data-track-index="3">
+      WET <span data-hf-id="hf-o1jw">SEASON</span>
+    </div>
+    <div data-hf-id="hf-2pds" class="f-146-beat-sub clip" id="f-146-beat-sub" data-start="0" data-duration="6.82" data-track-index="4">
+      water spreads in a shallow sheet
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script>
+      (function () {
+        window.__timelines = window.__timelines || {};
+        var tl = gsap.timeline({ paused: true });
+
+        var fill = document.getElementById("f-146-beat-fill");
+        var sheen = document.getElementById("f-146-beat-sheen");
+        var label = document.getElementById("f-146-beat-label");
+        var sub = document.getElementById("f-146-beat-sub");
+
+        gsap.set(fill, { scaleY: 0.02 });
+        gsap.set(sheen, { opacity: 0, y: 0 });
+        gsap.set(label, { opacity: 0, y: -10 });
+        gsap.set(sub, { opacity: 0, y: -6 });
+
+        // label settles in early, quietly establishing context
+        tl.to(label, { opacity: 1, y: 0, duration: 0.6, ease: "power2.out" }, 0.25);
+
+        // water begins spreading roughly a third into the duration, per
+        // narration pacing ("water spreads out... in a shallow sheet")
+        tl.to(fill, {
+          scaleY: 1,
+          duration: 2.35,
+          ease: "power1.inOut"
+        }, 1.5);
+
+        // a thin leading sheen tracks the rising edge of the sheet
+        tl.to(sheen, { opacity: 1, duration: 0.3 }, 1.55);
+        tl.to(sheen, {
+          y: -560,
+          duration: 2.35,
+          ease: "power1.inOut"
+        }, 1.55);
+        tl.to(sheen, { opacity: 0, duration: 0.4 }, 3.7);
+
+        // supporting label confirms once the sheet has visibly spread
+        tl.to(sub, { opacity: 0.75, y: 0, duration: 0.5, ease: "power2.out" }, 3.0);
+
+        window.__timelines["146-beat"] = tl;
+      })();
+    </script>
+  </div>
+</template>

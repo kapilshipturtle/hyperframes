@@ -1,0 +1,237 @@
+<template>
+<style>
+  #root {
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+    overflow: hidden;
+    background: #0a0a0c;
+    font-family: -apple-system, "Inter", sans-serif;
+  }
+
+  .beat136-bg {
+    position: absolute;
+    inset: 0;
+    background: #0e0e11;
+  }
+
+  .beat136-stage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1920px;
+    height: 1080px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .beat136-icons {
+    position: relative;
+    width: 900px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .beat136-icon {
+    position: absolute;
+    top: 50%;
+    width: 220px;
+    height: 220px;
+    transform: translateY(-50%);
+  }
+
+  .beat136-icon svg {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+
+  .beat136-female {
+    left: 60px;
+  }
+
+  .beat136-male {
+    right: 60px;
+    opacity: 0;
+  }
+
+  .beat136-arrow {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 340px;
+    height: 6px;
+  }
+
+  .beat136-arrow-track {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: rgba(242, 242, 240, 0.18);
+    transform: translateY(-50%);
+  }
+
+  .beat136-arrow-fill {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: #7fb0d8;
+    transform: translateY(-50%);
+    box-shadow: 0 0 12px rgba(127, 176, 216, 0.6);
+  }
+
+  .beat136-arrow-head {
+    position: absolute;
+    top: 50%;
+    right: -2px;
+    width: 22px;
+    height: 22px;
+    transform: translateY(-50%) rotate(45deg);
+    border-top: 3px solid #7fb0d8;
+    border-right: 3px solid #7fb0d8;
+    opacity: 0;
+  }
+
+  .beat136-labels {
+    position: absolute;
+    bottom: 150px;
+    left: 0;
+    width: 1920px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+  }
+
+  .beat136-tag {
+    font-size: 26px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #7fb0d8;
+    opacity: 0;
+    font-weight: 600;
+  }
+
+  .beat136-caption {
+    font-size: 24px;
+    color: #f2f2f0;
+    opacity: 0;
+    text-align: center;
+    max-width: 1100px;
+    line-height: 1.5;
+    font-weight: 400;
+  }
+
+  .beat136-caption b {
+    font-weight: 600;
+    color: #ffffff;
+  }
+
+  .beat136-under-female,
+  .beat136-under-male {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 22px;
+    font-size: 22px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    white-space: nowrap;
+    opacity: 0.85;
+  }
+
+  .beat136-under-female {
+    color: #f2f2f0;
+  }
+
+  .beat136-under-male {
+    color: #f2f2f0;
+    opacity: 0;
+  }
+</style>
+
+<div data-hf-id="hf-v11m" id="root" data-composition-id="136-beat" data-width="1920" data-height="1080" data-duration="8.26">
+  <div data-hf-id="hf-vmxv" class="clip beat136-bg" data-start="0" data-duration="9.46" data-track-index="0"></div>
+
+  <div data-hf-id="hf-3ykl" class="clip beat136-stage" data-start="0" data-duration="9.46" data-track-index="1">
+    <div data-hf-id="hf-3l2f" class="beat136-icons">
+      <div data-hf-id="hf-o7a3" class="beat136-icon beat136-female">
+        <svg data-hf-id="hf-fgst" viewBox="0 0 100 100" fill="none">
+          <circle data-hf-id="hf-qr45" cx="50" cy="32" r="22" stroke="#7fb0d8" stroke-width="4" />
+          <line data-hf-id="hf-prtu" x1="50" y1="54" x2="50" y2="88" stroke="#7fb0d8" stroke-width="4" />
+          <line data-hf-id="hf-kme4" x1="34" y1="72" x2="66" y2="72" stroke="#7fb0d8" stroke-width="4" />
+        </svg>
+      </div>
+
+      <div data-hf-id="hf-z7o6" class="beat136-arrow">
+        <div data-hf-id="hf-6uec" class="beat136-arrow-track"></div>
+        <div data-hf-id="hf-h2eg" class="beat136-arrow-fill"></div>
+        <div data-hf-id="hf-hv5d" class="beat136-arrow-head"></div>
+      </div>
+
+      <div data-hf-id="hf-c4gg" class="beat136-icon beat136-male">
+        <svg data-hf-id="hf-h24h" viewBox="0 0 100 100" fill="none">
+          <circle data-hf-id="hf-r22h" cx="42" cy="42" r="22" stroke="#7fb0d8" stroke-width="4" />
+          <line data-hf-id="hf-cgwa" x1="58" y1="26" x2="80" y2="4" stroke="#7fb0d8" stroke-width="4" />
+          <line data-hf-id="hf-4uzx" x1="80" y1="4" x2="62" y2="4" stroke="#7fb0d8" stroke-width="4" />
+          <line data-hf-id="hf-5tdn" x1="80" y1="4" x2="80" y2="22" stroke="#7fb0d8" stroke-width="4" />
+        </svg>
+      </div>
+    </div>
+  </div>
+
+  <div data-hf-id="hf-giad" class="clip beat136-labels" data-start="0" data-duration="9.46" data-track-index="2">
+    <div data-hf-id="hf-jzyc" class="beat136-tag">Sequential Hermaphrodite</div>
+    <div data-hf-id="hf-cu8o" class="beat136-caption">Begins life <b data-hf-id="hf-h9kp">female</b> — some individuals later become <b data-hf-id="hf-wm40">male</b></div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script>
+    (function () {
+      var root = document;
+      var q = function (sel) { return root.querySelector(sel); };
+
+      var tl = gsap.timeline({ paused: true });
+
+      var femaleIcon = q('.beat136-female');
+      var maleIcon = q('.beat136-male');
+      var arrowFill = q('.beat136-arrow-fill');
+      var arrowHead = q('.beat136-arrow-head');
+      var tag = q('.beat136-tag');
+      var caption = q('.beat136-caption');
+
+      // initial state
+      tl.set(femaleIcon, { opacity: 0, y: -70, x: -10 });
+      tl.set(maleIcon, { opacity: 0, x: -10 });
+      tl.set(tag, { opacity: 0, y: 10 });
+      tl.set(caption, { opacity: 0, y: 10 });
+
+      // 0.0 - female icon appears first (subject introduced)
+      tl.to(femaleIcon, { opacity: 1, y: 0, x: 0, duration: 0.8, ease: "power2.out" }, 0.3);
+      tl.to(tag, { opacity: 1, y: 0, duration: 0.6, ease: "power2.out" }, 0.5);
+
+      // ~35% in: the transition begins - arrow fills as narration describes change
+      tl.to(arrowFill, { width: "100%", duration: 1.8, ease: "power1.inOut" }, 2.4);
+      tl.to(arrowHead, { opacity: 1, duration: 0.3 }, 3.9);
+
+      // male icon reveals as arrow completes, around 55-70% into duration
+      tl.to(maleIcon, { opacity: 1, x: 0, duration: 0.9, ease: "power2.out" }, 4.0);
+
+      // caption confirms the read near the end
+      tl.to(caption, { opacity: 0.85, y: 0, duration: 0.7, ease: "power2.out" }, 4.6);
+
+      window.__timelines = window.__timelines || {};
+      window.__timelines["136-beat"] = tl;
+    })();
+  </script>
+</div>
+</template>

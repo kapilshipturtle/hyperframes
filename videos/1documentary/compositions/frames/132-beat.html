@@ -1,0 +1,226 @@
+<template>
+  <style>
+    #root {
+      width: 1920px;
+      height: 1080px;
+      position: relative;
+      overflow: hidden;
+      font-family: -apple-system, "Inter", sans-serif;
+    }
+
+    .fr132-bg {
+      position: absolute;
+      inset: 0;
+      background: #0c0c0e;
+    }
+
+    .fr132-stage {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .fr132-cycle {
+      position: relative;
+      width: 560px;
+      height: 560px;
+    }
+
+    .fr132-ring-svg {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      overflow: visible;
+    }
+
+    .fr132-ring-track {
+      fill: none;
+      stroke: rgba(255,255,255,0.10);
+      stroke-width: 3;
+    }
+
+    .fr132-ring-progress {
+      fill: none;
+      stroke: #a9b4c0;
+      stroke-width: 4;
+      stroke-linecap: round;
+      transform-origin: 280px 280px;
+    }
+
+    .fr132-arrowhead {
+      position: absolute;
+      width: 22px;
+      height: 22px;
+      left: 50%;
+      top: 0;
+      margin-left: -11px;
+      margin-top: -11px;
+      opacity: 0;
+    }
+    .fr132-arrowhead svg { width: 100%; height: 100%; display: block; }
+
+    /* Center icon swap: flood <-> dry */
+    .fr132-icon-wrap {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      width: 220px;
+      height: 220px;
+      transform: translate(-50%, -50%);
+    }
+
+    .fr132-icon {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      opacity: 0;
+    }
+
+    .fr132-icon svg {
+      width: 150px;
+      height: 150px;
+      display: block;
+    }
+
+    .fr132-icon-label {
+      position: absolute;
+      left: 50%;
+      top: 100%;
+      transform: translateX(-50%);
+      margin-top: 18px;
+      font-size: 26px;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: #f2f2f0;
+      opacity: 0.85;
+      white-space: nowrap;
+    }
+
+    .fr132-caption {
+      position: absolute;
+      left: 50%;
+      bottom: 128px;
+      transform: translateX(-50%);
+      text-align: center;
+      opacity: 0;
+    }
+
+    .fr132-caption-line {
+      font-size: 24px;
+      font-weight: 500;
+      color: #f2f2f0;
+      opacity: 0.8;
+      letter-spacing: 0.02em;
+    }
+
+    .fr132-caption-accent {
+      color: #a9b4c0;
+      font-weight: 600;
+    }
+  </style>
+
+  <div data-hf-id="hf-6kd2" id="root" data-composition-id="132-beat" data-width="1920" data-height="1080" data-duration="6.24">
+    <div data-hf-id="hf-tqy6" class="clip fr132-bg" data-start="0" data-duration="7.34" data-track-index="0"></div>
+
+    <div data-hf-id="hf-hj5c" class="clip fr132-stage" data-start="0" data-duration="7.34" data-track-index="1">
+      <div data-hf-id="hf-yaa7" class="fr132-cycle">
+        <svg data-hf-id="hf-6m4w" class="fr132-ring-svg" viewBox="0 0 560 560">
+          <circle data-hf-id="hf-zx9p" class="fr132-ring-track" cx="280" cy="280" r="230" />
+          <circle data-hf-id="hf-7c5z" class="fr132-ring-progress" cx="280" cy="280" r="230" stroke-dasharray="1445.7" stroke-dashoffset="1445.7" />
+        </svg>
+
+        <div data-hf-id="hf-b2d8" class="fr132-arrowhead">
+          <svg data-hf-id="hf-5l2t" viewBox="0 0 24 24" fill="none">
+            <path data-hf-id="hf-68rv" d="M12 2 L19 12 L12 10 L5 12 Z" fill="#a9b4c0" />
+          </svg>
+        </div>
+
+        <div data-hf-id="hf-gp7l" class="fr132-icon-wrap">
+          <div data-hf-id="hf-dxmf" class="fr132-icon fr132-icon-flood">
+            <svg data-hf-id="hf-fgst" viewBox="0 0 100 100" fill="none">
+              <path data-hf-id="hf-zxc6" d="M8 55 Q18 47 28 55 T48 55 T68 55 T92 55" stroke="#7fb0d8" stroke-width="4" stroke-linecap="round" fill="none" />
+              <path data-hf-id="hf-3szo" d="M8 70 Q18 62 28 70 T48 70 T68 70 T92 70" stroke="#7fb0d8" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.6" />
+              <path data-hf-id="hf-hypj" d="M50 12 C50 12 34 34 34 47 C34 57 41 64 50 64 C59 64 66 57 66 47 C66 34 50 12 50 12 Z" fill="#7fb0d8" opacity="0.85" />
+            </svg>
+            <div data-hf-id="hf-uxwc" class="fr132-icon-label">Floods</div>
+          </div>
+          <div data-hf-id="hf-xcv4" class="fr132-icon fr132-icon-dry">
+            <svg data-hf-id="hf-h24h" viewBox="0 0 100 100" fill="none">
+              <circle data-hf-id="hf-5iz6" cx="50" cy="30" r="14" fill="#e8b96a" opacity="0.9" />
+              <line data-hf-id="hf-skw3" x1="50" y1="4" x2="50" y2="12" stroke="#e8b96a" stroke-width="3" stroke-linecap="round" />
+              <line data-hf-id="hf-8icf" x1="50" y1="48" x2="50" y2="56" stroke="#e8b96a" stroke-width="3" stroke-linecap="round" />
+              <line data-hf-id="hf-yn43" x1="24" y1="30" x2="32" y2="30" stroke="#e8b96a" stroke-width="3" stroke-linecap="round" />
+              <line data-hf-id="hf-o3l7" x1="68" y1="30" x2="76" y2="30" stroke="#e8b96a" stroke-width="3" stroke-linecap="round" />
+              <line data-hf-id="hf-kvrm" x1="32" y1="12" x2="37" y2="17" stroke="#e8b96a" stroke-width="3" stroke-linecap="round" />
+              <line data-hf-id="hf-ujxq" x1="63" y1="43" x2="68" y2="48" stroke="#e8b96a" stroke-width="3" stroke-linecap="round" />
+              <line data-hf-id="hf-6up4" x1="68" y1="12" x2="63" y2="17" stroke="#e8b96a" stroke-width="3" stroke-linecap="round" />
+              <line data-hf-id="hf-wu78" x1="37" y1="43" x2="32" y2="48" stroke="#e8b96a" stroke-width="3" stroke-linecap="round" />
+              <path data-hf-id="hf-z1f6" d="M20 82 Q30 74 40 82 T60 82 T80 82" stroke="#e8b96a" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.5" stroke-dasharray="2 6" />
+            </svg>
+            <div data-hf-id="hf-eye2" class="fr132-icon-label">Dries</div>
+          </div>
+        </div>
+      </div>
+
+      <div data-hf-id="hf-9dhf" class="fr132-caption">
+        <div data-hf-id="hf-ccmx" class="fr132-caption-line">Every year <span data-hf-id="hf-ial4" class="fr132-caption-accent">·</span> for thousands of years</div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script>
+    (function () {
+      var root = document;
+      var flood = root.querySelector('.fr132-icon-flood');
+      var dry = root.querySelector('.fr132-icon-dry');
+      var progress = root.querySelector('.fr132-ring-progress');
+      var arrowhead = root.querySelector('.fr132-arrowhead');
+      var caption = root.querySelector('.fr132-caption');
+
+      var tl = gsap.timeline({ paused: true });
+
+      // Settle in quietly, ring starts drawing early to establish the loop concept.
+      tl.set(progress, { rotation: -90, transformOrigin: '280px 280px' }, 0);
+      tl.set(arrowhead, { rotation: -90, transformOrigin: '280px 280px center' }, 0);
+
+      tl.fromTo(flood, { opacity: 0, scale: 0.85 }, { opacity: 1, scale: 1, duration: 0.5, ease: 'power2.out' }, 0.25);
+
+      // Ring progress + arrowhead sweep across most of the duration, tracing the annual cycle.
+      tl.to(progress, {
+        strokeDashoffset: 0,
+        duration: 3.9,
+        ease: 'none'
+      }, 0.5);
+
+      tl.fromTo(arrowhead, { opacity: 0 }, { opacity: 1, duration: 0.3 }, 0.5);
+      tl.to({ v: -90 }, {
+        v: 270,
+        duration: 3.9,
+        ease: 'none',
+        onUpdate: function () {
+          gsap.set(arrowhead, { rotation: this.targets()[0].v, transformOrigin: '280px 280px' });
+        }
+      }, 0.5);
+
+      // Swap flood -> dry roughly halfway through, matching "floods AND dries" pairing.
+      tl.to(flood, { opacity: 0, scale: 0.9, duration: 0.4, ease: 'power2.inOut' }, 2.4);
+      tl.fromTo(dry, { opacity: 0, scale: 0.85 }, { opacity: 1, scale: 1, duration: 0.4, ease: 'power2.out' }, 2.55);
+
+      // Caption arrives late, reinforcing "every year / thousands of years" as the ring completes.
+      tl.fromTo(caption, { opacity: 0, y: 10 }, { opacity: 1, y: 0, duration: 0.5, ease: 'power2.out' }, 3.6);
+
+      // Gentle settle hold near the end, ring nearly closed (loop implied, not literal exit).
+      tl.to(dry, { scale: 1.03, duration: 0.5, ease: 'sine.inOut' }, 4.4);
+
+      window.__timelines = window.__timelines || {};
+      window.__timelines['132-beat'] = tl;
+    })();
+  </script>
+</template>

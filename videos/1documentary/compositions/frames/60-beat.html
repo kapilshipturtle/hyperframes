@@ -1,0 +1,229 @@
+<template>
+<div data-hf-id="hf-oe8o" id="root" data-composition-id="60-beat" data-width="1920" data-height="1080" data-duration="8.79">
+  <style>
+    #root {
+      position: relative;
+      width: 1920px;
+      height: 1080px;
+      overflow: hidden;
+      font-family: -apple-system, "Inter", sans-serif;
+      color: #f2f2f0;
+    }
+
+    #root .clip { position: absolute; }
+
+    .bt60-bg {
+      inset: 0;
+      background: #0e0e11;
+    }
+
+    .bt60-bg::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(circle at 50% 42%, rgba(169,180,192,0.06), transparent 65%);
+    }
+
+    .bt60-card {
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      width: 1180px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      opacity: 0;
+    }
+
+    .bt60-eyebrow {
+      font-size: 24px;
+      letter-spacing: 0.32em;
+      text-transform: uppercase;
+      color: #a9b4c0;
+      opacity: 0;
+      margin-bottom: 22px;
+      font-weight: 500;
+    }
+
+    .bt60-title {
+      font-size: 150px;
+      font-weight: 800;
+      letter-spacing: -0.01em;
+      line-height: 1.02;
+      text-align: center;
+      color: #ffffff;
+      opacity: 0;
+    }
+
+    .bt60-title span {
+      color: #a9b4c0;
+    }
+
+    .bt60-strip {
+      display: flex;
+      gap: 14px;
+      margin-top: 56px;
+    }
+
+    .bt60-day {
+      width: 62px;
+      height: 62px;
+      border-radius: 8px;
+      border: 1.5px solid rgba(242,242,240,0.18);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 22px;
+      font-weight: 600;
+      color: rgba(242,242,240,0.4);
+      background: rgba(255,255,255,0.02);
+    }
+
+    .bt60-day.bt60-on {
+      border-color: #a9b4c0;
+      color: #0e0e11;
+      background: #a9b4c0;
+    }
+
+    .bt60-tag-wrap {
+      margin-top: 60px;
+      display: flex;
+      align-items: center;
+      gap: 22px;
+      opacity: 0;
+    }
+
+    .bt60-tag {
+      position: relative;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      padding: 22px 34px 22px 28px;
+      border: 1.5px solid rgba(169,180,192,0.5);
+      border-radius: 10px;
+      background: rgba(169,180,192,0.06);
+    }
+
+    .bt60-tag-hole {
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      background: #0e0e11;
+      border: 1.5px solid rgba(169,180,192,0.5);
+      flex: none;
+    }
+
+    .bt60-tag-amount {
+      font-size: 56px;
+      font-weight: 800;
+      color: #ffffff;
+      letter-spacing: -0.01em;
+    }
+
+    .bt60-tag-label {
+      margin-left: 24px;
+      font-size: 24px;
+      color: rgba(242,242,240,0.72);
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      font-weight: 500;
+    }
+  </style>
+
+  <div data-hf-id="hf-lf5l" class="clip bt60-bg" data-start="0" data-duration="9.99" data-track-index="0"></div>
+
+  <div data-hf-id="hf-2xi1" class="clip bt60-card" data-start="0" data-duration="9.99" data-track-index="1">
+    <div data-hf-id="hf-h19t" class="bt60-eyebrow">ANNUAL PUBLIC COMPETITION</div>
+    <div data-hf-id="hf-lpbj" class="bt60-title">10-DAY<br data-hf-id="hf-x5px"><span data-hf-id="hf-ixte">CHALLENGE</span></div>
+    <div data-hf-id="hf-ev1h" class="bt60-strip">
+      <div data-hf-id="hf-jseg" class="bt60-day">1</div>
+      <div data-hf-id="hf-ilhd" class="bt60-day">2</div>
+      <div data-hf-id="hf-izse" class="bt60-day">3</div>
+      <div data-hf-id="hf-hsvb" class="bt60-day">4</div>
+      <div data-hf-id="hf-i76c" class="bt60-day">5</div>
+      <div data-hf-id="hf-h099" class="bt60-day">6</div>
+      <div data-hf-id="hf-heka" class="bt60-day">7</div>
+      <div data-hf-id="hf-mkjn" class="bt60-day">8</div>
+      <div data-hf-id="hf-myuo" class="bt60-day">9</div>
+      <div data-hf-id="hf-627c" class="bt60-day">10</div>
+    </div>
+    <div data-hf-id="hf-a8ys" class="bt60-tag-wrap">
+      <div data-hf-id="hf-3d5z" class="bt60-tag">
+        <div data-hf-id="hf-3bda" class="bt60-tag-hole"></div>
+        <div data-hf-id="hf-dsnx" class="bt60-tag-amount">$10,000</div>
+      </div>
+      <div data-hf-id="hf-mrg8" class="bt60-tag-label">Grand Prize</div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script>
+    (function () {
+      var root = document.currentScript.closest('#root') || document.getElementById('root');
+      var days = root.querySelectorAll('.bt60-day');
+
+      var tl = gsap.timeline({ paused: true });
+
+      // Card + eyebrow settle in early
+      tl.to(root.querySelector('.bt60-card'), {
+        opacity: 1,
+        duration: 0.6,
+        ease: 'power2.out'
+      }, 0.15);
+
+      tl.fromTo(root.querySelector('.bt60-eyebrow'),
+        { opacity: 0, y: -10 },
+        { opacity: 1, y: 0, duration: 0.5, ease: 'power2.out' },
+        0.25
+      );
+
+      tl.fromTo(root.querySelector('.bt60-title'),
+        { opacity: 0, y: 18 },
+        { opacity: 1, y: 0, duration: 0.7, ease: 'power3.out' },
+        0.4
+      );
+
+      // Calendar strip ticks off across the middle of the duration, on pacing
+      // with "10-day public competition" narration (~2.6s - ~5.4s)
+      var strip = root.querySelector('.bt60-strip');
+      tl.set(strip, { opacity: 0 }, 0);
+      tl.to(strip, { opacity: 1, duration: 0.3 }, 2.4);
+
+      var tickStart = 2.6;
+      var tickSpan = 2.7;
+      var step = tickSpan / days.length;
+      days.forEach(function (day, i) {
+        var t = tickStart + i * step;
+        tl.to(day, {
+          backgroundColor: '#a9b4c0',
+          borderColor: '#a9b4c0',
+          color: '#0e0e11',
+          duration: 0.2,
+          ease: 'none'
+        }, t);
+        tl.fromTo(day,
+          { scale: 1.35 },
+          { scale: 1, duration: 0.28, ease: 'back.out(2.4)' },
+          t
+        );
+      });
+
+      // Prize tag reveals after the days finish, near "$10,000 grand prize" line
+      tl.fromTo(root.querySelector('.bt60-tag-wrap'),
+        { opacity: 0, y: 16 },
+        { opacity: 1, y: 0, duration: 0.55, ease: 'power2.out' },
+        5.5
+      );
+
+      tl.fromTo(root.querySelector('.bt60-tag'),
+        { scale: 0.92 },
+        { scale: 1, duration: 0.5, ease: 'back.out(1.7)' },
+        5.5
+      );
+
+      window.__timelines = window.__timelines || {};
+      window.__timelines['60-beat'] = tl;
+    })();
+  </script>
+</div>
+</template>

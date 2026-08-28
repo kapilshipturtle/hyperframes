@@ -1,0 +1,3627 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1920, height=1080" />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js" integrity="sha384-sG0Hv1tP1lZCk9KQmrIbY/XNwi+OY84GQqhMscbnsoBFqAz8KNCil1kvfL3Hbbk2" crossorigin="anonymous"></script>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        width: 1920px;
+        height: 1080px;
+        overflow: hidden;
+        background: #000;
+      }
+      #root {
+        position: relative;
+        width: 1920px;
+        height: 1080px;
+        overflow: hidden;
+      }
+      .scene {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      id="root"
+      data-composition-id="main"
+      data-start="0"
+      data-duration="910.47"
+      data-width="1920"
+      data-height="1080"
+    >
+      <div
+        id="el-01-beat"
+        class="scene"
+        data-composition-id="01-beat"
+        data-composition-src="compositions/frames/01-beat.html"
+        data-start="0"
+        data-duration="9.86"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-01-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="0"
+        data-duration="8.26"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="0.1"></audio>
+
+      <div
+        id="el-02-beat"
+        class="scene"
+        data-composition-id="02-beat"
+        data-composition-src="compositions/frames/02-beat.html"
+        data-start="8.26"
+        data-duration="4.48"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-02-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="8.26"
+        data-duration="3.28"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="8.41"></audio>
+
+      <div
+        id="el-03-beat"
+        class="scene"
+        data-composition-id="03-beat"
+        data-composition-src="compositions/frames/03-beat.html"
+        data-start="11.54"
+        data-duration="8.27"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-03-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="11.54"
+        data-duration="7.07"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="11.69"></audio>
+
+      <div
+        id="el-04-beat"
+        class="scene"
+        data-composition-id="04-beat"
+        data-composition-src="compositions/frames/04-beat.html"
+        data-start="18.61"
+        data-duration="10.41"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-04-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="18.61"
+        data-duration="9.21"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="18.84"></audio>
+
+      <div
+        id="el-05-beat"
+        class="scene"
+        data-composition-id="05-beat"
+        data-composition-src="compositions/frames/05-beat.html"
+        data-start="27.82"
+        data-duration="5.7"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-05-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="27.82"
+        data-duration="4.5"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="28.08"></audio>
+
+      <div
+        id="el-06-beat"
+        class="scene"
+        data-composition-id="06-beat"
+        data-composition-src="compositions/frames/06-beat.html"
+        data-start="32.32"
+        data-duration="8.35"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-06-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="32.32"
+        data-duration="7.25"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="32.58"></audio>
+
+      <div
+        id="el-07-beat"
+        class="scene"
+        data-composition-id="07-beat"
+        data-composition-src="compositions/frames/07-beat.html"
+        data-start="39.57"
+        data-duration="9.5"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-07-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="39.57"
+        data-duration="8.1"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="39.9"></audio>
+
+      <div
+        id="el-08-beat"
+        class="scene"
+        data-composition-id="08-beat"
+        data-composition-src="compositions/frames/08-beat.html"
+        data-start="47.67"
+        data-duration="5.7"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-08-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="47.67"
+        data-duration="4.1"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="48"></audio>
+
+      <div
+        id="el-09-beat"
+        class="scene"
+        data-composition-id="09-beat"
+        data-composition-src="compositions/frames/09-beat.html"
+        data-start="51.77"
+        data-duration="8.36"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-09-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="51.77"
+        data-duration="7.16"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="52.1"></audio>
+
+      <div
+        id="el-10-beat"
+        class="scene"
+        data-composition-id="10-beat"
+        data-composition-src="compositions/frames/10-beat.html"
+        data-start="58.93000000000001"
+        data-duration="8.11"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-10-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="58.93000000000001"
+        data-duration="6.91"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="59.26"></audio>
+
+      <div
+        id="el-11-beat"
+        class="scene"
+        data-composition-id="11-beat"
+        data-composition-src="compositions/frames/11-beat.html"
+        data-start="65.84"
+        data-duration="8.42"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-11-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="65.84"
+        data-duration="7.22"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="66.24"></audio>
+
+      <div
+        id="el-12-beat"
+        class="scene"
+        data-composition-id="12-beat"
+        data-composition-src="compositions/frames/12-beat.html"
+        data-start="73.06"
+        data-duration="4.84"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-12-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="73.06"
+        data-duration="3.64"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="73.7"></audio>
+
+      <div
+        id="el-13-beat"
+        class="scene"
+        data-composition-id="13-beat"
+        data-composition-src="compositions/frames/13-beat.html"
+        data-start="76.7"
+        data-duration="9.75"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-13-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="76.7"
+        data-duration="8.65"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="77.34"></audio>
+
+      <div
+        id="el-14-beat"
+        class="scene"
+        data-composition-id="14-beat"
+        data-composition-src="compositions/frames/14-beat.html"
+        data-start="85.35000000000001"
+        data-duration="8.61"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-14-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="85.35000000000001"
+        data-duration="7.21"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="85.99"></audio>
+
+      <div
+        id="el-15-beat"
+        class="scene"
+        data-composition-id="15-beat"
+        data-composition-src="compositions/frames/15-beat.html"
+        data-start="92.56"
+        data-duration="5.51"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-15-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="92.56"
+        data-duration="3.91"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="93.2"></audio>
+
+      <div
+        id="el-16-beat"
+        class="scene"
+        data-composition-id="16-beat"
+        data-composition-src="compositions/frames/16-beat.html"
+        data-start="96.47"
+        data-duration="10.45"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-16-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="96.47"
+        data-duration="9.25"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="97.3"></audio>
+
+      <div
+        id="el-17-beat"
+        class="scene"
+        data-composition-id="17-beat"
+        data-composition-src="compositions/frames/17-beat.html"
+        data-start="105.72"
+        data-duration="7.28"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-17-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="105.72"
+        data-duration="6.08"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="106.56"></audio>
+
+      <div
+        id="el-18-beat"
+        class="scene"
+        data-composition-id="18-beat"
+        data-composition-src="compositions/frames/18-beat.html"
+        data-start="111.8"
+        data-duration="8"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-18-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="111.8"
+        data-duration="6.8"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="112.72"></audio>
+
+      <div
+        id="el-19-beat"
+        class="scene"
+        data-composition-id="19-beat"
+        data-composition-src="compositions/frames/19-beat.html"
+        data-start="118.6"
+        data-duration="4.44"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-19-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="118.6"
+        data-duration="3.24"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="119.52"></audio>
+
+      <div
+        id="el-20-beat"
+        class="scene"
+        data-composition-id="20-beat"
+        data-composition-src="compositions/frames/20-beat.html"
+        data-start="121.83999999999999"
+        data-duration="6.43"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-20-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="121.83999999999999"
+        data-duration="5.33"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="122.76"></audio>
+
+      <div
+        id="el-21-beat"
+        class="scene"
+        data-composition-id="21-beat"
+        data-composition-src="compositions/frames/21-beat.html"
+        data-start="127.16999999999999"
+        data-duration="9.39"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-21-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="127.16999999999999"
+        data-duration="7.99"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="128.09"></audio>
+
+      <div
+        id="el-22-beat"
+        class="scene"
+        data-composition-id="22-beat"
+        data-composition-src="compositions/frames/22-beat.html"
+        data-start="135.16"
+        data-duration="8.64"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-22-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="135.16"
+        data-duration="7.04"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="136.08"></audio>
+
+      <div
+        id="el-23-beat"
+        class="scene"
+        data-composition-id="23-beat"
+        data-composition-src="compositions/frames/23-beat.html"
+        data-start="142.2"
+        data-duration="4.69"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-23-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="142.2"
+        data-duration="3.49"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="143.12"></audio>
+
+      <div
+        id="el-24-beat"
+        class="scene"
+        data-composition-id="24-beat"
+        data-composition-src="compositions/frames/24-beat.html"
+        data-start="145.69"
+        data-duration="10.23"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-24-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="145.69"
+        data-duration="9.03"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="146.65"></audio>
+
+      <div
+        id="el-25-beat"
+        class="scene"
+        data-composition-id="25-beat"
+        data-composition-src="compositions/frames/25-beat.html"
+        data-start="154.72"
+        data-duration="10.78"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-25-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="154.72"
+        data-duration="9.58"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="155.78"></audio>
+
+      <div
+        id="el-26-beat"
+        class="scene"
+        data-composition-id="26-beat"
+        data-composition-src="compositions/frames/26-beat.html"
+        data-start="164.3"
+        data-duration="6.77"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-26-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="164.3"
+        data-duration="5.57"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="165.36"></audio>
+
+      <div
+        id="el-27-beat"
+        class="scene"
+        data-composition-id="27-beat"
+        data-composition-src="compositions/frames/27-beat.html"
+        data-start="169.87"
+        data-duration="9.23"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-27-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="169.87"
+        data-duration="8.13"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="171.07"></audio>
+
+      <div
+        id="el-28-beat"
+        class="scene"
+        data-composition-id="28-beat"
+        data-composition-src="compositions/frames/28-beat.html"
+        data-start="178"
+        data-duration="7.32"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-28-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="178"
+        data-duration="5.92"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="179.2"></audio>
+
+      <div
+        id="el-29-beat"
+        class="scene"
+        data-composition-id="29-beat"
+        data-composition-src="compositions/frames/29-beat.html"
+        data-start="183.92"
+        data-duration="7.84"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-29-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="183.92"
+        data-duration="6.24"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="185.12"></audio>
+
+      <div
+        id="el-30-beat"
+        class="scene"
+        data-composition-id="30-beat"
+        data-composition-src="compositions/frames/30-beat.html"
+        data-start="190.16"
+        data-duration="4.87"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-30-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="190.16"
+        data-duration="3.67"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="192.02"></audio>
+
+      <div
+        id="el-31-beat"
+        class="scene"
+        data-composition-id="31-beat"
+        data-composition-src="compositions/frames/31-beat.html"
+        data-start="193.82999999999998"
+        data-duration="4.23"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-31-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="193.82999999999998"
+        data-duration="3.03"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="195.8"></audio>
+
+      <div
+        id="el-32-beat"
+        class="scene"
+        data-composition-id="32-beat"
+        data-composition-src="compositions/frames/32-beat.html"
+        data-start="196.85999999999999"
+        data-duration="6.87"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-32-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="196.85999999999999"
+        data-duration="5.67"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="198.83"></audio>
+
+      <div
+        id="el-33-beat"
+        class="scene"
+        data-composition-id="33-beat"
+        data-composition-src="compositions/frames/33-beat.html"
+        data-start="202.52999999999997"
+        data-duration="5.79"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-33-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="202.52999999999997"
+        data-duration="4.59"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="204.5"></audio>
+
+      <div
+        id="el-34-beat"
+        class="scene"
+        data-composition-id="34-beat"
+        data-composition-src="compositions/frames/34-beat.html"
+        data-start="207.11999999999998"
+        data-duration="4.62"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-34-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="207.11999999999998"
+        data-duration="3.52"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="209.09"></audio>
+
+      <div
+        id="el-35-beat"
+        class="scene"
+        data-composition-id="35-beat"
+        data-composition-src="compositions/frames/35-beat.html"
+        data-start="210.64"
+        data-duration="5.71"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-35-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="210.64"
+        data-duration="4.31"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="212.75"></audio>
+
+      <div
+        id="el-36-beat"
+        class="scene"
+        data-composition-id="36-beat"
+        data-composition-src="compositions/frames/36-beat.html"
+        data-start="214.95"
+        data-duration="8.38"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-36-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="214.95"
+        data-duration="6.78"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="217.06"></audio>
+
+      <div
+        id="el-37-beat"
+        class="scene"
+        data-composition-id="37-beat"
+        data-composition-src="compositions/frames/37-beat.html"
+        data-start="221.73"
+        data-duration="6.82"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-37-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="221.73"
+        data-duration="5.62"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="224"></audio>
+
+      <div
+        id="el-38-beat"
+        class="scene"
+        data-composition-id="38-beat"
+        data-composition-src="compositions/frames/38-beat.html"
+        data-start="227.35"
+        data-duration="5.6"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-38-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="227.35"
+        data-duration="4.4"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="229.72"></audio>
+
+      <div
+        id="el-39-beat"
+        class="scene"
+        data-composition-id="39-beat"
+        data-composition-src="compositions/frames/39-beat.html"
+        data-start="231.75"
+        data-duration="4.42"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-39-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="231.75"
+        data-duration="3.22"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="234.21"></audio>
+
+      <div
+        id="el-40-beat"
+        class="scene"
+        data-composition-id="40-beat"
+        data-composition-src="compositions/frames/40-beat.html"
+        data-start="234.97"
+        data-duration="6.01"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-40-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="234.97"
+        data-duration="4.81"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="237.43"></audio>
+
+      <div
+        id="el-41-beat"
+        class="scene"
+        data-composition-id="41-beat"
+        data-composition-src="compositions/frames/41-beat.html"
+        data-start="239.78"
+        data-duration="8.94"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-41-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="239.78"
+        data-duration="7.84"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="242.24"></audio>
+
+      <div
+        id="el-42-beat"
+        class="scene"
+        data-composition-id="42-beat"
+        data-composition-src="compositions/frames/42-beat.html"
+        data-start="247.62"
+        data-duration="5.01"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-42-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="247.62"
+        data-duration="3.61"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="250.08"></audio>
+
+      <div
+        id="el-43-beat"
+        class="scene"
+        data-composition-id="43-beat"
+        data-composition-src="compositions/frames/43-beat.html"
+        data-start="251.23000000000002"
+        data-duration="8.19"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-43-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="251.23000000000002"
+        data-duration="6.59"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="253.69"></audio>
+
+      <div
+        id="el-44-beat"
+        class="scene"
+        data-composition-id="44-beat"
+        data-composition-src="compositions/frames/44-beat.html"
+        data-start="257.82"
+        data-duration="6.28"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-44-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="257.82"
+        data-duration="5.08"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="260.37"></audio>
+
+      <div
+        id="el-45-beat"
+        class="scene"
+        data-composition-id="45-beat"
+        data-composition-src="compositions/frames/45-beat.html"
+        data-start="262.9"
+        data-duration="5.67"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-45-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="262.9"
+        data-duration="4.47"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="265.45"></audio>
+
+      <div
+        id="el-46-beat"
+        class="scene"
+        data-composition-id="46-beat"
+        data-composition-src="compositions/frames/46-beat.html"
+        data-start="267.37"
+        data-duration="5.93"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-46-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="267.37"
+        data-duration="4.73"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="269.95"></audio>
+
+      <div
+        id="el-47-beat"
+        class="scene"
+        data-composition-id="47-beat"
+        data-composition-src="compositions/frames/47-beat.html"
+        data-start="272.1"
+        data-duration="9.82"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-47-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="272.1"
+        data-duration="8.62"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="274.68"></audio>
+
+      <div
+        id="el-48-beat"
+        class="scene"
+        data-composition-id="48-beat"
+        data-composition-src="compositions/frames/48-beat.html"
+        data-start="280.72"
+        data-duration="5.96"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-48-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="280.72"
+        data-duration="4.86"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="283.3"></audio>
+
+      <div
+        id="el-49-beat"
+        class="scene"
+        data-composition-id="49-beat"
+        data-composition-src="compositions/frames/49-beat.html"
+        data-start="285.58000000000004"
+        data-duration="10.92"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-49-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="285.58000000000004"
+        data-duration="9.52"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="288.25"></audio>
+
+      <div
+        id="el-50-beat"
+        class="scene"
+        data-composition-id="50-beat"
+        data-composition-src="compositions/frames/50-beat.html"
+        data-start="295.1"
+        data-duration="9.47"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-50-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="295.1"
+        data-duration="7.87"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="297.81"></audio>
+
+      <div
+        id="el-51-beat"
+        class="scene"
+        data-composition-id="51-beat"
+        data-composition-src="compositions/frames/51-beat.html"
+        data-start="302.97"
+        data-duration="5.74"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-51-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="302.97"
+        data-duration="4.54"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="305.78"></audio>
+
+      <div
+        id="el-52-beat"
+        class="scene"
+        data-composition-id="52-beat"
+        data-composition-src="compositions/frames/52-beat.html"
+        data-start="307.51000000000005"
+        data-duration="7.83"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-52-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="307.51000000000005"
+        data-duration="6.63"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="310.32"></audio>
+
+      <div
+        id="el-53-beat"
+        class="scene"
+        data-composition-id="53-beat"
+        data-composition-src="compositions/frames/53-beat.html"
+        data-start="314.14000000000004"
+        data-duration="5.81"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-53-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="314.14000000000004"
+        data-duration="4.61"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="316.95"></audio>
+
+      <div
+        id="el-54-beat"
+        class="scene"
+        data-composition-id="54-beat"
+        data-composition-src="compositions/frames/54-beat.html"
+        data-start="318.75000000000006"
+        data-duration="7.68"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-54-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="318.75000000000006"
+        data-duration="6.48"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="321.65"></audio>
+
+      <div
+        id="el-55-beat"
+        class="scene"
+        data-composition-id="55-beat"
+        data-composition-src="compositions/frames/55-beat.html"
+        data-start="325.2300000000001"
+        data-duration="8.52"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-55-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="325.2300000000001"
+        data-duration="7.42"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="328.18"></audio>
+
+      <div
+        id="el-56-beat"
+        class="scene"
+        data-composition-id="56-beat"
+        data-composition-src="compositions/frames/56-beat.html"
+        data-start="332.6500000000001"
+        data-duration="6.03"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-56-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="332.6500000000001"
+        data-duration="4.63"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="335.6"></audio>
+
+      <div
+        id="el-57-beat"
+        class="scene"
+        data-composition-id="57-beat"
+        data-composition-src="compositions/frames/57-beat.html"
+        data-start="337.2800000000001"
+        data-duration="8.3"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-57-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="337.2800000000001"
+        data-duration="6.7"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="340.23"></audio>
+
+      <div
+        id="el-58-beat"
+        class="scene"
+        data-composition-id="58-beat"
+        data-composition-src="compositions/frames/58-beat.html"
+        data-start="343.9800000000001"
+        data-duration="3.9"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-58-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="343.9800000000001"
+        data-duration="3.1"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="346.93"></audio>
+
+      <div
+        id="el-59-beat"
+        class="scene"
+        data-composition-id="59-beat"
+        data-composition-src="compositions/frames/59-beat.html"
+        data-start="347.0800000000001"
+        data-duration="6.87"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-59-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="347.0800000000001"
+        data-duration="5.67"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="350.03"></audio>
+
+      <div
+        id="el-60-beat"
+        class="scene"
+        data-composition-id="60-beat"
+        data-composition-src="compositions/frames/60-beat.html"
+        data-start="352.7500000000001"
+        data-duration="8.79"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-60-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="352.7500000000001"
+        data-duration="7.59"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="355.7"></audio>
+
+      <div
+        id="el-61-beat"
+        class="scene"
+        data-composition-id="61-beat"
+        data-composition-src="compositions/frames/61-beat.html"
+        data-start="360.3400000000001"
+        data-duration="9.49"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-61-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="360.3400000000001"
+        data-duration="8.29"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="363.29"></audio>
+
+      <div
+        id="el-62-beat"
+        class="scene"
+        data-composition-id="62-beat"
+        data-composition-src="compositions/frames/62-beat.html"
+        data-start="368.6300000000001"
+        data-duration="10.8"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-62-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="368.6300000000001"
+        data-duration="9.7"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="371.58"></audio>
+
+      <div
+        id="el-63-beat"
+        class="scene"
+        data-composition-id="63-beat"
+        data-composition-src="compositions/frames/63-beat.html"
+        data-start="378.3300000000001"
+        data-duration="8.01"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-63-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="378.3300000000001"
+        data-duration="6.61"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="381.38"></audio>
+
+      <div
+        id="el-64-beat"
+        class="scene"
+        data-composition-id="64-beat"
+        data-composition-src="compositions/frames/64-beat.html"
+        data-start="384.9400000000001"
+        data-duration="8.31"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-64-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="384.9400000000001"
+        data-duration="6.71"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="388.09"></audio>
+
+      <div
+        id="el-65-beat"
+        class="scene"
+        data-composition-id="65-beat"
+        data-composition-src="compositions/frames/65-beat.html"
+        data-start="391.6500000000001"
+        data-duration="8.06"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-65-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="391.6500000000001"
+        data-duration="6.86"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="394.8"></audio>
+
+      <div
+        id="el-66-beat"
+        class="scene"
+        data-composition-id="66-beat"
+        data-composition-src="compositions/frames/66-beat.html"
+        data-start="398.5100000000001"
+        data-duration="7.7"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-66-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="398.5100000000001"
+        data-duration="6.5"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="401.66"></audio>
+
+      <div
+        id="el-67-beat"
+        class="scene"
+        data-composition-id="67-beat"
+        data-composition-src="compositions/frames/67-beat.html"
+        data-start="405.0100000000001"
+        data-duration="8.17"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-67-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="405.0100000000001"
+        data-duration="6.97"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="408.26"></audio>
+
+      <div
+        id="el-68-beat"
+        class="scene"
+        data-composition-id="68-beat"
+        data-composition-src="compositions/frames/68-beat.html"
+        data-start="411.98000000000013"
+        data-duration="7.7"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-68-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="411.98000000000013"
+        data-duration="6.5"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="415.23"></audio>
+
+      <div
+        id="el-69-beat"
+        class="scene"
+        data-composition-id="69-beat"
+        data-composition-src="compositions/frames/69-beat.html"
+        data-start="418.48000000000013"
+        data-duration="8.69"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-69-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="418.48000000000013"
+        data-duration="7.59"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="421.77"></audio>
+
+      <div
+        id="el-70-beat"
+        class="scene"
+        data-composition-id="70-beat"
+        data-composition-src="compositions/frames/70-beat.html"
+        data-start="426.0700000000001"
+        data-duration="8.49"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-70-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="426.0700000000001"
+        data-duration="7.09"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="429.37"></audio>
+
+      <div
+        id="el-71-beat"
+        class="scene"
+        data-composition-id="71-beat"
+        data-composition-src="compositions/frames/71-beat.html"
+        data-start="433.1600000000001"
+        data-duration="5.58"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-71-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="433.1600000000001"
+        data-duration="3.98"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="436.46"></audio>
+
+      <div
+        id="el-72-beat"
+        class="scene"
+        data-composition-id="72-beat"
+        data-composition-src="compositions/frames/72-beat.html"
+        data-start="437.1400000000001"
+        data-duration="5.21"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-72-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="437.1400000000001"
+        data-duration="4.01"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="440.49"></audio>
+
+      <div
+        id="el-73-beat"
+        class="scene"
+        data-composition-id="73-beat"
+        data-composition-src="compositions/frames/73-beat.html"
+        data-start="441.1500000000001"
+        data-duration="7.99"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-73-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="441.1500000000001"
+        data-duration="6.79"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="444.69"></audio>
+
+      <div
+        id="el-74-beat"
+        class="scene"
+        data-composition-id="74-beat"
+        data-composition-src="compositions/frames/74-beat.html"
+        data-start="447.9400000000001"
+        data-duration="6.92"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-74-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="447.9400000000001"
+        data-duration="5.72"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="451.57"></audio>
+
+      <div
+        id="el-75-beat"
+        class="scene"
+        data-composition-id="75-beat"
+        data-composition-src="compositions/frames/75-beat.html"
+        data-start="453.66000000000014"
+        data-duration="10.49"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-75-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="453.66000000000014"
+        data-duration="9.29"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="457.41"></audio>
+
+      <div
+        id="el-76-beat"
+        class="scene"
+        data-composition-id="76-beat"
+        data-composition-src="compositions/frames/76-beat.html"
+        data-start="462.95000000000016"
+        data-duration="9.73"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-76-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="462.95000000000016"
+        data-duration="8.63"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="466.88"></audio>
+
+      <div
+        id="el-77-beat"
+        class="scene"
+        data-composition-id="77-beat"
+        data-composition-src="compositions/frames/77-beat.html"
+        data-start="471.58000000000015"
+        data-duration="5.71"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-77-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="471.58000000000015"
+        data-duration="4.31"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="475.61"></audio>
+
+      <div
+        id="el-78-beat"
+        class="scene"
+        data-composition-id="78-beat"
+        data-composition-src="compositions/frames/78-beat.html"
+        data-start="475.89000000000016"
+        data-duration="5.95"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-78-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="475.89000000000016"
+        data-duration="4.35"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="479.92"></audio>
+
+      <div
+        id="el-79-beat"
+        class="scene"
+        data-composition-id="79-beat"
+        data-composition-src="compositions/frames/79-beat.html"
+        data-start="480.2400000000002"
+        data-duration="5.49"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-79-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="480.2400000000002"
+        data-duration="4.29"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="484.27"></audio>
+
+      <div
+        id="el-80-beat"
+        class="scene"
+        data-composition-id="80-beat"
+        data-composition-src="compositions/frames/80-beat.html"
+        data-start="484.5300000000002"
+        data-duration="10.63"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-80-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="484.5300000000002"
+        data-duration="9.43"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="488.56"></audio>
+
+      <div
+        id="el-81-beat"
+        class="scene"
+        data-composition-id="81-beat"
+        data-composition-src="compositions/frames/81-beat.html"
+        data-start="493.9600000000002"
+        data-duration="6.39"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-81-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="493.9600000000002"
+        data-duration="5.19"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="497.99"></audio>
+
+      <div
+        id="el-82-beat"
+        class="scene"
+        data-composition-id="82-beat"
+        data-composition-src="compositions/frames/82-beat.html"
+        data-start="499.1500000000002"
+        data-duration="7.18"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-82-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="499.1500000000002"
+        data-duration="5.98"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="503.18"></audio>
+
+      <div
+        id="el-83-beat"
+        class="scene"
+        data-composition-id="83-beat"
+        data-composition-src="compositions/frames/83-beat.html"
+        data-start="505.1300000000002"
+        data-duration="5.13"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-83-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="505.1300000000002"
+        data-duration="4.03"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="509.25"></audio>
+
+      <div
+        id="el-84-beat"
+        class="scene"
+        data-composition-id="84-beat"
+        data-composition-src="compositions/frames/84-beat.html"
+        data-start="509.1600000000002"
+        data-duration="9.99"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-84-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="509.1600000000002"
+        data-duration="8.59"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="513.38"></audio>
+
+      <div
+        id="el-85-beat"
+        class="scene"
+        data-composition-id="85-beat"
+        data-composition-src="compositions/frames/85-beat.html"
+        data-start="517.7500000000002"
+        data-duration="6.12"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-85-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="517.7500000000002"
+        data-duration="4.52"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="521.97"></audio>
+
+      <div
+        id="el-86-beat"
+        class="scene"
+        data-composition-id="86-beat"
+        data-composition-src="compositions/frames/86-beat.html"
+        data-start="522.2700000000002"
+        data-duration="9.48"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-86-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="522.2700000000002"
+        data-duration="8.28"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="526.49"></audio>
+
+      <div
+        id="el-87-beat"
+        class="scene"
+        data-composition-id="87-beat"
+        data-composition-src="compositions/frames/87-beat.html"
+        data-start="530.5500000000002"
+        data-duration="5.42"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-87-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="530.5500000000002"
+        data-duration="4.22"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="534.77"></audio>
+
+      <div
+        id="el-88-beat"
+        class="scene"
+        data-composition-id="88-beat"
+        data-composition-src="compositions/frames/88-beat.html"
+        data-start="534.7700000000002"
+        data-duration="8.93"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-88-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="534.7700000000002"
+        data-duration="7.73"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="538.99"></audio>
+
+      <div
+        id="el-89-beat"
+        class="scene"
+        data-composition-id="89-beat"
+        data-composition-src="compositions/frames/89-beat.html"
+        data-start="542.5000000000002"
+        data-duration="9.88"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-89-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="542.5000000000002"
+        data-duration="8.68"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="546.82"></audio>
+
+      <div
+        id="el-90-beat"
+        class="scene"
+        data-composition-id="90-beat"
+        data-composition-src="compositions/frames/90-beat.html"
+        data-start="551.1800000000002"
+        data-duration="10.69"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-90-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="551.1800000000002"
+        data-duration="9.59"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="555.57"></audio>
+
+      <div
+        id="el-91-beat"
+        class="scene"
+        data-composition-id="91-beat"
+        data-composition-src="compositions/frames/91-beat.html"
+        data-start="560.7700000000002"
+        data-duration="5.27"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-91-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="560.7700000000002"
+        data-duration="3.87"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="565.25"></audio>
+
+      <div
+        id="el-92-beat"
+        class="scene"
+        data-composition-id="92-beat"
+        data-composition-src="compositions/frames/92-beat.html"
+        data-start="564.6400000000002"
+        data-duration="5.36"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-92-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="564.6400000000002"
+        data-duration="3.76"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="569.12"></audio>
+
+      <div
+        id="el-93-beat"
+        class="scene"
+        data-composition-id="93-beat"
+        data-composition-src="compositions/frames/93-beat.html"
+        data-start="568.4000000000002"
+        data-duration="8.94"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-93-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="568.4000000000002"
+        data-duration="7.74"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="573"></audio>
+
+      <div
+        id="el-94-beat"
+        class="scene"
+        data-composition-id="94-beat"
+        data-composition-src="compositions/frames/94-beat.html"
+        data-start="576.1400000000002"
+        data-duration="5.55"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-94-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="576.1400000000002"
+        data-duration="4.35"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="580.93"></audio>
+
+      <div
+        id="el-95-beat"
+        class="scene"
+        data-composition-id="95-beat"
+        data-composition-src="compositions/frames/95-beat.html"
+        data-start="580.4900000000002"
+        data-duration="10.32"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-95-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="580.4900000000002"
+        data-duration="9.12"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="585.28"></audio>
+
+      <div
+        id="el-96-beat"
+        class="scene"
+        data-composition-id="96-beat"
+        data-composition-src="compositions/frames/96-beat.html"
+        data-start="589.6100000000002"
+        data-duration="6.51"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-96-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="589.6100000000002"
+        data-duration="5.31"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="594.45"></audio>
+
+      <div
+        id="el-97-beat"
+        class="scene"
+        data-composition-id="97-beat"
+        data-composition-src="compositions/frames/97-beat.html"
+        data-start="594.9200000000002"
+        data-duration="4.14"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-97-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="594.9200000000002"
+        data-duration="3.04"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="599.76"></audio>
+
+      <div
+        id="el-98-beat"
+        class="scene"
+        data-composition-id="98-beat"
+        data-composition-src="compositions/frames/98-beat.html"
+        data-start="597.9600000000002"
+        data-duration="5.14"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-98-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="597.9600000000002"
+        data-duration="3.74"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="602.9"></audio>
+
+      <div
+        id="el-99-beat"
+        class="scene"
+        data-composition-id="99-beat"
+        data-composition-src="compositions/frames/99-beat.html"
+        data-start="601.7000000000002"
+        data-duration="4.66"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-99-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="601.7000000000002"
+        data-duration="3.06"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="606.72"></audio>
+
+      <div
+        id="el-100-beat"
+        class="scene"
+        data-composition-id="100-beat"
+        data-composition-src="compositions/frames/100-beat.html"
+        data-start="604.7600000000001"
+        data-duration="10.43"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-100-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="604.7600000000001"
+        data-duration="9.23"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="609.78"></audio>
+
+      <div
+        id="el-101-beat"
+        class="scene"
+        data-composition-id="101-beat"
+        data-composition-src="compositions/frames/101-beat.html"
+        data-start="613.9900000000001"
+        data-duration="7.81"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-101-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="613.9900000000001"
+        data-duration="6.61"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="619.15"></audio>
+
+      <div
+        id="el-102-beat"
+        class="scene"
+        data-composition-id="102-beat"
+        data-composition-src="compositions/frames/102-beat.html"
+        data-start="620.6000000000001"
+        data-duration="9.35"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-102-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="620.6000000000001"
+        data-duration="8.15"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="625.76"></audio>
+
+      <div
+        id="el-103-beat"
+        class="scene"
+        data-composition-id="103-beat"
+        data-composition-src="compositions/frames/103-beat.html"
+        data-start="628.7500000000001"
+        data-duration="10.64"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-103-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="628.7500000000001"
+        data-duration="9.44"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="634.13"></audio>
+
+      <div
+        id="el-104-beat"
+        class="scene"
+        data-composition-id="104-beat"
+        data-composition-src="compositions/frames/104-beat.html"
+        data-start="638.1900000000002"
+        data-duration="8.36"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-104-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="638.1900000000002"
+        data-duration="7.26"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="643.71"></audio>
+
+      <div
+        id="el-105-beat"
+        class="scene"
+        data-composition-id="105-beat"
+        data-composition-src="compositions/frames/105-beat.html"
+        data-start="645.4500000000002"
+        data-duration="6.93"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-105-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="645.4500000000002"
+        data-duration="5.53"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="651.13"></audio>
+
+      <div
+        id="el-106-beat"
+        class="scene"
+        data-composition-id="106-beat"
+        data-composition-src="compositions/frames/106-beat.html"
+        data-start="650.9800000000001"
+        data-duration="6.74"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-106-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="650.9800000000001"
+        data-duration="5.14"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="656.67"></audio>
+
+      <div
+        id="el-107-beat"
+        class="scene"
+        data-composition-id="107-beat"
+        data-composition-src="compositions/frames/107-beat.html"
+        data-start="656.1200000000001"
+        data-duration="6.51"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-107-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="656.1200000000001"
+        data-duration="5.31"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="661.81"></audio>
+
+      <div
+        id="el-108-beat"
+        class="scene"
+        data-composition-id="108-beat"
+        data-composition-src="compositions/frames/108-beat.html"
+        data-start="661.4300000000001"
+        data-duration="4.69"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-108-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="661.4300000000001"
+        data-duration="3.49"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="667.12"></audio>
+
+      <div
+        id="el-109-beat"
+        class="scene"
+        data-composition-id="109-beat"
+        data-composition-src="compositions/frames/109-beat.html"
+        data-start="664.9200000000001"
+        data-duration="8.43"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-109-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="664.9200000000001"
+        data-duration="7.23"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="670.61"></audio>
+
+      <div
+        id="el-110-beat"
+        class="scene"
+        data-composition-id="110-beat"
+        data-composition-src="compositions/frames/110-beat.html"
+        data-start="672.1500000000001"
+        data-duration="9.4"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-110-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="672.1500000000001"
+        data-duration="8.2"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="677.84"></audio>
+
+      <div
+        id="el-111-beat"
+        class="scene"
+        data-composition-id="111-beat"
+        data-composition-src="compositions/frames/111-beat.html"
+        data-start="680.3500000000001"
+        data-duration="7.41"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-111-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="680.3500000000001"
+        data-duration="6.31"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="686.09"></audio>
+
+      <div
+        id="el-112-beat"
+        class="scene"
+        data-composition-id="112-beat"
+        data-composition-src="compositions/frames/112-beat.html"
+        data-start="686.6600000000001"
+        data-duration="7.48"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-112-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="686.6600000000001"
+        data-duration="6.08"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="692.4"></audio>
+
+      <div
+        id="el-113-beat"
+        class="scene"
+        data-composition-id="113-beat"
+        data-composition-src="compositions/frames/113-beat.html"
+        data-start="692.7400000000001"
+        data-duration="6.13"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-113-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="692.7400000000001"
+        data-duration="4.53"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="698.58"></audio>
+
+      <div
+        id="el-114-beat"
+        class="scene"
+        data-composition-id="114-beat"
+        data-composition-src="compositions/frames/114-beat.html"
+        data-start="697.2700000000001"
+        data-duration="4.97"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-114-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="697.2700000000001"
+        data-duration="3.77"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="703.11"></audio>
+
+      <div
+        id="el-115-beat"
+        class="scene"
+        data-composition-id="115-beat"
+        data-composition-src="compositions/frames/115-beat.html"
+        data-start="701.0400000000001"
+        data-duration="6.07"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-115-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="701.0400000000001"
+        data-duration="4.87"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="706.88"></audio>
+
+      <div
+        id="el-116-beat"
+        class="scene"
+        data-composition-id="116-beat"
+        data-composition-src="compositions/frames/116-beat.html"
+        data-start="705.9100000000001"
+        data-duration="5.34"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-116-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="705.9100000000001"
+        data-duration="4.14"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="711.94"></audio>
+
+      <div
+        id="el-117-beat"
+        class="scene"
+        data-composition-id="117-beat"
+        data-composition-src="compositions/frames/117-beat.html"
+        data-start="710.0500000000001"
+        data-duration="5.55"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-117-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="710.0500000000001"
+        data-duration="4.35"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="716.18"></audio>
+
+      <div
+        id="el-118-beat"
+        class="scene"
+        data-composition-id="118-beat"
+        data-composition-src="compositions/frames/118-beat.html"
+        data-start="714.4000000000001"
+        data-duration="7.95"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-118-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="714.4000000000001"
+        data-duration="6.85"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="720.67"></audio>
+
+      <div
+        id="el-119-beat"
+        class="scene"
+        data-composition-id="119-beat"
+        data-composition-src="compositions/frames/119-beat.html"
+        data-start="721.2500000000001"
+        data-duration="8.26"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-119-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="721.2500000000001"
+        data-duration="6.86"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="727.62"></audio>
+
+      <div
+        id="el-120-beat"
+        class="scene"
+        data-composition-id="120-beat"
+        data-composition-src="compositions/frames/120-beat.html"
+        data-start="728.1100000000001"
+        data-duration="8.71"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-120-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="728.1100000000001"
+        data-duration="7.11"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="734.48"></audio>
+
+      <div
+        id="el-121-beat"
+        class="scene"
+        data-composition-id="121-beat"
+        data-composition-src="compositions/frames/121-beat.html"
+        data-start="735.2200000000001"
+        data-duration="7.82"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-121-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="735.2200000000001"
+        data-duration="6.62"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="741.66"></audio>
+
+      <div
+        id="el-122-beat"
+        class="scene"
+        data-composition-id="122-beat"
+        data-composition-src="compositions/frames/122-beat.html"
+        data-start="741.8400000000001"
+        data-duration="6.69"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-122-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="741.8400000000001"
+        data-duration="5.49"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="748.28"></audio>
+
+      <div
+        id="el-123-beat"
+        class="scene"
+        data-composition-id="123-beat"
+        data-composition-src="compositions/frames/123-beat.html"
+        data-start="747.3300000000002"
+        data-duration="5.23"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-123-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="747.3300000000002"
+        data-duration="4.03"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="753.77"></audio>
+
+      <div
+        id="el-124-beat"
+        class="scene"
+        data-composition-id="124-beat"
+        data-composition-src="compositions/frames/124-beat.html"
+        data-start="751.3600000000001"
+        data-duration="7.43"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-124-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="751.3600000000001"
+        data-duration="6.23"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="757.85"></audio>
+
+      <div
+        id="el-125-beat"
+        class="scene"
+        data-composition-id="125-beat"
+        data-composition-src="compositions/frames/125-beat.html"
+        data-start="757.5900000000001"
+        data-duration="8.46"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-125-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="757.5900000000001"
+        data-duration="7.36"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="764.08"></audio>
+
+      <div
+        id="el-126-beat"
+        class="scene"
+        data-composition-id="126-beat"
+        data-composition-src="compositions/frames/126-beat.html"
+        data-start="764.9500000000002"
+        data-duration="6.9"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-126-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="764.9500000000002"
+        data-duration="5.5"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="771.54"></audio>
+
+      <div
+        id="el-127-beat"
+        class="scene"
+        data-composition-id="127-beat"
+        data-composition-src="compositions/frames/127-beat.html"
+        data-start="770.4500000000002"
+        data-duration="8.1"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-127-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="770.4500000000002"
+        data-duration="6.5"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="777.04"></audio>
+
+      <div
+        id="el-128-beat"
+        class="scene"
+        data-composition-id="128-beat"
+        data-composition-src="compositions/frames/128-beat.html"
+        data-start="776.9500000000002"
+        data-duration="6.54"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-128-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="776.9500000000002"
+        data-duration="5.34"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="783.7"></audio>
+
+      <div
+        id="el-129-beat"
+        class="scene"
+        data-composition-id="129-beat"
+        data-composition-src="compositions/frames/129-beat.html"
+        data-start="782.2900000000002"
+        data-duration="5.92"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-129-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="782.2900000000002"
+        data-duration="4.72"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="789.04"></audio>
+
+      <div
+        id="el-130-beat"
+        class="scene"
+        data-composition-id="130-beat"
+        data-composition-src="compositions/frames/130-beat.html"
+        data-start="787.0100000000002"
+        data-duration="10.45"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-130-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="787.0100000000002"
+        data-duration="9.25"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="793.76"></audio>
+
+      <div
+        id="el-131-beat"
+        class="scene"
+        data-composition-id="131-beat"
+        data-composition-src="compositions/frames/131-beat.html"
+        data-start="796.2600000000002"
+        data-duration="5"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-131-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="796.2600000000002"
+        data-duration="3.8"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="803.01"></audio>
+
+      <div
+        id="el-132-beat"
+        class="scene"
+        data-composition-id="132-beat"
+        data-composition-src="compositions/frames/132-beat.html"
+        data-start="800.0600000000002"
+        data-duration="6.24"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-132-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="800.0600000000002"
+        data-duration="5.14"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="806.81"></audio>
+
+      <div
+        id="el-133-beat"
+        class="scene"
+        data-composition-id="133-beat"
+        data-composition-src="compositions/frames/133-beat.html"
+        data-start="805.2000000000002"
+        data-duration="5.12"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-133-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="805.2000000000002"
+        data-duration="3.72"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="811.95"></audio>
+
+      <div
+        id="el-134-beat"
+        class="scene"
+        data-composition-id="134-beat"
+        data-composition-src="compositions/frames/134-beat.html"
+        data-start="808.9200000000002"
+        data-duration="6.15"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-134-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="808.9200000000002"
+        data-duration="4.55"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="815.67"></audio>
+
+      <div
+        id="el-135-beat"
+        class="scene"
+        data-composition-id="135-beat"
+        data-composition-src="compositions/frames/135-beat.html"
+        data-start="813.4700000000001"
+        data-duration="4.55"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-135-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="813.4700000000001"
+        data-duration="3.35"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="820.22"></audio>
+
+      <div
+        id="el-136-beat"
+        class="scene"
+        data-composition-id="136-beat"
+        data-composition-src="compositions/frames/136-beat.html"
+        data-start="816.8200000000002"
+        data-duration="8.26"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-136-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="816.8200000000002"
+        data-duration="7.06"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="823.71"></audio>
+
+      <div
+        id="el-137-beat"
+        class="scene"
+        data-composition-id="137-beat"
+        data-composition-src="compositions/frames/137-beat.html"
+        data-start="823.8800000000001"
+        data-duration="10.3"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-137-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="823.8800000000001"
+        data-duration="9.1"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="830.91"></audio>
+
+      <div
+        id="el-138-beat"
+        class="scene"
+        data-composition-id="138-beat"
+        data-composition-src="compositions/frames/138-beat.html"
+        data-start="832.9800000000001"
+        data-duration="4.79"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-138-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="832.9800000000001"
+        data-duration="3.59"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="840.01"></audio>
+
+      <div
+        id="el-139-beat"
+        class="scene"
+        data-composition-id="139-beat"
+        data-composition-src="compositions/frames/139-beat.html"
+        data-start="836.5700000000002"
+        data-duration="10.27"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-139-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="836.5700000000002"
+        data-duration="9.17"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="843.7"></audio>
+
+      <div
+        id="el-140-beat"
+        class="scene"
+        data-composition-id="140-beat"
+        data-composition-src="compositions/frames/140-beat.html"
+        data-start="845.7400000000001"
+        data-duration="7.91"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-140-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="845.7400000000001"
+        data-duration="6.51"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="852.93"></audio>
+
+      <div
+        id="el-141-beat"
+        class="scene"
+        data-composition-id="141-beat"
+        data-composition-src="compositions/frames/141-beat.html"
+        data-start="852.2500000000001"
+        data-duration="10.21"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-141-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="852.2500000000001"
+        data-duration="8.61"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="859.44"></audio>
+
+      <div
+        id="el-142-beat"
+        class="scene"
+        data-composition-id="142-beat"
+        data-composition-src="compositions/frames/142-beat.html"
+        data-start="860.8600000000001"
+        data-duration="6.16"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-142-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="860.8600000000001"
+        data-duration="4.96"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="868.05"></audio>
+
+      <div
+        id="el-143-beat"
+        class="scene"
+        data-composition-id="143-beat"
+        data-composition-src="compositions/frames/143-beat.html"
+        data-start="865.8200000000002"
+        data-duration="6.09"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-143-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="865.8200000000002"
+        data-duration="4.89"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="873.01"></audio>
+
+      <div
+        id="el-144-beat"
+        class="scene"
+        data-composition-id="144-beat"
+        data-composition-src="compositions/frames/144-beat.html"
+        data-start="870.7100000000002"
+        data-duration="4.64"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-144-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="870.7100000000002"
+        data-duration="3.44"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="877.9"></audio>
+
+      <div
+        id="el-145-beat"
+        class="scene"
+        data-composition-id="145-beat"
+        data-composition-src="compositions/frames/145-beat.html"
+        data-start="874.1500000000002"
+        data-duration="7.86"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-145-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="874.1500000000002"
+        data-duration="6.66"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="881.34"></audio>
+
+      <div
+        id="el-146-beat"
+        class="scene"
+        data-composition-id="146-beat"
+        data-composition-src="compositions/frames/146-beat.html"
+        data-start="880.8100000000002"
+        data-duration="5.72"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-146-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="880.8100000000002"
+        data-duration="4.62"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="888"></audio>
+
+      <div
+        id="el-147-beat"
+        class="scene"
+        data-composition-id="147-beat"
+        data-composition-src="compositions/frames/147-beat.html"
+        data-start="885.4300000000002"
+        data-duration="7.04"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-147-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="885.4300000000002"
+        data-duration="5.64"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="893.09"></audio>
+
+      <div
+        id="el-148-beat"
+        class="scene"
+        data-composition-id="148-beat"
+        data-composition-src="compositions/frames/148-beat.html"
+        data-start="891.0700000000002"
+        data-duration="5.68"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-148-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="891.0700000000002"
+        data-duration="4.08"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="899"></audio>
+
+      <div
+        id="el-149-beat"
+        class="scene"
+        data-composition-id="149-beat"
+        data-composition-src="compositions/frames/149-beat.html"
+        data-start="895.1500000000002"
+        data-duration="6.11"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-149-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="895.1500000000002"
+        data-duration="4.91"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="903.17"></audio>
+
+      <div
+        id="el-150-beat"
+        class="scene"
+        data-composition-id="150-beat"
+        data-composition-src="compositions/frames/150-beat.html"
+        data-start="900.0600000000002"
+        data-duration="5.13"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-150-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="900.0600000000002"
+        data-duration="3.93"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="908.09"></audio>
+
+      <div
+        id="el-151-beat"
+        class="scene"
+        data-composition-id="151-beat"
+        data-composition-src="compositions/frames/151-beat.html"
+        data-start="903.9900000000001"
+        data-duration="6.48"
+        data-track-index="0"
+      ></div>
+      <audio
+        id="el-151-beat-voice"
+        src="assets/audio/narration.mp3"
+        data-start="903.9900000000001"
+        data-duration="6.48"
+        data-track-index="10"
+        data-volume="1"
+        data-media-start="912.08"></audio>
+
+      <!-- SFX -->
+      <audio
+        id="el-sfx-0"
+        src="assets/sfx/whoosh-short.mp3"
+        data-start="11.54"
+        data-duration="1.285"
+        data-track-index="20"
+        data-volume="0.35"
+      ></audio>
+      <audio
+        id="el-sfx-1"
+        src="assets/sfx/whoosh-short.mp3"
+        data-start="27.82"
+        data-duration="1.285"
+        data-track-index="21"
+        data-volume="0.35"
+      ></audio>
+      <audio
+        id="el-sfx-2"
+        src="assets/sfx/whoosh-short.mp3"
+        data-start="39.57"
+        data-duration="1.285"
+        data-track-index="22"
+        data-volume="0.35"
+      ></audio>
+      <audio
+        id="el-sfx-3"
+        src="assets/sfx/ping.mp3"
+        data-start="41.87"
+        data-duration="7.315"
+        data-track-index="23"
+        data-volume="0.15"
+      ></audio>
+      <audio
+        id="el-sfx-4"
+        src="assets/sfx/whoosh-short.mp3"
+        data-start="65.84"
+        data-duration="1.285"
+        data-track-index="24"
+        data-volume="0.35"
+      ></audio>
+      <audio
+        id="el-sfx-5"
+        src="assets/sfx/whoosh-short.mp3"
+        data-start="76.7"
+        data-duration="1.285"
+        data-track-index="25"
+        data-volume="0.35"
+      ></audio>
+      <audio
+        id="el-sfx-6"
+        src="assets/sfx/pop.mp3"
+        data-start="99.97"
+        data-duration="0.312"
+        data-track-index="26"
+        data-volume="0.11"
+      ></audio>
+      <audio
+        id="el-sfx-7"
+        src="assets/sfx/whoosh-short.mp3"
+        data-start="105.72"
+        data-duration="1.285"
+        data-track-index="27"
+        data-volume="0.35"
+      ></audio>
+      <audio
+        id="el-sfx-8"
+        src="assets/sfx/whoosh-short.mp3"
+        data-start="118.6"
+        data-duration="1.285"
+        data-track-index="28"
+        data-volume="0.35"
+      ></audio>
+      <audio
+        id="el-sfx-9"
+        src="assets/sfx/whoosh-short.mp3"
+        data-start="127.17"
+        data-duration="1.285"
+        data-track-index="29"
+        data-volume="0.35"
+      ></audio>
+      <audio
+        id="el-sfx-10"
+        src="assets/sfx/ping.mp3"
+        data-start="135.36"
+        data-duration="7.315"
+        data-track-index="30"
+        data-volume="0.11"
+      ></audio>
+      <audio
+        id="el-sfx-11"
+        src="assets/sfx/whoosh-short.mp3"
+        data-start="154.72"
+        data-duration="1.285"
+        data-track-index="31"
+        data-volume="0.35"
+      ></audio>
+      <audio
+        id="el-sfx-12"
+        src="assets/sfx/whoosh-short.mp3"
+        data-start="169.87"
+        data-duration="1.285"
+        data-track-index="32"
+        data-volume="0.35"
+      ></audio>
+      <audio
+        id="el-sfx-13"
+        src="assets/sfx/ping.mp3"
+        data-start="179.5"
+        data-duration="7.315"
+        data-track-index="33"
+        data-volume="0.11"
+      ></audio>
+      <audio
+        id="el-sfx-14"
+        src="assets/sfx/whoosh-short.mp3"
+        data-start="193.83"
+        data-duration="1.285"
+        data-track-index="34"
+        data-volume="0.35"
+      ></audio>
+      <audio
+        id="el-sfx-15"
+        src="assets/sfx/whoosh-short.mp3"
+        data-start="202.53"
+        data-duration="1.285"
+        data-track-index="35"
+        data-volume="0.35"
+      ></audio>
+      <audio
+        id="el-sfx-16"
+        src="assets/sfx/whoosh-short.mp3"
+        data-start="210.64"
+        data-duration="1.285"
+        data-track-index="36"
+        data-volume="0.35"
+      ></audio>
+      <audio
+        id="el-sfx-17"
+        src="assets/sfx/pop.mp3"
+        data-start="222.23"
+        data-duration="0.312"
+        data-track-index="37"
+        data-volume="0.15"
+      ></audio>
+      <audio
+        id="el-sfx-18"
+        src="assets/sfx/whoosh-short.mp3"
+        data-start="231.75"
+        data-duration="1.285"
+        data-track-index="38"
+        data-volume="0.35"
+      ></audio>
+      <audio
+        id="el-sfx-19"
+        src="assets/sfx/whoosh-short.mp3"
+        data-start="239.78"
+        data-duration="1.285"
+        data-track-index="39"
+        data-volume="0.35"
+      ></audio>
+      <audio
+        id="el-sfx-20"
+        src="assets/sfx/whoosh-short.mp3"
+        data-start="262.9"
+        data-duration="1.285"
+        data-track-index="40"
+        data-volume="0.35"
+      ></audio>
+      <audio
+        id="el-sfx-21"
+        src="assets/sfx/whoosh-short.mp3"
+        data-start="272.1"
+        data-duration="1.285"
+        data-track-index="41"
+        data-volume="0.35"
+      ></audio>
+      <audio
+        id="el-sfx-22"
+        src="assets/sfx/whoosh-short.mp3"
+        data-start="285.58"
+        data-duration="1.285"
+        data-track-index="42"
+        data-volume="0.35"
+      ></audio>
+      <audio
+        id="el-sfx-23"
+        src="assets/sfx/whoosh-short.mp3"
+        data-start="314.14"
+        data-duration="1.285"
+        data-track-index="43"
+        data-volume="0.35"
+      ></audio>
+      <audio
+        id="el-sfx-24"
+        src="assets/sfx/ping.mp3"
+        data-start="314.44"
+        data-duration="7.315"
+        data-track-index="44"
+        data-volume="0.15"
+      ></audio>
+      <audio
+        id="el-sfx-25"
+        src="assets/sfx/whoosh-short.mp3"
+        data-start="325.23"
+        data-duration="1.285"
+        data-track-index="45"
+        data-volume="0.35"
+      ></audio>
+      <audio
+        id="el-sfx-26"
+        src="assets/sfx/ping.mp3"
+        data-start="328.73"
+        data-duration="7.315"
+        data-track-index="46"
+        data-volume="0.15"
+      ></audio>
+      <audio
+        id="el-sfx-27"
+        src="assets/sfx/whoosh-short.mp3"
+        data-start="347.08"
+        data-duration="1.285"
+        data-track-index="47"
+        data-volume="0.35"
+      ></audio>
+      <audio
+        id="el-sfx-28"
+        src="assets/sfx/whoosh-short.mp3"
+        data-start="360.34"
+        data-duration="1.285"
+        data-track-index="48"
+        data-volume="0.35"
+      ></audio>
+      <audio
+        id="el-sfx-29"
+        src="assets/sfx/ping.mp3"
+        data-start="360.64"
+        data-duration="7.315"
+        data-track-index="49"
+        data-volume="0.11"
+      ></audio>
+      <audio
+        id="el-sfx-30"
+        src="assets/sfx/whoosh-short.mp3"
+        data-start="378.33"
+        data-duration="1.285"
+        data-track-index="50"
+        data-volume="0.35"
+      ></audio>
+      <audio
+        id="el-sfx-31"
+        src="assets/sfx/ping.mp3"
+        data-start="385.94"
+        data-duration="7.315"
+        data-track-index="51"
+        data-volume="0.11"
+      ></audio>
+      <audio
+        id="el-sfx-32"
+        src="assets/sfx/whoosh-short.mp3"
+        data-start="405.01"
+        data-duration="1.285"
+        data-track-index="52"
+        data-volume="0.35"
+      ></audio>
+      <audio
+        id="el-sfx-33"
+        src="assets/sfx/whoosh-short.mp3"
+        data-start="418.48"
+        data-duration="1.285"
+        data-track-index="53"
+        data-volume="0.35"
+      ></audio>
+      <audio
+        id="el-sfx-34"
+        src="assets/sfx/whoosh-short.mp3"
+        data-start="441.15"
+        data-duration="1.285"
+        data-track-index="54"
+        data-volume="0.35"
+      ></audio>
+      <audio
+        id="el-sfx-35"
+        src="assets/sfx/whoosh-short.mp3"
+        data-start="453.66"
+        data-duration="1.285"
+        data-track-index="55"
+        data-volume="0.35"
+      ></audio>
+      <audio
+        id="el-sfx-36"
+        src="assets/sfx/ping.mp3"
+        data-start="463.45"
+        data-duration="7.315"
+        data-track-index="56"
+        data-volume="0.08"
+      ></audio>
+      <audio
+        id="el-sfx-37"
+        src="assets/sfx/whoosh-short.mp3"
+        data-start="471.58"
+        data-duration="1.285"
+        data-track-index="57"
+        data-volume="0.35"
+      ></audio>
+      <audio
+        id="el-sfx-38"
+        src="assets/sfx/whoosh-short.mp3"
+        data-start="493.96"
+        data-duration="1.285"
+        data-track-index="58"
+        data-volume="0.35"
+      ></audio>
+      <audio
+        id="el-sfx-39"
+        src="assets/sfx/whoosh-short.mp3"
+        data-start="505.13"
+        data-duration="1.285"
+        data-track-index="59"
+        data-volume="0.35"
+      ></audio>
+      <audio
+        id="el-sfx-40"
+        src="assets/sfx/whoosh-short.mp3"
+        data-start="530.55"
+        data-duration="1.285"
+        data-track-index="60"
+        data-volume="0.35"
+      ></audio>
+      <audio
+        id="el-sfx-41"
+        src="assets/sfx/whoosh-short.mp3"
+        data-start="542.5"
+        data-duration="1.285"
+        data-track-index="61"
+        data-volume="0.35"
+      ></audio>
+      <audio
+        id="el-sfx-42"
+        src="assets/sfx/whoosh-short.mp3"
+        data-start="560.77"
+        data-duration="1.285"
+        data-track-index="62"
+        data-volume="0.35"
+      ></audio>
+      <audio
+        id="el-sfx-43"
+        src="assets/sfx/whoosh-short.mp3"
+        data-start="580.49"
+        data-duration="1.285"
+        data-track-index="63"
+        data-volume="0.35"
+      ></audio>
+      <audio
+        id="el-sfx-44"
+        src="assets/sfx/whoosh-short.mp3"
+        data-start="594.92"
+        data-duration="1.285"
+        data-track-index="64"
+        data-volume="0.35"
+      ></audio>
+      <audio
+        id="el-sfx-45"
+        src="assets/sfx/whoosh-short.mp3"
+        data-start="613.99"
+        data-duration="1.285"
+        data-track-index="65"
+        data-volume="0.35"
+      ></audio>
+      <audio
+        id="el-sfx-46"
+        src="assets/sfx/whoosh-short.mp3"
+        data-start="628.75"
+        data-duration="1.285"
+        data-track-index="66"
+        data-volume="0.35"
+      ></audio>
+      <audio
+        id="el-sfx-47"
+        src="assets/sfx/whoosh-short.mp3"
+        data-start="645.45"
+        data-duration="1.285"
+        data-track-index="67"
+        data-volume="0.35"
+      ></audio>
+      <audio
+        id="el-sfx-48"
+        src="assets/sfx/ping.mp3"
+        data-start="656.12"
+        data-duration="7.315"
+        data-track-index="68"
+        data-volume="0.15"
+      ></audio>
+      <audio
+        id="el-sfx-49"
+        src="assets/sfx/whoosh-short.mp3"
+        data-start="664.92"
+        data-duration="1.285"
+        data-track-index="69"
+        data-volume="0.35"
+      ></audio>
+      <audio
+        id="el-sfx-50"
+        src="assets/sfx/pop.mp3"
+        data-start="668.42"
+        data-duration="0.312"
+        data-track-index="70"
+        data-volume="0.15"
+      ></audio>
+      <audio
+        id="el-sfx-51"
+        src="assets/sfx/whoosh-short.mp3"
+        data-start="680.35"
+        data-duration="1.285"
+        data-track-index="71"
+        data-volume="0.35"
+      ></audio>
+      <audio
+        id="el-sfx-52"
+        src="assets/sfx/whoosh-short.mp3"
+        data-start="701.04"
+        data-duration="1.285"
+        data-track-index="72"
+        data-volume="0.35"
+      ></audio>
+      <audio
+        id="el-sfx-53"
+        src="assets/sfx/whoosh-short.mp3"
+        data-start="710.05"
+        data-duration="1.285"
+        data-track-index="73"
+        data-volume="0.35"
+      ></audio>
+      <audio
+        id="el-sfx-54"
+        src="assets/sfx/whoosh-short.mp3"
+        data-start="721.25"
+        data-duration="1.285"
+        data-track-index="74"
+        data-volume="0.35"
+      ></audio>
+      <audio
+        id="el-sfx-55"
+        src="assets/sfx/whoosh-short.mp3"
+        data-start="747.33"
+        data-duration="1.285"
+        data-track-index="75"
+        data-volume="0.35"
+      ></audio>
+      <audio
+        id="el-sfx-56"
+        src="assets/sfx/whoosh-short.mp3"
+        data-start="757.59"
+        data-duration="1.285"
+        data-track-index="76"
+        data-volume="0.35"
+      ></audio>
+      <audio
+        id="el-sfx-57"
+        src="assets/sfx/whoosh-short.mp3"
+        data-start="782.29"
+        data-duration="1.285"
+        data-track-index="77"
+        data-volume="0.35"
+      ></audio>
+      <audio
+        id="el-sfx-58"
+        src="assets/sfx/whoosh-short.mp3"
+        data-start="796.26"
+        data-duration="1.285"
+        data-track-index="78"
+        data-volume="0.35"
+      ></audio>
+      <audio
+        id="el-sfx-59"
+        src="assets/sfx/whoosh-short.mp3"
+        data-start="805.2"
+        data-duration="1.285"
+        data-track-index="79"
+        data-volume="0.35"
+      ></audio>
+      <audio
+        id="el-sfx-60"
+        src="assets/sfx/whoosh-short.mp3"
+        data-start="823.88"
+        data-duration="1.285"
+        data-track-index="80"
+        data-volume="0.35"
+      ></audio>
+      <audio
+        id="el-sfx-61"
+        src="assets/sfx/whoosh-short.mp3"
+        data-start="836.57"
+        data-duration="1.285"
+        data-track-index="81"
+        data-volume="0.35"
+      ></audio>
+      <audio
+        id="el-sfx-62"
+        src="assets/sfx/whoosh-short.mp3"
+        data-start="865.82"
+        data-duration="1.285"
+        data-track-index="82"
+        data-volume="0.35"
+      ></audio>
+      <audio
+        id="el-sfx-63"
+        src="assets/sfx/whoosh-short.mp3"
+        data-start="874.15"
+        data-duration="1.285"
+        data-track-index="83"
+        data-volume="0.35"
+      ></audio>
+      <audio
+        id="el-sfx-64"
+        src="assets/sfx/whoosh-short.mp3"
+        data-start="885.43"
+        data-duration="1.285"
+        data-track-index="84"
+        data-volume="0.35"
+      ></audio>
+      <audio
+        id="el-sfx-65"
+        src="assets/sfx/whoosh-short.mp3"
+        data-start="903.99"
+        data-duration="1.285"
+        data-track-index="85"
+        data-volume="0.35"
+      ></audio>
+    
+    <!-- documentary-broll: cinematic layers (ambience + grain) -->
+    <!-- always-on ambience bed — glues the mix under narration/BGM, never
+         true silence between lines; see gen-cinematic-assets.mjs -->
+    <audio
+      id="el-ambience-bed"
+      src=".hyperframes/cinematic-assets/ambience-bed.mp3"
+      data-start="0"
+      data-duration="910.47"
+      data-track-index="12"
+      data-volume="0.05"
+    ></audio>
+    <!-- always-on grain/texture overlay — a short native-looping clip
+         composited full-bleed at low opacity across the whole timeline -->
+    <video
+      id="el-grain-overlay"
+      class="clip"
+      src=".hyperframes/cinematic-assets/grain-overlay.mp4"
+      muted
+      loop
+      playsinline
+      data-start="0"
+      data-duration="910.47"
+      data-track-index="3"
+      style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;mix-blend-mode:overlay;opacity:0.06;pointer-events:none;"
+    ></video>
+</div>
+
+    <script>
+      window.__timelines = window.__timelines || {};
+      window.__timelines["main"] = gsap.timeline({ paused: true });
+      // ── frame transitions (injected by transitions.mjs) ──
+      (function () { var tl = window.__timelines["main"];
+        tl.to("#el-01-beat", { filter: "blur(10px)", scale: 1.03, opacity: 0, duration: 1.6, ease: "power2.inOut" }, 8.26);
+        tl.fromTo("#el-02-beat", { filter: "blur(10px)", scale: 0.97, opacity: 0 }, { filter: "blur(0px)", scale: 1, opacity: 1, duration: 1.6, ease: "power2.inOut" }, 8.26);
+        tl.to("#el-02-beat", { x: -1920, duration: 1.2, ease: "power3.inOut" }, 11.54);
+        tl.fromTo("#el-03-beat", { x: 1920, opacity: 1 }, { x: 0, duration: 1.2, ease: "power3.inOut" }, 11.54);
+        tl.to("#el-03-beat", { x: 1920, duration: 1.2, ease: "power3.inOut" }, 18.61);
+        tl.fromTo("#el-04-beat", { x: -1920, opacity: 1 }, { x: 0, duration: 1.2, ease: "power3.inOut" }, 18.61);
+        tl.to("#el-04-beat", { y: -1080, duration: 1.2, ease: "power3.inOut" }, 27.82);
+        tl.fromTo("#el-05-beat", { y: 1080, opacity: 1 }, { y: 0, duration: 1.2, ease: "power3.inOut" }, 27.82);
+        tl.to("#el-05-beat", { y: 1080, duration: 1.2, ease: "power3.inOut" }, 32.32);
+        tl.fromTo("#el-06-beat", { y: -1080, opacity: 1 }, { y: 0, duration: 1.2, ease: "power3.inOut" }, 32.32);
+        tl.to("#el-06-beat", { scaleX: 0, transformOrigin: "left center", duration: 1.1, ease: "power3.inOut" }, 39.57);
+        tl.fromTo("#el-07-beat", { scaleX: 0, transformOrigin: "right center", opacity: 1 }, { scaleX: 1, transformOrigin: "right center", duration: 1.1, ease: "power3.inOut" }, 39.57);
+        tl.to("#el-07-beat", { opacity: 0, duration: 1.4, ease: "power2.inOut" }, 47.67);
+        tl.fromTo("#el-08-beat", { opacity: 0 }, { opacity: 1, duration: 1.4, ease: "power2.inOut" }, 47.67);
+        tl.to("#el-08-beat", { filter: "blur(10px)", scale: 1.03, opacity: 0, duration: 1.6, ease: "power2.inOut" }, 51.77);
+        tl.fromTo("#el-09-beat", { filter: "blur(10px)", scale: 0.97, opacity: 0 }, { filter: "blur(0px)", scale: 1, opacity: 1, duration: 1.6, ease: "power2.inOut" }, 51.77);
+        tl.to("#el-09-beat", { x: -1920, duration: 1.2, ease: "power3.inOut" }, 58.93);
+        tl.fromTo("#el-10-beat", { x: 1920, opacity: 1 }, { x: 0, duration: 1.2, ease: "power3.inOut" }, 58.93);
+        tl.to("#el-10-beat", { x: 1920, duration: 1.2, ease: "power3.inOut" }, 65.84);
+        tl.fromTo("#el-11-beat", { x: -1920, opacity: 1 }, { x: 0, duration: 1.2, ease: "power3.inOut" }, 65.84);
+        tl.to("#el-11-beat", { y: -1080, duration: 1.2, ease: "power3.inOut" }, 73.06);
+        tl.fromTo("#el-12-beat", { y: 1080, opacity: 1 }, { y: 0, duration: 1.2, ease: "power3.inOut" }, 73.06);
+        tl.to("#el-12-beat", { y: 1080, duration: 1.2, ease: "power3.inOut" }, 76.7);
+        tl.fromTo("#el-13-beat", { y: -1080, opacity: 1 }, { y: 0, duration: 1.2, ease: "power3.inOut" }, 76.7);
+        tl.to("#el-13-beat", { scaleX: 0, transformOrigin: "left center", duration: 1.1, ease: "power3.inOut" }, 85.35);
+        tl.fromTo("#el-14-beat", { scaleX: 0, transformOrigin: "right center", opacity: 1 }, { scaleX: 1, transformOrigin: "right center", duration: 1.1, ease: "power3.inOut" }, 85.35);
+        tl.to("#el-14-beat", { opacity: 0, duration: 1.4, ease: "power2.inOut" }, 92.56);
+        tl.fromTo("#el-15-beat", { opacity: 0 }, { opacity: 1, duration: 1.4, ease: "power2.inOut" }, 92.56);
+        tl.to("#el-15-beat", { filter: "blur(10px)", scale: 1.03, opacity: 0, duration: 1.6, ease: "power2.inOut" }, 96.47);
+        tl.fromTo("#el-16-beat", { filter: "blur(10px)", scale: 0.97, opacity: 0 }, { filter: "blur(0px)", scale: 1, opacity: 1, duration: 1.6, ease: "power2.inOut" }, 96.47);
+        tl.to("#el-16-beat", { x: -1920, duration: 1.2, ease: "power3.inOut" }, 105.72);
+        tl.fromTo("#el-17-beat", { x: 1920, opacity: 1 }, { x: 0, duration: 1.2, ease: "power3.inOut" }, 105.72);
+        tl.to("#el-17-beat", { x: 1920, duration: 1.2, ease: "power3.inOut" }, 111.8);
+        tl.fromTo("#el-18-beat", { x: -1920, opacity: 1 }, { x: 0, duration: 1.2, ease: "power3.inOut" }, 111.8);
+        tl.to("#el-18-beat", { y: -1080, duration: 1.2, ease: "power3.inOut" }, 118.6);
+        tl.fromTo("#el-19-beat", { y: 1080, opacity: 1 }, { y: 0, duration: 1.2, ease: "power3.inOut" }, 118.6);
+        tl.to("#el-19-beat", { y: 1080, duration: 1.2, ease: "power3.inOut" }, 121.84);
+        tl.fromTo("#el-20-beat", { y: -1080, opacity: 1 }, { y: 0, duration: 1.2, ease: "power3.inOut" }, 121.84);
+        tl.to("#el-20-beat", { scaleX: 0, transformOrigin: "left center", duration: 1.1, ease: "power3.inOut" }, 127.17);
+        tl.fromTo("#el-21-beat", { scaleX: 0, transformOrigin: "right center", opacity: 1 }, { scaleX: 1, transformOrigin: "right center", duration: 1.1, ease: "power3.inOut" }, 127.17);
+        tl.to("#el-21-beat", { opacity: 0, duration: 1.4, ease: "power2.inOut" }, 135.16);
+        tl.fromTo("#el-22-beat", { opacity: 0 }, { opacity: 1, duration: 1.4, ease: "power2.inOut" }, 135.16);
+        tl.to("#el-22-beat", { filter: "blur(10px)", scale: 1.03, opacity: 0, duration: 1.6, ease: "power2.inOut" }, 142.2);
+        tl.fromTo("#el-23-beat", { filter: "blur(10px)", scale: 0.97, opacity: 0 }, { filter: "blur(0px)", scale: 1, opacity: 1, duration: 1.6, ease: "power2.inOut" }, 142.2);
+        tl.to("#el-23-beat", { x: -1920, duration: 1.2, ease: "power3.inOut" }, 145.69);
+        tl.fromTo("#el-24-beat", { x: 1920, opacity: 1 }, { x: 0, duration: 1.2, ease: "power3.inOut" }, 145.69);
+        tl.to("#el-24-beat", { x: 1920, duration: 1.2, ease: "power3.inOut" }, 154.72);
+        tl.fromTo("#el-25-beat", { x: -1920, opacity: 1 }, { x: 0, duration: 1.2, ease: "power3.inOut" }, 154.72);
+        tl.to("#el-25-beat", { y: -1080, duration: 1.2, ease: "power3.inOut" }, 164.3);
+        tl.fromTo("#el-26-beat", { y: 1080, opacity: 1 }, { y: 0, duration: 1.2, ease: "power3.inOut" }, 164.3);
+        tl.to("#el-26-beat", { y: 1080, duration: 1.2, ease: "power3.inOut" }, 169.87);
+        tl.fromTo("#el-27-beat", { y: -1080, opacity: 1 }, { y: 0, duration: 1.2, ease: "power3.inOut" }, 169.87);
+        tl.to("#el-27-beat", { scaleX: 0, transformOrigin: "left center", duration: 1.1, ease: "power3.inOut" }, 178);
+        tl.fromTo("#el-28-beat", { scaleX: 0, transformOrigin: "right center", opacity: 1 }, { scaleX: 1, transformOrigin: "right center", duration: 1.1, ease: "power3.inOut" }, 178);
+        tl.to("#el-28-beat", { opacity: 0, duration: 1.4, ease: "power2.inOut" }, 183.92);
+        tl.fromTo("#el-29-beat", { opacity: 0 }, { opacity: 1, duration: 1.4, ease: "power2.inOut" }, 183.92);
+        tl.to("#el-29-beat", { filter: "blur(10px)", scale: 1.03, opacity: 0, duration: 1.6, ease: "power2.inOut" }, 190.16);
+        tl.fromTo("#el-30-beat", { filter: "blur(10px)", scale: 0.97, opacity: 0 }, { filter: "blur(0px)", scale: 1, opacity: 1, duration: 1.6, ease: "power2.inOut" }, 190.16);
+        tl.to("#el-30-beat", { x: -1920, duration: 1.2, ease: "power3.inOut" }, 193.83);
+        tl.fromTo("#el-31-beat", { x: 1920, opacity: 1 }, { x: 0, duration: 1.2, ease: "power3.inOut" }, 193.83);
+        tl.to("#el-31-beat", { x: 1920, duration: 1.2, ease: "power3.inOut" }, 196.86);
+        tl.fromTo("#el-32-beat", { x: -1920, opacity: 1 }, { x: 0, duration: 1.2, ease: "power3.inOut" }, 196.86);
+        tl.to("#el-32-beat", { y: -1080, duration: 1.2, ease: "power3.inOut" }, 202.53);
+        tl.fromTo("#el-33-beat", { y: 1080, opacity: 1 }, { y: 0, duration: 1.2, ease: "power3.inOut" }, 202.53);
+        tl.to("#el-33-beat", { y: 1080, duration: 1.2, ease: "power3.inOut" }, 207.12);
+        tl.fromTo("#el-34-beat", { y: -1080, opacity: 1 }, { y: 0, duration: 1.2, ease: "power3.inOut" }, 207.12);
+        tl.to("#el-34-beat", { scaleX: 0, transformOrigin: "left center", duration: 1.1, ease: "power3.inOut" }, 210.64);
+        tl.fromTo("#el-35-beat", { scaleX: 0, transformOrigin: "right center", opacity: 1 }, { scaleX: 1, transformOrigin: "right center", duration: 1.1, ease: "power3.inOut" }, 210.64);
+        tl.to("#el-35-beat", { opacity: 0, duration: 1.4, ease: "power2.inOut" }, 214.95);
+        tl.fromTo("#el-36-beat", { opacity: 0 }, { opacity: 1, duration: 1.4, ease: "power2.inOut" }, 214.95);
+        tl.to("#el-36-beat", { filter: "blur(10px)", scale: 1.03, opacity: 0, duration: 1.6, ease: "power2.inOut" }, 221.73);
+        tl.fromTo("#el-37-beat", { filter: "blur(10px)", scale: 0.97, opacity: 0 }, { filter: "blur(0px)", scale: 1, opacity: 1, duration: 1.6, ease: "power2.inOut" }, 221.73);
+        tl.to("#el-37-beat", { x: -1920, duration: 1.2, ease: "power3.inOut" }, 227.35);
+        tl.fromTo("#el-38-beat", { x: 1920, opacity: 1 }, { x: 0, duration: 1.2, ease: "power3.inOut" }, 227.35);
+        tl.to("#el-38-beat", { x: 1920, duration: 1.2, ease: "power3.inOut" }, 231.75);
+        tl.fromTo("#el-39-beat", { x: -1920, opacity: 1 }, { x: 0, duration: 1.2, ease: "power3.inOut" }, 231.75);
+        tl.to("#el-39-beat", { y: -1080, duration: 1.2, ease: "power3.inOut" }, 234.97);
+        tl.fromTo("#el-40-beat", { y: 1080, opacity: 1 }, { y: 0, duration: 1.2, ease: "power3.inOut" }, 234.97);
+        tl.to("#el-40-beat", { y: 1080, duration: 1.2, ease: "power3.inOut" }, 239.78);
+        tl.fromTo("#el-41-beat", { y: -1080, opacity: 1 }, { y: 0, duration: 1.2, ease: "power3.inOut" }, 239.78);
+        tl.to("#el-41-beat", { scaleX: 0, transformOrigin: "left center", duration: 1.1, ease: "power3.inOut" }, 247.62);
+        tl.fromTo("#el-42-beat", { scaleX: 0, transformOrigin: "right center", opacity: 1 }, { scaleX: 1, transformOrigin: "right center", duration: 1.1, ease: "power3.inOut" }, 247.62);
+        tl.to("#el-42-beat", { opacity: 0, duration: 1.4, ease: "power2.inOut" }, 251.23);
+        tl.fromTo("#el-43-beat", { opacity: 0 }, { opacity: 1, duration: 1.4, ease: "power2.inOut" }, 251.23);
+        tl.to("#el-43-beat", { filter: "blur(10px)", scale: 1.03, opacity: 0, duration: 1.6, ease: "power2.inOut" }, 257.82);
+        tl.fromTo("#el-44-beat", { filter: "blur(10px)", scale: 0.97, opacity: 0 }, { filter: "blur(0px)", scale: 1, opacity: 1, duration: 1.6, ease: "power2.inOut" }, 257.82);
+        tl.to("#el-44-beat", { x: -1920, duration: 1.2, ease: "power3.inOut" }, 262.9);
+        tl.fromTo("#el-45-beat", { x: 1920, opacity: 1 }, { x: 0, duration: 1.2, ease: "power3.inOut" }, 262.9);
+        tl.to("#el-45-beat", { x: 1920, duration: 1.2, ease: "power3.inOut" }, 267.37);
+        tl.fromTo("#el-46-beat", { x: -1920, opacity: 1 }, { x: 0, duration: 1.2, ease: "power3.inOut" }, 267.37);
+        tl.to("#el-46-beat", { y: -1080, duration: 1.2, ease: "power3.inOut" }, 272.1);
+        tl.fromTo("#el-47-beat", { y: 1080, opacity: 1 }, { y: 0, duration: 1.2, ease: "power3.inOut" }, 272.1);
+        tl.to("#el-47-beat", { y: 1080, duration: 1.2, ease: "power3.inOut" }, 280.72);
+        tl.fromTo("#el-48-beat", { y: -1080, opacity: 1 }, { y: 0, duration: 1.2, ease: "power3.inOut" }, 280.72);
+        tl.to("#el-48-beat", { scaleX: 0, transformOrigin: "left center", duration: 1.1, ease: "power3.inOut" }, 285.58);
+        tl.fromTo("#el-49-beat", { scaleX: 0, transformOrigin: "right center", opacity: 1 }, { scaleX: 1, transformOrigin: "right center", duration: 1.1, ease: "power3.inOut" }, 285.58);
+        tl.to("#el-49-beat", { opacity: 0, duration: 1.4, ease: "power2.inOut" }, 295.1);
+        tl.fromTo("#el-50-beat", { opacity: 0 }, { opacity: 1, duration: 1.4, ease: "power2.inOut" }, 295.1);
+        tl.to("#el-50-beat", { filter: "blur(10px)", scale: 1.03, opacity: 0, duration: 1.6, ease: "power2.inOut" }, 302.97);
+        tl.fromTo("#el-51-beat", { filter: "blur(10px)", scale: 0.97, opacity: 0 }, { filter: "blur(0px)", scale: 1, opacity: 1, duration: 1.6, ease: "power2.inOut" }, 302.97);
+        tl.to("#el-51-beat", { x: -1920, duration: 1.2, ease: "power3.inOut" }, 307.51);
+        tl.fromTo("#el-52-beat", { x: 1920, opacity: 1 }, { x: 0, duration: 1.2, ease: "power3.inOut" }, 307.51);
+        tl.to("#el-52-beat", { x: 1920, duration: 1.2, ease: "power3.inOut" }, 314.14);
+        tl.fromTo("#el-53-beat", { x: -1920, opacity: 1 }, { x: 0, duration: 1.2, ease: "power3.inOut" }, 314.14);
+        tl.to("#el-53-beat", { y: -1080, duration: 1.2, ease: "power3.inOut" }, 318.75);
+        tl.fromTo("#el-54-beat", { y: 1080, opacity: 1 }, { y: 0, duration: 1.2, ease: "power3.inOut" }, 318.75);
+        tl.to("#el-54-beat", { y: 1080, duration: 1.2, ease: "power3.inOut" }, 325.23);
+        tl.fromTo("#el-55-beat", { y: -1080, opacity: 1 }, { y: 0, duration: 1.2, ease: "power3.inOut" }, 325.23);
+        tl.to("#el-55-beat", { scaleX: 0, transformOrigin: "left center", duration: 1.1, ease: "power3.inOut" }, 332.65);
+        tl.fromTo("#el-56-beat", { scaleX: 0, transformOrigin: "right center", opacity: 1 }, { scaleX: 1, transformOrigin: "right center", duration: 1.1, ease: "power3.inOut" }, 332.65);
+        tl.to("#el-56-beat", { opacity: 0, duration: 1.4, ease: "power2.inOut" }, 337.28);
+        tl.fromTo("#el-57-beat", { opacity: 0 }, { opacity: 1, duration: 1.4, ease: "power2.inOut" }, 337.28);
+        tl.to("#el-57-beat", { filter: "blur(10px)", scale: 1.03, opacity: 0, duration: 1.6, ease: "power2.inOut" }, 343.98);
+        tl.fromTo("#el-58-beat", { filter: "blur(10px)", scale: 0.97, opacity: 0 }, { filter: "blur(0px)", scale: 1, opacity: 1, duration: 1.6, ease: "power2.inOut" }, 343.98);
+        tl.to("#el-58-beat", { x: -1920, duration: 0.8, ease: "power3.inOut" }, 347.08);
+        tl.fromTo("#el-59-beat", { x: 1920, opacity: 1 }, { x: 0, duration: 0.8, ease: "power3.inOut" }, 347.08);
+        tl.to("#el-59-beat", { x: 1920, duration: 1.2, ease: "power3.inOut" }, 352.75);
+        tl.fromTo("#el-60-beat", { x: -1920, opacity: 1 }, { x: 0, duration: 1.2, ease: "power3.inOut" }, 352.75);
+        tl.to("#el-60-beat", { y: -1080, duration: 1.2, ease: "power3.inOut" }, 360.34);
+        tl.fromTo("#el-61-beat", { y: 1080, opacity: 1 }, { y: 0, duration: 1.2, ease: "power3.inOut" }, 360.34);
+        tl.to("#el-61-beat", { y: 1080, duration: 1.2, ease: "power3.inOut" }, 368.63);
+        tl.fromTo("#el-62-beat", { y: -1080, opacity: 1 }, { y: 0, duration: 1.2, ease: "power3.inOut" }, 368.63);
+        tl.to("#el-62-beat", { scaleX: 0, transformOrigin: "left center", duration: 1.1, ease: "power3.inOut" }, 378.33);
+        tl.fromTo("#el-63-beat", { scaleX: 0, transformOrigin: "right center", opacity: 1 }, { scaleX: 1, transformOrigin: "right center", duration: 1.1, ease: "power3.inOut" }, 378.33);
+        tl.to("#el-63-beat", { opacity: 0, duration: 1.4, ease: "power2.inOut" }, 384.94);
+        tl.fromTo("#el-64-beat", { opacity: 0 }, { opacity: 1, duration: 1.4, ease: "power2.inOut" }, 384.94);
+        tl.to("#el-64-beat", { filter: "blur(10px)", scale: 1.03, opacity: 0, duration: 1.6, ease: "power2.inOut" }, 391.65);
+        tl.fromTo("#el-65-beat", { filter: "blur(10px)", scale: 0.97, opacity: 0 }, { filter: "blur(0px)", scale: 1, opacity: 1, duration: 1.6, ease: "power2.inOut" }, 391.65);
+        tl.to("#el-65-beat", { x: -1920, duration: 1.2, ease: "power3.inOut" }, 398.51);
+        tl.fromTo("#el-66-beat", { x: 1920, opacity: 1 }, { x: 0, duration: 1.2, ease: "power3.inOut" }, 398.51);
+        tl.to("#el-66-beat", { x: 1920, duration: 1.2, ease: "power3.inOut" }, 405.01);
+        tl.fromTo("#el-67-beat", { x: -1920, opacity: 1 }, { x: 0, duration: 1.2, ease: "power3.inOut" }, 405.01);
+        tl.to("#el-67-beat", { y: -1080, duration: 1.2, ease: "power3.inOut" }, 411.98);
+        tl.fromTo("#el-68-beat", { y: 1080, opacity: 1 }, { y: 0, duration: 1.2, ease: "power3.inOut" }, 411.98);
+        tl.to("#el-68-beat", { y: 1080, duration: 1.2, ease: "power3.inOut" }, 418.48);
+        tl.fromTo("#el-69-beat", { y: -1080, opacity: 1 }, { y: 0, duration: 1.2, ease: "power3.inOut" }, 418.48);
+        tl.to("#el-69-beat", { scaleX: 0, transformOrigin: "left center", duration: 1.1, ease: "power3.inOut" }, 426.07);
+        tl.fromTo("#el-70-beat", { scaleX: 0, transformOrigin: "right center", opacity: 1 }, { scaleX: 1, transformOrigin: "right center", duration: 1.1, ease: "power3.inOut" }, 426.07);
+        tl.to("#el-70-beat", { opacity: 0, duration: 1.4, ease: "power2.inOut" }, 433.16);
+        tl.fromTo("#el-71-beat", { opacity: 0 }, { opacity: 1, duration: 1.4, ease: "power2.inOut" }, 433.16);
+        tl.to("#el-71-beat", { filter: "blur(10px)", scale: 1.03, opacity: 0, duration: 1.6, ease: "power2.inOut" }, 437.14);
+        tl.fromTo("#el-72-beat", { filter: "blur(10px)", scale: 0.97, opacity: 0 }, { filter: "blur(0px)", scale: 1, opacity: 1, duration: 1.6, ease: "power2.inOut" }, 437.14);
+        tl.to("#el-72-beat", { x: -1920, duration: 1.2, ease: "power3.inOut" }, 441.15);
+        tl.fromTo("#el-73-beat", { x: 1920, opacity: 1 }, { x: 0, duration: 1.2, ease: "power3.inOut" }, 441.15);
+        tl.to("#el-73-beat", { x: 1920, duration: 1.2, ease: "power3.inOut" }, 447.94);
+        tl.fromTo("#el-74-beat", { x: -1920, opacity: 1 }, { x: 0, duration: 1.2, ease: "power3.inOut" }, 447.94);
+        tl.to("#el-74-beat", { y: -1080, duration: 1.2, ease: "power3.inOut" }, 453.66);
+        tl.fromTo("#el-75-beat", { y: 1080, opacity: 1 }, { y: 0, duration: 1.2, ease: "power3.inOut" }, 453.66);
+        tl.to("#el-75-beat", { y: 1080, duration: 1.2, ease: "power3.inOut" }, 462.95);
+        tl.fromTo("#el-76-beat", { y: -1080, opacity: 1 }, { y: 0, duration: 1.2, ease: "power3.inOut" }, 462.95);
+        tl.to("#el-76-beat", { scaleX: 0, transformOrigin: "left center", duration: 1.1, ease: "power3.inOut" }, 471.58);
+        tl.fromTo("#el-77-beat", { scaleX: 0, transformOrigin: "right center", opacity: 1 }, { scaleX: 1, transformOrigin: "right center", duration: 1.1, ease: "power3.inOut" }, 471.58);
+        tl.to("#el-77-beat", { opacity: 0, duration: 1.4, ease: "power2.inOut" }, 475.89);
+        tl.fromTo("#el-78-beat", { opacity: 0 }, { opacity: 1, duration: 1.4, ease: "power2.inOut" }, 475.89);
+        tl.to("#el-78-beat", { filter: "blur(10px)", scale: 1.03, opacity: 0, duration: 1.6, ease: "power2.inOut" }, 480.24);
+        tl.fromTo("#el-79-beat", { filter: "blur(10px)", scale: 0.97, opacity: 0 }, { filter: "blur(0px)", scale: 1, opacity: 1, duration: 1.6, ease: "power2.inOut" }, 480.24);
+        tl.to("#el-79-beat", { x: -1920, duration: 1.2, ease: "power3.inOut" }, 484.53);
+        tl.fromTo("#el-80-beat", { x: 1920, opacity: 1 }, { x: 0, duration: 1.2, ease: "power3.inOut" }, 484.53);
+        tl.to("#el-80-beat", { x: 1920, duration: 1.2, ease: "power3.inOut" }, 493.96);
+        tl.fromTo("#el-81-beat", { x: -1920, opacity: 1 }, { x: 0, duration: 1.2, ease: "power3.inOut" }, 493.96);
+        tl.to("#el-81-beat", { y: -1080, duration: 1.2, ease: "power3.inOut" }, 499.15);
+        tl.fromTo("#el-82-beat", { y: 1080, opacity: 1 }, { y: 0, duration: 1.2, ease: "power3.inOut" }, 499.15);
+        tl.to("#el-82-beat", { y: 1080, duration: 1.2, ease: "power3.inOut" }, 505.13);
+        tl.fromTo("#el-83-beat", { y: -1080, opacity: 1 }, { y: 0, duration: 1.2, ease: "power3.inOut" }, 505.13);
+        tl.to("#el-83-beat", { scaleX: 0, transformOrigin: "left center", duration: 1.1, ease: "power3.inOut" }, 509.16);
+        tl.fromTo("#el-84-beat", { scaleX: 0, transformOrigin: "right center", opacity: 1 }, { scaleX: 1, transformOrigin: "right center", duration: 1.1, ease: "power3.inOut" }, 509.16);
+        tl.to("#el-84-beat", { opacity: 0, duration: 1.4, ease: "power2.inOut" }, 517.75);
+        tl.fromTo("#el-85-beat", { opacity: 0 }, { opacity: 1, duration: 1.4, ease: "power2.inOut" }, 517.75);
+        tl.to("#el-85-beat", { filter: "blur(10px)", scale: 1.03, opacity: 0, duration: 1.6, ease: "power2.inOut" }, 522.27);
+        tl.fromTo("#el-86-beat", { filter: "blur(10px)", scale: 0.97, opacity: 0 }, { filter: "blur(0px)", scale: 1, opacity: 1, duration: 1.6, ease: "power2.inOut" }, 522.27);
+        tl.to("#el-86-beat", { x: -1920, duration: 1.2, ease: "power3.inOut" }, 530.55);
+        tl.fromTo("#el-87-beat", { x: 1920, opacity: 1 }, { x: 0, duration: 1.2, ease: "power3.inOut" }, 530.55);
+        tl.to("#el-87-beat", { x: 1920, duration: 1.2, ease: "power3.inOut" }, 534.77);
+        tl.fromTo("#el-88-beat", { x: -1920, opacity: 1 }, { x: 0, duration: 1.2, ease: "power3.inOut" }, 534.77);
+        tl.to("#el-88-beat", { y: -1080, duration: 1.2, ease: "power3.inOut" }, 542.5);
+        tl.fromTo("#el-89-beat", { y: 1080, opacity: 1 }, { y: 0, duration: 1.2, ease: "power3.inOut" }, 542.5);
+        tl.to("#el-89-beat", { y: 1080, duration: 1.2, ease: "power3.inOut" }, 551.18);
+        tl.fromTo("#el-90-beat", { y: -1080, opacity: 1 }, { y: 0, duration: 1.2, ease: "power3.inOut" }, 551.18);
+        tl.to("#el-90-beat", { scaleX: 0, transformOrigin: "left center", duration: 1.1, ease: "power3.inOut" }, 560.77);
+        tl.fromTo("#el-91-beat", { scaleX: 0, transformOrigin: "right center", opacity: 1 }, { scaleX: 1, transformOrigin: "right center", duration: 1.1, ease: "power3.inOut" }, 560.77);
+        tl.to("#el-91-beat", { opacity: 0, duration: 1.4, ease: "power2.inOut" }, 564.64);
+        tl.fromTo("#el-92-beat", { opacity: 0 }, { opacity: 1, duration: 1.4, ease: "power2.inOut" }, 564.64);
+        tl.to("#el-92-beat", { filter: "blur(10px)", scale: 1.03, opacity: 0, duration: 1.6, ease: "power2.inOut" }, 568.4);
+        tl.fromTo("#el-93-beat", { filter: "blur(10px)", scale: 0.97, opacity: 0 }, { filter: "blur(0px)", scale: 1, opacity: 1, duration: 1.6, ease: "power2.inOut" }, 568.4);
+        tl.to("#el-93-beat", { x: -1920, duration: 1.2, ease: "power3.inOut" }, 576.14);
+        tl.fromTo("#el-94-beat", { x: 1920, opacity: 1 }, { x: 0, duration: 1.2, ease: "power3.inOut" }, 576.14);
+        tl.to("#el-94-beat", { x: 1920, duration: 1.2, ease: "power3.inOut" }, 580.49);
+        tl.fromTo("#el-95-beat", { x: -1920, opacity: 1 }, { x: 0, duration: 1.2, ease: "power3.inOut" }, 580.49);
+        tl.to("#el-95-beat", { y: -1080, duration: 1.2, ease: "power3.inOut" }, 589.61);
+        tl.fromTo("#el-96-beat", { y: 1080, opacity: 1 }, { y: 0, duration: 1.2, ease: "power3.inOut" }, 589.61);
+        tl.to("#el-96-beat", { y: 1080, duration: 1.2, ease: "power3.inOut" }, 594.92);
+        tl.fromTo("#el-97-beat", { y: -1080, opacity: 1 }, { y: 0, duration: 1.2, ease: "power3.inOut" }, 594.92);
+        tl.to("#el-97-beat", { scaleX: 0, transformOrigin: "left center", duration: 1.1, ease: "power3.inOut" }, 597.96);
+        tl.fromTo("#el-98-beat", { scaleX: 0, transformOrigin: "right center", opacity: 1 }, { scaleX: 1, transformOrigin: "right center", duration: 1.1, ease: "power3.inOut" }, 597.96);
+        tl.to("#el-98-beat", { opacity: 0, duration: 1.4, ease: "power2.inOut" }, 601.7);
+        tl.fromTo("#el-99-beat", { opacity: 0 }, { opacity: 1, duration: 1.4, ease: "power2.inOut" }, 601.7);
+        tl.to("#el-99-beat", { filter: "blur(10px)", scale: 1.03, opacity: 0, duration: 1.6, ease: "power2.inOut" }, 604.76);
+        tl.fromTo("#el-100-beat", { filter: "blur(10px)", scale: 0.97, opacity: 0 }, { filter: "blur(0px)", scale: 1, opacity: 1, duration: 1.6, ease: "power2.inOut" }, 604.76);
+        tl.to("#el-100-beat", { x: -1920, duration: 1.2, ease: "power3.inOut" }, 613.99);
+        tl.fromTo("#el-101-beat", { x: 1920, opacity: 1 }, { x: 0, duration: 1.2, ease: "power3.inOut" }, 613.99);
+        tl.to("#el-101-beat", { x: 1920, duration: 1.2, ease: "power3.inOut" }, 620.6);
+        tl.fromTo("#el-102-beat", { x: -1920, opacity: 1 }, { x: 0, duration: 1.2, ease: "power3.inOut" }, 620.6);
+        tl.to("#el-102-beat", { y: -1080, duration: 1.2, ease: "power3.inOut" }, 628.75);
+        tl.fromTo("#el-103-beat", { y: 1080, opacity: 1 }, { y: 0, duration: 1.2, ease: "power3.inOut" }, 628.75);
+        tl.to("#el-103-beat", { y: 1080, duration: 1.2, ease: "power3.inOut" }, 638.19);
+        tl.fromTo("#el-104-beat", { y: -1080, opacity: 1 }, { y: 0, duration: 1.2, ease: "power3.inOut" }, 638.19);
+        tl.to("#el-104-beat", { scaleX: 0, transformOrigin: "left center", duration: 1.1, ease: "power3.inOut" }, 645.45);
+        tl.fromTo("#el-105-beat", { scaleX: 0, transformOrigin: "right center", opacity: 1 }, { scaleX: 1, transformOrigin: "right center", duration: 1.1, ease: "power3.inOut" }, 645.45);
+        tl.to("#el-105-beat", { opacity: 0, duration: 1.4, ease: "power2.inOut" }, 650.98);
+        tl.fromTo("#el-106-beat", { opacity: 0 }, { opacity: 1, duration: 1.4, ease: "power2.inOut" }, 650.98);
+        tl.to("#el-106-beat", { filter: "blur(10px)", scale: 1.03, opacity: 0, duration: 1.6, ease: "power2.inOut" }, 656.12);
+        tl.fromTo("#el-107-beat", { filter: "blur(10px)", scale: 0.97, opacity: 0 }, { filter: "blur(0px)", scale: 1, opacity: 1, duration: 1.6, ease: "power2.inOut" }, 656.12);
+        tl.to("#el-107-beat", { x: -1920, duration: 1.2, ease: "power3.inOut" }, 661.43);
+        tl.fromTo("#el-108-beat", { x: 1920, opacity: 1 }, { x: 0, duration: 1.2, ease: "power3.inOut" }, 661.43);
+        tl.to("#el-108-beat", { x: 1920, duration: 1.2, ease: "power3.inOut" }, 664.92);
+        tl.fromTo("#el-109-beat", { x: -1920, opacity: 1 }, { x: 0, duration: 1.2, ease: "power3.inOut" }, 664.92);
+        tl.to("#el-109-beat", { y: -1080, duration: 1.2, ease: "power3.inOut" }, 672.15);
+        tl.fromTo("#el-110-beat", { y: 1080, opacity: 1 }, { y: 0, duration: 1.2, ease: "power3.inOut" }, 672.15);
+        tl.to("#el-110-beat", { y: 1080, duration: 1.2, ease: "power3.inOut" }, 680.35);
+        tl.fromTo("#el-111-beat", { y: -1080, opacity: 1 }, { y: 0, duration: 1.2, ease: "power3.inOut" }, 680.35);
+        tl.to("#el-111-beat", { scaleX: 0, transformOrigin: "left center", duration: 1.1, ease: "power3.inOut" }, 686.66);
+        tl.fromTo("#el-112-beat", { scaleX: 0, transformOrigin: "right center", opacity: 1 }, { scaleX: 1, transformOrigin: "right center", duration: 1.1, ease: "power3.inOut" }, 686.66);
+        tl.to("#el-112-beat", { opacity: 0, duration: 1.4, ease: "power2.inOut" }, 692.74);
+        tl.fromTo("#el-113-beat", { opacity: 0 }, { opacity: 1, duration: 1.4, ease: "power2.inOut" }, 692.74);
+        tl.to("#el-113-beat", { filter: "blur(10px)", scale: 1.03, opacity: 0, duration: 1.6, ease: "power2.inOut" }, 697.27);
+        tl.fromTo("#el-114-beat", { filter: "blur(10px)", scale: 0.97, opacity: 0 }, { filter: "blur(0px)", scale: 1, opacity: 1, duration: 1.6, ease: "power2.inOut" }, 697.27);
+        tl.to("#el-114-beat", { x: -1920, duration: 1.2, ease: "power3.inOut" }, 701.04);
+        tl.fromTo("#el-115-beat", { x: 1920, opacity: 1 }, { x: 0, duration: 1.2, ease: "power3.inOut" }, 701.04);
+        tl.to("#el-115-beat", { x: 1920, duration: 1.2, ease: "power3.inOut" }, 705.91);
+        tl.fromTo("#el-116-beat", { x: -1920, opacity: 1 }, { x: 0, duration: 1.2, ease: "power3.inOut" }, 705.91);
+        tl.to("#el-116-beat", { y: -1080, duration: 1.2, ease: "power3.inOut" }, 710.05);
+        tl.fromTo("#el-117-beat", { y: 1080, opacity: 1 }, { y: 0, duration: 1.2, ease: "power3.inOut" }, 710.05);
+        tl.to("#el-117-beat", { y: 1080, duration: 1.2, ease: "power3.inOut" }, 714.4);
+        tl.fromTo("#el-118-beat", { y: -1080, opacity: 1 }, { y: 0, duration: 1.2, ease: "power3.inOut" }, 714.4);
+        tl.to("#el-118-beat", { scaleX: 0, transformOrigin: "left center", duration: 1.1, ease: "power3.inOut" }, 721.25);
+        tl.fromTo("#el-119-beat", { scaleX: 0, transformOrigin: "right center", opacity: 1 }, { scaleX: 1, transformOrigin: "right center", duration: 1.1, ease: "power3.inOut" }, 721.25);
+        tl.to("#el-119-beat", { opacity: 0, duration: 1.4, ease: "power2.inOut" }, 728.11);
+        tl.fromTo("#el-120-beat", { opacity: 0 }, { opacity: 1, duration: 1.4, ease: "power2.inOut" }, 728.11);
+        tl.to("#el-120-beat", { filter: "blur(10px)", scale: 1.03, opacity: 0, duration: 1.6, ease: "power2.inOut" }, 735.22);
+        tl.fromTo("#el-121-beat", { filter: "blur(10px)", scale: 0.97, opacity: 0 }, { filter: "blur(0px)", scale: 1, opacity: 1, duration: 1.6, ease: "power2.inOut" }, 735.22);
+        tl.to("#el-121-beat", { x: -1920, duration: 1.2, ease: "power3.inOut" }, 741.84);
+        tl.fromTo("#el-122-beat", { x: 1920, opacity: 1 }, { x: 0, duration: 1.2, ease: "power3.inOut" }, 741.84);
+        tl.to("#el-122-beat", { x: 1920, duration: 1.2, ease: "power3.inOut" }, 747.33);
+        tl.fromTo("#el-123-beat", { x: -1920, opacity: 1 }, { x: 0, duration: 1.2, ease: "power3.inOut" }, 747.33);
+        tl.to("#el-123-beat", { y: -1080, duration: 1.2, ease: "power3.inOut" }, 751.36);
+        tl.fromTo("#el-124-beat", { y: 1080, opacity: 1 }, { y: 0, duration: 1.2, ease: "power3.inOut" }, 751.36);
+        tl.to("#el-124-beat", { y: 1080, duration: 1.2, ease: "power3.inOut" }, 757.59);
+        tl.fromTo("#el-125-beat", { y: -1080, opacity: 1 }, { y: 0, duration: 1.2, ease: "power3.inOut" }, 757.59);
+        tl.to("#el-125-beat", { scaleX: 0, transformOrigin: "left center", duration: 1.1, ease: "power3.inOut" }, 764.95);
+        tl.fromTo("#el-126-beat", { scaleX: 0, transformOrigin: "right center", opacity: 1 }, { scaleX: 1, transformOrigin: "right center", duration: 1.1, ease: "power3.inOut" }, 764.95);
+        tl.to("#el-126-beat", { opacity: 0, duration: 1.4, ease: "power2.inOut" }, 770.45);
+        tl.fromTo("#el-127-beat", { opacity: 0 }, { opacity: 1, duration: 1.4, ease: "power2.inOut" }, 770.45);
+        tl.to("#el-127-beat", { filter: "blur(10px)", scale: 1.03, opacity: 0, duration: 1.6, ease: "power2.inOut" }, 776.95);
+        tl.fromTo("#el-128-beat", { filter: "blur(10px)", scale: 0.97, opacity: 0 }, { filter: "blur(0px)", scale: 1, opacity: 1, duration: 1.6, ease: "power2.inOut" }, 776.95);
+        tl.to("#el-128-beat", { x: -1920, duration: 1.2, ease: "power3.inOut" }, 782.29);
+        tl.fromTo("#el-129-beat", { x: 1920, opacity: 1 }, { x: 0, duration: 1.2, ease: "power3.inOut" }, 782.29);
+        tl.to("#el-129-beat", { x: 1920, duration: 1.2, ease: "power3.inOut" }, 787.01);
+        tl.fromTo("#el-130-beat", { x: -1920, opacity: 1 }, { x: 0, duration: 1.2, ease: "power3.inOut" }, 787.01);
+        tl.to("#el-130-beat", { y: -1080, duration: 1.2, ease: "power3.inOut" }, 796.26);
+        tl.fromTo("#el-131-beat", { y: 1080, opacity: 1 }, { y: 0, duration: 1.2, ease: "power3.inOut" }, 796.26);
+        tl.to("#el-131-beat", { y: 1080, duration: 1.2, ease: "power3.inOut" }, 800.06);
+        tl.fromTo("#el-132-beat", { y: -1080, opacity: 1 }, { y: 0, duration: 1.2, ease: "power3.inOut" }, 800.06);
+        tl.to("#el-132-beat", { scaleX: 0, transformOrigin: "left center", duration: 1.1, ease: "power3.inOut" }, 805.2);
+        tl.fromTo("#el-133-beat", { scaleX: 0, transformOrigin: "right center", opacity: 1 }, { scaleX: 1, transformOrigin: "right center", duration: 1.1, ease: "power3.inOut" }, 805.2);
+        tl.to("#el-133-beat", { opacity: 0, duration: 1.4, ease: "power2.inOut" }, 808.92);
+        tl.fromTo("#el-134-beat", { opacity: 0 }, { opacity: 1, duration: 1.4, ease: "power2.inOut" }, 808.92);
+        tl.to("#el-134-beat", { filter: "blur(10px)", scale: 1.03, opacity: 0, duration: 1.6, ease: "power2.inOut" }, 813.47);
+        tl.fromTo("#el-135-beat", { filter: "blur(10px)", scale: 0.97, opacity: 0 }, { filter: "blur(0px)", scale: 1, opacity: 1, duration: 1.6, ease: "power2.inOut" }, 813.47);
+        tl.to("#el-135-beat", { x: -1920, duration: 1.2, ease: "power3.inOut" }, 816.82);
+        tl.fromTo("#el-136-beat", { x: 1920, opacity: 1 }, { x: 0, duration: 1.2, ease: "power3.inOut" }, 816.82);
+        tl.to("#el-136-beat", { x: 1920, duration: 1.2, ease: "power3.inOut" }, 823.88);
+        tl.fromTo("#el-137-beat", { x: -1920, opacity: 1 }, { x: 0, duration: 1.2, ease: "power3.inOut" }, 823.88);
+        tl.to("#el-137-beat", { y: -1080, duration: 1.2, ease: "power3.inOut" }, 832.98);
+        tl.fromTo("#el-138-beat", { y: 1080, opacity: 1 }, { y: 0, duration: 1.2, ease: "power3.inOut" }, 832.98);
+        tl.to("#el-138-beat", { y: 1080, duration: 1.2, ease: "power3.inOut" }, 836.57);
+        tl.fromTo("#el-139-beat", { y: -1080, opacity: 1 }, { y: 0, duration: 1.2, ease: "power3.inOut" }, 836.57);
+        tl.to("#el-139-beat", { scaleX: 0, transformOrigin: "left center", duration: 1.1, ease: "power3.inOut" }, 845.74);
+        tl.fromTo("#el-140-beat", { scaleX: 0, transformOrigin: "right center", opacity: 1 }, { scaleX: 1, transformOrigin: "right center", duration: 1.1, ease: "power3.inOut" }, 845.74);
+        tl.to("#el-140-beat", { opacity: 0, duration: 1.4, ease: "power2.inOut" }, 852.25);
+        tl.fromTo("#el-141-beat", { opacity: 0 }, { opacity: 1, duration: 1.4, ease: "power2.inOut" }, 852.25);
+        tl.to("#el-141-beat", { filter: "blur(10px)", scale: 1.03, opacity: 0, duration: 1.6, ease: "power2.inOut" }, 860.86);
+        tl.fromTo("#el-142-beat", { filter: "blur(10px)", scale: 0.97, opacity: 0 }, { filter: "blur(0px)", scale: 1, opacity: 1, duration: 1.6, ease: "power2.inOut" }, 860.86);
+        tl.to("#el-142-beat", { x: -1920, duration: 1.2, ease: "power3.inOut" }, 865.82);
+        tl.fromTo("#el-143-beat", { x: 1920, opacity: 1 }, { x: 0, duration: 1.2, ease: "power3.inOut" }, 865.82);
+        tl.to("#el-143-beat", { x: 1920, duration: 1.2, ease: "power3.inOut" }, 870.71);
+        tl.fromTo("#el-144-beat", { x: -1920, opacity: 1 }, { x: 0, duration: 1.2, ease: "power3.inOut" }, 870.71);
+        tl.to("#el-144-beat", { y: -1080, duration: 1.2, ease: "power3.inOut" }, 874.15);
+        tl.fromTo("#el-145-beat", { y: 1080, opacity: 1 }, { y: 0, duration: 1.2, ease: "power3.inOut" }, 874.15);
+        tl.to("#el-145-beat", { y: 1080, duration: 1.2, ease: "power3.inOut" }, 880.81);
+        tl.fromTo("#el-146-beat", { y: -1080, opacity: 1 }, { y: 0, duration: 1.2, ease: "power3.inOut" }, 880.81);
+        tl.to("#el-146-beat", { scaleX: 0, transformOrigin: "left center", duration: 1.1, ease: "power3.inOut" }, 885.43);
+        tl.fromTo("#el-147-beat", { scaleX: 0, transformOrigin: "right center", opacity: 1 }, { scaleX: 1, transformOrigin: "right center", duration: 1.1, ease: "power3.inOut" }, 885.43);
+        tl.to("#el-147-beat", { opacity: 0, duration: 1.4, ease: "power2.inOut" }, 891.07);
+        tl.fromTo("#el-148-beat", { opacity: 0 }, { opacity: 1, duration: 1.4, ease: "power2.inOut" }, 891.07);
+        tl.to("#el-148-beat", { filter: "blur(10px)", scale: 1.03, opacity: 0, duration: 1.6, ease: "power2.inOut" }, 895.15);
+        tl.fromTo("#el-149-beat", { filter: "blur(10px)", scale: 0.97, opacity: 0 }, { filter: "blur(0px)", scale: 1, opacity: 1, duration: 1.6, ease: "power2.inOut" }, 895.15);
+        tl.to("#el-149-beat", { x: -1920, duration: 1.2, ease: "power3.inOut" }, 900.06);
+        tl.fromTo("#el-150-beat", { x: 1920, opacity: 1 }, { x: 0, duration: 1.2, ease: "power3.inOut" }, 900.06);
+        tl.to("#el-150-beat", { x: 1920, duration: 1.2, ease: "power3.inOut" }, 903.99);
+        tl.fromTo("#el-151-beat", { x: -1920, opacity: 1 }, { x: 0, duration: 1.2, ease: "power3.inOut" }, 903.99);
+        tl.to({}, { duration: 910.47 }, 0); // full-span anchor — main.duration() == composition total (Studio master duration)
+      })();
+    </script>
+  </body>
+</html>

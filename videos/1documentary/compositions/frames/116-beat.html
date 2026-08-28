@@ -1,0 +1,268 @@
+<template>
+<style>
+  #root {
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+    overflow: hidden;
+    font-family: -apple-system, "Inter", sans-serif;
+  }
+
+  #root .clip {
+    position: absolute;
+  }
+
+  .beat116-bg {
+    top: 0; left: 0; width: 1920px; height: 1080px;
+    background: #0d0e10;
+  }
+
+  .beat116-bg::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(ellipse at 50% 45%, rgba(127,176,216,0.06), transparent 65%);
+  }
+
+  .beat116-stage {
+    top: 0; left: 0; width: 1920px; height: 1080px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .beat116-diagram {
+    position: relative;
+    width: 900px;
+    height: 560px;
+  }
+
+  /* Simplified head/throat silhouette, side profile */
+  .beat116-silhouette {
+    position: absolute;
+    top: 0;
+    left: 60px;
+    width: 520px;
+    height: 560px;
+  }
+
+  .beat116-silhouette svg {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+
+  .beat116-outline {
+    fill: none;
+    stroke: rgba(242,242,240,0.5);
+    stroke-width: 2.5;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+  }
+
+  .beat116-throatline {
+    fill: none;
+    stroke: rgba(242,242,240,0.28);
+    stroke-width: 1.5;
+    stroke-dasharray: 4 6;
+  }
+
+  /* Gill opening highlight circle */
+  .beat116-highlight-wrap {
+    position: absolute;
+    left: 292px;
+    top: 350px;
+    width: 140px;
+    height: 140px;
+  }
+
+  .beat116-ring {
+    position: absolute;
+    inset: 0;
+    border-radius: 50%;
+    border: 3px solid #7fb0d8;
+    opacity: 0;
+  }
+
+  .beat116-ring-pulse {
+    position: absolute;
+    inset: 0;
+    border-radius: 50%;
+    border: 2px solid #7fb0d8;
+    opacity: 0;
+  }
+
+  .beat116-slit {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 6px;
+    height: 34px;
+    background: #7fb0d8;
+    border-radius: 3px;
+    transform: translate(-50%, -50%) scaleY(0);
+    transform-origin: center;
+    box-shadow: 0 0 18px rgba(127,176,216,0.5);
+  }
+
+  /* Leader line + label */
+  .beat116-leader {
+    position: absolute;
+    left: 432px;
+    top: 400px;
+    width: 260px;
+    height: 2px;
+  }
+
+  .beat116-leader svg {
+    width: 100%;
+    height: 160px;
+    overflow: visible;
+    position: absolute;
+    top: -80px;
+    left: 0;
+  }
+
+  .beat116-leader path {
+    fill: none;
+    stroke: rgba(127,176,216,0.6);
+    stroke-width: 2;
+    stroke-dasharray: 300;
+    stroke-dashoffset: 300;
+  }
+
+  .beat116-label {
+    position: absolute;
+    left: 700px;
+    top: 330px;
+    width: 420px;
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  .beat116-label-eyebrow {
+    font-size: 22px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #7fb0d8;
+    opacity: 0.85;
+    margin: 0 0 10px 0;
+    font-weight: 600;
+  }
+
+  .beat116-label-main {
+    font-size: 40px;
+    line-height: 1.25;
+    color: #f2f2f0;
+    font-weight: 600;
+    margin: 0;
+    letter-spacing: -0.01em;
+  }
+
+  .beat116-label-sub {
+    font-size: 24px;
+    line-height: 1.4;
+    color: #f2f2f0;
+    opacity: 0.7;
+    margin: 14px 0 0 0;
+    font-weight: 400;
+  }
+</style>
+
+<div data-hf-id="hf-s0bu" id="root" data-composition-id="116-beat" data-width="1920" data-height="1080" data-duration="5.34">
+
+  <div data-hf-id="hf-cp1q" class="clip beat116-bg" data-start="0" data-duration="6.54" data-track-index="0"></div>
+
+  <div data-hf-id="hf-jcyk" class="clip beat116-stage" data-start="0" data-duration="6.54" data-track-index="1">
+    <div data-hf-id="hf-47y0" class="beat116-diagram">
+
+      <div data-hf-id="hf-8ftn" class="beat116-silhouette">
+        <svg data-hf-id="hf-db73" viewBox="0 0 520 560" preserveAspectRatio="xMidYMid meet">
+          <path data-hf-id="hf-czfv" class="beat116-outline" d="
+            M 90 40
+            C 180 10, 300 20, 340 90
+            C 370 140, 355 190, 380 230
+            C 400 265, 420 300, 410 350
+            C 400 410, 350 460, 300 480
+            C 260 495, 220 500, 190 480
+            C 175 460, 178 430, 165 405
+            C 150 375, 120 360, 110 320
+            C 100 275, 120 240, 110 200
+            C 100 150, 70 100, 90 40
+            Z" />
+          <path data-hf-id="hf-kag4" class="beat116-throatline" d="M 230 300 C 260 340, 270 390, 260 440" />
+        </svg>
+      </div>
+
+      <div data-hf-id="hf-nyr4" class="beat116-highlight-wrap">
+        <div data-hf-id="hf-rfnj" class="beat116-ring"></div>
+        <div data-hf-id="hf-v3cj" class="beat116-ring-pulse"></div>
+        <div data-hf-id="hf-86qr" class="beat116-slit"></div>
+      </div>
+
+      <div data-hf-id="hf-agu2" class="beat116-leader">
+        <svg data-hf-id="hf-h0va" viewBox="0 0 260 160" preserveAspectRatio="none">
+          <path data-hf-id="hf-3yqq" d="M 10 80 C 90 80, 140 40, 250 20" />
+        </svg>
+      </div>
+
+      <div data-hf-id="hf-jzm1" class="beat116-label">
+        <p data-hf-id="hf-uyii" class="beat116-label-eyebrow">Anatomical detail</p>
+        <p data-hf-id="hf-o1li" class="beat116-label-main">Single gill opening</p>
+        <p data-hf-id="hf-ou0m" class="beat116-label-sub">Underside of the throat</p>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script>
+(function () {
+  var root = document;
+  if (!root) return;
+
+  var q = function (sel) { return root.querySelector(sel); };
+
+  var silhouette = q('.beat116-silhouette');
+  var throatline = q('.beat116-throatline');
+  var ring = q('.beat116-ring');
+  var ringPulse = q('.beat116-ring-pulse');
+  var slit = q('.beat116-slit');
+  var leaderPath = q('.beat116-leader path');
+  var label = q('.beat116-label');
+
+  gsap.set(silhouette, { opacity: 0, x: -20 });
+  gsap.set(throatline, { opacity: 0 });
+  gsap.set(ring, { opacity: 0, scale: 1.4 });
+  gsap.set(ringPulse, { opacity: 0, scale: 1 });
+  gsap.set(slit, { scaleY: 0 });
+  gsap.set(leaderPath, { strokeDashoffset: 300 });
+  gsap.set(label, { opacity: 0, y: 10 });
+
+  var tl = gsap.timeline({ paused: true });
+
+  // Establish the silhouette early (documentary pacing: context first)
+  tl.to(silhouette, { opacity: 1, x: 0, duration: 0.9, ease: "power2.out" }, 0.1);
+  tl.to(throatline, { opacity: 1, duration: 0.6, ease: "power1.out" }, 0.5);
+
+  // ~40% into duration, the callout arrives on the gill opening
+  tl.to(ring, { opacity: 1, scale: 1, duration: 0.5, ease: "power2.out" }, 1.65);
+  tl.to(slit, { scaleY: 1, duration: 0.4, ease: "back.out(1.6)" }, 1.85);
+
+  // Soft pulse ring emphasizing the single opening
+  tl.to(ringPulse, { opacity: 0.6, scale: 1.5, duration: 0.6, ease: "power1.out" }, 2.0);
+  tl.to(ringPulse, { opacity: 0, duration: 0.5, ease: "power1.in" }, 2.5);
+
+  // Leader line draws toward the label
+  tl.to(leaderPath, { strokeDashoffset: 0, duration: 0.5, ease: "power2.inOut" }, 2.1);
+
+  // Label resolves after the leader connects
+  tl.to(label, { opacity: 1, y: 0, duration: 0.55, ease: "power2.out" }, 2.5);
+
+  window.__timelines = window.__timelines || {};
+  window.__timelines["116-beat"] = tl;
+})();
+</script>
+</template>

@@ -1,0 +1,172 @@
+<template>
+  <style>
+    #root {
+      width: 1920px;
+      height: 1080px;
+      position: relative;
+      overflow: hidden;
+      background: #0c0d10;
+      font-family: -apple-system, "Inter", sans-serif;
+    }
+    .beat137-bg {
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse at 50% 44%, #16181d 0%, #0c0d10 68%);
+    }
+    .beat137-stage {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .beat137-label {
+      position: absolute;
+      top: 150px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 26px;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: #f2f2f0;
+      opacity: 0;
+      font-weight: 600;
+      white-space: nowrap;
+    }
+    .beat137-grid {
+      display: grid;
+      grid-template-columns: repeat(10, 1fr);
+      grid-template-rows: repeat(6, 1fr);
+      gap: 20px;
+      width: 900px;
+      height: 460px;
+    }
+    .beat137-dot {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      background: #f2f2f0;
+      opacity: 0.9;
+      transform: scale(1);
+    }
+    .beat137-dot.beat137-hit {
+      background: #3a3d44;
+      opacity: 0.35;
+    }
+    .beat137-dot.beat137-survivor {
+      background: #7fb0d8;
+    }
+    .beat137-caption {
+      position: absolute;
+      bottom: 150px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 24px;
+      color: #f2f2f0;
+      opacity: 0;
+      letter-spacing: 0.02em;
+      text-align: center;
+      white-space: nowrap;
+    }
+    .beat137-caption .beat137-accent {
+      color: #7fb0d8;
+    }
+    .beat137-impact {
+      position: absolute;
+      width: 900px;
+      height: 460px;
+      border-radius: 24px;
+      background: radial-gradient(ellipse at center, rgba(224,104,90,0.0) 0%, rgba(224,104,90,0.0) 100%);
+      pointer-events: none;
+    }
+  </style>
+
+  <div data-hf-id="hf-5mol" id="root" data-composition-id="137-beat" data-width="1920" data-height="1080" data-duration="10.3">
+    <div data-hf-id="hf-52ke" class="beat137-bg clip" data-start="0" data-duration="11.5" data-track-index="0"></div>
+
+    <div data-hf-id="hf-ulxg" class="beat137-stage clip" data-start="0" data-duration="11.5" data-track-index="1">
+      <div data-hf-id="hf-ouas" class="beat137-label" id="beat137-label">a controlled population</div>
+      <div data-hf-id="hf-0myi" class="beat137-grid" id="beat137-grid"></div>
+      <div data-hf-id="hf-pe40" class="beat137-caption" id="beat137-caption">the survivors still <span data-hf-id="hf-j8de" class="beat137-accent">reproduce</span></div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script>
+    (function () {
+      window.__timelines = window.__timelines || {};
+
+      var grid = document.getElementById("beat137-grid");
+      var TOTAL = 60;
+      var dots = [];
+      for (var i = 0; i < TOTAL; i++) {
+        var d = document.createElement("div");
+        d.className = "beat137-dot";
+        grid.appendChild(d);
+        dots.push(d);
+      }
+
+      // Deterministic "knock down" selection: every 3rd-ish dot in a fixed
+      // scattered pattern, roughly 40% of the population, leaving a mixed
+      // set of survivors regardless of position/sex-coding.
+      var hitIdx = [1,3,4,7,9,11,13,14,16,19,21,23,24,27,29,31,33,34,37,39,41,43,44,47];
+      var hitSet = {};
+      for (var h = 0; h < hitIdx.length; h++) hitSet[hitIdx[h]] = true;
+
+      // Survivor highlight subset: a handful spread across the remaining
+      // dots to represent "the survivors" regardless of original sex ratio.
+      var survivorIdx = [0,2,10,18,26,38,46,54,58];
+      var survivorSet = {};
+      for (var s = 0; s < survivorIdx.length; s++) survivorSet[survivorIdx[s]] = true;
+
+      gsap.set(dots, { scale: 1, opacity: 0, y: 0 });
+      gsap.set("#beat137-label", { opacity: 0, y: -10 });
+      gsap.set("#beat137-caption", { opacity: 0, y: 10 });
+
+      var tl = gsap.timeline({ paused: true });
+
+      // 0 - population assembles quietly first (establishing shot)
+      tl.to("#beat137-label", { opacity: 0.85, y: 0, duration: 0.6, ease: "power2.out" }, 0.3);
+      tl.to(dots, { opacity: 0.9, duration: 0.7, ease: "power1.out", stagger: { each: 0.008, from: "random" } }, 0.5);
+
+      // ~35-55% into duration: the "knock down" control effort hits
+      var hitStart = 3.4;
+      var hitDots = [];
+      for (var a = 0; a < hitIdx.length; a++) hitDots.push(dots[hitIdx[a]]);
+      tl.to(hitDots, {
+        backgroundColor: "#3a3d44",
+        opacity: 0.32,
+        scale: 0.82,
+        duration: 0.5,
+        ease: "power3.in",
+        stagger: { each: 0.02, from: "random" }
+      }, hitStart);
+
+      // brief settle / disruption beat — population balance visibly broken
+      tl.to("#beat137-label", { opacity: 0, duration: 0.4, ease: "power1.out" }, hitStart + 0.7);
+
+      // ~65-80%: survivors highlighted — regardless of composition, they remain able to reproduce
+      var survivorStart = 6.2;
+      var survivorDots = [];
+      for (var b = 0; b < survivorIdx.length; b++) survivorDots.push(dots[survivorIdx[b]]);
+      tl.to(survivorDots, {
+        backgroundColor: "#7fb0d8",
+        scale: 1.18,
+        duration: 0.5,
+        ease: "power2.out",
+        stagger: { each: 0.05 }
+      }, survivorStart);
+      tl.to(survivorDots, {
+        scale: 1.0,
+        duration: 0.4,
+        ease: "power2.inOut"
+      }, survivorStart + 0.6);
+
+      // caption confirms the idea near the end, on pacing
+      tl.to("#beat137-caption", { opacity: 0.85, y: 0, duration: 0.6, ease: "power2.out" }, 7.3);
+
+      window.__timelines["137-beat"] = tl;
+    })();
+  </script>
+</template>

@@ -1,0 +1,378 @@
+{
+  "lines": [
+    {
+      "id": "03",
+      "sfx": [
+        "whoosh-short"
+      ]
+    },
+    {
+      "id": "05",
+      "sfx": [
+        "whoosh-short"
+      ]
+    },
+    {
+      "id": "07",
+      "sfx": [
+        "whoosh-short",
+        "ping"
+      ]
+    },
+    {
+      "id": "11",
+      "sfx": [
+        "whoosh-short"
+      ]
+    },
+    {
+      "id": "13",
+      "sfx": [
+        "whoosh-short"
+      ]
+    },
+    {
+      "id": "16",
+      "sfx": [
+        "pop"
+      ]
+    },
+    {
+      "id": "17",
+      "sfx": [
+        "whoosh-short"
+      ]
+    },
+    {
+      "id": "19",
+      "sfx": [
+        "whoosh-short"
+      ]
+    },
+    {
+      "id": "21",
+      "sfx": [
+        "whoosh-short"
+      ]
+    },
+    {
+      "id": "22",
+      "sfx": [
+        "ping"
+      ]
+    },
+    {
+      "id": "25",
+      "sfx": [
+        "whoosh-short"
+      ]
+    },
+    {
+      "id": "27",
+      "sfx": [
+        "whoosh-short"
+      ]
+    },
+    {
+      "id": "28",
+      "sfx": [
+        "ping"
+      ]
+    },
+    {
+      "id": "31",
+      "sfx": [
+        "whoosh-short"
+      ]
+    },
+    {
+      "id": "33",
+      "sfx": [
+        "whoosh-short"
+      ]
+    },
+    {
+      "id": "35",
+      "sfx": [
+        "whoosh-short"
+      ]
+    },
+    {
+      "id": "37",
+      "sfx": [
+        "pop"
+      ]
+    },
+    {
+      "id": "39",
+      "sfx": [
+        "whoosh-short"
+      ]
+    },
+    {
+      "id": "41",
+      "sfx": [
+        "whoosh-short"
+      ]
+    },
+    {
+      "id": "45",
+      "sfx": [
+        "whoosh-short"
+      ]
+    },
+    {
+      "id": "47",
+      "sfx": [
+        "whoosh-short"
+      ]
+    },
+    {
+      "id": "49",
+      "sfx": [
+        "whoosh-short"
+      ]
+    },
+    {
+      "id": "53",
+      "sfx": [
+        "whoosh-short",
+        "ping"
+      ]
+    },
+    {
+      "id": "55",
+      "sfx": [
+        "whoosh-short",
+        "ping"
+      ]
+    },
+    {
+      "id": "59",
+      "sfx": [
+        "whoosh-short"
+      ]
+    },
+    {
+      "id": "61",
+      "sfx": [
+        "whoosh-short",
+        "ping"
+      ]
+    },
+    {
+      "id": "63",
+      "sfx": [
+        "whoosh-short"
+      ]
+    },
+    {
+      "id": "64",
+      "sfx": [
+        "ping"
+      ]
+    },
+    {
+      "id": "67",
+      "sfx": [
+        "whoosh-short"
+      ]
+    },
+    {
+      "id": "69",
+      "sfx": [
+        "whoosh-short"
+      ]
+    },
+    {
+      "id": "73",
+      "sfx": [
+        "whoosh-short"
+      ]
+    },
+    {
+      "id": "75",
+      "sfx": [
+        "whoosh-short"
+      ]
+    },
+    {
+      "id": "76",
+      "sfx": [
+        "ping"
+      ]
+    },
+    {
+      "id": "77",
+      "sfx": [
+        "whoosh-short"
+      ]
+    },
+    {
+      "id": "81",
+      "sfx": [
+        "whoosh-short"
+      ]
+    },
+    {
+      "id": "83",
+      "sfx": [
+        "whoosh-short"
+      ]
+    },
+    {
+      "id": "87",
+      "sfx": [
+        "whoosh-short"
+      ]
+    },
+    {
+      "id": "89",
+      "sfx": [
+        "whoosh-short"
+      ]
+    },
+    {
+      "id": "91",
+      "sfx": [
+        "whoosh-short"
+      ]
+    },
+    {
+      "id": "95",
+      "sfx": [
+        "whoosh-short"
+      ]
+    },
+    {
+      "id": "97",
+      "sfx": [
+        "whoosh-short"
+      ]
+    },
+    {
+      "id": "101",
+      "sfx": [
+        "whoosh-short"
+      ]
+    },
+    {
+      "id": "103",
+      "sfx": [
+        "whoosh-short"
+      ]
+    },
+    {
+      "id": "105",
+      "sfx": [
+        "whoosh-short"
+      ]
+    },
+    {
+      "id": "107",
+      "sfx": [
+        "ping"
+      ]
+    },
+    {
+      "id": "109",
+      "sfx": [
+        "whoosh-short",
+        "pop"
+      ]
+    },
+    {
+      "id": "111",
+      "sfx": [
+        "whoosh-short"
+      ]
+    },
+    {
+      "id": "115",
+      "sfx": [
+        "whoosh-short"
+      ]
+    },
+    {
+      "id": "117",
+      "sfx": [
+        "whoosh-short"
+      ]
+    },
+    {
+      "id": "119",
+      "sfx": [
+        "whoosh-short"
+      ]
+    },
+    {
+      "id": "123",
+      "sfx": [
+        "whoosh-short"
+      ]
+    },
+    {
+      "id": "125",
+      "sfx": [
+        "whoosh-short"
+      ]
+    },
+    {
+      "id": "129",
+      "sfx": [
+        "whoosh-short"
+      ]
+    },
+    {
+      "id": "131",
+      "sfx": [
+        "whoosh-short"
+      ]
+    },
+    {
+      "id": "133",
+      "sfx": [
+        "whoosh-short"
+      ]
+    },
+    {
+      "id": "137",
+      "sfx": [
+        "whoosh-short"
+      ]
+    },
+    {
+      "id": "139",
+      "sfx": [
+        "whoosh-short"
+      ]
+    },
+    {
+      "id": "143",
+      "sfx": [
+        "whoosh-short"
+      ]
+    },
+    {
+      "id": "145",
+      "sfx": [
+        "whoosh-short"
+      ]
+    },
+    {
+      "id": "147",
+      "sfx": [
+        "whoosh-short"
+      ]
+    },
+    {
+      "id": "151",
+      "sfx": [
+        "whoosh-short"
+      ]
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

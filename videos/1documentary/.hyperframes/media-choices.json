@@ -1,0 +1,98 @@
+{
+ "05": {
+  "source": "pexels",
+  "id": "pexels-p36747840",
+  "mediaType": "photo",
+  "reason": "script default 'rat in metal cage' is a wrong-register animal; muted empty puddle/dirt-road photo better conveys the emptiness of an unsuccessful survey than an unrelated caged rodent"
+ },
+ "51": {
+  "source": "pexels",
+  "id": "pexels-v35974054",
+  "mediaType": "video",
+  "reason": "script default 'cheetah relaxing' is an African savanna animal, wrong continent entirely for 'predator invasions in North America'; reused Burmese python green-snake-in-jungle-foliage footage is directly on-topic"
+ },
+ "82": {
+  "source": "openverse",
+  "id": "openverse-36e34899-3e46-4eaf-bccc-877b92165cc6",
+  "mediaType": "photo",
+  "reason": "candidate pool contains an exact-subject match titled 'Asian Swamp Eels' -- directly depicts the actual animal being discussed rather than a generic fish-market stand-in"
+ },
+ "105": {
+  "source": "pexels",
+  "id": "pexels-v13192264",
+  "mediaType": "video",
+  "reason": "script default 'meerkat digs in sand' is the wrong animal (mammal, not eel); 'animals in sand in aquarium' still depicts an eel-adjacent burrowing subject in water, closer to the actual swamp-eel behavior"
+ },
+ "133": {
+  "source": "pexels",
+  "id": "pexels-v924880",
+  "mediaType": "video",
+  "reason": "script default Openverse 'Rat' photo is an unrelated rodent with no connection to Everglades wetland rhythm; reused wetlands establishing video fits 'every native species built around that rhythm' far better"
+ },
+ "121": {
+  "source": "pexels",
+  "id": "pexels-v6444541",
+  "mediaType": "video",
+  "reason": "beat-121's own candidate pool (unrelated France river kayak photos) has no real connection to Everglades sun-baked shallows; reused a warm marsh/wetland shot instead"
+ },
+ "126": {
+  "source": "pexels",
+  "id": "pexels-v3864100",
+  "mediaType": "video",
+  "reason": "beat-126's own pool (Galapagos sea turtle nests, unrelated Forest Service photos) has no connection; reused a wet-ground/puddle shot for the 'damp ground' visual"
+ },
+ "129": {
+  "source": "openverse",
+  "id": "openverse-1493232f-4e54-4935-9f14-edfd2529204c",
+  "mediaType": "photo",
+  "reason": "kept script default 'Snake in the Grass' -- closest available visual analog for an elongate animal moving through grass/vegetation, thin pool but usable"
+ },
+ "134": {
+  "source": "pexels",
+  "id": "pexels-p4812211",
+  "mediaType": "photo",
+  "reason": "kept script default moray eel close-up -- reused eel imagery consistent with the rest of the eel-anatomy section"
+ },
+ "139": {
+  "source": "pexels",
+  "id": "pexels-v7036652",
+  "mediaType": "video",
+  "reason": "beat-139's own pool (harbor seal, lionfish, unrelated) doesn't fit; reused the recurring eel-in-aquarium footage for visual consistency across the eel-biology section"
+ },
+ "143": {
+  "source": "pexels",
+  "id": "pexels-v8514702",
+  "mediaType": "video",
+  "reason": "beat-143's own pool is Openverse noise unrelated to the quote; reused researcher footage used at nearby beats for continuity on this pull-quote beat"
+ },
+ "144": {
+  "source": "pexels",
+  "id": "pexels-v27722639",
+  "mediaType": "video",
+  "reason": "beat-144's own pool (abstract art photos) has no real connection; reused the recurring marsh/reeds establishing shot as a scene-transition visual"
+ },
+ "145": {
+  "source": "openverse",
+  "id": "openverse-a33f8ab0-111d-4052-a89d-9108c6846338",
+  "mediaType": "photo",
+  "reason": "kept script default aerial wetland photo -- reasonable establishing shot for the section opening on the Everglades' annual cycle"
+ },
+ "147": {
+  "source": "pexels",
+  "id": "pexels-v37125727",
+  "mediaType": "video",
+  "reason": "beat-147's own pool (unrelated river/fishing-net photos) doesn't fit; reused a serene pond-with-algae shot to depict aquatic life dispersing across a flooded surface"
+ },
+ "149": {
+  "source": "pexels",
+  "id": "pexels-v11841042",
+  "mediaType": "video",
+  "reason": "beat-149's own pool (unrelated fault-zone/duck photos) doesn't fit; reused Everglades alligator/gator-hole footage, directly on-topic for 'gator holes, sloughs, canals'"
+ },
+ "150": {
+  "source": "openverse",
+  "id": "openverse-e3397322-6dd0-46bb-9df1-d66838ab0e44",
+  "mediaType": "photo",
+  "reason": "kept script default fish-in-pond photo -- reasonable visual for predatory fish concentrating in deep pockets"
+ }
+}

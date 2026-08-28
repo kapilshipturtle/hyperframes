@@ -1,0 +1,171 @@
+<template>
+<style>
+  #root {
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+    overflow: hidden;
+    font-family: -apple-system, "Inter", sans-serif;
+    color: #f2f2f0;
+  }
+
+  .fb-53-bg {
+    background: #0c0c0e;
+  }
+
+  .fb-53-stage {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 260px;
+  }
+
+  .fb-53-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0;
+  }
+
+  .fb-53-label {
+    font-size: 26px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #f2f2f0;
+    opacity: 0.75;
+    margin-bottom: 34px;
+  }
+
+  .fb-53-meter {
+    position: relative;
+    width: 130px;
+    height: 560px;
+    border-radius: 14px;
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    overflow: hidden;
+  }
+
+  .fb-53-fill {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    background: linear-gradient(180deg, #e0685a 0%, #b8382c 100%);
+    transform-origin: bottom center;
+  }
+
+  .fb-53-tick {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.14);
+  }
+
+  .fb-53-pct {
+    margin-top: 30px;
+    font-size: 130px;
+    font-weight: 700;
+    line-height: 1;
+    color: #ffffff;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .fb-53-pct .fb-53-sign {
+    color: #e0685a;
+  }
+
+  .fb-53-sub {
+    margin-top: 18px;
+    font-size: 24px;
+    opacity: 0.7;
+    letter-spacing: 0.02em;
+  }
+</style>
+
+<div data-hf-id="hf-92eg" id="root" data-composition-id="53-beat" data-width="1920" data-height="1080" data-duration="5.81">
+  <div data-hf-id="hf-87w5" class="clip fb-53-bg" data-start="0" data-duration="7.01" data-track-index="0"></div>
+
+  <div data-hf-id="hf-7uk1" class="clip fb-53-stage" data-start="0" data-duration="7.01" data-track-index="1">
+    <div data-hf-id="hf-gbxi" class="fb-53-col" id="fb-53-col-raccoon">
+      <div data-hf-id="hf-4fq6" class="fb-53-label">Raccoons</div>
+      <div data-hf-id="hf-fy19" class="fb-53-meter">
+        <div data-hf-id="hf-90qb" class="fb-53-tick" style="bottom: 25%;"></div>
+        <div data-hf-id="hf-esan" class="fb-53-tick" style="bottom: 50%;"></div>
+        <div data-hf-id="hf-1uq8" class="fb-53-tick" style="bottom: 75%;"></div>
+        <div data-hf-id="hf-ar1i" class="fb-53-fill" id="fb-53-fill-raccoon"></div>
+      </div>
+      <div data-hf-id="hf-yk9y" class="fb-53-pct"><span data-hf-id="hf-jpl6" class="fb-53-sign">−</span><span data-hf-id="hf-gufo" id="fb-53-num-raccoon">0</span>%</div>
+      <div data-hf-id="hf-nu3x" class="fb-53-sub">population decline</div>
+    </div>
+
+    <div data-hf-id="hf-xkkg" class="fb-53-col" id="fb-53-col-bobcat">
+      <div data-hf-id="hf-0ota" class="fb-53-label">Bobcats</div>
+      <div data-hf-id="hf-5q2p" class="fb-53-meter">
+        <div data-hf-id="hf-xjkj" class="fb-53-tick" style="bottom: 25%;"></div>
+        <div data-hf-id="hf-niyn" class="fb-53-tick" style="bottom: 50%;"></div>
+        <div data-hf-id="hf-np2g" class="fb-53-tick" style="bottom: 75%;"></div>
+        <div data-hf-id="hf-osbk" class="fb-53-fill" id="fb-53-fill-bobcat"></div>
+      </div>
+      <div data-hf-id="hf-sdka" class="fb-53-pct"><span data-hf-id="hf-z7ke" class="fb-53-sign">−</span><span data-hf-id="hf-0yla" id="fb-53-num-bobcat">0</span>%</div>
+      <div data-hf-id="hf-c4ip" class="fb-53-sub">population decline</div>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script>
+(function () {
+  var DUR = 4.61;
+  var tl = gsap.timeline({ paused: true });
+
+  var raccoonFill = document.getElementById("fb-53-fill-raccoon");
+  var bobcatFill = document.getElementById("fb-53-fill-bobcat");
+  var raccoonNum = document.getElementById("fb-53-num-raccoon");
+  var bobcatNum = document.getElementById("fb-53-num-bobcat");
+  var raccoonCol = document.getElementById("fb-53-col-raccoon");
+  var bobcatCol = document.getElementById("fb-53-col-bobcat");
+
+  gsap.set(raccoonFill, { scaleY: 1 });
+  gsap.set(bobcatFill, { scaleY: 1 });
+
+  var raccoonState = { pct: 0 };
+  var bobcatState = { pct: 0 };
+
+  // Columns fade/rise in early, restrained.
+  tl.fromTo(raccoonCol, { opacity: 0, y: 22 }, { opacity: 1, y: 0, duration: 0.45, ease: "power2.out" }, 0.05);
+  tl.fromTo(bobcatCol, { opacity: 0, y: 22 }, { opacity: 1, y: 0, duration: 0.45, ease: "power2.out" }, 0.20);
+
+  // Raccoon drains first, starting ~35% into duration.
+  var raccoonStart = DUR * 0.35;
+  tl.to(raccoonFill, { scaleY: 0.01, duration: 1.5, ease: "power2.inOut" }, raccoonStart);
+  tl.to(raccoonState, {
+    pct: 99,
+    duration: 1.5,
+    ease: "power2.inOut",
+    onUpdate: function () {
+      raccoonNum.textContent = Math.round(raccoonState.pct);
+    }
+  }, raccoonStart);
+
+  // Bobcat drains second, staggered after raccoon, still within duration.
+  var bobcatStart = DUR * 0.55;
+  tl.to(bobcatFill, { scaleY: 0.12, duration: 1.6, ease: "power2.inOut" }, bobcatStart);
+  tl.to(bobcatState, {
+    pct: 88,
+    duration: 1.6,
+    ease: "power2.inOut",
+    onUpdate: function () {
+      bobcatNum.textContent = Math.round(bobcatState.pct);
+    }
+  }, bobcatStart);
+
+  window.__timelines = window.__timelines || {};
+  window.__timelines["53-beat"] = tl;
+})();
+</script>
+</template>

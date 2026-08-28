@@ -1,0 +1,215 @@
+<template>
+  <style>
+    #root {
+      width: 1920px;
+      height: 1080px;
+      position: relative;
+      overflow: hidden;
+      background: #0b0c0e;
+    }
+    .beat138-bg {
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse at center, #141518 0%, #0a0a0c 100%);
+    }
+    .beat138-stage {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 220px;
+    }
+    .beat138-col {
+      position: relative;
+      width: 480px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .beat138-label {
+      font-family: -apple-system, "Inter", sans-serif;
+      font-size: 24px;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+      color: #f2f2f0;
+      opacity: 0;
+      text-align: center;
+      margin-bottom: 56px;
+    }
+    .beat138-dots {
+      position: relative;
+      width: 420px;
+      height: 420px;
+    }
+    .beat138-dot {
+      position: absolute;
+      width: 34px;
+      height: 34px;
+      border-radius: 50%;
+      background: #eceff2;
+      opacity: 0;
+    }
+    .beat138-col-right .beat138-dot {
+      background: #7fb0d8;
+    }
+    .beat138-x {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      opacity: 0;
+    }
+    .beat138-x svg { width: 120px; height: 120px; }
+    .beat138-caption {
+      font-family: -apple-system, "Inter", sans-serif;
+      font-size: 22px;
+      color: #f2f2f0;
+      opacity: 0;
+      text-align: center;
+      margin-top: 52px;
+      max-width: 440px;
+      line-height: 1.4;
+    }
+    .beat138-caption .beat138-accent { color: #7fb0d8; }
+    .beat138-divider {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 1px;
+      height: 560px;
+      background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,0.14) 50%, rgba(255,255,255,0) 100%);
+      transform: translate(-50%, -50%);
+      opacity: 0;
+    }
+  </style>
+
+  <div data-hf-id="hf-yzsw" id="root" data-composition-id="138-beat" data-width="1920" data-height="1080" data-duration="4.79">
+    <div data-hf-id="hf-1cw9" class="beat138-bg clip" data-start="0" data-duration="5.99" data-track-index="0"></div>
+
+    <div data-hf-id="hf-56la" class="beat138-divider clip" id="beat138-divider" data-start="0" data-duration="5.99" data-track-index="1"></div>
+
+    <div data-hf-id="hf-jtj6" class="beat138-stage clip" data-start="0" data-duration="5.99" data-track-index="2">
+      <div data-hf-id="hf-f3je" class="beat138-col beat138-col-left">
+        <div data-hf-id="hf-990k" class="beat138-label" id="beat138-label-left">FIXED SEXES</div>
+        <div data-hf-id="hf-csuw" class="beat138-dots" id="beat138-dots-left"></div>
+        <div data-hf-id="hf-sold" class="beat138-caption" id="beat138-caption-left">one sex removed — population <span data-hf-id="hf-skrc" class="beat138-accent" style="color:#e0685a;">collapses</span></div>
+      </div>
+      <div data-hf-id="hf-1yih" class="beat138-col beat138-col-right">
+        <div data-hf-id="hf-bbau" class="beat138-label" id="beat138-label-right">SEX-SWITCHING</div>
+        <div data-hf-id="hf-ng87" class="beat138-dots" id="beat138-dots-right"></div>
+        <div data-hf-id="hf-fqre" class="beat138-caption" id="beat138-caption-right">population <span data-hf-id="hf-0fmo" class="beat138-accent">continues</span></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script>
+    (function () {
+      window.__timelines = window.__timelines || {};
+
+      // Build an 8-dot cluster (roughly circular arrangement) inside a 420x420 box.
+      var positions = [
+        [190, 20], [340, 90], [386, 220], [340, 350],
+        [190, 400], [40, 350], [0, 220], [40, 90]
+      ];
+
+      function buildDots(containerId, prefix) {
+        var container = document.getElementById(containerId);
+        var dots = [];
+        positions.forEach(function (pos, i) {
+          var d = document.createElement("div");
+          d.className = "beat138-dot";
+          d.id = prefix + "-dot-" + i;
+          d.style.left = pos[0] + "px";
+          d.style.top = pos[1] + "px";
+          container.appendChild(d);
+          dots.push(d);
+        });
+        return dots;
+      }
+
+      var leftDots = buildDots("beat138-dots-left", "beat138-l");
+      var rightDots = buildDots("beat138-dots-right", "beat138-r");
+
+      // X mark overlay for the left (fixed-sex) column, shown once the
+      // removed-sex dots vanish, signaling collapse.
+      var xWrap = document.createElement("div");
+      xWrap.className = "beat138-x";
+      xWrap.id = "beat138-x";
+      xWrap.innerHTML = '<svg viewBox="0 0 120 120"><line x1="16" y1="16" x2="104" y2="104" stroke="#e0685a" stroke-width="7" stroke-linecap="round"/><line x1="104" y1="16" x2="16" y2="104" stroke="#e0685a" stroke-width="7" stroke-linecap="round"/></svg>';
+      document.getElementById("beat138-dots-left").appendChild(xWrap);
+
+      var tl = gsap.timeline({ paused: true });
+
+      gsap.set(["#beat138-label-left", "#beat138-label-right"], { y: -14 });
+
+      // 0.0 - 0.3: divider and labels fade in, establishing the two-sided frame.
+      tl.to("#beat138-divider", { opacity: 1, duration: 0.4, ease: "power1.out" }, 0.0);
+      tl.to("#beat138-label-left", { opacity: 0.85, y: 0, duration: 0.35, ease: "power2.out" }, 0.05);
+      tl.to("#beat138-label-right", { opacity: 0.85, y: 0, duration: 0.35, ease: "power2.out" }, 0.15);
+
+      // 0.3 - 0.9: both dot populations appear together (staggered), establishing parity.
+      tl.to(leftDots, { opacity: 1, scale: 1, duration: 0.35, stagger: 0.03, ease: "back.out(1.6)" }, 0.35);
+      tl.to(rightDots, { opacity: 1, scale: 1, duration: 0.35, stagger: 0.03, ease: "back.out(1.6)" }, 0.35);
+      gsap.set(leftDots, { scale: 0.4 });
+      gsap.set(rightDots, { scale: 0.4 });
+
+      // ~35-55% into duration: left side's population collapses — half the
+      // dots fade/scale out, the rest drift inward and dim, an X marks the loss.
+      var collapseStart = 1.35;
+      var removedLeft = leftDots.slice(0, 4);
+      var remainingLeft = leftDots.slice(4);
+
+      tl.to(removedLeft, {
+        opacity: 0,
+        scale: 0.2,
+        duration: 0.4,
+        stagger: 0.03,
+        ease: "power2.in"
+      }, collapseStart);
+
+      tl.to(remainingLeft, {
+        opacity: 0.25,
+        scale: 0.7,
+        x: function (i, target) {
+          var cx = 210, cy = 210;
+          var left = parseFloat(target.style.left) + 17;
+          var top = parseFloat(target.style.top) + 17;
+          return (cx - left) * 0.35;
+        },
+        y: function (i, target) {
+          var cx = 210, cy = 210;
+          var left = parseFloat(target.style.left) + 17;
+          var top = parseFloat(target.style.top) + 17;
+          return (cy - top) * 0.35;
+        },
+        duration: 0.45,
+        ease: "power2.inOut"
+      }, collapseStart + 0.1);
+
+      tl.to("#beat138-x", { opacity: 1, scale: 1, duration: 0.3, ease: "back.out(1.8)" }, collapseStart + 0.35);
+      gsap.set("#beat138-x", { scale: 0.6 });
+
+      // Right side (sex-switching): dots hold steady, one dot subtly pulses
+      // color to suggest a sex-switch event, but the population count never drops.
+      tl.to(rightDots[2], {
+        backgroundColor: "#e8b96a",
+        duration: 0.25,
+        ease: "power1.inOut"
+      }, collapseStart + 0.15)
+        .to(rightDots[2], {
+          backgroundColor: "#7fb0d8",
+          duration: 0.35,
+          ease: "power1.inOut"
+        }, collapseStart + 0.5);
+
+      // Captions land just after each outcome is visually clear.
+      tl.to("#beat138-caption-left", { opacity: 0.85, duration: 0.3, ease: "power1.out" }, collapseStart + 0.55);
+      tl.to("#beat138-caption-right", { opacity: 0.85, duration: 0.3, ease: "power1.out" }, collapseStart + 0.7);
+
+      window.__timelines["138-beat"] = tl;
+    })();
+  </script>
+</template>

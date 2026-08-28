@@ -1,0 +1,245 @@
+<template>
+  <style>
+    #root {
+      width: 1920px;
+      height: 1080px;
+      position: relative;
+      overflow: hidden;
+      background: #0c0c0e;
+      font-family: -apple-system, "Inter", sans-serif;
+    }
+
+    .beat100-bg {
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse at 50% 45%, #141416 0%, #0a0a0c 70%);
+    }
+
+    .beat100-eyebrow {
+      position: absolute;
+      top: 296px;
+      left: 0;
+      width: 1920px;
+      text-align: center;
+      font-size: 26px;
+      letter-spacing: 0.28em;
+      text-transform: uppercase;
+      color: #9089a8;
+      opacity: 0;
+    }
+
+    /* Timeline bar */
+    .beat100-line-wrap {
+      position: absolute;
+      top: 540px;
+      left: 300px;
+      width: 1320px;
+      height: 2px;
+    }
+    .beat100-line-track {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 2px;
+      background: rgba(255,255,255,0.14);
+    }
+    .beat100-line-fill {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 0%;
+      height: 2px;
+      background: linear-gradient(90deg, rgba(144,137,168,0.15) 0%, #9089a8 100%);
+      transform-origin: left center;
+    }
+
+    .beat100-endlabel {
+      position: absolute;
+      top: -46px;
+      font-size: 22px;
+      color: #f2f2f0;
+      opacity: 0.55;
+      letter-spacing: 0.02em;
+    }
+    .beat100-endlabel-2007 { left: 300px; }
+    .beat100-endlabel-2022 { left: 1620px; transform: translateX(-100%); }
+
+    /* Marker: 2012 */
+    .beat100-marker {
+      position: absolute;
+      top: 540px;
+      width: 0;
+      height: 0;
+      opacity: 0;
+    }
+    .beat100-marker-2012 { left: 0; } /* positioned via GSAP x transform */
+    .beat100-marker-dot {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 22px;
+      height: 22px;
+      margin: -11px 0 0 -11px;
+      border-radius: 50%;
+      background: #9089a8;
+      box-shadow: 0 0 0 0 rgba(144,137,168,0.5);
+    }
+    .beat100-marker-year {
+      position: absolute;
+      top: 36px;
+      left: 0;
+      transform: translateX(-50%);
+      font-size: 40px;
+      font-weight: 600;
+      color: #f2f2f0;
+      white-space: nowrap;
+    }
+    .beat100-marker-label {
+      position: absolute;
+      top: 92px;
+      left: 0;
+      transform: translateX(-50%);
+      font-size: 24px;
+      color: #9089a8;
+      opacity: 0.85;
+      white-space: nowrap;
+      letter-spacing: 0.01em;
+    }
+    .beat100-marker-tick {
+      position: absolute;
+      top: -30px;
+      left: 0;
+      width: 2px;
+      height: 30px;
+      margin-left: -1px;
+      background: #9089a8;
+    }
+
+    /* Marker: 2022, tension endpoint */
+    .beat100-marker-2022 {
+      left: 1620px;
+      top: 540px;
+    }
+    .beat100-marker-2022 .beat100-marker-dot {
+      width: 16px;
+      height: 16px;
+      margin: -8px 0 0 -8px;
+      background: rgba(255,255,255,0.5);
+    }
+    .beat100-marker-2022 .beat100-marker-year {
+      font-size: 26px;
+      color: #f2f2f0;
+      opacity: 0.5;
+      top: 26px;
+    }
+
+    .beat100-caption {
+      position: absolute;
+      top: 700px;
+      left: 0;
+      width: 1920px;
+      text-align: center;
+      font-size: 22px;
+      color: #f2f2f0;
+      opacity: 0;
+      letter-spacing: 0.01em;
+    }
+    .beat100-caption b {
+      color: #9089a8;
+      font-weight: 600;
+    }
+  </style>
+
+  <div data-hf-id="hf-7mnr" id="root" data-composition-id="100-beat" data-width="1920" data-height="1080" data-duration="10.43">
+    <div data-hf-id="hf-ah2z" class="beat100-bg clip" data-start="0" data-duration="11.63" data-track-index="0"></div>
+
+    <div data-hf-id="hf-s7ag" class="beat100-eyebrow clip" id="beat100-eyebrow" data-start="0" data-duration="11.63" data-track-index="1">
+      Taylor Slough
+    </div>
+
+    <div data-hf-id="hf-tsv3" class="beat100-line-wrap clip" data-start="0" data-duration="11.63" data-track-index="2">
+      <div data-hf-id="hf-agke" class="beat100-line-track"></div>
+      <div data-hf-id="hf-fva2" class="beat100-line-fill" id="beat100-line-fill"></div>
+      <div data-hf-id="hf-s21h" class="beat100-endlabel beat100-endlabel-2007">2007</div>
+      <div data-hf-id="hf-dk6f" class="beat100-endlabel beat100-endlabel-2022">2022</div>
+    </div>
+
+    <div data-hf-id="hf-xprh" class="beat100-marker beat100-marker-2012 clip" id="beat100-marker-2012" data-start="0" data-duration="11.63" data-track-index="3">
+      <div data-hf-id="hf-cykm" class="beat100-marker-tick"></div>
+      <div data-hf-id="hf-35es" class="beat100-marker-dot" id="beat100-marker-2012-dot"></div>
+      <div data-hf-id="hf-gh1v" class="beat100-marker-year">2012</div>
+      <div data-hf-id="hf-rouv" class="beat100-marker-label">invasion takes hold</div>
+    </div>
+
+    <div data-hf-id="hf-93ks" class="beat100-marker beat100-marker-2022 clip" id="beat100-marker-2022" data-start="0" data-duration="11.63" data-track-index="4">
+      <div data-hf-id="hf-k59e" class="beat100-marker-dot"></div>
+      <div data-hf-id="hf-ybj0" class="beat100-marker-year">2022</div>
+    </div>
+
+    <div data-hf-id="hf-syc8" class="beat100-caption clip" id="beat100-caption" data-start="0" data-duration="11.63" data-track-index="5">
+      A slow foothold, <b data-hf-id="hf-1dul">years</b> before it was seen
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script>
+    (function () {
+      window.__timelines = window.__timelines || {};
+      var tl = gsap.timeline({ paused: true });
+
+      var lineStart = 300;
+      var lineEnd = 1620;
+      var lineSpan = lineEnd - lineStart;
+      var pos2012 = lineStart + lineSpan * ((2012 - 2007) / (2022 - 2007)); // 785.45...
+
+      var eyebrow = document.getElementById("beat100-eyebrow");
+      var fill = document.getElementById("beat100-line-fill");
+      var marker2012 = document.getElementById("beat100-marker-2012");
+      var dot2012 = document.getElementById("beat100-marker-2012-dot");
+      var marker2022 = document.getElementById("beat100-marker-2022");
+      var caption = document.getElementById("beat100-caption");
+
+      gsap.set(eyebrow, { opacity: 0, y: 10 });
+      gsap.set(fill, { width: "0%" });
+      gsap.set(marker2012, { x: lineStart, xPercent: -50, yPercent: -50, opacity: 0 });
+      gsap.set(marker2022, { xPercent: -50, yPercent: -50, opacity: 0 });
+      gsap.set(caption, { opacity: 0, y: 8 });
+
+      // 0.0s - 0.6s: eyebrow label settles in
+      tl.to(eyebrow, { opacity: 0.85, y: 0, duration: 0.6, ease: "power2.out" }, 0.2);
+
+      // 0.5s - 4.0s: timeline fill grows from 2007 toward 2012 (narration pacing:
+      // "taken hold in the years leading up to 2012" lands mid-line)
+      tl.to(fill, {
+        width: ((pos2012 - lineStart) / lineSpan * 100) + "%",
+        duration: 3.5,
+        ease: "power1.inOut"
+      }, 0.5);
+
+      // 2012 marker arrives as the fill reaches it (~3.6s-4.4s)
+      tl.to(marker2012, { x: pos2012, opacity: 1, duration: 0.8, ease: "power2.out" }, 3.6);
+      tl.to(dot2012, {
+        boxShadow: "0 0 0 14px rgba(144,137,168,0)",
+        duration: 1.0,
+        ease: "power1.out"
+      }, 3.9);
+
+      // 4.4s - 8.0s: tension builds onward toward 2022 — line continues filling,
+      // fainter, unresolved
+      tl.to(fill, {
+        width: "100%",
+        duration: 3.6,
+        ease: "power1.inOut"
+      }, 4.6);
+
+      // 2022 marker appears late, quiet, unresolved (open question the beat sets up)
+      tl.to(marker2022, { opacity: 1, duration: 1.0, ease: "power1.out" }, 7.4);
+
+      // Caption settles in the back half, after the 2012 label has read
+      tl.to(caption, { opacity: 0.8, y: 0, duration: 0.8, ease: "power2.out" }, 4.6);
+
+      window.__timelines["100-beat"] = tl;
+    })();
+  </script>
+</template>

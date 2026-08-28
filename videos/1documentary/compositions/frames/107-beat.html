@@ -1,0 +1,201 @@
+<template>
+  <style>
+    #root {
+      width: 1920px;
+      height: 1080px;
+      position: relative;
+      overflow: hidden;
+      font-family: -apple-system, "Inter", sans-serif;
+    }
+    .f107-bg {
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse at 50% 45%, #141416 0%, #0a0a0c 70%);
+    }
+    .f107-stage {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .f107-line-wrap {
+      position: relative;
+      width: 1360px;
+      height: 420px;
+    }
+    .f107-track {
+      position: absolute;
+      left: 0;
+      top: 210px;
+      width: 100%;
+      height: 3px;
+      background: rgba(242, 242, 240, 0.14);
+    }
+    .f107-fill {
+      position: absolute;
+      left: 0;
+      top: 210px;
+      width: 100%;
+      height: 3px;
+      background: #e0685a;
+      transform-origin: left center;
+      transform: scaleX(0);
+    }
+    .f107-node {
+      position: absolute;
+      top: 210px;
+      width: 22px;
+      height: 22px;
+      margin-top: -11px;
+      border-radius: 50%;
+      background: #0a0a0c;
+      border: 3px solid #e0685a;
+      opacity: 0;
+    }
+    .f107-node-start {
+      left: 0;
+      margin-left: -11px;
+    }
+    .f107-node-end {
+      left: 100%;
+      margin-left: -11px;
+    }
+    .f107-label {
+      position: absolute;
+      width: 420px;
+      text-align: center;
+      opacity: 0;
+    }
+    .f107-label-start {
+      top: 260px;
+      left: -190px;
+    }
+    .f107-label-end {
+      top: 260px;
+      right: -190px;
+      left: auto;
+    }
+    .f107-label-year {
+      font-size: 44px;
+      font-weight: 700;
+      color: #f2f2f0;
+      letter-spacing: -1px;
+      line-height: 1;
+    }
+    .f107-label-desc {
+      font-size: 22px;
+      font-weight: 500;
+      color: #f2f2f0;
+      opacity: 0.75;
+      margin-top: 10px;
+      letter-spacing: 0.3px;
+    }
+    .f107-gap-wrap {
+      position: absolute;
+      top: 40px;
+      left: 0;
+      width: 100%;
+      text-align: center;
+      opacity: 0;
+    }
+    .f107-gap-num {
+      font-size: 200px;
+      font-weight: 700;
+      color: #e0685a;
+      letter-spacing: -6px;
+      line-height: 1;
+    }
+    .f107-gap-label {
+      font-size: 26px;
+      font-weight: 500;
+      color: #f2f2f0;
+      opacity: 0.8;
+      letter-spacing: 0.5px;
+      margin-top: 6px;
+    }
+  </style>
+
+  <div data-hf-id="hf-cc5m" id="root" data-composition-id="107-beat" data-width="1920" data-height="1080" data-duration="6.51">
+    <div data-hf-id="hf-864t" class="f107-bg clip" data-start="0" data-duration="7.71" data-track-index="0"></div>
+
+    <div data-hf-id="hf-pc79" class="f107-stage clip" data-start="0" data-duration="7.71" data-track-index="1">
+      <div data-hf-id="hf-dyt6" class="f107-line-wrap" id="f107-line-wrap">
+        <div data-hf-id="hf-i6la" class="f107-gap-wrap" id="f107-gap-wrap">
+          <div data-hf-id="hf-3n96" class="f107-gap-num" id="f107-gap-num">0</div>
+          <div data-hf-id="hf-r26s" class="f107-gap-label">years</div>
+        </div>
+
+        <div data-hf-id="hf-xysu" class="f107-track"></div>
+        <div data-hf-id="hf-kffe" class="f107-fill" id="f107-fill"></div>
+
+        <div data-hf-id="hf-7n0x" class="f107-node f107-node-start" id="f107-node-start"></div>
+        <div data-hf-id="hf-cnsf" class="f107-node f107-node-end" id="f107-node-end"></div>
+
+        <div data-hf-id="hf-0pyx" class="f107-label f107-label-start" id="f107-label-start">
+          <div data-hf-id="hf-rzov" class="f107-label-year">1997</div>
+          <div data-hf-id="hf-9kcm" class="f107-label-desc">first record</div>
+        </div>
+        <div data-hf-id="hf-n84h" class="f107-label f107-label-end" id="f107-label-end">
+          <div data-hf-id="hf-ohrq" class="f107-label-year">2025</div>
+          <div data-hf-id="hf-gotg" class="f107-label-desc">high-risk designation</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script>
+    (function () {
+      window.__timelines = window.__timelines || {};
+      var tl = gsap.timeline({ paused: true });
+
+      var duration = 5.31;
+      var fill = document.getElementById("f107-fill");
+      var nodeStart = document.getElementById("f107-node-start");
+      var nodeEnd = document.getElementById("f107-node-end");
+      var labelStart = document.getElementById("f107-label-start");
+      var labelEnd = document.getElementById("f107-label-end");
+      var gapWrap = document.getElementById("f107-gap-wrap");
+      var gapNum = document.getElementById("f107-gap-num");
+
+      // Prep initial states.
+      gsap.set(labelStart, { opacity: 0, y: 10 });
+      gsap.set(labelEnd, { opacity: 0, y: 10 });
+      gsap.set(gapWrap, { opacity: 0, y: -8 });
+
+      // Phase 1 (start, ~0.15-0.5s): the 1997 node and label appear first,
+      // anchoring the beginning of the span.
+      tl.to(nodeStart, { opacity: 1, duration: 0.35, ease: "power2.out" }, 0.15);
+      tl.to(labelStart, { opacity: 1, y: 0, duration: 0.45, ease: "power2.out" }, 0.25);
+
+      // Phase 2 (~10% - ~62%): the line draws across the long gap, on
+      // narration pacing rather than front-loaded — this is the emotional
+      // core of the beat (the 28-year stretch).
+      var fillStart = duration * 0.12;
+      var fillDuration = duration * 0.5;
+      tl.to(fill, { scaleX: 1, duration: fillDuration, ease: "power1.inOut" }, fillStart);
+
+      // 2025 node and label land as the line reaches the end.
+      var endArrive = fillStart + fillDuration - 0.15;
+      tl.to(nodeEnd, { opacity: 1, duration: 0.35, ease: "power2.out" }, endArrive);
+      tl.to(labelEnd, { opacity: 1, y: 0, duration: 0.45, ease: "power2.out" }, endArrive + 0.1);
+
+      // Phase 3 (final ~30%): the "28 years" count-up emphasizes the gap,
+      // resolving late rather than up front.
+      var gapStart = endArrive + 0.35;
+      tl.to(gapWrap, { opacity: 1, y: 0, duration: 0.4, ease: "power2.out" }, gapStart);
+      var counter = { val: 0 };
+      tl.to(counter, {
+        val: 28,
+        duration: Math.max(duration - gapStart - 0.15, 0.5),
+        ease: "power1.out",
+        onUpdate: function () {
+          gapNum.textContent = Math.round(counter.val).toString();
+        }
+      }, gapStart);
+
+      window.__timelines["107-beat"] = tl;
+    })();
+  </script>
+</template>

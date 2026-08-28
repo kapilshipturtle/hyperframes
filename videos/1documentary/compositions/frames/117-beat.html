@@ -1,0 +1,159 @@
+<template>
+  <style>
+    #root {
+      width: 1920px;
+      height: 1080px;
+      position: relative;
+      overflow: hidden;
+      background: #0c0c0e;
+      font-family: -apple-system, "Inter", sans-serif;
+    }
+
+    .beat117-bg {
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse at 50% 45%, #141416 0%, #0a0a0c 70%);
+    }
+
+    .beat117-card {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 760px;
+      border: 1px solid rgba(127,176,216,0.22);
+      border-radius: 4px;
+      background: rgba(255,255,255,0.02);
+      padding: 56px 64px 60px;
+      box-sizing: border-box;
+    }
+
+    .beat117-title {
+      font-size: 26px;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: #7fb0d8;
+      opacity: 0;
+      margin: 0 0 42px 0;
+      text-align: center;
+    }
+
+    .beat117-item {
+      position: relative;
+      display: flex;
+      align-items: center;
+      gap: 22px;
+      padding: 16px 0;
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+      opacity: 0;
+    }
+    .beat117-item:last-child { border-bottom: none; }
+
+    .beat117-box {
+      flex: 0 0 auto;
+      width: 30px;
+      height: 30px;
+      border: 2px solid rgba(255,255,255,0.55);
+      border-radius: 4px;
+      position: relative;
+    }
+
+    .beat117-check {
+      position: absolute;
+      inset: 0;
+      color: #e0685a;
+      font-size: 28px;
+      line-height: 30px;
+      text-align: center;
+      opacity: 0;
+      transform: scale(0.6);
+    }
+
+    .beat117-label {
+      font-size: 30px;
+      color: #f2f2f0;
+      opacity: 0.85;
+      position: relative;
+    }
+
+    .beat117-strike {
+      position: absolute;
+      left: 0;
+      top: 50%;
+      height: 2px;
+      width: 0%;
+      background: #e0685a;
+      transform: translateY(-50%);
+    }
+
+    .beat117-final {
+      position: absolute;
+      bottom: -78px;
+      left: 0;
+      width: 100%;
+      text-align: center;
+      font-size: 24px;
+      letter-spacing: 0.03em;
+      color: #e0685a;
+      opacity: 0;
+    }
+  </style>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+
+  <div data-hf-id="hf-e26c" id="root" data-composition-id="117-beat" data-width="1920" data-height="1080" data-duration="5.55">
+    <div data-hf-id="hf-9m80" class="clip beat117-bg" data-start="0" data-duration="6.75" data-track-index="0"></div>
+
+    <div data-hf-id="hf-skac" class="clip beat117-card" data-start="0" data-duration="6.75" data-track-index="1">
+      <div data-hf-id="hf-9i68" class="beat117-title">What Makes A Fish</div>
+
+      <div data-hf-id="hf-hcol" class="beat117-item" data-item="scales">
+        <div data-hf-id="hf-vu4h" class="beat117-box"><div data-hf-id="hf-54l1" class="beat117-check">✕</div></div>
+        <div data-hf-id="hf-2myv" class="beat117-label">Scales<div data-hf-id="hf-c110" class="beat117-strike"></div></div>
+      </div>
+      <div data-hf-id="hf-zzy2" class="beat117-item" data-item="fins">
+        <div data-hf-id="hf-ylp1" class="beat117-box"><div data-hf-id="hf-o2ax" class="beat117-check">✕</div></div>
+        <div data-hf-id="hf-x4ke" class="beat117-label">Fins<div data-hf-id="hf-vebw" class="beat117-strike"></div></div>
+      </div>
+      <div data-hf-id="hf-x9uz" class="beat117-item" data-item="gills">
+        <div data-hf-id="hf-zsm4" class="beat117-box"><div data-hf-id="hf-p980" class="beat117-check">✕</div></div>
+        <div data-hf-id="hf-h3jl" class="beat117-label">Gills<div data-hf-id="hf-u7et" class="beat117-strike"></div></div>
+      </div>
+
+      <div data-hf-id="hf-zaox" class="beat117-final">MISSING MOST OF THE EQUIPMENT</div>
+    </div>
+  </div>
+
+  <script>
+    (function () {
+      var tl = gsap.timeline({ paused: true });
+      var items = ["scales", "fins", "gills"];
+
+      // Title reveal - early, sets context
+      tl.to(".beat117-title", { opacity: 0.85, y: 0, duration: 0.35, ease: "power2.out" }, 0.15);
+      tl.fromTo(".beat117-title", { y: -8 }, { y: 0, duration: 0.35, ease: "power2.out" }, 0.15);
+
+      // Items appear in quick succession, unchecked first
+      items.forEach(function (name, i) {
+        var t = 0.55 + i * 0.18;
+        tl.to('.beat117-item[data-item="' + name + '"]', { opacity: 1, duration: 0.25, ease: "power2.out" }, t);
+      });
+
+      // Cross-out reveal, spaced across the middle-to-late duration on narration pacing
+      var strikeStarts = [1.55, 2.15, 2.75];
+      items.forEach(function (name, i) {
+        var t = strikeStarts[i];
+        tl.to('.beat117-item[data-item="' + name + '"] .beat117-check', { opacity: 1, scale: 1, duration: 0.2, ease: "back.out(2)" }, t);
+        tl.to('.beat117-item[data-item="' + name + '"] .beat117-strike', { width: "100%", duration: 0.28, ease: "power2.inOut" }, t);
+        tl.to('.beat117-item[data-item="' + name + '"] .beat117-label', { opacity: 0.45, duration: 0.28, ease: "power2.inOut" }, t);
+        tl.to('.beat117-item[data-item="' + name + '"] .beat117-box', { borderColor: "rgba(224,104,90,0.6)", duration: 0.28, ease: "power2.inOut" }, t);
+      });
+
+      // Final line lands late, near the end of the duration
+      tl.to(".beat117-final", { opacity: 0.9, duration: 0.4, ease: "power2.out" }, 3.55);
+
+      window.__timelines = window.__timelines || {};
+      window.__timelines["117-beat"] = tl;
+    })();
+  </script>
+</template>

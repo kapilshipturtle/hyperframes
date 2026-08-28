@@ -1,0 +1,241 @@
+<template>
+  <style>
+    #root {
+      width: 1920px;
+      height: 1080px;
+      position: relative;
+      overflow: hidden;
+      font-family: -apple-system, "Inter", sans-serif;
+    }
+    .f22-bg {
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse at 50% 45%, #141416 0%, #0a0a0c 70%);
+    }
+    .f22-stage {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .f22-map-wrap {
+      position: relative;
+      width: 640px;
+      height: 640px;
+    }
+    .f22-svg {
+      width: 100%;
+      height: 100%;
+      overflow: visible;
+    }
+    .f22-outline {
+      fill: none;
+      stroke: #a9b4c0;
+      stroke-width: 2.5;
+      opacity: 0.55;
+    }
+    .f22-dot {
+      fill: #a9b4c0;
+    }
+    .f22-dot-ring {
+      fill: none;
+      stroke: #a9b4c0;
+      stroke-width: 1.5;
+      opacity: 0;
+    }
+    .f22-labels {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      pointer-events: none;
+    }
+    .f22-count-row {
+      display: flex;
+      align-items: baseline;
+      gap: 18px;
+      margin-bottom: 620px;
+    }
+    .f22-count {
+      font-size: 180px;
+      font-weight: 700;
+      color: #f2f2f0;
+      letter-spacing: -4px;
+      line-height: 1;
+    }
+    .f22-count-label {
+      font-size: 26px;
+      font-weight: 500;
+      color: #f2f2f0;
+      opacity: 0.8;
+      letter-spacing: 0.5px;
+    }
+    .f22-caption {
+      position: absolute;
+      bottom: 90px;
+      left: 50%;
+      text-align: center;
+      opacity: 0;
+    }
+    .f22-caption-main {
+      font-size: 24px;
+      font-weight: 500;
+      color: #f2f2f0;
+      opacity: 0.85;
+      letter-spacing: 0.3px;
+    }
+    .f22-caption-sub {
+      font-size: 20px;
+      font-weight: 400;
+      color: #f2f2f0;
+      opacity: 0.6;
+      margin-top: 8px;
+    }
+    .f22-region-tag {
+      position: absolute;
+      font-size: 20px;
+      font-weight: 500;
+      color: #a9b4c0;
+      opacity: 0;
+      letter-spacing: 0.5px;
+    }
+  </style>
+
+  <div data-hf-id="hf-x1uw" id="root" data-composition-id="22-beat" data-width="1920" data-height="1080" data-duration="8.64">
+    <div data-hf-id="hf-a0rt" class="f22-bg clip" data-start="0" data-duration="10.24" data-track-index="0"></div>
+
+    <div data-hf-id="hf-u8kz" class="f22-stage clip" data-start="0" data-duration="10.24" data-track-index="1">
+      <div data-hf-id="hf-8ahm" class="f22-labels">
+        <div data-hf-id="hf-jia7" class="f22-count-row">
+          <div data-hf-id="hf-ntw6" class="f22-count" id="f22-count">0</div>
+          <div data-hf-id="hf-1707" class="f22-count-label">survey sites</div>
+        </div>
+      </div>
+
+      <div data-hf-id="hf-o93u" class="f22-map-wrap" id="f22-map-wrap">
+        <svg data-hf-id="hf-88hk" class="f22-svg" viewBox="0 0 640 640" id="f22-svg">
+          <!-- Stylized thin outline: a Delaware-esque tapered wedge shape,
+               standing in for the state's true silhouette at this scale. -->
+          <path data-hf-id="hf-usgc" class="f22-outline" id="f22-outline" d="M 300 90
+               C 330 88, 355 100, 365 130
+               L 400 320
+               C 410 380, 415 430, 400 480
+               C 385 520, 355 545, 320 550
+               C 285 552, 255 535, 245 500
+               L 220 340
+               C 210 260, 215 180, 250 120
+               C 262 100, 280 92, 300 90 Z" />
+          <!-- 30 pinpoint dots scattered within the outline footprint,
+               grouped loosely into four clusters (four regions). -->
+          <g data-hf-id="hf-hn8g" id="f22-dots">
+            <!-- region A cluster (north) -->
+            <circle data-hf-id="hf-egc8" class="f22-dot" cx="290" cy="150" r="6" />
+            <circle data-hf-id="hf-9naj" class="f22-dot" cx="315" cy="140" r="6" />
+            <circle data-hf-id="hf-tske" class="f22-dot" cx="270" cy="165" r="6" />
+            <circle data-hf-id="hf-s9h3" class="f22-dot" cx="330" cy="170" r="6" />
+            <circle data-hf-id="hf-udpk" class="f22-dot" cx="300" cy="185" r="6" />
+            <circle data-hf-id="hf-o1jn" class="f22-dot" cx="255" cy="190" r="6" />
+            <circle data-hf-id="hf-iun5" class="f22-dot" cx="345" cy="150" r="6" />
+            <!-- region B cluster (mid-upper) -->
+            <circle data-hf-id="hf-eb4c" class="f22-dot" cx="320" cy="240" r="6" />
+            <circle data-hf-id="hf-ia37" class="f22-dot" cx="280" cy="255" r="6" />
+            <circle data-hf-id="hf-jpaa" class="f22-dot" cx="350" cy="270" r="6" />
+            <circle data-hf-id="hf-w96l" class="f22-dot" cx="300" cy="290" r="6" />
+            <circle data-hf-id="hf-7vj2" class="f22-dot" cx="260" cy="285" r="6" />
+            <circle data-hf-id="hf-5aps" class="f22-dot" cx="370" cy="230" r="6" />
+            <circle data-hf-id="hf-9lxt" class="f22-dot" cx="240" cy="240" r="6" />
+            <!-- region C cluster (mid-lower) -->
+            <circle data-hf-id="hf-ip9u" class="f22-dot" cx="330" cy="360" r="6" />
+            <circle data-hf-id="hf-pch1" class="f22-dot" cx="290" cy="375" r="6" />
+            <circle data-hf-id="hf-crhq" class="f22-dot" cx="360" cy="390" r="6" />
+            <circle data-hf-id="hf-ukd9" class="f22-dot" cx="250" cy="380" r="6" />
+            <circle data-hf-id="hf-0wai" class="f22-dot" cx="310" cy="410" r="6" />
+            <circle data-hf-id="hf-4lfa" class="f22-dot" cx="270" cy="420" r="6" />
+            <circle data-hf-id="hf-cus1" class="f22-dot" cx="380" cy="360" r="6" />
+            <!-- region D cluster (south) -->
+            <circle data-hf-id="hf-c0fk" class="f22-dot" cx="320" cy="460" r="6" />
+            <circle data-hf-id="hf-i44y" class="f22-dot" cx="280" cy="470" r="6" />
+            <circle data-hf-id="hf-p1kx" class="f22-dot" cx="350" cy="480" r="6" />
+            <circle data-hf-id="hf-9jr1" class="f22-dot" cx="300" cy="500" r="6" />
+            <circle data-hf-id="hf-ja8j" class="f22-dot" cx="260" cy="495" r="6" />
+            <circle data-hf-id="hf-1pl8" class="f22-dot" cx="330" cy="515" r="6" />
+            <circle data-hf-id="hf-kypa" class="f22-dot" cx="290" cy="530" r="6" />
+            <circle data-hf-id="hf-7q33" class="f22-dot" cx="310" cy="200" r="6" />
+            <circle data-hf-id="hf-6f5f" class="f22-dot" cx="255" cy="330" r="6" />
+            <circle data-hf-id="hf-lc2n" class="f22-dot" cx="345" cy="435" r="6" />
+          </g>
+        </svg>
+      </div>
+
+      <div data-hf-id="hf-d6b7" class="f22-caption">
+        <div data-hf-id="hf-eio6" class="f22-caption-main">30 sites · four regions</div>
+        <div data-hf-id="hf-1t86" class="f22-caption-sub">an area roughly the size of Delaware</div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script>
+    (function () {
+      window.__timelines = window.__timelines || {};
+      var tl = gsap.timeline({ paused: true });
+
+      var duration = 7.04;
+      var mapWrap = document.getElementById("f22-map-wrap");
+      var outline = document.getElementById("f22-outline");
+      var dots = document.querySelectorAll("#f22-dots .f22-dot");
+      var countEl = document.getElementById("f22-count");
+      var caption = document.querySelector(".f22-caption");
+
+      // Prep initial states.
+      gsap.set(mapWrap, { opacity: 0, scale: 0.94 });
+      gsap.set(dots, { opacity: 0, scale: 0 });
+      gsap.set(caption, { y: 14, xPercent: -50 });
+
+      var outlineLen = 1400; // generous over-estimate for a smooth draw
+      gsap.set(outline, {
+        strokeDasharray: outlineLen,
+        strokeDashoffset: outlineLen
+      });
+
+      // Phase 1 (0 - ~28%): map frame fades in, outline begins drawing.
+      tl.to(mapWrap, { opacity: 1, scale: 1, duration: 1.1, ease: "power2.out" }, 0.2);
+      tl.to(outline, { strokeDashoffset: 0, duration: 1.6, ease: "power1.inOut" }, 0.3);
+
+      // Phase 2 (~30% - ~85%): the 30 dots reveal in sequence, grouped into
+      // four waves (the four regions), matching the narration's pacing —
+      // count-up starts a little after 30% into the duration.
+      var dotStart = duration * 0.32;
+      var dotWindow = duration * 0.52; // spread the reveal across this span
+      var perDotStep = dotWindow / dots.length;
+
+      dots.forEach(function (dot, i) {
+        var t = dotStart + i * perDotStep;
+        tl.to(dot, { opacity: 1, scale: 1, duration: 0.22, ease: "back.out(2)" }, t);
+      });
+
+      // Count-up label tracks the dot reveal (30 sites), finishing with the
+      // last dot rather than front-loading.
+      var counter = { val: 0 };
+      tl.to(counter, {
+        val: 30,
+        duration: dotWindow,
+        ease: "none",
+        onUpdate: function () {
+          countEl.textContent = Math.round(counter.val).toString();
+        }
+      }, dotStart);
+
+      // Phase 3 (final ~20%): supporting caption settles in once the
+      // pattern of sites is visible, confirming the scale comparison.
+      var captionStart = dotStart + dotWindow - 0.4;
+      tl.to(caption, { opacity: 1, y: 0, xPercent: -50, duration: 0.6, ease: "power2.out" }, captionStart);
+
+      window.__timelines["22-beat"] = tl;
+    })();
+  </script>
+</template>

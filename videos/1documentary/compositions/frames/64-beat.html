@@ -1,0 +1,166 @@
+<template>
+  <style>
+    #root {
+      width: 1920px;
+      height: 1080px;
+      position: relative;
+      overflow: hidden;
+      background: #0c0d10;
+      font-family: -apple-system, "Inter", sans-serif;
+    }
+    .f-64-beat-bg {
+      background: radial-gradient(ellipse at 50% 45%, #14161b 0%, #0a0a0c 72%);
+    }
+    .f-64-beat-stage {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .f-64-beat-row {
+      display: flex;
+      align-items: baseline;
+      justify-content: center;
+      gap: 44px;
+    }
+    .f-64-beat-term {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      opacity: 0;
+    }
+    .f-64-beat-num {
+      font-size: 168px;
+      font-weight: 700;
+      color: #f2f2f0;
+      line-height: 1;
+      letter-spacing: -0.01em;
+      font-variant-numeric: tabular-nums;
+    }
+    .f-64-beat-label {
+      margin-top: 18px;
+      font-size: 25px;
+      font-weight: 500;
+      color: #f2f2f0;
+      opacity: 0.78;
+      letter-spacing: 0.02em;
+      text-transform: uppercase;
+    }
+    .f-64-beat-op {
+      font-size: 120px;
+      font-weight: 300;
+      color: #7fb0d8;
+      opacity: 0;
+      align-self: center;
+      transform: translateY(-10px);
+    }
+    .f-64-beat-total-wrap {
+      margin-top: 66px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      opacity: 0;
+    }
+    .f-64-beat-rule {
+      width: 340px;
+      height: 1px;
+      background: rgba(242,242,240,0.22);
+      margin-bottom: 28px;
+    }
+    .f-64-beat-total {
+      font-size: 108px;
+      font-weight: 700;
+      color: #7fb0d8;
+      line-height: 1;
+      font-variant-numeric: tabular-nums;
+    }
+    .f-64-beat-total-label {
+      margin-top: 16px;
+      font-size: 22px;
+      font-weight: 500;
+      color: #f2f2f0;
+      opacity: 0.65;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+    }
+  </style>
+
+  <div data-hf-id="hf-snuo" id="root" data-composition-id="64-beat" data-width="1920" data-height="1080" data-duration="8.31">
+    <div data-hf-id="hf-07cr" class="f-64-beat-bg clip" data-start="0" data-duration="9.91" data-track-index="0"></div>
+
+    <div data-hf-id="hf-c39r" class="f-64-beat-stage clip" data-start="0" data-duration="9.91" data-track-index="1">
+      <div data-hf-id="hf-185h" class="f-64-beat-row">
+        <div data-hf-id="hf-qafw" class="f-64-beat-term" id="f-64-beat-term-a">
+          <div data-hf-id="hf-ugtv" class="f-64-beat-num" id="f-64-beat-count">0</div>
+          <div data-hf-id="hf-5t08" class="f-64-beat-label">decoys deployed</div>
+        </div>
+        <div data-hf-id="hf-mmb3" class="f-64-beat-op" id="f-64-beat-op">×</div>
+        <div data-hf-id="hf-15xj" class="f-64-beat-term" id="f-64-beat-term-b">
+          <div data-hf-id="hf-62o7" class="f-64-beat-num" id="f-64-beat-price">$0</div>
+          <div data-hf-id="hf-5fwg" class="f-64-beat-label">per unit</div>
+        </div>
+      </div>
+      <div data-hf-id="hf-yl2u" class="f-64-beat-total-wrap" id="f-64-beat-total-wrap">
+        <div data-hf-id="hf-p4ot" class="f-64-beat-rule"></div>
+        <div data-hf-id="hf-jud4" class="f-64-beat-total" id="f-64-beat-total">$0</div>
+        <div data-hf-id="hf-6gyq" class="f-64-beat-total-label">approximate outlay</div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script>
+    (function () {
+      window.__timelines = window.__timelines || {};
+      var tl = gsap.timeline({ paused: true });
+
+      var countEl = document.getElementById("f-64-beat-count");
+      var priceEl = document.getElementById("f-64-beat-price");
+      var totalEl = document.getElementById("f-64-beat-total");
+
+      var counter = { n: 0 };
+      var priceCounter = { n: 0 };
+      var totalCounter = { n: 0 };
+
+      // Term A ("~120 decoys") settles in first, on early narration.
+      tl.to("#f-64-beat-term-a", { opacity: 1, duration: 0.5, ease: "power2.out" }, 0.5);
+      tl.to(counter, {
+        n: 120,
+        duration: 1.5,
+        ease: "power1.out",
+        onUpdate: function () {
+          countEl.textContent = "~" + Math.round(counter.n);
+        }
+      }, 0.6);
+
+      // Multiplication operator appears as narration turns to price.
+      tl.to("#f-64-beat-op", { opacity: 0.85, y: 0, duration: 0.4, ease: "power2.out" }, 2.5);
+
+      // Term B ("$4,000 each") reveals and counts up.
+      tl.to("#f-64-beat-term-b", { opacity: 1, duration: 0.5, ease: "power2.out" }, 2.75);
+      tl.to(priceCounter, {
+        n: 4000,
+        duration: 1.3,
+        ease: "power1.out",
+        onUpdate: function () {
+          priceEl.textContent = "$" + Math.round(priceCounter.n).toLocaleString();
+        }
+      }, 2.85);
+
+      // Running total resolves late, holding for the tail of the beat.
+      tl.to("#f-64-beat-total-wrap", { opacity: 1, duration: 0.5, ease: "power2.out" }, 4.6);
+      tl.to(totalCounter, {
+        n: 480000,
+        duration: 1.4,
+        ease: "power2.out",
+        onUpdate: function () {
+          totalEl.textContent = "$" + Math.round(totalCounter.n).toLocaleString();
+        }
+      }, 4.7);
+
+      window.__timelines["64-beat"] = tl;
+    })();
+  </script>
+</template>

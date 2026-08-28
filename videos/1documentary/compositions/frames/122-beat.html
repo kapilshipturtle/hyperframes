@@ -1,0 +1,161 @@
+<template>
+  <style>
+    #root {
+      width: 1920px;
+      height: 1080px;
+      position: relative;
+      overflow: hidden;
+      background: #0d0e10;
+      font-family: -apple-system, "Inter", sans-serif;
+    }
+    .f122b-bg {
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse at 50% 45%, #16181c 0%, #0d0e10 70%);
+    }
+    .f122b-stage {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .f122b-diagram {
+      position: relative;
+      width: 900px;
+      height: 620px;
+    }
+    /* full habitat zone outline (native-fish range, before it shrinks) */
+    .f122b-zone-full {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      width: 780px;
+      height: 780px;
+      border-radius: 50%;
+      border: 2px solid rgba(255,255,255,0.14);
+      transform: translate(-50%, -50%);
+    }
+    /* low-oxygen shrinking zone — the eel's exclusive space */
+    .f122b-zone-eel {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      width: 780px;
+      height: 780px;
+      border-radius: 50%;
+      background: radial-gradient(ellipse at center, rgba(127,176,216,0.16) 0%, rgba(127,176,216,0.05) 65%, rgba(127,176,216,0) 100%);
+      border: 2px solid rgba(127,176,216,0.55);
+      transform: translate(-50%, -50%) scale(1);
+      transform-origin: center;
+    }
+    .f122b-label {
+      position: absolute;
+      font-size: 24px;
+      font-weight: 500;
+      color: #f2f2f0;
+      opacity: 0;
+      letter-spacing: 0.01em;
+      text-align: center;
+      line-height: 1.35;
+    }
+    .f122b-label-outer {
+      top: 62px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 460px;
+      opacity: 0.72;
+    }
+    .f122b-label-inner {
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 300px;
+      color: #7fb0d8;
+    }
+    .f122b-eel-wrap {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%) scale(0.7);
+      opacity: 0;
+    }
+    .f122b-eel-svg {
+      width: 220px;
+      height: 130px;
+      display: block;
+    }
+    .f122b-eel-caption {
+      position: absolute;
+      bottom: 56px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 22px;
+      font-weight: 500;
+      color: #f2f2f0;
+      opacity: 0;
+      letter-spacing: 0.02em;
+    }
+  </style>
+
+  <div data-hf-id="hf-95h8" id="root" data-composition-id="122-beat" data-width="1920" data-height="1080" data-duration="6.69">
+    <div data-hf-id="hf-qnj4" class="f122b-bg clip" data-start="0" data-duration="7.89" data-track-index="0"></div>
+
+    <div data-hf-id="hf-wnji" class="f122b-stage clip" data-start="0" data-duration="7.89" data-track-index="1">
+      <div data-hf-id="hf-mkto" class="f122b-diagram" id="f122b-diagram">
+        <div data-hf-id="hf-cc4i" class="f122b-zone-full" id="f122b-zone-full"></div>
+        <div data-hf-id="hf-79kq" class="f122b-label f122b-label-outer" id="f122b-label-outer">water too low in oxygen<br data-hf-id="hf-x5px">for native fish</div>
+
+        <div data-hf-id="hf-edxe" class="f122b-zone-eel" id="f122b-zone-eel"></div>
+        <div data-hf-id="hf-780d" class="f122b-label f122b-label-inner" id="f122b-label-inner">habitat close to<br data-hf-id="hf-rsrt">nearly everything else</div>
+
+        <div data-hf-id="hf-k6xm" class="f122b-eel-wrap" id="f122b-eel-wrap">
+          <svg data-hf-id="hf-48s3" class="f122b-eel-svg" viewBox="0 0 220 130" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path data-hf-id="hf-mxhn" d="M14 92 C 40 30, 90 20, 118 46 C 140 66, 130 84, 108 80 C 92 77, 96 62, 112 60 C 150 56, 176 74, 196 100" stroke="#7fb0d8" stroke-width="6" stroke-linecap="round" fill="none" />
+            <circle data-hf-id="hf-09vp" cx="18" cy="90" r="5" fill="#7fb0d8" />
+          </svg>
+        </div>
+      </div>
+    </div>
+
+    <div data-hf-id="hf-8fd5" class="f122b-eel-caption clip" id="f122b-eel-caption" data-start="0" data-duration="7.89" data-track-index="2">the swamp eel, comfortably alone</div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script>
+    (function () {
+      window.__timelines = window.__timelines || {};
+      var tl = gsap.timeline({ paused: true });
+
+      var zoneFull = document.getElementById("f122b-zone-full");
+      var zoneEel = document.getElementById("f122b-zone-eel");
+      var labelOuter = document.getElementById("f122b-label-outer");
+      var labelInner = document.getElementById("f122b-label-inner");
+      var eelWrap = document.getElementById("f122b-eel-wrap");
+      var eelCaption = document.getElementById("f122b-eel-caption");
+
+      // initial state: full outline visible, eel zone at full size (not yet shrunk),
+      // labels/eel hidden
+      gsap.set(zoneFull, { opacity: 0, scale: 0.94 });
+      gsap.set(zoneEel, { scale: 1 });
+      gsap.set(labelOuter, { opacity: 0, y: -10 });
+      gsap.set(labelInner, { opacity: 0 });
+      gsap.set(eelWrap, { opacity: 0, scale: 0.7 });
+      gsap.set(eelCaption, { opacity: 0, y: 8 });
+
+      // establish the full habitat outline early
+      tl.to(zoneFull, { opacity: 1, scale: 1, duration: 0.6, ease: "power2.out" }, 0.15);
+      tl.to(labelOuter, { opacity: 0.72, y: 0, duration: 0.5, ease: "power2.out" }, 0.35);
+
+      // ~30-45% into duration: the low-oxygen zone shrinks the usable habitat
+      tl.to(zoneEel, { scale: 0.34, duration: 1.15, ease: "power2.inOut" }, 1.75);
+      tl.to(labelInner, { opacity: 1, duration: 0.5, ease: "power2.out" }, 2.55);
+
+      // eel settles into that same shrunken zone, alone and comfortable
+      tl.to(eelWrap, { opacity: 1, scale: 0.55, duration: 0.7, ease: "back.out(1.4)" }, 3.35);
+      tl.to(eelCaption, { opacity: 0.85, y: 0, duration: 0.5, ease: "power2.out" }, 3.95);
+
+      window.__timelines["122-beat"] = tl;
+    })();
+  </script>
+</template>

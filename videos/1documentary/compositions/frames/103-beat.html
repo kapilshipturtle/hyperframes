@@ -1,0 +1,103 @@
+<template>
+  <style>
+    #root {
+      width: 1920px;
+      height: 1080px;
+      position: relative;
+      overflow: hidden;
+      background: #000;
+    }
+    .broll-wrap {
+      position: absolute;
+      inset: -6%;
+      width: 112%;
+      height: 112%;
+    }
+    .broll-media {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    /* Cutaway sits absolutely over the primary media inside the same wrap
+       (so it inherits the same Ken Burns move on the wrap element, keeping
+       the two shots visually consistent) — starts transparent, GSAP
+       crossfades it in at --cutaway-at, see the script block below. */
+    .broll-cutaway {
+      position: absolute;
+      inset: 0;
+    }
+    /* 2.5D parallax layers (see gen-depth-layers.py) — both stacked full-
+       bleed inside the same wrap. The foreground is deliberately oversized
+       (rather than 100%) so its own independent translate (see parallaxCode
+       below) never slides a transparent edge into frame — the same
+       overscan-margin idea the wrap itself already uses, just at the layer
+       level since the fg moves MORE than the wrap's own Ken Burns alone. */
+    .broll-parallax-bg {
+      position: absolute;
+      inset: 0;
+      object-fit: cover;
+    }
+    .broll-parallax-fg {
+      position: absolute;
+      inset: -8%;
+      width: 116%;
+      height: 116%;
+      object-fit: contain;
+      object-position: center;
+    }
+    /* subtle bottom scrim so any burned-in captions stay readable over bright footage */
+    .broll-scrim {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to top, rgba(0,0,0,0.35) 0%, rgba(0,0,0,0) 22%);
+      pointer-events: none;
+    }
+    /* Optional per-beat vignette — a real, if modest, "composited" texture
+       layer distinct from the global grain overlay (which is flat, uniform,
+       full-timeline). Researched documentary/explainer-channel convention:
+       supporting texture layers COMPOSITED WITH the base clip, in the same
+       frame, is the single highest-leverage visual-quality delta over "one
+       flat clip per beat" — this is the smallest, most self-contained piece
+       of that: a soft radial darkening toward the frame edges, drawing the
+       eye toward center/subject the way a real lens vignette does. Opt-in
+       per beat via --vignette, never global/automatic (unlike grain) since
+       its strength should vary by shot mood, not apply uniformly.*/
+    .broll-vignette {
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse at center, rgba(0,0,0,0) 45%, rgba(0,0,0,0) 100%);
+      pointer-events: none;
+    }
+
+    .ov-def-scrim { position: absolute; left: 0; bottom: 0; width: 560px; height: 220px; background: radial-gradient(ellipse at bottom left, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.24) 60%, rgba(0,0,0,0) 88%); opacity: 0; pointer-events: none; }
+    .ov-def-callout { position: absolute; left: 72px; bottom: 96px; max-width: 420px; opacity: 0; }
+    .ov-def-term { position: relative; display: inline-block; font: 800 35px/1 -apple-system, "Inter", sans-serif; color: #ffffff; text-shadow: 0 1px 2px rgba(0,0,0,0.5), 0 4px 14px rgba(0,0,0,0.4); }
+    .ov-def-underline { position: absolute; left: 0; bottom: -4px; width: 100%; height: 3px; background: #ffffff; border-radius: 1.5px; transform-origin: 0% 50%; transform: scaleX(0); }
+    .ov-def-text { margin-top: 10px; font: 500 23px/1.4 -apple-system, "Inter", sans-serif; color: #ffffff; text-shadow: 0 1px 2px rgba(0,0,0,0.5), 0 4px 14px rgba(0,0,0,0.4); opacity: 0; }
+  </style>
+
+  <div data-hf-id="hf-mq4b" id="root" data-composition-id="103-beat" data-width="1920" data-height="1080" data-duration="10.64">
+    <div data-hf-id="hf-4dhb" class="broll-wrap" id="f-103-beat-wrap">
+      <video data-hf-id="hf-pwcz" id="f-103-beat-media" class="broll-media clip" src=".media/broll/beat-103.mp4" muted playsinline data-start="0" data-duration="11.84" data-media-start="0" data-track-index="0"></video>
+    </div>
+    <div data-hf-id="hf-u99u" class="broll-scrim clip" id="f-103-beat-scrim" data-start="0" data-duration="11.84" data-track-index="1"></div>
+    <div data-hf-id="hf-ngz5" class="ov-def-scrim" id="f-103-beat-ov-scrim"></div><div data-hf-id="hf-tml2" class="ov-def-callout" id="f-103-beat-ov"><span data-hf-id="hf-ofbj" class="ov-def-term" id="f-103-beat-ov-term">High risk<span data-hf-id="hf-w1fy" class="ov-def-underline" id="f-103-beat-ov-underline"></span></span><p data-hf-id="hf-jchs" class="ov-def-text" id="f-103-beat-ov-text">documented invasion history elsewhere + genuine US establishment concern</p></div>
+  </div>
+
+  <script>
+    (function () {
+      window.__timelines = window.__timelines || {};
+      var tl = gsap.timeline({ paused: true });
+      var wrap = document.getElementById("f-103-beat-wrap");
+      gsap.set(wrap, { scale: 1.0 });
+      tl.to("#f-103-beat-ov-scrim", { opacity: 1, duration: 0.4, ease: "power2.out" }, 0.20);
+      tl.to("#f-103-beat-ov", { opacity: 1, duration: 0.01 }, 0.30);
+      tl.fromTo("#f-103-beat-ov-term", { opacity: 0, y: 8 }, { opacity: 1, y: 0, duration: 0.3, ease: "power3.out" }, 0.30);
+      tl.to("#f-103-beat-ov-underline", { scaleX: 1, duration: 0.28, ease: "power2.out" }, 0.58);
+      tl.fromTo("#f-103-beat-ov-text", { opacity: 0, y: 8 }, { opacity: 1, y: 0, duration: 0.3, ease: "power3.out" }, 0.72);
+      tl.to("#f-103-beat-ov", { opacity: 0, y: -6, duration: 0.3, ease: "power2.in" }, 8.84);
+      tl.to("#f-103-beat-ov-scrim", { opacity: 0, duration: 0.4, ease: "power2.in" }, 8.99);
+      window.__timelines["103-beat"] = tl;
+    })();
+  </script>
+</template>

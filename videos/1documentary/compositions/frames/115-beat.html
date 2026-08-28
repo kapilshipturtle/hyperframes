@@ -1,0 +1,120 @@
+<template>
+<div data-hf-id="hf-auvy" id="root" data-composition-id="115-beat" data-width="1920" data-height="1080" data-duration="6.07">
+  <style>
+    #root {
+      background: #0a0a0c;
+      font-family: -apple-system, "Inter", sans-serif;
+      overflow: hidden;
+    }
+    .clip { position: absolute; }
+
+    .beat115-bg {
+      top: 0; left: 0; width: 100%; height: 100%;
+      background: radial-gradient(circle at 50% 45%, #121316 0%, #0a0a0c 70%);
+    }
+
+    .beat115-stage {
+      top: 0; left: 0; width: 100%; height: 100%;
+    }
+
+    .beat115-svgwrap {
+      position: absolute;
+      top: 50%; left: 50%;
+      transform: translate(-50%, -55%);
+      width: 1100px; height: 500px;
+    }
+
+    .beat115-label {
+      position: absolute;
+      top: 74%; left: 50%;
+      transform: translate(-50%, 0);
+      text-align: center;
+      width: 900px;
+    }
+
+    .beat115-label-line1 {
+      font-size: 25px;
+      color: #f2f2f0;
+      opacity: 0;
+      font-weight: 500;
+      letter-spacing: 0.02em;
+    }
+
+    .beat115-label-line2 {
+      font-size: 22px;
+      color: #7fb0d8;
+      opacity: 0;
+      font-weight: 400;
+      letter-spacing: 0.02em;
+      margin-top: 6px;
+    }
+
+    .beat115-tick {
+      stroke: #7fb0d8;
+      stroke-width: 2;
+      opacity: 0;
+    }
+  </style>
+
+  <div data-hf-id="hf-pwsr" class="clip beat115-bg" data-start="0" data-duration="7.27" data-track-index="0"></div>
+
+  <div data-hf-id="hf-imbj" class="clip beat115-stage" data-start="0" data-duration="7.27" data-track-index="1">
+    <div data-hf-id="hf-o6ge" class="beat115-svgwrap">
+      <svg data-hf-id="hf-j2k2" viewBox="0 0 1100 500" width="1100" height="500" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <!-- Body outline: smooth elongated fish-like silhouette, no paired fins -->
+        <path data-hf-id="hf-8uxy" id="beat115-body" d="M 90 260
+             C 90 190, 200 140, 380 130
+             C 560 122, 760 150, 900 200
+             C 970 224, 1010 245, 1010 260
+             C 1010 275, 970 296, 900 320
+             C 760 370, 560 398, 380 390
+             C 200 380, 90 330, 90 260 Z" stroke="#f2f2f0" stroke-width="3" stroke-opacity="0.9" fill="none" stroke-dasharray="2400" stroke-dashoffset="2400" />
+
+        <!-- Tail taper line -->
+        <path data-hf-id="hf-2pw4" id="beat115-tail" d="M 1010 260 C 1050 250, 1080 240, 1095 210 M 1010 260 C 1050 270, 1080 285, 1095 315" stroke="#f2f2f0" stroke-width="3" stroke-opacity="0.9" fill="none" stroke-dasharray="220" stroke-dashoffset="220" />
+
+        <!-- Single thin dorsal ridge -->
+        <path data-hf-id="hf-v4s2" id="beat115-ridge" d="M 260 145 C 400 100, 620 100, 840 175" stroke="#7fb0d8" stroke-width="3" fill="none" stroke-dasharray="620" stroke-dashoffset="620" />
+
+        <!-- callout line from ridge to label -->
+        <line data-hf-id="hf-rcge" id="beat115-callout" x1="560" y1="118" x2="560" y2="420" stroke="#7fb0d8" stroke-width="1.5" stroke-dasharray="4 6" opacity="0" />
+
+        <circle data-hf-id="hf-nq2p" id="beat115-dot" cx="560" cy="118" r="5" fill="#7fb0d8" opacity="0" />
+      </svg>
+    </div>
+
+    <div data-hf-id="hf-yski" class="beat115-label">
+      <div data-hf-id="hf-whcj" class="beat115-label-line1" id="beat115-l1">no paired fins</div>
+      <div data-hf-id="hf-b32k" class="beat115-label-line2" id="beat115-l2">just a thin ridge</div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script>
+    (function () {
+      var tl = gsap.timeline({ paused: true });
+      var D = 4.87;
+
+      // Body draws in early, calm reveal (0 -> ~2.0s)
+      tl.to("#beat115-body", { strokeDashoffset: 0, duration: 1.9, ease: "power2.out" }, 0.15);
+      tl.to("#beat115-tail", { strokeDashoffset: 0, duration: 0.6, ease: "power2.out" }, 1.6);
+
+      // Ridge line draws on next, the singular feature (~2.2 -> 3.1s)
+      tl.to("#beat115-ridge", { strokeDashoffset: 0, duration: 0.9, ease: "power2.inOut" }, 2.2);
+
+      // Dot + callout appear at ridge, pointing down to label (~3.0 -> 3.5s)
+      tl.to("#beat115-dot", { opacity: 1, duration: 0.25, ease: "power1.out" }, 3.0);
+      tl.to("#beat115-callout", { opacity: 0.6, duration: 0.4, ease: "power1.out" }, 3.05);
+
+      // Label text reveals late, on narration pacing (~3.4 -> 4.87s)
+      tl.to("#beat115-l1", { opacity: 1, y: 0, duration: 0.5, ease: "power1.out" }, 3.4);
+      tl.fromTo("#beat115-l1", { y: 10 }, { y: 0, duration: 0.5, ease: "power1.out" }, 3.4);
+      tl.to("#beat115-l2", { opacity: 0.8, duration: 0.5, ease: "power1.out" }, 3.75);
+      tl.fromTo("#beat115-l2", { y: 10 }, { y: 0, duration: 0.5, ease: "power1.out" }, 3.75);
+
+      window.__timelines = window.__timelines || {};
+      window.__timelines["115-beat"] = tl;
+    })();
+  </script>
+</div>
+</template>

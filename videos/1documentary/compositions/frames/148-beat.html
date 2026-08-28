@@ -1,0 +1,139 @@
+<template>
+<style>
+  #root {
+    background: #0e0e10;
+    font-family: -apple-system, "Inter", sans-serif;
+    overflow: hidden;
+  }
+
+  .beat148-bg {
+    background: #0e0e10;
+  }
+
+  .beat148-stage {
+    position: absolute;
+    top: 0; left: 0;
+    width: 1920px; height: 1080px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .beat148-svg-wrap {
+    position: relative;
+    width: 1000px;
+    height: 640px;
+  }
+
+  .beat148-label {
+    position: absolute;
+    left: 50%;
+    top: 872px;
+    transform: translateX(-50%);
+    font-size: 26px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: #f2f2f0;
+    opacity: 0;
+    font-weight: 500;
+  }
+
+  .beat148-label .beat148-accent {
+    color: #a9b4c0;
+  }
+</style>
+
+<div data-hf-id="hf-o9xo" id="root" data-composition-id="148-beat" data-width="1920" data-height="1080" data-duration="5.68">
+
+  <div data-hf-id="hf-r8zy" class="clip beat148-bg" data-start="0" data-duration="7.28" data-track-index="0"></div>
+
+  <div data-hf-id="hf-q18u" class="clip beat148-stage" data-start="0" data-duration="7.28" data-track-index="1">
+    <div data-hf-id="hf-4a19" class="beat148-svg-wrap">
+      <svg data-hf-id="hf-qwcm" viewBox="0 0 1000 640" width="1000" height="640" xmlns="http://www.w3.org/2000/svg">
+        <!-- wetland landscape base outline -->
+        <path data-hf-id="hf-3wxp" d="M 60 420 Q 200 380 340 420 T 620 410 T 940 430" fill="none" stroke="#f2f2f0" stroke-opacity="0.25" stroke-width="2" />
+        <path data-hf-id="hf-ymgh" d="M 40 460 Q 220 500 400 460 T 780 470 T 960 450" fill="none" stroke="#f2f2f0" stroke-opacity="0.18" stroke-width="2" />
+
+        <!-- full wetland water extent (shrinks away) -->
+        <path data-hf-id="hf-eag4" id="beat148-fullwater" d="M 120 300
+                 C 200 250, 320 250, 400 300
+                 C 470 340, 560 340, 640 300
+                 C 730 255, 830 260, 880 320
+                 C 920 365, 900 430, 830 460
+                 C 740 500, 620 495, 540 460
+                 C 460 425, 360 430, 280 465
+                 C 200 498, 130 470, 110 410
+                 C 95 365, 90 335, 120 300 Z" fill="#7fb0d8" fill-opacity="0.16" stroke="#7fb0d8" stroke-opacity="0.5" stroke-width="2" />
+
+        <!-- deep hole pockets (remain / grow) -->
+        <ellipse data-hf-id="hf-gy8y" id="beat148-hole1" cx="260" cy="360" rx="10" ry="7" fill="#a9b4c0" />
+        <ellipse data-hf-id="hf-n8me" id="beat148-hole2" cx="520" cy="380" rx="10" ry="7" fill="#a9b4c0" />
+        <ellipse data-hf-id="hf-wfpg" id="beat148-hole3" cx="760" cy="345" rx="10" ry="7" fill="#a9b4c0" />
+
+        <!-- ring pulses to draw eye to retreat direction -->
+        <circle data-hf-id="hf-xlac" id="beat148-ring1" cx="260" cy="360" r="10" fill="none" stroke="#a9b4c0" stroke-width="1.5" opacity="0" />
+        <circle data-hf-id="hf-i87e" id="beat148-ring2" cx="520" cy="380" r="10" fill="none" stroke="#a9b4c0" stroke-width="1.5" opacity="0" />
+        <circle data-hf-id="hf-tdb6" id="beat148-ring3" cx="760" cy="345" r="10" fill="none" stroke="#a9b4c0" stroke-width="1.5" opacity="0" />
+      </svg>
+    </div>
+
+    <div data-hf-id="hf-5ogx" class="beat148-label">DRY <span data-hf-id="hf-k0bs" class="beat148-accent">SEASON</span></div>
+  </div>
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script>
+(function () {
+  var frameId = "148-beat";
+  var root = document;
+
+  var fullwater = root.querySelector('#beat148-fullwater');
+  var hole1 = root.querySelector('#beat148-hole1');
+  var hole2 = root.querySelector('#beat148-hole2');
+  var hole3 = root.querySelector('#beat148-hole3');
+  var ring1 = root.querySelector('#beat148-ring1');
+  var ring2 = root.querySelector('#beat148-ring2');
+  var ring3 = root.querySelector('#beat148-ring3');
+  var label = root.querySelector('.beat148-label');
+  var svgWrap = root.querySelector('.beat148-svg-wrap');
+
+  gsap.set(svgWrap, { opacity: 0, y: 14 });
+  gsap.set([hole1, hole2, hole3], { rx: 10, ry: 7, transformOrigin: "center" });
+  gsap.set(fullwater, { transformOrigin: "50% 50%" });
+
+  var tl = gsap.timeline({ paused: true });
+
+  // 0.0 - 0.5s: scene fades/settles in with full wetland visible
+  tl.to(svgWrap, { opacity: 1, y: 0, duration: 0.5, ease: "power2.out" }, 0);
+
+  // ~0.6s - 2.4s (roughly 15%-60% of 4.08s): water retreats, shrinking from full extent
+  tl.to(fullwater, {
+    scale: 0.18,
+    opacity: 0.35,
+    duration: 1.9,
+    ease: "power2.inOut"
+  }, 0.7);
+
+  // deep pockets grow slightly as water concentrates into them, staggered
+  tl.to(hole1, { rx: 22, ry: 16, duration: 0.7, ease: "power2.out" }, 1.7)
+    .to(hole2, { rx: 26, ry: 19, duration: 0.7, ease: "power2.out" }, 1.9)
+    .to(hole3, { rx: 20, ry: 15, duration: 0.7, ease: "power2.out" }, 2.1);
+
+  // ring pulses confirming the pockets as the "deeper holes"
+  tl.to(ring1, { opacity: 0.7, r: 30, duration: 0.5, ease: "power1.out" }, 2.0)
+    .to(ring1, { opacity: 0, duration: 0.4, ease: "power1.in" }, 2.5)
+    .to(ring2, { opacity: 0.7, r: 32, duration: 0.5, ease: "power1.out" }, 2.2)
+    .to(ring2, { opacity: 0, duration: 0.4, ease: "power1.in" }, 2.7)
+    .to(ring3, { opacity: 0.7, r: 28, duration: 0.5, ease: "power1.out" }, 2.4)
+    .to(ring3, { opacity: 0, duration: 0.4, ease: "power1.in" }, 2.9);
+
+  // label appears late, after retreat is legible (~70% in)
+  tl.to(label, { opacity: 0.85, duration: 0.5, ease: "power2.out" }, 3.0);
+
+  window.__timelines = window.__timelines || {};
+  window.__timelines[frameId] = tl;
+})();
+</script>
+
+</template>

@@ -1,0 +1,124 @@
+<template>
+<style>
+  #root {
+    background: #0d0d0f;
+    font-family: -apple-system, "Inter", sans-serif;
+    color: #f2f2f0;
+    overflow: hidden;
+  }
+
+  .frame77-stage {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .frame77-line {
+    font-size: 150px;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+    line-height: 1.05;
+    text-align: center;
+    color: #f2f2f0;
+    opacity: 0;
+    margin: 0;
+  }
+
+  .frame77-line.frame77-accent {
+    color: #9089a8;
+  }
+
+  .frame77-years {
+    font-size: 120px;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #f2f2f0;
+    opacity: 0;
+    margin: 0;
+  }
+
+  .frame77-bar-wrap {
+    position: absolute;
+    bottom: 340px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 900px;
+    height: 2px;
+    background: rgba(255, 255, 255, 0.12);
+    overflow: hidden;
+  }
+
+  .frame77-bar-fill {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0%;
+    background: linear-gradient(90deg, #9089a8, rgba(144, 137, 168, 0.15));
+  }
+
+  .frame77-label {
+    position: absolute;
+    bottom: 300px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #f2f2f0;
+    opacity: 0;
+  }
+</style>
+
+<div data-hf-id="hf-7mbx" id="root" data-composition-id="77-beat" data-width="1920" data-height="1080" data-duration="5.71">
+  <div data-hf-id="hf-5jim" class="clip" data-start="0" data-duration="7.11" data-track-index="0" style="position:absolute;inset:0;background:#0d0d0f;"></div>
+
+  <div data-hf-id="hf-i4iy" class="clip frame77-stage" data-start="0" data-duration="7.11" data-track-index="1">
+    <p data-hf-id="hf-fibj" class="frame77-line" id="frame77-line1">THREE QUARTERS.</p>
+    <p data-hf-id="hf-v8xy" class="frame77-line frame77-accent" id="frame77-line2">GONE.</p>
+    <p data-hf-id="hf-go57" class="frame77-years" id="frame77-line3">30 YEARS.</p>
+  </div>
+
+  <div data-hf-id="hf-gcj9" class="clip" data-start="0" data-duration="7.11" data-track-index="2">
+    <div data-hf-id="hf-qof4" class="frame77-label" id="frame77-timelbl">A GENERATION</div>
+    <div data-hf-id="hf-6en6" class="frame77-bar-wrap">
+      <div data-hf-id="hf-ye9j" class="frame77-bar-fill" id="frame77-barfill"></div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script>
+    (function () {
+      var root = document;
+      var q = function (sel) { return root.querySelector(sel); };
+
+      var tl = gsap.timeline({ paused: true });
+
+      var line1 = q('#frame77-line1');
+      var line2 = q('#frame77-line2');
+      var line3 = q('#frame77-line3');
+      var label = q('#frame77-timelbl');
+      var barFill = q('#frame77-barfill');
+
+      gsap.set([line1, line2, line3], { y: 16 });
+
+      // Beat: "three quarters of the frogs and salamanders, gone over 30 years."
+      // Reveal spread across full 4.31s duration, weighted to narration pacing.
+      tl.to(line1, { opacity: 1, y: 0, duration: 0.55, ease: 'power2.out' }, 0.55)
+        .to(line2, { opacity: 1, y: 0, duration: 0.5, ease: 'power2.out' }, 1.55)
+        .to(line3, { opacity: 1, y: 0, duration: 0.6, ease: 'power2.out' }, 2.55)
+        .to(label, { opacity: 0.75, duration: 0.4, ease: 'power1.out' }, 2.7)
+        .to(barFill, { width: '100%', duration: 1.5, ease: 'power1.inOut' }, 2.75)
+        .to(barFill, { opacity: 0.35, duration: 0.5, ease: 'power1.out' }, 4.0);
+
+      window.__timelines = window.__timelines || {};
+      window.__timelines["77-beat"] = tl;
+    })();
+  </script>
+</div>
+</template>

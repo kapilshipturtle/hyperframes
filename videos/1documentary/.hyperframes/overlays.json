@@ -1,0 +1,768 @@
+{
+ "01": {
+  "archetype": "none",
+  "reason": "opening atmospheric line, footage/audio carries it"
+ },
+ "02": {
+  "archetype": "none",
+  "reason": "connective bridge line, no concrete hook"
+ },
+ "03": {
+  "archetype": "none",
+  "reason": "connective sentence; the stronger, more consequential place-reveal lands at beat 37 as the epicenter -- cutting this earlier mention to stay under density target"
+ },
+ "04": {
+  "archetype": "none",
+  "reason": "date already carried by narration flow into beat 05's reveal, not its own standalone hook"
+ },
+ "05": {
+  "archetype": "key-phrase",
+  "text": "Not a frog. Not a salamander. Not a single tadpole.",
+  "enterAt": 0.0,
+  "tone": "urgent",
+  "reason": "the single most quotable, thesis-establishing line in the opening -- the survey's zero result"
+ },
+ "06": {
+  "archetype": "none",
+  "reason": "sets up the python topic but beat 07 is the stronger new-topic landing point with the concrete detail"
+ },
+ "07": {
+  "archetype": "stat-callout",
+  "value": 16,
+  "prefix": "",
+  "label": "feet long",
+  "enterAt": 2.3,
+  "placement": "corner",
+  "tone": "urgent",
+  "reason": "the python's size is a concrete, oft-cited figure, but the beat's real focus is the snake filling the shot -- corner supports rather than dominates"
+ },
+ "08": {
+  "archetype": "none",
+  "reason": "vague scale statement, no specific figure to anchor a callout"
+ },
+ "09": {
+  "archetype": "none",
+  "reason": "descriptive elaboration, footage carries it"
+ },
+ "10": {
+  "archetype": "none",
+  "reason": "transitional pivot line into the eel reveal, deliberately vague -- an overlay here would spoil the reveal"
+ },
+ "11": {
+  "archetype": "none",
+  "reason": "descriptive list of traits, not yet naming the animal -- save the overlay for the reveal"
+ },
+ "12": {
+  "archetype": "none",
+  "reason": "closes the cold-open teaser, footage/pacing carries it"
+ },
+ "13": {
+  "archetype": "source-tag",
+  "text": "Freshwater Biology, 2024",
+  "enterAt": 0.5,
+  "reason": "names the specific journal citation grounding the whole study"
+ },
+ "14": {
+  "archetype": "list-reveal",
+  "items": [
+   "Water levels",
+   "Soil chemistry",
+   "Disease",
+   "Pollution",
+   "Human management"
+  ],
+  "enterAt": 0.3,
+  "reason": "enumerates the 5 explanations researchers tested -- a genuine short list"
+ },
+ "15": {
+  "archetype": "none",
+  "reason": "the payoff ('one factor beat all of them') is a tease, not itself a number -- avoid spoiling with a graphic"
+ },
+ "16": {
+  "archetype": "lower-third",
+  "text": "Hunter Howell, University of Miami",
+  "enterAt": 3.5,
+  "tone": "neutral",
+  "reason": "introduces the documentary's central named researcher for the first time"
+ },
+ "17": {
+  "archetype": "key-phrase",
+  "text": "The Everglades is not one wetland, it's a mosaic.",
+  "enterAt": 1.0,
+  "tone": "neutral",
+  "reason": "genuinely quotable reframing line that recurs as a structural idea"
+ },
+ "18": {
+  "archetype": "none",
+  "reason": "elaborates on the mosaic idea from beat 17, would be redundant to overlay again immediately"
+ },
+ "19": {
+  "archetype": "none",
+  "reason": "connective description, footage of canals carries it"
+ },
+ "20": {
+  "archetype": "none",
+  "reason": "connective, sets up beat 21-22's concrete scope"
+ },
+ "21": {
+  "archetype": "none",
+  "reason": "names collaborating institutions but not the beat's real hook -- beat 22 has the concrete scale figure"
+ },
+ "22": {
+  "archetype": "stat-callout",
+  "value": 30,
+  "prefix": "",
+  "label": "sites, an area the size of Delaware",
+  "enterAt": 0.2,
+  "placement": "center",
+  "tone": "neutral",
+  "reason": "the survey's scale IS the visual point of this invented-scene beat -- no competing footage action, number earns center"
+ },
+ "23": {
+  "archetype": "none",
+  "reason": "brief logistics line"
+ },
+ "24": {
+  "archetype": "none",
+  "reason": "descriptive fieldwork detail, footage carries it"
+ },
+ "25": {
+  "archetype": "none",
+  "reason": "descriptive, vivid but not a discrete graphic hook"
+ },
+ "26": {
+  "archetype": "none",
+  "reason": "narrative anecdote, footage carries it"
+ },
+ "27": {
+  "archetype": "none",
+  "reason": "continuation of the same anecdote"
+ },
+ "28": {
+  "archetype": "stat-callout",
+  "value": 2251,
+  "prefix": "",
+  "label": "amphibians across 9 species",
+  "enterAt": 1.5,
+  "placement": "center",
+  "tone": "neutral",
+  "reason": "the survey's raw headline number, the actual visual focus of this invented-scene beat"
+ },
+ "29": {
+  "archetype": "none",
+  "reason": "elaborates on beat 28's number, avoid double-counting the same hook"
+ },
+ "30": {
+  "archetype": "none",
+  "reason": "a tease line pointing forward, not itself a hook to graphic"
+ },
+ "31": {
+  "archetype": "key-phrase",
+  "text": "It's where the animals were and where they weren't.",
+  "enterAt": 0.0,
+  "tone": "neutral",
+  "reason": "the thesis line the entire back half of the survey findings hangs on"
+ },
+ "32": {
+  "archetype": "none",
+  "reason": "descriptive scene-setting for the northern Everglades"
+ },
+ "33": {
+  "archetype": "quote-card",
+  "text": "The frog calls up there are loud enough to give you a headache.",
+  "attribution": "Hunter Howell",
+  "enterAt": 0.5,
+  "reason": "a genuine, vivid, attributable quote from the named researcher"
+ },
+ "34": {
+  "archetype": "none",
+  "reason": "elaborates on the northern-Everglades noise, redundant with beat 33's quote"
+ },
+ "35": {
+  "archetype": "none",
+  "reason": "transitional line into the south-drainage finding"
+ },
+ "36": {
+  "archetype": "none",
+  "reason": "descriptive, footage of drainage carries it"
+ },
+ "37": {
+  "archetype": "map-tag",
+  "text": "Taylor Slough, near Homestead",
+  "enterAt": 0.5,
+  "tone": "urgent",
+  "reason": "names the specific drainage that turns out to be the epicenter -- second, confirming mention after beat 03's intro"
+ },
+ "38": {
+  "archetype": "none",
+  "reason": "restates the empty-traps finding from the cold open, no new hook"
+ },
+ "39": {
+  "archetype": "none",
+  "reason": "continuation of the same empty-traps beat"
+ },
+ "40": {
+  "archetype": "none",
+  "reason": "transitional pivot into the tree-frog survivors detail"
+ },
+ "41": {
+  "archetype": "list-reveal",
+  "items": [
+   "Squirrel tree frogs",
+   "Green tree frogs",
+   "Cuban tree frogs"
+  ],
+  "enterAt": 0.5,
+  "reason": "enumerates the exact 3 surviving species by name -- a genuine short list"
+ },
+ "42": {
+  "archetype": "none",
+  "reason": "tease line pointing to the shared trait explained in beat 43"
+ },
+ "43": {
+  "archetype": "center-statement",
+  "text": "They all live above the water line.",
+  "enterAt": 3.0,
+  "reason": "the singular pattern-revealing thesis line the whole northern/southern-drainage comparison hangs on -- brief, background is simple tree-frog-on-bark footage"
+ },
+ "44": {
+  "archetype": "none",
+  "reason": "restates beat 43's point in plainer language, avoid double overlay"
+ },
+ "45": {
+  "archetype": "none",
+  "reason": "transitional line into the python-history section"
+ },
+ "46": {
+  "archetype": "none",
+  "reason": "restates the 2022 date already established, no new hook"
+ },
+ "47": {
+  "archetype": "none",
+  "reason": "transitional pivot line into the python section"
+ },
+ "48": {
+  "archetype": "chapter-title",
+  "kicker": "Part Two",
+  "text": "The Python Problem",
+  "enterAt": 0.3,
+  "reason": "a genuine structural pivot -- the documentary shifts from the amphibian mystery to the python's backstory"
+ },
+ "49": {
+  "archetype": "none",
+  "reason": "the more consequential dated turning point is beat 50 (Hurricane Andrew); this earlier general timeline entry is the weaker of the two adjacent picks"
+ },
+ "50": {
+  "archetype": "timeline-marker",
+  "date": "1992",
+  "label": "Hurricane Andrew destroys a breeding facility",
+  "enterAt": 0.5,
+  "reason": "a specific dated turning point in the timeline sequence"
+ },
+ "51": {
+  "archetype": "none",
+  "reason": "general framing line, no new date or number"
+ },
+ "52": {
+  "archetype": "key-phrase",
+  "text": "Mammal surveys fell off a cliff.",
+  "enterAt": 3.0,
+  "tone": "urgent",
+  "reason": "re-picked after verify-overlays flagged chart-overlay's bar values as untraceable to this beat's own narration (no real 2003/2011 figures stated here) -- key-phrase captures the beat's vivid framing without fabricating numbers"
+ },
+ "53": {
+  "archetype": "value-delta",
+  "fromValue": 99,
+  "fromLabel": "Raccoons down %",
+  "toValue": 88,
+  "toLabel": "Bobcats down %",
+  "prefix": "-",
+  "enterAt": 0.3,
+  "tone": "urgent",
+  "reason": "corrected after verify-overlays flagged fromValue/toValue as non-numeric strings -- both 99 and 88 are real percentages stated directly in this beat's narration"
+ },
+ "54": {
+  "archetype": "none",
+  "reason": "elaborates on the same population-collapse idea without a new standalone figure"
+ },
+ "55": {
+  "archetype": "stat-callout",
+  "value": 95,
+  "prefix": "",
+  "label": "of small mammals eliminated",
+  "enterAt": 3.5,
+  "placement": "center",
+  "tone": "urgent",
+  "reason": "the headline python-impact statistic, the actual point of this invented-scene beat"
+ },
+ "56": {
+  "archetype": "none",
+  "reason": "sets up the quote landed in beat 57"
+ },
+ "57": {
+  "archetype": "quote-card",
+  "text": "20 years ago, the place was teeming. Now you'd struggle to find a single deer, possum, or squirrel.",
+  "attribution": "Everglades biologist, 20-year veteran",
+  "enterAt": 0.0,
+  "reason": "a genuine attributable pull quote capturing the scale of collapse"
+ },
+ "58": {
+  "archetype": "none",
+  "reason": "transitional line into the response section"
+ },
+ "59": {
+  "archetype": "none",
+  "reason": "descriptive, footage of the elimination program carries it"
+ },
+ "60": {
+  "archetype": "none",
+  "reason": "secondary competition detail already covered by the stronger beat-61 stat-callout with this year's actual numbers -- redundant figure"
+ },
+ "61": {
+  "archetype": "stat-callout",
+  "value": 907,
+  "prefix": "",
+  "label": "hunters, 280 snakes removed",
+  "enterAt": 0.3,
+  "placement": "center",
+  "tone": "neutral",
+  "reason": "this year's competition headline numbers are the entire point of this invented-scene beat"
+ },
+ "62": {
+  "archetype": "none",
+  "reason": "sets up the robotic-rabbit reveal landed in beats 63-65"
+ },
+ "63": {
+  "archetype": "none",
+  "reason": "icon-accent here is closer to decoration than a genuine confirming hook; footage of the robot rabbit carries the moment on its own"
+ },
+ "64": {
+  "archetype": "stat-callout",
+  "value": 4000,
+  "prefix": "$",
+  "label": "each, ~120 deployed",
+  "enterAt": 1.0,
+  "placement": "center",
+  "tone": "neutral",
+  "reason": "the cost/scale figures are the entire point of this invented-scene beat, no competing footage action"
+ },
+ "65": {
+  "archetype": "none",
+  "reason": "elaborates on the decoys' mechanism, no new standalone figure"
+ },
+ "66": {
+  "archetype": "none",
+  "reason": "transitional caveat line"
+ },
+ "67": {
+  "archetype": "none",
+  "reason": "transitional pivot into the media-framing argument"
+ },
+ "68": {
+  "archetype": "none",
+  "reason": "elaborates on the media-framing point without a discrete quotable line"
+ },
+ "69": {
+  "archetype": "key-phrase",
+  "text": "It was 16 feet long and photogenic.",
+  "enterAt": 3.0,
+  "tone": "neutral",
+  "reason": "a genuinely quotable, memorable turn of phrase capturing the media-bias argument"
+ },
+ "70": {
+  "archetype": "none",
+  "reason": "the prey list is illustrative rather than the beat's real hook; cutting to stay under density target, footage carries it"
+ },
+ "71": {
+  "archetype": "none",
+  "reason": "elaborates on why mammals are easy to count, no new list"
+ },
+ "72": {
+  "archetype": "none",
+  "reason": "sets up the contrast landed structurally by the whole section, not a discrete graphic moment"
+ },
+ "73": {
+  "archetype": "none",
+  "reason": "transitional explanatory line"
+ },
+ "74": {
+  "archetype": "none",
+  "reason": "descriptive, footage of the small frog carries it"
+ },
+ "75": {
+  "archetype": "none",
+  "reason": "sets up the statistic landed in beat 76"
+ },
+ "76": {
+  "archetype": "threshold-bar",
+  "currentValue": 74,
+  "thresholdValue": 100,
+  "label": "amphibian decline, at least 74%",
+  "enterAt": 0.5,
+  "tone": "solemn",
+  "reason": "corrected again: verify-overlays flagged the computed midpoint 79 as untraceable; using 74, the literal lower-bound figure stated directly in this beat's narration"
+ },
+ "77": {
+  "archetype": "center-statement",
+  "text": "Three quarters of the frogs and salamanders. Gone. Over 30 years.",
+  "enterAt": 0.0,
+  "reason": "the single starkest thesis statistic of the whole documentary, earns the rare center-statement treatment"
+ },
+ "78": {
+  "archetype": "quote-card",
+  "text": "While the cameras pointed at the snake, that's the part nobody printed.",
+  "enterAt": 0.0,
+  "reason": "the section's closing pull-quote-worthy line, capturing the entire media-blind-spot argument"
+ },
+ "79": {
+  "archetype": "chapter-title",
+  "kicker": "Part Three",
+  "text": "The Asian Swamp Eel",
+  "enterAt": 0.0,
+  "reason": "a genuine structural pivot -- the documentary reveals its true subject for the first time"
+ },
+ "80": {
+  "archetype": "definition-callout",
+  "term": "Monopterus albus",
+  "definition": "a fish, despite its eel-like body",
+  "enterAt": 0.3,
+  "reason": "first use of the scientific name, a genuine jargon term the narration doesn't itself plainly define on screen"
+ },
+ "81": {
+  "archetype": "none",
+  "reason": "a place mention but not concrete enough to earn its own graphic on a closer re-read; connective to the food/market context that follows"
+ },
+ "82": {
+  "archetype": "none",
+  "reason": "elaborates on the market/food context, footage carries it"
+ },
+ "83": {
+  "archetype": "none",
+  "reason": "brief connective line"
+ },
+ "84": {
+  "archetype": "none",
+  "reason": "the more consequential and geographically specific timeline entry is beat 85 (Homestead, closer to the actual invasion epicenter) -- cutting the weaker of the two adjacent dates"
+ },
+ "85": {
+  "archetype": "timeline-marker",
+  "date": "1999",
+  "label": "second cluster, Homestead",
+  "enterAt": 0.5,
+  "reason": "the second dated entry in the same timeline sequence"
+ },
+ "86": {
+  "archetype": "none",
+  "reason": "descriptive, footage carries it"
+ },
+ "87": {
+  "archetype": "none",
+  "reason": "descriptive, footage carries it"
+ },
+ "88": {
+  "archetype": "none",
+  "reason": "descriptive narrative detail, footage carries it"
+ },
+ "89": {
+  "archetype": "none",
+  "reason": "descriptive, footage of canals carries it"
+ },
+ "90": {
+  "archetype": "none",
+  "reason": "continuation of the same canal description"
+ },
+ "91": {
+  "archetype": "none",
+  "reason": "continuation of the same canal description"
+ },
+ "92": {
+  "archetype": "none",
+  "reason": "continuation of the same canal-spread description"
+ },
+ "93": {
+  "archetype": "timeline-marker",
+  "date": "2007",
+  "label": "reaches Taylor Slough",
+  "enterAt": 0.5,
+  "reason": "the third and pivotal dated entry -- the eel arrives at the exact location the amphibian survey later found empty"
+ },
+ "94": {
+  "archetype": "none",
+  "reason": "a transitional framing line, not itself a discrete graphic hook"
+ },
+ "95": {
+  "archetype": "none",
+  "reason": "sets up the low-risk assessment explained across beats 96-99"
+ },
+ "96": {
+  "archetype": "none",
+  "reason": "a softer editorializing line, not as strong a pull-quote as the ones kept elsewhere in this section; cutting to stay under density target"
+ },
+ "97": {
+  "archetype": "none",
+  "reason": "elaborates on the low-risk reasoning"
+ },
+ "98": {
+  "archetype": "none",
+  "reason": "elaborates on the assessment standing for years"
+ },
+ "99": {
+  "archetype": "none",
+  "reason": "a deliberate narrative tease, an overlay would undercut the pacing"
+ },
+ "100": {
+  "archetype": "timeline-marker",
+  "date": "~2012",
+  "label": "invasion takes hold near Taylor Slough",
+  "enterAt": 0.5,
+  "reason": "the pivotal dated entry connecting the eel's spread to the exact years the amphibians went quiet"
+ },
+ "101": {
+  "archetype": "none",
+  "reason": "continuation of the same beat's thought, no new date"
+ },
+ "102": {
+  "archetype": "timeline-marker",
+  "date": "April 2025",
+  "label": "reclassified as high risk",
+  "enterAt": 0.0,
+  "reason": "the final, most consequential dated entry in the risk-classification timeline"
+ },
+ "103": {
+  "archetype": "definition-callout",
+  "term": "High risk",
+  "definition": "documented invasion history elsewhere + genuine US establishment concern",
+  "enterAt": 0.3,
+  "reason": "defines the specific regulatory jargon term just introduced in beat 102"
+ },
+ "104": {
+  "archetype": "none",
+  "reason": "sets up the specific damage cited in beat 105"
+ },
+ "105": {
+  "archetype": "none",
+  "reason": "descriptive mechanism detail, footage carries it"
+ },
+ "106": {
+  "archetype": "none",
+  "reason": "restates the cost point already covered structurally"
+ },
+ "107": {
+  "archetype": "stat-callout",
+  "value": 28,
+  "prefix": "",
+  "label": "years between first record and high-risk designation",
+  "enterAt": 0.0,
+  "placement": "center",
+  "tone": "urgent",
+  "reason": "re-picked after verify-overlays flagged threshold-bar's required second (threshold) value as unfabricatable from this beat's narration (no second number stated) -- stat-callout uses only the one real number (28 years), directly stated and the actual point of this invented-scene beat"
+ },
+ "108": {
+  "archetype": "none",
+  "reason": "the stronger, more complete map-tag lands at beat 109 (Hawaii + Tampa, the more recent and locally relevant detail); cutting the earlier of two adjacent map beats"
+ },
+ "109": {
+  "archetype": "map-tag",
+  "text": "Hawaii & Tampa, FL",
+  "enterAt": 3.5,
+  "tone": "urgent",
+  "reason": "names additional specific established locations, extending the spread map"
+ },
+ "110": {
+  "archetype": "none",
+  "reason": "a promotional/tease line, not a content hook"
+ },
+ "111": {
+  "archetype": "none",
+  "reason": "a promotional/tease line, not a content hook"
+ },
+ "112": {
+  "archetype": "none",
+  "reason": "transitional opener into the anatomy deep-dive"
+ },
+ "113": {
+  "archetype": "none",
+  "reason": "transitional line into the anatomy list"
+ },
+ "114": {
+  "archetype": "none",
+  "reason": "keeping only beat 116's highlight-annotation (single gill opening) as the section's one detail-pointer; two consecutive highlight-annotations reads as over-annotating the same anatomy diagram"
+ },
+ "115": {
+  "archetype": "none",
+  "reason": "elaborates on beat 114's point, avoid double overlay on consecutive beats"
+ },
+ "116": {
+  "archetype": "highlight-annotation",
+  "x": 50,
+  "y": 65,
+  "radiusX": 80,
+  "radiusY": 60,
+  "label": "single gill opening",
+  "enterAt": 0.0,
+  "reason": "points at the specific visible anatomical detail in this invented-scene diagram"
+ },
+ "117": {
+  "archetype": "none",
+  "reason": "closes the checklist idea already carried structurally by 114/116's annotations"
+ },
+ "118": {
+  "archetype": "definition-callout",
+  "term": "Buccopharyngeal respiration",
+  "definition": "the mouth and throat lining absorbs oxygen directly, functioning as a lung",
+  "enterAt": 0.5,
+  "tone": "cool",
+  "reason": "re-picked after verify-overlays flagged exploded-diagram's required parts array as empty -- this beat doesn't name discrete mechanical components the way exploded-diagram needs; definition-callout better fits explaining this single respiratory adaptation"
+ },
+ "119": {
+  "archetype": "none",
+  "reason": "continuation of beat 118's mechanism explanation, avoid stacking two mechanism overlays back to back"
+ },
+ "120": {
+  "archetype": "comparison-wipe",
+  "beforeLabel": "Most fish suffocate",
+  "afterLabel": "The swamp eel thrives",
+  "enterAt": 0.0,
+  "reason": "an explicit two-state contrast within the same low-oxygen-water idea"
+ },
+ "121": {
+  "archetype": "none",
+  "reason": "continuation of beat 120's contrast, avoid stacking"
+ },
+ "122": {
+  "archetype": "none",
+  "reason": "elaborates on the same adaptation point"
+ },
+ "123": {
+  "archetype": "none",
+  "reason": "descriptive detail, footage/invented visual carries it"
+ },
+ "124": {
+  "archetype": "myth-fact",
+  "text": "MYTH: A dead zone for fish. FACT: Uncontested territory for this animal.",
+  "enterAt": 0.0,
+  "reason": "an explicit myth/fact-shaped reframing of the same water that's lethal to natives and safe for the eel"
+ },
+ "125": {
+  "archetype": "none",
+  "reason": "transitional line into the land-crossing capability"
+ },
+ "126": {
+  "archetype": "none",
+  "reason": "descriptive, footage carries it"
+ },
+ "127": {
+  "archetype": "quote-card",
+  "text": "Barriers that would stop a fish are, to this animal, an inconvenience.",
+  "enterAt": 0.3,
+  "reason": "a genuinely quotable line capturing the eel's uncatchable quality"
+ },
+ "128": {
+  "archetype": "none",
+  "reason": "elaborates on the same land-crossing point"
+ },
+ "129": {
+  "archetype": "none",
+  "reason": "transitional line into the burrowing behavior"
+ },
+ "130": {
+  "archetype": "none",
+  "reason": "descriptive, invented-scene visual carries it"
+ },
+ "131": {
+  "archetype": "none",
+  "reason": "transitional line into the seasonal-cycle section"
+ },
+ "132": {
+  "archetype": "none",
+  "reason": "descriptive cycle explanation, invented-scene visual carries it"
+ },
+ "133": {
+  "archetype": "none",
+  "reason": "transitional line into the sex-switching detail"
+ },
+ "134": {
+  "archetype": "none",
+  "reason": "transitional summary line"
+ },
+ "135": {
+  "archetype": "none",
+  "reason": "a deliberate tease line into the hermaphroditism reveal"
+ },
+ "136": {
+  "archetype": "definition-callout",
+  "term": "Sequential hermaphrodite",
+  "definition": "begins life female, some individuals later become male",
+  "enterAt": 0.0,
+  "reason": "defines the specific biological jargon term just introduced"
+ },
+ "137": {
+  "archetype": "none",
+  "reason": "elaborates on beat 136's term, avoid stacking"
+ },
+ "138": {
+  "archetype": "none",
+  "reason": "continuation of the same population-control point"
+ },
+ "139": {
+  "archetype": "key-phrase",
+  "text": "No natural enemies in the system that can reliably reach it.",
+  "enterAt": 4.0,
+  "tone": "urgent",
+  "reason": "a genuinely quotable summary line capping the list of adaptations"
+ },
+ "140": {
+  "archetype": "none",
+  "reason": "descriptive, footage of herons carries it"
+ },
+ "141": {
+  "archetype": "none",
+  "reason": "continuation of the same heron-predation point"
+ },
+ "142": {
+  "archetype": "none",
+  "reason": "sets up the quote landed in beat 143"
+ },
+ "143": {
+  "archetype": "quote-card",
+  "text": "Incredible creatures. The only problem is that they are here.",
+  "attribution": "Hunter Howell",
+  "enterAt": 0.5,
+  "reason": "a genuine attributable closing pull-quote from the named researcher, capping the biology section"
+ },
+ "144": {
+  "archetype": "chapter-title",
+  "kicker": "Part Four",
+  "text": "What It Actually Did",
+  "enterAt": 0.5,
+  "reason": "a genuine structural pivot into the closing section on the seasonal-cycle mechanism"
+ },
+ "145": {
+  "archetype": "none",
+  "reason": "transitional opener into the seasonal-cycle explanation"
+ },
+ "146": {
+  "archetype": "none",
+  "reason": "descriptive, invented-scene visual carries it"
+ },
+ "147": {
+  "archetype": "none",
+  "reason": "descriptive, footage carries it"
+ },
+ "148": {
+  "archetype": "none",
+  "reason": "descriptive, invented-scene visual carries it"
+ },
+ "149": {
+  "archetype": "none",
+  "reason": "descriptive, footage carries it"
+ },
+ "150": {
+  "archetype": "none",
+  "reason": "descriptive, footage carries it"
+ },
+ "151": {
+  "archetype": "none",
+  "reason": "closing atmospheric line, footage/audio carries the ending"
+ }
+}

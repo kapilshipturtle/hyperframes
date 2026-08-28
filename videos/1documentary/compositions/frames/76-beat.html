@@ -1,0 +1,267 @@
+<template>
+  <style>
+    #root {
+      width: 1920px;
+      height: 1080px;
+      position: relative;
+      overflow: hidden;
+      background: #0c0c0e;
+      font-family: -apple-system, "Inter", sans-serif;
+    }
+
+    .f76-bg {
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse at 50% 40%, #16151a 0%, #0c0c0e 70%);
+    }
+
+    .f76-stage {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .f76-inner {
+      position: relative;
+      width: 1920px;
+      height: 1080px;
+    }
+
+    /* vertical scale/track */
+    .f76-track {
+      position: absolute;
+      left: 50%;
+      top: 168px;
+      width: 10px;
+      height: 700px;
+      transform: translateX(-260px);
+      background: rgba(255,255,255,0.08);
+      border-radius: 6px;
+      overflow: hidden;
+    }
+
+    .f76-track-fill {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(255,255,255,0.16);
+      transform-origin: bottom center;
+      transform: scaleY(1);
+    }
+
+    /* the shaded 74-84% band drawn on the track */
+    .f76-band {
+      position: absolute;
+      left: -14px;
+      width: 38px;
+      background: rgba(144, 137, 168, 0.28);
+      border-top: 2px solid rgba(144, 137, 168, 0.85);
+      border-bottom: 2px solid rgba(144, 137, 168, 0.85);
+      opacity: 0;
+    }
+
+    /* the falling indicator marker */
+    .f76-marker {
+      position: absolute;
+      left: -30px;
+      top: 0;
+      width: 70px;
+      height: 70px;
+      opacity: 0;
+    }
+
+    .f76-marker-dot {
+      position: absolute;
+      inset: 0;
+      margin: auto;
+      width: 22px;
+      height: 22px;
+      border-radius: 50%;
+      background: #9089a8;
+      box-shadow: 0 0 24px rgba(144, 137, 168, 0.6);
+    }
+
+    .f76-arrow {
+      position: absolute;
+      left: 50%;
+      top: 0;
+      width: 0;
+      height: 0;
+      border-left: 16px solid transparent;
+      border-right: 16px solid transparent;
+      border-top: 26px solid #9089a8;
+      opacity: 0;
+    }
+
+    /* right-side text stack */
+    .f76-text {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(60px, -50%);
+      width: 760px;
+    }
+
+    .f76-eyebrow {
+      font-size: 24px;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: #f2f2f0;
+      opacity: 0;
+      margin: 0 0 22px 0;
+      font-weight: 500;
+    }
+
+    .f76-range {
+      display: flex;
+      align-items: baseline;
+      gap: 18px;
+    }
+
+    .f76-num {
+      font-size: 180px;
+      font-weight: 700;
+      color: #ffffff;
+      line-height: 1;
+      opacity: 0;
+      letter-spacing: -0.01em;
+    }
+
+    .f76-dash {
+      font-size: 90px;
+      font-weight: 300;
+      color: #9089a8;
+      opacity: 0;
+    }
+
+    .f76-percent {
+      font-size: 64px;
+      font-weight: 400;
+      color: #f2f2f0;
+      opacity: 0.85;
+    }
+
+    .f76-caption {
+      margin-top: 30px;
+      font-size: 26px;
+      color: #f2f2f0;
+      opacity: 0;
+      font-weight: 400;
+      letter-spacing: 0.01em;
+    }
+
+    .f76-caption b {
+      color: #9089a8;
+      font-weight: 600;
+    }
+  </style>
+
+  <div data-hf-id="hf-d70k" id="root" data-composition-id="76-beat" data-width="1920" data-height="1080" data-duration="9.73">
+    <div data-hf-id="hf-mxy3" class="f76-bg clip" data-start="0" data-duration="10.83" data-track-index="0"></div>
+
+    <div data-hf-id="hf-d0o3" class="f76-stage clip" data-start="0" data-duration="10.83" data-track-index="1">
+      <div data-hf-id="hf-7m1i" class="f76-inner">
+
+        <div data-hf-id="hf-xr88" class="f76-track" id="f76-track">
+          <div data-hf-id="hf-3s12" class="f76-track-fill" id="f76-track-fill"></div>
+          <div data-hf-id="hf-cyry" class="f76-band" id="f76-band"></div>
+        </div>
+
+        <div data-hf-id="hf-00ub" class="f76-marker" id="f76-marker" style="top: 168px;">
+          <div data-hf-id="hf-ufim" class="f76-marker-dot"></div>
+        </div>
+        <div data-hf-id="hf-v7xc" class="f76-arrow" id="f76-arrow" style="top: 260px;"></div>
+
+        <div data-hf-id="hf-cumr" class="f76-text">
+          <p data-hf-id="hf-n7jd" class="f76-eyebrow" id="f76-eyebrow">Amphibian abundance</p>
+          <div data-hf-id="hf-qh4l" class="f76-range">
+            <span data-hf-id="hf-slwl" class="f76-num" id="f76-num-lo">0</span>
+            <span data-hf-id="hf-o1bk" class="f76-dash" id="f76-dash">–</span>
+            <span data-hf-id="hf-04cn" class="f76-num" id="f76-num-hi">0</span>
+            <span data-hf-id="hf-71bx" class="f76-percent">%</span>
+          </div>
+          <p data-hf-id="hf-rz8g" class="f76-caption" id="f76-caption">estimated <b data-hf-id="hf-azw9">decline</b> across the park and adjacent conservation area</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script>
+    (function () {
+      window.__timelines = window.__timelines || {};
+      var tl = gsap.timeline({ paused: true });
+
+      var trackTop = 168;
+      var trackHeight = 700;
+      var trackBottom = trackTop + trackHeight;
+
+      // map 0-100% onto the track (0% at bottom, 100% at top)
+      function yFor(pct) {
+        return trackBottom - (pct / 100) * trackHeight;
+      }
+
+      var yLo = yFor(74); // deeper drop = lower value = higher on track? map naturally: higher pct -> higher (smaller y)
+      var yHi = yFor(84);
+      var bandTop = Math.min(yLo, yHi);
+      var bandHeight = Math.abs(yHi - yLo);
+
+      gsap.set("#f76-band", { top: bandTop, height: bandHeight });
+
+      var lo = { v: 0 };
+      var hi = { v: 0 };
+      var loEl = document.getElementById("f76-num-lo");
+      var hiEl = document.getElementById("f76-num-hi");
+
+      // ---- Phase 1: establish (0 - ~20%) ----
+      tl.to("#f76-eyebrow", { opacity: 0.85, y: 0, duration: 0.6, ease: "power2.out" }, 0.3)
+        .fromTo("#f76-track", { opacity: 0 }, { opacity: 1, duration: 0.5, ease: "power2.out" }, 0.3)
+        .to("#f76-track-fill", { scaleY: 0.16, duration: 0.6, ease: "power2.out" }, 0.5);
+
+      // ---- Phase 2: band reveal + marker fall, on narration pacing (~35%-75%) ----
+      var fallStart = 3.0;
+      var fallDur = 2.6;
+
+      gsap.set("#f76-marker", { xPercent: -50, yPercent: -50 });
+      gsap.set("#f76-arrow", { xPercent: -50 });
+
+      tl.to("#f76-band", { opacity: 1, duration: 0.5, ease: "power1.out" }, fallStart)
+        .fromTo("#f76-marker",
+          { opacity: 0, y: trackTop - 10 },
+          { opacity: 1, y: (bandTop + bandHeight / 2), duration: fallDur, ease: "power2.inOut" },
+          fallStart
+        )
+        .fromTo("#f76-arrow",
+          { opacity: 0, y: trackTop + 40 },
+          { opacity: 0.9, y: (bandTop + bandHeight / 2) + 60, duration: fallDur, ease: "power2.inOut" },
+          fallStart
+        );
+
+      // ---- Phase 3: count-up numbers, starting ~45% into duration, landing before end ----
+      var countStart = 3.9;
+      var countDur = 2.2;
+
+      tl.to("#f76-num-lo", { opacity: 1, duration: 0.3 }, countStart)
+        .to("#f76-num-hi", { opacity: 1, duration: 0.3 }, countStart)
+        .to("#f76-dash", { opacity: 1, duration: 0.3 }, countStart + 0.15)
+        .to(lo, {
+          v: 74, duration: countDur, ease: "power1.out",
+          onUpdate: function () { loEl.textContent = Math.round(lo.v); }
+        }, countStart)
+        .to(hi, {
+          v: 84, duration: countDur, ease: "power1.out",
+          onUpdate: function () { hiEl.textContent = Math.round(hi.v); }
+        }, countStart);
+
+      // ---- Phase 4: supporting caption settles in last third ----
+      tl.to("#f76-caption", { opacity: 0.8, duration: 0.6, ease: "power2.out" }, 6.3);
+
+      window.__timelines["76-beat"] = tl;
+    })();
+  </script>
+</template>

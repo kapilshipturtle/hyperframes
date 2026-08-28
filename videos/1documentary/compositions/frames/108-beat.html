@@ -1,0 +1,166 @@
+<template>
+  <style>
+    #root {
+      width: 1920px;
+      height: 1080px;
+      position: relative;
+      overflow: hidden;
+      background: #0a0a0c;
+    }
+    .f-108-beat-bg {
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse at 50% 42%, #141416 0%, #0a0a0c 70%);
+    }
+    .f-108-beat-stage {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .f-108-beat-mapwrap {
+      position: relative;
+      width: 900px;
+      height: 620px;
+    }
+    .f-108-beat-mapwrap svg {
+      width: 100%;
+      height: 100%;
+      display: block;
+      overflow: visible;
+    }
+    .f-108-beat-map-fill {
+      fill: #1c1c20;
+      stroke: #2c2c32;
+      stroke-width: 2;
+    }
+    .f-108-beat-pin {
+      transform-box: fill-box;
+      transform-origin: center;
+    }
+    .f-108-beat-pin-dot {
+      fill: #e0685a;
+    }
+    .f-108-beat-pin-ring {
+      fill: none;
+      stroke: #e0685a;
+      stroke-width: 3;
+    }
+    .f-108-beat-pin-label {
+      font-family: -apple-system, "Inter", sans-serif;
+      font-size: 26px;
+      font-weight: 600;
+      fill: #f2f2f0;
+      opacity: 0.85;
+      letter-spacing: 0.02em;
+    }
+    .f-108-beat-caption {
+      position: absolute;
+      left: 50%;
+      bottom: 118px;
+      transform: translateX(-50%);
+      font-family: -apple-system, "Inter", sans-serif;
+      font-size: 24px;
+      font-weight: 500;
+      color: #f2f2f0;
+      opacity: 0;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+  </style>
+
+  <div data-hf-id="hf-71zu" id="root" data-composition-id="108-beat" data-width="1920" data-height="1080" data-duration="4.69">
+    <div data-hf-id="hf-zbf9" class="f-108-beat-bg clip" data-start="0" data-duration="5.89" data-track-index="0"></div>
+
+    <div data-hf-id="hf-qah7" class="f-108-beat-stage clip" data-start="0" data-duration="5.89" data-track-index="1">
+      <div data-hf-id="hf-jo0u" class="f-108-beat-mapwrap" id="f-108-beat-mapwrap">
+        <svg data-hf-id="hf-pz7q" viewBox="0 0 900 620" preserveAspectRatio="xMidYMid meet">
+          <!-- simplified generic US silhouette (stylized, not geographically precise) -->
+          <path data-hf-id="hf-3oi5" class="f-108-beat-map-fill" d="
+            M 90 180
+            L 150 120 L 230 100 L 300 70 L 380 60 L 470 55 L 560 65
+            L 640 85 L 700 110 L 760 140 L 810 190 L 830 250
+            L 820 310 L 790 350 L 810 390 L 780 430 L 740 450
+            L 700 470 L 660 500 L 610 520 L 560 540 L 500 555
+            L 440 560 L 380 545 L 330 520 L 290 490 L 250 460
+            L 210 430 L 170 390 L 140 340 L 110 290 L 95 240
+            Z" />
+
+          <!-- Florida (start pin) -->
+          <g data-hf-id="hf-cdd4" class="f-108-beat-pin" id="f-108-beat-pin-fl" transform="translate(700,455)">
+            <circle data-hf-id="hf-oiqv" class="f-108-beat-pin-ring" r="10" opacity="0" />
+            <circle data-hf-id="hf-a1gy" class="f-108-beat-pin-dot" r="7" />
+            <text data-hf-id="hf-a1u6" class="f-108-beat-pin-label" x="20" y="8">Florida</text>
+          </g>
+
+          <!-- Georgia -->
+          <g data-hf-id="hf-6bue" class="f-108-beat-pin" id="f-108-beat-pin-ga" transform="translate(650,390)">
+            <circle data-hf-id="hf-d0g7" class="f-108-beat-pin-ring" r="10" opacity="0" />
+            <circle data-hf-id="hf-ppca" class="f-108-beat-pin-dot" r="7" opacity="0" />
+            <text data-hf-id="hf-u5fb" class="f-108-beat-pin-label" x="20" y="8" opacity="0">Georgia</text>
+          </g>
+
+          <!-- New Jersey -->
+          <g data-hf-id="hf-h0w3" class="f-108-beat-pin" id="f-108-beat-pin-nj" transform="translate(755,205)">
+            <circle data-hf-id="hf-cm56" class="f-108-beat-pin-ring" r="10" opacity="0" />
+            <circle data-hf-id="hf-fh3i" class="f-108-beat-pin-dot" r="7" opacity="0" />
+            <text data-hf-id="hf-247r" class="f-108-beat-pin-label" x="20" y="8" opacity="0">New Jersey</text>
+          </g>
+        </svg>
+      </div>
+    </div>
+
+    <div data-hf-id="hf-cjxq" class="f-108-beat-caption clip" id="f-108-beat-caption" data-start="0" data-duration="5.89" data-track-index="2">
+      Documented range, expanding north
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script>
+    (function () {
+      window.__timelines = window.__timelines || {};
+      var tl = gsap.timeline({ paused: true });
+
+      var mapwrap = document.getElementById("f-108-beat-mapwrap");
+      var caption = document.getElementById("f-108-beat-caption");
+
+      var flDot = document.querySelector("#f-108-beat-pin-fl .f-108-beat-pin-dot");
+      var flRing = document.querySelector("#f-108-beat-pin-fl .f-108-beat-pin-ring");
+
+      var gaDot = document.querySelector("#f-108-beat-pin-ga .f-108-beat-pin-dot");
+      var gaRing = document.querySelector("#f-108-beat-pin-ga .f-108-beat-pin-ring");
+      var gaLabel = document.querySelector("#f-108-beat-pin-ga .f-108-beat-pin-label");
+
+      var njDot = document.querySelector("#f-108-beat-pin-nj .f-108-beat-pin-dot");
+      var njRing = document.querySelector("#f-108-beat-pin-nj .f-108-beat-pin-ring");
+      var njLabel = document.querySelector("#f-108-beat-pin-nj .f-108-beat-pin-label");
+
+      // gentle settle-in for the whole map, front-loaded only as a subtle entrance
+      gsap.set(mapwrap, { opacity: 0, y: 14 });
+      tl.to(mapwrap, { opacity: 1, y: 0, duration: 0.5, ease: "power2.out" }, 0);
+
+      // Florida already lit at start (documented earlier in the story) — soft pulse only
+      tl.fromTo(flRing, { opacity: 0.9, scale: 1.6 }, { opacity: 0, scale: 2.4, duration: 0.6, ease: "power1.out" }, 0.15);
+      gsap.set(flRing, { transformOrigin: "center" });
+
+      // Georgia lights up first, ~35% into the beat
+      var gaAt = 1.15;
+      tl.fromTo(gaDot, { opacity: 0, scale: 0 }, { opacity: 1, scale: 1, duration: 0.28, ease: "back.out(2)" }, gaAt)
+        .to(gaLabel, { opacity: 0.85, duration: 0.28, ease: "power1.out" }, gaAt)
+        .fromTo(gaRing, { opacity: 0.9, scale: 0.4 }, { opacity: 0, scale: 2.2, duration: 0.6, ease: "power1.out" }, gaAt);
+
+      // New Jersey lights up second, following the northward spread
+      var njAt = 2.15;
+      tl.fromTo(njDot, { opacity: 0, scale: 0 }, { opacity: 1, scale: 1, duration: 0.28, ease: "back.out(2)" }, njAt)
+        .to(njLabel, { opacity: 0.85, duration: 0.28, ease: "power1.out" }, njAt)
+        .fromTo(njRing, { opacity: 0.9, scale: 0.4 }, { opacity: 0, scale: 2.2, duration: 0.6, ease: "power1.out" }, njAt);
+
+      // caption confirms the spread once both northern pins are lit
+      tl.to(caption, { opacity: 0.8, duration: 0.35, ease: "power1.out" }, njAt + 0.15);
+
+      window.__timelines["108-beat"] = tl;
+    })();
+  </script>
+</template>

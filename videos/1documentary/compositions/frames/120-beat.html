@@ -1,0 +1,214 @@
+<template>
+  <style>
+    #root {
+      width: 1920px;
+      height: 1080px;
+      position: relative;
+      overflow: hidden;
+      background: #0c0d10;
+      font-family: -apple-system, "Inter", sans-serif;
+    }
+    .beat120-bg {
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse at 50% 45%, #14161a 0%, #0a0a0c 70%);
+    }
+    .beat120-label {
+      position: absolute;
+      top: 128px;
+      left: 0;
+      width: 100%;
+      text-align: center;
+      color: #f2f2f0;
+      font-size: 26px;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      opacity: 0;
+      font-weight: 500;
+    }
+    .beat120-label span {
+      color: #7fb0d8;
+    }
+    .beat120-stage {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 220px;
+    }
+    .beat120-side {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      opacity: 0;
+    }
+    /* water gauge column shared shape */
+    .beat120-gauge {
+      position: relative;
+      width: 220px;
+      height: 460px;
+      border: 2px solid rgba(242,242,240,0.35);
+      border-radius: 18px;
+      overflow: hidden;
+      background: rgba(255,255,255,0.02);
+    }
+    .beat120-water {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 62%;
+      background: linear-gradient(180deg, rgba(127,176,216,0.28) 0%, rgba(90,120,70,0.35) 100%);
+    }
+    .beat120-icon-wrap {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      width: 120px;
+      height: 120px;
+    }
+    .beat120-icon-wrap svg {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+    .beat120-caption {
+      margin-top: 40px;
+      color: #f2f2f0;
+      font-size: 24px;
+      opacity: 0;
+      text-align: center;
+      line-height: 1.35;
+    }
+    .beat120-caption b {
+      display: block;
+      font-size: 28px;
+      font-weight: 600;
+      margin-bottom: 6px;
+    }
+    .beat120-caption.cool b { color: #7fb0d8; }
+    .beat120-caption.warm b { color: #e0685a; }
+
+    .beat120-tagline {
+      position: absolute;
+      bottom: 118px;
+      left: 0;
+      width: 100%;
+      text-align: center;
+      color: #f2f2f0;
+      opacity: 0;
+      font-size: 34px;
+      font-weight: 600;
+      letter-spacing: 0.01em;
+    }
+    .beat120-tagline span {
+      color: #7fb0d8;
+    }
+  </style>
+
+  <div data-hf-id="hf-78h1" id="root" data-composition-id="120-beat" data-width="1920" data-height="1080" data-duration="8.71">
+    <div data-hf-id="hf-gz35" class="beat120-bg clip" data-start="0" data-duration="10.31" data-track-index="0"></div>
+
+    <div data-hf-id="hf-cev3" class="beat120-label clip" id="beat120-label" data-start="0" data-duration="10.31" data-track-index="1">
+      LOW-<span data-hf-id="hf-4959">OXYGEN</span> WATER
+    </div>
+
+    <div data-hf-id="hf-yw9k" class="beat120-stage clip" data-start="0" data-duration="10.31" data-track-index="2">
+      <!-- most fish: struggles -->
+      <div data-hf-id="hf-ey4z" class="beat120-side" id="beat120-fish-side">
+        <div data-hf-id="hf-1eep" class="beat120-gauge">
+          <div data-hf-id="hf-b91x" class="beat120-water"></div>
+          <div data-hf-id="hf-h7mu" class="beat120-icon-wrap" id="beat120-fish-icon">
+            <svg data-hf-id="hf-fgst" viewBox="0 0 100 100" fill="none">
+              <path data-hf-id="hf-a8or" d="M20 50 Q40 30 68 50 Q40 70 20 50 Z" stroke="#a9b4c0" stroke-width="4" fill="none" />
+              <path data-hf-id="hf-ocua" d="M68 50 L84 38 L84 62 Z" stroke="#a9b4c0" stroke-width="4" stroke-linejoin="round" fill="none" />
+              <circle data-hf-id="hf-504k" cx="30" cy="46" r="2.5" fill="#a9b4c0" />
+            </svg>
+          </div>
+        </div>
+        <div data-hf-id="hf-mj2y" class="beat120-caption cool" id="beat120-fish-caption">
+          <b data-hf-id="hf-0wz4">MOST FISH</b>
+          suffocate
+        </div>
+      </div>
+
+      <!-- swamp eel: comfortable -->
+      <div data-hf-id="hf-5z8t" class="beat120-side" id="beat120-eel-side">
+        <div data-hf-id="hf-c7qd" class="beat120-gauge">
+          <div data-hf-id="hf-oekp" class="beat120-water"></div>
+          <div data-hf-id="hf-4xzy" class="beat120-icon-wrap" id="beat120-eel-icon">
+            <svg data-hf-id="hf-h24h" viewBox="0 0 100 100" fill="none">
+              <path data-hf-id="hf-0hvi" d="M14 60 Q30 30 50 50 Q70 70 86 42" stroke="#7fb0d8" stroke-width="5" fill="none" stroke-linecap="round" />
+              <circle data-hf-id="hf-ef7u" cx="16" cy="59" r="3" fill="#7fb0d8" />
+            </svg>
+          </div>
+        </div>
+        <div data-hf-id="hf-fa00" class="beat120-caption cool" id="beat120-eel-caption">
+          <b data-hf-id="hf-r83l">SWAMP EEL</b>
+          stays comfortable
+        </div>
+      </div>
+    </div>
+
+    <div data-hf-id="hf-71zv" class="beat120-tagline clip" id="beat120-tagline" data-start="0" data-duration="10.31" data-track-index="3">
+      it breathes through its <span data-hf-id="hf-2fgs">skin</span>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script>
+    (function () {
+      window.__timelines = window.__timelines || {};
+      var tl = gsap.timeline({ paused: true });
+
+      var label = document.getElementById("beat120-label");
+      var fishSide = document.getElementById("beat120-fish-side");
+      var eelSide = document.getElementById("beat120-eel-side");
+      var fishIcon = document.getElementById("beat120-fish-icon");
+      var eelIcon = document.getElementById("beat120-eel-icon");
+      var fishCaption = document.getElementById("beat120-fish-caption");
+      var eelCaption = document.getElementById("beat120-eel-caption");
+      var tagline = document.getElementById("beat120-tagline");
+
+      gsap.set(label, { y: -10 });
+      gsap.set([fishSide, eelSide], { y: 24 });
+      gsap.set(fishIcon, { scale: 1 });
+      gsap.set(eelIcon, { scale: 1 });
+      gsap.set(tagline, { y: 16 });
+
+      // 0.0 - 0.9s: establishing label fades in
+      tl.to(label, { opacity: 0.85, y: 0, duration: 0.7, ease: "power2.out" }, 0.15);
+
+      // ~1.0s: fish side reveals first (struggling)
+      tl.to(fishSide, { opacity: 1, y: 0, duration: 0.7, ease: "power2.out" }, 1.0);
+
+      // ~2.2s - 4.4s: fish icon struggles — fades/dims and jitters weakly in the low-oxygen water
+      tl.to(fishIcon, { opacity: 0.85, duration: 0.3 }, 2.2)
+        .to(fishIcon, { y: 6, duration: 0.5, ease: "sine.inOut" }, 2.4)
+        .to(fishIcon, { y: -3, opacity: 0.45, duration: 0.6, ease: "sine.inOut" }, 2.9)
+        .to(fishIcon, { y: 4, opacity: 0.2, duration: 0.9, ease: "sine.in" }, 3.5);
+
+      // ~2.6s: eel side reveals second, in sequence after fish
+      tl.to(eelSide, { opacity: 1, y: 0, duration: 0.7, ease: "power2.out" }, 2.6);
+
+      // ~4.6s - 6.0s: eel stays comfortable — smooth steady undulation, full opacity
+      tl.to(eelIcon, { x: 6, duration: 0.55, ease: "sine.inOut" }, 4.6)
+        .to(eelIcon, { x: -4, duration: 0.55, ease: "sine.inOut" }, 5.15)
+        .to(eelIcon, { x: 0, duration: 0.5, ease: "sine.inOut" }, 5.7);
+
+      // captions land after their respective icon behavior reads
+      tl.to(fishCaption, { opacity: 0.8, duration: 0.5, ease: "power1.out" }, 3.9);
+      tl.to(eelCaption, { opacity: 1, duration: 0.5, ease: "power1.out" }, 5.0);
+
+      // ~5.9s - 6.8s: tagline lands last, naming the mechanism (skin respiration)
+      tl.to(tagline, { opacity: 0.9, y: 0, duration: 0.7, ease: "power2.out" }, 5.9);
+
+      window.__timelines["120-beat"] = tl;
+    })();
+  </script>
+</template>

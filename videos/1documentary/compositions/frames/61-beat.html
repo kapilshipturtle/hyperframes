@@ -1,0 +1,188 @@
+<template>
+<div data-hf-id="hf-nvp5" id="root" data-composition-id="61-beat" data-width="1920" data-height="1080" data-duration="9.49">
+  <style>
+    #root {
+      position: relative;
+      width: 1920px;
+      height: 1080px;
+      overflow: hidden;
+      font-family: -apple-system, "Inter", sans-serif;
+      color: #f2f2f0;
+    }
+
+    .bg-61-beat {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, #0a0a0c 0%, #131316 100%);
+    }
+
+    .stack-61-beat {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 1920px;
+      height: 1080px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .label-61-beat {
+      font-size: 24px;
+      font-weight: 500;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: #a9b4c0;
+      opacity: 0;
+      margin-bottom: 18px;
+    }
+
+    .row-61-beat {
+      display: flex;
+      align-items: baseline;
+      justify-content: center;
+      gap: 28px;
+    }
+
+    .number-61-beat {
+      font-size: 190px;
+      font-weight: 700;
+      line-height: 1;
+      color: #ffffff;
+      letter-spacing: -0.01em;
+      opacity: 0;
+    }
+
+    .unit-61-beat {
+      font-size: 40px;
+      font-weight: 500;
+      color: #f2f2f0;
+      opacity: 0;
+    }
+
+    .sub-61-beat {
+      margin-top: 28px;
+      font-size: 26px;
+      font-weight: 400;
+      color: #f2f2f0;
+      opacity: 0;
+      text-align: center;
+      letter-spacing: 0.01em;
+    }
+
+    .sub-61-beat span {
+      color: #a9b4c0;
+    }
+
+    .divider-61-beat {
+      width: 0px;
+      height: 2px;
+      background: #a9b4c0;
+      margin: 40px 0;
+      opacity: 0.5;
+    }
+
+    .line2-61-beat {
+      display: flex;
+      align-items: baseline;
+      justify-content: center;
+      gap: 24px;
+      opacity: 0;
+    }
+
+    .line2num-61-beat {
+      font-size: 130px;
+      font-weight: 700;
+      line-height: 1;
+      color: #ffffff;
+    }
+
+    .line2label-61-beat {
+      font-size: 26px;
+      font-weight: 400;
+      color: #f2f2f0;
+      opacity: 0.85;
+    }
+  </style>
+
+  <div data-hf-id="hf-9dt0" class="clip bg-61-beat" data-start="0" data-duration="10.69" data-track-index="0"></div>
+
+  <div data-hf-id="hf-hjqs" class="clip stack-61-beat" data-start="0" data-duration="10.69" data-track-index="1">
+    <div data-hf-id="hf-a9jj" class="label-61-beat" id="label-61-beat">THIS YEAR'S PARTICIPANTS</div>
+
+    <div data-hf-id="hf-9g2n" class="row-61-beat">
+      <div data-hf-id="hf-z52u" class="number-61-beat" id="number-61-beat">0</div>
+      <div data-hf-id="hf-yej9" class="unit-61-beat" id="unit-61-beat">people</div>
+    </div>
+
+    <div data-hf-id="hf-3aux" class="sub-61-beat" id="sub-61-beat">from <span data-hf-id="hf-mcvc">30 states</span>, plus <span data-hf-id="hf-xio7">Canada</span> and <span data-hf-id="hf-9pef">Vietnam</span></div>
+
+    <div data-hf-id="hf-zsrm" class="divider-61-beat" id="divider-61-beat"></div>
+
+    <div data-hf-id="hf-lmqg" class="line2-61-beat" id="line2-61-beat">
+      <div data-hf-id="hf-ty8m" class="line2num-61-beat" id="line2num-61-beat">0</div>
+      <div data-hf-id="hf-bq1n" class="line2label-61-beat">snakes removed in 10 days</div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script>
+    (function () {
+      var root = document;
+      var frameId = "61-beat";
+
+      var labelEl = root.querySelector('#label-61-beat');
+      var numberEl = root.querySelector('#number-61-beat');
+      var unitEl = root.querySelector('#unit-61-beat');
+      var subEl = root.querySelector('#sub-61-beat');
+      var dividerEl = root.querySelector('#divider-61-beat');
+      var line2El = root.querySelector('#line2-61-beat');
+      var line2numEl = root.querySelector('#line2num-61-beat');
+
+      var peopleCounter = { val: 0 };
+      var snakeCounter = { val: 0 };
+
+      var tl = gsap.timeline({ paused: true });
+
+      // Label fades in early
+      tl.fromTo(labelEl, { y: 6 }, { opacity: 0.8, y: -6, duration: 0.5, ease: "power2.out" }, 0.4);
+
+      // Hero number counts up starting ~35% into duration
+      var countStart = 2.9;
+      tl.to(numberEl, { opacity: 1, duration: 0.4, ease: "power1.out" }, countStart);
+      tl.to(peopleCounter, {
+        val: 907,
+        duration: 1.6,
+        ease: "power2.out",
+        onUpdate: function () {
+          numberEl.textContent = Math.round(peopleCounter.val).toLocaleString();
+        }
+      }, countStart);
+
+      tl.to(unitEl, { opacity: 0.8, duration: 0.4, ease: "power1.out" }, countStart + 1.0);
+
+      // Sub line (states / Canada / Vietnam) reveals just after count settles
+      tl.fromTo(subEl, { y: 4 }, { opacity: 0.85, y: -4, duration: 0.5, ease: "power2.out" }, countStart + 1.7);
+
+      // Divider grows
+      tl.to(dividerEl, { width: 140, duration: 0.5, ease: "power2.inOut" }, countStart + 2.4);
+
+      // Second stat: snakes removed, later in the duration
+      var secondStart = 6.1;
+      tl.to(line2El, { opacity: 1, duration: 0.4, ease: "power1.out" }, secondStart);
+      tl.to(snakeCounter, {
+        val: 280,
+        duration: 1.3,
+        ease: "power2.out",
+        onUpdate: function () {
+          line2numEl.textContent = Math.round(snakeCounter.val).toLocaleString();
+        }
+      }, secondStart);
+
+      window.__timelines = window.__timelines || {};
+      window.__timelines[frameId] = tl;
+    })();
+  </script>
+</div>
+</template>

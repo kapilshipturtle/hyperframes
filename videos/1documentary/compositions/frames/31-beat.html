@@ -1,0 +1,115 @@
+<template>
+  <style>
+    #root {
+      width: 1920px;
+      height: 1080px;
+      position: relative;
+      overflow: hidden;
+      background: #000;
+    }
+    .broll-wrap {
+      position: absolute;
+      inset: -6%;
+      width: 112%;
+      height: 112%;
+    }
+    .broll-media {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    /* Cutaway sits absolutely over the primary media inside the same wrap
+       (so it inherits the same Ken Burns move on the wrap element, keeping
+       the two shots visually consistent) — starts transparent, GSAP
+       crossfades it in at --cutaway-at, see the script block below. */
+    .broll-cutaway {
+      position: absolute;
+      inset: 0;
+    }
+    /* 2.5D parallax layers (see gen-depth-layers.py) — both stacked full-
+       bleed inside the same wrap. The foreground is deliberately oversized
+       (rather than 100%) so its own independent translate (see parallaxCode
+       below) never slides a transparent edge into frame — the same
+       overscan-margin idea the wrap itself already uses, just at the layer
+       level since the fg moves MORE than the wrap's own Ken Burns alone. */
+    .broll-parallax-bg {
+      position: absolute;
+      inset: 0;
+      object-fit: cover;
+    }
+    .broll-parallax-fg {
+      position: absolute;
+      inset: -8%;
+      width: 116%;
+      height: 116%;
+      object-fit: contain;
+      object-position: center;
+    }
+    /* subtle bottom scrim so any burned-in captions stay readable over bright footage */
+    .broll-scrim {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to top, rgba(0,0,0,0.35) 0%, rgba(0,0,0,0) 22%);
+      pointer-events: none;
+    }
+    /* Optional per-beat vignette — a real, if modest, "composited" texture
+       layer distinct from the global grain overlay (which is flat, uniform,
+       full-timeline). Researched documentary/explainer-channel convention:
+       supporting texture layers COMPOSITED WITH the base clip, in the same
+       frame, is the single highest-leverage visual-quality delta over "one
+       flat clip per beat" — this is the smallest, most self-contained piece
+       of that: a soft radial darkening toward the frame edges, drawing the
+       eye toward center/subject the way a real lens vignette does. Opt-in
+       per beat via --vignette, never global/automatic (unlike grain) since
+       its strength should vary by shot mood, not apply uniformly.*/
+    .broll-vignette {
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse at center, rgba(0,0,0,0) 45%, rgba(0,0,0,0) 100%);
+      pointer-events: none;
+    }
+
+    .ov-key-phrase-zone { position: absolute; left: 0; right: 0; top: 0; height: 320px; }
+    .ov-kp-scrim { position: absolute; inset: 0; background: linear-gradient(to bottom, rgba(0,0,0,0.48) 0%, rgba(0,0,0,0.2) 60%, rgba(0,0,0,0) 100%); opacity: 0; pointer-events: none; }
+    .ov-key-phrase { position: relative; left: 72px; right: 72px; top: 92px; display: flex; flex-wrap: wrap; gap: 0.28em 0.42em; margin-right: 72px; }
+    .ov-kp-word { display: inline-block; font: 800 52px/1.15 -apple-system, "Inter", sans-serif; letter-spacing: -0.01em; color: #ffffff; text-shadow: 0 1px 2px rgba(0,0,0,0.5), 0 4px 14px rgba(0,0,0,0.4); opacity: 0; }
+  </style>
+
+  <div data-hf-id="hf-2ov1" id="root" data-composition-id="31-beat" data-width="1920" data-height="1080" data-duration="4.23">
+    <div data-hf-id="hf-hcp3" class="broll-wrap" id="f-31-beat-wrap">
+      <video data-hf-id="hf-xdqp" id="f-31-beat-media" class="broll-media clip" src=".media/broll/beat-31.mp4" muted playsinline data-start="0" data-duration="5.43" data-media-start="0" data-track-index="0"></video>
+    </div>
+    <div data-hf-id="hf-c6qi" class="broll-scrim clip" id="f-31-beat-scrim" data-start="0" data-duration="5.43" data-track-index="1"></div>
+    <div data-hf-id="hf-i8h3" class="ov-key-phrase-zone" id="f-31-beat-ov-zone"><div data-hf-id="hf-pubh" class="ov-kp-scrim" id="f-31-beat-ov-scrim"></div><div data-hf-id="hf-0vzh" class="ov-key-phrase" id="f-31-beat-ov"><span data-hf-id="hf-xjju" class="ov-kp-word" id="f-31-beat-ov-w0">It's</span> <span data-hf-id="hf-922n" class="ov-kp-word" id="f-31-beat-ov-w1">where</span> <span data-hf-id="hf-9qii" class="ov-kp-word" id="f-31-beat-ov-w2">the</span> <span data-hf-id="hf-kisb" class="ov-kp-word" id="f-31-beat-ov-w3">animals</span> <span data-hf-id="hf-gwtk" class="ov-kp-word" id="f-31-beat-ov-w4">were</span> <span data-hf-id="hf-as3t" class="ov-kp-word" id="f-31-beat-ov-w5">and</span> <span data-hf-id="hf-jy9u" class="ov-kp-word" id="f-31-beat-ov-w6">where</span> <span data-hf-id="hf-7sy8" class="ov-kp-word" id="f-31-beat-ov-w7">they</span> <span data-hf-id="hf-44e9" class="ov-kp-word" id="f-31-beat-ov-w8">weren't.</span></div></div>
+  </div>
+
+  <script>
+    (function () {
+      window.__timelines = window.__timelines || {};
+      var tl = gsap.timeline({ paused: true });
+      var wrap = document.getElementById("f-31-beat-wrap");
+      gsap.set(wrap, { scale: 1.0 });
+      tl.to("#f-31-beat-ov-scrim", { opacity: 1, duration: 0.45, ease: "power2.out" }, -0.10);
+      tl.fromTo("#f-31-beat-ov-w0", { y: 24, opacity: 0 }, { y: 0, opacity: 1, duration: 0.38, ease: "power3.out" }, 0.00);
+      tl.fromTo("#f-31-beat-ov-w1", { y: 24, opacity: 0 }, { y: 0, opacity: 1, duration: 0.38, ease: "power3.out" }, 0.10);
+      tl.fromTo("#f-31-beat-ov-w2", { y: 24, opacity: 0 }, { y: 0, opacity: 1, duration: 0.38, ease: "power3.out" }, 0.19);
+      tl.fromTo("#f-31-beat-ov-w3", { y: 24, opacity: 0 }, { y: 0, opacity: 1, duration: 0.38, ease: "power3.out" }, 0.28);
+      tl.fromTo("#f-31-beat-ov-w4", { y: 24, opacity: 0 }, { y: 0, opacity: 1, duration: 0.38, ease: "power3.out" }, 0.36);
+      tl.fromTo("#f-31-beat-ov-w5", { y: 24, opacity: 0 }, { y: 0, opacity: 1, duration: 0.38, ease: "power3.out" }, 0.44);
+      tl.fromTo("#f-31-beat-ov-w6", { y: 24, opacity: 0 }, { y: 0, opacity: 1, duration: 0.38, ease: "power3.out" }, 0.51);
+      tl.fromTo("#f-31-beat-ov-w7", { y: 24, opacity: 0 }, { y: 0, opacity: 1, duration: 0.38, ease: "power3.out" }, 0.57);
+      tl.fromTo("#f-31-beat-ov-w8", { y: 24, opacity: 0 }, { y: 0, opacity: 1, duration: 0.38, ease: "power3.out" }, 0.63);
+      tl.to("#f-31-beat-ov-w0", { y: -14, opacity: 0, duration: 0.26, ease: "power2.in" }, 2.53);
+      tl.to("#f-31-beat-ov-w1", { y: -14, opacity: 0, duration: 0.26, ease: "power2.in" }, 2.58);
+      tl.to("#f-31-beat-ov-w2", { y: -14, opacity: 0, duration: 0.26, ease: "power2.in" }, 2.63);
+      tl.to("#f-31-beat-ov-w3", { y: -14, opacity: 0, duration: 0.26, ease: "power2.in" }, 2.68);
+      tl.to("#f-31-beat-ov-w4", { y: -14, opacity: 0, duration: 0.26, ease: "power2.in" }, 2.73);
+      tl.to("#f-31-beat-ov-w5", { y: -14, opacity: 0, duration: 0.26, ease: "power2.in" }, 2.78);
+      tl.to("#f-31-beat-ov-w6", { y: -14, opacity: 0, duration: 0.26, ease: "power2.in" }, 2.83);
+      tl.to("#f-31-beat-ov-w7", { y: -14, opacity: 0, duration: 0.26, ease: "power2.in" }, 2.88);
+      tl.to("#f-31-beat-ov-w8", { y: -14, opacity: 0, duration: 0.26, ease: "power2.in" }, 2.93);
+      tl.to("#f-31-beat-ov-scrim", { opacity: 0, duration: 0.4, ease: "power2.in" }, 3.08);
+      window.__timelines["31-beat"] = tl;
+    })();
+  </script>
+</template>

@@ -1,0 +1,141 @@
+<template>
+  <style>
+    #root {
+      width: 1920px;
+      height: 1080px;
+      position: relative;
+      overflow: hidden;
+      font-family: -apple-system, "Inter", sans-serif;
+    }
+    .f-124-beat-bg {
+      position: absolute;
+      inset: 0;
+      background: #0d0d10;
+    }
+    .f-124-beat-stage {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .f-124-beat-zone {
+      position: relative;
+      width: 900px;
+      height: 560px;
+      border-radius: 18px;
+      border: 2px solid rgba(255,255,255,0.14);
+      background: radial-gradient(ellipse at center, rgba(127,176,216,0.05) 0%, rgba(10,10,12,0) 70%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    }
+    .f-124-beat-glow {
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse at center, rgba(127,176,216,0.28) 0%, rgba(127,176,216,0.06) 45%, rgba(127,176,216,0) 72%);
+      opacity: 0;
+    }
+    .f-124-beat-labelwrap {
+      position: relative;
+      text-align: center;
+    }
+    .f-124-beat-label {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      white-space: nowrap;
+      font-weight: 600;
+      font-size: 64px;
+      letter-spacing: -0.5px;
+      color: #f2f2f0;
+    }
+    .f-124-beat-label-old {
+      color: rgba(255,255,255,0.55);
+    }
+    .f-124-beat-label-new {
+      color: #ffffff;
+      opacity: 0;
+    }
+    .f-124-beat-sub {
+      position: absolute;
+      top: 100%;
+      margin-top: 16px;
+      left: 50%;
+      font-size: 24px;
+      font-weight: 400;
+      letter-spacing: 0.3px;
+      color: #7fb0d8;
+      opacity: 0;
+      white-space: nowrap;
+    }
+    .f-124-beat-tag {
+      position: absolute;
+      top: 70px;
+      left: 50%;
+      font-size: 22px;
+      font-weight: 500;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.4);
+      opacity: 0;
+    }
+  </style>
+
+  <div data-hf-id="hf-uguv" id="root" data-composition-id="124-beat" data-width="1920" data-height="1080" data-duration="7.43">
+    <div data-hf-id="hf-9ab6" class="f-124-beat-bg clip" id="f-124-beat-bg" data-start="0" data-duration="8.63" data-track-index="0"></div>
+
+    <div data-hf-id="hf-702p" class="f-124-beat-stage clip" id="f-124-beat-stage" data-start="0" data-duration="8.63" data-track-index="1">
+      <div data-hf-id="hf-qo0y" class="f-124-beat-zone" id="f-124-beat-zone">
+        <div data-hf-id="hf-r59c" class="f-124-beat-glow" id="f-124-beat-glow"></div>
+        <div data-hf-id="hf-tjhg" class="f-124-beat-tag" id="f-124-beat-tag">Swamp Eel</div>
+        <div data-hf-id="hf-rqwm" class="f-124-beat-labelwrap">
+          <div data-hf-id="hf-cayc" class="f-124-beat-label f-124-beat-label-old" id="f-124-beat-label-old" data-layout-allow-overlap>Dead Zone</div>
+          <div data-hf-id="hf-w87a" class="f-124-beat-label f-124-beat-label-new" id="f-124-beat-label-new" data-layout-allow-overlap>Uncontested Territory</div>
+          <div data-hf-id="hf-idei" class="f-124-beat-sub" id="f-124-beat-sub">for native fish</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script>
+    (function () {
+      window.__timelines = window.__timelines || {};
+      var tl = gsap.timeline({ paused: true });
+
+      var zone = document.getElementById("f-124-beat-zone");
+      var glow = document.getElementById("f-124-beat-glow");
+      var labelOld = document.getElementById("f-124-beat-label-old");
+      var labelNew = document.getElementById("f-124-beat-label-new");
+      var sub = document.getElementById("f-124-beat-sub");
+      var tag = document.getElementById("f-124-beat-tag");
+
+      gsap.set(zone, { opacity: 0, scale: 0.97 });
+      gsap.set(glow, { opacity: 0 });
+      gsap.set(labelOld, { opacity: 0.55 });
+      gsap.set(labelNew, { opacity: 0 });
+      gsap.set(sub, { opacity: 0, xPercent: -50, y: 8 });
+      gsap.set(tag, { opacity: 0, xPercent: -50, y: -6 });
+
+      // Establish the neutral "dead zone" framing early.
+      tl.to(zone, { opacity: 1, scale: 1, duration: 0.6, ease: "power2.out" }, 0.15);
+      tl.to(sub, { opacity: 0.75, y: 0, duration: 0.5, ease: "power2.out" }, 0.45);
+
+      // Hold the grayed-out label, then relabel for the swamp eel roughly
+      // mid-to-late in the beat, once narration lands on "to this animal".
+      tl.to(labelOld, { opacity: 0, duration: 0.45, ease: "power1.inOut" }, 3.0);
+      tl.to(glow, { opacity: 1, duration: 0.9, ease: "power2.out" }, 3.0);
+      tl.to(labelNew, { opacity: 1, duration: 0.6, ease: "power2.out" }, 3.15);
+      tl.to(tag, { opacity: 0.85, y: 0, duration: 0.5, ease: "power2.out" }, 3.35);
+      tl.to(sub, { opacity: 0, duration: 0.4, ease: "power1.inOut" }, 3.2);
+
+      // Gentle settle, no exit.
+      tl.to(glow, { opacity: 0.7, duration: 1.2, ease: "sine.inOut" }, 4.4);
+
+      window.__timelines["124-beat"] = tl;
+    })();
+  </script>
+</template>

@@ -1,0 +1,25 @@
+# Per-video-project generated/derived media — regenerated fresh on every
+# render (locally or via .github/workflows/render.yml), never committed.
+# Unlike the small *.json decision files these come from, these grow
+# unboundedly per video (hundreds of MB to low GB EACH) and are either
+# fully re-derivable (cinematic layers, procedural) or re-resolvable via a
+# stable by-ID lookup (broll, via replay-media-choices.mjs) — see
+# documentary-broll/SKILL.md's "Rendering in the cloud, free" section.
+videos/*/.media/
+videos/*/.hyperframes/cinematic-assets/
+videos/*/renders/
+videos/*/.thumbnails/
+videos/*/.waveform-cache/
+videos/*/transcribe_err.log
+videos/*/transcribe.log
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Playwright MCP tool's own console log dumps — unrelated to any project
+.playwright-mcp/
+
+# OS/editor cruft
+.DS_Store
+*.swp

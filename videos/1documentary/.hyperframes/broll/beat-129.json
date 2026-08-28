@@ -1,0 +1,66 @@
+{
+ "query": "snake or eel in grass",
+ "targetDuration": 4.72,
+ "orientation": "landscape",
+ "candidates": [
+  {
+   "source": "openverse",
+   "mediaType": "photo",
+   "id": "openverse-1493232f-4e54-4935-9f14-edfd2529204c",
+   "url": "https://www.flickr.com/photos/44124348109@N01/4226816124",
+   "previewUrl": "https://api.openverse.org/v1/images/1493232f-4e54-4935-9f14-edfd2529204c/thumb/",
+   "width": 1024,
+   "height": 873,
+   "durationSeconds": null,
+   "orientation": "landscape",
+   "downloadUrl": "https://live.staticflickr.com/4001/4226816124_b979f87cc7_b.jpg",
+   "license": "by",
+   "attributionRequired": true,
+   "creditLine": "\"Snake in the Grass\" by jurvetson is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+   "description": "Snake in the Grass",
+   "providerRank": 0,
+   "_score": 13
+  },
+  {
+   "source": "openverse",
+   "mediaType": "photo",
+   "id": "openverse-b92b1cf5-e6dd-4408-9872-cebc2d3ab325",
+   "url": "https://commons.wikimedia.org/w/index.php?curid=45417625",
+   "previewUrl": "https://api.openverse.org/v1/images/b92b1cf5-e6dd-4408-9872-cebc2d3ab325/thumb/",
+   "width": 1772,
+   "height": 2505,
+   "durationSeconds": null,
+   "orientation": "portrait",
+   "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Hippocampus_-_Aliona_Huziankova.jpg",
+   "license": "by-sa",
+   "attributionRequired": true,
+   "creditLine": "\"File:Hippocampus - Aliona Huziankova.jpg\" by Aliona Huziankova is licensed under CC BY-SA 3.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/3.0/.",
+   "description": "File:Hippocampus - Aliona Huziankova.jpg",
+   "providerRank": 1,
+   "_score": 9
+  }
+ ],
+ "chosen": {
+  "source": "openverse",
+  "mediaType": "photo",
+  "id": "openverse-1493232f-4e54-4935-9f14-edfd2529204c",
+  "url": "https://www.flickr.com/photos/44124348109@N01/4226816124",
+  "previewUrl": "https://api.openverse.org/v1/images/1493232f-4e54-4935-9f14-edfd2529204c/thumb/",
+  "width": 1024,
+  "height": 873,
+  "durationSeconds": null,
+  "orientation": "landscape",
+  "downloadUrl": "https://live.staticflickr.com/4001/4226816124_b979f87cc7_b.jpg",
+  "license": "by",
+  "attributionRequired": true,
+  "creditLine": "\"Snake in the Grass\" by jurvetson is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+  "description": "Snake in the Grass",
+  "providerRank": 0,
+  "_score": 13
+ },
+ "anomalies": [
+  "pexels (video): 429 Too Many Requests for https://api.pexels.com/videos/search?query=snake+or+eel+in+grass&per_page=6&orientation=landscape",
+  "pexels (photo): 429 Too Many Requests for https://api.pexels.com/v1/search?query=snake+or+eel+in+grass&per_page=6&orientation=landscape",
+  "wikimedia (video): 429 Too Many Requests for https://commons.wikimedia.org/w/api.php?action=query&list=search&srnamespace=6&srsearch=snake+or+eel+in+grass+filetype%3Avideo&format=json&srlimit=6"
+ ]
+}

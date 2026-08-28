@@ -1,0 +1,81 @@
+{
+ "query": "stagnant shallow water summer",
+ "targetDuration": 6.62,
+ "orientation": "landscape",
+ "candidates": [
+  {
+   "source": "openverse",
+   "mediaType": "photo",
+   "id": "openverse-11a835de-1d7d-420f-846b-0bbe9f2c42d8",
+   "url": "https://www.flickr.com/photos/26082117@N07/6944674730",
+   "previewUrl": "https://api.openverse.org/v1/images/11a835de-1d7d-420f-846b-0bbe9f2c42d8/thumb/",
+   "width": 1024,
+   "height": 768,
+   "durationSeconds": null,
+   "orientation": "landscape",
+   "downloadUrl": "https://live.staticflickr.com/7219/6944674730_7d2e3b2b7d_b.jpg",
+   "license": "by",
+   "attributionRequired": true,
+   "creditLine": "\"Kayak sur le Cher\" by sybarite48 is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+   "description": "Kayak sur le Cher",
+   "providerRank": 0,
+   "_score": 13
+  },
+  {
+   "source": "openverse",
+   "mediaType": "photo",
+   "id": "openverse-76f210e3-9bf2-4c33-915c-16369ea7852d",
+   "url": "https://www.flickr.com/photos/26082117@N07/7090747593",
+   "previewUrl": "https://api.openverse.org/v1/images/76f210e3-9bf2-4c33-915c-16369ea7852d/thumb/",
+   "width": 1024,
+   "height": 768,
+   "durationSeconds": null,
+   "orientation": "landscape",
+   "downloadUrl": "https://live.staticflickr.com/7228/7090747593_66593a555b_b.jpg",
+   "license": "by",
+   "attributionRequired": true,
+   "creditLine": "\"Kayak sur le Cher\" by sybarite48 is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+   "description": "Kayak sur le Cher",
+   "providerRank": 1,
+   "_score": 11
+  },
+  {
+   "source": "openverse",
+   "mediaType": "photo",
+   "id": "openverse-4de12a1b-7b91-4903-9c6a-3fe4b85199de",
+   "url": "https://www.flickr.com/photos/26082117@N07/6944681022",
+   "previewUrl": "https://api.openverse.org/v1/images/4de12a1b-7b91-4903-9c6a-3fe4b85199de/thumb/",
+   "width": 1024,
+   "height": 768,
+   "durationSeconds": null,
+   "orientation": "landscape",
+   "downloadUrl": "https://live.staticflickr.com/7251/6944681022_b0c448abf0_b.jpg",
+   "license": "by",
+   "attributionRequired": true,
+   "creditLine": "\"Kayak sur le Cher\" by sybarite48 is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/.",
+   "description": "Kayak sur le Cher",
+   "providerRank": 2,
+   "_score": 9
+  }
+ ],
+ "chosen": {
+  "source": "pexels",
+  "mediaType": "video",
+  "id": "pexels-v6444541",
+  "url": "https://www.pexels.com/video/misty-morning-in-wet-heathland-6444541/",
+  "previewUrl": "https://images.pexels.com/videos/6444541/clouds-cold-drenthe-dwingelderveld-6444541.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+  "width": 1920,
+  "height": 1080,
+  "durationSeconds": 34,
+  "orientation": "landscape",
+  "downloadUrl": "https://videos.pexels.com/video-files/6444541/6444541-hd_1920_1080_24fps.mp4",
+  "description": "misty morning in wet heathland",
+  "providerRank": 5,
+  "_score": 6
+ },
+ "anomalies": [
+  "wikimedia (video): 429 Too many requests (f061ab2) for https://commons.wikimedia.org/w/api.php?action=query&list=search&srnamespace=6&srsearch=stagnant+shallow+water+summer+filetype%3Avideo&format=json&srlimit=6",
+  "pexels (photo): 429 Too Many Requests for https://api.pexels.com/v1/search?query=stagnant+shallow+water+summer&per_page=6&orientation=landscape",
+  "pexels (video): 429 Too Many Requests for https://api.pexels.com/videos/search?query=stagnant+shallow+water+summer&per_page=6&orientation=landscape"
+ ]
+}

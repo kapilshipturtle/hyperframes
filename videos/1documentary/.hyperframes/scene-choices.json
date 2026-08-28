@@ -1,0 +1,126 @@
+{
+ "22": {
+  "visualIdea": "A thin outline map of the state of Delaware overlaid with 30 small pinpoint dots scattered across a stylized Everglades wetland silhouette, illustrating the survey's true geographic scale",
+  "tone": "neutral"
+ },
+ "28": {
+  "visualIdea": "A large count-up number '2,251' with small amphibian silhouette icons filling in beneath it, subdivided into 9 small labeled species icons",
+  "tone": "neutral"
+ },
+ "52": {
+  "visualIdea": "A simple two-point line chart falling sharply from 2003 to 2011, labeled 'mammal surveys in python-occupied areas', dropping off a visual cliff edge",
+  "tone": "urgent"
+ },
+ "53": {
+  "visualIdea": "Two vertical bar-drop meters side by side: 'Raccoons -99%' and 'Bobcats -88%', bars draining downward like a gauge",
+  "tone": "urgent"
+ },
+ "55": {
+  "visualIdea": "A large '95%' stat count-up with the subtitle 'of small mammals eliminated' and a faint silhouette of a python coiled behind the number",
+  "tone": "urgent"
+ },
+ "60": {
+  "visualIdea": "A stylized event card: '10-DAY CHALLENGE' with a $10,000 prize-tag graphic and a calendar strip ticking off 10 days",
+  "tone": "neutral"
+ },
+ "61": {
+  "visualIdea": "A simple stat readout: '907 people / 30 states + Canada + Vietnam' counting up, beneath it '280 snakes removed in 10 days' as a second line",
+  "tone": "neutral"
+ },
+ "63": {
+  "visualIdea": "A labeled exploded-diagram-style illustration of a plush toy rabbit shell with motor, heater, solar panel, and camera components labeled beside their positions",
+  "tone": "cool"
+ },
+ "64": {
+  "visualIdea": "A simple stat readout: '~120 decoys' multiplied by '$4,000 each' with a small running total calculation visual",
+  "tone": "cool"
+ },
+ "76": {
+  "visualIdea": "A vertical bar/range indicator showing amphibian abundance dropping into a shaded band between 74% and 84%, with a downward arrow",
+  "tone": "solemn"
+ },
+ "77": {
+  "visualIdea": "A big center statement: 'THREE QUARTERS. GONE. 30 YEARS.' with a thin fading timeline bar beneath it",
+  "tone": "solemn"
+ },
+ "100": {
+  "visualIdea": "A horizontal timeline bar from 2007 to 2022 with a marker landing on 2012 labeled 'invasion takes hold', building tension toward a second marker at 2022",
+  "tone": "solemn"
+ },
+ "107": {
+  "visualIdea": "A horizontal timeline spanning 28 years, with two end markers labeled '1997: first record' and '2025: high-risk designation', the long gap between them emphasized",
+  "tone": "urgent"
+ },
+ "108": {
+  "visualIdea": "A simplified US map silhouette with pins lighting up sequentially at Florida, Georgia, and New Jersey to show the eel's documented spread",
+  "tone": "urgent"
+ },
+ "114": {
+  "visualIdea": "A simple labeled diagram silhouette of a fish body with 'NO SCALES' and 'NO PECTORAL/PELVIC FINS' callout labels pointing to the (absent) features, X-marks where fins would normally be",
+  "tone": "cool"
+ },
+ "115": {
+  "visualIdea": "A close diagram of a body outline with a single thin dorsal ridge line labeled 'no paired fins -- just a thin ridge', minimal cool-toned illustration",
+  "tone": "cool"
+ },
+ "116": {
+  "visualIdea": "A simple labeled anatomical callout diagram showing a single gill opening on the underside of a throat, with a highlight-annotation circle and label 'single gill opening'",
+  "tone": "cool"
+ },
+ "117": {
+  "visualIdea": "A checklist card titled 'WHAT MAKES A FISH' with items (scales, fins, gills) shown crossed out one by one, ending on 'missing most of the equipment'",
+  "tone": "cool"
+ },
+ "118": {
+  "visualIdea": "A simplified cross-section diagram of a mouth/throat cavity highlighted with a dense red vascular network overlay, labeled 'blood-vessel-rich lining'",
+  "tone": "cool"
+ },
+ "119": {
+  "visualIdea": "A simple labeled diagram: an arrow from 'air at surface' into a stylized throat cavity labeled 'functions as a lung', oxygen molecules absorbing directly",
+  "tone": "cool"
+ },
+ "122": {
+  "visualIdea": "A simple venn/overlap diagram: 'water too low in oxygen for native fish' shrinking a habitat zone, with the swamp eel icon comfortably occupying that same shrunken zone alone",
+  "tone": "cool"
+ },
+ "123": {
+  "visualIdea": "A minimal side-profile diagram showing a ruler measuring 'two inches' of sheet-flow water depth across a marsh cross-section",
+  "tone": "neutral"
+ },
+ "124": {
+  "visualIdea": "A simple two-label comparison: a grayed-out 'dead zone for native fish' zone that lights up as 'uncontested territory' when relabeled for the swamp eel",
+  "tone": "cool"
+ },
+ "132": {
+  "visualIdea": "A simple looping annual-cycle diagram: a circular arrow alternating between 'floods' and 'dries' icons, labeled 'every year, for thousands of years'",
+  "tone": "neutral"
+ },
+ "135": {
+  "visualIdea": "A simple 'one more thing' title card transition, minimal typographic beat with a small icon hinting at biology/reproduction ahead",
+  "tone": "neutral"
+ },
+ "136": {
+  "visualIdea": "A simple labeled diagram: a female icon with an arrow transitioning into a male icon over time, labeled 'sequential hermaphrodite -- begins female, some become male'",
+  "tone": "cool"
+ },
+ "137": {
+  "visualIdea": "A simple population diagram showing a population being 'knocked down' by a control effort, with surviving individuals still able to reproduce regardless of sex ratio, unlike a normal population",
+  "tone": "cool"
+ },
+ "138": {
+  "visualIdea": "A simple contrast diagram: 'fixed-sex species' population collapsing when one sex is removed, versus 'sex-switching species' population continuing regardless",
+  "tone": "cool"
+ },
+ "146": {
+  "visualIdea": "A simple animated map illustration: water spreading as a thin blue sheet across an entire wetland landscape silhouette, labeled 'wet season'",
+  "tone": "neutral"
+ },
+ "148": {
+  "visualIdea": "A simple animated map illustration: water retreating from the same wetland landscape into a few small deep pockets, labeled 'dry season'",
+  "tone": "neutral"
+ },
+ "120": {
+  "visualIdea": "A simple side-by-side comparison: a 'most fish' icon fading/struggling in a low-oxygen water gauge versus the swamp-eel icon staying comfortable in the same warm stagnant water, labeled 'skin respiration'",
+  "tone": "cool"
+ }
+}

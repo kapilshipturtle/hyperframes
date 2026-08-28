@@ -1,0 +1,274 @@
+<template>
+<style>
+  #root {
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+    overflow: hidden;
+    font-family: -apple-system, "Inter", sans-serif;
+  }
+
+  #root .clip {
+    position: absolute;
+  }
+
+  .beat118-bg {
+    top: 0; left: 0; width: 1920px; height: 1080px;
+    background: #0a0a0c;
+  }
+
+  .beat118-bg::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(ellipse at 50% 48%, rgba(127,176,216,0.07), transparent 60%);
+  }
+
+  .beat118-stage {
+    top: 0; left: 0; width: 1920px; height: 1080px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .beat118-diagram {
+    position: relative;
+    width: 980px;
+    height: 620px;
+  }
+
+  /* Simplified cross-section of a mouth/throat cavity, side profile */
+  .beat118-crosssection {
+    position: absolute;
+    top: 0;
+    left: 100px;
+    width: 560px;
+    height: 620px;
+  }
+
+  .beat118-crosssection svg {
+    width: 100%;
+    height: 100%;
+    display: block;
+    overflow: visible;
+  }
+
+  .beat118-outline {
+    fill: rgba(242,242,240,0.03);
+    stroke: rgba(242,242,240,0.5);
+    stroke-width: 2.5;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+  }
+
+  .beat118-cavityline {
+    fill: none;
+    stroke: rgba(242,242,240,0.28);
+    stroke-width: 1.5;
+    stroke-dasharray: 4 6;
+  }
+
+  /* Vascular network overlay, clipped to the cavity lining region */
+  .beat118-vessels {
+    fill: none;
+    stroke: #e0685a;
+    stroke-width: 2;
+    stroke-linecap: round;
+    opacity: 0;
+  }
+
+  .beat118-vessels-fine {
+    fill: none;
+    stroke: #e0685a;
+    stroke-width: 1.2;
+    stroke-linecap: round;
+    opacity: 0;
+  }
+
+  .beat118-vessel-glow {
+    position: absolute;
+    left: 150px;
+    top: 190px;
+    width: 340px;
+    height: 260px;
+    border-radius: 50%;
+    background: radial-gradient(ellipse at center, rgba(224,104,90,0.22), transparent 70%);
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  /* Leader line + label */
+  .beat118-leader {
+    position: absolute;
+    left: 470px;
+    top: 330px;
+    width: 260px;
+    height: 2px;
+  }
+
+  .beat118-leader svg {
+    width: 100%;
+    height: 160px;
+    overflow: visible;
+    position: absolute;
+    top: -80px;
+    left: 0;
+  }
+
+  .beat118-leader path {
+    fill: none;
+    stroke: rgba(127,176,216,0.6);
+    stroke-width: 2;
+    stroke-dasharray: 300;
+    stroke-dashoffset: 300;
+  }
+
+  .beat118-label {
+    position: absolute;
+    left: 740px;
+    top: 260px;
+    width: 440px;
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  .beat118-label-eyebrow {
+    font-size: 22px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #7fb0d8;
+    opacity: 0.85;
+    margin: 0 0 10px 0;
+    font-weight: 600;
+  }
+
+  .beat118-label-main {
+    font-size: 42px;
+    line-height: 1.25;
+    color: #f2f2f0;
+    font-weight: 600;
+    margin: 0;
+    letter-spacing: -0.01em;
+  }
+
+  .beat118-label-sub {
+    font-size: 24px;
+    line-height: 1.4;
+    color: #f2f2f0;
+    opacity: 0.7;
+    margin: 14px 0 0 0;
+    font-weight: 400;
+  }
+</style>
+
+<div data-hf-id="hf-4srr" id="root" data-composition-id="118-beat" data-width="1920" data-height="1080" data-duration="7.95">
+
+  <div data-hf-id="hf-hfht" class="clip beat118-bg" data-start="0" data-duration="9.05" data-track-index="0"></div>
+
+  <div data-hf-id="hf-32nf" class="clip beat118-stage" data-start="0" data-duration="9.05" data-track-index="1">
+    <div data-hf-id="hf-69e6" class="beat118-diagram">
+
+      <div data-hf-id="hf-xoly" class="beat118-crosssection">
+        <svg data-hf-id="hf-69fs" viewBox="0 0 560 620" preserveAspectRatio="xMidYMid meet">
+          <defs data-hf-id="hf-mh0t">
+            <clippath data-hf-id="hf-tdrb" id="beat118-cavity-clip">
+              <path data-hf-id="hf-ta2m" d="M 130 220 C 170 260, 180 320, 160 380 C 145 425, 170 470, 230 480 C 290 490, 330 450, 320 400 C 312 360, 340 320, 330 270 C 322 235, 270 210, 220 205 C 185 202, 150 200, 130 220 Z" />
+            </clippath>
+          </defs>
+
+          <path data-hf-id="hf-970e" class="beat118-outline" d="
+            M 100 40
+            C 200 8, 330 20, 380 95
+            C 410 145, 395 195, 420 235
+            C 440 270, 460 305, 450 355
+            C 440 415, 385 465, 330 490
+            C 285 508, 245 512, 210 490
+            C 190 470, 195 440, 178 415
+            C 158 385, 122 368, 112 328
+            C 100 282, 122 245, 112 205
+            C 100 155, 68 100, 100 40
+            Z" />
+
+          <path data-hf-id="hf-vi5d" class="beat118-cavityline" d="M 240 300 C 275 345, 285 400, 270 455" />
+
+          <g data-hf-id="hf-9d45" clip-path="url(#beat118-cavity-clip)">
+            <path data-hf-id="hf-hnbd" class="beat118-vessels" d="M 120 230 C 160 250, 170 280, 200 290 C 230 300, 250 270, 280 285 C 300 295, 295 330, 320 345" />
+            <path data-hf-id="hf-a7va" class="beat118-vessels" d="M 135 300 C 165 310, 185 340, 220 350 C 250 358, 270 340, 300 355" />
+            <path data-hf-id="hf-0clu" class="beat118-vessels" d="M 150 370 C 180 385, 200 410, 235 420 C 260 428, 285 415, 310 425" />
+            <path data-hf-id="hf-refy" class="beat118-vessels" d="M 170 430 C 195 445, 215 460, 245 465" />
+            <path data-hf-id="hf-os4s" class="beat118-vessels-fine" d="M 155 245 C 170 260, 165 275, 180 285" />
+            <path data-hf-id="hf-xign" class="beat118-vessels-fine" d="M 200 260 C 215 275, 210 295, 228 305" />
+            <path data-hf-id="hf-sn68" class="beat118-vessels-fine" d="M 255 275 C 270 290, 265 310, 282 320" />
+            <path data-hf-id="hf-tav2" class="beat118-vessels-fine" d="M 180 335 C 195 350, 190 370, 208 380" />
+            <path data-hf-id="hf-bw8o" class="beat118-vessels-fine" d="M 230 355 C 245 368, 240 388, 258 398" />
+            <path data-hf-id="hf-lwn4" class="beat118-vessels-fine" d="M 190 395 C 205 408, 200 425, 218 435" />
+          </g>
+        </svg>
+      </div>
+
+      <div data-hf-id="hf-mzll" class="beat118-vessel-glow"></div>
+
+      <div data-hf-id="hf-8fns" class="beat118-leader">
+        <svg data-hf-id="hf-h0va" viewBox="0 0 260 160" preserveAspectRatio="none">
+          <path data-hf-id="hf-3yqq" d="M 10 80 C 90 80, 140 40, 250 20" />
+        </svg>
+      </div>
+
+      <div data-hf-id="hf-lus3" class="beat118-label">
+        <p data-hf-id="hf-bhr0" class="beat118-label-eyebrow">Anatomical detail</p>
+        <p data-hf-id="hf-swob" class="beat118-label-main">Blood-vessel-rich lining</p>
+        <p data-hf-id="hf-j1hc" class="beat118-label-sub">Mouth &amp; throat cavity</p>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script>
+(function () {
+  var root = document;
+  if (!root) return;
+
+  var q = function (sel) { return root.querySelector(sel); };
+  var qa = function (sel) { return Array.prototype.slice.call(root.querySelectorAll(sel)); };
+
+  var crosssection = q('.beat118-crosssection');
+  var cavityline = q('.beat118-cavityline');
+  var vessels = qa('.beat118-vessels');
+  var vesselsFine = qa('.beat118-vessels-fine');
+  var glow = q('.beat118-vessel-glow');
+  var leaderPath = q('.beat118-leader path');
+  var label = q('.beat118-label');
+
+  gsap.set(crosssection, { opacity: 0, x: -20 });
+  gsap.set(cavityline, { opacity: 0 });
+  gsap.set(vessels, { opacity: 0 });
+  gsap.set(vesselsFine, { opacity: 0 });
+  gsap.set(glow, { opacity: 0, scale: 0.9, transformOrigin: "50% 50%" });
+  gsap.set(leaderPath, { strokeDashoffset: 300 });
+  gsap.set(label, { opacity: 0, y: 10 });
+
+  var tl = gsap.timeline({ paused: true });
+
+  // Establish the cross-section early (documentary pacing: context first)
+  tl.to(crosssection, { opacity: 1, x: 0, duration: 0.9, ease: "power2.out" }, 0.15);
+  tl.to(cavityline, { opacity: 1, duration: 0.6, ease: "power1.out" }, 0.6);
+
+  // ~35% into duration: the vascular network begins washing in, vessel by vessel
+  tl.to(vessels, { opacity: 0.85, duration: 0.5, ease: "power1.out", stagger: 0.12 }, 2.4);
+  tl.to(vesselsFine, { opacity: 0.55, duration: 0.5, ease: "power1.out", stagger: 0.08 }, 2.9);
+  tl.to(glow, { opacity: 1, scale: 1, duration: 0.9, ease: "power1.out" }, 2.6);
+
+  // Leader line draws toward the label once the vessels have read
+  tl.to(leaderPath, { strokeDashoffset: 0, duration: 0.5, ease: "power2.inOut" }, 3.9);
+
+  // Label resolves last, naming what we've just seen
+  tl.to(label, { opacity: 1, y: 0, duration: 0.55, ease: "power2.out" }, 4.25);
+
+  window.__timelines = window.__timelines || {};
+  window.__timelines["118-beat"] = tl;
+})();
+</script>
+</template>

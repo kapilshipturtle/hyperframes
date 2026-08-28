@@ -1,0 +1,149 @@
+<template>
+<div data-hf-id="hf-0est" id="root" data-composition-id="135-beat" data-width="1920" data-height="1080" data-duration="4.55">
+  <style>
+    #root {
+      position: relative;
+      width: 1920px;
+      height: 1080px;
+      overflow: hidden;
+      font-family: -apple-system, "Inter", sans-serif;
+      color: #f2f2f0;
+    }
+
+    .f135-beat-bg {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(160deg, #0a0a0c 0%, #131316 60%, #0d0d0f 100%);
+    }
+
+    .f135-beat-center {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .f135-beat-icon-wrap {
+      width: 96px;
+      height: 96px;
+      margin-bottom: 44px;
+      opacity: 0;
+    }
+
+    .f135-beat-icon-wrap svg {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+
+    .f135-beat-icon-ring {
+      fill: none;
+      stroke: #a9b4c0;
+      stroke-width: 2.5;
+      opacity: 0.55;
+    }
+
+    .f135-beat-icon-cell {
+      fill: none;
+      stroke: #a9b4c0;
+      stroke-width: 4;
+      stroke-linecap: round;
+    }
+
+    .f135-beat-word {
+      font-size: 150px;
+      font-weight: 600;
+      letter-spacing: -0.02em;
+      line-height: 1;
+      color: #ffffff;
+      opacity: 0;
+      margin: 0 0 26px 0;
+    }
+
+    .f135-beat-word .f135-beat-accent {
+      color: #a9b4c0;
+    }
+
+    .f135-beat-sub {
+      font-size: 24px;
+      font-weight: 400;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: #f2f2f0;
+      opacity: 0;
+    }
+
+    .f135-beat-rule {
+      width: 64px;
+      height: 2px;
+      background: #a9b4c0;
+      margin-top: 30px;
+      transform: scaleX(0);
+      transform-origin: 50% 50%;
+      opacity: 0.7;
+    }
+  </style>
+
+  <div data-hf-id="hf-5ugv" class="clip f135-beat-bg" data-start="0" data-duration="5.75" data-track-index="0"></div>
+
+  <div data-hf-id="hf-qxeo" class="clip f135-beat-center" data-start="0" data-duration="5.75" data-track-index="1">
+    <div data-hf-id="hf-oubj" class="f135-beat-icon-wrap" id="f135-beat-icon">
+      <svg data-hf-id="hf-1vk3" viewBox="0 0 96 96">
+        <circle data-hf-id="hf-m4h4" class="f135-beat-icon-ring" cx="48" cy="48" r="40" />
+        <!-- two intertwined dividing cells hinting at biology / reproduction -->
+        <circle data-hf-id="hf-xkcq" class="f135-beat-icon-cell" cx="38" cy="44" r="14" />
+        <circle data-hf-id="hf-6ym3" class="f135-beat-icon-cell" cx="58" cy="52" r="10" />
+      </svg>
+    </div>
+    <div data-hf-id="hf-5b07" class="f135-beat-word" id="f135-beat-word">One more <span data-hf-id="hf-lsli" class="f135-beat-accent">thing</span></div>
+    <div data-hf-id="hf-lzwe" class="f135-beat-sub" id="f135-beat-sub">and it matters for control</div>
+    <div data-hf-id="hf-lyny" class="f135-beat-rule" id="f135-beat-rule"></div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script>
+    (function () {
+      var tl = gsap.timeline({ paused: true });
+
+      // Icon settles in first, quiet establishing beat
+      tl.to("#f135-beat-icon", {
+        opacity: 0.85,
+        duration: 0.5,
+        ease: "power2.out"
+      }, 0.15);
+      tl.fromTo("#f135-beat-icon",
+        { y: -8 },
+        { y: 0, duration: 0.5, ease: "power2.out" },
+        0.15
+      );
+
+      // Headline reveals mid-way through, on narration pacing
+      tl.fromTo("#f135-beat-word",
+        { opacity: 0, y: 16 },
+        { opacity: 1, y: 0, duration: 0.55, ease: "power2.out" },
+        1.05
+      );
+
+      // Supporting label follows shortly after
+      tl.fromTo("#f135-beat-sub",
+        { opacity: 0, y: 10 },
+        { opacity: 0.8, y: 0, duration: 0.45, ease: "power2.out" },
+        1.55
+      );
+
+      // Small rule draws in last, settling the card
+      tl.to("#f135-beat-rule", {
+        scaleX: 1,
+        duration: 0.5,
+        ease: "power2.inOut"
+      }, 1.95);
+
+      window.__timelines = window.__timelines || {};
+      window.__timelines["135-beat"] = tl;
+    })();
+  </script>
+</div>
+</template>

@@ -1,0 +1,611 @@
+{
+  "tts_provider": null,
+  "voice_id": null,
+  "bgm": null,
+  "bgm_pending": false,
+  "bgm_provider": null,
+  "bgm_pid": null,
+  "bgm_log": null,
+  "bgm_mode": null,
+  "bgm_target_duration_s": null,
+  "bgm_seed_duration_s": null,
+  "bgm_loop_count": null,
+  "voices": [],
+  "sfx": [
+    {
+      "id": "03",
+      "name": "whoosh-short",
+      "file": "assets/sfx/whoosh-short.mp3",
+      "source": "heygen",
+      "offset_s": 0,
+      "duration_s": 1.285,
+      "volume": 0.35
+    },
+    {
+      "id": "05",
+      "name": "whoosh-short",
+      "file": "assets/sfx/whoosh-short.mp3",
+      "source": "heygen",
+      "offset_s": 0,
+      "duration_s": 1.285,
+      "volume": 0.35
+    },
+    {
+      "id": "07",
+      "name": "whoosh-short",
+      "file": "assets/sfx/whoosh-short.mp3",
+      "source": "heygen",
+      "offset_s": 0,
+      "duration_s": 1.285,
+      "volume": 0.35
+    },
+    {
+      "id": "07",
+      "name": "ping",
+      "file": "assets/sfx/ping.mp3",
+      "source": "heygen",
+      "offset_s": 0,
+      "duration_s": 7.315,
+      "volume": 0.35
+    },
+    {
+      "id": "11",
+      "name": "whoosh-short",
+      "file": "assets/sfx/whoosh-short.mp3",
+      "source": "heygen",
+      "offset_s": 0,
+      "duration_s": 1.285,
+      "volume": 0.35
+    },
+    {
+      "id": "13",
+      "name": "whoosh-short",
+      "file": "assets/sfx/whoosh-short.mp3",
+      "source": "heygen",
+      "offset_s": 0,
+      "duration_s": 1.285,
+      "volume": 0.35
+    },
+    {
+      "id": "16",
+      "name": "pop",
+      "file": "assets/sfx/pop.mp3",
+      "source": "heygen",
+      "offset_s": 0,
+      "duration_s": 0.312,
+      "volume": 0.35
+    },
+    {
+      "id": "17",
+      "name": "whoosh-short",
+      "file": "assets/sfx/whoosh-short.mp3",
+      "source": "heygen",
+      "offset_s": 0,
+      "duration_s": 1.285,
+      "volume": 0.35
+    },
+    {
+      "id": "19",
+      "name": "whoosh-short",
+      "file": "assets/sfx/whoosh-short.mp3",
+      "source": "heygen",
+      "offset_s": 0,
+      "duration_s": 1.285,
+      "volume": 0.35
+    },
+    {
+      "id": "21",
+      "name": "whoosh-short",
+      "file": "assets/sfx/whoosh-short.mp3",
+      "source": "heygen",
+      "offset_s": 0,
+      "duration_s": 1.285,
+      "volume": 0.35
+    },
+    {
+      "id": "22",
+      "name": "ping",
+      "file": "assets/sfx/ping.mp3",
+      "source": "heygen",
+      "offset_s": 0,
+      "duration_s": 7.315,
+      "volume": 0.35
+    },
+    {
+      "id": "25",
+      "name": "whoosh-short",
+      "file": "assets/sfx/whoosh-short.mp3",
+      "source": "heygen",
+      "offset_s": 0,
+      "duration_s": 1.285,
+      "volume": 0.35
+    },
+    {
+      "id": "27",
+      "name": "whoosh-short",
+      "file": "assets/sfx/whoosh-short.mp3",
+      "source": "heygen",
+      "offset_s": 0,
+      "duration_s": 1.285,
+      "volume": 0.35
+    },
+    {
+      "id": "28",
+      "name": "ping",
+      "file": "assets/sfx/ping.mp3",
+      "source": "heygen",
+      "offset_s": 0,
+      "duration_s": 7.315,
+      "volume": 0.35
+    },
+    {
+      "id": "31",
+      "name": "whoosh-short",
+      "file": "assets/sfx/whoosh-short.mp3",
+      "source": "heygen",
+      "offset_s": 0,
+      "duration_s": 1.285,
+      "volume": 0.35
+    },
+    {
+      "id": "33",
+      "name": "whoosh-short",
+      "file": "assets/sfx/whoosh-short.mp3",
+      "source": "heygen",
+      "offset_s": 0,
+      "duration_s": 1.285,
+      "volume": 0.35
+    },
+    {
+      "id": "35",
+      "name": "whoosh-short",
+      "file": "assets/sfx/whoosh-short.mp3",
+      "source": "heygen",
+      "offset_s": 0,
+      "duration_s": 1.285,
+      "volume": 0.35
+    },
+    {
+      "id": "37",
+      "name": "pop",
+      "file": "assets/sfx/pop.mp3",
+      "source": "heygen",
+      "offset_s": 0,
+      "duration_s": 0.312,
+      "volume": 0.35
+    },
+    {
+      "id": "39",
+      "name": "whoosh-short",
+      "file": "assets/sfx/whoosh-short.mp3",
+      "source": "heygen",
+      "offset_s": 0,
+      "duration_s": 1.285,
+      "volume": 0.35
+    },
+    {
+      "id": "41",
+      "name": "whoosh-short",
+      "file": "assets/sfx/whoosh-short.mp3",
+      "source": "heygen",
+      "offset_s": 0,
+      "duration_s": 1.285,
+      "volume": 0.35
+    },
+    {
+      "id": "45",
+      "name": "whoosh-short",
+      "file": "assets/sfx/whoosh-short.mp3",
+      "source": "heygen",
+      "offset_s": 0,
+      "duration_s": 1.285,
+      "volume": 0.35
+    },
+    {
+      "id": "47",
+      "name": "whoosh-short",
+      "file": "assets/sfx/whoosh-short.mp3",
+      "source": "heygen",
+      "offset_s": 0,
+      "duration_s": 1.285,
+      "volume": 0.35
+    },
+    {
+      "id": "49",
+      "name": "whoosh-short",
+      "file": "assets/sfx/whoosh-short.mp3",
+      "source": "heygen",
+      "offset_s": 0,
+      "duration_s": 1.285,
+      "volume": 0.35
+    },
+    {
+      "id": "53",
+      "name": "whoosh-short",
+      "file": "assets/sfx/whoosh-short.mp3",
+      "source": "heygen",
+      "offset_s": 0,
+      "duration_s": 1.285,
+      "volume": 0.35
+    },
+    {
+      "id": "53",
+      "name": "ping",
+      "file": "assets/sfx/ping.mp3",
+      "source": "heygen",
+      "offset_s": 0,
+      "duration_s": 7.315,
+      "volume": 0.35
+    },
+    {
+      "id": "55",
+      "name": "whoosh-short",
+      "file": "assets/sfx/whoosh-short.mp3",
+      "source": "heygen",
+      "offset_s": 0,
+      "duration_s": 1.285,
+      "volume": 0.35
+    },
+    {
+      "id": "55",
+      "name": "ping",
+      "file": "assets/sfx/ping.mp3",
+      "source": "heygen",
+      "offset_s": 0,
+      "duration_s": 7.315,
+      "volume": 0.35
+    },
+    {
+      "id": "59",
+      "name": "whoosh-short",
+      "file": "assets/sfx/whoosh-short.mp3",
+      "source": "heygen",
+      "offset_s": 0,
+      "duration_s": 1.285,
+      "volume": 0.35
+    },
+    {
+      "id": "61",
+      "name": "whoosh-short",
+      "file": "assets/sfx/whoosh-short.mp3",
+      "source": "heygen",
+      "offset_s": 0,
+      "duration_s": 1.285,
+      "volume": 0.35
+    },
+    {
+      "id": "61",
+      "name": "ping",
+      "file": "assets/sfx/ping.mp3",
+      "source": "heygen",
+      "offset_s": 0,
+      "duration_s": 7.315,
+      "volume": 0.35
+    },
+    {
+      "id": "63",
+      "name": "whoosh-short",
+      "file": "assets/sfx/whoosh-short.mp3",
+      "source": "heygen",
+      "offset_s": 0,
+      "duration_s": 1.285,
+      "volume": 0.35
+    },
+    {
+      "id": "64",
+      "name": "ping",
+      "file": "assets/sfx/ping.mp3",
+      "source": "heygen",
+      "offset_s": 0,
+      "duration_s": 7.315,
+      "volume": 0.35
+    },
+    {
+      "id": "67",
+      "name": "whoosh-short",
+      "file": "assets/sfx/whoosh-short.mp3",
+      "source": "heygen",
+      "offset_s": 0,
+      "duration_s": 1.285,
+      "volume": 0.35
+    },
+    {
+      "id": "69",
+      "name": "whoosh-short",
+      "file": "assets/sfx/whoosh-short.mp3",
+      "source": "heygen",
+      "offset_s": 0,
+      "duration_s": 1.285,
+      "volume": 0.35
+    },
+    {
+      "id": "73",
+      "name": "whoosh-short",
+      "file": "assets/sfx/whoosh-short.mp3",
+      "source": "heygen",
+      "offset_s": 0,
+      "duration_s": 1.285,
+      "volume": 0.35
+    },
+    {
+      "id": "75",
+      "name": "whoosh-short",
+      "file": "assets/sfx/whoosh-short.mp3",
+      "source": "heygen",
+      "offset_s": 0,
+      "duration_s": 1.285,
+      "volume": 0.35
+    },
+    {
+      "id": "76",
+      "name": "ping",
+      "file": "assets/sfx/ping.mp3",
+      "source": "heygen",
+      "offset_s": 0,
+      "duration_s": 7.315,
+      "volume": 0.35
+    },
+    {
+      "id": "77",
+      "name": "whoosh-short",
+      "file": "assets/sfx/whoosh-short.mp3",
+      "source": "heygen",
+      "offset_s": 0,
+      "duration_s": 1.285,
+      "volume": 0.35
+    },
+    {
+      "id": "81",
+      "name": "whoosh-short",
+      "file": "assets/sfx/whoosh-short.mp3",
+      "source": "heygen",
+      "offset_s": 0,
+      "duration_s": 1.285,
+      "volume": 0.35
+    },
+    {
+      "id": "83",
+      "name": "whoosh-short",
+      "file": "assets/sfx/whoosh-short.mp3",
+      "source": "heygen",
+      "offset_s": 0,
+      "duration_s": 1.285,
+      "volume": 0.35
+    },
+    {
+      "id": "87",
+      "name": "whoosh-short",
+      "file": "assets/sfx/whoosh-short.mp3",
+      "source": "heygen",
+      "offset_s": 0,
+      "duration_s": 1.285,
+      "volume": 0.35
+    },
+    {
+      "id": "89",
+      "name": "whoosh-short",
+      "file": "assets/sfx/whoosh-short.mp3",
+      "source": "heygen",
+      "offset_s": 0,
+      "duration_s": 1.285,
+      "volume": 0.35
+    },
+    {
+      "id": "91",
+      "name": "whoosh-short",
+      "file": "assets/sfx/whoosh-short.mp3",
+      "source": "heygen",
+      "offset_s": 0,
+      "duration_s": 1.285,
+      "volume": 0.35
+    },
+    {
+      "id": "95",
+      "name": "whoosh-short",
+      "file": "assets/sfx/whoosh-short.mp3",
+      "source": "heygen",
+      "offset_s": 0,
+      "duration_s": 1.285,
+      "volume": 0.35
+    },
+    {
+      "id": "97",
+      "name": "whoosh-short",
+      "file": "assets/sfx/whoosh-short.mp3",
+      "source": "heygen",
+      "offset_s": 0,
+      "duration_s": 1.285,
+      "volume": 0.35
+    },
+    {
+      "id": "101",
+      "name": "whoosh-short",
+      "file": "assets/sfx/whoosh-short.mp3",
+      "source": "heygen",
+      "offset_s": 0,
+      "duration_s": 1.285,
+      "volume": 0.35
+    },
+    {
+      "id": "103",
+      "name": "whoosh-short",
+      "file": "assets/sfx/whoosh-short.mp3",
+      "source": "heygen",
+      "offset_s": 0,
+      "duration_s": 1.285,
+      "volume": 0.35
+    },
+    {
+      "id": "105",
+      "name": "whoosh-short",
+      "file": "assets/sfx/whoosh-short.mp3",
+      "source": "heygen",
+      "offset_s": 0,
+      "duration_s": 1.285,
+      "volume": 0.35
+    },
+    {
+      "id": "107",
+      "name": "ping",
+      "file": "assets/sfx/ping.mp3",
+      "source": "heygen",
+      "offset_s": 0,
+      "duration_s": 7.315,
+      "volume": 0.35
+    },
+    {
+      "id": "109",
+      "name": "whoosh-short",
+      "file": "assets/sfx/whoosh-short.mp3",
+      "source": "heygen",
+      "offset_s": 0,
+      "duration_s": 1.285,
+      "volume": 0.35
+    },
+    {
+      "id": "109",
+      "name": "pop",
+      "file": "assets/sfx/pop.mp3",
+      "source": "heygen",
+      "offset_s": 0,
+      "duration_s": 0.312,
+      "volume": 0.35
+    },
+    {
+      "id": "111",
+      "name": "whoosh-short",
+      "file": "assets/sfx/whoosh-short.mp3",
+      "source": "heygen",
+      "offset_s": 0,
+      "duration_s": 1.285,
+      "volume": 0.35
+    },
+    {
+      "id": "115",
+      "name": "whoosh-short",
+      "file": "assets/sfx/whoosh-short.mp3",
+      "source": "heygen",
+      "offset_s": 0,
+      "duration_s": 1.285,
+      "volume": 0.35
+    },
+    {
+      "id": "117",
+      "name": "whoosh-short",
+      "file": "assets/sfx/whoosh-short.mp3",
+      "source": "heygen",
+      "offset_s": 0,
+      "duration_s": 1.285,
+      "volume": 0.35
+    },
+    {
+      "id": "119",
+      "name": "whoosh-short",
+      "file": "assets/sfx/whoosh-short.mp3",
+      "source": "heygen",
+      "offset_s": 0,
+      "duration_s": 1.285,
+      "volume": 0.35
+    },
+    {
+      "id": "123",
+      "name": "whoosh-short",
+      "file": "assets/sfx/whoosh-short.mp3",
+      "source": "heygen",
+      "offset_s": 0,
+      "duration_s": 1.285,
+      "volume": 0.35
+    },
+    {
+      "id": "125",
+      "name": "whoosh-short",
+      "file": "assets/sfx/whoosh-short.mp3",
+      "source": "heygen",
+      "offset_s": 0,
+      "duration_s": 1.285,
+      "volume": 0.35
+    },
+    {
+      "id": "129",
+      "name": "whoosh-short",
+      "file": "assets/sfx/whoosh-short.mp3",
+      "source": "heygen",
+      "offset_s": 0,
+      "duration_s": 1.285,
+      "volume": 0.35
+    },
+    {
+      "id": "131",
+      "name": "whoosh-short",
+      "file": "assets/sfx/whoosh-short.mp3",
+      "source": "heygen",
+      "offset_s": 0,
+      "duration_s": 1.285,
+      "volume": 0.35
+    },
+    {
+      "id": "133",
+      "name": "whoosh-short",
+      "file": "assets/sfx/whoosh-short.mp3",
+      "source": "heygen",
+      "offset_s": 0,
+      "duration_s": 1.285,
+      "volume": 0.35
+    },
+    {
+      "id": "137",
+      "name": "whoosh-short",
+      "file": "assets/sfx/whoosh-short.mp3",
+      "source": "heygen",
+      "offset_s": 0,
+      "duration_s": 1.285,
+      "volume": 0.35
+    },
+    {
+      "id": "139",
+      "name": "whoosh-short",
+      "file": "assets/sfx/whoosh-short.mp3",
+      "source": "heygen",
+      "offset_s": 0,
+      "duration_s": 1.285,
+      "volume": 0.35
+    },
+    {
+      "id": "143",
+      "name": "whoosh-short",
+      "file": "assets/sfx/whoosh-short.mp3",
+      "source": "heygen",
+      "offset_s": 0,
+      "duration_s": 1.285,
+      "volume": 0.35
+    },
+    {
+      "id": "145",
+      "name": "whoosh-short",
+      "file": "assets/sfx/whoosh-short.mp3",
+      "source": "heygen",
+      "offset_s": 0,
+      "duration_s": 1.285,
+      "volume": 0.35
+    },
+    {
+      "id": "147",
+      "name": "whoosh-short",
+      "file": "assets/sfx/whoosh-short.mp3",
+      "source": "heygen",
+      "offset_s": 0,
+      "duration_s": 1.285,
+      "volume": 0.35
+    },
+    {
+      "id": "151",
+      "name": "whoosh-short",
+      "file": "assets/sfx/whoosh-short.mp3",
+      "source": "heygen",
+      "offset_s": 0,
+      "duration_s": 1.285,
+      "volume": 0.35
+    }
+  ],
+  "total_duration_s": 0
+}

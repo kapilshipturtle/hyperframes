@@ -1,0 +1,224 @@
+<template>
+  <style>
+    #root {
+      width: 1920px;
+      height: 1080px;
+      position: relative;
+      overflow: hidden;
+      background: #0c0c0e;
+      font-family: -apple-system, "Inter", sans-serif;
+    }
+
+    .beat114-bg {
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse at 50% 48%, #141416 0%, #0a0a0c 72%);
+    }
+
+    /* Fish silhouette, built from a single SVG so body + fin-stub outlines
+       share one coherent line weight and can be revealed with stroke-dashoffset. */
+    .beat114-fish-wrap {
+      position: absolute;
+      top: 340px;
+      left: 460px;
+      width: 1000px;
+      height: 400px;
+    }
+    .beat114-fish-wrap svg {
+      width: 100%;
+      height: 100%;
+      overflow: visible;
+    }
+    .beat114-fish-body {
+      fill: rgba(127, 176, 216, 0.06);
+      stroke: #f2f2f0;
+      stroke-width: 3;
+      opacity: 0.9;
+    }
+    .beat114-fin-ghost {
+      fill: none;
+      stroke: rgba(242, 242, 240, 0.28);
+      stroke-width: 2;
+      stroke-dasharray: 6 7;
+    }
+
+    /* X marks where fins would be */
+    .beat114-xmark {
+      position: absolute;
+      width: 46px;
+      height: 46px;
+      opacity: 0;
+    }
+    .beat114-xmark svg { width: 100%; height: 100%; }
+    .beat114-xmark line {
+      stroke: #7fb0d8;
+      stroke-width: 5;
+      stroke-linecap: round;
+    }
+    .beat114-xmark-pectoral { top: 470px; left: 700px; }
+    .beat114-xmark-pelvic { top: 560px; left: 900px; }
+
+    /* Callout labels + leader lines */
+    .beat114-callout {
+      position: absolute;
+      opacity: 0;
+    }
+    .beat114-callout-label {
+      font-size: 24px;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: #f2f2f0;
+      white-space: nowrap;
+    }
+    .beat114-callout-label span {
+      color: #7fb0d8;
+    }
+    .beat114-leader {
+      position: absolute;
+      background: rgba(127, 176, 216, 0.55);
+    }
+
+    /* NO SCALES callout — points to the body surface, upper area */
+    .beat114-scales {
+      top: 250px;
+      left: 620px;
+      text-align: left;
+    }
+    .beat114-scales-leader {
+      top: 300px;
+      left: 660px;
+      width: 2px;
+      height: 90px;
+      transform-origin: top center;
+    }
+
+    /* NO PECTORAL/PELVIC FINS callout — sits below the fish, two leaders */
+    .beat114-fins {
+      top: 700px;
+      left: 700px;
+      text-align: left;
+      width: 520px;
+    }
+    .beat114-fins-leader-a {
+      top: 516px;
+      left: 723px;
+      width: 2px;
+      height: 90px;
+      transform-origin: top center;
+    }
+    .beat114-fins-leader-b {
+      top: 606px;
+      left: 923px;
+      width: 2px;
+      height: 40px;
+      transform-origin: top center;
+    }
+
+    .beat114-eyebrow {
+      position: absolute;
+      top: 168px;
+      left: 0;
+      width: 1920px;
+      text-align: center;
+      font-size: 26px;
+      letter-spacing: 0.28em;
+      text-transform: uppercase;
+      color: #7fb0d8;
+      opacity: 0;
+    }
+  </style>
+
+  <div data-hf-id="hf-23eq" id="root" data-composition-id="114-beat" data-width="1920" data-height="1080" data-duration="4.97">
+    <div data-hf-id="hf-72f4" class="beat114-bg clip" data-start="0" data-duration="6.17" data-track-index="0"></div>
+
+    <div data-hf-id="hf-8b2m" class="beat114-eyebrow clip" id="beat114-eyebrow" data-start="0" data-duration="6.17" data-track-index="1">
+      Body Diagram
+    </div>
+
+    <div data-hf-id="hf-hpqy" class="beat114-fish-wrap clip" data-start="0" data-duration="6.17" data-track-index="2">
+      <svg data-hf-id="hf-0x4m" viewBox="0 0 1000 400" preserveAspectRatio="xMidYMid meet">
+        <!-- Simplified eel-like fish silhouette (matches: no visible scale texture, smooth body) -->
+        <path data-hf-id="hf-ygt6" id="beat114-body-path" class="beat114-fish-body" d="M 60,210
+             C 60,150 160,110 320,105
+             C 520,98 760,130 900,190
+             C 940,205 950,215 960,218
+             C 950,222 900,232 820,248
+             C 660,282 460,300 300,290
+             C 170,282 80,260 60,210 Z" />
+        <!-- ghost outlines where pectoral + pelvic fins would normally sit -->
+        <path data-hf-id="hf-jwtv" class="beat114-fin-ghost" d="M 300,220 C 330,250 340,290 320,320 C 300,295 285,255 300,220 Z" />
+        <path data-hf-id="hf-jcp2" class="beat114-fin-ghost" d="M 500,250 C 525,278 530,310 512,335 C 495,312 485,278 500,250 Z" />
+      </svg>
+    </div>
+
+    <div data-hf-id="hf-dvt9" class="beat114-xmark beat114-xmark-pectoral clip" id="beat114-xmark-pectoral" data-start="0" data-duration="6.17" data-track-index="3">
+      <svg data-hf-id="hf-rlrd" viewBox="0 0 46 46"><line data-hf-id="hf-cznw" x1="8" y1="8" x2="38" y2="38" /><line data-hf-id="hf-f8fo" x1="38" y1="8" x2="8" y2="38" /></svg>
+    </div>
+    <div data-hf-id="hf-81be" class="beat114-xmark beat114-xmark-pelvic clip" id="beat114-xmark-pelvic" data-start="0" data-duration="6.17" data-track-index="4">
+      <svg data-hf-id="hf-82ql" viewBox="0 0 46 46"><line data-hf-id="hf-91no" x1="8" y1="8" x2="38" y2="38" /><line data-hf-id="hf-rxqk" x1="38" y1="8" x2="8" y2="38" /></svg>
+    </div>
+
+    <div data-hf-id="hf-rts6" class="beat114-callout beat114-scales clip" id="beat114-scales" data-start="0" data-duration="6.17" data-track-index="5">
+      <div data-hf-id="hf-jmj3" class="beat114-callout-label">NO <span data-hf-id="hf-eh3m">SCALES</span></div>
+    </div>
+    <div data-hf-id="hf-r2by" class="beat114-leader beat114-scales-leader clip" id="beat114-scales-leader" data-start="0" data-duration="6.17" data-track-index="6"></div>
+
+    <div data-hf-id="hf-ec3c" class="beat114-callout beat114-fins clip" id="beat114-fins" data-start="0" data-duration="6.17" data-track-index="7">
+      <div data-hf-id="hf-23c9" class="beat114-callout-label">NO <span data-hf-id="hf-u2vt">PECTORAL / PELVIC</span> FINS</div>
+    </div>
+    <div data-hf-id="hf-velm" class="beat114-leader beat114-fins-leader-a clip" id="beat114-fins-leader-a" data-start="0" data-duration="6.17" data-track-index="8"></div>
+    <div data-hf-id="hf-o4f3" class="beat114-leader beat114-fins-leader-b clip" id="beat114-fins-leader-b" data-start="0" data-duration="6.17" data-track-index="9"></div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script>
+    (function () {
+      window.__timelines = window.__timelines || {};
+      var tl = gsap.timeline({ paused: true });
+
+      var eyebrow = document.getElementById("beat114-eyebrow");
+      var bodyPath = document.getElementById("beat114-body-path");
+      var xPect = document.getElementById("beat114-xmark-pectoral");
+      var xPelv = document.getElementById("beat114-xmark-pelvic");
+      var scales = document.getElementById("beat114-scales");
+      var scalesLeader = document.getElementById("beat114-scales-leader");
+      var fins = document.getElementById("beat114-fins");
+      var finsLeaderA = document.getElementById("beat114-fins-leader-a");
+      var finsLeaderB = document.getElementById("beat114-fins-leader-b");
+
+      var bodyLen = bodyPath.getTotalLength();
+      gsap.set(bodyPath, {
+        strokeDasharray: bodyLen,
+        strokeDashoffset: bodyLen
+      });
+      gsap.set(eyebrow, { opacity: 0, y: 10 });
+      gsap.set(xPect, { opacity: 0, scale: 0.4, transformOrigin: "50% 50%" });
+      gsap.set(xPelv, { opacity: 0, scale: 0.4, transformOrigin: "50% 50%" });
+      gsap.set(scales, { opacity: 0, y: -10 });
+      gsap.set(fins, { opacity: 0, y: 10 });
+      gsap.set([scalesLeader, finsLeaderA, finsLeaderB], { scaleY: 0, opacity: 0 });
+
+      // 0.0s - 0.5s: eyebrow settles
+      tl.to(eyebrow, { opacity: 0.8, y: 0, duration: 0.5, ease: "power2.out" }, 0.1);
+
+      // 0.2s - 1.3s: silhouette draws on, matching "It has no scales" opening beat
+      tl.to(bodyPath, { strokeDashoffset: 0, duration: 1.1, ease: "power1.inOut" }, 0.2);
+
+      // 1.3s - 1.9s: NO SCALES callout lands as the smooth body finishes drawing
+      tl.to(scalesLeader, { scaleY: 1, opacity: 1, duration: 0.35, ease: "power2.out" }, 1.3);
+      tl.to(scales, { opacity: 0.9, y: 0, duration: 0.5, ease: "power2.out" }, 1.4);
+
+      // 2.0s - 2.6s: fin X-marks pop in, ~55% through duration, matching
+      // "no pectoral or pelvic fins" landing in the back half
+      tl.to(xPect, { opacity: 1, scale: 1, duration: 0.4, ease: "back.out(2.2)" }, 2.0);
+      tl.to(xPelv, { opacity: 1, scale: 1, duration: 0.4, ease: "back.out(2.2)" }, 2.15);
+
+      // 2.3s - 3.1s: fin callout + leaders resolve last, holding to the end
+      tl.to([finsLeaderA, finsLeaderB], { scaleY: 1, opacity: 1, duration: 0.35, ease: "power2.out" }, 2.35);
+      tl.to(fins, { opacity: 0.9, y: 0, duration: 0.5, ease: "power2.out" }, 2.5);
+
+      window.__timelines["114-beat"] = tl;
+    })();
+  </script>
+</template>

@@ -1,0 +1,166 @@
+name: Render HyperFrames video
+
+# Renders one project directory (e.g. videos/1documentary) end-to-end on a
+# free GitHub-hosted runner and uploads the finished MP4 as a workflow
+# artifact. See documentary-broll's SKILL.md "Rendering in the cloud, free"
+# section for the full design and why .media/broll and
+# .hyperframes/cinematic-assets are intentionally NOT committed (unbounded
+# per-video size — rebuilt fresh on every run instead).
+#
+# This workflow calls scripts vendored into ./ci/ (a deliberate copy, not a
+# symlink into ~/.claude/skills — see ci/README.md) so this repo is fully
+# self-contained and does not depend on a local Claude Code install's skill
+# state, which is mutable and gets silently reinstalled/reverted by
+# `npx hyperframes skills update`. Re-sync ci/ from the real skill sources
+# if those scripts change — see ci/README.md for exactly which files and why.
+#
+# Free-tier requirement: this only runs unmetered/free if this repository is
+# PUBLIC. On a private repo it consumes the account's paid Actions minutes.
+#
+# Usage: Actions tab -> "Render HyperFrames video" -> Run workflow ->
+# fill in the project path (e.g. videos/1documentary).
+
+on:
+  workflow_dispatch:
+    inputs:
+      project:
+        description: "Project directory, relative to repo root (e.g. videos/1documentary)"
+        required: true
+        type: string
+      normalize:
+        description: "Run loudness normalization on the final render"
+        required: false
+        type: boolean
+        default: true
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300 # GitHub's own hard cap is 360 (6h); leave headroom for artifact upload
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Install ffmpeg
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+
+      - name: Ensure bundled Chrome is present
+        working-directory: ${{ github.event.inputs.project }}
+        run: npx --yes hyperframes@0.8.17 browser ensure
+
+      - name: hyperframes doctor (environment sanity check)
+        working-directory: ${{ github.event.inputs.project }}
+        run: npx --yes hyperframes@0.8.17 doctor --json
+
+      - name: Rebuild broll from cached beat candidates
+        working-directory: ${{ github.event.inputs.project }}
+        env:
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+        run: |
+          node "$GITHUB_WORKSPACE/ci/documentary-broll/scripts/replay-media-choices.mjs" \
+            --project . --log .hyperframes/run-log.md
+
+      - name: Assemble index.html
+        working-directory: ${{ github.event.inputs.project }}
+        run: |
+          node "$GITHUB_WORKSPACE/ci/faceless-explainer/scripts/assemble-index.mjs" \
+            --storyboard ./STORYBOARD.md --hyperframes .
+
+      - name: Heal media-start (shared-script self-heal, see SKILL.md)
+        working-directory: ${{ github.event.inputs.project }}
+        run: |
+          node "$GITHUB_WORKSPACE/ci/documentary-broll/scripts/heal-media-start.mjs" \
+            --index ./index.html --audio-meta ./audio_meta.json --log .hyperframes/run-log.md
+
+      - name: Inject transitions (documentary-broll's vendored registry, incl. whip-pan)
+        working-directory: ${{ github.event.inputs.project }}
+        run: |
+          node "$GITHUB_WORKSPACE/ci/faceless-explainer/scripts/transitions.mjs" inject \
+            --storyboard ./STORYBOARD.md --hyperframes . \
+            --registry "$GITHUB_WORKSPACE/ci/documentary-broll/scripts/lib/transitions.json"
+          node "$GITHUB_WORKSPACE/ci/faceless-explainer/scripts/transitions.mjs" verify \
+            --storyboard ./STORYBOARD.md --index ./index.html
+
+      - name: Regenerate always-on cinematic layers (ambience + grain)
+        working-directory: ${{ github.event.inputs.project }}
+        # DURATION comes from index.html's own root data-duration, NOT
+        # beats.json's totalDuration — confirmed via a real render that
+        # these differ (transitions overlap adjacent clips, shortening the
+        # real assembled timeline vs. the raw narration-only total). See
+        # SKILL.md's "Always-on cinematic layers" section for the real
+        # numbers this was caught on.
+        run: |
+          DURATION=$(node -e "
+            const html = require('fs').readFileSync('index.html', 'utf8');
+            const m = html.match(/data-composition-id=\"main\"[\s\S]*?data-duration=\"([\d.]+)\"/);
+            if (!m) { console.error('could not find root data-duration in index.html'); process.exit(1); }
+            console.log(m[1]);
+          ")
+          node "$GITHUB_WORKSPACE/ci/documentary-broll/scripts/gen-cinematic-assets.mjs" \
+            --out-dir .hyperframes/cinematic-assets --duration "$DURATION"
+          node "$GITHUB_WORKSPACE/ci/documentary-broll/scripts/inject-cinematic-layers.mjs" \
+            --index ./index.html \
+            --ambience .hyperframes/cinematic-assets/ambience-bed.mp3 \
+            --grain .hyperframes/cinematic-assets/grain-overlay.mp4 \
+            --duration "$DURATION" --log .hyperframes/run-log.md
+
+      - name: hyperframes check (lint gate)
+        working-directory: ${{ github.event.inputs.project }}
+        run: npx --yes hyperframes@0.8.17 check
+
+      - name: Render
+        working-directory: ${{ github.event.inputs.project }}
+        # No --docker here on purpose: that mode builds/runs the bundled
+        # Dockerfile.render image (real first-run build overhead) and exists
+        # for byte-identical output across DIFFERENT, uncontrolled host
+        # machines. Every render here already runs on the same standardized
+        # GitHub ubuntu-latest image, so the reproducibility --docker buys
+        # has no payoff and only costs time — plain `render` (confirmed
+        # working locally throughout this project's own dev/test renders)
+        # is faster and just as correct in this one-consistent-host setup.
+        # --no-browser-gpu matches a GPU-less CI runner (this is --docker's
+        # own default, kept explicit here since --docker itself is skipped).
+        #
+        # --workers 3 is a deliberate, tested cap, not the default `auto`.
+        # A real local test on an 8-core/15GB machine with `--workers auto`
+        # on this same 151-beat/105-video-source project FAILED —
+        # VIDEO_SOURCE_UNRENDERABLE, 10 ffmpeg_failed + 6 ffmpeg_timeout —
+        # from too many concurrent Chrome+ffmpeg frame-extraction workers
+        # competing for CPU/disk at once. GitHub's ubuntu-latest runner has
+        # only 4 vCPU (half that machine), so `auto` would very likely hit
+        # the same failure there. `--workers 3` leaves the extraction
+        # pipeline enough headroom per worker to not time out. If a real run
+        # still fails with VIDEO_SOURCE_UNRENDERABLE, lower this further
+        # (e.g. 2) before assuming something else is wrong.
+        run: |
+          mkdir -p renders
+          npx --yes hyperframes@0.8.17 render --skill=documentary-broll --no-browser-gpu --workers 3 --quality high --output renders/video.mp4
+
+      - name: Normalize loudness
+        if: ${{ github.event.inputs.normalize == 'true' }}
+        working-directory: ${{ github.event.inputs.project }}
+        run: |
+          node "$GITHUB_WORKSPACE/ci/documentary-broll/scripts/normalize-mix.mjs" \
+            --in renders/video.mp4 --out renders/video.mp4 --log .hyperframes/run-log.md
+
+      - name: Compute a slash-free artifact name
+        id: artifact_name
+        run: echo "slug=$(echo '${{ github.event.inputs.project }}' | tr '/' '-')" >> "$GITHUB_OUTPUT"
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: video-${{ steps.artifact_name.outputs.slug }}-${{ github.run_number }}
+          path: ${{ github.event.inputs.project }}/renders/video.mp4
+          retention-days: 14
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: run-log-${{ steps.artifact_name.outputs.slug }}-${{ github.run_number }}
+          path: ${{ github.event.inputs.project }}/.hyperframes/run-log.md
+          retention-days: 14
+          if-no-files-found: ignore

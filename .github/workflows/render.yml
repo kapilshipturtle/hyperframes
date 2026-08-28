@@ -17,8 +17,17 @@ name: Render HyperFrames video
 # Free-tier requirement: this only runs unmetered/free if this repository is
 # PUBLIC. On a private repo it consumes the account's paid Actions minutes.
 #
-# Usage: Actions tab -> "Render HyperFrames video" -> Run workflow ->
-# fill in the project path (e.g. videos/1documentary).
+# Two ways to trigger:
+#   1. Manual: Actions tab -> "Render HyperFrames video" -> Run workflow ->
+#      fill in the project path (e.g. videos/1documentary).
+#   2. Automatic: push a commit that adds/changes any videos/*/STORYBOARD.md.
+#      STORYBOARD.md is the trigger file on purpose, not any file under
+#      videos/ — it's the one file that only exists once a project has real,
+#      complete per-beat data (frames built, transitions/overlays decided),
+#      so pushing partial/WIP project state (e.g. just the audio file copied
+#      in) never fires a doomed render. The push job below derives the
+#      project path from whichever STORYBOARD.md changed and calls the same
+#      render job with it.
 
 on:
   workflow_dispatch:
@@ -32,11 +41,53 @@ on:
         required: false
         type: boolean
         default: true
+  push:
+    paths:
+      - "videos/*/STORYBOARD.md"
 
 jobs:
+  # On a push trigger, find every STORYBOARD.md that changed in this push and
+  # emit its project directory — one render job then fans out per project
+  # (handles the (rare but real) case of a push touching more than one
+  # video's STORYBOARD.md at once). On workflow_dispatch, just emit the
+  # single manually-given project. Either way "render" below only ever sees
+  # a resolved `project` value, never `github.event.inputs.project` directly.
+  resolve-projects:
+    runs-on: ubuntu-latest
+    outputs:
+      projects: ${{ steps.resolve.outputs.projects }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2 # need the previous commit to diff against on push
+
+      - id: resolve
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "projects=[\"${{ github.event.inputs.project }}\"]" >> "$GITHUB_OUTPUT"
+          else
+            # --diff-filter=AM: only an ADDED or MODIFIED STORYBOARD.md
+            # triggers a render — a DELETED one (a project being removed)
+            # must never fan out into a render job for a path that no
+            # longer exists.
+            CHANGED=$(git diff --name-only --diff-filter=AM HEAD^ HEAD -- 'videos/*/STORYBOARD.md')
+            if [ -z "$CHANGED" ]; then
+              echo "projects=[]" >> "$GITHUB_OUTPUT"
+            else
+              PROJECTS=$(echo "$CHANGED" | sed -E 's#^(videos/[^/]+)/STORYBOARD\.md$#\1#' | sort -u | jq -R . | jq -sc .)
+              echo "projects=$PROJECTS" >> "$GITHUB_OUTPUT"
+            fi
+          fi
+
   render:
+    needs: resolve-projects
+    if: needs.resolve-projects.outputs.projects != '[]'
     runs-on: ubuntu-latest
     timeout-minutes: 300 # GitHub's own hard cap is 360 (6h); leave headroom for artifact upload
+    strategy:
+      fail-fast: false
+      matrix:
+        project: ${{ fromJson(needs.resolve-projects.outputs.projects) }}
     steps:
       - uses: actions/checkout@v4
 
@@ -48,15 +99,15 @@ jobs:
         run: sudo apt-get update && sudo apt-get install -y ffmpeg
 
       - name: Ensure bundled Chrome is present
-        working-directory: ${{ github.event.inputs.project }}
+        working-directory: ${{ matrix.project }}
         run: npx --yes hyperframes@0.8.17 browser ensure
 
       - name: hyperframes doctor (environment sanity check)
-        working-directory: ${{ github.event.inputs.project }}
+        working-directory: ${{ matrix.project }}
         run: npx --yes hyperframes@0.8.17 doctor --json
 
       - name: Rebuild broll from cached beat candidates
-        working-directory: ${{ github.event.inputs.project }}
+        working-directory: ${{ matrix.project }}
         env:
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
           PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
@@ -65,19 +116,19 @@ jobs:
             --project . --log .hyperframes/run-log.md
 
       - name: Assemble index.html
-        working-directory: ${{ github.event.inputs.project }}
+        working-directory: ${{ matrix.project }}
         run: |
           node "$GITHUB_WORKSPACE/ci/faceless-explainer/scripts/assemble-index.mjs" \
             --storyboard ./STORYBOARD.md --hyperframes .
 
       - name: Heal media-start (shared-script self-heal, see SKILL.md)
-        working-directory: ${{ github.event.inputs.project }}
+        working-directory: ${{ matrix.project }}
         run: |
           node "$GITHUB_WORKSPACE/ci/documentary-broll/scripts/heal-media-start.mjs" \
             --index ./index.html --audio-meta ./audio_meta.json --log .hyperframes/run-log.md
 
       - name: Inject transitions (documentary-broll's vendored registry, incl. whip-pan)
-        working-directory: ${{ github.event.inputs.project }}
+        working-directory: ${{ matrix.project }}
         run: |
           node "$GITHUB_WORKSPACE/ci/faceless-explainer/scripts/transitions.mjs" inject \
             --storyboard ./STORYBOARD.md --hyperframes . \
@@ -86,7 +137,7 @@ jobs:
             --storyboard ./STORYBOARD.md --index ./index.html
 
       - name: Regenerate always-on cinematic layers (ambience + grain)
-        working-directory: ${{ github.event.inputs.project }}
+        working-directory: ${{ matrix.project }}
         # DURATION comes from index.html's own root data-duration, NOT
         # beats.json's totalDuration — confirmed via a real render that
         # these differ (transitions overlap adjacent clips, shortening the
@@ -109,11 +160,11 @@ jobs:
             --duration "$DURATION" --log .hyperframes/run-log.md
 
       - name: hyperframes check (lint gate)
-        working-directory: ${{ github.event.inputs.project }}
+        working-directory: ${{ matrix.project }}
         run: npx --yes hyperframes@0.8.17 check
 
       - name: Render
-        working-directory: ${{ github.event.inputs.project }}
+        working-directory: ${{ matrix.project }}
         # No --docker here on purpose: that mode builds/runs the bundled
         # Dockerfile.render image (real first-run build overhead) and exists
         # for byte-identical output across DIFFERENT, uncontrolled host
@@ -141,26 +192,32 @@ jobs:
           npx --yes hyperframes@0.8.17 render --skill=documentary-broll --no-browser-gpu --workers 3 --quality high --output renders/video.mp4
 
       - name: Normalize loudness
-        if: ${{ github.event.inputs.normalize == 'true' }}
-        working-directory: ${{ github.event.inputs.project }}
+        # On workflow_dispatch, respect the explicit input. On push (no
+        # `inputs` exist at all on that event — github.event.inputs.normalize
+        # is empty, not "false"), default ON, matching documentary-broll's
+        # own run-shape default ("Recommended: on" — see SKILL.md). Caught
+        # as a real bug: the naive `== 'true'` check silently skipped
+        # normalization on every auto-triggered push render.
+        if: ${{ github.event_name != 'workflow_dispatch' || github.event.inputs.normalize == 'true' }}
+        working-directory: ${{ matrix.project }}
         run: |
           node "$GITHUB_WORKSPACE/ci/documentary-broll/scripts/normalize-mix.mjs" \
             --in renders/video.mp4 --out renders/video.mp4 --log .hyperframes/run-log.md
 
       - name: Compute a slash-free artifact name
         id: artifact_name
-        run: echo "slug=$(echo '${{ github.event.inputs.project }}' | tr '/' '-')" >> "$GITHUB_OUTPUT"
+        run: echo "slug=$(echo '${{ matrix.project }}' | tr '/' '-')" >> "$GITHUB_OUTPUT"
 
       - uses: actions/upload-artifact@v4
         with:
           name: video-${{ steps.artifact_name.outputs.slug }}-${{ github.run_number }}
-          path: ${{ github.event.inputs.project }}/renders/video.mp4
+          path: ${{ matrix.project }}/renders/video.mp4
           retention-days: 14
 
       - uses: actions/upload-artifact@v4
         if: always()
         with:
           name: run-log-${{ steps.artifact_name.outputs.slug }}-${{ github.run_number }}
-          path: ${{ github.event.inputs.project }}/.hyperframes/run-log.md
+          path: ${{ matrix.project }}/.hyperframes/run-log.md
           retention-days: 14
           if-no-files-found: ignore

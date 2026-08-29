@@ -41,6 +41,26 @@ export const GRADE_PRESETS = {
   cool: "eq=contrast=1.04:saturation=0.98,colorbalance=rm=-0.04:gm=0.0:bm=0.05",
   desaturated: "eq=contrast=1.06:saturation=0.82:brightness=-0.01",
   neutral: "eq=contrast=1.03:saturation=1.0",
+  // craft-upgrade K3: two new presets, same restrained "~60% LUT strength"
+  // moderation as the original four — small nudges, never a heavy creative
+  // swing.
+  //
+  // verdant — a lean toward green/growth, distinct from `warm` (amber/gold,
+  // a human-interest lean, not a landscape one) and `cool` (blue, clinical/
+  // analytical). Real documentary convention for nature/ecological/
+  // environmental subject matter — a wetland, forest, or agricultural film's
+  // footage already skews green; this leans into that rather than fighting
+  // it with a neutral or warm grade that would read as correcting the
+  // footage's own genuine color, not stylizing it.
+  verdant: "eq=contrast=1.03:saturation=1.05,colorbalance=gm=0.05:gs=0.03:bs=-0.02",
+  // bleached — stark, high-key, pulled toward white, DISTINCT from
+  // `desaturated` (which pulls back saturation AND darkens slightly, for a
+  // somber/weighty register). `bleached` pulls saturation back too but lifts
+  // brightness/contrast instead of dropping them — the real documentary
+  // convention for exposé/investigative/clinical-institutional content
+  // (courtroom footage, official records, a "cold hard facts" register) —
+  // reads as stark and exposed, not somber and dim.
+  bleached: "eq=contrast=1.1:saturation=0.7:brightness=0.03",
 };
 
 function run(cmd, args) {
@@ -232,7 +252,7 @@ async function main() {
   const grade = flag(argv, "grade", null);
 
   if (!candidatePath || !beatId) {
-    console.error("Usage: download-clip.mjs --candidate <path> --beat-id <id> --duration N --project <dir> [--grade warm|cool|desaturated|neutral] [--log <path>]");
+    console.error("Usage: download-clip.mjs --candidate <path> --beat-id <id> --duration N --project <dir> [--grade warm|cool|desaturated|neutral|verdant|bleached] [--log <path>]");
     process.exit(1);
   }
 

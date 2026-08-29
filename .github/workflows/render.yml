@@ -225,10 +225,8 @@ jobs:
 
       - name: Render
         working-directory: ${{ matrix.project }}
-        # Flags below (--no-browser-gpu --workers 1 --browser-timeout 180
-        # --protocol-timeout 900000) are the settled end state of a real
-        # debugging chain — worth knowing why each exists before touching
-        # them again:
+        # Flags below are the settled end state of a real debugging chain —
+        # worth knowing why each exists before touching them again:
         #   1. --workers auto  -> VIDEO_SOURCE_UNRENDERABLE (10+6 failures) —
         #      looked like CPU contention between Chrome + concurrent ffmpeg.
         #   2. --workers 3, no --docker -> VIDEO_EXTRACTION_FAILED (53 timeouts)
@@ -247,25 +245,41 @@ jobs:
         #   6. The 35 remaining timeouts lined up with the extraction stage's
         #      own elapsedMs exceeding the 300000ms/5min default
         #      --protocol-timeout — raised to 900000 (15 min).
-        #   7. Re-ran with both fixes live, THREE more times on the exact
-        #      same cached/fixed broll files: failure counts came back 1,
-        #      then 33, then (see retry loop below) — genuinely inconsistent
-        #      run to run on identical inputs. This is GitHub's shared
-        #      runner having variable CPU/disk throughput between runs, not
-        #      a deterministic bug left in our code — the render tool's own
-        #      failure payload already says `"retryable": true` for exactly
-        #      this reason. Trying to tune this away with more flags was the
-        #      wrong instinct; retrying the render itself is the correct fix
-        #      for genuine infra variance.
+        #   7. --workers 1 was kept through all of the above because more
+        #      workers caused VIDEO_EXTRACTION_FAILED BEFORE the sparse-
+        #      keyframe fix landed — concurrent ffmpeg seeks choking on
+        #      already-slow sparse-GOP files looked like contention. That
+        #      root cause is fixed now (step 5), so the reasoning for
+        #      --workers 1 no longer holds.
+        #   8. Separately, a real full-project CI run showed the actual
+        #      dominant slowness was NOT the grain overlay (--no-grain below
+        #      is still a real, smaller win) but one Pexels source clip
+        #      carrying stray BT.2020/HLG container color tags that ffmpeg
+        #      passed through on re-encode uncorrected. hyperframes render
+        #      trusts that container tag at probe time, not the actual pixel
+        #      data (already 8-bit yuv420p) — one mistagged clip flipped
+        #      nativeHdrVideoCount>0 for the WHOLE composition and forced
+        #      every frame onto the ~2.4s/frame HDR layered-composite path
+        #      (confirmed via log: effectiveHdr:hlg, ~18h projected). Fixed
+        #      in download-clip.mjs by stamping -color_primaries/-color_trc/
+        #      -colorspace bt709 on every re-encode, verified locally against
+        #      a synthetic HDR-tagged source.
+        #   9. With both real bottlenecks (sparse keyframes, stray HDR tags)
+        #      fixed, --workers 4 is being re-tried (matches GitHub-hosted
+        #      runners' 4 cores) — needed for future 30-min daily videos
+        #      (~2x this project's frame count) to have any realistic chance
+        #      of finishing inside the 300-min job cap.
         #
-        # So: retry the render command itself up to 3 times. Each attempt is
-        # a fresh ffmpeg extraction pass — a run that hit a slow stretch of
-        # shared-runner I/O has a real chance of NOT hitting it again.
+        # Retry the render command itself up to 3 times regardless — GitHub's
+        # shared runner has genuine run-to-run CPU/disk throughput variance
+        # (the render tool's own failure payload says `"retryable": true`
+        # for exactly this reason), so a run that hits a slow stretch of I/O
+        # has a real chance of not hitting it again on a fresh attempt.
         run: |
           mkdir -p renders
           for attempt in 1 2 3; do
             echo "::group::Render attempt $attempt/3"
-            if npx --yes hyperframes@0.8.17 render --skill=documentary-broll --no-browser-gpu --workers 1 --browser-timeout 180 --protocol-timeout 900000 --quality high --output renders/video.mp4; then
+            if npx --yes hyperframes@0.8.17 render --skill=documentary-broll --no-browser-gpu --workers 4 --browser-timeout 180 --protocol-timeout 900000 --quality high --output renders/video.mp4; then
               echo "::endgroup::"
               echo "Render succeeded on attempt $attempt"
               exit 0

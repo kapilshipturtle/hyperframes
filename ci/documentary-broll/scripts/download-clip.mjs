@@ -143,6 +143,18 @@ async function processVideo({ chosen, beatId, targetDuration, brollDir, grade })
       "-c:v", "libx264", "-preset", "veryfast", "-crf", "18",
       "-g", "30", "-keyint_min", "30", "-sc_threshold", "0",
       "-pix_fmt", "yuv420p", "-movflags", "+faststart",
+      // Force SDR/BT.709 color tags on every re-encode. Some Pexels source
+      // clips carry BT.2020/HLG color metadata in their container; ffmpeg
+      // passes that through by default even though -pix_fmt yuv420p already
+      // makes the actual samples 8-bit SDR. hyperframes render trusts the
+      // container tag at probe time, not the pixel data, so one stray-tagged
+      // clip flips nativeHdrVideoCount>0 for the WHOLE composition and forces
+      // every frame onto the ~2.4s/frame HDR layered-composite capture path
+      // (confirmed via a real CI run: nativeHdrVideoCount:1, effectiveHdr:hlg,
+      // projected ~18h total — this, not the grain overlay, was the actual
+      // bottleneck all along). Stamping bt709 here makes the tags match the
+      // real 8-bit content so probing correctly reports SDR.
+      "-color_primaries", "bt709", "-color_trc", "bt709", "-colorspace", "bt709",
       outPath,
     ]);
     console.log(`✓ download-clip: beat-${beatId} [video] looped ${loops}x (source ${sourceDuration.toFixed(1)}s < target ${targetDuration}s)${grade ? ` [grade:${grade}]` : ""} → ${outRel}`);
@@ -167,6 +179,10 @@ async function processVideo({ chosen, beatId, targetDuration, brollDir, grade })
     "-c:v", "libx264", "-preset", "veryfast", "-crf", "18",
     "-g", "30", "-keyint_min", "30", "-sc_threshold", "0",
     "-pix_fmt", "yuv420p", "-movflags", "+faststart",
+    // Force SDR/BT.709 color tags — see the matching comment on the loop
+    // branch above for why this exists (a stray HDR container tag on one
+    // source clip forces hyperframes render's whole-composition HDR path).
+    "-color_primaries", "bt709", "-color_trc", "bt709", "-colorspace", "bt709",
     outPath,
   ]);
 

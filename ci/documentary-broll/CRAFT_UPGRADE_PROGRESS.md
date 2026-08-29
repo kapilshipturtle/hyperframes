@@ -32,10 +32,10 @@ Legend: `[ ]` not started · `[~]` in progress · `[x]` done + locally verified 
 - [x] S5 Non-diegetic tension kit (drone/riser/impact/sub-drop) — documented in S2's run-shape answer text (HeyGen-resolved cue names, max 2-4/film, separate from routine overlay cues)
 - [x] S6 apply-audio-holds.mjs — generic V-shaped volume-dip script (works on any audio file, any timestamps, JSON-driven), tested on a plain synthetic track (not project-specific), verified real dip+restore behavior via volumedetect + overlap-rejection error path
 - [x] S7 Keyframed BGM duck — new build-bgm-duck.mjs, generic (reads any beats.json, works on any BGM file), lifts in real inter-beat gaps derived free from existing timing data. Found+fixed 2 real bugs (ffmpeg volume-filter chains are multiplicative not override; MP3-concat-into-single-encode produced silence gaps, fixed via WAV intermediate) plus caught my own -ss-before-i measurement methodology bug (imprecise seek gave false-negative readings) along the way. Verified correct with accurate post-input seeking, error-path and no-gap-fallback tested.
-- [ ] S8 Document stem model in audio-mix.md
-- [ ] S9 Sound-perspective ±3dB nudge by shot size
-- [ ] S10 Ambience-bed library expansion (nature/wetland set)
-- [ ] S11 Reverb/space differentiation interior/exterior
+- [x] S8 Document stem model in audio-mix.md — full 5-stem table (VO/ambience/foley/music/graphic-cues) with real levels, cross-referenced to the new S1/S6/S7 scripts
+- [x] S9 Sound-perspective ±3dB nudge by shot size — documented with explicit dependency note (needs E4's shot-size classification, not yet built); honestly marked as designed-not-wired rather than falsely complete
+- [x] S10 Ambience-bed library expansion — done via S1's 7 procedural recipes (water/forest/wind-open/wetland-night/urban-machinery/interior/neutral), real spectral distinction verified
+- [x] S11 Reverb/space differentiation interior/exterior — new apply-space-reverb.mjs (interior/exterior/open via ffmpeg aecho), verified via real duration-extension measurement (echo tail confirmed present and genuinely different per space)
 - [ ] S12 Log ambience/foley/tension cues in run log
 
 ## Motion graphics / data-viz

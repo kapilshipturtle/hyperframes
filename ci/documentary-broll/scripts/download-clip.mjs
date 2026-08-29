@@ -98,6 +98,26 @@ async function processVideo({ chosen, beatId, targetDuration, brollDir, grade })
     await download(chosen.downloadUrl, rawPath);
   }
 
+  // THE actual root cause behind 3 failed "fix the render step" attempts in
+  // CI (VIDEO_SOURCE_UNRENDERABLE at --workers auto, VIDEO_EXTRACTION_FAILED
+  // at --workers 3/2 with --docker, VIDEO_EXTRACTION_FAILED again at
+  // --workers 1 with no --docker) turned out to be HERE, not in render's own
+  // concurrency flags — every one of those attempts was chasing a symptom.
+  // Neither ffmpeg call below originally set -g/-keyint_min, so libx264's
+  // default GOP sizing (often several seconds between keyframes with
+  // -preset veryfast on short/simple stock clips) produced exactly what
+  // hyperframes render's OWN compiler warning describes on ~half this
+  // project's 105 video sources: "sparse keyframes... causes seek failures
+  // and frame freezing" — with the exact fix command spelled out in that
+  // warning. Frame-accurate seeking during extraction has to decode forward
+  // from the nearest PRIOR keyframe; a sparse GOP makes that decode step
+  // slow enough to trip ffmpeg's own extraction timeout, independent of how
+  // many workers are running or whether it's inside a container — which is
+  // exactly why lowering --workers and adding --docker never fixed it.
+  // -g 30 -keyint_min 30 -sc_threshold 0 forces a keyframe every 30 frames
+  // (1s at 30fps) with no scene-cut-triggered deviation, so every seek
+  // target is at most ~1s from its nearest keyframe.
+
   // Probe actual source duration — trust ffprobe over the API's reported value.
   const probeOut = run("ffprobe", [
     "-v", "error",
@@ -121,7 +141,8 @@ async function processVideo({ chosen, beatId, targetDuration, brollDir, grade })
       "-an", // strip source audio — narration/BGM own the audio track
       "-vf", `scale=1920:1080:force_original_aspect_ratio=increase,crop=1920:1080${gradeFilter}`,
       "-c:v", "libx264", "-preset", "veryfast", "-crf", "18",
-      "-pix_fmt", "yuv420p",
+      "-g", "30", "-keyint_min", "30", "-sc_threshold", "0",
+      "-pix_fmt", "yuv420p", "-movflags", "+faststart",
       outPath,
     ]);
     console.log(`✓ download-clip: beat-${beatId} [video] looped ${loops}x (source ${sourceDuration.toFixed(1)}s < target ${targetDuration}s)${grade ? ` [grade:${grade}]` : ""} → ${outRel}`);
@@ -144,7 +165,8 @@ async function processVideo({ chosen, beatId, targetDuration, brollDir, grade })
     "-an",
     "-vf", `scale=1920:1080:force_original_aspect_ratio=increase,crop=1920:1080${gradeFilter}`,
     "-c:v", "libx264", "-preset", "veryfast", "-crf", "18",
-    "-pix_fmt", "yuv420p",
+    "-g", "30", "-keyint_min", "30", "-sc_threshold", "0",
+    "-pix_fmt", "yuv420p", "-movflags", "+faststart",
     outPath,
   ]);
 

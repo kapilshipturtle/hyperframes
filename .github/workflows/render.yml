@@ -123,7 +123,16 @@ jobs:
         uses: actions/cache@v5
         with:
           path: ${{ matrix.project }}/.media/broll
-          key: broll-${{ matrix.project }}-${{ hashFiles(format('{0}/.hyperframes/broll/*.json', matrix.project), format('{0}/.hyperframes/media-choices.json', matrix.project)) }}
+          # v2: bumped after a real cache-staleness bug — download-clip.mjs's
+          # own ffmpeg encode settings changed (added -g/-keyint_min to fix
+          # the actual root cause behind 3 failed render attempts, see that
+          # script's own comment), but the cache key was only ever a hash of
+          # the beat-CHOICE json files, never anything encode-setting-
+          # related, so a prior cache hit would have kept silently serving
+          # the OLD sparse-keyframe .mp4 files with no way to detect the fix
+          # had shipped. Bump this prefix again in the same way for any
+          # future change to download-clip.mjs's own ffmpeg args.
+          key: broll-v2-${{ matrix.project }}-${{ hashFiles(format('{0}/.hyperframes/broll/*.json', matrix.project), format('{0}/.hyperframes/media-choices.json', matrix.project)) }}
 
       - name: Rebuild broll from cached beat candidates
         working-directory: ${{ matrix.project }}

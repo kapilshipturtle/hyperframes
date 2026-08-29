@@ -57,7 +57,7 @@ jobs:
     outputs:
       projects: ${{ steps.resolve.outputs.projects }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           fetch-depth: 2 # need the previous commit to diff against on push
 
@@ -89,9 +89,9 @@ jobs:
       matrix:
         project: ${{ fromJson(needs.resolve-projects.outputs.projects) }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v7
         with:
           node-version: "22"
 
@@ -120,7 +120,7 @@ jobs:
       # a retry. A genuine content change (a different chosen clip) changes
       # the hash and correctly invalidates the cache.
       - name: Cache .media/broll (skip re-download on a same-commit retry)
-        uses: actions/cache@v4
+        uses: actions/cache@v5
         with:
           path: ${{ matrix.project }}/.media/broll
           key: broll-${{ matrix.project }}-${{ hashFiles(format('{0}/.hyperframes/broll/*.json', matrix.project), format('{0}/.hyperframes/media-choices.json', matrix.project)) }}
@@ -217,6 +217,16 @@ jobs:
         # switching modes) — --no-browser-gpu is --docker's own default, no
         # longer needs to be passed explicitly.
         #
+        # Known cost, not yet addressed: --docker builds the bundled
+        # Dockerfile.render image fresh on EVERY run — no layer caching,
+        # since `render --docker` builds the image internally rather than
+        # via a separate docker/build-push-action step we could attach
+        # cache-from/cache-to to. Real added minutes on every run, not just
+        # the first. Left as-is deliberately: correctness (the render
+        # actually succeeding) took priority over shaving build time once
+        # it works; revisit if the image-build overhead becomes the
+        # dominant cost once renders are reliably passing.
+        #
         # --workers 2, lowered from 3 (itself already lowered from the
         # `auto` default that failed differently, see the earlier
         # VIDEO_SOURCE_UNRENDERABLE incident this project also hit) — CPU
@@ -250,13 +260,13 @@ jobs:
         id: artifact_name
         run: echo "slug=$(echo '${{ matrix.project }}' | tr '/' '-')" >> "$GITHUB_OUTPUT"
 
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         with:
           name: video-${{ steps.artifact_name.outputs.slug }}-${{ github.run_number }}
           path: ${{ matrix.project }}/renders/video.mp4
           retention-days: 14
 
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         if: always()
         with:
           name: run-log-${{ steps.artifact_name.outputs.slug }}-${{ github.run_number }}

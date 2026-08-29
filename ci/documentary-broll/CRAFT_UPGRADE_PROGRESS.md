@@ -84,14 +84,14 @@ Legend: `[ ]` not started · `[~]` in progress · `[x]` done + locally verified 
 - [x] C9 Motivated-Ken-Burns direction self-check — new 7th Step-5 self-check: tallies how many photo beats passed --kenburns-focus vs. skipped it, flags "skipped most/all" as the same shortcut-under-pressure failure mode the invented-scene/stat-callout checks already catch. "6 checks" cross-reference updated to "7 checks".
 
 ## Typography
-- [ ] T1 `title-sequence` archetype
-- [ ] T2 `location-stamp` archetype
-- [ ] T3 `end-card` archetype
-- [ ] T4 Film-level type system (2 faces, size ladder)
-- [ ] T5 `section-divider` archetype
-- [ ] T6 Lower-third re-introduction rule
-- [ ] T7 Per-word weighting in key-phrase
-- [ ] T8 Ask for film title/subtitle in run-shape questions
+- [x] T1 `title-sequence` archetype — new, real, tested: film's own opening title + optional subtitle, one-time-only (beat 01), distinct from chapter-title's mid-film reusable role. Validation throw on missing title, optional-subtitle omission both tested.
+- [x] T2 `location-stamp` archetype — new, real, tested: plain bottom-left place+date corner stamp, distinct from map-tag's pin+place convention. Validation throw on missing place, optional-date omission both tested.
+- [x] T3 `end-card` archetype — new, real, tested: closing line + optional CTA, deliberately NO exit fade (holds to the video's actual end, unlike every other archetype). Validation throw on missing text tested.
+- [x] T4 Film-level type system (2 faces, size ladder) — audited every archetype's real CSS (not assumed): confirmed Inter is used everywhere for body text with exactly 2 deliberate exceptions (a monospace stack for typewriter/surveillance-stamp, one decorative Georgia glyph on quote-card's quote-mark only). New "Film-level type system" section in overlays.md documents this + a calibration-anchor size guide — caught and fixed 3 real citation errors during writing (verified every cited px value against actual grep output before publishing, not from memory) rather than shipping an inaccurate table. Also fixed a real, if minor, pre-existing inconsistency: surveillance-stamp's font stack upgraded to match typewriter's (added JetBrains Mono/SF Mono ahead of the existing Courier New fallback — additive only, no regression on any system).
+- [x] T5 `section-divider` — ALREADY EXISTED pre-this-pass as `chapter-title` (full-bleed kicker+title+rule card, reusable per section) — verified it already covers this item's real intent, no new archetype needed.
+- [x] T6 Lower-third re-introduction rule — new picking-guide paragraph next to name-title-caption's entry: don't re-show the same subject's identical name+role card in quick succession, real broadcast convention.
+- [x] T7 Per-word weighting in key-phrase — new optional `emphasisWord` param (index or literal word text, case-insensitive, punctuation-tolerant), real CSS size bump + a restrained badge-pop-style overshoot pulse timed to the word's own landing. Tested: no-param baseline byte-unaffected, index resolution, literal-word resolution, case-insensitivity, trailing-punctuation tolerance, and both error paths (out-of-range index, no-match word) — all real invocations, not code review alone.
+- [x] T8 Ask for film title/subtitle in run-shape questions — new run-shape question (title-sequence/end-card content, asked once up front, never invented without floating for approval); also fixed a real, separate stale-documentation gap found while editing this area: the transition-style run-shape menu never mentioned mixed-cuts/hard-cut/dip-to-black from this pass's earlier Editing Rhythm work — now current. Also fixed 3 more stale "38/35 archetype" count references across SKILL.md/build-frame.mjs found during this same sweep (real count is 57).
 
 ## Color
 - [ ] K1 Per-clip technical normalization (signalstats)

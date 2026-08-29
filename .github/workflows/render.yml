@@ -239,9 +239,22 @@ jobs:
         # software-rendered Chrome painting this composition slower than a
         # real GPU machine; the same reasoning applies to render's own
         # browser navigation.
+        #
+        # --protocol-timeout 900000 (15 min, up from the 300000ms/5min
+        # default) — real signal from the sparse-keyframe fix's own first
+        # run: 35 (down from 54) sources still hit ffmpeg_timeout, but the
+        # WHOLE extraction stage's own elapsedMs (358414) had already run
+        # PAST the 300000ms default protocol timeout by the time it failed —
+        # a real, plausible mechanism (extraction stage total time exceeding
+        # the CDP protocol budget), not yet proven but directly testable and
+        # a legitimate documented lever, unlike the abandoned --workers/
+        # --docker guesses. If this run still fails at ffmpeg_timeout with
+        # extraction elapsedMs safely UNDER the new budget, this was not the
+        # (or not the only) remaining cause — don't keep raising this blindly
+        # past one more test.
         run: |
           mkdir -p renders
-          npx --yes hyperframes@0.8.17 render --skill=documentary-broll --no-browser-gpu --workers 1 --browser-timeout 180 --quality high --output renders/video.mp4
+          npx --yes hyperframes@0.8.17 render --skill=documentary-broll --no-browser-gpu --workers 1 --browser-timeout 180 --protocol-timeout 900000 --quality high --output renders/video.mp4
 
       - name: Normalize loudness
         # On workflow_dispatch, respect the explicit input. On push (no

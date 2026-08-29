@@ -42,8 +42,8 @@ Legend: `[ ]` not started · `[~]` in progress · `[x]` done + locally verified 
 - [x] M1 `area-shrink` archetype (subject-agnostic block-shrink, sqrt-area-correct scaling verified at 50%/100%/0%, error path tested)
 - [x] M2 `line-chart-reveal` archetype (traveling dot + leg tweens verified, error paths tested)
 - [x] M3 `scale-compare` archetype (sqrt-area ratio math verified exact, negative-value error path tested)
-- [ ] M4 `proportion-block` archetype
-- [ ] M5 `annotation-draw` archetype
+- [x] M4 `proportion-block` archetype (100-dot grid, filled-count verified exact at pct=47, error path tested)
+- [x] M5 `annotation-draw` archetype (circle/arrow/underline, deterministic seeded wobble, found+fixed same coordinate-space bug class as map-flow before shipping, all 3 shapes + error path tested)
 - [ ] M6 `callout-leader` archetype
 - [ ] M7 `cross-section` archetype
 - [ ] M8 `species-card` archetype

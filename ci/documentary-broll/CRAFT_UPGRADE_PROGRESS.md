@@ -12,17 +12,17 @@ Legend: `[ ]` not started · `[~]` in progress · `[x]` done + locally verified 
 ## Map / geography
 - [x] G1 `scripts/lib/geo/` — TopoJSON (world + US atlas) + inline projection helper (real data, 3 self-tests passing: topojson-lite.mjs, projection.mjs, geo-data.mjs)
 - [x] G2 `map-region-fill` archetype (real Florida geometry tested, throws on bad region name, registered in ARCHETYPES + DEFAULT_OVERLAY_SFX)
-- [ ] G3 `map-locate` archetype
-- [ ] G4 `map-timelapse` archetype
-- [ ] G5 Per-video geo spine (shared projection/basemap/palette)
-- [ ] G6 `map-zoom-chain` archetype
-- [ ] G7 `map-flow` archetype
-- [ ] G8 Upgrade `geo-route-map` to real lat/lon + Bezier + hold-and-label
-- [ ] G9 `satellite-wipe` archetype
-- [ ] G10 Basemap style tokens
-- [ ] G11 New Pass-1 hook signals (spatial-extent, geo-change)
-- [ ] G12 Map-consistency self-check (Step 5)
-- [ ] G13 Pulsing-marker/symbol-scaling shared primitives
+- [x] G3 `map-locate` archetype (real Everglades/Florida test + full-US fallback test + bad-coords error test all passing)
+- [x] G4 `map-timelapse` archetype (4-step Florida test passing, error-path tested)
+- [x] G5 Per-video geo spine (shared projection/basemap/palette) — documented in overlays.md as a Step-3 discipline, picking-guide triggers updated for map-locate/map-region-fill/map-timelapse
+- [x] G6 `map-zoom-chain` archetype (real viewBox-tween zoom, found+fixed a real 411KB->122KB size issue via basemap decimation, verified zoom-box math unchanged after the fix)
+- [x] G7 `map-flow` archetype (found+fixed a real coordinate-space/angle-math bug during dev, verified straight-line angle math correct: vertical line -> 90deg)
+- [x] G8 Upgrade `geo-route-map` to real lat/lon + Bezier + hold-and-label (backward-compat with old x/y verified unbroken, real Everglades journey test confirms correct N/S ordering)
+- [x] G9 `satellite-wipe` archetype (same slot-based convention as comparison-wipe, verified; reference.md fully updated for G6/G7/G9 too, was missed earlier — now caught up)
+- [x] G10 Basemap style tokens (BASEMAP_STYLE constant, verified shared across map-region-fill/map-locate/map-zoom-chain via resolved CSS output check)
+- [x] G11 New Pass-1 hook signals (spatial-extent, geo-change) — SKILL.md hook table updated, date-or-place candidate list extended
+- [x] G12 Map-consistency self-check (Step 5) — 5th self-check added, fence-balance verified even (54)
+- [x] G13 Pulsing-marker/symbol-scaling shared primitives (pulseMarkerCSS/pulseMarkerJS/symbolScale, wired into map-locate, verified byte-for-byte identical timing to pre-refactor)
 
 ## Sound design
 - [ ] S1 Scene-aware ambience beds (sceneClass, crossfaded, always on)

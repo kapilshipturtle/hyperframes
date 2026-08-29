@@ -65,6 +65,30 @@
       ]
     },
     {
+      "name": "hard-cut",
+      "energy": "any",
+      "default_duration_s": 0.0,
+      "directions": [],
+      "source": "documentary-broll (craft-upgrade E3 — every entry in this registry before this one was a blend/dissolve; real documentaries are MOSTLY straight cuts, confirmed via the craft-upgrade research's NLE-parity comparison against DaVinci/CapCut/Premiere, all of which treat a plain cut as the DEFAULT boundary type, dissolves as the deliberate exception)",
+      "note": "A true instantaneous cut — the outgoing frame's opacity drops to 0 and the incoming frame's opacity jumps to 1 in the SAME instant (duration effectively 0, using the smallest non-zero GSAP duration the engine will still register reliably rather than a literal 0 which some tween engines treat as a no-op). Use for within-sequence shot changes inside one topic/idea (matches E1's multi-shot-beat splits) — NOT for a topic pivot, which still wants a real dissolve to signal the change. A film where every boundary is a dissolve is itself an amateur tell; this is the fix.",
+      "gsap_template": [
+        "tl.set(__OLD__, { opacity: 0 }, __T__);",
+        "tl.set(__NEW__, { opacity: 1 }, __T__);"
+      ]
+    },
+    {
+      "name": "dip-to-black",
+      "energy": "any",
+      "default_duration_s": 0.9,
+      "directions": [],
+      "source": "documentary-broll (craft-upgrade P1b — a real documentary device, not a flashy one: dip-to-black at act breaks. Every professional NLE — Resolve, Premiere — ships a dip-to-color family; this registry had none)",
+      "note": "IMPORTANT SCOPE NOTE (found during this pass's own development, not assumed): the shared injector (faceless-explainer/scripts/transitions.mjs) only substitutes a FIXED token set (__OLD__/__NEW__/__T__/__DUR__/__DX__ family) and never creates new DOM elements — there is no scrim/color-layer token available, so a dip-to-ARBITRARY-color (dip-to-white, dip-to-red) is genuinely not buildable through this registry mechanism without a shared-injector code change (out of scope for this pass — see the shared script's own file, owned by faceless-explainer, reused by 4 other workflows). What IS buildable with existing tokens: dip-to-BLACK specifically, since this skill's own composition root already sits on a black canvas (`body{background:#000}` — see index.html's own boilerplate) — fading __OLD__ fully out reveals that black canvas for free, holding briefly, then fading __NEW__ in from transparent achieves a real, correct dip-to-black with zero new mechanism. Shipped as `dip-to-black` (not the more general `dip-to-color` name) so this scope limit is honest in the registry itself, not just in this comment.",
+      "gsap_template": [
+        "tl.to(__OLD__, { opacity: 0, duration: __DUR__, ease: \"power2.in\" }, __T__);",
+        "tl.fromTo(__NEW__, { opacity: 0 }, { opacity: 1, duration: __DUR__, ease: \"power2.out\" }, \">+0.15\");"
+      ]
+    },
+    {
       "name": "whip-pan",
       "energy": "high",
       "default_duration_s": 0.35,

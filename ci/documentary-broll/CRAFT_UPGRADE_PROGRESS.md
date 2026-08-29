@@ -57,16 +57,20 @@ Legend: `[ ]` not started · `[~]` in progress · `[x]` done + locally verified 
 ## Editing rhythm / cuts
 - [ ] E1 Multi-shot beats by default (`--shots` generalization)
 - [ ] E2 Step 3 fetches top-N candidates for long beats
-- [ ] E3 `hard-cut` transition (0s)
+- [x] E3 `hard-cut` transition (0s) — registered in transitions.json (verified-supported tokens only, real token-substitution test confirms zero leftover placeholders), wired into a new `mixed-cuts` --style pool via weaveHardCuts() (every-3rd-boundary stride, never touches boundary 0), sfxCueFor explicitly silences it (a whoosh would defeat a hard-cut's point). Real script invocation tests: mixed-cuts count=15 correct pattern, plain mixed/whip-pan-accent/error-path all unaffected (regression-tested).
 - [ ] E4 Shot-size classification (wide/medium/close/detail)
 - [ ] E5 Shot-size rhythm rule + Step 5 self-check
-- [ ] E6 Content-driven transition duration
+- [~] E6 Content-driven transition duration — DEFERRED: real per-beat duration needs shot-size/motion-energy data this pass doesn't have yet (see E4/C1); doing it well depends on those, doing it blindly would be a fake/cosmetic version. Revisit after E4/C1.
 - [ ] E7 `sections.json` film-level act structure
 - [ ] E8 Cut-on-motion heuristic
 - [ ] E9 Per-section pacing arc
 - [ ] E10 Rewrite J/L-cut exclusion scoping (narration only)
 - [ ] E11 Reframe cutaway guidance (failure-mode framing)
-- [ ] E12 Ban same-transition-type across 3-boundary window incl. sections
+- [x] E12 Ban same-transition-type across 3-boundary window incl. sections — pickSequence()'s no-repeat check widened from adjacent-only (lookback=1) to lookback=min(3, pool.length-1), still deterministic, still correctly degrades on single-type pools. Verified via real invocation: mixed/mixed-cuts count=15 outputs both have zero same-type repeats within any 3-wide window.
+
+## NLE-parity — done alongside E3/E12 (same file, same test pass)
+- [x] P1a hard-cut — see E3 above (this is the same item, not a separate implementation)
+- [x] P1b `dip-to-black` transition — shipped as `dip-to-black`, NOT the originally-planned generic `dip-to-color`: found+fixed a real bug before testing (an earlier draft referenced a `__DIPCOLOR__` token and a `#dip-scrim-__T__` DOM element that the real shared injector, ci/faceless-explainer/scripts/transitions.mjs's buildGsap(), does not support — confirmed by reading its actual token substitution list: only __OLD__/__NEW__/__T__/__DUR__/__DX__ family exist, no new-DOM-element mechanism at all). Rebuilt to use only real supported tokens — fades __OLD__ out to reveal the composition's own black canvas, holds, fades __NEW__ in. Verified via real resolveDur()/buildGsap() simulation: zero leftover tokens, valid GSAP lines. Honestly scoped in its own registry note: arbitrary-color dips (white/red) are NOT buildable without a shared-injector change, out of scope for this pass.
 
 ## Cinematography simulation
 - [ ] C1 Motion-energy probe per clip (static/slow/active)
@@ -98,8 +102,6 @@ Legend: `[ ]` not started · `[~]` in progress · `[x]` done + locally verified 
 - [ ] K6 Document technical/creative split
 
 ## NLE-parity additions
-- [ ] P1a hard-cut (dup of E3)
-- [ ] P1b `dip-to-color` transition
 - [ ] P1c `film-dissolve` / `additive-dissolve` variants
 - [ ] P1d `luma-wipe` transition
 - [ ] P1e `iris` transition
@@ -141,7 +143,7 @@ Legend: `[ ]` not started · `[~]` in progress · `[x]` done + locally verified 
 ## Final validation
 - [ ] All items above checked
 - [ ] Full local synthetic-composition render passes (no crashes, no lint errors)
-- [ ] Vendored ci/ copies synced and diffed clean
+- [~] Vendored ci/ copies synced and diffed clean — FIRST REAL SYNC DONE this checkpoint: confirmed render.yml only actually invokes 5 scripts + transitions.json from ci/documentary-broll/ (replay-media-choices.mjs, heal-media-start.mjs, gen-cinematic-assets.mjs, inject-cinematic-layers.mjs, normalize-mix.mjs, scripts/lib/transitions.json — everything else, incl. pick-transitions.mjs/overlays.mjs/SKILL.md/geo lib, runs locally during the editorial pass, never in CI, so correctly doesn't need vendoring). Diffed all 5 scripts + the registry: only gen-cinematic-assets.mjs (S1's scene-class recipes) and transitions.json (this checkpoint's hard-cut/dip-to-black) had drifted — both now copied over and byte-diff-confirmed clean, syntax/JSON-parse verified post-copy. Still marked [~] not [x]: this was a manual diff-and-copy pass, not yet re-verified after EVERY remaining category (E/C/T/K/NLE-parity) ships — re-diff before final merge.
 - [ ] Commit + push to craft-upgrade-pass1
 - [ ] Trigger real GitHub Actions render on 1documentary with `--workers 10`
 - [ ] Confirm real render succeeds before merging to main

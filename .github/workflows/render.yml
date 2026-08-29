@@ -200,39 +200,30 @@ jobs:
 
       - name: Render
         working-directory: ${{ matrix.project }}
-        # --docker IS used here — reversed from an earlier version of this
-        # workflow that deliberately skipped it (reasoning: no cross-host
-        # reproducibility payoff on a single standardized runner image).
-        # That reasoning covered correctness, not resource contention: a
-        # real run on this exact 151-beat/105-video-source project FAILED
-        # at --workers 3 without --docker with VIDEO_EXTRACTION_FAILED
-        # (ffmpeg_timeout=53, roughly half the video sources) — the
-        # runner's 4 vCPUs were shared between software-rendered Chrome AND
-        # concurrent ffmpeg extraction workers with no isolation between
-        # them. The render tool's OWN failure message says exactly this:
-        # "Try --docker for containerized rendering". --docker's containized
-        # ffmpeg gets real resource isolation from the browser process
-        # instead of competing on the bare runner, which is what actually
-        # fixes this failure class (not just a coincidental side effect of
-        # switching modes) — --no-browser-gpu is --docker's own default, no
-        # longer needs to be passed explicitly.
+        # --docker was tried and REMOVED again — a real, confirmed dead end,
+        # not a guess. Reasoning at the time was "containerized ffmpeg gets
+        # real resource isolation from the browser process" — that
+        # assumption was WRONG: Docker containers get NO CPU isolation from
+        # the host by default (no --cpus/--cpuset-cpus limit is set, and
+        # nothing indicates hyperframes render --docker sets one internally)
+        # — a container just shares the exact same host vCPUs as everything
+        # else, confirmed via research. Proof this didn't help: the SAME
+        # failure class got WORSE with --docker (ffmpeg_timeout=62 vs. 53
+        # without it) — the image build was pure added time (~4 min) for
+        # zero contention benefit, so it's gone.
         #
-        # Known cost, not yet addressed: --docker builds the bundled
-        # Dockerfile.render image fresh on EVERY run — no layer caching,
-        # since `render --docker` builds the image internally rather than
-        # via a separate docker/build-push-action step we could attach
-        # cache-from/cache-to to. Real added minutes on every run, not just
-        # the first. Left as-is deliberately: correctness (the render
-        # actually succeeding) took priority over shaving build time once
-        # it works; revisit if the image-build overhead becomes the
-        # dominant cost once renders are reliably passing.
-        #
-        # --workers 2, lowered from 3 (itself already lowered from the
-        # `auto` default that failed differently, see the earlier
-        # VIDEO_SOURCE_UNRENDERABLE incident this project also hit) — CPU
-        # contention is the confirmed root cause across BOTH real failures
-        # on this project, so err toward less concurrency, not more, until
-        # a full clean run proves 3 is safe.
+        # The actual, confirmed root cause across THREE real failures on
+        # this exact 151-beat/105-video-source project is CPU contention
+        # between software-rendered Chrome (no GPU on this runner) and
+        # concurrent ffmpeg extraction workers on a 4-vCPU box:
+        #   1. --workers auto  -> VIDEO_SOURCE_UNRENDERABLE (10+6 failures)
+        #   2. --workers 3, no --docker -> VIDEO_EXTRACTION_FAILED (53 timeouts)
+        #   3. --workers 2, --docker -> VIDEO_EXTRACTION_FAILED (62 timeouts, WORSE)
+        # --workers 1 serializes ffmpeg extraction entirely — no concurrent
+        # ffmpeg processes to compete with Chrome or each other. Slower
+        # wall-clock, but this directly addresses the confirmed cause
+        # instead of another mode switch on faith. --no-browser-gpu is
+        # explicit again now that --docker (which defaulted it) is gone.
         #
         # --browser-timeout kept at 180s (raised from the 60s default) — the
         # `check` step's earlier navigation-timeout failure showed
@@ -241,7 +232,7 @@ jobs:
         # browser navigation.
         run: |
           mkdir -p renders
-          npx --yes hyperframes@0.8.17 render --skill=documentary-broll --docker --workers 2 --browser-timeout 180 --quality high --output renders/video.mp4
+          npx --yes hyperframes@0.8.17 render --skill=documentary-broll --no-browser-gpu --workers 1 --browser-timeout 180 --quality high --output renders/video.mp4
 
       - name: Normalize loudness
         # On workflow_dispatch, respect the explicit input. On push (no

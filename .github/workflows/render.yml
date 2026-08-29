@@ -200,43 +200,38 @@ jobs:
 
       - name: Render
         working-directory: ${{ matrix.project }}
-        # No --docker here on purpose: that mode builds/runs the bundled
-        # Dockerfile.render image (real first-run build overhead) and exists
-        # for byte-identical output across DIFFERENT, uncontrolled host
-        # machines. Every render here already runs on the same standardized
-        # GitHub ubuntu-latest image, so the reproducibility --docker buys
-        # has no payoff and only costs time — plain `render` (confirmed
-        # working locally throughout this project's own dev/test renders)
-        # is faster and just as correct in this one-consistent-host setup.
-        # --no-browser-gpu matches a GPU-less CI runner (this is --docker's
-        # own default, kept explicit here since --docker itself is skipped).
+        # --docker IS used here — reversed from an earlier version of this
+        # workflow that deliberately skipped it (reasoning: no cross-host
+        # reproducibility payoff on a single standardized runner image).
+        # That reasoning covered correctness, not resource contention: a
+        # real run on this exact 151-beat/105-video-source project FAILED
+        # at --workers 3 without --docker with VIDEO_EXTRACTION_FAILED
+        # (ffmpeg_timeout=53, roughly half the video sources) — the
+        # runner's 4 vCPUs were shared between software-rendered Chrome AND
+        # concurrent ffmpeg extraction workers with no isolation between
+        # them. The render tool's OWN failure message says exactly this:
+        # "Try --docker for containerized rendering". --docker's containized
+        # ffmpeg gets real resource isolation from the browser process
+        # instead of competing on the bare runner, which is what actually
+        # fixes this failure class (not just a coincidental side effect of
+        # switching modes) — --no-browser-gpu is --docker's own default, no
+        # longer needs to be passed explicitly.
         #
-        # --workers 3 is a deliberate, tested cap, not the default `auto`.
-        # A real local test on an 8-core/15GB machine with `--workers auto`
-        # on this same 151-beat/105-video-source project FAILED —
-        # VIDEO_SOURCE_UNRENDERABLE, 10 ffmpeg_failed + 6 ffmpeg_timeout —
-        # from too many concurrent Chrome+ffmpeg frame-extraction workers
-        # competing for CPU/disk at once. GitHub's ubuntu-latest runner has
-        # only 4 vCPU (half that machine), so `auto` would very likely hit
-        # the same failure there. `--workers 3` leaves the extraction
-        # pipeline enough headroom per worker to not time out. If a real run
-        # still fails with VIDEO_SOURCE_UNRENDERABLE, lower this further
-        # (e.g. 2) before assuming something else is wrong.
+        # --workers 2, lowered from 3 (itself already lowered from the
+        # `auto` default that failed differently, see the earlier
+        # VIDEO_SOURCE_UNRENDERABLE incident this project also hit) — CPU
+        # contention is the confirmed root cause across BOTH real failures
+        # on this project, so err toward less concurrency, not more, until
+        # a full clean run proves 3 is safe.
         #
-        # --browser-timeout raised from render's own 60s default. The
-        # preceding `check` step already hit "Navigation timeout of 10000 ms
-        # exceeded" at ITS 10s default on this exact project, because the
-        # runner has no hardware GPU (`browserGpuMode probe → software`,
-        # confirmed in that run's log) — software-rendered Chrome paints
-        # this heavy a composition (151 sub-comps, grain video, ambience
-        # audio) much slower than on a real GPU machine. render's docs
-        # explicitly call out raising this for "heavy compositions (many
-        # videos / fonts / remote assets)" — this project is exactly that
-        # case, so raise it defensively rather than wait to hit it deeper
-        # into a much longer, more expensive step.
+        # --browser-timeout kept at 180s (raised from the 60s default) — the
+        # `check` step's earlier navigation-timeout failure showed
+        # software-rendered Chrome painting this composition slower than a
+        # real GPU machine; the same reasoning applies to render's own
+        # browser navigation.
         run: |
           mkdir -p renders
-          npx --yes hyperframes@0.8.17 render --skill=documentary-broll --no-browser-gpu --workers 3 --browser-timeout 180 --quality high --output renders/video.mp4
+          npx --yes hyperframes@0.8.17 render --skill=documentary-broll --docker --workers 2 --browser-timeout 180 --quality high --output renders/video.mp4
 
       - name: Normalize loudness
         # On workflow_dispatch, respect the explicit input. On push (no

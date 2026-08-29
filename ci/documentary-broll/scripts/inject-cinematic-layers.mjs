@@ -42,6 +42,7 @@ const flag = (argv, name, def) => {
   const i = argv.indexOf(`--${name}`);
   return i >= 0 && i + 1 < argv.length ? argv[i + 1] : def;
 };
+const hasFlag = (argv, name) => argv.includes(`--${name}`);
 
 const MARKER = "<!-- documentary-broll: cinematic layers (ambience + grain) -->";
 
@@ -53,17 +54,30 @@ function main() {
   const duration = Number(flag(argv, "duration", null));
   const ambienceVolume = Number(flag(argv, "ambience-volume", "0.05"));
   const grainOpacity = Number(flag(argv, "grain-opacity", "0.06"));
+  // --no-grain: skip ONLY the grain <video> layer, keep the ambience bed.
+  // Real, measured reason this exists: a real A/B test on a video-heavy
+  // composition (multiple <video> broll sources, matching documentary-broll's
+  // actual shape) showed the grain layer's mix-blend-mode:overlay compositing
+  // makes per-frame capture ~2.6x slower — video/HDR content already disables
+  // hyperframes render's fast page-side-compositing path (see its own
+  // --page-side-compositing doc), so every documentary-broll render pays
+  // full per-frame layered-blend cost for this one texture layer. On a long,
+  // many-beat video where render time is the bottleneck (confirmed via a
+  // real CI run: ~2.4s/frame, an 18h projected total at --quality high),
+  // this is the single biggest lever available without lowering quality —
+  // use it when a render is timing out or taking too long, not reflexively.
+  const noGrain = hasFlag(argv, "no-grain");
 
-  if (!ambiencePath || !grainPath || !duration) {
-    console.error("Usage: inject-cinematic-layers.mjs --index <path> --ambience <path> --grain <path> --duration <seconds> [--ambience-volume N] [--grain-opacity N] [--log <path>]");
+  if (!ambiencePath || (!grainPath && !noGrain) || !duration) {
+    console.error("Usage: inject-cinematic-layers.mjs --index <path> --ambience <path> --grain <path> --duration <seconds> [--ambience-volume N] [--grain-opacity N] [--no-grain] [--log <path>]");
     process.exit(1);
   }
   if (!existsSync(indexPath)) {
     console.error(`✗ inject-cinematic-layers: index not found: ${indexPath}`);
     process.exit(1);
   }
-  if (!existsSync(ambiencePath) || !existsSync(grainPath)) {
-    console.error(`✗ inject-cinematic-layers: missing asset(s) — run gen-cinematic-assets.mjs first (ambience: ${existsSync(ambiencePath)}, grain: ${existsSync(grainPath)})`);
+  if (!existsSync(ambiencePath) || (!noGrain && !existsSync(grainPath))) {
+    console.error(`✗ inject-cinematic-layers: missing asset(s) — run gen-cinematic-assets.mjs first (ambience: ${existsSync(ambiencePath)}${noGrain ? "" : `, grain: ${existsSync(grainPath)}`})`);
     process.exit(1);
   }
 
@@ -77,20 +91,9 @@ function main() {
 
   const indexDir = dirname(indexPath);
   const ambienceRel = relative(indexDir, resolve(ambiencePath));
-  const grainRel = relative(indexDir, resolve(grainPath));
+  const grainRel = noGrain ? null : relative(indexDir, resolve(grainPath));
 
-  const block = `
-    ${MARKER}
-    <!-- always-on ambience bed — glues the mix under narration/BGM, never
-         true silence between lines; see gen-cinematic-assets.mjs -->
-    <audio
-      id="el-ambience-bed"
-      src="${ambienceRel}"
-      data-start="0"
-      data-duration="${duration.toFixed(2)}"
-      data-track-index="12"
-      data-volume="${ambienceVolume}"
-    ></audio>
+  const grainBlock = noGrain ? "" : `
     <!-- always-on grain/texture overlay — a short native-looping clip
          composited full-bleed at low opacity across the whole timeline -->
     <video
@@ -104,7 +107,20 @@ function main() {
       data-duration="${duration.toFixed(2)}"
       data-track-index="3"
       style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;mix-blend-mode:overlay;opacity:${grainOpacity};pointer-events:none;"
-    ></video>
+    ></video>`;
+
+  const block = `
+    ${MARKER}
+    <!-- always-on ambience bed — glues the mix under narration/BGM, never
+         true silence between lines; see gen-cinematic-assets.mjs -->
+    <audio
+      id="el-ambience-bed"
+      src="${ambienceRel}"
+      data-start="0"
+      data-duration="${duration.toFixed(2)}"
+      data-track-index="12"
+      data-volume="${ambienceVolume}"
+    ></audio>${grainBlock}
 `;
 
   // Insert right before the closing </div> of the root composition (the
@@ -119,11 +135,11 @@ function main() {
   html = html.slice(0, closeRootIdx) + block + html.slice(closeRootIdx);
 
   writeFileSync(indexPath, html);
-  console.log(`✓ inject-cinematic-layers: mounted ambience-bed (vol ${ambienceVolume}) + grain-overlay (opacity ${grainOpacity}) → ${indexPath}`);
+  console.log(`✓ inject-cinematic-layers: mounted ambience-bed (vol ${ambienceVolume})${noGrain ? " — grain SKIPPED (--no-grain)" : ` + grain-overlay (opacity ${grainOpacity})`} → ${indexPath}`);
 
-  logIfRequested(argv, "Step 6 — inject-cinematic-layers", "mounted ambience bed + grain overlay", {
+  logIfRequested(argv, "Step 6 — inject-cinematic-layers", noGrain ? "mounted ambience bed only (--no-grain)" : "mounted ambience bed + grain overlay", {
     "ambience volume": ambienceVolume,
-    "grain opacity": grainOpacity,
+    "grain opacity": noGrain ? "skipped" : grainOpacity,
     "ambience source": ambienceRel,
     "grain source": grainRel,
   });

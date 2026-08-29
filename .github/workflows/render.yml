@@ -178,6 +178,22 @@ jobs:
         # real assembled timeline vs. the raw narration-only total). See
         # SKILL.md's "Always-on cinematic layers" section for the real
         # numbers this was caught on.
+        #
+        # --no-grain: real, MEASURED finding, not a guess — a local A/B test
+        # on a video-heavy composition (matching this skill's actual shape:
+        # multiple <video> broll sources + the grain <video> layer) showed
+        # the grain overlay's mix-blend-mode:overlay compositing makes
+        # per-frame capture ~2.6x slower. hyperframes render's fast
+        # page-side-compositing path is already disabled by the plain
+        # presence of <video> content in this composition (documented:
+        # "HDR/alpha/video content auto-disables" it) — --sdr does NOT help
+        # here (confirmed: hasHdrContent was false the whole time, HDR was
+        # never the actual blocker). Skipping ONLY the grain layer (ambience
+        # bed stays on — it's audio-only, zero compositing cost) is the
+        # single biggest available lever on a long/many-beat render without
+        # lowering --quality. Revisit once a cheaper grain implementation
+        # (e.g. baked into the ffmpeg encode instead of a blended DOM layer)
+        # is built and tested — see SKILL.md.
         run: |
           DURATION=$(node -e "
             const html = require('fs').readFileSync('index.html', 'utf8');
@@ -190,7 +206,7 @@ jobs:
           node "$GITHUB_WORKSPACE/ci/documentary-broll/scripts/inject-cinematic-layers.mjs" \
             --index ./index.html \
             --ambience .hyperframes/cinematic-assets/ambience-bed.mp3 \
-            --grain .hyperframes/cinematic-assets/grain-overlay.mp4 \
+            --no-grain \
             --duration "$DURATION" --log .hyperframes/run-log.md
 
       - name: hyperframes check (lint gate)

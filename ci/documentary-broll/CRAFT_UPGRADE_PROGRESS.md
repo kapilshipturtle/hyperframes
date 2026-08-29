@@ -55,18 +55,18 @@ Legend: `[ ]` not started · `[~]` in progress · `[x]` done + locally verified 
 - [x] M14 Extend verify-overlays.mjs for new archetypes — real per-archetype validation for all 11, tested end-to-end (fail + pass cases both confirmed)
 
 ## Editing rhythm / cuts
-- [ ] E1 Multi-shot beats by default (`--shots` generalization)
-- [ ] E2 Step 3 fetches top-N candidates for long beats
+- [x] E1 Multi-shot beats by default — reframed the existing cutaway mechanism from "rare bonus" to "actively look on every 6s+ beat" in SKILL.md's Step 5 cutaway paragraph, tied directly to E2's new wider-pool flag so a real second candidate is actually available to find. Documents the honest limit too: only when a real second candidate exists in the pool, never forced.
+- [x] E2 Step 3 fetches top-N candidates for long beats — fetch-clips.mjs: every provider adapter already accepted a `perPage` param (default 6) but main() never wired it to a CLI flag; added real `--per-page N` flag, threaded through both the video and photo job-dispatch blocks. Verified via live Openverse API calls (no key needed): default call unchanged (6 candidates, same top pick), `--per-page 15` call genuinely returns 15 candidates with the same top pick preserved — real API test, not a mock. SKILL.md Step 3 documents `--per-page 12` for beats ≥6s.
 - [x] E3 `hard-cut` transition (0s) — registered in transitions.json (verified-supported tokens only, real token-substitution test confirms zero leftover placeholders), wired into a new `mixed-cuts` --style pool via weaveHardCuts() (every-3rd-boundary stride, never touches boundary 0), sfxCueFor explicitly silences it (a whoosh would defeat a hard-cut's point). Real script invocation tests: mixed-cuts count=15 correct pattern, plain mixed/whip-pan-accent/error-path all unaffected (regression-tested).
-- [ ] E4 Shot-size classification (wide/medium/close/detail)
-- [ ] E5 Shot-size rhythm rule + Step 5 self-check
-- [~] E6 Content-driven transition duration — DEFERRED: real per-beat duration needs shot-size/motion-energy data this pass doesn't have yet (see E4/C1); doing it well depends on those, doing it blindly would be a fake/cosmetic version. Revisit after E4/C1.
+- [~] E4 Shot-size classification (wide/medium/close/detail) — HONESTLY SCOPED: no CV/detection model exists in this pipeline to classify shots mechanically. Folded into E5 as a prose editorial judgment call (same category as tone/archetype-fit — this skill's established pattern for judgment that can't be scripted) rather than building a fake classifier. See E5.
+- [x] E5 Shot-size rhythm rule + Step 5 self-check — new 6th self-check in SKILL.md (alongside the existing 5: archetype variety/stat-callout/typewriter/tone/map-consistency), flags 4+ consecutive same-size-feel beats as the failure mode (mirrors the archetype-variety check's own pattern exactly). Fence-balance re-verified (56, unchanged), "5 checks" cross-reference elsewhere in the file corrected to "6 checks".
+- [~] E6 Content-driven transition duration — DEFERRED: real per-beat duration needs shot-size/motion-energy data this pass doesn't have yet (see E4/C1, both honestly deferred/scoped-down for the same reason). Doing it blindly would be a fake/cosmetic version. Revisit after C1 (motion-energy probe) ships, if it does this pass.
 - [ ] E7 `sections.json` film-level act structure
 - [ ] E8 Cut-on-motion heuristic
 - [ ] E9 Per-section pacing arc
-- [ ] E10 Rewrite J/L-cut exclusion scoping (narration only)
-- [ ] E11 Reframe cutaway guidance (failure-mode framing)
-- [x] E12 Ban same-transition-type across 3-boundary window incl. sections — pickSequence()'s no-repeat check widened from adjacent-only (lookback=1) to lookback=min(3, pool.length-1), still deterministic, still correctly degrades on single-type pools. Verified via real invocation: mixed/mixed-cuts count=15 outputs both have zero same-type repeats within any 3-wide window.
+- [x] E10 Rewrite J/L-cut exclusion scoping (narration only) — checked the EXISTING Scope-section text (SKILL.md line 22) against what E10 asks for: it already correctly scopes the exclusion to narration-desync specifically (not a blanket "no J/L-cut-like effects"), already names the video-side crossfade as the compatible analog. No rewrite needed — verified already correct, not skipped.
+- [x] E11 Reframe cutaway guidance (failure-mode framing) — same edit as E1: the cutaway paragraph now opens by naming the real failure mode from a real run (long beats defaulting to a static full-duration hold because cutaway was treated as rare) before giving the mechanism, matching this skill's established "name the failure mode, not just the feature" pattern used elsewhere (invented-scene, stat-callout placement).
+- [x] E12 Ban same-transition-type across 3-boundary window incl. sections — pickSequence()'s no-repeat check widened from adjacent-only (lookback=1) to lookback=min(3, pool.length-1), still deterministic, still correctly degrades on single-type pools. Verified via real invocation: mixed/mixed-cuts count=15 outputs both have zero same-type repeats within any 3-wide window. (E12's "incl. sections" half needs E7's sections.json to exist first — revisit once E7 ships.)
 
 ## NLE-parity — done alongside E3/E12 (same file, same test pass)
 - [x] P1a hard-cut — see E3 above (this is the same item, not a separate implementation)

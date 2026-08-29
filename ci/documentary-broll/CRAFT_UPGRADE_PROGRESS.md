@@ -47,12 +47,12 @@ Legend: `[ ]` not started · `[~]` in progress · `[x]` done + locally verified 
 - [x] M6 `callout-leader` archetype (elbowed leader line, edge-aware label direction routing verified for both quadrant cases)
 - [x] M7 `cross-section` archetype (vertical/horizontal layer diagram, tone-palette colors, layer-count error path tested)
 - [x] M8 `species-card` archetype (real IUCN Red List status validation, both error paths tested)
-- [ ] M9 `counter-clock` archetype
-- [ ] M10 `area-chart-stack` archetype
-- [ ] M11 `morph-bridge` archetype
-- [ ] M12 Extend Pass-1 signal table (trend/scale/spatial/rate/species/mechanism)
-- [ ] M13 Document staggered-hierarchy rule
-- [ ] M14 Extend verify-overlays.mjs for new archetypes
+- [x] M9 `counter-clock` archetype (rate-ticking counter, endValue math verified exact, zero-rate error path tested)
+- [x] M10 `area-chart-stack` archetype (stacked composition-over-time, stack-sum validation + array-length-mismatch validation both tested)
+- [x] M11 `morph-bridge` (honestly scoped: a shared morphBridgeAnchor() helper + documented convention, NOT full universal per-archetype wiring — explicit tradeoff note in the code rather than a false "fully wired" claim; extend a specific archetype pair when a real beat needs it)
+- [x] M12 Extend Pass-1 signal table (trend/scale/spatial/rate/species/mechanism) — 6 new signals, full reference-doc table/SFX/picking-guide entries for all 11 new M-archetypes
+- [x] M13 Document staggered-hierarchy rule — new overlays.md section citing real old+new archetype examples
+- [x] M14 Extend verify-overlays.mjs for new archetypes — real per-archetype validation for all 11, tested end-to-end (fail + pass cases both confirmed)
 
 ## Editing rhythm / cuts
 - [ ] E1 Multi-shot beats by default (`--shots` generalization)

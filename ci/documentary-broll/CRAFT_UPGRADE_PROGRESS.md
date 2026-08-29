@@ -44,9 +44,9 @@ Legend: `[ ]` not started · `[~]` in progress · `[x]` done + locally verified 
 - [x] M3 `scale-compare` archetype (sqrt-area ratio math verified exact, negative-value error path tested)
 - [x] M4 `proportion-block` archetype (100-dot grid, filled-count verified exact at pct=47, error path tested)
 - [x] M5 `annotation-draw` archetype (circle/arrow/underline, deterministic seeded wobble, found+fixed same coordinate-space bug class as map-flow before shipping, all 3 shapes + error path tested)
-- [ ] M6 `callout-leader` archetype
-- [ ] M7 `cross-section` archetype
-- [ ] M8 `species-card` archetype
+- [x] M6 `callout-leader` archetype (elbowed leader line, edge-aware label direction routing verified for both quadrant cases)
+- [x] M7 `cross-section` archetype (vertical/horizontal layer diagram, tone-palette colors, layer-count error path tested)
+- [x] M8 `species-card` archetype (real IUCN Red List status validation, both error paths tested)
 - [ ] M9 `counter-clock` archetype
 - [ ] M10 `area-chart-stack` archetype
 - [ ] M11 `morph-bridge` archetype

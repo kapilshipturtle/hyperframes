@@ -39,9 +39,9 @@ Legend: `[ ]` not started · `[~]` in progress · `[x]` done + locally verified 
 - [ ] S12 Log ambience/foley/tension cues in run log
 
 ## Motion graphics / data-viz
-- [ ] M1 `area-shrink` archetype
-- [ ] M2 `line-chart-reveal` archetype
-- [ ] M3 `scale-compare` archetype
+- [x] M1 `area-shrink` archetype (subject-agnostic block-shrink, sqrt-area-correct scaling verified at 50%/100%/0%, error path tested)
+- [x] M2 `line-chart-reveal` archetype (traveling dot + leg tweens verified, error paths tested)
+- [x] M3 `scale-compare` archetype (sqrt-area ratio math verified exact, negative-value error path tested)
 - [ ] M4 `proportion-block` archetype
 - [ ] M5 `annotation-draw` archetype
 - [ ] M6 `callout-leader` archetype

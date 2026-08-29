@@ -28,10 +28,10 @@ Legend: `[ ]` not started · `[~]` in progress · `[x]` done + locally verified 
 - [x] S1 Scene-aware ambience beds — gen-cinematic-assets.mjs now supports --scene-classes (7 distinct procedural ffmpeg recipes: neutral/water/wind-open/forest/wetland-night/urban-machinery/interior), default no-flag call verified byte-identical to pre-change behavior, spectral distinction verified via real ffprobe/astats measurements (26dB gap on source files)
 - [ ] S2 Split SFX question into 3 (ambience/foley, whooshes, overlay cues)
 - [x] S3 Ambience J-cut — new build-scene-ambience.mjs stitches per-class beds with real crossfades + a configurable lead-in via ffmpeg concat demuxer + per-boundary acrossfade splices. Found+fixed 2 real bugs during dev testing (fade direction was backwards; compensation math broke on 3+ segments via naive chaining) by actually measuring output duration/spectral content at each step, not trusting arithmetic. Verified correct for 1/2/3/4-segment cases, no audible click artifacts at splice points (confirmed via astats scan), correct error handling on gaps.
-- [ ] S4 Sparse diegetic foley accents
-- [ ] S5 Non-diegetic tension kit (drone/riser/impact/sub-drop)
-- [ ] S6 `--audio-hold` deliberate silence flag
-- [ ] S7 Keyframed BGM duck
+- [x] S4 Sparse diegetic foley accents — 3rd sfx: category documented in SKILL.md Step 6, gated by S2's ambience/foley question, low-volume footage-motivated bullets
+- [x] S5 Non-diegetic tension kit (drone/riser/impact/sub-drop) — documented in S2's run-shape answer text (HeyGen-resolved cue names, max 2-4/film, separate from routine overlay cues)
+- [x] S6 apply-audio-holds.mjs — generic V-shaped volume-dip script (works on any audio file, any timestamps, JSON-driven), tested on a plain synthetic track (not project-specific), verified real dip+restore behavior via volumedetect + overlap-rejection error path
+- [x] S7 Keyframed BGM duck — new build-bgm-duck.mjs, generic (reads any beats.json, works on any BGM file), lifts in real inter-beat gaps derived free from existing timing data. Found+fixed 2 real bugs (ffmpeg volume-filter chains are multiplicative not override; MP3-concat-into-single-encode produced silence gaps, fixed via WAV intermediate) plus caught my own -ss-before-i measurement methodology bug (imprecise seek gave false-negative readings) along the way. Verified correct with accurate post-input seeking, error-path and no-gap-fallback tested.
 - [ ] S8 Document stem model in audio-mix.md
 - [ ] S9 Sound-perspective ±3dB nudge by shot size
 - [ ] S10 Ambience-bed library expansion (nature/wetland set)

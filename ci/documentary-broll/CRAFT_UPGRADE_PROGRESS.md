@@ -25,9 +25,9 @@ Legend: `[ ]` not started · `[~]` in progress · `[x]` done + locally verified 
 - [x] G13 Pulsing-marker/symbol-scaling shared primitives (pulseMarkerCSS/pulseMarkerJS/symbolScale, wired into map-locate, verified byte-for-byte identical timing to pre-refactor)
 
 ## Sound design
-- [ ] S1 Scene-aware ambience beds (sceneClass, crossfaded, always on)
+- [x] S1 Scene-aware ambience beds — gen-cinematic-assets.mjs now supports --scene-classes (7 distinct procedural ffmpeg recipes: neutral/water/wind-open/forest/wetland-night/urban-machinery/interior), default no-flag call verified byte-identical to pre-change behavior, spectral distinction verified via real ffprobe/astats measurements (26dB gap on source files)
 - [ ] S2 Split SFX question into 3 (ambience/foley, whooshes, overlay cues)
-- [ ] S3 Ambience J-cut (`--ambience-lead`)
+- [x] S3 Ambience J-cut — new build-scene-ambience.mjs stitches per-class beds with real crossfades + a configurable lead-in via ffmpeg concat demuxer + per-boundary acrossfade splices. Found+fixed 2 real bugs during dev testing (fade direction was backwards; compensation math broke on 3+ segments via naive chaining) by actually measuring output duration/spectral content at each step, not trusting arithmetic. Verified correct for 1/2/3/4-segment cases, no audible click artifacts at splice points (confirmed via astats scan), correct error handling on gaps.
 - [ ] S4 Sparse diegetic foley accents
 - [ ] S5 Non-diegetic tension kit (drone/riser/impact/sub-drop)
 - [ ] S6 `--audio-hold` deliberate silence flag

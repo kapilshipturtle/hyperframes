@@ -106,11 +106,36 @@ jobs:
         working-directory: ${{ matrix.project }}
         run: npx --yes hyperframes@0.8.17 doctor --json
 
+      # Caches the downloaded/processed .media/broll/ output, keyed on this
+      # project's committed beat-choice JSONs (.hyperframes/broll/*.json +
+      # media-choices.json) — if neither changed since a prior run of the
+      # SAME commit (a "Re-run failed jobs" retry, or a fresh manual
+      # dispatch that lands on unchanged project files), the ~150-asset
+      # download this step would otherwise redo (the single slowest step in
+      # the whole pipeline, ~15-20 min on a real 151-beat project) is
+      # skipped entirely — GitHub Actions has no native "resume from the
+      # failed step" (confirmed: re-running a job always restarts it from
+      # its first step, not the failed one), so this cache is the real
+      # mechanism that avoids repeating already-finished expensive work on
+      # a retry. A genuine content change (a different chosen clip) changes
+      # the hash and correctly invalidates the cache.
+      - name: Cache .media/broll (skip re-download on a same-commit retry)
+        uses: actions/cache@v4
+        with:
+          path: ${{ matrix.project }}/.media/broll
+          key: broll-${{ matrix.project }}-${{ hashFiles(format('{0}/.hyperframes/broll/*.json', matrix.project), format('{0}/.hyperframes/media-choices.json', matrix.project)) }}
+
       - name: Rebuild broll from cached beat candidates
         working-directory: ${{ matrix.project }}
         env:
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
           PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+        # replay-media-choices.mjs / download-clip.mjs are already idempotent
+        # (skip re-downloading a beat whose output file already exists — see
+        # download-clip.mjs's own existsSync check), so this call is safe
+        # and correct whether the cache above hit (near-instant no-op pass
+        # over already-present files) or missed (does the real work, which
+        # the cache step then saves for next time).
         run: |
           node "$GITHUB_WORKSPACE/ci/documentary-broll/scripts/replay-media-choices.mjs" \
             --project . --log .hyperframes/run-log.md

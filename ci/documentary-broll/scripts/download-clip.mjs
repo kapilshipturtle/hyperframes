@@ -51,12 +51,36 @@ function run(cmd, args) {
   return r.stdout;
 }
 
-async function download(url, destPath) {
-  const res = await fetch(url);
-  if (!res.ok) throw new Error(`download failed: ${res.status} ${res.statusText}`);
-  const buf = Buffer.from(await res.arrayBuffer());
-  const fs = await import("node:fs/promises");
-  await fs.writeFile(destPath, buf);
+// 3 attempts, short backoff — CI runners doing many concurrent/sequential
+// downloads against a stock-provider CDN see real, transient connection
+// failures under load (confirmed: a real CI run had "fetch failed" — Node's
+// native fetch's own generic wrapper around a lower-level connection error —
+// on 7/151 beats, all pexels.com, no pattern pointing at a single bad URL).
+// Retrying handles the transient case; the real underlying cause (err.cause)
+// is now surfaced in the thrown error either way, instead of the previous
+// bare "fetch failed" which gave zero diagnostic signal.
+async function download(url, destPath, attempts = 3) {
+  let lastErr;
+  for (let i = 1; i <= attempts; i++) {
+    try {
+      const res = await fetch(url);
+      if (!res.ok) throw new Error(`download failed: ${res.status} ${res.statusText}`);
+      const buf = Buffer.from(await res.arrayBuffer());
+      const fs = await import("node:fs/promises");
+      await fs.writeFile(destPath, buf);
+      return;
+    } catch (e) {
+      // Node's native fetch throws a generic "TypeError: fetch failed" for
+      // any underlying connection failure (DNS, TLS, reset, timeout) — the
+      // real reason lives in e.cause, which the original version of this
+      // function never read, so every real cause showed up identically as
+      // the useless bare string "fetch failed" in logs.
+      const cause = e?.cause ? ` (cause: ${e.cause.code ?? e.cause.message ?? e.cause})` : "";
+      lastErr = new Error(`${e.message}${cause}`);
+      if (i < attempts) await new Promise((r) => setTimeout(r, 1000 * i));
+    }
+  }
+  throw lastErr;
 }
 
 async function processVideo({ chosen, beatId, targetDuration, brollDir, grade }) {

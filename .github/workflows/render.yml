@@ -269,6 +269,16 @@ jobs:
         #      runners' 4 cores) — needed for future 30-min daily videos
         #      (~2x this project's frame count) to have any realistic chance
         #      of finishing inside the 300-min job cap.
+        #  10. TEMPORARY: bumped to --workers 10 for one deliberate test run
+        #      (craft-upgrade-pass1 branch, testing whether the added
+        #      craft-upgrade code + a real runner's 4-core ceiling combine
+        #      to fail the same way step 1-4's CPU-contention class did).
+        #      Expected outcome, going in: this may well fail from
+        #      contention again, same as steps 1-4 — that would CONFIRM the
+        #      existing 4-core reasoning still holds, not indicate a new
+        #      bug. Revert to --workers 4 after this one test regardless of
+        #      outcome — this line is intentionally left as a visible
+        #      TEMPORARY marker so it isn't accidentally left in on merge.
         #
         # Retry the render command itself up to 3 times regardless — GitHub's
         # shared runner has genuine run-to-run CPU/disk throughput variance
@@ -279,7 +289,7 @@ jobs:
           mkdir -p renders
           for attempt in 1 2 3; do
             echo "::group::Render attempt $attempt/3"
-            if npx --yes hyperframes@0.8.17 render --skill=documentary-broll --no-browser-gpu --workers 4 --browser-timeout 180 --protocol-timeout 900000 --quality high --output renders/video.mp4; then
+            if npx --yes hyperframes@0.8.17 render --skill=documentary-broll --no-browser-gpu --workers 10 --browser-timeout 180 --protocol-timeout 900000 --quality high --output renders/video.mp4; then
               echo "::endgroup::"
               echo "Render succeeded on attempt $attempt"
               exit 0

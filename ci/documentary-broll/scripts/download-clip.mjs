@@ -74,6 +74,44 @@ export const GRADE_PRESETS = {
   filmic: "curves=master='0/0.03 0.25/0.22 0.5/0.5 0.75/0.8 1/0.97'",
 };
 
+// craft-upgrade P6a/P6g: optional, SEPARATE optical-effect presets — a
+// genuinely different category from GRADE_PRESETS above (a grade shifts
+// color/tone consistently across the whole frame; an effect is a distinct
+// optical phenomenon — RGB channel misalignment, a film-stock treatment —
+// not a color direction). Chained in the SAME linear -vf pipeline as
+// --grade/--lut (verified against real ffmpeg — an rgbashift fragment
+// chains cleanly after scale/crop/grade with no issues).
+//
+// SCOPE NOTE, checked before building: glow/bloom (P6d) and halation (P6f)
+// are real ffmpeg-buildable phenomena, but ONLY via a split/blur/screen-
+// blend GRAPH (-filter_complex), not a plain linear filter chain — verified
+// this is a real architectural boundary, the same one that ruled out
+// blending a --lut at partial strength (see lutFilterFragment's own
+// comment). This file's entire existing pipeline is deliberately a single
+// linear -vf chain; adding -filter_complex support would be a real
+// structural change to a mature, working encode path for two effects, not
+// a small additive flag — deliberately NOT built this pass. Chromatic
+// aberration (rgbashift) and the archival treatment (grain+vignette-
+// adjacent techniques already proven elsewhere in this skill, no split/
+// blend needed) ARE real plain-filter-chain effects, so those are built.
+export const EFFECT_PRESETS = {
+  // Chromatic aberration — real RGB channel misalignment via rgbashift,
+  // verified against real ffmpeg. Deliberately SUBTLE (single-digit pixel
+  // shift) — a heavy-handed version reads as a rendering bug, not a lens
+  // characteristic; this is a rare, deliberate accent (same tier as
+  // --vignette), never a default.
+  "chromatic-aberration": "rgbashift=rh=2:bh=-2",
+  // Archival — a real, distinct treatment for footage meant to read as old/
+  // degraded/found-footage: desaturation + a slight warm/sepia cast + mild
+  // contrast crush (the flattened-blacks look of aged film stock), built
+  // from the same eq/colorbalance mechanism GRADE_PRESETS already uses, not
+  // a new capability — kept as a separate effect (not folded into
+  // GRADE_PRESETS) because it's a genuine STOCK-TREATMENT choice, not a
+  // color-consistency-across-clips choice, and mixing the two concepts in
+  // one preset list would blur that real distinction.
+  archival: "eq=contrast=0.88:saturation=0.55:brightness=-0.02,colorbalance=rm=0.06:gm=0.02:bm=-0.08",
+};
+
 function run(cmd, args) {
   const r = spawnSync(cmd, args, { encoding: "utf8" });
   if (r.status !== 0) {
@@ -140,8 +178,8 @@ function lutFilterFragment(lutPath) {
   return `,lut3d=file='${lutPath.replace(/:/g, "\\:")}'`;
 }
 
-async function processVideo({ chosen, beatId, targetDuration, brollDir, grade, freeze, lut }) {
-  const gradeFilter = (grade && GRADE_PRESETS[grade] ? `,${GRADE_PRESETS[grade]}` : "") + lutFilterFragment(lut);
+async function processVideo({ chosen, beatId, targetDuration, brollDir, grade, freeze, lut, effect }) {
+  const gradeFilter = (grade && GRADE_PRESETS[grade] ? `,${GRADE_PRESETS[grade]}` : "") + lutFilterFragment(lut) + (effect && EFFECT_PRESETS[effect] ? `,${EFFECT_PRESETS[effect]}` : "");
   const rawPath = join(brollDir, `beat-${beatId}-raw.mp4`);
   const outPath = join(brollDir, `beat-${beatId}.mp4`);
   const outRel = `.media/broll/beat-${beatId}.mp4`;
@@ -260,8 +298,8 @@ async function processVideo({ chosen, beatId, targetDuration, brollDir, grade, f
   console.log(`✓ download-clip: beat-${beatId} [video] trimmed [${offset.toFixed(1)}s, +${targetDuration}s]${grade ? ` [grade:${grade}]` : ""} → ${outRel}`);
 }
 
-async function processPhoto({ chosen, beatId, brollDir, grade, lut }) {
-  const gradeFilter = (grade && GRADE_PRESETS[grade] ? `,${GRADE_PRESETS[grade]}` : "") + lutFilterFragment(lut);
+async function processPhoto({ chosen, beatId, brollDir, grade, lut, effect }) {
+  const gradeFilter = (grade && GRADE_PRESETS[grade] ? `,${GRADE_PRESETS[grade]}` : "") + lutFilterFragment(lut) + (effect && EFFECT_PRESETS[effect] ? `,${EFFECT_PRESETS[effect]}` : "");
   const ext = (extname(new URL(chosen.downloadUrl).pathname) || ".jpg").toLowerCase();
   const safeExt = [".jpg", ".jpeg", ".png", ".webp"].includes(ext) ? ext : ".jpg";
   const rawPath = join(brollDir, `beat-${beatId}-raw${safeExt}`);
@@ -311,9 +349,13 @@ async function main() {
   // craft-upgrade P4a: optional real .cube LUT, applied on top of --grade
   // (or on its own with no --grade) — see lutFilterFragment's own comment.
   const lut = flag(argv, "lut", null);
+  // craft-upgrade P6a/P6g: optional real optical-effect preset — see
+  // EFFECT_PRESETS' own comment for why this is a SEPARATE flag from
+  // --grade (a different category of visual choice).
+  const effect = flag(argv, "effect", null);
 
   if (!candidatePath || !beatId) {
-    console.error("Usage: download-clip.mjs --candidate <path> --beat-id <id> --duration N --project <dir> [--grade warm|cool|desaturated|neutral|verdant|bleached|filmic] [--lut <path.cube>] [--freeze] [--log <path>]");
+    console.error("Usage: download-clip.mjs --candidate <path> --beat-id <id> --duration N --project <dir> [--grade warm|cool|desaturated|neutral|verdant|bleached|filmic] [--lut <path.cube>] [--effect chromatic-aberration|archival] [--freeze] [--log <path>]");
     process.exit(1);
   }
 
@@ -336,14 +378,18 @@ async function main() {
       process.exit(1);
     }
   }
+  if (effect && !EFFECT_PRESETS[effect]) {
+    console.error(`✗ download-clip: unknown --effect "${effect}" (expected one of: ${Object.keys(EFFECT_PRESETS).join(", ")})`);
+    process.exit(1);
+  }
 
   const brollDir = join(projectDir, ".media", "broll");
   mkdirSync(brollDir, { recursive: true });
 
   if (chosen.mediaType === "photo") {
-    await processPhoto({ chosen, beatId, brollDir, grade, lut });
+    await processPhoto({ chosen, beatId, brollDir, grade, lut, effect });
   } else {
-    await processVideo({ chosen, beatId, targetDuration, brollDir, grade, freeze, lut });
+    await processVideo({ chosen, beatId, targetDuration, brollDir, grade, freeze, lut, effect });
   }
 
   logIfRequested(argv, "Step 4 — download-clip", `beat ${beatId}: downloaded/processed`, {

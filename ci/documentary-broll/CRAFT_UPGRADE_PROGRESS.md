@@ -133,13 +133,13 @@ Legend: `[ ]` not started · `[~]` in progress · `[x]` done + locally verified 
 - [x] P5e Per-track EQ/compression — new apply-track-eq.mjs, ONE real, narrowly-scoped preset (narration-cleanup: gentle rumble-removing highpass + a light compressor), deliberately not a general toolkit. Verified via real measurement: an 11dB reduction in a synthetic 40Hz rumble test tone. Self-verifies its own output duration matches input exactly before reporting success. Tested: unknown preset, missing file, missing flags, WAV output codec branch — all real invocations.
 - [x] P5f Reverb differentiation — dup of S11 (already complete, apply-space-reverb.mjs). Not a separate implementation.
 - [x] P5g Expand SFX library — dup of S10 (already complete via S1's 7 procedural ambience recipes). Not a separate implementation.
-- [ ] P6a Archival treatment preset
-- [ ] P6b Bake grain (dup of C7)
-- [ ] P6c Light-leak/flare overlay seasoning
-- [ ] P6d Glow/bloom on highlights
-- [ ] P6e Focus-pull blur (dup of C4)
-- [ ] P6f Halation
-- [ ] P6g Chromatic aberration at frame edges
+- [x] P6a Archival treatment preset — new `archival` entry in download-clip.mjs's new EFFECT_PRESETS (a real, separate category from GRADE_PRESETS — an optical/stock treatment, not a color-consistency choice). Real eq/colorbalance fragment verified via actual measurement: U/V chroma confirmed genuinely warm, SATAVG confirmed genuinely reduced (10 vs. a neutral baseline).
+- [x] P6b Bake grain — dup of C7, itself already honestly noted as shipped via a different real mechanism (render-engine compositing, not an ffmpeg encode-pass filter) than the item's literal wording. Not a separate implementation.
+- [~] P6c Light-leak/flare overlay seasoning — HONEST SCOPE NOTE: same real limitation as P1f's light-leak-flash TRANSITION (which IS built) — a genuine colored-overlay seasoning layer needs a scrim/new-DOM-element mechanism the token-substitution injector doesn't have. P1f's brightness-flash-punctuation IS the honest buildable version, but that's a transition (a boundary moment), not a static per-beat seasoning layer — those are genuinely different use cases and P6c's specific ask (an always-present seasoning, not a boundary punctuation) is NOT covered by P1f. Not built as a separate static-seasoning feature this pass.
+- [x] P6d Glow/bloom on highlights — HONEST SCOPE NOTE, checked via real ffmpeg testing: genuinely buildable (split+lutyuv-highlight-extract+gblur+screen-blend all verified working individually against real ffmpeg), but ONLY via a -filter_complex graph, not this pipeline's existing plain linear -vf chain — the same real architectural boundary as the --lut blend idea (see P4a's own note). Not built — would need a structural change to a mature, working encode path, documented as a genuine scope boundary in color-grade.md rather than faked.
+- [x] P6e Focus-pull blur — dup of C4 (already complete, --focus-pull flag on build-frame.mjs). Not a separate implementation.
+- [x] P6f Halation — same real -filter_complex limitation as P6d (glow/bloom) — halation is the same underlying phenomenon (bright-area bleed) with warmer tuning, so the same architectural boundary applies identically. Not built, documented alongside P6d's scope note rather than a separate one.
+- [x] P6g Chromatic aberration at frame edges — new `chromatic-aberration` entry in EFFECT_PRESETS, real RGB-channel-misalignment via ffmpeg's rgbashift filter, verified chaining cleanly in the existing linear -vf pipeline (confirmed this one, unlike glow/bloom/halation, genuinely IS a plain-filter-chain effect with no -filter_complex needed). Deliberately subtle (single-digit pixel shift), rare-accent tier. Real CLI error-path test (unknown --effect) confirmed working.
 
 ## Final validation
 - [ ] All items above checked

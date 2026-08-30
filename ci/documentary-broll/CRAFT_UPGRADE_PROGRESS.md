@@ -127,12 +127,12 @@ Legend: `[ ]` not started · `[~]` in progress · `[x]` done + locally verified 
 - [x] P4c Curve-based grading (ffmpeg curves filter) — new `filmic` preset added to GRADE_PRESETS, a genuinely different mechanism (real tonal S-curve via ffmpeg's curves filter, verified against real ffmpeg execution) than the other six's eq/colorbalance-only approach. Kept to exactly one curve-based preset, matching this skill's own restrained-option-set discipline.
 - [x] P4d Masked/regional grade — HONEST SCOPE DECISION: deliberately NOT built. A real regional grade is inherently a per-shot creative call, which fights this skill's own core "one grade, whole film, never per-shot" discipline directly — no honest way to make it fit the deterministic whole-film model every other preset here follows. Documented as a genuine scope boundary, not faked as a shallow version.
 - [ ] P5a Audio crossfade between ambience beds (dup of S1 prereq)
-- [ ] P5b Audio content-type tagging
-- [ ] P5c Volume automation envelopes
-- [ ] P5d Content-aware ducking (dup of S7)
-- [ ] P5e Per-track EQ/compression
-- [ ] P5f Reverb differentiation (dup of S11)
-- [ ] P5g Expand SFX library (dup of S10)
+- [x] P5b Audio content-type tagging — new optional `stem` field convention on sfx-offsets.json cue entries (ambience/foley/music/graphic-cue, matching S8's stem-model table exactly). Verified real and safe: read set-sfx-offsets.mjs's actual parse loop (only ever reads offset_s/volume) then confirmed via a real invocation that an extra `stem` field is genuinely ignored, not a corruption risk. Documentation-only value (a future audit/grep convenience), doesn't change how any cue plays.
+- [x] P5c Volume automation envelopes — new apply-volume-envelope.mjs: a real GENERIC {at,volume} keyframe envelope, generalizing the exact proven-safe staircase technique apply-audio-holds.mjs (S6) and build-bgm-duck.mjs (S7) already use for their own fixed shapes. Verified via real volumedetect measurement on a real synthetic track (correctly quiet at the dip, correctly full elsewhere) — caught and corrected my OWN measurement-methodology error mid-test (the same -ss-before-i imprecision class S7's dev history already flagged) before concluding anything about the script itself. Tested: unsorted-keyframe handling, all 4 real error paths (too few keyframes, duplicate timestamps, negative volume, invalid JSON), missing-flags usage error.
+- [x] P5d Content-aware ducking — dup of S7 (already complete, keyframed BGM duck in real inter-beat gaps). Not a separate implementation.
+- [x] P5e Per-track EQ/compression — new apply-track-eq.mjs, ONE real, narrowly-scoped preset (narration-cleanup: gentle rumble-removing highpass + a light compressor), deliberately not a general toolkit. Verified via real measurement: an 11dB reduction in a synthetic 40Hz rumble test tone. Self-verifies its own output duration matches input exactly before reporting success. Tested: unknown preset, missing file, missing flags, WAV output codec branch — all real invocations.
+- [x] P5f Reverb differentiation — dup of S11 (already complete, apply-space-reverb.mjs). Not a separate implementation.
+- [x] P5g Expand SFX library — dup of S10 (already complete via S1's 7 procedural ambience recipes). Not a separate implementation.
 - [ ] P6a Archival treatment preset
 - [ ] P6b Bake grain (dup of C7)
 - [ ] P6c Light-leak/flare overlay seasoning

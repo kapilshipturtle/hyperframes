@@ -102,13 +102,14 @@ Legend: `[ ]` not started · `[~]` in progress · `[x]` done + locally verified 
 - [x] K6 Document technical/creative split — new color-grade.md section explicitly separating the two real, different questions (K1's factual "is there a measurable mismatch" vs. the orchestrator's editorial "does this film want an intentional mood"), with guidance on how neither implies the other.
 
 ## NLE-parity additions
-- [ ] P1c `film-dissolve` / `additive-dissolve` variants
-- [ ] P1d `luma-wipe` transition
-- [ ] P1e `iris` transition
-- [ ] P1f `light-leak-flash` transition
-- [ ] P1g `glitch-cut` transition (rare/deliberate only)
-- [ ] P1h `page-turn`/3d-flip family
-- [ ] P1i content-driven duration (dup of E6)
+- [x] P1c `film-dissolve` — real overlap-dissolve (outgoing fades on a slower curve, incoming on a faster one, real mid-transition double-exposure window vs. crossfade's clean linear handoff). Verified via real GSAP execution in a headless browser (playwright): position-parameter arithmetic (`__T__ + 0.15`) confirmed to evaluate correctly as literal JS at generated-code runtime, not a string-concat bug as first suspected — caught the concern, verified it wasn't real via an actual GSAP timeline test before shipping.
+- [~] P1d `luma-wipe` — HONEST SCOPE NOTE: a true luma-key wipe needs per-pixel luminance sampling of the actual footage, which this token-substitution mechanism cannot do (no video-processing capability in the injector). NOT built as a fake version — `iris` (P1e) is the closest honest equivalent this mechanism can deliver (a real, deterministic shape-based wipe, not a luma-driven one).
+- [x] P1e `iris` transition — real clip-path circular wipe, verified via actual GSAP execution (headless browser test confirmed clip-path animates and resolves to the correct final computed style, not just plausible-looking code).
+- [x] P1f `light-leak-flash` transition — honestly scoped in its own registry note: a true light-leak needs a colored overlay layer this mechanism can't create (same limitation as dip-to-color); the real buildable version is a brightness-filter flash-to-white on both frames, which achieves the same real "punctuation" read via a different, honest mechanism.
+- [x] P1g `glitch-cut` transition — a real multi-step juddering position+hue-rotate stutter (verified filter:hue-rotate() actually applies via real GSAP execution), the rarest tier in the whole registry (single-use, max once per film), explicitly scoped as NOT a full RGB-channel-split effect (the honest, buildable version instead).
+- [~] P1h `page-turn`/3d-flip family — HONEST SCOPE NOTE: needs `perspective`/`transform-style:preserve-3d` on a PARENT container the injector never creates (same class of limitation as P1d) — not buildable through this registry mechanism without a shared-injector change, out of scope for this pass. Not faked.
+- Wiring: pick-transitions.mjs gets a new generic `--accent-at <idx> --accent-type <name>` mechanism (not one bespoke --style per new transition) — substitutes ANY registry transition at ANY one chosen boundary, applied after whip-pan-accent/mixed-cuts so an explicit accent always wins. Tested: iris accent + correct silent SFX handling, glitch-cut correctly overriding mixed-cuts' hard-cut stride at that position, paired-flag validation error, out-of-range graceful warning, no-flag baseline unaffected — all 5 real invocations.
+- [~] P1i content-driven duration — dup of E6, which is itself deferred (needs E4/C1 shot-size/motion-energy data this pass doesn't build a full per-beat consumer for). Not a separate implementation.
 - [ ] P2a Exit animations per archetype (in/out slots)
 - [ ] P2b Loop/idle animation slot for persistent archetypes
 - [ ] P2c Per-character animation mode

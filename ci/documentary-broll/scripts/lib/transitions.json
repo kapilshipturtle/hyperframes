@@ -104,6 +104,58 @@
         "tl.to(__OLD__, { y: __DY__, filter: \"blur(28px)\", duration: __DUR__, ease: \"power4.in\" }, __T__);",
         "tl.fromTo(__NEW__, { y: __DYIN__, filter: \"blur(28px)\", opacity: 1 }, { y: 0, filter: \"blur(0px)\", duration: __DUR__, ease: \"power4.out\" }, __T__);"
       ]
+    },
+    {
+      "name": "film-dissolve",
+      "energy": "calm",
+      "default_duration_s": 1.1,
+      "directions": [],
+      "source": "documentary-broll (craft-upgrade P1c — a real film-optical-printer dissolve holds a brief overlap where BOTH frames are simultaneously visible at meaningful opacity, distinct from crossfade's simple linear cross-dissolve where the sum of both opacities stays close to 1.0 throughout)",
+      "note": "The outgoing frame fades out on a SLOWER/later curve while the incoming frame fades in on a faster/earlier one, so there's a real mid-transition window where both sit at 40-70% opacity together (an actual double-exposure look) rather than crossfade's clean linear handoff. Reserve for a genuinely slow, contemplative beat-to-beat move — this reads noticeably softer/dreamier than crossfade, not a drop-in replacement for it.",
+      "gsap_template": [
+        "tl.to(__OLD__, { opacity: 0, duration: __DUR__, ease: \"power1.in\" }, __T__);",
+        "tl.fromTo(__NEW__, { opacity: 0 }, { opacity: 1, duration: __DUR__, ease: \"power3.out\" }, __T__ + 0.15);"
+      ]
+    },
+    {
+      "name": "iris",
+      "energy": "medium",
+      "default_duration_s": 0.8,
+      "directions": [],
+      "source": "documentary-broll (craft-upgrade P1e — the classic iris wipe: a circular reveal expanding from center, real silent-film/classic-documentary convention for a deliberate scene punctuation, not a routine cut)",
+      "note": "Uses clip-path (a real, standard CSS/GSAP-animatable property — no new token or DOM element needed, same verified-safe mechanism as every other entry here) to expand a circle from the center of frame outward. The outgoing frame's circle SHRINKS to nothing while the incoming's GROWS from nothing, both centered — a deliberate, rare accent (silent-film/classic-doc convention), not a rotation staple, similar tier to whip-pan.",
+      "gsap_template": [
+        "tl.fromTo(__OLD__, { clipPath: \"circle(150% at 50% 50%)\" }, { clipPath: \"circle(0% at 50% 50%)\", duration: __DUR__, ease: \"power2.inOut\" }, __T__);",
+        "tl.fromTo(__NEW__, { clipPath: \"circle(0% at 50% 50%)\", opacity: 1 }, { clipPath: \"circle(150% at 50% 50%)\", duration: __DUR__, ease: \"power2.inOut\" }, __T__);"
+      ]
+    },
+    {
+      "name": "light-leak-flash",
+      "energy": "high",
+      "default_duration_s": 0.5,
+      "directions": [],
+      "source": "documentary-broll (craft-upgrade P1f — a bright flash-to-white punctuation, real analog-film-leak convention, distinct from dip-to-black's dark punctuation)",
+      "note": "SCOPE NOTE (checked before shipping, same discipline as dip-to-black): a REAL light-leak needs a warm-colored translucent overlay layer this registry's token set can't create (no scrim/new-element mechanism — see dip-to-black's own note). What IS honestly buildable: a brief flash-to-white via a brightness filter spike on both frames at the cut point, which reads as a real (if simpler) flash-punctuation without inventing an unsupported mechanism. Rare, deliberate accent only — same tier as whip-pan/iris.",
+      "gsap_template": [
+        "tl.to(__OLD__, { filter: \"brightness(2.6)\", opacity: 0, duration: __DUR__, ease: \"power2.in\" }, __T__);",
+        "tl.fromTo(__NEW__, { filter: \"brightness(2.6)\", opacity: 0 }, { filter: \"brightness(1)\", opacity: 1, duration: __DUR__, ease: \"power2.out\" }, __T__ + 0.08);"
+      ]
+    },
+    {
+      "name": "glitch-cut",
+      "energy": "high",
+      "default_duration_s": 0.25,
+      "directions": [],
+      "source": "documentary-broll (craft-upgrade P1g — a deliberate digital-glitch punctuation: a fast juddering hue/position stutter right at the cut, real convention for a jarring reveal/expose-style beat)",
+      "note": "The rarest-tier transition in this registry — even rarer than whip-pan. A real glitch effect needs pixel-level RGB channel splitting this token set can't produce; the honest, buildable version is a fast multi-step juddering position+hue-rotate stutter via several quick GSAP steps, which reads as a genuine digital-glitch accent without overclaiming a full RGB-split effect. Use for AT MOST one moment in an entire film, on a beat whose content is genuinely about a reveal/expose/malfunction — never a rotation pool member, never used twice in one video.",
+      "gsap_template": [
+        "tl.set(__OLD__, { filter: \"hue-rotate(0deg)\" }, __T__);",
+        "tl.to(__OLD__, { x: 8, filter: \"hue-rotate(90deg)\", duration: __DUR__ * 0.2, ease: \"none\" }, __T__);",
+        "tl.to(__OLD__, { x: -6, filter: \"hue-rotate(-60deg)\", opacity: 0.6, duration: __DUR__ * 0.2, ease: \"none\" }, __T__ + __DUR__ * 0.2);",
+        "tl.to(__OLD__, { x: 4, opacity: 0, duration: __DUR__ * 0.2, ease: \"none\" }, __T__ + __DUR__ * 0.4);",
+        "tl.set(__NEW__, { x: -4, filter: \"hue-rotate(60deg)\", opacity: 1 }, __T__ + __DUR__ * 0.5);",
+        "tl.to(__NEW__, { x: 0, filter: \"hue-rotate(0deg)\", duration: __DUR__ * 0.5, ease: \"power2.out\" }, __T__ + __DUR__ * 0.5);"
+      ]
     }
   ],
   "default_high_energy": "zoom-through",

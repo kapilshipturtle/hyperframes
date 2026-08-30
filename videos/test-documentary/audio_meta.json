@@ -1,0 +1,4432 @@
+{
+  "bgm": null,
+  "voices": [
+    {
+      "frame": 1,
+      "path": "assets/audio/narration.m4a",
+      "mediaStart": 0.1,
+      "duration_s": 8.41,
+      "words": [
+        {
+          "text": "If",
+          "start": 0,
+          "end": 0.03
+        },
+        {
+          "text": "you",
+          "start": 0.03,
+          "end": 0.23
+        },
+        {
+          "text": "were",
+          "start": 0.23,
+          "end": 0.5
+        },
+        {
+          "text": "born",
+          "start": 0.5,
+          "end": 0.77
+        },
+        {
+          "text": "before",
+          "start": 0.77,
+          "end": 1.18
+        },
+        {
+          "text": "1961,",
+          "start": 1.18,
+          "end": 2.1
+        },
+        {
+          "text": "there",
+          "start": 2.18,
+          "end": 2.38
+        },
+        {
+          "text": "is",
+          "start": 2.38,
+          "end": 2.49
+        },
+        {
+          "text": "a",
+          "start": 2.49,
+          "end": 2.54
+        },
+        {
+          "text": "number",
+          "start": 2.54,
+          "end": 2.9
+        },
+        {
+          "text": "you",
+          "start": 2.9,
+          "end": 3.05
+        },
+        {
+          "text": "need",
+          "start": 3.05,
+          "end": 3.26
+        },
+        {
+          "text": "to",
+          "start": 3.26,
+          "end": 3.36
+        },
+        {
+          "text": "know",
+          "start": 3.36,
+          "end": 3.58
+        },
+        {
+          "text": "before",
+          "start": 3.58,
+          "end": 3.82
+        },
+        {
+          "text": "you",
+          "start": 3.82,
+          "end": 3.9
+        },
+        {
+          "text": "sign",
+          "start": 3.9,
+          "end": 4.14
+        },
+        {
+          "text": "your",
+          "start": 4.14,
+          "end": 4.3
+        },
+        {
+          "text": "next",
+          "start": 4.3,
+          "end": 4.59
+        },
+        {
+          "text": "tax",
+          "start": 4.72,
+          "end": 4.8
+        },
+        {
+          "text": "return,",
+          "start": 4.82,
+          "end": 5.36
+        },
+        {
+          "text": "and",
+          "start": 5.36,
+          "end": 5.56
+        },
+        {
+          "text": "almost",
+          "start": 5.56,
+          "end": 5.96
+        },
+        {
+          "text": "nobody",
+          "start": 5.96,
+          "end": 6.38
+        },
+        {
+          "text": "has",
+          "start": 6.38,
+          "end": 6.58
+        },
+        {
+          "text": "done",
+          "start": 6.58,
+          "end": 6.64
+        },
+        {
+          "text": "the",
+          "start": 6.9,
+          "end": 7.05
+        },
+        {
+          "text": "arithmetic",
+          "start": 7.05,
+          "end": 7.73
+        },
+        {
+          "text": "out",
+          "start": 7.73,
+          "end": 7.93
+        },
+        {
+          "text": "loud.",
+          "start": 7.93,
+          "end": 8.41
+        }
+      ]
+    },
+    {
+      "frame": 2,
+      "path": "assets/audio/narration.m4a",
+      "mediaStart": 8.66,
+      "duration_s": 6.52,
+      "words": [
+        {
+          "text": "That",
+          "start": 0,
+          "end": 0.27
+        },
+        {
+          "text": "number",
+          "start": 0.27,
+          "end": 0.82
+        },
+        {
+          "text": "is",
+          "start": 0.82,
+          "end": 0.95
+        },
+        {
+          "text": "$47,500.",
+          "start": 1,
+          "end": 2.96
+        },
+        {
+          "text": "That",
+          "start": 3.06,
+          "end": 3.21
+        },
+        {
+          "text": "is",
+          "start": 3.21,
+          "end": 3.33
+        },
+        {
+          "text": "how",
+          "start": 3.33,
+          "end": 3.52
+        },
+        {
+          "text": "much",
+          "start": 3.52,
+          "end": 3.77
+        },
+        {
+          "text": "income",
+          "start": 3.77,
+          "end": 4.15
+        },
+        {
+          "text": "a",
+          "start": 4.15,
+          "end": 4.21
+        },
+        {
+          "text": "married",
+          "start": 4.21,
+          "end": 4.65
+        },
+        {
+          "text": "couple,",
+          "start": 4.65,
+          "end": 5.15
+        },
+        {
+          "text": "both",
+          "start": 5.23,
+          "end": 5.4
+        },
+        {
+          "text": "age",
+          "start": 5.4,
+          "end": 5.59
+        },
+        {
+          "text": "65",
+          "start": 5.59,
+          "end": 5.97
+        },
+        {
+          "text": "or",
+          "start": 5.97,
+          "end": 6.09
+        },
+        {
+          "text": "older,",
+          "start": 6.09,
+          "end": 6.52
+        }
+      ]
+    },
+    {
+      "frame": 3,
+      "path": "assets/audio/narration.m4a",
+      "mediaStart": 15.18,
+      "duration_s": 5.78,
+      "words": [
+        {
+          "text": "can",
+          "start": 0,
+          "end": 0.18
+        },
+        {
+          "text": "now",
+          "start": 0.19,
+          "end": 0.38
+        },
+        {
+          "text": "take",
+          "start": 0.38,
+          "end": 0.63
+        },
+        {
+          "text": "in",
+          "start": 0.63,
+          "end": 0.75
+        },
+        {
+          "text": "during",
+          "start": 0.75,
+          "end": 1.21
+        },
+        {
+          "text": "the",
+          "start": 1.32,
+          "end": 1.4
+        },
+        {
+          "text": "2026",
+          "start": 1.42,
+          "end": 2.21
+        },
+        {
+          "text": "tax",
+          "start": 2.27,
+          "end": 2.42
+        },
+        {
+          "text": "year",
+          "start": 2.42,
+          "end": 2.64
+        },
+        {
+          "text": "before",
+          "start": 2.69,
+          "end": 3.09
+        },
+        {
+          "text": "they",
+          "start": 3.09,
+          "end": 3.24
+        },
+        {
+          "text": "owe",
+          "start": 3.49,
+          "end": 3.56
+        },
+        {
+          "text": "a",
+          "start": 3.56,
+          "end": 3.62
+        },
+        {
+          "text": "single",
+          "start": 3.62,
+          "end": 4.02
+        },
+        {
+          "text": "dollar",
+          "start": 4.02,
+          "end": 4.42
+        },
+        {
+          "text": "of",
+          "start": 4.42,
+          "end": 4.55
+        },
+        {
+          "text": "federal",
+          "start": 4.55,
+          "end": 5.01
+        },
+        {
+          "text": "income",
+          "start": 5.11,
+          "end": 5.42
+        },
+        {
+          "text": "tax.",
+          "start": 5.42,
+          "end": 5.78
+        }
+      ]
+    },
+    {
+      "frame": 4,
+      "path": "assets/audio/narration.m4a",
+      "mediaStart": 21.16,
+      "duration_s": 3.91,
+      "words": [
+        {
+          "text": "Not",
+          "start": 0,
+          "end": 0.13
+        },
+        {
+          "text": "a",
+          "start": 0.13,
+          "end": 0.2
+        },
+        {
+          "text": "credit.",
+          "start": 0.2,
+          "end": 0.89
+        },
+        {
+          "text": "Not",
+          "start": 1,
+          "end": 1.13
+        },
+        {
+          "text": "a",
+          "start": 1.13,
+          "end": 1.2
+        },
+        {
+          "text": "rebate.",
+          "start": 1.2,
+          "end": 1.89
+        },
+        {
+          "text": "Not",
+          "start": 2,
+          "end": 2.06
+        },
+        {
+          "text": "something",
+          "start": 2.06,
+          "end": 2.53
+        },
+        {
+          "text": "you",
+          "start": 2.61,
+          "end": 2.72
+        },
+        {
+          "text": "apply",
+          "start": 2.72,
+          "end": 2.95
+        },
+        {
+          "text": "for",
+          "start": 3,
+          "end": 3.16
+        },
+        {
+          "text": "at",
+          "start": 3.16,
+          "end": 3.24
+        },
+        {
+          "text": "an",
+          "start": 3.26,
+          "end": 3.38
+        },
+        {
+          "text": "office.",
+          "start": 3.38,
+          "end": 3.91
+        }
+      ]
+    },
+    {
+      "frame": 5,
+      "path": "assets/audio/narration.m4a",
+      "mediaStart": 25.14,
+      "duration_s": 4.62,
+      "words": [
+        {
+          "text": "$47,500",
+          "start": 0,
+          "end": 0.93
+        },
+        {
+          "text": "of",
+          "start": 0.99,
+          "end": 1.11
+        },
+        {
+          "text": "income",
+          "start": 1.11,
+          "end": 1.42
+        },
+        {
+          "text": "that",
+          "start": 1.51,
+          "end": 1.71
+        },
+        {
+          "text": "the",
+          "start": 1.71,
+          "end": 1.89
+        },
+        {
+          "text": "federal",
+          "start": 1.89,
+          "end": 2.3
+        },
+        {
+          "text": "government",
+          "start": 2.3,
+          "end": 2.89
+        },
+        {
+          "text": "is",
+          "start": 2.89,
+          "end": 3.01
+        },
+        {
+          "text": "simply",
+          "start": 3.01,
+          "end": 3.35
+        },
+        {
+          "text": "not",
+          "start": 3.38,
+          "end": 3.55
+        },
+        {
+          "text": "permitted",
+          "start": 3.55,
+          "end": 4.08
+        },
+        {
+          "text": "to",
+          "start": 4.08,
+          "end": 4.2
+        },
+        {
+          "text": "tax.",
+          "start": 4.2,
+          "end": 4.62
+        }
+      ]
+    },
+    {
+      "frame": 6,
+      "path": "assets/audio/narration.m4a",
+      "mediaStart": 29.86,
+      "duration_s": 3.38,
+      "words": [
+        {
+          "text": "And",
+          "start": 0,
+          "end": 0.09
+        },
+        {
+          "text": "here",
+          "start": 0.11,
+          "end": 0.34
+        },
+        {
+          "text": "is",
+          "start": 0.34,
+          "end": 0.46
+        },
+        {
+          "text": "the",
+          "start": 0.46,
+          "end": 0.65
+        },
+        {
+          "text": "part",
+          "start": 0.65,
+          "end": 0.89
+        },
+        {
+          "text": "that",
+          "start": 0.95,
+          "end": 1.15
+        },
+        {
+          "text": "has",
+          "start": 1.15,
+          "end": 1.32
+        },
+        {
+          "text": "gone",
+          "start": 1.34,
+          "end": 1.59
+        },
+        {
+          "text": "almost",
+          "start": 1.59,
+          "end": 1.91
+        },
+        {
+          "text": "entirely",
+          "start": 2.18,
+          "end": 2.46
+        },
+        {
+          "text": "unexplained.",
+          "start": 2.46,
+          "end": 3.38
+        }
+      ]
+    },
+    {
+      "frame": 7,
+      "path": "assets/audio/narration.m4a",
+      "mediaStart": 33.34,
+      "duration_s": 4.78,
+      "words": [
+        {
+          "text": "The",
+          "start": 0,
+          "end": 0.04
+        },
+        {
+          "text": "figure",
+          "start": 0.04,
+          "end": 0.32
+        },
+        {
+          "text": "is",
+          "start": 0.32,
+          "end": 0.41
+        },
+        {
+          "text": "not",
+          "start": 0.41,
+          "end": 0.53
+        },
+        {
+          "text": "one",
+          "start": 0.61,
+          "end": 0.69
+        },
+        {
+          "text": "deduction.",
+          "start": 0.69,
+          "end": 1.28
+        },
+        {
+          "text": "It",
+          "start": 1.38,
+          "end": 1.4
+        },
+        {
+          "text": "is",
+          "start": 1.4,
+          "end": 1.52
+        },
+        {
+          "text": "three",
+          "start": 1.52,
+          "end": 1.83
+        },
+        {
+          "text": "separate",
+          "start": 1.83,
+          "end": 2.27
+        },
+        {
+          "text": "deductions",
+          "start": 2.33,
+          "end": 2.96
+        },
+        {
+          "text": "that",
+          "start": 2.96,
+          "end": 3.21
+        },
+        {
+          "text": "stack",
+          "start": 3.21,
+          "end": 3.3
+        },
+        {
+          "text": "on",
+          "start": 3.56,
+          "end": 3.64
+        },
+        {
+          "text": "top",
+          "start": 3.64,
+          "end": 3.83
+        },
+        {
+          "text": "of",
+          "start": 3.83,
+          "end": 3.95
+        },
+        {
+          "text": "each",
+          "start": 3.95,
+          "end": 4.2
+        },
+        {
+          "text": "other.",
+          "start": 4.2,
+          "end": 4.78
+        }
+      ]
+    },
+    {
+      "frame": 8,
+      "path": "assets/audio/narration.m4a",
+      "mediaStart": 38.22,
+      "duration_s": 3.49,
+      "words": [
+        {
+          "text": "Three.",
+          "start": 0,
+          "end": 0.89
+        },
+        {
+          "text": "Most",
+          "start": 1,
+          "end": 1.09
+        },
+        {
+          "text": "people",
+          "start": 1.11,
+          "end": 1.38
+        },
+        {
+          "text": "know",
+          "start": 1.38,
+          "end": 1.53
+        },
+        {
+          "text": "about",
+          "start": 1.61,
+          "end": 1.81
+        },
+        {
+          "text": "one.",
+          "start": 1.81,
+          "end": 2.14
+        },
+        {
+          "text": "Some",
+          "start": 2.24,
+          "end": 2.52
+        },
+        {
+          "text": "know",
+          "start": 2.52,
+          "end": 2.9
+        },
+        {
+          "text": "two.",
+          "start": 2.9,
+          "end": 3.49
+        }
+      ]
+    },
+    {
+      "frame": 9,
+      "path": "assets/audio/narration.m4a",
+      "mediaStart": 41.82,
+      "duration_s": 3.62,
+      "words": [
+        {
+          "text": "Almost",
+          "start": 0,
+          "end": 0.2
+        },
+        {
+          "text": "nobody",
+          "start": 0.2,
+          "end": 0.5
+        },
+        {
+          "text": "has",
+          "start": 0.5,
+          "end": 0.65
+        },
+        {
+          "text": "been",
+          "start": 0.65,
+          "end": 0.85
+        },
+        {
+          "text": "shown",
+          "start": 0.85,
+          "end": 1.1
+        },
+        {
+          "text": "all",
+          "start": 1.1,
+          "end": 1.24
+        },
+        {
+          "text": "three",
+          "start": 1.24,
+          "end": 1.5
+        },
+        {
+          "text": "in",
+          "start": 1.5,
+          "end": 1.6
+        },
+        {
+          "text": "the",
+          "start": 1.6,
+          "end": 1.74
+        },
+        {
+          "text": "same",
+          "start": 1.74,
+          "end": 1.91
+        },
+        {
+          "text": "column,",
+          "start": 2.17,
+          "end": 2.35
+        },
+        {
+          "text": "added",
+          "start": 2.35,
+          "end": 2.6
+        },
+        {
+          "text": "together",
+          "start": 2.6,
+          "end": 3
+        },
+        {
+          "text": "on",
+          "start": 3,
+          "end": 3.1
+        },
+        {
+          "text": "one",
+          "start": 3.1,
+          "end": 3.25
+        },
+        {
+          "text": "page.",
+          "start": 3.25,
+          "end": 3.62
+        }
+      ]
+    },
+    {
+      "frame": 10,
+      "path": "assets/audio/narration.m4a",
+      "mediaStart": 45.54,
+      "duration_s": 8.06,
+      "words": [
+        {
+          "text": "Which",
+          "start": 0,
+          "end": 0.15
+        },
+        {
+          "text": "means",
+          "start": 0.15,
+          "end": 0.4
+        },
+        {
+          "text": "most",
+          "start": 0.4,
+          "end": 0.53
+        },
+        {
+          "text": "people",
+          "start": 0.61,
+          "end": 0.89
+        },
+        {
+          "text": "over",
+          "start": 0.95,
+          "end": 1.1
+        },
+        {
+          "text": "65",
+          "start": 1.1,
+          "end": 1.38
+        },
+        {
+          "text": "are",
+          "start": 1.47,
+          "end": 1.55
+        },
+        {
+          "text": "walking",
+          "start": 1.55,
+          "end": 1.9
+        },
+        {
+          "text": "into",
+          "start": 1.9,
+          "end": 1.92
+        },
+        {
+          "text": "this",
+          "start": 2.17,
+          "end": 2.3
+        },
+        {
+          "text": "filing",
+          "start": 2.3,
+          "end": 2.6
+        },
+        {
+          "text": "season",
+          "start": 2.6,
+          "end": 2.9
+        },
+        {
+          "text": "with",
+          "start": 2.9,
+          "end": 3.1
+        },
+        {
+          "text": "a",
+          "start": 3.1,
+          "end": 3.15
+        },
+        {
+          "text": "picture",
+          "start": 3.15,
+          "end": 3.5
+        },
+        {
+          "text": "of",
+          "start": 3.5,
+          "end": 3.67
+        },
+        {
+          "text": "their",
+          "start": 3.78,
+          "end": 4.06
+        },
+        {
+          "text": "tax",
+          "start": 4.06,
+          "end": 4.29
+        },
+        {
+          "text": "situation",
+          "start": 4.29,
+          "end": 4.98
+        },
+        {
+          "text": "that",
+          "start": 4.98,
+          "end": 5.28
+        },
+        {
+          "text": "is",
+          "start": 5.28,
+          "end": 5.43
+        },
+        {
+          "text": "wrong",
+          "start": 5.43,
+          "end": 5.69
+        },
+        {
+          "text": "by",
+          "start": 5.95,
+          "end": 5.96
+        },
+        {
+          "text": "tens",
+          "start": 5.96,
+          "end": 6.26
+        },
+        {
+          "text": "of",
+          "start": 6.26,
+          "end": 6.41
+        },
+        {
+          "text": "thousands",
+          "start": 6.41,
+          "end": 7.09
+        },
+        {
+          "text": "of",
+          "start": 7.12,
+          "end": 7.25
+        },
+        {
+          "text": "dollars.",
+          "start": 7.25,
+          "end": 8.06
+        }
+      ]
+    },
+    {
+      "frame": 11,
+      "path": "assets/audio/narration.m4a",
+      "mediaStart": 53.7,
+      "duration_s": 3.94,
+      "words": [
+        {
+          "text": "They",
+          "start": 0,
+          "end": 0.09
+        },
+        {
+          "text": "withhold",
+          "start": 0.11,
+          "end": 0.46
+        },
+        {
+          "text": "money",
+          "start": 0.46,
+          "end": 0.7
+        },
+        {
+          "text": "they",
+          "start": 0.7,
+          "end": 0.89
+        },
+        {
+          "text": "will",
+          "start": 0.89,
+          "end": 1.08
+        },
+        {
+          "text": "never",
+          "start": 1.08,
+          "end": 1.31
+        },
+        {
+          "text": "owe.",
+          "start": 1.31,
+          "end": 1.62
+        },
+        {
+          "text": "They",
+          "start": 1.72,
+          "end": 1.85
+        },
+        {
+          "text": "pass",
+          "start": 1.85,
+          "end": 2.08
+        },
+        {
+          "text": "up",
+          "start": 2.08,
+          "end": 2.19
+        },
+        {
+          "text": "income",
+          "start": 2.19,
+          "end": 2.53
+        },
+        {
+          "text": "they",
+          "start": 2.53,
+          "end": 2.76
+        },
+        {
+          "text": "could",
+          "start": 2.76,
+          "end": 3.04
+        },
+        {
+          "text": "take",
+          "start": 3.05,
+          "end": 3.28
+        },
+        {
+          "text": "tax-free.",
+          "start": 3.28,
+          "end": 3.94
+        }
+      ]
+    },
+    {
+      "frame": 12,
+      "path": "assets/audio/narration.m4a",
+      "mediaStart": 57.74,
+      "duration_s": 3.02,
+      "words": [
+        {
+          "text": "They",
+          "start": 0,
+          "end": 0.14
+        },
+        {
+          "text": "pay",
+          "start": 0.14,
+          "end": 0.32
+        },
+        {
+          "text": "a",
+          "start": 0.32,
+          "end": 0.38
+        },
+        {
+          "text": "preparer",
+          "start": 0.38,
+          "end": 0.84
+        },
+        {
+          "text": "who",
+          "start": 0.84,
+          "end": 1.02
+        },
+        {
+          "text": "checks",
+          "start": 1.02,
+          "end": 1.33
+        },
+        {
+          "text": "one",
+          "start": 1.37,
+          "end": 1.55
+        },
+        {
+          "text": "box",
+          "start": 1.55,
+          "end": 1.73
+        },
+        {
+          "text": "and",
+          "start": 1.73,
+          "end": 1.91
+        },
+        {
+          "text": "misses",
+          "start": 1.91,
+          "end": 2.26
+        },
+        {
+          "text": "two",
+          "start": 2.26,
+          "end": 2.44
+        },
+        {
+          "text": "others.",
+          "start": 2.44,
+          "end": 3.02
+        }
+      ]
+    },
+    {
+      "frame": 13,
+      "path": "assets/audio/narration.m4a",
+      "mediaStart": 60.76,
+      "duration_s": 3.92,
+      "words": [
+        {
+          "text": "I",
+          "start": 0,
+          "end": 0.1
+        },
+        {
+          "text": "am",
+          "start": 0.1,
+          "end": 0.19
+        },
+        {
+          "text": "going",
+          "start": 0.21,
+          "end": 0.51
+        },
+        {
+          "text": "to",
+          "start": 0.51,
+          "end": 0.63
+        },
+        {
+          "text": "build",
+          "start": 0.64,
+          "end": 0.96
+        },
+        {
+          "text": "that",
+          "start": 0.96,
+          "end": 1.22
+        },
+        {
+          "text": "stack",
+          "start": 1.22,
+          "end": 1.48
+        },
+        {
+          "text": "one",
+          "start": 1.57,
+          "end": 1.73
+        },
+        {
+          "text": "layer",
+          "start": 1.73,
+          "end": 2.01
+        },
+        {
+          "text": "at",
+          "start": 2.01,
+          "end": 2.145
+        },
+        {
+          "text": "a",
+          "start": 2.145,
+          "end": 2.28
+        },
+        {
+          "text": "time",
+          "start": 2.28,
+          "end": 2.5
+        },
+        {
+          "text": "with",
+          "start": 2.5,
+          "end": 2.76
+        },
+        {
+          "text": "the",
+          "start": 2.76,
+          "end": 2.95
+        },
+        {
+          "text": "real",
+          "start": 2.95,
+          "end": 3.21
+        },
+        {
+          "text": "numbers.",
+          "start": 3.21,
+          "end": 3.92
+        }
+      ]
+    },
+    {
+      "frame": 14,
+      "path": "assets/audio/narration.m4a",
+      "mediaStart": 64.78,
+      "duration_s": 4.38,
+      "words": [
+        {
+          "text": "And",
+          "start": 0,
+          "end": 0.08
+        },
+        {
+          "text": "then",
+          "start": 0.08,
+          "end": 0.33
+        },
+        {
+          "text": "I",
+          "start": 0.33,
+          "end": 0.39
+        },
+        {
+          "text": "am",
+          "start": 0.39,
+          "end": 0.51
+        },
+        {
+          "text": "going",
+          "start": 0.51,
+          "end": 0.82
+        },
+        {
+          "text": "to",
+          "start": 0.82,
+          "end": 0.9
+        },
+        {
+          "text": "show",
+          "start": 0.95,
+          "end": 1.19
+        },
+        {
+          "text": "you",
+          "start": 1.19,
+          "end": 1.33
+        },
+        {
+          "text": "the",
+          "start": 1.37,
+          "end": 1.55
+        },
+        {
+          "text": "thing",
+          "start": 1.55,
+          "end": 1.86
+        },
+        {
+          "text": "that",
+          "start": 1.86,
+          "end": 1.92
+        },
+        {
+          "text": "makes",
+          "start": 2.18,
+          "end": 2.42
+        },
+        {
+          "text": "$47,500",
+          "start": 2.42,
+          "end": 3.53
+        },
+        {
+          "text": "look",
+          "start": 3.53,
+          "end": 3.69
+        },
+        {
+          "text": "small.",
+          "start": 3.79,
+          "end": 4.38
+        }
+      ]
+    },
+    {
+      "frame": 15,
+      "path": "assets/audio/narration.m4a",
+      "mediaStart": 69.26,
+      "duration_s": 9.38,
+      "words": [
+        {
+          "text": "Because",
+          "start": 0,
+          "end": 0.28
+        },
+        {
+          "text": "for",
+          "start": 0.28,
+          "end": 0.44
+        },
+        {
+          "text": "a",
+          "start": 0.44,
+          "end": 0.49
+        },
+        {
+          "text": "household",
+          "start": 0.49,
+          "end": 0.95
+        },
+        {
+          "text": "living",
+          "start": 1,
+          "end": 1.3
+        },
+        {
+          "text": "mostly",
+          "start": 1.3,
+          "end": 1.62
+        },
+        {
+          "text": "on",
+          "start": 1.62,
+          "end": 1.73
+        },
+        {
+          "text": "Social",
+          "start": 1.73,
+          "end": 1.92
+        },
+        {
+          "text": "Security,",
+          "start": 2.18,
+          "end": 2.58
+        },
+        {
+          "text": "the",
+          "start": 2.58,
+          "end": 2.74
+        },
+        {
+          "text": "actual",
+          "start": 2.74,
+          "end": 3.06
+        },
+        {
+          "text": "cash",
+          "start": 3.06,
+          "end": 3.26
+        },
+        {
+          "text": "you",
+          "start": 3.3,
+          "end": 3.43
+        },
+        {
+          "text": "can",
+          "start": 3.43,
+          "end": 3.6
+        },
+        {
+          "text": "receive",
+          "start": 3.6,
+          "end": 4.08
+        },
+        {
+          "text": "in",
+          "start": 4.18,
+          "end": 4.23
+        },
+        {
+          "text": "a",
+          "start": 4.23,
+          "end": 4.3
+        },
+        {
+          "text": "year",
+          "start": 4.3,
+          "end": 4.6
+        },
+        {
+          "text": "and",
+          "start": 4.6,
+          "end": 4.83
+        },
+        {
+          "text": "still",
+          "start": 4.83,
+          "end": 5.21
+        },
+        {
+          "text": "owe",
+          "start": 5.21,
+          "end": 5.43
+        },
+        {
+          "text": "zero",
+          "start": 5.45,
+          "end": 5.74
+        },
+        {
+          "text": "federal",
+          "start": 5.74,
+          "end": 6.09
+        },
+        {
+          "text": "income",
+          "start": 6.36,
+          "end": 6.73
+        },
+        {
+          "text": "tax",
+          "start": 6.73,
+          "end": 6.96
+        },
+        {
+          "text": "is",
+          "start": 6.96,
+          "end": 7.1
+        },
+        {
+          "text": "closer",
+          "start": 7.11,
+          "end": 7.57
+        },
+        {
+          "text": "to",
+          "start": 7.57,
+          "end": 7.72
+        },
+        {
+          "text": "$80,000.",
+          "start": 7.72,
+          "end": 9.38
+        }
+      ]
+    },
+    {
+      "frame": 16,
+      "path": "assets/audio/narration.m4a",
+      "mediaStart": 78.74,
+      "duration_s": 7.82,
+      "words": [
+        {
+          "text": "Now",
+          "start": 0,
+          "end": 0.05
+        },
+        {
+          "text": "some",
+          "start": 0.05,
+          "end": 0.26
+        },
+        {
+          "text": "of",
+          "start": 0.26,
+          "end": 0.36
+        },
+        {
+          "text": "you",
+          "start": 0.36,
+          "end": 0.51
+        },
+        {
+          "text": "are",
+          "start": 0.51,
+          "end": 0.66
+        },
+        {
+          "text": "already",
+          "start": 0.66,
+          "end": 1.02
+        },
+        {
+          "text": "thinking",
+          "start": 1.02,
+          "end": 1.39
+        },
+        {
+          "text": "the",
+          "start": 1.47,
+          "end": 1.58
+        },
+        {
+          "text": "obvious",
+          "start": 1.58,
+          "end": 1.91
+        },
+        {
+          "text": "thing.",
+          "start": 2.17,
+          "end": 2.42
+        },
+        {
+          "text": "If",
+          "start": 2.52,
+          "end": 2.57
+        },
+        {
+          "text": "this",
+          "start": 2.57,
+          "end": 2.86
+        },
+        {
+          "text": "is",
+          "start": 2.86,
+          "end": 3.01
+        },
+        {
+          "text": "real,",
+          "start": 3.01,
+          "end": 3.41
+        },
+        {
+          "text": "and",
+          "start": 3.47,
+          "end": 3.66
+        },
+        {
+          "text": "if",
+          "start": 3.66,
+          "end": 3.81
+        },
+        {
+          "text": "it",
+          "start": 3.81,
+          "end": 3.92
+        },
+        {
+          "text": "is",
+          "start": 3.99,
+          "end": 4.11
+        },
+        {
+          "text": "this",
+          "start": 4.11,
+          "end": 4.4
+        },
+        {
+          "text": "large,",
+          "start": 4.4,
+          "end": 4.91
+        },
+        {
+          "text": "why",
+          "start": 4.91,
+          "end": 5.13
+        },
+        {
+          "text": "has",
+          "start": 5.13,
+          "end": 5.35
+        },
+        {
+          "text": "nobody",
+          "start": 5.35,
+          "end": 5.78
+        },
+        {
+          "text": "sat",
+          "start": 5.82,
+          "end": 6.01
+        },
+        {
+          "text": "me",
+          "start": 6.01,
+          "end": 6.16
+        },
+        {
+          "text": "down",
+          "start": 6.16,
+          "end": 6.45
+        },
+        {
+          "text": "and",
+          "start": 6.45,
+          "end": 6.67
+        },
+        {
+          "text": "explained",
+          "start": 6.67,
+          "end": 7.3
+        },
+        {
+          "text": "it?",
+          "start": 7.34,
+          "end": 7.82
+        }
+      ]
+    },
+    {
+      "frame": 17,
+      "path": "assets/audio/narration.m4a",
+      "mediaStart": 86.66,
+      "duration_s": 4.58,
+      "words": [
+        {
+          "text": "That",
+          "start": 0,
+          "end": 0.12
+        },
+        {
+          "text": "is",
+          "start": 0.12,
+          "end": 0.23
+        },
+        {
+          "text": "a",
+          "start": 0.23,
+          "end": 0.28
+        },
+        {
+          "text": "fair",
+          "start": 0.28,
+          "end": 0.5
+        },
+        {
+          "text": "question",
+          "start": 0.5,
+          "end": 0.89
+        },
+        {
+          "text": "and",
+          "start": 0.95,
+          "end": 1.11
+        },
+        {
+          "text": "the",
+          "start": 1.11,
+          "end": 1.24
+        },
+        {
+          "text": "answer",
+          "start": 1.27,
+          "end": 1.6
+        },
+        {
+          "text": "is",
+          "start": 1.6,
+          "end": 1.71
+        },
+        {
+          "text": "not",
+          "start": 1.71,
+          "end": 1.87
+        },
+        {
+          "text": "a",
+          "start": 1.87,
+          "end": 1.91
+        },
+        {
+          "text": "conspiracy.",
+          "start": 2.18,
+          "end": 2.72
+        },
+        {
+          "text": "It",
+          "start": 2.82,
+          "end": 2.84
+        },
+        {
+          "text": "is",
+          "start": 2.84,
+          "end": 2.96
+        },
+        {
+          "text": "much",
+          "start": 2.96,
+          "end": 3.2
+        },
+        {
+          "text": "more",
+          "start": 3.2,
+          "end": 3.44
+        },
+        {
+          "text": "ordinary",
+          "start": 3.44,
+          "end": 3.91
+        },
+        {
+          "text": "than",
+          "start": 3.91,
+          "end": 4.14
+        },
+        {
+          "text": "that.",
+          "start": 4.15,
+          "end": 4.58
+        }
+      ]
+    },
+    {
+      "frame": 18,
+      "path": "assets/audio/narration.m4a",
+      "mediaStart": 91.34,
+      "duration_s": 4.94,
+      "words": [
+        {
+          "text": "The",
+          "start": 0,
+          "end": 0.03
+        },
+        {
+          "text": "three",
+          "start": 0.03,
+          "end": 0.25
+        },
+        {
+          "text": "pieces",
+          "start": 0.25,
+          "end": 0.52
+        },
+        {
+          "text": "of",
+          "start": 0.52,
+          "end": 0.53
+        },
+        {
+          "text": "this",
+          "start": 0.61,
+          "end": 0.79
+        },
+        {
+          "text": "stack",
+          "start": 0.79,
+          "end": 1.01
+        },
+        {
+          "text": "were",
+          "start": 1.01,
+          "end": 1.19
+        },
+        {
+          "text": "created",
+          "start": 1.19,
+          "end": 1.5
+        },
+        {
+          "text": "at",
+          "start": 1.5,
+          "end": 1.59
+        },
+        {
+          "text": "three",
+          "start": 1.59,
+          "end": 1.81
+        },
+        {
+          "text": "different",
+          "start": 1.81,
+          "end": 2.21
+        },
+        {
+          "text": "times",
+          "start": 2.21,
+          "end": 2.43
+        },
+        {
+          "text": "by",
+          "start": 2.43,
+          "end": 2.52
+        },
+        {
+          "text": "three",
+          "start": 2.52,
+          "end": 2.74
+        },
+        {
+          "text": "different",
+          "start": 2.74,
+          "end": 3.22
+        },
+        {
+          "text": "acts",
+          "start": 3.32,
+          "end": 3.61
+        },
+        {
+          "text": "of",
+          "start": 3.63,
+          "end": 3.82
+        },
+        {
+          "text": "Congress.",
+          "start": 3.82,
+          "end": 4.94
+        }
+      ]
+    },
+    {
+      "frame": 19,
+      "path": "assets/audio/narration.m4a",
+      "mediaStart": 96.38,
+      "duration_s": 5.46,
+      "words": [
+        {
+          "text": "The",
+          "start": 0,
+          "end": 0.06
+        },
+        {
+          "text": "base",
+          "start": 0.06,
+          "end": 0.27
+        },
+        {
+          "text": "standard",
+          "start": 0.27,
+          "end": 0.7
+        },
+        {
+          "text": "deduction",
+          "start": 0.7,
+          "end": 1.19
+        },
+        {
+          "text": "has",
+          "start": 1.19,
+          "end": 1.33
+        },
+        {
+          "text": "existed",
+          "start": 1.37,
+          "end": 1.73
+        },
+        {
+          "text": "for",
+          "start": 1.73,
+          "end": 1.89
+        },
+        {
+          "text": "decades.",
+          "start": 1.89,
+          "end": 2.48
+        },
+        {
+          "text": "The",
+          "start": 2.58,
+          "end": 2.64
+        },
+        {
+          "text": "senior",
+          "start": 2.64,
+          "end": 2.96
+        },
+        {
+          "text": "add-on",
+          "start": 2.96,
+          "end": 3.27
+        },
+        {
+          "text": "has",
+          "start": 3.27,
+          "end": 3.43
+        },
+        {
+          "text": "been",
+          "start": 3.43,
+          "end": 3.64
+        },
+        {
+          "text": "in",
+          "start": 3.64,
+          "end": 3.74
+        },
+        {
+          "text": "the",
+          "start": 3.74,
+          "end": 3.9
+        },
+        {
+          "text": "code",
+          "start": 3.9,
+          "end": 4.11
+        },
+        {
+          "text": "since",
+          "start": 4.11,
+          "end": 4.38
+        },
+        {
+          "text": "the",
+          "start": 4.38,
+          "end": 4.5
+        },
+        {
+          "text": "1980s.",
+          "start": 4.76,
+          "end": 5.46
+        }
+      ]
+    },
+    {
+      "frame": 20,
+      "path": "assets/audio/narration.m4a",
+      "mediaStart": 101.94,
+      "duration_s": 6.22,
+      "words": [
+        {
+          "text": "The",
+          "start": 0,
+          "end": 0.09
+        },
+        {
+          "text": "third",
+          "start": 0.11,
+          "end": 0.41
+        },
+        {
+          "text": "and",
+          "start": 0.41,
+          "end": 0.53
+        },
+        {
+          "text": "largest",
+          "start": 0.61,
+          "end": 1.04
+        },
+        {
+          "text": "piece",
+          "start": 1.04,
+          "end": 1.33
+        },
+        {
+          "text": "is",
+          "start": 1.37,
+          "end": 1.48
+        },
+        {
+          "text": "brand",
+          "start": 1.48,
+          "end": 1.8
+        },
+        {
+          "text": "new,",
+          "start": 1.8,
+          "end": 2.11
+        },
+        {
+          "text": "created",
+          "start": 2.18,
+          "end": 2.55
+        },
+        {
+          "text": "in",
+          "start": 2.55,
+          "end": 2.67
+        },
+        {
+          "text": "2025,",
+          "start": 2.67,
+          "end": 3.55
+        },
+        {
+          "text": "in",
+          "start": 3.55,
+          "end": 3.67
+        },
+        {
+          "text": "effect",
+          "start": 3.67,
+          "end": 4.05
+        },
+        {
+          "text": "for",
+          "start": 4.05,
+          "end": 4.24
+        },
+        {
+          "text": "only",
+          "start": 4.24,
+          "end": 4.46
+        },
+        {
+          "text": "a",
+          "start": 4.53,
+          "end": 4.54
+        },
+        {
+          "text": "four-year",
+          "start": 4.55,
+          "end": 5.22
+        },
+        {
+          "text": "window.",
+          "start": 5.22,
+          "end": 6.22
+        }
+      ]
+    },
+    {
+      "frame": 21,
+      "path": "assets/audio/narration.m4a",
+      "mediaStart": 108.26,
+      "duration_s": 7.34,
+      "words": [
+        {
+          "text": "Nobody",
+          "start": 0,
+          "end": 0.25
+        },
+        {
+          "text": "ever",
+          "start": 0.25,
+          "end": 0.48
+        },
+        {
+          "text": "wrote",
+          "start": 0.48,
+          "end": 0.77
+        },
+        {
+          "text": "a",
+          "start": 0.77,
+          "end": 0.83
+        },
+        {
+          "text": "single",
+          "start": 0.83,
+          "end": 1.18
+        },
+        {
+          "text": "law",
+          "start": 1.18,
+          "end": 1.33
+        },
+        {
+          "text": "called",
+          "start": 1.37,
+          "end": 1.7
+        },
+        {
+          "text": "the",
+          "start": 1.7,
+          "end": 1.87
+        },
+        {
+          "text": "senior",
+          "start": 1.87,
+          "end": 2.22
+        },
+        {
+          "text": "tax",
+          "start": 2.22,
+          "end": 2.39
+        },
+        {
+          "text": "break.",
+          "start": 2.39,
+          "end": 2.94
+        },
+        {
+          "text": "Three",
+          "start": 3.04,
+          "end": 3.22
+        },
+        {
+          "text": "separate",
+          "start": 3.22,
+          "end": 3.68
+        },
+        {
+          "text": "provisions",
+          "start": 3.68,
+          "end": 4.25
+        },
+        {
+          "text": "simply",
+          "start": 4.25,
+          "end": 4.59
+        },
+        {
+          "text": "happened",
+          "start": 4.59,
+          "end": 4.95
+        },
+        {
+          "text": "to",
+          "start": 4.95,
+          "end": 5.22
+        },
+        {
+          "text": "land",
+          "start": 5.22,
+          "end": 5.39
+        },
+        {
+          "text": "on",
+          "start": 5.39,
+          "end": 5.5
+        },
+        {
+          "text": "the",
+          "start": 5.5,
+          "end": 5.67
+        },
+        {
+          "text": "same",
+          "start": 5.67,
+          "end": 5.9
+        },
+        {
+          "text": "taxpayer",
+          "start": 5.9,
+          "end": 6.35
+        },
+        {
+          "text": "at",
+          "start": 6.38,
+          "end": 6.47
+        },
+        {
+          "text": "the",
+          "start": 6.47,
+          "end": 6.64
+        },
+        {
+          "text": "same",
+          "start": 6.64,
+          "end": 6.87
+        },
+        {
+          "text": "time.",
+          "start": 6.87,
+          "end": 7.34
+        }
+      ]
+    },
+    {
+      "frame": 22,
+      "path": "assets/audio/narration.m4a",
+      "mediaStart": 115.7,
+      "duration_s": 3.31,
+      "words": [
+        {
+          "text": "So",
+          "start": 0,
+          "end": 0.02
+        },
+        {
+          "text": "when",
+          "start": 0.02,
+          "end": 0.26
+        },
+        {
+          "text": "the",
+          "start": 0.26,
+          "end": 0.44
+        },
+        {
+          "text": "news",
+          "start": 0.44,
+          "end": 0.68
+        },
+        {
+          "text": "covered",
+          "start": 0.68,
+          "end": 1.1
+        },
+        {
+          "text": "the",
+          "start": 1.1,
+          "end": 1.28
+        },
+        {
+          "text": "new",
+          "start": 1.28,
+          "end": 1.4
+        },
+        {
+          "text": "law,",
+          "start": 1.47,
+          "end": 1.76
+        },
+        {
+          "text": "they",
+          "start": 1.76,
+          "end": 1.91
+        },
+        {
+          "text": "covered",
+          "start": 2.17,
+          "end": 2.42
+        },
+        {
+          "text": "the",
+          "start": 2.42,
+          "end": 2.6
+        },
+        {
+          "text": "new",
+          "start": 2.6,
+          "end": 2.78
+        },
+        {
+          "text": "piece.",
+          "start": 2.78,
+          "end": 3.31
+        }
+      ]
+    },
+    {
+      "frame": 23,
+      "path": "assets/audio/narration.m4a",
+      "mediaStart": 119.14,
+      "duration_s": 6.54,
+      "words": [
+        {
+          "text": "When",
+          "start": 0,
+          "end": 0.14
+        },
+        {
+          "text": "the",
+          "start": 0.14,
+          "end": 0.32
+        },
+        {
+          "text": "software",
+          "start": 0.32,
+          "end": 0.81
+        },
+        {
+          "text": "updated,",
+          "start": 0.81,
+          "end": 1.35
+        },
+        {
+          "text": "it",
+          "start": 1.37,
+          "end": 1.48
+        },
+        {
+          "text": "updated",
+          "start": 1.48,
+          "end": 1.91
+        },
+        {
+          "text": "one",
+          "start": 1.91,
+          "end": 1.92
+        },
+        {
+          "text": "field.",
+          "start": 2.18,
+          "end": 2.62
+        },
+        {
+          "text": "When",
+          "start": 2.72,
+          "end": 2.85
+        },
+        {
+          "text": "your",
+          "start": 2.85,
+          "end": 3.08
+        },
+        {
+          "text": "preparer",
+          "start": 3.08,
+          "end": 3.53
+        },
+        {
+          "text": "looked",
+          "start": 3.53,
+          "end": 3.87
+        },
+        {
+          "text": "at",
+          "start": 3.87,
+          "end": 3.96
+        },
+        {
+          "text": "your",
+          "start": 3.99,
+          "end": 4.21
+        },
+        {
+          "text": "return,",
+          "start": 4.21,
+          "end": 4.64
+        },
+        {
+          "text": "he",
+          "start": 4.64,
+          "end": 4.89
+        },
+        {
+          "text": "looked",
+          "start": 4.89,
+          "end": 5.11
+        },
+        {
+          "text": "at",
+          "start": 5.11,
+          "end": 5.22
+        },
+        {
+          "text": "the",
+          "start": 5.22,
+          "end": 5.39
+        },
+        {
+          "text": "line",
+          "start": 5.39,
+          "end": 5.62
+        },
+        {
+          "text": "in",
+          "start": 5.62,
+          "end": 5.73
+        },
+        {
+          "text": "front",
+          "start": 5.73,
+          "end": 5.98
+        },
+        {
+          "text": "of",
+          "start": 6.02,
+          "end": 6.12
+        },
+        {
+          "text": "him.",
+          "start": 6.12,
+          "end": 6.54
+        }
+      ]
+    },
+    {
+      "frame": 24,
+      "path": "assets/audio/narration.m4a",
+      "mediaStart": 125.78,
+      "duration_s": 5.74,
+      "words": [
+        {
+          "text": "Every",
+          "start": 0,
+          "end": 0.13
+        },
+        {
+          "text": "one",
+          "start": 0.13,
+          "end": 0.25
+        },
+        {
+          "text": "of",
+          "start": 0.26,
+          "end": 0.35
+        },
+        {
+          "text": "them",
+          "start": 0.35,
+          "end": 0.53
+        },
+        {
+          "text": "did",
+          "start": 0.53,
+          "end": 0.66
+        },
+        {
+          "text": "their",
+          "start": 0.66,
+          "end": 0.89
+        },
+        {
+          "text": "job",
+          "start": 0.89,
+          "end": 1.02
+        },
+        {
+          "text": "correctly,",
+          "start": 1.02,
+          "end": 1.52
+        },
+        {
+          "text": "and",
+          "start": 1.52,
+          "end": 1.65
+        },
+        {
+          "text": "not",
+          "start": 1.65,
+          "end": 1.78
+        },
+        {
+          "text": "one",
+          "start": 1.78,
+          "end": 1.91
+        },
+        {
+          "text": "of",
+          "start": 1.91,
+          "end": 1.92
+        },
+        {
+          "text": "them",
+          "start": 2.17,
+          "end": 2.18
+        },
+        {
+          "text": "was",
+          "start": 2.18,
+          "end": 2.31
+        },
+        {
+          "text": "responsible",
+          "start": 2.31,
+          "end": 2.81
+        },
+        {
+          "text": "for",
+          "start": 2.81,
+          "end": 2.94
+        },
+        {
+          "text": "standing",
+          "start": 2.94,
+          "end": 3.42
+        },
+        {
+          "text": "back",
+          "start": 3.52,
+          "end": 3.77
+        },
+        {
+          "text": "and",
+          "start": 3.77,
+          "end": 4.03
+        },
+        {
+          "text": "adding",
+          "start": 4.03,
+          "end": 4.56
+        },
+        {
+          "text": "up",
+          "start": 4.56,
+          "end": 4.73
+        },
+        {
+          "text": "the",
+          "start": 4.73,
+          "end": 4.91
+        },
+        {
+          "text": "total.",
+          "start": 4.99,
+          "end": 5.74
+        }
+      ]
+    },
+    {
+      "frame": 25,
+      "path": "assets/audio/narration.m4a",
+      "mediaStart": 131.62,
+      "duration_s": 7.09,
+      "words": [
+        {
+          "text": "That",
+          "start": 0,
+          "end": 0.12
+        },
+        {
+          "text": "is",
+          "start": 0.12,
+          "end": 0.23
+        },
+        {
+          "text": "why",
+          "start": 0.23,
+          "end": 0.4
+        },
+        {
+          "text": "the",
+          "start": 0.4,
+          "end": 0.53
+        },
+        {
+          "text": "total",
+          "start": 0.61,
+          "end": 0.85
+        },
+        {
+          "text": "has",
+          "start": 0.85,
+          "end": 1.02
+        },
+        {
+          "text": "never",
+          "start": 1.02,
+          "end": 1.3
+        },
+        {
+          "text": "been",
+          "start": 1.3,
+          "end": 1.52
+        },
+        {
+          "text": "explained",
+          "start": 1.52,
+          "end": 1.91
+        },
+        {
+          "text": "to",
+          "start": 1.91,
+          "end": 2.18
+        },
+        {
+          "text": "you.",
+          "start": 2.18,
+          "end": 2.54
+        },
+        {
+          "text": "Not",
+          "start": 2.64,
+          "end": 2.68
+        },
+        {
+          "text": "because",
+          "start": 2.68,
+          "end": 3.02
+        },
+        {
+          "text": "it",
+          "start": 3.02,
+          "end": 3.11
+        },
+        {
+          "text": "is",
+          "start": 3.11,
+          "end": 3.17
+        },
+        {
+          "text": "hidden,",
+          "start": 3.25,
+          "end": 3.54
+        },
+        {
+          "text": "but",
+          "start": 3.59,
+          "end": 3.72
+        },
+        {
+          "text": "because",
+          "start": 3.72,
+          "end": 4.02
+        },
+        {
+          "text": "nobody",
+          "start": 4.11,
+          "end": 4.35
+        },
+        {
+          "text": "in",
+          "start": 4.35,
+          "end": 4.44
+        },
+        {
+          "text": "the",
+          "start": 4.44,
+          "end": 4.55
+        },
+        {
+          "text": "system",
+          "start": 4.81,
+          "end": 4.87
+        },
+        {
+          "text": "is",
+          "start": 4.87,
+          "end": 4.96
+        },
+        {
+          "text": "assigned",
+          "start": 4.96,
+          "end": 5.34
+        },
+        {
+          "text": "the",
+          "start": 5.34,
+          "end": 5.48
+        },
+        {
+          "text": "job",
+          "start": 5.48,
+          "end": 5.62
+        },
+        {
+          "text": "of",
+          "start": 5.62,
+          "end": 5.71
+        },
+        {
+          "text": "adding",
+          "start": 5.71,
+          "end": 6.1
+        },
+        {
+          "text": "it",
+          "start": 6.2,
+          "end": 6.38
+        },
+        {
+          "text": "up.",
+          "start": 6.38,
+          "end": 7.09
+        }
+      ]
+    },
+    {
+      "frame": 26,
+      "path": "assets/audio/narration.m4a",
+      "mediaStart": 138.82,
+      "duration_s": 6.8,
+      "words": [
+        {
+          "text": "Today,",
+          "start": 0,
+          "end": 0.49
+        },
+        {
+          "text": "that",
+          "start": 0.49,
+          "end": 0.83
+        },
+        {
+          "text": "is",
+          "start": 0.83,
+          "end": 0.95
+        },
+        {
+          "text": "the",
+          "start": 1,
+          "end": 1.24
+        },
+        {
+          "text": "job.",
+          "start": 1.24,
+          "end": 1.78
+        },
+        {
+          "text": "Stay",
+          "start": 1.88,
+          "end": 2.05
+        },
+        {
+          "text": "with",
+          "start": 2.05,
+          "end": 2.32
+        },
+        {
+          "text": "me,",
+          "start": 2.32,
+          "end": 2.58
+        },
+        {
+          "text": "because",
+          "start": 2.58,
+          "end": 3.05
+        },
+        {
+          "text": "the",
+          "start": 3.05,
+          "end": 3.2
+        },
+        {
+          "text": "two",
+          "start": 3.25,
+          "end": 3.45
+        },
+        {
+          "text": "most",
+          "start": 3.45,
+          "end": 3.72
+        },
+        {
+          "text": "valuable",
+          "start": 3.72,
+          "end": 4.26
+        },
+        {
+          "text": "things",
+          "start": 4.26,
+          "end": 4.66
+        },
+        {
+          "text": "here",
+          "start": 4.66,
+          "end": 4.93
+        },
+        {
+          "text": "are",
+          "start": 4.93,
+          "end": 5.13
+        },
+        {
+          "text": "not",
+          "start": 5.13,
+          "end": 5.33
+        },
+        {
+          "text": "any",
+          "start": 5.33,
+          "end": 5.52
+        },
+        {
+          "text": "single",
+          "start": 5.53,
+          "end": 5.93
+        },
+        {
+          "text": "deduction.",
+          "start": 5.93,
+          "end": 6.8
+        }
+      ]
+    },
+    {
+      "frame": 27,
+      "path": "assets/audio/narration.m4a",
+      "mediaStart": 145.74,
+      "duration_s": 5.75,
+      "words": [
+        {
+          "text": "They",
+          "start": 0,
+          "end": 0.14
+        },
+        {
+          "text": "are",
+          "start": 0.14,
+          "end": 0.32
+        },
+        {
+          "text": "the",
+          "start": 0.32,
+          "end": 0.5
+        },
+        {
+          "text": "total.",
+          "start": 0.5,
+          "end": 0.89
+        },
+        {
+          "text": "And",
+          "start": 1.08,
+          "end": 1.12
+        },
+        {
+          "text": "then",
+          "start": 1.12,
+          "end": 1.31
+        },
+        {
+          "text": "one",
+          "start": 1.31,
+          "end": 1.45
+        },
+        {
+          "text": "specific",
+          "start": 1.45,
+          "end": 1.84
+        },
+        {
+          "text": "thing",
+          "start": 1.84,
+          "end": 1.96
+        },
+        {
+          "text": "to",
+          "start": 2.08,
+          "end": 2.17
+        },
+        {
+          "text": "verify",
+          "start": 2.17,
+          "end": 2.45
+        },
+        {
+          "text": "on",
+          "start": 2.45,
+          "end": 2.48
+        },
+        {
+          "text": "your",
+          "start": 2.55,
+          "end": 2.74
+        },
+        {
+          "text": "return",
+          "start": 2.74,
+          "end": 2.99
+        },
+        {
+          "text": "that",
+          "start": 2.99,
+          "end": 3.26
+        },
+        {
+          "text": "decides",
+          "start": 3.26,
+          "end": 3.56
+        },
+        {
+          "text": "whether",
+          "start": 3.56,
+          "end": 3.9
+        },
+        {
+          "text": "the",
+          "start": 3.9,
+          "end": 4.04
+        },
+        {
+          "text": "total",
+          "start": 4.04,
+          "end": 4.28
+        },
+        {
+          "text": "actually",
+          "start": 4.28,
+          "end": 4.75
+        },
+        {
+          "text": "reaches",
+          "start": 4.86,
+          "end": 5.29
+        },
+        {
+          "text": "you.",
+          "start": 5.29,
+          "end": 5.75
+        }
+      ]
+    },
+    {
+      "frame": 28,
+      "path": "assets/audio/narration.m4a",
+      "mediaStart": 151.6,
+      "duration_s": 7.95,
+      "words": [
+        {
+          "text": "Let",
+          "start": 0,
+          "end": 0.06
+        },
+        {
+          "text": "me",
+          "start": 0.06,
+          "end": 0.17
+        },
+        {
+          "text": "stop",
+          "start": 0.17,
+          "end": 0.39
+        },
+        {
+          "text": "two",
+          "start": 0.39,
+          "end": 0.53
+        },
+        {
+          "text": "different",
+          "start": 0.61,
+          "end": 1.05
+        },
+        {
+          "text": "people",
+          "start": 1.05,
+          "end": 1.38
+        },
+        {
+          "text": "from",
+          "start": 1.38,
+          "end": 1.6
+        },
+        {
+          "text": "clicking",
+          "start": 1.6,
+          "end": 1.91
+        },
+        {
+          "text": "away",
+          "start": 2.17,
+          "end": 2.26
+        },
+        {
+          "text": "right",
+          "start": 2.26,
+          "end": 2.54
+        },
+        {
+          "text": "now,",
+          "start": 2.54,
+          "end": 2.81
+        },
+        {
+          "text": "because",
+          "start": 2.81,
+          "end": 3.2
+        },
+        {
+          "text": "in",
+          "start": 3.2,
+          "end": 3.31
+        },
+        {
+          "text": "my",
+          "start": 3.31,
+          "end": 3.42
+        },
+        {
+          "text": "experience,",
+          "start": 3.42,
+          "end": 4.16
+        },
+        {
+          "text": "both",
+          "start": 4.26,
+          "end": 4.4
+        },
+        {
+          "text": "of",
+          "start": 4.4,
+          "end": 4.51
+        },
+        {
+          "text": "them",
+          "start": 4.51,
+          "end": 4.76
+        },
+        {
+          "text": "leave",
+          "start": 4.76,
+          "end": 5.06
+        },
+        {
+          "text": "money",
+          "start": 5.06,
+          "end": 5.36
+        },
+        {
+          "text": "behind",
+          "start": 5.36,
+          "end": 5.64
+        },
+        {
+          "text": "for",
+          "start": 5.73,
+          "end": 5.9
+        },
+        {
+          "text": "opposite",
+          "start": 5.9,
+          "end": 6.17
+        },
+        {
+          "text": "and",
+          "start": 6.44,
+          "end": 6.56
+        },
+        {
+          "text": "equally",
+          "start": 6.56,
+          "end": 6.98
+        },
+        {
+          "text": "wrong",
+          "start": 6.98,
+          "end": 7.28
+        },
+        {
+          "text": "reasons.",
+          "start": 7.28,
+          "end": 7.95
+        }
+      ]
+    },
+    {
+      "frame": 29,
+      "path": "assets/audio/narration.m4a",
+      "mediaStart": 159.66,
+      "duration_s": 7.8,
+      "words": [
+        {
+          "text": "The",
+          "start": 0,
+          "end": 0.06
+        },
+        {
+          "text": "first",
+          "start": 0.06,
+          "end": 0.33
+        },
+        {
+          "text": "person",
+          "start": 0.33,
+          "end": 0.66
+        },
+        {
+          "text": "hears",
+          "start": 0.66,
+          "end": 0.9
+        },
+        {
+          "text": "the",
+          "start": 0.95,
+          "end": 1.09
+        },
+        {
+          "text": "word",
+          "start": 1.09,
+          "end": 1.31
+        },
+        {
+          "text": "deduction",
+          "start": 1.31,
+          "end": 1.81
+        },
+        {
+          "text": "and",
+          "start": 1.81,
+          "end": 1.92
+        },
+        {
+          "text": "thinks,",
+          "start": 2.17,
+          "end": 2.46
+        },
+        {
+          "text": "my",
+          "start": 2.46,
+          "end": 2.58
+        },
+        {
+          "text": "income",
+          "start": 2.58,
+          "end": 2.96
+        },
+        {
+          "text": "is",
+          "start": 2.96,
+          "end": 3.07
+        },
+        {
+          "text": "modest,",
+          "start": 3.08,
+          "end": 3.58
+        },
+        {
+          "text": "I",
+          "start": 3.58,
+          "end": 3.64
+        },
+        {
+          "text": "live",
+          "start": 3.64,
+          "end": 3.89
+        },
+        {
+          "text": "mostly",
+          "start": 3.89,
+          "end": 4.3
+        },
+        {
+          "text": "on",
+          "start": 4.4,
+          "end": 4.43
+        },
+        {
+          "text": "Social",
+          "start": 4.43,
+          "end": 4.81
+        },
+        {
+          "text": "Security,",
+          "start": 4.81,
+          "end": 5.44
+        },
+        {
+          "text": "I",
+          "start": 5.44,
+          "end": 5.5
+        },
+        {
+          "text": "probably",
+          "start": 5.5,
+          "end": 6.01
+        },
+        {
+          "text": "do",
+          "start": 6.01,
+          "end": 6.14
+        },
+        {
+          "text": "not",
+          "start": 6.14,
+          "end": 6.31
+        },
+        {
+          "text": "owe",
+          "start": 6.31,
+          "end": 6.58
+        },
+        {
+          "text": "federal",
+          "start": 6.58,
+          "end": 6.97
+        },
+        {
+          "text": "tax",
+          "start": 6.97,
+          "end": 7.16
+        },
+        {
+          "text": "anyway.",
+          "start": 7.16,
+          "end": 7.8
+        }
+      ]
+    },
+    {
+      "frame": 30,
+      "path": "assets/audio/narration.m4a",
+      "mediaStart": 167.56,
+      "duration_s": 5.08,
+      "words": [
+        {
+          "text": "If",
+          "start": 0,
+          "end": 0.02
+        },
+        {
+          "text": "that",
+          "start": 0.02,
+          "end": 0.27
+        },
+        {
+          "text": "is",
+          "start": 0.27,
+          "end": 0.39
+        },
+        {
+          "text": "you,",
+          "start": 0.39,
+          "end": 0.69
+        },
+        {
+          "text": "listen",
+          "start": 0.69,
+          "end": 1.06
+        },
+        {
+          "text": "closely,",
+          "start": 1.06,
+          "end": 1.62
+        },
+        {
+          "text": "because",
+          "start": 1.62,
+          "end": 1.91
+        },
+        {
+          "text": "you",
+          "start": 2.17,
+          "end": 2.24
+        },
+        {
+          "text": "are",
+          "start": 2.24,
+          "end": 2.42
+        },
+        {
+          "text": "the",
+          "start": 2.42,
+          "end": 2.6
+        },
+        {
+          "text": "person",
+          "start": 2.6,
+          "end": 2.97
+        },
+        {
+          "text": "most",
+          "start": 2.97,
+          "end": 3.22
+        },
+        {
+          "text": "likely",
+          "start": 3.22,
+          "end": 3.59
+        },
+        {
+          "text": "to",
+          "start": 3.59,
+          "end": 3.69
+        },
+        {
+          "text": "be",
+          "start": 3.79,
+          "end": 3.83
+        },
+        {
+          "text": "over",
+          "start": 3.83,
+          "end": 4.08
+        },
+        {
+          "text": "withholding.",
+          "start": 4.08,
+          "end": 5.08
+        }
+      ]
+    },
+    {
+      "frame": 31,
+      "path": "assets/audio/narration.m4a",
+      "mediaStart": 172.74,
+      "duration_s": 6.12,
+      "words": [
+        {
+          "text": "You",
+          "start": 0,
+          "end": 0.04
+        },
+        {
+          "text": "may",
+          "start": 0.04,
+          "end": 0.18
+        },
+        {
+          "text": "be",
+          "start": 0.18,
+          "end": 0.27
+        },
+        {
+          "text": "having",
+          "start": 0.27,
+          "end": 0.52
+        },
+        {
+          "text": "money",
+          "start": 0.61,
+          "end": 0.8
+        },
+        {
+          "text": "pulled",
+          "start": 0.8,
+          "end": 1.09
+        },
+        {
+          "text": "out",
+          "start": 1.09,
+          "end": 1.23
+        },
+        {
+          "text": "of",
+          "start": 1.23,
+          "end": 1.32
+        },
+        {
+          "text": "your",
+          "start": 1.32,
+          "end": 1.51
+        },
+        {
+          "text": "Social",
+          "start": 1.51,
+          "end": 1.8
+        },
+        {
+          "text": "Security",
+          "start": 1.8,
+          "end": 2.19
+        },
+        {
+          "text": "or",
+          "start": 2.19,
+          "end": 2.28
+        },
+        {
+          "text": "your",
+          "start": 2.28,
+          "end": 2.47
+        },
+        {
+          "text": "pension",
+          "start": 2.47,
+          "end": 2.81
+        },
+        {
+          "text": "every",
+          "start": 2.81,
+          "end": 3.05
+        },
+        {
+          "text": "single",
+          "start": 3.05,
+          "end": 3.46
+        },
+        {
+          "text": "month",
+          "start": 3.56,
+          "end": 3.83
+        },
+        {
+          "text": "for",
+          "start": 3.83,
+          "end": 4.05
+        },
+        {
+          "text": "a",
+          "start": 4.05,
+          "end": 4.09
+        },
+        {
+          "text": "tax",
+          "start": 4.17,
+          "end": 4.34
+        },
+        {
+          "text": "bill",
+          "start": 4.34,
+          "end": 4.64
+        },
+        {
+          "text": "that",
+          "start": 4.64,
+          "end": 4.93
+        },
+        {
+          "text": "does",
+          "start": 4.93,
+          "end": 5.24
+        },
+        {
+          "text": "not",
+          "start": 5.24,
+          "end": 5.46
+        },
+        {
+          "text": "exist.",
+          "start": 5.46,
+          "end": 6.12
+        }
+      ]
+    },
+    {
+      "frame": 32,
+      "path": "assets/audio/narration.m4a",
+      "mediaStart": 178.96,
+      "duration_s": 7.52,
+      "words": [
+        {
+          "text": "That",
+          "start": 0,
+          "end": 0.08
+        },
+        {
+          "text": "is",
+          "start": 0.11,
+          "end": 0.2
+        },
+        {
+          "text": "you",
+          "start": 0.2,
+          "end": 0.35
+        },
+        {
+          "text": "handing",
+          "start": 0.35,
+          "end": 0.7
+        },
+        {
+          "text": "the",
+          "start": 0.7,
+          "end": 0.85
+        },
+        {
+          "text": "federal",
+          "start": 0.85,
+          "end": 1.2
+        },
+        {
+          "text": "government",
+          "start": 1.2,
+          "end": 1.7
+        },
+        {
+          "text": "an",
+          "start": 1.7,
+          "end": 1.8
+        },
+        {
+          "text": "interest-free",
+          "start": 1.8,
+          "end": 2.45
+        },
+        {
+          "text": "loan",
+          "start": 2.45,
+          "end": 2.65
+        },
+        {
+          "text": "of",
+          "start": 2.65,
+          "end": 2.75
+        },
+        {
+          "text": "your",
+          "start": 2.75,
+          "end": 2.95
+        },
+        {
+          "text": "own",
+          "start": 2.95,
+          "end": 3.1
+        },
+        {
+          "text": "money,",
+          "start": 3.1,
+          "end": 3.45
+        },
+        {
+          "text": "twelve",
+          "start": 3.45,
+          "end": 3.69
+        },
+        {
+          "text": "times",
+          "start": 3.88,
+          "end": 4.15
+        },
+        {
+          "text": "a",
+          "start": 4.15,
+          "end": 4.22
+        },
+        {
+          "text": "year,",
+          "start": 4.22,
+          "end": 4.65
+        },
+        {
+          "text": "and",
+          "start": 4.65,
+          "end": 4.77
+        },
+        {
+          "text": "waiting",
+          "start": 4.88,
+          "end": 5.39
+        },
+        {
+          "text": "until",
+          "start": 5.39,
+          "end": 5.76
+        },
+        {
+          "text": "spring",
+          "start": 5.76,
+          "end": 6.2
+        },
+        {
+          "text": "to",
+          "start": 6.2,
+          "end": 6.34
+        },
+        {
+          "text": "ask",
+          "start": 6.34,
+          "end": 6.56
+        },
+        {
+          "text": "for",
+          "start": 6.56,
+          "end": 6.78
+        },
+        {
+          "text": "it",
+          "start": 6.78,
+          "end": 6.92
+        },
+        {
+          "text": "back.",
+          "start": 6.92,
+          "end": 7.52
+        }
+      ]
+    },
+    {
+      "frame": 33,
+      "path": "assets/audio/narration.m4a",
+      "mediaStart": 186.58,
+      "duration_s": 6.04,
+      "words": [
+        {
+          "text": "The",
+          "start": 0,
+          "end": 0.06
+        },
+        {
+          "text": "second",
+          "start": 0.06,
+          "end": 0.39
+        },
+        {
+          "text": "person",
+          "start": 0.39,
+          "end": 0.72
+        },
+        {
+          "text": "hears",
+          "start": 0.72,
+          "end": 0.95
+        },
+        {
+          "text": "the",
+          "start": 1,
+          "end": 1.15
+        },
+        {
+          "text": "word",
+          "start": 1.15,
+          "end": 1.32
+        },
+        {
+          "text": "senior",
+          "start": 1.37,
+          "end": 1.7
+        },
+        {
+          "text": "and",
+          "start": 1.7,
+          "end": 1.86
+        },
+        {
+          "text": "assumes",
+          "start": 1.86,
+          "end": 2.25
+        },
+        {
+          "text": "there",
+          "start": 2.25,
+          "end": 2.52
+        },
+        {
+          "text": "is",
+          "start": 2.52,
+          "end": 2.63
+        },
+        {
+          "text": "an",
+          "start": 2.63,
+          "end": 2.74
+        },
+        {
+          "text": "income",
+          "start": 2.74,
+          "end": 3.07
+        },
+        {
+          "text": "test",
+          "start": 3.07,
+          "end": 3.26
+        },
+        {
+          "text": "that",
+          "start": 3.3,
+          "end": 3.51
+        },
+        {
+          "text": "disqualifies",
+          "start": 3.51,
+          "end": 4.26
+        },
+        {
+          "text": "anyone",
+          "start": 4.36,
+          "end": 4.79
+        },
+        {
+          "text": "comfortable.",
+          "start": 4.79,
+          "end": 6.04
+        }
+      ]
+    },
+    {
+      "frame": 34,
+      "path": "assets/audio/narration.m4a",
+      "mediaStart": 192.72,
+      "duration_s": 9.2,
+      "words": [
+        {
+          "text": "If",
+          "start": 0,
+          "end": 0.07
+        },
+        {
+          "text": "that",
+          "start": 0.07,
+          "end": 0.41
+        },
+        {
+          "text": "is",
+          "start": 0.41,
+          "end": 0.53
+        },
+        {
+          "text": "you,",
+          "start": 0.61,
+          "end": 1.01
+        },
+        {
+          "text": "listen",
+          "start": 1.01,
+          "end": 1.53
+        },
+        {
+          "text": "too.",
+          "start": 1.53,
+          "end": 1.92
+        },
+        {
+          "text": "Because",
+          "start": 2.18,
+          "end": 2.45
+        },
+        {
+          "text": "the",
+          "start": 2.45,
+          "end": 2.61
+        },
+        {
+          "text": "largest",
+          "start": 2.61,
+          "end": 2.98
+        },
+        {
+          "text": "piece",
+          "start": 2.98,
+          "end": 3.24
+        },
+        {
+          "text": "of",
+          "start": 3.24,
+          "end": 3.34
+        },
+        {
+          "text": "this",
+          "start": 3.34,
+          "end": 3.5
+        },
+        {
+          "text": "stack",
+          "start": 3.55,
+          "end": 3.81
+        },
+        {
+          "text": "does",
+          "start": 3.81,
+          "end": 4.02
+        },
+        {
+          "text": "not",
+          "start": 4.02,
+          "end": 4.1
+        },
+        {
+          "text": "begin",
+          "start": 4.35,
+          "end": 4.44
+        },
+        {
+          "text": "to",
+          "start": 4.44,
+          "end": 4.54
+        },
+        {
+          "text": "phase",
+          "start": 4.54,
+          "end": 4.8
+        },
+        {
+          "text": "out",
+          "start": 4.8,
+          "end": 4.96
+        },
+        {
+          "text": "until",
+          "start": 4.96,
+          "end": 5.22
+        },
+        {
+          "text": "your",
+          "start": 5.22,
+          "end": 5.43
+        },
+        {
+          "text": "modified",
+          "start": 5.43,
+          "end": 5.87
+        },
+        {
+          "text": "adjusted",
+          "start": 6.06,
+          "end": 6.57
+        },
+        {
+          "text": "gross",
+          "start": 6.57,
+          "end": 6.95
+        },
+        {
+          "text": "income",
+          "start": 6.95,
+          "end": 7.38
+        },
+        {
+          "text": "passes",
+          "start": 7.43,
+          "end": 7.85
+        },
+        {
+          "text": "$75,000",
+          "start": 7.85,
+          "end": 9.2
+        }
+      ]
+    },
+    {
+      "frame": 35,
+      "path": "assets/audio/narration.m4a",
+      "mediaStart": 201.92,
+      "duration_s": 3.48,
+      "words": [
+        {
+          "text": "single",
+          "start": 0,
+          "end": 0.45
+        },
+        {
+          "text": "or",
+          "start": 0.45,
+          "end": 0.55
+        },
+        {
+          "text": "$150,000",
+          "start": 0.65,
+          "end": 2.18
+        },
+        {
+          "text": "filing",
+          "start": 2.18,
+          "end": 2.44
+        },
+        {
+          "text": "jointly.",
+          "start": 2.69,
+          "end": 3.48
+        }
+      ]
+    },
+    {
+      "frame": 36,
+      "path": "assets/audio/narration.m4a",
+      "mediaStart": 205.5,
+      "duration_s": 3.54,
+      "words": [
+        {
+          "text": "That",
+          "start": 0,
+          "end": 0.13
+        },
+        {
+          "text": "is",
+          "start": 0.13,
+          "end": 0.24
+        },
+        {
+          "text": "well",
+          "start": 0.24,
+          "end": 0.46
+        },
+        {
+          "text": "above",
+          "start": 0.46,
+          "end": 0.75
+        },
+        {
+          "text": "what",
+          "start": 0.75,
+          "end": 0.89
+        },
+        {
+          "text": "the",
+          "start": 1,
+          "end": 1.15
+        },
+        {
+          "text": "great",
+          "start": 1.15,
+          "end": 1.38
+        },
+        {
+          "text": "majority",
+          "start": 1.47,
+          "end": 1.89
+        },
+        {
+          "text": "of",
+          "start": 1.89,
+          "end": 1.92
+        },
+        {
+          "text": "retired",
+          "start": 2.17,
+          "end": 2.4
+        },
+        {
+          "text": "households",
+          "start": 2.4,
+          "end": 2.97
+        },
+        {
+          "text": "take",
+          "start": 2.97,
+          "end": 3.2
+        },
+        {
+          "text": "in.",
+          "start": 3.2,
+          "end": 3.54
+        }
+      ]
+    },
+    {
+      "frame": 37,
+      "path": "assets/audio/narration.m4a",
+      "mediaStart": 209.14,
+      "duration_s": 7.94,
+      "words": [
+        {
+          "text": "And",
+          "start": 0,
+          "end": 0.06
+        },
+        {
+          "text": "unlike",
+          "start": 0.06,
+          "end": 0.37
+        },
+        {
+          "text": "almost",
+          "start": 0.37,
+          "end": 0.68
+        },
+        {
+          "text": "every",
+          "start": 0.68,
+          "end": 0.9
+        },
+        {
+          "text": "other",
+          "start": 0.95,
+          "end": 1.2
+        },
+        {
+          "text": "senior",
+          "start": 1.2,
+          "end": 1.51
+        },
+        {
+          "text": "benefit,",
+          "start": 1.51,
+          "end": 1.92
+        },
+        {
+          "text": "this",
+          "start": 2.17,
+          "end": 2.19
+        },
+        {
+          "text": "one",
+          "start": 2.19,
+          "end": 2.35
+        },
+        {
+          "text": "does",
+          "start": 2.35,
+          "end": 2.56
+        },
+        {
+          "text": "not",
+          "start": 2.56,
+          "end": 2.72
+        },
+        {
+          "text": "care",
+          "start": 2.72,
+          "end": 2.92
+        },
+        {
+          "text": "whether",
+          "start": 2.93,
+          "end": 3.26
+        },
+        {
+          "text": "you",
+          "start": 3.3,
+          "end": 3.46
+        },
+        {
+          "text": "own",
+          "start": 3.46,
+          "end": 3.62
+        },
+        {
+          "text": "your",
+          "start": 3.62,
+          "end": 3.9
+        },
+        {
+          "text": "home,",
+          "start": 4,
+          "end": 4.35
+        },
+        {
+          "text": "what",
+          "start": 4.35,
+          "end": 4.65
+        },
+        {
+          "text": "your",
+          "start": 4.65,
+          "end": 4.9
+        },
+        {
+          "text": "savings",
+          "start": 4.95,
+          "end": 5.48
+        },
+        {
+          "text": "look",
+          "start": 5.48,
+          "end": 5.78
+        },
+        {
+          "text": "like,",
+          "start": 5.78,
+          "end": 6.23
+        },
+        {
+          "text": "or",
+          "start": 6.23,
+          "end": 6.38
+        },
+        {
+          "text": "whether",
+          "start": 6.38,
+          "end": 6.91
+        },
+        {
+          "text": "you",
+          "start": 6.91,
+          "end": 7.13
+        },
+        {
+          "text": "itemize.",
+          "start": 7.13,
+          "end": 7.94
+        }
+      ]
+    },
+    {
+      "frame": 38,
+      "path": "assets/audio/narration.m4a",
+      "mediaStart": 217.18,
+      "duration_s": 3.02,
+      "words": [
+        {
+          "text": "So",
+          "start": 0,
+          "end": 0.01
+        },
+        {
+          "text": "the",
+          "start": 0.01,
+          "end": 0.18
+        },
+        {
+          "text": "low-income",
+          "start": 0.18,
+          "end": 0.73
+        },
+        {
+          "text": "retiree",
+          "start": 0.73,
+          "end": 1.12
+        },
+        {
+          "text": "needs",
+          "start": 1.12,
+          "end": 1.38
+        },
+        {
+          "text": "this",
+          "start": 1.47,
+          "end": 1.62
+        },
+        {
+          "text": "to",
+          "start": 1.62,
+          "end": 1.73
+        },
+        {
+          "text": "fix",
+          "start": 1.73,
+          "end": 1.9
+        },
+        {
+          "text": "their",
+          "start": 1.9,
+          "end": 2.18
+        },
+        {
+          "text": "withholding.",
+          "start": 2.18,
+          "end": 3.02
+        }
+      ]
+    },
+    {
+      "frame": 39,
+      "path": "assets/audio/narration.m4a",
+      "mediaStart": 220.3,
+      "duration_s": 4.9,
+      "words": [
+        {
+          "text": "The",
+          "start": 0,
+          "end": 0.09
+        },
+        {
+          "text": "comfortable",
+          "start": 0.09,
+          "end": 0.79
+        },
+        {
+          "text": "retiree",
+          "start": 0.79,
+          "end": 1.23
+        },
+        {
+          "text": "needs",
+          "start": 1.23,
+          "end": 1.55
+        },
+        {
+          "text": "it",
+          "start": 1.55,
+          "end": 1.67
+        },
+        {
+          "text": "because",
+          "start": 1.67,
+          "end": 1.91
+        },
+        {
+          "text": "they",
+          "start": 2.18,
+          "end": 2.36
+        },
+        {
+          "text": "assumed",
+          "start": 2.36,
+          "end": 2.8
+        },
+        {
+          "text": "they",
+          "start": 2.8,
+          "end": 3.05
+        },
+        {
+          "text": "were",
+          "start": 3.05,
+          "end": 3.26
+        },
+        {
+          "text": "disqualified",
+          "start": 3.3,
+          "end": 4.05
+        },
+        {
+          "text": "and",
+          "start": 4.06,
+          "end": 4.25
+        },
+        {
+          "text": "they",
+          "start": 4.25,
+          "end": 4.46
+        },
+        {
+          "text": "are",
+          "start": 4.53,
+          "end": 4.78
+        },
+        {
+          "text": "not.",
+          "start": 4.78,
+          "end": 4.9
+        }
+      ]
+    },
+    {
+      "frame": 40,
+      "path": "assets/audio/narration.m4a",
+      "mediaStart": 225.3,
+      "duration_s": 6.03,
+      "words": [
+        {
+          "text": "For",
+          "start": 0,
+          "end": 0.09
+        },
+        {
+          "text": "every",
+          "start": 0.11,
+          "end": 0.4
+        },
+        {
+          "text": "layer,",
+          "start": 0.4,
+          "end": 0.83
+        },
+        {
+          "text": "I",
+          "start": 0.83,
+          "end": 0.89
+        },
+        {
+          "text": "will",
+          "start": 0.89,
+          "end": 1.14
+        },
+        {
+          "text": "tell",
+          "start": 1.14,
+          "end": 1.38
+        },
+        {
+          "text": "you",
+          "start": 1.38,
+          "end": 1.58
+        },
+        {
+          "text": "plainly",
+          "start": 1.58,
+          "end": 1.91
+        },
+        {
+          "text": "who",
+          "start": 2.17,
+          "end": 2.21
+        },
+        {
+          "text": "it",
+          "start": 2.21,
+          "end": 2.33
+        },
+        {
+          "text": "helps",
+          "start": 2.33,
+          "end": 2.64
+        },
+        {
+          "text": "most",
+          "start": 2.64,
+          "end": 2.89
+        },
+        {
+          "text": "so",
+          "start": 2.89,
+          "end": 3.01
+        },
+        {
+          "text": "nobody",
+          "start": 3.01,
+          "end": 3.39
+        },
+        {
+          "text": "can",
+          "start": 3.39,
+          "end": 3.58
+        },
+        {
+          "text": "honestly",
+          "start": 3.58,
+          "end": 4.08
+        },
+        {
+          "text": "say",
+          "start": 4.08,
+          "end": 4.34
+        },
+        {
+          "text": "a",
+          "start": 4.34,
+          "end": 4.46
+        },
+        {
+          "text": "section",
+          "start": 4.64,
+          "end": 4.99
+        },
+        {
+          "text": "was",
+          "start": 4.99,
+          "end": 5.17
+        },
+        {
+          "text": "not",
+          "start": 5.25,
+          "end": 5.37
+        },
+        {
+          "text": "for",
+          "start": 5.37,
+          "end": 5.53
+        },
+        {
+          "text": "them.",
+          "start": 5.59,
+          "end": 6.03
+        }
+      ]
+    },
+    {
+      "frame": 41,
+      "path": "assets/audio/narration.m4a",
+      "mediaStart": 231.44,
+      "duration_s": 3.96,
+      "words": [
+        {
+          "text": "If",
+          "start": 0,
+          "end": 0.02
+        },
+        {
+          "text": "you",
+          "start": 0.02,
+          "end": 0.21
+        },
+        {
+          "text": "are",
+          "start": 0.21,
+          "end": 0.4
+        },
+        {
+          "text": "over",
+          "start": 0.4,
+          "end": 0.65
+        },
+        {
+          "text": "60",
+          "start": 0.65,
+          "end": 1.03
+        },
+        {
+          "text": "at",
+          "start": 1.03,
+          "end": 1.15
+        },
+        {
+          "text": "any",
+          "start": 1.15,
+          "end": 1.32
+        },
+        {
+          "text": "income",
+          "start": 1.37,
+          "end": 1.72
+        },
+        {
+          "text": "level,",
+          "start": 1.72,
+          "end": 2.15
+        },
+        {
+          "text": "subscribe",
+          "start": 2.18,
+          "end": 2.72
+        },
+        {
+          "text": "and",
+          "start": 2.72,
+          "end": 2.91
+        },
+        {
+          "text": "turn",
+          "start": 2.91,
+          "end": 3.16
+        },
+        {
+          "text": "on",
+          "start": 3.16,
+          "end": 3.26
+        },
+        {
+          "text": "the",
+          "start": 3.3,
+          "end": 3.47
+        },
+        {
+          "text": "bell.",
+          "start": 3.47,
+          "end": 3.96
+        }
+      ]
+    },
+    {
+      "frame": 42,
+      "path": "assets/audio/narration.m4a",
+      "mediaStart": 235.5,
+      "duration_s": 4.38,
+      "words": [
+        {
+          "text": "This",
+          "start": 0,
+          "end": 0.08
+        },
+        {
+          "text": "channel",
+          "start": 0.11,
+          "end": 0.46
+        },
+        {
+          "text": "breaks",
+          "start": 0.46,
+          "end": 0.77
+        },
+        {
+          "text": "down",
+          "start": 0.77,
+          "end": 0.95
+        },
+        {
+          "text": "the",
+          "start": 1,
+          "end": 1.12
+        },
+        {
+          "text": "tax",
+          "start": 1.12,
+          "end": 1.24
+        },
+        {
+          "text": "and",
+          "start": 1.27,
+          "end": 1.4
+        },
+        {
+          "text": "benefit",
+          "start": 1.47,
+          "end": 1.78
+        },
+        {
+          "text": "changes",
+          "start": 1.78,
+          "end": 1.91
+        },
+        {
+          "text": "that",
+          "start": 2.18,
+          "end": 2.34
+        },
+        {
+          "text": "actually",
+          "start": 2.34,
+          "end": 2.75
+        },
+        {
+          "text": "move",
+          "start": 2.75,
+          "end": 2.95
+        },
+        {
+          "text": "the",
+          "start": 2.95,
+          "end": 3.1
+        },
+        {
+          "text": "number",
+          "start": 3.1,
+          "end": 3.41
+        },
+        {
+          "text": "at",
+          "start": 3.41,
+          "end": 3.51
+        },
+        {
+          "text": "the",
+          "start": 3.51,
+          "end": 3.69
+        },
+        {
+          "text": "bottom",
+          "start": 3.88,
+          "end": 4.03
+        },
+        {
+          "text": "of",
+          "start": 4.03,
+          "end": 4.11
+        },
+        {
+          "text": "your",
+          "start": 4.11,
+          "end": 4.3
+        },
+        {
+          "text": "term.",
+          "start": 4.3,
+          "end": 4.38
+        }
+      ]
+    }
+  ],
+  "sfx": []
+}

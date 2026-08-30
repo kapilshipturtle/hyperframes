@@ -1,0 +1,22 @@
+{
+  "09": {
+    "type": "invented-scene",
+    "visualIdea": "Three horizontal bars stacking vertically into one column, each labeled with a placeholder amount, building upward one at a time to a single combined total at the top — visualizing three separate deductions nobody has ever seen added together on one page",
+    "tone": "neutral"
+  },
+  "15": {
+    "type": "invented-scene",
+    "visualIdea": "A bar chart with two bars: a smaller bar labeled $47,500 next to a much taller bar labeled $80,000, the taller bar growing into frame to dwarf the first — visualizing the number that makes $47,500 look small",
+    "tone": "urgent"
+  },
+  "20": {
+    "type": "invented-scene",
+    "visualIdea": "A horizontal timeline spanning decades, with three markers appearing at different points: one far left labeled 'decades ago' (base deduction), one in the 1980s (senior add-on), and one at the far right in 2025 with a short highlighted 4-year window flagged distinctly from the rest of the timeline — visualizing three provisions created at three different times",
+    "tone": "neutral"
+  },
+  "34": {
+    "type": "invented-scene",
+    "visualIdea": "A horizontal threshold bar/gauge with a marker sliding along it, stopping at a labeled point around $75,000 where a 'phase-out begins' flag appears — visualizing the income threshold where the largest deduction starts to phase out",
+    "tone": "neutral"
+  }
+}

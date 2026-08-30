@@ -1,0 +1,8 @@
+{
+  "sections": [
+    { "name": "setup", "startBeat": "01", "endBeat": "09", "arc": "calm" },
+    { "name": "escalation", "startBeat": "10", "endBeat": "25", "arc": "rising" },
+    { "name": "turning-point", "startBeat": "26", "endBeat": "27", "arc": "peak" },
+    { "name": "resolution", "startBeat": "28", "endBeat": "42", "arc": "settling" }
+  ]
+}

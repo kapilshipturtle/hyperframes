@@ -1,0 +1,202 @@
+<template>
+  <style>
+    #root {
+      width: 1920px;
+      height: 1080px;
+      position: relative;
+      overflow: hidden;
+      background: #0a0a0c;
+      font-family: -apple-system, "Inter", sans-serif;
+    }
+
+    .beat34-bg {
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse at 50% 40%, #141416 0%, #0a0a0c 70%);
+    }
+
+    .beat34-stage {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      height: 900px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .beat34-label {
+      font-size: 26px;
+      font-weight: 500;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: #f2f2f0;
+      opacity: 0;
+      margin-bottom: 64px;
+    }
+
+    .beat34-track-wrap {
+      position: relative;
+      width: 1400px;
+      height: 220px;
+    }
+
+    .beat34-track {
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 100%;
+      height: 10px;
+      border-radius: 5px;
+      background: rgba(255,255,255,0.12);
+      overflow: hidden;
+    }
+
+    .beat34-track-fill {
+      position: absolute;
+      left: 0;
+      top: 0;
+      height: 100%;
+      width: 0%;
+      border-radius: 5px;
+      background: #a9b4c0;
+    }
+
+    .beat34-marker {
+      position: absolute;
+      top: 50%;
+      left: 0%;
+      width: 34px;
+      height: 34px;
+      margin-left: -17px;
+      margin-top: -17px;
+      border-radius: 50%;
+      background: #a9b4c0;
+      box-shadow: 0 0 0 8px rgba(169,180,192,0.18);
+    }
+
+    .beat34-tick {
+      position: absolute;
+      top: 50%;
+      width: 2px;
+      height: 26px;
+      margin-top: -13px;
+      background: rgba(255,255,255,0.25);
+    }
+
+    .beat34-tick-label {
+      position: absolute;
+      top: calc(50% + 30px);
+      transform: translateX(-50%);
+      font-size: 20px;
+      color: #f2f2f0;
+      opacity: 0.7;
+      white-space: nowrap;
+    }
+
+    .beat34-threshold-label {
+      position: absolute;
+      top: calc(50% + 30px);
+      left: 75%;
+      transform: translateX(-50%);
+      font-size: 22px;
+      font-weight: 600;
+      color: #a9b4c0;
+      white-space: nowrap;
+      opacity: 0;
+    }
+
+    .beat34-flag {
+      position: absolute;
+      left: 75%;
+      bottom: calc(50% + 46px);
+      transform: translateX(-50%) translateY(12px);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      opacity: 0;
+    }
+
+    .beat34-flag-pill {
+      background: rgba(169,180,192,0.14);
+      border: 1px solid rgba(169,180,192,0.5);
+      color: #f2f2f0;
+      font-size: 24px;
+      font-weight: 600;
+      padding: 12px 26px;
+      border-radius: 999px;
+      white-space: nowrap;
+    }
+
+    .beat34-flag-stem {
+      width: 2px;
+      height: 34px;
+      background: rgba(169,180,192,0.5);
+      margin-top: 2px;
+    }
+  </style>
+
+  <div id="root" data-composition-id="34-beat" data-width="1920" data-height="1080" data-duration="9.2">
+    <div class="beat34-bg clip" id="f-34-beat-bg" data-start="0" data-duration="9.2" data-track-index="0"></div>
+
+    <div class="beat34-stage clip" id="f-34-beat-stage" data-start="0" data-duration="9.2" data-track-index="1">
+      <div class="beat34-label" id="f-34-beat-label">Phase-out threshold</div>
+
+      <div class="beat34-track-wrap" id="f-34-beat-track-wrap">
+        <div class="beat34-track">
+          <div class="beat34-track-fill" id="f-34-beat-fill"></div>
+        </div>
+
+        <div class="beat34-tick" style="left:0%;"></div>
+        <div class="beat34-tick-label" style="left:0%;">$0</div>
+
+        <div class="beat34-tick" style="left:100%;"></div>
+        <div class="beat34-tick-label" style="left:100%;">higher income</div>
+
+        <div class="beat34-marker" id="f-34-beat-marker"></div>
+
+        <div class="beat34-threshold-label" id="f-34-beat-threshold-label">$75,000</div>
+
+        <div class="beat34-flag" id="f-34-beat-flag">
+          <div class="beat34-flag-pill">Phase-out begins</div>
+          <div class="beat34-flag-stem"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    (function () {
+      window.__timelines = window.__timelines || {};
+      var tl = gsap.timeline({ paused: true });
+
+      var label = document.getElementById("f-34-beat-label");
+      var marker = document.getElementById("f-34-beat-marker");
+      var fill = document.getElementById("f-34-beat-fill");
+      var thresholdLabel = document.getElementById("f-34-beat-threshold-label");
+      var flag = document.getElementById("f-34-beat-flag");
+
+      // Gentle establishing fade for the label + gauge, early in the beat.
+      tl.fromTo(label, { opacity: 0, y: 10 }, { opacity: 0.85, y: 0, duration: 0.6, ease: "power2.out" }, 0.3);
+
+      // Marker rests near the start of the track for the first stretch of the
+      // beat (idle at 0%), then begins its slide toward the 75% mark timed so
+      // it lands right as "$75,000" is spoken (~7.85s into this 9.2s beat).
+      // Slide duration ~1.7s, arriving at 7.85s -> starts at 6.15s.
+      tl.to(marker, { x: 1050, duration: 1.7, ease: "power2.inOut" }, 6.15);
+      tl.to(fill, { width: "75%", duration: 1.7, ease: "power2.inOut" }, 6.15);
+
+      // Threshold label and "phase-out begins" flag land just after the
+      // marker arrives, right around the "$75,000" mention (~7.85s).
+      tl.fromTo(thresholdLabel, { opacity: 0 }, { opacity: 1, duration: 0.4, ease: "power1.out" }, 7.55);
+      tl.fromTo(flag, { opacity: 0, y: 12 }, { opacity: 1, y: 0, duration: 0.5, ease: "back.out(1.6)" }, 7.75);
+
+      // Hold through the remainder of the beat — no exit tween.
+
+      window.__timelines["34-beat"] = tl;
+    })();
+  </script>
+</template>

@@ -1,0 +1,213 @@
+{
+  "01": {
+    "archetype": "center-statement",
+    "text": "There is a number you need to know before you sign your next tax return.",
+    "enterAt": 2.1,
+    "reason": "the film's own cold-open thesis line, brief hold over a simple establishing shot, clears the strict center-statement bar"
+  },
+  "02": {
+    "archetype": "stat-callout",
+    "value": 47500,
+    "prefix": "$",
+    "label": "tax-free for a married couple 65+",
+    "enterAt": 0.9,
+    "placement": "center",
+    "tone": "neutral",
+    "reason": "the number IS the entire visual focus of this shot \u2014 nothing else happens in the beat, clears stat-callout's lower placement bar"
+  },
+  "03": {
+    "archetype": "timeline-marker",
+    "date": "2026",
+    "label": "tax year",
+    "enterAt": 1.35,
+    "reason": "narrates a specific dated tax year the figure applies to"
+  },
+  "04": {
+    "archetype": "myth-fact",
+    "myth": "A credit? A rebate? Something you apply for?",
+    "fact": "No \u2014 it's automatic, and nobody applies for it.",
+    "enterAt": 0.0,
+    "reason": "genuine myth/fact structure \u2014 narration explicitly lists what people might assume (credit/rebate/application) before correcting it in beat 05"
+  },
+  "05": {
+    "archetype": "none",
+    "reason": "restates the same $47,500 figure just shown in beat 02's stat-callout \u2014 a second overlay here would be redundant, not additive"
+  },
+  "06": {
+    "archetype": "none",
+    "reason": "transitional sentence setting up the next beat, no concrete hook yet"
+  },
+  "07": {
+    "archetype": "lower-third",
+    "text": "Three Stacked Deductions",
+    "enterAt": 1.4,
+    "reason": "introduces the video's central named structure (three deductions) for the first time"
+  },
+  "08": {
+    "archetype": "list-reveal",
+    "items": [
+      "Deduction one",
+      "Deduction two",
+      "Deduction three"
+    ],
+    "enterAt": 0.9,
+    "reason": "enumerates three concrete countable items \u2014 'most know one, some know two' \u2014 before beat 09 shows them added together"
+  },
+  "09": {
+    "archetype": "none",
+    "reason": "this beat is the invented-scene three-bar stack (scene-choices.json) \u2014 the diagram IS the content"
+  },
+  "10": {
+    "archetype": "none",
+    "reason": "the 'tens of thousands wrong' phrase is emotionally strong but vague/unquantified narration, not a concrete figure to callout \u2014 footage/narration alone carry it"
+  },
+  "11": {
+    "archetype": "none",
+    "reason": "elaboration on consequences already established, no new concrete hook"
+  },
+  "12": {
+    "archetype": "none",
+    "reason": "elaboration continuing the same idea as beat 11, no new concrete hook"
+  },
+  "13": {
+    "archetype": "none",
+    "reason": "connective narration bridging into the next section, no concrete hook"
+  },
+  "14": {
+    "archetype": "none",
+    "reason": "connective tease ('the thing that makes it look small') \u2014 the actual number lands in beat 15's invented scene, not here"
+  },
+  "15": {
+    "archetype": "none",
+    "reason": "this beat is the invented-scene $47,500 vs $80,000 comparison (scene-choices.json) \u2014 the diagram IS the content"
+  },
+  "16": {
+    "archetype": "none",
+    "reason": "rhetorical question voicing viewer skepticism, no concrete hook \u2014 footage/narration carry it"
+  },
+  "17": {
+    "archetype": "none",
+    "reason": "transitional reassurance line, no concrete hook"
+  },
+  "18": {
+    "archetype": "chapter-title",
+    "kicker": "Where It Came From",
+    "text": "Three Acts of Congress",
+    "enterAt": 0.9,
+    "reason": "marks a genuine structural pivot into the section explaining the deductions' origin \u2014 not just a sub-point, a real chapter break per sections.json's setup->escalation shift"
+  },
+  "19": {
+    "archetype": "none",
+    "reason": "the invented-scene timeline at beat 20 covers this exact three-provision-history idea more precisely than a second timeline-marker here would; avoids doubling up back-to-back"
+  },
+  "20": {
+    "archetype": "none",
+    "reason": "this beat is itself the invented-scene (scene-choices.json) \u2014 the diagram IS the overlay content, a build-frame overlay would be redundant"
+  },
+  "21": {
+    "archetype": "none",
+    "reason": "elaboration on the timeline just shown in beat 20's invented scene, no new concrete hook"
+  },
+  "22": {
+    "archetype": "none",
+    "reason": "elaboration continuing the bureaucratic-diffusion narrative, no concrete hook distinct from surrounding beats"
+  },
+  "23": {
+    "archetype": "none",
+    "reason": "elaboration continuing the same idea, no concrete hook"
+  },
+  "24": {
+    "archetype": "none",
+    "reason": "elaboration continuing the same idea, no concrete hook"
+  },
+  "25": {
+    "archetype": "quote-card",
+    "text": "Nobody in the system is assigned the job of adding it up.",
+    "attribution": "the actual reason, not a conspiracy",
+    "enterAt": 3.7,
+    "reason": "a genuine, quotable pull-line that crystallizes the entire mystery the first half of the film has been building toward"
+  },
+  "26": {
+    "archetype": "center-statement",
+    "text": "Today, that is the job.",
+    "enterAt": 0.0,
+    "reason": "the film's real hard pivot from diagnosis to solution \u2014 the turning-point section's opening line, brief, simple background, clears the strict bar"
+  },
+  "27": {
+    "archetype": "none",
+    "reason": "transitional line into the next section, no concrete hook of its own"
+  },
+  "28": {
+    "archetype": "none",
+    "reason": "connective address to the viewer, no concrete hook"
+  },
+  "29": {
+    "archetype": "none",
+    "reason": "elaboration on audience segment one, no concrete hook (the concrete overlay-worthy content is beat 34/35's threshold)"
+  },
+  "30": {
+    "archetype": "none",
+    "reason": "connective direct-address line, no concrete hook"
+  },
+  "31": {
+    "archetype": "none",
+    "reason": "vivid but non-numeric elaboration ('money pulled out every single month'), no concrete hook \u2014 the actual '12 times a year' figure lands in beat 32 instead"
+  },
+  "32": {
+    "archetype": "stat-callout",
+    "value": 12,
+    "suffix": "x a year",
+    "label": "an interest-free loan to the government",
+    "enterAt": 3.35,
+    "tone": "urgent",
+    "reason": "the concrete 'twelve times a year' figure is named explicitly in this beat's own narration \u2014 moved here from beat 31 where the number doesn't actually appear"
+  },
+  "33": {
+    "archetype": "none",
+    "reason": "elaboration introducing audience segment two, no concrete hook of its own \u2014 overlay density better spent on the actual $75k/$150k thresholds at 34/35"
+  },
+  "34": {
+    "archetype": "none",
+    "reason": "this beat is itself the invented-scene threshold-gauge (scene-choices.json) \u2014 the diagram IS the overlay content"
+  },
+  "35": {
+    "archetype": "threshold-bar",
+    "currentValue": 150000,
+    "thresholdValue": 150000,
+    "label": "phase-out starts here \u2014 filing jointly",
+    "enterAt": 0.5,
+    "tone": "neutral",
+    "reason": "names the real named phase-out threshold for joint filers ($150,000) \u2014 the crossing point itself is the beat's point, continuing directly from beat 34's invented single-filer gauge"
+  },
+  "36": {
+    "archetype": "none",
+    "reason": "elaboration/reassurance, no concrete hook"
+  },
+  "37": {
+    "archetype": "none",
+    "reason": "elaboration continuing the same idea, no concrete hook"
+  },
+  "38": {
+    "archetype": "none",
+    "reason": "elaboration/summary line, no concrete hook"
+  },
+  "39": {
+    "archetype": "none",
+    "reason": "elaboration/summary line, no concrete hook"
+  },
+  "40": {
+    "archetype": "none",
+    "reason": "connective summary line, no concrete hook"
+  },
+  "41": {
+    "archetype": "icon-accent",
+    "icon": "arrow-up",
+    "enterAt": 2.1,
+    "tone": "warm",
+    "reason": "an unmistakable directional call-to-action beat (subscribe/bell) \u2014 icon-accent's badge alone carries it, no text param on this archetype"
+  },
+  "42": {
+    "archetype": "none",
+    "reason": "closing channel-description line, covered by the end-card rather than a per-beat overlay"
+  }
+}

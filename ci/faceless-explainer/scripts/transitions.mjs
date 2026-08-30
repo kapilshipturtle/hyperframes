@@ -367,8 +367,16 @@ function runVerify(argv) {
     if (!txBlock.includes(`"#el-${from.id}"`) || !txBlock.includes(`"#el-${to.id}"`))
       fail.push(`boundary ${from.id}→${to.id}: injected block does not reference both ids`);
     const overlapAmt = r3(from.start + from.duration - to.start);
-    if (overlapAmt <= 0) fail.push(`boundary ${from.id}→${to.id}: no overlap (${overlapAmt}s)`);
-    if (from.track === to.track)
+    // hard-cut is a legitimate, deliberately zero-overlap/zero-duration
+    // transition type (an instantaneous cut, not a dissolve) — it has no
+    // extended-tail-clip overlap to check, unlike every other registry
+    // transition type, which all rely on a real overlap window. Distinct
+    // from the NO_TRANSITION set ("cut"/"none"/"") above, which is never
+    // even stamped — "hard-cut" IS a real registry entry that gets stamped,
+    // just with dur=0, so it still reaches this per-boundary check.
+    if (overlapAmt <= 0 && spec.type !== "hard-cut")
+      fail.push(`boundary ${from.id}→${to.id}: no overlap (${overlapAmt}s)`);
+    if (from.track === to.track && spec.type !== "hard-cut")
       fail.push(`boundary ${from.id}→${to.id}: both on track ${from.track}`);
   }
   if (expected > 0 && !txBlock)

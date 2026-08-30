@@ -1,0 +1,166 @@
+<template>
+  <style>
+    #root {
+      width: 1920px;
+      height: 1080px;
+      position: relative;
+      overflow: hidden;
+      background: #0a0a0c;
+    }
+    .f-09-beat-bg {
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse at 50% 38%, #141416 0%, #0a0a0c 68%);
+    }
+    .f-09-beat-stage {
+      position: absolute;
+      left: 50%;
+      top: 96px;
+      transform: translateX(-50%);
+      width: 900px;
+      height: 760px;
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 14px;
+    }
+    /* Each bar row: label on the left, bar+amount stacked; bars build upward
+       (column-reverse means DOM order 0,1,2 renders bottom-to-top visually,
+       so row0 = bottom-most/first-placed bar). */
+    .f-09-beat-row {
+      position: relative;
+      width: 620px;
+      height: 128px;
+      display: flex;
+      align-items: center;
+      opacity: 0;
+    }
+    .f-09-beat-bar {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      border-radius: 10px;
+      background: linear-gradient(180deg, rgba(169,180,192,0.22) 0%, rgba(169,180,192,0.10) 100%);
+      border: 1.5px solid rgba(169,180,192,0.4);
+      overflow: hidden;
+      transform-origin: 50% 100%;
+      transform: scaleY(0);
+    }
+    .f-09-beat-amount {
+      position: absolute;
+      right: 28px;
+      top: 50%;
+      transform: translateY(-50%);
+      font: 700 42px/1 -apple-system, "Inter", sans-serif;
+      color: #f2f2f0;
+      opacity: 0;
+    }
+    .f-09-beat-label {
+      position: absolute;
+      left: 28px;
+      top: 50%;
+      transform: translateY(-50%);
+      font: 600 22px/1.3 -apple-system, "Inter", sans-serif;
+      color: #f2f2f0;
+      opacity: 0.78;
+    }
+    /* Combined total column marker that appears above the stack once all
+       three bars are placed — a single bracket + summed figure. */
+    .f-09-beat-total-wrap {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: 100%;
+      margin-bottom: 22px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      opacity: 0;
+    }
+    .f-09-beat-total-line {
+      width: 660px;
+      height: 3px;
+      background: #a9b4c0;
+      border-radius: 2px;
+      transform: scaleX(0);
+      transform-origin: 50% 50%;
+    }
+    .f-09-beat-total-label {
+      margin-top: 16px;
+      font: 600 24px/1.3 -apple-system, "Inter", sans-serif;
+      color: #a9b4c0;
+      opacity: 0.9;
+      letter-spacing: 0.02em;
+    }
+    .f-09-beat-total-amount {
+      margin-top: 6px;
+      font: 800 96px/1 -apple-system, "Inter", sans-serif;
+      color: #ffffff;
+    }
+  </style>
+
+  <div id="root" data-composition-id="09-beat" data-width="1920" data-height="1080" data-duration="4.82">
+    <div class="f-09-beat-bg clip" id="f-09-beat-bg" data-start="0" data-duration="6.02" data-track-index="0"></div>
+
+    <div class="f-09-beat-stage clip" id="f-09-beat-stage" data-start="0" data-duration="6.02" data-track-index="1">
+      <div class="f-09-beat-row" id="f-09-beat-row0">
+        <div class="f-09-beat-bar" id="f-09-beat-bar0"></div>
+        <div class="f-09-beat-label" id="f-09-beat-label0">Deduction one</div>
+        <div class="f-09-beat-amount" id="f-09-beat-amount0">$4,200</div>
+      </div>
+      <div class="f-09-beat-row" id="f-09-beat-row1">
+        <div class="f-09-beat-bar" id="f-09-beat-bar1"></div>
+        <div class="f-09-beat-label" id="f-09-beat-label1">Deduction two</div>
+        <div class="f-09-beat-amount" id="f-09-beat-amount1">$3,150</div>
+      </div>
+      <div class="f-09-beat-row" id="f-09-beat-row2">
+        <div class="f-09-beat-bar" id="f-09-beat-bar2"></div>
+        <div class="f-09-beat-label" id="f-09-beat-label2">Deduction three</div>
+        <div class="f-09-beat-amount" id="f-09-beat-amount2">$2,730</div>
+      </div>
+
+      <div class="f-09-beat-total-wrap" id="f-09-beat-total">
+        <div class="f-09-beat-total-line" id="f-09-beat-total-line"></div>
+        <div class="f-09-beat-total-label">ONE COLUMN, ADDED TOGETHER</div>
+        <div class="f-09-beat-total-amount" id="f-09-beat-total-amount">$10,080</div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    (function () {
+      window.__timelines = window.__timelines || {};
+      var tl = gsap.timeline({ paused: true });
+
+      // Reveal spread across the full 3.62s duration: three bars build
+      // upward one at a time (each ~0.5s placement), then the combined
+      // total resolves near the end — matching the beat's point that
+      // nobody has seen all three summed on one page.
+      tl.to("#f-09-beat-row0", { opacity: 1, duration: 0.28, ease: "power1.out" }, 0.15);
+      tl.to("#f-09-beat-bar0", { scaleY: 1, duration: 0.5, ease: "power3.out" }, 0.15);
+      tl.to("#f-09-beat-amount0", { opacity: 1, duration: 0.3, ease: "power2.out" }, 0.5);
+
+      tl.to("#f-09-beat-row1", { opacity: 1, duration: 0.28, ease: "power1.out" }, 1.0);
+      tl.to("#f-09-beat-bar1", { scaleY: 1, duration: 0.5, ease: "power3.out" }, 1.0);
+      tl.to("#f-09-beat-amount1", { opacity: 1, duration: 0.3, ease: "power2.out" }, 1.35);
+
+      tl.to("#f-09-beat-row2", { opacity: 1, duration: 0.28, ease: "power1.out" }, 1.85);
+      tl.to("#f-09-beat-bar2", { scaleY: 1, duration: 0.5, ease: "power3.out" }, 1.85);
+      tl.to("#f-09-beat-amount2", { opacity: 1, duration: 0.3, ease: "power2.out" }, 2.2);
+
+      // Combined total resolves once all three bars are placed, holding
+      // to the end of the beat (no exit tween).
+      tl.to("#f-09-beat-total", { opacity: 1, duration: 0.3, ease: "power2.out" }, 2.75);
+      tl.to("#f-09-beat-total-line", { scaleX: 1, duration: 0.4, ease: "power3.out" }, 2.75);
+      tl.fromTo(
+        "#f-09-beat-total-amount",
+        { opacity: 0, y: 14 },
+        { opacity: 1, y: 0, duration: 0.4, ease: "power2.out" },
+        3.05
+      );
+
+      window.__timelines["09-beat"] = tl;
+    })();
+  </script>
+</template>

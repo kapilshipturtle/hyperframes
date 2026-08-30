@@ -1,0 +1,123 @@
+<template>
+  <style>
+    #root {
+      width: 1920px;
+      height: 1080px;
+      position: relative;
+      overflow: hidden;
+      background: #000;
+    }
+    .broll-wrap {
+      position: absolute;
+      inset: -6%;
+      width: 112%;
+      height: 112%;
+    }
+    .broll-media {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    /* Cutaway sits absolutely over the primary media inside the same wrap
+       (so it inherits the same Ken Burns move on the wrap element, keeping
+       the two shots visually consistent) — starts transparent, GSAP
+       crossfades it in at --cutaway-at, see the script block below. */
+    .broll-cutaway {
+      position: absolute;
+      inset: 0;
+    }
+    /* 2.5D parallax layers (see gen-depth-layers.py) — both stacked full-
+       bleed inside the same wrap. The foreground is deliberately oversized
+       (rather than 100%) so its own independent translate (see parallaxCode
+       below) never slides a transparent edge into frame — the same
+       overscan-margin idea the wrap itself already uses, just at the layer
+       level since the fg moves MORE than the wrap's own Ken Burns alone. */
+    .broll-parallax-bg {
+      position: absolute;
+      inset: 0;
+      object-fit: cover;
+    }
+    .broll-parallax-fg {
+      position: absolute;
+      inset: -8%;
+      width: 116%;
+      height: 116%;
+      object-fit: contain;
+      object-position: center;
+    }
+    /* subtle bottom scrim so any burned-in captions stay readable over bright footage */
+    .broll-scrim {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to top, rgba(0,0,0,0.35) 0%, rgba(0,0,0,0) 22%);
+      pointer-events: none;
+    }
+    /* Optional per-beat vignette — a real, if modest, "composited" texture
+       layer distinct from the global grain overlay (which is flat, uniform,
+       full-timeline). Researched documentary/explainer-channel convention:
+       supporting texture layers COMPOSITED WITH the base clip, in the same
+       frame, is the single highest-leverage visual-quality delta over "one
+       flat clip per beat" — this is the smallest, most self-contained piece
+       of that: a soft radial darkening toward the frame edges, drawing the
+       eye toward center/subject the way a real lens vignette does. Opt-in
+       per beat via --vignette, never global/automatic (unlike grain) since
+       its strength should vary by shot mood, not apply uniformly.*/
+    .broll-vignette {
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse at center, rgba(0,0,0,0) 45%, rgba(0,0,0,0) 100%);
+      pointer-events: none;
+    }
+
+    // No separate corner-scrim rectangle — the card below already carries its
+    // own solid background + soft box-shadow, which is the ONLY legibility
+    // treatment this variant needs. An earlier version also washed a large
+    // 700x520px radial-gradient rectangle behind the card (left over from
+    // when the card itself was thin/transparent) — on a real rendered frame
+    // that rectangle's own hard top/left edge became visible as a second,
+    // ugly "shadow box" floating behind the rounded card, distinct from the
+    // card's own soft box-shadow. Confirmed on a real user-reported frame:
+    // do not reintroduce a second full-rectangle background layer here.
+    .ov-stat-corner-scrim { display: none; }
+    .ov-stat-callout { position: absolute; right: 56px; top: 76px; text-align: right; padding: 32px 40px; border-radius: 16px; background: rgba(10,10,14,0.62); box-shadow: 0 8px 24px rgba(0,0,0,0.32); opacity: 0; }
+    .ov-stat-icon { width: 40px; height: 40px; margin-left: auto; margin-bottom: 8px; color: #ffb4a8; }
+    .ov-stat-icon svg { width: 100%; height: 100%; }
+    .ov-stat-wrap { display: flex; align-items: baseline; justify-content: flex-end; gap: 2px; }
+    .ov-stat-prefix, .ov-stat-suffix { font: 700 44px/1 -apple-system, "Inter", sans-serif; color: #ffffff; text-shadow: 0 1px 2px rgba(0,0,0,0.5), 0 4px 14px rgba(0,0,0,0.4); }
+    .ov-stat-num { font-variant-numeric: tabular-nums; font: 800 140px/1 -apple-system, "Inter", sans-serif; color: #ffffff; text-shadow: 0 1px 2px rgba(0,0,0,0.5), 0 4px 14px rgba(0,0,0,0.4); transform-origin: 100% 50%; display: inline-block; }
+    .ov-stat-track { position: relative; margin-top: 12px; width: 300px; height: 6px; border-radius: 3px; background: rgba(255,255,255,0.24); margin-left: auto; box-shadow: 0 1px 4px rgba(0,0,0,0.3); }
+    .ov-stat-fill { position: absolute; inset: 0; border-radius: 3px; background: #ffb4a8; transform-origin: right center; transform: scaleX(0); }
+    .ov-stat-label { margin-top: 10px; font: 600 24px/1.3 -apple-system, "Inter", sans-serif; color: #ffffff; text-shadow: 0 1px 2px rgba(0,0,0,0.5), 0 4px 14px rgba(0,0,0,0.4); opacity: 0; }
+  </style>
+
+  <div id="root" data-composition-id="32-beat" data-width="1920" data-height="1080" data-duration="8.72">
+    <div class="broll-wrap" id="f-32-beat-wrap">
+      <video id="f-32-beat-media" class="broll-media clip" src=".media/broll/beat-32.mp4" muted playsinline data-start="0" data-duration="9.92" data-media-start="0" data-track-index="0"></video>
+    </div>
+    <div class="broll-scrim clip" id="f-32-beat-scrim" data-start="0" data-duration="9.92" data-track-index="1"></div>
+    <div class="ov-stat-corner-scrim" id="f-32-beat-ov-scrim"></div><div class="ov-stat-callout" id="f-32-beat-ov"><div class="ov-stat-wrap" id="f-32-beat-ov-wrap"><span class="ov-stat-prefix"></span><span class="ov-stat-num" id="f-32-beat-ov-num">0</span><span class="ov-stat-suffix">x a year</span></div><div class="ov-stat-track"><div class="ov-stat-fill" id="f-32-beat-ov-fill"></div></div><div class="ov-stat-label" id="f-32-beat-ov-label">an interest-free loan to the government</div></div>
+  </div>
+
+  <script>
+    (function () {
+      window.__timelines = window.__timelines || {};
+      var tl = gsap.timeline({ paused: true });
+      var wrap = document.getElementById("f-32-beat-wrap");
+      gsap.set(wrap, { scale: 1.0 });
+      (function () {
+        var el = document.getElementById("f-32-beat-ov-num");
+        var state = { value: 0 };
+        tl.to("#f-32-beat-ov-scrim", { opacity: 1, duration: 0.4, ease: "power2.out" }, 3.15);
+        tl.fromTo("#f-32-beat-ov", { opacity: 0, y: 14, scale: 0.94 }, { opacity: 1, y: 0, scale: 1, duration: 0.38, ease: "power3.out" }, 3.23);
+        tl.fromTo("#f-32-beat-ov-wrap", { opacity: 0 }, { opacity: 1, duration: 0.01 }, 3.35);
+        tl.to(state, { value: 12, duration: 1.1, ease: "power2.out", onUpdate: function () { el.textContent = Math.round(state.value).toLocaleString(); } }, 3.35);
+        tl.fromTo(el, { scale: 0.72 }, { scale: 1, duration: 1.1, ease: "back.out(1.5)" }, 3.35);
+        tl.to("#f-32-beat-ov-fill", { scaleX: 0.0120, duration: 1.1, ease: "power2.out" }, 3.35);
+        tl.fromTo("#f-32-beat-ov-label", { opacity: 0, y: 6 }, { opacity: 1, y: 0, duration: 0.3, ease: "power3.out" }, 4.30);
+        tl.to("#f-32-beat-ov", { opacity: 0, y: -8, duration: 0.35, ease: "power2.in" }, 7.02);
+        tl.to("#f-32-beat-ov-scrim", { opacity: 0, duration: 0.4, ease: "power2.in" }, 7.17);
+      })();
+      window.__timelines["32-beat"] = tl;
+    })();
+  </script>
+</template>

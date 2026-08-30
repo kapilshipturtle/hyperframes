@@ -1,0 +1,8551 @@
+{
+  "total_duration_s": 235.76,
+  "width": 1920,
+  "height": 1080,
+  "groups": [
+    {
+      "id": "caption-group-0",
+      "frame": 1,
+      "start": 0,
+      "end": 0.23,
+      "text": "If you",
+      "words": [
+        {
+          "id": "caption-word-0-0",
+          "text": "If",
+          "start": 0,
+          "end": 0.03
+        },
+        {
+          "id": "caption-word-0-1",
+          "text": "you",
+          "start": 0.03,
+          "end": 0.23
+        }
+      ]
+    },
+    {
+      "id": "caption-group-1",
+      "frame": 1,
+      "start": 0.23,
+      "end": 0.77,
+      "text": "were born",
+      "words": [
+        {
+          "id": "caption-word-1-0",
+          "text": "were",
+          "start": 0.23,
+          "end": 0.5
+        },
+        {
+          "id": "caption-word-1-1",
+          "text": "born",
+          "start": 0.5,
+          "end": 0.77
+        }
+      ]
+    },
+    {
+      "id": "caption-group-2",
+      "frame": 1,
+      "start": 0.77,
+      "end": 2.18,
+      "text": "before 1961,",
+      "words": [
+        {
+          "id": "caption-word-2-0",
+          "text": "before",
+          "start": 0.77,
+          "end": 1.18
+        },
+        {
+          "id": "caption-word-2-1",
+          "text": "1961,",
+          "start": 1.18,
+          "end": 2.1
+        }
+      ]
+    },
+    {
+      "id": "caption-group-3",
+      "frame": 1,
+      "start": 2.18,
+      "end": 2.49,
+      "text": "there is",
+      "words": [
+        {
+          "id": "caption-word-3-0",
+          "text": "there",
+          "start": 2.18,
+          "end": 2.38
+        },
+        {
+          "id": "caption-word-3-1",
+          "text": "is",
+          "start": 2.38,
+          "end": 2.49
+        }
+      ]
+    },
+    {
+      "id": "caption-group-4",
+      "frame": 1,
+      "start": 2.49,
+      "end": 2.9,
+      "text": "a number",
+      "words": [
+        {
+          "id": "caption-word-4-0",
+          "text": "a",
+          "start": 2.49,
+          "end": 2.54
+        },
+        {
+          "id": "caption-word-4-1",
+          "text": "number",
+          "start": 2.54,
+          "end": 2.9
+        }
+      ]
+    },
+    {
+      "id": "caption-group-5",
+      "frame": 1,
+      "start": 2.9,
+      "end": 3.26,
+      "text": "you need",
+      "words": [
+        {
+          "id": "caption-word-5-0",
+          "text": "you",
+          "start": 2.9,
+          "end": 3.05
+        },
+        {
+          "id": "caption-word-5-1",
+          "text": "need",
+          "start": 3.05,
+          "end": 3.26
+        }
+      ]
+    },
+    {
+      "id": "caption-group-6",
+      "frame": 1,
+      "start": 3.26,
+      "end": 3.58,
+      "text": "to know",
+      "words": [
+        {
+          "id": "caption-word-6-0",
+          "text": "to",
+          "start": 3.26,
+          "end": 3.36
+        },
+        {
+          "id": "caption-word-6-1",
+          "text": "know",
+          "start": 3.36,
+          "end": 3.58
+        }
+      ]
+    },
+    {
+      "id": "caption-group-7",
+      "frame": 1,
+      "start": 3.58,
+      "end": 3.9,
+      "text": "before you",
+      "words": [
+        {
+          "id": "caption-word-7-0",
+          "text": "before",
+          "start": 3.58,
+          "end": 3.82
+        },
+        {
+          "id": "caption-word-7-1",
+          "text": "you",
+          "start": 3.82,
+          "end": 3.9
+        }
+      ]
+    },
+    {
+      "id": "caption-group-8",
+      "frame": 1,
+      "start": 3.9,
+      "end": 4.3,
+      "text": "sign your",
+      "words": [
+        {
+          "id": "caption-word-8-0",
+          "text": "sign",
+          "start": 3.9,
+          "end": 4.14
+        },
+        {
+          "id": "caption-word-8-1",
+          "text": "your",
+          "start": 4.14,
+          "end": 4.3
+        }
+      ]
+    },
+    {
+      "id": "caption-group-9",
+      "frame": 1,
+      "start": 4.3,
+      "end": 5.36,
+      "text": "next tax return,",
+      "words": [
+        {
+          "id": "caption-word-9-0",
+          "text": "next",
+          "start": 4.3,
+          "end": 4.59
+        },
+        {
+          "id": "caption-word-9-1",
+          "text": "tax",
+          "start": 4.72,
+          "end": 4.8
+        },
+        {
+          "id": "caption-word-9-2",
+          "text": "return,",
+          "start": 4.82,
+          "end": 5.36
+        }
+      ]
+    },
+    {
+      "id": "caption-group-10",
+      "frame": 1,
+      "start": 5.36,
+      "end": 6.38,
+      "text": "and almost nobody",
+      "words": [
+        {
+          "id": "caption-word-10-0",
+          "text": "and",
+          "start": 5.36,
+          "end": 5.56
+        },
+        {
+          "id": "caption-word-10-1",
+          "text": "almost",
+          "start": 5.56,
+          "end": 5.96
+        },
+        {
+          "id": "caption-word-10-2",
+          "text": "nobody",
+          "start": 5.96,
+          "end": 6.38
+        }
+      ]
+    },
+    {
+      "id": "caption-group-11",
+      "frame": 1,
+      "start": 6.38,
+      "end": 6.76,
+      "text": "has done",
+      "words": [
+        {
+          "id": "caption-word-11-0",
+          "text": "has",
+          "start": 6.38,
+          "end": 6.58
+        },
+        {
+          "id": "caption-word-11-1",
+          "text": "done",
+          "start": 6.58,
+          "end": 6.64
+        }
+      ]
+    },
+    {
+      "id": "caption-group-12",
+      "frame": 1,
+      "start": 6.9,
+      "end": 7.93,
+      "text": "the arithmetic out",
+      "words": [
+        {
+          "id": "caption-word-12-0",
+          "text": "the",
+          "start": 6.9,
+          "end": 7.05
+        },
+        {
+          "id": "caption-word-12-1",
+          "text": "arithmetic",
+          "start": 7.05,
+          "end": 7.73
+        },
+        {
+          "id": "caption-word-12-2",
+          "text": "out",
+          "start": 7.73,
+          "end": 7.93
+        }
+      ]
+    },
+    {
+      "id": "caption-group-13",
+      "frame": 1,
+      "start": 7.93,
+      "end": 8.41,
+      "text": "loud.",
+      "words": [
+        {
+          "id": "caption-word-13-0",
+          "text": "loud.",
+          "start": 7.93,
+          "end": 8.41
+        }
+      ]
+    },
+    {
+      "id": "caption-group-14",
+      "frame": 2,
+      "start": 8.41,
+      "end": 9.41,
+      "text": "That number is",
+      "words": [
+        {
+          "id": "caption-word-14-0",
+          "text": "That",
+          "start": 8.41,
+          "end": 8.68
+        },
+        {
+          "id": "caption-word-14-1",
+          "text": "number",
+          "start": 8.68,
+          "end": 9.23
+        },
+        {
+          "id": "caption-word-14-2",
+          "text": "is",
+          "start": 9.23,
+          "end": 9.36
+        }
+      ]
+    },
+    {
+      "id": "caption-group-15",
+      "frame": 2,
+      "start": 9.41,
+      "end": 11.47,
+      "text": "$47,500.",
+      "words": [
+        {
+          "id": "caption-word-15-0",
+          "text": "$47,500.",
+          "start": 9.41,
+          "end": 11.37
+        }
+      ]
+    },
+    {
+      "id": "caption-group-16",
+      "frame": 2,
+      "start": 11.47,
+      "end": 11.74,
+      "text": "That is",
+      "words": [
+        {
+          "id": "caption-word-16-0",
+          "text": "That",
+          "start": 11.47,
+          "end": 11.62
+        },
+        {
+          "id": "caption-word-16-1",
+          "text": "is",
+          "start": 11.62,
+          "end": 11.74
+        }
+      ]
+    },
+    {
+      "id": "caption-group-17",
+      "frame": 2,
+      "start": 11.74,
+      "end": 12.18,
+      "text": "how much",
+      "words": [
+        {
+          "id": "caption-word-17-0",
+          "text": "how",
+          "start": 11.74,
+          "end": 11.93
+        },
+        {
+          "id": "caption-word-17-1",
+          "text": "much",
+          "start": 11.93,
+          "end": 12.18
+        }
+      ]
+    },
+    {
+      "id": "caption-group-18",
+      "frame": 2,
+      "start": 12.18,
+      "end": 12.62,
+      "text": "income a",
+      "words": [
+        {
+          "id": "caption-word-18-0",
+          "text": "income",
+          "start": 12.18,
+          "end": 12.56
+        },
+        {
+          "id": "caption-word-18-1",
+          "text": "a",
+          "start": 12.56,
+          "end": 12.62
+        }
+      ]
+    },
+    {
+      "id": "caption-group-19",
+      "frame": 2,
+      "start": 12.62,
+      "end": 13.64,
+      "text": "married couple,",
+      "words": [
+        {
+          "id": "caption-word-19-0",
+          "text": "married",
+          "start": 12.62,
+          "end": 13.06
+        },
+        {
+          "id": "caption-word-19-1",
+          "text": "couple,",
+          "start": 13.06,
+          "end": 13.56
+        }
+      ]
+    },
+    {
+      "id": "caption-group-20",
+      "frame": 2,
+      "start": 13.64,
+      "end": 14,
+      "text": "both age",
+      "words": [
+        {
+          "id": "caption-word-20-0",
+          "text": "both",
+          "start": 13.64,
+          "end": 13.81
+        },
+        {
+          "id": "caption-word-20-1",
+          "text": "age",
+          "start": 13.81,
+          "end": 14
+        }
+      ]
+    },
+    {
+      "id": "caption-group-21",
+      "frame": 2,
+      "start": 14,
+      "end": 14.5,
+      "text": "65 or",
+      "words": [
+        {
+          "id": "caption-word-21-0",
+          "text": "65",
+          "start": 14,
+          "end": 14.38
+        },
+        {
+          "id": "caption-word-21-1",
+          "text": "or",
+          "start": 14.38,
+          "end": 14.5
+        }
+      ]
+    },
+    {
+      "id": "caption-group-22",
+      "frame": 2,
+      "start": 14.5,
+      "end": 14.93,
+      "text": "older,",
+      "words": [
+        {
+          "id": "caption-word-22-0",
+          "text": "older,",
+          "start": 14.5,
+          "end": 14.93
+        }
+      ]
+    },
+    {
+      "id": "caption-group-23",
+      "frame": 3,
+      "start": 14.93,
+      "end": 15.31,
+      "text": "can now",
+      "words": [
+        {
+          "id": "caption-word-23-0",
+          "text": "can",
+          "start": 14.93,
+          "end": 15.11
+        },
+        {
+          "id": "caption-word-23-1",
+          "text": "now",
+          "start": 15.12,
+          "end": 15.31
+        }
+      ]
+    },
+    {
+      "id": "caption-group-24",
+      "frame": 3,
+      "start": 15.31,
+      "end": 15.68,
+      "text": "take in",
+      "words": [
+        {
+          "id": "caption-word-24-0",
+          "text": "take",
+          "start": 15.31,
+          "end": 15.56
+        },
+        {
+          "id": "caption-word-24-1",
+          "text": "in",
+          "start": 15.56,
+          "end": 15.68
+        }
+      ]
+    },
+    {
+      "id": "caption-group-25",
+      "frame": 3,
+      "start": 15.68,
+      "end": 17.2,
+      "text": "during the 2026",
+      "words": [
+        {
+          "id": "caption-word-25-0",
+          "text": "during",
+          "start": 15.68,
+          "end": 16.14
+        },
+        {
+          "id": "caption-word-25-1",
+          "text": "the",
+          "start": 16.25,
+          "end": 16.33
+        },
+        {
+          "id": "caption-word-25-2",
+          "text": "2026",
+          "start": 16.35,
+          "end": 17.14
+        }
+      ]
+    },
+    {
+      "id": "caption-group-26",
+      "frame": 3,
+      "start": 17.2,
+      "end": 17.62,
+      "text": "tax year",
+      "words": [
+        {
+          "id": "caption-word-26-0",
+          "text": "tax",
+          "start": 17.2,
+          "end": 17.35
+        },
+        {
+          "id": "caption-word-26-1",
+          "text": "year",
+          "start": 17.35,
+          "end": 17.57
+        }
+      ]
+    },
+    {
+      "id": "caption-group-27",
+      "frame": 3,
+      "start": 17.62,
+      "end": 18.29,
+      "text": "before they",
+      "words": [
+        {
+          "id": "caption-word-27-0",
+          "text": "before",
+          "start": 17.62,
+          "end": 18.02
+        },
+        {
+          "id": "caption-word-27-1",
+          "text": "they",
+          "start": 18.02,
+          "end": 18.17
+        }
+      ]
+    },
+    {
+      "id": "caption-group-28",
+      "frame": 3,
+      "start": 18.42,
+      "end": 18.55,
+      "text": "owe a",
+      "words": [
+        {
+          "id": "caption-word-28-0",
+          "text": "owe",
+          "start": 18.42,
+          "end": 18.49
+        },
+        {
+          "id": "caption-word-28-1",
+          "text": "a",
+          "start": 18.49,
+          "end": 18.55
+        }
+      ]
+    },
+    {
+      "id": "caption-group-29",
+      "frame": 3,
+      "start": 18.55,
+      "end": 19.35,
+      "text": "single dollar",
+      "words": [
+        {
+          "id": "caption-word-29-0",
+          "text": "single",
+          "start": 18.55,
+          "end": 18.95
+        },
+        {
+          "id": "caption-word-29-1",
+          "text": "dollar",
+          "start": 18.95,
+          "end": 19.35
+        }
+      ]
+    },
+    {
+      "id": "caption-group-30",
+      "frame": 3,
+      "start": 19.35,
+      "end": 20.35,
+      "text": "of federal income",
+      "words": [
+        {
+          "id": "caption-word-30-0",
+          "text": "of",
+          "start": 19.35,
+          "end": 19.48
+        },
+        {
+          "id": "caption-word-30-1",
+          "text": "federal",
+          "start": 19.48,
+          "end": 19.94
+        },
+        {
+          "id": "caption-word-30-2",
+          "text": "income",
+          "start": 20.04,
+          "end": 20.35
+        }
+      ]
+    },
+    {
+      "id": "caption-group-31",
+      "frame": 3,
+      "start": 20.35,
+      "end": 20.71,
+      "text": "tax.",
+      "words": [
+        {
+          "id": "caption-word-31-0",
+          "text": "tax.",
+          "start": 20.35,
+          "end": 20.71
+        }
+      ]
+    },
+    {
+      "id": "caption-group-32",
+      "frame": 4,
+      "start": 20.71,
+      "end": 21.71,
+      "text": "Not a credit.",
+      "words": [
+        {
+          "id": "caption-word-32-0",
+          "text": "Not",
+          "start": 20.71,
+          "end": 20.84
+        },
+        {
+          "id": "caption-word-32-1",
+          "text": "a",
+          "start": 20.84,
+          "end": 20.91
+        },
+        {
+          "id": "caption-word-32-2",
+          "text": "credit.",
+          "start": 20.91,
+          "end": 21.6
+        }
+      ]
+    },
+    {
+      "id": "caption-group-33",
+      "frame": 4,
+      "start": 21.71,
+      "end": 22.71,
+      "text": "Not a rebate.",
+      "words": [
+        {
+          "id": "caption-word-33-0",
+          "text": "Not",
+          "start": 21.71,
+          "end": 21.84
+        },
+        {
+          "id": "caption-word-33-1",
+          "text": "a",
+          "start": 21.84,
+          "end": 21.91
+        },
+        {
+          "id": "caption-word-33-2",
+          "text": "rebate.",
+          "start": 21.91,
+          "end": 22.6
+        }
+      ]
+    },
+    {
+      "id": "caption-group-34",
+      "frame": 4,
+      "start": 22.71,
+      "end": 23.32,
+      "text": "Not something",
+      "words": [
+        {
+          "id": "caption-word-34-0",
+          "text": "Not",
+          "start": 22.71,
+          "end": 22.77
+        },
+        {
+          "id": "caption-word-34-1",
+          "text": "something",
+          "start": 22.77,
+          "end": 23.24
+        }
+      ]
+    },
+    {
+      "id": "caption-group-35",
+      "frame": 4,
+      "start": 23.32,
+      "end": 23.71,
+      "text": "you apply",
+      "words": [
+        {
+          "id": "caption-word-35-0",
+          "text": "you",
+          "start": 23.32,
+          "end": 23.43
+        },
+        {
+          "id": "caption-word-35-1",
+          "text": "apply",
+          "start": 23.43,
+          "end": 23.66
+        }
+      ]
+    },
+    {
+      "id": "caption-group-36",
+      "frame": 4,
+      "start": 23.71,
+      "end": 23.97,
+      "text": "for at",
+      "words": [
+        {
+          "id": "caption-word-36-0",
+          "text": "for",
+          "start": 23.71,
+          "end": 23.87
+        },
+        {
+          "id": "caption-word-36-1",
+          "text": "at",
+          "start": 23.87,
+          "end": 23.95
+        }
+      ]
+    },
+    {
+      "id": "caption-group-37",
+      "frame": 4,
+      "start": 23.97,
+      "end": 24.62,
+      "text": "an office.",
+      "words": [
+        {
+          "id": "caption-word-37-0",
+          "text": "an",
+          "start": 23.97,
+          "end": 24.09
+        },
+        {
+          "id": "caption-word-37-1",
+          "text": "office.",
+          "start": 24.09,
+          "end": 24.62
+        }
+      ]
+    },
+    {
+      "id": "caption-group-38",
+      "frame": 5,
+      "start": 24.62,
+      "end": 26.33,
+      "text": "$47,500 of income that",
+      "words": [
+        {
+          "id": "caption-word-38-0",
+          "text": "$47,500",
+          "start": 24.62,
+          "end": 25.55
+        },
+        {
+          "id": "caption-word-38-1",
+          "text": "of",
+          "start": 25.61,
+          "end": 25.73
+        },
+        {
+          "id": "caption-word-38-2",
+          "text": "income",
+          "start": 25.73,
+          "end": 26.04
+        },
+        {
+          "id": "caption-word-38-3",
+          "text": "that",
+          "start": 26.13,
+          "end": 26.33
+        }
+      ]
+    },
+    {
+      "id": "caption-group-39",
+      "frame": 5,
+      "start": 26.33,
+      "end": 27.51,
+      "text": "the federal government",
+      "words": [
+        {
+          "id": "caption-word-39-0",
+          "text": "the",
+          "start": 26.33,
+          "end": 26.51
+        },
+        {
+          "id": "caption-word-39-1",
+          "text": "federal",
+          "start": 26.51,
+          "end": 26.92
+        },
+        {
+          "id": "caption-word-39-2",
+          "text": "government",
+          "start": 26.92,
+          "end": 27.51
+        }
+      ]
+    },
+    {
+      "id": "caption-group-40",
+      "frame": 5,
+      "start": 27.51,
+      "end": 28,
+      "text": "is simply",
+      "words": [
+        {
+          "id": "caption-word-40-0",
+          "text": "is",
+          "start": 27.51,
+          "end": 27.63
+        },
+        {
+          "id": "caption-word-40-1",
+          "text": "simply",
+          "start": 27.63,
+          "end": 27.97
+        }
+      ]
+    },
+    {
+      "id": "caption-group-41",
+      "frame": 5,
+      "start": 28,
+      "end": 28.7,
+      "text": "not permitted",
+      "words": [
+        {
+          "id": "caption-word-41-0",
+          "text": "not",
+          "start": 28,
+          "end": 28.17
+        },
+        {
+          "id": "caption-word-41-1",
+          "text": "permitted",
+          "start": 28.17,
+          "end": 28.7
+        }
+      ]
+    },
+    {
+      "id": "caption-group-42",
+      "frame": 5,
+      "start": 28.7,
+      "end": 29.24,
+      "text": "to tax.",
+      "words": [
+        {
+          "id": "caption-word-42-0",
+          "text": "to",
+          "start": 28.7,
+          "end": 28.82
+        },
+        {
+          "id": "caption-word-42-1",
+          "text": "tax.",
+          "start": 28.82,
+          "end": 29.24
+        }
+      ]
+    },
+    {
+      "id": "caption-group-43",
+      "frame": 6,
+      "start": 29.24,
+      "end": 29.58,
+      "text": "And here",
+      "words": [
+        {
+          "id": "caption-word-43-0",
+          "text": "And",
+          "start": 29.24,
+          "end": 29.33
+        },
+        {
+          "id": "caption-word-43-1",
+          "text": "here",
+          "start": 29.35,
+          "end": 29.58
+        }
+      ]
+    },
+    {
+      "id": "caption-group-44",
+      "frame": 6,
+      "start": 29.58,
+      "end": 29.89,
+      "text": "is the",
+      "words": [
+        {
+          "id": "caption-word-44-0",
+          "text": "is",
+          "start": 29.58,
+          "end": 29.7
+        },
+        {
+          "id": "caption-word-44-1",
+          "text": "the",
+          "start": 29.7,
+          "end": 29.89
+        }
+      ]
+    },
+    {
+      "id": "caption-group-45",
+      "frame": 6,
+      "start": 29.89,
+      "end": 30.39,
+      "text": "part that",
+      "words": [
+        {
+          "id": "caption-word-45-0",
+          "text": "part",
+          "start": 29.89,
+          "end": 30.13
+        },
+        {
+          "id": "caption-word-45-1",
+          "text": "that",
+          "start": 30.19,
+          "end": 30.39
+        }
+      ]
+    },
+    {
+      "id": "caption-group-46",
+      "frame": 6,
+      "start": 30.39,
+      "end": 31.27,
+      "text": "has gone almost",
+      "words": [
+        {
+          "id": "caption-word-46-0",
+          "text": "has",
+          "start": 30.39,
+          "end": 30.56
+        },
+        {
+          "id": "caption-word-46-1",
+          "text": "gone",
+          "start": 30.58,
+          "end": 30.83
+        },
+        {
+          "id": "caption-word-46-2",
+          "text": "almost",
+          "start": 30.83,
+          "end": 31.15
+        }
+      ]
+    },
+    {
+      "id": "caption-group-47",
+      "frame": 6,
+      "start": 31.42,
+      "end": 32.62,
+      "text": "entirely unexplained.",
+      "words": [
+        {
+          "id": "caption-word-47-0",
+          "text": "entirely",
+          "start": 31.42,
+          "end": 31.7
+        },
+        {
+          "id": "caption-word-47-1",
+          "text": "unexplained.",
+          "start": 31.7,
+          "end": 32.62
+        }
+      ]
+    },
+    {
+      "id": "caption-group-48",
+      "frame": 7,
+      "start": 32.62,
+      "end": 32.94,
+      "text": "The figure",
+      "words": [
+        {
+          "id": "caption-word-48-0",
+          "text": "The",
+          "start": 32.62,
+          "end": 32.66
+        },
+        {
+          "id": "caption-word-48-1",
+          "text": "figure",
+          "start": 32.66,
+          "end": 32.94
+        }
+      ]
+    },
+    {
+      "id": "caption-group-49",
+      "frame": 7,
+      "start": 32.94,
+      "end": 33.23,
+      "text": "is not",
+      "words": [
+        {
+          "id": "caption-word-49-0",
+          "text": "is",
+          "start": 32.94,
+          "end": 33.03
+        },
+        {
+          "id": "caption-word-49-1",
+          "text": "not",
+          "start": 33.03,
+          "end": 33.15
+        }
+      ]
+    },
+    {
+      "id": "caption-group-50",
+      "frame": 7,
+      "start": 33.23,
+      "end": 34,
+      "text": "one deduction.",
+      "words": [
+        {
+          "id": "caption-word-50-0",
+          "text": "one",
+          "start": 33.23,
+          "end": 33.31
+        },
+        {
+          "id": "caption-word-50-1",
+          "text": "deduction.",
+          "start": 33.31,
+          "end": 33.9
+        }
+      ]
+    },
+    {
+      "id": "caption-group-51",
+      "frame": 7,
+      "start": 34,
+      "end": 34.14,
+      "text": "It is",
+      "words": [
+        {
+          "id": "caption-word-51-0",
+          "text": "It",
+          "start": 34,
+          "end": 34.02
+        },
+        {
+          "id": "caption-word-51-1",
+          "text": "is",
+          "start": 34.02,
+          "end": 34.14
+        }
+      ]
+    },
+    {
+      "id": "caption-group-52",
+      "frame": 7,
+      "start": 34.14,
+      "end": 35.58,
+      "text": "three separate deductions",
+      "words": [
+        {
+          "id": "caption-word-52-0",
+          "text": "three",
+          "start": 34.14,
+          "end": 34.45
+        },
+        {
+          "id": "caption-word-52-1",
+          "text": "separate",
+          "start": 34.45,
+          "end": 34.89
+        },
+        {
+          "id": "caption-word-52-2",
+          "text": "deductions",
+          "start": 34.95,
+          "end": 35.58
+        }
+      ]
+    },
+    {
+      "id": "caption-group-53",
+      "frame": 7,
+      "start": 35.58,
+      "end": 36.04,
+      "text": "that stack",
+      "words": [
+        {
+          "id": "caption-word-53-0",
+          "text": "that",
+          "start": 35.58,
+          "end": 35.83
+        },
+        {
+          "id": "caption-word-53-1",
+          "text": "stack",
+          "start": 35.83,
+          "end": 35.92
+        }
+      ]
+    },
+    {
+      "id": "caption-group-54",
+      "frame": 7,
+      "start": 36.18,
+      "end": 36.45,
+      "text": "on top",
+      "words": [
+        {
+          "id": "caption-word-54-0",
+          "text": "on",
+          "start": 36.18,
+          "end": 36.26
+        },
+        {
+          "id": "caption-word-54-1",
+          "text": "top",
+          "start": 36.26,
+          "end": 36.45
+        }
+      ]
+    },
+    {
+      "id": "caption-group-55",
+      "frame": 7,
+      "start": 36.45,
+      "end": 36.82,
+      "text": "of each",
+      "words": [
+        {
+          "id": "caption-word-55-0",
+          "text": "of",
+          "start": 36.45,
+          "end": 36.57
+        },
+        {
+          "id": "caption-word-55-1",
+          "text": "each",
+          "start": 36.57,
+          "end": 36.82
+        }
+      ]
+    },
+    {
+      "id": "caption-group-56",
+      "frame": 7,
+      "start": 36.82,
+      "end": 37.4,
+      "text": "other.",
+      "words": [
+        {
+          "id": "caption-word-56-0",
+          "text": "other.",
+          "start": 36.82,
+          "end": 37.4
+        }
+      ]
+    },
+    {
+      "id": "caption-group-57",
+      "frame": 8,
+      "start": 37.4,
+      "end": 38.4,
+      "text": "Three.",
+      "words": [
+        {
+          "id": "caption-word-57-0",
+          "text": "Three.",
+          "start": 37.4,
+          "end": 38.29
+        }
+      ]
+    },
+    {
+      "id": "caption-group-58",
+      "frame": 8,
+      "start": 38.4,
+      "end": 38.78,
+      "text": "Most people",
+      "words": [
+        {
+          "id": "caption-word-58-0",
+          "text": "Most",
+          "start": 38.4,
+          "end": 38.49
+        },
+        {
+          "id": "caption-word-58-1",
+          "text": "people",
+          "start": 38.51,
+          "end": 38.78
+        }
+      ]
+    },
+    {
+      "id": "caption-group-59",
+      "frame": 8,
+      "start": 38.78,
+      "end": 39.21,
+      "text": "know about",
+      "words": [
+        {
+          "id": "caption-word-59-0",
+          "text": "know",
+          "start": 38.78,
+          "end": 38.93
+        },
+        {
+          "id": "caption-word-59-1",
+          "text": "about",
+          "start": 39.01,
+          "end": 39.21
+        }
+      ]
+    },
+    {
+      "id": "caption-group-60",
+      "frame": 8,
+      "start": 39.21,
+      "end": 39.64,
+      "text": "one.",
+      "words": [
+        {
+          "id": "caption-word-60-0",
+          "text": "one.",
+          "start": 39.21,
+          "end": 39.54
+        }
+      ]
+    },
+    {
+      "id": "caption-group-61",
+      "frame": 8,
+      "start": 39.64,
+      "end": 40.89,
+      "text": "Some know two.",
+      "words": [
+        {
+          "id": "caption-word-61-0",
+          "text": "Some",
+          "start": 39.64,
+          "end": 39.92
+        },
+        {
+          "id": "caption-word-61-1",
+          "text": "know",
+          "start": 39.92,
+          "end": 40.3
+        },
+        {
+          "id": "caption-word-61-2",
+          "text": "two.",
+          "start": 40.3,
+          "end": 40.89
+        }
+      ]
+    },
+    {
+      "id": "caption-group-62",
+      "frame": 9,
+      "start": 40.89,
+      "end": 41.39,
+      "text": "Almost nobody",
+      "words": [
+        {
+          "id": "caption-word-62-0",
+          "text": "Almost",
+          "start": 40.89,
+          "end": 41.09
+        },
+        {
+          "id": "caption-word-62-1",
+          "text": "nobody",
+          "start": 41.09,
+          "end": 41.39
+        }
+      ]
+    },
+    {
+      "id": "caption-group-63",
+      "frame": 9,
+      "start": 41.39,
+      "end": 41.74,
+      "text": "has been",
+      "words": [
+        {
+          "id": "caption-word-63-0",
+          "text": "has",
+          "start": 41.39,
+          "end": 41.54
+        },
+        {
+          "id": "caption-word-63-1",
+          "text": "been",
+          "start": 41.54,
+          "end": 41.74
+        }
+      ]
+    },
+    {
+      "id": "caption-group-64",
+      "frame": 9,
+      "start": 41.74,
+      "end": 42.13,
+      "text": "shown all",
+      "words": [
+        {
+          "id": "caption-word-64-0",
+          "text": "shown",
+          "start": 41.74,
+          "end": 41.99
+        },
+        {
+          "id": "caption-word-64-1",
+          "text": "all",
+          "start": 41.99,
+          "end": 42.13
+        }
+      ]
+    },
+    {
+      "id": "caption-group-65",
+      "frame": 9,
+      "start": 42.13,
+      "end": 42.49,
+      "text": "three in",
+      "words": [
+        {
+          "id": "caption-word-65-0",
+          "text": "three",
+          "start": 42.13,
+          "end": 42.39
+        },
+        {
+          "id": "caption-word-65-1",
+          "text": "in",
+          "start": 42.39,
+          "end": 42.49
+        }
+      ]
+    },
+    {
+      "id": "caption-group-66",
+      "frame": 9,
+      "start": 42.49,
+      "end": 42.92,
+      "text": "the same",
+      "words": [
+        {
+          "id": "caption-word-66-0",
+          "text": "the",
+          "start": 42.49,
+          "end": 42.63
+        },
+        {
+          "id": "caption-word-66-1",
+          "text": "same",
+          "start": 42.63,
+          "end": 42.8
+        }
+      ]
+    },
+    {
+      "id": "caption-group-67",
+      "frame": 9,
+      "start": 43.06,
+      "end": 43.24,
+      "text": "column,",
+      "words": [
+        {
+          "id": "caption-word-67-0",
+          "text": "column,",
+          "start": 43.06,
+          "end": 43.24
+        }
+      ]
+    },
+    {
+      "id": "caption-group-68",
+      "frame": 9,
+      "start": 43.24,
+      "end": 43.89,
+      "text": "added together",
+      "words": [
+        {
+          "id": "caption-word-68-0",
+          "text": "added",
+          "start": 43.24,
+          "end": 43.49
+        },
+        {
+          "id": "caption-word-68-1",
+          "text": "together",
+          "start": 43.49,
+          "end": 43.89
+        }
+      ]
+    },
+    {
+      "id": "caption-group-69",
+      "frame": 9,
+      "start": 43.89,
+      "end": 44.14,
+      "text": "on one",
+      "words": [
+        {
+          "id": "caption-word-69-0",
+          "text": "on",
+          "start": 43.89,
+          "end": 43.99
+        },
+        {
+          "id": "caption-word-69-1",
+          "text": "one",
+          "start": 43.99,
+          "end": 44.14
+        }
+      ]
+    },
+    {
+      "id": "caption-group-70",
+      "frame": 9,
+      "start": 44.14,
+      "end": 44.51,
+      "text": "page.",
+      "words": [
+        {
+          "id": "caption-word-70-0",
+          "text": "page.",
+          "start": 44.14,
+          "end": 44.51
+        }
+      ]
+    },
+    {
+      "id": "caption-group-71",
+      "frame": 10,
+      "start": 44.51,
+      "end": 44.91,
+      "text": "Which means",
+      "words": [
+        {
+          "id": "caption-word-71-0",
+          "text": "Which",
+          "start": 44.51,
+          "end": 44.66
+        },
+        {
+          "id": "caption-word-71-1",
+          "text": "means",
+          "start": 44.66,
+          "end": 44.91
+        }
+      ]
+    },
+    {
+      "id": "caption-group-72",
+      "frame": 10,
+      "start": 44.91,
+      "end": 45.46,
+      "text": "most people",
+      "words": [
+        {
+          "id": "caption-word-72-0",
+          "text": "most",
+          "start": 44.91,
+          "end": 45.04
+        },
+        {
+          "id": "caption-word-72-1",
+          "text": "people",
+          "start": 45.12,
+          "end": 45.4
+        }
+      ]
+    },
+    {
+      "id": "caption-group-73",
+      "frame": 10,
+      "start": 45.46,
+      "end": 45.98,
+      "text": "over 65",
+      "words": [
+        {
+          "id": "caption-word-73-0",
+          "text": "over",
+          "start": 45.46,
+          "end": 45.61
+        },
+        {
+          "id": "caption-word-73-1",
+          "text": "65",
+          "start": 45.61,
+          "end": 45.89
+        }
+      ]
+    },
+    {
+      "id": "caption-group-74",
+      "frame": 10,
+      "start": 45.98,
+      "end": 46.41,
+      "text": "are walking",
+      "words": [
+        {
+          "id": "caption-word-74-0",
+          "text": "are",
+          "start": 45.98,
+          "end": 46.06
+        },
+        {
+          "id": "caption-word-74-1",
+          "text": "walking",
+          "start": 46.06,
+          "end": 46.41
+        }
+      ]
+    },
+    {
+      "id": "caption-group-75",
+      "frame": 10,
+      "start": 46.41,
+      "end": 46.55,
+      "text": "into",
+      "words": [
+        {
+          "id": "caption-word-75-0",
+          "text": "into",
+          "start": 46.41,
+          "end": 46.43
+        }
+      ]
+    },
+    {
+      "id": "caption-group-76",
+      "frame": 10,
+      "start": 46.68,
+      "end": 47.11,
+      "text": "this filing",
+      "words": [
+        {
+          "id": "caption-word-76-0",
+          "text": "this",
+          "start": 46.68,
+          "end": 46.81
+        },
+        {
+          "id": "caption-word-76-1",
+          "text": "filing",
+          "start": 46.81,
+          "end": 47.11
+        }
+      ]
+    },
+    {
+      "id": "caption-group-77",
+      "frame": 10,
+      "start": 47.11,
+      "end": 47.61,
+      "text": "season with",
+      "words": [
+        {
+          "id": "caption-word-77-0",
+          "text": "season",
+          "start": 47.11,
+          "end": 47.41
+        },
+        {
+          "id": "caption-word-77-1",
+          "text": "with",
+          "start": 47.41,
+          "end": 47.61
+        }
+      ]
+    },
+    {
+      "id": "caption-group-78",
+      "frame": 10,
+      "start": 47.61,
+      "end": 48.01,
+      "text": "a picture",
+      "words": [
+        {
+          "id": "caption-word-78-0",
+          "text": "a",
+          "start": 47.61,
+          "end": 47.66
+        },
+        {
+          "id": "caption-word-78-1",
+          "text": "picture",
+          "start": 47.66,
+          "end": 48.01
+        }
+      ]
+    },
+    {
+      "id": "caption-group-79",
+      "frame": 10,
+      "start": 48.01,
+      "end": 48.57,
+      "text": "of their",
+      "words": [
+        {
+          "id": "caption-word-79-0",
+          "text": "of",
+          "start": 48.01,
+          "end": 48.18
+        },
+        {
+          "id": "caption-word-79-1",
+          "text": "their",
+          "start": 48.29,
+          "end": 48.57
+        }
+      ]
+    },
+    {
+      "id": "caption-group-80",
+      "frame": 10,
+      "start": 48.57,
+      "end": 49.79,
+      "text": "tax situation that",
+      "words": [
+        {
+          "id": "caption-word-80-0",
+          "text": "tax",
+          "start": 48.57,
+          "end": 48.8
+        },
+        {
+          "id": "caption-word-80-1",
+          "text": "situation",
+          "start": 48.8,
+          "end": 49.49
+        },
+        {
+          "id": "caption-word-80-2",
+          "text": "that",
+          "start": 49.49,
+          "end": 49.79
+        }
+      ]
+    },
+    {
+      "id": "caption-group-81",
+      "frame": 10,
+      "start": 49.79,
+      "end": 50.32,
+      "text": "is wrong",
+      "words": [
+        {
+          "id": "caption-word-81-0",
+          "text": "is",
+          "start": 49.79,
+          "end": 49.94
+        },
+        {
+          "id": "caption-word-81-1",
+          "text": "wrong",
+          "start": 49.94,
+          "end": 50.2
+        }
+      ]
+    },
+    {
+      "id": "caption-group-82",
+      "frame": 10,
+      "start": 50.46,
+      "end": 50.77,
+      "text": "by tens",
+      "words": [
+        {
+          "id": "caption-word-82-0",
+          "text": "by",
+          "start": 50.46,
+          "end": 50.47
+        },
+        {
+          "id": "caption-word-82-1",
+          "text": "tens",
+          "start": 50.47,
+          "end": 50.77
+        }
+      ]
+    },
+    {
+      "id": "caption-group-83",
+      "frame": 10,
+      "start": 50.77,
+      "end": 51.63,
+      "text": "of thousands",
+      "words": [
+        {
+          "id": "caption-word-83-0",
+          "text": "of",
+          "start": 50.77,
+          "end": 50.92
+        },
+        {
+          "id": "caption-word-83-1",
+          "text": "thousands",
+          "start": 50.92,
+          "end": 51.6
+        }
+      ]
+    },
+    {
+      "id": "caption-group-84",
+      "frame": 10,
+      "start": 51.63,
+      "end": 52.57,
+      "text": "of dollars.",
+      "words": [
+        {
+          "id": "caption-word-84-0",
+          "text": "of",
+          "start": 51.63,
+          "end": 51.76
+        },
+        {
+          "id": "caption-word-84-1",
+          "text": "dollars.",
+          "start": 51.76,
+          "end": 52.57
+        }
+      ]
+    },
+    {
+      "id": "caption-group-85",
+      "frame": 11,
+      "start": 52.57,
+      "end": 53.03,
+      "text": "They withhold",
+      "words": [
+        {
+          "id": "caption-word-85-0",
+          "text": "They",
+          "start": 52.57,
+          "end": 52.66
+        },
+        {
+          "id": "caption-word-85-1",
+          "text": "withhold",
+          "start": 52.68,
+          "end": 53.03
+        }
+      ]
+    },
+    {
+      "id": "caption-group-86",
+      "frame": 11,
+      "start": 53.03,
+      "end": 53.46,
+      "text": "money they",
+      "words": [
+        {
+          "id": "caption-word-86-0",
+          "text": "money",
+          "start": 53.03,
+          "end": 53.27
+        },
+        {
+          "id": "caption-word-86-1",
+          "text": "they",
+          "start": 53.27,
+          "end": 53.46
+        }
+      ]
+    },
+    {
+      "id": "caption-group-87",
+      "frame": 11,
+      "start": 53.46,
+      "end": 53.88,
+      "text": "will never",
+      "words": [
+        {
+          "id": "caption-word-87-0",
+          "text": "will",
+          "start": 53.46,
+          "end": 53.65
+        },
+        {
+          "id": "caption-word-87-1",
+          "text": "never",
+          "start": 53.65,
+          "end": 53.88
+        }
+      ]
+    },
+    {
+      "id": "caption-group-88",
+      "frame": 11,
+      "start": 53.88,
+      "end": 54.29,
+      "text": "owe.",
+      "words": [
+        {
+          "id": "caption-word-88-0",
+          "text": "owe.",
+          "start": 53.88,
+          "end": 54.19
+        }
+      ]
+    },
+    {
+      "id": "caption-group-89",
+      "frame": 11,
+      "start": 54.29,
+      "end": 54.65,
+      "text": "They pass",
+      "words": [
+        {
+          "id": "caption-word-89-0",
+          "text": "They",
+          "start": 54.29,
+          "end": 54.42
+        },
+        {
+          "id": "caption-word-89-1",
+          "text": "pass",
+          "start": 54.42,
+          "end": 54.65
+        }
+      ]
+    },
+    {
+      "id": "caption-group-90",
+      "frame": 11,
+      "start": 54.65,
+      "end": 55.1,
+      "text": "up income",
+      "words": [
+        {
+          "id": "caption-word-90-0",
+          "text": "up",
+          "start": 54.65,
+          "end": 54.76
+        },
+        {
+          "id": "caption-word-90-1",
+          "text": "income",
+          "start": 54.76,
+          "end": 55.1
+        }
+      ]
+    },
+    {
+      "id": "caption-group-91",
+      "frame": 11,
+      "start": 55.1,
+      "end": 55.62,
+      "text": "they could",
+      "words": [
+        {
+          "id": "caption-word-91-0",
+          "text": "they",
+          "start": 55.1,
+          "end": 55.33
+        },
+        {
+          "id": "caption-word-91-1",
+          "text": "could",
+          "start": 55.33,
+          "end": 55.61
+        }
+      ]
+    },
+    {
+      "id": "caption-group-92",
+      "frame": 11,
+      "start": 55.62,
+      "end": 56.51,
+      "text": "take tax-free.",
+      "words": [
+        {
+          "id": "caption-word-92-0",
+          "text": "take",
+          "start": 55.62,
+          "end": 55.85
+        },
+        {
+          "id": "caption-word-92-1",
+          "text": "tax-free.",
+          "start": 55.85,
+          "end": 56.51
+        }
+      ]
+    },
+    {
+      "id": "caption-group-93",
+      "frame": 12,
+      "start": 56.51,
+      "end": 56.83,
+      "text": "They pay",
+      "words": [
+        {
+          "id": "caption-word-93-0",
+          "text": "They",
+          "start": 56.51,
+          "end": 56.65
+        },
+        {
+          "id": "caption-word-93-1",
+          "text": "pay",
+          "start": 56.65,
+          "end": 56.83
+        }
+      ]
+    },
+    {
+      "id": "caption-group-94",
+      "frame": 12,
+      "start": 56.83,
+      "end": 57.35,
+      "text": "a preparer",
+      "words": [
+        {
+          "id": "caption-word-94-0",
+          "text": "a",
+          "start": 56.83,
+          "end": 56.89
+        },
+        {
+          "id": "caption-word-94-1",
+          "text": "preparer",
+          "start": 56.89,
+          "end": 57.35
+        }
+      ]
+    },
+    {
+      "id": "caption-group-95",
+      "frame": 12,
+      "start": 57.35,
+      "end": 57.88,
+      "text": "who checks",
+      "words": [
+        {
+          "id": "caption-word-95-0",
+          "text": "who",
+          "start": 57.35,
+          "end": 57.53
+        },
+        {
+          "id": "caption-word-95-1",
+          "text": "checks",
+          "start": 57.53,
+          "end": 57.84
+        }
+      ]
+    },
+    {
+      "id": "caption-group-96",
+      "frame": 12,
+      "start": 57.88,
+      "end": 58.24,
+      "text": "one box",
+      "words": [
+        {
+          "id": "caption-word-96-0",
+          "text": "one",
+          "start": 57.88,
+          "end": 58.06
+        },
+        {
+          "id": "caption-word-96-1",
+          "text": "box",
+          "start": 58.06,
+          "end": 58.24
+        }
+      ]
+    },
+    {
+      "id": "caption-group-97",
+      "frame": 12,
+      "start": 58.24,
+      "end": 58.77,
+      "text": "and misses",
+      "words": [
+        {
+          "id": "caption-word-97-0",
+          "text": "and",
+          "start": 58.24,
+          "end": 58.42
+        },
+        {
+          "id": "caption-word-97-1",
+          "text": "misses",
+          "start": 58.42,
+          "end": 58.77
+        }
+      ]
+    },
+    {
+      "id": "caption-group-98",
+      "frame": 12,
+      "start": 58.77,
+      "end": 59.53,
+      "text": "two others.",
+      "words": [
+        {
+          "id": "caption-word-98-0",
+          "text": "two",
+          "start": 58.77,
+          "end": 58.95
+        },
+        {
+          "id": "caption-word-98-1",
+          "text": "others.",
+          "start": 58.95,
+          "end": 59.53
+        }
+      ]
+    },
+    {
+      "id": "caption-group-99",
+      "frame": 13,
+      "start": 59.53,
+      "end": 59.74,
+      "text": "I am",
+      "words": [
+        {
+          "id": "caption-word-99-0",
+          "text": "I",
+          "start": 59.53,
+          "end": 59.63
+        },
+        {
+          "id": "caption-word-99-1",
+          "text": "am",
+          "start": 59.63,
+          "end": 59.72
+        }
+      ]
+    },
+    {
+      "id": "caption-group-100",
+      "frame": 13,
+      "start": 59.74,
+      "end": 60.17,
+      "text": "going to",
+      "words": [
+        {
+          "id": "caption-word-100-0",
+          "text": "going",
+          "start": 59.74,
+          "end": 60.04
+        },
+        {
+          "id": "caption-word-100-1",
+          "text": "to",
+          "start": 60.04,
+          "end": 60.16
+        }
+      ]
+    },
+    {
+      "id": "caption-group-101",
+      "frame": 13,
+      "start": 60.17,
+      "end": 60.75,
+      "text": "build that",
+      "words": [
+        {
+          "id": "caption-word-101-0",
+          "text": "build",
+          "start": 60.17,
+          "end": 60.49
+        },
+        {
+          "id": "caption-word-101-1",
+          "text": "that",
+          "start": 60.49,
+          "end": 60.75
+        }
+      ]
+    },
+    {
+      "id": "caption-group-102",
+      "frame": 13,
+      "start": 60.75,
+      "end": 61.26,
+      "text": "stack one",
+      "words": [
+        {
+          "id": "caption-word-102-0",
+          "text": "stack",
+          "start": 60.75,
+          "end": 61.01
+        },
+        {
+          "id": "caption-word-102-1",
+          "text": "one",
+          "start": 61.1,
+          "end": 61.26
+        }
+      ]
+    },
+    {
+      "id": "caption-group-103",
+      "frame": 13,
+      "start": 61.26,
+      "end": 61.675,
+      "text": "layer at",
+      "words": [
+        {
+          "id": "caption-word-103-0",
+          "text": "layer",
+          "start": 61.26,
+          "end": 61.54
+        },
+        {
+          "id": "caption-word-103-1",
+          "text": "at",
+          "start": 61.54,
+          "end": 61.675
+        }
+      ]
+    },
+    {
+      "id": "caption-group-104",
+      "frame": 13,
+      "start": 61.675,
+      "end": 62.03,
+      "text": "a time",
+      "words": [
+        {
+          "id": "caption-word-104-0",
+          "text": "a",
+          "start": 61.675,
+          "end": 61.81
+        },
+        {
+          "id": "caption-word-104-1",
+          "text": "time",
+          "start": 61.81,
+          "end": 62.03
+        }
+      ]
+    },
+    {
+      "id": "caption-group-105",
+      "frame": 13,
+      "start": 62.03,
+      "end": 62.48,
+      "text": "with the",
+      "words": [
+        {
+          "id": "caption-word-105-0",
+          "text": "with",
+          "start": 62.03,
+          "end": 62.29
+        },
+        {
+          "id": "caption-word-105-1",
+          "text": "the",
+          "start": 62.29,
+          "end": 62.48
+        }
+      ]
+    },
+    {
+      "id": "caption-group-106",
+      "frame": 13,
+      "start": 62.48,
+      "end": 63.45,
+      "text": "real numbers.",
+      "words": [
+        {
+          "id": "caption-word-106-0",
+          "text": "real",
+          "start": 62.48,
+          "end": 62.74
+        },
+        {
+          "id": "caption-word-106-1",
+          "text": "numbers.",
+          "start": 62.74,
+          "end": 63.45
+        }
+      ]
+    },
+    {
+      "id": "caption-group-107",
+      "frame": 14,
+      "start": 63.45,
+      "end": 63.78,
+      "text": "And then",
+      "words": [
+        {
+          "id": "caption-word-107-0",
+          "text": "And",
+          "start": 63.45,
+          "end": 63.53
+        },
+        {
+          "id": "caption-word-107-1",
+          "text": "then",
+          "start": 63.53,
+          "end": 63.78
+        }
+      ]
+    },
+    {
+      "id": "caption-group-108",
+      "frame": 14,
+      "start": 63.78,
+      "end": 63.96,
+      "text": "I am",
+      "words": [
+        {
+          "id": "caption-word-108-0",
+          "text": "I",
+          "start": 63.78,
+          "end": 63.84
+        },
+        {
+          "id": "caption-word-108-1",
+          "text": "am",
+          "start": 63.84,
+          "end": 63.96
+        }
+      ]
+    },
+    {
+      "id": "caption-group-109",
+      "frame": 14,
+      "start": 63.96,
+      "end": 64.4,
+      "text": "going to",
+      "words": [
+        {
+          "id": "caption-word-109-0",
+          "text": "going",
+          "start": 63.96,
+          "end": 64.27
+        },
+        {
+          "id": "caption-word-109-1",
+          "text": "to",
+          "start": 64.27,
+          "end": 64.35
+        }
+      ]
+    },
+    {
+      "id": "caption-group-110",
+      "frame": 14,
+      "start": 64.4,
+      "end": 64.82,
+      "text": "show you",
+      "words": [
+        {
+          "id": "caption-word-110-0",
+          "text": "show",
+          "start": 64.4,
+          "end": 64.64
+        },
+        {
+          "id": "caption-word-110-1",
+          "text": "you",
+          "start": 64.64,
+          "end": 64.78
+        }
+      ]
+    },
+    {
+      "id": "caption-group-111",
+      "frame": 14,
+      "start": 64.82,
+      "end": 65.31,
+      "text": "the thing",
+      "words": [
+        {
+          "id": "caption-word-111-0",
+          "text": "the",
+          "start": 64.82,
+          "end": 65
+        },
+        {
+          "id": "caption-word-111-1",
+          "text": "thing",
+          "start": 65,
+          "end": 65.31
+        }
+      ]
+    },
+    {
+      "id": "caption-group-112",
+      "frame": 14,
+      "start": 65.31,
+      "end": 65.49,
+      "text": "that",
+      "words": [
+        {
+          "id": "caption-word-112-0",
+          "text": "that",
+          "start": 65.31,
+          "end": 65.37
+        }
+      ]
+    },
+    {
+      "id": "caption-group-113",
+      "frame": 14,
+      "start": 65.63,
+      "end": 67.83,
+      "text": "makes $47,500 look small.",
+      "words": [
+        {
+          "id": "caption-word-113-0",
+          "text": "makes",
+          "start": 65.63,
+          "end": 65.87
+        },
+        {
+          "id": "caption-word-113-1",
+          "text": "$47,500",
+          "start": 65.87,
+          "end": 66.98
+        },
+        {
+          "id": "caption-word-113-2",
+          "text": "look",
+          "start": 66.98,
+          "end": 67.14
+        },
+        {
+          "id": "caption-word-113-3",
+          "text": "small.",
+          "start": 67.24,
+          "end": 67.83
+        }
+      ]
+    },
+    {
+      "id": "caption-group-114",
+      "frame": 15,
+      "start": 67.83,
+      "end": 68.27,
+      "text": "Because for",
+      "words": [
+        {
+          "id": "caption-word-114-0",
+          "text": "Because",
+          "start": 67.83,
+          "end": 68.11
+        },
+        {
+          "id": "caption-word-114-1",
+          "text": "for",
+          "start": 68.11,
+          "end": 68.27
+        }
+      ]
+    },
+    {
+      "id": "caption-group-115",
+      "frame": 15,
+      "start": 68.27,
+      "end": 68.83,
+      "text": "a household",
+      "words": [
+        {
+          "id": "caption-word-115-0",
+          "text": "a",
+          "start": 68.27,
+          "end": 68.32
+        },
+        {
+          "id": "caption-word-115-1",
+          "text": "household",
+          "start": 68.32,
+          "end": 68.78
+        }
+      ]
+    },
+    {
+      "id": "caption-group-116",
+      "frame": 15,
+      "start": 68.83,
+      "end": 69.45,
+      "text": "living mostly",
+      "words": [
+        {
+          "id": "caption-word-116-0",
+          "text": "living",
+          "start": 68.83,
+          "end": 69.13
+        },
+        {
+          "id": "caption-word-116-1",
+          "text": "mostly",
+          "start": 69.13,
+          "end": 69.45
+        }
+      ]
+    },
+    {
+      "id": "caption-group-117",
+      "frame": 15,
+      "start": 69.45,
+      "end": 69.87,
+      "text": "on Social",
+      "words": [
+        {
+          "id": "caption-word-117-0",
+          "text": "on",
+          "start": 69.45,
+          "end": 69.56
+        },
+        {
+          "id": "caption-word-117-1",
+          "text": "Social",
+          "start": 69.56,
+          "end": 69.75
+        }
+      ]
+    },
+    {
+      "id": "caption-group-118",
+      "frame": 15,
+      "start": 70.01,
+      "end": 70.41,
+      "text": "Security,",
+      "words": [
+        {
+          "id": "caption-word-118-0",
+          "text": "Security,",
+          "start": 70.01,
+          "end": 70.41
+        }
+      ]
+    },
+    {
+      "id": "caption-group-119",
+      "frame": 15,
+      "start": 70.41,
+      "end": 70.89,
+      "text": "the actual",
+      "words": [
+        {
+          "id": "caption-word-119-0",
+          "text": "the",
+          "start": 70.41,
+          "end": 70.57
+        },
+        {
+          "id": "caption-word-119-1",
+          "text": "actual",
+          "start": 70.57,
+          "end": 70.89
+        }
+      ]
+    },
+    {
+      "id": "caption-group-120",
+      "frame": 15,
+      "start": 70.89,
+      "end": 71.26,
+      "text": "cash you",
+      "words": [
+        {
+          "id": "caption-word-120-0",
+          "text": "cash",
+          "start": 70.89,
+          "end": 71.09
+        },
+        {
+          "id": "caption-word-120-1",
+          "text": "you",
+          "start": 71.13,
+          "end": 71.26
+        }
+      ]
+    },
+    {
+      "id": "caption-group-121",
+      "frame": 15,
+      "start": 71.26,
+      "end": 72.01,
+      "text": "can receive",
+      "words": [
+        {
+          "id": "caption-word-121-0",
+          "text": "can",
+          "start": 71.26,
+          "end": 71.43
+        },
+        {
+          "id": "caption-word-121-1",
+          "text": "receive",
+          "start": 71.43,
+          "end": 71.91
+        }
+      ]
+    },
+    {
+      "id": "caption-group-122",
+      "frame": 15,
+      "start": 72.01,
+      "end": 72.13,
+      "text": "in a",
+      "words": [
+        {
+          "id": "caption-word-122-0",
+          "text": "in",
+          "start": 72.01,
+          "end": 72.06
+        },
+        {
+          "id": "caption-word-122-1",
+          "text": "a",
+          "start": 72.06,
+          "end": 72.13
+        }
+      ]
+    },
+    {
+      "id": "caption-group-123",
+      "frame": 15,
+      "start": 72.13,
+      "end": 72.66,
+      "text": "year and",
+      "words": [
+        {
+          "id": "caption-word-123-0",
+          "text": "year",
+          "start": 72.13,
+          "end": 72.43
+        },
+        {
+          "id": "caption-word-123-1",
+          "text": "and",
+          "start": 72.43,
+          "end": 72.66
+        }
+      ]
+    },
+    {
+      "id": "caption-group-124",
+      "frame": 15,
+      "start": 72.66,
+      "end": 73.28,
+      "text": "still owe",
+      "words": [
+        {
+          "id": "caption-word-124-0",
+          "text": "still",
+          "start": 72.66,
+          "end": 73.04
+        },
+        {
+          "id": "caption-word-124-1",
+          "text": "owe",
+          "start": 73.04,
+          "end": 73.26
+        }
+      ]
+    },
+    {
+      "id": "caption-group-125",
+      "frame": 15,
+      "start": 73.28,
+      "end": 74.04,
+      "text": "zero federal",
+      "words": [
+        {
+          "id": "caption-word-125-0",
+          "text": "zero",
+          "start": 73.28,
+          "end": 73.57
+        },
+        {
+          "id": "caption-word-125-1",
+          "text": "federal",
+          "start": 73.57,
+          "end": 73.92
+        }
+      ]
+    },
+    {
+      "id": "caption-group-126",
+      "frame": 15,
+      "start": 74.19,
+      "end": 74.79,
+      "text": "income tax",
+      "words": [
+        {
+          "id": "caption-word-126-0",
+          "text": "income",
+          "start": 74.19,
+          "end": 74.56
+        },
+        {
+          "id": "caption-word-126-1",
+          "text": "tax",
+          "start": 74.56,
+          "end": 74.79
+        }
+      ]
+    },
+    {
+      "id": "caption-group-127",
+      "frame": 15,
+      "start": 74.79,
+      "end": 75.4,
+      "text": "is closer",
+      "words": [
+        {
+          "id": "caption-word-127-0",
+          "text": "is",
+          "start": 74.79,
+          "end": 74.93
+        },
+        {
+          "id": "caption-word-127-1",
+          "text": "closer",
+          "start": 74.94,
+          "end": 75.4
+        }
+      ]
+    },
+    {
+      "id": "caption-group-128",
+      "frame": 15,
+      "start": 75.4,
+      "end": 77.21,
+      "text": "to $80,000.",
+      "words": [
+        {
+          "id": "caption-word-128-0",
+          "text": "to",
+          "start": 75.4,
+          "end": 75.55
+        },
+        {
+          "id": "caption-word-128-1",
+          "text": "$80,000.",
+          "start": 75.55,
+          "end": 77.21
+        }
+      ]
+    },
+    {
+      "id": "caption-group-129",
+      "frame": 16,
+      "start": 77.21,
+      "end": 77.47,
+      "text": "Now some",
+      "words": [
+        {
+          "id": "caption-word-129-0",
+          "text": "Now",
+          "start": 77.21,
+          "end": 77.26
+        },
+        {
+          "id": "caption-word-129-1",
+          "text": "some",
+          "start": 77.26,
+          "end": 77.47
+        }
+      ]
+    },
+    {
+      "id": "caption-group-130",
+      "frame": 16,
+      "start": 77.47,
+      "end": 77.72,
+      "text": "of you",
+      "words": [
+        {
+          "id": "caption-word-130-0",
+          "text": "of",
+          "start": 77.47,
+          "end": 77.57
+        },
+        {
+          "id": "caption-word-130-1",
+          "text": "you",
+          "start": 77.57,
+          "end": 77.72
+        }
+      ]
+    },
+    {
+      "id": "caption-group-131",
+      "frame": 16,
+      "start": 77.72,
+      "end": 78.23,
+      "text": "are already",
+      "words": [
+        {
+          "id": "caption-word-131-0",
+          "text": "are",
+          "start": 77.72,
+          "end": 77.87
+        },
+        {
+          "id": "caption-word-131-1",
+          "text": "already",
+          "start": 77.87,
+          "end": 78.23
+        }
+      ]
+    },
+    {
+      "id": "caption-group-132",
+      "frame": 16,
+      "start": 78.23,
+      "end": 79.24,
+      "text": "thinking the obvious",
+      "words": [
+        {
+          "id": "caption-word-132-0",
+          "text": "thinking",
+          "start": 78.23,
+          "end": 78.6
+        },
+        {
+          "id": "caption-word-132-1",
+          "text": "the",
+          "start": 78.68,
+          "end": 78.79
+        },
+        {
+          "id": "caption-word-132-2",
+          "text": "obvious",
+          "start": 78.79,
+          "end": 79.12
+        }
+      ]
+    },
+    {
+      "id": "caption-group-133",
+      "frame": 16,
+      "start": 79.38,
+      "end": 79.73,
+      "text": "thing.",
+      "words": [
+        {
+          "id": "caption-word-133-0",
+          "text": "thing.",
+          "start": 79.38,
+          "end": 79.63
+        }
+      ]
+    },
+    {
+      "id": "caption-group-134",
+      "frame": 16,
+      "start": 79.73,
+      "end": 80.07,
+      "text": "If this",
+      "words": [
+        {
+          "id": "caption-word-134-0",
+          "text": "If",
+          "start": 79.73,
+          "end": 79.78
+        },
+        {
+          "id": "caption-word-134-1",
+          "text": "this",
+          "start": 79.78,
+          "end": 80.07
+        }
+      ]
+    },
+    {
+      "id": "caption-group-135",
+      "frame": 16,
+      "start": 80.07,
+      "end": 80.68,
+      "text": "is real,",
+      "words": [
+        {
+          "id": "caption-word-135-0",
+          "text": "is",
+          "start": 80.07,
+          "end": 80.22
+        },
+        {
+          "id": "caption-word-135-1",
+          "text": "real,",
+          "start": 80.22,
+          "end": 80.62
+        }
+      ]
+    },
+    {
+      "id": "caption-group-136",
+      "frame": 16,
+      "start": 80.68,
+      "end": 81.02,
+      "text": "and if",
+      "words": [
+        {
+          "id": "caption-word-136-0",
+          "text": "and",
+          "start": 80.68,
+          "end": 80.87
+        },
+        {
+          "id": "caption-word-136-1",
+          "text": "if",
+          "start": 80.87,
+          "end": 81.02
+        }
+      ]
+    },
+    {
+      "id": "caption-group-137",
+      "frame": 16,
+      "start": 81.02,
+      "end": 81.32,
+      "text": "it is",
+      "words": [
+        {
+          "id": "caption-word-137-0",
+          "text": "it",
+          "start": 81.02,
+          "end": 81.13
+        },
+        {
+          "id": "caption-word-137-1",
+          "text": "is",
+          "start": 81.2,
+          "end": 81.32
+        }
+      ]
+    },
+    {
+      "id": "caption-group-138",
+      "frame": 16,
+      "start": 81.32,
+      "end": 82.12,
+      "text": "this large,",
+      "words": [
+        {
+          "id": "caption-word-138-0",
+          "text": "this",
+          "start": 81.32,
+          "end": 81.61
+        },
+        {
+          "id": "caption-word-138-1",
+          "text": "large,",
+          "start": 81.61,
+          "end": 82.12
+        }
+      ]
+    },
+    {
+      "id": "caption-group-139",
+      "frame": 16,
+      "start": 82.12,
+      "end": 82.56,
+      "text": "why has",
+      "words": [
+        {
+          "id": "caption-word-139-0",
+          "text": "why",
+          "start": 82.12,
+          "end": 82.34
+        },
+        {
+          "id": "caption-word-139-1",
+          "text": "has",
+          "start": 82.34,
+          "end": 82.56
+        }
+      ]
+    },
+    {
+      "id": "caption-group-140",
+      "frame": 16,
+      "start": 82.56,
+      "end": 83.22,
+      "text": "nobody sat",
+      "words": [
+        {
+          "id": "caption-word-140-0",
+          "text": "nobody",
+          "start": 82.56,
+          "end": 82.99
+        },
+        {
+          "id": "caption-word-140-1",
+          "text": "sat",
+          "start": 83.03,
+          "end": 83.22
+        }
+      ]
+    },
+    {
+      "id": "caption-group-141",
+      "frame": 16,
+      "start": 83.22,
+      "end": 83.66,
+      "text": "me down",
+      "words": [
+        {
+          "id": "caption-word-141-0",
+          "text": "me",
+          "start": 83.22,
+          "end": 83.37
+        },
+        {
+          "id": "caption-word-141-1",
+          "text": "down",
+          "start": 83.37,
+          "end": 83.66
+        }
+      ]
+    },
+    {
+      "id": "caption-group-142",
+      "frame": 16,
+      "start": 83.66,
+      "end": 85.03,
+      "text": "and explained it?",
+      "words": [
+        {
+          "id": "caption-word-142-0",
+          "text": "and",
+          "start": 83.66,
+          "end": 83.88
+        },
+        {
+          "id": "caption-word-142-1",
+          "text": "explained",
+          "start": 83.88,
+          "end": 84.51
+        },
+        {
+          "id": "caption-word-142-2",
+          "text": "it?",
+          "start": 84.55,
+          "end": 85.03
+        }
+      ]
+    },
+    {
+      "id": "caption-group-143",
+      "frame": 17,
+      "start": 85.03,
+      "end": 85.26,
+      "text": "That is",
+      "words": [
+        {
+          "id": "caption-word-143-0",
+          "text": "That",
+          "start": 85.03,
+          "end": 85.15
+        },
+        {
+          "id": "caption-word-143-1",
+          "text": "is",
+          "start": 85.15,
+          "end": 85.26
+        }
+      ]
+    },
+    {
+      "id": "caption-group-144",
+      "frame": 17,
+      "start": 85.26,
+      "end": 85.53,
+      "text": "a fair",
+      "words": [
+        {
+          "id": "caption-word-144-0",
+          "text": "a",
+          "start": 85.26,
+          "end": 85.31
+        },
+        {
+          "id": "caption-word-144-1",
+          "text": "fair",
+          "start": 85.31,
+          "end": 85.53
+        }
+      ]
+    },
+    {
+      "id": "caption-group-145",
+      "frame": 17,
+      "start": 85.53,
+      "end": 86.14,
+      "text": "question and",
+      "words": [
+        {
+          "id": "caption-word-145-0",
+          "text": "question",
+          "start": 85.53,
+          "end": 85.92
+        },
+        {
+          "id": "caption-word-145-1",
+          "text": "and",
+          "start": 85.98,
+          "end": 86.14
+        }
+      ]
+    },
+    {
+      "id": "caption-group-146",
+      "frame": 17,
+      "start": 86.14,
+      "end": 86.63,
+      "text": "the answer",
+      "words": [
+        {
+          "id": "caption-word-146-0",
+          "text": "the",
+          "start": 86.14,
+          "end": 86.27
+        },
+        {
+          "id": "caption-word-146-1",
+          "text": "answer",
+          "start": 86.3,
+          "end": 86.63
+        }
+      ]
+    },
+    {
+      "id": "caption-group-147",
+      "frame": 17,
+      "start": 86.63,
+      "end": 86.9,
+      "text": "is not",
+      "words": [
+        {
+          "id": "caption-word-147-0",
+          "text": "is",
+          "start": 86.63,
+          "end": 86.74
+        },
+        {
+          "id": "caption-word-147-1",
+          "text": "not",
+          "start": 86.74,
+          "end": 86.9
+        }
+      ]
+    },
+    {
+      "id": "caption-group-148",
+      "frame": 17,
+      "start": 86.9,
+      "end": 87.06,
+      "text": "a",
+      "words": [
+        {
+          "id": "caption-word-148-0",
+          "text": "a",
+          "start": 86.9,
+          "end": 86.94
+        }
+      ]
+    },
+    {
+      "id": "caption-group-149",
+      "frame": 17,
+      "start": 87.21,
+      "end": 87.85,
+      "text": "conspiracy.",
+      "words": [
+        {
+          "id": "caption-word-149-0",
+          "text": "conspiracy.",
+          "start": 87.21,
+          "end": 87.75
+        }
+      ]
+    },
+    {
+      "id": "caption-group-150",
+      "frame": 17,
+      "start": 87.85,
+      "end": 87.99,
+      "text": "It is",
+      "words": [
+        {
+          "id": "caption-word-150-0",
+          "text": "It",
+          "start": 87.85,
+          "end": 87.87
+        },
+        {
+          "id": "caption-word-150-1",
+          "text": "is",
+          "start": 87.87,
+          "end": 87.99
+        }
+      ]
+    },
+    {
+      "id": "caption-group-151",
+      "frame": 17,
+      "start": 87.99,
+      "end": 88.47,
+      "text": "much more",
+      "words": [
+        {
+          "id": "caption-word-151-0",
+          "text": "much",
+          "start": 87.99,
+          "end": 88.23
+        },
+        {
+          "id": "caption-word-151-1",
+          "text": "more",
+          "start": 88.23,
+          "end": 88.47
+        }
+      ]
+    },
+    {
+      "id": "caption-group-152",
+      "frame": 17,
+      "start": 88.47,
+      "end": 89.61,
+      "text": "ordinary than that.",
+      "words": [
+        {
+          "id": "caption-word-152-0",
+          "text": "ordinary",
+          "start": 88.47,
+          "end": 88.94
+        },
+        {
+          "id": "caption-word-152-1",
+          "text": "than",
+          "start": 88.94,
+          "end": 89.17
+        },
+        {
+          "id": "caption-word-152-2",
+          "text": "that.",
+          "start": 89.18,
+          "end": 89.61
+        }
+      ]
+    },
+    {
+      "id": "caption-group-153",
+      "frame": 18,
+      "start": 89.61,
+      "end": 89.86,
+      "text": "The three",
+      "words": [
+        {
+          "id": "caption-word-153-0",
+          "text": "The",
+          "start": 89.61,
+          "end": 89.64
+        },
+        {
+          "id": "caption-word-153-1",
+          "text": "three",
+          "start": 89.64,
+          "end": 89.86
+        }
+      ]
+    },
+    {
+      "id": "caption-group-154",
+      "frame": 18,
+      "start": 89.86,
+      "end": 90.22,
+      "text": "pieces of",
+      "words": [
+        {
+          "id": "caption-word-154-0",
+          "text": "pieces",
+          "start": 89.86,
+          "end": 90.13
+        },
+        {
+          "id": "caption-word-154-1",
+          "text": "of",
+          "start": 90.13,
+          "end": 90.14
+        }
+      ]
+    },
+    {
+      "id": "caption-group-155",
+      "frame": 18,
+      "start": 90.22,
+      "end": 90.62,
+      "text": "this stack",
+      "words": [
+        {
+          "id": "caption-word-155-0",
+          "text": "this",
+          "start": 90.22,
+          "end": 90.4
+        },
+        {
+          "id": "caption-word-155-1",
+          "text": "stack",
+          "start": 90.4,
+          "end": 90.62
+        }
+      ]
+    },
+    {
+      "id": "caption-group-156",
+      "frame": 18,
+      "start": 90.62,
+      "end": 91.11,
+      "text": "were created",
+      "words": [
+        {
+          "id": "caption-word-156-0",
+          "text": "were",
+          "start": 90.62,
+          "end": 90.8
+        },
+        {
+          "id": "caption-word-156-1",
+          "text": "created",
+          "start": 90.8,
+          "end": 91.11
+        }
+      ]
+    },
+    {
+      "id": "caption-group-157",
+      "frame": 18,
+      "start": 91.11,
+      "end": 91.42,
+      "text": "at three",
+      "words": [
+        {
+          "id": "caption-word-157-0",
+          "text": "at",
+          "start": 91.11,
+          "end": 91.2
+        },
+        {
+          "id": "caption-word-157-1",
+          "text": "three",
+          "start": 91.2,
+          "end": 91.42
+        }
+      ]
+    },
+    {
+      "id": "caption-group-158",
+      "frame": 18,
+      "start": 91.42,
+      "end": 92.04,
+      "text": "different times",
+      "words": [
+        {
+          "id": "caption-word-158-0",
+          "text": "different",
+          "start": 91.42,
+          "end": 91.82
+        },
+        {
+          "id": "caption-word-158-1",
+          "text": "times",
+          "start": 91.82,
+          "end": 92.04
+        }
+      ]
+    },
+    {
+      "id": "caption-group-159",
+      "frame": 18,
+      "start": 92.04,
+      "end": 92.35,
+      "text": "by three",
+      "words": [
+        {
+          "id": "caption-word-159-0",
+          "text": "by",
+          "start": 92.04,
+          "end": 92.13
+        },
+        {
+          "id": "caption-word-159-1",
+          "text": "three",
+          "start": 92.13,
+          "end": 92.35
+        }
+      ]
+    },
+    {
+      "id": "caption-group-160",
+      "frame": 18,
+      "start": 92.35,
+      "end": 93.43,
+      "text": "different acts of",
+      "words": [
+        {
+          "id": "caption-word-160-0",
+          "text": "different",
+          "start": 92.35,
+          "end": 92.83
+        },
+        {
+          "id": "caption-word-160-1",
+          "text": "acts",
+          "start": 92.93,
+          "end": 93.22
+        },
+        {
+          "id": "caption-word-160-2",
+          "text": "of",
+          "start": 93.24,
+          "end": 93.43
+        }
+      ]
+    },
+    {
+      "id": "caption-group-161",
+      "frame": 18,
+      "start": 93.43,
+      "end": 94.55,
+      "text": "Congress.",
+      "words": [
+        {
+          "id": "caption-word-161-0",
+          "text": "Congress.",
+          "start": 93.43,
+          "end": 94.55
+        }
+      ]
+    },
+    {
+      "id": "caption-group-162",
+      "frame": 19,
+      "start": 94.55,
+      "end": 94.82,
+      "text": "The base",
+      "words": [
+        {
+          "id": "caption-word-162-0",
+          "text": "The",
+          "start": 94.55,
+          "end": 94.61
+        },
+        {
+          "id": "caption-word-162-1",
+          "text": "base",
+          "start": 94.61,
+          "end": 94.82
+        }
+      ]
+    },
+    {
+      "id": "caption-group-163",
+      "frame": 19,
+      "start": 94.82,
+      "end": 95.92,
+      "text": "standard deduction has",
+      "words": [
+        {
+          "id": "caption-word-163-0",
+          "text": "standard",
+          "start": 94.82,
+          "end": 95.25
+        },
+        {
+          "id": "caption-word-163-1",
+          "text": "deduction",
+          "start": 95.25,
+          "end": 95.74
+        },
+        {
+          "id": "caption-word-163-2",
+          "text": "has",
+          "start": 95.74,
+          "end": 95.88
+        }
+      ]
+    },
+    {
+      "id": "caption-group-164",
+      "frame": 19,
+      "start": 95.92,
+      "end": 97.13,
+      "text": "existed for decades.",
+      "words": [
+        {
+          "id": "caption-word-164-0",
+          "text": "existed",
+          "start": 95.92,
+          "end": 96.28
+        },
+        {
+          "id": "caption-word-164-1",
+          "text": "for",
+          "start": 96.28,
+          "end": 96.44
+        },
+        {
+          "id": "caption-word-164-2",
+          "text": "decades.",
+          "start": 96.44,
+          "end": 97.03
+        }
+      ]
+    },
+    {
+      "id": "caption-group-165",
+      "frame": 19,
+      "start": 97.13,
+      "end": 97.51,
+      "text": "The senior",
+      "words": [
+        {
+          "id": "caption-word-165-0",
+          "text": "The",
+          "start": 97.13,
+          "end": 97.19
+        },
+        {
+          "id": "caption-word-165-1",
+          "text": "senior",
+          "start": 97.19,
+          "end": 97.51
+        }
+      ]
+    },
+    {
+      "id": "caption-group-166",
+      "frame": 19,
+      "start": 97.51,
+      "end": 97.98,
+      "text": "add-on has",
+      "words": [
+        {
+          "id": "caption-word-166-0",
+          "text": "add-on",
+          "start": 97.51,
+          "end": 97.82
+        },
+        {
+          "id": "caption-word-166-1",
+          "text": "has",
+          "start": 97.82,
+          "end": 97.98
+        }
+      ]
+    },
+    {
+      "id": "caption-group-167",
+      "frame": 19,
+      "start": 97.98,
+      "end": 98.29,
+      "text": "been in",
+      "words": [
+        {
+          "id": "caption-word-167-0",
+          "text": "been",
+          "start": 97.98,
+          "end": 98.19
+        },
+        {
+          "id": "caption-word-167-1",
+          "text": "in",
+          "start": 98.19,
+          "end": 98.29
+        }
+      ]
+    },
+    {
+      "id": "caption-group-168",
+      "frame": 19,
+      "start": 98.29,
+      "end": 98.66,
+      "text": "the code",
+      "words": [
+        {
+          "id": "caption-word-168-0",
+          "text": "the",
+          "start": 98.29,
+          "end": 98.45
+        },
+        {
+          "id": "caption-word-168-1",
+          "text": "code",
+          "start": 98.45,
+          "end": 98.66
+        }
+      ]
+    },
+    {
+      "id": "caption-group-169",
+      "frame": 19,
+      "start": 98.66,
+      "end": 99.17,
+      "text": "since the",
+      "words": [
+        {
+          "id": "caption-word-169-0",
+          "text": "since",
+          "start": 98.66,
+          "end": 98.93
+        },
+        {
+          "id": "caption-word-169-1",
+          "text": "the",
+          "start": 98.93,
+          "end": 99.05
+        }
+      ]
+    },
+    {
+      "id": "caption-group-170",
+      "frame": 19,
+      "start": 99.31,
+      "end": 100.01,
+      "text": "1980s.",
+      "words": [
+        {
+          "id": "caption-word-170-0",
+          "text": "1980s.",
+          "start": 99.31,
+          "end": 100.01
+        }
+      ]
+    },
+    {
+      "id": "caption-group-171",
+      "frame": 20,
+      "start": 100.01,
+      "end": 100.42,
+      "text": "The third",
+      "words": [
+        {
+          "id": "caption-word-171-0",
+          "text": "The",
+          "start": 100.01,
+          "end": 100.1
+        },
+        {
+          "id": "caption-word-171-1",
+          "text": "third",
+          "start": 100.12,
+          "end": 100.42
+        }
+      ]
+    },
+    {
+      "id": "caption-group-172",
+      "frame": 20,
+      "start": 100.42,
+      "end": 101.05,
+      "text": "and largest",
+      "words": [
+        {
+          "id": "caption-word-172-0",
+          "text": "and",
+          "start": 100.42,
+          "end": 100.54
+        },
+        {
+          "id": "caption-word-172-1",
+          "text": "largest",
+          "start": 100.62,
+          "end": 101.05
+        }
+      ]
+    },
+    {
+      "id": "caption-group-173",
+      "frame": 20,
+      "start": 101.05,
+      "end": 101.49,
+      "text": "piece is",
+      "words": [
+        {
+          "id": "caption-word-173-0",
+          "text": "piece",
+          "start": 101.05,
+          "end": 101.34
+        },
+        {
+          "id": "caption-word-173-1",
+          "text": "is",
+          "start": 101.38,
+          "end": 101.49
+        }
+      ]
+    },
+    {
+      "id": "caption-group-174",
+      "frame": 20,
+      "start": 101.49,
+      "end": 102.19,
+      "text": "brand new,",
+      "words": [
+        {
+          "id": "caption-word-174-0",
+          "text": "brand",
+          "start": 101.49,
+          "end": 101.81
+        },
+        {
+          "id": "caption-word-174-1",
+          "text": "new,",
+          "start": 101.81,
+          "end": 102.12
+        }
+      ]
+    },
+    {
+      "id": "caption-group-175",
+      "frame": 20,
+      "start": 102.19,
+      "end": 103.56,
+      "text": "created in 2025,",
+      "words": [
+        {
+          "id": "caption-word-175-0",
+          "text": "created",
+          "start": 102.19,
+          "end": 102.56
+        },
+        {
+          "id": "caption-word-175-1",
+          "text": "in",
+          "start": 102.56,
+          "end": 102.68
+        },
+        {
+          "id": "caption-word-175-2",
+          "text": "2025,",
+          "start": 102.68,
+          "end": 103.56
+        }
+      ]
+    },
+    {
+      "id": "caption-group-176",
+      "frame": 20,
+      "start": 103.56,
+      "end": 104.06,
+      "text": "in effect",
+      "words": [
+        {
+          "id": "caption-word-176-0",
+          "text": "in",
+          "start": 103.56,
+          "end": 103.68
+        },
+        {
+          "id": "caption-word-176-1",
+          "text": "effect",
+          "start": 103.68,
+          "end": 104.06
+        }
+      ]
+    },
+    {
+      "id": "caption-group-177",
+      "frame": 20,
+      "start": 104.06,
+      "end": 104.54,
+      "text": "for only",
+      "words": [
+        {
+          "id": "caption-word-177-0",
+          "text": "for",
+          "start": 104.06,
+          "end": 104.25
+        },
+        {
+          "id": "caption-word-177-1",
+          "text": "only",
+          "start": 104.25,
+          "end": 104.47
+        }
+      ]
+    },
+    {
+      "id": "caption-group-178",
+      "frame": 20,
+      "start": 104.54,
+      "end": 106.23,
+      "text": "a four-year window.",
+      "words": [
+        {
+          "id": "caption-word-178-0",
+          "text": "a",
+          "start": 104.54,
+          "end": 104.55
+        },
+        {
+          "id": "caption-word-178-1",
+          "text": "four-year",
+          "start": 104.56,
+          "end": 105.23
+        },
+        {
+          "id": "caption-word-178-2",
+          "text": "window.",
+          "start": 105.23,
+          "end": 106.23
+        }
+      ]
+    },
+    {
+      "id": "caption-group-179",
+      "frame": 21,
+      "start": 106.23,
+      "end": 106.71,
+      "text": "Nobody ever",
+      "words": [
+        {
+          "id": "caption-word-179-0",
+          "text": "Nobody",
+          "start": 106.23,
+          "end": 106.48
+        },
+        {
+          "id": "caption-word-179-1",
+          "text": "ever",
+          "start": 106.48,
+          "end": 106.71
+        }
+      ]
+    },
+    {
+      "id": "caption-group-180",
+      "frame": 21,
+      "start": 106.71,
+      "end": 107.06,
+      "text": "wrote a",
+      "words": [
+        {
+          "id": "caption-word-180-0",
+          "text": "wrote",
+          "start": 106.71,
+          "end": 107
+        },
+        {
+          "id": "caption-word-180-1",
+          "text": "a",
+          "start": 107,
+          "end": 107.06
+        }
+      ]
+    },
+    {
+      "id": "caption-group-181",
+      "frame": 21,
+      "start": 107.06,
+      "end": 107.6,
+      "text": "single law",
+      "words": [
+        {
+          "id": "caption-word-181-0",
+          "text": "single",
+          "start": 107.06,
+          "end": 107.41
+        },
+        {
+          "id": "caption-word-181-1",
+          "text": "law",
+          "start": 107.41,
+          "end": 107.56
+        }
+      ]
+    },
+    {
+      "id": "caption-group-182",
+      "frame": 21,
+      "start": 107.6,
+      "end": 108.1,
+      "text": "called the",
+      "words": [
+        {
+          "id": "caption-word-182-0",
+          "text": "called",
+          "start": 107.6,
+          "end": 107.93
+        },
+        {
+          "id": "caption-word-182-1",
+          "text": "the",
+          "start": 107.93,
+          "end": 108.1
+        }
+      ]
+    },
+    {
+      "id": "caption-group-183",
+      "frame": 21,
+      "start": 108.1,
+      "end": 109.27,
+      "text": "senior tax break.",
+      "words": [
+        {
+          "id": "caption-word-183-0",
+          "text": "senior",
+          "start": 108.1,
+          "end": 108.45
+        },
+        {
+          "id": "caption-word-183-1",
+          "text": "tax",
+          "start": 108.45,
+          "end": 108.62
+        },
+        {
+          "id": "caption-word-183-2",
+          "text": "break.",
+          "start": 108.62,
+          "end": 109.17
+        }
+      ]
+    },
+    {
+      "id": "caption-group-184",
+      "frame": 21,
+      "start": 109.27,
+      "end": 110.48,
+      "text": "Three separate provisions",
+      "words": [
+        {
+          "id": "caption-word-184-0",
+          "text": "Three",
+          "start": 109.27,
+          "end": 109.45
+        },
+        {
+          "id": "caption-word-184-1",
+          "text": "separate",
+          "start": 109.45,
+          "end": 109.91
+        },
+        {
+          "id": "caption-word-184-2",
+          "text": "provisions",
+          "start": 109.91,
+          "end": 110.48
+        }
+      ]
+    },
+    {
+      "id": "caption-group-185",
+      "frame": 21,
+      "start": 110.48,
+      "end": 111.18,
+      "text": "simply happened",
+      "words": [
+        {
+          "id": "caption-word-185-0",
+          "text": "simply",
+          "start": 110.48,
+          "end": 110.82
+        },
+        {
+          "id": "caption-word-185-1",
+          "text": "happened",
+          "start": 110.82,
+          "end": 111.18
+        }
+      ]
+    },
+    {
+      "id": "caption-group-186",
+      "frame": 21,
+      "start": 111.18,
+      "end": 111.62,
+      "text": "to land",
+      "words": [
+        {
+          "id": "caption-word-186-0",
+          "text": "to",
+          "start": 111.18,
+          "end": 111.45
+        },
+        {
+          "id": "caption-word-186-1",
+          "text": "land",
+          "start": 111.45,
+          "end": 111.62
+        }
+      ]
+    },
+    {
+      "id": "caption-group-187",
+      "frame": 21,
+      "start": 111.62,
+      "end": 111.9,
+      "text": "on the",
+      "words": [
+        {
+          "id": "caption-word-187-0",
+          "text": "on",
+          "start": 111.62,
+          "end": 111.73
+        },
+        {
+          "id": "caption-word-187-1",
+          "text": "the",
+          "start": 111.73,
+          "end": 111.9
+        }
+      ]
+    },
+    {
+      "id": "caption-group-188",
+      "frame": 21,
+      "start": 111.9,
+      "end": 112.61,
+      "text": "same taxpayer",
+      "words": [
+        {
+          "id": "caption-word-188-0",
+          "text": "same",
+          "start": 111.9,
+          "end": 112.13
+        },
+        {
+          "id": "caption-word-188-1",
+          "text": "taxpayer",
+          "start": 112.13,
+          "end": 112.58
+        }
+      ]
+    },
+    {
+      "id": "caption-group-189",
+      "frame": 21,
+      "start": 112.61,
+      "end": 112.87,
+      "text": "at the",
+      "words": [
+        {
+          "id": "caption-word-189-0",
+          "text": "at",
+          "start": 112.61,
+          "end": 112.7
+        },
+        {
+          "id": "caption-word-189-1",
+          "text": "the",
+          "start": 112.7,
+          "end": 112.87
+        }
+      ]
+    },
+    {
+      "id": "caption-group-190",
+      "frame": 21,
+      "start": 112.87,
+      "end": 113.57,
+      "text": "same time.",
+      "words": [
+        {
+          "id": "caption-word-190-0",
+          "text": "same",
+          "start": 112.87,
+          "end": 113.1
+        },
+        {
+          "id": "caption-word-190-1",
+          "text": "time.",
+          "start": 113.1,
+          "end": 113.57
+        }
+      ]
+    },
+    {
+      "id": "caption-group-191",
+      "frame": 22,
+      "start": 113.57,
+      "end": 113.83,
+      "text": "So when",
+      "words": [
+        {
+          "id": "caption-word-191-0",
+          "text": "So",
+          "start": 113.57,
+          "end": 113.59
+        },
+        {
+          "id": "caption-word-191-1",
+          "text": "when",
+          "start": 113.59,
+          "end": 113.83
+        }
+      ]
+    },
+    {
+      "id": "caption-group-192",
+      "frame": 22,
+      "start": 113.83,
+      "end": 114.25,
+      "text": "the news",
+      "words": [
+        {
+          "id": "caption-word-192-0",
+          "text": "the",
+          "start": 113.83,
+          "end": 114.01
+        },
+        {
+          "id": "caption-word-192-1",
+          "text": "news",
+          "start": 114.01,
+          "end": 114.25
+        }
+      ]
+    },
+    {
+      "id": "caption-group-193",
+      "frame": 22,
+      "start": 114.25,
+      "end": 114.85,
+      "text": "covered the",
+      "words": [
+        {
+          "id": "caption-word-193-0",
+          "text": "covered",
+          "start": 114.25,
+          "end": 114.67
+        },
+        {
+          "id": "caption-word-193-1",
+          "text": "the",
+          "start": 114.67,
+          "end": 114.85
+        }
+      ]
+    },
+    {
+      "id": "caption-group-194",
+      "frame": 22,
+      "start": 114.85,
+      "end": 115.33,
+      "text": "new law,",
+      "words": [
+        {
+          "id": "caption-word-194-0",
+          "text": "new",
+          "start": 114.85,
+          "end": 114.97
+        },
+        {
+          "id": "caption-word-194-1",
+          "text": "law,",
+          "start": 115.04,
+          "end": 115.33
+        }
+      ]
+    },
+    {
+      "id": "caption-group-195",
+      "frame": 22,
+      "start": 115.33,
+      "end": 115.6,
+      "text": "they",
+      "words": [
+        {
+          "id": "caption-word-195-0",
+          "text": "they",
+          "start": 115.33,
+          "end": 115.48
+        }
+      ]
+    },
+    {
+      "id": "caption-group-196",
+      "frame": 22,
+      "start": 115.74,
+      "end": 116.17,
+      "text": "covered the",
+      "words": [
+        {
+          "id": "caption-word-196-0",
+          "text": "covered",
+          "start": 115.74,
+          "end": 115.99
+        },
+        {
+          "id": "caption-word-196-1",
+          "text": "the",
+          "start": 115.99,
+          "end": 116.17
+        }
+      ]
+    },
+    {
+      "id": "caption-group-197",
+      "frame": 22,
+      "start": 116.17,
+      "end": 116.88,
+      "text": "new piece.",
+      "words": [
+        {
+          "id": "caption-word-197-0",
+          "text": "new",
+          "start": 116.17,
+          "end": 116.35
+        },
+        {
+          "id": "caption-word-197-1",
+          "text": "piece.",
+          "start": 116.35,
+          "end": 116.88
+        }
+      ]
+    },
+    {
+      "id": "caption-group-198",
+      "frame": 23,
+      "start": 116.88,
+      "end": 117.2,
+      "text": "When the",
+      "words": [
+        {
+          "id": "caption-word-198-0",
+          "text": "When",
+          "start": 116.88,
+          "end": 117.02
+        },
+        {
+          "id": "caption-word-198-1",
+          "text": "the",
+          "start": 117.02,
+          "end": 117.2
+        }
+      ]
+    },
+    {
+      "id": "caption-group-199",
+      "frame": 23,
+      "start": 117.2,
+      "end": 118.25,
+      "text": "software updated,",
+      "words": [
+        {
+          "id": "caption-word-199-0",
+          "text": "software",
+          "start": 117.2,
+          "end": 117.69
+        },
+        {
+          "id": "caption-word-199-1",
+          "text": "updated,",
+          "start": 117.69,
+          "end": 118.23
+        }
+      ]
+    },
+    {
+      "id": "caption-group-200",
+      "frame": 23,
+      "start": 118.25,
+      "end": 118.79,
+      "text": "it updated",
+      "words": [
+        {
+          "id": "caption-word-200-0",
+          "text": "it",
+          "start": 118.25,
+          "end": 118.36
+        },
+        {
+          "id": "caption-word-200-1",
+          "text": "updated",
+          "start": 118.36,
+          "end": 118.79
+        }
+      ]
+    },
+    {
+      "id": "caption-group-201",
+      "frame": 23,
+      "start": 118.79,
+      "end": 118.92,
+      "text": "one",
+      "words": [
+        {
+          "id": "caption-word-201-0",
+          "text": "one",
+          "start": 118.79,
+          "end": 118.8
+        }
+      ]
+    },
+    {
+      "id": "caption-group-202",
+      "frame": 23,
+      "start": 119.06,
+      "end": 119.6,
+      "text": "field.",
+      "words": [
+        {
+          "id": "caption-word-202-0",
+          "text": "field.",
+          "start": 119.06,
+          "end": 119.5
+        }
+      ]
+    },
+    {
+      "id": "caption-group-203",
+      "frame": 23,
+      "start": 119.6,
+      "end": 119.96,
+      "text": "When your",
+      "words": [
+        {
+          "id": "caption-word-203-0",
+          "text": "When",
+          "start": 119.6,
+          "end": 119.73
+        },
+        {
+          "id": "caption-word-203-1",
+          "text": "your",
+          "start": 119.73,
+          "end": 119.96
+        }
+      ]
+    },
+    {
+      "id": "caption-group-204",
+      "frame": 23,
+      "start": 119.96,
+      "end": 120.75,
+      "text": "preparer looked",
+      "words": [
+        {
+          "id": "caption-word-204-0",
+          "text": "preparer",
+          "start": 119.96,
+          "end": 120.41
+        },
+        {
+          "id": "caption-word-204-1",
+          "text": "looked",
+          "start": 120.41,
+          "end": 120.75
+        }
+      ]
+    },
+    {
+      "id": "caption-group-205",
+      "frame": 23,
+      "start": 120.75,
+      "end": 121.09,
+      "text": "at your",
+      "words": [
+        {
+          "id": "caption-word-205-0",
+          "text": "at",
+          "start": 120.75,
+          "end": 120.84
+        },
+        {
+          "id": "caption-word-205-1",
+          "text": "your",
+          "start": 120.87,
+          "end": 121.09
+        }
+      ]
+    },
+    {
+      "id": "caption-group-206",
+      "frame": 23,
+      "start": 121.09,
+      "end": 121.52,
+      "text": "return,",
+      "words": [
+        {
+          "id": "caption-word-206-0",
+          "text": "return,",
+          "start": 121.09,
+          "end": 121.52
+        }
+      ]
+    },
+    {
+      "id": "caption-group-207",
+      "frame": 23,
+      "start": 121.52,
+      "end": 121.99,
+      "text": "he looked",
+      "words": [
+        {
+          "id": "caption-word-207-0",
+          "text": "he",
+          "start": 121.52,
+          "end": 121.77
+        },
+        {
+          "id": "caption-word-207-1",
+          "text": "looked",
+          "start": 121.77,
+          "end": 121.99
+        }
+      ]
+    },
+    {
+      "id": "caption-group-208",
+      "frame": 23,
+      "start": 121.99,
+      "end": 122.27,
+      "text": "at the",
+      "words": [
+        {
+          "id": "caption-word-208-0",
+          "text": "at",
+          "start": 121.99,
+          "end": 122.1
+        },
+        {
+          "id": "caption-word-208-1",
+          "text": "the",
+          "start": 122.1,
+          "end": 122.27
+        }
+      ]
+    },
+    {
+      "id": "caption-group-209",
+      "frame": 23,
+      "start": 122.27,
+      "end": 122.61,
+      "text": "line in",
+      "words": [
+        {
+          "id": "caption-word-209-0",
+          "text": "line",
+          "start": 122.27,
+          "end": 122.5
+        },
+        {
+          "id": "caption-word-209-1",
+          "text": "in",
+          "start": 122.5,
+          "end": 122.61
+        }
+      ]
+    },
+    {
+      "id": "caption-group-210",
+      "frame": 23,
+      "start": 122.61,
+      "end": 123,
+      "text": "front of",
+      "words": [
+        {
+          "id": "caption-word-210-0",
+          "text": "front",
+          "start": 122.61,
+          "end": 122.86
+        },
+        {
+          "id": "caption-word-210-1",
+          "text": "of",
+          "start": 122.9,
+          "end": 123
+        }
+      ]
+    },
+    {
+      "id": "caption-group-211",
+      "frame": 23,
+      "start": 123,
+      "end": 123.42,
+      "text": "him.",
+      "words": [
+        {
+          "id": "caption-word-211-0",
+          "text": "him.",
+          "start": 123,
+          "end": 123.42
+        }
+      ]
+    },
+    {
+      "id": "caption-group-212",
+      "frame": 24,
+      "start": 123.42,
+      "end": 123.68,
+      "text": "Every one",
+      "words": [
+        {
+          "id": "caption-word-212-0",
+          "text": "Every",
+          "start": 123.42,
+          "end": 123.55
+        },
+        {
+          "id": "caption-word-212-1",
+          "text": "one",
+          "start": 123.55,
+          "end": 123.67
+        }
+      ]
+    },
+    {
+      "id": "caption-group-213",
+      "frame": 24,
+      "start": 123.68,
+      "end": 123.95,
+      "text": "of them",
+      "words": [
+        {
+          "id": "caption-word-213-0",
+          "text": "of",
+          "start": 123.68,
+          "end": 123.77
+        },
+        {
+          "id": "caption-word-213-1",
+          "text": "them",
+          "start": 123.77,
+          "end": 123.95
+        }
+      ]
+    },
+    {
+      "id": "caption-group-214",
+      "frame": 24,
+      "start": 123.95,
+      "end": 124.31,
+      "text": "did their",
+      "words": [
+        {
+          "id": "caption-word-214-0",
+          "text": "did",
+          "start": 123.95,
+          "end": 124.08
+        },
+        {
+          "id": "caption-word-214-1",
+          "text": "their",
+          "start": 124.08,
+          "end": 124.31
+        }
+      ]
+    },
+    {
+      "id": "caption-group-215",
+      "frame": 24,
+      "start": 124.31,
+      "end": 124.94,
+      "text": "job correctly,",
+      "words": [
+        {
+          "id": "caption-word-215-0",
+          "text": "job",
+          "start": 124.31,
+          "end": 124.44
+        },
+        {
+          "id": "caption-word-215-1",
+          "text": "correctly,",
+          "start": 124.44,
+          "end": 124.94
+        }
+      ]
+    },
+    {
+      "id": "caption-group-216",
+      "frame": 24,
+      "start": 124.94,
+      "end": 125.2,
+      "text": "and not",
+      "words": [
+        {
+          "id": "caption-word-216-0",
+          "text": "and",
+          "start": 124.94,
+          "end": 125.07
+        },
+        {
+          "id": "caption-word-216-1",
+          "text": "not",
+          "start": 125.07,
+          "end": 125.2
+        }
+      ]
+    },
+    {
+      "id": "caption-group-217",
+      "frame": 24,
+      "start": 125.2,
+      "end": 125.46,
+      "text": "one of",
+      "words": [
+        {
+          "id": "caption-word-217-0",
+          "text": "one",
+          "start": 125.2,
+          "end": 125.33
+        },
+        {
+          "id": "caption-word-217-1",
+          "text": "of",
+          "start": 125.33,
+          "end": 125.34
+        }
+      ]
+    },
+    {
+      "id": "caption-group-218",
+      "frame": 24,
+      "start": 125.59,
+      "end": 125.73,
+      "text": "them was",
+      "words": [
+        {
+          "id": "caption-word-218-0",
+          "text": "them",
+          "start": 125.59,
+          "end": 125.6
+        },
+        {
+          "id": "caption-word-218-1",
+          "text": "was",
+          "start": 125.6,
+          "end": 125.73
+        }
+      ]
+    },
+    {
+      "id": "caption-group-219",
+      "frame": 24,
+      "start": 125.73,
+      "end": 126.94,
+      "text": "responsible for standing",
+      "words": [
+        {
+          "id": "caption-word-219-0",
+          "text": "responsible",
+          "start": 125.73,
+          "end": 126.23
+        },
+        {
+          "id": "caption-word-219-1",
+          "text": "for",
+          "start": 126.23,
+          "end": 126.36
+        },
+        {
+          "id": "caption-word-219-2",
+          "text": "standing",
+          "start": 126.36,
+          "end": 126.84
+        }
+      ]
+    },
+    {
+      "id": "caption-group-220",
+      "frame": 24,
+      "start": 126.94,
+      "end": 127.98,
+      "text": "back and adding",
+      "words": [
+        {
+          "id": "caption-word-220-0",
+          "text": "back",
+          "start": 126.94,
+          "end": 127.19
+        },
+        {
+          "id": "caption-word-220-1",
+          "text": "and",
+          "start": 127.19,
+          "end": 127.45
+        },
+        {
+          "id": "caption-word-220-2",
+          "text": "adding",
+          "start": 127.45,
+          "end": 127.98
+        }
+      ]
+    },
+    {
+      "id": "caption-group-221",
+      "frame": 24,
+      "start": 127.98,
+      "end": 129.16,
+      "text": "up the total.",
+      "words": [
+        {
+          "id": "caption-word-221-0",
+          "text": "up",
+          "start": 127.98,
+          "end": 128.15
+        },
+        {
+          "id": "caption-word-221-1",
+          "text": "the",
+          "start": 128.15,
+          "end": 128.33
+        },
+        {
+          "id": "caption-word-221-2",
+          "text": "total.",
+          "start": 128.41,
+          "end": 129.16
+        }
+      ]
+    },
+    {
+      "id": "caption-group-222",
+      "frame": 25,
+      "start": 129.16,
+      "end": 129.39,
+      "text": "That is",
+      "words": [
+        {
+          "id": "caption-word-222-0",
+          "text": "That",
+          "start": 129.16,
+          "end": 129.28
+        },
+        {
+          "id": "caption-word-222-1",
+          "text": "is",
+          "start": 129.28,
+          "end": 129.39
+        }
+      ]
+    },
+    {
+      "id": "caption-group-223",
+      "frame": 25,
+      "start": 129.39,
+      "end": 129.77,
+      "text": "why the",
+      "words": [
+        {
+          "id": "caption-word-223-0",
+          "text": "why",
+          "start": 129.39,
+          "end": 129.56
+        },
+        {
+          "id": "caption-word-223-1",
+          "text": "the",
+          "start": 129.56,
+          "end": 129.69
+        }
+      ]
+    },
+    {
+      "id": "caption-group-224",
+      "frame": 25,
+      "start": 129.77,
+      "end": 130.18,
+      "text": "total has",
+      "words": [
+        {
+          "id": "caption-word-224-0",
+          "text": "total",
+          "start": 129.77,
+          "end": 130.01
+        },
+        {
+          "id": "caption-word-224-1",
+          "text": "has",
+          "start": 130.01,
+          "end": 130.18
+        }
+      ]
+    },
+    {
+      "id": "caption-group-225",
+      "frame": 25,
+      "start": 130.18,
+      "end": 130.68,
+      "text": "never been",
+      "words": [
+        {
+          "id": "caption-word-225-0",
+          "text": "never",
+          "start": 130.18,
+          "end": 130.46
+        },
+        {
+          "id": "caption-word-225-1",
+          "text": "been",
+          "start": 130.46,
+          "end": 130.68
+        }
+      ]
+    },
+    {
+      "id": "caption-group-226",
+      "frame": 25,
+      "start": 130.68,
+      "end": 131.8,
+      "text": "explained to you.",
+      "words": [
+        {
+          "id": "caption-word-226-0",
+          "text": "explained",
+          "start": 130.68,
+          "end": 131.07
+        },
+        {
+          "id": "caption-word-226-1",
+          "text": "to",
+          "start": 131.07,
+          "end": 131.34
+        },
+        {
+          "id": "caption-word-226-2",
+          "text": "you.",
+          "start": 131.34,
+          "end": 131.7
+        }
+      ]
+    },
+    {
+      "id": "caption-group-227",
+      "frame": 25,
+      "start": 131.8,
+      "end": 132.18,
+      "text": "Not because",
+      "words": [
+        {
+          "id": "caption-word-227-0",
+          "text": "Not",
+          "start": 131.8,
+          "end": 131.84
+        },
+        {
+          "id": "caption-word-227-1",
+          "text": "because",
+          "start": 131.84,
+          "end": 132.18
+        }
+      ]
+    },
+    {
+      "id": "caption-group-228",
+      "frame": 25,
+      "start": 132.18,
+      "end": 132.41,
+      "text": "it is",
+      "words": [
+        {
+          "id": "caption-word-228-0",
+          "text": "it",
+          "start": 132.18,
+          "end": 132.27
+        },
+        {
+          "id": "caption-word-228-1",
+          "text": "is",
+          "start": 132.27,
+          "end": 132.33
+        }
+      ]
+    },
+    {
+      "id": "caption-group-229",
+      "frame": 25,
+      "start": 132.41,
+      "end": 132.75,
+      "text": "hidden,",
+      "words": [
+        {
+          "id": "caption-word-229-0",
+          "text": "hidden,",
+          "start": 132.41,
+          "end": 132.7
+        }
+      ]
+    },
+    {
+      "id": "caption-group-230",
+      "frame": 25,
+      "start": 132.75,
+      "end": 133.27,
+      "text": "but because",
+      "words": [
+        {
+          "id": "caption-word-230-0",
+          "text": "but",
+          "start": 132.75,
+          "end": 132.88
+        },
+        {
+          "id": "caption-word-230-1",
+          "text": "because",
+          "start": 132.88,
+          "end": 133.18
+        }
+      ]
+    },
+    {
+      "id": "caption-group-231",
+      "frame": 25,
+      "start": 133.27,
+      "end": 133.6,
+      "text": "nobody in",
+      "words": [
+        {
+          "id": "caption-word-231-0",
+          "text": "nobody",
+          "start": 133.27,
+          "end": 133.51
+        },
+        {
+          "id": "caption-word-231-1",
+          "text": "in",
+          "start": 133.51,
+          "end": 133.6
+        }
+      ]
+    },
+    {
+      "id": "caption-group-232",
+      "frame": 25,
+      "start": 133.6,
+      "end": 133.83,
+      "text": "the",
+      "words": [
+        {
+          "id": "caption-word-232-0",
+          "text": "the",
+          "start": 133.6,
+          "end": 133.71
+        }
+      ]
+    },
+    {
+      "id": "caption-group-233",
+      "frame": 25,
+      "start": 133.97,
+      "end": 134.12,
+      "text": "system is",
+      "words": [
+        {
+          "id": "caption-word-233-0",
+          "text": "system",
+          "start": 133.97,
+          "end": 134.03
+        },
+        {
+          "id": "caption-word-233-1",
+          "text": "is",
+          "start": 134.03,
+          "end": 134.12
+        }
+      ]
+    },
+    {
+      "id": "caption-group-234",
+      "frame": 25,
+      "start": 134.12,
+      "end": 134.64,
+      "text": "assigned the",
+      "words": [
+        {
+          "id": "caption-word-234-0",
+          "text": "assigned",
+          "start": 134.12,
+          "end": 134.5
+        },
+        {
+          "id": "caption-word-234-1",
+          "text": "the",
+          "start": 134.5,
+          "end": 134.64
+        }
+      ]
+    },
+    {
+      "id": "caption-group-235",
+      "frame": 25,
+      "start": 134.64,
+      "end": 134.87,
+      "text": "job of",
+      "words": [
+        {
+          "id": "caption-word-235-0",
+          "text": "job",
+          "start": 134.64,
+          "end": 134.78
+        },
+        {
+          "id": "caption-word-235-1",
+          "text": "of",
+          "start": 134.78,
+          "end": 134.87
+        }
+      ]
+    },
+    {
+      "id": "caption-group-236",
+      "frame": 25,
+      "start": 134.87,
+      "end": 136.25,
+      "text": "adding it up.",
+      "words": [
+        {
+          "id": "caption-word-236-0",
+          "text": "adding",
+          "start": 134.87,
+          "end": 135.26
+        },
+        {
+          "id": "caption-word-236-1",
+          "text": "it",
+          "start": 135.36,
+          "end": 135.54
+        },
+        {
+          "id": "caption-word-236-2",
+          "text": "up.",
+          "start": 135.54,
+          "end": 136.25
+        }
+      ]
+    },
+    {
+      "id": "caption-group-237",
+      "frame": 26,
+      "start": 136.25,
+      "end": 136.74,
+      "text": "Today,",
+      "words": [
+        {
+          "id": "caption-word-237-0",
+          "text": "Today,",
+          "start": 136.25,
+          "end": 136.74
+        }
+      ]
+    },
+    {
+      "id": "caption-group-238",
+      "frame": 26,
+      "start": 136.74,
+      "end": 137.25,
+      "text": "that is",
+      "words": [
+        {
+          "id": "caption-word-238-0",
+          "text": "that",
+          "start": 136.74,
+          "end": 137.08
+        },
+        {
+          "id": "caption-word-238-1",
+          "text": "is",
+          "start": 137.08,
+          "end": 137.2
+        }
+      ]
+    },
+    {
+      "id": "caption-group-239",
+      "frame": 26,
+      "start": 137.25,
+      "end": 138.13,
+      "text": "the job.",
+      "words": [
+        {
+          "id": "caption-word-239-0",
+          "text": "the",
+          "start": 137.25,
+          "end": 137.49
+        },
+        {
+          "id": "caption-word-239-1",
+          "text": "job.",
+          "start": 137.49,
+          "end": 138.03
+        }
+      ]
+    },
+    {
+      "id": "caption-group-240",
+      "frame": 26,
+      "start": 138.13,
+      "end": 138.57,
+      "text": "Stay with",
+      "words": [
+        {
+          "id": "caption-word-240-0",
+          "text": "Stay",
+          "start": 138.13,
+          "end": 138.3
+        },
+        {
+          "id": "caption-word-240-1",
+          "text": "with",
+          "start": 138.3,
+          "end": 138.57
+        }
+      ]
+    },
+    {
+      "id": "caption-group-241",
+      "frame": 26,
+      "start": 138.57,
+      "end": 138.83,
+      "text": "me,",
+      "words": [
+        {
+          "id": "caption-word-241-0",
+          "text": "me,",
+          "start": 138.57,
+          "end": 138.83
+        }
+      ]
+    },
+    {
+      "id": "caption-group-242",
+      "frame": 26,
+      "start": 138.83,
+      "end": 139.5,
+      "text": "because the",
+      "words": [
+        {
+          "id": "caption-word-242-0",
+          "text": "because",
+          "start": 138.83,
+          "end": 139.3
+        },
+        {
+          "id": "caption-word-242-1",
+          "text": "the",
+          "start": 139.3,
+          "end": 139.45
+        }
+      ]
+    },
+    {
+      "id": "caption-group-243",
+      "frame": 26,
+      "start": 139.5,
+      "end": 140.51,
+      "text": "two most valuable",
+      "words": [
+        {
+          "id": "caption-word-243-0",
+          "text": "two",
+          "start": 139.5,
+          "end": 139.7
+        },
+        {
+          "id": "caption-word-243-1",
+          "text": "most",
+          "start": 139.7,
+          "end": 139.97
+        },
+        {
+          "id": "caption-word-243-2",
+          "text": "valuable",
+          "start": 139.97,
+          "end": 140.51
+        }
+      ]
+    },
+    {
+      "id": "caption-group-244",
+      "frame": 26,
+      "start": 140.51,
+      "end": 141.18,
+      "text": "things here",
+      "words": [
+        {
+          "id": "caption-word-244-0",
+          "text": "things",
+          "start": 140.51,
+          "end": 140.91
+        },
+        {
+          "id": "caption-word-244-1",
+          "text": "here",
+          "start": 140.91,
+          "end": 141.18
+        }
+      ]
+    },
+    {
+      "id": "caption-group-245",
+      "frame": 26,
+      "start": 141.18,
+      "end": 141.58,
+      "text": "are not",
+      "words": [
+        {
+          "id": "caption-word-245-0",
+          "text": "are",
+          "start": 141.18,
+          "end": 141.38
+        },
+        {
+          "id": "caption-word-245-1",
+          "text": "not",
+          "start": 141.38,
+          "end": 141.58
+        }
+      ]
+    },
+    {
+      "id": "caption-group-246",
+      "frame": 26,
+      "start": 141.58,
+      "end": 143.05,
+      "text": "any single deduction.",
+      "words": [
+        {
+          "id": "caption-word-246-0",
+          "text": "any",
+          "start": 141.58,
+          "end": 141.77
+        },
+        {
+          "id": "caption-word-246-1",
+          "text": "single",
+          "start": 141.78,
+          "end": 142.18
+        },
+        {
+          "id": "caption-word-246-2",
+          "text": "deduction.",
+          "start": 142.18,
+          "end": 143.05
+        }
+      ]
+    },
+    {
+      "id": "caption-group-247",
+      "frame": 27,
+      "start": 143.05,
+      "end": 143.37,
+      "text": "They are",
+      "words": [
+        {
+          "id": "caption-word-247-0",
+          "text": "They",
+          "start": 143.05,
+          "end": 143.19
+        },
+        {
+          "id": "caption-word-247-1",
+          "text": "are",
+          "start": 143.19,
+          "end": 143.37
+        }
+      ]
+    },
+    {
+      "id": "caption-group-248",
+      "frame": 27,
+      "start": 143.37,
+      "end": 144.06,
+      "text": "the total.",
+      "words": [
+        {
+          "id": "caption-word-248-0",
+          "text": "the",
+          "start": 143.37,
+          "end": 143.55
+        },
+        {
+          "id": "caption-word-248-1",
+          "text": "total.",
+          "start": 143.55,
+          "end": 143.94
+        }
+      ]
+    },
+    {
+      "id": "caption-group-249",
+      "frame": 27,
+      "start": 144.13,
+      "end": 144.36,
+      "text": "And then",
+      "words": [
+        {
+          "id": "caption-word-249-0",
+          "text": "And",
+          "start": 144.13,
+          "end": 144.17
+        },
+        {
+          "id": "caption-word-249-1",
+          "text": "then",
+          "start": 144.17,
+          "end": 144.36
+        }
+      ]
+    },
+    {
+      "id": "caption-group-250",
+      "frame": 27,
+      "start": 144.36,
+      "end": 144.89,
+      "text": "one specific",
+      "words": [
+        {
+          "id": "caption-word-250-0",
+          "text": "one",
+          "start": 144.36,
+          "end": 144.5
+        },
+        {
+          "id": "caption-word-250-1",
+          "text": "specific",
+          "start": 144.5,
+          "end": 144.89
+        }
+      ]
+    },
+    {
+      "id": "caption-group-251",
+      "frame": 27,
+      "start": 144.89,
+      "end": 145.22,
+      "text": "thing to",
+      "words": [
+        {
+          "id": "caption-word-251-0",
+          "text": "thing",
+          "start": 144.89,
+          "end": 145.01
+        },
+        {
+          "id": "caption-word-251-1",
+          "text": "to",
+          "start": 145.13,
+          "end": 145.22
+        }
+      ]
+    },
+    {
+      "id": "caption-group-252",
+      "frame": 27,
+      "start": 145.22,
+      "end": 145.6,
+      "text": "verify on",
+      "words": [
+        {
+          "id": "caption-word-252-0",
+          "text": "verify",
+          "start": 145.22,
+          "end": 145.5
+        },
+        {
+          "id": "caption-word-252-1",
+          "text": "on",
+          "start": 145.5,
+          "end": 145.53
+        }
+      ]
+    },
+    {
+      "id": "caption-group-253",
+      "frame": 27,
+      "start": 145.6,
+      "end": 146.04,
+      "text": "your return",
+      "words": [
+        {
+          "id": "caption-word-253-0",
+          "text": "your",
+          "start": 145.6,
+          "end": 145.79
+        },
+        {
+          "id": "caption-word-253-1",
+          "text": "return",
+          "start": 145.79,
+          "end": 146.04
+        }
+      ]
+    },
+    {
+      "id": "caption-group-254",
+      "frame": 27,
+      "start": 146.04,
+      "end": 146.61,
+      "text": "that decides",
+      "words": [
+        {
+          "id": "caption-word-254-0",
+          "text": "that",
+          "start": 146.04,
+          "end": 146.31
+        },
+        {
+          "id": "caption-word-254-1",
+          "text": "decides",
+          "start": 146.31,
+          "end": 146.61
+        }
+      ]
+    },
+    {
+      "id": "caption-group-255",
+      "frame": 27,
+      "start": 146.61,
+      "end": 147.09,
+      "text": "whether the",
+      "words": [
+        {
+          "id": "caption-word-255-0",
+          "text": "whether",
+          "start": 146.61,
+          "end": 146.95
+        },
+        {
+          "id": "caption-word-255-1",
+          "text": "the",
+          "start": 146.95,
+          "end": 147.09
+        }
+      ]
+    },
+    {
+      "id": "caption-group-256",
+      "frame": 27,
+      "start": 147.09,
+      "end": 148.34,
+      "text": "total actually reaches",
+      "words": [
+        {
+          "id": "caption-word-256-0",
+          "text": "total",
+          "start": 147.09,
+          "end": 147.33
+        },
+        {
+          "id": "caption-word-256-1",
+          "text": "actually",
+          "start": 147.33,
+          "end": 147.8
+        },
+        {
+          "id": "caption-word-256-2",
+          "text": "reaches",
+          "start": 147.91,
+          "end": 148.34
+        }
+      ]
+    },
+    {
+      "id": "caption-group-257",
+      "frame": 27,
+      "start": 148.34,
+      "end": 148.8,
+      "text": "you.",
+      "words": [
+        {
+          "id": "caption-word-257-0",
+          "text": "you.",
+          "start": 148.34,
+          "end": 148.8
+        }
+      ]
+    },
+    {
+      "id": "caption-group-258",
+      "frame": 28,
+      "start": 148.8,
+      "end": 148.97,
+      "text": "Let me",
+      "words": [
+        {
+          "id": "caption-word-258-0",
+          "text": "Let",
+          "start": 148.8,
+          "end": 148.86
+        },
+        {
+          "id": "caption-word-258-1",
+          "text": "me",
+          "start": 148.86,
+          "end": 148.97
+        }
+      ]
+    },
+    {
+      "id": "caption-group-259",
+      "frame": 28,
+      "start": 148.97,
+      "end": 149.41,
+      "text": "stop two",
+      "words": [
+        {
+          "id": "caption-word-259-0",
+          "text": "stop",
+          "start": 148.97,
+          "end": 149.19
+        },
+        {
+          "id": "caption-word-259-1",
+          "text": "two",
+          "start": 149.19,
+          "end": 149.33
+        }
+      ]
+    },
+    {
+      "id": "caption-group-260",
+      "frame": 28,
+      "start": 149.41,
+      "end": 150.18,
+      "text": "different people",
+      "words": [
+        {
+          "id": "caption-word-260-0",
+          "text": "different",
+          "start": 149.41,
+          "end": 149.85
+        },
+        {
+          "id": "caption-word-260-1",
+          "text": "people",
+          "start": 149.85,
+          "end": 150.18
+        }
+      ]
+    },
+    {
+      "id": "caption-group-261",
+      "frame": 28,
+      "start": 150.18,
+      "end": 150.83,
+      "text": "from clicking",
+      "words": [
+        {
+          "id": "caption-word-261-0",
+          "text": "from",
+          "start": 150.18,
+          "end": 150.4
+        },
+        {
+          "id": "caption-word-261-1",
+          "text": "clicking",
+          "start": 150.4,
+          "end": 150.71
+        }
+      ]
+    },
+    {
+      "id": "caption-group-262",
+      "frame": 28,
+      "start": 150.97,
+      "end": 151.34,
+      "text": "away right",
+      "words": [
+        {
+          "id": "caption-word-262-0",
+          "text": "away",
+          "start": 150.97,
+          "end": 151.06
+        },
+        {
+          "id": "caption-word-262-1",
+          "text": "right",
+          "start": 151.06,
+          "end": 151.34
+        }
+      ]
+    },
+    {
+      "id": "caption-group-263",
+      "frame": 28,
+      "start": 151.34,
+      "end": 151.61,
+      "text": "now,",
+      "words": [
+        {
+          "id": "caption-word-263-0",
+          "text": "now,",
+          "start": 151.34,
+          "end": 151.61
+        }
+      ]
+    },
+    {
+      "id": "caption-group-264",
+      "frame": 28,
+      "start": 151.61,
+      "end": 152.11,
+      "text": "because in",
+      "words": [
+        {
+          "id": "caption-word-264-0",
+          "text": "because",
+          "start": 151.61,
+          "end": 152
+        },
+        {
+          "id": "caption-word-264-1",
+          "text": "in",
+          "start": 152,
+          "end": 152.11
+        }
+      ]
+    },
+    {
+      "id": "caption-group-265",
+      "frame": 28,
+      "start": 152.11,
+      "end": 153.06,
+      "text": "my experience,",
+      "words": [
+        {
+          "id": "caption-word-265-0",
+          "text": "my",
+          "start": 152.11,
+          "end": 152.22
+        },
+        {
+          "id": "caption-word-265-1",
+          "text": "experience,",
+          "start": 152.22,
+          "end": 152.96
+        }
+      ]
+    },
+    {
+      "id": "caption-group-266",
+      "frame": 28,
+      "start": 153.06,
+      "end": 153.31,
+      "text": "both of",
+      "words": [
+        {
+          "id": "caption-word-266-0",
+          "text": "both",
+          "start": 153.06,
+          "end": 153.2
+        },
+        {
+          "id": "caption-word-266-1",
+          "text": "of",
+          "start": 153.2,
+          "end": 153.31
+        }
+      ]
+    },
+    {
+      "id": "caption-group-267",
+      "frame": 28,
+      "start": 153.31,
+      "end": 153.86,
+      "text": "them leave",
+      "words": [
+        {
+          "id": "caption-word-267-0",
+          "text": "them",
+          "start": 153.31,
+          "end": 153.56
+        },
+        {
+          "id": "caption-word-267-1",
+          "text": "leave",
+          "start": 153.56,
+          "end": 153.86
+        }
+      ]
+    },
+    {
+      "id": "caption-group-268",
+      "frame": 28,
+      "start": 153.86,
+      "end": 154.53,
+      "text": "money behind",
+      "words": [
+        {
+          "id": "caption-word-268-0",
+          "text": "money",
+          "start": 153.86,
+          "end": 154.16
+        },
+        {
+          "id": "caption-word-268-1",
+          "text": "behind",
+          "start": 154.16,
+          "end": 154.44
+        }
+      ]
+    },
+    {
+      "id": "caption-group-269",
+      "frame": 28,
+      "start": 154.53,
+      "end": 155.09,
+      "text": "for opposite",
+      "words": [
+        {
+          "id": "caption-word-269-0",
+          "text": "for",
+          "start": 154.53,
+          "end": 154.7
+        },
+        {
+          "id": "caption-word-269-1",
+          "text": "opposite",
+          "start": 154.7,
+          "end": 154.97
+        }
+      ]
+    },
+    {
+      "id": "caption-group-270",
+      "frame": 28,
+      "start": 155.24,
+      "end": 155.78,
+      "text": "and equally",
+      "words": [
+        {
+          "id": "caption-word-270-0",
+          "text": "and",
+          "start": 155.24,
+          "end": 155.36
+        },
+        {
+          "id": "caption-word-270-1",
+          "text": "equally",
+          "start": 155.36,
+          "end": 155.78
+        }
+      ]
+    },
+    {
+      "id": "caption-group-271",
+      "frame": 28,
+      "start": 155.78,
+      "end": 156.75,
+      "text": "wrong reasons.",
+      "words": [
+        {
+          "id": "caption-word-271-0",
+          "text": "wrong",
+          "start": 155.78,
+          "end": 156.08
+        },
+        {
+          "id": "caption-word-271-1",
+          "text": "reasons.",
+          "start": 156.08,
+          "end": 156.75
+        }
+      ]
+    },
+    {
+      "id": "caption-group-272",
+      "frame": 29,
+      "start": 156.75,
+      "end": 157.08,
+      "text": "The first",
+      "words": [
+        {
+          "id": "caption-word-272-0",
+          "text": "The",
+          "start": 156.75,
+          "end": 156.81
+        },
+        {
+          "id": "caption-word-272-1",
+          "text": "first",
+          "start": 156.81,
+          "end": 157.08
+        }
+      ]
+    },
+    {
+      "id": "caption-group-273",
+      "frame": 29,
+      "start": 157.08,
+      "end": 157.7,
+      "text": "person hears",
+      "words": [
+        {
+          "id": "caption-word-273-0",
+          "text": "person",
+          "start": 157.08,
+          "end": 157.41
+        },
+        {
+          "id": "caption-word-273-1",
+          "text": "hears",
+          "start": 157.41,
+          "end": 157.65
+        }
+      ]
+    },
+    {
+      "id": "caption-group-274",
+      "frame": 29,
+      "start": 157.7,
+      "end": 158.06,
+      "text": "the word",
+      "words": [
+        {
+          "id": "caption-word-274-0",
+          "text": "the",
+          "start": 157.7,
+          "end": 157.84
+        },
+        {
+          "id": "caption-word-274-1",
+          "text": "word",
+          "start": 157.84,
+          "end": 158.06
+        }
+      ]
+    },
+    {
+      "id": "caption-group-275",
+      "frame": 29,
+      "start": 158.06,
+      "end": 158.79,
+      "text": "deduction and",
+      "words": [
+        {
+          "id": "caption-word-275-0",
+          "text": "deduction",
+          "start": 158.06,
+          "end": 158.56
+        },
+        {
+          "id": "caption-word-275-1",
+          "text": "and",
+          "start": 158.56,
+          "end": 158.67
+        }
+      ]
+    },
+    {
+      "id": "caption-group-276",
+      "frame": 29,
+      "start": 158.92,
+      "end": 159.21,
+      "text": "thinks,",
+      "words": [
+        {
+          "id": "caption-word-276-0",
+          "text": "thinks,",
+          "start": 158.92,
+          "end": 159.21
+        }
+      ]
+    },
+    {
+      "id": "caption-group-277",
+      "frame": 29,
+      "start": 159.21,
+      "end": 159.71,
+      "text": "my income",
+      "words": [
+        {
+          "id": "caption-word-277-0",
+          "text": "my",
+          "start": 159.21,
+          "end": 159.33
+        },
+        {
+          "id": "caption-word-277-1",
+          "text": "income",
+          "start": 159.33,
+          "end": 159.71
+        }
+      ]
+    },
+    {
+      "id": "caption-group-278",
+      "frame": 29,
+      "start": 159.71,
+      "end": 160.33,
+      "text": "is modest,",
+      "words": [
+        {
+          "id": "caption-word-278-0",
+          "text": "is",
+          "start": 159.71,
+          "end": 159.82
+        },
+        {
+          "id": "caption-word-278-1",
+          "text": "modest,",
+          "start": 159.83,
+          "end": 160.33
+        }
+      ]
+    },
+    {
+      "id": "caption-group-279",
+      "frame": 29,
+      "start": 160.33,
+      "end": 160.64,
+      "text": "I live",
+      "words": [
+        {
+          "id": "caption-word-279-0",
+          "text": "I",
+          "start": 160.33,
+          "end": 160.39
+        },
+        {
+          "id": "caption-word-279-1",
+          "text": "live",
+          "start": 160.39,
+          "end": 160.64
+        }
+      ]
+    },
+    {
+      "id": "caption-group-280",
+      "frame": 29,
+      "start": 160.64,
+      "end": 161.18,
+      "text": "mostly on",
+      "words": [
+        {
+          "id": "caption-word-280-0",
+          "text": "mostly",
+          "start": 160.64,
+          "end": 161.05
+        },
+        {
+          "id": "caption-word-280-1",
+          "text": "on",
+          "start": 161.15,
+          "end": 161.18
+        }
+      ]
+    },
+    {
+      "id": "caption-group-281",
+      "frame": 29,
+      "start": 161.18,
+      "end": 162.19,
+      "text": "Social Security,",
+      "words": [
+        {
+          "id": "caption-word-281-0",
+          "text": "Social",
+          "start": 161.18,
+          "end": 161.56
+        },
+        {
+          "id": "caption-word-281-1",
+          "text": "Security,",
+          "start": 161.56,
+          "end": 162.19
+        }
+      ]
+    },
+    {
+      "id": "caption-group-282",
+      "frame": 29,
+      "start": 162.19,
+      "end": 162.76,
+      "text": "I probably",
+      "words": [
+        {
+          "id": "caption-word-282-0",
+          "text": "I",
+          "start": 162.19,
+          "end": 162.25
+        },
+        {
+          "id": "caption-word-282-1",
+          "text": "probably",
+          "start": 162.25,
+          "end": 162.76
+        }
+      ]
+    },
+    {
+      "id": "caption-group-283",
+      "frame": 29,
+      "start": 162.76,
+      "end": 163.06,
+      "text": "do not",
+      "words": [
+        {
+          "id": "caption-word-283-0",
+          "text": "do",
+          "start": 162.76,
+          "end": 162.89
+        },
+        {
+          "id": "caption-word-283-1",
+          "text": "not",
+          "start": 162.89,
+          "end": 163.06
+        }
+      ]
+    },
+    {
+      "id": "caption-group-284",
+      "frame": 29,
+      "start": 163.06,
+      "end": 163.72,
+      "text": "owe federal",
+      "words": [
+        {
+          "id": "caption-word-284-0",
+          "text": "owe",
+          "start": 163.06,
+          "end": 163.33
+        },
+        {
+          "id": "caption-word-284-1",
+          "text": "federal",
+          "start": 163.33,
+          "end": 163.72
+        }
+      ]
+    },
+    {
+      "id": "caption-group-285",
+      "frame": 29,
+      "start": 163.72,
+      "end": 164.55,
+      "text": "tax anyway.",
+      "words": [
+        {
+          "id": "caption-word-285-0",
+          "text": "tax",
+          "start": 163.72,
+          "end": 163.91
+        },
+        {
+          "id": "caption-word-285-1",
+          "text": "anyway.",
+          "start": 163.91,
+          "end": 164.55
+        }
+      ]
+    },
+    {
+      "id": "caption-group-286",
+      "frame": 30,
+      "start": 164.55,
+      "end": 164.82,
+      "text": "If that",
+      "words": [
+        {
+          "id": "caption-word-286-0",
+          "text": "If",
+          "start": 164.55,
+          "end": 164.57
+        },
+        {
+          "id": "caption-word-286-1",
+          "text": "that",
+          "start": 164.57,
+          "end": 164.82
+        }
+      ]
+    },
+    {
+      "id": "caption-group-287",
+      "frame": 30,
+      "start": 164.82,
+      "end": 165.24,
+      "text": "is you,",
+      "words": [
+        {
+          "id": "caption-word-287-0",
+          "text": "is",
+          "start": 164.82,
+          "end": 164.94
+        },
+        {
+          "id": "caption-word-287-1",
+          "text": "you,",
+          "start": 164.94,
+          "end": 165.24
+        }
+      ]
+    },
+    {
+      "id": "caption-group-288",
+      "frame": 30,
+      "start": 165.24,
+      "end": 166.17,
+      "text": "listen closely,",
+      "words": [
+        {
+          "id": "caption-word-288-0",
+          "text": "listen",
+          "start": 165.24,
+          "end": 165.61
+        },
+        {
+          "id": "caption-word-288-1",
+          "text": "closely,",
+          "start": 165.61,
+          "end": 166.17
+        }
+      ]
+    },
+    {
+      "id": "caption-group-289",
+      "frame": 30,
+      "start": 166.17,
+      "end": 166.58,
+      "text": "because",
+      "words": [
+        {
+          "id": "caption-word-289-0",
+          "text": "because",
+          "start": 166.17,
+          "end": 166.46
+        }
+      ]
+    },
+    {
+      "id": "caption-group-290",
+      "frame": 30,
+      "start": 166.72,
+      "end": 166.97,
+      "text": "you are",
+      "words": [
+        {
+          "id": "caption-word-290-0",
+          "text": "you",
+          "start": 166.72,
+          "end": 166.79
+        },
+        {
+          "id": "caption-word-290-1",
+          "text": "are",
+          "start": 166.79,
+          "end": 166.97
+        }
+      ]
+    },
+    {
+      "id": "caption-group-291",
+      "frame": 30,
+      "start": 166.97,
+      "end": 167.52,
+      "text": "the person",
+      "words": [
+        {
+          "id": "caption-word-291-0",
+          "text": "the",
+          "start": 166.97,
+          "end": 167.15
+        },
+        {
+          "id": "caption-word-291-1",
+          "text": "person",
+          "start": 167.15,
+          "end": 167.52
+        }
+      ]
+    },
+    {
+      "id": "caption-group-292",
+      "frame": 30,
+      "start": 167.52,
+      "end": 168.14,
+      "text": "most likely",
+      "words": [
+        {
+          "id": "caption-word-292-0",
+          "text": "most",
+          "start": 167.52,
+          "end": 167.77
+        },
+        {
+          "id": "caption-word-292-1",
+          "text": "likely",
+          "start": 167.77,
+          "end": 168.14
+        }
+      ]
+    },
+    {
+      "id": "caption-group-293",
+      "frame": 30,
+      "start": 168.14,
+      "end": 168.38,
+      "text": "to be",
+      "words": [
+        {
+          "id": "caption-word-293-0",
+          "text": "to",
+          "start": 168.14,
+          "end": 168.24
+        },
+        {
+          "id": "caption-word-293-1",
+          "text": "be",
+          "start": 168.34,
+          "end": 168.38
+        }
+      ]
+    },
+    {
+      "id": "caption-group-294",
+      "frame": 30,
+      "start": 168.38,
+      "end": 169.63,
+      "text": "over withholding.",
+      "words": [
+        {
+          "id": "caption-word-294-0",
+          "text": "over",
+          "start": 168.38,
+          "end": 168.63
+        },
+        {
+          "id": "caption-word-294-1",
+          "text": "withholding.",
+          "start": 168.63,
+          "end": 169.63
+        }
+      ]
+    },
+    {
+      "id": "caption-group-295",
+      "frame": 31,
+      "start": 169.63,
+      "end": 169.81,
+      "text": "You may",
+      "words": [
+        {
+          "id": "caption-word-295-0",
+          "text": "You",
+          "start": 169.63,
+          "end": 169.67
+        },
+        {
+          "id": "caption-word-295-1",
+          "text": "may",
+          "start": 169.67,
+          "end": 169.81
+        }
+      ]
+    },
+    {
+      "id": "caption-group-296",
+      "frame": 31,
+      "start": 169.81,
+      "end": 170.24,
+      "text": "be having",
+      "words": [
+        {
+          "id": "caption-word-296-0",
+          "text": "be",
+          "start": 169.81,
+          "end": 169.9
+        },
+        {
+          "id": "caption-word-296-1",
+          "text": "having",
+          "start": 169.9,
+          "end": 170.15
+        }
+      ]
+    },
+    {
+      "id": "caption-group-297",
+      "frame": 31,
+      "start": 170.24,
+      "end": 170.72,
+      "text": "money pulled",
+      "words": [
+        {
+          "id": "caption-word-297-0",
+          "text": "money",
+          "start": 170.24,
+          "end": 170.43
+        },
+        {
+          "id": "caption-word-297-1",
+          "text": "pulled",
+          "start": 170.43,
+          "end": 170.72
+        }
+      ]
+    },
+    {
+      "id": "caption-group-298",
+      "frame": 31,
+      "start": 170.72,
+      "end": 170.95,
+      "text": "out of",
+      "words": [
+        {
+          "id": "caption-word-298-0",
+          "text": "out",
+          "start": 170.72,
+          "end": 170.86
+        },
+        {
+          "id": "caption-word-298-1",
+          "text": "of",
+          "start": 170.86,
+          "end": 170.95
+        }
+      ]
+    },
+    {
+      "id": "caption-group-299",
+      "frame": 31,
+      "start": 170.95,
+      "end": 171.43,
+      "text": "your Social",
+      "words": [
+        {
+          "id": "caption-word-299-0",
+          "text": "your",
+          "start": 170.95,
+          "end": 171.14
+        },
+        {
+          "id": "caption-word-299-1",
+          "text": "Social",
+          "start": 171.14,
+          "end": 171.43
+        }
+      ]
+    },
+    {
+      "id": "caption-group-300",
+      "frame": 31,
+      "start": 171.43,
+      "end": 171.91,
+      "text": "Security or",
+      "words": [
+        {
+          "id": "caption-word-300-0",
+          "text": "Security",
+          "start": 171.43,
+          "end": 171.82
+        },
+        {
+          "id": "caption-word-300-1",
+          "text": "or",
+          "start": 171.82,
+          "end": 171.91
+        }
+      ]
+    },
+    {
+      "id": "caption-group-301",
+      "frame": 31,
+      "start": 171.91,
+      "end": 172.44,
+      "text": "your pension",
+      "words": [
+        {
+          "id": "caption-word-301-0",
+          "text": "your",
+          "start": 171.91,
+          "end": 172.1
+        },
+        {
+          "id": "caption-word-301-1",
+          "text": "pension",
+          "start": 172.1,
+          "end": 172.44
+        }
+      ]
+    },
+    {
+      "id": "caption-group-302",
+      "frame": 31,
+      "start": 172.44,
+      "end": 173.46,
+      "text": "every single month",
+      "words": [
+        {
+          "id": "caption-word-302-0",
+          "text": "every",
+          "start": 172.44,
+          "end": 172.68
+        },
+        {
+          "id": "caption-word-302-1",
+          "text": "single",
+          "start": 172.68,
+          "end": 173.09
+        },
+        {
+          "id": "caption-word-302-2",
+          "text": "month",
+          "start": 173.19,
+          "end": 173.46
+        }
+      ]
+    },
+    {
+      "id": "caption-group-303",
+      "frame": 31,
+      "start": 173.46,
+      "end": 173.8,
+      "text": "for a",
+      "words": [
+        {
+          "id": "caption-word-303-0",
+          "text": "for",
+          "start": 173.46,
+          "end": 173.68
+        },
+        {
+          "id": "caption-word-303-1",
+          "text": "a",
+          "start": 173.68,
+          "end": 173.72
+        }
+      ]
+    },
+    {
+      "id": "caption-group-304",
+      "frame": 31,
+      "start": 173.8,
+      "end": 174.27,
+      "text": "tax bill",
+      "words": [
+        {
+          "id": "caption-word-304-0",
+          "text": "tax",
+          "start": 173.8,
+          "end": 173.97
+        },
+        {
+          "id": "caption-word-304-1",
+          "text": "bill",
+          "start": 173.97,
+          "end": 174.27
+        }
+      ]
+    },
+    {
+      "id": "caption-group-305",
+      "frame": 31,
+      "start": 174.27,
+      "end": 174.87,
+      "text": "that does",
+      "words": [
+        {
+          "id": "caption-word-305-0",
+          "text": "that",
+          "start": 174.27,
+          "end": 174.56
+        },
+        {
+          "id": "caption-word-305-1",
+          "text": "does",
+          "start": 174.56,
+          "end": 174.87
+        }
+      ]
+    },
+    {
+      "id": "caption-group-306",
+      "frame": 31,
+      "start": 174.87,
+      "end": 175.75,
+      "text": "not exist.",
+      "words": [
+        {
+          "id": "caption-word-306-0",
+          "text": "not",
+          "start": 174.87,
+          "end": 175.09
+        },
+        {
+          "id": "caption-word-306-1",
+          "text": "exist.",
+          "start": 175.09,
+          "end": 175.75
+        }
+      ]
+    },
+    {
+      "id": "caption-group-307",
+      "frame": 32,
+      "start": 175.75,
+      "end": 175.95,
+      "text": "That is",
+      "words": [
+        {
+          "id": "caption-word-307-0",
+          "text": "That",
+          "start": 175.75,
+          "end": 175.83
+        },
+        {
+          "id": "caption-word-307-1",
+          "text": "is",
+          "start": 175.86,
+          "end": 175.95
+        }
+      ]
+    },
+    {
+      "id": "caption-group-308",
+      "frame": 32,
+      "start": 175.95,
+      "end": 176.45,
+      "text": "you handing",
+      "words": [
+        {
+          "id": "caption-word-308-0",
+          "text": "you",
+          "start": 175.95,
+          "end": 176.1
+        },
+        {
+          "id": "caption-word-308-1",
+          "text": "handing",
+          "start": 176.1,
+          "end": 176.45
+        }
+      ]
+    },
+    {
+      "id": "caption-group-309",
+      "frame": 32,
+      "start": 176.45,
+      "end": 177.45,
+      "text": "the federal government",
+      "words": [
+        {
+          "id": "caption-word-309-0",
+          "text": "the",
+          "start": 176.45,
+          "end": 176.6
+        },
+        {
+          "id": "caption-word-309-1",
+          "text": "federal",
+          "start": 176.6,
+          "end": 176.95
+        },
+        {
+          "id": "caption-word-309-2",
+          "text": "government",
+          "start": 176.95,
+          "end": 177.45
+        }
+      ]
+    },
+    {
+      "id": "caption-group-310",
+      "frame": 32,
+      "start": 177.45,
+      "end": 178.2,
+      "text": "an interest-free",
+      "words": [
+        {
+          "id": "caption-word-310-0",
+          "text": "an",
+          "start": 177.45,
+          "end": 177.55
+        },
+        {
+          "id": "caption-word-310-1",
+          "text": "interest-free",
+          "start": 177.55,
+          "end": 178.2
+        }
+      ]
+    },
+    {
+      "id": "caption-group-311",
+      "frame": 32,
+      "start": 178.2,
+      "end": 178.5,
+      "text": "loan of",
+      "words": [
+        {
+          "id": "caption-word-311-0",
+          "text": "loan",
+          "start": 178.2,
+          "end": 178.4
+        },
+        {
+          "id": "caption-word-311-1",
+          "text": "of",
+          "start": 178.4,
+          "end": 178.5
+        }
+      ]
+    },
+    {
+      "id": "caption-group-312",
+      "frame": 32,
+      "start": 178.5,
+      "end": 178.85,
+      "text": "your own",
+      "words": [
+        {
+          "id": "caption-word-312-0",
+          "text": "your",
+          "start": 178.5,
+          "end": 178.7
+        },
+        {
+          "id": "caption-word-312-1",
+          "text": "own",
+          "start": 178.7,
+          "end": 178.85
+        }
+      ]
+    },
+    {
+      "id": "caption-group-313",
+      "frame": 32,
+      "start": 178.85,
+      "end": 179.2,
+      "text": "money,",
+      "words": [
+        {
+          "id": "caption-word-313-0",
+          "text": "money,",
+          "start": 178.85,
+          "end": 179.2
+        }
+      ]
+    },
+    {
+      "id": "caption-group-314",
+      "frame": 32,
+      "start": 179.2,
+      "end": 179.56,
+      "text": "twelve",
+      "words": [
+        {
+          "id": "caption-word-314-0",
+          "text": "twelve",
+          "start": 179.2,
+          "end": 179.44
+        }
+      ]
+    },
+    {
+      "id": "caption-group-315",
+      "frame": 32,
+      "start": 179.63,
+      "end": 179.97,
+      "text": "times a",
+      "words": [
+        {
+          "id": "caption-word-315-0",
+          "text": "times",
+          "start": 179.63,
+          "end": 179.9
+        },
+        {
+          "id": "caption-word-315-1",
+          "text": "a",
+          "start": 179.9,
+          "end": 179.97
+        }
+      ]
+    },
+    {
+      "id": "caption-group-316",
+      "frame": 32,
+      "start": 179.97,
+      "end": 180.4,
+      "text": "year,",
+      "words": [
+        {
+          "id": "caption-word-316-0",
+          "text": "year,",
+          "start": 179.97,
+          "end": 180.4
+        }
+      ]
+    },
+    {
+      "id": "caption-group-317",
+      "frame": 32,
+      "start": 180.4,
+      "end": 181.51,
+      "text": "and waiting until",
+      "words": [
+        {
+          "id": "caption-word-317-0",
+          "text": "and",
+          "start": 180.4,
+          "end": 180.52
+        },
+        {
+          "id": "caption-word-317-1",
+          "text": "waiting",
+          "start": 180.63,
+          "end": 181.14
+        },
+        {
+          "id": "caption-word-317-2",
+          "text": "until",
+          "start": 181.14,
+          "end": 181.51
+        }
+      ]
+    },
+    {
+      "id": "caption-group-318",
+      "frame": 32,
+      "start": 181.51,
+      "end": 182.09,
+      "text": "spring to",
+      "words": [
+        {
+          "id": "caption-word-318-0",
+          "text": "spring",
+          "start": 181.51,
+          "end": 181.95
+        },
+        {
+          "id": "caption-word-318-1",
+          "text": "to",
+          "start": 181.95,
+          "end": 182.09
+        }
+      ]
+    },
+    {
+      "id": "caption-group-319",
+      "frame": 32,
+      "start": 182.09,
+      "end": 182.53,
+      "text": "ask for",
+      "words": [
+        {
+          "id": "caption-word-319-0",
+          "text": "ask",
+          "start": 182.09,
+          "end": 182.31
+        },
+        {
+          "id": "caption-word-319-1",
+          "text": "for",
+          "start": 182.31,
+          "end": 182.53
+        }
+      ]
+    },
+    {
+      "id": "caption-group-320",
+      "frame": 32,
+      "start": 182.53,
+      "end": 183.27,
+      "text": "it back.",
+      "words": [
+        {
+          "id": "caption-word-320-0",
+          "text": "it",
+          "start": 182.53,
+          "end": 182.67
+        },
+        {
+          "id": "caption-word-320-1",
+          "text": "back.",
+          "start": 182.67,
+          "end": 183.27
+        }
+      ]
+    },
+    {
+      "id": "caption-group-321",
+      "frame": 33,
+      "start": 183.27,
+      "end": 183.66,
+      "text": "The second",
+      "words": [
+        {
+          "id": "caption-word-321-0",
+          "text": "The",
+          "start": 183.27,
+          "end": 183.33
+        },
+        {
+          "id": "caption-word-321-1",
+          "text": "second",
+          "start": 183.33,
+          "end": 183.66
+        }
+      ]
+    },
+    {
+      "id": "caption-group-322",
+      "frame": 33,
+      "start": 183.66,
+      "end": 184.27,
+      "text": "person hears",
+      "words": [
+        {
+          "id": "caption-word-322-0",
+          "text": "person",
+          "start": 183.66,
+          "end": 183.99
+        },
+        {
+          "id": "caption-word-322-1",
+          "text": "hears",
+          "start": 183.99,
+          "end": 184.22
+        }
+      ]
+    },
+    {
+      "id": "caption-group-323",
+      "frame": 33,
+      "start": 184.27,
+      "end": 184.64,
+      "text": "the word",
+      "words": [
+        {
+          "id": "caption-word-323-0",
+          "text": "the",
+          "start": 184.27,
+          "end": 184.42
+        },
+        {
+          "id": "caption-word-323-1",
+          "text": "word",
+          "start": 184.42,
+          "end": 184.59
+        }
+      ]
+    },
+    {
+      "id": "caption-group-324",
+      "frame": 33,
+      "start": 184.64,
+      "end": 185.13,
+      "text": "senior and",
+      "words": [
+        {
+          "id": "caption-word-324-0",
+          "text": "senior",
+          "start": 184.64,
+          "end": 184.97
+        },
+        {
+          "id": "caption-word-324-1",
+          "text": "and",
+          "start": 184.97,
+          "end": 185.13
+        }
+      ]
+    },
+    {
+      "id": "caption-group-325",
+      "frame": 33,
+      "start": 185.13,
+      "end": 185.79,
+      "text": "assumes there",
+      "words": [
+        {
+          "id": "caption-word-325-0",
+          "text": "assumes",
+          "start": 185.13,
+          "end": 185.52
+        },
+        {
+          "id": "caption-word-325-1",
+          "text": "there",
+          "start": 185.52,
+          "end": 185.79
+        }
+      ]
+    },
+    {
+      "id": "caption-group-326",
+      "frame": 33,
+      "start": 185.79,
+      "end": 186.01,
+      "text": "is an",
+      "words": [
+        {
+          "id": "caption-word-326-0",
+          "text": "is",
+          "start": 185.79,
+          "end": 185.9
+        },
+        {
+          "id": "caption-word-326-1",
+          "text": "an",
+          "start": 185.9,
+          "end": 186.01
+        }
+      ]
+    },
+    {
+      "id": "caption-group-327",
+      "frame": 33,
+      "start": 186.01,
+      "end": 186.57,
+      "text": "income test",
+      "words": [
+        {
+          "id": "caption-word-327-0",
+          "text": "income",
+          "start": 186.01,
+          "end": 186.34
+        },
+        {
+          "id": "caption-word-327-1",
+          "text": "test",
+          "start": 186.34,
+          "end": 186.53
+        }
+      ]
+    },
+    {
+      "id": "caption-group-328",
+      "frame": 33,
+      "start": 186.57,
+      "end": 189.31,
+      "text": "that disqualifies anyone comfortable.",
+      "words": [
+        {
+          "id": "caption-word-328-0",
+          "text": "that",
+          "start": 186.57,
+          "end": 186.78
+        },
+        {
+          "id": "caption-word-328-1",
+          "text": "disqualifies",
+          "start": 186.78,
+          "end": 187.53
+        },
+        {
+          "id": "caption-word-328-2",
+          "text": "anyone",
+          "start": 187.63,
+          "end": 188.06
+        },
+        {
+          "id": "caption-word-328-3",
+          "text": "comfortable.",
+          "start": 188.06,
+          "end": 189.31
+        }
+      ]
+    },
+    {
+      "id": "caption-group-329",
+      "frame": 34,
+      "start": 189.31,
+      "end": 189.72,
+      "text": "If that",
+      "words": [
+        {
+          "id": "caption-word-329-0",
+          "text": "If",
+          "start": 189.31,
+          "end": 189.38
+        },
+        {
+          "id": "caption-word-329-1",
+          "text": "that",
+          "start": 189.38,
+          "end": 189.72
+        }
+      ]
+    },
+    {
+      "id": "caption-group-330",
+      "frame": 34,
+      "start": 189.72,
+      "end": 190.32,
+      "text": "is you,",
+      "words": [
+        {
+          "id": "caption-word-330-0",
+          "text": "is",
+          "start": 189.72,
+          "end": 189.84
+        },
+        {
+          "id": "caption-word-330-1",
+          "text": "you,",
+          "start": 189.92,
+          "end": 190.32
+        }
+      ]
+    },
+    {
+      "id": "caption-group-331",
+      "frame": 34,
+      "start": 190.32,
+      "end": 191.35,
+      "text": "listen too.",
+      "words": [
+        {
+          "id": "caption-word-331-0",
+          "text": "listen",
+          "start": 190.32,
+          "end": 190.84
+        },
+        {
+          "id": "caption-word-331-1",
+          "text": "too.",
+          "start": 190.84,
+          "end": 191.23
+        }
+      ]
+    },
+    {
+      "id": "caption-group-332",
+      "frame": 34,
+      "start": 191.49,
+      "end": 191.92,
+      "text": "Because the",
+      "words": [
+        {
+          "id": "caption-word-332-0",
+          "text": "Because",
+          "start": 191.49,
+          "end": 191.76
+        },
+        {
+          "id": "caption-word-332-1",
+          "text": "the",
+          "start": 191.76,
+          "end": 191.92
+        }
+      ]
+    },
+    {
+      "id": "caption-group-333",
+      "frame": 34,
+      "start": 191.92,
+      "end": 192.55,
+      "text": "largest piece",
+      "words": [
+        {
+          "id": "caption-word-333-0",
+          "text": "largest",
+          "start": 191.92,
+          "end": 192.29
+        },
+        {
+          "id": "caption-word-333-1",
+          "text": "piece",
+          "start": 192.29,
+          "end": 192.55
+        }
+      ]
+    },
+    {
+      "id": "caption-group-334",
+      "frame": 34,
+      "start": 192.55,
+      "end": 192.86,
+      "text": "of this",
+      "words": [
+        {
+          "id": "caption-word-334-0",
+          "text": "of",
+          "start": 192.55,
+          "end": 192.65
+        },
+        {
+          "id": "caption-word-334-1",
+          "text": "this",
+          "start": 192.65,
+          "end": 192.81
+        }
+      ]
+    },
+    {
+      "id": "caption-group-335",
+      "frame": 34,
+      "start": 192.86,
+      "end": 193.33,
+      "text": "stack does",
+      "words": [
+        {
+          "id": "caption-word-335-0",
+          "text": "stack",
+          "start": 192.86,
+          "end": 193.12
+        },
+        {
+          "id": "caption-word-335-1",
+          "text": "does",
+          "start": 193.12,
+          "end": 193.33
+        }
+      ]
+    },
+    {
+      "id": "caption-group-336",
+      "frame": 34,
+      "start": 193.33,
+      "end": 193.53,
+      "text": "not",
+      "words": [
+        {
+          "id": "caption-word-336-0",
+          "text": "not",
+          "start": 193.33,
+          "end": 193.41
+        }
+      ]
+    },
+    {
+      "id": "caption-group-337",
+      "frame": 34,
+      "start": 193.66,
+      "end": 193.85,
+      "text": "begin to",
+      "words": [
+        {
+          "id": "caption-word-337-0",
+          "text": "begin",
+          "start": 193.66,
+          "end": 193.75
+        },
+        {
+          "id": "caption-word-337-1",
+          "text": "to",
+          "start": 193.75,
+          "end": 193.85
+        }
+      ]
+    },
+    {
+      "id": "caption-group-338",
+      "frame": 34,
+      "start": 193.85,
+      "end": 194.27,
+      "text": "phase out",
+      "words": [
+        {
+          "id": "caption-word-338-0",
+          "text": "phase",
+          "start": 193.85,
+          "end": 194.11
+        },
+        {
+          "id": "caption-word-338-1",
+          "text": "out",
+          "start": 194.11,
+          "end": 194.27
+        }
+      ]
+    },
+    {
+      "id": "caption-group-339",
+      "frame": 34,
+      "start": 194.27,
+      "end": 195.3,
+      "text": "until your modified",
+      "words": [
+        {
+          "id": "caption-word-339-0",
+          "text": "until",
+          "start": 194.27,
+          "end": 194.53
+        },
+        {
+          "id": "caption-word-339-1",
+          "text": "your",
+          "start": 194.53,
+          "end": 194.74
+        },
+        {
+          "id": "caption-word-339-2",
+          "text": "modified",
+          "start": 194.74,
+          "end": 195.18
+        }
+      ]
+    },
+    {
+      "id": "caption-group-340",
+      "frame": 34,
+      "start": 195.37,
+      "end": 196.74,
+      "text": "adjusted gross income",
+      "words": [
+        {
+          "id": "caption-word-340-0",
+          "text": "adjusted",
+          "start": 195.37,
+          "end": 195.88
+        },
+        {
+          "id": "caption-word-340-1",
+          "text": "gross",
+          "start": 195.88,
+          "end": 196.26
+        },
+        {
+          "id": "caption-word-340-2",
+          "text": "income",
+          "start": 196.26,
+          "end": 196.69
+        }
+      ]
+    },
+    {
+      "id": "caption-group-341",
+      "frame": 34,
+      "start": 196.74,
+      "end": 198.51,
+      "text": "passes $75,000",
+      "words": [
+        {
+          "id": "caption-word-341-0",
+          "text": "passes",
+          "start": 196.74,
+          "end": 197.16
+        },
+        {
+          "id": "caption-word-341-1",
+          "text": "$75,000",
+          "start": 197.16,
+          "end": 198.51
+        }
+      ]
+    },
+    {
+      "id": "caption-group-342",
+      "frame": 35,
+      "start": 198.51,
+      "end": 200.69,
+      "text": "single or $150,000",
+      "words": [
+        {
+          "id": "caption-word-342-0",
+          "text": "single",
+          "start": 198.51,
+          "end": 198.96
+        },
+        {
+          "id": "caption-word-342-1",
+          "text": "or",
+          "start": 198.96,
+          "end": 199.06
+        },
+        {
+          "id": "caption-word-342-2",
+          "text": "$150,000",
+          "start": 199.16,
+          "end": 200.69
+        }
+      ]
+    },
+    {
+      "id": "caption-group-343",
+      "frame": 35,
+      "start": 200.69,
+      "end": 201.07,
+      "text": "filing",
+      "words": [
+        {
+          "id": "caption-word-343-0",
+          "text": "filing",
+          "start": 200.69,
+          "end": 200.95
+        }
+      ]
+    },
+    {
+      "id": "caption-group-344",
+      "frame": 35,
+      "start": 201.2,
+      "end": 201.99,
+      "text": "jointly.",
+      "words": [
+        {
+          "id": "caption-word-344-0",
+          "text": "jointly.",
+          "start": 201.2,
+          "end": 201.99
+        }
+      ]
+    },
+    {
+      "id": "caption-group-345",
+      "frame": 36,
+      "start": 201.99,
+      "end": 202.23,
+      "text": "That is",
+      "words": [
+        {
+          "id": "caption-word-345-0",
+          "text": "That",
+          "start": 201.99,
+          "end": 202.12
+        },
+        {
+          "id": "caption-word-345-1",
+          "text": "is",
+          "start": 202.12,
+          "end": 202.23
+        }
+      ]
+    },
+    {
+      "id": "caption-group-346",
+      "frame": 36,
+      "start": 202.23,
+      "end": 202.74,
+      "text": "well above",
+      "words": [
+        {
+          "id": "caption-word-346-0",
+          "text": "well",
+          "start": 202.23,
+          "end": 202.45
+        },
+        {
+          "id": "caption-word-346-1",
+          "text": "above",
+          "start": 202.45,
+          "end": 202.74
+        }
+      ]
+    },
+    {
+      "id": "caption-group-347",
+      "frame": 36,
+      "start": 202.74,
+      "end": 203.14,
+      "text": "what the",
+      "words": [
+        {
+          "id": "caption-word-347-0",
+          "text": "what",
+          "start": 202.74,
+          "end": 202.88
+        },
+        {
+          "id": "caption-word-347-1",
+          "text": "the",
+          "start": 202.99,
+          "end": 203.14
+        }
+      ]
+    },
+    {
+      "id": "caption-group-348",
+      "frame": 36,
+      "start": 203.14,
+      "end": 204.03,
+      "text": "great majority of",
+      "words": [
+        {
+          "id": "caption-word-348-0",
+          "text": "great",
+          "start": 203.14,
+          "end": 203.37
+        },
+        {
+          "id": "caption-word-348-1",
+          "text": "majority",
+          "start": 203.46,
+          "end": 203.88
+        },
+        {
+          "id": "caption-word-348-2",
+          "text": "of",
+          "start": 203.88,
+          "end": 203.91
+        }
+      ]
+    },
+    {
+      "id": "caption-group-349",
+      "frame": 36,
+      "start": 204.16,
+      "end": 205.19,
+      "text": "retired households take",
+      "words": [
+        {
+          "id": "caption-word-349-0",
+          "text": "retired",
+          "start": 204.16,
+          "end": 204.39
+        },
+        {
+          "id": "caption-word-349-1",
+          "text": "households",
+          "start": 204.39,
+          "end": 204.96
+        },
+        {
+          "id": "caption-word-349-2",
+          "text": "take",
+          "start": 204.96,
+          "end": 205.19
+        }
+      ]
+    },
+    {
+      "id": "caption-group-350",
+      "frame": 36,
+      "start": 205.19,
+      "end": 205.53,
+      "text": "in.",
+      "words": [
+        {
+          "id": "caption-word-350-0",
+          "text": "in.",
+          "start": 205.19,
+          "end": 205.53
+        }
+      ]
+    },
+    {
+      "id": "caption-group-351",
+      "frame": 37,
+      "start": 205.53,
+      "end": 205.9,
+      "text": "And unlike",
+      "words": [
+        {
+          "id": "caption-word-351-0",
+          "text": "And",
+          "start": 205.53,
+          "end": 205.59
+        },
+        {
+          "id": "caption-word-351-1",
+          "text": "unlike",
+          "start": 205.59,
+          "end": 205.9
+        }
+      ]
+    },
+    {
+      "id": "caption-group-352",
+      "frame": 37,
+      "start": 205.9,
+      "end": 206.48,
+      "text": "almost every",
+      "words": [
+        {
+          "id": "caption-word-352-0",
+          "text": "almost",
+          "start": 205.9,
+          "end": 206.21
+        },
+        {
+          "id": "caption-word-352-1",
+          "text": "every",
+          "start": 206.21,
+          "end": 206.43
+        }
+      ]
+    },
+    {
+      "id": "caption-group-353",
+      "frame": 37,
+      "start": 206.48,
+      "end": 207.57,
+      "text": "other senior benefit,",
+      "words": [
+        {
+          "id": "caption-word-353-0",
+          "text": "other",
+          "start": 206.48,
+          "end": 206.73
+        },
+        {
+          "id": "caption-word-353-1",
+          "text": "senior",
+          "start": 206.73,
+          "end": 207.04
+        },
+        {
+          "id": "caption-word-353-2",
+          "text": "benefit,",
+          "start": 207.04,
+          "end": 207.45
+        }
+      ]
+    },
+    {
+      "id": "caption-group-354",
+      "frame": 37,
+      "start": 207.7,
+      "end": 207.88,
+      "text": "this one",
+      "words": [
+        {
+          "id": "caption-word-354-0",
+          "text": "this",
+          "start": 207.7,
+          "end": 207.72
+        },
+        {
+          "id": "caption-word-354-1",
+          "text": "one",
+          "start": 207.72,
+          "end": 207.88
+        }
+      ]
+    },
+    {
+      "id": "caption-group-355",
+      "frame": 37,
+      "start": 207.88,
+      "end": 208.25,
+      "text": "does not",
+      "words": [
+        {
+          "id": "caption-word-355-0",
+          "text": "does",
+          "start": 207.88,
+          "end": 208.09
+        },
+        {
+          "id": "caption-word-355-1",
+          "text": "not",
+          "start": 208.09,
+          "end": 208.25
+        }
+      ]
+    },
+    {
+      "id": "caption-group-356",
+      "frame": 37,
+      "start": 208.25,
+      "end": 208.83,
+      "text": "care whether",
+      "words": [
+        {
+          "id": "caption-word-356-0",
+          "text": "care",
+          "start": 208.25,
+          "end": 208.45
+        },
+        {
+          "id": "caption-word-356-1",
+          "text": "whether",
+          "start": 208.46,
+          "end": 208.79
+        }
+      ]
+    },
+    {
+      "id": "caption-group-357",
+      "frame": 37,
+      "start": 208.83,
+      "end": 209.15,
+      "text": "you own",
+      "words": [
+        {
+          "id": "caption-word-357-0",
+          "text": "you",
+          "start": 208.83,
+          "end": 208.99
+        },
+        {
+          "id": "caption-word-357-1",
+          "text": "own",
+          "start": 208.99,
+          "end": 209.15
+        }
+      ]
+    },
+    {
+      "id": "caption-group-358",
+      "frame": 37,
+      "start": 209.15,
+      "end": 209.88,
+      "text": "your home,",
+      "words": [
+        {
+          "id": "caption-word-358-0",
+          "text": "your",
+          "start": 209.15,
+          "end": 209.43
+        },
+        {
+          "id": "caption-word-358-1",
+          "text": "home,",
+          "start": 209.53,
+          "end": 209.88
+        }
+      ]
+    },
+    {
+      "id": "caption-group-359",
+      "frame": 37,
+      "start": 209.88,
+      "end": 211.01,
+      "text": "what your savings",
+      "words": [
+        {
+          "id": "caption-word-359-0",
+          "text": "what",
+          "start": 209.88,
+          "end": 210.18
+        },
+        {
+          "id": "caption-word-359-1",
+          "text": "your",
+          "start": 210.18,
+          "end": 210.43
+        },
+        {
+          "id": "caption-word-359-2",
+          "text": "savings",
+          "start": 210.48,
+          "end": 211.01
+        }
+      ]
+    },
+    {
+      "id": "caption-group-360",
+      "frame": 37,
+      "start": 211.01,
+      "end": 211.76,
+      "text": "look like,",
+      "words": [
+        {
+          "id": "caption-word-360-0",
+          "text": "look",
+          "start": 211.01,
+          "end": 211.31
+        },
+        {
+          "id": "caption-word-360-1",
+          "text": "like,",
+          "start": 211.31,
+          "end": 211.76
+        }
+      ]
+    },
+    {
+      "id": "caption-group-361",
+      "frame": 37,
+      "start": 211.76,
+      "end": 212.44,
+      "text": "or whether",
+      "words": [
+        {
+          "id": "caption-word-361-0",
+          "text": "or",
+          "start": 211.76,
+          "end": 211.91
+        },
+        {
+          "id": "caption-word-361-1",
+          "text": "whether",
+          "start": 211.91,
+          "end": 212.44
+        }
+      ]
+    },
+    {
+      "id": "caption-group-362",
+      "frame": 37,
+      "start": 212.44,
+      "end": 213.47,
+      "text": "you itemize.",
+      "words": [
+        {
+          "id": "caption-word-362-0",
+          "text": "you",
+          "start": 212.44,
+          "end": 212.66
+        },
+        {
+          "id": "caption-word-362-1",
+          "text": "itemize.",
+          "start": 212.66,
+          "end": 213.47
+        }
+      ]
+    },
+    {
+      "id": "caption-group-363",
+      "frame": 38,
+      "start": 213.47,
+      "end": 213.65,
+      "text": "So the",
+      "words": [
+        {
+          "id": "caption-word-363-0",
+          "text": "So",
+          "start": 213.47,
+          "end": 213.48
+        },
+        {
+          "id": "caption-word-363-1",
+          "text": "the",
+          "start": 213.48,
+          "end": 213.65
+        }
+      ]
+    },
+    {
+      "id": "caption-group-364",
+      "frame": 38,
+      "start": 213.65,
+      "end": 214.94,
+      "text": "low-income retiree needs",
+      "words": [
+        {
+          "id": "caption-word-364-0",
+          "text": "low-income",
+          "start": 213.65,
+          "end": 214.2
+        },
+        {
+          "id": "caption-word-364-1",
+          "text": "retiree",
+          "start": 214.2,
+          "end": 214.59
+        },
+        {
+          "id": "caption-word-364-2",
+          "text": "needs",
+          "start": 214.59,
+          "end": 214.85
+        }
+      ]
+    },
+    {
+      "id": "caption-group-365",
+      "frame": 38,
+      "start": 214.94,
+      "end": 215.2,
+      "text": "this to",
+      "words": [
+        {
+          "id": "caption-word-365-0",
+          "text": "this",
+          "start": 214.94,
+          "end": 215.09
+        },
+        {
+          "id": "caption-word-365-1",
+          "text": "to",
+          "start": 215.09,
+          "end": 215.2
+        }
+      ]
+    },
+    {
+      "id": "caption-group-366",
+      "frame": 38,
+      "start": 215.2,
+      "end": 216.49,
+      "text": "fix their withholding.",
+      "words": [
+        {
+          "id": "caption-word-366-0",
+          "text": "fix",
+          "start": 215.2,
+          "end": 215.37
+        },
+        {
+          "id": "caption-word-366-1",
+          "text": "their",
+          "start": 215.37,
+          "end": 215.65
+        },
+        {
+          "id": "caption-word-366-2",
+          "text": "withholding.",
+          "start": 215.65,
+          "end": 216.49
+        }
+      ]
+    },
+    {
+      "id": "caption-group-367",
+      "frame": 39,
+      "start": 216.49,
+      "end": 217.72,
+      "text": "The comfortable retiree",
+      "words": [
+        {
+          "id": "caption-word-367-0",
+          "text": "The",
+          "start": 216.49,
+          "end": 216.58
+        },
+        {
+          "id": "caption-word-367-1",
+          "text": "comfortable",
+          "start": 216.58,
+          "end": 217.28
+        },
+        {
+          "id": "caption-word-367-2",
+          "text": "retiree",
+          "start": 217.28,
+          "end": 217.72
+        }
+      ]
+    },
+    {
+      "id": "caption-group-368",
+      "frame": 39,
+      "start": 217.72,
+      "end": 218.16,
+      "text": "needs it",
+      "words": [
+        {
+          "id": "caption-word-368-0",
+          "text": "needs",
+          "start": 217.72,
+          "end": 218.04
+        },
+        {
+          "id": "caption-word-368-1",
+          "text": "it",
+          "start": 218.04,
+          "end": 218.16
+        }
+      ]
+    },
+    {
+      "id": "caption-group-369",
+      "frame": 39,
+      "start": 218.16,
+      "end": 218.52,
+      "text": "because",
+      "words": [
+        {
+          "id": "caption-word-369-0",
+          "text": "because",
+          "start": 218.16,
+          "end": 218.4
+        }
+      ]
+    },
+    {
+      "id": "caption-group-370",
+      "frame": 39,
+      "start": 218.67,
+      "end": 219.29,
+      "text": "they assumed",
+      "words": [
+        {
+          "id": "caption-word-370-0",
+          "text": "they",
+          "start": 218.67,
+          "end": 218.85
+        },
+        {
+          "id": "caption-word-370-1",
+          "text": "assumed",
+          "start": 218.85,
+          "end": 219.29
+        }
+      ]
+    },
+    {
+      "id": "caption-group-371",
+      "frame": 39,
+      "start": 219.29,
+      "end": 220.55,
+      "text": "they were disqualified",
+      "words": [
+        {
+          "id": "caption-word-371-0",
+          "text": "they",
+          "start": 219.29,
+          "end": 219.54
+        },
+        {
+          "id": "caption-word-371-1",
+          "text": "were",
+          "start": 219.54,
+          "end": 219.75
+        },
+        {
+          "id": "caption-word-371-2",
+          "text": "disqualified",
+          "start": 219.79,
+          "end": 220.54
+        }
+      ]
+    },
+    {
+      "id": "caption-group-372",
+      "frame": 39,
+      "start": 220.55,
+      "end": 221.02,
+      "text": "and they",
+      "words": [
+        {
+          "id": "caption-word-372-0",
+          "text": "and",
+          "start": 220.55,
+          "end": 220.74
+        },
+        {
+          "id": "caption-word-372-1",
+          "text": "they",
+          "start": 220.74,
+          "end": 220.95
+        }
+      ]
+    },
+    {
+      "id": "caption-group-373",
+      "frame": 39,
+      "start": 221.02,
+      "end": 221.39,
+      "text": "are not.",
+      "words": [
+        {
+          "id": "caption-word-373-0",
+          "text": "are",
+          "start": 221.02,
+          "end": 221.27
+        },
+        {
+          "id": "caption-word-373-1",
+          "text": "not.",
+          "start": 221.27,
+          "end": 221.39
+        }
+      ]
+    },
+    {
+      "id": "caption-group-374",
+      "frame": 40,
+      "start": 221.39,
+      "end": 221.79,
+      "text": "For every",
+      "words": [
+        {
+          "id": "caption-word-374-0",
+          "text": "For",
+          "start": 221.39,
+          "end": 221.48
+        },
+        {
+          "id": "caption-word-374-1",
+          "text": "every",
+          "start": 221.5,
+          "end": 221.79
+        }
+      ]
+    },
+    {
+      "id": "caption-group-375",
+      "frame": 40,
+      "start": 221.79,
+      "end": 222.22,
+      "text": "layer,",
+      "words": [
+        {
+          "id": "caption-word-375-0",
+          "text": "layer,",
+          "start": 221.79,
+          "end": 222.22
+        }
+      ]
+    },
+    {
+      "id": "caption-group-376",
+      "frame": 40,
+      "start": 222.22,
+      "end": 222.53,
+      "text": "I will",
+      "words": [
+        {
+          "id": "caption-word-376-0",
+          "text": "I",
+          "start": 222.22,
+          "end": 222.28
+        },
+        {
+          "id": "caption-word-376-1",
+          "text": "will",
+          "start": 222.28,
+          "end": 222.53
+        }
+      ]
+    },
+    {
+      "id": "caption-group-377",
+      "frame": 40,
+      "start": 222.53,
+      "end": 223.42,
+      "text": "tell you plainly",
+      "words": [
+        {
+          "id": "caption-word-377-0",
+          "text": "tell",
+          "start": 222.53,
+          "end": 222.77
+        },
+        {
+          "id": "caption-word-377-1",
+          "text": "you",
+          "start": 222.77,
+          "end": 222.97
+        },
+        {
+          "id": "caption-word-377-2",
+          "text": "plainly",
+          "start": 222.97,
+          "end": 223.3
+        }
+      ]
+    },
+    {
+      "id": "caption-group-378",
+      "frame": 40,
+      "start": 223.56,
+      "end": 223.72,
+      "text": "who it",
+      "words": [
+        {
+          "id": "caption-word-378-0",
+          "text": "who",
+          "start": 223.56,
+          "end": 223.6
+        },
+        {
+          "id": "caption-word-378-1",
+          "text": "it",
+          "start": 223.6,
+          "end": 223.72
+        }
+      ]
+    },
+    {
+      "id": "caption-group-379",
+      "frame": 40,
+      "start": 223.72,
+      "end": 224.28,
+      "text": "helps most",
+      "words": [
+        {
+          "id": "caption-word-379-0",
+          "text": "helps",
+          "start": 223.72,
+          "end": 224.03
+        },
+        {
+          "id": "caption-word-379-1",
+          "text": "most",
+          "start": 224.03,
+          "end": 224.28
+        }
+      ]
+    },
+    {
+      "id": "caption-group-380",
+      "frame": 40,
+      "start": 224.28,
+      "end": 224.78,
+      "text": "so nobody",
+      "words": [
+        {
+          "id": "caption-word-380-0",
+          "text": "so",
+          "start": 224.28,
+          "end": 224.4
+        },
+        {
+          "id": "caption-word-380-1",
+          "text": "nobody",
+          "start": 224.4,
+          "end": 224.78
+        }
+      ]
+    },
+    {
+      "id": "caption-group-381",
+      "frame": 40,
+      "start": 224.78,
+      "end": 225.47,
+      "text": "can honestly",
+      "words": [
+        {
+          "id": "caption-word-381-0",
+          "text": "can",
+          "start": 224.78,
+          "end": 224.97
+        },
+        {
+          "id": "caption-word-381-1",
+          "text": "honestly",
+          "start": 224.97,
+          "end": 225.47
+        }
+      ]
+    },
+    {
+      "id": "caption-group-382",
+      "frame": 40,
+      "start": 225.47,
+      "end": 225.97,
+      "text": "say a",
+      "words": [
+        {
+          "id": "caption-word-382-0",
+          "text": "say",
+          "start": 225.47,
+          "end": 225.73
+        },
+        {
+          "id": "caption-word-382-1",
+          "text": "a",
+          "start": 225.73,
+          "end": 225.85
+        }
+      ]
+    },
+    {
+      "id": "caption-group-383",
+      "frame": 40,
+      "start": 226.03,
+      "end": 226.64,
+      "text": "section was",
+      "words": [
+        {
+          "id": "caption-word-383-0",
+          "text": "section",
+          "start": 226.03,
+          "end": 226.38
+        },
+        {
+          "id": "caption-word-383-1",
+          "text": "was",
+          "start": 226.38,
+          "end": 226.56
+        }
+      ]
+    },
+    {
+      "id": "caption-group-384",
+      "frame": 40,
+      "start": 226.64,
+      "end": 226.98,
+      "text": "not for",
+      "words": [
+        {
+          "id": "caption-word-384-0",
+          "text": "not",
+          "start": 226.64,
+          "end": 226.76
+        },
+        {
+          "id": "caption-word-384-1",
+          "text": "for",
+          "start": 226.76,
+          "end": 226.92
+        }
+      ]
+    },
+    {
+      "id": "caption-group-385",
+      "frame": 40,
+      "start": 226.98,
+      "end": 227.42,
+      "text": "them.",
+      "words": [
+        {
+          "id": "caption-word-385-0",
+          "text": "them.",
+          "start": 226.98,
+          "end": 227.42
+        }
+      ]
+    },
+    {
+      "id": "caption-group-386",
+      "frame": 41,
+      "start": 227.42,
+      "end": 227.63,
+      "text": "If you",
+      "words": [
+        {
+          "id": "caption-word-386-0",
+          "text": "If",
+          "start": 227.42,
+          "end": 227.44
+        },
+        {
+          "id": "caption-word-386-1",
+          "text": "you",
+          "start": 227.44,
+          "end": 227.63
+        }
+      ]
+    },
+    {
+      "id": "caption-group-387",
+      "frame": 41,
+      "start": 227.63,
+      "end": 228.07,
+      "text": "are over",
+      "words": [
+        {
+          "id": "caption-word-387-0",
+          "text": "are",
+          "start": 227.63,
+          "end": 227.82
+        },
+        {
+          "id": "caption-word-387-1",
+          "text": "over",
+          "start": 227.82,
+          "end": 228.07
+        }
+      ]
+    },
+    {
+      "id": "caption-group-388",
+      "frame": 41,
+      "start": 228.07,
+      "end": 228.57,
+      "text": "60 at",
+      "words": [
+        {
+          "id": "caption-word-388-0",
+          "text": "60",
+          "start": 228.07,
+          "end": 228.45
+        },
+        {
+          "id": "caption-word-388-1",
+          "text": "at",
+          "start": 228.45,
+          "end": 228.57
+        }
+      ]
+    },
+    {
+      "id": "caption-group-389",
+      "frame": 41,
+      "start": 228.57,
+      "end": 229.6,
+      "text": "any income level,",
+      "words": [
+        {
+          "id": "caption-word-389-0",
+          "text": "any",
+          "start": 228.57,
+          "end": 228.74
+        },
+        {
+          "id": "caption-word-389-1",
+          "text": "income",
+          "start": 228.79,
+          "end": 229.14
+        },
+        {
+          "id": "caption-word-389-2",
+          "text": "level,",
+          "start": 229.14,
+          "end": 229.57
+        }
+      ]
+    },
+    {
+      "id": "caption-group-390",
+      "frame": 41,
+      "start": 229.6,
+      "end": 230.33,
+      "text": "subscribe and",
+      "words": [
+        {
+          "id": "caption-word-390-0",
+          "text": "subscribe",
+          "start": 229.6,
+          "end": 230.14
+        },
+        {
+          "id": "caption-word-390-1",
+          "text": "and",
+          "start": 230.14,
+          "end": 230.33
+        }
+      ]
+    },
+    {
+      "id": "caption-group-391",
+      "frame": 41,
+      "start": 230.33,
+      "end": 230.72,
+      "text": "turn on",
+      "words": [
+        {
+          "id": "caption-word-391-0",
+          "text": "turn",
+          "start": 230.33,
+          "end": 230.58
+        },
+        {
+          "id": "caption-word-391-1",
+          "text": "on",
+          "start": 230.58,
+          "end": 230.68
+        }
+      ]
+    },
+    {
+      "id": "caption-group-392",
+      "frame": 41,
+      "start": 230.72,
+      "end": 231.38,
+      "text": "the bell.",
+      "words": [
+        {
+          "id": "caption-word-392-0",
+          "text": "the",
+          "start": 230.72,
+          "end": 230.89
+        },
+        {
+          "id": "caption-word-392-1",
+          "text": "bell.",
+          "start": 230.89,
+          "end": 231.38
+        }
+      ]
+    },
+    {
+      "id": "caption-group-393",
+      "frame": 42,
+      "start": 231.38,
+      "end": 231.84,
+      "text": "This channel",
+      "words": [
+        {
+          "id": "caption-word-393-0",
+          "text": "This",
+          "start": 231.38,
+          "end": 231.46
+        },
+        {
+          "id": "caption-word-393-1",
+          "text": "channel",
+          "start": 231.49,
+          "end": 231.84
+        }
+      ]
+    },
+    {
+      "id": "caption-group-394",
+      "frame": 42,
+      "start": 231.84,
+      "end": 232.38,
+      "text": "breaks down",
+      "words": [
+        {
+          "id": "caption-word-394-0",
+          "text": "breaks",
+          "start": 231.84,
+          "end": 232.15
+        },
+        {
+          "id": "caption-word-394-1",
+          "text": "down",
+          "start": 232.15,
+          "end": 232.33
+        }
+      ]
+    },
+    {
+      "id": "caption-group-395",
+      "frame": 42,
+      "start": 232.38,
+      "end": 232.65,
+      "text": "the tax",
+      "words": [
+        {
+          "id": "caption-word-395-0",
+          "text": "the",
+          "start": 232.38,
+          "end": 232.5
+        },
+        {
+          "id": "caption-word-395-1",
+          "text": "tax",
+          "start": 232.5,
+          "end": 232.62
+        }
+      ]
+    },
+    {
+      "id": "caption-group-396",
+      "frame": 42,
+      "start": 232.65,
+      "end": 233.16,
+      "text": "and benefit",
+      "words": [
+        {
+          "id": "caption-word-396-0",
+          "text": "and",
+          "start": 232.65,
+          "end": 232.78
+        },
+        {
+          "id": "caption-word-396-1",
+          "text": "benefit",
+          "start": 232.85,
+          "end": 233.16
+        }
+      ]
+    },
+    {
+      "id": "caption-group-397",
+      "frame": 42,
+      "start": 233.16,
+      "end": 233.41,
+      "text": "changes",
+      "words": [
+        {
+          "id": "caption-word-397-0",
+          "text": "changes",
+          "start": 233.16,
+          "end": 233.29
+        }
+      ]
+    },
+    {
+      "id": "caption-group-398",
+      "frame": 42,
+      "start": 233.56,
+      "end": 234.13,
+      "text": "that actually",
+      "words": [
+        {
+          "id": "caption-word-398-0",
+          "text": "that",
+          "start": 233.56,
+          "end": 233.72
+        },
+        {
+          "id": "caption-word-398-1",
+          "text": "actually",
+          "start": 233.72,
+          "end": 234.13
+        }
+      ]
+    },
+    {
+      "id": "caption-group-399",
+      "frame": 42,
+      "start": 234.13,
+      "end": 234.48,
+      "text": "move the",
+      "words": [
+        {
+          "id": "caption-word-399-0",
+          "text": "move",
+          "start": 234.13,
+          "end": 234.33
+        },
+        {
+          "id": "caption-word-399-1",
+          "text": "the",
+          "start": 234.33,
+          "end": 234.48
+        }
+      ]
+    },
+    {
+      "id": "caption-group-400",
+      "frame": 42,
+      "start": 234.48,
+      "end": 234.89,
+      "text": "number at",
+      "words": [
+        {
+          "id": "caption-word-400-0",
+          "text": "number",
+          "start": 234.48,
+          "end": 234.79
+        },
+        {
+          "id": "caption-word-400-1",
+          "text": "at",
+          "start": 234.79,
+          "end": 234.89
+        }
+      ]
+    },
+    {
+      "id": "caption-group-401",
+      "frame": 42,
+      "start": 234.89,
+      "end": 235.19,
+      "text": "the",
+      "words": [
+        {
+          "id": "caption-word-401-0",
+          "text": "the",
+          "start": 234.89,
+          "end": 235.07
+        }
+      ]
+    },
+    {
+      "id": "caption-group-402",
+      "frame": 42,
+      "start": 235.26,
+      "end": 235.49,
+      "text": "bottom of",
+      "words": [
+        {
+          "id": "caption-word-402-0",
+          "text": "bottom",
+          "start": 235.26,
+          "end": 235.41
+        },
+        {
+          "id": "caption-word-402-1",
+          "text": "of",
+          "start": 235.41,
+          "end": 235.49
+        }
+      ]
+    },
+    {
+      "id": "caption-group-403",
+      "frame": 42,
+      "start": 235.49,
+      "end": 235.88,
+      "text": "your term.",
+      "words": [
+        {
+          "id": "caption-word-403-0",
+          "text": "your",
+          "start": 235.49,
+          "end": 235.68
+        },
+        {
+          "id": "caption-word-403-1",
+          "text": "term.",
+          "start": 235.68,
+          "end": 235.76
+        }
+      ]
+    }
+  ]
+}

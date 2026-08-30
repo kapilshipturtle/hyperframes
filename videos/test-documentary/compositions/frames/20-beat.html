@@ -1,0 +1,213 @@
+<template>
+  <style>
+    #root {
+      width: 1920px;
+      height: 1080px;
+      position: relative;
+      overflow: hidden;
+      background: #000;
+    }
+    .f-20-beat-bg {
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse at 50% 40%, #16171a 0%, #0a0a0c 65%);
+    }
+
+    .f-20-beat-stage {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 340px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+    }
+
+    .f-20-beat-kicker {
+      font: 600 24px/1 -apple-system, "Inter", sans-serif;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: #a9b4c0;
+      opacity: 0;
+      margin-bottom: 64px;
+    }
+
+    /* the horizontal timeline rail itself */
+    .f-20-beat-rail-wrap {
+      position: relative;
+      width: 1500px;
+      height: 4px;
+    }
+    .f-20-beat-rail {
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(255,255,255,0.22);
+      border-radius: 2px;
+      transform-origin: 0% 50%;
+      transform: scaleX(0);
+    }
+
+    /* shared marker anatomy: a dot on the rail + a stem + a label card above/below */
+    .f-20-beat-marker {
+      position: absolute;
+      top: -7px;
+      width: 18px;
+      height: 18px;
+      border-radius: 50%;
+      background: #f2f2f0;
+      box-shadow: 0 0 0 5px rgba(255,255,255,0.14);
+      opacity: 0;
+      transform: scale(0.4);
+    }
+    .f-20-beat-stem {
+      position: absolute;
+      width: 2px;
+      background: rgba(255,255,255,0.3);
+      opacity: 0;
+    }
+    .f-20-beat-label {
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      opacity: 0;
+    }
+    .f-20-beat-label-year {
+      font: 800 34px/1 -apple-system, "Inter", sans-serif;
+      color: #ffffff;
+      white-space: nowrap;
+    }
+    .f-20-beat-label-tag {
+      font: 600 21px/1.3 -apple-system, "Inter", sans-serif;
+      color: #f2f2f0;
+      opacity: 0.78;
+      margin-top: 10px;
+      white-space: nowrap;
+      max-width: 320px;
+      text-align: center;
+    }
+
+    /* marker A — far left, "decades ago", base deduction */
+    .f-20-beat-mk-a { left: 0; margin-left: -9px; }
+    .f-20-beat-stem-a { left: 0; top: -78px; height: 78px; }
+    .f-20-beat-label-a { left: 0; top: -190px; transform: translateX(-50%); }
+
+    /* marker B — 1980s, senior add-on */
+    .f-20-beat-mk-b { left: 640px; margin-left: -9px; }
+    .f-20-beat-stem-b { left: 640px; top: 24px; height: 78px; }
+    .f-20-beat-label-b { left: 640px; top: 108px; transform: translateX(-50%); }
+
+    /* marker C — far right, 2025, the four-year window: the emphasis point */
+    .f-20-beat-mk-c { left: 1500px; margin-left: -9px; }
+    .f-20-beat-stem-c { left: 1500px; top: -96px; height: 96px; }
+    .f-20-beat-label-c { left: 1500px; top: -232px; transform: translateX(-50%); }
+    .f-20-beat-label-c .f-20-beat-label-year { color: #a9b4c0; font-size: 38px; }
+
+    /* the highlighted 4-year window: a short accent segment right at the end of the rail,
+       flagged distinctly from the rest of the (neutral white) timeline */
+    .f-20-beat-window {
+      position: absolute;
+      top: -3px;
+      right: 0;
+      width: 130px;
+      height: 10px;
+      border-radius: 5px;
+      background: #a9b4c0;
+      box-shadow: 0 0 22px rgba(169,180,192,0.55);
+      transform-origin: 100% 50%;
+      transform: scaleX(0);
+    }
+    .f-20-beat-window-tag {
+      position: absolute;
+      top: 22px;
+      right: 0;
+      width: 130px;
+      text-align: center;
+      font: 700 19px/1.2 -apple-system, "Inter", sans-serif;
+      color: #a9b4c0;
+      opacity: 0;
+    }
+  </style>
+
+  <div id="root" data-composition-id="20-beat" data-width="1920" data-height="1080" data-duration="7.32">
+    <div class="f-20-beat-bg clip" id="f-20-beat-bg" data-start="0" data-duration="8.42" data-track-index="0"></div>
+
+    <div class="f-20-beat-stage clip" id="f-20-beat-stage" data-start="0" data-duration="8.42" data-track-index="1">
+      <div class="f-20-beat-kicker" id="f-20-beat-kicker">Three provisions, three different starting points</div>
+
+      <div class="f-20-beat-rail-wrap">
+        <div class="f-20-beat-rail" id="f-20-beat-rail"></div>
+
+        <!-- window highlight lives on the rail itself, right before marker C -->
+        <div class="f-20-beat-window" id="f-20-beat-window"></div>
+        <div class="f-20-beat-window-tag" id="f-20-beat-window-tag">4-year window</div>
+
+        <!-- marker A: decades ago / base deduction -->
+        <div class="f-20-beat-stem f-20-beat-stem-a" id="f-20-beat-stem-a"></div>
+        <div class="f-20-beat-marker f-20-beat-mk-a" id="f-20-beat-mk-a"></div>
+        <div class="f-20-beat-label f-20-beat-label-a" id="f-20-beat-label-a">
+          <span class="f-20-beat-label-year">Decades ago</span>
+          <span class="f-20-beat-label-tag">base deduction</span>
+        </div>
+
+        <!-- marker B: 1980s / senior add-on -->
+        <div class="f-20-beat-stem f-20-beat-stem-b" id="f-20-beat-stem-b"></div>
+        <div class="f-20-beat-marker f-20-beat-mk-b" id="f-20-beat-mk-b"></div>
+        <div class="f-20-beat-label f-20-beat-label-b" id="f-20-beat-label-b">
+          <span class="f-20-beat-label-year">1980s</span>
+          <span class="f-20-beat-label-tag">senior add-on</span>
+        </div>
+
+        <!-- marker C: 2025 / the new, largest piece -->
+        <div class="f-20-beat-stem f-20-beat-stem-c" id="f-20-beat-stem-c"></div>
+        <div class="f-20-beat-marker f-20-beat-mk-c" id="f-20-beat-mk-c"></div>
+        <div class="f-20-beat-label f-20-beat-label-c" id="f-20-beat-label-c">
+          <span class="f-20-beat-label-year">2025</span>
+          <span class="f-20-beat-label-tag">brand new, largest piece</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    (function () {
+      window.__timelines = window.__timelines || {};
+      var tl = gsap.timeline({ paused: true });
+
+      // kicker fades in first, quiet framing beat
+      tl.fromTo("#f-20-beat-kicker", { opacity: 0, y: 8 }, { opacity: 0.85, y: 0, duration: 0.4, ease: "power2.out" }, 0.15);
+
+      // rail draws in
+      tl.to("#f-20-beat-rail", { scaleX: 1, duration: 0.6, ease: "power2.inOut" }, 0.4);
+
+      // marker A: decades ago (base deduction) — rail's already past this point early
+      tl.to("#f-20-beat-stem-a", { opacity: 1, duration: 0.25, ease: "power1.out" }, 0.95);
+      tl.to("#f-20-beat-mk-a", { opacity: 1, scale: 1, duration: 0.3, ease: "back.out(2.2)" }, 1.0);
+      tl.to("#f-20-beat-label-a", { opacity: 1, duration: 0.3, ease: "power2.out" }, 1.1);
+
+      // marker B: 1980s (senior add-on) — mid-timeline, follows narration's second beat
+      tl.to("#f-20-beat-stem-b", { opacity: 1, duration: 0.25, ease: "power1.out" }, 2.0);
+      tl.to("#f-20-beat-mk-b", { opacity: 1, scale: 1, duration: 0.3, ease: "back.out(2.2)" }, 2.05);
+      tl.to("#f-20-beat-label-b", { opacity: 1, duration: 0.3, ease: "power2.out" }, 2.15);
+
+      // marker C: 2025 + the 4-year window — this is the beat's main point, so it
+      // lands in the back half of the 6.22s duration, timed to where "2025" and
+      // "four-year window" are actually spoken.
+      tl.to("#f-20-beat-stem-c", { opacity: 1, duration: 0.28, ease: "power1.out" }, 3.75);
+      tl.to("#f-20-beat-mk-c", { opacity: 1, scale: 1, duration: 0.35, ease: "back.out(2.4)" }, 3.85);
+      tl.to("#f-20-beat-label-c", { opacity: 1, duration: 0.35, ease: "power2.out" }, 3.98);
+
+      // the highlighted 4-year window flags in right after 2025 lands, distinct accent glow
+      tl.to("#f-20-beat-window", { scaleX: 1, duration: 0.45, ease: "power2.out" }, 4.45);
+      tl.to("#f-20-beat-window-tag", { opacity: 1, duration: 0.3, ease: "power2.out" }, 4.7);
+
+      // small settle pulse on the window to keep it feeling like the emphasis point, then hold
+      tl.to("#f-20-beat-window", { boxShadow: "0 0 34px rgba(169,180,192,0.8)", duration: 0.5, ease: "sine.inOut", yoyo: true, repeat: 1 }, 5.1);
+
+      window.__timelines["20-beat"] = tl;
+    })();
+  </script>
+</template>

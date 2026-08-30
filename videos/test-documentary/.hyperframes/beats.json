@@ -1,0 +1,4474 @@
+{
+  "beats": [
+    {
+      "id": "01",
+      "text": "If you were born before 1961, there is a number you need to know before you sign your next tax return, and almost nobody has done the arithmetic out loud.",
+      "start": 0.1,
+      "end": 8.51,
+      "durationSeconds": 8.41,
+      "words": [
+        {
+          "text": "If",
+          "start": 0.1,
+          "end": 0.13
+        },
+        {
+          "text": "you",
+          "start": 0.13,
+          "end": 0.33
+        },
+        {
+          "text": "were",
+          "start": 0.33,
+          "end": 0.6
+        },
+        {
+          "text": "born",
+          "start": 0.6,
+          "end": 0.87
+        },
+        {
+          "text": "before",
+          "start": 0.87,
+          "end": 1.28
+        },
+        {
+          "text": "1961,",
+          "start": 1.28,
+          "end": 2.2
+        },
+        {
+          "text": "there",
+          "start": 2.28,
+          "end": 2.48
+        },
+        {
+          "text": "is",
+          "start": 2.48,
+          "end": 2.59
+        },
+        {
+          "text": "a",
+          "start": 2.59,
+          "end": 2.64
+        },
+        {
+          "text": "number",
+          "start": 2.64,
+          "end": 3
+        },
+        {
+          "text": "you",
+          "start": 3,
+          "end": 3.15
+        },
+        {
+          "text": "need",
+          "start": 3.15,
+          "end": 3.36
+        },
+        {
+          "text": "to",
+          "start": 3.36,
+          "end": 3.46
+        },
+        {
+          "text": "know",
+          "start": 3.46,
+          "end": 3.68
+        },
+        {
+          "text": "before",
+          "start": 3.68,
+          "end": 3.92
+        },
+        {
+          "text": "you",
+          "start": 3.92,
+          "end": 4
+        },
+        {
+          "text": "sign",
+          "start": 4,
+          "end": 4.24
+        },
+        {
+          "text": "your",
+          "start": 4.24,
+          "end": 4.4
+        },
+        {
+          "text": "next",
+          "start": 4.4,
+          "end": 4.69
+        },
+        {
+          "text": "tax",
+          "start": 4.82,
+          "end": 4.9
+        },
+        {
+          "text": "return,",
+          "start": 4.92,
+          "end": 5.46
+        },
+        {
+          "text": "and",
+          "start": 5.46,
+          "end": 5.66
+        },
+        {
+          "text": "almost",
+          "start": 5.66,
+          "end": 6.06
+        },
+        {
+          "text": "nobody",
+          "start": 6.06,
+          "end": 6.48
+        },
+        {
+          "text": "has",
+          "start": 6.48,
+          "end": 6.68
+        },
+        {
+          "text": "done",
+          "start": 6.68,
+          "end": 6.74
+        },
+        {
+          "text": "the",
+          "start": 7,
+          "end": 7.15
+        },
+        {
+          "text": "arithmetic",
+          "start": 7.15,
+          "end": 7.83
+        },
+        {
+          "text": "out",
+          "start": 7.83,
+          "end": 8.03
+        },
+        {
+          "text": "loud.",
+          "start": 8.03,
+          "end": 8.51
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "text": "That number is $47,500. That is how much income a married couple, both age 65 or older,",
+      "start": 8.66,
+      "end": 15.18,
+      "durationSeconds": 6.52,
+      "words": [
+        {
+          "text": "That",
+          "start": 8.66,
+          "end": 8.93
+        },
+        {
+          "text": "number",
+          "start": 8.93,
+          "end": 9.48
+        },
+        {
+          "text": "is",
+          "start": 9.48,
+          "end": 9.61
+        },
+        {
+          "text": "$47,500.",
+          "start": 9.66,
+          "end": 11.62
+        },
+        {
+          "text": "That",
+          "start": 11.72,
+          "end": 11.87
+        },
+        {
+          "text": "is",
+          "start": 11.87,
+          "end": 11.99
+        },
+        {
+          "text": "how",
+          "start": 11.99,
+          "end": 12.18
+        },
+        {
+          "text": "much",
+          "start": 12.18,
+          "end": 12.43
+        },
+        {
+          "text": "income",
+          "start": 12.43,
+          "end": 12.81
+        },
+        {
+          "text": "a",
+          "start": 12.81,
+          "end": 12.87
+        },
+        {
+          "text": "married",
+          "start": 12.87,
+          "end": 13.31
+        },
+        {
+          "text": "couple,",
+          "start": 13.31,
+          "end": 13.81
+        },
+        {
+          "text": "both",
+          "start": 13.89,
+          "end": 14.06
+        },
+        {
+          "text": "age",
+          "start": 14.06,
+          "end": 14.25
+        },
+        {
+          "text": "65",
+          "start": 14.25,
+          "end": 14.63
+        },
+        {
+          "text": "or",
+          "start": 14.63,
+          "end": 14.75
+        },
+        {
+          "text": "older,",
+          "start": 14.75,
+          "end": 15.18
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "text": "can now take in during the 2026 tax year before they owe a single dollar of federal income tax.",
+      "start": 15.18,
+      "end": 20.96,
+      "durationSeconds": 5.78,
+      "words": [
+        {
+          "text": "can",
+          "start": 15.18,
+          "end": 15.36
+        },
+        {
+          "text": "now",
+          "start": 15.37,
+          "end": 15.56
+        },
+        {
+          "text": "take",
+          "start": 15.56,
+          "end": 15.81
+        },
+        {
+          "text": "in",
+          "start": 15.81,
+          "end": 15.93
+        },
+        {
+          "text": "during",
+          "start": 15.93,
+          "end": 16.39
+        },
+        {
+          "text": "the",
+          "start": 16.5,
+          "end": 16.58
+        },
+        {
+          "text": "2026",
+          "start": 16.6,
+          "end": 17.39
+        },
+        {
+          "text": "tax",
+          "start": 17.45,
+          "end": 17.6
+        },
+        {
+          "text": "year",
+          "start": 17.6,
+          "end": 17.82
+        },
+        {
+          "text": "before",
+          "start": 17.87,
+          "end": 18.27
+        },
+        {
+          "text": "they",
+          "start": 18.27,
+          "end": 18.42
+        },
+        {
+          "text": "owe",
+          "start": 18.67,
+          "end": 18.74
+        },
+        {
+          "text": "a",
+          "start": 18.74,
+          "end": 18.8
+        },
+        {
+          "text": "single",
+          "start": 18.8,
+          "end": 19.2
+        },
+        {
+          "text": "dollar",
+          "start": 19.2,
+          "end": 19.6
+        },
+        {
+          "text": "of",
+          "start": 19.6,
+          "end": 19.73
+        },
+        {
+          "text": "federal",
+          "start": 19.73,
+          "end": 20.19
+        },
+        {
+          "text": "income",
+          "start": 20.29,
+          "end": 20.6
+        },
+        {
+          "text": "tax.",
+          "start": 20.6,
+          "end": 20.96
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "text": "Not a credit. Not a rebate. Not something you apply for at an office.",
+      "start": 21.16,
+      "end": 25.07,
+      "durationSeconds": 3.91,
+      "words": [
+        {
+          "text": "Not",
+          "start": 21.16,
+          "end": 21.29
+        },
+        {
+          "text": "a",
+          "start": 21.29,
+          "end": 21.36
+        },
+        {
+          "text": "credit.",
+          "start": 21.36,
+          "end": 22.05
+        },
+        {
+          "text": "Not",
+          "start": 22.16,
+          "end": 22.29
+        },
+        {
+          "text": "a",
+          "start": 22.29,
+          "end": 22.36
+        },
+        {
+          "text": "rebate.",
+          "start": 22.36,
+          "end": 23.05
+        },
+        {
+          "text": "Not",
+          "start": 23.16,
+          "end": 23.22
+        },
+        {
+          "text": "something",
+          "start": 23.22,
+          "end": 23.69
+        },
+        {
+          "text": "you",
+          "start": 23.77,
+          "end": 23.88
+        },
+        {
+          "text": "apply",
+          "start": 23.88,
+          "end": 24.11
+        },
+        {
+          "text": "for",
+          "start": 24.16,
+          "end": 24.32
+        },
+        {
+          "text": "at",
+          "start": 24.32,
+          "end": 24.4
+        },
+        {
+          "text": "an",
+          "start": 24.42,
+          "end": 24.54
+        },
+        {
+          "text": "office.",
+          "start": 24.54,
+          "end": 25.07
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "text": "$47,500 of income that the federal government is simply not permitted to tax.",
+      "start": 25.14,
+      "end": 29.76,
+      "durationSeconds": 4.62,
+      "words": [
+        {
+          "text": "$47,500",
+          "start": 25.14,
+          "end": 26.07
+        },
+        {
+          "text": "of",
+          "start": 26.13,
+          "end": 26.25
+        },
+        {
+          "text": "income",
+          "start": 26.25,
+          "end": 26.56
+        },
+        {
+          "text": "that",
+          "start": 26.65,
+          "end": 26.85
+        },
+        {
+          "text": "the",
+          "start": 26.85,
+          "end": 27.03
+        },
+        {
+          "text": "federal",
+          "start": 27.03,
+          "end": 27.44
+        },
+        {
+          "text": "government",
+          "start": 27.44,
+          "end": 28.03
+        },
+        {
+          "text": "is",
+          "start": 28.03,
+          "end": 28.15
+        },
+        {
+          "text": "simply",
+          "start": 28.15,
+          "end": 28.49
+        },
+        {
+          "text": "not",
+          "start": 28.52,
+          "end": 28.69
+        },
+        {
+          "text": "permitted",
+          "start": 28.69,
+          "end": 29.22
+        },
+        {
+          "text": "to",
+          "start": 29.22,
+          "end": 29.34
+        },
+        {
+          "text": "tax.",
+          "start": 29.34,
+          "end": 29.76
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "text": "And here is the part that has gone almost entirely unexplained.",
+      "start": 29.86,
+      "end": 33.24,
+      "durationSeconds": 3.38,
+      "words": [
+        {
+          "text": "And",
+          "start": 29.86,
+          "end": 29.95
+        },
+        {
+          "text": "here",
+          "start": 29.97,
+          "end": 30.2
+        },
+        {
+          "text": "is",
+          "start": 30.2,
+          "end": 30.32
+        },
+        {
+          "text": "the",
+          "start": 30.32,
+          "end": 30.51
+        },
+        {
+          "text": "part",
+          "start": 30.51,
+          "end": 30.75
+        },
+        {
+          "text": "that",
+          "start": 30.81,
+          "end": 31.01
+        },
+        {
+          "text": "has",
+          "start": 31.01,
+          "end": 31.18
+        },
+        {
+          "text": "gone",
+          "start": 31.2,
+          "end": 31.45
+        },
+        {
+          "text": "almost",
+          "start": 31.45,
+          "end": 31.77
+        },
+        {
+          "text": "entirely",
+          "start": 32.04,
+          "end": 32.32
+        },
+        {
+          "text": "unexplained.",
+          "start": 32.32,
+          "end": 33.24
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "text": "The figure is not one deduction. It is three separate deductions that stack on top of each other.",
+      "start": 33.34,
+      "end": 38.12,
+      "durationSeconds": 4.78,
+      "words": [
+        {
+          "text": "The",
+          "start": 33.34,
+          "end": 33.38
+        },
+        {
+          "text": "figure",
+          "start": 33.38,
+          "end": 33.66
+        },
+        {
+          "text": "is",
+          "start": 33.66,
+          "end": 33.75
+        },
+        {
+          "text": "not",
+          "start": 33.75,
+          "end": 33.87
+        },
+        {
+          "text": "one",
+          "start": 33.95,
+          "end": 34.03
+        },
+        {
+          "text": "deduction.",
+          "start": 34.03,
+          "end": 34.62
+        },
+        {
+          "text": "It",
+          "start": 34.72,
+          "end": 34.74
+        },
+        {
+          "text": "is",
+          "start": 34.74,
+          "end": 34.86
+        },
+        {
+          "text": "three",
+          "start": 34.86,
+          "end": 35.17
+        },
+        {
+          "text": "separate",
+          "start": 35.17,
+          "end": 35.61
+        },
+        {
+          "text": "deductions",
+          "start": 35.67,
+          "end": 36.3
+        },
+        {
+          "text": "that",
+          "start": 36.3,
+          "end": 36.55
+        },
+        {
+          "text": "stack",
+          "start": 36.55,
+          "end": 36.64
+        },
+        {
+          "text": "on",
+          "start": 36.9,
+          "end": 36.98
+        },
+        {
+          "text": "top",
+          "start": 36.98,
+          "end": 37.17
+        },
+        {
+          "text": "of",
+          "start": 37.17,
+          "end": 37.29
+        },
+        {
+          "text": "each",
+          "start": 37.29,
+          "end": 37.54
+        },
+        {
+          "text": "other.",
+          "start": 37.54,
+          "end": 38.12
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "text": "Three. Most people know about one. Some know two.",
+      "start": 38.22,
+      "end": 41.71,
+      "durationSeconds": 3.49,
+      "words": [
+        {
+          "text": "Three.",
+          "start": 38.22,
+          "end": 39.11
+        },
+        {
+          "text": "Most",
+          "start": 39.22,
+          "end": 39.31
+        },
+        {
+          "text": "people",
+          "start": 39.33,
+          "end": 39.6
+        },
+        {
+          "text": "know",
+          "start": 39.6,
+          "end": 39.75
+        },
+        {
+          "text": "about",
+          "start": 39.83,
+          "end": 40.03
+        },
+        {
+          "text": "one.",
+          "start": 40.03,
+          "end": 40.36
+        },
+        {
+          "text": "Some",
+          "start": 40.46,
+          "end": 40.74
+        },
+        {
+          "text": "know",
+          "start": 40.74,
+          "end": 41.12
+        },
+        {
+          "text": "two.",
+          "start": 41.12,
+          "end": 41.71
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "text": "Almost nobody has been shown all three in the same column, added together on one page.",
+      "start": 41.82,
+      "end": 45.44,
+      "durationSeconds": 3.62,
+      "words": [
+        {
+          "text": "Almost",
+          "start": 41.82,
+          "end": 42.02
+        },
+        {
+          "text": "nobody",
+          "start": 42.02,
+          "end": 42.32
+        },
+        {
+          "text": "has",
+          "start": 42.32,
+          "end": 42.47
+        },
+        {
+          "text": "been",
+          "start": 42.47,
+          "end": 42.67
+        },
+        {
+          "text": "shown",
+          "start": 42.67,
+          "end": 42.92
+        },
+        {
+          "text": "all",
+          "start": 42.92,
+          "end": 43.06
+        },
+        {
+          "text": "three",
+          "start": 43.06,
+          "end": 43.32
+        },
+        {
+          "text": "in",
+          "start": 43.32,
+          "end": 43.42
+        },
+        {
+          "text": "the",
+          "start": 43.42,
+          "end": 43.56
+        },
+        {
+          "text": "same",
+          "start": 43.56,
+          "end": 43.73
+        },
+        {
+          "text": "column,",
+          "start": 43.99,
+          "end": 44.17
+        },
+        {
+          "text": "added",
+          "start": 44.17,
+          "end": 44.42
+        },
+        {
+          "text": "together",
+          "start": 44.42,
+          "end": 44.82
+        },
+        {
+          "text": "on",
+          "start": 44.82,
+          "end": 44.92
+        },
+        {
+          "text": "one",
+          "start": 44.92,
+          "end": 45.07
+        },
+        {
+          "text": "page.",
+          "start": 45.07,
+          "end": 45.44
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "text": "Which means most people over 65 are walking into this filing season with a picture of their tax situation that is wrong by tens of thousands of dollars.",
+      "start": 45.54,
+      "end": 53.6,
+      "durationSeconds": 8.06,
+      "words": [
+        {
+          "text": "Which",
+          "start": 45.54,
+          "end": 45.69
+        },
+        {
+          "text": "means",
+          "start": 45.69,
+          "end": 45.94
+        },
+        {
+          "text": "most",
+          "start": 45.94,
+          "end": 46.07
+        },
+        {
+          "text": "people",
+          "start": 46.15,
+          "end": 46.43
+        },
+        {
+          "text": "over",
+          "start": 46.49,
+          "end": 46.64
+        },
+        {
+          "text": "65",
+          "start": 46.64,
+          "end": 46.92
+        },
+        {
+          "text": "are",
+          "start": 47.01,
+          "end": 47.09
+        },
+        {
+          "text": "walking",
+          "start": 47.09,
+          "end": 47.44
+        },
+        {
+          "text": "into",
+          "start": 47.44,
+          "end": 47.46
+        },
+        {
+          "text": "this",
+          "start": 47.71,
+          "end": 47.84
+        },
+        {
+          "text": "filing",
+          "start": 47.84,
+          "end": 48.14
+        },
+        {
+          "text": "season",
+          "start": 48.14,
+          "end": 48.44
+        },
+        {
+          "text": "with",
+          "start": 48.44,
+          "end": 48.64
+        },
+        {
+          "text": "a",
+          "start": 48.64,
+          "end": 48.69
+        },
+        {
+          "text": "picture",
+          "start": 48.69,
+          "end": 49.04
+        },
+        {
+          "text": "of",
+          "start": 49.04,
+          "end": 49.21
+        },
+        {
+          "text": "their",
+          "start": 49.32,
+          "end": 49.6
+        },
+        {
+          "text": "tax",
+          "start": 49.6,
+          "end": 49.83
+        },
+        {
+          "text": "situation",
+          "start": 49.83,
+          "end": 50.52
+        },
+        {
+          "text": "that",
+          "start": 50.52,
+          "end": 50.82
+        },
+        {
+          "text": "is",
+          "start": 50.82,
+          "end": 50.97
+        },
+        {
+          "text": "wrong",
+          "start": 50.97,
+          "end": 51.23
+        },
+        {
+          "text": "by",
+          "start": 51.49,
+          "end": 51.5
+        },
+        {
+          "text": "tens",
+          "start": 51.5,
+          "end": 51.8
+        },
+        {
+          "text": "of",
+          "start": 51.8,
+          "end": 51.95
+        },
+        {
+          "text": "thousands",
+          "start": 51.95,
+          "end": 52.63
+        },
+        {
+          "text": "of",
+          "start": 52.66,
+          "end": 52.79
+        },
+        {
+          "text": "dollars.",
+          "start": 52.79,
+          "end": 53.6
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "text": "They withhold money they will never owe. They pass up income they could take tax-free.",
+      "start": 53.7,
+      "end": 57.64,
+      "durationSeconds": 3.94,
+      "words": [
+        {
+          "text": "They",
+          "start": 53.7,
+          "end": 53.79
+        },
+        {
+          "text": "withhold",
+          "start": 53.81,
+          "end": 54.16
+        },
+        {
+          "text": "money",
+          "start": 54.16,
+          "end": 54.4
+        },
+        {
+          "text": "they",
+          "start": 54.4,
+          "end": 54.59
+        },
+        {
+          "text": "will",
+          "start": 54.59,
+          "end": 54.78
+        },
+        {
+          "text": "never",
+          "start": 54.78,
+          "end": 55.01
+        },
+        {
+          "text": "owe.",
+          "start": 55.01,
+          "end": 55.32
+        },
+        {
+          "text": "They",
+          "start": 55.42,
+          "end": 55.55
+        },
+        {
+          "text": "pass",
+          "start": 55.55,
+          "end": 55.78
+        },
+        {
+          "text": "up",
+          "start": 55.78,
+          "end": 55.89
+        },
+        {
+          "text": "income",
+          "start": 55.89,
+          "end": 56.23
+        },
+        {
+          "text": "they",
+          "start": 56.23,
+          "end": 56.46
+        },
+        {
+          "text": "could",
+          "start": 56.46,
+          "end": 56.74
+        },
+        {
+          "text": "take",
+          "start": 56.75,
+          "end": 56.98
+        },
+        {
+          "text": "tax-free.",
+          "start": 56.98,
+          "end": 57.64
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "text": "They pay a preparer who checks one box and misses two others.",
+      "start": 57.74,
+      "end": 60.76,
+      "durationSeconds": 3.02,
+      "words": [
+        {
+          "text": "They",
+          "start": 57.74,
+          "end": 57.88
+        },
+        {
+          "text": "pay",
+          "start": 57.88,
+          "end": 58.06
+        },
+        {
+          "text": "a",
+          "start": 58.06,
+          "end": 58.12
+        },
+        {
+          "text": "preparer",
+          "start": 58.12,
+          "end": 58.58
+        },
+        {
+          "text": "who",
+          "start": 58.58,
+          "end": 58.76
+        },
+        {
+          "text": "checks",
+          "start": 58.76,
+          "end": 59.07
+        },
+        {
+          "text": "one",
+          "start": 59.11,
+          "end": 59.29
+        },
+        {
+          "text": "box",
+          "start": 59.29,
+          "end": 59.47
+        },
+        {
+          "text": "and",
+          "start": 59.47,
+          "end": 59.65
+        },
+        {
+          "text": "misses",
+          "start": 59.65,
+          "end": 60
+        },
+        {
+          "text": "two",
+          "start": 60,
+          "end": 60.18
+        },
+        {
+          "text": "others.",
+          "start": 60.18,
+          "end": 60.76
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "text": "I am going to build that stack one layer at a time with the real numbers.",
+      "start": 60.76,
+      "end": 64.68,
+      "durationSeconds": 3.92,
+      "words": [
+        {
+          "text": "I",
+          "start": 60.76,
+          "end": 60.86
+        },
+        {
+          "text": "am",
+          "start": 60.86,
+          "end": 60.95
+        },
+        {
+          "text": "going",
+          "start": 60.97,
+          "end": 61.27
+        },
+        {
+          "text": "to",
+          "start": 61.27,
+          "end": 61.39
+        },
+        {
+          "text": "build",
+          "start": 61.4,
+          "end": 61.72
+        },
+        {
+          "text": "that",
+          "start": 61.72,
+          "end": 61.98
+        },
+        {
+          "text": "stack",
+          "start": 61.98,
+          "end": 62.24
+        },
+        {
+          "text": "one",
+          "start": 62.33,
+          "end": 62.49
+        },
+        {
+          "text": "layer",
+          "start": 62.49,
+          "end": 62.77
+        },
+        {
+          "text": "at",
+          "start": 62.77,
+          "end": 62.905
+        },
+        {
+          "text": "a",
+          "start": 62.905,
+          "end": 63.04
+        },
+        {
+          "text": "time",
+          "start": 63.04,
+          "end": 63.26
+        },
+        {
+          "text": "with",
+          "start": 63.26,
+          "end": 63.52
+        },
+        {
+          "text": "the",
+          "start": 63.52,
+          "end": 63.71
+        },
+        {
+          "text": "real",
+          "start": 63.71,
+          "end": 63.97
+        },
+        {
+          "text": "numbers.",
+          "start": 63.97,
+          "end": 64.68
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "text": "And then I am going to show you the thing that makes $47,500 look small.",
+      "start": 64.78,
+      "end": 69.16,
+      "durationSeconds": 4.38,
+      "words": [
+        {
+          "text": "And",
+          "start": 64.78,
+          "end": 64.86
+        },
+        {
+          "text": "then",
+          "start": 64.86,
+          "end": 65.11
+        },
+        {
+          "text": "I",
+          "start": 65.11,
+          "end": 65.17
+        },
+        {
+          "text": "am",
+          "start": 65.17,
+          "end": 65.29
+        },
+        {
+          "text": "going",
+          "start": 65.29,
+          "end": 65.6
+        },
+        {
+          "text": "to",
+          "start": 65.6,
+          "end": 65.68
+        },
+        {
+          "text": "show",
+          "start": 65.73,
+          "end": 65.97
+        },
+        {
+          "text": "you",
+          "start": 65.97,
+          "end": 66.11
+        },
+        {
+          "text": "the",
+          "start": 66.15,
+          "end": 66.33
+        },
+        {
+          "text": "thing",
+          "start": 66.33,
+          "end": 66.64
+        },
+        {
+          "text": "that",
+          "start": 66.64,
+          "end": 66.7
+        },
+        {
+          "text": "makes",
+          "start": 66.96,
+          "end": 67.2
+        },
+        {
+          "text": "$47,500",
+          "start": 67.2,
+          "end": 68.31
+        },
+        {
+          "text": "look",
+          "start": 68.31,
+          "end": 68.47
+        },
+        {
+          "text": "small.",
+          "start": 68.57,
+          "end": 69.16
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "text": "Because for a household living mostly on Social Security, the actual cash you can receive in a year and still owe zero federal income tax is closer to $80,000.",
+      "start": 69.26,
+      "end": 78.64,
+      "durationSeconds": 9.38,
+      "words": [
+        {
+          "text": "Because",
+          "start": 69.26,
+          "end": 69.54
+        },
+        {
+          "text": "for",
+          "start": 69.54,
+          "end": 69.7
+        },
+        {
+          "text": "a",
+          "start": 69.7,
+          "end": 69.75
+        },
+        {
+          "text": "household",
+          "start": 69.75,
+          "end": 70.21
+        },
+        {
+          "text": "living",
+          "start": 70.26,
+          "end": 70.56
+        },
+        {
+          "text": "mostly",
+          "start": 70.56,
+          "end": 70.88
+        },
+        {
+          "text": "on",
+          "start": 70.88,
+          "end": 70.99
+        },
+        {
+          "text": "Social",
+          "start": 70.99,
+          "end": 71.18
+        },
+        {
+          "text": "Security,",
+          "start": 71.44,
+          "end": 71.84
+        },
+        {
+          "text": "the",
+          "start": 71.84,
+          "end": 72
+        },
+        {
+          "text": "actual",
+          "start": 72,
+          "end": 72.32
+        },
+        {
+          "text": "cash",
+          "start": 72.32,
+          "end": 72.52
+        },
+        {
+          "text": "you",
+          "start": 72.56,
+          "end": 72.69
+        },
+        {
+          "text": "can",
+          "start": 72.69,
+          "end": 72.86
+        },
+        {
+          "text": "receive",
+          "start": 72.86,
+          "end": 73.34
+        },
+        {
+          "text": "in",
+          "start": 73.44,
+          "end": 73.49
+        },
+        {
+          "text": "a",
+          "start": 73.49,
+          "end": 73.56
+        },
+        {
+          "text": "year",
+          "start": 73.56,
+          "end": 73.86
+        },
+        {
+          "text": "and",
+          "start": 73.86,
+          "end": 74.09
+        },
+        {
+          "text": "still",
+          "start": 74.09,
+          "end": 74.47
+        },
+        {
+          "text": "owe",
+          "start": 74.47,
+          "end": 74.69
+        },
+        {
+          "text": "zero",
+          "start": 74.71,
+          "end": 75
+        },
+        {
+          "text": "federal",
+          "start": 75,
+          "end": 75.35
+        },
+        {
+          "text": "income",
+          "start": 75.62,
+          "end": 75.99
+        },
+        {
+          "text": "tax",
+          "start": 75.99,
+          "end": 76.22
+        },
+        {
+          "text": "is",
+          "start": 76.22,
+          "end": 76.36
+        },
+        {
+          "text": "closer",
+          "start": 76.37,
+          "end": 76.83
+        },
+        {
+          "text": "to",
+          "start": 76.83,
+          "end": 76.98
+        },
+        {
+          "text": "$80,000.",
+          "start": 76.98,
+          "end": 78.64
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "text": "Now some of you are already thinking the obvious thing. If this is real, and if it is this large, why has nobody sat me down and explained it?",
+      "start": 78.74,
+      "end": 86.56,
+      "durationSeconds": 7.82,
+      "words": [
+        {
+          "text": "Now",
+          "start": 78.74,
+          "end": 78.79
+        },
+        {
+          "text": "some",
+          "start": 78.79,
+          "end": 79
+        },
+        {
+          "text": "of",
+          "start": 79,
+          "end": 79.1
+        },
+        {
+          "text": "you",
+          "start": 79.1,
+          "end": 79.25
+        },
+        {
+          "text": "are",
+          "start": 79.25,
+          "end": 79.4
+        },
+        {
+          "text": "already",
+          "start": 79.4,
+          "end": 79.76
+        },
+        {
+          "text": "thinking",
+          "start": 79.76,
+          "end": 80.13
+        },
+        {
+          "text": "the",
+          "start": 80.21,
+          "end": 80.32
+        },
+        {
+          "text": "obvious",
+          "start": 80.32,
+          "end": 80.65
+        },
+        {
+          "text": "thing.",
+          "start": 80.91,
+          "end": 81.16
+        },
+        {
+          "text": "If",
+          "start": 81.26,
+          "end": 81.31
+        },
+        {
+          "text": "this",
+          "start": 81.31,
+          "end": 81.6
+        },
+        {
+          "text": "is",
+          "start": 81.6,
+          "end": 81.75
+        },
+        {
+          "text": "real,",
+          "start": 81.75,
+          "end": 82.15
+        },
+        {
+          "text": "and",
+          "start": 82.21,
+          "end": 82.4
+        },
+        {
+          "text": "if",
+          "start": 82.4,
+          "end": 82.55
+        },
+        {
+          "text": "it",
+          "start": 82.55,
+          "end": 82.66
+        },
+        {
+          "text": "is",
+          "start": 82.73,
+          "end": 82.85
+        },
+        {
+          "text": "this",
+          "start": 82.85,
+          "end": 83.14
+        },
+        {
+          "text": "large,",
+          "start": 83.14,
+          "end": 83.65
+        },
+        {
+          "text": "why",
+          "start": 83.65,
+          "end": 83.87
+        },
+        {
+          "text": "has",
+          "start": 83.87,
+          "end": 84.09
+        },
+        {
+          "text": "nobody",
+          "start": 84.09,
+          "end": 84.52
+        },
+        {
+          "text": "sat",
+          "start": 84.56,
+          "end": 84.75
+        },
+        {
+          "text": "me",
+          "start": 84.75,
+          "end": 84.9
+        },
+        {
+          "text": "down",
+          "start": 84.9,
+          "end": 85.19
+        },
+        {
+          "text": "and",
+          "start": 85.19,
+          "end": 85.41
+        },
+        {
+          "text": "explained",
+          "start": 85.41,
+          "end": 86.04
+        },
+        {
+          "text": "it?",
+          "start": 86.08,
+          "end": 86.56
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "text": "That is a fair question and the answer is not a conspiracy. It is much more ordinary than that.",
+      "start": 86.66,
+      "end": 91.24,
+      "durationSeconds": 4.58,
+      "words": [
+        {
+          "text": "That",
+          "start": 86.66,
+          "end": 86.78
+        },
+        {
+          "text": "is",
+          "start": 86.78,
+          "end": 86.89
+        },
+        {
+          "text": "a",
+          "start": 86.89,
+          "end": 86.94
+        },
+        {
+          "text": "fair",
+          "start": 86.94,
+          "end": 87.16
+        },
+        {
+          "text": "question",
+          "start": 87.16,
+          "end": 87.55
+        },
+        {
+          "text": "and",
+          "start": 87.61,
+          "end": 87.77
+        },
+        {
+          "text": "the",
+          "start": 87.77,
+          "end": 87.9
+        },
+        {
+          "text": "answer",
+          "start": 87.93,
+          "end": 88.26
+        },
+        {
+          "text": "is",
+          "start": 88.26,
+          "end": 88.37
+        },
+        {
+          "text": "not",
+          "start": 88.37,
+          "end": 88.53
+        },
+        {
+          "text": "a",
+          "start": 88.53,
+          "end": 88.57
+        },
+        {
+          "text": "conspiracy.",
+          "start": 88.84,
+          "end": 89.38
+        },
+        {
+          "text": "It",
+          "start": 89.48,
+          "end": 89.5
+        },
+        {
+          "text": "is",
+          "start": 89.5,
+          "end": 89.62
+        },
+        {
+          "text": "much",
+          "start": 89.62,
+          "end": 89.86
+        },
+        {
+          "text": "more",
+          "start": 89.86,
+          "end": 90.1
+        },
+        {
+          "text": "ordinary",
+          "start": 90.1,
+          "end": 90.57
+        },
+        {
+          "text": "than",
+          "start": 90.57,
+          "end": 90.8
+        },
+        {
+          "text": "that.",
+          "start": 90.81,
+          "end": 91.24
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "text": "The three pieces of this stack were created at three different times by three different acts of Congress.",
+      "start": 91.34,
+      "end": 96.28,
+      "durationSeconds": 4.94,
+      "words": [
+        {
+          "text": "The",
+          "start": 91.34,
+          "end": 91.37
+        },
+        {
+          "text": "three",
+          "start": 91.37,
+          "end": 91.59
+        },
+        {
+          "text": "pieces",
+          "start": 91.59,
+          "end": 91.86
+        },
+        {
+          "text": "of",
+          "start": 91.86,
+          "end": 91.87
+        },
+        {
+          "text": "this",
+          "start": 91.95,
+          "end": 92.13
+        },
+        {
+          "text": "stack",
+          "start": 92.13,
+          "end": 92.35
+        },
+        {
+          "text": "were",
+          "start": 92.35,
+          "end": 92.53
+        },
+        {
+          "text": "created",
+          "start": 92.53,
+          "end": 92.84
+        },
+        {
+          "text": "at",
+          "start": 92.84,
+          "end": 92.93
+        },
+        {
+          "text": "three",
+          "start": 92.93,
+          "end": 93.15
+        },
+        {
+          "text": "different",
+          "start": 93.15,
+          "end": 93.55
+        },
+        {
+          "text": "times",
+          "start": 93.55,
+          "end": 93.77
+        },
+        {
+          "text": "by",
+          "start": 93.77,
+          "end": 93.86
+        },
+        {
+          "text": "three",
+          "start": 93.86,
+          "end": 94.08
+        },
+        {
+          "text": "different",
+          "start": 94.08,
+          "end": 94.56
+        },
+        {
+          "text": "acts",
+          "start": 94.66,
+          "end": 94.95
+        },
+        {
+          "text": "of",
+          "start": 94.97,
+          "end": 95.16
+        },
+        {
+          "text": "Congress.",
+          "start": 95.16,
+          "end": 96.28
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "text": "The base standard deduction has existed for decades. The senior add-on has been in the code since the 1980s.",
+      "start": 96.38,
+      "end": 101.84,
+      "durationSeconds": 5.46,
+      "words": [
+        {
+          "text": "The",
+          "start": 96.38,
+          "end": 96.44
+        },
+        {
+          "text": "base",
+          "start": 96.44,
+          "end": 96.65
+        },
+        {
+          "text": "standard",
+          "start": 96.65,
+          "end": 97.08
+        },
+        {
+          "text": "deduction",
+          "start": 97.08,
+          "end": 97.57
+        },
+        {
+          "text": "has",
+          "start": 97.57,
+          "end": 97.71
+        },
+        {
+          "text": "existed",
+          "start": 97.75,
+          "end": 98.11
+        },
+        {
+          "text": "for",
+          "start": 98.11,
+          "end": 98.27
+        },
+        {
+          "text": "decades.",
+          "start": 98.27,
+          "end": 98.86
+        },
+        {
+          "text": "The",
+          "start": 98.96,
+          "end": 99.02
+        },
+        {
+          "text": "senior",
+          "start": 99.02,
+          "end": 99.34
+        },
+        {
+          "text": "add-on",
+          "start": 99.34,
+          "end": 99.65
+        },
+        {
+          "text": "has",
+          "start": 99.65,
+          "end": 99.81
+        },
+        {
+          "text": "been",
+          "start": 99.81,
+          "end": 100.02
+        },
+        {
+          "text": "in",
+          "start": 100.02,
+          "end": 100.12
+        },
+        {
+          "text": "the",
+          "start": 100.12,
+          "end": 100.28
+        },
+        {
+          "text": "code",
+          "start": 100.28,
+          "end": 100.49
+        },
+        {
+          "text": "since",
+          "start": 100.49,
+          "end": 100.76
+        },
+        {
+          "text": "the",
+          "start": 100.76,
+          "end": 100.88
+        },
+        {
+          "text": "1980s.",
+          "start": 101.14,
+          "end": 101.84
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "text": "The third and largest piece is brand new, created in 2025, in effect for only a four-year window.",
+      "start": 101.94,
+      "end": 108.16,
+      "durationSeconds": 6.22,
+      "words": [
+        {
+          "text": "The",
+          "start": 101.94,
+          "end": 102.03
+        },
+        {
+          "text": "third",
+          "start": 102.05,
+          "end": 102.35
+        },
+        {
+          "text": "and",
+          "start": 102.35,
+          "end": 102.47
+        },
+        {
+          "text": "largest",
+          "start": 102.55,
+          "end": 102.98
+        },
+        {
+          "text": "piece",
+          "start": 102.98,
+          "end": 103.27
+        },
+        {
+          "text": "is",
+          "start": 103.31,
+          "end": 103.42
+        },
+        {
+          "text": "brand",
+          "start": 103.42,
+          "end": 103.74
+        },
+        {
+          "text": "new,",
+          "start": 103.74,
+          "end": 104.05
+        },
+        {
+          "text": "created",
+          "start": 104.12,
+          "end": 104.49
+        },
+        {
+          "text": "in",
+          "start": 104.49,
+          "end": 104.61
+        },
+        {
+          "text": "2025,",
+          "start": 104.61,
+          "end": 105.49
+        },
+        {
+          "text": "in",
+          "start": 105.49,
+          "end": 105.61
+        },
+        {
+          "text": "effect",
+          "start": 105.61,
+          "end": 105.99
+        },
+        {
+          "text": "for",
+          "start": 105.99,
+          "end": 106.18
+        },
+        {
+          "text": "only",
+          "start": 106.18,
+          "end": 106.4
+        },
+        {
+          "text": "a",
+          "start": 106.47,
+          "end": 106.48
+        },
+        {
+          "text": "four-year",
+          "start": 106.49,
+          "end": 107.16
+        },
+        {
+          "text": "window.",
+          "start": 107.16,
+          "end": 108.16
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "text": "Nobody ever wrote a single law called the senior tax break. Three separate provisions simply happened to land on the same taxpayer at the same time.",
+      "start": 108.26,
+      "end": 115.6,
+      "durationSeconds": 7.34,
+      "words": [
+        {
+          "text": "Nobody",
+          "start": 108.26,
+          "end": 108.51
+        },
+        {
+          "text": "ever",
+          "start": 108.51,
+          "end": 108.74
+        },
+        {
+          "text": "wrote",
+          "start": 108.74,
+          "end": 109.03
+        },
+        {
+          "text": "a",
+          "start": 109.03,
+          "end": 109.09
+        },
+        {
+          "text": "single",
+          "start": 109.09,
+          "end": 109.44
+        },
+        {
+          "text": "law",
+          "start": 109.44,
+          "end": 109.59
+        },
+        {
+          "text": "called",
+          "start": 109.63,
+          "end": 109.96
+        },
+        {
+          "text": "the",
+          "start": 109.96,
+          "end": 110.13
+        },
+        {
+          "text": "senior",
+          "start": 110.13,
+          "end": 110.48
+        },
+        {
+          "text": "tax",
+          "start": 110.48,
+          "end": 110.65
+        },
+        {
+          "text": "break.",
+          "start": 110.65,
+          "end": 111.2
+        },
+        {
+          "text": "Three",
+          "start": 111.3,
+          "end": 111.48
+        },
+        {
+          "text": "separate",
+          "start": 111.48,
+          "end": 111.94
+        },
+        {
+          "text": "provisions",
+          "start": 111.94,
+          "end": 112.51
+        },
+        {
+          "text": "simply",
+          "start": 112.51,
+          "end": 112.85
+        },
+        {
+          "text": "happened",
+          "start": 112.85,
+          "end": 113.21
+        },
+        {
+          "text": "to",
+          "start": 113.21,
+          "end": 113.48
+        },
+        {
+          "text": "land",
+          "start": 113.48,
+          "end": 113.65
+        },
+        {
+          "text": "on",
+          "start": 113.65,
+          "end": 113.76
+        },
+        {
+          "text": "the",
+          "start": 113.76,
+          "end": 113.93
+        },
+        {
+          "text": "same",
+          "start": 113.93,
+          "end": 114.16
+        },
+        {
+          "text": "taxpayer",
+          "start": 114.16,
+          "end": 114.61
+        },
+        {
+          "text": "at",
+          "start": 114.64,
+          "end": 114.73
+        },
+        {
+          "text": "the",
+          "start": 114.73,
+          "end": 114.9
+        },
+        {
+          "text": "same",
+          "start": 114.9,
+          "end": 115.13
+        },
+        {
+          "text": "time.",
+          "start": 115.13,
+          "end": 115.6
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "text": "So when the news covered the new law, they covered the new piece.",
+      "start": 115.7,
+      "end": 119.01,
+      "durationSeconds": 3.31,
+      "words": [
+        {
+          "text": "So",
+          "start": 115.7,
+          "end": 115.72
+        },
+        {
+          "text": "when",
+          "start": 115.72,
+          "end": 115.96
+        },
+        {
+          "text": "the",
+          "start": 115.96,
+          "end": 116.14
+        },
+        {
+          "text": "news",
+          "start": 116.14,
+          "end": 116.38
+        },
+        {
+          "text": "covered",
+          "start": 116.38,
+          "end": 116.8
+        },
+        {
+          "text": "the",
+          "start": 116.8,
+          "end": 116.98
+        },
+        {
+          "text": "new",
+          "start": 116.98,
+          "end": 117.1
+        },
+        {
+          "text": "law,",
+          "start": 117.17,
+          "end": 117.46
+        },
+        {
+          "text": "they",
+          "start": 117.46,
+          "end": 117.61
+        },
+        {
+          "text": "covered",
+          "start": 117.87,
+          "end": 118.12
+        },
+        {
+          "text": "the",
+          "start": 118.12,
+          "end": 118.3
+        },
+        {
+          "text": "new",
+          "start": 118.3,
+          "end": 118.48
+        },
+        {
+          "text": "piece.",
+          "start": 118.48,
+          "end": 119.01
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "text": "When the software updated, it updated one field. When your preparer looked at your return, he looked at the line in front of him.",
+      "start": 119.14,
+      "end": 125.68,
+      "durationSeconds": 6.54,
+      "words": [
+        {
+          "text": "When",
+          "start": 119.14,
+          "end": 119.28
+        },
+        {
+          "text": "the",
+          "start": 119.28,
+          "end": 119.46
+        },
+        {
+          "text": "software",
+          "start": 119.46,
+          "end": 119.95
+        },
+        {
+          "text": "updated,",
+          "start": 119.95,
+          "end": 120.49
+        },
+        {
+          "text": "it",
+          "start": 120.51,
+          "end": 120.62
+        },
+        {
+          "text": "updated",
+          "start": 120.62,
+          "end": 121.05
+        },
+        {
+          "text": "one",
+          "start": 121.05,
+          "end": 121.06
+        },
+        {
+          "text": "field.",
+          "start": 121.32,
+          "end": 121.76
+        },
+        {
+          "text": "When",
+          "start": 121.86,
+          "end": 121.99
+        },
+        {
+          "text": "your",
+          "start": 121.99,
+          "end": 122.22
+        },
+        {
+          "text": "preparer",
+          "start": 122.22,
+          "end": 122.67
+        },
+        {
+          "text": "looked",
+          "start": 122.67,
+          "end": 123.01
+        },
+        {
+          "text": "at",
+          "start": 123.01,
+          "end": 123.1
+        },
+        {
+          "text": "your",
+          "start": 123.13,
+          "end": 123.35
+        },
+        {
+          "text": "return,",
+          "start": 123.35,
+          "end": 123.78
+        },
+        {
+          "text": "he",
+          "start": 123.78,
+          "end": 124.03
+        },
+        {
+          "text": "looked",
+          "start": 124.03,
+          "end": 124.25
+        },
+        {
+          "text": "at",
+          "start": 124.25,
+          "end": 124.36
+        },
+        {
+          "text": "the",
+          "start": 124.36,
+          "end": 124.53
+        },
+        {
+          "text": "line",
+          "start": 124.53,
+          "end": 124.76
+        },
+        {
+          "text": "in",
+          "start": 124.76,
+          "end": 124.87
+        },
+        {
+          "text": "front",
+          "start": 124.87,
+          "end": 125.12
+        },
+        {
+          "text": "of",
+          "start": 125.16,
+          "end": 125.26
+        },
+        {
+          "text": "him.",
+          "start": 125.26,
+          "end": 125.68
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "text": "Every one of them did their job correctly, and not one of them was responsible for standing back and adding up the total.",
+      "start": 125.78,
+      "end": 131.52,
+      "durationSeconds": 5.74,
+      "words": [
+        {
+          "text": "Every",
+          "start": 125.78,
+          "end": 125.91
+        },
+        {
+          "text": "one",
+          "start": 125.91,
+          "end": 126.03
+        },
+        {
+          "text": "of",
+          "start": 126.04,
+          "end": 126.13
+        },
+        {
+          "text": "them",
+          "start": 126.13,
+          "end": 126.31
+        },
+        {
+          "text": "did",
+          "start": 126.31,
+          "end": 126.44
+        },
+        {
+          "text": "their",
+          "start": 126.44,
+          "end": 126.67
+        },
+        {
+          "text": "job",
+          "start": 126.67,
+          "end": 126.8
+        },
+        {
+          "text": "correctly,",
+          "start": 126.8,
+          "end": 127.3
+        },
+        {
+          "text": "and",
+          "start": 127.3,
+          "end": 127.43
+        },
+        {
+          "text": "not",
+          "start": 127.43,
+          "end": 127.56
+        },
+        {
+          "text": "one",
+          "start": 127.56,
+          "end": 127.69
+        },
+        {
+          "text": "of",
+          "start": 127.69,
+          "end": 127.7
+        },
+        {
+          "text": "them",
+          "start": 127.95,
+          "end": 127.96
+        },
+        {
+          "text": "was",
+          "start": 127.96,
+          "end": 128.09
+        },
+        {
+          "text": "responsible",
+          "start": 128.09,
+          "end": 128.59
+        },
+        {
+          "text": "for",
+          "start": 128.59,
+          "end": 128.72
+        },
+        {
+          "text": "standing",
+          "start": 128.72,
+          "end": 129.2
+        },
+        {
+          "text": "back",
+          "start": 129.3,
+          "end": 129.55
+        },
+        {
+          "text": "and",
+          "start": 129.55,
+          "end": 129.81
+        },
+        {
+          "text": "adding",
+          "start": 129.81,
+          "end": 130.34
+        },
+        {
+          "text": "up",
+          "start": 130.34,
+          "end": 130.51
+        },
+        {
+          "text": "the",
+          "start": 130.51,
+          "end": 130.69
+        },
+        {
+          "text": "total.",
+          "start": 130.77,
+          "end": 131.52
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "text": "That is why the total has never been explained to you. Not because it is hidden, but because nobody in the system is assigned the job of adding it up.",
+      "start": 131.62,
+      "end": 138.71,
+      "durationSeconds": 7.09,
+      "words": [
+        {
+          "text": "That",
+          "start": 131.62,
+          "end": 131.74
+        },
+        {
+          "text": "is",
+          "start": 131.74,
+          "end": 131.85
+        },
+        {
+          "text": "why",
+          "start": 131.85,
+          "end": 132.02
+        },
+        {
+          "text": "the",
+          "start": 132.02,
+          "end": 132.15
+        },
+        {
+          "text": "total",
+          "start": 132.23,
+          "end": 132.47
+        },
+        {
+          "text": "has",
+          "start": 132.47,
+          "end": 132.64
+        },
+        {
+          "text": "never",
+          "start": 132.64,
+          "end": 132.92
+        },
+        {
+          "text": "been",
+          "start": 132.92,
+          "end": 133.14
+        },
+        {
+          "text": "explained",
+          "start": 133.14,
+          "end": 133.53
+        },
+        {
+          "text": "to",
+          "start": 133.53,
+          "end": 133.8
+        },
+        {
+          "text": "you.",
+          "start": 133.8,
+          "end": 134.16
+        },
+        {
+          "text": "Not",
+          "start": 134.26,
+          "end": 134.3
+        },
+        {
+          "text": "because",
+          "start": 134.3,
+          "end": 134.64
+        },
+        {
+          "text": "it",
+          "start": 134.64,
+          "end": 134.73
+        },
+        {
+          "text": "is",
+          "start": 134.73,
+          "end": 134.79
+        },
+        {
+          "text": "hidden,",
+          "start": 134.87,
+          "end": 135.16
+        },
+        {
+          "text": "but",
+          "start": 135.21,
+          "end": 135.34
+        },
+        {
+          "text": "because",
+          "start": 135.34,
+          "end": 135.64
+        },
+        {
+          "text": "nobody",
+          "start": 135.73,
+          "end": 135.97
+        },
+        {
+          "text": "in",
+          "start": 135.97,
+          "end": 136.06
+        },
+        {
+          "text": "the",
+          "start": 136.06,
+          "end": 136.17
+        },
+        {
+          "text": "system",
+          "start": 136.43,
+          "end": 136.49
+        },
+        {
+          "text": "is",
+          "start": 136.49,
+          "end": 136.58
+        },
+        {
+          "text": "assigned",
+          "start": 136.58,
+          "end": 136.96
+        },
+        {
+          "text": "the",
+          "start": 136.96,
+          "end": 137.1
+        },
+        {
+          "text": "job",
+          "start": 137.1,
+          "end": 137.24
+        },
+        {
+          "text": "of",
+          "start": 137.24,
+          "end": 137.33
+        },
+        {
+          "text": "adding",
+          "start": 137.33,
+          "end": 137.72
+        },
+        {
+          "text": "it",
+          "start": 137.82,
+          "end": 138
+        },
+        {
+          "text": "up.",
+          "start": 138,
+          "end": 138.71
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "text": "Today, that is the job. Stay with me, because the two most valuable things here are not any single deduction.",
+      "start": 138.82,
+      "end": 145.62,
+      "durationSeconds": 6.8,
+      "words": [
+        {
+          "text": "Today,",
+          "start": 138.82,
+          "end": 139.31
+        },
+        {
+          "text": "that",
+          "start": 139.31,
+          "end": 139.65
+        },
+        {
+          "text": "is",
+          "start": 139.65,
+          "end": 139.77
+        },
+        {
+          "text": "the",
+          "start": 139.82,
+          "end": 140.06
+        },
+        {
+          "text": "job.",
+          "start": 140.06,
+          "end": 140.6
+        },
+        {
+          "text": "Stay",
+          "start": 140.7,
+          "end": 140.87
+        },
+        {
+          "text": "with",
+          "start": 140.87,
+          "end": 141.14
+        },
+        {
+          "text": "me,",
+          "start": 141.14,
+          "end": 141.4
+        },
+        {
+          "text": "because",
+          "start": 141.4,
+          "end": 141.87
+        },
+        {
+          "text": "the",
+          "start": 141.87,
+          "end": 142.02
+        },
+        {
+          "text": "two",
+          "start": 142.07,
+          "end": 142.27
+        },
+        {
+          "text": "most",
+          "start": 142.27,
+          "end": 142.54
+        },
+        {
+          "text": "valuable",
+          "start": 142.54,
+          "end": 143.08
+        },
+        {
+          "text": "things",
+          "start": 143.08,
+          "end": 143.48
+        },
+        {
+          "text": "here",
+          "start": 143.48,
+          "end": 143.75
+        },
+        {
+          "text": "are",
+          "start": 143.75,
+          "end": 143.95
+        },
+        {
+          "text": "not",
+          "start": 143.95,
+          "end": 144.15
+        },
+        {
+          "text": "any",
+          "start": 144.15,
+          "end": 144.34
+        },
+        {
+          "text": "single",
+          "start": 144.35,
+          "end": 144.75
+        },
+        {
+          "text": "deduction.",
+          "start": 144.75,
+          "end": 145.62
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "text": "They are the total. And then one specific thing to verify on your return that decides whether the total actually reaches you.",
+      "start": 145.74,
+      "end": 151.49,
+      "durationSeconds": 5.75,
+      "words": [
+        {
+          "text": "They",
+          "start": 145.74,
+          "end": 145.88
+        },
+        {
+          "text": "are",
+          "start": 145.88,
+          "end": 146.06
+        },
+        {
+          "text": "the",
+          "start": 146.06,
+          "end": 146.24
+        },
+        {
+          "text": "total.",
+          "start": 146.24,
+          "end": 146.63
+        },
+        {
+          "text": "And",
+          "start": 146.82,
+          "end": 146.86
+        },
+        {
+          "text": "then",
+          "start": 146.86,
+          "end": 147.05
+        },
+        {
+          "text": "one",
+          "start": 147.05,
+          "end": 147.19
+        },
+        {
+          "text": "specific",
+          "start": 147.19,
+          "end": 147.58
+        },
+        {
+          "text": "thing",
+          "start": 147.58,
+          "end": 147.7
+        },
+        {
+          "text": "to",
+          "start": 147.82,
+          "end": 147.91
+        },
+        {
+          "text": "verify",
+          "start": 147.91,
+          "end": 148.19
+        },
+        {
+          "text": "on",
+          "start": 148.19,
+          "end": 148.22
+        },
+        {
+          "text": "your",
+          "start": 148.29,
+          "end": 148.48
+        },
+        {
+          "text": "return",
+          "start": 148.48,
+          "end": 148.73
+        },
+        {
+          "text": "that",
+          "start": 148.73,
+          "end": 149
+        },
+        {
+          "text": "decides",
+          "start": 149,
+          "end": 149.3
+        },
+        {
+          "text": "whether",
+          "start": 149.3,
+          "end": 149.64
+        },
+        {
+          "text": "the",
+          "start": 149.64,
+          "end": 149.78
+        },
+        {
+          "text": "total",
+          "start": 149.78,
+          "end": 150.02
+        },
+        {
+          "text": "actually",
+          "start": 150.02,
+          "end": 150.49
+        },
+        {
+          "text": "reaches",
+          "start": 150.6,
+          "end": 151.03
+        },
+        {
+          "text": "you.",
+          "start": 151.03,
+          "end": 151.49
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "text": "Let me stop two different people from clicking away right now, because in my experience, both of them leave money behind for opposite and equally wrong reasons.",
+      "start": 151.6,
+      "end": 159.55,
+      "durationSeconds": 7.95,
+      "words": [
+        {
+          "text": "Let",
+          "start": 151.6,
+          "end": 151.66
+        },
+        {
+          "text": "me",
+          "start": 151.66,
+          "end": 151.77
+        },
+        {
+          "text": "stop",
+          "start": 151.77,
+          "end": 151.99
+        },
+        {
+          "text": "two",
+          "start": 151.99,
+          "end": 152.13
+        },
+        {
+          "text": "different",
+          "start": 152.21,
+          "end": 152.65
+        },
+        {
+          "text": "people",
+          "start": 152.65,
+          "end": 152.98
+        },
+        {
+          "text": "from",
+          "start": 152.98,
+          "end": 153.2
+        },
+        {
+          "text": "clicking",
+          "start": 153.2,
+          "end": 153.51
+        },
+        {
+          "text": "away",
+          "start": 153.77,
+          "end": 153.86
+        },
+        {
+          "text": "right",
+          "start": 153.86,
+          "end": 154.14
+        },
+        {
+          "text": "now,",
+          "start": 154.14,
+          "end": 154.41
+        },
+        {
+          "text": "because",
+          "start": 154.41,
+          "end": 154.8
+        },
+        {
+          "text": "in",
+          "start": 154.8,
+          "end": 154.91
+        },
+        {
+          "text": "my",
+          "start": 154.91,
+          "end": 155.02
+        },
+        {
+          "text": "experience,",
+          "start": 155.02,
+          "end": 155.76
+        },
+        {
+          "text": "both",
+          "start": 155.86,
+          "end": 156
+        },
+        {
+          "text": "of",
+          "start": 156,
+          "end": 156.11
+        },
+        {
+          "text": "them",
+          "start": 156.11,
+          "end": 156.36
+        },
+        {
+          "text": "leave",
+          "start": 156.36,
+          "end": 156.66
+        },
+        {
+          "text": "money",
+          "start": 156.66,
+          "end": 156.96
+        },
+        {
+          "text": "behind",
+          "start": 156.96,
+          "end": 157.24
+        },
+        {
+          "text": "for",
+          "start": 157.33,
+          "end": 157.5
+        },
+        {
+          "text": "opposite",
+          "start": 157.5,
+          "end": 157.77
+        },
+        {
+          "text": "and",
+          "start": 158.04,
+          "end": 158.16
+        },
+        {
+          "text": "equally",
+          "start": 158.16,
+          "end": 158.58
+        },
+        {
+          "text": "wrong",
+          "start": 158.58,
+          "end": 158.88
+        },
+        {
+          "text": "reasons.",
+          "start": 158.88,
+          "end": 159.55
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "text": "The first person hears the word deduction and thinks, my income is modest, I live mostly on Social Security, I probably do not owe federal tax anyway.",
+      "start": 159.66,
+      "end": 167.46,
+      "durationSeconds": 7.8,
+      "words": [
+        {
+          "text": "The",
+          "start": 159.66,
+          "end": 159.72
+        },
+        {
+          "text": "first",
+          "start": 159.72,
+          "end": 159.99
+        },
+        {
+          "text": "person",
+          "start": 159.99,
+          "end": 160.32
+        },
+        {
+          "text": "hears",
+          "start": 160.32,
+          "end": 160.56
+        },
+        {
+          "text": "the",
+          "start": 160.61,
+          "end": 160.75
+        },
+        {
+          "text": "word",
+          "start": 160.75,
+          "end": 160.97
+        },
+        {
+          "text": "deduction",
+          "start": 160.97,
+          "end": 161.47
+        },
+        {
+          "text": "and",
+          "start": 161.47,
+          "end": 161.58
+        },
+        {
+          "text": "thinks,",
+          "start": 161.83,
+          "end": 162.12
+        },
+        {
+          "text": "my",
+          "start": 162.12,
+          "end": 162.24
+        },
+        {
+          "text": "income",
+          "start": 162.24,
+          "end": 162.62
+        },
+        {
+          "text": "is",
+          "start": 162.62,
+          "end": 162.73
+        },
+        {
+          "text": "modest,",
+          "start": 162.74,
+          "end": 163.24
+        },
+        {
+          "text": "I",
+          "start": 163.24,
+          "end": 163.3
+        },
+        {
+          "text": "live",
+          "start": 163.3,
+          "end": 163.55
+        },
+        {
+          "text": "mostly",
+          "start": 163.55,
+          "end": 163.96
+        },
+        {
+          "text": "on",
+          "start": 164.06,
+          "end": 164.09
+        },
+        {
+          "text": "Social",
+          "start": 164.09,
+          "end": 164.47
+        },
+        {
+          "text": "Security,",
+          "start": 164.47,
+          "end": 165.1
+        },
+        {
+          "text": "I",
+          "start": 165.1,
+          "end": 165.16
+        },
+        {
+          "text": "probably",
+          "start": 165.16,
+          "end": 165.67
+        },
+        {
+          "text": "do",
+          "start": 165.67,
+          "end": 165.8
+        },
+        {
+          "text": "not",
+          "start": 165.8,
+          "end": 165.97
+        },
+        {
+          "text": "owe",
+          "start": 165.97,
+          "end": 166.24
+        },
+        {
+          "text": "federal",
+          "start": 166.24,
+          "end": 166.63
+        },
+        {
+          "text": "tax",
+          "start": 166.63,
+          "end": 166.82
+        },
+        {
+          "text": "anyway.",
+          "start": 166.82,
+          "end": 167.46
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "text": "If that is you, listen closely, because you are the person most likely to be over withholding.",
+      "start": 167.56,
+      "end": 172.64,
+      "durationSeconds": 5.08,
+      "words": [
+        {
+          "text": "If",
+          "start": 167.56,
+          "end": 167.58
+        },
+        {
+          "text": "that",
+          "start": 167.58,
+          "end": 167.83
+        },
+        {
+          "text": "is",
+          "start": 167.83,
+          "end": 167.95
+        },
+        {
+          "text": "you,",
+          "start": 167.95,
+          "end": 168.25
+        },
+        {
+          "text": "listen",
+          "start": 168.25,
+          "end": 168.62
+        },
+        {
+          "text": "closely,",
+          "start": 168.62,
+          "end": 169.18
+        },
+        {
+          "text": "because",
+          "start": 169.18,
+          "end": 169.47
+        },
+        {
+          "text": "you",
+          "start": 169.73,
+          "end": 169.8
+        },
+        {
+          "text": "are",
+          "start": 169.8,
+          "end": 169.98
+        },
+        {
+          "text": "the",
+          "start": 169.98,
+          "end": 170.16
+        },
+        {
+          "text": "person",
+          "start": 170.16,
+          "end": 170.53
+        },
+        {
+          "text": "most",
+          "start": 170.53,
+          "end": 170.78
+        },
+        {
+          "text": "likely",
+          "start": 170.78,
+          "end": 171.15
+        },
+        {
+          "text": "to",
+          "start": 171.15,
+          "end": 171.25
+        },
+        {
+          "text": "be",
+          "start": 171.35,
+          "end": 171.39
+        },
+        {
+          "text": "over",
+          "start": 171.39,
+          "end": 171.64
+        },
+        {
+          "text": "withholding.",
+          "start": 171.64,
+          "end": 172.64
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "text": "You may be having money pulled out of your Social Security or your pension every single month for a tax bill that does not exist.",
+      "start": 172.74,
+      "end": 178.86,
+      "durationSeconds": 6.12,
+      "words": [
+        {
+          "text": "You",
+          "start": 172.74,
+          "end": 172.78
+        },
+        {
+          "text": "may",
+          "start": 172.78,
+          "end": 172.92
+        },
+        {
+          "text": "be",
+          "start": 172.92,
+          "end": 173.01
+        },
+        {
+          "text": "having",
+          "start": 173.01,
+          "end": 173.26
+        },
+        {
+          "text": "money",
+          "start": 173.35,
+          "end": 173.54
+        },
+        {
+          "text": "pulled",
+          "start": 173.54,
+          "end": 173.83
+        },
+        {
+          "text": "out",
+          "start": 173.83,
+          "end": 173.97
+        },
+        {
+          "text": "of",
+          "start": 173.97,
+          "end": 174.06
+        },
+        {
+          "text": "your",
+          "start": 174.06,
+          "end": 174.25
+        },
+        {
+          "text": "Social",
+          "start": 174.25,
+          "end": 174.54
+        },
+        {
+          "text": "Security",
+          "start": 174.54,
+          "end": 174.93
+        },
+        {
+          "text": "or",
+          "start": 174.93,
+          "end": 175.02
+        },
+        {
+          "text": "your",
+          "start": 175.02,
+          "end": 175.21
+        },
+        {
+          "text": "pension",
+          "start": 175.21,
+          "end": 175.55
+        },
+        {
+          "text": "every",
+          "start": 175.55,
+          "end": 175.79
+        },
+        {
+          "text": "single",
+          "start": 175.79,
+          "end": 176.2
+        },
+        {
+          "text": "month",
+          "start": 176.3,
+          "end": 176.57
+        },
+        {
+          "text": "for",
+          "start": 176.57,
+          "end": 176.79
+        },
+        {
+          "text": "a",
+          "start": 176.79,
+          "end": 176.83
+        },
+        {
+          "text": "tax",
+          "start": 176.91,
+          "end": 177.08
+        },
+        {
+          "text": "bill",
+          "start": 177.08,
+          "end": 177.38
+        },
+        {
+          "text": "that",
+          "start": 177.38,
+          "end": 177.67
+        },
+        {
+          "text": "does",
+          "start": 177.67,
+          "end": 177.98
+        },
+        {
+          "text": "not",
+          "start": 177.98,
+          "end": 178.2
+        },
+        {
+          "text": "exist.",
+          "start": 178.2,
+          "end": 178.86
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "text": "That is you handing the federal government an interest-free loan of your own money, twelve times a year, and waiting until spring to ask for it back.",
+      "start": 178.96,
+      "end": 186.48,
+      "durationSeconds": 7.52,
+      "words": [
+        {
+          "text": "That",
+          "start": 178.96,
+          "end": 179.04
+        },
+        {
+          "text": "is",
+          "start": 179.07,
+          "end": 179.16
+        },
+        {
+          "text": "you",
+          "start": 179.16,
+          "end": 179.31
+        },
+        {
+          "text": "handing",
+          "start": 179.31,
+          "end": 179.66
+        },
+        {
+          "text": "the",
+          "start": 179.66,
+          "end": 179.81
+        },
+        {
+          "text": "federal",
+          "start": 179.81,
+          "end": 180.16
+        },
+        {
+          "text": "government",
+          "start": 180.16,
+          "end": 180.66
+        },
+        {
+          "text": "an",
+          "start": 180.66,
+          "end": 180.76
+        },
+        {
+          "text": "interest-free",
+          "start": 180.76,
+          "end": 181.41
+        },
+        {
+          "text": "loan",
+          "start": 181.41,
+          "end": 181.61
+        },
+        {
+          "text": "of",
+          "start": 181.61,
+          "end": 181.71
+        },
+        {
+          "text": "your",
+          "start": 181.71,
+          "end": 181.91
+        },
+        {
+          "text": "own",
+          "start": 181.91,
+          "end": 182.06
+        },
+        {
+          "text": "money,",
+          "start": 182.06,
+          "end": 182.41
+        },
+        {
+          "text": "twelve",
+          "start": 182.41,
+          "end": 182.65
+        },
+        {
+          "text": "times",
+          "start": 182.84,
+          "end": 183.11
+        },
+        {
+          "text": "a",
+          "start": 183.11,
+          "end": 183.18
+        },
+        {
+          "text": "year,",
+          "start": 183.18,
+          "end": 183.61
+        },
+        {
+          "text": "and",
+          "start": 183.61,
+          "end": 183.73
+        },
+        {
+          "text": "waiting",
+          "start": 183.84,
+          "end": 184.35
+        },
+        {
+          "text": "until",
+          "start": 184.35,
+          "end": 184.72
+        },
+        {
+          "text": "spring",
+          "start": 184.72,
+          "end": 185.16
+        },
+        {
+          "text": "to",
+          "start": 185.16,
+          "end": 185.3
+        },
+        {
+          "text": "ask",
+          "start": 185.3,
+          "end": 185.52
+        },
+        {
+          "text": "for",
+          "start": 185.52,
+          "end": 185.74
+        },
+        {
+          "text": "it",
+          "start": 185.74,
+          "end": 185.88
+        },
+        {
+          "text": "back.",
+          "start": 185.88,
+          "end": 186.48
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "text": "The second person hears the word senior and assumes there is an income test that disqualifies anyone comfortable.",
+      "start": 186.58,
+      "end": 192.62,
+      "durationSeconds": 6.04,
+      "words": [
+        {
+          "text": "The",
+          "start": 186.58,
+          "end": 186.64
+        },
+        {
+          "text": "second",
+          "start": 186.64,
+          "end": 186.97
+        },
+        {
+          "text": "person",
+          "start": 186.97,
+          "end": 187.3
+        },
+        {
+          "text": "hears",
+          "start": 187.3,
+          "end": 187.53
+        },
+        {
+          "text": "the",
+          "start": 187.58,
+          "end": 187.73
+        },
+        {
+          "text": "word",
+          "start": 187.73,
+          "end": 187.9
+        },
+        {
+          "text": "senior",
+          "start": 187.95,
+          "end": 188.28
+        },
+        {
+          "text": "and",
+          "start": 188.28,
+          "end": 188.44
+        },
+        {
+          "text": "assumes",
+          "start": 188.44,
+          "end": 188.83
+        },
+        {
+          "text": "there",
+          "start": 188.83,
+          "end": 189.1
+        },
+        {
+          "text": "is",
+          "start": 189.1,
+          "end": 189.21
+        },
+        {
+          "text": "an",
+          "start": 189.21,
+          "end": 189.32
+        },
+        {
+          "text": "income",
+          "start": 189.32,
+          "end": 189.65
+        },
+        {
+          "text": "test",
+          "start": 189.65,
+          "end": 189.84
+        },
+        {
+          "text": "that",
+          "start": 189.88,
+          "end": 190.09
+        },
+        {
+          "text": "disqualifies",
+          "start": 190.09,
+          "end": 190.84
+        },
+        {
+          "text": "anyone",
+          "start": 190.94,
+          "end": 191.37
+        },
+        {
+          "text": "comfortable.",
+          "start": 191.37,
+          "end": 192.62
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "text": "If that is you, listen too. Because the largest piece of this stack does not begin to phase out until your modified adjusted gross income passes $75,000",
+      "start": 192.72,
+      "end": 201.92,
+      "durationSeconds": 9.2,
+      "words": [
+        {
+          "text": "If",
+          "start": 192.72,
+          "end": 192.79
+        },
+        {
+          "text": "that",
+          "start": 192.79,
+          "end": 193.13
+        },
+        {
+          "text": "is",
+          "start": 193.13,
+          "end": 193.25
+        },
+        {
+          "text": "you,",
+          "start": 193.33,
+          "end": 193.73
+        },
+        {
+          "text": "listen",
+          "start": 193.73,
+          "end": 194.25
+        },
+        {
+          "text": "too.",
+          "start": 194.25,
+          "end": 194.64
+        },
+        {
+          "text": "Because",
+          "start": 194.9,
+          "end": 195.17
+        },
+        {
+          "text": "the",
+          "start": 195.17,
+          "end": 195.33
+        },
+        {
+          "text": "largest",
+          "start": 195.33,
+          "end": 195.7
+        },
+        {
+          "text": "piece",
+          "start": 195.7,
+          "end": 195.96
+        },
+        {
+          "text": "of",
+          "start": 195.96,
+          "end": 196.06
+        },
+        {
+          "text": "this",
+          "start": 196.06,
+          "end": 196.22
+        },
+        {
+          "text": "stack",
+          "start": 196.27,
+          "end": 196.53
+        },
+        {
+          "text": "does",
+          "start": 196.53,
+          "end": 196.74
+        },
+        {
+          "text": "not",
+          "start": 196.74,
+          "end": 196.82
+        },
+        {
+          "text": "begin",
+          "start": 197.07,
+          "end": 197.16
+        },
+        {
+          "text": "to",
+          "start": 197.16,
+          "end": 197.26
+        },
+        {
+          "text": "phase",
+          "start": 197.26,
+          "end": 197.52
+        },
+        {
+          "text": "out",
+          "start": 197.52,
+          "end": 197.68
+        },
+        {
+          "text": "until",
+          "start": 197.68,
+          "end": 197.94
+        },
+        {
+          "text": "your",
+          "start": 197.94,
+          "end": 198.15
+        },
+        {
+          "text": "modified",
+          "start": 198.15,
+          "end": 198.59
+        },
+        {
+          "text": "adjusted",
+          "start": 198.78,
+          "end": 199.29
+        },
+        {
+          "text": "gross",
+          "start": 199.29,
+          "end": 199.67
+        },
+        {
+          "text": "income",
+          "start": 199.67,
+          "end": 200.1
+        },
+        {
+          "text": "passes",
+          "start": 200.15,
+          "end": 200.57
+        },
+        {
+          "text": "$75,000",
+          "start": 200.57,
+          "end": 201.92
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "text": "single or $150,000 filing jointly.",
+      "start": 201.92,
+      "end": 205.4,
+      "durationSeconds": 3.48,
+      "words": [
+        {
+          "text": "single",
+          "start": 201.92,
+          "end": 202.37
+        },
+        {
+          "text": "or",
+          "start": 202.37,
+          "end": 202.47
+        },
+        {
+          "text": "$150,000",
+          "start": 202.57,
+          "end": 204.1
+        },
+        {
+          "text": "filing",
+          "start": 204.1,
+          "end": 204.36
+        },
+        {
+          "text": "jointly.",
+          "start": 204.61,
+          "end": 205.4
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "text": "That is well above what the great majority of retired households take in.",
+      "start": 205.5,
+      "end": 209.04,
+      "durationSeconds": 3.54,
+      "words": [
+        {
+          "text": "That",
+          "start": 205.5,
+          "end": 205.63
+        },
+        {
+          "text": "is",
+          "start": 205.63,
+          "end": 205.74
+        },
+        {
+          "text": "well",
+          "start": 205.74,
+          "end": 205.96
+        },
+        {
+          "text": "above",
+          "start": 205.96,
+          "end": 206.25
+        },
+        {
+          "text": "what",
+          "start": 206.25,
+          "end": 206.39
+        },
+        {
+          "text": "the",
+          "start": 206.5,
+          "end": 206.65
+        },
+        {
+          "text": "great",
+          "start": 206.65,
+          "end": 206.88
+        },
+        {
+          "text": "majority",
+          "start": 206.97,
+          "end": 207.39
+        },
+        {
+          "text": "of",
+          "start": 207.39,
+          "end": 207.42
+        },
+        {
+          "text": "retired",
+          "start": 207.67,
+          "end": 207.9
+        },
+        {
+          "text": "households",
+          "start": 207.9,
+          "end": 208.47
+        },
+        {
+          "text": "take",
+          "start": 208.47,
+          "end": 208.7
+        },
+        {
+          "text": "in.",
+          "start": 208.7,
+          "end": 209.04
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "text": "And unlike almost every other senior benefit, this one does not care whether you own your home, what your savings look like, or whether you itemize.",
+      "start": 209.14,
+      "end": 217.08,
+      "durationSeconds": 7.94,
+      "words": [
+        {
+          "text": "And",
+          "start": 209.14,
+          "end": 209.2
+        },
+        {
+          "text": "unlike",
+          "start": 209.2,
+          "end": 209.51
+        },
+        {
+          "text": "almost",
+          "start": 209.51,
+          "end": 209.82
+        },
+        {
+          "text": "every",
+          "start": 209.82,
+          "end": 210.04
+        },
+        {
+          "text": "other",
+          "start": 210.09,
+          "end": 210.34
+        },
+        {
+          "text": "senior",
+          "start": 210.34,
+          "end": 210.65
+        },
+        {
+          "text": "benefit,",
+          "start": 210.65,
+          "end": 211.06
+        },
+        {
+          "text": "this",
+          "start": 211.31,
+          "end": 211.33
+        },
+        {
+          "text": "one",
+          "start": 211.33,
+          "end": 211.49
+        },
+        {
+          "text": "does",
+          "start": 211.49,
+          "end": 211.7
+        },
+        {
+          "text": "not",
+          "start": 211.7,
+          "end": 211.86
+        },
+        {
+          "text": "care",
+          "start": 211.86,
+          "end": 212.06
+        },
+        {
+          "text": "whether",
+          "start": 212.07,
+          "end": 212.4
+        },
+        {
+          "text": "you",
+          "start": 212.44,
+          "end": 212.6
+        },
+        {
+          "text": "own",
+          "start": 212.6,
+          "end": 212.76
+        },
+        {
+          "text": "your",
+          "start": 212.76,
+          "end": 213.04
+        },
+        {
+          "text": "home,",
+          "start": 213.14,
+          "end": 213.49
+        },
+        {
+          "text": "what",
+          "start": 213.49,
+          "end": 213.79
+        },
+        {
+          "text": "your",
+          "start": 213.79,
+          "end": 214.04
+        },
+        {
+          "text": "savings",
+          "start": 214.09,
+          "end": 214.62
+        },
+        {
+          "text": "look",
+          "start": 214.62,
+          "end": 214.92
+        },
+        {
+          "text": "like,",
+          "start": 214.92,
+          "end": 215.37
+        },
+        {
+          "text": "or",
+          "start": 215.37,
+          "end": 215.52
+        },
+        {
+          "text": "whether",
+          "start": 215.52,
+          "end": 216.05
+        },
+        {
+          "text": "you",
+          "start": 216.05,
+          "end": 216.27
+        },
+        {
+          "text": "itemize.",
+          "start": 216.27,
+          "end": 217.08
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "text": "So the low-income retiree needs this to fix their withholding.",
+      "start": 217.18,
+      "end": 220.2,
+      "durationSeconds": 3.02,
+      "words": [
+        {
+          "text": "So",
+          "start": 217.18,
+          "end": 217.19
+        },
+        {
+          "text": "the",
+          "start": 217.19,
+          "end": 217.36
+        },
+        {
+          "text": "low-income",
+          "start": 217.36,
+          "end": 217.91
+        },
+        {
+          "text": "retiree",
+          "start": 217.91,
+          "end": 218.3
+        },
+        {
+          "text": "needs",
+          "start": 218.3,
+          "end": 218.56
+        },
+        {
+          "text": "this",
+          "start": 218.65,
+          "end": 218.8
+        },
+        {
+          "text": "to",
+          "start": 218.8,
+          "end": 218.91
+        },
+        {
+          "text": "fix",
+          "start": 218.91,
+          "end": 219.08
+        },
+        {
+          "text": "their",
+          "start": 219.08,
+          "end": 219.36
+        },
+        {
+          "text": "withholding.",
+          "start": 219.36,
+          "end": 220.2
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "text": "The comfortable retiree needs it because they assumed they were disqualified and they are not.",
+      "start": 220.3,
+      "end": 225.2,
+      "durationSeconds": 4.9,
+      "words": [
+        {
+          "text": "The",
+          "start": 220.3,
+          "end": 220.39
+        },
+        {
+          "text": "comfortable",
+          "start": 220.39,
+          "end": 221.09
+        },
+        {
+          "text": "retiree",
+          "start": 221.09,
+          "end": 221.53
+        },
+        {
+          "text": "needs",
+          "start": 221.53,
+          "end": 221.85
+        },
+        {
+          "text": "it",
+          "start": 221.85,
+          "end": 221.97
+        },
+        {
+          "text": "because",
+          "start": 221.97,
+          "end": 222.21
+        },
+        {
+          "text": "they",
+          "start": 222.48,
+          "end": 222.66
+        },
+        {
+          "text": "assumed",
+          "start": 222.66,
+          "end": 223.1
+        },
+        {
+          "text": "they",
+          "start": 223.1,
+          "end": 223.35
+        },
+        {
+          "text": "were",
+          "start": 223.35,
+          "end": 223.56
+        },
+        {
+          "text": "disqualified",
+          "start": 223.6,
+          "end": 224.35
+        },
+        {
+          "text": "and",
+          "start": 224.36,
+          "end": 224.55
+        },
+        {
+          "text": "they",
+          "start": 224.55,
+          "end": 224.76
+        },
+        {
+          "text": "are",
+          "start": 224.83,
+          "end": 225.08
+        },
+        {
+          "text": "not.",
+          "start": 225.08,
+          "end": 225.2
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "text": "For every layer, I will tell you plainly who it helps most so nobody can honestly say a section was not for them.",
+      "start": 225.3,
+      "end": 231.33,
+      "durationSeconds": 6.03,
+      "words": [
+        {
+          "text": "For",
+          "start": 225.3,
+          "end": 225.39
+        },
+        {
+          "text": "every",
+          "start": 225.41,
+          "end": 225.7
+        },
+        {
+          "text": "layer,",
+          "start": 225.7,
+          "end": 226.13
+        },
+        {
+          "text": "I",
+          "start": 226.13,
+          "end": 226.19
+        },
+        {
+          "text": "will",
+          "start": 226.19,
+          "end": 226.44
+        },
+        {
+          "text": "tell",
+          "start": 226.44,
+          "end": 226.68
+        },
+        {
+          "text": "you",
+          "start": 226.68,
+          "end": 226.88
+        },
+        {
+          "text": "plainly",
+          "start": 226.88,
+          "end": 227.21
+        },
+        {
+          "text": "who",
+          "start": 227.47,
+          "end": 227.51
+        },
+        {
+          "text": "it",
+          "start": 227.51,
+          "end": 227.63
+        },
+        {
+          "text": "helps",
+          "start": 227.63,
+          "end": 227.94
+        },
+        {
+          "text": "most",
+          "start": 227.94,
+          "end": 228.19
+        },
+        {
+          "text": "so",
+          "start": 228.19,
+          "end": 228.31
+        },
+        {
+          "text": "nobody",
+          "start": 228.31,
+          "end": 228.69
+        },
+        {
+          "text": "can",
+          "start": 228.69,
+          "end": 228.88
+        },
+        {
+          "text": "honestly",
+          "start": 228.88,
+          "end": 229.38
+        },
+        {
+          "text": "say",
+          "start": 229.38,
+          "end": 229.64
+        },
+        {
+          "text": "a",
+          "start": 229.64,
+          "end": 229.76
+        },
+        {
+          "text": "section",
+          "start": 229.94,
+          "end": 230.29
+        },
+        {
+          "text": "was",
+          "start": 230.29,
+          "end": 230.47
+        },
+        {
+          "text": "not",
+          "start": 230.55,
+          "end": 230.67
+        },
+        {
+          "text": "for",
+          "start": 230.67,
+          "end": 230.83
+        },
+        {
+          "text": "them.",
+          "start": 230.89,
+          "end": 231.33
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "text": "If you are over 60 at any income level, subscribe and turn on the bell.",
+      "start": 231.44,
+      "end": 235.4,
+      "durationSeconds": 3.96,
+      "words": [
+        {
+          "text": "If",
+          "start": 231.44,
+          "end": 231.46
+        },
+        {
+          "text": "you",
+          "start": 231.46,
+          "end": 231.65
+        },
+        {
+          "text": "are",
+          "start": 231.65,
+          "end": 231.84
+        },
+        {
+          "text": "over",
+          "start": 231.84,
+          "end": 232.09
+        },
+        {
+          "text": "60",
+          "start": 232.09,
+          "end": 232.47
+        },
+        {
+          "text": "at",
+          "start": 232.47,
+          "end": 232.59
+        },
+        {
+          "text": "any",
+          "start": 232.59,
+          "end": 232.76
+        },
+        {
+          "text": "income",
+          "start": 232.81,
+          "end": 233.16
+        },
+        {
+          "text": "level,",
+          "start": 233.16,
+          "end": 233.59
+        },
+        {
+          "text": "subscribe",
+          "start": 233.62,
+          "end": 234.16
+        },
+        {
+          "text": "and",
+          "start": 234.16,
+          "end": 234.35
+        },
+        {
+          "text": "turn",
+          "start": 234.35,
+          "end": 234.6
+        },
+        {
+          "text": "on",
+          "start": 234.6,
+          "end": 234.7
+        },
+        {
+          "text": "the",
+          "start": 234.74,
+          "end": 234.91
+        },
+        {
+          "text": "bell.",
+          "start": 234.91,
+          "end": 235.4
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "text": "This channel breaks down the tax and benefit changes that actually move the number at the bottom of your term.",
+      "start": 235.5,
+      "end": 239.88,
+      "durationSeconds": 4.38,
+      "words": [
+        {
+          "text": "This",
+          "start": 235.5,
+          "end": 235.58
+        },
+        {
+          "text": "channel",
+          "start": 235.61,
+          "end": 235.96
+        },
+        {
+          "text": "breaks",
+          "start": 235.96,
+          "end": 236.27
+        },
+        {
+          "text": "down",
+          "start": 236.27,
+          "end": 236.45
+        },
+        {
+          "text": "the",
+          "start": 236.5,
+          "end": 236.62
+        },
+        {
+          "text": "tax",
+          "start": 236.62,
+          "end": 236.74
+        },
+        {
+          "text": "and",
+          "start": 236.77,
+          "end": 236.9
+        },
+        {
+          "text": "benefit",
+          "start": 236.97,
+          "end": 237.28
+        },
+        {
+          "text": "changes",
+          "start": 237.28,
+          "end": 237.41
+        },
+        {
+          "text": "that",
+          "start": 237.68,
+          "end": 237.84
+        },
+        {
+          "text": "actually",
+          "start": 237.84,
+          "end": 238.25
+        },
+        {
+          "text": "move",
+          "start": 238.25,
+          "end": 238.45
+        },
+        {
+          "text": "the",
+          "start": 238.45,
+          "end": 238.6
+        },
+        {
+          "text": "number",
+          "start": 238.6,
+          "end": 238.91
+        },
+        {
+          "text": "at",
+          "start": 238.91,
+          "end": 239.01
+        },
+        {
+          "text": "the",
+          "start": 239.01,
+          "end": 239.19
+        },
+        {
+          "text": "bottom",
+          "start": 239.38,
+          "end": 239.53
+        },
+        {
+          "text": "of",
+          "start": 239.53,
+          "end": 239.61
+        },
+        {
+          "text": "your",
+          "start": 239.61,
+          "end": 239.8
+        },
+        {
+          "text": "term.",
+          "start": 239.8,
+          "end": 239.88
+        }
+      ]
+    }
+  ],
+  "totalDuration": 239.88,
+  "wordCount": 818
+}

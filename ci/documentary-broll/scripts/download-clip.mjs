@@ -12,7 +12,7 @@
 // Photo candidate → <project>/.media/broll/beat-04.jpg (downloaded, letterboxed to 1920x1080)
 // Prints: one line — the relative path + media type, or an error.
 
-import { existsSync, mkdirSync, readFileSync, statSync } from "node:fs";
+import { existsSync, mkdirSync, readFileSync, statSync, rmSync, writeFileSync } from "node:fs";
 import { dirname, extname, join, resolve } from "node:path";
 import { spawnSync } from "node:child_process";
 import { logIfRequested } from "./lib/run-log.mjs";
@@ -120,6 +120,34 @@ function run(cmd, args) {
   return r.stdout;
 }
 
+// Real, cheap file-validity check — a genuine, confirmed bug fix: a file
+// that survived a mid-write kill (an OOM, a laptop crash, any process that
+// dies mid-ffmpeg-encode) has real bytes and a nonzero size, but the
+// container's own moov atom (MP4) or end-of-image marker (JPEG/PNG) never
+// got finalized, making it unplayable/undecodable. The previous check here
+// was `size > 0`, which a corrupted file like this genuinely passes. This
+// is the exact failure class that silently poisoned a real run: 27/38
+// downloaded clips were corrupted by an OOM crash, then WRONGLY treated as
+// "already processed, skip" by the old size-only check on the next
+// attempt, requiring a full manual detour (a chain of false leads through
+// probe-motion.mjs before the real cause was found) to diagnose.
+//
+// Method: `-sseof -1` seeks to 1 second before EOF, forcing ffmpeg to
+// genuinely need the file's own index/end-marker to complete the seek, then
+// decodes exactly 1 frame — real, reproducible testing confirmed this
+// rejects both a moov-atom-less MP4 (a real kill -9 mid-encode reproduction:
+// "moov atom not found", exit 1) and a truncated JPEG (exit 1), while
+// passing both genuinely complete files (exit 0) — and does so at
+// header-probe speed (~0.03s), NOT full-file-decode speed (~5x slower),
+// since seeking near the end still short-circuits before decoding the
+// whole file. Works identically for both media types with one command, so
+// both processVideo and processPhoto call the same check.
+function isValidMediaFile(path) {
+  if (!existsSync(path) || statSync(path).size === 0) return false;
+  const r = spawnSync("ffmpeg", ["-v", "error", "-sseof", "-1", "-i", path, "-frames:v", "1", "-f", "null", "-"], { encoding: "utf8" });
+  return r.status === 0;
+}
+
 // 3 attempts, short backoff — CI runners doing many concurrent/sequential
 // downloads against a stock-provider CDN see real, transient connection
 // failures under load (confirmed: a real CI run had "fetch failed" — Node's
@@ -184,10 +212,15 @@ async function processVideo({ chosen, beatId, targetDuration, brollDir, grade, f
   const outPath = join(brollDir, `beat-${beatId}.mp4`);
   const outRel = `.media/broll/beat-${beatId}.mp4`;
 
-  if (existsSync(outPath) && statSync(outPath).size > 0) {
+  if (isValidMediaFile(outPath)) {
     console.log(`✓ download-clip: beat-${beatId} [video] already processed → ${outRel} (skip)`);
     return;
   }
+  // A file that exists but fails the real validity check (a moov-atom-less
+  // corrupt output from a prior interrupted encode) must NOT be trusted as
+  // partial/resumable progress — delete it so the encode below starts clean,
+  // rather than risk ffmpeg's own behavior on an already-broken output path.
+  if (existsSync(outPath)) rmSync(outPath);
 
   if (!existsSync(rawPath) || statSync(rawPath).size === 0) {
     await download(chosen.downloadUrl, rawPath);
@@ -306,10 +339,11 @@ async function processPhoto({ chosen, beatId, brollDir, grade, lut, effect }) {
   const outPath = join(brollDir, `beat-${beatId}.jpg`);
   const outRel = `.media/broll/beat-${beatId}.jpg`;
 
-  if (existsSync(outPath) && statSync(outPath).size > 0) {
+  if (isValidMediaFile(outPath)) {
     console.log(`✓ download-clip: beat-${beatId} [photo] already processed → ${outRel} (skip)`);
     return;
   }
+  if (existsSync(outPath)) rmSync(outPath);
 
   if (!existsSync(rawPath) || statSync(rawPath).size === 0) {
     await download(chosen.downloadUrl, rawPath);
@@ -391,6 +425,35 @@ async function main() {
   } else {
     await processVideo({ chosen, beatId, targetDuration, brollDir, grade, freeze, lut, effect });
   }
+
+  // Real fix for a genuine, confirmed gap: CREDITS.json was documented as
+  // "the orchestrator appends after each successful download" (prose, no
+  // script owns it) — a real run found it never actually gets written this
+  // way (nobody's job to do it, so it silently doesn't exist), forcing a
+  // manual reconstruction after the fact. Writing it HERE, inside the
+  // script that already has every field on hand, removes the gap
+  // entirely — no separate step to forget. Writes a per-beat file
+  // (credit-<id>.json), NOT a shared, appended-to CREDITS.json directly —
+  // this skill's own real concurrency guidance (SKILL.md Step 4) runs
+  // several of these calls in parallel batches, and multiple processes
+  // read-modify-writing the SAME shared JSON file is a genuine race/
+  // corruption risk; each call owning its own uniquely-named file
+  // sidesteps that entirely. A separate, cheap consolidation step (see
+  // SKILL.md) merges these into the real CREDITS.json once every beat is
+  // done — same "write your own file, merge later" pattern already
+  // established elsewhere in this pipeline (invented-scene frames, per-
+  // beat candidate JSONs).
+  const creditPath = join(brollDir, `credit-${beatId}.json`);
+  writeFileSync(creditPath, JSON.stringify({
+    beatId,
+    source: chosen.source,
+    mediaType: chosen.mediaType,
+    clipId: chosen.id,
+    url: chosen.url ?? null,
+    license: chosen.license ?? null,
+    attributionRequired: chosen.attributionRequired ?? false,
+    creditLine: chosen.creditLine ?? null,
+  }, null, 2));
 
   logIfRequested(argv, "Step 4 — download-clip", `beat ${beatId}: downloaded/processed`, {
     mediaType: chosen.mediaType,

@@ -328,16 +328,25 @@ jobs:
         id: artifact_name
         run: echo "slug=$(echo '${{ matrix.project }}' | tr '/' '-')" >> "$GITHUB_OUTPUT"
 
+      # retention-days lowered from 14 -> 3 (real fix, requested after a real
+      # storage-accumulation concern: 2 already-uploaded render artifacts
+      # totaled ~3.6GB on their own, one per active-testing run, plus a
+      # real 3GB .media/broll cache — during active development/testing,
+      # a finished video is downloaded and reviewed promptly, not archived
+      # for 2 weeks; 3 days is real headroom without the same accumulation
+      # risk. See the scheduled cleanup workflow (cleanup.yml) for the
+      # complementary periodic sweep of anything that still slips past
+      # this window.
       - uses: actions/upload-artifact@v7
         with:
           name: video-${{ steps.artifact_name.outputs.slug }}-${{ github.run_number }}
           path: ${{ matrix.project }}/renders/video.mp4
-          retention-days: 14
+          retention-days: 3
 
       - uses: actions/upload-artifact@v7
         if: always()
         with:
           name: run-log-${{ steps.artifact_name.outputs.slug }}-${{ github.run_number }}
           path: ${{ matrix.project }}/.hyperframes/run-log.md
-          retention-days: 14
+          retention-days: 3
           if-no-files-found: ignore

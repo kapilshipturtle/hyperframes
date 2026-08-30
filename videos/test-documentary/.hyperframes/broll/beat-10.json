@@ -2,6 +2,12 @@
   "query": "senior man worried looking at bills",
   "targetDuration": 8.06,
   "orientation": "landscape",
+  "cutaway": {
+    "source": "pexels",
+    "mediaType": "video",
+    "id": "pexels-v6963478",
+    "downloadUrl": "https://videos.pexels.com/video-files/6963478/6963478-hd_1920_1080_25fps.mp4"
+  },
   "candidates": [
     {
       "source": "pexels",

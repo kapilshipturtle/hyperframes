@@ -1,0 +1,99 @@
+name: Cleanup old Actions artifacts and caches
+
+# Runs every 12 hours (real, requested fix — a real production concern: 2
+# active render runs alone had already accumulated ~3.6GB of video artifacts
+# plus a real ~3GB .media/broll cache, and this repo runs render.yml
+# repeatedly during active development/testing, not once). Deletes:
+#   - Workflow artifacts (video-*/run-log-*) older than ARTIFACT_MAX_AGE_HOURS
+#     — a real safety net alongside render.yml's own retention-days (3 days),
+#     since retention-days only prunes automatically on GitHub's own
+#     schedule, not immediately, and this repo wants a tighter window.
+#   - Actions caches (the .media/broll download cache — see render.yml's own
+#     "Cache .media/broll" step) older than CACHE_MAX_AGE_HOURS, EXCLUDING
+#     any cache still genuinely in active use (accessed within the same
+#     window) — a cache a render job used TODAY should survive even if it
+#     was originally CREATED more than 12h ago, since deleting a
+#     still-useful cache just forces a slow ~15-20min re-download on the
+#     next run for zero real storage benefit.
+#
+# This does NOT touch the render workflow's own logic, .media/broll's
+# on-disk content in a running job, or any committed repo file — it only
+# calls the real GitHub REST API to delete already-finished artifacts/caches
+# that genuinely aren't needed anymore.
+
+on:
+  schedule:
+    - cron: "0 */12 * * *" # every 12 hours, on the hour
+  workflow_dispatch: {} # manual "run now" from the Actions tab, for testing this workflow itself without waiting for the schedule
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    permissions:
+      actions: write # required to delete artifacts/caches via the REST API
+    steps:
+      - name: Delete old workflow artifacts
+        uses: actions/github-script@v8
+        env:
+          ARTIFACT_MAX_AGE_HOURS: "24" # real headroom past render.yml's own 3-day retention-days, catching anything that slips through
+        with:
+          script: |
+            const maxAgeMs = Number(process.env.ARTIFACT_MAX_AGE_HOURS) * 60 * 60 * 1000;
+            const cutoff = Date.now() - maxAgeMs;
+            let deletedCount = 0;
+            let deletedBytes = 0;
+            // The raw REST body here is {total_count, artifacts: [...]}, not
+            // a bare array (confirmed via a real live API call). Verified
+            // directly against octokit's own source before shipping this
+            // (@octokit/plugin-paginate-rest's normalize-paginated-list-
+            // response.js — it detects total_count, drops it, and hoists the
+            // one remaining data key, here "artifacts," up to response.data)
+            // that paginate.iterator ALWAYS runs this normalization, so
+            // response.data below is genuinely the real, flat artifact array
+            // — not something assumed from memory.
+            for await (const response of github.paginate.iterator(
+              github.rest.actions.listArtifactsForRepo,
+              { owner: context.repo.owner, repo: context.repo.repo, per_page: 100 },
+            )) {
+              for (const artifact of response.data) {
+                if (artifact.expired) continue; // already gone/expiring on GitHub's own schedule, nothing to do
+                const createdMs = new Date(artifact.created_at).getTime();
+                if (createdMs < cutoff) {
+                  await github.rest.actions.deleteArtifact({ owner: context.repo.owner, repo: context.repo.repo, artifact_id: artifact.id });
+                  deletedCount++;
+                  deletedBytes += artifact.size_in_bytes;
+                  console.log(`Deleted artifact: ${artifact.name} (${(artifact.size_in_bytes / 1024 / 1024).toFixed(1)} MB, created ${artifact.created_at})`);
+                }
+              }
+            }
+            console.log(`\nTotal: deleted ${deletedCount} artifact(s), ${(deletedBytes / 1024 / 1024).toFixed(1)} MB reclaimed.`);
+
+      - name: Delete stale Actions caches
+        uses: actions/github-script@v8
+        env:
+          CACHE_MAX_AGE_HOURS: "12"
+        with:
+          script: |
+            const maxAgeMs = Number(process.env.CACHE_MAX_AGE_HOURS) * 60 * 60 * 1000;
+            const cutoff = Date.now() - maxAgeMs;
+            let deletedCount = 0;
+            let deletedBytes = 0;
+            for await (const response of github.paginate.iterator(
+              github.rest.actions.getActionsCacheList,
+              { owner: context.repo.owner, repo: context.repo.repo, per_page: 100 },
+            )) {
+              for (const cache of response.data) {
+                // A cache still genuinely in use (accessed recently, even if
+                // CREATED long ago) should survive — this is the difference
+                // between "old" and "stale." Only delete a cache that hasn't
+                // been touched by any render job within the window either.
+                const lastAccessedMs = new Date(cache.last_accessed_at).getTime();
+                if (lastAccessedMs < cutoff) {
+                  await github.rest.actions.deleteActionsCacheById({ owner: context.repo.owner, repo: context.repo.repo, cache_id: cache.id });
+                  deletedCount++;
+                  deletedBytes += cache.size_in_bytes;
+                  console.log(`Deleted cache: ${cache.key} (${(cache.size_in_bytes / 1024 / 1024).toFixed(1)} MB, last accessed ${cache.last_accessed_at})`);
+                }
+              }
+            }
+            console.log(`\nTotal: deleted ${deletedCount} cache(s), ${(deletedBytes / 1024 / 1024).toFixed(1)} MB reclaimed.`);

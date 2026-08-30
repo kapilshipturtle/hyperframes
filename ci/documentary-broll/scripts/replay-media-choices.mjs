@@ -131,6 +131,42 @@ async function urlStillWorks(url) {
   }
 }
 
+// Real, cached-URL-first / by-ID-fallback resolution + download, shared by
+// both a beat's primary asset AND its optional cutaway asset (see the
+// cutaway-replay fix above) — extracted so both paths get identical
+// staleness handling rather than two near-duplicate implementations.
+async function downloadOneAsset({ asset, beatId, duration, projectDir, tmpDir }) {
+  let downloadUrl = asset.downloadUrl;
+  let usedFallback = false;
+  const cachedStillWorks = downloadUrl ? await urlStillWorks(downloadUrl) : false;
+  if (!cachedStillWorks) {
+    downloadUrl = await reResolve(asset.source, asset.id, asset.mediaType);
+    usedFallback = true;
+  }
+  if (!downloadUrl) throw new Error("no resolvable downloadUrl (asset may be deleted/private)");
+
+  const candidatePath = join(tmpDir, `beat-${beatId}.json`);
+  writeFileSync(candidatePath, JSON.stringify({
+    chosen: {
+      source: asset.source,
+      id: asset.id,
+      mediaType: asset.mediaType,
+      downloadUrl,
+    },
+  }));
+
+  const r = spawnSync("node", [
+    join(here, "download-clip.mjs"),
+    "--candidate", candidatePath,
+    "--beat-id", beatId,
+    "--duration", String(duration),
+    "--project", projectDir,
+  ], { encoding: "utf8" });
+  if (r.status !== 0) throw new Error(`download-clip.mjs exited ${r.status}: ${(r.stderr || r.stdout || "").slice(-500)}`);
+  console.log(r.stdout.trim());
+  return { usedFallback };
+}
+
 async function main() {
   const argv = process.argv.slice(2);
   const projectDir = resolve(flag(argv, "project", "."));
@@ -182,37 +218,38 @@ async function main() {
     }
 
     try {
-      let downloadUrl = chosen.downloadUrl;
-      const cachedStillWorks = downloadUrl ? await urlStillWorks(downloadUrl) : false;
-      if (!cachedStillWorks) {
-        downloadUrl = await reResolve(chosen.source, chosen.id, chosen.mediaType);
-        usedFallback++;
-      }
-      if (!downloadUrl) throw new Error("no resolvable downloadUrl (asset may be deleted/private)");
-
-      const candidatePath = join(tmpDir, `beat-${beatId}.json`);
-      writeFileSync(candidatePath, JSON.stringify({
-        chosen: {
-          source: chosen.source,
-          id: chosen.id,
-          mediaType: chosen.mediaType,
-          downloadUrl,
-        },
-      }));
-
-      const r = spawnSync("node", [
-        join(here, "download-clip.mjs"),
-        "--candidate", candidatePath,
-        "--beat-id", beatId,
-        "--duration", String(duration),
-        "--project", projectDir,
-      ], { encoding: "utf8" });
-      if (r.status !== 0) throw new Error(`download-clip.mjs exited ${r.status}: ${(r.stderr || r.stdout || "").slice(-500)}`);
-      console.log(r.stdout.trim());
+      const result = await downloadOneAsset({ asset: chosen, beatId, duration, projectDir, tmpDir });
+      if (result.usedFallback) usedFallback++;
       done++;
     } catch (e) {
       console.error(`✗ replay-media-choices: beat ${beatId} (${chosen.source}/${chosen.id}) failed: ${e.message}`);
       failed++;
+      continue; // don't attempt the cutaway below if the PRIMARY asset itself failed — a missing primary is the harder failure to surface first
+    }
+
+    // craft-upgrade fix (real, confirmed gap): a beat's OPTIONAL cutaway
+    // asset (Step 5's --cutaway-asset, per SKILL.md's E1/E11 guidance) had
+    // NO replay path at all before this — it only ever existed as a locally
+    // downloaded file with no cached record anywhere CI could rebuild it
+    // from, so a committed frame referencing it (e.g. beat-10-cutaway.mp4)
+    // silently broke on a real GitHub Actions render with a real
+    // `missing_local_asset` lint failure. Fixed by recording the cutaway
+    // choice as a `cutaway` field on the SAME beat-<id>.json cache file
+    // (see SKILL.md Step 3/5) and replaying it here exactly like the
+    // primary asset, just with a `<id>-cutaway` beat-id suffix so
+    // download-clip.mjs (which only ever interpolates beatId into a
+    // filename, no validation restricting it to a bare number — confirmed
+    // by reading its own source) writes to beat-<id>-cutaway.mp4, matching
+    // the filename build-frame.mjs's own --cutaway-asset flag already
+    // expects.
+    if (cache.cutaway) {
+      try {
+        const result = await downloadOneAsset({ asset: cache.cutaway, beatId: `${beatId}-cutaway`, duration, projectDir, tmpDir });
+        if (result.usedFallback) usedFallback++;
+      } catch (e) {
+        console.error(`✗ replay-media-choices: beat ${beatId}'s cutaway (${cache.cutaway.source}/${cache.cutaway.id}) failed: ${e.message} — the beat's PRIMARY asset still downloaded fine; only the cutaway is missing.`);
+        failed++;
+      }
     }
   }
 

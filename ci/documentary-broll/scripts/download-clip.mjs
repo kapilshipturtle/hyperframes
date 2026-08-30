@@ -61,6 +61,17 @@ export const GRADE_PRESETS = {
   // (courtroom footage, official records, a "cold hard facts" register) —
   // reads as stark and exposed, not somber and dim.
   bleached: "eq=contrast=1.1:saturation=0.7:brightness=0.03",
+  // craft-upgrade P4c: real curve-based grading via ffmpeg's actual curves
+  // filter (verified against real ffmpeg — a curves fragment applies
+  // cleanly), not another eq/colorbalance-only fragment — a classic filmic
+  // S-curve (mild lifted blacks, gentle highlight rolloff) reads as a real
+  // "shot on film" tonal response, a genuinely different mechanism than the
+  // other 6 presets' brightness/contrast/saturation-only approach. Kept to
+  // ONE curve-based preset (not several) — this skill's own established
+  // discipline is a curated, restrained option set, and a curves-heavy
+  // menu risks the same "too many choices" problem the overlay archetype
+  // system deliberately designs against elsewhere.
+  filmic: "curves=master='0/0.03 0.25/0.22 0.5/0.5 0.75/0.8 1/0.97'",
 };
 
 function run(cmd, args) {
@@ -103,8 +114,34 @@ async function download(url, destPath, attempts = 3) {
   throw lastErr;
 }
 
-async function processVideo({ chosen, beatId, targetDuration, brollDir, grade }) {
-  const gradeFilter = grade && GRADE_PRESETS[grade] ? `,${GRADE_PRESETS[grade]}` : "";
+// craft-upgrade P4a: real .cube LUT support via ffmpeg's real lut3d filter
+// (verified against an actual minimal 2x2x2 .cube file — loads and applies
+// cleanly). Chained in the SAME linear -vf pipeline as the existing
+// GRADE_PRESETS fragment (not a split/blend graph — that would need
+// -filter_complex, a bigger structural change to this file's existing
+// single -vf pipeline for real added risk with no clear benefit over just
+// applying the LUT at its own native strength, which is how most real NLE
+// "apply this LUT" workflows already work). A supplied LUT is genuinely the
+// user's own creative choice (their own graded look, not one of this
+// skill's own restrained presets) — it is NOT capped/moderated the way
+// GRADE_PRESETS deliberately are, because a LUT is an intentional external
+// asset, not a default this skill is picking for the user.
+function lutFilterFragment(lutPath) {
+  if (!lutPath) return "";
+  if (!existsSync(lutPath)) {
+    throw new Error(`--lut file not found: ${lutPath}`);
+  }
+  if (extname(lutPath).toLowerCase() !== ".cube") {
+    throw new Error(`--lut "${lutPath}" doesn't look like a .cube file (lut3d needs a real .cube LUT, not an arbitrary image/preset file)`);
+  }
+  // ffmpeg's lut3d filter parses its own file= argument with ':' as a
+  // sub-option separator, so a raw path containing ':' would break parsing
+  // — escape it the same way ffmpeg's own docs specify.
+  return `,lut3d=file='${lutPath.replace(/:/g, "\\:")}'`;
+}
+
+async function processVideo({ chosen, beatId, targetDuration, brollDir, grade, freeze, lut }) {
+  const gradeFilter = (grade && GRADE_PRESETS[grade] ? `,${GRADE_PRESETS[grade]}` : "") + lutFilterFragment(lut);
   const rawPath = join(brollDir, `beat-${beatId}-raw.mp4`);
   const outPath = join(brollDir, `beat-${beatId}.mp4`);
   const outRel = `.media/broll/beat-${beatId}.mp4`;
@@ -151,15 +188,29 @@ async function processVideo({ chosen, beatId, targetDuration, brollDir, grade })
   }
 
   if (sourceDuration < targetDuration - 0.15) {
-    // Clip is shorter than the beat — loop it rather than silently freeze-framing.
-    const loops = Math.ceil(targetDuration / sourceDuration);
+    // Clip is shorter than the beat — LOOP by default (re-plays the source
+    // from the start, so any real motion in it keeps moving, just repeats).
+    // craft-upgrade P3a: `freeze` is a real, opt-in ALTERNATIVE — hold the
+    // clip's own LAST decoded frame for the remaining time instead of
+    // looping, via ffmpeg's real tpad=stop_mode=clone filter (verified via
+    // an actual frame-difference measurement: two frames 1.7s apart inside
+    // the padded region differ by YAVG=0.001, essentially zero — a real,
+    // confirmed freeze, not a guess at tpad's behavior). This is the
+    // documentary "hold on the moment" convention — reserve it for a beat
+    // whose short clip's LAST frame is itself a meaningful image to dwell
+    // on (a landscape settling, a final expression) — a clip whose motion
+    // is still clearly mid-action at its own end will freeze on an
+    // arbitrary, sometimes awkward mid-motion frame, so this is a per-beat
+    // editorial call, not a blanket default.
+    const padFilter = freeze ? `,tpad=stop_mode=clone:stop_duration=${(targetDuration - sourceDuration).toFixed(3)}` : "";
+    const loops = freeze ? 1 : Math.ceil(targetDuration / sourceDuration);
     run("ffmpeg", [
       "-y", "-v", "error",
-      "-stream_loop", String(loops - 1),
+      ...(freeze ? [] : ["-stream_loop", String(loops - 1)]),
       "-i", rawPath,
       "-t", String(targetDuration.toFixed(3)),
       "-an", // strip source audio — narration/BGM own the audio track
-      "-vf", `scale=1920:1080:force_original_aspect_ratio=increase,crop=1920:1080${gradeFilter}`,
+      "-vf", `scale=1920:1080:force_original_aspect_ratio=increase,crop=1920:1080${padFilter}${gradeFilter}`,
       "-c:v", "libx264", "-preset", "veryfast", "-crf", "18",
       "-g", "30", "-keyint_min", "30", "-sc_threshold", "0",
       "-pix_fmt", "yuv420p", "-movflags", "+faststart",
@@ -177,7 +228,7 @@ async function processVideo({ chosen, beatId, targetDuration, brollDir, grade })
       "-color_primaries", "bt709", "-color_trc", "bt709", "-colorspace", "bt709",
       outPath,
     ]);
-    console.log(`✓ download-clip: beat-${beatId} [video] looped ${loops}x (source ${sourceDuration.toFixed(1)}s < target ${targetDuration}s)${grade ? ` [grade:${grade}]` : ""} → ${outRel}`);
+    console.log(`✓ download-clip: beat-${beatId} [video] ${freeze ? `frozen on last frame (source ${sourceDuration.toFixed(1)}s < target ${targetDuration}s)` : `looped ${loops}x (source ${sourceDuration.toFixed(1)}s < target ${targetDuration}s)`}${grade ? ` [grade:${grade}]` : ""} → ${outRel}`);
     return;
   }
 
@@ -209,8 +260,8 @@ async function processVideo({ chosen, beatId, targetDuration, brollDir, grade })
   console.log(`✓ download-clip: beat-${beatId} [video] trimmed [${offset.toFixed(1)}s, +${targetDuration}s]${grade ? ` [grade:${grade}]` : ""} → ${outRel}`);
 }
 
-async function processPhoto({ chosen, beatId, brollDir, grade }) {
-  const gradeFilter = grade && GRADE_PRESETS[grade] ? `,${GRADE_PRESETS[grade]}` : "";
+async function processPhoto({ chosen, beatId, brollDir, grade, lut }) {
+  const gradeFilter = (grade && GRADE_PRESETS[grade] ? `,${GRADE_PRESETS[grade]}` : "") + lutFilterFragment(lut);
   const ext = (extname(new URL(chosen.downloadUrl).pathname) || ".jpg").toLowerCase();
   const safeExt = [".jpg", ".jpeg", ".png", ".webp"].includes(ext) ? ext : ".jpg";
   const rawPath = join(brollDir, `beat-${beatId}-raw${safeExt}`);
@@ -250,9 +301,19 @@ async function main() {
   // above) — the orchestrator picks ONE direction for the whole video and
   // passes it on every beat's download-clip.mjs call; omit for no grading.
   const grade = flag(argv, "grade", null);
+  // craft-upgrade P3a: opt-in freeze-on-last-frame for short clips, instead
+  // of the default loop — see processVideo's own comment for the real
+  // tpad-based mechanism and when this is/isn't a good fit. Only meaningful
+  // for a video whose source clip is shorter than the beat; a no-op
+  // (silently ignored, not an error) for a photo or a video that's already
+  // long enough.
+  const freeze = argv.includes("--freeze");
+  // craft-upgrade P4a: optional real .cube LUT, applied on top of --grade
+  // (or on its own with no --grade) — see lutFilterFragment's own comment.
+  const lut = flag(argv, "lut", null);
 
   if (!candidatePath || !beatId) {
-    console.error("Usage: download-clip.mjs --candidate <path> --beat-id <id> --duration N --project <dir> [--grade warm|cool|desaturated|neutral|verdant|bleached] [--log <path>]");
+    console.error("Usage: download-clip.mjs --candidate <path> --beat-id <id> --duration N --project <dir> [--grade warm|cool|desaturated|neutral|verdant|bleached|filmic] [--lut <path.cube>] [--freeze] [--log <path>]");
     process.exit(1);
   }
 
@@ -267,14 +328,22 @@ async function main() {
     console.error(`✗ download-clip: unknown --grade "${grade}" (expected one of: ${Object.keys(GRADE_PRESETS).join(", ")})`);
     process.exit(1);
   }
+  if (lut) {
+    try {
+      lutFilterFragment(lut); // fail fast on a bad --lut before any real work happens, same discipline as the --grade check above
+    } catch (e) {
+      console.error(`✗ download-clip: ${e.message}`);
+      process.exit(1);
+    }
+  }
 
   const brollDir = join(projectDir, ".media", "broll");
   mkdirSync(brollDir, { recursive: true });
 
   if (chosen.mediaType === "photo") {
-    await processPhoto({ chosen, beatId, brollDir, grade });
+    await processPhoto({ chosen, beatId, brollDir, grade, lut });
   } else {
-    await processVideo({ chosen, beatId, targetDuration, brollDir, grade });
+    await processVideo({ chosen, beatId, targetDuration, brollDir, grade, freeze, lut });
   }
 
   logIfRequested(argv, "Step 4 — download-clip", `beat ${beatId}: downloaded/processed`, {

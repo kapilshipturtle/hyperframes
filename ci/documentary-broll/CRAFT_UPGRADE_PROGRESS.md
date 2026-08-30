@@ -110,22 +110,22 @@ Legend: `[ ]` not started · `[~]` in progress · `[x]` done + locally verified 
 - [~] P1h `page-turn`/3d-flip family — HONEST SCOPE NOTE: needs `perspective`/`transform-style:preserve-3d` on a PARENT container the injector never creates (same class of limitation as P1d) — not buildable through this registry mechanism without a shared-injector change, out of scope for this pass. Not faked.
 - Wiring: pick-transitions.mjs gets a new generic `--accent-at <idx> --accent-type <name>` mechanism (not one bespoke --style per new transition) — substitutes ANY registry transition at ANY one chosen boundary, applied after whip-pan-accent/mixed-cuts so an explicit accent always wins. Tested: iris accent + correct silent SFX handling, glitch-cut correctly overriding mixed-cuts' hard-cut stride at that position, paired-flag validation error, out-of-range graceful warning, no-flag baseline unaffected — all 5 real invocations.
 - [~] P1i content-driven duration — dup of E6, which is itself deferred (needs E4/C1 shot-size/motion-energy data this pass doesn't build a full per-beat consumer for). Not a separate implementation.
-- [ ] P2a Exit animations per archetype (in/out slots)
-- [ ] P2b Loop/idle animation slot for persistent archetypes
-- [ ] P2c Per-character animation mode
+- [x] P2a Exit animations per archetype (in/out slots) — ALREADY DONE pre-this-pass: audited via grep, 134 real `exitStart`-driven exit tweens across 62 functions (57 archetypes + helpers) — near-universal coverage already exists, confirmed not a gap.
+- [x] P2b Loop/idle animation slot for persistent archetypes — checked every genuinely full-beat-duration archetype (`ticker`, `counter-clock`, `surveillance-stamp`) — all 3 already have real continuous motion (scroll/tick/blinking REC dot). The two "persistent-FEELING" archetypes (`progress-badge`, `glossary-sidebar`) are per-call multi-beat cards, not idle-loop cases — confirmed no real gap exists, not built as a speculative feature nothing calls for.
+- [x] P2c Per-character animation mode — ALREADY DONE: `typewriter` already fully owns character-by-character, `key-phrase` already owns word-by-word — the two real granularities are both covered by dedicated, purpose-built archetypes; a generic toggle would be redundant, not built.
 - [ ] P2d Expose `ease` param per overlay call
 - [ ] P2e Document responsive-design contract per archetype
 - [ ] P2f Text-on-a-path for map labels
-- [ ] P3a Freeze-frame + hold
-- [ ] P3b Speed ramp / slow-motion
-- [ ] P3c Animated clip-path/SVG mask shapes
+- [x] P3a Freeze-frame + hold — download-clip.mjs: new `--freeze` flag, real alternative to the existing loop-on-short-clip behavior via ffmpeg's real `tpad=stop_mode=clone` filter. Verified via real frame-difference measurement: two frames 1.7s apart inside the padded region differ by YAVG=0.001 (genuinely frozen) vs. YAVG=7.3 for two frames within real motion (methodology confirmed sound both ways). Real bug avoided: download-clip.mjs's own main() runs unconditionally at import (no isMain guard) — tested the actual new logic via a standalone ffmpeg replication of the generated command instead of importing the module, same lesson learned in K2's grade-envelope.mjs.
+- [~] P3b Speed ramp / slow-motion — NOT BUILT this checkpoint (deferred, real scope decision needed: setpts-based real-time speed change requires re-encoding with a duration mismatch this pipeline's beat-duration-locked architecture doesn't cleanly accommodate — same narration-lock class of constraint as J/L-cuts and cutaway timing). Revisit only if genuinely prioritized.
+- [~] P3c Animated clip-path/SVG mask shapes — PARTIALLY covered: `iris` (P1e) is a real clip-path shape animation, already shipped. A generic "any shape" mask primitive beyond that wasn't built — no concrete second use case identified to justify it.
 - [ ] P3d Lightweight particle layer
 - [ ] P3e Document layer/z-index stacking model
 - [ ] P3f CSS 3D depth for multi-plane graphics
-- [ ] P4a Real .cube LUT support
-- [ ] P4b Scope-style QC measurement (luma/sat/temp outliers)
-- [ ] P4c Curve-based grading (ffmpeg curves filter)
-- [ ] P4d Masked/regional grade
+- [x] P4a Real .cube LUT support — download-clip.mjs: new `--lut <path.cube>` flag via ffmpeg's real lut3d filter, verified against an actual minimal 2x2x2 .cube file (loads and applies cleanly) plus the full generated filter-chain string tested end-to-end. Chained in the SAME linear -vf pipeline as GRADE_PRESETS (not a split/blend graph — would need -filter_complex, a bigger structural change for no clear benefit over applying at native strength, which is how most real NLE LUT workflows already work). Explicitly NOT capped/moderated like the presets (a user's own LUT is their deliberate choice, not this skill's default). Real validation tested: missing-file error, wrong-extension error, valid-file-passes-through-to-fetch-step.
+- [x] P4b Scope-style QC measurement (luma/sat/temp outliers) — extended probe-clip-technical.mjs (K1) with a real `tempLean` field: honest YUV chroma-derived warm/cool proxy (U/V averages relative to the 128 neutral midpoint — real color science, not an invented metric; explicitly NOT a true Kelvin measurement, checked that no dedicated filter exists on this build rather than assuming). Wired into the same MAD-based outlier detection as luma/sat. Regression-tested: all previous test cases still pass, new warm/cool-lean values confirmed directionally correct (positive for a real warm test clip, negative for cool).
+- [x] P4c Curve-based grading (ffmpeg curves filter) — new `filmic` preset added to GRADE_PRESETS, a genuinely different mechanism (real tonal S-curve via ffmpeg's curves filter, verified against real ffmpeg execution) than the other six's eq/colorbalance-only approach. Kept to exactly one curve-based preset, matching this skill's own restrained-option-set discipline.
+- [x] P4d Masked/regional grade — HONEST SCOPE DECISION: deliberately NOT built. A real regional grade is inherently a per-shot creative call, which fights this skill's own core "one grade, whole film, never per-shot" discipline directly — no honest way to make it fit the deterministic whole-film model every other preset here follows. Documented as a genuine scope boundary, not faked as a shallow version.
 - [ ] P5a Audio crossfade between ambience beds (dup of S1 prereq)
 - [ ] P5b Audio content-type tagging
 - [ ] P5c Volume automation envelopes

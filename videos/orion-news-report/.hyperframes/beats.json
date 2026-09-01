@@ -1,6 +1,14 @@
 {
   "beats": [
     {
+      "id": "00",
+      "text": "",
+      "start": 0.0,
+      "end": 0.0,
+      "durationSeconds": 3.0,
+      "words": []
+    },
+    {
       "id": "01",
       "text": "A ranger wading through waist-high reeds in the Illy River Delta finds a print in the mud that's too big to belong to anything that's lived there in his lifetime.",
       "start": 0.07,

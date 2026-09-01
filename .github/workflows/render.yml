@@ -134,6 +134,26 @@ jobs:
           # future change to download-clip.mjs's own ffmpeg args.
           key: broll-v2-${{ matrix.project }}-${{ hashFiles(format('{0}/.hyperframes/broll/*.json', matrix.project), format('{0}/.hyperframes/media-choices.json', matrix.project)) }}
 
+      # Fast (sub-second, no network) sanity check run BEFORE the expensive
+      # broll rebuild below. Catches the exact failure class that once burned
+      # a full ~7min CI run: a beat that exists in STORYBOARD.md /
+      # .hyperframes/broll/*.json (e.g. a hand-built synthetic cold-open
+      # frame) but was never registered in .hyperframes/beats.json —
+      # replay-media-choices.mjs rejects an orphaned cache file and aborts
+      # the whole job, but only AFTER downloading every other beat's footage
+      # first. This step fails in seconds instead, with a message naming the
+      # exact beat and the exact fix. This should already have been run and
+      # passed locally before the push that triggered this workflow (see
+      # documentary-broll's SKILL.md "Mandatory pre-push gate") — this is a
+      # backstop for the case that check was skipped, not the primary gate.
+      - name: Verify beats.json / STORYBOARD.md / broll cache are consistent
+        working-directory: ${{ matrix.project }}
+        run: |
+          node "$GITHUB_WORKSPACE/ci/documentary-broll/scripts/verify-ci-parity.mjs" \
+            --beats .hyperframes/beats.json --storyboard STORYBOARD.md \
+            --broll-dir .hyperframes/broll --scene-choices .hyperframes/scene-choices.json \
+            --log .hyperframes/run-log.md
+
       - name: Rebuild broll from cached beat candidates
         working-directory: ${{ matrix.project }}
         env:

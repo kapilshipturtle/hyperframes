@@ -23,6 +23,14 @@ render-relevant scripts change in a way that matters to this workflow.
 ## What's vendored and why
 
 **`documentary-broll/scripts/`** (this skill's own scripts, copied as-is):
+- `verify-ci-parity.mjs` — fast (sub-second, no network) preflight run BEFORE
+  `replay-media-choices.mjs` below. Checks `.hyperframes/beats.json`,
+  `STORYBOARD.md`, and `.hyperframes/broll/*.json` are mutually consistent —
+  catches an orphaned synthetic beat (e.g. a hand-built cold-open frame never
+  registered in beats.json) in seconds instead of after several minutes of
+  wasted footage downloads. Should already have passed locally before the
+  push that triggered this workflow (see documentary-broll's SKILL.md
+  "Mandatory pre-push gate"); this is a backstop, not the primary gate.
 - `replay-media-choices.mjs` — the CI-specific script that rebuilds
   `.media/broll/` from `.hyperframes/broll/beat-*.json`'s cached `chosen`
   field (falling back to a fresh by-ID lookup if a cached CDN URL expired).

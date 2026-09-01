@@ -1,0 +1,31 @@
+{
+  "lines": [
+    {
+      "id": "06",
+      "sfx": [
+        "riser-short"
+      ]
+    },
+    {
+      "id": "07",
+      "sfx": [
+        "impact-soft"
+      ]
+    },
+    {
+      "id": "59",
+      "sfx": [
+        "riser-short"
+      ]
+    },
+    {
+      "id": "88",
+      "sfx": [
+        "pop"
+      ]
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

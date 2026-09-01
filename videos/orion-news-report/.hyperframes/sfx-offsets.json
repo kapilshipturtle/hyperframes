@@ -1,0 +1,6 @@
+{
+  "6": { "riser-short": { "offset_s": 3.5, "volume": 0.14, "stem": "graphic-cue" } },
+  "7": { "impact-soft": { "offset_s": 0.0, "volume": 0.16, "stem": "graphic-cue" } },
+  "59": { "riser-short": { "offset_s": 0.0, "volume": 0.13, "stem": "graphic-cue" } },
+  "88": { "pop": { "offset_s": 0.2, "volume": 0.08, "stem": "graphic-cue" } }
+}

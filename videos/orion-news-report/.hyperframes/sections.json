@@ -1,0 +1,11 @@
+{
+  "sections": [
+    { "name": "cold-open-hook", "startBeat": "01", "endBeat": "07", "arc": "rising" },
+    { "name": "the-lost-ecosystem", "startBeat": "08", "endBeat": "26", "arc": "calm" },
+    { "name": "the-plan-and-rebuild", "startBeat": "27", "endBeat": "51", "arc": "rising" },
+    { "name": "the-release", "startBeat": "52", "endBeat": "58", "arc": "peak" },
+    { "name": "the-surprise-cascade", "startBeat": "59", "endBeat": "77", "arc": "peak" },
+    { "name": "caveats-and-stakes", "startBeat": "78", "endBeat": "86", "arc": "rising" },
+    { "name": "resolution", "startBeat": "87", "endBeat": "93", "arc": "settling" }
+  ]
+}

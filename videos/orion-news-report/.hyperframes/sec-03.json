@@ -1,0 +1,41 @@
+{
+  "transitions": [
+    "squeeze 1.1s",
+    "hard-cut 0s",
+    "blur-crossfade 1.6s",
+    "push-slide LEFT 1.2s",
+    "hard-cut 0s",
+    "push-slide UP 1.2s",
+    "push-slide DOWN 1.2s",
+    "hard-cut 0s",
+    "crossfade 1.4s",
+    "blur-crossfade 1.6s",
+    "hard-cut 0s",
+    "push-slide RIGHT 1.2s",
+    "push-slide UP 1.2s",
+    "hard-cut 0s",
+    "squeeze 1.1s",
+    "crossfade 1.4s",
+    "hard-cut 0s",
+    "push-slide LEFT 1.2s",
+    "push-slide RIGHT 1.2s",
+    "hard-cut 0s",
+    "push-slide DOWN 1.2s",
+    "squeeze 1.1s",
+    "hard-cut 0s",
+    "blur-crossfade 1.6s",
+    "push-slide LEFT 1.2s"
+  ],
+  "style": "mixed-cuts",
+  "intensity": "moderate",
+  "pool": [
+    "crossfade 1.4s",
+    "blur-crossfade 1.6s",
+    "push-slide LEFT 1.2s",
+    "push-slide RIGHT 1.2s",
+    "push-slide UP 1.2s",
+    "push-slide DOWN 1.2s",
+    "squeeze 1.1s"
+  ],
+  "startIndex": 27
+}

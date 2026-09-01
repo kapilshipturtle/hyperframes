@@ -1,0 +1,472 @@
+[
+  {
+    "start": 0,
+    "end": 3,
+    "sceneClass": "neutral"
+  },
+  {
+    "start": 3,
+    "end": 12.36,
+    "sceneClass": "water"
+  },
+  {
+    "start": 12.36,
+    "end": 20.42,
+    "sceneClass": "water"
+  },
+  {
+    "start": 20.42,
+    "end": 29.85,
+    "sceneClass": "interior"
+  },
+  {
+    "start": 29.85,
+    "end": 37.33,
+    "sceneClass": "water"
+  },
+  {
+    "start": 37.33,
+    "end": 41.769999999999996,
+    "sceneClass": "interior"
+  },
+  {
+    "start": 41.769999999999996,
+    "end": 50.989999999999995,
+    "sceneClass": "forest"
+  },
+  {
+    "start": 50.989999999999995,
+    "end": 58.00999999999999,
+    "sceneClass": "forest"
+  },
+  {
+    "start": 58.00999999999999,
+    "end": 67.22,
+    "sceneClass": "water"
+  },
+  {
+    "start": 67.22,
+    "end": 76.8,
+    "sceneClass": "water"
+  },
+  {
+    "start": 76.8,
+    "end": 85.52,
+    "sceneClass": "water"
+  },
+  {
+    "start": 85.52,
+    "end": 92.11999999999999,
+    "sceneClass": "water"
+  },
+  {
+    "start": 92.11999999999999,
+    "end": 98.75999999999999,
+    "sceneClass": "water"
+  },
+  {
+    "start": 98.75999999999999,
+    "end": 106.38,
+    "sceneClass": "forest"
+  },
+  {
+    "start": 106.38,
+    "end": 114.5,
+    "sceneClass": "forest"
+  },
+  {
+    "start": 114.5,
+    "end": 118.09,
+    "sceneClass": "water"
+  },
+  {
+    "start": 118.09,
+    "end": 123.24000000000001,
+    "sceneClass": "neutral"
+  },
+  {
+    "start": 123.24000000000001,
+    "end": 127.22000000000001,
+    "sceneClass": "interior"
+  },
+  {
+    "start": 127.22000000000001,
+    "end": 130.56,
+    "sceneClass": "interior"
+  },
+  {
+    "start": 130.56,
+    "end": 134.61,
+    "sceneClass": "interior"
+  },
+  {
+    "start": 134.61,
+    "end": 143.96,
+    "sceneClass": "water"
+  },
+  {
+    "start": 143.96,
+    "end": 152.47,
+    "sceneClass": "forest"
+  },
+  {
+    "start": 152.47,
+    "end": 158.57,
+    "sceneClass": "interior"
+  },
+  {
+    "start": 158.57,
+    "end": 166.57999999999998,
+    "sceneClass": "interior"
+  },
+  {
+    "start": 166.57999999999998,
+    "end": 173.04,
+    "sceneClass": "neutral"
+  },
+  {
+    "start": 173.04,
+    "end": 178.48,
+    "sceneClass": "water"
+  },
+  {
+    "start": 178.48,
+    "end": 182.91,
+    "sceneClass": "interior"
+  },
+  {
+    "start": 182.91,
+    "end": 188.04,
+    "sceneClass": "interior"
+  },
+  {
+    "start": 188.04,
+    "end": 196.57,
+    "sceneClass": "interior"
+  },
+  {
+    "start": 196.57,
+    "end": 202.68,
+    "sceneClass": "interior"
+  },
+  {
+    "start": 202.68,
+    "end": 209.58,
+    "sceneClass": "forest"
+  },
+  {
+    "start": 209.58,
+    "end": 217.57000000000002,
+    "sceneClass": "forest"
+  },
+  {
+    "start": 217.57000000000002,
+    "end": 222.72000000000003,
+    "sceneClass": "forest"
+  },
+  {
+    "start": 222.72000000000003,
+    "end": 226.20000000000002,
+    "sceneClass": "interior"
+  },
+  {
+    "start": 226.20000000000002,
+    "end": 234.17000000000002,
+    "sceneClass": "neutral"
+  },
+  {
+    "start": 234.17000000000002,
+    "end": 237.77,
+    "sceneClass": "neutral"
+  },
+  {
+    "start": 237.77,
+    "end": 244.99,
+    "sceneClass": "neutral"
+  },
+  {
+    "start": 244.99,
+    "end": 250.62,
+    "sceneClass": "neutral"
+  },
+  {
+    "start": 250.62,
+    "end": 257.81,
+    "sceneClass": "water"
+  },
+  {
+    "start": 257.81,
+    "end": 263.84,
+    "sceneClass": "forest"
+  },
+  {
+    "start": 263.84,
+    "end": 267,
+    "sceneClass": "forest"
+  },
+  {
+    "start": 267,
+    "end": 274.13,
+    "sceneClass": "forest"
+  },
+  {
+    "start": 274.13,
+    "end": 277.86,
+    "sceneClass": "forest"
+  },
+  {
+    "start": 277.86,
+    "end": 286.42,
+    "sceneClass": "forest"
+  },
+  {
+    "start": 286.42,
+    "end": 294.57,
+    "sceneClass": "forest"
+  },
+  {
+    "start": 294.57,
+    "end": 303.7,
+    "sceneClass": "forest"
+  },
+  {
+    "start": 303.7,
+    "end": 310.77,
+    "sceneClass": "forest"
+  },
+  {
+    "start": 310.77,
+    "end": 320.44,
+    "sceneClass": "interior"
+  },
+  {
+    "start": 320.44,
+    "end": 330.17,
+    "sceneClass": "interior"
+  },
+  {
+    "start": 330.17,
+    "end": 338.19,
+    "sceneClass": "interior"
+  },
+  {
+    "start": 338.19,
+    "end": 345.93,
+    "sceneClass": "interior"
+  },
+  {
+    "start": 345.93,
+    "end": 350.5,
+    "sceneClass": "interior"
+  },
+  {
+    "start": 350.5,
+    "end": 359.83,
+    "sceneClass": "interior"
+  },
+  {
+    "start": 359.83,
+    "end": 363.26,
+    "sceneClass": "forest"
+  },
+  {
+    "start": 363.26,
+    "end": 366.34,
+    "sceneClass": "forest"
+  },
+  {
+    "start": 366.34,
+    "end": 372.9,
+    "sceneClass": "water"
+  },
+  {
+    "start": 372.9,
+    "end": 379.59,
+    "sceneClass": "forest"
+  },
+  {
+    "start": 379.59,
+    "end": 387.32,
+    "sceneClass": "forest"
+  },
+  {
+    "start": 387.32,
+    "end": 391.37,
+    "sceneClass": "forest"
+  },
+  {
+    "start": 391.37,
+    "end": 394.87,
+    "sceneClass": "interior"
+  },
+  {
+    "start": 394.87,
+    "end": 403.11,
+    "sceneClass": "forest"
+  },
+  {
+    "start": 403.11,
+    "end": 406.39,
+    "sceneClass": "forest"
+  },
+  {
+    "start": 406.39,
+    "end": 415.5,
+    "sceneClass": "forest"
+  },
+  {
+    "start": 415.5,
+    "end": 419.31,
+    "sceneClass": "forest"
+  },
+  {
+    "start": 419.31,
+    "end": 422.88,
+    "sceneClass": "interior"
+  },
+  {
+    "start": 422.88,
+    "end": 427.92,
+    "sceneClass": "interior"
+  },
+  {
+    "start": 427.92,
+    "end": 437.17,
+    "sceneClass": "forest"
+  },
+  {
+    "start": 437.17,
+    "end": 441.61,
+    "sceneClass": "forest"
+  },
+  {
+    "start": 441.61,
+    "end": 450.64,
+    "sceneClass": "neutral"
+  },
+  {
+    "start": 450.64,
+    "end": 456.21999999999997,
+    "sceneClass": "water"
+  },
+  {
+    "start": 456.21999999999997,
+    "end": 463.35999999999996,
+    "sceneClass": "forest"
+  },
+  {
+    "start": 463.35999999999996,
+    "end": 468.22999999999996,
+    "sceneClass": "forest"
+  },
+  {
+    "start": 468.22999999999996,
+    "end": 477.81999999999994,
+    "sceneClass": "forest"
+  },
+  {
+    "start": 477.81999999999994,
+    "end": 481.68999999999994,
+    "sceneClass": "forest"
+  },
+  {
+    "start": 481.68999999999994,
+    "end": 488.50999999999993,
+    "sceneClass": "water"
+  },
+  {
+    "start": 488.50999999999993,
+    "end": 497.9699999999999,
+    "sceneClass": "water"
+  },
+  {
+    "start": 497.9699999999999,
+    "end": 504.43999999999994,
+    "sceneClass": "water"
+  },
+  {
+    "start": 504.43999999999994,
+    "end": 513.8199999999999,
+    "sceneClass": "neutral"
+  },
+  {
+    "start": 513.8199999999999,
+    "end": 517.9399999999999,
+    "sceneClass": "water"
+  },
+  {
+    "start": 517.9399999999999,
+    "end": 526.7499999999999,
+    "sceneClass": "forest"
+  },
+  {
+    "start": 526.7499999999999,
+    "end": 536.1199999999999,
+    "sceneClass": "forest"
+  },
+  {
+    "start": 536.1199999999999,
+    "end": 540.9299999999998,
+    "sceneClass": "forest"
+  },
+  {
+    "start": 540.9299999999998,
+    "end": 550.1999999999998,
+    "sceneClass": "water"
+  },
+  {
+    "start": 550.1999999999998,
+    "end": 556.8099999999998,
+    "sceneClass": "neutral"
+  },
+  {
+    "start": 556.8099999999998,
+    "end": 565.9399999999998,
+    "sceneClass": "neutral"
+  },
+  {
+    "start": 565.9399999999998,
+    "end": 574.2099999999998,
+    "sceneClass": "neutral"
+  },
+  {
+    "start": 574.2099999999998,
+    "end": 577.7999999999998,
+    "sceneClass": "water"
+  },
+  {
+    "start": 577.7999999999998,
+    "end": 582.8699999999999,
+    "sceneClass": "interior"
+  },
+  {
+    "start": 582.8699999999999,
+    "end": 589.3999999999999,
+    "sceneClass": "forest"
+  },
+  {
+    "start": 589.3999999999999,
+    "end": 596.2099999999998,
+    "sceneClass": "water"
+  },
+  {
+    "start": 596.2099999999998,
+    "end": 604.2899999999998,
+    "sceneClass": "water"
+  },
+  {
+    "start": 604.2899999999998,
+    "end": 607.4999999999999,
+    "sceneClass": "interior"
+  },
+  {
+    "start": 607.4999999999999,
+    "end": 613.7899999999998,
+    "sceneClass": "water"
+  },
+  {
+    "start": 613.7899999999998,
+    "end": 617.1399999999999,
+    "sceneClass": "water"
+  }
+]

@@ -1,0 +1,187 @@
+<template>
+  <style>
+    #root {
+      width: 1920px;
+      height: 1080px;
+      position: relative;
+      overflow: hidden;
+      background: #0a0a0c;
+      font-family: -apple-system, "Inter", sans-serif;
+    }
+
+    .f68-bg {
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse at 50% 40%, #16131a 0%, #0a0a0c 70%);
+    }
+
+    .f68-stage {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      width: 1200px;
+    }
+
+    .f68-row {
+      display: flex;
+      align-items: center;
+      gap: 40px;
+      margin-bottom: 90px;
+    }
+
+    .f68-row:last-child { margin-bottom: 0; }
+
+    .f68-label {
+      width: 220px;
+      flex: 0 0 220px;
+      font-size: 26px;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: #f2f2f0;
+      opacity: 0;
+      font-weight: 600;
+    }
+
+    .f68-track {
+      position: relative;
+      flex: 1;
+      height: 26px;
+      background: rgba(255,255,255,0.06);
+      border-radius: 4px;
+      overflow: hidden;
+    }
+
+    .f68-bar {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 0%;
+      border-radius: 4px;
+    }
+
+    .f68-bar-before {
+      background: rgba(224, 104, 90, 0.55);
+    }
+
+    .f68-bar-after {
+      background: #e0685a;
+      box-shadow: 0 0 18px rgba(224, 104, 90, 0.45);
+    }
+
+    .f68-pct {
+      position: absolute;
+      top: -46px;
+      left: 0;
+      width: 100%;
+      font-size: 32px;
+      font-weight: 700;
+      color: #f2f2f0;
+      opacity: 0;
+      transform: translateX(-50%);
+      white-space: nowrap;
+    }
+
+    .f68-midline {
+      position: absolute;
+      top: -14px;
+      bottom: -14px;
+      width: 1px;
+      background: rgba(255,255,255,0.18);
+      left: 50%;
+      opacity: 0;
+    }
+
+    .f68-caption {
+      position: absolute;
+      left: 0;
+      bottom: -90px;
+      width: 100%;
+      text-align: center;
+      font-size: 22px;
+      letter-spacing: 0.06em;
+      color: #f2f2f0;
+      opacity: 0;
+    }
+
+    .f68-caption strong {
+      color: #e0685a;
+      font-weight: 700;
+    }
+  </style>
+
+  <div
+    id="root"
+    data-composition-id="68-beat"
+    data-width="1920" data-height="1080" data-duration="10.13"
+  >
+    <div id="f68-bg" class="f68-bg clip" data-start="0" data-duration="10.13" data-track-index="0"></div>
+
+    <div id="f68-stage" class="f68-stage clip" data-start="0" data-duration="10.13" data-track-index="1">
+      <div class="f68-row">
+        <div class="f68-label" id="f68-label-before">BEFORE</div>
+        <div class="f68-track">
+          <div class="f68-bar f68-bar-before" id="f68-bar-before"></div>
+          <div class="f68-midline" id="f68-midline"></div>
+        </div>
+      </div>
+      <div class="f68-row">
+        <div class="f68-label" id="f68-label-after">AFTER</div>
+        <div class="f68-track">
+          <div class="f68-bar f68-bar-after" id="f68-bar-after"></div>
+          <div class="f68-pct" id="f68-pct">&minus;50%</div>
+        </div>
+      </div>
+      <div class="f68-caption" id="f68-caption">time in <strong>exposed clearings</strong></div>
+    </div>
+  </div>
+
+  <script>
+    (function () {
+      var tl = gsap.timeline({ paused: true });
+      var DUR = 9.03;
+
+      // Establish the frame: labels fade up first (documentary beat, not a
+      // slide-dump) — quiet entrance in the first third.
+      tl.to("#f68-label-before", { opacity: 1, duration: 0.5, ease: "power1.out" }, 0.4);
+      tl.to("#f68-bar-before", { width: "88%", duration: 1.1, ease: "power2.out" }, 0.6);
+      tl.to("#f68-label-after", { opacity: 1, duration: 0.5, ease: "power1.out" }, 1.6);
+
+      // AFTER bar starts level with BEFORE (same exposure baseline), holds
+      // briefly so the comparison reads, then the "cutting time by more
+      // than half" collapse happens in the back half of the duration,
+      // matching where the beat's payoff clause lands in the narration.
+      tl.set("#f68-bar-after", { width: "88%" }, 1.9);
+      tl.to("#f68-midline", { opacity: 1, duration: 0.4 }, 3.6);
+
+      tl.to("#f68-bar-after", {
+        width: "38%",
+        duration: 1.6,
+        ease: "power3.inOut"
+      }, 4.3);
+
+      // Percent readout tracks the bar's leading edge as it collapses, then
+      // fades in once it settles near its final position.
+      tl.to("#f68-pct", {
+        xPercent: 38,
+        duration: 1.6,
+        ease: "power3.inOut"
+      }, 4.3);
+      tl.to("#f68-pct", {
+        opacity: 1,
+        duration: 0.5,
+        ease: "power1.out"
+      }, 5.3);
+
+      tl.to("#f68-caption", { opacity: 0.85, duration: 0.6, ease: "power1.out" }, 6.3);
+
+      // Hold through the remainder of the duration — no exit tween, the
+      // root transition between frames handles the cut.
+      tl.to({}, { duration: DUR - 8.5 }, 8.5);
+
+      window.__timelines = window.__timelines || {};
+      window.__timelines["68-beat"] = tl;
+    })();
+  </script>
+</template>

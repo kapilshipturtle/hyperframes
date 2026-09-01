@@ -1,0 +1,12 @@
+{
+  "10": {
+    "type": "invented-scene",
+    "visualIdea": "a simple top-down map silhouette of one elongated lake, split by a soft vertical gradient line at its midpoint — the left half rendered in a pale blue-green (fresh water) tone, the right half in a warmer sandy-white/salt tone, with a small centered label reading 'FRESH' and 'SALT' — communicating the lake's unusual two-halves split at a glance, something no real stock photo of a lake can show",
+    "tone": "neutral"
+  },
+  "68": {
+    "type": "invented-scene",
+    "visualIdea": "a minimal horizontal bar comparison: two thin bars labeled 'before' and 'after', the 'before' bar showing time-in-open-clearings as a long bar, the 'after' bar cut down to less than half its length — a clean before/after data visualization illustrating 'cutting their time in exposed clearings by more than half', not a real photographable moment",
+    "tone": "urgent"
+  }
+}

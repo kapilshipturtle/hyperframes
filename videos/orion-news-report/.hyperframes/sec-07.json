@@ -1,0 +1,23 @@
+{
+  "transitions": [
+    "push-slide RIGHT 1.2s",
+    "hard-cut 0s",
+    "push-slide DOWN 1.2s",
+    "squeeze 1.1s",
+    "hard-cut 0s",
+    "blur-crossfade 1.6s",
+    "push-slide LEFT 1.2s"
+  ],
+  "style": "mixed-cuts",
+  "intensity": "calm",
+  "pool": [
+    "crossfade 1.4s",
+    "blur-crossfade 1.6s",
+    "push-slide LEFT 1.2s",
+    "push-slide RIGHT 1.2s",
+    "push-slide UP 1.2s",
+    "push-slide DOWN 1.2s",
+    "squeeze 1.1s"
+  ],
+  "startIndex": 87
+}

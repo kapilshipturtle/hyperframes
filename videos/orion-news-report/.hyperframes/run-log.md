@@ -2313,3 +2313,44 @@ mounted ambience bed only (--no-grain)
 - inject-cinematic-layers.mjs: ambience-bed mounted (vol 0.05), grain SKIPPED via --no-grain (94-frame video-heavy composition, avoiding the ~2.6x render-speed penalty)
 - lint fixed: beat-68 invented-scene frame had a real gsap_non_transform_motion error (GSAP tween on `left` instead of transform) — fixed by switching #f68-pct to width:100%/left:0 static positioning + xPercent tween instead of animating `left` directly; also added missing stable ids (id="f68-bg", id="f68-stage") for the studio_missing_editable_id warnings
 - npx hyperframes check: PASSED — 0 lint errors, 0 runtime errors, 0 motion errors, 5/5 contrast checks pass WCAG AA, only 9 info-level container_overflow notices (all expected Ken Burns pan-wrapper overflow on photo beats, intentional not a bug)
+
+### Step 4 — download-clip
+beat 77: downloaded/processed
+  - **mediaType:** video
+  - **source:** pexels/pexels-v8522207
+  - **grade:** none
+  - **output:** .media/broll/beat-77.mp4
+
+### Step 4 — download-clip
+beat 77: downloaded/processed
+  - **mediaType:** video
+  - **source:** pexels/pexels-v8522207
+  - **grade:** none
+  - **output:** .media/broll/beat-77.mp4
+
+### Step 4 — download-clip
+beat 77: downloaded/processed
+  - **mediaType:** video
+  - **source:** pexels/pexels-v8522207
+  - **grade:** none
+  - **output:** .media/broll/beat-77.mp4
+
+### Step 5 — build-frame
+beat 77: frame built [video, kenburns=none]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **out:** compositions/frames/77-beat.html
+
+## Post-render review pass (user-requested manual review before final render)
+- Full 94-beat contact sheet generated via `hyperframes snapshot` (one Chrome launch, then plain PNG/JPG review — no persistent browser)
+- Initial visual review flagged 7 candidate issues; rigorous re-verification via pure-ffmpeg frame extraction from actual .media/broll/*.mp4|jpg files (zero Chrome) found only 3 were real:
+  - beat 00: cold open used a Pexels "broadcast control room" clip, not a real anchor — user explicitly wanted an anchor; no rights-clean generic anchor-desk footage exists in Pexels/Openverse (deep web search confirmed Pixabay has real coverage but no API key configured this project). Fixed with an invented "BREAKING NEWS" broadcast graphic (red/white lower-third, LIVE indicator, scrolling ticker) — no real anchor depicted, avoids any rights/likeness issue.
+  - beat 06: rabbit-at-crate clip under "a transport crate was opened" narration — no real stock footage exists for a wildlife-release crate opening. Fixed with an invented anticipatory silhouette scene (dark crate, widening light seam, no animal shape drawn — the real reveal stays on beat 07's genuine tiger footage).
+  - beat 77: EUR/USDC cryptocurrency trading chart under "a measurable shift in behavior and plant growth on a timeline" — Pexels' "nature chart" pool is entirely finance/business charts. Fixed with real footage: pexels-v8522207 "time lapse of seedlings," a direct match for plant growth over time.
+  - beat 20 overlay: "1,960s" comma-formatting bug (`.toLocaleString()` applied to a bare year) — fixed to plain "1960s".
+- 4 other initially-flagged beats (07, 34, 47, 60) were FALSE ALARMS — confirmed correct on frame-accurate re-verification; the original flags were caused by sampling at transition-bleed moments or pre-reveal overlay timing, not real content errors. Lesson: never trust a single mid-beat snapshot sample without cross-checking the beat's actual downloaded source file directly.
+- Root-cause note for future runs: download-clip.mjs's idempotent skip-check can silently reuse a stale cached file (including a leftover `-raw.mp4` intermediate) even after `chosen` is overridden in the beat's JSON cache — when swapping a beat's media, delete BOTH `.media/broll/beat-NN.mp4` and `.media/broll/beat-NN-raw.mp4` before re-running download-clip.mjs, not just the final output.
+- npx hyperframes check re-run after all fixes: PASSED, 0 errors (only info-level container-overflow/ticker-loop notices, all expected/cosmetic)

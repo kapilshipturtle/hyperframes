@@ -5,84 +5,231 @@
       height: 1080px;
       position: relative;
       overflow: hidden;
-      background: #000;
+      background: #050608;
+      font-family: -apple-system, "Inter", sans-serif;
     }
-    .broll-wrap {
+
+    /* Base broadcast-blue/near-black gradient backdrop */
+    .clip.beat00bn-bg {
       position: absolute;
-      inset: -6%;
-      width: 112%;
-      height: 112%;
+      inset: 0;
+      background:
+        radial-gradient(ellipse at 30% 20%, rgba(20, 40, 70, 0.55) 0%, rgba(5, 6, 8, 0) 55%),
+        linear-gradient(160deg, #0a1420 0%, #060a10 55%, #040507 100%);
     }
-    .broll-media {
+
+    /* Subtle horizontal scanline / broadcast-texture overlay for TV authenticity */
+    .clip.beat00bn-scanlines {
+      position: absolute;
+      inset: 0;
+      background: repeating-linear-gradient(
+        to bottom,
+        rgba(255, 255, 255, 0.035) 0px,
+        rgba(255, 255, 255, 0.035) 1px,
+        rgba(0, 0, 0, 0) 1px,
+        rgba(0, 0, 0, 0) 3px
+      );
+      mix-blend-mode: overlay;
+      opacity: 0.5;
+    }
+
+    /* Faint vignette to keep the eye centered */
+    .clip.beat00bn-vignette {
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse at center, rgba(0,0,0,0) 40%, rgba(0,0,0,0.55) 100%);
+      pointer-events: none;
+    }
+
+    /* BREAKING NEWS bar — slides in from the left */
+    .beat00bn-bar-wrap {
+      position: absolute;
+      left: 0;
+      top: 640px;
       width: 100%;
+      height: 168px;
+      overflow: visible;
+    }
+    .beat00bn-bar {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 168px;
+      display: flex;
+      align-items: center;
+      transform: translateX(-110%);
+      will-change: transform;
+    }
+    .beat00bn-bar-tag {
+      background: #c22a2a;
+      color: #ffffff;
+      font-weight: 800;
+      font-size: 44px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      padding: 22px 56px;
       height: 100%;
-      object-fit: cover;
+      display: flex;
+      align-items: center;
+      box-shadow: 0 6px 24px rgba(0, 0, 0, 0.45);
     }
-    /* Cutaway sits absolutely over the primary media inside the same wrap
-       (so it inherits the same Ken Burns move on the wrap element, keeping
-       the two shots visually consistent) — starts transparent, GSAP
-       crossfades it in at --cutaway-at, see the script block below. */
-    .broll-cutaway {
-      position: absolute;
-      inset: 0;
+    .beat00bn-bar-body {
+      background: rgba(10, 12, 16, 0.92);
+      border-top: 3px solid #c22a2a;
+      border-bottom: 3px solid #c22a2a;
+      color: #f2f2f0;
+      font-weight: 600;
+      font-size: 34px;
+      letter-spacing: 0.5px;
+      padding: 22px 48px;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      flex: 1;
     }
-    /* 2.5D parallax layers (see gen-depth-layers.py) — both stacked full-
-       bleed inside the same wrap. The foreground is deliberately oversized
-       (rather than 100%) so its own independent translate (see parallaxCode
-       below) never slides a transparent edge into frame — the same
-       overscan-margin idea the wrap itself already uses, just at the layer
-       level since the fg moves MORE than the wrap's own Ken Burns alone. */
-    .broll-parallax-bg {
+
+    /* Ticker strip — continuous right-to-left crawl */
+    .beat00bn-ticker-wrap {
       position: absolute;
-      inset: 0;
-      object-fit: cover;
+      left: 0;
+      top: 808px;
+      width: 100%;
+      height: 64px;
+      background: rgba(6, 8, 11, 0.88);
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+      overflow: hidden;
     }
-    .broll-parallax-fg {
+    .beat00bn-ticker-label {
       position: absolute;
-      inset: -8%;
-      width: 116%;
-      height: 116%;
-      object-fit: contain;
-      object-position: center;
+      left: 0;
+      top: 0;
+      height: 64px;
+      display: flex;
+      align-items: center;
+      background: #1c2a3a;
+      color: #7fb0d8;
+      font-weight: 700;
+      font-size: 22px;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      padding: 0 32px;
+      z-index: 2;
     }
-    /* subtle bottom scrim so any burned-in captions stay readable over bright footage */
-    .broll-scrim {
+    .beat00bn-ticker-track {
       position: absolute;
-      inset: 0;
-      background: linear-gradient(to top, rgba(0,0,0,0.35) 0%, rgba(0,0,0,0) 22%);
-      pointer-events: none;
+      top: 0;
+      left: 220px;
+      height: 64px;
+      display: flex;
+      align-items: center;
+      white-space: nowrap;
+      will-change: transform;
     }
-    /* Optional per-beat vignette — a real, if modest, "composited" texture
-       layer distinct from the global grain overlay (which is flat, uniform,
-       full-timeline). Researched documentary/explainer-channel convention:
-       supporting texture layers COMPOSITED WITH the base clip, in the same
-       frame, is the single highest-leverage visual-quality delta over "one
-       flat clip per beat" — this is the smallest, most self-contained piece
-       of that: a soft radial darkening toward the frame edges, drawing the
-       eye toward center/subject the way a real lens vignette does. Opt-in
-       per beat via --vignette, never global/automatic (unlike grain) since
-       its strength should vary by shot mood, not apply uniformly.*/
-    .broll-vignette {
+    .beat00bn-ticker-track span {
+      color: rgba(242, 242, 240, 0.82);
+      font-size: 24px;
+      font-weight: 500;
+      padding-right: 90px;
+    }
+
+    /* LIVE indicator */
+    .beat00bn-live {
       position: absolute;
-      inset: 0;
-      background: radial-gradient(ellipse at center, rgba(0,0,0,0) 45%, rgba(0,0,0,0) 100%);
-      pointer-events: none;
+      top: 64px;
+      right: 72px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      opacity: 0;
+    }
+    .beat00bn-live-dot {
+      width: 18px;
+      height: 18px;
+      border-radius: 50%;
+      background: #e0685a;
+      box-shadow: 0 0 12px rgba(224, 104, 90, 0.8);
+    }
+    .beat00bn-live-label {
+      color: #f2f2f0;
+      font-weight: 700;
+      font-size: 26px;
+      letter-spacing: 3px;
     }
   </style>
 
-  <div data-hf-id="hf-ypnd" id="root" data-composition-id="00-beat" data-width="1920" data-height="1080" data-duration="3">
-    <div data-hf-id="hf-9vgv" class="broll-wrap" id="f-00-beat-wrap">
-      <video data-hf-id="hf-29si" id="f-00-beat-media" class="broll-media clip" src=".media/broll/beat-00.mp4" muted playsinline data-start="0" data-duration="3.00" data-media-start="0" data-track-index="0"></video>
+  <div id="root" data-composition-id="00-beat" data-width="1920" data-height="1080" data-duration="3.0">
+    <div id="beat00bn-bg" class="clip beat00bn-bg" data-start="0" data-duration="3.0" data-track-index="0"></div>
+    <div id="beat00bn-scanlines" class="clip beat00bn-scanlines" data-start="0" data-duration="3.0" data-track-index="1"></div>
+
+    <div class="beat00bn-live" id="beat00bn-live">
+      <div class="beat00bn-live-dot" id="beat00bn-live-dot"></div>
+      <div class="beat00bn-live-label">LIVE</div>
     </div>
-    <div data-hf-id="hf-acut" class="broll-scrim clip" id="f-00-beat-scrim" data-start="0" data-duration="3.00" data-track-index="1"></div>
+
+    <div class="beat00bn-bar-wrap">
+      <div class="beat00bn-bar" id="beat00bn-bar">
+        <div class="beat00bn-bar-tag">Breaking News</div>
+        <div class="beat00bn-bar-body">International wildlife correspondents report developing story</div>
+      </div>
+    </div>
+
+    <div class="beat00bn-ticker-wrap">
+      <div class="beat00bn-ticker-label">Wildlife Wire</div>
+      <div class="beat00bn-ticker-track" id="beat00bn-ticker">
+        <span>Conservation officials confirm rare big-cat sighting in remote highland reserve</span>
+        <span>Researchers say population recovery effort enters critical new phase</span>
+        <span>Conservation officials confirm rare big-cat sighting in remote highland reserve</span>
+        <span>Researchers say population recovery effort enters critical new phase</span>
+      </div>
+    </div>
+
+    <div id="beat00bn-vignette" class="clip beat00bn-vignette" data-start="0" data-duration="3.0" data-track-index="2"></div>
   </div>
 
   <script>
     (function () {
       window.__timelines = window.__timelines || {};
       var tl = gsap.timeline({ paused: true });
-      var wrap = document.getElementById("f-00-beat-wrap");
-      gsap.set(wrap, { scale: 1.0 });
+
+      var bar = document.getElementById("beat00bn-bar");
+      var live = document.getElementById("beat00bn-live");
+      var liveDot = document.getElementById("beat00bn-live-dot");
+      var ticker = document.getElementById("beat00bn-ticker");
+
+      // Breaking-news bar slides in from the left within the first ~0.8s and holds.
+      tl.to(bar, { x: "0%", duration: 0.8, ease: "power3.out" }, 0.15);
+
+      // LIVE indicator fades in shortly after the bar starts moving.
+      tl.to(live, { opacity: 1, duration: 0.35, ease: "power1.out" }, 0.4);
+
+      // Deterministic sine-based pulse for the LIVE dot via GSAP onUpdate — no CSS
+      // @keyframes, no Math.random(). Runs across the remaining duration so it is
+      // still pulsing at the end of the clip.
+      var pulseState = { t: 0 };
+      tl.to(pulseState, {
+        t: Math.PI * 2 * 3.5, // ~3.5 pulse cycles across the beat
+        duration: 2.6,
+        ease: "none",
+        onUpdate: function () {
+          var s = (Math.sin(pulseState.t) + 1) / 2; // 0..1
+          var scale = 0.85 + s * 0.3;
+          var opacity = 0.55 + s * 0.45;
+          gsap.set(liveDot, { scale: scale, opacity: opacity });
+        }
+      }, 0.4);
+
+      // Continuous right-to-left ticker crawl, scrolling by the end of the beat.
+      // Track content is duplicated in the markup so the loop-point (at -50%)
+      // reads seamlessly; deterministic linear tween, no repeat:-1 (renderer
+      // seeks frame-by-frame so a single finite tween across full duration
+      // keeps it seek-safe).
+      tl.fromTo(ticker,
+        { x: "0%" },
+        { x: "-50%", duration: 3.0, ease: "none" },
+        0
+      );
+
       window.__timelines["00-beat"] = tl;
     })();
   </script>

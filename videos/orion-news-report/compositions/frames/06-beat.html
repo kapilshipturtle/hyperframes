@@ -7,82 +7,229 @@
       overflow: hidden;
       background: #000;
     }
-    .broll-wrap {
-      position: absolute;
-      inset: -6%;
-      width: 112%;
-      height: 112%;
-    }
-    .broll-media {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
-    /* Cutaway sits absolutely over the primary media inside the same wrap
-       (so it inherits the same Ken Burns move on the wrap element, keeping
-       the two shots visually consistent) — starts transparent, GSAP
-       crossfades it in at --cutaway-at, see the script block below. */
-    .broll-cutaway {
+
+    /* Full-bleed dawn gradient — soft amber-to-charcoal, suggesting a spring
+       morning at the edge of a wetland. Static gradient; the atmosphere here
+       comes from the crate/light animation, not a moving background. */
+    .beat06-bg {
       position: absolute;
       inset: 0;
+      background: linear-gradient(
+        to bottom,
+        #2b241d 0%,
+        #241f1c 28%,
+        #17151a 60%,
+        #0e0d10 100%
+      );
     }
-    /* 2.5D parallax layers (see gen-depth-layers.py) — both stacked full-
-       bleed inside the same wrap. The foreground is deliberately oversized
-       (rather than 100%) so its own independent translate (see parallaxCode
-       below) never slides a transparent edge into frame — the same
-       overscan-margin idea the wrap itself already uses, just at the layer
-       level since the fg moves MORE than the wrap's own Ken Burns alone. */
-    .broll-parallax-bg {
+
+    /* Faint horizon glow low in frame, reinforcing "dawn at the wetland edge"
+       without drawing any literal landscape shapes. */
+    .beat06-horizon {
       position: absolute;
-      inset: 0;
-      object-fit: cover;
-    }
-    .broll-parallax-fg {
-      position: absolute;
-      inset: -8%;
-      width: 116%;
-      height: 116%;
-      object-fit: contain;
-      object-position: center;
-    }
-    /* subtle bottom scrim so any burned-in captions stay readable over bright footage */
-    .broll-scrim {
-      position: absolute;
-      inset: 0;
-      background: linear-gradient(to top, rgba(0,0,0,0.35) 0%, rgba(0,0,0,0) 22%);
+      left: 0;
+      right: 0;
+      bottom: 30%;
+      height: 40%;
+      background: radial-gradient(
+        ellipse 70% 100% at 50% 100%,
+        rgba(214, 160, 96, 0.16) 0%,
+        rgba(214, 160, 96, 0) 70%
+      );
       pointer-events: none;
     }
-    /* Optional per-beat vignette — a real, if modest, "composited" texture
-       layer distinct from the global grain overlay (which is flat, uniform,
-       full-timeline). Researched documentary/explainer-channel convention:
-       supporting texture layers COMPOSITED WITH the base clip, in the same
-       frame, is the single highest-leverage visual-quality delta over "one
-       flat clip per beat" — this is the smallest, most self-contained piece
-       of that: a soft radial darkening toward the frame edges, drawing the
-       eye toward center/subject the way a real lens vignette does. Opt-in
-       per beat via --vignette, never global/automatic (unlike grain) since
-       its strength should vary by shot mood, not apply uniformly.*/
-    .broll-vignette {
+
+    /* Single stage layer carrying the crate + seam + spill + shadow group,
+       centered in frame; all children below are plain animated divs inside
+       this one timed clip layer. */
+    .beat06-stage {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      width: 620px;
+      height: 500px;
+    }
+
+    /* Ground shadow anchoring the crate to a surface. */
+    .beat06-ground-shadow {
+      position: absolute;
+      left: 50%;
+      bottom: 18%;
+      width: 620px;
+      height: 60px;
+      transform: translateX(-50%);
+      background: radial-gradient(ellipse at center, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0) 75%);
+      pointer-events: none;
+    }
+
+    /* The crate itself: a dark rectangular silhouette, centered. */
+    .beat06-crate {
+      position: absolute;
+      left: 50%;
+      bottom: 22%;
+      width: 480px;
+      height: 340px;
+      transform: translateX(-50%);
+      background: #0b0a0c;
+      border: 2px solid rgba(255, 255, 255, 0.04);
+      box-shadow: 0 40px 90px rgba(0, 0, 0, 0.6);
+    }
+
+    /* Subtle crate slat lines — quiet texture, not a literal illustration. */
+    .beat06-crate::before {
+      content: "";
+      position: absolute;
+      inset: 18px;
+      border: 1px solid rgba(255, 255, 255, 0.03);
+    }
+    .beat06-crate::after {
+      content: "";
+      position: absolute;
+      left: 50%;
+      top: 18px;
+      bottom: 18px;
+      width: 1px;
+      background: rgba(255, 255, 255, 0.03);
+    }
+
+    /* The door seam: a thin bright line down the crate's front edge that
+       widens into a wedge of light as the door swings open. Anchored to the
+       crate's left edge, growing rightward. Interior stays pure black — no
+       animal shape is ever drawn; the reveal belongs to beat 07. */
+    .beat06-seam-wrap {
+      position: absolute;
+      left: 50%;
+      bottom: 22%;
+      width: 480px;
+      height: 340px;
+      transform: translateX(-50%);
+      overflow: hidden;
+    }
+    .beat06-seam-glow {
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      width: 6px;
+      background: linear-gradient(
+        to right,
+        rgba(232, 197, 140, 0.95) 0%,
+        rgba(232, 197, 140, 0.5) 60%,
+        rgba(232, 197, 140, 0) 100%
+      );
+      filter: blur(1px);
+    }
+    /* Interior wedge — solid black, sits just right of the seam glow so the
+       crate reads as "opening" without ever revealing an interior form. */
+    .beat06-interior {
+      position: absolute;
+      left: 6px;
+      top: 4px;
+      bottom: 4px;
+      width: 0px;
+      background: #000;
+    }
+
+    /* Wedge of warm light spilling onto the ground in front of the crate —
+       appears only late, as the door widens. */
+    .beat06-spill {
+      position: absolute;
+      left: 50%;
+      bottom: 21%;
+      width: 40px;
+      height: 46px;
+      transform: translateX(-50%) skewX(0deg);
+      background: linear-gradient(to bottom, rgba(232, 197, 140, 0.35), rgba(232, 197, 140, 0));
+      clip-path: polygon(35% 0%, 65% 0%, 100% 100%, 0% 100%);
+      opacity: 0;
+      filter: blur(2px);
+    }
+
+    /* Fine grain-like vignette for documentary consistency; quiet, static.
+       Edges carry a faint tone-accent cast (solemn muted violet-gray) rather
+       than pure black, tying this scene's mood to the rest of the video's
+       accent vocabulary without introducing a second competing hue. */
+    .beat06-vignette {
       position: absolute;
       inset: 0;
-      background: radial-gradient(ellipse at center, rgba(0,0,0,0) 45%, rgba(0,0,0,0) 100%);
+      background: radial-gradient(ellipse at 50% 45%, rgba(0,0,0,0) 40%, rgba(20,17,26,0.5) 100%);
       pointer-events: none;
     }
   </style>
 
-  <div data-hf-id="hf-jr59" id="root" data-composition-id="06-beat" data-width="1920" data-height="1080" data-duration="9.22">
-    <div data-hf-id="hf-ljkh" class="broll-wrap" id="f-06-beat-wrap">
-      <video data-hf-id="hf-yj0g" id="f-06-beat-media" class="broll-media clip" src=".media/broll/beat-06.mp4" muted playsinline data-start="0" data-duration="9.22" data-media-start="0" data-track-index="0"></video>
+  <div id="root" data-composition-id="06-beat" data-width="1920" data-height="1080" data-duration="9.22">
+    <div class="beat06-bg clip" id="beat06-bg" data-start="0" data-duration="9.22" data-track-index="0"></div>
+    <div class="beat06-horizon" id="beat06-horizon"></div>
+    <div class="beat06-stage clip" id="beat06-stage" data-start="0" data-duration="9.22" data-track-index="1">
+      <div class="beat06-ground-shadow" id="beat06-ground-shadow"></div>
+      <div class="beat06-crate" id="beat06-crate"></div>
+      <div class="beat06-seam-wrap" id="beat06-seam-wrap">
+        <div class="beat06-interior" id="beat06-interior"></div>
+        <div class="beat06-seam-glow" id="beat06-seam-glow"></div>
+      </div>
+      <div class="beat06-spill" id="beat06-spill"></div>
     </div>
-    <div data-hf-id="hf-v9bd" class="broll-scrim clip" id="f-06-beat-scrim" data-start="0" data-duration="9.22" data-track-index="1"></div>
+    <div class="beat06-vignette"></div>
   </div>
 
   <script>
     (function () {
       window.__timelines = window.__timelines || {};
       var tl = gsap.timeline({ paused: true });
-      var wrap = document.getElementById("f-06-beat-wrap");
-      gsap.set(wrap, { scale: 1.0 });
+
+      var horizon = document.getElementById("beat06-horizon");
+      var interior = document.getElementById("beat06-interior");
+      var seamGlow = document.getElementById("beat06-seam-glow");
+      var spill = document.getElementById("beat06-spill");
+      var groundShadow = document.getElementById("beat06-ground-shadow");
+
+      // Establish resting state at t=0: seam is a hairline, interior closed,
+      // no spill yet, ground shadow tight under the closed crate.
+      gsap.set(horizon, { opacity: 0.7 });
+      gsap.set(interior, { width: 0 });
+      gsap.set(seamGlow, { opacity: 0.6 });
+      gsap.set(spill, { opacity: 0, scaleY: 0.6, transformOrigin: "top center" });
+      gsap.set(groundShadow, { scaleX: 1 });
+
+      // Slow dawn-light breathing on the horizon glow across the whole
+      // duration — quiet ambience, not the main event.
+      tl.to(horizon, { opacity: 1, duration: 9.22, ease: "sine.inOut" }, 0);
+
+      // The held-breath opening: the seam widens gradually across most of
+      // the duration (roughly 15% -> 92%), never popping open instantly.
+      // Interior stays solid black the entire time — no animal silhouette
+      // is ever drawn; only a widening dark gap + a spilling wedge of light.
+      tl.to(interior, {
+        width: 210,
+        duration: 6.9,
+        ease: "power1.inOut"
+      }, 1.4);
+
+      tl.to(seamGlow, {
+        x: 210,
+        duration: 6.9,
+        ease: "power1.inOut"
+      }, 1.4);
+
+      // The ground-spill light only becomes visible once the door has
+      // opened enough to plausibly cast light outward (starts ~55% in),
+      // growing gently through to the end.
+      tl.to(spill, {
+        opacity: 1,
+        scaleY: 1,
+        duration: 3.4,
+        ease: "sine.out"
+      }, 5.1);
+
+      // Ground shadow widens very slightly as the door opens, following the
+      // added light spill.
+      tl.to(groundShadow, {
+        scaleX: 1.25,
+        duration: 3.6,
+        ease: "sine.out"
+      }, 5.4);
+
       window.__timelines["06-beat"] = tl;
     })();
   </script>

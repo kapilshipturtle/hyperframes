@@ -111,7 +111,7 @@
         tl.fromTo("#f-20-beat-ov", { opacity: 0, y: 14, scale: 0.94 }, { opacity: 1, y: 0, scale: 1, duration: 0.38, ease: "power3.out" }, 0.08);
         tl.fromTo("#f-20-beat-ov-icon", { opacity: 0, scale: 0.6 }, { opacity: 1, scale: 1, duration: 0.32, ease: "back.out(1.6)" }, 0.28);
         tl.fromTo("#f-20-beat-ov-wrap", { opacity: 0 }, { opacity: 1, duration: 0.01 }, 0.42);
-        tl.to(state, { value: 1960, duration: 1.1, ease: "power2.out", onUpdate: function () { el.textContent = Math.round(state.value).toLocaleString(); } }, 0.42);
+        tl.to(state, { value: 1960, duration: 1.1, ease: "power2.out", onUpdate: function () { el.textContent = Math.round(state.value); } }, 0.42);
         tl.fromTo(el, { scale: 0.72 }, { scale: 1, duration: 1.1, ease: "back.out(1.5)" }, 0.42);
         tl.to("#f-20-beat-ov-fill", { scaleX: 0.6533, duration: 1.1, ease: "power2.out" }, 0.42);
         tl.fromTo("#f-20-beat-ov-label", { opacity: 0, y: 6 }, { opacity: 1, y: 0, duration: 0.3, ease: "power3.out" }, 1.37);

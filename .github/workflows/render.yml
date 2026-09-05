@@ -385,6 +385,19 @@ jobs:
           echo "All 3 render attempts failed"
           exit 1
 
+      # Informational style gate (profile additions): measures the finished
+      # render against the project's editing profile (.hyperframes/style-profile.json,
+      # written at the run-shape question). Never fails the job — the numbers
+      # land in the run log for the orchestrator to read.
+      - name: Style gate (informational)
+        continue-on-error: true
+        working-directory: ${{ github.event.inputs.project }}
+        run: |
+          node "$GITHUB_WORKSPACE/ci/documentary-broll/scripts/verify-style.mjs" --render renders/video.mp4 --soft \
+            --beats .hyperframes/beats.json --transitions .hyperframes/transitions.json --overlays .hyperframes/overlays.json \
+            --sfx-offsets .hyperframes/sfx-offsets.json --punches .hyperframes/punches.json --audio-meta audio_meta.json \
+            --storyboard STORYBOARD.md --log .hyperframes/run-log.md || true
+
       - name: Normalize loudness
         # On workflow_dispatch, respect the explicit input. On push (no
         # `inputs` exist at all on that event — github.event.inputs.normalize

@@ -41,6 +41,7 @@
 
 import { readFileSync, existsSync, readdirSync } from "node:fs";
 import { logIfRequested } from "./lib/run-log.mjs";
+import { dirname, resolve, join as pjoin } from "node:path";
 
 function flag(argv, name, def) {
   const i = argv.indexOf(`--${name}`);
@@ -107,6 +108,37 @@ async function main() {
         `invented-scene in ${sceneChoicesPath} — assemble-index.mjs's frame/duration matching may break, ` +
         `and if it also has a broll cache file, check 1 above already covers the CI failure mode.`
       );
+    }
+  }
+
+  // Check 4 (profile additions): a music bed referenced by audio_meta.json must
+  // exist as a committed file — CI assembles from the committed tree, and a
+  // missing bgm path would fail the render's asset lint after a full setup.
+  const audioMetaPath = pjoin(dirname(resolve(storyboardPath)), "audio_meta.json");
+  if (existsSync(audioMetaPath)) {
+    try {
+      const am = JSON.parse(readFileSync(audioMetaPath, "utf8"));
+      if (am?.bgm?.path && !existsSync(pjoin(dirname(resolve(storyboardPath)), am.bgm.path))) {
+        problems.push(`audio_meta.json points bgm at ${am.bgm.path} but that file does not exist — run plan-bgm.mjs (or clear bgm) and COMMIT assets/bgm/*.mp3 before pushing.`);
+      }
+    } catch (e) { problems.push(`audio_meta.json is not valid JSON (${e.message})`); }
+  }
+  // Check 5 (informational): distinct video sources — hyperframes' video_extract
+  // opens one ffmpeg per unique source with no throttle; ~100+ distinct
+  // sources need the chunked render path (render-chunked.yml). Not a failure,
+  // a loud pointer to the right workflow.
+  if (existsSync(brollDir)) {
+    const urls = new Set();
+    for (const f of readdirSync(brollDir).filter((f) => /^beat-.+\.json$/.test(f))) {
+      try {
+        const j = JSON.parse(readFileSync(pjoin(brollDir, f), "utf8"));
+        for (const c of [j.chosen, j.cutaway]) if (c && c.mediaType !== "photo" && c.downloadUrl) urls.add(c.downloadUrl);
+      } catch {}
+    }
+    if (urls.size >= 100) {
+      console.log(`  ⚠ ${urls.size} distinct VIDEO sources — above the ~100 threshold where render.yml fails on video_extract concurrency. Use the chunked path: split-for-chunked-render.mjs + render-chunked.yml (see SKILL.md "Chunked rendering").`);
+    } else {
+      console.log(`  • ${urls.size} distinct video source(s) — single-job render.yml is fine (chunked path needed at ~100+).`);
     }
   }
 

@@ -222,8 +222,18 @@ async function processVideo({ chosen, beatId, targetDuration, brollDir, grade, f
   // rather than risk ffmpeg's own behavior on an already-broken output path.
   if (existsSync(outPath)) rmSync(outPath);
 
+  // Stale-raw guard (a real re-run bug): a leftover beat-NN-raw.mp4 from a
+  // DIFFERENT candidate was silently reused when the chosen clip changed. The
+  // raw's source URL is recorded in a sidecar; a mismatch deletes the raw (and
+  // any processed output) so the new choice is actually downloaded.
+  const urlSidecar = `${rawPath}.url`;
+  if (existsSync(rawPath) && existsSync(urlSidecar) && readFileSync(urlSidecar, "utf8").trim() !== String(chosen.downloadUrl)) {
+    console.log(`  ↻ download-clip: beat-${beatId} raw belongs to a different candidate — re-downloading`);
+    rmSync(rawPath); if (existsSync(outPath)) rmSync(outPath);
+  }
   if (!existsSync(rawPath) || statSync(rawPath).size === 0) {
     await download(chosen.downloadUrl, rawPath);
+    writeFileSync(urlSidecar, String(chosen.downloadUrl));
   }
 
   // THE actual root cause behind 3 failed "fix the render step" attempts in
@@ -345,8 +355,18 @@ async function processPhoto({ chosen, beatId, brollDir, grade, lut, effect }) {
   }
   if (existsSync(outPath)) rmSync(outPath);
 
+  // Stale-raw guard (a real re-run bug): a leftover beat-NN-raw.mp4 from a
+  // DIFFERENT candidate was silently reused when the chosen clip changed. The
+  // raw's source URL is recorded in a sidecar; a mismatch deletes the raw (and
+  // any processed output) so the new choice is actually downloaded.
+  const urlSidecar = `${rawPath}.url`;
+  if (existsSync(rawPath) && existsSync(urlSidecar) && readFileSync(urlSidecar, "utf8").trim() !== String(chosen.downloadUrl)) {
+    console.log(`  ↻ download-clip: beat-${beatId} raw belongs to a different candidate — re-downloading`);
+    rmSync(rawPath); if (existsSync(outPath)) rmSync(outPath);
+  }
   if (!existsSync(rawPath) || statSync(rawPath).size === 0) {
     await download(chosen.downloadUrl, rawPath);
+    writeFileSync(urlSidecar, String(chosen.downloadUrl));
   }
 
   // Letterbox-crop to the canvas so every frame — video or photo — fills

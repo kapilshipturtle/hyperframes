@@ -95,6 +95,23 @@ jobs:
         with:
           node-version: "22"
 
+      - name: Free runner disk space (needed for video_extract)
+        # video_extract decodes ALL video sources to raw frames in temp space
+        # before capture begins. This film's 167 clips are only 532 MB on disk
+        # but are 13.3 min of 1920x1080 footage, which is ~190 GB decoded —
+        # far past a stock runner's ~14 GB free. --low-memory-mode does NOT
+        # cover this stage (it governs capture/encode, not extraction), which
+        # is why runs at 10 AND 3 workers both died here identically with a
+        # bare "runner has received a shutdown signal" and no OOM/disk text.
+        # GitHub images ship ~30 GB of toolchains this render never uses.
+        run: |
+          echo "before:"; df -h / | tail -1
+          sudo rm -rf /usr/share/dotnet /usr/local/lib/android /opt/ghc \
+                      /usr/local/share/boost "$AGENT_TOOLSDIRECTORY" \
+                      /usr/local/share/powershell /usr/share/swift || true
+          sudo apt-get clean || true
+          echo "after:"; df -h / | tail -1
+
       - name: Install ffmpeg
         run: sudo apt-get update && sudo apt-get install -y ffmpeg
 
@@ -353,7 +370,7 @@ jobs:
         #     and removes the disk ceiling entirely.
         run: |
           mkdir -p renders
-          df -h / | tail -1   # keep runner disk visible in the log
+          echo "disk/mem before render:"; df -h / | tail -1; free -g | head -2
           for attempt in 1 2 3; do
             echo "::group::Render attempt $attempt/3"
             if npx --yes hyperframes@0.8.17 render --skill=documentary-broll --no-browser-gpu --workers 3 --browser-timeout 180 --protocol-timeout 900000 --quality high --low-memory-mode --output renders/video.mp4; then

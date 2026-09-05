@@ -315,11 +315,24 @@ jobs:
         # (the render tool's own failure payload says `"retryable": true`
         # for exactly this reason), so a run that hits a slow stretch of I/O
         # has a real chance of not hitting it again on a fresh attempt.
+        # 11. --low-memory-mode added after a real 13-minute/145-beat film
+        #     (videos/altair-doc) killed the runner outright: exit code 143,
+        #     "The runner has received a shutdown signal", immediately after
+        #     all 167 videos extracted. Root cause is NOT concurrency and not
+        #     the sparse-keyframe class above — it is disk. Default capture
+        #     stages uncompressed frames to disk; that film asked for ~190 GB
+        #     of temporary frame storage (measured locally, where it failed
+        #     the same way with a clear message) and a GitHub-hosted runner
+        #     has only ~14.2 GB available. Shorter films fit and is why this
+        #     went unnoticed until now. --low-memory-mode streams frames to
+        #     the encoder instead of staging them, which is the documented fix
+        #     and removes the disk ceiling entirely.
         run: |
           mkdir -p renders
+          df -h / | tail -1   # keep runner disk visible in the log
           for attempt in 1 2 3; do
             echo "::group::Render attempt $attempt/3"
-            if npx --yes hyperframes@0.8.17 render --skill=documentary-broll --no-browser-gpu --workers 10 --browser-timeout 180 --protocol-timeout 900000 --quality high --output renders/video.mp4; then
+            if npx --yes hyperframes@0.8.17 render --skill=documentary-broll --no-browser-gpu --workers 10 --browser-timeout 180 --protocol-timeout 900000 --quality high --low-memory-mode --output renders/video.mp4; then
               echo "::endgroup::"
               echo "Render succeeded on attempt $attempt"
               exit 0

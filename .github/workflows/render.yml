@@ -315,8 +315,32 @@ jobs:
         # (the render tool's own failure payload says `"retryable": true`
         # for exactly this reason), so a run that hits a slow stretch of I/O
         # has a real chance of not hitting it again on a fresh attempt.
-        # 11. --low-memory-mode added after a real 13-minute/145-beat film
-        #     (videos/altair-doc) killed the runner outright: exit code 143,
+        # 12. --workers 10 -> 3 for videos/altair-doc (13 min, 145 beats,
+        #     167 video sources). This is the "FUTURE run shows contention
+        #     symptoms again" case step 10 explicitly said to watch for, and
+        #     it arrived. TWO runs (33950966805, 33951743780) both died at
+        #     phase video_extract with "runner has received a shutdown
+        #     signal" / exit 143 — the second WITH --low-memory-mode already
+        #     active, which proves it is not the disk-staging problem from
+        #     entry 11 (no disk-capacity error is ever printed in CI).
+        #     It is RAM: the runner reports totalMemMb 15989 and the render
+        #     spawns `requestedWorkers: 10`, each a headless Chrome + ffmpeg,
+        #     all holding open a share of 167 video sources during extraction.
+        #     The kernel OOM-kills the runner agent, which GitHub surfaces
+        #     only as a bare shutdown signal with no OOM text in the job log.
+        #     Step 10's clean 10-worker run was a film with a HIGHER frame
+        #     count (27,315) but far fewer concurrent video sources, so frame
+        #     count was never the relevant axis — concurrent source count is.
+        #     3 workers is below the runner's 4 cores, leaving headroom for
+        #     the agent itself. Revisit only with a real measured run.
+        #
+        # 11. --low-memory-mode kept (still correct, just for a different
+        #     reason than first diagnosed): it fixes the LOCAL disk wall,
+        #     where a 13-min film asks for ~190 GB of uncompressed frame
+        #     staging (22,889 frames x 1920x1080x4B) against 103 GB free.
+        #     Local fails with a clear disk-capacity message; CI never did.
+        #     Original note follows.
+        #     First added after exit code 143,
         #     "The runner has received a shutdown signal", immediately after
         #     all 167 videos extracted. Root cause is NOT concurrency and not
         #     the sparse-keyframe class above — it is disk. Default capture
@@ -332,7 +356,7 @@ jobs:
           df -h / | tail -1   # keep runner disk visible in the log
           for attempt in 1 2 3; do
             echo "::group::Render attempt $attempt/3"
-            if npx --yes hyperframes@0.8.17 render --skill=documentary-broll --no-browser-gpu --workers 10 --browser-timeout 180 --protocol-timeout 900000 --quality high --low-memory-mode --output renders/video.mp4; then
+            if npx --yes hyperframes@0.8.17 render --skill=documentary-broll --no-browser-gpu --workers 3 --browser-timeout 180 --protocol-timeout 900000 --quality high --low-memory-mode --output renders/video.mp4; then
               echo "::endgroup::"
               echo "Render succeeded on attempt $attempt"
               exit 0

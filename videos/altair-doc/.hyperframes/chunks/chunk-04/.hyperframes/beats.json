@@ -1,0 +1,1249 @@
+{
+  "beats": [
+    {
+      "id": "131",
+      "text": "That's a true answer, and you deserve to have it. But most people are not that household.",
+      "start": 701.94,
+      "end": 706.87,
+      "durationSeconds": 4.93,
+      "words": [
+        {
+          "text": "That's",
+          "start": 701.94,
+          "end": 702.07
+        },
+        {
+          "text": "a",
+          "start": 702.07,
+          "end": 702.14
+        },
+        {
+          "text": "true",
+          "start": 702.14,
+          "end": 702.41
+        },
+        {
+          "text": "answer,",
+          "start": 702.41,
+          "end": 702.95
+        },
+        {
+          "text": "and",
+          "start": 702.95,
+          "end": 703.14
+        },
+        {
+          "text": "you",
+          "start": 703.14,
+          "end": 703.35
+        },
+        {
+          "text": "deserve",
+          "start": 703.35,
+          "end": 703.43
+        },
+        {
+          "text": "to",
+          "start": 703.43,
+          "end": 704.04
+        },
+        {
+          "text": "have",
+          "start": 704.04,
+          "end": 704.19
+        },
+        {
+          "text": "it.",
+          "start": 704.29,
+          "end": 704.71
+        },
+        {
+          "text": "But",
+          "start": 704.71,
+          "end": 704.89
+        },
+        {
+          "text": "most",
+          "start": 705.16,
+          "end": 705.28
+        },
+        {
+          "text": "people",
+          "start": 705.28,
+          "end": 705.48
+        },
+        {
+          "text": "are",
+          "start": 705.48,
+          "end": 705.63
+        },
+        {
+          "text": "not",
+          "start": 705.93,
+          "end": 705.94
+        },
+        {
+          "text": "that",
+          "start": 705.95,
+          "end": 706.18
+        },
+        {
+          "text": "household.",
+          "start": 706.18,
+          "end": 706.87
+        }
+      ]
+    },
+    {
+      "id": "132",
+      "text": "Most people have three or four of these sitting on their bill tonight.",
+      "start": 706.97,
+      "end": 710.55,
+      "durationSeconds": 3.58,
+      "words": [
+        {
+          "text": "Most",
+          "start": 706.97,
+          "end": 707.14
+        },
+        {
+          "text": "people",
+          "start": 707.14,
+          "end": 707.44
+        },
+        {
+          "text": "have",
+          "start": 707.44,
+          "end": 707.85
+        },
+        {
+          "text": "three",
+          "start": 707.85,
+          "end": 708.04
+        },
+        {
+          "text": "or",
+          "start": 708.04,
+          "end": 708.16
+        },
+        {
+          "text": "four",
+          "start": 708.16,
+          "end": 708.39
+        },
+        {
+          "text": "of",
+          "start": 708.39,
+          "end": 708.4
+        },
+        {
+          "text": "these",
+          "start": 708.59,
+          "end": 708.82
+        },
+        {
+          "text": "sitting",
+          "start": 708.82,
+          "end": 709.23
+        },
+        {
+          "text": "on",
+          "start": 709.23,
+          "end": 709.27
+        },
+        {
+          "text": "their",
+          "start": 709.38,
+          "end": 709.66
+        },
+        {
+          "text": "bill",
+          "start": 709.88,
+          "end": 709.9
+        },
+        {
+          "text": "tonight.",
+          "start": 709.9,
+          "end": 710.55
+        }
+      ]
+    },
+    {
+      "id": "133",
+      "text": "When you call, you don't need a speech. You need five questions in this order.",
+      "start": 710.73,
+      "end": 715.41,
+      "durationSeconds": 4.68,
+      "words": [
+        {
+          "text": "When",
+          "start": 710.73,
+          "end": 710.84
+        },
+        {
+          "text": "you",
+          "start": 710.84,
+          "end": 711.05
+        },
+        {
+          "text": "call,",
+          "start": 711.05,
+          "end": 711.46
+        },
+        {
+          "text": "you",
+          "start": 711.48,
+          "end": 711.67
+        },
+        {
+          "text": "don't",
+          "start": 711.77,
+          "end": 711.94
+        },
+        {
+          "text": "need",
+          "start": 712.04,
+          "end": 712.27
+        },
+        {
+          "text": "a",
+          "start": 712.27,
+          "end": 712.65
+        },
+        {
+          "text": "speech.",
+          "start": 712.65,
+          "end": 713.01
+        },
+        {
+          "text": "You",
+          "start": 713.01,
+          "end": 713.19
+        },
+        {
+          "text": "need",
+          "start": 713.37,
+          "end": 713.43
+        },
+        {
+          "text": "five",
+          "start": 713.53,
+          "end": 713.77
+        },
+        {
+          "text": "questions",
+          "start": 713.78,
+          "end": 714.07
+        },
+        {
+          "text": "in",
+          "start": 714.27,
+          "end": 714.55
+        },
+        {
+          "text": "this",
+          "start": 714.68,
+          "end": 714.83
+        },
+        {
+          "text": "order.",
+          "start": 714.83,
+          "end": 715.41
+        }
+      ]
+    },
+    {
+      "id": "134",
+      "text": "One, what rate class am I on, and what else do I qualify for?",
+      "start": 715.52,
+      "end": 720.15,
+      "durationSeconds": 4.63,
+      "words": [
+        {
+          "text": "One,",
+          "start": 715.52,
+          "end": 715.64
+        },
+        {
+          "text": "what",
+          "start": 715.64,
+          "end": 716.41
+        },
+        {
+          "text": "rate",
+          "start": 716.41,
+          "end": 716.44
+        },
+        {
+          "text": "class",
+          "start": 716.44,
+          "end": 716.91
+        },
+        {
+          "text": "am",
+          "start": 716.92,
+          "end": 717.11
+        },
+        {
+          "text": "I",
+          "start": 717.11,
+          "end": 717.2
+        },
+        {
+          "text": "on,",
+          "start": 717.2,
+          "end": 717.56
+        },
+        {
+          "text": "and",
+          "start": 717.61,
+          "end": 717.87
+        },
+        {
+          "text": "what",
+          "start": 717.87,
+          "end": 717.94
+        },
+        {
+          "text": "else",
+          "start": 718.33,
+          "end": 718.63
+        },
+        {
+          "text": "do",
+          "start": 718.63,
+          "end": 718.82
+        },
+        {
+          "text": "I",
+          "start": 718.82,
+          "end": 718.88
+        },
+        {
+          "text": "qualify",
+          "start": 719.07,
+          "end": 719.54
+        },
+        {
+          "text": "for?",
+          "start": 719.59,
+          "end": 720.15
+        }
+      ]
+    },
+    {
+      "id": "135",
+      "text": "Two, am I on your default supply or a third-party supplier?",
+      "start": 720.36,
+      "end": 724.77,
+      "durationSeconds": 4.41,
+      "words": [
+        {
+          "text": "Two,",
+          "start": 720.36,
+          "end": 720.72
+        },
+        {
+          "text": "am",
+          "start": 720.72,
+          "end": 721
+        },
+        {
+          "text": "I",
+          "start": 721,
+          "end": 721.1
+        },
+        {
+          "text": "on",
+          "start": 721.2,
+          "end": 721.21
+        },
+        {
+          "text": "your",
+          "start": 721.48,
+          "end": 721.81
+        },
+        {
+          "text": "default",
+          "start": 722.44,
+          "end": 722.48
+        },
+        {
+          "text": "supply",
+          "start": 722.48,
+          "end": 723.04
+        },
+        {
+          "text": "or",
+          "start": 723.04,
+          "end": 723.21
+        },
+        {
+          "text": "a",
+          "start": 723.21,
+          "end": 723.28
+        },
+        {
+          "text": "third-party",
+          "start": 723.28,
+          "end": 724.14
+        },
+        {
+          "text": "supplier?",
+          "start": 724.14,
+          "end": 724.77
+        }
+      ]
+    },
+    {
+      "id": "136",
+      "text": "Three, is there a rental, a warranty, or an opt-out fee on this account?",
+      "start": 725.13,
+      "end": 730.07,
+      "durationSeconds": 4.94,
+      "words": [
+        {
+          "text": "Three,",
+          "start": 725.13,
+          "end": 725.54
+        },
+        {
+          "text": "is",
+          "start": 725.54,
+          "end": 725.67
+        },
+        {
+          "text": "there",
+          "start": 725.86,
+          "end": 726.11
+        },
+        {
+          "text": "a",
+          "start": 726.11,
+          "end": 726.19
+        },
+        {
+          "text": "rental,",
+          "start": 726.19,
+          "end": 726.81
+        },
+        {
+          "text": "a",
+          "start": 726.81,
+          "end": 726.89
+        },
+        {
+          "text": "warranty,",
+          "start": 727.16,
+          "end": 727.75
+        },
+        {
+          "text": "or",
+          "start": 727.75,
+          "end": 727.9
+        },
+        {
+          "text": "an",
+          "start": 728,
+          "end": 728.03
+        },
+        {
+          "text": "opt-out",
+          "start": 728.28,
+          "end": 728.59
+        },
+        {
+          "text": "fee",
+          "start": 728.59,
+          "end": 728.7
+        },
+        {
+          "text": "on",
+          "start": 728.85,
+          "end": 728.96
+        },
+        {
+          "text": "this",
+          "start": 728.96,
+          "end": 729.37
+        },
+        {
+          "text": "account?",
+          "start": 729.37,
+          "end": 730.07
+        }
+      ]
+    },
+    {
+      "id": "137",
+      "text": "Four, are you still holding a deposit for me?",
+      "start": 730.07,
+      "end": 733.47,
+      "durationSeconds": 3.4,
+      "words": [
+        {
+          "text": "Four,",
+          "start": 730.07,
+          "end": 730.58
+        },
+        {
+          "text": "are",
+          "start": 730.58,
+          "end": 730.84
+        },
+        {
+          "text": "you",
+          "start": 730.84,
+          "end": 730.91
+        },
+        {
+          "text": "still",
+          "start": 731.29,
+          "end": 731.48
+        },
+        {
+          "text": "holding",
+          "start": 731.54,
+          "end": 732.07
+        },
+        {
+          "text": "a",
+          "start": 732.17,
+          "end": 732.22
+        },
+        {
+          "text": "deposit",
+          "start": 732.22,
+          "end": 732.67
+        },
+        {
+          "text": "for",
+          "start": 732.82,
+          "end": 733.09
+        },
+        {
+          "text": "me?",
+          "start": 733.26,
+          "end": 733.47
+        }
+      ]
+    },
+    {
+      "id": "138",
+      "text": "Five, can I move my due date? 12 minutes.",
+      "start": 733.57,
+      "end": 736.85,
+      "durationSeconds": 3.28,
+      "words": [
+        {
+          "text": "Five,",
+          "start": 733.57,
+          "end": 734.03
+        },
+        {
+          "text": "can",
+          "start": 734.03,
+          "end": 734.17
+        },
+        {
+          "text": "I",
+          "start": 734.17,
+          "end": 734.44
+        },
+        {
+          "text": "move",
+          "start": 734.44,
+          "end": 734.71
+        },
+        {
+          "text": "my",
+          "start": 734.71,
+          "end": 734.76
+        },
+        {
+          "text": "due",
+          "start": 734.76,
+          "end": 734.91
+        },
+        {
+          "text": "date?",
+          "start": 735.4,
+          "end": 735.83
+        },
+        {
+          "text": "12",
+          "start": 735.9,
+          "end": 736.28
+        },
+        {
+          "text": "minutes.",
+          "start": 736.29,
+          "end": 736.85
+        }
+      ]
+    },
+    {
+      "id": "139",
+      "text": "Read them right off the page. You're not arguing with anybody, neighbor.",
+      "start": 737.21,
+      "end": 741.04,
+      "durationSeconds": 3.83,
+      "words": [
+        {
+          "text": "Read",
+          "start": 737.21,
+          "end": 737.27
+        },
+        {
+          "text": "them",
+          "start": 737.27,
+          "end": 737.5
+        },
+        {
+          "text": "right",
+          "start": 737.5,
+          "end": 737.72
+        },
+        {
+          "text": "off",
+          "start": 737.8,
+          "end": 737.94
+        },
+        {
+          "text": "the",
+          "start": 737.96,
+          "end": 738.13
+        },
+        {
+          "text": "page.",
+          "start": 738.13,
+          "end": 738.53
+        },
+        {
+          "text": "You're",
+          "start": 738.53,
+          "end": 738.75
+        },
+        {
+          "text": "not",
+          "start": 738.75,
+          "end": 739.13
+        },
+        {
+          "text": "arguing",
+          "start": 739.13,
+          "end": 739.45
+        },
+        {
+          "text": "with",
+          "start": 739.45,
+          "end": 739.67
+        },
+        {
+          "text": "anybody,",
+          "start": 739.86,
+          "end": 740.32
+        },
+        {
+          "text": "neighbor.",
+          "start": 740.32,
+          "end": 741.04
+        }
+      ]
+    },
+    {
+      "id": "140",
+      "text": "You're asking a company what it's charging you, and that's the most ordinary question in the world.",
+      "start": 741.16,
+      "end": 745.75,
+      "durationSeconds": 4.59,
+      "words": [
+        {
+          "text": "You're",
+          "start": 741.16,
+          "end": 741.28
+        },
+        {
+          "text": "asking",
+          "start": 741.28,
+          "end": 741.65
+        },
+        {
+          "text": "a",
+          "start": 741.68,
+          "end": 741.75
+        },
+        {
+          "text": "company",
+          "start": 741.75,
+          "end": 742.01
+        },
+        {
+          "text": "what",
+          "start": 742.41,
+          "end": 742.46
+        },
+        {
+          "text": "it's",
+          "start": 742.46,
+          "end": 742.68
+        },
+        {
+          "text": "charging",
+          "start": 742.68,
+          "end": 743.11
+        },
+        {
+          "text": "you,",
+          "start": 743.14,
+          "end": 743.35
+        },
+        {
+          "text": "and",
+          "start": 743.45,
+          "end": 743.55
+        },
+        {
+          "text": "that's",
+          "start": 743.55,
+          "end": 743.88
+        },
+        {
+          "text": "the",
+          "start": 743.88,
+          "end": 743.95
+        },
+        {
+          "text": "most",
+          "start": 743.95,
+          "end": 744.33
+        },
+        {
+          "text": "ordinary",
+          "start": 744.33,
+          "end": 744.7
+        },
+        {
+          "text": "question",
+          "start": 744.7,
+          "end": 745.11
+        },
+        {
+          "text": "in",
+          "start": 745.21,
+          "end": 745.25
+        },
+        {
+          "text": "the",
+          "start": 745.25,
+          "end": 745.41
+        },
+        {
+          "text": "world.",
+          "start": 745.41,
+          "end": 745.75
+        }
+      ]
+    },
+    {
+      "id": "141",
+      "text": "Don't do all five tonight though. Do one thing.",
+      "start": 746.35,
+      "end": 749.63,
+      "durationSeconds": 3.28,
+      "words": [
+        {
+          "text": "Don't",
+          "start": 746.35,
+          "end": 746.71
+        },
+        {
+          "text": "do",
+          "start": 746.71,
+          "end": 747.03
+        },
+        {
+          "text": "all",
+          "start": 747.03,
+          "end": 747.21
+        },
+        {
+          "text": "five",
+          "start": 747.45,
+          "end": 747.57
+        },
+        {
+          "text": "tonight",
+          "start": 747.57,
+          "end": 748.08
+        },
+        {
+          "text": "though.",
+          "start": 748.08,
+          "end": 748.66
+        },
+        {
+          "text": "Do",
+          "start": 748.76,
+          "end": 748.86
+        },
+        {
+          "text": "one",
+          "start": 748.86,
+          "end": 748.98
+        },
+        {
+          "text": "thing.",
+          "start": 749.37,
+          "end": 749.63
+        }
+      ]
+    },
+    {
+      "id": "142",
+      "text": "Turn the bill over, find the supply section, and read the company name, just the name.",
+      "start": 749.64,
+      "end": 754.98,
+      "durationSeconds": 5.34,
+      "words": [
+        {
+          "text": "Turn",
+          "start": 749.64,
+          "end": 749.91
+        },
+        {
+          "text": "the",
+          "start": 750.09,
+          "end": 750.14
+        },
+        {
+          "text": "bill",
+          "start": 750.14,
+          "end": 750.43
+        },
+        {
+          "text": "over,",
+          "start": 750.43,
+          "end": 750.79
+        },
+        {
+          "text": "find",
+          "start": 750.9,
+          "end": 751.14
+        },
+        {
+          "text": "the",
+          "start": 751.14,
+          "end": 751.4
+        },
+        {
+          "text": "supply",
+          "start": 751.4,
+          "end": 751.79
+        },
+        {
+          "text": "section,",
+          "start": 751.79,
+          "end": 752.44
+        },
+        {
+          "text": "and",
+          "start": 752.52,
+          "end": 752.64
+        },
+        {
+          "text": "read",
+          "start": 752.67,
+          "end": 752.84
+        },
+        {
+          "text": "the",
+          "start": 753.12,
+          "end": 753.19
+        },
+        {
+          "text": "company",
+          "start": 753.48,
+          "end": 753.6
+        },
+        {
+          "text": "name,",
+          "start": 753.77,
+          "end": 754.03
+        },
+        {
+          "text": "just",
+          "start": 754.03,
+          "end": 754.28
+        },
+        {
+          "text": "the",
+          "start": 754.37,
+          "end": 754.53
+        },
+        {
+          "text": "name.",
+          "start": 754.53,
+          "end": 754.98
+        }
+      ]
+    },
+    {
+      "id": "143",
+      "text": "That's the whole task, because if it's a name you don't recognize, that's number one on this list, and you'll want to make that call in the morning.",
+      "start": 755.08,
+      "end": 763.44,
+      "durationSeconds": 8.36,
+      "words": [
+        {
+          "text": "That's",
+          "start": 755.08,
+          "end": 755.48
+        },
+        {
+          "text": "the",
+          "start": 755.69,
+          "end": 755.7
+        },
+        {
+          "text": "whole",
+          "start": 755.7,
+          "end": 756.07
+        },
+        {
+          "text": "task,",
+          "start": 756.07,
+          "end": 756.48
+        },
+        {
+          "text": "because",
+          "start": 756.57,
+          "end": 757.01
+        },
+        {
+          "text": "if",
+          "start": 757.01,
+          "end": 757.11
+        },
+        {
+          "text": "it's",
+          "start": 757.3,
+          "end": 757.44
+        },
+        {
+          "text": "a",
+          "start": 757.44,
+          "end": 757.51
+        },
+        {
+          "text": "name",
+          "start": 757.72,
+          "end": 757.8
+        },
+        {
+          "text": "you",
+          "start": 757.8,
+          "end": 758.02
+        },
+        {
+          "text": "don't",
+          "start": 758.02,
+          "end": 758.38
+        },
+        {
+          "text": "recognize,",
+          "start": 758.38,
+          "end": 759.2
+        },
+        {
+          "text": "that's",
+          "start": 759.37,
+          "end": 759.56
+        },
+        {
+          "text": "number",
+          "start": 759.56,
+          "end": 759.88
+        },
+        {
+          "text": "one",
+          "start": 759.97,
+          "end": 760.07
+        },
+        {
+          "text": "on",
+          "start": 760.12,
+          "end": 760.22
+        },
+        {
+          "text": "this",
+          "start": 760.22,
+          "end": 760.46
+        },
+        {
+          "text": "list,",
+          "start": 760.46,
+          "end": 760.82
+        },
+        {
+          "text": "and",
+          "start": 760.82,
+          "end": 760.9
+        },
+        {
+          "text": "you'll",
+          "start": 761.18,
+          "end": 761.36
+        },
+        {
+          "text": "want",
+          "start": 761.36,
+          "end": 761.6
+        },
+        {
+          "text": "to",
+          "start": 761.6,
+          "end": 761.72
+        },
+        {
+          "text": "make",
+          "start": 761.72,
+          "end": 761.84
+        },
+        {
+          "text": "that",
+          "start": 762.03,
+          "end": 762.2
+        },
+        {
+          "text": "call",
+          "start": 762.2,
+          "end": 762.44
+        },
+        {
+          "text": "in",
+          "start": 762.44,
+          "end": 762.56
+        },
+        {
+          "text": "the",
+          "start": 762.56,
+          "end": 762.71
+        },
+        {
+          "text": "morning.",
+          "start": 763.16,
+          "end": 763.44
+        }
+      ]
+    },
+    {
+      "id": "144",
+      "text": "Tell me in the comments what you found on that page, what state you're in, and the strangest line item on your bill.",
+      "start": 763.61,
+      "end": 769.62,
+      "durationSeconds": 6.01,
+      "words": [
+        {
+          "text": "Tell",
+          "start": 763.61,
+          "end": 763.68
+        },
+        {
+          "text": "me",
+          "start": 763.68,
+          "end": 763.8
+        },
+        {
+          "text": "in",
+          "start": 763.8,
+          "end": 763.92
+        },
+        {
+          "text": "the",
+          "start": 763.92,
+          "end": 764.1
+        },
+        {
+          "text": "comments",
+          "start": 764.1,
+          "end": 764.55
+        },
+        {
+          "text": "what",
+          "start": 764.65,
+          "end": 764.82
+        },
+        {
+          "text": "you",
+          "start": 764.92,
+          "end": 765.01
+        },
+        {
+          "text": "found",
+          "start": 765.01,
+          "end": 765.15
+        },
+        {
+          "text": "on",
+          "start": 765.15,
+          "end": 765.53
+        },
+        {
+          "text": "that",
+          "start": 765.53,
+          "end": 765.67
+        },
+        {
+          "text": "page,",
+          "start": 765.67,
+          "end": 766.07
+        },
+        {
+          "text": "what",
+          "start": 766.07,
+          "end": 766.32
+        },
+        {
+          "text": "state",
+          "start": 766.41,
+          "end": 766.67
+        },
+        {
+          "text": "you're",
+          "start": 766.67,
+          "end": 766.95
+        },
+        {
+          "text": "in,",
+          "start": 767.06,
+          "end": 767.36
+        },
+        {
+          "text": "and",
+          "start": 767.36,
+          "end": 767.56
+        },
+        {
+          "text": "the",
+          "start": 767.56,
+          "end": 767.68
+        },
+        {
+          "text": "strangest",
+          "start": 767.68,
+          "end": 768.23
+        },
+        {
+          "text": "line",
+          "start": 768.41,
+          "end": 768.52
+        },
+        {
+          "text": "item",
+          "start": 768.52,
+          "end": 768.76
+        },
+        {
+          "text": "on",
+          "start": 768.8,
+          "end": 768.92
+        },
+        {
+          "text": "your",
+          "start": 769.01,
+          "end": 769.22
+        },
+        {
+          "text": "bill.",
+          "start": 769.22,
+          "end": 769.62
+        }
+      ]
+    },
+    {
+      "id": "145",
+      "text": "I read every one, and the strange ones are how I find the next 14.",
+      "start": 769.72,
+      "end": 773.8,
+      "durationSeconds": 4.08,
+      "words": [
+        {
+          "text": "I",
+          "start": 769.72,
+          "end": 769.78
+        },
+        {
+          "text": "read",
+          "start": 769.78,
+          "end": 769.95
+        },
+        {
+          "text": "every",
+          "start": 770.33,
+          "end": 770.41
+        },
+        {
+          "text": "one,",
+          "start": 770.41,
+          "end": 770.76
+        },
+        {
+          "text": "and",
+          "start": 770.76,
+          "end": 770.88
+        },
+        {
+          "text": "the",
+          "start": 771.06,
+          "end": 771.11
+        },
+        {
+          "text": "strange",
+          "start": 771.21,
+          "end": 771.67
+        },
+        {
+          "text": "ones",
+          "start": 771.67,
+          "end": 771.75
+        },
+        {
+          "text": "are",
+          "start": 771.95,
+          "end": 772.16
+        },
+        {
+          "text": "how",
+          "start": 772.36,
+          "end": 772.37
+        },
+        {
+          "text": "I",
+          "start": 772.37,
+          "end": 772.44
+        },
+        {
+          "text": "find",
+          "start": 772.44,
+          "end": 772.72
+        },
+        {
+          "text": "the",
+          "start": 772.72,
+          "end": 772.91
+        },
+        {
+          "text": "next",
+          "start": 772.92,
+          "end": 773.21
+        },
+        {
+          "text": "14.",
+          "start": 773.21,
+          "end": 773.8
+        }
+      ]
+    }
+  ]
+}

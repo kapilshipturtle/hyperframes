@@ -1,0 +1,2631 @@
+{
+  "beats": [
+    {
+      "id": "32",
+      "text": "Some had reasons. Most just checked a box on a letter, and that box turned into a monthly charge that's been writing your bill ever since.",
+      "start": 173.68,
+      "end": 181.88,
+      "durationSeconds": 8.2,
+      "words": [
+        {
+          "text": "Some",
+          "start": 173.68,
+          "end": 174
+        },
+        {
+          "text": "had",
+          "start": 174,
+          "end": 174.24
+        },
+        {
+          "text": "reasons.",
+          "start": 174.24,
+          "end": 175.04
+        },
+        {
+          "text": "Most",
+          "start": 175.21,
+          "end": 175.31
+        },
+        {
+          "text": "just",
+          "start": 175.31,
+          "end": 175.56
+        },
+        {
+          "text": "checked",
+          "start": 175.6,
+          "end": 176.06
+        },
+        {
+          "text": "a",
+          "start": 176.06,
+          "end": 176.12
+        },
+        {
+          "text": "box",
+          "start": 176.12,
+          "end": 176.32
+        },
+        {
+          "text": "on",
+          "start": 176.32,
+          "end": 176.42
+        },
+        {
+          "text": "a",
+          "start": 176.42,
+          "end": 176.52
+        },
+        {
+          "text": "letter,",
+          "start": 176.52,
+          "end": 177.05
+        },
+        {
+          "text": "and",
+          "start": 177.13,
+          "end": 177.25
+        },
+        {
+          "text": "that",
+          "start": 177.25,
+          "end": 177.52
+        },
+        {
+          "text": "box",
+          "start": 177.52,
+          "end": 177.67
+        },
+        {
+          "text": "turned",
+          "start": 177.86,
+          "end": 178.13
+        },
+        {
+          "text": "into",
+          "start": 178.13,
+          "end": 178.4
+        },
+        {
+          "text": "a",
+          "start": 178.4,
+          "end": 178.46
+        },
+        {
+          "text": "monthly",
+          "start": 178.46,
+          "end": 178.55
+        },
+        {
+          "text": "charge",
+          "start": 179.16,
+          "end": 179.44
+        },
+        {
+          "text": "that's",
+          "start": 179.44,
+          "end": 179.65
+        },
+        {
+          "text": "been",
+          "start": 179.68,
+          "end": 179.83
+        },
+        {
+          "text": "writing",
+          "start": 180.01,
+          "end": 180.37
+        },
+        {
+          "text": "your",
+          "start": 180.37,
+          "end": 180.67
+        },
+        {
+          "text": "bill",
+          "start": 180.67,
+          "end": 180.95
+        },
+        {
+          "text": "ever",
+          "start": 181.05,
+          "end": 181.22
+        },
+        {
+          "text": "since.",
+          "start": 181.32,
+          "end": 181.88
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "text": "Sometimes for 10 years. Look for opt-out, manual read, or non-standard meter.",
+      "start": 181.93,
+      "end": 187.84,
+      "durationSeconds": 5.91,
+      "words": [
+        {
+          "text": "Sometimes",
+          "start": 181.93,
+          "end": 182.46
+        },
+        {
+          "text": "for",
+          "start": 182.66,
+          "end": 182.71
+        },
+        {
+          "text": "10",
+          "start": 182.81,
+          "end": 183.25
+        },
+        {
+          "text": "years.",
+          "start": 183.25,
+          "end": 183.87
+        },
+        {
+          "text": "Look",
+          "start": 183.96,
+          "end": 184.11
+        },
+        {
+          "text": "for",
+          "start": 184.21,
+          "end": 184.4
+        },
+        {
+          "text": "opt-out,",
+          "start": 184.4,
+          "end": 185.08
+        },
+        {
+          "text": "manual",
+          "start": 185.08,
+          "end": 185.41
+        },
+        {
+          "text": "read,",
+          "start": 185.41,
+          "end": 186.08
+        },
+        {
+          "text": "or",
+          "start": 186.08,
+          "end": 186.32
+        },
+        {
+          "text": "non-standard",
+          "start": 186.32,
+          "end": 187.11
+        },
+        {
+          "text": "meter.",
+          "start": 187.37,
+          "end": 187.84
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "text": "If you don't remember choosing it, one phone call reverses it.",
+      "start": 187.84,
+      "end": 192.17,
+      "durationSeconds": 4.33,
+      "words": [
+        {
+          "text": "If",
+          "start": 187.84,
+          "end": 188
+        },
+        {
+          "text": "you",
+          "start": 188,
+          "end": 188.24
+        },
+        {
+          "text": "don't",
+          "start": 188.24,
+          "end": 188.58
+        },
+        {
+          "text": "remember",
+          "start": 188.68,
+          "end": 188.88
+        },
+        {
+          "text": "choosing",
+          "start": 189.29,
+          "end": 189.82
+        },
+        {
+          "text": "it,",
+          "start": 190.01,
+          "end": 190.24
+        },
+        {
+          "text": "one",
+          "start": 190.24,
+          "end": 190.48
+        },
+        {
+          "text": "phone",
+          "start": 190.48,
+          "end": 190.71
+        },
+        {
+          "text": "call",
+          "start": 190.91,
+          "end": 191.2
+        },
+        {
+          "text": "reverses",
+          "start": 191.32,
+          "end": 191.8
+        },
+        {
+          "text": "it.",
+          "start": 191.84,
+          "end": 192.17
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "text": "$180 a year for a box you don't remember checking.",
+      "start": 192.17,
+      "end": 195.82,
+      "durationSeconds": 3.65,
+      "words": [
+        {
+          "text": "$180",
+          "start": 192.17,
+          "end": 192.86
+        },
+        {
+          "text": "a",
+          "start": 193.01,
+          "end": 193.12
+        },
+        {
+          "text": "year",
+          "start": 193.4,
+          "end": 193.52
+        },
+        {
+          "text": "for",
+          "start": 193.52,
+          "end": 193.68
+        },
+        {
+          "text": "a",
+          "start": 193.68,
+          "end": 193.83
+        },
+        {
+          "text": "box",
+          "start": 193.9,
+          "end": 194.15
+        },
+        {
+          "text": "you",
+          "start": 194.33,
+          "end": 194.34
+        },
+        {
+          "text": "don't",
+          "start": 194.35,
+          "end": 194.64
+        },
+        {
+          "text": "remember",
+          "start": 194.64,
+          "end": 195.14
+        },
+        {
+          "text": "checking.",
+          "start": 195.14,
+          "end": 195.82
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "text": "Number 12. The late fee. Shrink it. Two things almost nobody knows.",
+      "start": 195.82,
+      "end": 201.11,
+      "durationSeconds": 5.29,
+      "words": [
+        {
+          "text": "Number",
+          "start": 195.82,
+          "end": 195.86
+        },
+        {
+          "text": "12.",
+          "start": 196.25,
+          "end": 196.74
+        },
+        {
+          "text": "The",
+          "start": 196.74,
+          "end": 196.8
+        },
+        {
+          "text": "late",
+          "start": 196.99,
+          "end": 197.17
+        },
+        {
+          "text": "fee.",
+          "start": 197.17,
+          "end": 197.53
+        },
+        {
+          "text": "Shrink",
+          "start": 197.53,
+          "end": 197.89
+        },
+        {
+          "text": "it.",
+          "start": 197.89,
+          "end": 198.32
+        },
+        {
+          "text": "Two",
+          "start": 198.32,
+          "end": 198.59
+        },
+        {
+          "text": "things",
+          "start": 198.59,
+          "end": 199.01
+        },
+        {
+          "text": "almost",
+          "start": 199.12,
+          "end": 199.67
+        },
+        {
+          "text": "nobody",
+          "start": 199.67,
+          "end": 199.82
+        },
+        {
+          "text": "knows.",
+          "start": 200.36,
+          "end": 201.11
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "text": "First, most utilities will waive one late fee a year as a courtesy if you call and ask plainly.",
+      "start": 201.29,
+      "end": 207.6,
+      "durationSeconds": 6.31,
+      "words": [
+        {
+          "text": "First,",
+          "start": 201.29,
+          "end": 201.64
+        },
+        {
+          "text": "most",
+          "start": 201.68,
+          "end": 201.97
+        },
+        {
+          "text": "utilities",
+          "start": 201.97,
+          "end": 202.69
+        },
+        {
+          "text": "will",
+          "start": 202.69,
+          "end": 202.83
+        },
+        {
+          "text": "waive",
+          "start": 203.21,
+          "end": 203.4
+        },
+        {
+          "text": "one",
+          "start": 203.4,
+          "end": 203.63
+        },
+        {
+          "text": "late",
+          "start": 203.63,
+          "end": 203.96
+        },
+        {
+          "text": "fee",
+          "start": 203.96,
+          "end": 204.2
+        },
+        {
+          "text": "a",
+          "start": 204.2,
+          "end": 204.28
+        },
+        {
+          "text": "year",
+          "start": 204.28,
+          "end": 204.59
+        },
+        {
+          "text": "as",
+          "start": 204.59,
+          "end": 204.63
+        },
+        {
+          "text": "a",
+          "start": 204.78,
+          "end": 204.84
+        },
+        {
+          "text": "courtesy",
+          "start": 205.24,
+          "end": 205.52
+        },
+        {
+          "text": "if",
+          "start": 205.52,
+          "end": 205.65
+        },
+        {
+          "text": "you",
+          "start": 205.65,
+          "end": 205.83
+        },
+        {
+          "text": "call",
+          "start": 205.83,
+          "end": 206.09
+        },
+        {
+          "text": "and",
+          "start": 206.09,
+          "end": 206.36
+        },
+        {
+          "text": "ask",
+          "start": 206.36,
+          "end": 206.61
+        },
+        {
+          "text": "plainly.",
+          "start": 206.61,
+          "end": 207.6
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "text": "Not argue. Ask. They'll very often say yes.",
+      "start": 207.77,
+      "end": 210.9,
+      "durationSeconds": 3.13,
+      "words": [
+        {
+          "text": "Not",
+          "start": 207.77,
+          "end": 207.84
+        },
+        {
+          "text": "argue.",
+          "start": 207.84,
+          "end": 208.45
+        },
+        {
+          "text": "Ask.",
+          "start": 208.45,
+          "end": 208.92
+        },
+        {
+          "text": "They'll",
+          "start": 208.92,
+          "end": 209.31
+        },
+        {
+          "text": "very",
+          "start": 209.69,
+          "end": 209.8
+        },
+        {
+          "text": "often",
+          "start": 209.8,
+          "end": 210.18
+        },
+        {
+          "text": "say",
+          "start": 210.18,
+          "end": 210.43
+        },
+        {
+          "text": "yes.",
+          "start": 210.43,
+          "end": 210.9
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "text": "Second one's better. You can move your due date.",
+      "start": 210.9,
+      "end": 214.69,
+      "durationSeconds": 3.79,
+      "words": [
+        {
+          "text": "Second",
+          "start": 210.9,
+          "end": 211.11
+        },
+        {
+          "text": "one's",
+          "start": 211.39,
+          "end": 211.76
+        },
+        {
+          "text": "better.",
+          "start": 211.76,
+          "end": 212.45
+        },
+        {
+          "text": "You",
+          "start": 212.45,
+          "end": 212.59
+        },
+        {
+          "text": "can",
+          "start": 212.84,
+          "end": 212.94
+        },
+        {
+          "text": "move",
+          "start": 212.94,
+          "end": 213.16
+        },
+        {
+          "text": "your",
+          "start": 213.16,
+          "end": 213.31
+        },
+        {
+          "text": "due",
+          "start": 213.8,
+          "end": 213.92
+        },
+        {
+          "text": "date.",
+          "start": 213.92,
+          "end": 214.69
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "text": "Most utilities will shift your billing cycle so it lands after your payday or your benefit deposit, and it costs nothing.",
+      "start": 214.89,
+      "end": 221.54,
+      "durationSeconds": 6.65,
+      "words": [
+        {
+          "text": "Most",
+          "start": 214.89,
+          "end": 214.97
+        },
+        {
+          "text": "utilities",
+          "start": 214.97,
+          "end": 215.53
+        },
+        {
+          "text": "will",
+          "start": 215.53,
+          "end": 215.78
+        },
+        {
+          "text": "shift",
+          "start": 215.78,
+          "end": 216.04
+        },
+        {
+          "text": "your",
+          "start": 216.09,
+          "end": 216.34
+        },
+        {
+          "text": "billing",
+          "start": 216.34,
+          "end": 216.4
+        },
+        {
+          "text": "cycle",
+          "start": 216.81,
+          "end": 217.09
+        },
+        {
+          "text": "so",
+          "start": 217.09,
+          "end": 217.21
+        },
+        {
+          "text": "it",
+          "start": 217.21,
+          "end": 217.32
+        },
+        {
+          "text": "lands",
+          "start": 217.33,
+          "end": 217.59
+        },
+        {
+          "text": "after",
+          "start": 217.69,
+          "end": 217.95
+        },
+        {
+          "text": "your",
+          "start": 217.95,
+          "end": 218.19
+        },
+        {
+          "text": "payday",
+          "start": 218.19,
+          "end": 218.23
+        },
+        {
+          "text": "or",
+          "start": 218.23,
+          "end": 218.84
+        },
+        {
+          "text": "your",
+          "start": 218.84,
+          "end": 218.96
+        },
+        {
+          "text": "benefit",
+          "start": 218.96,
+          "end": 219.33
+        },
+        {
+          "text": "deposit,",
+          "start": 219.35,
+          "end": 220.24
+        },
+        {
+          "text": "and",
+          "start": 220.41,
+          "end": 220.43
+        },
+        {
+          "text": "it",
+          "start": 220.43,
+          "end": 220.56
+        },
+        {
+          "text": "costs",
+          "start": 220.56,
+          "end": 220.89
+        },
+        {
+          "text": "nothing.",
+          "start": 220.89,
+          "end": 221.54
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "text": "If you've been getting hit with late fees for years, the problem was never your money.",
+      "start": 221.54,
+      "end": 226.51,
+      "durationSeconds": 4.97,
+      "words": [
+        {
+          "text": "If",
+          "start": 221.54,
+          "end": 221.62
+        },
+        {
+          "text": "you've",
+          "start": 221.72,
+          "end": 221.94
+        },
+        {
+          "text": "been",
+          "start": 221.94,
+          "end": 222.33
+        },
+        {
+          "text": "getting",
+          "start": 222.33,
+          "end": 222.76
+        },
+        {
+          "text": "hit",
+          "start": 222.76,
+          "end": 222.88
+        },
+        {
+          "text": "with",
+          "start": 223.06,
+          "end": 223.22
+        },
+        {
+          "text": "late",
+          "start": 223.22,
+          "end": 223.48
+        },
+        {
+          "text": "fees",
+          "start": 223.48,
+          "end": 223.72
+        },
+        {
+          "text": "for",
+          "start": 223.74,
+          "end": 223.75
+        },
+        {
+          "text": "years,",
+          "start": 224.26,
+          "end": 224.48
+        },
+        {
+          "text": "the",
+          "start": 224.65,
+          "end": 224.68
+        },
+        {
+          "text": "problem",
+          "start": 224.68,
+          "end": 225.15
+        },
+        {
+          "text": "was",
+          "start": 225.16,
+          "end": 225.35
+        },
+        {
+          "text": "never",
+          "start": 225.38,
+          "end": 225.59
+        },
+        {
+          "text": "your",
+          "start": 225.69,
+          "end": 225.97
+        },
+        {
+          "text": "money.",
+          "start": 225.97,
+          "end": 226.51
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "text": "It was the date. Number 11. The deposit they're still holding.",
+      "start": 226.57,
+      "end": 230.56,
+      "durationSeconds": 3.99,
+      "words": [
+        {
+          "text": "It",
+          "start": 226.57,
+          "end": 226.64
+        },
+        {
+          "text": "was",
+          "start": 226.64,
+          "end": 226.83
+        },
+        {
+          "text": "the",
+          "start": 226.84,
+          "end": 227.03
+        },
+        {
+          "text": "date.",
+          "start": 227.03,
+          "end": 227.6
+        },
+        {
+          "text": "Number",
+          "start": 227.6,
+          "end": 227.95
+        },
+        {
+          "text": "11.",
+          "start": 228.1,
+          "end": 228.72
+        },
+        {
+          "text": "The",
+          "start": 228.72,
+          "end": 228.87
+        },
+        {
+          "text": "deposit",
+          "start": 228.87,
+          "end": 229.22
+        },
+        {
+          "text": "they're",
+          "start": 229.22,
+          "end": 229.49
+        },
+        {
+          "text": "still",
+          "start": 229.72,
+          "end": 229.84
+        },
+        {
+          "text": "holding.",
+          "start": 229.84,
+          "end": 230.56
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "text": "Kill it. When you opened the account, you may have paid a security deposit.",
+      "start": 230.73,
+      "end": 234.83,
+      "durationSeconds": 4.1,
+      "words": [
+        {
+          "text": "Kill",
+          "start": 230.73,
+          "end": 230.81
+        },
+        {
+          "text": "it.",
+          "start": 230.81,
+          "end": 231.08
+        },
+        {
+          "text": "When",
+          "start": 231.12,
+          "end": 231.37
+        },
+        {
+          "text": "you",
+          "start": 231.37,
+          "end": 231.56
+        },
+        {
+          "text": "opened",
+          "start": 231.56,
+          "end": 231.94
+        },
+        {
+          "text": "the",
+          "start": 231.94,
+          "end": 232.13
+        },
+        {
+          "text": "account,",
+          "start": 232.13,
+          "end": 232.7
+        },
+        {
+          "text": "you",
+          "start": 232.7,
+          "end": 232.84
+        },
+        {
+          "text": "may",
+          "start": 232.9,
+          "end": 233.08
+        },
+        {
+          "text": "have",
+          "start": 233.08,
+          "end": 233.2
+        },
+        {
+          "text": "paid",
+          "start": 233.39,
+          "end": 233.58
+        },
+        {
+          "text": "a",
+          "start": 233.58,
+          "end": 233.64
+        },
+        {
+          "text": "security",
+          "start": 233.64,
+          "end": 234.03
+        },
+        {
+          "text": "deposit.",
+          "start": 234.6,
+          "end": 234.83
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "text": "$100, $200, sometimes more.",
+      "start": 234.96,
+      "end": 238.02,
+      "durationSeconds": 3.06,
+      "words": [
+        {
+          "text": "$100,",
+          "start": 234.96,
+          "end": 235.82
+        },
+        {
+          "text": "$200,",
+          "start": 235.82,
+          "end": 236.61
+        },
+        {
+          "text": "sometimes",
+          "start": 236.97,
+          "end": 237.46
+        },
+        {
+          "text": "more.",
+          "start": 237.46,
+          "end": 238.02
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "text": "In most places, it's supposed to come back after 12 months of on-time payment.",
+      "start": 238.02,
+      "end": 242.64,
+      "durationSeconds": 4.62,
+      "words": [
+        {
+          "text": "In",
+          "start": 238.02,
+          "end": 238.18
+        },
+        {
+          "text": "most",
+          "start": 238.18,
+          "end": 238.39
+        },
+        {
+          "text": "places,",
+          "start": 238.98,
+          "end": 239.15
+        },
+        {
+          "text": "it's",
+          "start": 239.25,
+          "end": 239.38
+        },
+        {
+          "text": "supposed",
+          "start": 239.38,
+          "end": 239.73
+        },
+        {
+          "text": "to",
+          "start": 239.84,
+          "end": 239.85
+        },
+        {
+          "text": "come",
+          "start": 239.85,
+          "end": 240.12
+        },
+        {
+          "text": "back",
+          "start": 240.12,
+          "end": 240.4
+        },
+        {
+          "text": "after",
+          "start": 240.4,
+          "end": 240.54
+        },
+        {
+          "text": "12",
+          "start": 240.54,
+          "end": 241.08
+        },
+        {
+          "text": "months",
+          "start": 241.08,
+          "end": 241.28
+        },
+        {
+          "text": "of",
+          "start": 241.34,
+          "end": 241.51
+        },
+        {
+          "text": "on-time",
+          "start": 241.58,
+          "end": 241.97
+        },
+        {
+          "text": "payment.",
+          "start": 242.17,
+          "end": 242.64
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "text": "In some places, it's supposed to earn interest while they sit on it.",
+      "start": 242.64,
+      "end": 246.48,
+      "durationSeconds": 3.84,
+      "words": [
+        {
+          "text": "In",
+          "start": 242.64,
+          "end": 242.77
+        },
+        {
+          "text": "some",
+          "start": 242.77,
+          "end": 243.02
+        },
+        {
+          "text": "places,",
+          "start": 243.02,
+          "end": 243.52
+        },
+        {
+          "text": "it's",
+          "start": 243.52,
+          "end": 243.71
+        },
+        {
+          "text": "supposed",
+          "start": 244.09,
+          "end": 244.28
+        },
+        {
+          "text": "to",
+          "start": 244.28,
+          "end": 244.41
+        },
+        {
+          "text": "earn",
+          "start": 244.41,
+          "end": 244.63
+        },
+        {
+          "text": "interest",
+          "start": 244.82,
+          "end": 245.17
+        },
+        {
+          "text": "while",
+          "start": 245.17,
+          "end": 245.47
+        },
+        {
+          "text": "they",
+          "start": 245.49,
+          "end": 245.51
+        },
+        {
+          "text": "sit",
+          "start": 245.71,
+          "end": 245.93
+        },
+        {
+          "text": "on",
+          "start": 245.93,
+          "end": 246.12
+        },
+        {
+          "text": "it.",
+          "start": 246.12,
+          "end": 246.48
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "text": "But here's the part, neighbor. It comes back when you ask.",
+      "start": 246.48,
+      "end": 250.11,
+      "durationSeconds": 3.63,
+      "words": [
+        {
+          "text": "But",
+          "start": 246.48,
+          "end": 246.6
+        },
+        {
+          "text": "here's",
+          "start": 246.63,
+          "end": 246.87
+        },
+        {
+          "text": "the",
+          "start": 246.96,
+          "end": 247.02
+        },
+        {
+          "text": "part,",
+          "start": 247.29,
+          "end": 247.55
+        },
+        {
+          "text": "neighbor.",
+          "start": 247.55,
+          "end": 248.36
+        },
+        {
+          "text": "It",
+          "start": 248.36,
+          "end": 248.5
+        },
+        {
+          "text": "comes",
+          "start": 248.5,
+          "end": 248.8
+        },
+        {
+          "text": "back",
+          "start": 248.8,
+          "end": 249.21
+        },
+        {
+          "text": "when",
+          "start": 249.21,
+          "end": 249.4
+        },
+        {
+          "text": "you",
+          "start": 249.46,
+          "end": 249.66
+        },
+        {
+          "text": "ask.",
+          "start": 249.66,
+          "end": 250.11
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "text": "A refund nobody claims is a refund nobody pays.",
+      "start": 250.11,
+      "end": 253.2,
+      "durationSeconds": 3.09,
+      "words": [
+        {
+          "text": "A",
+          "start": 250.11,
+          "end": 250.18
+        },
+        {
+          "text": "refund",
+          "start": 250.18,
+          "end": 250.59
+        },
+        {
+          "text": "nobody",
+          "start": 250.59,
+          "end": 250.63
+        },
+        {
+          "text": "claims",
+          "start": 251.24,
+          "end": 251.5
+        },
+        {
+          "text": "is",
+          "start": 251.5,
+          "end": 251.64
+        },
+        {
+          "text": "a",
+          "start": 251.64,
+          "end": 251.71
+        },
+        {
+          "text": "refund",
+          "start": 251.71,
+          "end": 252.08
+        },
+        {
+          "text": "nobody",
+          "start": 252.36,
+          "end": 252.59
+        },
+        {
+          "text": "pays.",
+          "start": 252.59,
+          "end": 253.2
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "text": "If you've been in that house for years and never once seen a deposit come back, that's a phone call this week.",
+      "start": 253.2,
+      "end": 259.84,
+      "durationSeconds": 6.64,
+      "words": [
+        {
+          "text": "If",
+          "start": 253.2,
+          "end": 253.76
+        },
+        {
+          "text": "you've",
+          "start": 253.76,
+          "end": 253.79
+        },
+        {
+          "text": "been",
+          "start": 253.93,
+          "end": 254.09
+        },
+        {
+          "text": "in",
+          "start": 254.09,
+          "end": 254.24
+        },
+        {
+          "text": "that",
+          "start": 254.24,
+          "end": 254.54
+        },
+        {
+          "text": "house",
+          "start": 254.54,
+          "end": 254.87
+        },
+        {
+          "text": "for",
+          "start": 254.97,
+          "end": 255.14
+        },
+        {
+          "text": "years",
+          "start": 255.14,
+          "end": 255.46
+        },
+        {
+          "text": "and",
+          "start": 255.46,
+          "end": 255.85
+        },
+        {
+          "text": "never",
+          "start": 255.85,
+          "end": 256.11
+        },
+        {
+          "text": "once",
+          "start": 256.12,
+          "end": 256.39
+        },
+        {
+          "text": "seen",
+          "start": 256.58,
+          "end": 256.63
+        },
+        {
+          "text": "a",
+          "start": 256.73,
+          "end": 256.79
+        },
+        {
+          "text": "deposit",
+          "start": 256.79,
+          "end": 257.23
+        },
+        {
+          "text": "come",
+          "start": 257.38,
+          "end": 257.56
+        },
+        {
+          "text": "back,",
+          "start": 257.88,
+          "end": 258.16
+        },
+        {
+          "text": "that's",
+          "start": 258.33,
+          "end": 258.53
+        },
+        {
+          "text": "a",
+          "start": 258.53,
+          "end": 258.59
+        },
+        {
+          "text": "phone",
+          "start": 258.59,
+          "end": 258.84
+        },
+        {
+          "text": "call",
+          "start": 258.92,
+          "end": 259.16
+        },
+        {
+          "text": "this",
+          "start": 259.16,
+          "end": 259.41
+        },
+        {
+          "text": "week.",
+          "start": 259.41,
+          "end": 259.84
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "text": "My grandmother's ledger has a whole column for money other people were holding.",
+      "start": 259.84,
+      "end": 264.53,
+      "durationSeconds": 4.69,
+      "words": [
+        {
+          "text": "My",
+          "start": 259.84,
+          "end": 259.87
+        },
+        {
+          "text": "grandmother's",
+          "start": 260.25,
+          "end": 260.79
+        },
+        {
+          "text": "ledger",
+          "start": 260.79,
+          "end": 261.17
+        },
+        {
+          "text": "has",
+          "start": 261.17,
+          "end": 261.36
+        },
+        {
+          "text": "a",
+          "start": 261.36,
+          "end": 261.42
+        },
+        {
+          "text": "whole",
+          "start": 261.42,
+          "end": 261.67
+        },
+        {
+          "text": "column",
+          "start": 261.67,
+          "end": 262.28
+        },
+        {
+          "text": "for",
+          "start": 262.28,
+          "end": 262.43
+        },
+        {
+          "text": "money",
+          "start": 262.53,
+          "end": 262.87
+        },
+        {
+          "text": "other",
+          "start": 262.87,
+          "end": 263.02
+        },
+        {
+          "text": "people",
+          "start": 263.12,
+          "end": 263.44
+        },
+        {
+          "text": "were",
+          "start": 263.61,
+          "end": 263.75
+        },
+        {
+          "text": "holding.",
+          "start": 263.75,
+          "end": 264.53
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "text": "One column so it could never be forgotten. That's all a ledger is.",
+      "start": 264.53,
+      "end": 269,
+      "durationSeconds": 4.47,
+      "words": [
+        {
+          "text": "One",
+          "start": 264.53,
+          "end": 264.76
+        },
+        {
+          "text": "column",
+          "start": 264.76,
+          "end": 265.14
+        },
+        {
+          "text": "so",
+          "start": 265.14,
+          "end": 265.335
+        },
+        {
+          "text": "it",
+          "start": 265.335,
+          "end": 265.53
+        },
+        {
+          "text": "could",
+          "start": 265.53,
+          "end": 265.92
+        },
+        {
+          "text": "never",
+          "start": 265.92,
+          "end": 266.31
+        },
+        {
+          "text": "be",
+          "start": 266.31,
+          "end": 266.46
+        },
+        {
+          "text": "forgotten.",
+          "start": 266.46,
+          "end": 267.39
+        },
+        {
+          "text": "That's",
+          "start": 267.56,
+          "end": 267.85
+        },
+        {
+          "text": "all",
+          "start": 267.85,
+          "end": 268.05
+        },
+        {
+          "text": "a",
+          "start": 268.08,
+          "end": 268.15
+        },
+        {
+          "text": "ledger",
+          "start": 268.15,
+          "end": 268.41
+        },
+        {
+          "text": "is.",
+          "start": 268.68,
+          "end": 269
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "text": "A way of not forgetting. Number 10. The equipment rental.",
+      "start": 269,
+      "end": 273.51,
+      "durationSeconds": 4.51,
+      "words": [
+        {
+          "text": "A",
+          "start": 269,
+          "end": 269.15
+        },
+        {
+          "text": "way",
+          "start": 269.26,
+          "end": 269.52
+        },
+        {
+          "text": "of",
+          "start": 269.64,
+          "end": 269.76
+        },
+        {
+          "text": "not",
+          "start": 269.76,
+          "end": 270
+        },
+        {
+          "text": "forgetting.",
+          "start": 270.17,
+          "end": 270.87
+        },
+        {
+          "text": "Number",
+          "start": 270.91,
+          "end": 271.32
+        },
+        {
+          "text": "10.",
+          "start": 271.37,
+          "end": 271.99
+        },
+        {
+          "text": "The",
+          "start": 272.09,
+          "end": 272.2
+        },
+        {
+          "text": "equipment",
+          "start": 272.2,
+          "end": 272.84
+        },
+        {
+          "text": "rental.",
+          "start": 272.84,
+          "end": 273.51
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "text": "Kill it. This is the one that makes people angry, and it should.",
+      "start": 273.51,
+      "end": 277.38,
+      "durationSeconds": 3.87,
+      "words": [
+        {
+          "text": "Kill",
+          "start": 273.51,
+          "end": 274.04
+        },
+        {
+          "text": "it.",
+          "start": 274.04,
+          "end": 274.27
+        },
+        {
+          "text": "This",
+          "start": 274.37,
+          "end": 274.54
+        },
+        {
+          "text": "is",
+          "start": 274.54,
+          "end": 274.61
+        },
+        {
+          "text": "the",
+          "start": 274.63,
+          "end": 274.81
+        },
+        {
+          "text": "one",
+          "start": 274.81,
+          "end": 274.97
+        },
+        {
+          "text": "that",
+          "start": 274.97,
+          "end": 275.24
+        },
+        {
+          "text": "makes",
+          "start": 275.24,
+          "end": 275.47
+        },
+        {
+          "text": "people",
+          "start": 275.47,
+          "end": 275.66
+        },
+        {
+          "text": "angry,",
+          "start": 276.2,
+          "end": 276.4
+        },
+        {
+          "text": "and",
+          "start": 276.57,
+          "end": 276.61
+        },
+        {
+          "text": "it",
+          "start": 276.61,
+          "end": 276.75
+        },
+        {
+          "text": "should.",
+          "start": 276.75,
+          "end": 277.38
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "text": "In a lot of markets, a rental charge rides along on the utility bill.",
+      "start": 277.38,
+      "end": 281.37,
+      "durationSeconds": 3.99,
+      "words": [
+        {
+          "text": "In",
+          "start": 277.38,
+          "end": 277.51
+        },
+        {
+          "text": "a",
+          "start": 277.51,
+          "end": 277.61
+        },
+        {
+          "text": "lot",
+          "start": 277.61,
+          "end": 277.78
+        },
+        {
+          "text": "of",
+          "start": 277.88,
+          "end": 277.94
+        },
+        {
+          "text": "markets,",
+          "start": 277.94,
+          "end": 278.57
+        },
+        {
+          "text": "a",
+          "start": 278.57,
+          "end": 278.64
+        },
+        {
+          "text": "rental",
+          "start": 278.64,
+          "end": 278.98
+        },
+        {
+          "text": "charge",
+          "start": 279.22,
+          "end": 279.48
+        },
+        {
+          "text": "rides",
+          "start": 279.48,
+          "end": 279.83
+        },
+        {
+          "text": "along",
+          "start": 279.83,
+          "end": 279.91
+        },
+        {
+          "text": "on",
+          "start": 280.12,
+          "end": 280.32
+        },
+        {
+          "text": "the",
+          "start": 280.52,
+          "end": 280.53
+        },
+        {
+          "text": "utility",
+          "start": 280.53,
+          "end": 281.01
+        },
+        {
+          "text": "bill.",
+          "start": 281.01,
+          "end": 281.37
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "text": "A water heater, a surge protection plan, a line warranty, $8, $12, $15 a month.",
+      "start": 281.64,
+      "end": 288.1,
+      "durationSeconds": 6.46,
+      "words": [
+        {
+          "text": "A",
+          "start": 281.64,
+          "end": 281.75
+        },
+        {
+          "text": "water",
+          "start": 281.75,
+          "end": 281.96
+        },
+        {
+          "text": "heater,",
+          "start": 282.25,
+          "end": 282.7
+        },
+        {
+          "text": "a",
+          "start": 282.7,
+          "end": 282.76
+        },
+        {
+          "text": "surge",
+          "start": 282.84,
+          "end": 283.18
+        },
+        {
+          "text": "protection",
+          "start": 283.18,
+          "end": 283.76
+        },
+        {
+          "text": "plan,",
+          "start": 284.17,
+          "end": 284.36
+        },
+        {
+          "text": "a",
+          "start": 284.44,
+          "end": 284.52
+        },
+        {
+          "text": "line",
+          "start": 284.52,
+          "end": 284.72
+        },
+        {
+          "text": "warranty,",
+          "start": 284.91,
+          "end": 285.59
+        },
+        {
+          "text": "$8,",
+          "start": 285.7,
+          "end": 286.08
+        },
+        {
+          "text": "$12,",
+          "start": 286.16,
+          "end": 286.75
+        },
+        {
+          "text": "$15",
+          "start": 286.77,
+          "end": 287.33
+        },
+        {
+          "text": "a",
+          "start": 287.33,
+          "end": 287.41
+        },
+        {
+          "text": "month.",
+          "start": 287.41,
+          "end": 288.1
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "text": "Somebody signed up once. Sometimes it came with the house and the last owner signed up.",
+      "start": 288.28,
+      "end": 293.13,
+      "durationSeconds": 4.85,
+      "words": [
+        {
+          "text": "Somebody",
+          "start": 288.28,
+          "end": 288.78
+        },
+        {
+          "text": "signed",
+          "start": 288.79,
+          "end": 289.26
+        },
+        {
+          "text": "up",
+          "start": 289.26,
+          "end": 289.35
+        },
+        {
+          "text": "once.",
+          "start": 289.41,
+          "end": 289.74
+        },
+        {
+          "text": "Sometimes",
+          "start": 290.17,
+          "end": 290.53
+        },
+        {
+          "text": "it",
+          "start": 290.53,
+          "end": 290.65
+        },
+        {
+          "text": "came",
+          "start": 290.65,
+          "end": 290.87
+        },
+        {
+          "text": "with",
+          "start": 290.9,
+          "end": 291.11
+        },
+        {
+          "text": "the",
+          "start": 291.21,
+          "end": 291.31
+        },
+        {
+          "text": "house",
+          "start": 291.31,
+          "end": 291.6
+        },
+        {
+          "text": "and",
+          "start": 291.6,
+          "end": 291.7
+        },
+        {
+          "text": "the",
+          "start": 291.7,
+          "end": 292.09
+        },
+        {
+          "text": "last",
+          "start": 292.09,
+          "end": 292.2
+        },
+        {
+          "text": "owner",
+          "start": 292.2,
+          "end": 292.49
+        },
+        {
+          "text": "signed",
+          "start": 292.49,
+          "end": 292.84
+        },
+        {
+          "text": "up.",
+          "start": 292.84,
+          "end": 293.13
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "text": "And it's been renting you that water heater for 20 years, which means by now you've bought it four or five times over.",
+      "start": 293.13,
+      "end": 300.08,
+      "durationSeconds": 6.95,
+      "words": [
+        {
+          "text": "And",
+          "start": 293.13,
+          "end": 293.3
+        },
+        {
+          "text": "it's",
+          "start": 293.35,
+          "end": 293.51
+        },
+        {
+          "text": "been",
+          "start": 293.51,
+          "end": 294.11
+        },
+        {
+          "text": "renting",
+          "start": 294.11,
+          "end": 294.24
+        },
+        {
+          "text": "you",
+          "start": 294.24,
+          "end": 294.4
+        },
+        {
+          "text": "that",
+          "start": 294.4,
+          "end": 294.56
+        },
+        {
+          "text": "water",
+          "start": 294.73,
+          "end": 294.91
+        },
+        {
+          "text": "heater",
+          "start": 294.91,
+          "end": 295.24
+        },
+        {
+          "text": "for",
+          "start": 295.32,
+          "end": 295.54
+        },
+        {
+          "text": "20",
+          "start": 295.54,
+          "end": 295.94
+        },
+        {
+          "text": "years,",
+          "start": 296.04,
+          "end": 296.45
+        },
+        {
+          "text": "which",
+          "start": 296.65,
+          "end": 296.8
+        },
+        {
+          "text": "means",
+          "start": 296.8,
+          "end": 297.14
+        },
+        {
+          "text": "by",
+          "start": 297.14,
+          "end": 297.2
+        },
+        {
+          "text": "now",
+          "start": 297.38,
+          "end": 297.43
+        },
+        {
+          "text": "you've",
+          "start": 297.53,
+          "end": 297.92
+        },
+        {
+          "text": "bought",
+          "start": 297.92,
+          "end": 298.07
+        },
+        {
+          "text": "it",
+          "start": 298.28,
+          "end": 298.48
+        },
+        {
+          "text": "four",
+          "start": 298.68,
+          "end": 298.76
+        },
+        {
+          "text": "or",
+          "start": 298.76,
+          "end": 298.83
+        },
+        {
+          "text": "five",
+          "start": 298.93,
+          "end": 299.17
+        },
+        {
+          "text": "times",
+          "start": 299.17,
+          "end": 299.52
+        },
+        {
+          "text": "over.",
+          "start": 299.52,
+          "end": 300.08
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "text": "Look for rental, protection plan, warranty, or a company name you don't recognize next to a flat monthly figure.",
+      "start": 300.25,
+      "end": 306.79,
+      "durationSeconds": 6.54,
+      "words": [
+        {
+          "text": "Look",
+          "start": 300.25,
+          "end": 300.36
+        },
+        {
+          "text": "for",
+          "start": 300.36,
+          "end": 300.57
+        },
+        {
+          "text": "rental,",
+          "start": 300.57,
+          "end": 301.13
+        },
+        {
+          "text": "protection",
+          "start": 301.13,
+          "end": 301.74
+        },
+        {
+          "text": "plan,",
+          "start": 302.11,
+          "end": 302.25
+        },
+        {
+          "text": "warranty,",
+          "start": 302.25,
+          "end": 302.96
+        },
+        {
+          "text": "or",
+          "start": 303.05,
+          "end": 303.08
+        },
+        {
+          "text": "a",
+          "start": 303.08,
+          "end": 303.14
+        },
+        {
+          "text": "company",
+          "start": 303.14,
+          "end": 303.55
+        },
+        {
+          "text": "name",
+          "start": 303.57,
+          "end": 303.59
+        },
+        {
+          "text": "you",
+          "start": 303.79,
+          "end": 303.99
+        },
+        {
+          "text": "don't",
+          "start": 304.17,
+          "end": 304.32
+        },
+        {
+          "text": "recognize",
+          "start": 304.32,
+          "end": 304.87
+        },
+        {
+          "text": "next",
+          "start": 304.87,
+          "end": 305.05
+        },
+        {
+          "text": "to",
+          "start": 305.05,
+          "end": 305.32
+        },
+        {
+          "text": "a",
+          "start": 305.32,
+          "end": 305.36
+        },
+        {
+          "text": "flat",
+          "start": 305.36,
+          "end": 305.64
+        },
+        {
+          "text": "monthly",
+          "start": 305.85,
+          "end": 306.18
+        },
+        {
+          "text": "figure.",
+          "start": 306.18,
+          "end": 306.79
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "text": "If you don't know what it is, that's exactly why you call.",
+      "start": 306.89,
+      "end": 310.47,
+      "durationSeconds": 3.58,
+      "words": [
+        {
+          "text": "If",
+          "start": 306.89,
+          "end": 306.96
+        },
+        {
+          "text": "you",
+          "start": 306.96,
+          "end": 307.17
+        },
+        {
+          "text": "don't",
+          "start": 307.17,
+          "end": 307.4
+        },
+        {
+          "text": "know",
+          "start": 307.77,
+          "end": 307.81
+        },
+        {
+          "text": "what",
+          "start": 307.81,
+          "end": 308.1
+        },
+        {
+          "text": "it",
+          "start": 308.1,
+          "end": 308.24
+        },
+        {
+          "text": "is,",
+          "start": 308.24,
+          "end": 308.52
+        },
+        {
+          "text": "that's",
+          "start": 308.52,
+          "end": 308.95
+        },
+        {
+          "text": "exactly",
+          "start": 308.95,
+          "end": 309.19
+        },
+        {
+          "text": "why",
+          "start": 309.39,
+          "end": 309.66
+        },
+        {
+          "text": "you",
+          "start": 309.8,
+          "end": 309.87
+        },
+        {
+          "text": "call.",
+          "start": 309.87,
+          "end": 310.47
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "text": "Number nine. The franchise fee. You're stuck.",
+      "start": 310.47,
+      "end": 313.71,
+      "durationSeconds": 3.24,
+      "words": [
+        {
+          "text": "Number",
+          "start": 310.47,
+          "end": 310.96
+        },
+        {
+          "text": "nine.",
+          "start": 310.96,
+          "end": 311.36
+        },
+        {
+          "text": "The",
+          "start": 311.49,
+          "end": 311.68
+        },
+        {
+          "text": "franchise",
+          "start": 311.85,
+          "end": 312.31
+        },
+        {
+          "text": "fee.",
+          "start": 312.31,
+          "end": 312.73
+        },
+        {
+          "text": "You're",
+          "start": 312.73,
+          "end": 313.06
+        },
+        {
+          "text": "stuck.",
+          "start": 313.16,
+          "end": 313.71
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "text": "First one I can't help you kill, and I'll say so plainly instead of selling you a fix.",
+      "start": 313.77,
+      "end": 318.47,
+      "durationSeconds": 4.7,
+      "words": [
+        {
+          "text": "First",
+          "start": 313.77,
+          "end": 314.06
+        },
+        {
+          "text": "one",
+          "start": 314.06,
+          "end": 314.26
+        },
+        {
+          "text": "I",
+          "start": 314.26,
+          "end": 314.32
+        },
+        {
+          "text": "can't",
+          "start": 314.49,
+          "end": 314.69
+        },
+        {
+          "text": "help",
+          "start": 314.69,
+          "end": 314.97
+        },
+        {
+          "text": "you",
+          "start": 314.97,
+          "end": 315.16
+        },
+        {
+          "text": "kill,",
+          "start": 315.17,
+          "end": 315.6
+        },
+        {
+          "text": "and",
+          "start": 315.8,
+          "end": 315.81
+        },
+        {
+          "text": "I'll",
+          "start": 315.81,
+          "end": 316.09
+        },
+        {
+          "text": "say",
+          "start": 316.09,
+          "end": 316.29
+        },
+        {
+          "text": "so",
+          "start": 316.29,
+          "end": 316.44
+        },
+        {
+          "text": "plainly",
+          "start": 316.44,
+          "end": 316.96
+        },
+        {
+          "text": "instead",
+          "start": 316.96,
+          "end": 317.24
+        },
+        {
+          "text": "of",
+          "start": 317.27,
+          "end": 317.34
+        },
+        {
+          "text": "selling",
+          "start": 317.53,
+          "end": 317.85
+        },
+        {
+          "text": "you",
+          "start": 317.85,
+          "end": 318.04
+        },
+        {
+          "text": "a",
+          "start": 318.04,
+          "end": 318.13
+        },
+        {
+          "text": "fix.",
+          "start": 318.13,
+          "end": 318.47
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "text": "Your city charges the utility for the right to run wires over public ground.",
+      "start": 318.57,
+      "end": 323.02,
+      "durationSeconds": 4.45,
+      "words": [
+        {
+          "text": "Your",
+          "start": 318.57,
+          "end": 318.74
+        },
+        {
+          "text": "city",
+          "start": 318.84,
+          "end": 319.07
+        },
+        {
+          "text": "charges",
+          "start": 319.45,
+          "end": 319.6
+        },
+        {
+          "text": "the",
+          "start": 319.6,
+          "end": 319.81
+        },
+        {
+          "text": "utility",
+          "start": 319.81,
+          "end": 320.23
+        },
+        {
+          "text": "for",
+          "start": 320.33,
+          "end": 320.51
+        },
+        {
+          "text": "the",
+          "start": 320.51,
+          "end": 320.72
+        },
+        {
+          "text": "right",
+          "start": 320.72,
+          "end": 320.87
+        },
+        {
+          "text": "to",
+          "start": 321.07,
+          "end": 321.21
+        },
+        {
+          "text": "run",
+          "start": 321.21,
+          "end": 321.48
+        },
+        {
+          "text": "wires",
+          "start": 321.48,
+          "end": 321.77
+        },
+        {
+          "text": "over",
+          "start": 321.77,
+          "end": 322.03
+        },
+        {
+          "text": "public",
+          "start": 322.04,
+          "end": 322.33
+        },
+        {
+          "text": "ground.",
+          "start": 322.6,
+          "end": 323.02
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "text": "The utility passes it straight to you as a percentage.",
+      "start": 323.37,
+      "end": 326.4,
+      "durationSeconds": 3.03,
+      "words": [
+        {
+          "text": "The",
+          "start": 323.37,
+          "end": 323.4
+        },
+        {
+          "text": "utility",
+          "start": 323.4,
+          "end": 323.87
+        },
+        {
+          "text": "passes",
+          "start": 323.87,
+          "end": 324.27
+        },
+        {
+          "text": "it",
+          "start": 324.27,
+          "end": 324.31
+        },
+        {
+          "text": "straight",
+          "start": 324.41,
+          "end": 324.88
+        },
+        {
+          "text": "to",
+          "start": 324.88,
+          "end": 325.085
+        },
+        {
+          "text": "you",
+          "start": 325.085,
+          "end": 325.29
+        },
+        {
+          "text": "as",
+          "start": 325.29,
+          "end": 325.4
+        },
+        {
+          "text": "a",
+          "start": 325.4,
+          "end": 325.46
+        },
+        {
+          "text": "percentage.",
+          "start": 325.46,
+          "end": 326.4
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "text": "It isn't the power company's money and they cannot waive it, but it is a percentage, which makes it the only good news in the stuck column.",
+      "start": 326.4,
+      "end": 333.88,
+      "durationSeconds": 7.48,
+      "words": [
+        {
+          "text": "It",
+          "start": 326.4,
+          "end": 326.5
+        },
+        {
+          "text": "isn't",
+          "start": 326.5,
+          "end": 326.71
+        },
+        {
+          "text": "the",
+          "start": 326.82,
+          "end": 326.83
+        },
+        {
+          "text": "power",
+          "start": 326.91,
+          "end": 327.18
+        },
+        {
+          "text": "company's",
+          "start": 327.32,
+          "end": 327.68
+        },
+        {
+          "text": "money",
+          "start": 327.68,
+          "end": 327.99
+        },
+        {
+          "text": "and",
+          "start": 328.17,
+          "end": 328.2
+        },
+        {
+          "text": "they",
+          "start": 328.2,
+          "end": 328.47
+        },
+        {
+          "text": "cannot",
+          "start": 328.47,
+          "end": 328.87
+        },
+        {
+          "text": "waive",
+          "start": 328.9,
+          "end": 329.11
+        },
+        {
+          "text": "it,",
+          "start": 329.21,
+          "end": 329.38
+        },
+        {
+          "text": "but",
+          "start": 329.48,
+          "end": 329.68
+        },
+        {
+          "text": "it",
+          "start": 329.68,
+          "end": 329.71
+        },
+        {
+          "text": "is",
+          "start": 329.71,
+          "end": 329.9
+        },
+        {
+          "text": "a",
+          "start": 329.9,
+          "end": 330.09
+        },
+        {
+          "text": "percentage,",
+          "start": 330.09,
+          "end": 330.81
+        },
+        {
+          "text": "which",
+          "start": 330.83,
+          "end": 331.15
+        },
+        {
+          "text": "makes",
+          "start": 331.15,
+          "end": 331.47
+        },
+        {
+          "text": "it",
+          "start": 331.5,
+          "end": 331.51
+        },
+        {
+          "text": "the",
+          "start": 331.62,
+          "end": 331.82
+        },
+        {
+          "text": "only",
+          "start": 331.82,
+          "end": 332.12
+        },
+        {
+          "text": "good",
+          "start": 332.12,
+          "end": 332.27
+        },
+        {
+          "text": "news",
+          "start": 332.37,
+          "end": 332.71
+        },
+        {
+          "text": "in",
+          "start": 332.71,
+          "end": 332.81
+        },
+        {
+          "text": "the",
+          "start": 332.81,
+          "end": 332.87
+        },
+        {
+          "text": "stuck",
+          "start": 332.96,
+          "end": 333.28
+        },
+        {
+          "text": "column.",
+          "start": 333.45,
+          "end": 333.88
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2610 @@
+{
+  "bgm": null,
+  "voices": [
+    {
+      "frame": 1,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 333.88,
+      "duration_s": 4.37,
+      "words": [
+        {
+          "text": "Every",
+          "start": 0,
+          "end": 0.33
+        },
+        {
+          "text": "dollar",
+          "start": 0.33,
+          "end": 0.72
+        },
+        {
+          "text": "you",
+          "start": 0.72,
+          "end": 0.93
+        },
+        {
+          "text": "take",
+          "start": 0.93,
+          "end": 1.11
+        },
+        {
+          "text": "off",
+          "start": 1.11,
+          "end": 1.49
+        },
+        {
+          "text": "the",
+          "start": 1.49,
+          "end": 1.59
+        },
+        {
+          "text": "rest",
+          "start": 1.59,
+          "end": 1.85
+        },
+        {
+          "text": "of",
+          "start": 1.85,
+          "end": 1.98
+        },
+        {
+          "text": "this",
+          "start": 1.98,
+          "end": 2.24
+        },
+        {
+          "text": "bill,",
+          "start": 2.24,
+          "end": 2.6
+        },
+        {
+          "text": "this",
+          "start": 2.62,
+          "end": 2.87
+        },
+        {
+          "text": "line",
+          "start": 2.89,
+          "end": 2.91
+        },
+        {
+          "text": "shrinks",
+          "start": 3.11,
+          "end": 3.61
+        },
+        {
+          "text": "by",
+          "start": 3.61,
+          "end": 3.67
+        },
+        {
+          "text": "itself.",
+          "start": 3.77,
+          "end": 4.37
+        }
+      ]
+    },
+    {
+      "frame": 2,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 338.25,
+      "duration_s": 3.72,
+      "words": [
+        {
+          "text": "Number",
+          "start": 0,
+          "end": 0.88
+        },
+        {
+          "text": "eight.",
+          "start": 0.88,
+          "end": 1.35
+        },
+        {
+          "text": "State",
+          "start": 1.35,
+          "end": 1.81
+        },
+        {
+          "text": "and",
+          "start": 1.81,
+          "end": 2.03
+        },
+        {
+          "text": "local",
+          "start": 2.08,
+          "end": 2.41
+        },
+        {
+          "text": "utility",
+          "start": 2.8,
+          "end": 3.18
+        },
+        {
+          "text": "tax.",
+          "start": 3.18,
+          "end": 3.72
+        }
+      ]
+    },
+    {
+      "frame": 3,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 341.97,
+      "duration_s": 7.38,
+      "words": [
+        {
+          "text": "Stuck.",
+          "start": 0,
+          "end": 0.5
+        },
+        {
+          "text": "Same",
+          "start": 0.5,
+          "end": 1.11
+        },
+        {
+          "text": "story.",
+          "start": 1.11,
+          "end": 1.8
+        },
+        {
+          "text": "A",
+          "start": 1.8,
+          "end": 1.86
+        },
+        {
+          "text": "tax",
+          "start": 1.95,
+          "end": 1.96
+        },
+        {
+          "text": "on",
+          "start": 2.23,
+          "end": 2.34
+        },
+        {
+          "text": "utility",
+          "start": 2.34,
+          "end": 2.65
+        },
+        {
+          "text": "service,",
+          "start": 3.19,
+          "end": 3.87
+        },
+        {
+          "text": "passed",
+          "start": 4.04,
+          "end": 4.29
+        },
+        {
+          "text": "through,",
+          "start": 4.29,
+          "end": 4.92
+        },
+        {
+          "text": "and",
+          "start": 4.92,
+          "end": 5.13
+        },
+        {
+          "text": "nobody",
+          "start": 5.13,
+          "end": 5.54
+        },
+        {
+          "text": "on",
+          "start": 5.54,
+          "end": 5.58
+        },
+        {
+          "text": "that",
+          "start": 5.96,
+          "end": 5.97
+        },
+        {
+          "text": "phone",
+          "start": 5.97,
+          "end": 6.32
+        },
+        {
+          "text": "can",
+          "start": 6.32,
+          "end": 6.5
+        },
+        {
+          "text": "take",
+          "start": 6.68,
+          "end": 6.74
+        },
+        {
+          "text": "it",
+          "start": 6.84,
+          "end": 6.95
+        },
+        {
+          "text": "off.",
+          "start": 6.95,
+          "end": 7.38
+        }
+      ]
+    },
+    {
+      "frame": 4,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 349.42,
+      "duration_s": 4.79,
+      "words": [
+        {
+          "text": "I'm",
+          "start": 0,
+          "end": 0.05
+        },
+        {
+          "text": "giving",
+          "start": 0.05,
+          "end": 0.54
+        },
+        {
+          "text": "it",
+          "start": 0.54,
+          "end": 0.65
+        },
+        {
+          "text": "its",
+          "start": 0.65,
+          "end": 0.84
+        },
+        {
+          "text": "own",
+          "start": 0.84,
+          "end": 1.03
+        },
+        {
+          "text": "number",
+          "start": 1.05,
+          "end": 1.28
+        },
+        {
+          "text": "for",
+          "start": 1.38,
+          "end": 1.44
+        },
+        {
+          "text": "one",
+          "start": 1.66,
+          "end": 1.78
+        },
+        {
+          "text": "reason,",
+          "start": 1.95,
+          "end": 2.3
+        },
+        {
+          "text": "so",
+          "start": 2.34,
+          "end": 2.46
+        },
+        {
+          "text": "you",
+          "start": 2.55,
+          "end": 2.65
+        },
+        {
+          "text": "stop",
+          "start": 2.68,
+          "end": 2.89
+        },
+        {
+          "text": "spending",
+          "start": 2.99,
+          "end": 3.46
+        },
+        {
+          "text": "your",
+          "start": 3.46,
+          "end": 3.87
+        },
+        {
+          "text": "energy",
+          "start": 3.87,
+          "end": 4.23
+        },
+        {
+          "text": "there.",
+          "start": 4.23,
+          "end": 4.79
+        }
+      ]
+    },
+    {
+      "frame": 5,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 354.21,
+      "duration_s": 6.79,
+      "words": [
+        {
+          "text": "Most",
+          "start": 0,
+          "end": 0.28
+        },
+        {
+          "text": "folks",
+          "start": 0.28,
+          "end": 0.5
+        },
+        {
+          "text": "who",
+          "start": 0.65,
+          "end": 0.84
+        },
+        {
+          "text": "call",
+          "start": 1.11,
+          "end": 1.12
+        },
+        {
+          "text": "angry",
+          "start": 1.12,
+          "end": 1.47
+        },
+        {
+          "text": "burn",
+          "start": 1.47,
+          "end": 1.75
+        },
+        {
+          "text": "the",
+          "start": 1.75,
+          "end": 1.96
+        },
+        {
+          "text": "whole",
+          "start": 2.23,
+          "end": 2.34
+        },
+        {
+          "text": "call",
+          "start": 2.34,
+          "end": 2.54
+        },
+        {
+          "text": "on",
+          "start": 2.58,
+          "end": 2.65
+        },
+        {
+          "text": "the",
+          "start": 2.84,
+          "end": 2.87
+        },
+        {
+          "text": "taxes",
+          "start": 2.87,
+          "end": 3.2
+        },
+        {
+          "text": "and",
+          "start": 3.23,
+          "end": 3.35
+        },
+        {
+          "text": "hang",
+          "start": 3.43,
+          "end": 3.68
+        },
+        {
+          "text": "up",
+          "start": 3.68,
+          "end": 3.78
+        },
+        {
+          "text": "before",
+          "start": 3.88,
+          "end": 4.22
+        },
+        {
+          "text": "they",
+          "start": 4.22,
+          "end": 4.38
+        },
+        {
+          "text": "reach",
+          "start": 4.76,
+          "end": 4.83
+        },
+        {
+          "text": "the",
+          "start": 4.83,
+          "end": 5.02
+        },
+        {
+          "text": "lines",
+          "start": 5.03,
+          "end": 5.3
+        },
+        {
+          "text": "that",
+          "start": 5.49,
+          "end": 5.54
+        },
+        {
+          "text": "could",
+          "start": 5.64,
+          "end": 5.97
+        },
+        {
+          "text": "have",
+          "start": 6.02,
+          "end": 6.18
+        },
+        {
+          "text": "moved.",
+          "start": 6.29,
+          "end": 6.79
+        }
+      ]
+    },
+    {
+      "frame": 6,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 361,
+      "duration_s": 3.62,
+      "words": [
+        {
+          "text": "Skip",
+          "start": 0,
+          "end": 0.27
+        },
+        {
+          "text": "these",
+          "start": 0.27,
+          "end": 0.61
+        },
+        {
+          "text": "two.",
+          "start": 0.61,
+          "end": 1.16
+        },
+        {
+          "text": "Go",
+          "start": 1.16,
+          "end": 1.33
+        },
+        {
+          "text": "where",
+          "start": 1.33,
+          "end": 1.66
+        },
+        {
+          "text": "the",
+          "start": 1.66,
+          "end": 1.84
+        },
+        {
+          "text": "money",
+          "start": 1.92,
+          "end": 2.24
+        },
+        {
+          "text": "is.",
+          "start": 2.24,
+          "end": 2.54
+        },
+        {
+          "text": "Number",
+          "start": 2.64,
+          "end": 2.87
+        },
+        {
+          "text": "seven.",
+          "start": 3.25,
+          "end": 3.62
+        }
+      ]
+    },
+    {
+      "frame": 7,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 364.62,
+      "duration_s": 3.1,
+      "words": [
+        {
+          "text": "The",
+          "start": 0,
+          "end": 0.17
+        },
+        {
+          "text": "energy",
+          "start": 0.36,
+          "end": 0.66
+        },
+        {
+          "text": "efficiency",
+          "start": 0.66,
+          "end": 1.05
+        },
+        {
+          "text": "surcharge.",
+          "start": 1.61,
+          "end": 2.27
+        },
+        {
+          "text": "Shrink",
+          "start": 2.27,
+          "end": 2.51
+        },
+        {
+          "text": "it.",
+          "start": 2.78,
+          "end": 3.1
+        }
+      ]
+    },
+    {
+      "frame": 8,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 367.72,
+      "duration_s": 6.07,
+      "words": [
+        {
+          "text": "A",
+          "start": 0,
+          "end": 0.1
+        },
+        {
+          "text": "small",
+          "start": 0.1,
+          "end": 0.65
+        },
+        {
+          "text": "monthly",
+          "start": 0.65,
+          "end": 1.07
+        },
+        {
+          "text": "rider.",
+          "start": 1.25,
+          "end": 1.64
+        },
+        {
+          "text": "An",
+          "start": 1.66,
+          "end": 1.76
+        },
+        {
+          "text": "efficiency",
+          "start": 1.82,
+          "end": 2.4
+        },
+        {
+          "text": "charge,",
+          "start": 2.56,
+          "end": 3.1
+        },
+        {
+          "text": "a",
+          "start": 3.1,
+          "end": 3.17
+        },
+        {
+          "text": "conservation",
+          "start": 3.17,
+          "end": 3.95
+        },
+        {
+          "text": "charge,",
+          "start": 4.05,
+          "end": 4.59
+        },
+        {
+          "text": "a",
+          "start": 4.59,
+          "end": 4.895
+        },
+        {
+          "text": "public",
+          "start": 4.895,
+          "end": 5.2
+        },
+        {
+          "text": "benefit",
+          "start": 5.2,
+          "end": 5.65
+        },
+        {
+          "text": "fund.",
+          "start": 5.65,
+          "end": 6.07
+        }
+      ]
+    },
+    {
+      "frame": 9,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 374.04,
+      "duration_s": 6.31,
+      "words": [
+        {
+          "text": "Different",
+          "start": 0,
+          "end": 0.42
+        },
+        {
+          "text": "name,",
+          "start": 0.6,
+          "end": 1
+        },
+        {
+          "text": "same",
+          "start": 1,
+          "end": 1.32
+        },
+        {
+          "text": "line.",
+          "start": 1.32,
+          "end": 1.56
+        },
+        {
+          "text": "You",
+          "start": 1.56,
+          "end": 2.1
+        },
+        {
+          "text": "can't",
+          "start": 2.1,
+          "end": 2.25
+        },
+        {
+          "text": "remove",
+          "start": 2.25,
+          "end": 2.71
+        },
+        {
+          "text": "it,",
+          "start": 2.72,
+          "end": 3.02
+        },
+        {
+          "text": "but",
+          "start": 3.02,
+          "end": 3.15
+        },
+        {
+          "text": "it",
+          "start": 3.25,
+          "end": 3.37
+        },
+        {
+          "text": "matters",
+          "start": 3.41,
+          "end": 3.74
+        },
+        {
+          "text": "more",
+          "start": 4.13,
+          "end": 4.26
+        },
+        {
+          "text": "than",
+          "start": 4.26,
+          "end": 4.55
+        },
+        {
+          "text": "its",
+          "start": 4.55,
+          "end": 4.68
+        },
+        {
+          "text": "size,",
+          "start": 4.87,
+          "end": 5.24
+        },
+        {
+          "text": "and",
+          "start": 5.26,
+          "end": 5.49
+        },
+        {
+          "text": "here's",
+          "start": 5.49,
+          "end": 5.95
+        },
+        {
+          "text": "why.",
+          "start": 6.16,
+          "end": 6.31
+        }
+      ]
+    },
+    {
+      "frame": 10,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 380.45,
+      "duration_s": 5.82,
+      "words": [
+        {
+          "text": "That",
+          "start": 0,
+          "end": 0.3
+        },
+        {
+          "text": "surcharge",
+          "start": 0.3,
+          "end": 0.99
+        },
+        {
+          "text": "funds",
+          "start": 1.02,
+          "end": 1.2
+        },
+        {
+          "text": "programs",
+          "start": 1.72,
+          "end": 2.15
+        },
+        {
+          "text": "you've",
+          "start": 2.15,
+          "end": 2.59
+        },
+        {
+          "text": "already",
+          "start": 2.59,
+          "end": 3.12
+        },
+        {
+          "text": "paid",
+          "start": 3.12,
+          "end": 3.26
+        },
+        {
+          "text": "for",
+          "start": 3.26,
+          "end": 3.64
+        },
+        {
+          "text": "and",
+          "start": 3.64,
+          "end": 3.83
+        },
+        {
+          "text": "almost",
+          "start": 3.89,
+          "end": 4.17
+        },
+        {
+          "text": "certainly",
+          "start": 4.38,
+          "end": 4.99
+        },
+        {
+          "text": "never",
+          "start": 4.99,
+          "end": 5.06
+        },
+        {
+          "text": "used.",
+          "start": 5.66,
+          "end": 5.82
+        }
+      ]
+    },
+    {
+      "frame": 11,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 386.37,
+      "duration_s": 7.28,
+      "words": [
+        {
+          "text": "Free",
+          "start": 0,
+          "end": 0.24
+        },
+        {
+          "text": "home",
+          "start": 0.26,
+          "end": 0.49
+        },
+        {
+          "text": "energy",
+          "start": 0.59,
+          "end": 0.99
+        },
+        {
+          "text": "audits,",
+          "start": 1.02,
+          "end": 1.71
+        },
+        {
+          "text": "free",
+          "start": 1.88,
+          "end": 2
+        },
+        {
+          "text": "insulation",
+          "start": 2,
+          "end": 2.73
+        },
+        {
+          "text": "and",
+          "start": 2.73,
+          "end": 2.95
+        },
+        {
+          "text": "weather",
+          "start": 2.95,
+          "end": 3.41
+        },
+        {
+          "text": "stripping,",
+          "start": 3.8,
+          "end": 4.26
+        },
+        {
+          "text": "free",
+          "start": 4.26,
+          "end": 4.55
+        },
+        {
+          "text": "LED",
+          "start": 4.55,
+          "end": 4.77
+        },
+        {
+          "text": "replacements,",
+          "start": 4.77,
+          "end": 5.79
+        },
+        {
+          "text": "rebates",
+          "start": 5.83,
+          "end": 6.3
+        },
+        {
+          "text": "on",
+          "start": 6.3,
+          "end": 6.44
+        },
+        {
+          "text": "appliances.",
+          "start": 6.44,
+          "end": 7.28
+        }
+      ]
+    },
+    {
+      "frame": 12,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 393.65,
+      "duration_s": 3.7,
+      "words": [
+        {
+          "text": "You",
+          "start": 0,
+          "end": 0.14
+        },
+        {
+          "text": "bought",
+          "start": 0.63,
+          "end": 0.83
+        },
+        {
+          "text": "all",
+          "start": 1,
+          "end": 1.04
+        },
+        {
+          "text": "of",
+          "start": 1.04,
+          "end": 1.18
+        },
+        {
+          "text": "that,",
+          "start": 1.18,
+          "end": 1.6
+        },
+        {
+          "text": "neighbor,",
+          "start": 1.6,
+          "end": 2.21
+        },
+        {
+          "text": "every",
+          "start": 2.31,
+          "end": 2.54
+        },
+        {
+          "text": "month",
+          "start": 2.92,
+          "end": 3
+        },
+        {
+          "text": "for",
+          "start": 3,
+          "end": 3.21
+        },
+        {
+          "text": "years.",
+          "start": 3.21,
+          "end": 3.7
+        }
+      ]
+    },
+    {
+      "frame": 13,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 397.45,
+      "duration_s": 4.58,
+      "words": [
+        {
+          "text": "Go",
+          "start": 0,
+          "end": 0.11
+        },
+        {
+          "text": "collect",
+          "start": 0.11,
+          "end": 0.5
+        },
+        {
+          "text": "it.",
+          "start": 0.65,
+          "end": 0.95
+        },
+        {
+          "text": "Call",
+          "start": 1.15,
+          "end": 1.23
+        },
+        {
+          "text": "and",
+          "start": 1.23,
+          "end": 1.44
+        },
+        {
+          "text": "ask",
+          "start": 1.44,
+          "end": 1.64
+        },
+        {
+          "text": "what",
+          "start": 1.64,
+          "end": 1.88
+        },
+        {
+          "text": "your",
+          "start": 1.99,
+          "end": 2
+        },
+        {
+          "text": "efficiency",
+          "start": 2.27,
+          "end": 2.69
+        },
+        {
+          "text": "charge",
+          "start": 3.12,
+          "end": 3.4
+        },
+        {
+          "text": "entitles",
+          "start": 3.4,
+          "end": 3.99
+        },
+        {
+          "text": "you",
+          "start": 3.99,
+          "end": 4.21
+        },
+        {
+          "text": "to.",
+          "start": 4.21,
+          "end": 4.58
+        }
+      ]
+    },
+    {
+      "frame": 14,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 402.03,
+      "duration_s": 3.93,
+      "words": [
+        {
+          "text": "Almost",
+          "start": 0,
+          "end": 0.05
+        },
+        {
+          "text": "nobody",
+          "start": 0.46,
+          "end": 0.89
+        },
+        {
+          "text": "thinks",
+          "start": 0.89,
+          "end": 1.35
+        },
+        {
+          "text": "to",
+          "start": 1.35,
+          "end": 1.5
+        },
+        {
+          "text": "ask.",
+          "start": 1.5,
+          "end": 1.88
+        },
+        {
+          "text": "Number",
+          "start": 1.88,
+          "end": 2.49
+        },
+        {
+          "text": "six.",
+          "start": 2.49,
+          "end": 2.83
+        },
+        {
+          "text": "Storm",
+          "start": 2.83,
+          "end": 3.2
+        },
+        {
+          "text": "recovery.",
+          "start": 3.2,
+          "end": 3.93
+        }
+      ]
+    },
+    {
+      "frame": 15,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 405.96,
+      "duration_s": 8.71,
+      "words": [
+        {
+          "text": "Stuck.",
+          "start": 0,
+          "end": 0.76
+        },
+        {
+          "text": "After",
+          "start": 0.76,
+          "end": 1.64
+        },
+        {
+          "text": "a",
+          "start": 1.64,
+          "end": 1.8
+        },
+        {
+          "text": "bad",
+          "start": 1.97,
+          "end": 1.99
+        },
+        {
+          "text": "storm,",
+          "start": 1.99,
+          "end": 2.43
+        },
+        {
+          "text": "a",
+          "start": 2.43,
+          "end": 2.48
+        },
+        {
+          "text": "utility",
+          "start": 2.48,
+          "end": 2.91
+        },
+        {
+          "text": "spends",
+          "start": 3.01,
+          "end": 3.32
+        },
+        {
+          "text": "heavily",
+          "start": 3.32,
+          "end": 3.51
+        },
+        {
+          "text": "rebuilding",
+          "start": 3.89,
+          "end": 4.4
+        },
+        {
+          "text": "lines,",
+          "start": 4.41,
+          "end": 4.85
+        },
+        {
+          "text": "then",
+          "start": 4.85,
+          "end": 5.1
+        },
+        {
+          "text": "recovers",
+          "start": 5.1,
+          "end": 5.31
+        },
+        {
+          "text": "that",
+          "start": 5.31,
+          "end": 5.92
+        },
+        {
+          "text": "money",
+          "start": 5.92,
+          "end": 6.18
+        },
+        {
+          "text": "from",
+          "start": 6.18,
+          "end": 6.41
+        },
+        {
+          "text": "customers",
+          "start": 6.42,
+          "end": 7.08
+        },
+        {
+          "text": "over",
+          "start": 7.25,
+          "end": 7.38
+        },
+        {
+          "text": "a",
+          "start": 7.38,
+          "end": 7.45
+        },
+        {
+          "text": "stretch",
+          "start": 7.45,
+          "end": 7.95
+        },
+        {
+          "text": "of",
+          "start": 7.98,
+          "end": 8.12
+        },
+        {
+          "text": "years.",
+          "start": 8.12,
+          "end": 8.71
+        }
+      ]
+    },
+    {
+      "frame": 16,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 414.67,
+      "duration_s": 3.65,
+      "words": [
+        {
+          "text": "Storm",
+          "start": 0,
+          "end": 0.08
+        },
+        {
+          "text": "recovery,",
+          "start": 0.46,
+          "end": 1.01
+        },
+        {
+          "text": "storm",
+          "start": 1.2,
+          "end": 1.49
+        },
+        {
+          "text": "cost,",
+          "start": 1.49,
+          "end": 1.88
+        },
+        {
+          "text": "securitization",
+          "start": 1.99,
+          "end": 2.98
+        },
+        {
+          "text": "charge.",
+          "start": 2.98,
+          "end": 3.65
+        }
+      ]
+    },
+    {
+      "frame": 17,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 418.32,
+      "duration_s": 5.03,
+      "words": [
+        {
+          "text": "You",
+          "start": 0,
+          "end": 0.22
+        },
+        {
+          "text": "can't",
+          "start": 0.22,
+          "end": 0.59
+        },
+        {
+          "text": "remove",
+          "start": 0.92,
+          "end": 1.12
+        },
+        {
+          "text": "it.",
+          "start": 1.18,
+          "end": 1.52
+        },
+        {
+          "text": "It",
+          "start": 1.52,
+          "end": 1.69
+        },
+        {
+          "text": "does",
+          "start": 1.69,
+          "end": 1.91
+        },
+        {
+          "text": "have",
+          "start": 1.91,
+          "end": 2.17
+        },
+        {
+          "text": "an",
+          "start": 2.17,
+          "end": 2.3
+        },
+        {
+          "text": "end",
+          "start": 2.3,
+          "end": 2.49
+        },
+        {
+          "text": "date,",
+          "start": 2.49,
+          "end": 2.85
+        },
+        {
+          "text": "written",
+          "start": 2.89,
+          "end": 3.22
+        },
+        {
+          "text": "into",
+          "start": 3.22,
+          "end": 3.61
+        },
+        {
+          "text": "the",
+          "start": 3.61,
+          "end": 3.78
+        },
+        {
+          "text": "order",
+          "start": 3.78,
+          "end": 4.06
+        },
+        {
+          "text": "that",
+          "start": 4.06,
+          "end": 4.36
+        },
+        {
+          "text": "created",
+          "start": 4.36,
+          "end": 4.81
+        },
+        {
+          "text": "it.",
+          "start": 4.81,
+          "end": 5.03
+        }
+      ]
+    },
+    {
+      "frame": 18,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 423.54,
+      "duration_s": 8.39,
+      "words": [
+        {
+          "text": "I'm",
+          "start": 0,
+          "end": 0.14
+        },
+        {
+          "text": "telling",
+          "start": 0.41,
+          "end": 0.54
+        },
+        {
+          "text": "you",
+          "start": 0.54,
+          "end": 0.57
+        },
+        {
+          "text": "what",
+          "start": 0.67,
+          "end": 0.86
+        },
+        {
+          "text": "it",
+          "start": 0.86,
+          "end": 1.01
+        },
+        {
+          "text": "is",
+          "start": 1.01,
+          "end": 1.16
+        },
+        {
+          "text": "so",
+          "start": 1.26,
+          "end": 1.32
+        },
+        {
+          "text": "you",
+          "start": 1.32,
+          "end": 1.67
+        },
+        {
+          "text": "can",
+          "start": 1.67,
+          "end": 1.71
+        },
+        {
+          "text": "quit",
+          "start": 1.71,
+          "end": 1.99
+        },
+        {
+          "text": "wandering.",
+          "start": 1.99,
+          "end": 2.82
+        },
+        {
+          "text": "A",
+          "start": 2.82,
+          "end": 2.88
+        },
+        {
+          "text": "charge",
+          "start": 2.98,
+          "end": 3.2
+        },
+        {
+          "text": "you",
+          "start": 3.2,
+          "end": 3.59
+        },
+        {
+          "text": "understand",
+          "start": 3.59,
+          "end": 4.13
+        },
+        {
+          "text": "stops",
+          "start": 4.33,
+          "end": 4.58
+        },
+        {
+          "text": "costing",
+          "start": 4.58,
+          "end": 4.97
+        },
+        {
+          "text": "you",
+          "start": 5.12,
+          "end": 5.13
+        },
+        {
+          "text": "sleep",
+          "start": 5.61,
+          "end": 5.63
+        },
+        {
+          "text": "even",
+          "start": 5.63,
+          "end": 5.91
+        },
+        {
+          "text": "when",
+          "start": 5.91,
+          "end": 6.17
+        },
+        {
+          "text": "it",
+          "start": 6.19,
+          "end": 6.33
+        },
+        {
+          "text": "doesn't",
+          "start": 6.33,
+          "end": 6.85
+        },
+        {
+          "text": "stop",
+          "start": 6.85,
+          "end": 7.06
+        },
+        {
+          "text": "costing",
+          "start": 7.06,
+          "end": 7.21
+        },
+        {
+          "text": "you",
+          "start": 7.75,
+          "end": 7.8
+        },
+        {
+          "text": "money.",
+          "start": 7.8,
+          "end": 8.39
+        }
+      ]
+    },
+    {
+      "frame": 19,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 431.93,
+      "duration_s": 3.27,
+      "words": [
+        {
+          "text": "Number",
+          "start": 0,
+          "end": 0.45
+        },
+        {
+          "text": "five.",
+          "start": 0.45,
+          "end": 0.89
+        },
+        {
+          "text": "The",
+          "start": 0.89,
+          "end": 1.28
+        },
+        {
+          "text": "fuel",
+          "start": 1.28,
+          "end": 1.47
+        },
+        {
+          "text": "adjustment.",
+          "start": 1.53,
+          "end": 2.46
+        },
+        {
+          "text": "Shrink",
+          "start": 2.46,
+          "end": 2.7
+        },
+        {
+          "text": "it.",
+          "start": 2.9,
+          "end": 3.27
+        }
+      ]
+    },
+    {
+      "frame": 20,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 435.24,
+      "duration_s": 4.5,
+      "words": [
+        {
+          "text": "Fuel",
+          "start": 0,
+          "end": 0.26
+        },
+        {
+          "text": "adjustment.",
+          "start": 0.26,
+          "end": 1.23
+        },
+        {
+          "text": "Power",
+          "start": 1.23,
+          "end": 1.44
+        },
+        {
+          "text": "cost",
+          "start": 1.44,
+          "end": 1.89
+        },
+        {
+          "text": "recovery.",
+          "start": 2.08,
+          "end": 2.83
+        },
+        {
+          "text": "Purchased",
+          "start": 3.01,
+          "end": 3.36
+        },
+        {
+          "text": "power",
+          "start": 3.4,
+          "end": 3.69
+        },
+        {
+          "text": "adjustment.",
+          "start": 3.69,
+          "end": 4.5
+        }
+      ]
+    },
+    {
+      "frame": 21,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 439.74,
+      "duration_s": 7.05,
+      "words": [
+        {
+          "text": "Different",
+          "start": 0,
+          "end": 0.55
+        },
+        {
+          "text": "name",
+          "start": 0.55,
+          "end": 0.79
+        },
+        {
+          "text": "in",
+          "start": 0.79,
+          "end": 0.9
+        },
+        {
+          "text": "every",
+          "start": 0.9,
+          "end": 1.22
+        },
+        {
+          "text": "state,",
+          "start": 1.31,
+          "end": 1.7
+        },
+        {
+          "text": "same",
+          "start": 1.7,
+          "end": 1.85
+        },
+        {
+          "text": "animal.",
+          "start": 2.45,
+          "end": 2.82
+        },
+        {
+          "text": "This",
+          "start": 2.82,
+          "end": 3.01
+        },
+        {
+          "text": "is",
+          "start": 3.03,
+          "end": 3.13
+        },
+        {
+          "text": "the",
+          "start": 3.13,
+          "end": 3.21
+        },
+        {
+          "text": "part",
+          "start": 3.3,
+          "end": 3.31
+        },
+        {
+          "text": "of",
+          "start": 3.31,
+          "end": 3.71
+        },
+        {
+          "text": "your",
+          "start": 3.71,
+          "end": 3.93
+        },
+        {
+          "text": "rate",
+          "start": 3.93,
+          "end": 4.19
+        },
+        {
+          "text": "that",
+          "start": 4.19,
+          "end": 4.41
+        },
+        {
+          "text": "moves",
+          "start": 4.44,
+          "end": 4.78
+        },
+        {
+          "text": "with",
+          "start": 4.78,
+          "end": 5.04
+        },
+        {
+          "text": "what",
+          "start": 5.04,
+          "end": 5.25
+        },
+        {
+          "text": "it",
+          "start": 5.25,
+          "end": 5.63
+        },
+        {
+          "text": "costs",
+          "start": 5.63,
+          "end": 5.76
+        },
+        {
+          "text": "to",
+          "start": 5.76,
+          "end": 5.82
+        },
+        {
+          "text": "generate",
+          "start": 5.88,
+          "end": 6.41
+        },
+        {
+          "text": "the",
+          "start": 6.51,
+          "end": 6.61
+        },
+        {
+          "text": "power.",
+          "start": 6.61,
+          "end": 7.05
+        }
+      ]
+    },
+    {
+      "frame": 22,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 446.9,
+      "duration_s": 5.98,
+      "words": [
+        {
+          "text": "Not",
+          "start": 0,
+          "end": 0.15
+        },
+        {
+          "text": "fixed,",
+          "start": 0.49,
+          "end": 0.65
+        },
+        {
+          "text": "not",
+          "start": 0.75,
+          "end": 0.95
+        },
+        {
+          "text": "negotiable,",
+          "start": 0.95,
+          "end": 1.82
+        },
+        {
+          "text": "and",
+          "start": 1.99,
+          "end": 2.02
+        },
+        {
+          "text": "a",
+          "start": 2.02,
+          "end": 2.08
+        },
+        {
+          "text": "big",
+          "start": 2.08,
+          "end": 2.28
+        },
+        {
+          "text": "part",
+          "start": 2.28,
+          "end": 2.5
+        },
+        {
+          "text": "of",
+          "start": 2.59,
+          "end": 2.67
+        },
+        {
+          "text": "why",
+          "start": 2.67,
+          "end": 2.88
+        },
+        {
+          "text": "your",
+          "start": 2.88,
+          "end": 3.14
+        },
+        {
+          "text": "bill",
+          "start": 3.14,
+          "end": 3.42
+        },
+        {
+          "text": "has",
+          "start": 3.42,
+          "end": 3.52
+        },
+        {
+          "text": "climbed",
+          "start": 3.91,
+          "end": 4.09
+        },
+        {
+          "text": "so",
+          "start": 4.09,
+          "end": 4.22
+        },
+        {
+          "text": "hard",
+          "start": 4.22,
+          "end": 4.45
+        },
+        {
+          "text": "these",
+          "start": 4.64,
+          "end": 4.83
+        },
+        {
+          "text": "last",
+          "start": 4.83,
+          "end": 5.1
+        },
+        {
+          "text": "five",
+          "start": 5.1,
+          "end": 5.33
+        },
+        {
+          "text": "years.",
+          "start": 5.71,
+          "end": 5.98
+        }
+      ]
+    },
+    {
+      "frame": 23,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 452.88,
+      "duration_s": 4.79,
+      "words": [
+        {
+          "text": "But",
+          "start": 0,
+          "end": 0.11
+        },
+        {
+          "text": "because",
+          "start": 0.21,
+          "end": 0.55
+        },
+        {
+          "text": "it",
+          "start": 0.55,
+          "end": 0.7
+        },
+        {
+          "text": "floats,",
+          "start": 0.8,
+          "end": 1.28
+        },
+        {
+          "text": "it",
+          "start": 1.28,
+          "end": 1.45
+        },
+        {
+          "text": "rewards",
+          "start": 1.45,
+          "end": 1.84
+        },
+        {
+          "text": "you",
+          "start": 1.86,
+          "end": 1.96
+        },
+        {
+          "text": "for",
+          "start": 2.04,
+          "end": 2.24
+        },
+        {
+          "text": "changing",
+          "start": 2.24,
+          "end": 2.66
+        },
+        {
+          "text": "when",
+          "start": 2.76,
+          "end": 2.99
+        },
+        {
+          "text": "you",
+          "start": 2.99,
+          "end": 3.01
+        },
+        {
+          "text": "use",
+          "start": 3.37,
+          "end": 3.38
+        },
+        {
+          "text": "power",
+          "start": 3.38,
+          "end": 3.7
+        },
+        {
+          "text": "rather",
+          "start": 3.7,
+          "end": 3.92
+        },
+        {
+          "text": "than",
+          "start": 4.11,
+          "end": 4.33
+        },
+        {
+          "text": "how",
+          "start": 4.33,
+          "end": 4.52
+        },
+        {
+          "text": "much.",
+          "start": 4.52,
+          "end": 4.79
+        }
+      ]
+    },
+    {
+      "frame": 24,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 457.67,
+      "duration_s": 4.64,
+      "words": [
+        {
+          "text": "Which",
+          "start": 0,
+          "end": 0.61
+        },
+        {
+          "text": "takes",
+          "start": 0.61,
+          "end": 0.76
+        },
+        {
+          "text": "us",
+          "start": 0.86,
+          "end": 0.97
+        },
+        {
+          "text": "into",
+          "start": 0.97,
+          "end": 1.2
+        },
+        {
+          "text": "number",
+          "start": 1.2,
+          "end": 1.46
+        },
+        {
+          "text": "four.",
+          "start": 1.7,
+          "end": 2.02
+        },
+        {
+          "text": "Number",
+          "start": 2.02,
+          "end": 2.4
+        },
+        {
+          "text": "four.",
+          "start": 2.45,
+          "end": 2.91
+        },
+        {
+          "text": "The",
+          "start": 3.01,
+          "end": 3.15
+        },
+        {
+          "text": "basic",
+          "start": 3.15,
+          "end": 3.24
+        },
+        {
+          "text": "service",
+          "start": 3.62,
+          "end": 4
+        },
+        {
+          "text": "charge.",
+          "start": 4,
+          "end": 4.64
+        }
+      ]
+    },
+    {
+      "frame": 25,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 462.31,
+      "duration_s": 5.33,
+      "words": [
+        {
+          "text": "Shrink",
+          "start": 0,
+          "end": 0.4
+        },
+        {
+          "text": "it.",
+          "start": 0.56,
+          "end": 0.77
+        },
+        {
+          "text": "The",
+          "start": 0.77,
+          "end": 1.01
+        },
+        {
+          "text": "fixed",
+          "start": 1.01,
+          "end": 1.33
+        },
+        {
+          "text": "monthly",
+          "start": 1.33,
+          "end": 1.74
+        },
+        {
+          "text": "charge",
+          "start": 1.85,
+          "end": 2.25
+        },
+        {
+          "text": "you",
+          "start": 2.28,
+          "end": 2.45
+        },
+        {
+          "text": "pay",
+          "start": 2.45,
+          "end": 2.6
+        },
+        {
+          "text": "before",
+          "start": 2.98,
+          "end": 3.21
+        },
+        {
+          "text": "you've",
+          "start": 3.21,
+          "end": 3.61
+        },
+        {
+          "text": "used",
+          "start": 3.61,
+          "end": 3.88
+        },
+        {
+          "text": "a",
+          "start": 3.88,
+          "end": 3.92
+        },
+        {
+          "text": "single",
+          "start": 4.02,
+          "end": 4.34
+        },
+        {
+          "text": "kilowatt",
+          "start": 4.34,
+          "end": 4.87
+        },
+        {
+          "text": "hour.",
+          "start": 4.9,
+          "end": 5.33
+        }
+      ]
+    },
+    {
+      "frame": 26,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 467.64,
+      "duration_s": 3.72,
+      "words": [
+        {
+          "text": "Shut",
+          "start": 0,
+          "end": 0.12
+        },
+        {
+          "text": "everything",
+          "start": 0.31,
+          "end": 0.95
+        },
+        {
+          "text": "off",
+          "start": 0.95,
+          "end": 0.99
+        },
+        {
+          "text": "for",
+          "start": 1.18,
+          "end": 1.36
+        },
+        {
+          "text": "30",
+          "start": 1.6,
+          "end": 1.75
+        },
+        {
+          "text": "days",
+          "start": 1.85,
+          "end": 2.09
+        },
+        {
+          "text": "and",
+          "start": 2.11,
+          "end": 2.31
+        },
+        {
+          "text": "it",
+          "start": 2.31,
+          "end": 2.45
+        },
+        {
+          "text": "still",
+          "start": 2.72,
+          "end": 2.84
+        },
+        {
+          "text": "shows",
+          "start": 2.84,
+          "end": 3.04
+        },
+        {
+          "text": "up.",
+          "start": 3.04,
+          "end": 3.72
+        }
+      ]
+    },
+    {
+      "frame": 27,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 471.53,
+      "duration_s": 3.75,
+      "words": [
+        {
+          "text": "You",
+          "start": 0,
+          "end": 0.04
+        },
+        {
+          "text": "can't",
+          "start": 0.04,
+          "end": 0.35
+        },
+        {
+          "text": "get",
+          "start": 0.39,
+          "end": 0.51
+        },
+        {
+          "text": "rid",
+          "start": 0.59,
+          "end": 0.8
+        },
+        {
+          "text": "of",
+          "start": 0.8,
+          "end": 0.94
+        },
+        {
+          "text": "it,",
+          "start": 0.94,
+          "end": 1.21
+        },
+        {
+          "text": "but",
+          "start": 1.21,
+          "end": 1.42
+        },
+        {
+          "text": "hardly",
+          "start": 1.42,
+          "end": 1.54
+        },
+        {
+          "text": "anybody",
+          "start": 1.92,
+          "end": 2.31
+        },
+        {
+          "text": "knows",
+          "start": 2.31,
+          "end": 2.65
+        },
+        {
+          "text": "this",
+          "start": 2.66,
+          "end": 2.93
+        },
+        {
+          "text": "next",
+          "start": 2.93,
+          "end": 3.21
+        },
+        {
+          "text": "part.",
+          "start": 3.21,
+          "end": 3.75
+        }
+      ]
+    },
+    {
+      "frame": 28,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 475.28,
+      "duration_s": 4.76,
+      "words": [
+        {
+          "text": "The",
+          "start": 0,
+          "end": 0.2
+        },
+        {
+          "text": "amount",
+          "start": 0.2,
+          "end": 0.53
+        },
+        {
+          "text": "changes",
+          "start": 0.53,
+          "end": 0.93
+        },
+        {
+          "text": "depending",
+          "start": 1.04,
+          "end": 1.44
+        },
+        {
+          "text": "on",
+          "start": 1.47,
+          "end": 1.52
+        },
+        {
+          "text": "your",
+          "start": 1.69,
+          "end": 1.84
+        },
+        {
+          "text": "rate",
+          "start": 1.84,
+          "end": 2.16
+        },
+        {
+          "text": "class",
+          "start": 2.16,
+          "end": 2.56
+        },
+        {
+          "text": "and",
+          "start": 2.56,
+          "end": 2.8
+        },
+        {
+          "text": "your",
+          "start": 2.8,
+          "end": 3.12
+        },
+        {
+          "text": "utility",
+          "start": 3.13,
+          "end": 3.67
+        },
+        {
+          "text": "runs",
+          "start": 3.67,
+          "end": 3.99
+        },
+        {
+          "text": "several.",
+          "start": 3.99,
+          "end": 4.76
+        }
+      ]
+    },
+    {
+      "frame": 29,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 480.04,
+      "duration_s": 5.86,
+      "words": [
+        {
+          "text": "Standard",
+          "start": 0,
+          "end": 0.27
+        },
+        {
+          "text": "residential,",
+          "start": 0.88,
+          "end": 1.62
+        },
+        {
+          "text": "time",
+          "start": 1.72,
+          "end": 1.73
+        },
+        {
+          "text": "of",
+          "start": 2,
+          "end": 2.11
+        },
+        {
+          "text": "use,",
+          "start": 2.15,
+          "end": 2.44
+        },
+        {
+          "text": "low",
+          "start": 2.44,
+          "end": 2.97
+        },
+        {
+          "text": "income,",
+          "start": 2.97,
+          "end": 3.64
+        },
+        {
+          "text": "medical,",
+          "start": 3.81,
+          "end": 4.32
+        },
+        {
+          "text": "all",
+          "start": 4.41,
+          "end": 4.63
+        },
+        {
+          "text": "electric",
+          "start": 4.63,
+          "end": 5.26
+        },
+        {
+          "text": "home.",
+          "start": 5.26,
+          "end": 5.86
+        }
+      ]
+    },
+    {
+      "frame": 30,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 485.9,
+      "duration_s": 7.3,
+      "words": [
+        {
+          "text": "If",
+          "start": 0,
+          "end": 0.16
+        },
+        {
+          "text": "somebody",
+          "start": 0.16,
+          "end": 0.82
+        },
+        {
+          "text": "put",
+          "start": 0.82,
+          "end": 1.07
+        },
+        {
+          "text": "you",
+          "start": 1.07,
+          "end": 1.29
+        },
+        {
+          "text": "on",
+          "start": 1.29,
+          "end": 1.48
+        },
+        {
+          "text": "a",
+          "start": 1.48,
+          "end": 1.56
+        },
+        {
+          "text": "rate",
+          "start": 1.56,
+          "end": 1.9
+        },
+        {
+          "text": "class",
+          "start": 1.9,
+          "end": 2.3
+        },
+        {
+          "text": "in",
+          "start": 2.3,
+          "end": 2.45
+        },
+        {
+          "text": "1998",
+          "start": 2.45,
+          "end": 3.35
+        },
+        {
+          "text": "and",
+          "start": 3.62,
+          "end": 3.77
+        },
+        {
+          "text": "nothing's",
+          "start": 3.98,
+          "end": 4.16
+        },
+        {
+          "text": "been",
+          "start": 4.24,
+          "end": 4.34
+        },
+        {
+          "text": "looked",
+          "start": 4.34,
+          "end": 4.58
+        },
+        {
+          "text": "at",
+          "start": 4.58,
+          "end": 4.83
+        },
+        {
+          "text": "since,",
+          "start": 4.83,
+          "end": 5.26
+        },
+        {
+          "text": "you",
+          "start": 5.26,
+          "end": 5.46
+        },
+        {
+          "text": "might",
+          "start": 5.46,
+          "end": 5.77
+        },
+        {
+          "text": "be",
+          "start": 5.87,
+          "end": 5.92
+        },
+        {
+          "text": "sitting",
+          "start": 5.92,
+          "end": 6.36
+        },
+        {
+          "text": "on",
+          "start": 6.36,
+          "end": 6.555
+        },
+        {
+          "text": "the",
+          "start": 6.555,
+          "end": 6.75
+        },
+        {
+          "text": "wrong",
+          "start": 6.75,
+          "end": 7.08
+        },
+        {
+          "text": "one,",
+          "start": 7.08,
+          "end": 7.3
+        }
+      ]
+    },
+    {
+      "frame": 31,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 493.39,
+      "duration_s": 3.77,
+      "words": [
+        {
+          "text": "which",
+          "start": 0,
+          "end": 0.26
+        },
+        {
+          "text": "is",
+          "start": 0.26,
+          "end": 0.37
+        },
+        {
+          "text": "number",
+          "start": 0.39,
+          "end": 0.68
+        },
+        {
+          "text": "three.",
+          "start": 0.79,
+          "end": 1.34
+        },
+        {
+          "text": "Number",
+          "start": 1.34,
+          "end": 1.75
+        },
+        {
+          "text": "three.",
+          "start": 1.75,
+          "end": 2.45
+        },
+        {
+          "text": "The",
+          "start": 2.45,
+          "end": 2.61
+        },
+        {
+          "text": "wrong",
+          "start": 2.61,
+          "end": 2.74
+        },
+        {
+          "text": "rate",
+          "start": 3.1,
+          "end": 3.21
+        },
+        {
+          "text": "class.",
+          "start": 3.21,
+          "end": 3.77
+        }
+      ]
+    },
+    {
+      "frame": 32,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 497.16,
+      "duration_s": 3.72,
+      "words": [
+        {
+          "text": "Kill",
+          "start": 0,
+          "end": 0.27
+        },
+        {
+          "text": "it.",
+          "start": 0.37,
+          "end": 0.54
+        },
+        {
+          "text": "Biggest",
+          "start": 0.64,
+          "end": 0.88
+        },
+        {
+          "text": "one",
+          "start": 1.25,
+          "end": 1.33
+        },
+        {
+          "text": "on",
+          "start": 1.33,
+          "end": 1.44
+        },
+        {
+          "text": "this",
+          "start": 1.5,
+          "end": 1.74
+        },
+        {
+          "text": "list",
+          "start": 1.74,
+          "end": 2.03
+        },
+        {
+          "text": "that",
+          "start": 2.03,
+          "end": 2.31
+        },
+        {
+          "text": "costs",
+          "start": 2.31,
+          "end": 2.63
+        },
+        {
+          "text": "nothing",
+          "start": 2.63,
+          "end": 2.67
+        },
+        {
+          "text": "to",
+          "start": 3.28,
+          "end": 3.3
+        },
+        {
+          "text": "fix.",
+          "start": 3.3,
+          "end": 3.72
+        }
+      ]
+    },
+    {
+      "frame": 33,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 500.88,
+      "duration_s": 4.63,
+      "words": [
+        {
+          "text": "Write",
+          "start": 0,
+          "end": 0.29
+        },
+        {
+          "text": "these",
+          "start": 0.4,
+          "end": 0.7
+        },
+        {
+          "text": "words",
+          "start": 0.7,
+          "end": 1.01
+        },
+        {
+          "text": "down.",
+          "start": 1.64,
+          "end": 2
+        },
+        {
+          "text": "Ask",
+          "start": 2.17,
+          "end": 2.24
+        },
+        {
+          "text": "your",
+          "start": 2.24,
+          "end": 2.53
+        },
+        {
+          "text": "utility",
+          "start": 2.56,
+          "end": 3.1
+        },
+        {
+          "text": "this",
+          "start": 3.1,
+          "end": 3.38
+        },
+        {
+          "text": "exact",
+          "start": 3.48,
+          "end": 3.71
+        },
+        {
+          "text": "question.",
+          "start": 4.09,
+          "end": 4.63
+        }
+      ]
+    }
+  ],
+  "sfx": []
+}

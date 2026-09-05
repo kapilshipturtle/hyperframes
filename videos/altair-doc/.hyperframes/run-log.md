@@ -5356,3 +5356,11 @@ mounted ambience bed + grain overlay
 ### verify-ci-parity
 [object Object]
   - **problems:** []
+
+### Chunked render — split
+5 chunk(s) created
+  - **chunks:** chunk-00: beats 01-31, ~41 sources | chunk-01: beats 32-64, ~41 sources | chunk-02: beats 65-97, ~40 sources | chunk-03: beats 98-130, ~42 sources | chunk-04: beats 131-145, ~17 sources
+
+### Chunked render — split
+5 chunk(s) created
+  - **chunks:** chunk-00: beats 01-31, ~41 sources | chunk-01: beats 32-64, ~41 sources | chunk-02: beats 65-97, ~40 sources | chunk-03: beats 98-130, ~42 sources | chunk-04: beats 131-145, ~17 sources

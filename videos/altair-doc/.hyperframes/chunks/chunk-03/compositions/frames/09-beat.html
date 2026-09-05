@@ -1,0 +1,115 @@
+<template>
+  <style>
+    #root {
+      width: 1920px;
+      height: 1080px;
+      position: relative;
+      overflow: hidden;
+      background: #000;
+    }
+    .broll-wrap {
+      position: absolute;
+      inset: -6%;
+      width: 112%;
+      height: 112%;
+    }
+    .broll-media {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    /* Cutaway sits absolutely over the primary media inside the same wrap
+       (so it inherits the same Ken Burns move on the wrap element, keeping
+       the two shots visually consistent) — starts transparent, GSAP
+       crossfades it in at --cutaway-at, see the script block below. */
+    .broll-cutaway {
+      position: absolute;
+      inset: 0;
+    }
+    /* 2.5D parallax layers (see gen-depth-layers.py) — both stacked full-
+       bleed inside the same wrap. The foreground is deliberately oversized
+       (rather than 100%) so its own independent translate (see parallaxCode
+       below) never slides a transparent edge into frame — the same
+       overscan-margin idea the wrap itself already uses, just at the layer
+       level since the fg moves MORE than the wrap's own Ken Burns alone. */
+    .broll-parallax-bg {
+      position: absolute;
+      inset: 0;
+      object-fit: cover;
+    }
+    .broll-parallax-fg {
+      position: absolute;
+      inset: -8%;
+      width: 116%;
+      height: 116%;
+      object-fit: contain;
+      object-position: center;
+    }
+    /* subtle bottom scrim so any burned-in captions stay readable over bright footage */
+    .broll-scrim {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to top, rgba(0,0,0,0.35) 0%, rgba(0,0,0,0) 22%);
+      pointer-events: none;
+    }
+    /* Optional per-beat vignette — a real, if modest, "composited" texture
+       layer distinct from the global grain overlay (which is flat, uniform,
+       full-timeline). Researched documentary/explainer-channel convention:
+       supporting texture layers COMPOSITED WITH the base clip, in the same
+       frame, is the single highest-leverage visual-quality delta over "one
+       flat clip per beat" — this is the smallest, most self-contained piece
+       of that: a soft radial darkening toward the frame edges, drawing the
+       eye toward center/subject the way a real lens vignette does. Opt-in
+       per beat via --vignette, never global/automatic (unlike grain) since
+       its strength should vary by shot mood, not apply uniformly.*/
+    .broll-vignette {
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse at center, rgba(0,0,0,0) 45%, rgba(0,0,0,0) 100%);
+      pointer-events: none;
+    }
+
+    .ov-chapter-scrim { position: absolute; inset: 0; background: rgba(0,0,0,0.38); opacity: 0; pointer-events: none; }
+    .ov-chapter-title { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); text-align: center; opacity: 0; }
+    .ov-ct-kicker { display: block; font: 700 22px/1 -apple-system, "Inter", sans-serif; letter-spacing: 0.18em; text-transform: uppercase; color: #ffffff; text-shadow: 0 1px 2px rgba(0,0,0,0.5), 0 4px 14px rgba(0,0,0,0.4); opacity: 0; margin-bottom: 14px; }
+    .ov-ct-title { display: block; font: 800 88px/1.05 -apple-system, "Inter", sans-serif; color: #ffffff; text-shadow: 0 1px 2px rgba(0,0,0,0.5), 0 4px 14px rgba(0,0,0,0.4); }
+    .ov-ct-rule { display: block; width: 90px; height: 4px; background: #ffffff; margin: 22px auto 0; border-radius: 2px; transform-origin: 50% 50%; transform: scaleX(0); }
+  </style>
+
+  <div
+    id="root"
+    data-composition-id="09-beat"
+    data-width="1920" data-height="1080" data-duration="9.45"
+  >
+    <div class="broll-wrap" id="f-09-beat-wrap">
+      <video id="f-09-beat-media" class="broll-media clip" src=".media/broll/beat-106.mp4" muted playsinline data-start="0" data-duration="9.45" data-media-start="0" data-track-index="0"></video>
+      <video id="f-09-beat-cutaway" class="broll-media broll-cutaway clip" src=".media/broll/beat-106-cutaway.mp4" muted playsinline data-start="5.86" data-duration="3.59" data-media-start="0" data-track-index="4" style="opacity:0;"></video>
+    </div>
+    <div class="broll-scrim clip" id="f-09-beat-scrim" data-start="0" data-duration="9.45" data-track-index="1"></div>
+    <div class="ov-chapter-scrim" id="f-09-beat-ov-scrim"></div><div class="ov-chapter-title" id="f-09-beat-ov"><span class="ov-ct-kicker" id="f-09-beat-ov-kicker">NUMBER 2</span><span class="ov-ct-title" id="f-09-beat-ov-title">Peak Pricing</span><span class="ov-ct-rule" id="f-09-beat-ov-rule"></span></div>
+  </div>
+
+  <script>
+    (function () {
+      window.__timelines = window.__timelines || {};
+      var tl = gsap.timeline({ paused: true });
+      var wrap = document.getElementById("f-09-beat-wrap");
+      gsap.set(wrap, { scale: 1.0 });
+      tl.to("#f-09-beat-ov-scrim", { opacity: 1, duration: 0.3, ease: "power2.out" }, 0.32);
+      tl.to("#f-09-beat-ov", { opacity: 1, duration: 0.01 }, 0.40);
+      tl.fromTo("#f-09-beat-ov-kicker", { opacity: 0, y: 10 }, { opacity: 1, y: 0, duration: 0.3, ease: "power3.out" }, 0.40);
+      tl.fromTo("#f-09-beat-ov-title", { opacity: 0, scale: 0.85 }, { opacity: 1, scale: 1, duration: 0.45, ease: "back.out(1.4)" }, 0.58);
+      tl.to("#f-09-beat-ov-rule", { scaleX: 1, duration: 0.35, ease: "power3.out" }, 0.90);
+      tl.to("#f-09-beat-ov", { opacity: 0, duration: 0.3, ease: "power2.in" }, 1.90);
+      tl.to("#f-09-beat-ov-scrim", { opacity: 0, duration: 0.35, ease: "power2.in" }, 1.90);
+      // Quick crossfade hand-off to the cutaway layer — primary media fades
+      // out just as the cutaway fades in, both centered on --cutaway-at, so
+      // there's never a moment either layer reads as a hard pop.
+      var cutawayEl = document.getElementById("f-09-beat-cutaway");
+      var primaryEl = document.getElementById("f-09-beat-media");
+      tl.to(primaryEl, { opacity: 0, duration: 0.4, ease: "none" }, 5.86 - 0.2);
+      tl.to(cutawayEl, { opacity: 1, duration: 0.4, ease: "none" }, 5.86 - 0.2);
+      window.__timelines["09-beat"] = tl;
+    })();
+  </script>
+</template>

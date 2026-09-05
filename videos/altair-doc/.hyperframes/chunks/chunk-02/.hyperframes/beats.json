@@ -1,0 +1,2641 @@
+{
+  "beats": [
+    {
+      "id": "65",
+      "text": "Every dollar you take off the rest of this bill, this line shrinks by itself.",
+      "start": 333.88,
+      "end": 338.25,
+      "durationSeconds": 4.37,
+      "words": [
+        {
+          "text": "Every",
+          "start": 333.88,
+          "end": 334.21
+        },
+        {
+          "text": "dollar",
+          "start": 334.21,
+          "end": 334.6
+        },
+        {
+          "text": "you",
+          "start": 334.6,
+          "end": 334.81
+        },
+        {
+          "text": "take",
+          "start": 334.81,
+          "end": 334.99
+        },
+        {
+          "text": "off",
+          "start": 334.99,
+          "end": 335.37
+        },
+        {
+          "text": "the",
+          "start": 335.37,
+          "end": 335.47
+        },
+        {
+          "text": "rest",
+          "start": 335.47,
+          "end": 335.73
+        },
+        {
+          "text": "of",
+          "start": 335.73,
+          "end": 335.86
+        },
+        {
+          "text": "this",
+          "start": 335.86,
+          "end": 336.12
+        },
+        {
+          "text": "bill,",
+          "start": 336.12,
+          "end": 336.48
+        },
+        {
+          "text": "this",
+          "start": 336.5,
+          "end": 336.75
+        },
+        {
+          "text": "line",
+          "start": 336.77,
+          "end": 336.79
+        },
+        {
+          "text": "shrinks",
+          "start": 336.99,
+          "end": 337.49
+        },
+        {
+          "text": "by",
+          "start": 337.49,
+          "end": 337.55
+        },
+        {
+          "text": "itself.",
+          "start": 337.65,
+          "end": 338.25
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "text": "Number eight. State and local utility tax.",
+      "start": 338.25,
+      "end": 341.97,
+      "durationSeconds": 3.72,
+      "words": [
+        {
+          "text": "Number",
+          "start": 338.25,
+          "end": 339.13
+        },
+        {
+          "text": "eight.",
+          "start": 339.13,
+          "end": 339.6
+        },
+        {
+          "text": "State",
+          "start": 339.6,
+          "end": 340.06
+        },
+        {
+          "text": "and",
+          "start": 340.06,
+          "end": 340.28
+        },
+        {
+          "text": "local",
+          "start": 340.33,
+          "end": 340.66
+        },
+        {
+          "text": "utility",
+          "start": 341.05,
+          "end": 341.43
+        },
+        {
+          "text": "tax.",
+          "start": 341.43,
+          "end": 341.97
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "text": "Stuck. Same story. A tax on utility service, passed through, and nobody on that phone can take it off.",
+      "start": 341.97,
+      "end": 349.35,
+      "durationSeconds": 7.38,
+      "words": [
+        {
+          "text": "Stuck.",
+          "start": 341.97,
+          "end": 342.47
+        },
+        {
+          "text": "Same",
+          "start": 342.47,
+          "end": 343.08
+        },
+        {
+          "text": "story.",
+          "start": 343.08,
+          "end": 343.77
+        },
+        {
+          "text": "A",
+          "start": 343.77,
+          "end": 343.83
+        },
+        {
+          "text": "tax",
+          "start": 343.92,
+          "end": 343.93
+        },
+        {
+          "text": "on",
+          "start": 344.2,
+          "end": 344.31
+        },
+        {
+          "text": "utility",
+          "start": 344.31,
+          "end": 344.62
+        },
+        {
+          "text": "service,",
+          "start": 345.16,
+          "end": 345.84
+        },
+        {
+          "text": "passed",
+          "start": 346.01,
+          "end": 346.26
+        },
+        {
+          "text": "through,",
+          "start": 346.26,
+          "end": 346.89
+        },
+        {
+          "text": "and",
+          "start": 346.89,
+          "end": 347.1
+        },
+        {
+          "text": "nobody",
+          "start": 347.1,
+          "end": 347.51
+        },
+        {
+          "text": "on",
+          "start": 347.51,
+          "end": 347.55
+        },
+        {
+          "text": "that",
+          "start": 347.93,
+          "end": 347.94
+        },
+        {
+          "text": "phone",
+          "start": 347.94,
+          "end": 348.29
+        },
+        {
+          "text": "can",
+          "start": 348.29,
+          "end": 348.47
+        },
+        {
+          "text": "take",
+          "start": 348.65,
+          "end": 348.71
+        },
+        {
+          "text": "it",
+          "start": 348.81,
+          "end": 348.92
+        },
+        {
+          "text": "off.",
+          "start": 348.92,
+          "end": 349.35
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "text": "I'm giving it its own number for one reason, so you stop spending your energy there.",
+      "start": 349.42,
+      "end": 354.21,
+      "durationSeconds": 4.79,
+      "words": [
+        {
+          "text": "I'm",
+          "start": 349.42,
+          "end": 349.47
+        },
+        {
+          "text": "giving",
+          "start": 349.47,
+          "end": 349.96
+        },
+        {
+          "text": "it",
+          "start": 349.96,
+          "end": 350.07
+        },
+        {
+          "text": "its",
+          "start": 350.07,
+          "end": 350.26
+        },
+        {
+          "text": "own",
+          "start": 350.26,
+          "end": 350.45
+        },
+        {
+          "text": "number",
+          "start": 350.47,
+          "end": 350.7
+        },
+        {
+          "text": "for",
+          "start": 350.8,
+          "end": 350.86
+        },
+        {
+          "text": "one",
+          "start": 351.08,
+          "end": 351.2
+        },
+        {
+          "text": "reason,",
+          "start": 351.37,
+          "end": 351.72
+        },
+        {
+          "text": "so",
+          "start": 351.76,
+          "end": 351.88
+        },
+        {
+          "text": "you",
+          "start": 351.97,
+          "end": 352.07
+        },
+        {
+          "text": "stop",
+          "start": 352.1,
+          "end": 352.31
+        },
+        {
+          "text": "spending",
+          "start": 352.41,
+          "end": 352.88
+        },
+        {
+          "text": "your",
+          "start": 352.88,
+          "end": 353.29
+        },
+        {
+          "text": "energy",
+          "start": 353.29,
+          "end": 353.65
+        },
+        {
+          "text": "there.",
+          "start": 353.65,
+          "end": 354.21
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "text": "Most folks who call angry burn the whole call on the taxes and hang up before they reach the lines that could have moved.",
+      "start": 354.21,
+      "end": 361,
+      "durationSeconds": 6.79,
+      "words": [
+        {
+          "text": "Most",
+          "start": 354.21,
+          "end": 354.49
+        },
+        {
+          "text": "folks",
+          "start": 354.49,
+          "end": 354.71
+        },
+        {
+          "text": "who",
+          "start": 354.86,
+          "end": 355.05
+        },
+        {
+          "text": "call",
+          "start": 355.32,
+          "end": 355.33
+        },
+        {
+          "text": "angry",
+          "start": 355.33,
+          "end": 355.68
+        },
+        {
+          "text": "burn",
+          "start": 355.68,
+          "end": 355.96
+        },
+        {
+          "text": "the",
+          "start": 355.96,
+          "end": 356.17
+        },
+        {
+          "text": "whole",
+          "start": 356.44,
+          "end": 356.55
+        },
+        {
+          "text": "call",
+          "start": 356.55,
+          "end": 356.75
+        },
+        {
+          "text": "on",
+          "start": 356.79,
+          "end": 356.86
+        },
+        {
+          "text": "the",
+          "start": 357.05,
+          "end": 357.08
+        },
+        {
+          "text": "taxes",
+          "start": 357.08,
+          "end": 357.41
+        },
+        {
+          "text": "and",
+          "start": 357.44,
+          "end": 357.56
+        },
+        {
+          "text": "hang",
+          "start": 357.64,
+          "end": 357.89
+        },
+        {
+          "text": "up",
+          "start": 357.89,
+          "end": 357.99
+        },
+        {
+          "text": "before",
+          "start": 358.09,
+          "end": 358.43
+        },
+        {
+          "text": "they",
+          "start": 358.43,
+          "end": 358.59
+        },
+        {
+          "text": "reach",
+          "start": 358.97,
+          "end": 359.04
+        },
+        {
+          "text": "the",
+          "start": 359.04,
+          "end": 359.23
+        },
+        {
+          "text": "lines",
+          "start": 359.24,
+          "end": 359.51
+        },
+        {
+          "text": "that",
+          "start": 359.7,
+          "end": 359.75
+        },
+        {
+          "text": "could",
+          "start": 359.85,
+          "end": 360.18
+        },
+        {
+          "text": "have",
+          "start": 360.23,
+          "end": 360.39
+        },
+        {
+          "text": "moved.",
+          "start": 360.5,
+          "end": 361
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "text": "Skip these two. Go where the money is. Number seven.",
+      "start": 361,
+      "end": 364.62,
+      "durationSeconds": 3.62,
+      "words": [
+        {
+          "text": "Skip",
+          "start": 361,
+          "end": 361.27
+        },
+        {
+          "text": "these",
+          "start": 361.27,
+          "end": 361.61
+        },
+        {
+          "text": "two.",
+          "start": 361.61,
+          "end": 362.16
+        },
+        {
+          "text": "Go",
+          "start": 362.16,
+          "end": 362.33
+        },
+        {
+          "text": "where",
+          "start": 362.33,
+          "end": 362.66
+        },
+        {
+          "text": "the",
+          "start": 362.66,
+          "end": 362.84
+        },
+        {
+          "text": "money",
+          "start": 362.92,
+          "end": 363.24
+        },
+        {
+          "text": "is.",
+          "start": 363.24,
+          "end": 363.54
+        },
+        {
+          "text": "Number",
+          "start": 363.64,
+          "end": 363.87
+        },
+        {
+          "text": "seven.",
+          "start": 364.25,
+          "end": 364.62
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "text": "The energy efficiency surcharge. Shrink it.",
+      "start": 364.62,
+      "end": 367.72,
+      "durationSeconds": 3.1,
+      "words": [
+        {
+          "text": "The",
+          "start": 364.62,
+          "end": 364.79
+        },
+        {
+          "text": "energy",
+          "start": 364.98,
+          "end": 365.28
+        },
+        {
+          "text": "efficiency",
+          "start": 365.28,
+          "end": 365.67
+        },
+        {
+          "text": "surcharge.",
+          "start": 366.23,
+          "end": 366.89
+        },
+        {
+          "text": "Shrink",
+          "start": 366.89,
+          "end": 367.13
+        },
+        {
+          "text": "it.",
+          "start": 367.4,
+          "end": 367.72
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "text": "A small monthly rider. An efficiency charge, a conservation charge, a public benefit fund.",
+      "start": 367.72,
+      "end": 373.79,
+      "durationSeconds": 6.07,
+      "words": [
+        {
+          "text": "A",
+          "start": 367.72,
+          "end": 367.82
+        },
+        {
+          "text": "small",
+          "start": 367.82,
+          "end": 368.37
+        },
+        {
+          "text": "monthly",
+          "start": 368.37,
+          "end": 368.79
+        },
+        {
+          "text": "rider.",
+          "start": 368.97,
+          "end": 369.36
+        },
+        {
+          "text": "An",
+          "start": 369.38,
+          "end": 369.48
+        },
+        {
+          "text": "efficiency",
+          "start": 369.54,
+          "end": 370.12
+        },
+        {
+          "text": "charge,",
+          "start": 370.28,
+          "end": 370.82
+        },
+        {
+          "text": "a",
+          "start": 370.82,
+          "end": 370.89
+        },
+        {
+          "text": "conservation",
+          "start": 370.89,
+          "end": 371.67
+        },
+        {
+          "text": "charge,",
+          "start": 371.77,
+          "end": 372.31
+        },
+        {
+          "text": "a",
+          "start": 372.31,
+          "end": 372.615
+        },
+        {
+          "text": "public",
+          "start": 372.615,
+          "end": 372.92
+        },
+        {
+          "text": "benefit",
+          "start": 372.92,
+          "end": 373.37
+        },
+        {
+          "text": "fund.",
+          "start": 373.37,
+          "end": 373.79
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "text": "Different name, same line. You can't remove it, but it matters more than its size, and here's why.",
+      "start": 374.04,
+      "end": 380.35,
+      "durationSeconds": 6.31,
+      "words": [
+        {
+          "text": "Different",
+          "start": 374.04,
+          "end": 374.46
+        },
+        {
+          "text": "name,",
+          "start": 374.64,
+          "end": 375.04
+        },
+        {
+          "text": "same",
+          "start": 375.04,
+          "end": 375.36
+        },
+        {
+          "text": "line.",
+          "start": 375.36,
+          "end": 375.6
+        },
+        {
+          "text": "You",
+          "start": 375.6,
+          "end": 376.14
+        },
+        {
+          "text": "can't",
+          "start": 376.14,
+          "end": 376.29
+        },
+        {
+          "text": "remove",
+          "start": 376.29,
+          "end": 376.75
+        },
+        {
+          "text": "it,",
+          "start": 376.76,
+          "end": 377.06
+        },
+        {
+          "text": "but",
+          "start": 377.06,
+          "end": 377.19
+        },
+        {
+          "text": "it",
+          "start": 377.29,
+          "end": 377.41
+        },
+        {
+          "text": "matters",
+          "start": 377.45,
+          "end": 377.78
+        },
+        {
+          "text": "more",
+          "start": 378.17,
+          "end": 378.3
+        },
+        {
+          "text": "than",
+          "start": 378.3,
+          "end": 378.59
+        },
+        {
+          "text": "its",
+          "start": 378.59,
+          "end": 378.72
+        },
+        {
+          "text": "size,",
+          "start": 378.91,
+          "end": 379.28
+        },
+        {
+          "text": "and",
+          "start": 379.3,
+          "end": 379.53
+        },
+        {
+          "text": "here's",
+          "start": 379.53,
+          "end": 379.99
+        },
+        {
+          "text": "why.",
+          "start": 380.2,
+          "end": 380.35
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "text": "That surcharge funds programs you've already paid for and almost certainly never used.",
+      "start": 380.45,
+      "end": 386.27,
+      "durationSeconds": 5.82,
+      "words": [
+        {
+          "text": "That",
+          "start": 380.45,
+          "end": 380.75
+        },
+        {
+          "text": "surcharge",
+          "start": 380.75,
+          "end": 381.44
+        },
+        {
+          "text": "funds",
+          "start": 381.47,
+          "end": 381.65
+        },
+        {
+          "text": "programs",
+          "start": 382.17,
+          "end": 382.6
+        },
+        {
+          "text": "you've",
+          "start": 382.6,
+          "end": 383.04
+        },
+        {
+          "text": "already",
+          "start": 383.04,
+          "end": 383.57
+        },
+        {
+          "text": "paid",
+          "start": 383.57,
+          "end": 383.71
+        },
+        {
+          "text": "for",
+          "start": 383.71,
+          "end": 384.09
+        },
+        {
+          "text": "and",
+          "start": 384.09,
+          "end": 384.28
+        },
+        {
+          "text": "almost",
+          "start": 384.34,
+          "end": 384.62
+        },
+        {
+          "text": "certainly",
+          "start": 384.83,
+          "end": 385.44
+        },
+        {
+          "text": "never",
+          "start": 385.44,
+          "end": 385.51
+        },
+        {
+          "text": "used.",
+          "start": 386.11,
+          "end": 386.27
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "text": "Free home energy audits, free insulation and weather stripping, free LED replacements, rebates on appliances.",
+      "start": 386.37,
+      "end": 393.65,
+      "durationSeconds": 7.28,
+      "words": [
+        {
+          "text": "Free",
+          "start": 386.37,
+          "end": 386.61
+        },
+        {
+          "text": "home",
+          "start": 386.63,
+          "end": 386.86
+        },
+        {
+          "text": "energy",
+          "start": 386.96,
+          "end": 387.36
+        },
+        {
+          "text": "audits,",
+          "start": 387.39,
+          "end": 388.08
+        },
+        {
+          "text": "free",
+          "start": 388.25,
+          "end": 388.37
+        },
+        {
+          "text": "insulation",
+          "start": 388.37,
+          "end": 389.1
+        },
+        {
+          "text": "and",
+          "start": 389.1,
+          "end": 389.32
+        },
+        {
+          "text": "weather",
+          "start": 389.32,
+          "end": 389.78
+        },
+        {
+          "text": "stripping,",
+          "start": 390.17,
+          "end": 390.63
+        },
+        {
+          "text": "free",
+          "start": 390.63,
+          "end": 390.92
+        },
+        {
+          "text": "LED",
+          "start": 390.92,
+          "end": 391.14
+        },
+        {
+          "text": "replacements,",
+          "start": 391.14,
+          "end": 392.16
+        },
+        {
+          "text": "rebates",
+          "start": 392.2,
+          "end": 392.67
+        },
+        {
+          "text": "on",
+          "start": 392.67,
+          "end": 392.81
+        },
+        {
+          "text": "appliances.",
+          "start": 392.81,
+          "end": 393.65
+        }
+      ]
+    },
+    {
+      "id": "76",
+      "text": "You bought all of that, neighbor, every month for years.",
+      "start": 393.65,
+      "end": 397.35,
+      "durationSeconds": 3.7,
+      "words": [
+        {
+          "text": "You",
+          "start": 393.65,
+          "end": 393.79
+        },
+        {
+          "text": "bought",
+          "start": 394.28,
+          "end": 394.48
+        },
+        {
+          "text": "all",
+          "start": 394.65,
+          "end": 394.69
+        },
+        {
+          "text": "of",
+          "start": 394.69,
+          "end": 394.83
+        },
+        {
+          "text": "that,",
+          "start": 394.83,
+          "end": 395.25
+        },
+        {
+          "text": "neighbor,",
+          "start": 395.25,
+          "end": 395.86
+        },
+        {
+          "text": "every",
+          "start": 395.96,
+          "end": 396.19
+        },
+        {
+          "text": "month",
+          "start": 396.57,
+          "end": 396.65
+        },
+        {
+          "text": "for",
+          "start": 396.65,
+          "end": 396.86
+        },
+        {
+          "text": "years.",
+          "start": 396.86,
+          "end": 397.35
+        }
+      ]
+    },
+    {
+      "id": "77",
+      "text": "Go collect it. Call and ask what your efficiency charge entitles you to.",
+      "start": 397.45,
+      "end": 402.03,
+      "durationSeconds": 4.58,
+      "words": [
+        {
+          "text": "Go",
+          "start": 397.45,
+          "end": 397.56
+        },
+        {
+          "text": "collect",
+          "start": 397.56,
+          "end": 397.95
+        },
+        {
+          "text": "it.",
+          "start": 398.1,
+          "end": 398.4
+        },
+        {
+          "text": "Call",
+          "start": 398.6,
+          "end": 398.68
+        },
+        {
+          "text": "and",
+          "start": 398.68,
+          "end": 398.89
+        },
+        {
+          "text": "ask",
+          "start": 398.89,
+          "end": 399.09
+        },
+        {
+          "text": "what",
+          "start": 399.09,
+          "end": 399.33
+        },
+        {
+          "text": "your",
+          "start": 399.44,
+          "end": 399.45
+        },
+        {
+          "text": "efficiency",
+          "start": 399.72,
+          "end": 400.14
+        },
+        {
+          "text": "charge",
+          "start": 400.57,
+          "end": 400.85
+        },
+        {
+          "text": "entitles",
+          "start": 400.85,
+          "end": 401.44
+        },
+        {
+          "text": "you",
+          "start": 401.44,
+          "end": 401.66
+        },
+        {
+          "text": "to.",
+          "start": 401.66,
+          "end": 402.03
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "text": "Almost nobody thinks to ask. Number six. Storm recovery.",
+      "start": 402.03,
+      "end": 405.96,
+      "durationSeconds": 3.93,
+      "words": [
+        {
+          "text": "Almost",
+          "start": 402.03,
+          "end": 402.08
+        },
+        {
+          "text": "nobody",
+          "start": 402.49,
+          "end": 402.92
+        },
+        {
+          "text": "thinks",
+          "start": 402.92,
+          "end": 403.38
+        },
+        {
+          "text": "to",
+          "start": 403.38,
+          "end": 403.53
+        },
+        {
+          "text": "ask.",
+          "start": 403.53,
+          "end": 403.91
+        },
+        {
+          "text": "Number",
+          "start": 403.91,
+          "end": 404.52
+        },
+        {
+          "text": "six.",
+          "start": 404.52,
+          "end": 404.86
+        },
+        {
+          "text": "Storm",
+          "start": 404.86,
+          "end": 405.23
+        },
+        {
+          "text": "recovery.",
+          "start": 405.23,
+          "end": 405.96
+        }
+      ]
+    },
+    {
+      "id": "79",
+      "text": "Stuck. After a bad storm, a utility spends heavily rebuilding lines, then recovers that money from customers over a stretch of years.",
+      "start": 405.96,
+      "end": 414.67,
+      "durationSeconds": 8.71,
+      "words": [
+        {
+          "text": "Stuck.",
+          "start": 405.96,
+          "end": 406.72
+        },
+        {
+          "text": "After",
+          "start": 406.72,
+          "end": 407.6
+        },
+        {
+          "text": "a",
+          "start": 407.6,
+          "end": 407.76
+        },
+        {
+          "text": "bad",
+          "start": 407.93,
+          "end": 407.95
+        },
+        {
+          "text": "storm,",
+          "start": 407.95,
+          "end": 408.39
+        },
+        {
+          "text": "a",
+          "start": 408.39,
+          "end": 408.44
+        },
+        {
+          "text": "utility",
+          "start": 408.44,
+          "end": 408.87
+        },
+        {
+          "text": "spends",
+          "start": 408.97,
+          "end": 409.28
+        },
+        {
+          "text": "heavily",
+          "start": 409.28,
+          "end": 409.47
+        },
+        {
+          "text": "rebuilding",
+          "start": 409.85,
+          "end": 410.36
+        },
+        {
+          "text": "lines,",
+          "start": 410.37,
+          "end": 410.81
+        },
+        {
+          "text": "then",
+          "start": 410.81,
+          "end": 411.06
+        },
+        {
+          "text": "recovers",
+          "start": 411.06,
+          "end": 411.27
+        },
+        {
+          "text": "that",
+          "start": 411.27,
+          "end": 411.88
+        },
+        {
+          "text": "money",
+          "start": 411.88,
+          "end": 412.14
+        },
+        {
+          "text": "from",
+          "start": 412.14,
+          "end": 412.37
+        },
+        {
+          "text": "customers",
+          "start": 412.38,
+          "end": 413.04
+        },
+        {
+          "text": "over",
+          "start": 413.21,
+          "end": 413.34
+        },
+        {
+          "text": "a",
+          "start": 413.34,
+          "end": 413.41
+        },
+        {
+          "text": "stretch",
+          "start": 413.41,
+          "end": 413.91
+        },
+        {
+          "text": "of",
+          "start": 413.94,
+          "end": 414.08
+        },
+        {
+          "text": "years.",
+          "start": 414.08,
+          "end": 414.67
+        }
+      ]
+    },
+    {
+      "id": "80",
+      "text": "Storm recovery, storm cost, securitization charge.",
+      "start": 414.67,
+      "end": 418.32,
+      "durationSeconds": 3.65,
+      "words": [
+        {
+          "text": "Storm",
+          "start": 414.67,
+          "end": 414.75
+        },
+        {
+          "text": "recovery,",
+          "start": 415.13,
+          "end": 415.68
+        },
+        {
+          "text": "storm",
+          "start": 415.87,
+          "end": 416.16
+        },
+        {
+          "text": "cost,",
+          "start": 416.16,
+          "end": 416.55
+        },
+        {
+          "text": "securitization",
+          "start": 416.66,
+          "end": 417.65
+        },
+        {
+          "text": "charge.",
+          "start": 417.65,
+          "end": 418.32
+        }
+      ]
+    },
+    {
+      "id": "81",
+      "text": "You can't remove it. It does have an end date, written into the order that created it.",
+      "start": 418.32,
+      "end": 423.35,
+      "durationSeconds": 5.03,
+      "words": [
+        {
+          "text": "You",
+          "start": 418.32,
+          "end": 418.54
+        },
+        {
+          "text": "can't",
+          "start": 418.54,
+          "end": 418.91
+        },
+        {
+          "text": "remove",
+          "start": 419.24,
+          "end": 419.44
+        },
+        {
+          "text": "it.",
+          "start": 419.5,
+          "end": 419.84
+        },
+        {
+          "text": "It",
+          "start": 419.84,
+          "end": 420.01
+        },
+        {
+          "text": "does",
+          "start": 420.01,
+          "end": 420.23
+        },
+        {
+          "text": "have",
+          "start": 420.23,
+          "end": 420.49
+        },
+        {
+          "text": "an",
+          "start": 420.49,
+          "end": 420.62
+        },
+        {
+          "text": "end",
+          "start": 420.62,
+          "end": 420.81
+        },
+        {
+          "text": "date,",
+          "start": 420.81,
+          "end": 421.17
+        },
+        {
+          "text": "written",
+          "start": 421.21,
+          "end": 421.54
+        },
+        {
+          "text": "into",
+          "start": 421.54,
+          "end": 421.93
+        },
+        {
+          "text": "the",
+          "start": 421.93,
+          "end": 422.1
+        },
+        {
+          "text": "order",
+          "start": 422.1,
+          "end": 422.38
+        },
+        {
+          "text": "that",
+          "start": 422.38,
+          "end": 422.68
+        },
+        {
+          "text": "created",
+          "start": 422.68,
+          "end": 423.13
+        },
+        {
+          "text": "it.",
+          "start": 423.13,
+          "end": 423.35
+        }
+      ]
+    },
+    {
+      "id": "82",
+      "text": "I'm telling you what it is so you can quit wandering. A charge you understand stops costing you sleep even when it doesn't stop costing you money.",
+      "start": 423.54,
+      "end": 431.93,
+      "durationSeconds": 8.39,
+      "words": [
+        {
+          "text": "I'm",
+          "start": 423.54,
+          "end": 423.68
+        },
+        {
+          "text": "telling",
+          "start": 423.95,
+          "end": 424.08
+        },
+        {
+          "text": "you",
+          "start": 424.08,
+          "end": 424.11
+        },
+        {
+          "text": "what",
+          "start": 424.21,
+          "end": 424.4
+        },
+        {
+          "text": "it",
+          "start": 424.4,
+          "end": 424.55
+        },
+        {
+          "text": "is",
+          "start": 424.55,
+          "end": 424.7
+        },
+        {
+          "text": "so",
+          "start": 424.8,
+          "end": 424.86
+        },
+        {
+          "text": "you",
+          "start": 424.86,
+          "end": 425.21
+        },
+        {
+          "text": "can",
+          "start": 425.21,
+          "end": 425.25
+        },
+        {
+          "text": "quit",
+          "start": 425.25,
+          "end": 425.53
+        },
+        {
+          "text": "wandering.",
+          "start": 425.53,
+          "end": 426.36
+        },
+        {
+          "text": "A",
+          "start": 426.36,
+          "end": 426.42
+        },
+        {
+          "text": "charge",
+          "start": 426.52,
+          "end": 426.74
+        },
+        {
+          "text": "you",
+          "start": 426.74,
+          "end": 427.13
+        },
+        {
+          "text": "understand",
+          "start": 427.13,
+          "end": 427.67
+        },
+        {
+          "text": "stops",
+          "start": 427.87,
+          "end": 428.12
+        },
+        {
+          "text": "costing",
+          "start": 428.12,
+          "end": 428.51
+        },
+        {
+          "text": "you",
+          "start": 428.66,
+          "end": 428.67
+        },
+        {
+          "text": "sleep",
+          "start": 429.15,
+          "end": 429.17
+        },
+        {
+          "text": "even",
+          "start": 429.17,
+          "end": 429.45
+        },
+        {
+          "text": "when",
+          "start": 429.45,
+          "end": 429.71
+        },
+        {
+          "text": "it",
+          "start": 429.73,
+          "end": 429.87
+        },
+        {
+          "text": "doesn't",
+          "start": 429.87,
+          "end": 430.39
+        },
+        {
+          "text": "stop",
+          "start": 430.39,
+          "end": 430.6
+        },
+        {
+          "text": "costing",
+          "start": 430.6,
+          "end": 430.75
+        },
+        {
+          "text": "you",
+          "start": 431.29,
+          "end": 431.34
+        },
+        {
+          "text": "money.",
+          "start": 431.34,
+          "end": 431.93
+        }
+      ]
+    },
+    {
+      "id": "83",
+      "text": "Number five. The fuel adjustment. Shrink it.",
+      "start": 431.93,
+      "end": 435.2,
+      "durationSeconds": 3.27,
+      "words": [
+        {
+          "text": "Number",
+          "start": 431.93,
+          "end": 432.38
+        },
+        {
+          "text": "five.",
+          "start": 432.38,
+          "end": 432.82
+        },
+        {
+          "text": "The",
+          "start": 432.82,
+          "end": 433.21
+        },
+        {
+          "text": "fuel",
+          "start": 433.21,
+          "end": 433.4
+        },
+        {
+          "text": "adjustment.",
+          "start": 433.46,
+          "end": 434.39
+        },
+        {
+          "text": "Shrink",
+          "start": 434.39,
+          "end": 434.63
+        },
+        {
+          "text": "it.",
+          "start": 434.83,
+          "end": 435.2
+        }
+      ]
+    },
+    {
+      "id": "84",
+      "text": "Fuel adjustment. Power cost recovery. Purchased power adjustment.",
+      "start": 435.24,
+      "end": 439.74,
+      "durationSeconds": 4.5,
+      "words": [
+        {
+          "text": "Fuel",
+          "start": 435.24,
+          "end": 435.5
+        },
+        {
+          "text": "adjustment.",
+          "start": 435.5,
+          "end": 436.47
+        },
+        {
+          "text": "Power",
+          "start": 436.47,
+          "end": 436.68
+        },
+        {
+          "text": "cost",
+          "start": 436.68,
+          "end": 437.13
+        },
+        {
+          "text": "recovery.",
+          "start": 437.32,
+          "end": 438.07
+        },
+        {
+          "text": "Purchased",
+          "start": 438.25,
+          "end": 438.6
+        },
+        {
+          "text": "power",
+          "start": 438.64,
+          "end": 438.93
+        },
+        {
+          "text": "adjustment.",
+          "start": 438.93,
+          "end": 439.74
+        }
+      ]
+    },
+    {
+      "id": "85",
+      "text": "Different name in every state, same animal. This is the part of your rate that moves with what it costs to generate the power.",
+      "start": 439.74,
+      "end": 446.79,
+      "durationSeconds": 7.05,
+      "words": [
+        {
+          "text": "Different",
+          "start": 439.74,
+          "end": 440.29
+        },
+        {
+          "text": "name",
+          "start": 440.29,
+          "end": 440.53
+        },
+        {
+          "text": "in",
+          "start": 440.53,
+          "end": 440.64
+        },
+        {
+          "text": "every",
+          "start": 440.64,
+          "end": 440.96
+        },
+        {
+          "text": "state,",
+          "start": 441.05,
+          "end": 441.44
+        },
+        {
+          "text": "same",
+          "start": 441.44,
+          "end": 441.59
+        },
+        {
+          "text": "animal.",
+          "start": 442.19,
+          "end": 442.56
+        },
+        {
+          "text": "This",
+          "start": 442.56,
+          "end": 442.75
+        },
+        {
+          "text": "is",
+          "start": 442.77,
+          "end": 442.87
+        },
+        {
+          "text": "the",
+          "start": 442.87,
+          "end": 442.95
+        },
+        {
+          "text": "part",
+          "start": 443.04,
+          "end": 443.05
+        },
+        {
+          "text": "of",
+          "start": 443.05,
+          "end": 443.45
+        },
+        {
+          "text": "your",
+          "start": 443.45,
+          "end": 443.67
+        },
+        {
+          "text": "rate",
+          "start": 443.67,
+          "end": 443.93
+        },
+        {
+          "text": "that",
+          "start": 443.93,
+          "end": 444.15
+        },
+        {
+          "text": "moves",
+          "start": 444.18,
+          "end": 444.52
+        },
+        {
+          "text": "with",
+          "start": 444.52,
+          "end": 444.78
+        },
+        {
+          "text": "what",
+          "start": 444.78,
+          "end": 444.99
+        },
+        {
+          "text": "it",
+          "start": 444.99,
+          "end": 445.37
+        },
+        {
+          "text": "costs",
+          "start": 445.37,
+          "end": 445.5
+        },
+        {
+          "text": "to",
+          "start": 445.5,
+          "end": 445.56
+        },
+        {
+          "text": "generate",
+          "start": 445.62,
+          "end": 446.15
+        },
+        {
+          "text": "the",
+          "start": 446.25,
+          "end": 446.35
+        },
+        {
+          "text": "power.",
+          "start": 446.35,
+          "end": 446.79
+        }
+      ]
+    },
+    {
+      "id": "86",
+      "text": "Not fixed, not negotiable, and a big part of why your bill has climbed so hard these last five years.",
+      "start": 446.9,
+      "end": 452.88,
+      "durationSeconds": 5.98,
+      "words": [
+        {
+          "text": "Not",
+          "start": 446.9,
+          "end": 447.05
+        },
+        {
+          "text": "fixed,",
+          "start": 447.39,
+          "end": 447.55
+        },
+        {
+          "text": "not",
+          "start": 447.65,
+          "end": 447.85
+        },
+        {
+          "text": "negotiable,",
+          "start": 447.85,
+          "end": 448.72
+        },
+        {
+          "text": "and",
+          "start": 448.89,
+          "end": 448.92
+        },
+        {
+          "text": "a",
+          "start": 448.92,
+          "end": 448.98
+        },
+        {
+          "text": "big",
+          "start": 448.98,
+          "end": 449.18
+        },
+        {
+          "text": "part",
+          "start": 449.18,
+          "end": 449.4
+        },
+        {
+          "text": "of",
+          "start": 449.49,
+          "end": 449.57
+        },
+        {
+          "text": "why",
+          "start": 449.57,
+          "end": 449.78
+        },
+        {
+          "text": "your",
+          "start": 449.78,
+          "end": 450.04
+        },
+        {
+          "text": "bill",
+          "start": 450.04,
+          "end": 450.32
+        },
+        {
+          "text": "has",
+          "start": 450.32,
+          "end": 450.42
+        },
+        {
+          "text": "climbed",
+          "start": 450.81,
+          "end": 450.99
+        },
+        {
+          "text": "so",
+          "start": 450.99,
+          "end": 451.12
+        },
+        {
+          "text": "hard",
+          "start": 451.12,
+          "end": 451.35
+        },
+        {
+          "text": "these",
+          "start": 451.54,
+          "end": 451.73
+        },
+        {
+          "text": "last",
+          "start": 451.73,
+          "end": 452
+        },
+        {
+          "text": "five",
+          "start": 452,
+          "end": 452.23
+        },
+        {
+          "text": "years.",
+          "start": 452.61,
+          "end": 452.88
+        }
+      ]
+    },
+    {
+      "id": "87",
+      "text": "But because it floats, it rewards you for changing when you use power rather than how much.",
+      "start": 452.88,
+      "end": 457.67,
+      "durationSeconds": 4.79,
+      "words": [
+        {
+          "text": "But",
+          "start": 452.88,
+          "end": 452.99
+        },
+        {
+          "text": "because",
+          "start": 453.09,
+          "end": 453.43
+        },
+        {
+          "text": "it",
+          "start": 453.43,
+          "end": 453.58
+        },
+        {
+          "text": "floats,",
+          "start": 453.68,
+          "end": 454.16
+        },
+        {
+          "text": "it",
+          "start": 454.16,
+          "end": 454.33
+        },
+        {
+          "text": "rewards",
+          "start": 454.33,
+          "end": 454.72
+        },
+        {
+          "text": "you",
+          "start": 454.74,
+          "end": 454.84
+        },
+        {
+          "text": "for",
+          "start": 454.92,
+          "end": 455.12
+        },
+        {
+          "text": "changing",
+          "start": 455.12,
+          "end": 455.54
+        },
+        {
+          "text": "when",
+          "start": 455.64,
+          "end": 455.87
+        },
+        {
+          "text": "you",
+          "start": 455.87,
+          "end": 455.89
+        },
+        {
+          "text": "use",
+          "start": 456.25,
+          "end": 456.26
+        },
+        {
+          "text": "power",
+          "start": 456.26,
+          "end": 456.58
+        },
+        {
+          "text": "rather",
+          "start": 456.58,
+          "end": 456.8
+        },
+        {
+          "text": "than",
+          "start": 456.99,
+          "end": 457.21
+        },
+        {
+          "text": "how",
+          "start": 457.21,
+          "end": 457.4
+        },
+        {
+          "text": "much.",
+          "start": 457.4,
+          "end": 457.67
+        }
+      ]
+    },
+    {
+      "id": "88",
+      "text": "Which takes us into number four. Number four. The basic service charge.",
+      "start": 457.67,
+      "end": 462.31,
+      "durationSeconds": 4.64,
+      "words": [
+        {
+          "text": "Which",
+          "start": 457.67,
+          "end": 458.28
+        },
+        {
+          "text": "takes",
+          "start": 458.28,
+          "end": 458.43
+        },
+        {
+          "text": "us",
+          "start": 458.53,
+          "end": 458.64
+        },
+        {
+          "text": "into",
+          "start": 458.64,
+          "end": 458.87
+        },
+        {
+          "text": "number",
+          "start": 458.87,
+          "end": 459.13
+        },
+        {
+          "text": "four.",
+          "start": 459.37,
+          "end": 459.69
+        },
+        {
+          "text": "Number",
+          "start": 459.69,
+          "end": 460.07
+        },
+        {
+          "text": "four.",
+          "start": 460.12,
+          "end": 460.58
+        },
+        {
+          "text": "The",
+          "start": 460.68,
+          "end": 460.82
+        },
+        {
+          "text": "basic",
+          "start": 460.82,
+          "end": 460.91
+        },
+        {
+          "text": "service",
+          "start": 461.29,
+          "end": 461.67
+        },
+        {
+          "text": "charge.",
+          "start": 461.67,
+          "end": 462.31
+        }
+      ]
+    },
+    {
+      "id": "89",
+      "text": "Shrink it. The fixed monthly charge you pay before you've used a single kilowatt hour.",
+      "start": 462.31,
+      "end": 467.64,
+      "durationSeconds": 5.33,
+      "words": [
+        {
+          "text": "Shrink",
+          "start": 462.31,
+          "end": 462.71
+        },
+        {
+          "text": "it.",
+          "start": 462.87,
+          "end": 463.08
+        },
+        {
+          "text": "The",
+          "start": 463.08,
+          "end": 463.32
+        },
+        {
+          "text": "fixed",
+          "start": 463.32,
+          "end": 463.64
+        },
+        {
+          "text": "monthly",
+          "start": 463.64,
+          "end": 464.05
+        },
+        {
+          "text": "charge",
+          "start": 464.16,
+          "end": 464.56
+        },
+        {
+          "text": "you",
+          "start": 464.59,
+          "end": 464.76
+        },
+        {
+          "text": "pay",
+          "start": 464.76,
+          "end": 464.91
+        },
+        {
+          "text": "before",
+          "start": 465.29,
+          "end": 465.52
+        },
+        {
+          "text": "you've",
+          "start": 465.52,
+          "end": 465.92
+        },
+        {
+          "text": "used",
+          "start": 465.92,
+          "end": 466.19
+        },
+        {
+          "text": "a",
+          "start": 466.19,
+          "end": 466.23
+        },
+        {
+          "text": "single",
+          "start": 466.33,
+          "end": 466.65
+        },
+        {
+          "text": "kilowatt",
+          "start": 466.65,
+          "end": 467.18
+        },
+        {
+          "text": "hour.",
+          "start": 467.21,
+          "end": 467.64
+        }
+      ]
+    },
+    {
+      "id": "90",
+      "text": "Shut everything off for 30 days and it still shows up.",
+      "start": 467.64,
+      "end": 471.36,
+      "durationSeconds": 3.72,
+      "words": [
+        {
+          "text": "Shut",
+          "start": 467.64,
+          "end": 467.76
+        },
+        {
+          "text": "everything",
+          "start": 467.95,
+          "end": 468.59
+        },
+        {
+          "text": "off",
+          "start": 468.59,
+          "end": 468.63
+        },
+        {
+          "text": "for",
+          "start": 468.82,
+          "end": 469
+        },
+        {
+          "text": "30",
+          "start": 469.24,
+          "end": 469.39
+        },
+        {
+          "text": "days",
+          "start": 469.49,
+          "end": 469.73
+        },
+        {
+          "text": "and",
+          "start": 469.75,
+          "end": 469.95
+        },
+        {
+          "text": "it",
+          "start": 469.95,
+          "end": 470.09
+        },
+        {
+          "text": "still",
+          "start": 470.36,
+          "end": 470.48
+        },
+        {
+          "text": "shows",
+          "start": 470.48,
+          "end": 470.68
+        },
+        {
+          "text": "up.",
+          "start": 470.68,
+          "end": 471.36
+        }
+      ]
+    },
+    {
+      "id": "91",
+      "text": "You can't get rid of it, but hardly anybody knows this next part.",
+      "start": 471.53,
+      "end": 475.28,
+      "durationSeconds": 3.75,
+      "words": [
+        {
+          "text": "You",
+          "start": 471.53,
+          "end": 471.57
+        },
+        {
+          "text": "can't",
+          "start": 471.57,
+          "end": 471.88
+        },
+        {
+          "text": "get",
+          "start": 471.92,
+          "end": 472.04
+        },
+        {
+          "text": "rid",
+          "start": 472.12,
+          "end": 472.33
+        },
+        {
+          "text": "of",
+          "start": 472.33,
+          "end": 472.47
+        },
+        {
+          "text": "it,",
+          "start": 472.47,
+          "end": 472.74
+        },
+        {
+          "text": "but",
+          "start": 472.74,
+          "end": 472.95
+        },
+        {
+          "text": "hardly",
+          "start": 472.95,
+          "end": 473.07
+        },
+        {
+          "text": "anybody",
+          "start": 473.45,
+          "end": 473.84
+        },
+        {
+          "text": "knows",
+          "start": 473.84,
+          "end": 474.18
+        },
+        {
+          "text": "this",
+          "start": 474.19,
+          "end": 474.46
+        },
+        {
+          "text": "next",
+          "start": 474.46,
+          "end": 474.74
+        },
+        {
+          "text": "part.",
+          "start": 474.74,
+          "end": 475.28
+        }
+      ]
+    },
+    {
+      "id": "92",
+      "text": "The amount changes depending on your rate class and your utility runs several.",
+      "start": 475.28,
+      "end": 480.04,
+      "durationSeconds": 4.76,
+      "words": [
+        {
+          "text": "The",
+          "start": 475.28,
+          "end": 475.48
+        },
+        {
+          "text": "amount",
+          "start": 475.48,
+          "end": 475.81
+        },
+        {
+          "text": "changes",
+          "start": 475.81,
+          "end": 476.21
+        },
+        {
+          "text": "depending",
+          "start": 476.32,
+          "end": 476.72
+        },
+        {
+          "text": "on",
+          "start": 476.75,
+          "end": 476.8
+        },
+        {
+          "text": "your",
+          "start": 476.97,
+          "end": 477.12
+        },
+        {
+          "text": "rate",
+          "start": 477.12,
+          "end": 477.44
+        },
+        {
+          "text": "class",
+          "start": 477.44,
+          "end": 477.84
+        },
+        {
+          "text": "and",
+          "start": 477.84,
+          "end": 478.08
+        },
+        {
+          "text": "your",
+          "start": 478.08,
+          "end": 478.4
+        },
+        {
+          "text": "utility",
+          "start": 478.41,
+          "end": 478.95
+        },
+        {
+          "text": "runs",
+          "start": 478.95,
+          "end": 479.27
+        },
+        {
+          "text": "several.",
+          "start": 479.27,
+          "end": 480.04
+        }
+      ]
+    },
+    {
+      "id": "93",
+      "text": "Standard residential, time of use, low income, medical, all electric home.",
+      "start": 480.04,
+      "end": 485.9,
+      "durationSeconds": 5.86,
+      "words": [
+        {
+          "text": "Standard",
+          "start": 480.04,
+          "end": 480.31
+        },
+        {
+          "text": "residential,",
+          "start": 480.92,
+          "end": 481.66
+        },
+        {
+          "text": "time",
+          "start": 481.76,
+          "end": 481.77
+        },
+        {
+          "text": "of",
+          "start": 482.04,
+          "end": 482.15
+        },
+        {
+          "text": "use,",
+          "start": 482.19,
+          "end": 482.48
+        },
+        {
+          "text": "low",
+          "start": 482.48,
+          "end": 483.01
+        },
+        {
+          "text": "income,",
+          "start": 483.01,
+          "end": 483.68
+        },
+        {
+          "text": "medical,",
+          "start": 483.85,
+          "end": 484.36
+        },
+        {
+          "text": "all",
+          "start": 484.45,
+          "end": 484.67
+        },
+        {
+          "text": "electric",
+          "start": 484.67,
+          "end": 485.3
+        },
+        {
+          "text": "home.",
+          "start": 485.3,
+          "end": 485.9
+        }
+      ]
+    },
+    {
+      "id": "94",
+      "text": "If somebody put you on a rate class in 1998 and nothing's been looked at since, you might be sitting on the wrong one,",
+      "start": 485.9,
+      "end": 493.2,
+      "durationSeconds": 7.3,
+      "words": [
+        {
+          "text": "If",
+          "start": 485.9,
+          "end": 486.06
+        },
+        {
+          "text": "somebody",
+          "start": 486.06,
+          "end": 486.72
+        },
+        {
+          "text": "put",
+          "start": 486.72,
+          "end": 486.97
+        },
+        {
+          "text": "you",
+          "start": 486.97,
+          "end": 487.19
+        },
+        {
+          "text": "on",
+          "start": 487.19,
+          "end": 487.38
+        },
+        {
+          "text": "a",
+          "start": 487.38,
+          "end": 487.46
+        },
+        {
+          "text": "rate",
+          "start": 487.46,
+          "end": 487.8
+        },
+        {
+          "text": "class",
+          "start": 487.8,
+          "end": 488.2
+        },
+        {
+          "text": "in",
+          "start": 488.2,
+          "end": 488.35
+        },
+        {
+          "text": "1998",
+          "start": 488.35,
+          "end": 489.25
+        },
+        {
+          "text": "and",
+          "start": 489.52,
+          "end": 489.67
+        },
+        {
+          "text": "nothing's",
+          "start": 489.88,
+          "end": 490.06
+        },
+        {
+          "text": "been",
+          "start": 490.14,
+          "end": 490.24
+        },
+        {
+          "text": "looked",
+          "start": 490.24,
+          "end": 490.48
+        },
+        {
+          "text": "at",
+          "start": 490.48,
+          "end": 490.73
+        },
+        {
+          "text": "since,",
+          "start": 490.73,
+          "end": 491.16
+        },
+        {
+          "text": "you",
+          "start": 491.16,
+          "end": 491.36
+        },
+        {
+          "text": "might",
+          "start": 491.36,
+          "end": 491.67
+        },
+        {
+          "text": "be",
+          "start": 491.77,
+          "end": 491.82
+        },
+        {
+          "text": "sitting",
+          "start": 491.82,
+          "end": 492.26
+        },
+        {
+          "text": "on",
+          "start": 492.26,
+          "end": 492.455
+        },
+        {
+          "text": "the",
+          "start": 492.455,
+          "end": 492.65
+        },
+        {
+          "text": "wrong",
+          "start": 492.65,
+          "end": 492.98
+        },
+        {
+          "text": "one,",
+          "start": 492.98,
+          "end": 493.2
+        }
+      ]
+    },
+    {
+      "id": "95",
+      "text": "which is number three. Number three. The wrong rate class.",
+      "start": 493.39,
+      "end": 497.16,
+      "durationSeconds": 3.77,
+      "words": [
+        {
+          "text": "which",
+          "start": 493.39,
+          "end": 493.65
+        },
+        {
+          "text": "is",
+          "start": 493.65,
+          "end": 493.76
+        },
+        {
+          "text": "number",
+          "start": 493.78,
+          "end": 494.07
+        },
+        {
+          "text": "three.",
+          "start": 494.18,
+          "end": 494.73
+        },
+        {
+          "text": "Number",
+          "start": 494.73,
+          "end": 495.14
+        },
+        {
+          "text": "three.",
+          "start": 495.14,
+          "end": 495.84
+        },
+        {
+          "text": "The",
+          "start": 495.84,
+          "end": 496
+        },
+        {
+          "text": "wrong",
+          "start": 496,
+          "end": 496.13
+        },
+        {
+          "text": "rate",
+          "start": 496.49,
+          "end": 496.6
+        },
+        {
+          "text": "class.",
+          "start": 496.6,
+          "end": 497.16
+        }
+      ]
+    },
+    {
+      "id": "96",
+      "text": "Kill it. Biggest one on this list that costs nothing to fix.",
+      "start": 497.16,
+      "end": 500.88,
+      "durationSeconds": 3.72,
+      "words": [
+        {
+          "text": "Kill",
+          "start": 497.16,
+          "end": 497.43
+        },
+        {
+          "text": "it.",
+          "start": 497.53,
+          "end": 497.7
+        },
+        {
+          "text": "Biggest",
+          "start": 497.8,
+          "end": 498.04
+        },
+        {
+          "text": "one",
+          "start": 498.41,
+          "end": 498.49
+        },
+        {
+          "text": "on",
+          "start": 498.49,
+          "end": 498.6
+        },
+        {
+          "text": "this",
+          "start": 498.66,
+          "end": 498.9
+        },
+        {
+          "text": "list",
+          "start": 498.9,
+          "end": 499.19
+        },
+        {
+          "text": "that",
+          "start": 499.19,
+          "end": 499.47
+        },
+        {
+          "text": "costs",
+          "start": 499.47,
+          "end": 499.79
+        },
+        {
+          "text": "nothing",
+          "start": 499.79,
+          "end": 499.83
+        },
+        {
+          "text": "to",
+          "start": 500.44,
+          "end": 500.46
+        },
+        {
+          "text": "fix.",
+          "start": 500.46,
+          "end": 500.88
+        }
+      ]
+    },
+    {
+      "id": "97",
+      "text": "Write these words down. Ask your utility this exact question.",
+      "start": 500.88,
+      "end": 505.51,
+      "durationSeconds": 4.63,
+      "words": [
+        {
+          "text": "Write",
+          "start": 500.88,
+          "end": 501.17
+        },
+        {
+          "text": "these",
+          "start": 501.28,
+          "end": 501.58
+        },
+        {
+          "text": "words",
+          "start": 501.58,
+          "end": 501.89
+        },
+        {
+          "text": "down.",
+          "start": 502.52,
+          "end": 502.88
+        },
+        {
+          "text": "Ask",
+          "start": 503.05,
+          "end": 503.12
+        },
+        {
+          "text": "your",
+          "start": 503.12,
+          "end": 503.41
+        },
+        {
+          "text": "utility",
+          "start": 503.44,
+          "end": 503.98
+        },
+        {
+          "text": "this",
+          "start": 503.98,
+          "end": 504.26
+        },
+        {
+          "text": "exact",
+          "start": 504.36,
+          "end": 504.59
+        },
+        {
+          "text": "question.",
+          "start": 504.97,
+          "end": 505.51
+        }
+      ]
+    }
+  ]
+}

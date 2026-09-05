@@ -42,6 +42,21 @@ render-relevant scripts change in a way that matters to this workflow.
 - `lib/transitions.json` — this skill's own vendored transition registry
   (adds `whip-pan` on top of the shared 5 base types) — passed to
   `faceless-explainer/scripts/transitions.mjs` via `--registry`.
+- `split-for-chunked-render.mjs` / `concat-chunked-renders.mjs` — used ONLY
+  by `render-chunked.yml` (a separate, opt-in workflow), not `render.yml`.
+  Workaround for a confirmed, source-verified concurrency bug in the
+  `hyperframes` CLI itself (`video_extract` fires one ffmpeg subprocess per
+  distinct video source, all at once, no concurrency limit — a real film
+  with ~167 sources exhausts a standard runner and gets killed with a bare
+  "shutdown signal", no OOM/disk text). `split-for-chunked-render.mjs` runs
+  LOCALLY (not in CI) to physically split a too-large project into smaller
+  chunks at existing hard-cut boundaries (zero quality loss — no re-encode,
+  no mid-transition split); the resulting `.hyperframes/chunks/` directory
+  is committed to git like any other decision artifact. `render-chunked.yml`
+  then renders each chunk in its own job (far fewer sources each, safely
+  under the failure threshold) and `concat-chunked-renders.mjs` stitches the
+  finished MP4s back together via ffmpeg's concat demuxer (`-c copy`, pure
+  stream-copy — bit-identical quality to N independent full renders).
 
 **`faceless-explainer/scripts/`** (a SHARED skill's scripts, copied as-is):
 - `assemble-index.mjs`, `transitions.mjs` — the shared assembly/transition

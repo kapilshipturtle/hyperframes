@@ -1,0 +1,60 @@
+{
+  "totalChunks": 5,
+  "chunks": [
+    {
+      "index": 0,
+      "dirName": "chunk-00",
+      "originalBeatRange": [
+        "01",
+        "31"
+      ],
+      "frameCount": 31,
+      "sourceCount": 41,
+      "totalDurationSeconds": 171.38
+    },
+    {
+      "index": 1,
+      "dirName": "chunk-01",
+      "originalBeatRange": [
+        "32",
+        "64"
+      ],
+      "frameCount": 33,
+      "sourceCount": 41,
+      "totalDurationSeconds": 158.01
+    },
+    {
+      "index": 2,
+      "dirName": "chunk-02",
+      "originalBeatRange": [
+        "65",
+        "97"
+      ],
+      "frameCount": 33,
+      "sourceCount": 40,
+      "totalDurationSeconds": 170.31
+    },
+    {
+      "index": 3,
+      "dirName": "chunk-03",
+      "originalBeatRange": [
+        "98",
+        "130"
+      ],
+      "frameCount": 33,
+      "sourceCount": 42,
+      "totalDurationSeconds": 193.92
+    },
+    {
+      "index": 4,
+      "dirName": "chunk-04",
+      "originalBeatRange": [
+        "131",
+        "145"
+      ],
+      "frameCount": 15,
+      "sourceCount": 17,
+      "totalDurationSeconds": 69.34
+    }
+  ]
+}

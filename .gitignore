@@ -8,6 +8,12 @@
 videos/*/.media/
 videos/*/.hyperframes/cinematic-assets/
 videos/*/renders/
+# Chunked-render sub-projects (see documentary-broll's split-for-chunked-
+# render.mjs) are standalone projects nested one level deeper — same
+# gitignore reasoning applies at that depth too.
+videos/*/.hyperframes/chunks/*/.media/
+videos/*/.hyperframes/chunks/*/.hyperframes/cinematic-assets/
+videos/*/.hyperframes/chunks/*/renders/
 videos/*/.thumbnails/
 videos/*/.waveform-cache/
 videos/*/transcribe_err.log

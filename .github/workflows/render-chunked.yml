@@ -1,0 +1,295 @@
+name: Render HyperFrames video (chunked)
+
+# Alternative render path for a documentary-broll project too large for
+# render.yml's single-job render — specifically, one with MANY distinct
+# video sources (confirmed failure threshold: 167 sources on a standard
+# GitHub-hosted runner; every prior successful render.yml run had far fewer).
+#
+# ROOT CAUSE (confirmed by reading the actual hyperframes CLI source,
+# node_modules/hyperframes/dist/cli.js's extractAllVideoFrames): the
+# video_extract stage fires ONE ffmpeg subprocess PER UNIQUE VIDEO SOURCE,
+# ALL SIMULTANEOUSLY, with NO concurrency limit anywhere in that code path —
+# a bare `Promise.all(supersetPlan.direct.map(...))`, no semaphore, no
+# batching, no queue. A film with ~167 distinct sources launches 167
+# concurrent ffmpeg processes in one uncapped burst, which exhausts the
+# runner and kills the whole job with a bare "runner has received a shutdown
+# signal" / exit 143 — no disk error, no OOM text, nothing naming the real
+# cause. --workers and --low-memory-mode do NOT help: both are confirmed (via
+# source) to only affect the LATER capture/encode stage, which runs AFTER
+# video_extract, so they never reach the stage that's actually failing.
+# There is no existing CLI flag or env var that throttles video_extract's
+# concurrency — this is a genuine, unfixed defect in the hyperframes package
+# itself, not something render.yml's own flags can work around.
+#
+# THE FIX: since video_extract can't be told to process fewer sources at
+# once, give it fewer sources per render by physically splitting the
+# composition into smaller chunks BEFORE render — each with a source count
+# safely under the failure threshold — then concatenate the finished MP4s
+# losslessly afterward. See documentary-broll's SKILL.md and
+# scripts/split-for-chunked-render.mjs / scripts/concat-chunked-renders.mjs
+# for the full design.
+#
+# ZERO QUALITY LOSS: every chunk boundary is chosen ONLY at an existing
+# hard-cut transition (0s, an instant frame change already in the plan) —
+# never mid-crossfade, never mid-clip. The final concat uses ffmpeg's concat
+# DEMUXER with `-c copy` (pure stream-copy, no re-encode) — the final file's
+# video/audio streams are bit-identical to N independent full-quality
+# `hyperframes render` outputs, just concatenated at an already-instantaneous
+# cut. This produces the SAME quality as render.yml's single-job path; it
+# only changes HOW MANY ffmpeg extraction processes run at once, never any
+# encode setting, quality tier, or frame content.
+#
+# PREREQUISITE (a local, one-time step before this workflow can run): the
+# project must already have a .hyperframes/chunks/ directory, committed to
+# git, produced by running scripts/split-for-chunked-render.mjs against the
+# fully-assembled project locally. This workflow does NOT run the split
+# itself — the split is a deliberate editorial/structural decision (which
+# hard-cut boundaries to use) made once, reviewed, and committed, the same
+# way STORYBOARD.md itself is authored locally and only replayed in CI.
+#
+# Trigger: manual only (Actions tab -> "Render HyperFrames video (chunked)"
+# -> Run workflow -> fill in the project path). Never auto-triggered on push
+# — unlike render.yml, there's no single trigger file that unambiguously
+# means "this project's chunks are ready," so this stays opt-in.
+
+on:
+  workflow_dispatch:
+    inputs:
+      project:
+        description: "Project directory, relative to repo root (e.g. videos/altair-doc) — must already have .hyperframes/chunks/ committed"
+        required: true
+        type: string
+      normalize:
+        description: "Run loudness normalization on the final concatenated render"
+        required: false
+        type: boolean
+        default: true
+
+jobs:
+  # Reads .hyperframes/chunks/manifest.json to discover how many chunks
+  # exist and their directory names, so the render-chunk job below can fan
+  # out a matrix over exactly that many parallel jobs — no hardcoded count.
+  resolve-chunks:
+    runs-on: ubuntu-latest
+    outputs:
+      chunk_dirs: ${{ steps.resolve.outputs.chunk_dirs }}
+    steps:
+      - uses: actions/checkout@v7
+
+      - id: resolve
+        run: |
+          MANIFEST="${{ github.event.inputs.project }}/.hyperframes/chunks/manifest.json"
+          if [ ! -f "$MANIFEST" ]; then
+            echo "::error::No manifest found at $MANIFEST — run scripts/split-for-chunked-render.mjs locally and commit .hyperframes/chunks/ first."
+            exit 1
+          fi
+          CHUNK_DIRS=$(node -e "console.log(JSON.stringify(require('./$MANIFEST').chunks.map(c => c.dirName)))")
+          echo "chunk_dirs=$CHUNK_DIRS" >> "$GITHUB_OUTPUT"
+          echo "Found chunks: $CHUNK_DIRS"
+
+  # Renders each chunk as its own fully standalone project — reuses the
+  # EXACT same steps as render.yml's own `render` job, just working inside
+  # .hyperframes/chunks/<chunk-NN>/ instead of the project root, and with
+  # --workers back at a normal value (each chunk has far fewer sources, so
+  # the concurrency bug this workflow exists to route around never triggers
+  # here — no need for the reduced-worker workaround render.yml's own
+  # comment history documents).
+  render-chunk:
+    needs: resolve-chunks
+    runs-on: ubuntu-latest
+    timeout-minutes: 60 # a chunk is a fraction of the whole film — well under render.yml's 300min budget
+    strategy:
+      fail-fast: false
+      matrix:
+        chunk_dir: ${{ fromJson(needs.resolve-chunks.outputs.chunk_dirs) }}
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: "22"
+
+      - name: Install ffmpeg
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+
+      - name: Ensure bundled Chrome is present
+        working-directory: ${{ github.event.inputs.project }}/.hyperframes/chunks/${{ matrix.chunk_dir }}
+        run: npx --yes hyperframes@0.8.17 browser ensure
+
+      - name: hyperframes doctor (environment sanity check)
+        working-directory: ${{ github.event.inputs.project }}/.hyperframes/chunks/${{ matrix.chunk_dir }}
+        run: npx --yes hyperframes@0.8.17 doctor --json
+
+      # Rebuilds .media/broll/ from this chunk's own .hyperframes/broll/*.json
+      # cache (copied in by split-for-chunked-render.mjs) — mirrors render.yml's
+      # own "Rebuild broll from cached beat candidates" step exactly. This is
+      # what lets .media/broll/ stay gitignored/uncommitted per chunk (see
+      # split-for-chunked-render.mjs's own comment on why full media copies
+      # per chunk were deliberately NOT committed).
+      - name: Rebuild broll from cached beat candidates
+        working-directory: ${{ github.event.inputs.project }}/.hyperframes/chunks/${{ matrix.chunk_dir }}
+        env:
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+        run: |
+          node "$GITHUB_WORKSPACE/ci/documentary-broll/scripts/replay-media-choices.mjs" \
+            --project . --log .hyperframes/run-log.md
+
+      - name: Assemble index.html
+        working-directory: ${{ github.event.inputs.project }}/.hyperframes/chunks/${{ matrix.chunk_dir }}
+        run: |
+          node "$GITHUB_WORKSPACE/ci/faceless-explainer/scripts/assemble-index.mjs" \
+            --storyboard ./STORYBOARD.md --hyperframes .
+
+      - name: Heal media-start (shared-script self-heal, see SKILL.md)
+        working-directory: ${{ github.event.inputs.project }}/.hyperframes/chunks/${{ matrix.chunk_dir }}
+        run: |
+          node "$GITHUB_WORKSPACE/ci/documentary-broll/scripts/heal-media-start.mjs" \
+            --index ./index.html --audio-meta ./audio_meta.json --log .hyperframes/run-log.md
+
+      - name: Inject transitions (documentary-broll's vendored registry)
+        working-directory: ${{ github.event.inputs.project }}/.hyperframes/chunks/${{ matrix.chunk_dir }}
+        run: |
+          node "$GITHUB_WORKSPACE/ci/faceless-explainer/scripts/transitions.mjs" inject \
+            --storyboard ./STORYBOARD.md --hyperframes . \
+            --registry "$GITHUB_WORKSPACE/ci/documentary-broll/scripts/lib/transitions.json"
+          node "$GITHUB_WORKSPACE/ci/faceless-explainer/scripts/transitions.mjs" verify \
+            --storyboard ./STORYBOARD.md --index ./index.html
+
+      # NOTE: no cinematic-layers step here (ambience/grain) — deliberately
+      # SKIPPED per-chunk. The always-on ambience bed and grain overlay are
+      # whole-film assets (gen-cinematic-assets.mjs takes a single --duration
+      # covering the ENTIRE film); regenerating a separate one per chunk
+      # would create audible/visible seams at every chunk boundary (each
+      # chunk's own ambience bed restarting its noise-generation phase from
+      # t=0 rather than continuing the whole film's). This is applied ONCE,
+      # to the FINAL concatenated file, in the concat-and-finalize job below
+      # — the only correct place for a whole-film continuous layer.
+
+      - name: hyperframes check (lint gate)
+        working-directory: ${{ github.event.inputs.project }}/.hyperframes/chunks/${{ matrix.chunk_dir }}
+        run: npx --yes hyperframes@0.8.17 check --timeout 60000
+
+      - name: Render chunk
+        working-directory: ${{ github.event.inputs.project }}/.hyperframes/chunks/${{ matrix.chunk_dir }}
+        # --workers 10 (not the reduced value render.yml's own history had to
+        # adopt for the whole film) — each chunk has ~40 sources by design
+        # (see split-for-chunked-render.mjs's --max-sources-per-chunk
+        # default), nowhere near the ~167 that triggers the concurrency bug
+        # this workflow exists to route around. --low-memory-mode kept for
+        # the separate, real local-disk-staging reason documented in
+        # render.yml — costs nothing on a chunk-sized render either way.
+        run: |
+          mkdir -p renders
+          for attempt in 1 2 3; do
+            echo "::group::Render attempt $attempt/3"
+            if npx --yes hyperframes@0.8.17 render --skill=documentary-broll --no-browser-gpu --workers 10 --browser-timeout 180 --protocol-timeout 900000 --quality high --low-memory-mode --output renders/video.mp4; then
+              echo "::endgroup::"
+              echo "Render succeeded on attempt $attempt"
+              exit 0
+            fi
+            echo "::endgroup::"
+            echo "Render attempt $attempt failed"
+            rm -f renders/video.mp4
+          done
+          echo "All 3 render attempts failed"
+          exit 1
+
+      - uses: actions/upload-artifact@v7
+        with:
+          name: chunk-${{ matrix.chunk_dir }}-${{ github.run_number }}
+          path: ${{ github.event.inputs.project }}/.hyperframes/chunks/${{ matrix.chunk_dir }}/renders/video.mp4
+          retention-days: 3
+
+  # Downloads every finished chunk MP4, concatenates them losslessly, applies
+  # the whole-film ambience/grain layers ONCE to the final file (see the
+  # note above about why this can't happen per-chunk), then optionally
+  # normalizes loudness — mirroring render.yml's own final steps exactly.
+  concat-and-finalize:
+    needs: render-chunk
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: "22"
+
+      - name: Install ffmpeg
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+
+      - name: Download every chunk's rendered MP4
+        uses: actions/download-artifact@v7
+        with:
+          pattern: chunk-*-${{ github.run_number }}
+          path: /tmp/chunk-artifacts
+
+      - name: Place each chunk MP4 where concat-chunked-renders.mjs expects it
+        working-directory: ${{ github.event.inputs.project }}
+        run: |
+          MANIFEST=".hyperframes/chunks/manifest.json"
+          node -e "
+            const fs = require('fs');
+            const manifest = JSON.parse(fs.readFileSync('$MANIFEST', 'utf8'));
+            for (const c of manifest.chunks) {
+              const destDir = '.hyperframes/chunks/' + c.dirName + '/renders';
+              fs.mkdirSync(destDir, { recursive: true });
+              const artifactDir = '/tmp/chunk-artifacts/chunk-' + c.dirName + '-${{ github.run_number }}';
+              const srcFile = artifactDir + '/video.mp4';
+              if (!fs.existsSync(srcFile)) throw new Error('missing artifact for ' + c.dirName + ': ' + srcFile);
+              fs.copyFileSync(srcFile, destDir + '/video.mp4');
+              console.log('placed', c.dirName);
+            }
+          "
+
+      - name: Concatenate chunks losslessly (stream-copy, no re-encode)
+        working-directory: ${{ github.event.inputs.project }}
+        run: |
+          node "$GITHUB_WORKSPACE/ci/documentary-broll/scripts/concat-chunked-renders.mjs" \
+            --chunks-dir .hyperframes/chunks --out renders/video.mp4 --log .hyperframes/run-log.md
+
+      # KNOWN GAP, not yet closed: render.yml's whole-film ambience-bed +
+      # grain-overlay layer (gen-cinematic-assets.mjs + inject-cinematic-
+      # layers.mjs) is a DOM-injection step — it mounts an <audio>/<video>
+      # element into index.html BEFORE render, which has no equivalent here
+      # since there's no single whole-film index.html in this chunked path
+      # (only per-chunk ones, each already rendered by the time this job
+      # runs). Applying it per-chunk was deliberately skipped above (would
+      # create an audible seam at every chunk boundary — each chunk's own
+      # ambience bed restarting its noise-generation phase from t=0). A
+      # correct whole-film version would need a NEW script that mixes a
+      # generated ambience track into an already-rendered MP4 post-hoc (ffmpeg
+      # -i video.mp4 -i ambience.mp3 -filter_complex amix ...) — this does not
+      # exist yet and was deliberately NOT built here to avoid shipping new,
+      # unvalidated audio-mixing logic in the same change as the concurrency
+      # workaround. The chunked path currently ships WITHOUT the ambience bed
+      # (narration + real footage audio + any BGM/SFX from the composition
+      # itself are all still present and correct — only the always-on
+      # background ambience layer is missing). Close this gap by building
+      # that post-hoc mixing script as a follow-up, once the core chunked-
+      # render path itself is proven on a real full film.
+
+      - name: Normalize loudness
+        if: ${{ github.event.inputs.normalize == 'true' }}
+        working-directory: ${{ github.event.inputs.project }}
+        run: |
+          node "$GITHUB_WORKSPACE/ci/documentary-broll/scripts/normalize-mix.mjs" \
+            --in renders/video.mp4 --out renders/video.mp4 --log .hyperframes/run-log.md
+
+      - name: Compute a slash-free artifact name
+        id: artifact_name
+        run: echo "slug=$(echo '${{ github.event.inputs.project }}' | tr '/' '-')" >> "$GITHUB_OUTPUT"
+
+      - uses: actions/upload-artifact@v7
+        with:
+          name: video-${{ steps.artifact_name.outputs.slug }}-${{ github.run_number }}
+          path: ${{ github.event.inputs.project }}/renders/video.mp4
+          retention-days: 3
+
+      - uses: actions/upload-artifact@v7
+        if: always()
+        with:
+          name: run-log-${{ steps.artifact_name.outputs.slug }}-${{ github.run_number }}
+          path: ${{ github.event.inputs.project }}/.hyperframes/run-log.md
+          retention-days: 3

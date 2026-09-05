@@ -1,0 +1,293 @@
+<template>
+  <style>
+    #root {
+      width: 1920px;
+      height: 1080px;
+      position: relative;
+      overflow: hidden;
+      font-family: -apple-system, "Inter", "Helvetica Neue", Arial, sans-serif;
+      background: #0a0a0c;
+    }
+
+    .clip.b124-bg {
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(ellipse at 50% 38%, rgba(46, 46, 54, 0.55) 0%, rgba(10, 10, 12, 0) 62%),
+        linear-gradient(168deg, #131316 0%, #0d0d10 55%, #0a0a0c 100%);
+    }
+
+    /* ---- shared card geometry ---- */
+    .b124-card {
+      position: absolute;
+      top: 268px;
+      width: 620px;
+      height: 384px;
+      box-sizing: border-box;
+      padding: 44px 46px 40px 46px;
+      border-radius: 10px;
+      background: linear-gradient(180deg, rgba(255,255,255,0.045) 0%, rgba(255,255,255,0.018) 100%);
+      border: 1px solid rgba(255, 255, 255, 0.11);
+      opacity: 0;
+    }
+    .b124-card-left { left: 236px; }
+    .b124-card-right { left: 1064px; }
+
+    .b124-card-label {
+      font-size: 25px;
+      font-weight: 600;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: #f2f2f0;
+      opacity: 0.82;
+      white-space: nowrap;
+    }
+
+    .b124-card-sub {
+      margin-top: 12px;
+      font-size: 21px;
+      font-weight: 400;
+      letter-spacing: 0.02em;
+      color: #f2f2f0;
+      opacity: 0.44;
+    }
+
+    .b124-figure-row {
+      position: absolute;
+      left: 46px;
+      bottom: 46px;
+      display: flex;
+      align-items: baseline;
+    }
+    .b124-figure {
+      font-size: 136px;
+      font-weight: 700;
+      line-height: 0.9;
+      letter-spacing: -0.035em;
+      font-variant-numeric: tabular-nums;
+      color: #f2f2f0;
+    }
+    .b124-figure-hot { color: #e0685a; }
+    .b124-unit {
+      margin-left: 16px;
+      font-size: 30px;
+      font-weight: 500;
+      letter-spacing: 0.03em;
+      color: #f2f2f0;
+      opacity: 0.55;
+    }
+
+    /* ---- vertical divider between the two cards ---- */
+    .b124-divider {
+      position: absolute;
+      left: 959px;
+      top: 236px;
+      width: 1px;
+      height: 448px;
+      background: linear-gradient(180deg,
+        rgba(255,255,255,0) 0%,
+        rgba(255,255,255,0.28) 18%,
+        rgba(255,255,255,0.28) 82%,
+        rgba(255,255,255,0) 100%);
+      transform-origin: 50% 0%;
+      transform: scaleY(0);
+    }
+
+    /* ---- gap bracket beneath the two cards ---- */
+    .b124-bracket {
+      position: absolute;
+      left: 236px;
+      top: 700px;
+      width: 1448px;
+      height: 34px;
+      opacity: 0;
+    }
+    .b124-bracket-line {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 1px;
+      background: rgba(224, 104, 90, 0.75);
+      transform-origin: 50% 50%;
+      transform: scaleX(0);
+    }
+    .b124-bracket-tick {
+      position: absolute;
+      top: 0;
+      width: 1px;
+      height: 20px;
+      background: rgba(224, 104, 90, 0.75);
+      opacity: 0;
+    }
+    .b124-tick-l { left: 0; }
+    .b124-tick-r { right: 0; }
+
+    .b124-bracket-label {
+      position: absolute;
+      top: 44px;
+      left: 0;
+      width: 100%;
+      text-align: center;
+      font-size: 26px;
+      font-weight: 500;
+      letter-spacing: 0.05em;
+      color: #e0685a;
+      opacity: 0;
+    }
+
+    /* ---- footnote: these are example figures ---- */
+    .b124-note {
+      position: absolute;
+      left: 0;
+      top: 826px;
+      width: 100%;
+      text-align: center;
+      font-size: 20px;
+      font-weight: 400;
+      letter-spacing: 0.05em;
+      color: #f2f2f0;
+      opacity: 0;
+    }
+
+    /* ---- top eyebrow ---- */
+    .b124-eyebrow {
+      position: absolute;
+      left: 0;
+      top: 160px;
+      width: 100%;
+      text-align: center;
+      font-size: 24px;
+      font-weight: 600;
+      letter-spacing: 0.3em;
+      text-transform: uppercase;
+      color: #f2f2f0;
+      opacity: 0;
+    }
+  </style>
+
+  <div id="root" data-composition-id="27-beat" data-width="1920" data-height="1080" data-duration="8.35">
+
+    <div class="clip b124-bg" data-start="0" data-duration="8.28" data-track-index="0"></div>
+
+    <div class="clip b124-eyebrow" id="b124-eyebrow" data-start="0" data-duration="8.28" data-track-index="1">
+      Compare line for line
+    </div>
+
+    <div class="clip b124-divider" id="b124-divider" data-start="0" data-duration="8.28" data-track-index="2"></div>
+
+    <div class="clip b124-card b124-card-left" id="b124-card-left" data-start="0" data-duration="8.28" data-track-index="3">
+      <div class="b124-card-label">Your supply rate</div>
+      <div class="b124-card-sub">from your supplier's line</div>
+      <div class="b124-figure-row">
+        <span class="b124-figure b124-figure-hot" id="b124-fig-left">11.4</span>
+        <span class="b124-unit">&cent; / kWh</span>
+      </div>
+    </div>
+
+    <div class="clip b124-card b124-card-right" id="b124-card-right" data-start="0" data-duration="8.28" data-track-index="4">
+      <div class="b124-card-label">Utility default rate</div>
+      <div class="b124-card-sub">the standard offer</div>
+      <div class="b124-figure-row">
+        <span class="b124-figure" id="b124-fig-right">11.4</span>
+        <span class="b124-unit">&cent; / kWh</span>
+      </div>
+    </div>
+
+    <div class="clip b124-bracket" id="b124-bracket" data-start="0" data-duration="8.28" data-track-index="5">
+      <div class="b124-bracket-line" id="b124-bracket-line"></div>
+      <div class="b124-bracket-tick b124-tick-l" id="b124-tick-l"></div>
+      <div class="b124-bracket-tick b124-tick-r" id="b124-tick-r"></div>
+      <div class="b124-bracket-label" id="b124-bracket-label">the difference you're paying</div>
+    </div>
+
+    <div class="clip b124-note" id="b124-note" data-start="0" data-duration="8.28" data-track-index="6">
+      Example figures &mdash; check the two rates printed on your own bill
+    </div>
+
+  </div>
+
+  <script>
+    (function () {
+      window.__timelines = window.__timelines || {};
+      var tl = gsap.timeline({ paused: true });
+
+      var figLeft = document.getElementById("b124-fig-left");
+      var figRight = document.getElementById("b124-fig-right");
+
+      // Deterministic illustrative US residential supply figures (cents/kWh).
+      var LEFT_START = 11.4, LEFT_END = 16.8, RIGHT_VALUE = 11.4;
+
+      function setFig(el, v) { el.textContent = v.toFixed(1); }
+      setFig(figLeft, LEFT_START);
+      setFig(figRight, RIGHT_VALUE);
+
+      // 0.0-0.9s — eyebrow settles in.
+      tl.fromTo("#b124-eyebrow",
+        { opacity: 0, y: -14 },
+        { opacity: 0.58, y: 0, duration: 0.7, ease: "power2.out" }, 0.15);
+
+      // 0.5-1.5s — LEFT card ("your supply rate") arrives first.
+      tl.fromTo("#b124-card-left",
+        { opacity: 0, x: -46 },
+        { opacity: 1, x: 0, duration: 0.9, ease: "power3.out" }, 0.5);
+
+      // 1.5-2.3s — the divider draws down between them.
+      tl.fromTo("#b124-divider",
+        { scaleY: 0 },
+        { scaleY: 1, duration: 0.75, ease: "power2.inOut" }, 1.5);
+
+      // 1.9-2.9s — RIGHT card ("utility default") arrives second, mirrored.
+      tl.fromTo("#b124-card-right",
+        { opacity: 0, x: 46 },
+        { opacity: 1, x: 0, duration: 0.9, ease: "power3.out" }, 1.9);
+
+      // 3.5-5.0s — the left figure ticks visibly HIGHER than the right,
+      // which holds still. This is the beat's hinge: "if yours is higher".
+      // Seek-safe count-up: the renderer seeks frame-by-frame rather than
+      // playing, so an onUpdate driven straight off a timeline tween can be
+      // skipped entirely on a cold seek and freeze at its start value.
+      // Driving the value off a nested paused tween's OWN progress makes the
+      // displayed figure a pure function of timeline position.
+      var counter = { v: LEFT_START };
+      var counterTween = gsap.to(counter, {
+        v: LEFT_END,
+        duration: 1.5,
+        ease: "power1.inOut",
+        paused: true
+      });
+      tl.to(counterTween, {
+        progress: 1,
+        duration: 1.5,
+        ease: "none",
+        onUpdate: function () { setFig(figLeft, counter.v); }
+      }, 3.5);
+      tl.fromTo("#b124-fig-left",
+        { scale: 1 },
+        { scale: 1.055, duration: 1.5, ease: "power1.inOut", transformOrigin: "0% 100%" }, 3.5);
+
+      // 5.2-6.2s — the gap bracket draws across, then its ticks drop.
+      tl.to("#b124-bracket", { opacity: 1, duration: 0.01 }, 5.2);
+      tl.fromTo("#b124-bracket-line",
+        { scaleX: 0 },
+        { scaleX: 1, duration: 0.85, ease: "power2.out" }, 5.2);
+      tl.to(["#b124-tick-l", "#b124-tick-r"],
+        { opacity: 1, duration: 0.35, ease: "power2.out" }, 5.85);
+
+      // 6.2-7.0s — the label under the bracket.
+      tl.fromTo("#b124-bracket-label",
+        { opacity: 0, y: 8 },
+        { opacity: 1, y: 0, duration: 0.7, ease: "power2.out" }, 6.2);
+
+      // 6.9-7.7s — quiet footnote: these are example figures.
+      tl.fromTo("#b124-note",
+        { opacity: 0 },
+        { opacity: 0.42, duration: 0.75, ease: "power2.out" }, 6.9);
+
+      // Hold to 8.28 — no exit tween; the root transition handles the cut.
+      tl.set({}, {}, 8.28);
+
+      window.__timelines["27-beat"] = tl;
+    })();
+  </script>
+</template>

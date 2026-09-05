@@ -1,0 +1,363 @@
+<template>
+  <style>
+    #root {
+      width: 1920px;
+      height: 1080px;
+      overflow: hidden;
+      font-family: -apple-system, "Inter", "Helvetica Neue", Arial, sans-serif;
+      color: #f2f2f0;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .b119-bg {
+      position: absolute;
+      inset: 0;
+      background: #0c0c0e;
+    }
+
+    .b119-bg-glow {
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(
+        62% 58% at 50% 42%,
+        rgba(224, 104, 90, 0.075) 0%,
+        rgba(224, 104, 90, 0.02) 42%,
+        rgba(12, 12, 14, 0) 74%
+      );
+    }
+
+    .b119-stage {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 1920px;
+      height: 900px; /* caption keep-out: all content lives in the top 83% */
+    }
+
+    /* ---- dateline chip ---- */
+    .b119-chip {
+      position: absolute;
+      left: 50%;
+      top: 118px;
+      transform: translateX(-50%);
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      padding: 11px 22px 11px 18px;
+      border: 1px solid rgba(224, 104, 90, 0.42);
+      border-radius: 3px;
+      background: rgba(224, 104, 90, 0.07);
+    }
+
+    .b119-chip-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #e0685a;
+    }
+
+    .b119-chip-text {
+      font-size: 22px;
+      font-weight: 600;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: #e0685a;
+      opacity: 0.92;
+    }
+
+    /* ---- money figure ---- */
+    .b119-money-wrap {
+      position: absolute;
+      left: 0;
+      top: 208px;
+      width: 1920px;
+      text-align: center;
+    }
+
+    .b119-money {
+      display: inline-block;
+      font-size: 188px;
+      font-weight: 700;
+      letter-spacing: -0.028em;
+      line-height: 1;
+      color: #e0685a;
+      font-variant-numeric: tabular-nums;
+      font-feature-settings: "tnum" 1;
+    }
+
+    .b119-money-rule {
+      position: absolute;
+      left: 50%;
+      top: 424px;
+      width: 620px;
+      height: 2px;
+      margin-left: -310px;
+      background: rgba(224, 104, 90, 0.55);
+      transform-origin: 50% 50%;
+    }
+
+    .b119-money-label {
+      position: absolute;
+      left: 0;
+      top: 444px;
+      width: 1920px;
+      text-align: center;
+      font-size: 24px;
+      font-weight: 500;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: #f2f2f0;
+      opacity: 0.72;
+    }
+
+    /* ---- connector ---- */
+    .b119-connector {
+      position: absolute;
+      left: 960px;
+      top: 500px;
+      width: 1px;
+      height: 96px;
+      background: rgba(242, 242, 240, 0.34);
+      transform-origin: 50% 0%;
+    }
+
+    .b119-connector-cap {
+      position: absolute;
+      left: 954px;
+      top: 592px;
+      width: 13px;
+      height: 13px;
+      margin-left: 0;
+      border-radius: 50%;
+      border: 1px solid rgba(242, 242, 240, 0.42);
+      background: #0c0c0e;
+    }
+
+    /* ---- households figure ---- */
+    .b119-hh-wrap {
+      position: absolute;
+      left: 0;
+      top: 626px;
+      width: 1920px;
+      text-align: center;
+      white-space: nowrap;
+    }
+
+    .b119-hh {
+      display: inline-block;
+      font-size: 122px;
+      font-weight: 600;
+      letter-spacing: -0.02em;
+      line-height: 1;
+      color: #f2f2f0;
+      font-variant-numeric: tabular-nums;
+      font-feature-settings: "tnum" 1;
+      vertical-align: baseline;
+    }
+
+    .b119-hh-unit {
+      display: inline-block;
+      margin-left: 22px;
+      font-size: 44px;
+      font-weight: 400;
+      letter-spacing: 0.02em;
+      color: #f2f2f0;
+      opacity: 0.78;
+      vertical-align: baseline;
+    }
+
+    /* ---- footnote line ---- */
+    .b119-note {
+      position: absolute;
+      left: 0;
+      top: 800px;
+      width: 1920px;
+      text-align: center;
+      font-size: 26px;
+      font-weight: 400;
+      letter-spacing: 0.05em;
+      color: #f2f2f0;
+      opacity: 0.62;
+    }
+  </style>
+
+  <div
+    id="root"
+    data-composition-id="22-beat"
+    data-width="1920"
+    data-height="1080"
+    data-duration="13.48"
+  >
+    <div class="clip b119-bg" data-start="0" data-duration="13.48" data-track-index="0"></div>
+    <div
+      class="clip b119-bg-glow"
+      id="b119-glow"
+      data-start="0"
+      data-duration="13.48"
+      data-track-index="1"
+    ></div>
+
+    <div class="clip b119-stage" data-start="0" data-duration="13.48" data-track-index="2">
+      <div class="b119-chip" id="b119-chip">
+        <span class="b119-chip-dot"></span>
+        <span class="b119-chip-text">New York &nbsp;&middot;&nbsp; April</span>
+      </div>
+
+      <div class="b119-money-wrap">
+        <span class="b119-money" id="b119-money">$0</span>
+      </div>
+      <div class="b119-money-rule" id="b119-money-rule"></div>
+      <div class="b119-money-label" id="b119-money-label">Ordered returned</div>
+
+      <div class="b119-connector" id="b119-connector"></div>
+      <div class="b119-connector-cap" id="b119-connector-cap"></div>
+
+      <div class="b119-hh-wrap">
+        <span class="b119-hh" id="b119-hh">0</span
+        ><span class="b119-hh-unit" id="b119-hh-unit">households</span>
+      </div>
+
+      <div class="b119-note" id="b119-note">nine affiliated suppliers ordered to return</div>
+    </div>
+  </div>
+
+  <script>
+    (function () {
+      window.__timelines = window.__timelines || {};
+      var tl = gsap.timeline({ paused: true });
+
+      var moneyEl = document.querySelector('[data-composition-id="22-beat"] #b119-money');
+      var hhEl = document.querySelector('[data-composition-id="22-beat"] #b119-hh');
+
+      function group(n) {
+        var s = String(Math.round(n));
+        var out = "";
+        var c = 0;
+        for (var i = s.length - 1; i >= 0; i--) {
+          out = s.charAt(i) + out;
+          c++;
+          if (c % 3 === 0 && i > 0) out = "," + out;
+        }
+        return out;
+      }
+
+      var moneyCounter = { v: 0 };
+      var hhCounter = { v: 0 };
+
+      // ---- 0.0s : ground settles ----
+      tl.fromTo("#b119-glow", { opacity: 0 }, { opacity: 1, duration: 1.6, ease: "sine.out" }, 0);
+
+      // ---- 0.35s : dateline chip ----
+      tl.fromTo(
+        "#b119-chip",
+        { opacity: 0, y: -14 },
+        { opacity: 1, y: 0, duration: 0.75, ease: "power2.out" },
+        0.35
+      );
+
+      // ---- 1.15s : the money figure arrives, then counts (the film's biggest number) ----
+      tl.fromTo(
+        "#b119-money",
+        { opacity: 0, y: 26 },
+        { opacity: 1, y: 0, duration: 0.6, ease: "power2.out" },
+        1.15
+      );
+      // Seek-safe count-up: the renderer seeks frame-by-frame rather than
+      // playing, so an onUpdate driven straight off a timeline tween can be
+      // skipped entirely on a cold seek and freeze at its start value.
+      // Driving the value off a nested paused tween's OWN progress makes the
+      // displayed number a pure function of timeline position.
+      var moneyTween = gsap.to(moneyCounter, {
+        v: 50000000,
+        duration: 2.3,
+        ease: "power2.out",
+        paused: true,
+      });
+      tl.to(
+        moneyTween,
+        {
+          progress: 1,
+          duration: 2.3,
+          ease: "none",
+          onUpdate: function () {
+            if (moneyEl) moneyEl.textContent = "$" + group(moneyCounter.v);
+          },
+        },
+        1.45
+      );
+
+      // ---- 3.75s : the figure is underlined and named ----
+      tl.fromTo(
+        "#b119-money-rule",
+        { scaleX: 0, opacity: 0 },
+        { scaleX: 1, opacity: 1, duration: 0.7, ease: "power3.out" },
+        3.75
+      );
+      tl.fromTo(
+        "#b119-money-label",
+        { opacity: 0, y: 8 },
+        { opacity: 0.72, y: 0, duration: 0.6, ease: "power2.out" },
+        3.95
+      );
+
+      // ---- 4.55s : the connector drops toward the households figure ----
+      tl.fromTo(
+        "#b119-connector",
+        { scaleY: 0 },
+        { scaleY: 1, duration: 0.8, ease: "power2.inOut" },
+        4.55
+      );
+      tl.fromTo(
+        "#b119-connector-cap",
+        { opacity: 0, scale: 0.4 },
+        { opacity: 1, scale: 1, duration: 0.45, ease: "power2.out" },
+        5.25
+      );
+
+      // ---- 5.5s : households figure arrives, then counts (second number, in sequence) ----
+      tl.fromTo(
+        "#b119-hh",
+        { opacity: 0, y: 20 },
+        { opacity: 1, y: 0, duration: 0.55, ease: "power2.out" },
+        5.5
+      );
+      var hhTween = gsap.to(hhCounter, {
+        v: 278000,
+        duration: 2.1,
+        ease: "power2.out",
+        paused: true,
+      });
+      tl.to(
+        hhTween,
+        {
+          progress: 1,
+          duration: 2.1,
+          ease: "none",
+          onUpdate: function () {
+            if (hhEl) hhEl.textContent = group(hhCounter.v);
+          },
+        },
+        5.8
+      );
+      tl.fromTo(
+        "#b119-hh-unit",
+        { opacity: 0, x: -12 },
+        { opacity: 0.78, x: 0, duration: 0.6, ease: "power2.out" },
+        7.5
+      );
+
+      // ---- 8.15s : the quiet attribution line settles under both ----
+      tl.fromTo(
+        "#b119-note",
+        { opacity: 0, y: 10 },
+        { opacity: 0.62, y: 0, duration: 0.8, ease: "power2.out" },
+        8.15
+      );
+
+      // ---- hold to 10.68s, no exit tween ----
+      tl.to({}, { duration: 0.01 }, 10.67);
+
+      window.__timelines["22-beat"] = tl;
+    })();
+  </script>
+</template>

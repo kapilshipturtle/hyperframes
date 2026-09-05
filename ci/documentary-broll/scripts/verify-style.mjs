@@ -24,14 +24,18 @@
 //     --transitions .hyperframes/transitions.json --overlays .hyperframes/overlays.json \
 //     [--sfx-offsets .hyperframes/sfx-offsets.json] [--punches .hyperframes/punches.json] \
 //     [--audio-meta audio_meta.json] [--storyboard STORYBOARD.md] [--render renders/final.mp4] [--soft] [--log <path>]
-import { readFileSync, existsSync } from "node:fs";
+import { readFileSync, existsSync, readdirSync } from "node:fs";
 import { spawnSync } from "node:child_process";
 import { loadProfile, isExplainerProfile } from "./lib/style-profile.mjs";
 import { logIfRequested } from "./lib/run-log.mjs";
 
 const flag = (argv, name, def) => { const i = argv.indexOf(`--${name}`); return i >= 0 && i + 1 < argv.length ? argv[i + 1] : def; };
 const argv = process.argv.slice(2);
-const profile = loadProfile(flag(argv, "profile", null));
+// --profile omitted → read .hyperframes/style-profile.json (written at the run-shape question via
+// suggest-style-profile.mjs --confirm); absent → legacy/no profile.
+let profileName = flag(argv, "profile", null);
+if (!profileName && existsSync(".hyperframes/style-profile.json")) { try { profileName = JSON.parse(readFileSync(".hyperframes/style-profile.json", "utf8")).profile || null; } catch {} }
+const profile = loadProfile(profileName);
 const rd = (p) => (p && existsSync(p) ? JSON.parse(readFileSync(p, "utf8")) : null);
 const beats = rd(flag(argv, "beats", ".hyperframes/beats.json"))?.beats;
 if (!beats) { console.error("✗ verify-style: --beats is required"); process.exit(1); }
@@ -75,7 +79,10 @@ const enterAts = ovEntries.map((o) => Number(o.enterAt ?? 0.4));
 const punchShare = Object.keys(punches).length / Math.max(1, beats.length);
 const bedOn = Boolean(audioMeta?.bgm?.path);
 const bedVol = audioMeta?.bgm?.volume;
-const vignetteShare = (sb.match(/vignette/g) || []).length / Math.max(1, beats.length);
+// vignette share: count built frames carrying the vignette layer (robust), fall back to storyboard mentions
+const framesDir = "compositions/frames";
+const vignetteFrames = existsSync(framesDir) ? readdirSync(framesDir).filter((f) => /\.html?$/.test(f) && readFileSync(`${framesDir}/${f}`, "utf8").includes("broll-vignette clip")).length : 0;
+const vignetteShare = (vignetteFrames || (sb.match(/vignette/g) || []).length) / Math.max(1, beats.length);
 const firstOverlayAt = (() => { let tt = 0; for (const b of beats) { const o = overlays[b.id]; if (o && o.archetype && o.archetype !== "none") return tt + Number(o.enterAt ?? 0.4); tt += b.durationSeconds; } return null; })();
 const firstSfxCutAt = (() => { let tt = 0; for (let i = 0; i < beats.length; i++) { if (transCues.some((c) => c.n === i + 1)) return tt; tt += beats[i].durationSeconds; } return null; })();
 

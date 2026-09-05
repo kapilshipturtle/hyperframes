@@ -1,0 +1,5 @@
+{ "sections": [
+  { "name": "hook", "startBeat": "01", "endBeat": "02", "arc": "calm" },
+  { "name": "the-dark-past", "startBeat": "03", "endBeat": "09", "arc": "rising" },
+  { "name": "the-question", "startBeat": "10", "endBeat": "11", "arc": "peak" },
+  { "name": "fire", "startBeat": "12", "endBeat": "13", "arc": "settling" } ] }

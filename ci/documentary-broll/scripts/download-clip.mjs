@@ -95,6 +95,15 @@ export const GRADE_PRESETS = {
 // adjacent techniques already proven elsewhere in this skill, no split/
 // blend needed) ARE real plain-filter-chain effects, so those are built.
 export const EFFECT_PRESETS = {
+  // Slow-motion (retention-explainer profiles, measured 1-3 % of shots on the
+  // analysed channels): half speed via setpts + constant 30 fps (frames are
+  // duplicated — no optical-flow interpolation, which is 50x slower and not
+  // what these channels use either). The beat still trims to its exact
+  // duration afterwards, so a 4 s beat shows the clip's first 2 s slowed.
+  "slow-motion": "setpts=2.0*PTS,fps=30",
+  // Speed ramp: normal speed for the first ~40 %, then eases into half speed
+  // (a single setpts expression; the moment the ramp starts is the emphasis).
+  "speed-ramp": "setpts='if(lt(T,1.5),PTS,PTS+(T-1.5)/TB)',fps=30",
   // Chromatic aberration — real RGB channel misalignment via rgbashift,
   // verified against real ffmpeg. Deliberately SUBTLE (single-digit pixel
   // shift) — a heavy-handed version reads as a rendering bug, not a lens
@@ -409,7 +418,7 @@ async function main() {
   const effect = flag(argv, "effect", null);
 
   if (!candidatePath || !beatId) {
-    console.error("Usage: download-clip.mjs --candidate <path> --beat-id <id> --duration N --project <dir> [--grade warm|cool|desaturated|neutral|verdant|bleached|filmic] [--lut <path.cube>] [--effect chromatic-aberration|archival] [--freeze] [--log <path>]");
+    console.error("Usage: download-clip.mjs --candidate <path> --beat-id <id> --duration N --project <dir> [--grade warm|cool|desaturated|neutral|verdant|bleached|filmic] [--lut <path.cube>] [--effect chromatic-aberration|archival|slow-motion|speed-ramp] [--freeze] [--log <path>]");
     process.exit(1);
   }
 

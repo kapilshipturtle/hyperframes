@@ -1,0 +1,44 @@
+{
+  "transitions": [
+    "cut",
+    "hard-cut 0s",
+    "hard-cut 0s",
+    "hard-cut 0s",
+    "hard-cut 0s",
+    "crossfade 0.3s",
+    "hard-cut 0s",
+    "hard-cut 0s",
+    "hard-cut 0s",
+    "hard-cut 0s",
+    "hard-cut 0s",
+    "hard-cut 0s",
+    "hard-cut 0s"
+  ],
+  "style": "explainer(explainer-fast)",
+  "intensity": "moderate",
+  "pool": [
+    "hard-cut 0s",
+    "crossfade 0.3s",
+    "paper-tear 0.35s",
+    "light-leak-flash 0.5s",
+    "whip-pan",
+    "zoom-through 1s"
+  ],
+  "startIndex": 0,
+  "profile": "explainer-fast",
+  "sfxCues": [
+    null,
+    null,
+    null,
+    "whoosh-short",
+    null,
+    null,
+    null,
+    "whoosh-short",
+    null,
+    "whoosh-short",
+    null,
+    "whoosh-short",
+    null
+  ]
+}

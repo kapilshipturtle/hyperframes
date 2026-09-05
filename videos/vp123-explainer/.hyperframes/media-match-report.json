@@ -1,0 +1,25 @@
+{
+  "checkedCount": 13,
+  "totalRealFootageBeats": 13,
+  "flaggedCount": 3,
+  "flagged": [
+    {
+      "beatId": "02",
+      "narration": "Light will flood the room, and you won't think twice about it.",
+      "mediaPath": ".media/broll/beat-02.mp4",
+      "reason": "The image depicts a dimly lit, shadowy room rather than one flooded with light."
+    },
+    {
+      "beatId": "06",
+      "narration": "But modern humans almost never experienced this.",
+      "mediaPath": ".media/broll/beat-06.mp4",
+      "reason": "The image shows a brightly lit city at night, which represents the modern environment of light pollution rather than the natural darkness that humans rarely experience."
+    },
+    {
+      "beatId": "08",
+      "narration": "They didn't even have candles for most of that time.",
+      "mediaPath": ".media/broll/beat-08.mp4",
+      "reason": "The image shows a burning candle, which contradicts the narration stating they did not have candles."
+    }
+  ]
+}

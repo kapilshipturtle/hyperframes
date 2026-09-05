@@ -1,0 +1,71 @@
+{
+  "tts_provider": null,
+  "voice_id": null,
+  "bgm": null,
+  "bgm_pending": false,
+  "bgm_provider": null,
+  "bgm_pid": null,
+  "bgm_log": null,
+  "bgm_mode": null,
+  "bgm_target_duration_s": null,
+  "bgm_seed_duration_s": null,
+  "bgm_loop_count": null,
+  "voices": [],
+  "sfx": [
+    {
+      "id": "04",
+      "name": "whoosh-short",
+      "file": "assets/sfx/whoosh-short.mp3",
+      "source": "local",
+      "offset_s": 0,
+      "duration_s": 0.57,
+      "volume": 0.35
+    },
+    {
+      "id": "07",
+      "name": "tick-burst",
+      "file": "assets/sfx/tick-burst.mp3",
+      "source": "local",
+      "offset_s": 0,
+      "duration_s": 0.7,
+      "volume": 0.35
+    },
+    {
+      "id": "08",
+      "name": "whoosh-short",
+      "file": "assets/sfx/whoosh-short.mp3",
+      "source": "local",
+      "offset_s": 0,
+      "duration_s": 0.57,
+      "volume": 0.35
+    },
+    {
+      "id": "10",
+      "name": "whoosh-short",
+      "file": "assets/sfx/whoosh-short.mp3",
+      "source": "local",
+      "offset_s": 0,
+      "duration_s": 0.57,
+      "volume": 0.35
+    },
+    {
+      "id": "11",
+      "name": "pop",
+      "file": "assets/sfx/pop.mp3",
+      "source": "local",
+      "offset_s": 0,
+      "duration_s": 0.72,
+      "volume": 0.35
+    },
+    {
+      "id": "12",
+      "name": "whoosh-short",
+      "file": "assets/sfx/whoosh-short.mp3",
+      "source": "local",
+      "offset_s": 0,
+      "duration_s": 0.57,
+      "volume": 0.35
+    }
+  ],
+  "total_duration_s": 0
+}

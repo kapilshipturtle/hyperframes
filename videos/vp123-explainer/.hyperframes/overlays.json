@@ -1,0 +1,74 @@
+{
+ "01": {
+  "archetype": "none",
+  "reason": "cold-open hook, the footage (hand on the lamp switch) IS the line"
+ },
+ "02": {
+  "archetype": "none",
+  "reason": "continuation of the hook; the lit room carries it"
+ },
+ "03": {
+  "archetype": "giant-price",
+  "text": "99.9%",
+  "sub": "of human history",
+  "enterAt": 1.3,
+  "tone": "cool",
+  "reason": "the figure is the entire point of the beat \u2014 the channel device is a full-frame giant number"
+ },
+ "04": {
+  "archetype": "none",
+  "reason": "a 2 s image beat; the time-lapse going dark says it"
+ },
+ "05": {
+  "archetype": "key-phrase",
+  "text": "you couldn't even see your own hand",
+  "enterAt": 1.0,
+  "tone": "neutral",
+  "reason": "the stressed line, word-by-word kinetic phrase (variety: keyword-flash was 50% of overlays)"
+ },
+ "06": {
+  "archetype": "none",
+  "reason": "contrast beat, city lights carry it"
+ },
+ "07": {
+  "archetype": "number-counter",
+  "value": "300000",
+  "suffix": " years",
+  "label": "half of every life in darkness",
+  "from": 0,
+  "countS": 0.9,
+  "enterAt": 1.4,
+  "position": "center",
+  "tone": "neutral",
+  "reason": "300,000 years is the headline figure of the film; a counting number with a tick burst"
+ },
+ "08": {
+  "archetype": "none",
+  "reason": "the single candle is the visual already"
+ },
+ "09": {
+  "archetype": "none",
+  "reason": "stars and fire, footage-only beat"
+ },
+ "10": {
+  "archetype": "none",
+  "reason": "the question beat \u2014 a hard cut and silence do the work"
+ },
+ "11": {
+  "archetype": "keyword-flash",
+  "text": "sleep storytelling",
+  "accentWord": 1,
+  "position": "lower-center",
+  "enterAt": 1.6,
+  "tone": "warm",
+  "reason": "the two named themes of the payoff line"
+ },
+ "12": {
+  "archetype": "none",
+  "reason": "'let's start with fire' \u2014 the match igniting is the reveal; an overlay would restate it"
+ },
+ "13": {
+  "archetype": "none",
+  "reason": "1.1 s tail beat, mid-sentence audio end"
+ }
+}

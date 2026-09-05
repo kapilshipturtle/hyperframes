@@ -1,0 +1,893 @@
+{
+  "beats": [
+    {
+      "id": "01",
+      "text": "Tonight, when the sun goes down, you're going to flip a switch.",
+      "start": 0.07,
+      "end": 2.94,
+      "durationSeconds": 2.87,
+      "words": [
+        {
+          "text": "Tonight,",
+          "start": 0.07,
+          "end": 0.39
+        },
+        {
+          "text": "when",
+          "start": 0.55,
+          "end": 0.68
+        },
+        {
+          "text": "the",
+          "start": 0.68,
+          "end": 0.82
+        },
+        {
+          "text": "sun",
+          "start": 0.83,
+          "end": 0.98
+        },
+        {
+          "text": "goes",
+          "start": 0.98,
+          "end": 1.14
+        },
+        {
+          "text": "down,",
+          "start": 1.19,
+          "end": 1.5
+        },
+        {
+          "text": "you're",
+          "start": 1.56,
+          "end": 1.84
+        },
+        {
+          "text": "going",
+          "start": 1.84,
+          "end": 2.09
+        },
+        {
+          "text": "to",
+          "start": 2.09,
+          "end": 2.19
+        },
+        {
+          "text": "flip",
+          "start": 2.19,
+          "end": 2.39
+        },
+        {
+          "text": "a",
+          "start": 2.39,
+          "end": 2.44
+        },
+        {
+          "text": "switch.",
+          "start": 2.44,
+          "end": 2.94
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "text": "Light will flood the room, and you won't think twice about it.",
+      "start": 3.01,
+      "end": 5.49,
+      "durationSeconds": 2.48,
+      "words": [
+        {
+          "text": "Light",
+          "start": 3.01,
+          "end": 3.17
+        },
+        {
+          "text": "will",
+          "start": 3.17,
+          "end": 3.32
+        },
+        {
+          "text": "flood",
+          "start": 3.49,
+          "end": 3.58
+        },
+        {
+          "text": "the",
+          "start": 3.58,
+          "end": 3.71
+        },
+        {
+          "text": "room,",
+          "start": 3.72,
+          "end": 3.99
+        },
+        {
+          "text": "and",
+          "start": 3.99,
+          "end": 4.08
+        },
+        {
+          "text": "you",
+          "start": 4.13,
+          "end": 4.27
+        },
+        {
+          "text": "won't",
+          "start": 4.27,
+          "end": 4.44
+        },
+        {
+          "text": "think",
+          "start": 4.5,
+          "end": 4.73
+        },
+        {
+          "text": "twice",
+          "start": 4.73,
+          "end": 4.87
+        },
+        {
+          "text": "about",
+          "start": 4.95,
+          "end": 5.19
+        },
+        {
+          "text": "it.",
+          "start": 5.19,
+          "end": 5.49
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "text": "But for 99.9% of human history, that switch didn't exist.",
+      "start": 5.57,
+      "end": 9.9,
+      "durationSeconds": 4.33,
+      "words": [
+        {
+          "text": "But",
+          "start": 5.57,
+          "end": 5.73
+        },
+        {
+          "text": "for",
+          "start": 5.73,
+          "end": 5.88
+        },
+        {
+          "text": "99.9%",
+          "start": 6.05,
+          "end": 6.95
+        },
+        {
+          "text": "of",
+          "start": 6.95,
+          "end": 7.1
+        },
+        {
+          "text": "human",
+          "start": 7.1,
+          "end": 7.43
+        },
+        {
+          "text": "history,",
+          "start": 7.51,
+          "end": 8.17
+        },
+        {
+          "text": "that",
+          "start": 8.17,
+          "end": 8.47
+        },
+        {
+          "text": "switch",
+          "start": 8.47,
+          "end": 8.93
+        },
+        {
+          "text": "didn't",
+          "start": 8.93,
+          "end": 9.38
+        },
+        {
+          "text": "exist.",
+          "start": 9.38,
+          "end": 9.9
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "text": "When the sun set, the world went dark.",
+      "start": 10.13,
+      "end": 12.12,
+      "durationSeconds": 1.99,
+      "words": [
+        {
+          "text": "When",
+          "start": 10.13,
+          "end": 10.3
+        },
+        {
+          "text": "the",
+          "start": 10.3,
+          "end": 10.44
+        },
+        {
+          "text": "sun",
+          "start": 10.61,
+          "end": 10.66
+        },
+        {
+          "text": "set,",
+          "start": 10.66,
+          "end": 10.96
+        },
+        {
+          "text": "the",
+          "start": 10.96,
+          "end": 11.14
+        },
+        {
+          "text": "world",
+          "start": 11.14,
+          "end": 11.44
+        },
+        {
+          "text": "went",
+          "start": 11.44,
+          "end": 11.68
+        },
+        {
+          "text": "dark.",
+          "start": 11.68,
+          "end": 12.12
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "text": "You couldn't even see your own hand in front of your face.",
+      "start": 12.19,
+      "end": 15.08,
+      "durationSeconds": 2.89,
+      "words": [
+        {
+          "text": "You",
+          "start": 12.19,
+          "end": 12.3
+        },
+        {
+          "text": "couldn't",
+          "start": 12.3,
+          "end": 12.78
+        },
+        {
+          "text": "even",
+          "start": 12.78,
+          "end": 13.02
+        },
+        {
+          "text": "see",
+          "start": 13.02,
+          "end": 13.2
+        },
+        {
+          "text": "your",
+          "start": 13.2,
+          "end": 13.44
+        },
+        {
+          "text": "own",
+          "start": 13.44,
+          "end": 13.62
+        },
+        {
+          "text": "hand",
+          "start": 13.62,
+          "end": 13.86
+        },
+        {
+          "text": "in",
+          "start": 13.86,
+          "end": 13.98
+        },
+        {
+          "text": "front",
+          "start": 13.98,
+          "end": 14.23
+        },
+        {
+          "text": "of",
+          "start": 14.3,
+          "end": 14.39
+        },
+        {
+          "text": "your",
+          "start": 14.39,
+          "end": 14.62
+        },
+        {
+          "text": "face.",
+          "start": 14.67,
+          "end": 15.08
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "text": "But modern humans almost never experienced this.",
+      "start": 15.15,
+      "end": 18.02,
+      "durationSeconds": 2.87,
+      "words": [
+        {
+          "text": "But",
+          "start": 15.15,
+          "end": 15.28
+        },
+        {
+          "text": "modern",
+          "start": 15.28,
+          "end": 15.68
+        },
+        {
+          "text": "humans",
+          "start": 15.68,
+          "end": 16.08
+        },
+        {
+          "text": "almost",
+          "start": 16.08,
+          "end": 16.48
+        },
+        {
+          "text": "never",
+          "start": 16.48,
+          "end": 16.81
+        },
+        {
+          "text": "experienced",
+          "start": 16.81,
+          "end": 17.54
+        },
+        {
+          "text": "this.",
+          "start": 17.54,
+          "end": 18.02
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "text": "For over 300,000 years, every single one of your ancestors spent roughly half their life in near total darkness.",
+      "start": 18.09,
+      "end": 25.02,
+      "durationSeconds": 6.93,
+      "words": [
+        {
+          "text": "For",
+          "start": 18.09,
+          "end": 18.2
+        },
+        {
+          "text": "over",
+          "start": 18.2,
+          "end": 18.4
+        },
+        {
+          "text": "300,000",
+          "start": 18.57,
+          "end": 19.69
+        },
+        {
+          "text": "years,",
+          "start": 19.69,
+          "end": 20.12
+        },
+        {
+          "text": "every",
+          "start": 20.12,
+          "end": 20.43
+        },
+        {
+          "text": "single",
+          "start": 20.43,
+          "end": 20.73
+        },
+        {
+          "text": "one",
+          "start": 20.83,
+          "end": 20.98
+        },
+        {
+          "text": "of",
+          "start": 20.98,
+          "end": 21.1
+        },
+        {
+          "text": "your",
+          "start": 21.1,
+          "end": 21.34
+        },
+        {
+          "text": "ancestors",
+          "start": 21.36,
+          "end": 21.91
+        },
+        {
+          "text": "spent",
+          "start": 21.91,
+          "end": 22.22
+        },
+        {
+          "text": "roughly",
+          "start": 22.22,
+          "end": 22.65
+        },
+        {
+          "text": "half",
+          "start": 22.65,
+          "end": 22.9
+        },
+        {
+          "text": "their",
+          "start": 22.9,
+          "end": 23.21
+        },
+        {
+          "text": "life",
+          "start": 23.21,
+          "end": 23.52
+        },
+        {
+          "text": "in",
+          "start": 23.59,
+          "end": 23.66
+        },
+        {
+          "text": "near",
+          "start": 23.66,
+          "end": 23.9
+        },
+        {
+          "text": "total",
+          "start": 24.07,
+          "end": 24.29
+        },
+        {
+          "text": "darkness.",
+          "start": 24.3,
+          "end": 25.02
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "text": "They didn't even have candles for most of that time.",
+      "start": 25.15,
+      "end": 27.46,
+      "durationSeconds": 2.31,
+      "words": [
+        {
+          "text": "They",
+          "start": 25.15,
+          "end": 25.29
+        },
+        {
+          "text": "didn't",
+          "start": 25.29,
+          "end": 25.6
+        },
+        {
+          "text": "even",
+          "start": 25.63,
+          "end": 25.81
+        },
+        {
+          "text": "have",
+          "start": 25.81,
+          "end": 26.02
+        },
+        {
+          "text": "candles",
+          "start": 26.02,
+          "end": 26.38
+        },
+        {
+          "text": "for",
+          "start": 26.38,
+          "end": 26.53
+        },
+        {
+          "text": "most",
+          "start": 26.53,
+          "end": 26.74
+        },
+        {
+          "text": "of",
+          "start": 26.74,
+          "end": 26.84
+        },
+        {
+          "text": "that",
+          "start": 26.84,
+          "end": 27.01
+        },
+        {
+          "text": "time.",
+          "start": 27.09,
+          "end": 27.46
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "text": "Just the black sky, the stars, and whatever fire they could keep alive.",
+      "start": 27.53,
+      "end": 31.3,
+      "durationSeconds": 3.77,
+      "words": [
+        {
+          "text": "Just",
+          "start": 27.53,
+          "end": 27.7
+        },
+        {
+          "text": "the",
+          "start": 27.7,
+          "end": 27.84
+        },
+        {
+          "text": "black",
+          "start": 28.01,
+          "end": 28.18
+        },
+        {
+          "text": "sky,",
+          "start": 28.18,
+          "end": 28.48
+        },
+        {
+          "text": "the",
+          "start": 28.48,
+          "end": 28.66
+        },
+        {
+          "text": "stars,",
+          "start": 28.66,
+          "end": 29.08
+        },
+        {
+          "text": "and",
+          "start": 29.08,
+          "end": 29.26
+        },
+        {
+          "text": "whatever",
+          "start": 29.26,
+          "end": 29.73
+        },
+        {
+          "text": "fire",
+          "start": 29.73,
+          "end": 29.96
+        },
+        {
+          "text": "they",
+          "start": 30.01,
+          "end": 30.17
+        },
+        {
+          "text": "could",
+          "start": 30.27,
+          "end": 30.52
+        },
+        {
+          "text": "keep",
+          "start": 30.52,
+          "end": 30.63
+        },
+        {
+          "text": "alive.",
+          "start": 30.77,
+          "end": 31.3
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "text": "So what did they actually do for all those hours?",
+      "start": 31.37,
+      "end": 33.56,
+      "durationSeconds": 2.19,
+      "words": [
+        {
+          "text": "So",
+          "start": 31.37,
+          "end": 31.4
+        },
+        {
+          "text": "what",
+          "start": 31.4,
+          "end": 31.61
+        },
+        {
+          "text": "did",
+          "start": 31.61,
+          "end": 31.68
+        },
+        {
+          "text": "they",
+          "start": 31.85,
+          "end": 31.98
+        },
+        {
+          "text": "actually",
+          "start": 31.98,
+          "end": 32.4
+        },
+        {
+          "text": "do",
+          "start": 32.4,
+          "end": 32.5
+        },
+        {
+          "text": "for",
+          "start": 32.5,
+          "end": 32.65
+        },
+        {
+          "text": "all",
+          "start": 32.66,
+          "end": 32.8
+        },
+        {
+          "text": "those",
+          "start": 32.86,
+          "end": 33.08
+        },
+        {
+          "text": "hours?",
+          "start": 33.08,
+          "end": 33.56
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "text": "The answer changes everything we think we know about sleep, storytelling, and what it means to be human.",
+      "start": 33.63,
+      "end": 39.4,
+      "durationSeconds": 5.77,
+      "words": [
+        {
+          "text": "The",
+          "start": 33.63,
+          "end": 33.76
+        },
+        {
+          "text": "answer",
+          "start": 33.76,
+          "end": 34.16
+        },
+        {
+          "text": "changes",
+          "start": 34.16,
+          "end": 34.62
+        },
+        {
+          "text": "everything",
+          "start": 34.62,
+          "end": 35.29
+        },
+        {
+          "text": "we",
+          "start": 35.29,
+          "end": 35.42
+        },
+        {
+          "text": "think",
+          "start": 35.42,
+          "end": 35.75
+        },
+        {
+          "text": "we",
+          "start": 35.75,
+          "end": 35.88
+        },
+        {
+          "text": "know",
+          "start": 35.88,
+          "end": 36.14
+        },
+        {
+          "text": "about",
+          "start": 36.14,
+          "end": 36.47
+        },
+        {
+          "text": "sleep,",
+          "start": 36.47,
+          "end": 36.93
+        },
+        {
+          "text": "storytelling,",
+          "start": 36.93,
+          "end": 37.92
+        },
+        {
+          "text": "and",
+          "start": 37.92,
+          "end": 37.97
+        },
+        {
+          "text": "what",
+          "start": 38.01,
+          "end": 38.13
+        },
+        {
+          "text": "it",
+          "start": 38.13,
+          "end": 38.2
+        },
+        {
+          "text": "means",
+          "start": 38.27,
+          "end": 38.55
+        },
+        {
+          "text": "to",
+          "start": 38.55,
+          "end": 38.58
+        },
+        {
+          "text": "be",
+          "start": 38.75,
+          "end": 38.83
+        },
+        {
+          "text": "human.",
+          "start": 38.83,
+          "end": 39.4
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "text": "Let's start with fire. Because fire is the reason any of this was possible.",
+      "start": 39.47,
+      "end": 42.96,
+      "durationSeconds": 3.49,
+      "words": [
+        {
+          "text": "Let's",
+          "start": 39.47,
+          "end": 39.68
+        },
+        {
+          "text": "start",
+          "start": 39.68,
+          "end": 39.97
+        },
+        {
+          "text": "with",
+          "start": 39.97,
+          "end": 40.2
+        },
+        {
+          "text": "fire.",
+          "start": 40.2,
+          "end": 40.64
+        },
+        {
+          "text": "Because",
+          "start": 40.71,
+          "end": 41
+        },
+        {
+          "text": "fire",
+          "start": 41,
+          "end": 41.2
+        },
+        {
+          "text": "is",
+          "start": 41.2,
+          "end": 41.3
+        },
+        {
+          "text": "the",
+          "start": 41.3,
+          "end": 41.45
+        },
+        {
+          "text": "reason",
+          "start": 41.45,
+          "end": 41.74
+        },
+        {
+          "text": "any",
+          "start": 41.75,
+          "end": 41.9
+        },
+        {
+          "text": "of",
+          "start": 41.9,
+          "end": 41.99
+        },
+        {
+          "text": "this",
+          "start": 42,
+          "end": 42.14
+        },
+        {
+          "text": "was",
+          "start": 42.2,
+          "end": 42.35
+        },
+        {
+          "text": "possible.",
+          "start": 42.35,
+          "end": 42.96
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "text": "The earliest solid evidence of this was the fire.",
+      "start": 42.96,
+      "end": 44.1,
+      "durationSeconds": 1.14,
+      "words": [
+        {
+          "text": "The",
+          "start": 42.96,
+          "end": 43.03
+        },
+        {
+          "text": "earliest",
+          "start": 43.03,
+          "end": 43.24
+        },
+        {
+          "text": "solid",
+          "start": 43.24,
+          "end": 43.34
+        },
+        {
+          "text": "evidence",
+          "start": 43.51,
+          "end": 43.58
+        },
+        {
+          "text": "of",
+          "start": 43.58,
+          "end": 43.63
+        },
+        {
+          "text": "this",
+          "start": 43.63,
+          "end": 43.72
+        },
+        {
+          "text": "was",
+          "start": 43.74,
+          "end": 43.8
+        },
+        {
+          "text": "the",
+          "start": 43.8,
+          "end": 43.87
+        },
+        {
+          "text": "fire.",
+          "start": 43.87,
+          "end": 44.1
+        }
+      ]
+    }
+  ],
+  "totalDuration": 44.1,
+  "wordCount": 154
+}

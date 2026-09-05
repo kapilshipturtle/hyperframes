@@ -1,0 +1,121 @@
+<template>
+  <style>
+    #root {
+      width: 1920px;
+      height: 1080px;
+      position: relative;
+      overflow: hidden;
+      background: #000;
+    }
+    .broll-wrap {
+      position: absolute;
+      inset: -6%;
+      width: 112%;
+      height: 112%;
+    }
+    .broll-media {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    /* profile additions: blurred pillarbox for portrait/square media, B&W treatment */
+    .broll-pb-bg { position: absolute; inset: -5%; width: 110%; height: 110%; object-fit: cover; filter: blur(36px) brightness(0.55) saturate(1.1); }
+    .broll-pb-fg { position: absolute; inset: 0; object-fit: contain; }
+    .broll-bw { filter: grayscale(1) contrast(1.08); }
+    .broll-split-a, .broll-split-b { position: absolute; object-fit: cover; }
+    .broll-split-a.broll-split-left-right { left: 0; top: 0; width: 50%; height: 100%; }
+    .broll-split-b.broll-split-left-right { left: 50%; top: 0; width: 50%; height: 100%; border-left: 4px solid rgba(255,255,255,0.9); box-sizing: border-box; }
+    .broll-split-a.broll-split-top-bottom { left: 0; top: 0; width: 100%; height: 50%; }
+    .broll-split-b.broll-split-top-bottom { left: 0; top: 50%; width: 100%; height: 50%; border-top: 4px solid rgba(255,255,255,0.9); box-sizing: border-box; }
+    /* Cutaway sits absolutely over the primary media inside the same wrap
+       (so it inherits the same Ken Burns move on the wrap element, keeping
+       the two shots visually consistent) — starts transparent, GSAP
+       crossfades it in at --cutaway-at, see the script block below. */
+    .broll-cutaway {
+      position: absolute;
+      inset: 0;
+    }
+    /* 2.5D parallax layers (see gen-depth-layers.py) — both stacked full-
+       bleed inside the same wrap. The foreground is deliberately oversized
+       (rather than 100%) so its own independent translate (see parallaxCode
+       below) never slides a transparent edge into frame — the same
+       overscan-margin idea the wrap itself already uses, just at the layer
+       level since the fg moves MORE than the wrap's own Ken Burns alone. */
+    .broll-parallax-bg {
+      position: absolute;
+      inset: 0;
+      object-fit: cover;
+    }
+    .broll-parallax-fg {
+      position: absolute;
+      inset: -8%;
+      width: 116%;
+      height: 116%;
+      object-fit: contain;
+      object-position: center;
+    }
+    /* subtle bottom scrim so any burned-in captions stay readable over bright footage */
+    .broll-scrim {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to top, rgba(0,0,0,0.35) 0%, rgba(0,0,0,0) 22%);
+      pointer-events: none;
+    }
+    /* Optional per-beat vignette — a real, if modest, "composited" texture
+       layer distinct from the global grain overlay (which is flat, uniform,
+       full-timeline). Researched documentary/explainer-channel convention:
+       supporting texture layers COMPOSITED WITH the base clip, in the same
+       frame, is the single highest-leverage visual-quality delta over "one
+       flat clip per beat" — this is the smallest, most self-contained piece
+       of that: a soft radial darkening toward the frame edges, drawing the
+       eye toward center/subject the way a real lens vignette does. Opt-in
+       per beat via --vignette, never global/automatic (unlike grain) since
+       its strength should vary by shot mood, not apply uniformly.*/
+    .broll-vignette {
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse at center, rgba(0,0,0,0) 45%, rgba(0,0,0,0) 100%);
+      pointer-events: none;
+    }
+
+    .ov-kf { position: absolute; left: 50%; display: flex; gap: 0.32em; font: 800 1em/1.1 "Inter", "Montserrat", -apple-system, sans-serif; font-size: 92px; text-transform: uppercase; letter-spacing: 0.03em; opacity: 0; white-space: nowrap; }
+    .ov-kf-center { top: 50%; transform: translate(-50%, -50%); }
+    .ov-kf-lower-center { bottom: 150px; transform: translateX(-50%); }
+    .ov-kf-w { color: #ffffff; text-shadow: 0 1px 2px rgba(0,0,0,0.55), 0 4px 16px rgba(0,0,0,0.45); }
+    .ov-kf-acc { color: #5ee7ff; }
+  </style>
+
+  <div
+    id="root"
+    data-composition-id="11-beat"
+    data-width="1920" data-height="1080" data-duration="5.77"
+  >
+    <div class="broll-wrap" id="f-11-beat-wrap">
+      <video id="f-11-beat-media" class="broll-media clip" src=".media/broll/beat-11.mp4" muted playsinline data-start="0" data-duration="5.77" data-media-start="0" data-track-index="0"></video>
+      <video id="f-11-beat-cutaway" class="broll-media broll-cutaway clip" src=".media/broll/beat-11-cutaway.mp4" muted playsinline data-start="3.60" data-duration="2.17" data-media-start="0" data-track-index="4" style="opacity:0;"></video>
+    </div>
+    <div class="broll-scrim clip" id="f-11-beat-scrim" data-start="0" data-duration="5.77" data-track-index="1"></div>
+    <div class="ov-kf ov-kf-lower-center" id="f-11-beat-ov"><span class="ov-kf-w" id="f-11-beat-ov-w0">SLEEP</span> <span class="ov-kf-w ov-kf-acc" id="f-11-beat-ov-w1">STORYTELLING</span></div>
+  </div>
+
+  <script>
+    (function () {
+      window.__timelines = window.__timelines || {};
+      var tl = gsap.timeline({ paused: true });
+      var wrap = document.getElementById("f-11-beat-wrap");
+      gsap.set(wrap, { scale: 1.0 });
+      tl.set("#f-11-beat-ov", { opacity: 1 }, 1.60);
+      tl.fromTo("#f-11-beat-ov-w0", { opacity: 0, scale: 0.6 }, { opacity: 1, scale: 1, duration: 0.24, ease: "back.out(1.8)" }, 1.60);
+      tl.fromTo("#f-11-beat-ov-w1", { opacity: 0, scale: 0.6 }, { opacity: 1, scale: 1, duration: 0.24, ease: "back.out(1.8)" }, 1.67);
+      // Quick crossfade hand-off to the cutaway layer — primary media fades
+      // out just as the cutaway fades in, both centered on --cutaway-at, so
+      // there's never a moment either layer reads as a hard pop.
+      var cutawayEl = document.getElementById("f-11-beat-cutaway");
+      var primaryEl = document.getElementById("f-11-beat-media");
+
+      tl.to(primaryEl, { opacity: 0, duration: 0.4, ease: "none" }, 3.60 - 0.2);
+      tl.to(cutawayEl, { opacity: 1, duration: 0.4, ease: "none" }, 3.60 - 0.2);
+      window.__timelines["11-beat"] = tl;
+    })();
+  </script>
+</template>

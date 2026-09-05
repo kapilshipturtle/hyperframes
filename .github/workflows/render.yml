@@ -232,6 +232,13 @@ jobs:
         # (e.g. baked into the ffmpeg encode instead of a blended DOM layer)
         # is built and tested — see SKILL.md.
         run: |
+          # Explainer profiles (style-profile.json) carry NO ambience bed — 0 % of the
+          # 25 analysed reference videos have one; their music bed is already in
+          # audio_meta.json via plan-bgm.mjs. Only the documentary profile injects it.
+          PROFILE=$(node -e "try{process.stdout.write(JSON.parse(require('fs').readFileSync('.hyperframes/style-profile.json','utf8')).profile||'')}catch(e){}")
+          if [ -n "$PROFILE" ] && [ "$PROFILE" != "documentary" ]; then
+            echo "profile $PROFILE: skipping ambience/grain layers (explainer profiles have none)"; exit 0
+          fi
           DURATION=$(node -e "
             const html = require('fs').readFileSync('index.html', 'utf8');
             const m = html.match(/data-composition-id=\"main\"[\s\S]*?data-duration=\"([\d.]+)\"/);
@@ -408,8 +415,14 @@ jobs:
         if: ${{ github.event_name != 'workflow_dispatch' || github.event.inputs.normalize == 'true' }}
         working-directory: ${{ matrix.project }}
         run: |
+          # Target follows the project's editing profile (explainer profiles master at -17…-19 LUFS, documentary at -14)
+          TARGET=$(node -e "
+            try { const p = JSON.parse(require('fs').readFileSync('.hyperframes/style-profile.json','utf8')).profile;
+                  const prof = JSON.parse(require('fs').readFileSync(process.env.GITHUB_WORKSPACE + '/ci/documentary-broll/references/style-profiles.json','utf8')).profiles[p];
+                  process.stdout.write(String(prof && prof.mix && prof.mix.integrated_lufs || -14)); } catch (e) { process.stdout.write('-14'); }")
+          echo "normalize target: $TARGET LUFS"
           node "$GITHUB_WORKSPACE/ci/documentary-broll/scripts/normalize-mix.mjs" \
-            --in renders/video.mp4 --out renders/video.mp4 --log .hyperframes/run-log.md
+            --in renders/video.mp4 --out renders/video.mp4 --target-lufs "$TARGET" --log .hyperframes/run-log.md
 
       - name: Compute a slash-free artifact name
         id: artifact_name

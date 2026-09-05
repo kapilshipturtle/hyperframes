@@ -1,0 +1,44 @@
+{
+ "4": {
+  "whoosh-short": {
+   "offset_s": 0,
+   "volume": 0.45,
+   "stem": "transition"
+  }
+ },
+ "7": {
+  "tick-burst": {
+   "offset_s": 1.4,
+   "volume": 0.09,
+   "stem": "graphic-cue"
+  }
+ },
+ "8": {
+  "whoosh-short": {
+   "offset_s": 0,
+   "volume": 0.45,
+   "stem": "transition"
+  }
+ },
+ "10": {
+  "whoosh-short": {
+   "offset_s": 0,
+   "volume": 0.45,
+   "stem": "transition"
+  }
+ },
+ "11": {
+  "pop": {
+   "offset_s": 1.6,
+   "volume": 0.09,
+   "stem": "graphic-cue"
+  }
+ },
+ "12": {
+  "whoosh-short": {
+   "offset_s": 0,
+   "volume": 0.45,
+   "stem": "transition"
+  }
+ }
+}

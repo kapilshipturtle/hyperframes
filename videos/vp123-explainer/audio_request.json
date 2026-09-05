@@ -1,0 +1,43 @@
+{
+  "lines": [
+    {
+      "id": "04",
+      "sfx": [
+        "whoosh-short"
+      ]
+    },
+    {
+      "id": "07",
+      "sfx": [
+        "tick-burst"
+      ]
+    },
+    {
+      "id": "08",
+      "sfx": [
+        "whoosh-short"
+      ]
+    },
+    {
+      "id": "10",
+      "sfx": [
+        "whoosh-short"
+      ]
+    },
+    {
+      "id": "11",
+      "sfx": [
+        "pop"
+      ]
+    },
+    {
+      "id": "12",
+      "sfx": [
+        "whoosh-short"
+      ]
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

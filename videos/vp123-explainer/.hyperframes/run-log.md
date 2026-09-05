@@ -633,3 +633,44 @@ profile explainer-fast: 0 FAIL
   - **first cut at:** PASS 2.87 (target 0–5s)
   - **first overlay at:** PASS 6.65 (target 0–8s)
   - **first SFX-on-cut at:** PASS 9.68 (target 0–12s)
+
+### verify-style
+profile explainer-fast: 0 FAIL
+  - **cuts (beats) per minute:** PASS 18.13 (target 12–19)
+  - **visual changes per minute:** PASS 23.70 (target 12–25)
+  - **median shot length:** PASS 2.31 (target 2–4s)
+  - **p90 shot length:** PASS 4.20 (target 4–8s)
+  - **longest gap without a change:** PASS 4.33 (target 0–9.1s)
+  - **dissolve share of boundaries:** PASS 0.08 (target 0.039999999999999994–0.15)
+  - **dissolve duration (median):** PASS 0.30 (target 0.18–0.48s)
+  - **accent transition share:** PASS 0.00 (target 0–0.06)
+  - **transition SFX share of cuts:** PASS 0.33 (target 0.23–0.45)
+  - **mid-shot SFX per minute:** PASS 2.79 (target 1.5–3.5)
+  - **overlays per minute:** PASS 5.58 (target 2–6)
+  - **overlay enter-at (median):** PASS 1.40 (target 1–1.8s)
+  - **punch-in share of shots:** PASS 0.15 (target 0.09000000000000001–0.2)
+  - **music bed present:** PASS 1.00 (target 1–1)
+  - **vignette share of beats:** PASS 0.23 (target 0.15–0.35)
+  - **first cut at:** PASS 2.87 (target 0–5s)
+  - **first overlay at:** PASS 6.65 (target 0–8s)
+  - **first SFX-on-cut at:** PASS 9.68 (target 0–12s)
+  - **render scene cuts per minute:** WARN 8.35 (target 9.600000000000001–24.7)
+  - **render integrated LUFS:** PASS -17.00 (target -19–-15 LUFS)
+  - **render true peak:** PASS -1.00 (target -30–-0.7 dBTP)
+  - **render duration vs beats:** PASS 0.07 (target -3–3s)
+
+### QC cascade
+Tier 0-2: 0/4 passed, 4 escalated
+  - **frozen video spans:** none
+  - **dead-air spans:** none
+  - **sampled beats:** 11, 03, 05, 07
+  - **escalated to vision check:** 11, 03, 05, 07
+
+### Step 6 — render + QC (CI run 33989262685, artifact video-videos-vp123-explainer-20)
+- renders/video.mp4: 43.1 s, 1920x1080, 54.6 MB; -17.0 LUFS integrated, -1.0 dBTP (profile target -17 / -1) ✓
+- render-side verify-style: LUFS/TP/duration PASS; ffmpeg scene-cuts 8.4/min WARN vs 18 planned — expected: dark-to-dark cuts (candle, embers, night sky) fall under the 0.30 scene threshold; the plan-side count is authoritative
+- qc-cascade: Tier 0 clean (no freeze/dead air); Tier 3 vision confirmed 99.9% (03), key-phrase (05), 300,000 years (07); beat 11 vision call hit ENOBUFS → manual Read
+- manual spot-check (12 frames, montage): all 4 overlays legible, correctly placed, correct values; captions render; punch-in visible on 06; cutaways at 07/11 present
+- two craft fixes from the spot-check, applied to the skill for future runs: (1) explainer overlays now EXIT at an internal cutaway/freeze cut (the 300,000 counter had persisted over the cutaway); (2) keyword-flash placed centre when karaoke captions occupy lower-centre
+- CI style-gate step ran in the wrong directory on push events → fixed in render.yml (79bfc6b)
+- credits to publish: "Backbay Lounge" Kevin MacLeod (incompetech.com), CC BY 4.0 (see .hyperframes/credits.txt) + Pexels clips (no attribution required, listed in .media/broll/CREDITS.json)

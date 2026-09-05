@@ -1,0 +1,143 @@
+{
+  "tier0": {
+    "freezeStarts": [],
+    "silenceStarts": []
+  },
+  "sampled": [
+    {
+      "id": "11",
+      "reason": "archetype variety (keyword-flash)",
+      "timestamp": 35.23,
+      "tier1": {
+        "ocrText": "4] h SLEEP STOR about sleep,",
+        "textMatch": true,
+        "placement": {
+          "expected": "",
+          "actual": "center",
+          "match": null
+        },
+        "contrastRatio": 3.81,
+        "contrastPass": false,
+        "confidence": "high",
+        "checksFailed": [
+          "low_contrast"
+        ],
+        "verdict": "fail"
+      },
+      "tier2": null,
+      "verdict": "escalate"
+    },
+    {
+      "id": "03",
+      "reason": "archetype variety (giant-price)",
+      "timestamp": 7.65,
+      "tier1": {
+        "ocrText": "OF HUMAN HISTORY MMe) A",
+        "textMatch": false,
+        "placement": {
+          "expected": "",
+          "actual": "other",
+          "match": null
+        },
+        "contrastRatio": 4.32,
+        "contrastPass": false,
+        "confidence": "low",
+        "checksFailed": [
+          "text_mismatch",
+          "low_contrast"
+        ],
+        "verdict": "escalate"
+      },
+      "tier2": null,
+      "verdict": "escalate"
+    },
+    {
+      "id": "05",
+      "reason": "archetype variety (key-phrase)",
+      "timestamp": 13.67,
+      "tier1": {
+        "ocrText": "you couldn'teven see your own hand 2 Ps bs ee i front of",
+        "textMatch": true,
+        "placement": {
+          "expected": "",
+          "actual": "center",
+          "match": null
+        },
+        "contrastRatio": 2.87,
+        "contrastPass": false,
+        "confidence": "low",
+        "checksFailed": [
+          "low_contrast"
+        ],
+        "verdict": "escalate"
+      },
+      "tier2": null,
+      "verdict": "escalate"
+    },
+    {
+      "id": "07",
+      "reason": "archetype variety (number-counter)",
+      "timestamp": 19.83,
+      "tier1": {
+        "ocrText": "300,000 years HALF OF EVERY LIFE IN DARKNESS every single",
+        "textMatch": false,
+        "placement": {
+          "expected": "",
+          "actual": "center",
+          "match": null
+        },
+        "contrastRatio": 5.56,
+        "contrastPass": true,
+        "confidence": "high",
+        "checksFailed": [
+          "text_mismatch"
+        ],
+        "verdict": "fail"
+      },
+      "tier2": null,
+      "verdict": "escalate"
+    }
+  ],
+  "escalate": [
+    {
+      "id": "11",
+      "timestamp": 35.23,
+      "framePath": "/tmp/documentary-broll-qc/qc-11.png",
+      "why": "tier1 fail",
+      "autoVerdict": {
+        "error": "spawnSync base64 ENOBUFS"
+      }
+    },
+    {
+      "id": "03",
+      "timestamp": 7.65,
+      "framePath": "/tmp/documentary-broll-qc/qc-03.png",
+      "why": "tier1 low-confidence",
+      "autoVerdict": {
+        "match": true,
+        "reason": "The graphic '99.9%' is clearly visible, legible, and correct in the center of the image."
+      }
+    },
+    {
+      "id": "05",
+      "timestamp": 13.67,
+      "framePath": "/tmp/documentary-broll-qc/qc-05.png",
+      "why": "tier1 low-confidence",
+      "autoVerdict": {
+        "match": true,
+        "reason": "The text 'you couldn't even see your own hand' is clearly visible, legible, and correctly spelled in the top-left corner of the image."
+      }
+    },
+    {
+      "id": "07",
+      "timestamp": 19.83,
+      "framePath": "/tmp/documentary-broll-qc/qc-07.png",
+      "why": "tier1 fail",
+      "autoVerdict": {
+        "match": true,
+        "reason": "The graphic '300,000 years' is clearly visible, legible, and correctly represents the requested text."
+      }
+    }
+  ],
+  "generatedFromVideo": "renders/video.mp4"
+}

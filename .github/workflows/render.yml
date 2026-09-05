@@ -398,7 +398,7 @@ jobs:
       # land in the run log for the orchestrator to read.
       - name: Style gate (informational)
         continue-on-error: true
-        working-directory: ${{ github.event.inputs.project }}
+        working-directory: ${{ matrix.project }}
         run: |
           node "$GITHUB_WORKSPACE/ci/documentary-broll/scripts/verify-style.mjs" --render renders/video.mp4 --soft \
             --beats .hyperframes/beats.json --transitions .hyperframes/transitions.json --overlays .hyperframes/overlays.json \

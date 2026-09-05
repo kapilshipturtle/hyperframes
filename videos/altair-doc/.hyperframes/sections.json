@@ -1,0 +1,12 @@
+{
+  "sections": [
+    { "name": "the-bill-in-your-hand", "startBeat": "01", "endBeat": "08", "arc": "calm" },
+    { "name": "ruths-ledger", "startBeat": "09", "endBeat": "14", "arc": "calm" },
+    { "name": "the-promise", "startBeat": "15", "endBeat": "22", "arc": "rising" },
+    { "name": "the-small-fees", "startBeat": "23", "endBeat": "59", "arc": "rising" },
+    { "name": "the-stuck-column", "startBeat": "60", "endBeat": "82", "arc": "settling" },
+    { "name": "the-rate-you-are-on", "startBeat": "83", "endBeat": "112", "arc": "rising" },
+    { "name": "number-one", "startBeat": "113", "endBeat": "125", "arc": "peak" },
+    { "name": "the-honest-word", "startBeat": "126", "endBeat": "145", "arc": "settling" }
+  ]
+}

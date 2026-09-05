@@ -1,0 +1,249 @@
+<template>
+  <style>
+    #root {
+      width: 1920px;
+      height: 1080px;
+      position: relative;
+      overflow: hidden;
+      background: #0c0c0e;
+      font-family: -apple-system, "Inter", "Helvetica Neue", sans-serif;
+      color: #f2f2f0;
+    }
+
+    .b118-bg {
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse at 42% 46%, #141416 0%, #0a0a0c 72%);
+    }
+
+    /* ---- eyebrow / place ---- */
+    .b118-eyebrow {
+      position: absolute;
+      top: 176px;
+      left: 232px;
+      font-size: 24px;
+      letter-spacing: 0.3em;
+      text-transform: uppercase;
+      color: #e0685a;
+      opacity: 0;
+    }
+
+    /* ---- dot grid ---- */
+    .b118-grid {
+      position: absolute;
+      top: 250px;
+      left: 232px;
+      width: 580px;
+      height: 580px;
+    }
+    .b118-dot {
+      position: absolute;
+      width: 38px;
+      height: 38px;
+      border-radius: 50%;
+      box-sizing: border-box;
+      border: 2px solid rgba(242, 242, 240, 0.18);
+      background: rgba(242, 242, 240, 0.0);
+    }
+    .b118-dot-lit {
+      border-color: rgba(224, 104, 90, 0.0);
+      background: #e0685a;
+      opacity: 0;
+    }
+    .b118-gridcap {
+      position: absolute;
+      top: 856px;
+      left: 232px;
+      width: 580px;
+      text-align: center;
+      font-size: 21px;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: #f2f2f0;
+      opacity: 0;
+    }
+
+    /* ---- right column ---- */
+    .b118-num {
+      position: absolute;
+      top: 282px;
+      left: 900px;
+      font-size: 208px;
+      font-weight: 700;
+      line-height: 1;
+      letter-spacing: -0.03em;
+      color: #f2f2f0;
+      opacity: 0;
+    }
+    .b118-num-pct {
+      color: #e0685a;
+      font-size: 132px;
+      font-weight: 600;
+      letter-spacing: -0.01em;
+    }
+
+    .b118-rule {
+      position: absolute;
+      top: 528px;
+      left: 904px;
+      width: 0px;
+      height: 2px;
+      background: #e0685a;
+      opacity: 0.75;
+    }
+
+    .b118-cap {
+      position: absolute;
+      top: 578px;
+      left: 900px;
+      width: 740px;
+      font-size: 30px;
+      line-height: 1.5;
+      color: #f2f2f0;
+      opacity: 0;
+    }
+    .b118-cap strong {
+      color: #e0685a;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+    }
+
+    .b118-src {
+      position: absolute;
+      top: 782px;
+      left: 900px;
+      width: 780px;
+      font-size: 21px;
+      letter-spacing: 0.06em;
+      color: #f2f2f0;
+      opacity: 0;
+    }
+  </style>
+
+  <div id="root" data-composition-id="118-beat" data-width="1920" data-height="1080" data-duration="9.19">
+
+    <div class="b118-bg clip" data-start="0" data-duration="9.24" data-track-index="0"></div>
+
+    <div class="b118-eyebrow clip" id="b118-eyebrow" data-start="0" data-duration="9.24" data-track-index="1">Connecticut</div>
+
+    <div class="b118-grid clip" id="b118-grid" data-start="0" data-duration="9.24" data-track-index="2"></div>
+
+    <div class="b118-gridcap clip" id="b118-gridcap" data-start="0" data-duration="9.24" data-track-index="3">100 customers</div>
+
+    <div class="b118-num clip" id="b118-num" data-start="0" data-duration="9.24" data-track-index="4"><span id="b118-numval">0</span><span class="b118-num-pct">%</span></div>
+
+    <div class="b118-rule clip" id="b118-rule" data-start="0" data-duration="9.24" data-track-index="5"></div>
+
+    <div class="b118-cap clip" id="b118-cap" data-start="0" data-duration="9.24" data-track-index="6">of one utility&rsquo;s third-party supply customers paid <strong>MORE</strong> than the standard rate</div>
+
+    <div class="b118-src clip" id="b118-src" data-start="0" data-duration="9.24" data-track-index="7">Connecticut Office of Consumer Counsel</div>
+  </div>
+
+  <script>
+    (function () {
+      window.__timelines = window.__timelines || {};
+
+      var DUR = 9.24;
+      var COLS = 10, ROWS = 10, CELL = 58, DOT = 38;
+      var LIT = 86;
+
+      var grid = document.getElementById("b118-grid");
+      var litEls = [];
+
+      // Deterministic build: row-major, left-to-right, top-to-bottom.
+      // The first 86 cells in reading order are the "lit" ones, so the
+      // remaining 14 read as a clean unlit tail in the bottom-right —
+      // the proportion is legible at a glance, no randomness anywhere.
+      for (var i = 0; i < COLS * ROWS; i++) {
+        var r = Math.floor(i / COLS), c = i % COLS;
+        var x = c * CELL + (CELL - DOT) / 2;
+        var y = r * CELL + (CELL - DOT) / 2;
+
+        var base = document.createElement("div");
+        base.className = "b118-dot";
+        base.style.left = x + "px";
+        base.style.top = y + "px";
+        grid.appendChild(base);
+
+        if (i < LIT) {
+          var lit = document.createElement("div");
+          lit.className = "b118-dot b118-dot-lit";
+          lit.style.left = x + "px";
+          lit.style.top = y + "px";
+          grid.appendChild(lit);
+          litEls.push(lit);
+        }
+      }
+
+      var tl = gsap.timeline({ paused: true });
+
+      // 0.0 - place
+      tl.fromTo("#b118-eyebrow",
+        { opacity: 0, y: 14 },
+        { opacity: 1, y: 0, duration: 0.7, ease: "power2.out" }, 0.15);
+
+      // 0.7 - the empty grid arrives (outlines only), so the viewer reads
+      // "100 of something" BEFORE any of it is filled in.
+      tl.fromTo(grid.querySelectorAll(".b118-dot:not(.b118-dot-lit)"),
+        { opacity: 0, scale: 0.6 },
+        { opacity: 1, scale: 1, duration: 0.55, ease: "power2.out",
+          stagger: { each: 0.006, from: "start" }, transformOrigin: "50% 50%" }, 0.7);
+
+      tl.fromTo("#b118-gridcap",
+        { opacity: 0 },
+        { opacity: 0.6, duration: 0.6, ease: "power1.out" }, 1.35);
+
+      // 1.9 -> 6.1 - the fill. Spread across ~4.2s of the 9.24s so the
+      // proportion becomes visible ON narration pacing, never at t=0.
+      tl.fromTo(litEls,
+        { opacity: 0, scale: 0.55 },
+        { opacity: 1, scale: 1, duration: 0.34, ease: "power2.out",
+          transformOrigin: "50% 50%",
+          stagger: { each: (4.2 - 0.34) / (LIT - 1), from: "start" } }, 1.9);
+
+      // 4.3 - the number starts resolving while the last third of the grid
+      // is still filling, and lands on 86 just as the fill completes.
+      var numEl = document.getElementById("b118-numval");
+      tl.fromTo("#b118-num",
+        { opacity: 0, y: 20 },
+        { opacity: 1, y: 0, duration: 0.6, ease: "power2.out" }, 4.3);
+
+      // Seek-safe count-up: the renderer seeks frame-by-frame rather than
+      // playing, so an onUpdate-driven counter can be skipped entirely on a
+      // cold seek and freeze at its start value. Driving the text off the
+      // tween's OWN progress via a render callback makes the displayed
+      // number a pure function of timeline position — correct at any seek.
+      var counter = { v: 0 };
+      var countTween = gsap.to(counter, {
+        v: 86,
+        duration: 1.75,
+        ease: "power2.out",
+        paused: true
+      });
+      countTween.eventCallback("onUpdate", function () {
+        numEl.textContent = Math.round(counter.v);
+      });
+      tl.to(countTween, {
+        progress: 1,
+        duration: 1.75,
+        ease: "none",
+        onUpdate: function () { numEl.textContent = Math.round(counter.v); }
+      }, 4.35);
+
+      // 6.2 - rule draws, caption and source settle under the number.
+      tl.to("#b118-rule", { width: 600, duration: 0.8, ease: "power3.out" }, 6.2);
+
+      tl.fromTo("#b118-cap",
+        { opacity: 0, y: 16 },
+        { opacity: 0.92, y: 0, duration: 0.75, ease: "power2.out" }, 6.45);
+
+      tl.fromTo("#b118-src",
+        { opacity: 0 },
+        { opacity: 0.5, duration: 0.7, ease: "power1.out" }, 7.4);
+
+      // no exit tween — the root transition handles the cut.
+
+      window.__timelines["118-beat"] = tl;
+    })();
+  </script>
+</template>

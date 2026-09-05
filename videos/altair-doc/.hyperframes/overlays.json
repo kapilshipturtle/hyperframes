@@ -1,0 +1,764 @@
+{
+ "10": {
+  "archetype": "none",
+  "reason": "location-stamp on a date already spoken and visible in the ledger footage — cut for density"
+ },
+ "11": {
+  "archetype": "none",
+  "reason": "describes the single line but the antique-meter footage shows it — an overlay would restate the narration"
+ },
+ "12": {
+  "archetype": "none",
+  "reason": "narrative continuation of the grandmother anecdote"
+ },
+ "13": {
+  "archetype": "none",
+  "reason": "anecdote continues, no concrete hook"
+ },
+ "14": {
+  "archetype": "quote-card",
+  "text": "She wasn't smarter than you. She just got a bill she could read.",
+  "enterAt": 0.4,
+  "tone": "warm",
+  "reason": "the thesis of the whole ledger section, a genuinely quotable line landing the section"
+ },
+ "15": {
+  "archetype": "none",
+  "reason": "transitional promise; beat 16 carries the actual breakdown"
+ },
+ "16": {
+  "archetype": "list-reveal",
+  "items": [
+   "6 you can kill",
+   "5 you can shrink",
+   "3 you're stuck with"
+  ],
+  "enterAt": 0.6,
+  "tone": "cool",
+  "reason": "an explicit three-item enumeration of the film's whole structure"
+ },
+ "17": {
+  "archetype": "none",
+  "reason": "beat 16's list-reveal already covers the stuck column — a second graphic here would duplicate it"
+ },
+ "18": {
+  "archetype": "icon-accent",
+  "icon": "warning",
+  "enterAt": 1.8,
+  "tone": "urgent",
+  "reason": "an unmistakable warning: the most expensive mistake viewers make on the call"
+ },
+ "19": {
+  "archetype": "none",
+  "reason": "connective, no concrete hook"
+ },
+ "20": {
+  "archetype": "none",
+  "reason": "restates the countdown premise, already carried by beat 16's list"
+ },
+ "21": {
+  "archetype": "stat-callout",
+  "value": 50,
+  "prefix": "$",
+  "suffix": "M",
+  "label": "in refunds, one state, April",
+  "enterAt": 4.2,
+  "placement": "center",
+  "tone": "urgent",
+  "reason": "the film's biggest number, teased as the reason to stay — this beat exists to show it"
+ },
+ "22": {
+  "archetype": "chapter-title",
+  "kicker": "NUMBER 14",
+  "title": "The Paper Bill Fee",
+  "enterAt": 2.2,
+  "tone": "neutral",
+  "reason": "the countdown's first chapter break — a genuine structural pivot into the list"
+ },
+ "23": {
+  "archetype": "none",
+  "reason": "beat 22's chapter card just named this charge; a second graphic back-to-back reads as clutter"
+ },
+ "24": {
+  "archetype": "key-phrase",
+  "text": "paper statement / billing fee / convenience charge",
+  "enterAt": 0.5,
+  "tone": "cool",
+  "reason": "the exact words to hunt for on the page — the actionable core of this beat"
+ },
+ "25": {
+  "archetype": "none",
+  "reason": "simple instruction, footage of an inbox carries it"
+ },
+ "26": {
+  "archetype": "stat-callout",
+  "value": 36,
+  "prefix": "$",
+  "label": "a year",
+  "enterAt": 1.4,
+  "placement": "center",
+  "tone": "neutral",
+  "reason": "the payoff figure for charge 14 and the only thing in this short beat"
+ },
+ "27": {
+  "archetype": "none",
+  "reason": "commentary on why it ranks last, no new hook"
+ },
+ "28": {
+  "archetype": "none",
+  "reason": "rhetorical close of the section"
+ },
+ "29": {
+  "archetype": "chapter-title",
+  "kicker": "NUMBER 13",
+  "title": "Smart Meter Opt-Out",
+  "enterAt": 0.8,
+  "tone": "neutral",
+  "reason": "chapter break into the next counted charge"
+ },
+ "30": {
+  "archetype": "none",
+  "reason": "chapter card just landed; the dollar range is better carried by beat 35's annual figure"
+ },
+ "31": {
+  "archetype": "none",
+  "reason": "background explanation, no concrete hook"
+ },
+ "32": {
+  "archetype": "none",
+  "reason": "narrative about the checkbox, footage shows it"
+ },
+ "33": {
+  "archetype": "none",
+  "reason": "exact-wording key-phrase, same pattern already established at beat 24 — cut as a repeat"
+ },
+ "34": {
+  "archetype": "none",
+  "reason": "simple instruction"
+ },
+ "35": {
+  "archetype": "stat-callout",
+  "value": 180,
+  "prefix": "$",
+  "label": "a year for a box you don't remember checking",
+  "enterAt": 0.8,
+  "placement": "center",
+  "tone": "urgent",
+  "reason": "the section's payoff number and the sole focus of this short beat"
+ },
+ "36": {
+  "archetype": "chapter-title",
+  "kicker": "NUMBER 12",
+  "title": "The Late Fee",
+  "enterAt": 0.5,
+  "tone": "neutral",
+  "reason": "chapter break into the next counted charge"
+ },
+ "37": {
+  "archetype": "none",
+  "reason": "explanation of the courtesy waiver, carried by narration"
+ },
+ "38": {
+  "archetype": "none",
+  "reason": "key-phrase on a two-word aside; narration delivers it clearly enough — cut for density"
+ },
+ "39": {
+  "archetype": "none",
+  "reason": "setup for beat 40's explanation"
+ },
+ "40": {
+  "archetype": "none",
+  "reason": "explanation; beat 42's 'It was the date' lands the idea better"
+ },
+ "41": {
+  "archetype": "none",
+  "reason": "connective"
+ },
+ "42": {
+  "archetype": "chapter-title",
+  "kicker": "NUMBER 11",
+  "title": "The Deposit They're Holding",
+  "enterAt": 1.6,
+  "tone": "neutral",
+  "reason": "chapter break into the next counted charge"
+ },
+ "43": {
+  "archetype": "none",
+  "reason": "chapter card just landed"
+ },
+ "44": {
+  "archetype": "none",
+  "reason": "a passing range, not a figure the point hinges on"
+ },
+ "45": {
+  "archetype": "none",
+  "reason": "explanation of the 12-month rule, carried by narration"
+ },
+ "46": {
+  "archetype": "none",
+  "reason": "secondary detail about interest"
+ },
+ "47": {
+  "archetype": "key-phrase",
+  "text": "It comes back when you ask",
+  "enterAt": 1.6,
+  "tone": "warm",
+  "reason": "the actionable heart of this charge, flagged by the narrator as 'here's the part'"
+ },
+ "48": {
+  "archetype": "none",
+  "reason": "beat 47's key-phrase just landed; back-to-back overlays would crowd the cut"
+ },
+ "49": {
+  "archetype": "none",
+  "reason": "instruction, no new concrete hook"
+ },
+ "50": {
+  "archetype": "none",
+  "reason": "returns to the ledger motif, footage carries it"
+ },
+ "51": {
+  "archetype": "none",
+  "reason": "anecdote continues"
+ },
+ "52": {
+  "archetype": "chapter-title",
+  "kicker": "NUMBER 10",
+  "title": "The Equipment Rental",
+  "enterAt": 2.6,
+  "tone": "neutral",
+  "reason": "chapter break into the next counted charge"
+ },
+ "53": {
+  "archetype": "none",
+  "reason": "chapter card just landed"
+ },
+ "54": {
+  "archetype": "none",
+  "reason": "explanation"
+ },
+ "55": {
+  "archetype": "none",
+  "reason": "a list of examples with a price range, but beat 57's '4 or 5 times over' is the real hook of this charge"
+ },
+ "56": {
+  "archetype": "none",
+  "reason": "background narrative"
+ },
+ "57": {
+  "archetype": "key-phrase",
+  "text": "bought it four or five times over",
+  "enterAt": 3.4,
+  "tone": "urgent",
+  "reason": "the line that makes this charge land — the film's own 'this is the one that makes people angry'"
+ },
+ "58": {
+  "archetype": "none",
+  "reason": "exact-wording key-phrase, third repeat of the beat-24 pattern — cut for density"
+ },
+ "59": {
+  "archetype": "none",
+  "reason": "closing instruction"
+ },
+ "60": {
+  "archetype": "chapter-title",
+  "kicker": "NUMBER 9",
+  "title": "The Franchise Fee",
+  "enterAt": 0.6,
+  "tone": "neutral",
+  "reason": "chapter break, and the first entry in the stuck column"
+ },
+ "61": {
+  "archetype": "none",
+  "reason": "the narrator's honesty framing, deliberately left bare"
+ },
+ "62": {
+  "archetype": "none",
+  "reason": "explanation of the mechanism"
+ },
+ "63": {
+  "archetype": "none",
+  "reason": "explanation continues"
+ },
+ "64": {
+  "archetype": "none",
+  "reason": "long explanatory beat; the percentage point is better landed by beat 65"
+ },
+ "65": {
+  "archetype": "none",
+  "reason": "icon-accent on a mild good-news aside — weakest hook in the stuck column, cut for density"
+ },
+ "66": {
+  "archetype": "chapter-title",
+  "kicker": "NUMBER 8",
+  "title": "State & Local Utility Tax",
+  "enterAt": 0.5,
+  "tone": "neutral",
+  "reason": "chapter break into the next counted charge"
+ },
+ "67": {
+  "archetype": "none",
+  "reason": "chapter card just landed"
+ },
+ "68": {
+  "archetype": "none",
+  "reason": "explains the ranking rationale"
+ },
+ "69": {
+  "archetype": "none",
+  "reason": "the warning here is real but beat 70 states the instruction more sharply"
+ },
+ "70": {
+  "archetype": "key-phrase",
+  "text": "Go where the money is",
+  "enterAt": 0.9,
+  "tone": "urgent",
+  "reason": "the section's whole strategic instruction in one quotable line"
+ },
+ "71": {
+  "archetype": "chapter-title",
+  "kicker": "NUMBER 7",
+  "title": "Energy Efficiency Surcharge",
+  "enterAt": 0.4,
+  "tone": "neutral",
+  "reason": "chapter break into the next counted charge"
+ },
+ "72": {
+  "archetype": "none",
+  "reason": "chapter card just landed"
+ },
+ "73": {
+  "archetype": "none",
+  "reason": "setup for the payoff in beats 74-75"
+ },
+ "74": {
+  "archetype": "none",
+  "reason": "beat 75's concrete list is the stronger place for a graphic"
+ },
+ "75": {
+  "archetype": "list-reveal",
+  "items": [
+   "Free home energy audits",
+   "Free insulation & weather stripping",
+   "Free LED replacements",
+   "Appliance rebates"
+  ],
+  "enterAt": 0.5,
+  "tone": "warm",
+  "reason": "an explicit four-item enumeration of things the viewer already paid for"
+ },
+ "76": {
+  "archetype": "none",
+  "reason": "beat 75's list just landed"
+ },
+ "77": {
+  "archetype": "none",
+  "reason": "instruction, carried by narration"
+ },
+ "78": {
+  "archetype": "chapter-title",
+  "kicker": "NUMBER 6",
+  "title": "Storm Recovery",
+  "enterAt": 1.8,
+  "tone": "neutral",
+  "reason": "chapter break into the next counted charge"
+ },
+ "79": {
+  "archetype": "none",
+  "reason": "chapter card just landed; storm footage carries this beat"
+ },
+ "80": {
+  "archetype": "none",
+  "reason": "exact-wording key-phrase, fourth repeat of the beat-24 pattern — cut for density"
+ },
+ "81": {
+  "archetype": "none",
+  "reason": "explanation of the end date"
+ },
+ "82": {
+  "archetype": "quote-card",
+  "text": "A charge you understand stops costing you sleep, even when it doesn't stop costing you money.",
+  "enterAt": 2.8,
+  "tone": "solemn",
+  "reason": "the thesis line of the entire stuck-column section — genuinely quotable"
+ },
+ "83": {
+  "archetype": "chapter-title",
+  "kicker": "NUMBER 5",
+  "title": "The Fuel Adjustment",
+  "enterAt": 0.4,
+  "tone": "neutral",
+  "reason": "chapter break into the next counted charge"
+ },
+ "84": {
+  "archetype": "none",
+  "reason": "chapter card just landed; the alias list is short and spoken clearly"
+ },
+ "85": {
+  "archetype": "none",
+  "reason": "explanation of the mechanism"
+ },
+ "86": {
+  "archetype": "none",
+  "reason": "a real claim about rising bills but no specific figure to anchor a graphic"
+ },
+ "87": {
+  "archetype": "key-phrase",
+  "text": "when you use power, not how much",
+  "enterAt": 1.2,
+  "emphasisWord": "when",
+  "tone": "cool",
+  "reason": "the pivot that sets up charges 4 through 2 — the film's key behavioral insight"
+ },
+ "88": {
+  "archetype": "chapter-title",
+  "kicker": "NUMBER 4",
+  "title": "The Basic Service Charge",
+  "enterAt": 1.8,
+  "tone": "neutral",
+  "reason": "chapter break into the next counted charge"
+ },
+ "89": {
+  "archetype": "none",
+  "reason": "chapter card just landed"
+ },
+ "90": {
+  "archetype": "none",
+  "reason": "illustration of the fixed charge, footage of a light switch carries it"
+ },
+ "91": {
+  "archetype": "none",
+  "reason": "setup for beat 93's list"
+ },
+ "92": {
+  "archetype": "none",
+  "reason": "setup for beat 93's list"
+ },
+ "93": {
+  "archetype": "list-reveal",
+  "items": [
+   "Standard residential",
+   "Time of use",
+   "Low income",
+   "Medical",
+   "All-electric home"
+  ],
+  "enterAt": 0.4,
+  "tone": "cool",
+  "reason": "an explicit five-item enumeration of the rate classes, central to charges 4 and 3"
+ },
+ "94": {
+  "archetype": "none",
+  "reason": "the 1998 date is rhetorical colour, not a figure the point hinges on"
+ },
+ "95": {
+  "archetype": "chapter-title",
+  "kicker": "NUMBER 3",
+  "title": "The Wrong Rate Class",
+  "enterAt": 1.4,
+  "tone": "warm",
+  "reason": "chapter break into the charge the narrator calls the biggest free fix"
+ },
+ "96": {
+  "archetype": "none",
+  "reason": "chapter card just landed"
+ },
+ "97": {
+  "archetype": "none",
+  "reason": "setup for the scripted questions in beats 98-99"
+ },
+ "98": {
+  "archetype": "typewriter",
+  "text": "What rate class am I on? What else do I qualify for?",
+  "enterAt": 0.3,
+  "tone": "warm",
+  "reason": "the narrator explicitly says 'write these words down' — a line meant to be transcribed, which is exactly what typewriter is for"
+ },
+ "99": {
+  "archetype": "none",
+  "reason": "beat 98's typewriter just landed; a second graphic here would crowd it"
+ },
+ "100": {
+  "archetype": "none",
+  "reason": "key-phrase warning; beat 98 typewriter already carries this section — cut for density"
+ },
+ "101": {
+  "archetype": "none",
+  "reason": "beats 101-103 enumerate three rates but span three separate beats; a single list-reveal cannot straddle them and per-beat graphics would over-crowd"
+ },
+ "102": {
+  "archetype": "none",
+  "reason": "second of the three rate types, see beat 101"
+ },
+ "103": {
+  "archetype": "none",
+  "reason": "third of the three rate types, see beat 101"
+ },
+ "104": {
+  "archetype": "stat-callout",
+  "value": 60,
+  "prefix": "$",
+  "label": "a month, for many households",
+  "enterAt": 0.6,
+  "placement": "center",
+  "tone": "warm",
+  "reason": "the payoff figure for the biggest free fix in the film and the sole focus of this short beat"
+ },
+ "105": {
+  "archetype": "none",
+  "reason": "closing line, and beat 106's chapter card follows immediately"
+ },
+ "106": {
+  "archetype": "chapter-title",
+  "kicker": "NUMBER 2",
+  "title": "Peak Pricing",
+  "enterAt": 0.4,
+  "tone": "neutral",
+  "reason": "chapter break into the next counted charge"
+ },
+ "107": {
+  "archetype": "none",
+  "reason": "key-phrase triple; strong line but narration lands it — cut to hold density target"
+ },
+ "108": {
+  "archetype": "none",
+  "reason": "beat 107 just landed; beats 108-109 are a spoken list better left to narration and footage"
+ },
+ "109": {
+  "archetype": "none",
+  "reason": "continuation of the spoken list, see beat 108"
+ },
+ "110": {
+  "archetype": "none",
+  "reason": "the narrator's warmth here is deliberately un-graphic"
+ },
+ "111": {
+  "archetype": "none",
+  "reason": "anecdote setup for beat 112's payoff"
+ },
+ "112": {
+  "archetype": "quote-card",
+  "text": "It wasn't tradition. It was rate structure.",
+  "enterAt": 0.4,
+  "tone": "warm",
+  "reason": "the payoff of the grandmother motif and one of the film's best lines"
+ },
+ "113": {
+  "archetype": "chapter-title",
+  "kicker": "NUMBER 1",
+  "title": "The Third-Party Supplier",
+  "enterAt": 0.5,
+  "tone": "urgent",
+  "reason": "the film's climax chapter break — the charge teased from the very start"
+ },
+ "114": {
+  "archetype": "key-phrase",
+  "text": "Look at the supply section",
+  "enterAt": 2.4,
+  "tone": "urgent",
+  "reason": "the single most actionable instruction in the film, and its closing task"
+ },
+ "115": {
+  "archetype": "none",
+  "reason": "narrative description of the sales pitch"
+ },
+ "116": {
+  "archetype": "none",
+  "reason": "long explanatory beat, deliberately left to narration before the evidence lands"
+ },
+ "117": {
+  "archetype": "none",
+  "reason": "credibility framing; the evidence graphics follow in 118-119"
+ },
+ "118": {
+  "archetype": "none",
+  "reason": "beat is an invented-scene rendering the 86% proportion grid — a stat-callout on top would duplicate its own number"
+ },
+ "119": {
+  "archetype": "none",
+  "reason": "beat is an invented-scene rendering the $50M / 278,000 pair — a stat-callout on top would duplicate its own number"
+ },
+ "120": {
+  "archetype": "none",
+  "reason": "beat 119's big stat just landed; explanation of the pattern is left to narration"
+ },
+ "121": {
+  "archetype": "none",
+  "reason": "setup for the two-step check in beats 122-124"
+ },
+ "122": {
+  "archetype": "none",
+  "reason": "first half of the comparison, beat 124 carries the graphic"
+ },
+ "123": {
+  "archetype": "none",
+  "reason": "second half of the comparison, beat 124 carries the graphic"
+ },
+ "124": {
+  "archetype": "none",
+  "reason": "beat is an invented-scene that IS the side-by-side rate comparison — a comparison-wipe overlay on top would duplicate the same graphic"
+ },
+ "125": {
+  "archetype": "none",
+  "reason": "beat 124's structural graphic just landed; the range of outcomes is spoken clearly"
+ },
+ "126": {
+  "archetype": "none",
+  "reason": "the narrator's honesty framing, deliberately bare"
+ },
+ "127": {
+  "archetype": "none",
+  "reason": "connective"
+ },
+ "128": {
+  "archetype": "none",
+  "reason": "restates the three stuck charges from beat 16's list"
+ },
+ "129": {
+  "archetype": "none",
+  "reason": "conditional setup for beat 130"
+ },
+ "130": {
+  "archetype": "none",
+  "reason": "honest admission, deliberately left to narration"
+ },
+ "131": {
+  "archetype": "none",
+  "reason": "connective"
+ },
+ "132": {
+  "archetype": "none",
+  "reason": "a claim without a specific figure"
+ },
+ "133": {
+  "archetype": "none",
+  "reason": "setup — the five questions themselves get progress badges in beats 134-138"
+ },
+ "134": {
+  "archetype": "progress-badge",
+  "step": 1,
+  "total": 5,
+  "label": "What rate class am I on?",
+  "enterAt": 0.3,
+  "tone": "cool",
+  "reason": "item 1 of an explicit numbered list spread across five separate beats"
+ },
+ "135": {
+  "archetype": "progress-badge",
+  "step": 2,
+  "total": 5,
+  "label": "Default supply or third-party?",
+  "enterAt": 0.3,
+  "tone": "cool",
+  "reason": "item 2 of the explicit five-question list"
+ },
+ "136": {
+  "archetype": "progress-badge",
+  "step": 3,
+  "total": 5,
+  "label": "Any rental, warranty, or opt-out fee?",
+  "enterAt": 0.3,
+  "tone": "cool",
+  "reason": "item 3 of the explicit five-question list"
+ },
+ "137": {
+  "archetype": "progress-badge",
+  "step": 4,
+  "total": 5,
+  "label": "Are you holding a deposit?",
+  "enterAt": 0.3,
+  "tone": "cool",
+  "reason": "item 4 of the explicit five-question list"
+ },
+ "138": {
+  "archetype": "progress-badge",
+  "step": 5,
+  "total": 5,
+  "label": "Can I move my due date?",
+  "enterAt": 0.3,
+  "tone": "cool",
+  "reason": "item 5 of the explicit five-question list, completing the rail"
+ },
+ "139": {
+  "archetype": "none",
+  "reason": "reassurance, deliberately bare"
+ },
+ "140": {
+  "archetype": "quote-card",
+  "text": "You're asking a company what it's charging you. That's the most ordinary question in the world.",
+  "enterAt": 0.5,
+  "tone": "warm",
+  "reason": "the film's closing thesis on the viewer's right to ask — genuinely quotable"
+ },
+ "141": {
+  "archetype": "none",
+  "reason": "setup for the single closing task in beat 142"
+ },
+ "142": {
+  "archetype": "key-phrase",
+  "text": "Read the company name. Just the name.",
+  "enterAt": 1,
+  "tone": "urgent",
+  "reason": "the film's single closing call to action, deliberately reduced to one task"
+ },
+ "143": {
+  "archetype": "none",
+  "reason": "beat 142's instruction just landed; this is its rationale"
+ },
+ "144": {
+  "archetype": "none",
+  "reason": "comments request, no concrete hook"
+ },
+ "145": {
+  "archetype": "none",
+  "reason": "sign-off, deliberately bare"
+ },
+ "01": {
+  "archetype": "none",
+  "reason": "opening instruction, cold open — footage of hands and an envelope carries it"
+ },
+ "02": {
+  "archetype": "none",
+  "reason": "connective reframing line, no concrete hook"
+ },
+ "03": {
+  "archetype": "none",
+  "reason": "points at the bill's second page but the footage itself shows the print — no annotation needed yet"
+ },
+ "04": {
+  "archetype": "none",
+  "reason": "rhetorical prompt, no specific figure yet"
+ },
+ "05": {
+  "archetype": "none",
+  "reason": "dropped: stat-callout landed 1 beat before beat 06 stat-callout (the film thesis number) — back-to-back repeat reads as a device; 06 is the stronger of the pair"
+ },
+ "06": {
+  "archetype": "stat-callout",
+  "value": 60,
+  "prefix": "$",
+  "label": "never touched a wire",
+  "enterAt": 2.6,
+  "placement": "center",
+  "tone": "urgent",
+  "reason": "the thesis number of the entire film and the sole visual focus of this beat — clears the center bar"
+ },
+ "07": {
+  "archetype": "key-phrase",
+  "text": "power, or paperwork",
+  "enterAt": 1,
+  "tone": "cool",
+  "reason": "the film's central distinction stated as a genuinely quotable two-part line"
+ },
+ "08": {
+  "archetype": "none",
+  "reason": "emotional connective tissue, deliberately left to narration and the empty-table shot"
+ },
+ "09": {
+  "archetype": "lower-third",
+  "text": "Ruth's Ledger, 1929-1939",
+  "enterAt": 3.2,
+  "tone": "warm",
+  "reason": "introduces the film's framing device and a named subject for the first time"
+ }
+}

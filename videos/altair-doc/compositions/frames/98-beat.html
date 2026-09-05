@@ -1,0 +1,165 @@
+<template>
+  <style>
+    #root {
+      width: 1920px;
+      height: 1080px;
+      position: relative;
+      overflow: hidden;
+      background: #000;
+    }
+    .broll-wrap {
+      position: absolute;
+      inset: -6%;
+      width: 112%;
+      height: 112%;
+    }
+    .broll-media {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    /* Cutaway sits absolutely over the primary media inside the same wrap
+       (so it inherits the same Ken Burns move on the wrap element, keeping
+       the two shots visually consistent) — starts transparent, GSAP
+       crossfades it in at --cutaway-at, see the script block below. */
+    .broll-cutaway {
+      position: absolute;
+      inset: 0;
+    }
+    /* 2.5D parallax layers (see gen-depth-layers.py) — both stacked full-
+       bleed inside the same wrap. The foreground is deliberately oversized
+       (rather than 100%) so its own independent translate (see parallaxCode
+       below) never slides a transparent edge into frame — the same
+       overscan-margin idea the wrap itself already uses, just at the layer
+       level since the fg moves MORE than the wrap's own Ken Burns alone. */
+    .broll-parallax-bg {
+      position: absolute;
+      inset: 0;
+      object-fit: cover;
+    }
+    .broll-parallax-fg {
+      position: absolute;
+      inset: -8%;
+      width: 116%;
+      height: 116%;
+      object-fit: contain;
+      object-position: center;
+    }
+    /* subtle bottom scrim so any burned-in captions stay readable over bright footage */
+    .broll-scrim {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to top, rgba(0,0,0,0.35) 0%, rgba(0,0,0,0) 22%);
+      pointer-events: none;
+    }
+    /* Optional per-beat vignette — a real, if modest, "composited" texture
+       layer distinct from the global grain overlay (which is flat, uniform,
+       full-timeline). Researched documentary/explainer-channel convention:
+       supporting texture layers COMPOSITED WITH the base clip, in the same
+       frame, is the single highest-leverage visual-quality delta over "one
+       flat clip per beat" — this is the smallest, most self-contained piece
+       of that: a soft radial darkening toward the frame edges, drawing the
+       eye toward center/subject the way a real lens vignette does. Opt-in
+       per beat via --vignette, never global/automatic (unlike grain) since
+       its strength should vary by shot mood, not apply uniformly.*/
+    .broll-vignette {
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse at center, rgba(0,0,0,0) 45%, rgba(0,0,0,0.3) 100%);
+      pointer-events: none;
+    }
+
+    .ov-tw-scrim { position: absolute; left: 0; right: 0; bottom: 0; height: 300px; background: linear-gradient(to top, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0.24) 60%, rgba(0,0,0,0) 100%); opacity: 0; pointer-events: none; }
+    .ov-typewriter { position: absolute; left: 80px; right: 220px; bottom: 110px; }
+    .ov-tw-text { font: 600 36px/1.35 "JetBrains Mono", "SF Mono", monospace; color: #ffffff; text-shadow: 0 1px 2px rgba(0,0,0,0.5), 0 4px 14px rgba(0,0,0,0.4); }
+    .ov-tw-char { opacity: 0; }
+    .ov-tw-cursor { display: inline-block; font-weight: 400; opacity: 0; }
+  </style>
+
+  <div
+    id="root"
+    data-composition-id="98-beat"
+    data-width="1920" data-height="1080" data-duration="6.36"
+  >
+    <div class="broll-wrap" id="f-98-beat-wrap">
+      <video id="f-98-beat-media" class="broll-media clip" src=".media/broll/beat-98.mp4" muted playsinline data-start="0" data-duration="6.36" data-media-start="0" data-track-index="0"></video>
+    </div>
+    <div class="broll-scrim clip" id="f-98-beat-scrim" data-start="0" data-duration="6.36" data-track-index="1"></div>
+    <div class="broll-vignette clip" id="f-98-beat-vignette" data-start="0" data-duration="6.36" data-track-index="3"></div>
+    <div class="ov-tw-scrim" id="f-98-beat-ov-scrim"></div><div class="ov-typewriter" id="f-98-beat-ov"><span class="ov-tw-text"><span class="ov-tw-char" id="f-98-beat-ov-c0">W</span><span class="ov-tw-char" id="f-98-beat-ov-c1">h</span><span class="ov-tw-char" id="f-98-beat-ov-c2">a</span><span class="ov-tw-char" id="f-98-beat-ov-c3">t</span><span class="ov-tw-char" id="f-98-beat-ov-c4"> </span><span class="ov-tw-char" id="f-98-beat-ov-c5">r</span><span class="ov-tw-char" id="f-98-beat-ov-c6">a</span><span class="ov-tw-char" id="f-98-beat-ov-c7">t</span><span class="ov-tw-char" id="f-98-beat-ov-c8">e</span><span class="ov-tw-char" id="f-98-beat-ov-c9"> </span><span class="ov-tw-char" id="f-98-beat-ov-c10">c</span><span class="ov-tw-char" id="f-98-beat-ov-c11">l</span><span class="ov-tw-char" id="f-98-beat-ov-c12">a</span><span class="ov-tw-char" id="f-98-beat-ov-c13">s</span><span class="ov-tw-char" id="f-98-beat-ov-c14">s</span><span class="ov-tw-char" id="f-98-beat-ov-c15"> </span><span class="ov-tw-char" id="f-98-beat-ov-c16">a</span><span class="ov-tw-char" id="f-98-beat-ov-c17">m</span><span class="ov-tw-char" id="f-98-beat-ov-c18"> </span><span class="ov-tw-char" id="f-98-beat-ov-c19">I</span><span class="ov-tw-char" id="f-98-beat-ov-c20"> </span><span class="ov-tw-char" id="f-98-beat-ov-c21">o</span><span class="ov-tw-char" id="f-98-beat-ov-c22">n</span><span class="ov-tw-char" id="f-98-beat-ov-c23">?</span><span class="ov-tw-char" id="f-98-beat-ov-c24"> </span><span class="ov-tw-char" id="f-98-beat-ov-c25">W</span><span class="ov-tw-char" id="f-98-beat-ov-c26">h</span><span class="ov-tw-char" id="f-98-beat-ov-c27">a</span><span class="ov-tw-char" id="f-98-beat-ov-c28">t</span><span class="ov-tw-char" id="f-98-beat-ov-c29"> </span><span class="ov-tw-char" id="f-98-beat-ov-c30">e</span><span class="ov-tw-char" id="f-98-beat-ov-c31">l</span><span class="ov-tw-char" id="f-98-beat-ov-c32">s</span><span class="ov-tw-char" id="f-98-beat-ov-c33">e</span><span class="ov-tw-char" id="f-98-beat-ov-c34"> </span><span class="ov-tw-char" id="f-98-beat-ov-c35">d</span><span class="ov-tw-char" id="f-98-beat-ov-c36">o</span><span class="ov-tw-char" id="f-98-beat-ov-c37"> </span><span class="ov-tw-char" id="f-98-beat-ov-c38">I</span><span class="ov-tw-char" id="f-98-beat-ov-c39"> </span><span class="ov-tw-char" id="f-98-beat-ov-c40">q</span><span class="ov-tw-char" id="f-98-beat-ov-c41">u</span><span class="ov-tw-char" id="f-98-beat-ov-c42">a</span><span class="ov-tw-char" id="f-98-beat-ov-c43">l</span><span class="ov-tw-char" id="f-98-beat-ov-c44">i</span><span class="ov-tw-char" id="f-98-beat-ov-c45">f</span><span class="ov-tw-char" id="f-98-beat-ov-c46">y</span><span class="ov-tw-char" id="f-98-beat-ov-c47"> </span><span class="ov-tw-char" id="f-98-beat-ov-c48">f</span><span class="ov-tw-char" id="f-98-beat-ov-c49">o</span><span class="ov-tw-char" id="f-98-beat-ov-c50">r</span><span class="ov-tw-char" id="f-98-beat-ov-c51">?</span><span class="ov-tw-cursor" id="f-98-beat-ov-cursor">|</span></span></div>
+  </div>
+
+  <script>
+    (function () {
+      window.__timelines = window.__timelines || {};
+      var tl = gsap.timeline({ paused: true });
+      var wrap = document.getElementById("f-98-beat-wrap");
+      gsap.set(wrap, { scale: 1.0 });
+      tl.to("#f-98-beat-ov-scrim", { opacity: 1, duration: 0.4, ease: "power2.out" }, 0.20);
+      tl.to("#f-98-beat-ov-c0", { opacity: 1, duration: 0.01 }, 0.300);
+      tl.to("#f-98-beat-ov-c1", { opacity: 1, duration: 0.01 }, 0.320);
+      tl.to("#f-98-beat-ov-c2", { opacity: 1, duration: 0.01 }, 0.340);
+      tl.to("#f-98-beat-ov-c3", { opacity: 1, duration: 0.01 }, 0.360);
+      tl.to("#f-98-beat-ov-c4", { opacity: 1, duration: 0.01 }, 0.380);
+      tl.to("#f-98-beat-ov-c5", { opacity: 1, duration: 0.01 }, 0.405);
+      tl.to("#f-98-beat-ov-c6", { opacity: 1, duration: 0.01 }, 0.438);
+      tl.to("#f-98-beat-ov-c7", { opacity: 1, duration: 0.01 }, 0.484);
+      tl.to("#f-98-beat-ov-c8", { opacity: 1, duration: 0.01 }, 0.548);
+      tl.to("#f-98-beat-ov-c9", { opacity: 1, duration: 0.01 }, 0.634);
+      tl.to("#f-98-beat-ov-c10", { opacity: 1, duration: 0.01 }, 0.654);
+      tl.to("#f-98-beat-ov-c11", { opacity: 1, duration: 0.01 }, 0.681);
+      tl.to("#f-98-beat-ov-c12", { opacity: 1, duration: 0.01 }, 0.716);
+      tl.to("#f-98-beat-ov-c13", { opacity: 1, duration: 0.01 }, 0.765);
+      tl.to("#f-98-beat-ov-c14", { opacity: 1, duration: 0.01 }, 0.833);
+      tl.to("#f-98-beat-ov-c15", { opacity: 1, duration: 0.01 }, 0.925);
+      tl.to("#f-98-beat-ov-c16", { opacity: 1, duration: 0.01 }, 0.951);
+      tl.to("#f-98-beat-ov-c17", { opacity: 1, duration: 0.01 }, 0.986);
+      tl.to("#f-98-beat-ov-c18", { opacity: 1, duration: 0.01 }, 1.035);
+      tl.to("#f-98-beat-ov-c19", { opacity: 1, duration: 0.01 }, 1.102);
+      tl.to("#f-98-beat-ov-c20", { opacity: 1, duration: 0.01 }, 1.194);
+      tl.to("#f-98-beat-ov-c21", { opacity: 1, duration: 0.01 }, 1.220);
+      tl.to("#f-98-beat-ov-c22", { opacity: 1, duration: 0.01 }, 1.255);
+      tl.to("#f-98-beat-ov-c23", { opacity: 1, duration: 0.01 }, 1.304);
+      tl.to("#f-98-beat-ov-c24", { opacity: 1, duration: 0.01 }, 1.591);
+      tl.to("#f-98-beat-ov-c25", { opacity: 1, duration: 0.01 }, 1.663);
+      tl.to("#f-98-beat-ov-c26", { opacity: 1, duration: 0.01 }, 1.683);
+      tl.to("#f-98-beat-ov-c27", { opacity: 1, duration: 0.01 }, 1.703);
+      tl.to("#f-98-beat-ov-c28", { opacity: 1, duration: 0.01 }, 1.723);
+      tl.to("#f-98-beat-ov-c29", { opacity: 1, duration: 0.01 }, 1.745);
+      tl.to("#f-98-beat-ov-c30", { opacity: 1, duration: 0.01 }, 1.774);
+      tl.to("#f-98-beat-ov-c31", { opacity: 1, duration: 0.01 }, 1.814);
+      tl.to("#f-98-beat-ov-c32", { opacity: 1, duration: 0.01 }, 1.870);
+      tl.to("#f-98-beat-ov-c33", { opacity: 1, duration: 0.01 }, 1.945);
+      tl.to("#f-98-beat-ov-c34", { opacity: 1, duration: 0.01 }, 1.965);
+      tl.to("#f-98-beat-ov-c35", { opacity: 1, duration: 0.01 }, 1.985);
+      tl.to("#f-98-beat-ov-c36", { opacity: 1, duration: 0.01 }, 2.005);
+      tl.to("#f-98-beat-ov-c37", { opacity: 1, duration: 0.01 }, 2.031);
+      tl.to("#f-98-beat-ov-c38", { opacity: 1, duration: 0.01 }, 2.067);
+      tl.to("#f-98-beat-ov-c39", { opacity: 1, duration: 0.01 }, 2.116);
+      tl.to("#f-98-beat-ov-c40", { opacity: 1, duration: 0.01 }, 2.183);
+      tl.to("#f-98-beat-ov-c41", { opacity: 1, duration: 0.01 }, 2.275);
+      tl.to("#f-98-beat-ov-c42", { opacity: 1, duration: 0.01 }, 2.300);
+      tl.to("#f-98-beat-ov-c43", { opacity: 1, duration: 0.01 }, 2.335);
+      tl.to("#f-98-beat-ov-c44", { opacity: 1, duration: 0.01 }, 2.383);
+      tl.to("#f-98-beat-ov-c45", { opacity: 1, duration: 0.01 }, 2.449);
+      tl.to("#f-98-beat-ov-c46", { opacity: 1, duration: 0.01 }, 2.539);
+      tl.to("#f-98-beat-ov-c47", { opacity: 1, duration: 0.01 }, 2.562);
+      tl.to("#f-98-beat-ov-c48", { opacity: 1, duration: 0.01 }, 2.595);
+      tl.to("#f-98-beat-ov-c49", { opacity: 1, duration: 0.01 }, 2.639);
+      tl.to("#f-98-beat-ov-c50", { opacity: 1, duration: 0.01 }, 2.699);
+      tl.to("#f-98-beat-ov-c51", { opacity: 1, duration: 0.01 }, 2.781);
+      tl.fromTo("#f-98-beat-ov-cursor", { opacity: 0 }, { opacity: 1, duration: 0.01 }, 0.30);
+      tl.to("#f-98-beat-ov-cursor", { opacity: 0, duration: 0.01 }, 3.12);
+      tl.to("#f-98-beat-ov-cursor", { opacity: 1, duration: 0.01 }, 3.37);
+      tl.to("#f-98-beat-ov-cursor", { opacity: 0, duration: 0.01 }, 3.62);
+      tl.to("#f-98-beat-ov-cursor", { opacity: 1, duration: 0.01 }, 3.87);
+      tl.to("#f-98-beat-ov-cursor", { opacity: 0, duration: 0.01 }, 4.12);
+      tl.to("#f-98-beat-ov-cursor", { opacity: 1, duration: 0.01 }, 4.37);
+      tl.to("#f-98-beat-ov-cursor", { opacity: 0, duration: 0.01 }, 4.62);
+      tl.to("#f-98-beat-ov-cursor", { opacity: 1, duration: 0.01 }, 4.87);
+      tl.to("#f-98-beat-ov", { opacity: 0, y: -6, duration: 0.3, ease: "power2.in" }, 4.12);
+      tl.to("#f-98-beat-ov-scrim", { opacity: 0, duration: 0.4, ease: "power2.in" }, 4.27);
+      window.__timelines["98-beat"] = tl;
+    })();
+  </script>
+</template>

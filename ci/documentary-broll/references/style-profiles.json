@@ -1,5 +1,5 @@
 {
-  "_comment": "Editing-style profiles measured 2026-09-05/06 from 25 top-viewed videos of four retention-explainer channels (@Sidney_Explains_Money x15, @TheCheapFix x3, @EliYoderSecrets x5, @HiddenHomesteadEN x2; ~5 h of footage, every cut/shot/text event/SFX measured, see scripts/style-analysis/). One profile is chosen at the run-shape question (scripts/suggest-style-profile.mjs proposes one); every other script reads its targets from here via scripts/lib/style-profile.mjs. `documentary` reproduces the skill's pre-profile behaviour exactly \u2014 a run that never picks a profile changes nothing. Ranges are [low, high] targets used by verify-style.mjs; single numbers are defaults the scripts apply. 2026-09-06 REVISION after the checktest review: profiles are TEMPLATES \u2014 plan-template.mjs assigns every beat's device mechanically from hook-signals; transition SFX are MOTIVATED only (section boundaries / pivot openers / accent transitions, never a quota); no glitch anywhere; music and captions are ASKED every run; accents only at section boundaries.",
+  "_comment": "Editing-style profiles measured 2026-09-05/06 from 25 top-viewed videos of four retention-explainer channels (@Sidney_Explains_Money x15, @TheCheapFix x3, @EliYoderSecrets x5, @HiddenHomesteadEN x2; ~5 h of footage, every cut/shot/text event/SFX measured, see scripts/style-analysis/). One profile is chosen at the run-shape question (scripts/suggest-style-profile.mjs proposes one); every other script reads its targets from here via scripts/lib/style-profile.mjs. `documentary` reproduces the skill's pre-profile behaviour exactly \u2014 a run that never picks a profile changes nothing. Ranges are [low, high] targets used by verify-style.mjs; single numbers are defaults the scripts apply. 2026-09-06 REVISION after the checktest review: profiles are TEMPLATES \u2014 plan-template.mjs assigns every beat's device mechanically from hook-signals; transition SFX are MOTIVATED only (section boundaries / pivot openers / accent transitions, never a quota); no glitch anywhere; music and captions are ASKED every run; accents only at section boundaries. 2026-09-06 (second review): transition whooshes are OFF on every template (transition_sfx:false) \u2014 the user judged every placement wrong; only graphic-landing cues remain.",
   "profiles": {
     "documentary": {
       "label": "Documentary (original skill behaviour)",
@@ -29,7 +29,9 @@
         "accent_share": 0,
         "accents": [],
         "hard_cut_sfx_share": 0,
-        "sfx_prefer_speech_pause": true
+        "sfx_prefer_speech_pause": true,
+        "transition_sfx": false,
+        "sfx_max_share": 0
       },
       "punch": {
         "share_of_shots": 0,
@@ -79,7 +81,9 @@
           1
         ],
         "on_text_share": 0,
-        "map": {}
+        "map": {
+          "title-card": "paper-slide"
+        }
       },
       "music": {
         "enabled": false,
@@ -155,7 +159,8 @@
         "sfx_prefer_speech_pause": true,
         "accents_at_section_boundaries": true,
         "sfx_mode": "motivated",
-        "sfx_max_share": 0.15
+        "sfx_max_share": 0,
+        "transition_sfx": false
       },
       "punch": {
         "share_of_shots": 0.14,
@@ -235,7 +240,6 @@
           "circle-highlight": "click",
           "solid-box-label": "thud-soft",
           "lower-third": "pop",
-          "chapter-title": "whoosh-short",
           "icon-accent": "pop",
           "credibility-badge": "pop",
           "map-locate": "pop",
@@ -247,7 +251,7 @@
           "side-panel": "paper-slide",
           "number-badge": "ding",
           "price-tag": "cash",
-          "title-card": "whoosh-sweep",
+          "title-card": "paper-slide",
           "quote-card": "pop-soft",
           "dual-panel": "paper-slide",
           "punch-in": "click-soft"
@@ -350,7 +354,8 @@
         "sfx_prefer_speech_pause": true,
         "accents_at_section_boundaries": true,
         "sfx_mode": "motivated",
-        "sfx_max_share": 0.15
+        "sfx_max_share": 0,
+        "transition_sfx": false
       },
       "punch": {
         "share_of_shots": 0.04,
@@ -430,7 +435,6 @@
           "circle-highlight": "click",
           "solid-box-label": "thud-soft",
           "lower-third": "pop",
-          "chapter-title": "whoosh-short",
           "icon-accent": "pop",
           "credibility-badge": "pop",
           "map-locate": "pop",
@@ -442,7 +446,7 @@
           "side-panel": "paper-slide",
           "number-badge": "ding",
           "price-tag": "cash",
-          "title-card": "whoosh-sweep",
+          "title-card": "paper-slide",
           "quote-card": "pop-soft",
           "dual-panel": "paper-slide",
           "punch-in": "click-soft"
@@ -545,7 +549,8 @@
         "sfx_prefer_speech_pause": true,
         "accents_at_section_boundaries": true,
         "sfx_mode": "motivated",
-        "sfx_max_share": 0.2
+        "sfx_max_share": 0,
+        "transition_sfx": false
       },
       "punch": {
         "share_of_shots": 0.12,
@@ -628,7 +633,6 @@
           "circle-highlight": "click",
           "solid-box-label": "thud-soft",
           "lower-third": "pop",
-          "chapter-title": "whoosh-short",
           "icon-accent": "pop",
           "credibility-badge": "pop",
           "map-locate": "pop",
@@ -642,7 +646,7 @@
           "side-panel": "paper-slide",
           "number-badge": "ding",
           "price-tag": "cash",
-          "title-card": "whoosh-sweep",
+          "title-card": "paper-slide",
           "quote-card": "pop-soft",
           "dual-panel": "paper-slide",
           "punch-in": "click-soft"
@@ -744,7 +748,8 @@
         "sfx_prefer_speech_pause": true,
         "accents_at_section_boundaries": true,
         "sfx_mode": "motivated",
-        "sfx_max_share": 0.15
+        "sfx_max_share": 0,
+        "transition_sfx": false
       },
       "punch": {
         "share_of_shots": 0.1,
@@ -827,11 +832,9 @@
           "circle-highlight": "click",
           "solid-box-label": "thud-soft",
           "lower-third": "pop",
-          "chapter-title": "whoosh-short",
           "icon-accent": "pop",
           "credibility-badge": "pop",
           "map-locate": "pop",
-          "map-zoom-chain": "whoosh-short",
           "year-stamp": "shutter",
           "chart-overlay": "ding",
           "line-chart-reveal": "ding",
@@ -844,7 +847,7 @@
           "side-panel": "paper-slide",
           "number-badge": "ding",
           "price-tag": "cash",
-          "title-card": "whoosh-sweep",
+          "title-card": "paper-slide",
           "quote-card": "pop-soft",
           "dual-panel": "paper-slide",
           "punch-in": "click-soft"

@@ -113,7 +113,7 @@ check("dissolve duration (median)", dissolveDur, P?.transitions.dissolve_duratio
 const sectionsFile = existsSync(".hyperframes/sections.json") ? (JSON.parse(readFileSync(".hyperframes/sections.json", "utf8")).sections || []) : [];
 const expectedAccent = P ? Math.max(P.transitions.accent_share || 0, P.transitions.accents_at_section_boundaries ? Math.max(0, sectionsFile.length - 1) / Math.max(1, beats.length - 1) : 0) : 0;
 check("accent transition share", accentShare, P ? [0, expectedAccent + 0.03] : null);
-check("transition SFX share of cuts", transCues.length / Math.max(1, beats.length - 1), P ? (P.transitions.sfx_mode === "motivated" ? [0, (P.transitions.sfx_max_share || 0.15) + 0.05] : [(P.transitions.hard_cut_sfx_share || 0) - 0.1, (P.transitions.hard_cut_sfx_share || 0) + 0.12]) : null);
+check("transition SFX share of cuts", transCues.length / Math.max(1, beats.length - 1), P ? (P.transitions.transition_sfx === false ? [0, 0.001] : P.transitions.sfx_mode === "motivated" ? [0, (P.transitions.sfx_max_share || 0.15) + 0.05] : [(P.transitions.hard_cut_sfx_share || 0) - 0.1, (P.transitions.hard_cut_sfx_share || 0) + 0.12]) : null);
 check("mid-shot SFX per minute", midCues.length / mins, P?.sfx.mid_shot_per_min);
 check("overlays per minute", ovPerMin, P?.overlays.density_per_min);
 check("overlay enter-at (median)", med(enterAts), P?.overlays.enter_at_s, { unit: "s" });

@@ -71,15 +71,18 @@ function main() {
   console.log(`  measured: I=${measured.input_i} LRA=${measured.input_lra} TP=${measured.input_tp} thresh=${measured.input_thresh}`);
 
   const tmpOut = `${outPath}.normalize-tmp.mp4`;
-  const filter =
-    `loudnorm=I=${I}:LRA=${LRA}:TP=${TP}:linear=true` +
-    `:measured_I=${measured.input_i}:measured_LRA=${measured.input_lra}` +
-    `:measured_TP=${measured.input_tp}:measured_thresh=${measured.input_thresh}` +
-    `:offset=${measured.target_offset}`;
-
+  // Transparent gain only. ffmpeg's loudnorm silently falls back to DYNAMIC mode (a compressor/limiter
+  // running on the whole mix) whenever the linear gain needed for the target would push true peak past
+  // TP — a real narration was audibly squashed by exactly that on a 2026-09-06 render. So: gain = the
+  // smaller of (target - measured I) and (TP ceiling - measured TP); the file may sit a little under the
+  // loudness target, the voice keeps its original dynamics.
+  const wantGain = I - Number(measured.input_i);
+  const peakRoom = TP - Number(measured.input_tp);
+  const gain = Math.min(wantGain, peakRoom);
+  if (gain < wantGain - 0.05) console.log(`  gain capped by true peak: wanted ${wantGain.toFixed(2)} dB, applying ${gain.toFixed(2)} dB (no dynamic processing)`);
+  const filter = `volume=${gain.toFixed(3)}dB`;
   const args = [
-    "-hide_banner", "-y",
-    "-i", inPath,
+    "-hide_banner", "-loglevel", "error", "-y", "-i", inPath,
     "-af", filter,
     "-c:v", "copy", // video stream is untouched — only the audio filter graph re-encodes
     "-c:a", "aac", "-b:a", "192k",
@@ -93,7 +96,7 @@ function main() {
   }
 
   renameSync(tmpOut, outPath);
-  console.log(`✓ normalize-mix: ${outPath} → target ${I} LUFS / ${TP} dBTP (was ${measured.input_i} LUFS)`);
+  console.log(`✓ normalize-mix: ${outPath} → gain ${gain.toFixed(2)} dB toward ${I} LUFS / ${TP} dBTP (was ${measured.input_i} LUFS, ${measured.input_tp} dBTP) — linear gain only, narration dynamics untouched`);
 
   logIfRequested(argv, "Step 6 — normalize-mix", `Loudness normalized`, {
     "measured before": `${measured.input_i} LUFS / ${measured.input_tp} dBTP`,

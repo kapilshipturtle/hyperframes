@@ -7127,3 +7127,24 @@ profile explainer-punchy: 0 FAIL
   ~/.claude/skills/documentary-broll/scripts/lib/overlays-cards.mjs so future runs are correct
   (per the "every failure becomes a skill fix" rule).
 - Cancelled run 34032262456 rather than let 4 more chunks fail the same way.
+
+## Step 6 — FINAL: render succeeded (run 34032928552, chunked, 5/5 chunks + concat)
+- renders/video.mp4 — 759.84s (12:40), 1920x1080 @30fps, h264+aac, 936 MB
+- LOUDNESS: -18.3 LUFS integrated (explainer-punchy band -17..-19) - PASS
+  true peak -1.0 dBFS (ceiling -1.0) - PASS ; no dead air >3s - PASS
+- AUDIO PROGRESSION (the data-media-start regression check) - transcribed 4 samples
+  spread across the film; every one matched its expected beat:
+   t=30s  -> "on some of those lines you're paying for power..."     (beats 08-10) OK
+   t=250s -> "never once seen a deposit come back..."                (beat 68)     OK
+   t=500s -> "can you compare my last 12 months on each one?"        (beats 129-31) OK
+   t=700s -> "need a speech. You need five questions in this order"  (beats 178-80) OK
+  If heal-media-start had not run, all four would have been the opening line.
+- VISUAL SPOT-CHECK (4 frames read, not just extracted):
+   beat 32  invented $50,000,000 / 278,000 counter — renders correctly, mid-count at 251,597 OK
+   beat 158 invented 86% grid — exactly 86 of 100 squares filled, data-accurate OK
+   beat 169 number-badge "$8 - $60 / WHAT HOUSEHOLDS FIND" — the frame that FAILED CI on
+            contrast; dark-on-orange now clearly legible OK ; footage (magnifier on a dollar
+            bill) matches "some find $8, some find $60" OK
+   beat 98  info-card "#1 Free Home Energy Audits" over a home inspector in safety gear OK
+- Chunked path caveat (known, documented): no ambience bed. Irrelevant here — ambience is
+  off for every explainer profile.

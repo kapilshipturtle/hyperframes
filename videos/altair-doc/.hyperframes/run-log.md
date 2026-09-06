@@ -7114,3 +7114,16 @@ profile explainer-punchy: 0 FAIL
 ### Chunked render — split
 5 chunk(s) created
   - **chunks:** chunk-00: beats 01-45, ~40 sources | chunk-01: beats 46-87, ~40 sources | chunk-02: beats 88-127, ~40 sources | chunk-03: beats 128-168, ~40 sources | chunk-04: beats 169-193, ~24 sources
+
+## Step 6 — CI contrast failure (chunk-04), root-caused and fixed at source
+- SYMPTOM: chunk-04 render job failed `hyperframes check` -> Contrast:
+  "2.45:1 (need 3:1, t=5.736s), source compositions/frames/01-beat.html" (= film beat 169).
+- ROOT CAUSE: overlays-cards.mjs styled BOTH `.ov-nb-label` (number-badge label) and
+  `.ov-ic-num` (info-card numeral) as white text on the profile accent #f28c28 orange.
+  Measured WCAG contrast = 2.45:1, below the 3:1 large-text floor. Not a render bug,
+  not chunk-specific: every chunk carried affected frames (3/2/4/5/2), so all 5 would have failed.
+- FIX: text -> #1a1a1a on the same accent = 7.09:1. Applied to the 16 built frames,
+  the 5 chunk copies, AND patched at source in
+  ~/.claude/skills/documentary-broll/scripts/lib/overlays-cards.mjs so future runs are correct
+  (per the "every failure becomes a skill fix" rule).
+- Cancelled run 34032262456 rather than let 4 more chunks fail the same way.

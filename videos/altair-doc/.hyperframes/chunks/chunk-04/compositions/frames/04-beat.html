@@ -5,100 +5,182 @@
       height: 1080px;
       position: relative;
       overflow: hidden;
-      background: #000;
     }
-    .broll-wrap {
-      position: absolute;
-      inset: -6%;
-      width: 112%;
-      height: 112%;
-    }
-    .broll-media {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
-    /* Cutaway sits absolutely over the primary media inside the same wrap
-       (so it inherits the same Ken Burns move on the wrap element, keeping
-       the two shots visually consistent) — starts transparent, GSAP
-       crossfades it in at --cutaway-at, see the script block below. */
-    .broll-cutaway {
+    .f-04-beat-bg {
       position: absolute;
       inset: 0;
+      background: #0d0d0f;
     }
-    /* 2.5D parallax layers (see gen-depth-layers.py) — both stacked full-
-       bleed inside the same wrap. The foreground is deliberately oversized
-       (rather than 100%) so its own independent translate (see parallaxCode
-       below) never slides a transparent edge into frame — the same
-       overscan-margin idea the wrap itself already uses, just at the layer
-       level since the fg moves MORE than the wrap's own Ken Burns alone. */
-    .broll-parallax-bg {
+    .f-04-beat-stage {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 1920px;
+      height: 900px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .f-04-beat-grid {
+      display: grid;
+      grid-template-columns: repeat(7, 168px);
+      grid-auto-rows: 168px;
+      gap: 22px;
+    }
+    .f-04-beat-tile {
+      position: relative;
+      border: 2px solid rgba(255, 255, 255, 0.16);
+      border-radius: 10px;
+      background: rgba(255, 255, 255, 0.035);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font: 300 62px/1 -apple-system, "Inter", sans-serif;
+      color: #f2f2f0;
+      opacity: 0;
+    }
+    .f-04-beat-num {
+      position: relative;
+      z-index: 1;
+    }
+    .f-04-beat-lockwash {
       position: absolute;
       inset: 0;
-      object-fit: cover;
+      border-radius: 8px;
+      background: rgba(144, 137, 168, 0.14);
+      opacity: 0;
     }
-    .broll-parallax-fg {
+    .f-04-beat-lock {
       position: absolute;
-      inset: -8%;
-      width: 116%;
-      height: 116%;
-      object-fit: contain;
-      object-position: center;
+      right: 16px;
+      top: 14px;
+      width: 26px;
+      height: 32px;
+      opacity: 0;
     }
-    /* subtle bottom scrim so any burned-in captions stay readable over bright footage */
-    .broll-scrim {
+    .f-04-beat-lock .f-04-beat-shackle {
       position: absolute;
-      inset: 0;
-      background: linear-gradient(to top, rgba(0,0,0,0.35) 0%, rgba(0,0,0,0) 22%);
-      pointer-events: none;
+      left: 5px;
+      top: 0;
+      width: 16px;
+      height: 15px;
+      border: 3px solid #9089a8;
+      border-bottom: none;
+      border-radius: 9px 9px 0 0;
+      box-sizing: border-box;
     }
-    /* Optional per-beat vignette — a real, if modest, "composited" texture
-       layer distinct from the global grain overlay (which is flat, uniform,
-       full-timeline). Researched documentary/explainer-channel convention:
-       supporting texture layers COMPOSITED WITH the base clip, in the same
-       frame, is the single highest-leverage visual-quality delta over "one
-       flat clip per beat" — this is the smallest, most self-contained piece
-       of that: a soft radial darkening toward the frame edges, drawing the
-       eye toward center/subject the way a real lens vignette does. Opt-in
-       per beat via --vignette, never global/automatic (unlike grain) since
-       its strength should vary by shot mood, not apply uniformly.*/
-    .broll-vignette {
+    .f-04-beat-lock .f-04-beat-body {
       position: absolute;
-      inset: 0;
-      background: radial-gradient(ellipse at center, rgba(0,0,0,0) 45%, rgba(0,0,0,0.3) 100%);
-      pointer-events: none;
+      left: 0;
+      bottom: 0;
+      width: 26px;
+      height: 20px;
+      border-radius: 4px;
+      background: #9089a8;
     }
-
-    .ov-pb { position: absolute; left: 56px; top: 64px; padding: 16px 22px; border-radius: 10px; background: rgba(10,10,14,0.68); box-shadow: 0 10px 24px rgba(0,0,0,0.35); opacity: 0; }
-    .ov-pb-count { display: block; font: 800 15px/1 -apple-system, "Inter", sans-serif; letter-spacing: 0.08em; color: #a9d6ff; }
-    .ov-pb-label { display: block; margin-top: 4px; font: 600 18px/1.2 -apple-system, "Inter", sans-serif; color: #ffffff; }
-    .ov-pb-dots { display: flex; gap: 7px; margin-top: 10px; }
-    .ov-pb-dot { display: block; width: 22px; height: 5px; border-radius: 2.5px; background: rgba(255,255,255,0.24); }
-    .ov-pb-dot-filled { background: #a9d6ff; }
+    .f-04-beat-caption {
+      margin-top: 54px;
+      font: 400 34px/1 -apple-system, "Inter", sans-serif;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: rgba(242, 242, 240, 0.78);
+      opacity: 0;
+    }
+    .f-04-beat-caption b {
+      font-weight: 600;
+      color: #9089a8;
+    }
   </style>
 
   <div
     id="root"
     data-composition-id="04-beat"
-    data-width="1920" data-height="1080" data-duration="7.83"
+    data-width="1920" data-height="1080" data-duration="6.1"
   >
-    <div class="broll-wrap" id="f-04-beat-wrap">
-      <video id="f-04-beat-media" class="broll-media clip" src=".media/broll/beat-134.mp4" muted playsinline data-start="0" data-duration="7.83" data-media-start="0" data-track-index="0"></video>
+    <div class="f-04-beat-bg clip" data-start="0" data-duration="6.10" data-track-index="0"></div>
+    <div class="f-04-beat-stage clip" id="f-04-beat-stage" data-start="0" data-duration="6.10" data-track-index="1">
+      <div class="f-04-beat-grid" id="f-04-beat-grid"></div>
+      <div class="f-04-beat-caption" id="f-04-beat-caption"><b>THREE</b> CANNOT BE REMOVED &mdash; TOLD YOU AT THE START</div>
     </div>
-    <div class="broll-scrim clip" id="f-04-beat-scrim" data-start="0" data-duration="7.83" data-track-index="1"></div>
-    <div class="broll-vignette clip" id="f-04-beat-vignette" data-start="0" data-duration="7.83" data-track-index="3"></div>
-    <div class="ov-pb" id="f-04-beat-ov"><span class="ov-pb-count">STEP 1 OF 5</span><span class="ov-pb-label">What rate class am I on?</span><div class="ov-pb-dots"><span class="ov-pb-dot ov-pb-dot-filled" id="f-04-beat-ov-dot0"></span><span class="ov-pb-dot" id="f-04-beat-ov-dot1"></span><span class="ov-pb-dot" id="f-04-beat-ov-dot2"></span><span class="ov-pb-dot" id="f-04-beat-ov-dot3"></span><span class="ov-pb-dot" id="f-04-beat-ov-dot4"></span></div></div>
   </div>
 
   <script>
     (function () {
       window.__timelines = window.__timelines || {};
+
+      var grid = document.getElementById("f-04-beat-grid");
+      var tiles = [];
+      var washes = [];
+      var locks = [];
+      for (var i = 0; i < 14; i++) {
+        var n = 14 - i;
+        var tile = document.createElement("div");
+        tile.className = "f-04-beat-tile";
+
+        var wash = document.createElement("i");
+        wash.className = "f-04-beat-lockwash";
+
+        var label = document.createElement("span");
+        label.className = "f-04-beat-num";
+        label.textContent = String(n);
+
+        var lock = document.createElement("i");
+        lock.className = "f-04-beat-lock";
+        var shackle = document.createElement("i");
+        shackle.className = "f-04-beat-shackle";
+        var body = document.createElement("i");
+        body.className = "f-04-beat-body";
+        lock.appendChild(shackle);
+        lock.appendChild(body);
+
+        tile.appendChild(wash);
+        tile.appendChild(label);
+        tile.appendChild(lock);
+        grid.appendChild(tile);
+
+        tiles.push(tile);
+        washes.push(wash);
+        locks.push(lock);
+      }
+
+      // the three tiles that lock: the last row's leading trio (same family
+      // the 24-beat grid struck through, now shown as permanently fixed)
+      var lockOrder = [7, 8, 9];
+
       var tl = gsap.timeline({ paused: true });
-      var wrap = document.getElementById("f-04-beat-wrap");
-      gsap.set(wrap, { scale: 1.0 });
-      tl.fromTo("#f-04-beat-ov", { opacity: 0, y: -10 }, { opacity: 1, y: 0, duration: 0.35, ease: "power3.out" }, 0.30);
-      tl.fromTo("#f-04-beat-ov-dot0", { scale: 1 }, { scale: 1.3, duration: 0.18, ease: "power2.out", yoyo: true, repeat: 1 }, 0.60);
-      tl.to("#f-04-beat-ov", { opacity: 0, y: -8, duration: 0.3, ease: "power2.in" }, 4.13);
+
+      // 0.0-0.7s — the grid returns, quietly
+      tl.to(tiles, { opacity: 1, duration: 0.40, stagger: 0.022, ease: "power2.out" }, 0.05);
+
+      // 2.3-3.6s — three tiles lock, one at a time, on "three of them"
+      var lockStart = 2.30;
+      var step = 0.42;
+      for (var k = 0; k < lockOrder.length; k++) {
+        var t = lockStart + k * step;
+        var idx = lockOrder[k];
+        tl.to(washes[idx], { opacity: 1, duration: 0.26, ease: "power1.out" }, t);
+        tl.to(tiles[idx], {
+          opacity: 0.46,
+          borderColor: "rgba(144,137,168,0.62)",
+          color: "#9089a8",
+          duration: 0.30,
+          ease: "power1.out"
+        }, t);
+        tl.fromTo(locks[idx],
+          { opacity: 0, y: -8 },
+          { opacity: 1, y: 0, duration: 0.28, ease: "power2.out" },
+          t + 0.08
+        );
+      }
+
+      // 4.1s — the line lands, after the locks
+      tl.to(document.getElementById("f-04-beat-caption"), {
+        opacity: 1,
+        duration: 0.45,
+        ease: "power1.out"
+      }, 4.10);
+
       window.__timelines["04-beat"] = tl;
     })();
   </script>

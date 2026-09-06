@@ -1,0 +1,187 @@
+<template>
+  <style>
+    #root {
+      width: 1920px;
+      height: 1080px;
+      position: relative;
+      overflow: hidden;
+    }
+    .f-172-beat-bg {
+      position: absolute;
+      inset: 0;
+      background: #0d0d0f;
+    }
+    .f-172-beat-stage {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 1920px;
+      height: 900px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .f-172-beat-grid {
+      display: grid;
+      grid-template-columns: repeat(7, 168px);
+      grid-auto-rows: 168px;
+      gap: 22px;
+    }
+    .f-172-beat-tile {
+      position: relative;
+      border: 2px solid rgba(255, 255, 255, 0.16);
+      border-radius: 10px;
+      background: rgba(255, 255, 255, 0.035);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font: 300 62px/1 -apple-system, "Inter", sans-serif;
+      color: #f2f2f0;
+      opacity: 0;
+    }
+    .f-172-beat-num {
+      position: relative;
+      z-index: 1;
+    }
+    .f-172-beat-lockwash {
+      position: absolute;
+      inset: 0;
+      border-radius: 8px;
+      background: rgba(144, 137, 168, 0.14);
+      opacity: 0;
+    }
+    .f-172-beat-lock {
+      position: absolute;
+      right: 16px;
+      top: 14px;
+      width: 26px;
+      height: 32px;
+      opacity: 0;
+    }
+    .f-172-beat-lock .f-172-beat-shackle {
+      position: absolute;
+      left: 5px;
+      top: 0;
+      width: 16px;
+      height: 15px;
+      border: 3px solid #9089a8;
+      border-bottom: none;
+      border-radius: 9px 9px 0 0;
+      box-sizing: border-box;
+    }
+    .f-172-beat-lock .f-172-beat-body {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 26px;
+      height: 20px;
+      border-radius: 4px;
+      background: #9089a8;
+    }
+    .f-172-beat-caption {
+      margin-top: 54px;
+      font: 400 34px/1 -apple-system, "Inter", sans-serif;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: rgba(242, 242, 240, 0.78);
+      opacity: 0;
+    }
+    .f-172-beat-caption b {
+      font-weight: 600;
+      color: #9089a8;
+    }
+  </style>
+
+  <div
+    id="root"
+    data-composition-id="172-beat"
+    data-width="1920" data-height="1080" data-duration="6.1"
+  >
+    <div class="f-172-beat-bg clip" data-start="0" data-duration="6.10" data-track-index="0"></div>
+    <div class="f-172-beat-stage clip" id="f-172-beat-stage" data-start="0" data-duration="6.10" data-track-index="1">
+      <div class="f-172-beat-grid" id="f-172-beat-grid"></div>
+      <div class="f-172-beat-caption" id="f-172-beat-caption"><b>THREE</b> CANNOT BE REMOVED &mdash; TOLD YOU AT THE START</div>
+    </div>
+  </div>
+
+  <script>
+    (function () {
+      window.__timelines = window.__timelines || {};
+
+      var grid = document.getElementById("f-172-beat-grid");
+      var tiles = [];
+      var washes = [];
+      var locks = [];
+      for (var i = 0; i < 14; i++) {
+        var n = 14 - i;
+        var tile = document.createElement("div");
+        tile.className = "f-172-beat-tile";
+
+        var wash = document.createElement("i");
+        wash.className = "f-172-beat-lockwash";
+
+        var label = document.createElement("span");
+        label.className = "f-172-beat-num";
+        label.textContent = String(n);
+
+        var lock = document.createElement("i");
+        lock.className = "f-172-beat-lock";
+        var shackle = document.createElement("i");
+        shackle.className = "f-172-beat-shackle";
+        var body = document.createElement("i");
+        body.className = "f-172-beat-body";
+        lock.appendChild(shackle);
+        lock.appendChild(body);
+
+        tile.appendChild(wash);
+        tile.appendChild(label);
+        tile.appendChild(lock);
+        grid.appendChild(tile);
+
+        tiles.push(tile);
+        washes.push(wash);
+        locks.push(lock);
+      }
+
+      // the three tiles that lock: the last row's leading trio (same family
+      // the 24-beat grid struck through, now shown as permanently fixed)
+      var lockOrder = [7, 8, 9];
+
+      var tl = gsap.timeline({ paused: true });
+
+      // 0.0-0.7s — the grid returns, quietly
+      tl.to(tiles, { opacity: 1, duration: 0.40, stagger: 0.022, ease: "power2.out" }, 0.05);
+
+      // 2.3-3.6s — three tiles lock, one at a time, on "three of them"
+      var lockStart = 2.30;
+      var step = 0.42;
+      for (var k = 0; k < lockOrder.length; k++) {
+        var t = lockStart + k * step;
+        var idx = lockOrder[k];
+        tl.to(washes[idx], { opacity: 1, duration: 0.26, ease: "power1.out" }, t);
+        tl.to(tiles[idx], {
+          opacity: 0.46,
+          borderColor: "rgba(144,137,168,0.62)",
+          color: "#9089a8",
+          duration: 0.30,
+          ease: "power1.out"
+        }, t);
+        tl.fromTo(locks[idx],
+          { opacity: 0, y: -8 },
+          { opacity: 1, y: 0, duration: 0.28, ease: "power2.out" },
+          t + 0.08
+        );
+      }
+
+      // 4.1s — the line lands, after the locks
+      tl.to(document.getElementById("f-172-beat-caption"), {
+        opacity: 1,
+        duration: 0.45,
+        ease: "power1.out"
+      }, 4.10);
+
+      window.__timelines["172-beat"] = tl;
+    })();
+  </script>
+</template>

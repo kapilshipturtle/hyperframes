@@ -1,132 +1,260 @@
 {
- "10": "pexels-v30117908",
- "11": "pexels-p27862196",
- "12": "pexels-v5970639",
- "14": "pexels-v5524280",
- "15": "pexels-p20459081",
- "16": "pexels-v29031537",
- "17": "pexels-v10797880",
- "18": "pexels-v6517587",
- "19": "pexels-v7710497",
- "20": "pexels-v6017622",
- "21": "pexels-v12096351",
- "22": "pexels-v6023018",
- "23": "pexels-v6994417",
- "24": "pexels-v7947467",
- "27": "pexels-v8369906",
- "28": "pexels-v5916730",
- "29": "pexels-p942316",
- "30": "pexels-v34091414",
- "31": "pexels-v30567734",
- "32": "pexels-v7841584",
- "33": "pexels-v3958753",
- "34": "pexels-v10397452",
- "35": "pexels-v5546826",
- "36": "pexels-p7926666",
- "37": "pexels-v7682758",
- "38": "pexels-v7661422",
- "40": "pexels-v6282368",
- "41": "pexels-v5981723",
- "42": "pexels-v9057693",
- "43": "pexels-v7821854",
- "45": "pexels-v9057678",
- "46": "pexels-v39060937",
- "47": "pexels-v6693623",
- "48": "pexels-v6963960",
- "49": "pexels-v5345135",
- "50": "pexels-v7055343",
- "51": "pexels-v32023790",
- "52": "pexels-v35828975",
- "53": "pexels-p19980200",
- "54": "pexels-v7055344",
- "55": "pexels-p34938439",
- "56": "pexels-v7580442",
- "57": "pexels-v30615534",
- "58": "pexels-v7841622",
- "59": "pexels-v5303249",
- "60": "pexels-v2932303",
- "61": "pexels-v10515011",
- "62": "pexels-v15024387",
- "63": "pexels-v4035765",
- "64": "pexels-v8293495",
- "65": "pexels-v7062994",
- "66": "pexels-v32790345",
- "67": "pexels-v11321636",
- "68": "pexels-v6024755",
- "69": "pexels-v6517587",
- "71": "pexels-v7593543",
- "72": "pexels-v7545831",
- "73": "pexels-p33705551",
- "74": "pexels-v31466248",
- "75": "pexels-v34572318",
- "76": "pexels-v7641514",
- "77": "pexels-v6817055",
- "78": "pexels-v30567549",
- "80": "pexels-v13205825",
- "81": "pexels-v9057559",
- "82": "pexels-v6753381",
- "83": "pexels-v18866539",
- "84": "pexels-v9468765",
- "85": "pexels-v9790230",
- "86": "pexels-v38771102",
- "87": "pexels-v31900938",
- "89": "pexels-p9198397",
- "90": "pexels-v4403890",
- "91": "pexels-v8731555",
- "92": "pexels-v7062984",
- "93": "pexels-p37986075",
- "94": "pexels-v6550424",
- "95": "pexels-v7841616",
- "96": "pexels-v6326847",
- "97": "pexels-v6781562",
- "98": "pexels-v7855745",
- "99": "pexels-v8212367",
- "100": "pexels-v4477798",
- "101": "pexels-v5867940",
- "102": "pexels-v7677136",
- "103": "pexels-p8646392",
- "104": "pexels-v4275306",
- "105": "pexels-v7308187",
- "106": "pexels-v16384314",
- "107": "pexels-p11924298",
- "109": "pexels-v8756884",
- "110": "pexels-v6296956",
- "111": "pexels-v38262425",
- "112": "pexels-v4119968",
- "113": "pexels-v35168445",
- "114": "pexels-p9052774",
- "115": "pexels-v6667226",
- "116": "pexels-v15024387",
- "117": "pexels-v5941016",
- "120": "pexels-v39316223",
- "121": "pexels-v856925",
- "122": "pexels-v7545831",
- "123": "pexels-v8523640",
- "125": "pexels-v7546417",
- "126": "pexels-v8928028",
- "128": "pexels-v29568794",
- "129": "pexels-v10567193",
- "130": "pexels-v5989390",
- "131": "pexels-v7643836",
- "132": "pexels-v38774217",
- "134": "pexels-v32132504",
- "136": "pexels-v29031537",
- "137": "pexels-v6693623",
- "138": "pexels-v30084927",
- "139": "pexels-v7668961",
- "140": "pexels-v6209597",
- "141": "pexels-v7651685",
- "142": "pexels-v35402332",
- "143": "pexels-v38756590",
- "144": "pexels-v6963823",
- "145": "pexels-v7331391",
- "01": "pexels-v6851679",
- "02": "pexels-v6963962",
- "03": "pexels-p7651555",
- "04": "pexels-p590011",
- "05": "pexels-v39004072",
- "06": "pexels-v5971260",
- "07": "pexels-v7054942",
- "08": "pexels-v30763463",
- "09": "pexels-v6566559"
+  "12": {
+    "source": "pexels",
+    "mediaType": "photo",
+    "id": "pexels-p6523293",
+    "reason": "'nobody sat at a table with you' - chairs at a round table reads as the absent conversation, not a kitchen tour"
+  },
+  "14": {
+    "source": "pexels",
+    "mediaType": "photo",
+    "id": "pexels-p12983110",
+    "reason": "names a household ledger 1929-1939; an open ledger with yellowing handwritten pages IS the object"
+  },
+  "17": {
+    "source": "pexels",
+    "mediaType": "photo",
+    "id": "pexels-p164686",
+    "reason": "'one line, kwh, a rate, a total' - a vintage handwritten ledger of financial lines depicts the single-line bill"
+  },
+  "19": {
+    "source": "pexels",
+    "mediaType": "photo",
+    "id": "pexels-p4144625",
+    "reason": "1930s walk to the utility office; a nostalgic B&W group portrait reads period, a modern walking vlog does not"
+  },
+  "23": {
+    "source": "pexels",
+    "mediaType": "photo",
+    "id": "pexels-p6883797",
+    "reason": "'I'll be straight with you' - a direct-address podcast/interview host reads as honest address"
+  },
+  "41": {
+    "source": "pexels",
+    "mediaType": "video",
+    "id": "pexels-v8851746",
+    "reason": "'I put it at 14 on purpose' - finger pointing at a list item beats generic notebook writing"
+  },
+  "45": {
+    "source": "pexels",
+    "mediaType": "video",
+    "id": "pexels-v1793371",
+    "reason": "'years ago, never thought about since' - saving a date on a planner reads as the forgotten decision"
+  },
+  "46": {
+    "source": "pexels",
+    "mediaType": "photo",
+    "id": "pexels-p16752780",
+    "reason": "'when smart meters came around' - a neat installation of meters on an exterior wall is the actual subject"
+  },
+  "49": {
+    "source": "pexels",
+    "mediaType": "photo",
+    "id": "pexels-p7688187",
+    "reason": "'look for opt-out/manual read' on the bill - pointing to a line on a clipboard document is the action"
+  },
+  "54": {
+    "source": "pexels",
+    "mediaType": "photo",
+    "id": "pexels-p7709141",
+    "reason": "'call and ask plainly' - call-centre staff in headsets is the other side of that call"
+  },
+  "59": {
+    "source": "pexels",
+    "mediaType": "photo",
+    "id": "pexels-p5849548",
+    "reason": "the deposit being held - a bank-lock illustration reads as money held, not counting cash"
+  },
+  "64": {
+    "source": "pexels",
+    "mediaType": "video",
+    "id": "pexels-v5849617",
+    "reason": "'supposed to earn interest' - an interest animation is literally the concept"
+  },
+  "70": {
+    "source": "pexels",
+    "mediaType": "photo",
+    "id": "pexels-p2249528",
+    "reason": "'one column so it could never be forgotten' - a gold number one is the single-column emphasis"
+  },
+  "72": {
+    "source": "pexels",
+    "mediaType": "photo",
+    "id": "pexels-p10847199",
+    "reason": "equipment rental = water heater; a basement laundry room with appliances is the real location"
+  },
+  "75": {
+    "source": "pexels",
+    "mediaType": "photo",
+    "id": "pexels-p34938439",
+    "reason": "'a water heater, surge protection, line warranty' - technician repairing a heating system is exact"
+  },
+  "78": {
+    "source": "pexels",
+    "mediaType": "photo",
+    "id": "pexels-p7718449",
+    "reason": "'renting that water heater 20 years' - a rusty old radiator reads as long-owned equipment"
+  },
+  "97": {
+    "source": "pexels",
+    "mediaType": "photo",
+    "id": "pexels-p12983106",
+    "reason": "'programs you already paid for and never used' - a deserted warehouse of unused stock, NOT programming code (keyword false-friend)"
+  },
+  "104": {
+    "source": "pexels",
+    "mediaType": "photo",
+    "id": "pexels-p14776516",
+    "reason": "'utility spends rebuilding then recovers over years' - fire/emergency response trucks beat military trucks"
+  },
+  "110": {
+    "source": "pexels",
+    "mediaType": "video",
+    "id": "pexels-v19950816",
+    "reason": "fuel adjustment = generation cost; an industrial plant with smoke is the generation source"
+  },
+  "115": {
+    "source": "pexels",
+    "mediaType": "video",
+    "id": "pexels-v6482495",
+    "reason": "'rewards you for changing WHEN you use power' - a laundry machine is the shiftable load"
+  },
+  "120": {
+    "source": "pexels",
+    "mediaType": "photo",
+    "id": "pexels-p3781550",
+    "reason": "'hardly anybody knows this next part' - a woman surprised while reading is the reveal"
+  },
+  "122": {
+    "source": "pexels",
+    "mediaType": "photo",
+    "id": "pexels-p27920274",
+    "reason": "lists rate classes incl. all-electric home - a real-estate/house concept image beats a checklist tablet"
+  },
+  "126": {
+    "source": "pexels",
+    "mediaType": "photo",
+    "id": "pexels-p9268665",
+    "reason": "'costs nothing to fix' - a sign showing prices/free reads closer than a generic placard"
+  },
+  "134": {
+    "source": "pexels",
+    "mediaType": "photo",
+    "id": "pexels-p33566216",
+    "reason": "low-income/discount rate - a rustic rural kitchen reads as a lower-income household"
+  },
+  "144": {
+    "source": "pexels",
+    "mediaType": "video",
+    "id": "pexels-v3967198",
+    "reason": "'laundry in the morning' - sun drying washed towels is morning laundry"
+  },
+  "147": {
+    "source": "pexels",
+    "mediaType": "photo",
+    "id": "pexels-p12259016",
+    "reason": "grandmother's Monday washing - vintage laundry tools and clothesline is period-correct"
+  },
+  "149": {
+    "source": "pexels",
+    "mediaType": "photo",
+    "id": "pexels-p30875260",
+    "reason": "'she was doing this 90 years ago' - B&W woman hanging clothes on a line is the exact image"
+  },
+  "150": {
+    "source": "pexels",
+    "mediaType": "photo",
+    "id": "pexels-p13456097",
+    "reason": "third-party supplier who knocked on your door - a delivery man at a doorstep reads as the doorstep pitch"
+  },
+  "153": {
+    "source": "pexels",
+    "mediaType": "photo",
+    "id": "pexels-p8369216",
+    "reason": "'look at the company name printed there' - a document with agent name/ID code is the name on the page"
+  },
+  "155": {
+    "source": "pexels",
+    "mediaType": "photo",
+    "id": "pexels-p7681369",
+    "reason": "the supplier's telemarketing call - a smiling support agent in a headset is the caller"
+  },
+  "156": {
+    "source": "pexels",
+    "mediaType": "photo",
+    "id": "pexels-p10065200",
+    "reason": "'identical wire into the same house' - electrical meters on a wall is the shared infrastructure"
+  },
+  "158": {
+    "source": "pexels",
+    "mediaType": "photo",
+    "id": "pexels-p5117228",
+    "reason": "Connecticut state consumer council - a state capitol building (NY monochrome) reads as state government"
+  },
+  "159": {
+    "source": "pexels",
+    "mediaType": "video",
+    "id": "pexels-v38808545",
+    "reason": "'86% paid more than standard' - a stock/data visualisation reads as the statistic"
+  },
+  "161": {
+    "source": "pexels",
+    "mediaType": "photo",
+    "id": "pexels-p6590620",
+    "reason": "'$50 million' - a US fifty dollar bill closeup anchors the fifty"
+  },
+  "169": {
+    "source": "pexels",
+    "mediaType": "video",
+    "id": "pexels-v1797020",
+    "reason": "'some find $8, some find $60' - magnifying glass on a dollar bill is finding money on the page"
+  },
+  "174": {
+    "source": "pexels",
+    "mediaType": "photo",
+    "id": "pexels-p672186",
+    "reason": "'power is expensive right now' - an illuminated bulb filament reads as the cost of power itself"
+  },
+  "179": {
+    "source": "pexels",
+    "mediaType": "photo",
+    "id": "pexels-p1226398",
+    "reason": "'five questions in this order' - a handwritten to-do list on a spiral notepad is the list"
+  },
+  "180": {
+    "source": "pexels",
+    "mediaType": "video",
+    "id": "pexels-v5211966",
+    "reason": "'what rate class am I on' - a woman asking a question is the ask"
+  },
+  "181": {
+    "source": "pexels",
+    "mediaType": "video",
+    "id": "pexels-v6672302",
+    "reason": "'am I on default or third-party' - answering an exam question reads as the question being put"
+  },
+  "183": {
+    "source": "pexels",
+    "mediaType": "photo",
+    "id": "pexels-p7821932",
+    "reason": "'are you still holding a deposit' - a man reading an envelope with a cash balance is the held money"
+  },
+  "184": {
+    "source": "pexels",
+    "mediaType": "video",
+    "id": "pexels-v9057559",
+    "reason": "'can I move my due date' - marking a date on a calendar is the exact action"
+  },
+  "190": {
+    "source": "pexels",
+    "mediaType": "photo",
+    "id": "pexels-p6077521",
+    "reason": "'read the company name' - reviewing documents with highlighting is reading the line"
+  },
+  "05": {
+    "source": "pexels",
+    "mediaType": "photo",
+    "id": "pexels-p164686",
+    "reason": "the beat is about lines on a bill; a vintage handwritten ledger of financial lines beats a generic spreadsheet"
+  }
 }

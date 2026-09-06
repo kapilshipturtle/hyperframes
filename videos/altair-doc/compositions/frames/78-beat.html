@@ -5,102 +5,234 @@
       height: 1080px;
       position: relative;
       overflow: hidden;
-      background: #000;
     }
-    .broll-wrap {
-      position: absolute;
-      inset: -6%;
-      width: 112%;
-      height: 112%;
-    }
-    .broll-media {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
-    /* Cutaway sits absolutely over the primary media inside the same wrap
-       (so it inherits the same Ken Burns move on the wrap element, keeping
-       the two shots visually consistent) — starts transparent, GSAP
-       crossfades it in at --cutaway-at, see the script block below. */
-    .broll-cutaway {
+    .f78-bg {
       position: absolute;
       inset: 0;
+      background: radial-gradient(ellipse at 50% 38%, #141416 0%, #0a0a0c 72%);
     }
-    /* 2.5D parallax layers (see gen-depth-layers.py) — both stacked full-
-       bleed inside the same wrap. The foreground is deliberately oversized
-       (rather than 100%) so its own independent translate (see parallaxCode
-       below) never slides a transparent edge into frame — the same
-       overscan-margin idea the wrap itself already uses, just at the layer
-       level since the fg moves MORE than the wrap's own Ken Burns alone. */
-    .broll-parallax-bg {
+    .f78-stage {
       position: absolute;
-      inset: 0;
-      object-fit: cover;
+      left: 0; top: 0;
+      width: 1920px; height: 900px;
+      font-family: -apple-system, "Inter", "Helvetica Neue", sans-serif;
+      color: #f2f2f0;
     }
-    .broll-parallax-fg {
+    .f78-heater {
       position: absolute;
-      inset: -8%;
-      width: 116%;
-      height: 116%;
-      object-fit: contain;
-      object-position: center;
+      left: 160px; top: 150px;
+      width: 190px; height: 300px;
+      opacity: 0;
     }
-    /* subtle bottom scrim so any burned-in captions stay readable over bright footage */
-    .broll-scrim {
+    .f78-tank {
+      position: absolute; left: 20px; top: 40px;
+      width: 150px; height: 230px;
+      border: 4px solid #f2f2f0;
+      border-radius: 26px;
+      box-sizing: border-box;
+      background: rgba(255,255,255,0.03);
+    }
+    .f78-pipe-l, .f78-pipe-r {
+      position: absolute; top: 6px;
+      width: 4px; height: 40px;
+      background: #f2f2f0;
+    }
+    .f78-pipe-l { left: 54px; }
+    .f78-pipe-r { left: 116px; }
+    .f78-pipe-cap {
+      position: absolute; top: 4px; left: 44px;
+      width: 84px; height: 4px; background: #f2f2f0;
+    }
+    .f78-dial {
+      position: absolute; left: 62px; top: 152px;
+      width: 66px; height: 66px;
+      border: 4px solid rgba(242,242,240,0.6);
+      border-radius: 50%;
+      box-sizing: border-box;
+    }
+    .f78-legs {
+      position: absolute; left: 34px; top: 270px;
+      width: 122px; height: 4px; background: rgba(242,242,240,0.5);
+    }
+    .f78-price-label {
+      position: absolute; left: 0; top: 486px;
+      width: 350px; text-align: center;
+      font-size: 22px; letter-spacing: 0.14em; text-transform: uppercase;
+      color: rgba(242,242,240,0.62);
+      opacity: 0;
+    }
+    .f78-price-val {
+      position: absolute; left: 0; top: 518px;
+      width: 350px; text-align: center;
+      font-size: 76px; font-weight: 700; letter-spacing: -0.02em;
+      color: #f2f2f0;
+      opacity: 0;
+    }
+    /* price reference line running across the chart area */
+    .f78-priceline {
       position: absolute;
-      inset: 0;
-      background: linear-gradient(to top, rgba(0,0,0,0.35) 0%, rgba(0,0,0,0) 22%);
-      pointer-events: none;
+      left: 520px; top: 596px;
+      width: 0px; height: 3px;
+      background: rgba(242,242,240,0.42);
     }
-    /* Optional per-beat vignette — a real, if modest, "composited" texture
-       layer distinct from the global grain overlay (which is flat, uniform,
-       full-timeline). Researched documentary/explainer-channel convention:
-       supporting texture layers COMPOSITED WITH the base clip, in the same
-       frame, is the single highest-leverage visual-quality delta over "one
-       flat clip per beat" — this is the smallest, most self-contained piece
-       of that: a soft radial darkening toward the frame edges, drawing the
-       eye toward center/subject the way a real lens vignette does. Opt-in
-       per beat via --vignette, never global/automatic (unlike grain) since
-       its strength should vary by shot mood, not apply uniformly.*/
-    .broll-vignette {
+    .f78-priceline-tag {
+      position: absolute; left: 1510px; top: 560px;
+      font-size: 20px; letter-spacing: 0.1em; text-transform: uppercase;
+      color: rgba(242,242,240,0.55);
+      opacity: 0;
+    }
+    /* accumulating rent column area */
+    .f78-track {
       position: absolute;
-      inset: 0;
-      background: radial-gradient(ellipse at center, rgba(0,0,0,0) 45%, rgba(0,0,0,0) 100%);
-      pointer-events: none;
+      left: 520px; top: 170px;
+      width: 1200px; height: 430px;
     }
-
-    .ov-chapter-scrim { position: absolute; inset: 0; background: rgba(0,0,0,0.38); opacity: 0; pointer-events: none; }
-    .ov-chapter-title { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); text-align: center; opacity: 0; }
-    .ov-ct-kicker { display: block; font: 700 22px/1 -apple-system, "Inter", sans-serif; letter-spacing: 0.18em; text-transform: uppercase; color: #ffffff; text-shadow: 0 1px 2px rgba(0,0,0,0.5), 0 4px 14px rgba(0,0,0,0.4); opacity: 0; margin-bottom: 14px; }
-    .ov-ct-title { display: block; font: 800 88px/1.05 -apple-system, "Inter", sans-serif; color: #ffffff; text-shadow: 0 1px 2px rgba(0,0,0,0.5), 0 4px 14px rgba(0,0,0,0.4); }
-    .ov-ct-rule { display: block; width: 90px; height: 4px; background: #ffffff; margin: 22px auto 0; border-radius: 2px; transform-origin: 50% 50%; transform: scaleX(0); }
+    .f78-fill {
+      position: absolute;
+      left: 0; bottom: 0;
+      width: 1200px; height: 430px;
+      background: linear-gradient(to top, rgba(224,104,90,0.85), rgba(224,104,90,0.42));
+      transform-origin: 50% 100%;
+      transform: scaleY(0);
+    }
+    .f78-cross {
+      position: absolute;
+      left: 520px;
+      width: 1200px; height: 2px;
+      background: rgba(242,242,240,0.28);
+      opacity: 0;
+    }
+    .f78-cross-n {
+      position: absolute;
+      left: 1730px;
+      font-size: 24px; font-weight: 700;
+      color: rgba(242,242,240,0.8);
+      transform: translateY(-16px);
+      opacity: 0;
+    }
+    /* 20-year timeline bar under the chart */
+    .f78-axis {
+      position: absolute;
+      left: 520px; top: 640px;
+      width: 1200px; height: 4px;
+      background: rgba(242,242,240,0.2);
+    }
+    .f78-axis-fill {
+      position: absolute; left: 0; top: 0;
+      width: 1200px; height: 4px;
+      background: #e0685a;
+      transform-origin: 0% 50%;
+      transform: scaleX(0);
+    }
+    .f78-year {
+      position: absolute; top: 660px;
+      font-size: 20px; letter-spacing: 0.1em;
+      color: rgba(242,242,240,0.5);
+      opacity: 0;
+    }
+    .f78-y0 { left: 520px; }
+    .f78-y20 { left: 1640px; }
+    .f78-headline {
+      position: absolute;
+      left: 520px; top: 730px;
+      width: 1200px;
+      font-size: 34px; font-weight: 600; letter-spacing: 0.01em;
+      color: #e0685a;
+      opacity: 0;
+    }
   </style>
 
   <div
     id="root"
     data-composition-id="78-beat"
-    data-width="1920" data-height="1080" data-duration="7.13"
+    data-width="1920" data-height="1080" data-duration="6.39"
   >
-    <div class="broll-wrap" id="f-78-beat-wrap">
-      <video id="f-78-beat-media" class="broll-media clip" src=".media/broll/beat-78.mp4" muted playsinline data-start="0" data-duration="7.13" data-media-start="0" data-track-index="0"></video>
+    <div class="f78-bg clip" data-start="0" data-duration="6.40" data-track-index="0"></div>
+
+    <div class="f78-stage clip" data-start="0" data-duration="6.40" data-track-index="1">
+      <div class="f78-heater" id="f78-heater">
+        <div class="f78-pipe-cap"></div>
+        <div class="f78-pipe-l"></div>
+        <div class="f78-pipe-r"></div>
+        <div class="f78-tank"></div>
+        <div class="f78-dial"></div>
+        <div class="f78-legs"></div>
+      </div>
+      <div class="f78-price-label" id="f78-price-label">Purchase price</div>
+      <div class="f78-price-val" id="f78-price-val">$0</div>
+
+      <div class="f78-priceline" id="f78-priceline"></div>
+      <div class="f78-priceline-tag" id="f78-priceline-tag">Price line</div>
+
+      <div class="f78-track">
+        <div class="f78-fill" id="f78-fill"></div>
+      </div>
+
+      <div class="f78-cross" id="f78-cross-1" style="top: 510px;"></div>
+      <div class="f78-cross-n" id="f78-crossn-1" style="top: 510px;">1×</div>
+      <div class="f78-cross" id="f78-cross-2" style="top: 420px;"></div>
+      <div class="f78-cross-n" id="f78-crossn-2" style="top: 420px;">2×</div>
+      <div class="f78-cross" id="f78-cross-3" style="top: 330px;"></div>
+      <div class="f78-cross-n" id="f78-crossn-3" style="top: 330px;">3×</div>
+      <div class="f78-cross" id="f78-cross-4" style="top: 240px;"></div>
+      <div class="f78-cross-n" id="f78-crossn-4" style="top: 240px;">4×</div>
+      <div class="f78-cross" id="f78-cross-5" style="top: 175px;"></div>
+      <div class="f78-cross-n" id="f78-crossn-5" style="top: 175px;">5×</div>
+
+      <div class="f78-axis"><div class="f78-axis-fill" id="f78-axis-fill"></div></div>
+      <div class="f78-year f78-y0" id="f78-y0">YEAR 0</div>
+      <div class="f78-year f78-y20" id="f78-y20">YEAR 20</div>
+
+      <div class="f78-headline" id="f78-headline">Paid for four or five times over</div>
     </div>
-    <div class="broll-scrim clip" id="f-78-beat-scrim" data-start="0" data-duration="7.13" data-track-index="1"></div>
-    <div class="ov-chapter-scrim" id="f-78-beat-ov-scrim"></div><div class="ov-chapter-title" id="f-78-beat-ov"><span class="ov-ct-kicker" id="f-78-beat-ov-kicker">NUMBER 6</span><span class="ov-ct-title" id="f-78-beat-ov-title">Storm Recovery</span><span class="ov-ct-rule" id="f-78-beat-ov-rule"></span></div>
   </div>
 
   <script>
     (function () {
       window.__timelines = window.__timelines || {};
       var tl = gsap.timeline({ paused: true });
-      var wrap = document.getElementById("f-78-beat-wrap");
-      gsap.set(wrap, { scale: 1.0 });
-      tl.to("#f-78-beat-ov-scrim", { opacity: 1, duration: 0.3, ease: "power2.out" }, 1.72);
-      tl.to("#f-78-beat-ov", { opacity: 1, duration: 0.01 }, 1.80);
-      tl.fromTo("#f-78-beat-ov-kicker", { opacity: 0, y: 10 }, { opacity: 1, y: 0, duration: 0.3, ease: "power3.out" }, 1.80);
-      tl.fromTo("#f-78-beat-ov-title", { opacity: 0, scale: 0.85 }, { opacity: 1, scale: 1, duration: 0.45, ease: "back.out(1.4)" }, 1.98);
-      tl.to("#f-78-beat-ov-rule", { scaleX: 1, duration: 0.35, ease: "power3.out" }, 2.30);
-      tl.to("#f-78-beat-ov", { opacity: 0, duration: 0.3, ease: "power2.in" }, 3.30);
-      tl.to("#f-78-beat-ov-scrim", { opacity: 0, duration: 0.35, ease: "power2.in" }, 3.30);
+
+      var priceVal = document.getElementById("f78-price-val");
+      var price = { v: 0 };
+
+      // 0.0-1.0 — the heater and its purchase price settle in
+      tl.fromTo("#f78-heater", { opacity: 0, y: 24 }, { opacity: 1, y: 0, duration: 0.7, ease: "power2.out" }, 0.05);
+      tl.to("#f78-price-label", { opacity: 1, duration: 0.4, ease: "power1.out" }, 0.45);
+      tl.to("#f78-price-val", { opacity: 1, duration: 0.3, ease: "power1.out" }, 0.6);
+      tl.to(price, {
+        v: 1200, duration: 0.8, ease: "power2.out",
+        onUpdate: function () { priceVal.textContent = "$" + Math.round(price.v).toLocaleString("en-US"); }
+      }, 0.6);
+
+      // 1.0-1.7 — the price becomes a reference line across the chart
+      tl.to("#f78-priceline", { width: 1200, duration: 0.55, ease: "power2.inOut" }, 1.15);
+      tl.to("#f78-priceline-tag", { opacity: 1, duration: 0.3 }, 1.6);
+
+      // 1.7-2.1 — the 20-year timeline appears
+      tl.to("#f78-y0", { opacity: 1, duration: 0.3 }, 1.75);
+      tl.to("#f78-y20", { opacity: 1, duration: 0.3 }, 1.95);
+
+      // 2.0-5.0 — rent accumulates across 20 years, crossing the price line 5 times
+      tl.to("#f78-axis-fill", { scaleX: 1, duration: 3.0, ease: "none" }, 2.0);
+      tl.to("#f78-fill", { scaleY: 1, duration: 3.0, ease: "none" }, 2.0);
+
+      var marks = [
+        { t: 2.52, i: 1 },
+        { t: 3.14, i: 2 },
+        { t: 3.76, i: 3 },
+        { t: 4.38, i: 4 },
+        { t: 4.88, i: 5 }
+      ];
+      marks.forEach(function (m) {
+        tl.to("#f78-cross-" + m.i, { opacity: 1, duration: 0.18, ease: "power1.out" }, m.t);
+        tl.fromTo("#f78-crossn-" + m.i,
+          { opacity: 0, x: 14 },
+          { opacity: 1, x: 0, duration: 0.28, ease: "power2.out" }, m.t);
+      });
+
+      // 5.1 — the takeaway lands
+      tl.fromTo("#f78-headline", { opacity: 0, y: 16 }, { opacity: 1, y: 0, duration: 0.5, ease: "power2.out" }, 5.15);
+
       window.__timelines["78-beat"] = tl;
     })();
   </script>

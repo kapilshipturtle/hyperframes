@@ -1,7 +1,46 @@
 {
   "beats": [
     {
-      "id": "98",
+      "id": "128",
+      "text": "Ask your utility this exact question.",
+      "start": 503.05,
+      "end": 505.51,
+      "durationSeconds": 2.46,
+      "words": [
+        {
+          "text": "Ask",
+          "start": 503.05,
+          "end": 503.12
+        },
+        {
+          "text": "your",
+          "start": 503.12,
+          "end": 503.41
+        },
+        {
+          "text": "utility",
+          "start": 503.44,
+          "end": 503.98
+        },
+        {
+          "text": "this",
+          "start": 503.98,
+          "end": 504.26
+        },
+        {
+          "text": "exact",
+          "start": 504.36,
+          "end": 504.59
+        },
+        {
+          "text": "question.",
+          "start": 504.97,
+          "end": 505.51
+        }
+      ]
+    },
+    {
+      "id": "129",
       "text": "What rate class am I on? What else do I qualify for?",
       "start": 505.7,
       "end": 509.26,
@@ -70,11 +109,11 @@
       ]
     },
     {
-      "id": "99",
-      "text": "And can you compare my last 12 months on each one? They can do it.",
+      "id": "130",
+      "text": "And can you compare my last 12 months on each one?",
       "start": 509.34,
-      "end": 513.26,
-      "durationSeconds": 3.92,
+      "end": 512.32,
+      "durationSeconds": 2.98,
       "words": [
         {
           "text": "And",
@@ -130,7 +169,16 @@
           "text": "one?",
           "start": 511.93,
           "end": 512.32
-        },
+        }
+      ]
+    },
+    {
+      "id": "131",
+      "text": "They can do it. The data is right there in front of them.",
+      "start": 512.41,
+      "end": 515.64,
+      "durationSeconds": 3.23,
+      "words": [
         {
           "text": "They",
           "start": 512.41,
@@ -150,16 +198,7 @@
           "text": "it.",
           "start": 512.94,
           "end": 513.26
-        }
-      ]
-    },
-    {
-      "id": "100",
-      "text": "The data is right there in front of them. They will not offer it.",
-      "start": 513.26,
-      "end": 517.37,
-      "durationSeconds": 4.11,
-      "words": [
+        },
         {
           "text": "The",
           "start": 513.26,
@@ -204,7 +243,16 @@
           "text": "them.",
           "start": 515.13,
           "end": 515.64
-        },
+        }
+      ]
+    },
+    {
+      "id": "132",
+      "text": "They will not offer it.",
+      "start": 515.72,
+      "end": 517.37,
+      "durationSeconds": 1.65,
+      "words": [
         {
           "text": "They",
           "start": 515.72,
@@ -233,7 +281,7 @@
       ]
     },
     {
-      "id": "101",
+      "id": "133",
       "text": "Three to ask about by name, a medical baseline rate, if anybody in the home runs medical equipment,",
       "start": 517.37,
       "end": 523.93,
@@ -332,7 +380,7 @@
       ]
     },
     {
-      "id": "102",
+      "id": "134",
       "text": "a low income or discount rate, and most states have one and the income limits run higher than people expect.",
       "start": 523.93,
       "end": 530.55,
@@ -441,7 +489,7 @@
       ]
     },
     {
-      "id": "103",
+      "id": "135",
       "text": "And time of use against flat rate, because whichever one you're on, the other might fit your household better.",
       "start": 530.73,
       "end": 537.03,
@@ -545,7 +593,7 @@
       ]
     },
     {
-      "id": "104",
+      "id": "136",
       "text": "20 to $60 a month for a great many households.",
       "start": 537.03,
       "end": 540.49,
@@ -604,11 +652,11 @@
       ]
     },
     {
-      "id": "105",
-      "text": "One phone call, nothing to buy. Number two.",
+      "id": "137",
+      "text": "One phone call, nothing to buy.",
       "start": 540.49,
-      "end": 543.71,
-      "durationSeconds": 3.22,
+      "end": 542.83,
+      "durationSeconds": 2.34,
       "words": [
         {
           "text": "One",
@@ -639,7 +687,16 @@
           "text": "buy.",
           "start": 542.41,
           "end": 542.83
-        },
+        }
+      ]
+    },
+    {
+      "id": "138",
+      "text": "Number two. Peak pricing.",
+      "start": 542.83,
+      "end": 544.93,
+      "durationSeconds": 2.1,
+      "words": [
         {
           "text": "Number",
           "start": 542.83,
@@ -649,16 +706,7 @@
           "text": "two.",
           "start": 543.56,
           "end": 543.71
-        }
-      ]
-    },
-    {
-      "id": "106",
-      "text": "Peak pricing. Shrink it. If you're on a time of use rate, the same kilowatt hour costs two or three times more between roughly four and nine in the evening",
-      "start": 543.81,
-      "end": 553.26,
-      "durationSeconds": 9.45,
-      "words": [
+        },
         {
           "text": "Peak",
           "start": 543.81,
@@ -668,7 +716,16 @@
           "text": "pricing.",
           "start": 544.11,
           "end": 544.93
-        },
+        }
+      ]
+    },
+    {
+      "id": "139",
+      "text": "Shrink it. If you're on a time of use rate, the same kilowatt hour costs two or three times more between roughly",
+      "start": 544.93,
+      "end": 551.6,
+      "durationSeconds": 6.67,
+      "words": [
         {
           "text": "Shrink",
           "start": 544.93,
@@ -778,7 +835,16 @@
           "text": "roughly",
           "start": 551.17,
           "end": 551.6
-        },
+        }
+      ]
+    },
+    {
+      "id": "140",
+      "text": "four and nine in the evening than it does at any other hour of the day.",
+      "start": 551.6,
+      "end": 555.95,
+      "durationSeconds": 4.35,
+      "words": [
         {
           "text": "four",
           "start": 551.6,
@@ -808,16 +874,7 @@
           "text": "evening",
           "start": 552.71,
           "end": 553.26
-        }
-      ]
-    },
-    {
-      "id": "107",
-      "text": "than it does at any other hour of the day. Same power, same wire, same house.",
-      "start": 553.26,
-      "end": 558.64,
-      "durationSeconds": 5.38,
-      "words": [
+        },
         {
           "text": "than",
           "start": 553.26,
@@ -867,7 +924,16 @@
           "text": "day.",
           "start": 555.49,
           "end": 555.95
-        },
+        }
+      ]
+    },
+    {
+      "id": "141",
+      "text": "Same power, same wire, same house.",
+      "start": 555.95,
+      "end": 558.64,
+      "durationSeconds": 2.69,
+      "words": [
         {
           "text": "Same",
           "start": 555.95,
@@ -901,11 +967,11 @@
       ]
     },
     {
-      "id": "108",
-      "text": "The clock is the only difference. Dishwasher after nine.",
+      "id": "142",
+      "text": "The clock is the only difference.",
       "start": 558.68,
-      "end": 562.4,
-      "durationSeconds": 3.72,
+      "end": 560.8,
+      "durationSeconds": 2.12,
       "words": [
         {
           "text": "The",
@@ -936,7 +1002,16 @@
           "text": "difference.",
           "start": 559.85,
           "end": 560.8
-        },
+        }
+      ]
+    },
+    {
+      "id": "143",
+      "text": "Dishwasher after nine.",
+      "start": 560.8,
+      "end": 562.4,
+      "durationSeconds": 1.6,
+      "words": [
         {
           "text": "Dishwasher",
           "start": 560.8,
@@ -955,7 +1030,7 @@
       ]
     },
     {
-      "id": "109",
+      "id": "144",
       "text": "Laundry in the morning. Charge the car overnight.",
       "start": 562.4,
       "end": 565.6,
@@ -1004,11 +1079,11 @@
       ]
     },
     {
-      "id": "110",
-      "text": "And if you cook at six, well, you cook at six. That's your life, and I'm not going to sit here and tell you to eat at 10.",
+      "id": "145",
+      "text": "And if you cook at six, well, you cook at six.",
       "start": 565.77,
-      "end": 572.35,
-      "durationSeconds": 6.58,
+      "end": 568.24,
+      "durationSeconds": 2.47,
       "words": [
         {
           "text": "And",
@@ -1064,7 +1139,16 @@
           "text": "six.",
           "start": 567.96,
           "end": 568.24
-        },
+        }
+      ]
+    },
+    {
+      "id": "146",
+      "text": "That's your life, and I'm not going to sit here and tell you to eat at 10.",
+      "start": 568.43,
+      "end": 572.35,
+      "durationSeconds": 3.92,
+      "words": [
         {
           "text": "That's",
           "start": 568.43,
@@ -1153,7 +1237,7 @@
       ]
     },
     {
-      "id": "111",
+      "id": "147",
       "text": "My grandmother did her washing Monday mornings, and my whole childhood, I thought that was tradition.",
       "start": 572.35,
       "end": 578.12,
@@ -1242,11 +1326,11 @@
       ]
     },
     {
-      "id": "112",
-      "text": "It wasn't. It was rate structure. She was doing the exact thing I'm asking you to do 90 years ago, and nobody had to tell her twice.",
+      "id": "148",
+      "text": "It wasn't. It was rate structure.",
       "start": 578.12,
-      "end": 586.63,
-      "durationSeconds": 8.51,
+      "end": 580.24,
+      "durationSeconds": 2.12,
       "words": [
         {
           "text": "It",
@@ -1277,7 +1361,16 @@
           "text": "structure.",
           "start": 579.8,
           "end": 580.24
-        },
+        }
+      ]
+    },
+    {
+      "id": "149",
+      "text": "She was doing the exact thing I'm asking you to do 90 years ago, and nobody had to tell her twice.",
+      "start": 580.24,
+      "end": 586.63,
+      "durationSeconds": 6.39,
+      "words": [
         {
           "text": "She",
           "start": 580.24,
@@ -1386,11 +1479,11 @@
       ]
     },
     {
-      "id": "113",
-      "text": "Number one. The third party supplier. Kill it.",
+      "id": "150",
+      "text": "Number one. The third party supplier.",
       "start": 586.63,
-      "end": 590.19,
-      "durationSeconds": 3.56,
+      "end": 589.43,
+      "durationSeconds": 2.8,
       "words": [
         {
           "text": "Number",
@@ -1421,7 +1514,16 @@
           "text": "supplier.",
           "start": 588.73,
           "end": 589.43
-        },
+        }
+      ]
+    },
+    {
+      "id": "151",
+      "text": "Kill it. Here it is.",
+      "start": 589.46,
+      "end": 591.07,
+      "durationSeconds": 1.61,
+      "words": [
         {
           "text": "Kill",
           "start": 589.46,
@@ -1431,16 +1533,7 @@
           "text": "it.",
           "start": 589.78,
           "end": 590.19
-        }
-      ]
-    },
-    {
-      "id": "114",
-      "text": "Here it is. Find the section of your bill marked supply, not delivery supply, and look at the company name printed there.",
-      "start": 590.19,
-      "end": 598.09,
-      "durationSeconds": 7.9,
-      "words": [
+        },
         {
           "text": "Here",
           "start": 590.19,
@@ -1455,7 +1548,16 @@
           "text": "is.",
           "start": 590.68,
           "end": 591.07
-        },
+        }
+      ]
+    },
+    {
+      "id": "152",
+      "text": "Find the section of your bill marked supply, not delivery supply,",
+      "start": 591.07,
+      "end": 595.68,
+      "durationSeconds": 4.61,
+      "words": [
         {
           "text": "Find",
           "start": 591.07,
@@ -1510,7 +1612,16 @@
           "text": "supply,",
           "start": 595.08,
           "end": 595.68
-        },
+        }
+      ]
+    },
+    {
+      "id": "153",
+      "text": "and look at the company name printed there.",
+      "start": 595.85,
+      "end": 598.09,
+      "durationSeconds": 2.24,
+      "words": [
         {
           "text": "and",
           "start": 595.85,
@@ -1554,11 +1665,11 @@
       ]
     },
     {
-      "id": "115",
-      "text": "If it's a company you've never heard of, one that knocked on your door a few years back or called you at dinner promising to save you money,",
+      "id": "154",
+      "text": "If it's a company you've never heard of, one that knocked on your door a few years back or called you at dinner promising to save you",
       "start": 598.09,
-      "end": 605.12,
-      "durationSeconds": 7.03,
+      "end": 604.57,
+      "durationSeconds": 6.48,
       "words": [
         {
           "text": "If",
@@ -1694,21 +1805,21 @@
           "text": "you",
           "start": 604.42,
           "end": 604.57
-        },
-        {
-          "text": "money,",
-          "start": 604.84,
-          "end": 605.12
         }
       ]
     },
     {
-      "id": "116",
-      "text": "then you're with a third party supplier, and there's a real chance you're paying well above your utility's own default rate for identical electricity down the identical wire",
-      "start": 605.12,
-      "end": 614.76,
-      "durationSeconds": 9.64,
+      "id": "155",
+      "text": "money, then you're with a third party supplier, and there's a real chance you're paying well above your utility's own default",
+      "start": 604.84,
+      "end": 611.32,
+      "durationSeconds": 6.48,
       "words": [
+        {
+          "text": "money,",
+          "start": 604.84,
+          "end": 605.12
+        },
         {
           "text": "then",
           "start": 605.12,
@@ -1808,7 +1919,16 @@
           "text": "default",
           "start": 610.85,
           "end": 611.32
-        },
+        }
+      ]
+    },
+    {
+      "id": "156",
+      "text": "rate for identical electricity down the identical wire into the same house.",
+      "start": 611.41,
+      "end": 616.08,
+      "durationSeconds": 4.67,
+      "words": [
         {
           "text": "rate",
           "start": 611.41,
@@ -1848,16 +1968,7 @@
           "text": "wire",
           "start": 614.14,
           "end": 614.76
-        }
-      ]
-    },
-    {
-      "id": "117",
-      "text": "into the same house. This isn't a theory, and I'm not guessing.",
-      "start": 614.76,
-      "end": 619.57,
-      "durationSeconds": 4.81,
-      "words": [
+        },
         {
           "text": "into",
           "start": 614.76,
@@ -1877,7 +1988,16 @@
           "text": "house.",
           "start": 615.43,
           "end": 616.08
-        },
+        }
+      ]
+    },
+    {
+      "id": "157",
+      "text": "This isn't a theory, and I'm not guessing.",
+      "start": 616.08,
+      "end": 619.57,
+      "durationSeconds": 3.49,
+      "words": [
         {
           "text": "This",
           "start": 616.08,
@@ -1921,11 +2041,11 @@
       ]
     },
     {
-      "id": "118",
-      "text": "In Connecticut, a state consumer council report found 86% of one utility's third party supply customers paid more than the standard rate,",
+      "id": "158",
+      "text": "In Connecticut, a state consumer council report found 86% of one utility's third party supply customers",
       "start": 619.57,
-      "end": 628.76,
-      "durationSeconds": 9.19,
+      "end": 626.67,
+      "durationSeconds": 7.1,
       "words": [
         {
           "text": "In",
@@ -2006,7 +2126,16 @@
           "text": "customers",
           "start": 626.25,
           "end": 626.67
-        },
+        }
+      ]
+    },
+    {
+      "id": "159",
+      "text": "paid more than the standard rate, 86%.",
+      "start": 626.67,
+      "end": 629.6,
+      "durationSeconds": 2.93,
+      "words": [
         {
           "text": "paid",
           "start": 626.67,
@@ -2036,21 +2165,21 @@
           "text": "rate,",
           "start": 628.35,
           "end": 628.76
-        }
-      ]
-    },
-    {
-      "id": "119",
-      "text": "86%. In New York this past April, regulators made nine affiliated suppliers return roughly $50 million to about 278,000",
-      "start": 628.76,
-      "end": 639.44,
-      "durationSeconds": 10.68,
-      "words": [
+        },
         {
           "text": "86%.",
           "start": 628.76,
           "end": 629.6
-        },
+        }
+      ]
+    },
+    {
+      "id": "160",
+      "text": "In New York this past April, regulators made nine affiliated suppliers return roughly",
+      "start": 629.6,
+      "end": 636.27,
+      "durationSeconds": 6.67,
+      "words": [
         {
           "text": "In",
           "start": 629.6,
@@ -2115,7 +2244,16 @@
           "text": "roughly",
           "start": 636.12,
           "end": 636.27
-        },
+        }
+      ]
+    },
+    {
+      "id": "161",
+      "text": "$50 million to about 278,000 households.",
+      "start": 636.35,
+      "end": 640.4,
+      "durationSeconds": 4.05,
+      "words": [
         {
           "text": "$50",
           "start": 636.35,
@@ -2140,21 +2278,21 @@
           "text": "278,000",
           "start": 638.2,
           "end": 639.44
-        }
-      ]
-    },
-    {
-      "id": "120",
-      "text": "households. The pattern's always the same. A low rate for two or three months, then it moves, and it keeps moving,",
-      "start": 639.61,
-      "end": 646.87,
-      "durationSeconds": 7.26,
-      "words": [
+        },
         {
           "text": "households.",
           "start": 639.61,
           "end": 640.4
-        },
+        }
+      ]
+    },
+    {
+      "id": "162",
+      "text": "The pattern's always the same.",
+      "start": 640.4,
+      "end": 642.44,
+      "durationSeconds": 2.04,
+      "words": [
         {
           "text": "The",
           "start": 640.4,
@@ -2179,7 +2317,16 @@
           "text": "same.",
           "start": 641.93,
           "end": 642.44
-        },
+        }
+      ]
+    },
+    {
+      "id": "163",
+      "text": "A low rate for two or three months, then it moves, and it keeps moving, and nobody writes to tell you.",
+      "start": 642.44,
+      "end": 648.58,
+      "durationSeconds": 6.14,
+      "words": [
         {
           "text": "A",
           "start": 642.44,
@@ -2254,16 +2401,7 @@
           "text": "moving,",
           "start": 646.38,
           "end": 646.87
-        }
-      ]
-    },
-    {
-      "id": "121",
-      "text": "and nobody writes to tell you. Here's how you check, and it takes 30 seconds.",
-      "start": 646.97,
-      "end": 651.47,
-      "durationSeconds": 4.5,
-      "words": [
+        },
         {
           "text": "and",
           "start": 646.97,
@@ -2293,7 +2431,16 @@
           "text": "you.",
           "start": 648.2,
           "end": 648.58
-        },
+        }
+      ]
+    },
+    {
+      "id": "164",
+      "text": "Here's how you check, and it takes 30 seconds.",
+      "start": 648.59,
+      "end": 651.47,
+      "durationSeconds": 2.88,
+      "words": [
         {
           "text": "Here's",
           "start": 648.59,
@@ -2342,7 +2489,7 @@
       ]
     },
     {
-      "id": "122",
+      "id": "165",
       "text": "Your bill prints your supply rate in cents per kilowatt hour.",
       "start": 651.85,
       "end": 655.19,
@@ -2406,7 +2553,7 @@
       ]
     },
     {
-      "id": "123",
+      "id": "166",
       "text": "Your utility publishes its own default rate on its website.",
       "start": 655.39,
       "end": 659.25,
@@ -2465,11 +2612,11 @@
       ]
     },
     {
-      "id": "124",
-      "text": "Put the two side by side. If yours is higher, you can switch back to the default, and in most states that's free and takes one billing cycle.",
+      "id": "167",
+      "text": "Put the two side by side.",
       "start": 659.29,
-      "end": 667.64,
-      "durationSeconds": 8.35,
+      "end": 660.99,
+      "durationSeconds": 1.7,
       "words": [
         {
           "text": "Put",
@@ -2500,7 +2647,16 @@
           "text": "side.",
           "start": 660.44,
           "end": 660.99
-        },
+        }
+      ]
+    },
+    {
+      "id": "168",
+      "text": "If yours is higher, you can switch back to the default, and in most states that's free and takes one billing cycle.",
+      "start": 660.99,
+      "end": 667.64,
+      "durationSeconds": 6.65,
+      "words": [
         {
           "text": "If",
           "start": 660.99,
@@ -2610,580 +2766,6 @@
           "text": "cycle.",
           "start": 667.1,
           "end": 667.64
-        }
-      ]
-    },
-    {
-      "id": "125",
-      "text": "Some households find $8 or $10, some find $60, and some find out they've been overpaying for 11 years.",
-      "start": 667.64,
-      "end": 675.29,
-      "durationSeconds": 7.65,
-      "words": [
-        {
-          "text": "Some",
-          "start": 667.64,
-          "end": 667.91
-        },
-        {
-          "text": "households",
-          "start": 667.91,
-          "end": 668.29
-        },
-        {
-          "text": "find",
-          "start": 668.68,
-          "end": 669
-        },
-        {
-          "text": "$8",
-          "start": 669.11,
-          "end": 669.33
-        },
-        {
-          "text": "or",
-          "start": 669.33,
-          "end": 669.48
-        },
-        {
-          "text": "$10,",
-          "start": 669.48,
-          "end": 670.15
-        },
-        {
-          "text": "some",
-          "start": 670.15,
-          "end": 670.42
-        },
-        {
-          "text": "find",
-          "start": 670.52,
-          "end": 670.72
-        },
-        {
-          "text": "$60,",
-          "start": 670.73,
-          "end": 671.42
-        },
-        {
-          "text": "and",
-          "start": 671.42,
-          "end": 671.64
-        },
-        {
-          "text": "some",
-          "start": 671.64,
-          "end": 671.92
-        },
-        {
-          "text": "find",
-          "start": 672.01,
-          "end": 672.24
-        },
-        {
-          "text": "out",
-          "start": 672.24,
-          "end": 672.45
-        },
-        {
-          "text": "they've",
-          "start": 672.45,
-          "end": 672.98
-        },
-        {
-          "text": "been",
-          "start": 673.16,
-          "end": 673.28
-        },
-        {
-          "text": "overpaying",
-          "start": 673.28,
-          "end": 673.89
-        },
-        {
-          "text": "for",
-          "start": 673.89,
-          "end": 674.28
-        },
-        {
-          "text": "11",
-          "start": 674.28,
-          "end": 674.6
-        },
-        {
-          "text": "years.",
-          "start": 674.6,
-          "end": 675.29
-        }
-      ]
-    },
-    {
-      "id": "126",
-      "text": "Now, an honest word, because I won't leave you holding a number I can't stand behind.",
-      "start": 675.29,
-      "end": 680.4,
-      "durationSeconds": 5.11,
-      "words": [
-        {
-          "text": "Now,",
-          "start": 675.29,
-          "end": 675.76
-        },
-        {
-          "text": "an",
-          "start": 675.76,
-          "end": 675.99
-        },
-        {
-          "text": "honest",
-          "start": 676.01,
-          "end": 676.39
-        },
-        {
-          "text": "word,",
-          "start": 676.39,
-          "end": 676.96
-        },
-        {
-          "text": "because",
-          "start": 677.13,
-          "end": 677.39
-        },
-        {
-          "text": "I",
-          "start": 677.39,
-          "end": 677.45
-        },
-        {
-          "text": "won't",
-          "start": 677.45,
-          "end": 677.75
-        },
-        {
-          "text": "leave",
-          "start": 677.75,
-          "end": 678.06
-        },
-        {
-          "text": "you",
-          "start": 678.06,
-          "end": 678.24
-        },
-        {
-          "text": "holding",
-          "start": 678.24,
-          "end": 678.64
-        },
-        {
-          "text": "a",
-          "start": 678.66,
-          "end": 678.68
-        },
-        {
-          "text": "number",
-          "start": 679.05,
-          "end": 679.1
-        },
-        {
-          "text": "I",
-          "start": 679.1,
-          "end": 679.16
-        },
-        {
-          "text": "can't",
-          "start": 679.16,
-          "end": 679.46
-        },
-        {
-          "text": "stand",
-          "start": 679.46,
-          "end": 679.6
-        },
-        {
-          "text": "behind.",
-          "start": 679.79,
-          "end": 680.4
-        }
-      ]
-    },
-    {
-      "id": "127",
-      "text": "You will not remove all 14. Nobody does.",
-      "start": 680.4,
-      "end": 683.43,
-      "durationSeconds": 3.03,
-      "words": [
-        {
-          "text": "You",
-          "start": 680.4,
-          "end": 680.47
-        },
-        {
-          "text": "will",
-          "start": 680.62,
-          "end": 680.89
-        },
-        {
-          "text": "not",
-          "start": 681.08,
-          "end": 681.1
-        },
-        {
-          "text": "remove",
-          "start": 681.1,
-          "end": 681.52
-        },
-        {
-          "text": "all",
-          "start": 681.52,
-          "end": 681.75
-        },
-        {
-          "text": "14.",
-          "start": 681.75,
-          "end": 682.52
-        },
-        {
-          "text": "Nobody",
-          "start": 682.52,
-          "end": 682.64
-        },
-        {
-          "text": "does.",
-          "start": 683.13,
-          "end": 683.43
-        }
-      ]
-    },
-    {
-      "id": "128",
-      "text": "Three of them cannot be removed at all, and I told you that at the start instead of the end.",
-      "start": 683.43,
-      "end": 688.62,
-      "durationSeconds": 5.19,
-      "words": [
-        {
-          "text": "Three",
-          "start": 683.43,
-          "end": 683.77
-        },
-        {
-          "text": "of",
-          "start": 683.77,
-          "end": 683.9
-        },
-        {
-          "text": "them",
-          "start": 683.9,
-          "end": 684.07
-        },
-        {
-          "text": "cannot",
-          "start": 684.17,
-          "end": 684.57
-        },
-        {
-          "text": "be",
-          "start": 684.57,
-          "end": 684.66
-        },
-        {
-          "text": "removed",
-          "start": 685.05,
-          "end": 685.17
-        },
-        {
-          "text": "at",
-          "start": 685.17,
-          "end": 685.24
-        },
-        {
-          "text": "all,",
-          "start": 685.3,
-          "end": 685.6
-        },
-        {
-          "text": "and",
-          "start": 685.77,
-          "end": 685.83
-        },
-        {
-          "text": "I",
-          "start": 685.83,
-          "end": 685.93
-        },
-        {
-          "text": "told",
-          "start": 685.93,
-          "end": 686.16
-        },
-        {
-          "text": "you",
-          "start": 686.16,
-          "end": 686.36
-        },
-        {
-          "text": "that",
-          "start": 686.36,
-          "end": 686.47
-        },
-        {
-          "text": "at",
-          "start": 686.62,
-          "end": 686.76
-        },
-        {
-          "text": "the",
-          "start": 686.76,
-          "end": 686.96
-        },
-        {
-          "text": "start",
-          "start": 687.08,
-          "end": 687.23
-        },
-        {
-          "text": "instead",
-          "start": 687.33,
-          "end": 687.76
-        },
-        {
-          "text": "of",
-          "start": 687.76,
-          "end": 687.93
-        },
-        {
-          "text": "the",
-          "start": 688.2,
-          "end": 688.26
-        },
-        {
-          "text": "end.",
-          "start": 688.26,
-          "end": 688.62
-        }
-      ]
-    },
-    {
-      "id": "129",
-      "text": "And if you work this whole list and find you're on the right rate, buying from the utility itself, no rentals, no opt-out fee,",
-      "start": 688.97,
-      "end": 696.06,
-      "durationSeconds": 7.09,
-      "words": [
-        {
-          "text": "And",
-          "start": 688.97,
-          "end": 688.98
-        },
-        {
-          "text": "if",
-          "start": 688.99,
-          "end": 689.1
-        },
-        {
-          "text": "you",
-          "start": 689.1,
-          "end": 689.28
-        },
-        {
-          "text": "work",
-          "start": 689.28,
-          "end": 689.48
-        },
-        {
-          "text": "this",
-          "start": 689.57,
-          "end": 689.76
-        },
-        {
-          "text": "whole",
-          "start": 689.76,
-          "end": 690.06
-        },
-        {
-          "text": "list",
-          "start": 690.07,
-          "end": 690.31
-        },
-        {
-          "text": "and",
-          "start": 690.31,
-          "end": 690.48
-        },
-        {
-          "text": "find",
-          "start": 690.48,
-          "end": 690.52
-        },
-        {
-          "text": "you're",
-          "start": 690.89,
-          "end": 691.08
-        },
-        {
-          "text": "on",
-          "start": 691.16,
-          "end": 691.21
-        },
-        {
-          "text": "the",
-          "start": 691.21,
-          "end": 691.38
-        },
-        {
-          "text": "right",
-          "start": 691.38,
-          "end": 691.67
-        },
-        {
-          "text": "rate,",
-          "start": 691.77,
-          "end": 692.16
-        },
-        {
-          "text": "buying",
-          "start": 692.16,
-          "end": 692.31
-        },
-        {
-          "text": "from",
-          "start": 692.46,
-          "end": 692.64
-        },
-        {
-          "text": "the",
-          "start": 692.64,
-          "end": 692.8
-        },
-        {
-          "text": "utility",
-          "start": 692.92,
-          "end": 693.53
-        },
-        {
-          "text": "itself,",
-          "start": 693.53,
-          "end": 694.16
-        },
-        {
-          "text": "no",
-          "start": 694.16,
-          "end": 694.33
-        },
-        {
-          "text": "rentals,",
-          "start": 694.33,
-          "end": 695
-        },
-        {
-          "text": "no",
-          "start": 695,
-          "end": 695.15
-        },
-        {
-          "text": "opt-out",
-          "start": 695.15,
-          "end": 695.68
-        },
-        {
-          "text": "fee,",
-          "start": 695.68,
-          "end": 696.06
-        }
-      ]
-    },
-    {
-      "id": "130",
-      "text": "then your bill is high because power is expensive right now, and no phone call fixes that.",
-      "start": 696.25,
-      "end": 701.62,
-      "durationSeconds": 5.37,
-      "words": [
-        {
-          "text": "then",
-          "start": 696.25,
-          "end": 696.37
-        },
-        {
-          "text": "your",
-          "start": 696.37,
-          "end": 696.67
-        },
-        {
-          "text": "bill",
-          "start": 696.67,
-          "end": 696.98
-        },
-        {
-          "text": "is",
-          "start": 696.99,
-          "end": 697.14
-        },
-        {
-          "text": "high",
-          "start": 697.14,
-          "end": 697.45
-        },
-        {
-          "text": "because",
-          "start": 697.45,
-          "end": 697.67
-        },
-        {
-          "text": "power",
-          "start": 698.27,
-          "end": 698.37
-        },
-        {
-          "text": "is",
-          "start": 698.37,
-          "end": 698.43
-        },
-        {
-          "text": "expensive",
-          "start": 698.53,
-          "end": 699.01
-        },
-        {
-          "text": "right",
-          "start": 699.4,
-          "end": 699.59
-        },
-        {
-          "text": "now,",
-          "start": 699.59,
-          "end": 699.92
-        },
-        {
-          "text": "and",
-          "start": 700.09,
-          "end": 700.12
-        },
-        {
-          "text": "no",
-          "start": 700.12,
-          "end": 700.25
-        },
-        {
-          "text": "phone",
-          "start": 700.25,
-          "end": 700.59
-        },
-        {
-          "text": "call",
-          "start": 700.59,
-          "end": 700.86
-        },
-        {
-          "text": "fixes",
-          "start": 700.86,
-          "end": 701.2
-        },
-        {
-          "text": "that.",
-          "start": 701.2,
-          "end": 701.62
         }
       ]
     }

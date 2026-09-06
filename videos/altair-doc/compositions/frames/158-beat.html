@@ -1,0 +1,184 @@
+<template>
+  <style>
+    #root {
+      width: 1920px;
+      height: 1080px;
+      position: relative;
+      overflow: hidden;
+      font-family: -apple-system, "Inter", "Helvetica Neue", sans-serif;
+    }
+    .f158-bg {
+      position: absolute;
+      inset: 0;
+      background: #0b0b0d;
+    }
+    .f158-stage {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 1920px;
+      height: 900px;
+    }
+    .f158-grid {
+      position: absolute;
+      left: 210px;
+      top: 214px;
+      width: 620px;
+      height: 620px;
+      display: grid;
+      grid-template-columns: repeat(10, 1fr);
+      grid-template-rows: repeat(10, 1fr);
+      gap: 10px;
+    }
+    .f158-cell {
+      border-radius: 3px;
+      background: #1e1f24;
+    }
+    .f158-cell-hot {
+      background: #e0685a;
+      opacity: 0;
+    }
+    .f158-right {
+      position: absolute;
+      left: 950px;
+      top: 250px;
+      width: 800px;
+    }
+    .f158-kicker {
+      font-size: 24px;
+      font-weight: 600;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: #f2f2f0;
+      opacity: 0;
+    }
+    .f158-num {
+      margin-top: 26px;
+      font-size: 200px;
+      font-weight: 800;
+      line-height: 1;
+      letter-spacing: -0.03em;
+      color: #e0685a;
+      opacity: 0;
+    }
+    .f158-label {
+      margin-top: 24px;
+      font-size: 34px;
+      font-weight: 600;
+      line-height: 1.25;
+      color: #f2f2f0;
+      opacity: 0;
+    }
+    .f158-label em {
+      font-style: normal;
+      color: #e0685a;
+    }
+    .f158-rule {
+      margin-top: 34px;
+      width: 0px;
+      height: 2px;
+      background: rgba(242, 242, 240, 0.28);
+    }
+    .f158-source {
+      margin-top: 18px;
+      font-size: 22px;
+      font-weight: 500;
+      letter-spacing: 0.04em;
+      color: rgba(242, 242, 240, 0.72);
+      opacity: 0;
+    }
+  </style>
+
+  <div
+    id="root"
+    data-composition-id="158-beat"
+    data-width="1920" data-height="1080" data-duration="7.1"
+  >
+    <div class="f158-bg clip" data-start="0" data-duration="7.10" data-track-index="0"></div>
+
+    <div class="f158-stage clip" data-start="0" data-duration="7.10" data-track-index="1">
+      <div class="f158-grid" id="f158-grid"></div>
+
+      <div class="f158-right">
+        <div class="f158-kicker" id="f158-kicker">Connecticut &middot; third-party supply</div>
+        <div class="f158-num" id="f158-num">0%</div>
+        <div class="f158-label" id="f158-label">of one utility&rsquo;s customers paid <em>MORE</em><br>than the standard rate</div>
+        <div class="f158-rule" id="f158-rule"></div>
+        <div class="f158-source" id="f158-source">Connecticut consumer counsel report</div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    (function () {
+      window.__timelines = window.__timelines || {};
+
+      var grid = document.getElementById("f158-grid");
+      var cells = [];
+      for (var i = 0; i < 100; i++) {
+        var c = document.createElement("div");
+        c.className = "f158-cell";
+        var hot = document.createElement("div");
+        hot.className = "f158-cell-hot";
+        hot.style.position = "absolute";
+        hot.style.inset = "0";
+        hot.style.borderRadius = "3px";
+        c.style.position = "relative";
+        c.appendChild(hot);
+        grid.appendChild(c);
+        cells.push(hot);
+      }
+      // fill order: bottom-left upward, column by column — 86 of 100
+      var order = [];
+      for (var col = 0; col < 10; col++) {
+        for (var row = 9; row >= 0; row--) {
+          order.push(cells[row * 10 + col]);
+        }
+      }
+      var hotCells = order.slice(0, 86);
+
+      var counter = { v: 0 };
+      var numEl = document.getElementById("f158-num");
+
+      var tl = gsap.timeline({ paused: true });
+
+      tl.fromTo("#f158-grid",
+        { opacity: 0, y: 18 },
+        { opacity: 1, y: 0, duration: 0.6, ease: "power2.out" }, 0.15);
+
+      tl.fromTo("#f158-kicker",
+        { opacity: 0, y: 14 },
+        { opacity: 0.9, y: 0, duration: 0.5, ease: "power2.out" }, 0.5);
+
+      // stat lands mid-beat: cells fill + counter climbs together
+      tl.to(hotCells, {
+        opacity: 1,
+        duration: 0.18,
+        ease: "none",
+        stagger: { each: 0.0165 }
+      }, 2.35);
+
+      tl.fromTo(numEl, { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.35, ease: "power2.out" }, 2.35);
+      tl.to(counter, {
+        v: 86,
+        duration: 1.62,
+        ease: "power1.out",
+        onUpdate: function () {
+          numEl.textContent = Math.round(counter.v) + "%";
+        }
+      }, 2.35);
+
+      tl.fromTo("#f158-label",
+        { opacity: 0, y: 16 },
+        { opacity: 1, y: 0, duration: 0.55, ease: "power2.out" }, 4.15);
+
+      tl.to("#f158-rule", { width: 520, duration: 0.6, ease: "power2.out" }, 4.75);
+
+      tl.fromTo("#f158-source",
+        { opacity: 0, y: 10 },
+        { opacity: 1, y: 0, duration: 0.5, ease: "power2.out" }, 5.15);
+
+      window.__timelines["158-beat"] = tl;
+    })();
+  </script>
+</template>

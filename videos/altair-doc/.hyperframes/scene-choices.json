@@ -1,17 +1,11 @@
 {
-"118": {
-  "type": "invented-scene",
-  "visualIdea": "A 100-dot grid on a dark ground. Dots fill one by one in pale coral until 86 of 100 are lit, the remaining 14 staying as dim outlines. A large counting '86%' resolves beside the grid, with a small caption 'of one utility's third-party supply customers paid MORE than the standard rate' and a quiet source line 'Connecticut Office of Consumer Counsel'. The proportion becoming visible IS the point — best real footage available was a generic 'person checking documents' shot that depicts nothing about this figure.",
-  "tone": "urgent"
-},
-"119": {
-  "type": "invented-scene",
-  "visualIdea": "Two numbers resolve in sequence on a dark ground: '$50,000,000' counting up, then beneath it '278,000 households' counting up, joined by a thin drawn connector rule. A small dateline chip reads 'New York — April'. Below, a single line: 'nine affiliated suppliers ordered to return'. The scale of the refund against the number of households is the entire point of the film's biggest number — best real footage was a state capitol building exterior, which depicts none of it.",
-  "tone": "urgent"
-},
-"124": {
-  "type": "invented-scene",
-  "visualIdea": "Two labeled rate cards sit side by side against a dark ground, mimicking two lines lifted off a bill: left 'YOUR SUPPLY RATE' with a placeholder figure in cents per kWh, right 'UTILITY DEFAULT RATE' with a lower one. A vertical divider draws down between them, then the left card's figure ticks visibly higher than the right and a thin bracket labels the gap 'the difference you're paying'. The narration says 'put the two side by side' verbatim — a stock shot of two coworkers discussing paperwork does not show a rate comparison.",
-  "tone": "urgent"
-}
+  "08": { "type": "invented-scene", "visualIdea": "A single horizontal bill-total bar labeled '$214'. A bracketed segment of it detaches and slides aside, labeled '$30–$60 · never touched a wire', leaving the remainder labeled 'actual electricity'. Clean editorial typography on a dark ground.", "tone": "neutral" },
+  "24": { "type": "invented-scene", "visualIdea": "Fourteen small numbered tiles in a grid, 14 down to 1. Six tiles flip to a struck-through 'KILL' state in sequence, counting up a tally that reads '6 you can kill'.", "tone": "neutral" },
+  "25": { "type": "invented-scene", "visualIdea": "The same 14-tile grid resolving into three labeled columns — KILL 6, SHRINK 5, STUCK 3 — tiles sliding into their column, the STUCK column locking with a subtle bolt/lock mark.", "tone": "neutral" },
+  "32": { "type": "invented-scene", "visualIdea": "Two large figures counting up on a dark ground: '$50,000,000' in refunds and '278,000' households, with a small subordinate line 'nine companies · one state · this April'.", "tone": "urgent" },
+  "39": { "type": "invented-scene", "visualIdea": "'$3/month' ticking across twelve small month markers and totalling to a large '$36 A YEAR'.", "tone": "neutral" },
+  "51": { "type": "invented-scene", "visualIdea": "'$15/month' multiplying across twelve month markers into a large '$180 A YEAR', with a small caption 'for a box you don't remember checking'.", "tone": "urgent" },
+  "78": { "type": "invented-scene", "visualIdea": "A water-heater icon with a purchase price beneath it, and a rental charge accumulating over a 20-year timeline bar until the accumulated total crosses the price line four to five times over, each crossing marked.", "tone": "urgent" },
+  "158": { "type": "invented-scene", "visualIdea": "A hundred small squares; 86 of them fill in a warning colour as a counter climbs to '86%', with the label 'paid MORE than the standard rate' and a small source line 'Connecticut consumer counsel report'.", "tone": "urgent" },
+  "172": { "type": "invented-scene", "visualIdea": "The 14-tile grid again, now with 3 tiles clearly locked and greyed and the caption 'three cannot be removed — told you at the start'.", "tone": "solemn" }
 }

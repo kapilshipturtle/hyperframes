@@ -1,24 +1,785 @@
 {
-"01":"none","02":"none","03":"visible-detail","04":"none","05":"number","06":"number",
-"07":"contrast","08":"none","09":"date-or-place","10":"date-or-place","11":"none","12":"none",
-"13":"none","14":"quote","15":"number","16":"list","17":"none","18":"none","19":"none",
-"20":"none","21":"number","22":"new-topic","23":"new-topic","24":"visible-detail","25":"none",
-"26":"number","27":"none","28":"none","29":"new-topic","30":"number","31":"none","32":"none",
-"33":"visible-detail","34":"none","35":"number","36":"new-topic","37":"none","38":"quote",
-"39":"none","40":"none","41":"none","42":"new-topic","43":"none","44":"number","45":"none",
-"46":"none","47":"quote","48":"quote","49":"none","50":"none","51":"none","52":"new-topic",
-"53":"none","54":"none","55":"number","56":"none","57":"number","58":"visible-detail","59":"none",
-"60":"new-topic","61":"none","62":"none","63":"none","64":"none","65":"none","66":"new-topic",
-"67":"none","68":"none","69":"none","70":"none","71":"new-topic","72":"none","73":"none",
-"74":"none","75":"list","76":"none","77":"none","78":"new-topic","79":"none","80":"none",
-"81":"none","82":"quote","83":"new-topic","84":"none","85":"none","86":"none","87":"none",
-"88":"new-topic","89":"none","90":"none","91":"none","92":"none","93":"list","94":"date-or-place",
-"95":"new-topic","96":"none","97":"none","98":"quote","99":"none","100":"quote","101":"list",
-"102":"none","103":"none","104":"number","105":"none","106":"number","107":"none","108":"none",
-"109":"none","110":"none","111":"none","112":"quote","113":"new-topic","114":"visible-detail",
-"115":"none","116":"none","117":"none","118":"number","119":"number","120":"none","121":"none",
-"122":"none","123":"none","124":"contrast","125":"number","126":"none","127":"none","128":"none",
-"129":"none","130":"none","131":"none","132":"none","133":"list","134":"numbered-item",
-"135":"numbered-item","136":"numbered-item","137":"numbered-item","138":"numbered-item",
-"139":"none","140":"quote","141":"none","142":"none","143":"none","144":"none","145":"none"
+ "10": {
+  "signal": "none"
+ },
+ "11": {
+  "signal": "none"
+ },
+ "12": {
+  "signal": "none"
+ },
+ "13": {
+  "signal": "none"
+ },
+ "14": {
+  "signal": "date-or-place",
+  "text": "1929–1939",
+  "archival": true
+ },
+ "15": {
+  "signal": "none"
+ },
+ "16": {
+  "signal": "date-or-place",
+  "text": "April 1934",
+  "archival": true
+ },
+ "17": {
+  "signal": "list",
+  "title": "One Line",
+  "bullets": [
+   "Kilowatt hours",
+   "A rate",
+   "A total"
+  ]
+ },
+ "18": {
+  "signal": "none"
+ },
+ "19": {
+  "signal": "none"
+ },
+ "20": {
+  "signal": "none"
+ },
+ "21": {
+  "signal": "none"
+ },
+ "22": {
+  "signal": "none"
+ },
+ "23": {
+  "signal": "none"
+ },
+ "24": {
+  "signal": "none"
+ },
+ "25": {
+  "signal": "contrast",
+  "title": "The Sort",
+  "bullets": [
+   "6 kill",
+   "5 shrink",
+   "3 stuck"
+  ]
+ },
+ "26": {
+  "signal": "none"
+ },
+ "27": {
+  "signal": "none"
+ },
+ "28": {
+  "signal": "none"
+ },
+ "29": {
+  "signal": "none"
+ },
+ "30": {
+  "signal": "none"
+ },
+ "31": {
+  "signal": "none"
+ },
+ "32": {
+  "signal": "number",
+  "headline": true,
+  "value": "$50M",
+  "label": "refunded to 278,000 households"
+ },
+ "33": {
+  "signal": "none"
+ },
+ "34": {
+  "signal": "numbered-item",
+  "value": "14",
+  "label": "Paper Bill Fee",
+  "verdict": "KILL"
+ },
+ "35": {
+  "signal": "none"
+ },
+ "36": {
+  "signal": "list",
+  "title": "Look For",
+  "bullets": [
+   "Paper statement",
+   "Billing fee",
+   "Convenience charge"
+  ]
+ },
+ "37": {
+  "signal": "none"
+ },
+ "38": {
+  "signal": "none"
+ },
+ "39": {
+  "signal": "number",
+  "headline": true,
+  "value": "$36",
+  "label": "a year"
+ },
+ "40": {
+  "signal": "none"
+ },
+ "41": {
+  "signal": "none"
+ },
+ "42": {
+  "signal": "none"
+ },
+ "43": {
+  "signal": "numbered-item",
+  "value": "13",
+  "label": "Smart Meter Opt-Out",
+  "verdict": "KILL"
+ },
+ "44": {
+  "signal": "none"
+ },
+ "45": {
+  "signal": "none"
+ },
+ "46": {
+  "signal": "none"
+ },
+ "47": {
+  "signal": "none"
+ },
+ "48": {
+  "signal": "none"
+ },
+ "49": {
+  "signal": "list",
+  "title": "Look For",
+  "bullets": [
+   "Opt-out",
+   "Manual read",
+   "Non-standard meter"
+  ]
+ },
+ "50": {
+  "signal": "none"
+ },
+ "51": {
+  "signal": "number",
+  "headline": true,
+  "value": "$180",
+  "label": "a year"
+ },
+ "52": {
+  "signal": "numbered-item",
+  "value": "12",
+  "label": "The Late Fee",
+  "verdict": "SHRINK"
+ },
+ "53": {
+  "signal": "none"
+ },
+ "54": {
+  "signal": "none"
+ },
+ "55": {
+  "signal": "none"
+ },
+ "56": {
+  "signal": "none"
+ },
+ "57": {
+  "signal": "none"
+ },
+ "58": {
+  "signal": "quote",
+  "text": "The problem was never your money. It was the date."
+ },
+ "59": {
+  "signal": "numbered-item",
+  "value": "11",
+  "label": "The Deposit",
+  "verdict": "KILL"
+ },
+ "60": {
+  "signal": "none"
+ },
+ "61": {
+  "signal": "none"
+ },
+ "62": {
+  "signal": "none"
+ },
+ "63": {
+  "signal": "none"
+ },
+ "64": {
+  "signal": "none"
+ },
+ "65": {
+  "signal": "none"
+ },
+ "66": {
+  "signal": "none"
+ },
+ "67": {
+  "signal": "quote",
+  "text": "A refund nobody claims is a refund nobody pays."
+ },
+ "68": {
+  "signal": "none"
+ },
+ "69": {
+  "signal": "none"
+ },
+ "70": {
+  "signal": "none"
+ },
+ "71": {
+  "signal": "none"
+ },
+ "72": {
+  "signal": "numbered-item",
+  "value": "10",
+  "label": "Equipment Rental",
+  "verdict": "KILL"
+ },
+ "73": {
+  "signal": "none"
+ },
+ "74": {
+  "signal": "none"
+ },
+ "75": {
+  "signal": "none"
+ },
+ "76": {
+  "signal": "none"
+ },
+ "77": {
+  "signal": "none"
+ },
+ "78": {
+  "signal": "number",
+  "headline": true,
+  "value": "4–5×",
+  "label": "you've bought it over"
+ },
+ "79": {
+  "signal": "list",
+  "title": "Look For",
+  "bullets": [
+   "Rental",
+   "Protection plan",
+   "Warranty",
+   "A name you don't know"
+  ]
+ },
+ "80": {
+  "signal": "none"
+ },
+ "81": {
+  "signal": "numbered-item",
+  "value": "9",
+  "label": "Franchise Fee",
+  "verdict": "STUCK"
+ },
+ "82": {
+  "signal": "none"
+ },
+ "83": {
+  "signal": "none"
+ },
+ "84": {
+  "signal": "none"
+ },
+ "85": {
+  "signal": "none"
+ },
+ "86": {
+  "signal": "none"
+ },
+ "87": {
+  "signal": "numbered-item",
+  "value": "8",
+  "label": "Utility Tax",
+  "verdict": "STUCK"
+ },
+ "88": {
+  "signal": "none"
+ },
+ "89": {
+  "signal": "none"
+ },
+ "90": {
+  "signal": "none"
+ },
+ "91": {
+  "signal": "none"
+ },
+ "92": {
+  "signal": "none"
+ },
+ "93": {
+  "signal": "numbered-item",
+  "value": "7",
+  "label": "Efficiency Surcharge",
+  "verdict": "SHRINK"
+ },
+ "94": {
+  "signal": "none"
+ },
+ "95": {
+  "signal": "list",
+  "title": "Same Line, Other Names",
+  "bullets": [
+   "Efficiency charge",
+   "Conservation charge",
+   "Public benefit fund"
+  ]
+ },
+ "96": {
+  "signal": "none"
+ },
+ "97": {
+  "signal": "none"
+ },
+ "98": {
+  "signal": "list",
+  "title": "You Already Paid For",
+  "bullets": [
+   "Home energy audits",
+   "Insulation & weather stripping",
+   "LED replacements",
+   "Appliance rebates"
+  ]
+ },
+ "99": {
+  "signal": "none"
+ },
+ "100": {
+  "signal": "none"
+ },
+ "101": {
+  "signal": "none"
+ },
+ "102": {
+  "signal": "numbered-item",
+  "value": "6",
+  "label": "Storm Recovery",
+  "verdict": "STUCK"
+ },
+ "103": {
+  "signal": "none"
+ },
+ "104": {
+  "signal": "none"
+ },
+ "105": {
+  "signal": "list",
+  "title": "Look For",
+  "bullets": [
+   "Storm recovery",
+   "Storm cost",
+   "Securitization charge"
+  ]
+ },
+ "106": {
+  "signal": "none"
+ },
+ "107": {
+  "signal": "none"
+ },
+ "108": {
+  "signal": "none"
+ },
+ "109": {
+  "signal": "numbered-item",
+  "value": "5",
+  "label": "Fuel Adjustment",
+  "verdict": "SHRINK"
+ },
+ "110": {
+  "signal": "none"
+ },
+ "111": {
+  "signal": "list",
+  "title": "Same Animal, Other Names",
+  "bullets": [
+   "Fuel adjustment",
+   "Power cost recovery",
+   "Purchased power adjustment"
+  ]
+ },
+ "112": {
+  "signal": "none"
+ },
+ "113": {
+  "signal": "none"
+ },
+ "114": {
+  "signal": "none"
+ },
+ "115": {
+  "signal": "none"
+ },
+ "116": {
+  "signal": "none"
+ },
+ "117": {
+  "signal": "numbered-item",
+  "value": "4",
+  "label": "Basic Service Charge",
+  "verdict": "SHRINK"
+ },
+ "118": {
+  "signal": "none"
+ },
+ "119": {
+  "signal": "none"
+ },
+ "120": {
+  "signal": "none"
+ },
+ "121": {
+  "signal": "none"
+ },
+ "122": {
+  "signal": "list",
+  "title": "Rate Classes",
+  "bullets": [
+   "Standard residential",
+   "Time of use",
+   "Low income",
+   "Medical",
+   "All-electric home"
+  ]
+ },
+ "123": {
+  "signal": "none"
+ },
+ "124": {
+  "signal": "none"
+ },
+ "125": {
+  "signal": "numbered-item",
+  "value": "3",
+  "label": "The Wrong Rate Class",
+  "verdict": "KILL"
+ },
+ "126": {
+  "signal": "none"
+ },
+ "127": {
+  "signal": "none"
+ },
+ "128": {
+  "signal": "none"
+ },
+ "129": {
+  "signal": "list",
+  "title": "Ask This Exactly",
+  "bullets": [
+   "What rate class am I on?",
+   "What else do I qualify for?",
+   "Compare my last 12 months on each"
+  ]
+ },
+ "130": {
+  "signal": "none"
+ },
+ "131": {
+  "signal": "none"
+ },
+ "132": {
+  "signal": "none"
+ },
+ "133": {
+  "signal": "list",
+  "title": "Ask By Name",
+  "bullets": [
+   "Medical baseline rate",
+   "Low income / discount rate",
+   "Time of use vs flat"
+  ]
+ },
+ "134": {
+  "signal": "none"
+ },
+ "135": {
+  "signal": "none"
+ },
+ "136": {
+  "signal": "number",
+  "headline": true,
+  "value": "$20–$60",
+  "label": "a month, for many households"
+ },
+ "137": {
+  "signal": "none"
+ },
+ "138": {
+  "signal": "numbered-item",
+  "value": "2",
+  "label": "Peak Pricing",
+  "verdict": "SHRINK"
+ },
+ "139": {
+  "signal": "number",
+  "value": "2–3×",
+  "label": "more, 4pm–9pm"
+ },
+ "140": {
+  "signal": "none"
+ },
+ "141": {
+  "signal": "quote",
+  "text": "Same power, same wire, same house."
+ },
+ "142": {
+  "signal": "none"
+ },
+ "143": {
+  "signal": "list",
+  "title": "Move The Clock",
+  "bullets": [
+   "Dishwasher after nine",
+   "Laundry in the morning",
+   "Charge the car overnight"
+  ]
+ },
+ "144": {
+  "signal": "none"
+ },
+ "145": {
+  "signal": "none"
+ },
+ "146": {
+  "signal": "none"
+ },
+ "147": {
+  "signal": "none"
+ },
+ "148": {
+  "signal": "quote",
+  "text": "It wasn't tradition. It was rate structure."
+ },
+ "149": {
+  "signal": "none"
+ },
+ "150": {
+  "signal": "numbered-item",
+  "value": "1",
+  "label": "Third-Party Supplier",
+  "verdict": "KILL"
+ },
+ "151": {
+  "signal": "none"
+ },
+ "152": {
+  "signal": "visible-detail",
+  "text": "SUPPLY — not delivery",
+  "target": {
+   "x": 50,
+   "y": 52
+  }
+ },
+ "153": {
+  "signal": "none"
+ },
+ "154": {
+  "signal": "none"
+ },
+ "155": {
+  "signal": "none"
+ },
+ "156": {
+  "signal": "none"
+ },
+ "157": {
+  "signal": "none"
+ },
+ "158": {
+  "signal": "number",
+  "headline": true,
+  "value": "86%",
+  "label": "paid more than the standard rate"
+ },
+ "159": {
+  "signal": "none"
+ },
+ "160": {
+  "signal": "none"
+ },
+ "161": {
+  "signal": "number",
+  "headline": true,
+  "value": "$50M",
+  "label": "to 278,000 households"
+ },
+ "162": {
+  "signal": "none"
+ },
+ "163": {
+  "signal": "none"
+ },
+ "164": {
+  "signal": "none"
+ },
+ "165": {
+  "signal": "none"
+ },
+ "166": {
+  "signal": "none"
+ },
+ "167": {
+  "signal": "contrast",
+  "title": "Put Them Side By Side",
+  "bullets": [
+   "Your supply rate",
+   "Utility default rate"
+  ]
+ },
+ "168": {
+  "signal": "none"
+ },
+ "169": {
+  "signal": "number",
+  "value": "$8 – $60",
+  "label": "what households find"
+ },
+ "170": {
+  "signal": "none"
+ },
+ "171": {
+  "signal": "none"
+ },
+ "172": {
+  "signal": "none"
+ },
+ "173": {
+  "signal": "none"
+ },
+ "174": {
+  "signal": "none"
+ },
+ "175": {
+  "signal": "none"
+ },
+ "176": {
+  "signal": "none"
+ },
+ "177": {
+  "signal": "none"
+ },
+ "178": {
+  "signal": "none"
+ },
+ "179": {
+  "signal": "none"
+ },
+ "180": {
+  "signal": "list",
+  "title": "The Five Questions",
+  "bullets": [
+   "1 · What rate class am I on?"
+  ]
+ },
+ "181": {
+  "signal": "list",
+  "title": "The Five Questions",
+  "bullets": [
+   "2 · Default supply or third-party?"
+  ]
+ },
+ "182": {
+  "signal": "list",
+  "title": "The Five Questions",
+  "bullets": [
+   "3 · Any rental, warranty, opt-out fee?"
+  ]
+ },
+ "183": {
+  "signal": "list",
+  "title": "The Five Questions",
+  "bullets": [
+   "4 · Are you holding a deposit?"
+  ]
+ },
+ "184": {
+  "signal": "list",
+  "title": "The Five Questions",
+  "bullets": [
+   "5 · Can I move my due date?"
+  ]
+ },
+ "185": {
+  "signal": "number",
+  "value": "12",
+  "label": "minutes"
+ },
+ "186": {
+  "signal": "none"
+ },
+ "187": {
+  "signal": "none"
+ },
+ "188": {
+  "signal": "none"
+ },
+ "189": {
+  "signal": "none"
+ },
+ "190": {
+  "signal": "none"
+ },
+ "191": {
+  "signal": "none"
+ },
+ "192": {
+  "signal": "none"
+ },
+ "193": {
+  "signal": "none"
+ },
+ "01": {
+  "signal": "none"
+ },
+ "02": {
+  "signal": "none"
+ },
+ "03": {
+  "signal": "none"
+ },
+ "04": {
+  "signal": "visible-detail",
+  "text": "the second page",
+  "target": {
+   "x": 58,
+   "y": 46
+  }
+ },
+ "05": {
+  "signal": "none"
+ },
+ "06": {
+  "signal": "number",
+  "value": "$214",
+  "label": "a July bill"
+ },
+ "07": {
+  "signal": "none"
+ },
+ "08": {
+  "signal": "number",
+  "headline": true,
+  "value": "$30–$60",
+  "label": "never touched a wire"
+ },
+ "09": {
+  "signal": "contrast",
+  "title": "What You're Paying For",
+  "bullets": [
+   "Power",
+   "Paperwork"
+  ]
+ }
 }

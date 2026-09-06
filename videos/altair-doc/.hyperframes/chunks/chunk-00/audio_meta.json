@@ -5,7 +5,7 @@
       "frame": 1,
       "path": "assets/audio/narration.mp3",
       "mediaStart": 0.16,
-      "duration_s": 5.92,
+      "duration_s": 1.98,
       "words": [
         {
           "text": "Go",
@@ -36,61 +36,69 @@
           "text": "bill.",
           "start": 1.46,
           "end": 1.98
-        },
-        {
-          "text": "Right",
-          "start": 1.98,
-          "end": 2.22
-        },
-        {
-          "text": "now,",
-          "start": 2.22,
-          "end": 2.47
-        },
-        {
-          "text": "before",
-          "start": 2.66,
-          "end": 3.02
-        },
-        {
-          "text": "we",
-          "start": 3.02,
-          "end": 3.2
-        },
-        {
-          "text": "start,",
-          "start": 3.2,
-          "end": 3.84
-        },
-        {
-          "text": "not",
-          "start": 3.96,
-          "end": 4.05
-        },
-        {
-          "text": "the",
-          "start": 4.05,
-          "end": 4.26
-        },
-        {
-          "text": "envelope,",
-          "start": 4.26,
-          "end": 4.88
-        },
-        {
-          "text": "the",
-          "start": 5.08,
-          "end": 5.24
-        },
-        {
-          "text": "bill.",
-          "start": 5.24,
-          "end": 5.92
         }
       ]
     },
     {
       "frame": 2,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 2.14,
+      "duration_s": 3.94,
+      "words": [
+        {
+          "text": "Right",
+          "start": 0,
+          "end": 0.24
+        },
+        {
+          "text": "now,",
+          "start": 0.24,
+          "end": 0.49
+        },
+        {
+          "text": "before",
+          "start": 0.68,
+          "end": 1.04
+        },
+        {
+          "text": "we",
+          "start": 1.04,
+          "end": 1.22
+        },
+        {
+          "text": "start,",
+          "start": 1.22,
+          "end": 1.86
+        },
+        {
+          "text": "not",
+          "start": 1.98,
+          "end": 2.07
+        },
+        {
+          "text": "the",
+          "start": 2.07,
+          "end": 2.28
+        },
+        {
+          "text": "envelope,",
+          "start": 2.28,
+          "end": 2.9
+        },
+        {
+          "text": "the",
+          "start": 3.1,
+          "end": 3.26
+        },
+        {
+          "text": "bill.",
+          "start": 3.26,
+          "end": 3.94
+        }
+      ]
+    },
+    {
+      "frame": 3,
       "path": "assets/audio/narration.mp3",
       "mediaStart": 6.25,
       "duration_s": 3.59,
@@ -163,7 +171,7 @@
       ]
     },
     {
-      "frame": 3,
+      "frame": 4,
       "path": "assets/audio/narration.mp3",
       "mediaStart": 9.84,
       "duration_s": 5.76,
@@ -261,7 +269,7 @@
       ]
     },
     {
-      "frame": 4,
+      "frame": 5,
       "path": "assets/audio/narration.mp3",
       "mediaStart": 15.6,
       "duration_s": 3.1,
@@ -314,7 +322,7 @@
       ]
     },
     {
-      "frame": 5,
+      "frame": 6,
       "path": "assets/audio/narration.mp3",
       "mediaStart": 18.7,
       "duration_s": 5.46,
@@ -387,10 +395,10 @@
       ]
     },
     {
-      "frame": 6,
+      "frame": 7,
       "path": "assets/audio/narration.mp3",
       "mediaStart": 24.16,
-      "duration_s": 6.57,
+      "duration_s": 1.6,
       "words": [
         {
           "text": "That",
@@ -411,84 +419,92 @@
           "text": "neighbor.",
           "start": 0.71,
           "end": 1.6
-        },
-        {
-          "text": "Somewhere",
-          "start": 1.77,
-          "end": 2.25
-        },
-        {
-          "text": "between",
-          "start": 2.25,
-          "end": 2.71
-        },
-        {
-          "text": "$30",
-          "start": 2.81,
-          "end": 3.26
-        },
-        {
-          "text": "and",
-          "start": 3.26,
-          "end": 3.31
-        },
-        {
-          "text": "$60",
-          "start": 3.45,
-          "end": 3.98
-        },
-        {
-          "text": "of",
-          "start": 3.98,
-          "end": 4.12
-        },
-        {
-          "text": "what's",
-          "start": 4.12,
-          "end": 4.47
-        },
-        {
-          "text": "on",
-          "start": 4.57,
-          "end": 4.69
-        },
-        {
-          "text": "that",
-          "start": 4.69,
-          "end": 4.98
-        },
-        {
-          "text": "page",
-          "start": 4.98,
-          "end": 5.11
-        },
-        {
-          "text": "never",
-          "start": 5.11,
-          "end": 5.72
-        },
-        {
-          "text": "touched",
-          "start": 5.72,
-          "end": 6.14
-        },
-        {
-          "text": "a",
-          "start": 6.14,
-          "end": 6.21
-        },
-        {
-          "text": "wire.",
-          "start": 6.21,
-          "end": 6.57
         }
       ]
     },
     {
-      "frame": 7,
+      "frame": 8,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 25.93,
+      "duration_s": 4.8,
+      "words": [
+        {
+          "text": "Somewhere",
+          "start": 0,
+          "end": 0.48
+        },
+        {
+          "text": "between",
+          "start": 0.48,
+          "end": 0.94
+        },
+        {
+          "text": "$30",
+          "start": 1.04,
+          "end": 1.49
+        },
+        {
+          "text": "and",
+          "start": 1.49,
+          "end": 1.54
+        },
+        {
+          "text": "$60",
+          "start": 1.68,
+          "end": 2.21
+        },
+        {
+          "text": "of",
+          "start": 2.21,
+          "end": 2.35
+        },
+        {
+          "text": "what's",
+          "start": 2.35,
+          "end": 2.7
+        },
+        {
+          "text": "on",
+          "start": 2.8,
+          "end": 2.92
+        },
+        {
+          "text": "that",
+          "start": 2.92,
+          "end": 3.21
+        },
+        {
+          "text": "page",
+          "start": 3.21,
+          "end": 3.34
+        },
+        {
+          "text": "never",
+          "start": 3.34,
+          "end": 3.95
+        },
+        {
+          "text": "touched",
+          "start": 3.95,
+          "end": 4.37
+        },
+        {
+          "text": "a",
+          "start": 4.37,
+          "end": 4.44
+        },
+        {
+          "text": "wire.",
+          "start": 4.44,
+          "end": 4.8
+        }
+      ]
+    },
+    {
+      "frame": 9,
       "path": "assets/audio/narration.mp3",
       "mediaStart": 31,
-      "duration_s": 5,
+      "duration_s": 2.46,
       "words": [
         {
           "text": "On",
@@ -534,49 +550,57 @@
           "text": "power.",
           "start": 2.04,
           "end": 2.46
-        },
-        {
-          "text": "On",
-          "start": 2.56,
-          "end": 2.68
-        },
-        {
-          "text": "the",
-          "start": 2.68,
-          "end": 2.78
-        },
-        {
-          "text": "rest,",
-          "start": 3.13,
-          "end": 3.26
-        },
-        {
-          "text": "you're",
-          "start": 3.26,
-          "end": 3.64
-        },
-        {
-          "text": "paying",
-          "start": 3.64,
-          "end": 3.95
-        },
-        {
-          "text": "for",
-          "start": 4.05,
-          "end": 4.22
-        },
-        {
-          "text": "paperwork.",
-          "start": 4.22,
-          "end": 5
         }
       ]
     },
     {
-      "frame": 8,
+      "frame": 10,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 33.56,
+      "duration_s": 2.44,
+      "words": [
+        {
+          "text": "On",
+          "start": 0,
+          "end": 0.12
+        },
+        {
+          "text": "the",
+          "start": 0.12,
+          "end": 0.22
+        },
+        {
+          "text": "rest,",
+          "start": 0.57,
+          "end": 0.7
+        },
+        {
+          "text": "you're",
+          "start": 0.7,
+          "end": 1.08
+        },
+        {
+          "text": "paying",
+          "start": 1.08,
+          "end": 1.39
+        },
+        {
+          "text": "for",
+          "start": 1.49,
+          "end": 1.66
+        },
+        {
+          "text": "paperwork.",
+          "start": 1.66,
+          "end": 2.44
+        }
+      ]
+    },
+    {
+      "frame": 11,
       "path": "assets/audio/narration.mp3",
       "mediaStart": 36,
-      "duration_s": 6.17,
+      "duration_s": 2.19,
       "words": [
         {
           "text": "And",
@@ -607,84 +631,92 @@
           "text": "thermostat.",
           "start": 1.37,
           "end": 2.19
-        },
-        {
-          "text": "Nobody",
-          "start": 2.19,
-          "end": 2.58
-        },
-        {
-          "text": "ever",
-          "start": 2.68,
-          "end": 2.91
-        },
-        {
-          "text": "sat",
-          "start": 2.91,
-          "end": 3.29
-        },
-        {
-          "text": "at",
-          "start": 3.29,
-          "end": 3.34
-        },
-        {
-          "text": "a",
-          "start": 3.34,
-          "end": 3.41
-        },
-        {
-          "text": "table",
-          "start": 3.41,
-          "end": 3.78
-        },
-        {
-          "text": "with",
-          "start": 3.78,
-          "end": 4.07
-        },
-        {
-          "text": "you",
-          "start": 4.17,
-          "end": 4.33
-        },
-        {
-          "text": "and",
-          "start": 4.33,
-          "end": 4.56
-        },
-        {
-          "text": "read",
-          "start": 4.56,
-          "end": 4.71
-        },
-        {
-          "text": "this",
-          "start": 4.86,
-          "end": 5.18
-        },
-        {
-          "text": "page",
-          "start": 5.32,
-          "end": 5.47
-        },
-        {
-          "text": "out",
-          "start": 5.57,
-          "end": 5.72
-        },
-        {
-          "text": "loud.",
-          "start": 5.72,
-          "end": 6.17
         }
       ]
     },
     {
-      "frame": 9,
+      "frame": 12,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 38.19,
+      "duration_s": 3.98,
+      "words": [
+        {
+          "text": "Nobody",
+          "start": 0,
+          "end": 0.39
+        },
+        {
+          "text": "ever",
+          "start": 0.49,
+          "end": 0.72
+        },
+        {
+          "text": "sat",
+          "start": 0.72,
+          "end": 1.1
+        },
+        {
+          "text": "at",
+          "start": 1.1,
+          "end": 1.15
+        },
+        {
+          "text": "a",
+          "start": 1.15,
+          "end": 1.22
+        },
+        {
+          "text": "table",
+          "start": 1.22,
+          "end": 1.59
+        },
+        {
+          "text": "with",
+          "start": 1.59,
+          "end": 1.88
+        },
+        {
+          "text": "you",
+          "start": 1.98,
+          "end": 2.14
+        },
+        {
+          "text": "and",
+          "start": 2.14,
+          "end": 2.37
+        },
+        {
+          "text": "read",
+          "start": 2.37,
+          "end": 2.52
+        },
+        {
+          "text": "this",
+          "start": 2.67,
+          "end": 2.99
+        },
+        {
+          "text": "page",
+          "start": 3.13,
+          "end": 3.28
+        },
+        {
+          "text": "out",
+          "start": 3.38,
+          "end": 3.53
+        },
+        {
+          "text": "loud.",
+          "start": 3.53,
+          "end": 3.98
+        }
+      ]
+    },
+    {
+      "frame": 13,
       "path": "assets/audio/narration.mp3",
       "mediaStart": 42.44,
-      "duration_s": 8.04,
+      "duration_s": 2.62,
       "words": [
         {
           "text": "That's",
@@ -730,69 +762,77 @@
           "text": "was.",
           "start": 2.29,
           "end": 2.62
-        },
-        {
-          "text": "My",
-          "start": 2.72,
-          "end": 2.85
-        },
-        {
-          "text": "grandmother",
-          "start": 2.85,
-          "end": 3.63
-        },
-        {
-          "text": "Ruth",
-          "start": 3.63,
-          "end": 3.87
-        },
-        {
-          "text": "kept",
-          "start": 4.06,
-          "end": 4.11
-        },
-        {
-          "text": "a",
-          "start": 4.21,
-          "end": 4.26
-        },
-        {
-          "text": "household",
-          "start": 4.26,
-          "end": 4.71
-        },
-        {
-          "text": "ledger",
-          "start": 4.71,
-          "end": 5.36
-        },
-        {
-          "text": "from",
-          "start": 5.36,
-          "end": 5.51
-        },
-        {
-          "text": "1929",
-          "start": 5.61,
-          "end": 6.52
-        },
-        {
-          "text": "to",
-          "start": 6.52,
-          "end": 6.7
-        },
-        {
-          "text": "1939.",
-          "start": 6.7,
-          "end": 8.04
         }
       ]
     },
     {
-      "frame": 10,
+      "frame": 14,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 45.16,
+      "duration_s": 5.32,
+      "words": [
+        {
+          "text": "My",
+          "start": 0,
+          "end": 0.13
+        },
+        {
+          "text": "grandmother",
+          "start": 0.13,
+          "end": 0.91
+        },
+        {
+          "text": "Ruth",
+          "start": 0.91,
+          "end": 1.15
+        },
+        {
+          "text": "kept",
+          "start": 1.34,
+          "end": 1.39
+        },
+        {
+          "text": "a",
+          "start": 1.49,
+          "end": 1.54
+        },
+        {
+          "text": "household",
+          "start": 1.54,
+          "end": 1.99
+        },
+        {
+          "text": "ledger",
+          "start": 1.99,
+          "end": 2.64
+        },
+        {
+          "text": "from",
+          "start": 2.64,
+          "end": 2.79
+        },
+        {
+          "text": "1929",
+          "start": 2.89,
+          "end": 3.8
+        },
+        {
+          "text": "to",
+          "start": 3.8,
+          "end": 3.98
+        },
+        {
+          "text": "1939.",
+          "start": 3.98,
+          "end": 5.32
+        }
+      ]
+    },
+    {
+      "frame": 15,
       "path": "assets/audio/narration.mp3",
       "mediaStart": 50.72,
-      "duration_s": 4.33,
+      "duration_s": 2.72,
       "words": [
         {
           "text": "It's",
@@ -843,102 +883,110 @@
           "text": "now.",
           "start": 2.24,
           "end": 2.72
-        },
+        }
+      ]
+    },
+    {
+      "frame": 16,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 53.53,
+      "duration_s": 2.6,
+      "words": [
         {
           "text": "April",
-          "start": 2.81,
-          "end": 3.12
+          "start": 0,
+          "end": 0.31
         },
         {
           "text": "1934.",
-          "start": 3.12,
-          "end": 4.33
-        }
-      ]
-    },
-    {
-      "frame": 11,
-      "path": "assets/audio/narration.mp3",
-      "mediaStart": 55.05,
-      "duration_s": 5.07,
-      "words": [
+          "start": 0.31,
+          "end": 1.52
+        },
         {
           "text": "The",
-          "start": 0,
-          "end": 0.24
+          "start": 1.52,
+          "end": 1.76
         },
         {
           "text": "power",
-          "start": 0.24,
-          "end": 0.48
+          "start": 1.76,
+          "end": 2
         },
         {
           "text": "bill.",
-          "start": 0.75,
-          "end": 1.08
-        },
-        {
-          "text": "One",
-          "start": 1.33,
-          "end": 1.54
-        },
-        {
-          "text": "line.",
-          "start": 1.71,
-          "end": 2.23
-        },
-        {
-          "text": "A",
-          "start": 2.23,
-          "end": 2.29
-        },
-        {
-          "text": "number",
-          "start": 2.29,
-          "end": 2.71
-        },
-        {
-          "text": "of",
-          "start": 2.71,
-          "end": 2.87
-        },
-        {
-          "text": "kilowatt",
-          "start": 3.04,
-          "end": 3.39
-        },
-        {
-          "text": "hours,",
-          "start": 3.43,
-          "end": 3.93
-        },
-        {
-          "text": "a",
-          "start": 3.93,
-          "end": 3.98
-        },
-        {
-          "text": "rate,",
-          "start": 4.08,
-          "end": 4.43
-        },
-        {
-          "text": "a",
-          "start": 4.43,
-          "end": 4.5
-        },
-        {
-          "text": "total.",
-          "start": 4.5,
-          "end": 5.07
+          "start": 2.27,
+          "end": 2.6
         }
       ]
     },
     {
-      "frame": 12,
+      "frame": 17,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 56.38,
+      "duration_s": 3.74,
+      "words": [
+        {
+          "text": "One",
+          "start": 0,
+          "end": 0.21
+        },
+        {
+          "text": "line.",
+          "start": 0.38,
+          "end": 0.9
+        },
+        {
+          "text": "A",
+          "start": 0.9,
+          "end": 0.96
+        },
+        {
+          "text": "number",
+          "start": 0.96,
+          "end": 1.38
+        },
+        {
+          "text": "of",
+          "start": 1.38,
+          "end": 1.54
+        },
+        {
+          "text": "kilowatt",
+          "start": 1.71,
+          "end": 2.06
+        },
+        {
+          "text": "hours,",
+          "start": 2.1,
+          "end": 2.6
+        },
+        {
+          "text": "a",
+          "start": 2.6,
+          "end": 2.65
+        },
+        {
+          "text": "rate,",
+          "start": 2.75,
+          "end": 3.1
+        },
+        {
+          "text": "a",
+          "start": 3.1,
+          "end": 3.17
+        },
+        {
+          "text": "total.",
+          "start": 3.17,
+          "end": 3.74
+        }
+      ]
+    },
+    {
+      "frame": 18,
       "path": "assets/audio/narration.mp3",
       "mediaStart": 60.12,
-      "duration_s": 7.72,
+      "duration_s": 6.08,
       "words": [
         {
           "text": "That's",
@@ -1044,149 +1092,157 @@
           "text": "on,",
           "start": 5.89,
           "end": 6.08
-        },
+        }
+      ]
+    },
+    {
+      "frame": 19,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 66.26,
+      "duration_s": 3.82,
+      "words": [
         {
           "text": "walked",
-          "start": 6.14,
-          "end": 6.4
+          "start": 0,
+          "end": 0.26
         },
         {
           "text": "down",
-          "start": 6.63,
-          "end": 6.81
+          "start": 0.49,
+          "end": 0.67
         },
         {
           "text": "to",
-          "start": 6.81,
-          "end": 6.95
+          "start": 0.67,
+          "end": 0.81
         },
         {
           "text": "the",
-          "start": 6.95,
-          "end": 7.16
+          "start": 0.81,
+          "end": 1.02
         },
         {
           "text": "office,",
-          "start": 7.16,
-          "end": 7.72
-        }
-      ]
-    },
-    {
-      "frame": 13,
-      "path": "assets/audio/narration.mp3",
-      "mediaStart": 68.04,
-      "duration_s": 5.55,
-      "words": [
+          "start": 1.02,
+          "end": 1.58
+        },
         {
           "text": "and",
-          "start": 0,
-          "end": 0.01
+          "start": 1.78,
+          "end": 1.79
         },
         {
           "text": "asked",
-          "start": 0.01,
-          "end": 0.36
+          "start": 1.79,
+          "end": 2.14
         },
         {
           "text": "a",
-          "start": 0.36,
-          "end": 0.43
+          "start": 2.14,
+          "end": 2.21
         },
         {
           "text": "man",
-          "start": 0.43,
-          "end": 0.64
+          "start": 2.21,
+          "end": 2.42
         },
         {
           "text": "what",
-          "start": 0.64,
-          "end": 0.85
+          "start": 2.42,
+          "end": 2.63
         },
         {
           "text": "it",
-          "start": 1.12,
-          "end": 1.16
+          "start": 2.9,
+          "end": 2.94
         },
         {
           "text": "was",
-          "start": 1.16,
-          "end": 1.32
+          "start": 2.94,
+          "end": 3.1
         },
         {
           "text": "for.",
-          "start": 1.32,
-          "end": 2.04
-        },
-        {
-          "text": "And",
-          "start": 2.21,
-          "end": 2.25
-        },
-        {
-          "text": "she'd",
-          "start": 2.25,
-          "end": 2.56
-        },
-        {
-          "text": "have",
-          "start": 2.6,
-          "end": 2.88
-        },
-        {
-          "text": "taken",
-          "start": 2.88,
-          "end": 3.15
-        },
-        {
-          "text": "me",
-          "start": 3.25,
-          "end": 3.37
-        },
-        {
-          "text": "with",
-          "start": 3.37,
-          "end": 3.65
-        },
-        {
-          "text": "her",
-          "start": 3.65,
-          "end": 3.74
-        },
-        {
-          "text": "so",
-          "start": 3.87,
-          "end": 3.95
-        },
-        {
-          "text": "I'd",
-          "start": 4.07,
-          "end": 4.21
-        },
-        {
-          "text": "learn",
-          "start": 4.21,
-          "end": 4.55
-        },
-        {
-          "text": "how",
-          "start": 4.55,
-          "end": 4.68
-        },
-        {
-          "text": "it's",
-          "start": 4.85,
-          "end": 5.05
-        },
-        {
-          "text": "done.",
-          "start": 5.05,
-          "end": 5.55
+          "start": 3.1,
+          "end": 3.82
         }
       ]
     },
     {
-      "frame": 14,
+      "frame": 20,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 70.25,
+      "duration_s": 3.34,
+      "words": [
+        {
+          "text": "And",
+          "start": 0,
+          "end": 0.04
+        },
+        {
+          "text": "she'd",
+          "start": 0.04,
+          "end": 0.35
+        },
+        {
+          "text": "have",
+          "start": 0.39,
+          "end": 0.67
+        },
+        {
+          "text": "taken",
+          "start": 0.67,
+          "end": 0.94
+        },
+        {
+          "text": "me",
+          "start": 1.04,
+          "end": 1.16
+        },
+        {
+          "text": "with",
+          "start": 1.16,
+          "end": 1.44
+        },
+        {
+          "text": "her",
+          "start": 1.44,
+          "end": 1.53
+        },
+        {
+          "text": "so",
+          "start": 1.66,
+          "end": 1.74
+        },
+        {
+          "text": "I'd",
+          "start": 1.86,
+          "end": 2
+        },
+        {
+          "text": "learn",
+          "start": 2,
+          "end": 2.34
+        },
+        {
+          "text": "how",
+          "start": 2.34,
+          "end": 2.47
+        },
+        {
+          "text": "it's",
+          "start": 2.64,
+          "end": 2.84
+        },
+        {
+          "text": "done.",
+          "start": 2.84,
+          "end": 3.34
+        }
+      ]
+    },
+    {
+      "frame": 21,
       "path": "assets/audio/narration.mp3",
       "mediaStart": 73.59,
       "duration_s": 3.91,
@@ -1259,10 +1315,10 @@
       ]
     },
     {
-      "frame": 15,
+      "frame": 22,
       "path": "assets/audio/narration.mp3",
       "mediaStart": 77.5,
-      "duration_s": 7.61,
+      "duration_s": 2.75,
       "words": [
         {
           "text": "So",
@@ -1298,94 +1354,102 @@
           "text": "charges.",
           "start": 2.16,
           "end": 2.75
-        },
-        {
-          "text": "And",
-          "start": 3.02,
-          "end": 3.13
-        },
-        {
-          "text": "I'll",
-          "start": 3.17,
-          "end": 3.3
-        },
-        {
-          "text": "be",
-          "start": 3.3,
-          "end": 3.34
-        },
-        {
-          "text": "straight",
-          "start": 3.34,
-          "end": 3.49
-        },
-        {
-          "text": "with",
-          "start": 3.87,
-          "end": 3.95
-        },
-        {
-          "text": "you",
-          "start": 3.95,
-          "end": 4.14
-        },
-        {
-          "text": "first,",
-          "start": 4.14,
-          "end": 4.57
-        },
-        {
-          "text": "because",
-          "start": 4.6,
-          "end": 5.02
-        },
-        {
-          "text": "I",
-          "start": 5.02,
-          "end": 5.08
-        },
-        {
-          "text": "won't",
-          "start": 5.18,
-          "end": 5.38
-        },
-        {
-          "text": "promise",
-          "start": 5.79,
-          "end": 5.85
-        },
-        {
-          "text": "you",
-          "start": 5.85,
-          "end": 5.98
-        },
-        {
-          "text": "something",
-          "start": 6.04,
-          "end": 6.57
-        },
-        {
-          "text": "that",
-          "start": 6.67,
-          "end": 6.86
-        },
-        {
-          "text": "isn't",
-          "start": 6.86,
-          "end": 7.17
-        },
-        {
-          "text": "true.",
-          "start": 7.17,
-          "end": 7.61
         }
       ]
     },
     {
-      "frame": 16,
+      "frame": 23,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 80.52,
+      "duration_s": 4.59,
+      "words": [
+        {
+          "text": "And",
+          "start": 0,
+          "end": 0.11
+        },
+        {
+          "text": "I'll",
+          "start": 0.15,
+          "end": 0.28
+        },
+        {
+          "text": "be",
+          "start": 0.28,
+          "end": 0.32
+        },
+        {
+          "text": "straight",
+          "start": 0.32,
+          "end": 0.47
+        },
+        {
+          "text": "with",
+          "start": 0.85,
+          "end": 0.93
+        },
+        {
+          "text": "you",
+          "start": 0.93,
+          "end": 1.12
+        },
+        {
+          "text": "first,",
+          "start": 1.12,
+          "end": 1.55
+        },
+        {
+          "text": "because",
+          "start": 1.58,
+          "end": 2
+        },
+        {
+          "text": "I",
+          "start": 2,
+          "end": 2.06
+        },
+        {
+          "text": "won't",
+          "start": 2.16,
+          "end": 2.36
+        },
+        {
+          "text": "promise",
+          "start": 2.77,
+          "end": 2.83
+        },
+        {
+          "text": "you",
+          "start": 2.83,
+          "end": 2.96
+        },
+        {
+          "text": "something",
+          "start": 3.02,
+          "end": 3.55
+        },
+        {
+          "text": "that",
+          "start": 3.65,
+          "end": 3.84
+        },
+        {
+          "text": "isn't",
+          "start": 3.84,
+          "end": 4.15
+        },
+        {
+          "text": "true.",
+          "start": 4.15,
+          "end": 4.59
+        }
+      ]
+    },
+    {
+      "frame": 24,
       "path": "assets/audio/narration.mp3",
       "mediaStart": 85.11,
-      "duration_s": 3.45,
+      "duration_s": 2.11,
       "words": [
         {
           "text": "Six",
@@ -1421,107 +1485,107 @@
           "text": "outright.",
           "start": 1.33,
           "end": 2.11
-        },
+        }
+      ]
+    },
+    {
+      "frame": 25,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 87.22,
+      "duration_s": 5.23,
+      "words": [
         {
           "text": "Five",
-          "start": 2.11,
-          "end": 2.37
+          "start": 0,
+          "end": 0.26
         },
         {
           "text": "you",
-          "start": 2.42,
-          "end": 2.6
+          "start": 0.31,
+          "end": 0.49
         },
         {
           "text": "can",
-          "start": 2.6,
-          "end": 2.75
+          "start": 0.49,
+          "end": 0.64
         },
         {
           "text": "shrink.",
-          "start": 3.14,
-          "end": 3.45
-        }
-      ]
-    },
-    {
-      "frame": 17,
-      "path": "assets/audio/narration.mp3",
-      "mediaStart": 88.56,
-      "duration_s": 3.89,
-      "words": [
+          "start": 1.03,
+          "end": 1.34
+        },
         {
           "text": "Three",
-          "start": 0,
-          "end": 0.24
+          "start": 1.34,
+          "end": 1.58
         },
         {
           "text": "you're",
-          "start": 0.43,
-          "end": 0.78
+          "start": 1.77,
+          "end": 2.12
         },
         {
           "text": "stuck",
-          "start": 0.78,
-          "end": 1.1
+          "start": 2.12,
+          "end": 2.44
         },
         {
           "text": "with,",
-          "start": 1.42,
-          "end": 1.56
+          "start": 2.76,
+          "end": 2.9
         },
         {
           "text": "and",
-          "start": 1.72,
-          "end": 1.77
+          "start": 3.06,
+          "end": 3.11
         },
         {
           "text": "no",
-          "start": 1.77,
-          "end": 1.87
+          "start": 3.11,
+          "end": 3.21
         },
         {
           "text": "phone",
-          "start": 1.97,
-          "end": 2.27
+          "start": 3.31,
+          "end": 3.61
         },
         {
           "text": "call",
-          "start": 2.27,
-          "end": 2.46
+          "start": 3.61,
+          "end": 3.8
         },
         {
           "text": "on",
-          "start": 2.56,
-          "end": 2.57
+          "start": 3.9,
+          "end": 3.91
         },
         {
           "text": "earth",
-          "start": 2.84,
-          "end": 3.04
+          "start": 4.18,
+          "end": 4.38
         },
         {
           "text": "will",
-          "start": 3.04,
-          "end": 3.16
+          "start": 4.38,
+          "end": 4.5
         },
         {
           "text": "move",
-          "start": 3.16,
-          "end": 3.28
+          "start": 4.5,
+          "end": 4.62
         },
         {
           "text": "them.",
-          "start": 3.61,
-          "end": 3.89
+          "start": 4.95,
+          "end": 5.23
         }
       ]
     },
     {
-      "frame": 18,
+      "frame": 26,
       "path": "assets/audio/narration.mp3",
       "mediaStart": 92.45,
-      "duration_s": 7.31,
+      "duration_s": 2.53,
       "words": [
         {
           "text": "And",
@@ -1562,86 +1626,94 @@
           "text": "money.",
           "start": 2.01,
           "end": 2.53
-        },
-        {
-          "text": "The",
-          "start": 2.53,
-          "end": 2.72
-        },
-        {
-          "text": "three",
-          "start": 2.72,
-          "end": 3.02
-        },
-        {
-          "text": "you're",
-          "start": 3.05,
-          "end": 3.43
-        },
-        {
-          "text": "stuck",
-          "start": 3.67,
-          "end": 3.76
-        },
-        {
-          "text": "with",
-          "start": 3.76,
-          "end": 4.02
-        },
-        {
-          "text": "are",
-          "start": 4.02,
-          "end": 4.16
-        },
-        {
-          "text": "the",
-          "start": 4.18,
-          "end": 4.41
-        },
-        {
-          "text": "three",
-          "start": 4.51,
-          "end": 4.91
-        },
-        {
-          "text": "everybody",
-          "start": 4.91,
-          "end": 5.11
-        },
-        {
-          "text": "spends",
-          "start": 5.48,
-          "end": 5.68
-        },
-        {
-          "text": "the",
-          "start": 5.68,
-          "end": 5.83
-        },
-        {
-          "text": "whole",
-          "start": 5.87,
-          "end": 6.16
-        },
-        {
-          "text": "call",
-          "start": 6.16,
-          "end": 6.4
-        },
-        {
-          "text": "arguing",
-          "start": 6.4,
-          "end": 6.83
-        },
-        {
-          "text": "about.",
-          "start": 6.83,
-          "end": 7.31
         }
       ]
     },
     {
-      "frame": 19,
+      "frame": 27,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 94.98,
+      "duration_s": 4.78,
+      "words": [
+        {
+          "text": "The",
+          "start": 0,
+          "end": 0.19
+        },
+        {
+          "text": "three",
+          "start": 0.19,
+          "end": 0.49
+        },
+        {
+          "text": "you're",
+          "start": 0.52,
+          "end": 0.9
+        },
+        {
+          "text": "stuck",
+          "start": 1.14,
+          "end": 1.23
+        },
+        {
+          "text": "with",
+          "start": 1.23,
+          "end": 1.49
+        },
+        {
+          "text": "are",
+          "start": 1.49,
+          "end": 1.63
+        },
+        {
+          "text": "the",
+          "start": 1.65,
+          "end": 1.88
+        },
+        {
+          "text": "three",
+          "start": 1.98,
+          "end": 2.38
+        },
+        {
+          "text": "everybody",
+          "start": 2.38,
+          "end": 2.58
+        },
+        {
+          "text": "spends",
+          "start": 2.95,
+          "end": 3.15
+        },
+        {
+          "text": "the",
+          "start": 3.15,
+          "end": 3.3
+        },
+        {
+          "text": "whole",
+          "start": 3.34,
+          "end": 3.63
+        },
+        {
+          "text": "call",
+          "start": 3.63,
+          "end": 3.87
+        },
+        {
+          "text": "arguing",
+          "start": 3.87,
+          "end": 4.3
+        },
+        {
+          "text": "about.",
+          "start": 4.3,
+          "end": 4.78
+        }
+      ]
+    },
+    {
+      "frame": 28,
       "path": "assets/audio/narration.mp3",
       "mediaStart": 99.85,
       "duration_s": 4.27,
@@ -1724,10 +1796,10 @@
       ]
     },
     {
-      "frame": 20,
+      "frame": 29,
       "path": "assets/audio/narration.mp3",
       "mediaStart": 104.17,
-      "duration_s": 7.72,
+      "duration_s": 1.83,
       "words": [
         {
           "text": "We",
@@ -1753,99 +1825,107 @@
           "text": "14.",
           "start": 1.14,
           "end": 1.83
-        },
-        {
-          "text": "Everyone",
-          "start": 1.83,
-          "end": 2.14
-        },
-        {
-          "text": "comes",
-          "start": 2.74,
-          "end": 2.84
-        },
-        {
-          "text": "with",
-          "start": 2.84,
-          "end": 3.15
-        },
-        {
-          "text": "the",
-          "start": 3.15,
-          "end": 3.36
-        },
-        {
-          "text": "why,",
-          "start": 3.36,
-          "end": 3.83
-        },
-        {
-          "text": "because",
-          "start": 3.87,
-          "end": 4.19
-        },
-        {
-          "text": "in",
-          "start": 4.2,
-          "end": 4.29
-        },
-        {
-          "text": "this",
-          "start": 4.32,
-          "end": 4.34
-        },
-        {
-          "text": "house,",
-          "start": 4.83,
-          "end": 5.11
-        },
-        {
-          "text": "we",
-          "start": 5.11,
-          "end": 5.28
-        },
-        {
-          "text": "don't",
-          "start": 5.28,
-          "end": 5.6
-        },
-        {
-          "text": "fight",
-          "start": 5.6,
-          "end": 5.96
-        },
-        {
-          "text": "a",
-          "start": 5.96,
-          "end": 6.01
-        },
-        {
-          "text": "bill",
-          "start": 6.03,
-          "end": 6.22
-        },
-        {
-          "text": "we",
-          "start": 6.32,
-          "end": 6.44
-        },
-        {
-          "text": "don't",
-          "start": 6.48,
-          "end": 6.79
-        },
-        {
-          "text": "understand.",
-          "start": 7.2,
-          "end": 7.72
         }
       ]
     },
     {
-      "frame": 21,
+      "frame": 30,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 106,
+      "duration_s": 5.89,
+      "words": [
+        {
+          "text": "Everyone",
+          "start": 0,
+          "end": 0.31
+        },
+        {
+          "text": "comes",
+          "start": 0.91,
+          "end": 1.01
+        },
+        {
+          "text": "with",
+          "start": 1.01,
+          "end": 1.32
+        },
+        {
+          "text": "the",
+          "start": 1.32,
+          "end": 1.53
+        },
+        {
+          "text": "why,",
+          "start": 1.53,
+          "end": 2
+        },
+        {
+          "text": "because",
+          "start": 2.04,
+          "end": 2.36
+        },
+        {
+          "text": "in",
+          "start": 2.37,
+          "end": 2.46
+        },
+        {
+          "text": "this",
+          "start": 2.49,
+          "end": 2.51
+        },
+        {
+          "text": "house,",
+          "start": 3,
+          "end": 3.28
+        },
+        {
+          "text": "we",
+          "start": 3.28,
+          "end": 3.45
+        },
+        {
+          "text": "don't",
+          "start": 3.45,
+          "end": 3.77
+        },
+        {
+          "text": "fight",
+          "start": 3.77,
+          "end": 4.13
+        },
+        {
+          "text": "a",
+          "start": 4.13,
+          "end": 4.18
+        },
+        {
+          "text": "bill",
+          "start": 4.2,
+          "end": 4.39
+        },
+        {
+          "text": "we",
+          "start": 4.49,
+          "end": 4.61
+        },
+        {
+          "text": "don't",
+          "start": 4.65,
+          "end": 4.96
+        },
+        {
+          "text": "understand.",
+          "start": 5.37,
+          "end": 5.89
+        }
+      ]
+    },
+    {
+      "frame": 31,
       "path": "assets/audio/narration.mp3",
       "mediaStart": 111.9,
-      "duration_s": 10.1,
+      "duration_s": 2.35,
       "words": [
         {
           "text": "Number",
@@ -1891,94 +1971,102 @@
           "text": "way.",
           "start": 1.98,
           "end": 2.35
-        },
-        {
-          "text": "In",
-          "start": 2.62,
-          "end": 2.66
-        },
-        {
-          "text": "one",
-          "start": 2.66,
-          "end": 2.94
-        },
-        {
-          "text": "state,",
-          "start": 2.94,
-          "end": 3.46
-        },
-        {
-          "text": "this",
-          "start": 3.63,
-          "end": 3.79
-        },
-        {
-          "text": "past",
-          "start": 3.79,
-          "end": 4.12
-        },
-        {
-          "text": "April,",
-          "start": 4.12,
-          "end": 4.7
-        },
-        {
-          "text": "it",
-          "start": 4.7,
-          "end": 4.84
-        },
-        {
-          "text": "cost",
-          "start": 4.94,
-          "end": 5.14
-        },
-        {
-          "text": "nine",
-          "start": 5.14,
-          "end": 5.55
-        },
-        {
-          "text": "companies",
-          "start": 5.55,
-          "end": 6.09
-        },
-        {
-          "text": "$50",
-          "start": 6.27,
-          "end": 6.85
-        },
-        {
-          "text": "million",
-          "start": 6.85,
-          "end": 6.97
-        },
-        {
-          "text": "in",
-          "start": 7.58,
-          "end": 7.59
-        },
-        {
-          "text": "refunds",
-          "start": 7.59,
-          "end": 8.17
-        },
-        {
-          "text": "to",
-          "start": 8.17,
-          "end": 8.32
-        },
-        {
-          "text": "278,000",
-          "start": 8.42,
-          "end": 10.1
         }
       ]
     },
     {
-      "frame": 22,
+      "frame": 32,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 114.52,
+      "duration_s": 7.48,
+      "words": [
+        {
+          "text": "In",
+          "start": 0,
+          "end": 0.04
+        },
+        {
+          "text": "one",
+          "start": 0.04,
+          "end": 0.32
+        },
+        {
+          "text": "state,",
+          "start": 0.32,
+          "end": 0.84
+        },
+        {
+          "text": "this",
+          "start": 1.01,
+          "end": 1.17
+        },
+        {
+          "text": "past",
+          "start": 1.17,
+          "end": 1.5
+        },
+        {
+          "text": "April,",
+          "start": 1.5,
+          "end": 2.08
+        },
+        {
+          "text": "it",
+          "start": 2.08,
+          "end": 2.22
+        },
+        {
+          "text": "cost",
+          "start": 2.32,
+          "end": 2.52
+        },
+        {
+          "text": "nine",
+          "start": 2.52,
+          "end": 2.93
+        },
+        {
+          "text": "companies",
+          "start": 2.93,
+          "end": 3.47
+        },
+        {
+          "text": "$50",
+          "start": 3.65,
+          "end": 4.23
+        },
+        {
+          "text": "million",
+          "start": 4.23,
+          "end": 4.35
+        },
+        {
+          "text": "in",
+          "start": 4.96,
+          "end": 4.97
+        },
+        {
+          "text": "refunds",
+          "start": 4.97,
+          "end": 5.55
+        },
+        {
+          "text": "to",
+          "start": 5.55,
+          "end": 5.7
+        },
+        {
+          "text": "278,000",
+          "start": 5.8,
+          "end": 7.48
+        }
+      ]
+    },
+    {
+      "frame": 33,
       "path": "assets/audio/narration.mp3",
       "mediaStart": 122,
-      "duration_s": 3.87,
+      "duration_s": 2.74,
       "words": [
         {
           "text": "households.",
@@ -2014,134 +2102,142 @@
           "text": "one.",
           "start": 2.31,
           "end": 2.74
-        },
+        }
+      ]
+    },
+    {
+      "frame": 34,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 125.13,
+      "duration_s": 2.15,
+      "words": [
         {
           "text": "Number",
-          "start": 3.13,
-          "end": 3.2
+          "start": 0,
+          "end": 0.07
         },
         {
           "text": "14.",
-          "start": 3.2,
-          "end": 3.87
-        }
-      ]
-    },
-    {
-      "frame": 23,
-      "path": "assets/audio/narration.mp3",
-      "mediaStart": 125.87,
-      "duration_s": 6.12,
-      "words": [
+          "start": 0.07,
+          "end": 0.74
+        },
         {
           "text": "The",
-          "start": 0,
-          "end": 0.22
+          "start": 0.74,
+          "end": 0.96
         },
         {
           "text": "paper",
-          "start": 0.22,
-          "end": 0.58
+          "start": 0.96,
+          "end": 1.32
         },
         {
           "text": "bill",
-          "start": 0.58,
-          "end": 0.68
+          "start": 1.32,
+          "end": 1.42
         },
         {
           "text": "fee.",
-          "start": 0.88,
-          "end": 1.41
-        },
-        {
-          "text": "Kill",
-          "start": 1.41,
-          "end": 1.76
-        },
-        {
-          "text": "it.",
-          "start": 1.76,
-          "end": 2.14
-        },
-        {
-          "text": "One",
-          "start": 2.41,
-          "end": 2.53
-        },
-        {
-          "text": "to",
-          "start": 2.56,
-          "end": 2.62
-        },
-        {
-          "text": "three",
-          "start": 2.62,
-          "end": 2.74
-        },
-        {
-          "text": "dollars",
-          "start": 2.74,
-          "end": 2.88
-        },
-        {
-          "text": "a",
-          "start": 2.88,
-          "end": 3.37
-        },
-        {
-          "text": "month",
-          "start": 3.37,
-          "end": 3.57
-        },
-        {
-          "text": "for",
-          "start": 3.74,
-          "end": 3.77
-        },
-        {
-          "text": "the",
-          "start": 3.77,
-          "end": 3.97
-        },
-        {
-          "text": "crime",
-          "start": 3.97,
-          "end": 4.25
-        },
-        {
-          "text": "of",
-          "start": 4.33,
-          "end": 4.44
-        },
-        {
-          "text": "receiving",
-          "start": 4.44,
-          "end": 5.06
-        },
-        {
-          "text": "a",
-          "start": 5.06,
-          "end": 5.12
-        },
-        {
-          "text": "piece",
-          "start": 5.12,
-          "end": 5.28
-        },
-        {
-          "text": "of",
-          "start": 5.28,
-          "end": 5.66
-        },
-        {
-          "text": "paper.",
-          "start": 5.66,
-          "end": 6.12
+          "start": 1.62,
+          "end": 2.15
         }
       ]
     },
     {
-      "frame": 24,
+      "frame": 35,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 127.28,
+      "duration_s": 4.71,
+      "words": [
+        {
+          "text": "Kill",
+          "start": 0,
+          "end": 0.35
+        },
+        {
+          "text": "it.",
+          "start": 0.35,
+          "end": 0.73
+        },
+        {
+          "text": "One",
+          "start": 1,
+          "end": 1.12
+        },
+        {
+          "text": "to",
+          "start": 1.15,
+          "end": 1.21
+        },
+        {
+          "text": "three",
+          "start": 1.21,
+          "end": 1.33
+        },
+        {
+          "text": "dollars",
+          "start": 1.33,
+          "end": 1.47
+        },
+        {
+          "text": "a",
+          "start": 1.47,
+          "end": 1.96
+        },
+        {
+          "text": "month",
+          "start": 1.96,
+          "end": 2.16
+        },
+        {
+          "text": "for",
+          "start": 2.33,
+          "end": 2.36
+        },
+        {
+          "text": "the",
+          "start": 2.36,
+          "end": 2.56
+        },
+        {
+          "text": "crime",
+          "start": 2.56,
+          "end": 2.84
+        },
+        {
+          "text": "of",
+          "start": 2.92,
+          "end": 3.03
+        },
+        {
+          "text": "receiving",
+          "start": 3.03,
+          "end": 3.65
+        },
+        {
+          "text": "a",
+          "start": 3.65,
+          "end": 3.71
+        },
+        {
+          "text": "piece",
+          "start": 3.71,
+          "end": 3.87
+        },
+        {
+          "text": "of",
+          "start": 3.87,
+          "end": 4.25
+        },
+        {
+          "text": "paper.",
+          "start": 4.25,
+          "end": 4.71
+        }
+      ]
+    },
+    {
+      "frame": 36,
       "path": "assets/audio/narration.mp3",
       "mediaStart": 131.99,
       "duration_s": 4.05,
@@ -2194,7 +2290,7 @@
       ]
     },
     {
-      "frame": 25,
+      "frame": 37,
       "path": "assets/audio/narration.mp3",
       "mediaStart": 136.12,
       "duration_s": 4.07,
@@ -2257,10 +2353,10 @@
       ]
     },
     {
-      "frame": 26,
+      "frame": 38,
       "path": "assets/audio/narration.mp3",
       "mediaStart": 140.19,
-      "duration_s": 3.57,
+      "duration_s": 1.8,
       "words": [
         {
           "text": "90",
@@ -2276,29 +2372,37 @@
           "text": "online.",
           "start": 1.37,
           "end": 1.8
-        },
-        {
-          "text": "$36",
-          "start": 1.87,
-          "end": 2.66
-        },
-        {
-          "text": "a",
-          "start": 2.66,
-          "end": 2.81
-        },
-        {
-          "text": "year.",
-          "start": 3.25,
-          "end": 3.57
         }
       ]
     },
     {
-      "frame": 27,
+      "frame": 39,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 142.06,
+      "duration_s": 1.7,
+      "words": [
+        {
+          "text": "$36",
+          "start": 0,
+          "end": 0.79
+        },
+        {
+          "text": "a",
+          "start": 0.79,
+          "end": 0.94
+        },
+        {
+          "text": "year.",
+          "start": 1.38,
+          "end": 1.7
+        }
+      ]
+    },
+    {
+      "frame": 40,
       "path": "assets/audio/narration.mp3",
       "mediaStart": 143.93,
-      "duration_s": 7.13,
+      "duration_s": 2.47,
       "words": [
         {
           "text": "That's",
@@ -2339,91 +2443,99 @@
           "text": "it.",
           "start": 2.31,
           "end": 2.47
-        },
-        {
-          "text": "I",
-          "start": 2.64,
-          "end": 2.7
-        },
-        {
-          "text": "put",
-          "start": 2.7,
-          "end": 2.9
-        },
-        {
-          "text": "it",
-          "start": 2.9,
-          "end": 3.03
-        },
-        {
-          "text": "at",
-          "start": 3.03,
-          "end": 3.13
-        },
-        {
-          "text": "14",
-          "start": 3.18,
-          "end": 3.34
-        },
-        {
-          "text": "on",
-          "start": 3.55,
-          "end": 3.7
-        },
-        {
-          "text": "purpose,",
-          "start": 3.95,
-          "end": 4.44
-        },
-        {
-          "text": "so",
-          "start": 4.47,
-          "end": 4.59
-        },
-        {
-          "text": "you'd",
-          "start": 4.59,
-          "end": 4.84
-        },
-        {
-          "text": "see",
-          "start": 5.07,
-          "end": 5.11
-        },
-        {
-          "text": "how",
-          "start": 5.11,
-          "end": 5.39
-        },
-        {
-          "text": "small",
-          "start": 5.39,
-          "end": 5.51
-        },
-        {
-          "text": "they're",
-          "start": 5.92,
-          "end": 6.24
-        },
-        {
-          "text": "willing",
-          "start": 6.24,
-          "end": 6.73
-        },
-        {
-          "text": "to",
-          "start": 6.73,
-          "end": 6.86
-        },
-        {
-          "text": "go.",
-          "start": 6.96,
-          "end": 7.13
         }
       ]
     },
     {
-      "frame": 28,
+      "frame": 41,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 146.57,
+      "duration_s": 4.49,
+      "words": [
+        {
+          "text": "I",
+          "start": 0,
+          "end": 0.06
+        },
+        {
+          "text": "put",
+          "start": 0.06,
+          "end": 0.26
+        },
+        {
+          "text": "it",
+          "start": 0.26,
+          "end": 0.39
+        },
+        {
+          "text": "at",
+          "start": 0.39,
+          "end": 0.49
+        },
+        {
+          "text": "14",
+          "start": 0.54,
+          "end": 0.7
+        },
+        {
+          "text": "on",
+          "start": 0.91,
+          "end": 1.06
+        },
+        {
+          "text": "purpose,",
+          "start": 1.31,
+          "end": 1.8
+        },
+        {
+          "text": "so",
+          "start": 1.83,
+          "end": 1.95
+        },
+        {
+          "text": "you'd",
+          "start": 1.95,
+          "end": 2.2
+        },
+        {
+          "text": "see",
+          "start": 2.43,
+          "end": 2.47
+        },
+        {
+          "text": "how",
+          "start": 2.47,
+          "end": 2.75
+        },
+        {
+          "text": "small",
+          "start": 2.75,
+          "end": 2.87
+        },
+        {
+          "text": "they're",
+          "start": 3.28,
+          "end": 3.6
+        },
+        {
+          "text": "willing",
+          "start": 3.6,
+          "end": 4.09
+        },
+        {
+          "text": "to",
+          "start": 4.09,
+          "end": 4.22
+        },
+        {
+          "text": "go.",
+          "start": 4.32,
+          "end": 4.49
+        }
+      ]
+    },
+    {
+      "frame": 42,
       "path": "assets/audio/narration.mp3",
       "mediaStart": 151.16,
       "duration_s": 5.91,
@@ -2526,7 +2638,7 @@
       ]
     },
     {
-      "frame": 29,
+      "frame": 43,
       "path": "assets/audio/narration.mp3",
       "mediaStart": 157.45,
       "duration_s": 3.14,
@@ -2569,10 +2681,10 @@
       ]
     },
     {
-      "frame": 30,
+      "frame": 44,
       "path": "assets/audio/narration.mp3",
       "mediaStart": 160.6,
-      "duration_s": 7.4,
+      "duration_s": 6.35,
       "words": [
         {
           "text": "Kill",
@@ -2668,109 +2780,49 @@
           "text": "once,",
           "start": 6.06,
           "end": 6.35
-        },
-        {
-          "text": "years",
-          "start": 6.95,
-          "end": 6.96
-        },
-        {
-          "text": "ago,",
-          "start": 6.96,
-          "end": 7.4
         }
       ]
     },
     {
-      "frame": 31,
+      "frame": 45,
       "path": "assets/audio/narration.mp3",
-      "mediaStart": 168,
-      "duration_s": 5.58,
+      "mediaStart": 167.55,
+      "duration_s": 2.13,
       "words": [
         {
-          "text": "and",
+          "text": "years",
           "start": 0,
-          "end": 0.17
+          "end": 0.01
+        },
+        {
+          "text": "ago,",
+          "start": 0.01,
+          "end": 0.45
+        },
+        {
+          "text": "and",
+          "start": 0.45,
+          "end": 0.62
         },
         {
           "text": "never",
-          "start": 0.17,
-          "end": 0.41
+          "start": 0.62,
+          "end": 0.86
         },
         {
           "text": "thought",
-          "start": 0.68,
-          "end": 0.72
+          "start": 1.13,
+          "end": 1.17
         },
         {
           "text": "about",
-          "start": 0.89,
-          "end": 1.09
+          "start": 1.34,
+          "end": 1.54
         },
         {
           "text": "since.",
-          "start": 1.09,
-          "end": 1.68
-        },
-        {
-          "text": "When",
-          "start": 1.68,
-          "end": 1.98
-        },
-        {
-          "text": "the",
-          "start": 1.98,
-          "end": 2.1
-        },
-        {
-          "text": "smart",
-          "start": 2.2,
-          "end": 2.43
-        },
-        {
-          "text": "meters",
-          "start": 2.81,
-          "end": 3
-        },
-        {
-          "text": "came",
-          "start": 3.06,
-          "end": 3.3
-        },
-        {
-          "text": "around,",
-          "start": 3.31,
-          "end": 3.91
-        },
-        {
-          "text": "a",
-          "start": 3.91,
-          "end": 3.98
-        },
-        {
-          "text": "lot",
-          "start": 3.98,
-          "end": 4.19
-        },
-        {
-          "text": "of",
-          "start": 4.19,
-          "end": 4.23
-        },
-        {
-          "text": "people",
-          "start": 4.23,
-          "end": 4.84
-        },
-        {
-          "text": "opted",
-          "start": 4.84,
-          "end": 5.17
-        },
-        {
-          "text": "out.",
-          "start": 5.17,
-          "end": 5.58
+          "start": 1.54,
+          "end": 2.13
         }
       ]
     }

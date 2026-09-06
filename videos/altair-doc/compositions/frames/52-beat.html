@@ -18,6 +18,24 @@
       height: 100%;
       object-fit: cover;
     }
+    /* profile additions: blurred pillarbox for portrait/square media, B&W treatment */
+    .broll-pb-bg { position: absolute; inset: -5%; width: 110%; height: 110%; object-fit: cover; filter: blur(36px) brightness(0.55) saturate(1.1); }
+    .broll-pb-fg { position: absolute; inset: 0; object-fit: contain; }
+    .broll-bw { filter: grayscale(1) contrast(1.08); }
+    /* comparison grid: 2-4 tiles with labels; a hairline gap, dark ground */
+    .broll-grid { position: absolute; inset: 0; display: grid; gap: 6px; background: #0b0b0b; padding: 0; }
+    .broll-grid-columns.broll-grid-n2 { grid-template-columns: 1fr 1fr; }
+    .broll-grid-columns.broll-grid-n3 { grid-template-columns: 1fr 1fr 1fr; }
+    .broll-grid-columns.broll-grid-n4 { grid-template-columns: repeat(4, 1fr); }
+    .broll-grid-2x2 { grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; }
+    .broll-grid-tile { position: relative; overflow: hidden; opacity: 0; }
+    .broll-grid-media { width: 100%; height: 100%; object-fit: cover; display: block; }
+    .broll-grid-label { position: absolute; left: 50%; bottom: 140px; transform: translateX(-50%); font: 800 44px/1.1 "Inter", -apple-system, sans-serif; color: #fff; text-shadow: 0 2px 6px rgba(0,0,0,0.7); text-transform: uppercase; letter-spacing: 0.03em; white-space: nowrap; background: rgba(0,0,0,0.55); padding: 0.25em 0.6em; border-radius: 6px; opacity: 0; }
+    .broll-split-a, .broll-split-b { position: absolute; object-fit: cover; }
+    .broll-split-a.broll-split-left-right { left: 0; top: 0; width: 50%; height: 100%; }
+    .broll-split-b.broll-split-left-right { left: 50%; top: 0; width: 50%; height: 100%; border-left: 4px solid rgba(255,255,255,0.9); box-sizing: border-box; }
+    .broll-split-a.broll-split-top-bottom { left: 0; top: 0; width: 100%; height: 50%; }
+    .broll-split-b.broll-split-top-bottom { left: 0; top: 50%; width: 100%; height: 50%; border-top: 4px solid rgba(255,255,255,0.9); box-sizing: border-box; }
     /* Cutaway sits absolutely over the primary media inside the same wrap
        (so it inherits the same Ken Burns move on the wrap element, keeping
        the two shots visually consistent) — starts transparent, GSAP
@@ -69,23 +87,23 @@
       pointer-events: none;
     }
 
-    .ov-chapter-scrim { position: absolute; inset: 0; background: rgba(0,0,0,0.38); opacity: 0; pointer-events: none; }
-    .ov-chapter-title { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); text-align: center; opacity: 0; }
-    .ov-ct-kicker { display: block; font: 700 22px/1 -apple-system, "Inter", sans-serif; letter-spacing: 0.18em; text-transform: uppercase; color: #ffffff; text-shadow: 0 1px 2px rgba(0,0,0,0.5), 0 4px 14px rgba(0,0,0,0.4); opacity: 0; margin-bottom: 14px; }
-    .ov-ct-title { display: block; font: 800 88px/1.05 -apple-system, "Inter", sans-serif; color: #ffffff; text-shadow: 0 1px 2px rgba(0,0,0,0.5), 0 4px 14px rgba(0,0,0,0.4); }
-    .ov-ct-rule { display: block; width: 90px; height: 4px; background: #ffffff; margin: 22px auto 0; border-radius: 2px; transform-origin: 50% 50%; transform: scaleX(0); }
+    .ov-ln { position: absolute; opacity: 0; }
+    .ov-ln-num { font: 800 1em/1.1 "Inter", "Montserrat", -apple-system, sans-serif; font-size: 96px; color: #ffd23f; text-shadow: 0 1px 2px rgba(0,0,0,0.55), 0 4px 16px rgba(0,0,0,0.45); line-height: 1; }
+    .ov-ln-of { font-size: 44px; color: #ffffff; opacity: 0.7; margin-left: 6px; }
+    .ov-ln-title { margin-top: 10px; font: 800 1em/1.1 "Inter", "Montserrat", -apple-system, sans-serif; font-size: 54px; text-transform: capitalize; background: #111111; color: #ffffff; padding: 0.28em 0.6em; border-radius: 6px; display: inline-block; }
+    .ov-ln-ch { opacity: 0; }
   </style>
 
   <div
     id="root"
     data-composition-id="52-beat"
-    data-width="1920" data-height="1080" data-duration="4.51"
+    data-width="1920" data-height="1080" data-duration="1.71"
   >
     <div class="broll-wrap" id="f-52-beat-wrap">
-      <video id="f-52-beat-media" class="broll-media clip" src=".media/broll/beat-52.mp4" muted playsinline data-start="0" data-duration="4.51" data-media-start="0" data-track-index="0"></video>
+      <video id="f-52-beat-media" class="broll-media clip" src=".media/broll/beat-52.mp4" muted playsinline data-start="0" data-duration="1.71" data-media-start="0" data-track-index="0"></video>
     </div>
-    <div class="broll-scrim clip" id="f-52-beat-scrim" data-start="0" data-duration="4.51" data-track-index="1"></div>
-    <div class="ov-chapter-scrim" id="f-52-beat-ov-scrim"></div><div class="ov-chapter-title" id="f-52-beat-ov"><span class="ov-ct-kicker" id="f-52-beat-ov-kicker">NUMBER 10</span><span class="ov-ct-title" id="f-52-beat-ov-title">The Equipment Rental</span><span class="ov-ct-rule" id="f-52-beat-ov-rule"></span></div>
+    <div class="broll-scrim clip" id="f-52-beat-scrim" data-start="0" data-duration="1.71" data-track-index="1"></div>
+    <div class="ov-ln" id="f-52-beat-ov" style="left: 90px; top: 90px;"><div class="ov-ln-num" id="f-52-beat-ov-n">#12</div><div class="ov-ln-title" id="f-52-beat-ov-t"><span id="f-52-beat-ov-c0" class="ov-ln-ch">N</span><span id="f-52-beat-ov-c1" class="ov-ln-ch">u</span><span id="f-52-beat-ov-c2" class="ov-ln-ch">m</span><span id="f-52-beat-ov-c3" class="ov-ln-ch">b</span><span id="f-52-beat-ov-c4" class="ov-ln-ch">e</span><span id="f-52-beat-ov-c5" class="ov-ln-ch">r</span><span id="f-52-beat-ov-c6" class="ov-ln-ch">&nbsp;</span><span id="f-52-beat-ov-c7" class="ov-ln-ch">l</span><span id="f-52-beat-ov-c8" class="ov-ln-ch">a</span><span id="f-52-beat-ov-c9" class="ov-ln-ch">t</span><span id="f-52-beat-ov-c10" class="ov-ln-ch">e</span></div></div>
   </div>
 
   <script>
@@ -94,13 +112,9 @@
       var tl = gsap.timeline({ paused: true });
       var wrap = document.getElementById("f-52-beat-wrap");
       gsap.set(wrap, { scale: 1.0 });
-      tl.to("#f-52-beat-ov-scrim", { opacity: 1, duration: 0.3, ease: "power2.out" }, 2.52);
-      tl.to("#f-52-beat-ov", { opacity: 1, duration: 0.01 }, 2.60);
-      tl.fromTo("#f-52-beat-ov-kicker", { opacity: 0, y: 10 }, { opacity: 1, y: 0, duration: 0.3, ease: "power3.out" }, 2.60);
-      tl.fromTo("#f-52-beat-ov-title", { opacity: 0, scale: 0.85 }, { opacity: 1, scale: 1, duration: 0.45, ease: "back.out(1.4)" }, 2.78);
-      tl.to("#f-52-beat-ov-rule", { scaleX: 1, duration: 0.35, ease: "power3.out" }, 3.10);
-      tl.to("#f-52-beat-ov", { opacity: 0, duration: 0.3, ease: "power2.in" }, 4.10);
-      tl.to("#f-52-beat-ov-scrim", { opacity: 0, duration: 0.35, ease: "power2.in" }, 4.10);
+      tl.set("#f-52-beat-ov", { opacity: 1 }, 0.80);
+      tl.fromTo("#f-52-beat-ov-n", { opacity: 0, scale: 0.6 }, { opacity: 1, scale: 1, duration: 0.24, ease: "back.out(1.8)" }, 0.80);
+      tl.to("#f-52-beat-ov .ov-ln-ch", { opacity: 1, duration: 0.01, stagger: 0.060 }, 1.05);
       window.__timelines["52-beat"] = tl;
     })();
   </script>

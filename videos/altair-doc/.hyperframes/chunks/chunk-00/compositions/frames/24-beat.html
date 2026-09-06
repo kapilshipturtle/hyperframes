@@ -5,114 +5,132 @@
       height: 1080px;
       position: relative;
       overflow: hidden;
-      background: #000;
     }
-    .broll-wrap {
-      position: absolute;
-      inset: -6%;
-      width: 112%;
-      height: 112%;
-    }
-    .broll-media {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
-    /* Cutaway sits absolutely over the primary media inside the same wrap
-       (so it inherits the same Ken Burns move on the wrap element, keeping
-       the two shots visually consistent) — starts transparent, GSAP
-       crossfades it in at --cutaway-at, see the script block below. */
-    .broll-cutaway {
+    .f-24-beat-bg {
       position: absolute;
       inset: 0;
+      background: #0d0d0f;
     }
-    /* 2.5D parallax layers (see gen-depth-layers.py) — both stacked full-
-       bleed inside the same wrap. The foreground is deliberately oversized
-       (rather than 100%) so its own independent translate (see parallaxCode
-       below) never slides a transparent edge into frame — the same
-       overscan-margin idea the wrap itself already uses, just at the layer
-       level since the fg moves MORE than the wrap's own Ken Burns alone. */
-    .broll-parallax-bg {
+    .f-24-beat-stage {
       position: absolute;
-      inset: 0;
-      object-fit: cover;
+      left: 0;
+      top: 0;
+      width: 1920px;
+      height: 900px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
     }
-    .broll-parallax-fg {
+    .f-24-beat-grid {
+      display: grid;
+      grid-template-columns: repeat(7, 168px);
+      grid-auto-rows: 168px;
+      gap: 22px;
+    }
+    .f-24-beat-tile {
+      position: relative;
+      border: 2px solid rgba(255, 255, 255, 0.16);
+      border-radius: 10px;
+      background: rgba(255, 255, 255, 0.035);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font: 300 62px/1 -apple-system, "Inter", sans-serif;
+      color: #f2f2f0;
+      opacity: 0;
+    }
+    .f-24-beat-strike {
       position: absolute;
-      inset: -8%;
-      width: 116%;
-      height: 116%;
-      object-fit: contain;
-      object-position: center;
+      left: 22px;
+      top: 50%;
+      width: 124px;
+      height: 3px;
+      background: #a9b4c0;
+      transform: scaleX(0);
+      transform-origin: left center;
     }
-    /* subtle bottom scrim so any burned-in captions stay readable over bright footage */
-    .broll-scrim {
-      position: absolute;
-      inset: 0;
-      background: linear-gradient(to top, rgba(0,0,0,0.35) 0%, rgba(0,0,0,0) 22%);
-      pointer-events: none;
+    .f-24-beat-tile.f-24-beat-killed {
+      color: #a9b4c0;
     }
-    /* Optional per-beat vignette — a real, if modest, "composited" texture
-       layer distinct from the global grain overlay (which is flat, uniform,
-       full-timeline). Researched documentary/explainer-channel convention:
-       supporting texture layers COMPOSITED WITH the base clip, in the same
-       frame, is the single highest-leverage visual-quality delta over "one
-       flat clip per beat" — this is the smallest, most self-contained piece
-       of that: a soft radial darkening toward the frame edges, drawing the
-       eye toward center/subject the way a real lens vignette does. Opt-in
-       per beat via --vignette, never global/automatic (unlike grain) since
-       its strength should vary by shot mood, not apply uniformly.*/
-    .broll-vignette {
-      position: absolute;
-      inset: 0;
-      background: radial-gradient(ellipse at center, rgba(0,0,0,0) 45%, rgba(0,0,0,0.3) 100%);
-      pointer-events: none;
+    .f-24-beat-tally {
+      margin-top: 54px;
+      font: 400 34px/1 -apple-system, "Inter", sans-serif;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: rgba(242, 242, 240, 0.78);
+      opacity: 0;
     }
-
-    .ov-key-phrase-zone { position: absolute; left: 0; right: 0; top: 0; height: 320px; }
-    .ov-kp-scrim { position: absolute; inset: 0; background: linear-gradient(to bottom, rgba(0,0,0,0.48) 0%, rgba(0,0,0,0.2) 60%, rgba(0,0,0,0) 100%); opacity: 0; pointer-events: none; }
-    .ov-key-phrase { position: relative; left: 72px; right: 72px; top: 92px; display: flex; flex-wrap: wrap; gap: 0.28em 0.42em; margin-right: 72px; }
-    .ov-kp-word { display: inline-block; font: 800 52px/1.15 -apple-system, "Inter", sans-serif; letter-spacing: -0.01em; color: #ffffff; text-shadow: 0 1px 2px rgba(0,0,0,0.5), 0 4px 14px rgba(0,0,0,0.4); opacity: 0; }
-    .ov-kp-word.ov-kp-emphasis { font-size: 64px; }
+    .f-24-beat-tally b {
+      font-weight: 600;
+      color: #a9b4c0;
+    }
   </style>
 
   <div
     id="root"
     data-composition-id="24-beat"
-    data-width="1920" data-height="1080" data-duration="6.45"
+    data-width="1920" data-height="1080" data-duration="2.36"
   >
-    <div class="broll-wrap" id="f-24-beat-wrap">
-      <video id="f-24-beat-media" class="broll-media clip" src=".media/broll/beat-24.mp4" muted playsinline data-start="0" data-duration="6.45" data-media-start="0" data-track-index="0"></video>
+    <div class="f-24-beat-bg clip" data-start="0" data-duration="2.36" data-track-index="0"></div>
+    <div class="f-24-beat-stage clip" id="f-24-beat-stage" data-start="0" data-duration="2.36" data-track-index="1">
+      <div class="f-24-beat-grid" id="f-24-beat-grid"></div>
+      <div class="f-24-beat-tally" id="f-24-beat-tally"><b id="f-24-beat-count">0</b> YOU CAN KILL</div>
     </div>
-    <div class="broll-scrim clip" id="f-24-beat-scrim" data-start="0" data-duration="6.45" data-track-index="1"></div>
-    <div class="broll-vignette clip" id="f-24-beat-vignette" data-start="0" data-duration="6.45" data-track-index="3"></div>
-    <div class="ov-key-phrase-zone" id="f-24-beat-ov-zone"><div class="ov-kp-scrim" id="f-24-beat-ov-scrim"></div><div class="ov-key-phrase" id="f-24-beat-ov"><span class="ov-kp-word" id="f-24-beat-ov-w0">paper</span> <span class="ov-kp-word" id="f-24-beat-ov-w1">statement</span> <span class="ov-kp-word" id="f-24-beat-ov-w2">/</span> <span class="ov-kp-word" id="f-24-beat-ov-w3">billing</span> <span class="ov-kp-word" id="f-24-beat-ov-w4">fee</span> <span class="ov-kp-word" id="f-24-beat-ov-w5">/</span> <span class="ov-kp-word" id="f-24-beat-ov-w6">convenience</span> <span class="ov-kp-word" id="f-24-beat-ov-w7">charge</span></div></div>
   </div>
 
   <script>
     (function () {
       window.__timelines = window.__timelines || {};
+
+      var grid = document.getElementById("f-24-beat-grid");
+      var tiles = [];
+      var strikes = [];
+      for (var i = 0; i < 14; i++) {
+        var n = 14 - i;
+        var tile = document.createElement("div");
+        tile.className = "f-24-beat-tile";
+        var label = document.createElement("span");
+        label.textContent = String(n);
+        var strike = document.createElement("i");
+        strike.className = "f-24-beat-strike";
+        tile.appendChild(label);
+        tile.appendChild(strike);
+        grid.appendChild(tile);
+        tiles.push(tile);
+        strikes.push(strike);
+      }
+
+      // the six lowest-numbered tiles (6..1) are the ones that get killed
+      var killOrder = [8, 9, 10, 11, 12, 13];
+
       var tl = gsap.timeline({ paused: true });
-      var wrap = document.getElementById("f-24-beat-wrap");
-      gsap.set(wrap, { scale: 1.0 });
-      tl.to("#f-24-beat-ov-scrim", { opacity: 1, duration: 0.45, ease: "power2.out" }, 0.40);
-      tl.fromTo("#f-24-beat-ov-w0", { y: 24, opacity: 0 }, { y: 0, opacity: 1, duration: 0.38, ease: "power3.out" }, 0.50);
-      tl.fromTo("#f-24-beat-ov-w1", { y: 24, opacity: 0 }, { y: 0, opacity: 1, duration: 0.38, ease: "power3.out" }, 0.60);
-      tl.fromTo("#f-24-beat-ov-w2", { y: 24, opacity: 0 }, { y: 0, opacity: 1, duration: 0.38, ease: "power3.out" }, 0.69);
-      tl.fromTo("#f-24-beat-ov-w3", { y: 24, opacity: 0 }, { y: 0, opacity: 1, duration: 0.38, ease: "power3.out" }, 0.78);
-      tl.fromTo("#f-24-beat-ov-w4", { y: 24, opacity: 0 }, { y: 0, opacity: 1, duration: 0.38, ease: "power3.out" }, 0.86);
-      tl.fromTo("#f-24-beat-ov-w5", { y: 24, opacity: 0 }, { y: 0, opacity: 1, duration: 0.38, ease: "power3.out" }, 0.94);
-      tl.fromTo("#f-24-beat-ov-w6", { y: 24, opacity: 0 }, { y: 0, opacity: 1, duration: 0.38, ease: "power3.out" }, 1.01);
-      tl.fromTo("#f-24-beat-ov-w7", { y: 24, opacity: 0 }, { y: 0, opacity: 1, duration: 0.38, ease: "power3.out" }, 1.07);
-      tl.to("#f-24-beat-ov-w0", { y: -14, opacity: 0, duration: 0.26, ease: "power2.in" }, 3.55);
-      tl.to("#f-24-beat-ov-w1", { y: -14, opacity: 0, duration: 0.26, ease: "power2.in" }, 3.60);
-      tl.to("#f-24-beat-ov-w2", { y: -14, opacity: 0, duration: 0.26, ease: "power2.in" }, 3.65);
-      tl.to("#f-24-beat-ov-w3", { y: -14, opacity: 0, duration: 0.26, ease: "power2.in" }, 3.70);
-      tl.to("#f-24-beat-ov-w4", { y: -14, opacity: 0, duration: 0.26, ease: "power2.in" }, 3.75);
-      tl.to("#f-24-beat-ov-w5", { y: -14, opacity: 0, duration: 0.26, ease: "power2.in" }, 3.80);
-      tl.to("#f-24-beat-ov-w6", { y: -14, opacity: 0, duration: 0.26, ease: "power2.in" }, 3.85);
-      tl.to("#f-24-beat-ov-w7", { y: -14, opacity: 0, duration: 0.26, ease: "power2.in" }, 3.90);
-      tl.to("#f-24-beat-ov-scrim", { opacity: 0, duration: 0.4, ease: "power2.in" }, 4.05);
+
+      tl.to(tiles, { opacity: 1, duration: 0.30, stagger: 0.018, ease: "power2.out" }, 0.02);
+
+      var killStart = 0.72;
+      var step = 0.13;
+      for (var k = 0; k < killOrder.length; k++) {
+        var t = killStart + k * step;
+        var tgt = tiles[killOrder[k]];
+        tl.to(strikes[killOrder[k]], { scaleX: 1, duration: 0.16, ease: "power2.out" }, t);
+        tl.to(tgt, { opacity: 0.42, borderColor: "rgba(169,180,192,0.55)", duration: 0.20, ease: "power1.out" }, t);
+        tl.set(tgt, { className: "f-24-beat-tile f-24-beat-killed" }, t);
+      }
+
+      var counter = { v: 0 };
+      var countEl = document.getElementById("f-24-beat-count");
+      tl.to(document.getElementById("f-24-beat-tally"), { opacity: 1, duration: 0.24, ease: "power1.out" }, killStart - 0.06);
+      tl.to(counter, {
+        v: 6,
+        duration: killOrder.length * step,
+        ease: "none",
+        onUpdate: function () {
+          countEl.textContent = String(Math.round(counter.v));
+        }
+      }, killStart);
+      tl.set(countEl, { innerText: "6" }, killStart + killOrder.length * step);
+
       window.__timelines["24-beat"] = tl;
     })();
   </script>

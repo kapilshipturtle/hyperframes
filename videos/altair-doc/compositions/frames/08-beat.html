@@ -5,96 +5,152 @@
       height: 1080px;
       position: relative;
       overflow: hidden;
-      background: #000;
+      background: #0b0b0d;
+      font-family: -apple-system, "Inter", "Helvetica Neue", sans-serif;
     }
-    .broll-wrap {
+    .f08-beat-bg {
       position: absolute;
-      inset: -6%;
-      width: 112%;
-      height: 112%;
+      inset: 0;
+      background: radial-gradient(ellipse at 50% 42%, #141416 0%, #0a0a0c 70%);
     }
-    .broll-media {
-      width: 100%;
+    .f08-beat-stage {
+      position: absolute;
+      left: 260px;
+      top: 250px;
+      width: 1400px;
+      height: 420px;
+    }
+    .f08-beat-total {
+      position: absolute;
+      left: 0;
+      top: 0;
+      font-size: 26px;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: #f2f2f0;
+      opacity: 0;
+    }
+    .f08-beat-total b {
+      font-weight: 700;
+      letter-spacing: 0.06em;
+    }
+    .f08-beat-bar {
+      position: absolute;
+      left: 0;
+      top: 84px;
+      width: 1400px;
+      height: 96px;
+    }
+    .f08-beat-track {
+      position: absolute;
+      inset: 0;
+      border: 1px solid rgba(242, 242, 240, 0.22);
+      box-sizing: border-box;
+    }
+    .f08-beat-fill {
+      position: absolute;
+      left: 0;
+      top: 0;
       height: 100%;
-      object-fit: cover;
+      width: 100%;
+      background: rgba(242, 242, 240, 0.10);
+      transform-origin: left center;
+      transform: scaleX(0);
     }
-    /* Cutaway sits absolutely over the primary media inside the same wrap
-       (so it inherits the same Ken Burns move on the wrap element, keeping
-       the two shots visually consistent) — starts transparent, GSAP
-       crossfades it in at --cutaway-at, see the script block below. */
-    .broll-cutaway {
+    .f08-beat-seg {
       position: absolute;
-      inset: 0;
+      top: 0;
+      height: 100%;
+      left: 1050px;
+      width: 350px;
+      background: #a9b4c0;
+      opacity: 0;
     }
-    /* 2.5D parallax layers (see gen-depth-layers.py) — both stacked full-
-       bleed inside the same wrap. The foreground is deliberately oversized
-       (rather than 100%) so its own independent translate (see parallaxCode
-       below) never slides a transparent edge into frame — the same
-       overscan-margin idea the wrap itself already uses, just at the layer
-       level since the fg moves MORE than the wrap's own Ken Burns alone. */
-    .broll-parallax-bg {
+    .f08-beat-remain-label {
       position: absolute;
-      inset: 0;
-      object-fit: cover;
+      left: 0;
+      top: 200px;
+      width: 1040px;
+      text-align: center;
+      font-size: 24px;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: rgba(242, 242, 240, 0.72);
+      opacity: 0;
     }
-    .broll-parallax-fg {
+    .f08-beat-seg-label {
       position: absolute;
-      inset: -8%;
-      width: 116%;
-      height: 116%;
-      object-fit: contain;
-      object-position: center;
+      left: 1000px;
+      top: 200px;
+      width: 460px;
+      text-align: center;
+      opacity: 0;
     }
-    /* subtle bottom scrim so any burned-in captions stay readable over bright footage */
-    .broll-scrim {
-      position: absolute;
-      inset: 0;
-      background: linear-gradient(to top, rgba(0,0,0,0.35) 0%, rgba(0,0,0,0) 22%);
-      pointer-events: none;
+    .f08-beat-seg-num {
+      font-size: 62px;
+      font-weight: 700;
+      color: #a9b4c0;
+      line-height: 1.05;
     }
-    /* Optional per-beat vignette — a real, if modest, "composited" texture
-       layer distinct from the global grain overlay (which is flat, uniform,
-       full-timeline). Researched documentary/explainer-channel convention:
-       supporting texture layers COMPOSITED WITH the base clip, in the same
-       frame, is the single highest-leverage visual-quality delta over "one
-       flat clip per beat" — this is the smallest, most self-contained piece
-       of that: a soft radial darkening toward the frame edges, drawing the
-       eye toward center/subject the way a real lens vignette does. Opt-in
-       per beat via --vignette, never global/automatic (unlike grain) since
-       its strength should vary by shot mood, not apply uniformly.*/
-    .broll-vignette {
+    .f08-beat-seg-sub {
+      margin-top: 12px;
+      font-size: 22px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: rgba(169, 180, 192, 0.82);
+    }
+    .f08-beat-tick {
       position: absolute;
-      inset: 0;
-      background: radial-gradient(ellipse at center, rgba(0,0,0,0) 45%, rgba(0,0,0,0) 100%);
-      pointer-events: none;
+      top: -18px;
+      height: 132px;
+      width: 1px;
+      background: rgba(169, 180, 192, 0.55);
+      opacity: 0;
     }
   </style>
 
   <div
     id="root"
     data-composition-id="08-beat"
-    data-width="1920" data-height="1080" data-duration="9.37"
+    data-width="1920" data-height="1080" data-duration="4.8"
   >
-    <div class="broll-wrap" id="f-08-beat-wrap">
-      <video id="f-08-beat-media" class="broll-media clip" src=".media/broll/beat-08.mp4" muted playsinline data-start="0" data-duration="9.37" data-media-start="0" data-track-index="0"></video>
-      <video id="f-08-beat-cutaway" class="broll-media broll-cutaway clip" src=".media/broll/beat-08-cutaway.mp4" muted playsinline data-start="3.83" data-duration="5.54" data-media-start="0" data-track-index="4" style="opacity:0;"></video>
+    <div class="f08-beat-bg clip" data-start="0" data-duration="4.80" data-track-index="0"></div>
+
+    <div class="f08-beat-stage clip" data-start="0" data-duration="4.80" data-track-index="1">
+      <div class="f08-beat-total" id="f08-beat-total">Bill total &nbsp;<b>$214</b></div>
+
+      <div class="f08-beat-bar">
+        <div class="f08-beat-fill" id="f08-beat-fill"></div>
+        <div class="f08-beat-track"></div>
+        <div class="f08-beat-seg" id="f08-beat-seg"></div>
+        <div class="f08-beat-tick" id="f08-beat-tick" style="left: 1050px;"></div>
+      </div>
+
+      <div class="f08-beat-remain-label" id="f08-beat-remain">Actual electricity</div>
+
+      <div class="f08-beat-seg-label" id="f08-beat-seglabel">
+        <div class="f08-beat-seg-num">$30&ndash;$60</div>
+        <div class="f08-beat-seg-sub">Never touched a wire</div>
+      </div>
     </div>
-    <div class="broll-scrim clip" id="f-08-beat-scrim" data-start="0" data-duration="9.37" data-track-index="1"></div>
   </div>
 
   <script>
     (function () {
       window.__timelines = window.__timelines || {};
       var tl = gsap.timeline({ paused: true });
-      var wrap = document.getElementById("f-08-beat-wrap");
-      gsap.set(wrap, { scale: 1.0 });
-      // Quick crossfade hand-off to the cutaway layer — primary media fades
-      // out just as the cutaway fades in, both centered on --cutaway-at, so
-      // there's never a moment either layer reads as a hard pop.
-      var cutawayEl = document.getElementById("f-08-beat-cutaway");
-      var primaryEl = document.getElementById("f-08-beat-media");
-      tl.to(primaryEl, { opacity: 0, duration: 0.4, ease: "none" }, 3.83 - 0.2);
-      tl.to(cutawayEl, { opacity: 1, duration: 0.4, ease: "none" }, 3.83 - 0.2);
+
+      tl.fromTo("#f08-beat-total", { opacity: 0, y: 14 }, { opacity: 1, y: 0, duration: 0.5, ease: "power2.out" }, 0.1);
+      tl.to("#f08-beat-fill", { scaleX: 1, duration: 0.9, ease: "power2.out" }, 0.35);
+
+      // the detach: tick, then the bracketed segment lifts and slides aside
+      tl.to("#f08-beat-tick", { opacity: 1, duration: 0.25, ease: "power1.out" }, 1.65);
+      tl.to("#f08-beat-seg", { opacity: 1, duration: 0.3, ease: "power1.out" }, 1.8);
+      tl.to("#f08-beat-seg", { x: 130, y: -46, duration: 0.85, ease: "power3.inOut" }, 2.15);
+
+      tl.fromTo("#f08-beat-seglabel", { opacity: 0, y: 18 }, { opacity: 1, y: 0, duration: 0.55, ease: "power2.out" }, 2.6);
+      tl.fromTo("#f08-beat-remain", { opacity: 0 }, { opacity: 1, duration: 0.55, ease: "power2.out" }, 3.35);
+
       window.__timelines["08-beat"] = tl;
     })();
   </script>

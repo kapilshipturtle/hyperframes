@@ -1,11 +1,80 @@
 {
   "beats": [
     {
-      "id": "32",
-      "text": "Some had reasons. Most just checked a box on a letter, and that box turned into a monthly charge that's been writing your bill ever since.",
+      "id": "46",
+      "text": "When the smart meters came around, a lot of people opted out.",
+      "start": 169.68,
+      "end": 173.58,
+      "durationSeconds": 3.9,
+      "words": [
+        {
+          "text": "When",
+          "start": 169.68,
+          "end": 169.98
+        },
+        {
+          "text": "the",
+          "start": 169.98,
+          "end": 170.1
+        },
+        {
+          "text": "smart",
+          "start": 170.2,
+          "end": 170.43
+        },
+        {
+          "text": "meters",
+          "start": 170.81,
+          "end": 171
+        },
+        {
+          "text": "came",
+          "start": 171.06,
+          "end": 171.3
+        },
+        {
+          "text": "around,",
+          "start": 171.31,
+          "end": 171.91
+        },
+        {
+          "text": "a",
+          "start": 171.91,
+          "end": 171.98
+        },
+        {
+          "text": "lot",
+          "start": 171.98,
+          "end": 172.19
+        },
+        {
+          "text": "of",
+          "start": 172.19,
+          "end": 172.23
+        },
+        {
+          "text": "people",
+          "start": 172.23,
+          "end": 172.84
+        },
+        {
+          "text": "opted",
+          "start": 172.84,
+          "end": 173.17
+        },
+        {
+          "text": "out.",
+          "start": 173.17,
+          "end": 173.58
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "text": "Some had reasons. Most just checked a box on a letter, and that box turned into a monthly charge that's been writing",
       "start": 173.68,
-      "end": 181.88,
-      "durationSeconds": 8.2,
+      "end": 180.37,
+      "durationSeconds": 6.69,
       "words": [
         {
           "text": "Some",
@@ -116,7 +185,16 @@
           "text": "writing",
           "start": 180.01,
           "end": 180.37
-        },
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "text": "your bill ever since. Sometimes for 10 years.",
+      "start": 180.37,
+      "end": 183.87,
+      "durationSeconds": 3.5,
+      "words": [
         {
           "text": "your",
           "start": 180.37,
@@ -136,16 +214,7 @@
           "text": "since.",
           "start": 181.32,
           "end": 181.88
-        }
-      ]
-    },
-    {
-      "id": "33",
-      "text": "Sometimes for 10 years. Look for opt-out, manual read, or non-standard meter.",
-      "start": 181.93,
-      "end": 187.84,
-      "durationSeconds": 5.91,
-      "words": [
+        },
         {
           "text": "Sometimes",
           "start": 181.93,
@@ -165,7 +234,16 @@
           "text": "years.",
           "start": 183.25,
           "end": 183.87
-        },
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "text": "Look for opt-out, manual read, or non-standard meter.",
+      "start": 183.96,
+      "end": 187.84,
+      "durationSeconds": 3.88,
+      "words": [
         {
           "text": "Look",
           "start": 183.96,
@@ -209,7 +287,7 @@
       ]
     },
     {
-      "id": "34",
+      "id": "50",
       "text": "If you don't remember choosing it, one phone call reverses it.",
       "start": 187.84,
       "end": 192.17,
@@ -273,7 +351,7 @@
       ]
     },
     {
-      "id": "35",
+      "id": "51",
       "text": "$180 a year for a box you don't remember checking.",
       "start": 192.17,
       "end": 195.82,
@@ -332,11 +410,11 @@
       ]
     },
     {
-      "id": "36",
-      "text": "Number 12. The late fee. Shrink it. Two things almost nobody knows.",
+      "id": "52",
+      "text": "Number 12. The late fee.",
       "start": 195.82,
-      "end": 201.11,
-      "durationSeconds": 5.29,
+      "end": 197.53,
+      "durationSeconds": 1.71,
       "words": [
         {
           "text": "Number",
@@ -362,7 +440,16 @@
           "text": "fee.",
           "start": 197.17,
           "end": 197.53
-        },
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "text": "Shrink it. Two things almost nobody knows.",
+      "start": 197.53,
+      "end": 201.11,
+      "durationSeconds": 3.58,
+      "words": [
         {
           "text": "Shrink",
           "start": 197.53,
@@ -401,7 +488,7 @@
       ]
     },
     {
-      "id": "37",
+      "id": "54",
       "text": "First, most utilities will waive one late fee a year as a courtesy if you call and ask plainly.",
       "start": 201.29,
       "end": 207.6,
@@ -505,7 +592,7 @@
       ]
     },
     {
-      "id": "38",
+      "id": "55",
       "text": "Not argue. Ask. They'll very often say yes.",
       "start": 207.77,
       "end": 210.9,
@@ -554,7 +641,7 @@
       ]
     },
     {
-      "id": "39",
+      "id": "56",
       "text": "Second one's better. You can move your due date.",
       "start": 210.9,
       "end": 214.69,
@@ -608,11 +695,11 @@
       ]
     },
     {
-      "id": "40",
-      "text": "Most utilities will shift your billing cycle so it lands after your payday or your benefit deposit, and it costs nothing.",
+      "id": "57",
+      "text": "Most utilities will shift your billing cycle so it lands after your payday or your benefit deposit,",
       "start": 214.89,
-      "end": 221.54,
-      "durationSeconds": 6.65,
+      "end": 220.24,
+      "durationSeconds": 5.35,
       "words": [
         {
           "text": "Most",
@@ -698,7 +785,16 @@
           "text": "deposit,",
           "start": 219.35,
           "end": 220.24
-        },
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "text": "and it costs nothing. If you've been getting hit with late fees for years, the problem was never your money.",
+      "start": 220.41,
+      "end": 226.51,
+      "durationSeconds": 6.1,
+      "words": [
         {
           "text": "and",
           "start": 220.41,
@@ -718,16 +814,7 @@
           "text": "nothing.",
           "start": 220.89,
           "end": 221.54
-        }
-      ]
-    },
-    {
-      "id": "41",
-      "text": "If you've been getting hit with late fees for years, the problem was never your money.",
-      "start": 221.54,
-      "end": 226.51,
-      "durationSeconds": 4.97,
-      "words": [
+        },
         {
           "text": "If",
           "start": 221.54,
@@ -811,11 +898,11 @@
       ]
     },
     {
-      "id": "42",
-      "text": "It was the date. Number 11. The deposit they're still holding.",
+      "id": "59",
+      "text": "It was the date. Number 11.",
       "start": 226.57,
-      "end": 230.56,
-      "durationSeconds": 3.99,
+      "end": 228.72,
+      "durationSeconds": 2.15,
       "words": [
         {
           "text": "It",
@@ -846,7 +933,16 @@
           "text": "11.",
           "start": 228.1,
           "end": 228.72
-        },
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "text": "The deposit they're still holding.",
+      "start": 228.72,
+      "end": 230.56,
+      "durationSeconds": 1.84,
+      "words": [
         {
           "text": "The",
           "start": 228.72,
@@ -875,7 +971,7 @@
       ]
     },
     {
-      "id": "43",
+      "id": "61",
       "text": "Kill it. When you opened the account, you may have paid a security deposit.",
       "start": 230.73,
       "end": 234.83,
@@ -954,7 +1050,7 @@
       ]
     },
     {
-      "id": "44",
+      "id": "62",
       "text": "$100, $200, sometimes more.",
       "start": 234.96,
       "end": 238.02,
@@ -983,7 +1079,7 @@
       ]
     },
     {
-      "id": "45",
+      "id": "63",
       "text": "In most places, it's supposed to come back after 12 months of on-time payment.",
       "start": 238.02,
       "end": 242.64,
@@ -1062,7 +1158,7 @@
       ]
     },
     {
-      "id": "46",
+      "id": "64",
       "text": "In some places, it's supposed to earn interest while they sit on it.",
       "start": 242.64,
       "end": 246.48,
@@ -1136,11 +1232,11 @@
       ]
     },
     {
-      "id": "47",
-      "text": "But here's the part, neighbor. It comes back when you ask.",
+      "id": "65",
+      "text": "But here's the part, neighbor.",
       "start": 246.48,
-      "end": 250.11,
-      "durationSeconds": 3.63,
+      "end": 248.36,
+      "durationSeconds": 1.88,
       "words": [
         {
           "text": "But",
@@ -1166,7 +1262,16 @@
           "text": "neighbor.",
           "start": 247.55,
           "end": 248.36
-        },
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "text": "It comes back when you ask.",
+      "start": 248.36,
+      "end": 250.11,
+      "durationSeconds": 1.75,
+      "words": [
         {
           "text": "It",
           "start": 248.36,
@@ -1200,7 +1305,7 @@
       ]
     },
     {
-      "id": "48",
+      "id": "67",
       "text": "A refund nobody claims is a refund nobody pays.",
       "start": 250.11,
       "end": 253.2,
@@ -1254,11 +1359,11 @@
       ]
     },
     {
-      "id": "49",
-      "text": "If you've been in that house for years and never once seen a deposit come back, that's a phone call this week.",
+      "id": "68",
+      "text": "If you've been in that house for years and never once seen a deposit come back,",
       "start": 253.2,
-      "end": 259.84,
-      "durationSeconds": 6.64,
+      "end": 258.16,
+      "durationSeconds": 4.96,
       "words": [
         {
           "text": "If",
@@ -1339,7 +1444,16 @@
           "text": "back,",
           "start": 257.88,
           "end": 258.16
-        },
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "text": "that's a phone call this week. My grandmother's ledger has a whole column for money other people were holding.",
+      "start": 258.33,
+      "end": 264.53,
+      "durationSeconds": 6.2,
+      "words": [
         {
           "text": "that's",
           "start": 258.33,
@@ -1369,16 +1483,7 @@
           "text": "week.",
           "start": 259.41,
           "end": 259.84
-        }
-      ]
-    },
-    {
-      "id": "50",
-      "text": "My grandmother's ledger has a whole column for money other people were holding.",
-      "start": 259.84,
-      "end": 264.53,
-      "durationSeconds": 4.69,
-      "words": [
+        },
         {
           "text": "My",
           "start": 259.84,
@@ -1447,11 +1552,11 @@
       ]
     },
     {
-      "id": "51",
-      "text": "One column so it could never be forgotten. That's all a ledger is.",
+      "id": "70",
+      "text": "One column so it could never be forgotten.",
       "start": 264.53,
-      "end": 269,
-      "durationSeconds": 4.47,
+      "end": 267.39,
+      "durationSeconds": 2.86,
       "words": [
         {
           "text": "One",
@@ -1492,7 +1597,16 @@
           "text": "forgotten.",
           "start": 266.46,
           "end": 267.39
-        },
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "text": "That's all a ledger is. A way of not forgetting.",
+      "start": 267.56,
+      "end": 270.87,
+      "durationSeconds": 3.31,
+      "words": [
         {
           "text": "That's",
           "start": 267.56,
@@ -1517,16 +1631,7 @@
           "text": "is.",
           "start": 268.68,
           "end": 269
-        }
-      ]
-    },
-    {
-      "id": "52",
-      "text": "A way of not forgetting. Number 10. The equipment rental.",
-      "start": 269,
-      "end": 273.51,
-      "durationSeconds": 4.51,
-      "words": [
+        },
         {
           "text": "A",
           "start": 269,
@@ -1551,7 +1656,16 @@
           "text": "forgetting.",
           "start": 270.17,
           "end": 270.87
-        },
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "text": "Number 10. The equipment rental.",
+      "start": 270.91,
+      "end": 273.51,
+      "durationSeconds": 2.6,
+      "words": [
         {
           "text": "Number",
           "start": 270.91,
@@ -1580,7 +1694,7 @@
       ]
     },
     {
-      "id": "53",
+      "id": "73",
       "text": "Kill it. This is the one that makes people angry, and it should.",
       "start": 273.51,
       "end": 277.38,
@@ -1654,7 +1768,7 @@
       ]
     },
     {
-      "id": "54",
+      "id": "74",
       "text": "In a lot of markets, a rental charge rides along on the utility bill.",
       "start": 277.38,
       "end": 281.37,
@@ -1733,11 +1847,11 @@
       ]
     },
     {
-      "id": "55",
-      "text": "A water heater, a surge protection plan, a line warranty, $8, $12, $15 a month.",
+      "id": "75",
+      "text": "A water heater, a surge protection plan, a line warranty, $8, $12,",
       "start": 281.64,
-      "end": 288.1,
-      "durationSeconds": 6.46,
+      "end": 286.75,
+      "durationSeconds": 5.11,
       "words": [
         {
           "text": "A",
@@ -1798,7 +1912,16 @@
           "text": "$12,",
           "start": 286.16,
           "end": 286.75
-        },
+        }
+      ]
+    },
+    {
+      "id": "76",
+      "text": "$15 a month. Somebody signed up once.",
+      "start": 286.77,
+      "end": 289.74,
+      "durationSeconds": 2.97,
+      "words": [
         {
           "text": "$15",
           "start": 286.77,
@@ -1813,16 +1936,7 @@
           "text": "month.",
           "start": 287.41,
           "end": 288.1
-        }
-      ]
-    },
-    {
-      "id": "56",
-      "text": "Somebody signed up once. Sometimes it came with the house and the last owner signed up.",
-      "start": 288.28,
-      "end": 293.13,
-      "durationSeconds": 4.85,
-      "words": [
+        },
         {
           "text": "Somebody",
           "start": 288.28,
@@ -1842,7 +1956,16 @@
           "text": "once.",
           "start": 289.41,
           "end": 289.74
-        },
+        }
+      ]
+    },
+    {
+      "id": "77",
+      "text": "Sometimes it came with the house and the last owner signed up.",
+      "start": 290.17,
+      "end": 293.13,
+      "durationSeconds": 2.96,
+      "words": [
         {
           "text": "Sometimes",
           "start": 290.17,
@@ -1906,11 +2029,11 @@
       ]
     },
     {
-      "id": "57",
-      "text": "And it's been renting you that water heater for 20 years, which means by now you've bought it four or five times over.",
+      "id": "78",
+      "text": "And it's been renting you that water heater for 20 years, which means by now you've bought it four or five times",
       "start": 293.13,
-      "end": 300.08,
-      "durationSeconds": 6.95,
+      "end": 299.52,
+      "durationSeconds": 6.39,
       "words": [
         {
           "text": "And",
@@ -2021,21 +2144,21 @@
           "text": "times",
           "start": 299.17,
           "end": 299.52
-        },
-        {
-          "text": "over.",
-          "start": 299.52,
-          "end": 300.08
         }
       ]
     },
     {
-      "id": "58",
-      "text": "Look for rental, protection plan, warranty, or a company name you don't recognize next to a flat monthly figure.",
-      "start": 300.25,
-      "end": 306.79,
-      "durationSeconds": 6.54,
+      "id": "79",
+      "text": "over. Look for rental, protection plan, warranty, or a company name you don't recognize next to a flat monthly",
+      "start": 299.52,
+      "end": 306.18,
+      "durationSeconds": 6.66,
       "words": [
+        {
+          "text": "over.",
+          "start": 299.52,
+          "end": 300.08
+        },
         {
           "text": "Look",
           "start": 300.25,
@@ -2125,21 +2248,21 @@
           "text": "monthly",
           "start": 305.85,
           "end": 306.18
-        },
-        {
-          "text": "figure.",
-          "start": 306.18,
-          "end": 306.79
         }
       ]
     },
     {
-      "id": "59",
-      "text": "If you don't know what it is, that's exactly why you call.",
-      "start": 306.89,
+      "id": "80",
+      "text": "figure. If you don't know what it is, that's exactly why you call.",
+      "start": 306.18,
       "end": 310.47,
-      "durationSeconds": 3.58,
+      "durationSeconds": 4.29,
       "words": [
+        {
+          "text": "figure.",
+          "start": 306.18,
+          "end": 306.79
+        },
         {
           "text": "If",
           "start": 306.89,
@@ -2203,11 +2326,11 @@
       ]
     },
     {
-      "id": "60",
-      "text": "Number nine. The franchise fee. You're stuck.",
+      "id": "81",
+      "text": "Number nine. The franchise fee.",
       "start": 310.47,
-      "end": 313.71,
-      "durationSeconds": 3.24,
+      "end": 312.73,
+      "durationSeconds": 2.26,
       "words": [
         {
           "text": "Number",
@@ -2233,7 +2356,16 @@
           "text": "fee.",
           "start": 312.31,
           "end": 312.73
-        },
+        }
+      ]
+    },
+    {
+      "id": "82",
+      "text": "You're stuck. First one I can't help you kill, and I'll say so plainly instead of selling you a fix.",
+      "start": 312.73,
+      "end": 318.47,
+      "durationSeconds": 5.74,
+      "words": [
         {
           "text": "You're",
           "start": 312.73,
@@ -2243,16 +2375,7 @@
           "text": "stuck.",
           "start": 313.16,
           "end": 313.71
-        }
-      ]
-    },
-    {
-      "id": "61",
-      "text": "First one I can't help you kill, and I'll say so plainly instead of selling you a fix.",
-      "start": 313.77,
-      "end": 318.47,
-      "durationSeconds": 4.7,
-      "words": [
+        },
         {
           "text": "First",
           "start": 313.77,
@@ -2346,7 +2469,7 @@
       ]
     },
     {
-      "id": "62",
+      "id": "83",
       "text": "Your city charges the utility for the right to run wires over public ground.",
       "start": 318.57,
       "end": 323.02,
@@ -2425,7 +2548,7 @@
       ]
     },
     {
-      "id": "63",
+      "id": "84",
       "text": "The utility passes it straight to you as a percentage.",
       "start": 323.37,
       "end": 326.4,
@@ -2484,11 +2607,11 @@
       ]
     },
     {
-      "id": "64",
-      "text": "It isn't the power company's money and they cannot waive it, but it is a percentage, which makes it the only good news in the stuck column.",
+      "id": "85",
+      "text": "It isn't the power company's money and they cannot waive it, but it is a percentage, which makes it the only good news",
       "start": 326.4,
-      "end": 333.88,
-      "durationSeconds": 7.48,
+      "end": 332.71,
+      "durationSeconds": 6.31,
       "words": [
         {
           "text": "It",
@@ -2604,7 +2727,16 @@
           "text": "news",
           "start": 332.37,
           "end": 332.71
-        },
+        }
+      ]
+    },
+    {
+      "id": "86",
+      "text": "in the stuck column. Every dollar you take off the rest of this bill, this line shrinks by itself.",
+      "start": 332.71,
+      "end": 338.25,
+      "durationSeconds": 5.54,
+      "words": [
         {
           "text": "in",
           "start": 332.71,
@@ -2624,6 +2756,125 @@
           "text": "column.",
           "start": 333.45,
           "end": 333.88
+        },
+        {
+          "text": "Every",
+          "start": 333.88,
+          "end": 334.21
+        },
+        {
+          "text": "dollar",
+          "start": 334.21,
+          "end": 334.6
+        },
+        {
+          "text": "you",
+          "start": 334.6,
+          "end": 334.81
+        },
+        {
+          "text": "take",
+          "start": 334.81,
+          "end": 334.99
+        },
+        {
+          "text": "off",
+          "start": 334.99,
+          "end": 335.37
+        },
+        {
+          "text": "the",
+          "start": 335.37,
+          "end": 335.47
+        },
+        {
+          "text": "rest",
+          "start": 335.47,
+          "end": 335.73
+        },
+        {
+          "text": "of",
+          "start": 335.73,
+          "end": 335.86
+        },
+        {
+          "text": "this",
+          "start": 335.86,
+          "end": 336.12
+        },
+        {
+          "text": "bill,",
+          "start": 336.12,
+          "end": 336.48
+        },
+        {
+          "text": "this",
+          "start": 336.5,
+          "end": 336.75
+        },
+        {
+          "text": "line",
+          "start": 336.77,
+          "end": 336.79
+        },
+        {
+          "text": "shrinks",
+          "start": 336.99,
+          "end": 337.49
+        },
+        {
+          "text": "by",
+          "start": 337.49,
+          "end": 337.55
+        },
+        {
+          "text": "itself.",
+          "start": 337.65,
+          "end": 338.25
+        }
+      ]
+    },
+    {
+      "id": "87",
+      "text": "Number eight. State and local utility tax.",
+      "start": 338.25,
+      "end": 341.97,
+      "durationSeconds": 3.72,
+      "words": [
+        {
+          "text": "Number",
+          "start": 338.25,
+          "end": 339.13
+        },
+        {
+          "text": "eight.",
+          "start": 339.13,
+          "end": 339.6
+        },
+        {
+          "text": "State",
+          "start": 339.6,
+          "end": 340.06
+        },
+        {
+          "text": "and",
+          "start": 340.06,
+          "end": 340.28
+        },
+        {
+          "text": "local",
+          "start": 340.33,
+          "end": 340.66
+        },
+        {
+          "text": "utility",
+          "start": 341.05,
+          "end": 341.43
+        },
+        {
+          "text": "tax.",
+          "start": 341.43,
+          "end": 341.97
         }
       ]
     }

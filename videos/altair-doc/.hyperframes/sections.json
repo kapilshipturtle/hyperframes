@@ -1,12 +1,16 @@
 {
   "sections": [
-    { "name": "the-bill-in-your-hand", "startBeat": "01", "endBeat": "08", "arc": "calm" },
-    { "name": "ruths-ledger", "startBeat": "09", "endBeat": "14", "arc": "calm" },
-    { "name": "the-promise", "startBeat": "15", "endBeat": "22", "arc": "rising" },
-    { "name": "the-small-fees", "startBeat": "23", "endBeat": "59", "arc": "rising" },
-    { "name": "the-stuck-column", "startBeat": "60", "endBeat": "82", "arc": "settling" },
-    { "name": "the-rate-you-are-on", "startBeat": "83", "endBeat": "112", "arc": "rising" },
-    { "name": "number-one", "startBeat": "113", "endBeat": "125", "arc": "peak" },
-    { "name": "the-honest-word", "startBeat": "126", "endBeat": "145", "arc": "settling" }
+    { "name": "the-bill", "title": "Turn The Bill Over", "startBeat": "01", "endBeat": "13", "arc": "calm" },
+    { "name": "ruths-ledger", "title": "Ruth's Ledger, 1934", "startBeat": "14", "endBeat": "21", "arc": "calm" },
+    { "name": "the-sort", "title": "Six Kill · Five Shrink · Three Stuck", "startBeat": "22", "endBeat": "33", "arc": "rising" },
+    { "name": "small-fees", "title": "#14–#11 · The Small Ones", "startBeat": "34", "endBeat": "71", "arc": "rising" },
+    { "name": "rentals-and-stuck", "title": "#10–#8 · Rentals & The Stuck Column", "startBeat": "72", "endBeat": "92", "arc": "rising" },
+    { "name": "riders", "title": "#7–#5 · The Riders", "startBeat": "93", "endBeat": "116", "arc": "rising" },
+    { "name": "rate-class", "title": "#4–#3 · The Rate Class", "startBeat": "117", "endBeat": "137", "arc": "rising" },
+    { "name": "the-clock", "title": "#2 · The Clock", "startBeat": "138", "endBeat": "149", "arc": "rising" },
+    { "name": "number-one", "title": "#1 · The Third-Party Supplier", "startBeat": "150", "endBeat": "169", "arc": "peak" },
+    { "name": "honest-word", "title": "An Honest Word", "startBeat": "170", "endBeat": "177", "arc": "settling" },
+    { "name": "five-questions", "title": "The Five Questions", "startBeat": "178", "endBeat": "187", "arc": "settling" },
+    { "name": "one-task", "title": "Do One Thing Tonight", "startBeat": "188", "endBeat": "193", "arc": "settling" }
   ]
 }

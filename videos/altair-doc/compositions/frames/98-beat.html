@@ -18,6 +18,24 @@
       height: 100%;
       object-fit: cover;
     }
+    /* profile additions: blurred pillarbox for portrait/square media, B&W treatment */
+    .broll-pb-bg { position: absolute; inset: -5%; width: 110%; height: 110%; object-fit: cover; filter: blur(36px) brightness(0.55) saturate(1.1); }
+    .broll-pb-fg { position: absolute; inset: 0; object-fit: contain; }
+    .broll-bw { filter: grayscale(1) contrast(1.08); }
+    /* comparison grid: 2-4 tiles with labels; a hairline gap, dark ground */
+    .broll-grid { position: absolute; inset: 0; display: grid; gap: 6px; background: #0b0b0b; padding: 0; }
+    .broll-grid-columns.broll-grid-n2 { grid-template-columns: 1fr 1fr; }
+    .broll-grid-columns.broll-grid-n3 { grid-template-columns: 1fr 1fr 1fr; }
+    .broll-grid-columns.broll-grid-n4 { grid-template-columns: repeat(4, 1fr); }
+    .broll-grid-2x2 { grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; }
+    .broll-grid-tile { position: relative; overflow: hidden; opacity: 0; }
+    .broll-grid-media { width: 100%; height: 100%; object-fit: cover; display: block; }
+    .broll-grid-label { position: absolute; left: 50%; bottom: 140px; transform: translateX(-50%); font: 800 44px/1.1 "Inter", -apple-system, sans-serif; color: #fff; text-shadow: 0 2px 6px rgba(0,0,0,0.7); text-transform: uppercase; letter-spacing: 0.03em; white-space: nowrap; background: rgba(0,0,0,0.55); padding: 0.25em 0.6em; border-radius: 6px; opacity: 0; }
+    .broll-split-a, .broll-split-b { position: absolute; object-fit: cover; }
+    .broll-split-a.broll-split-left-right { left: 0; top: 0; width: 50%; height: 100%; }
+    .broll-split-b.broll-split-left-right { left: 50%; top: 0; width: 50%; height: 100%; border-left: 4px solid rgba(255,255,255,0.9); box-sizing: border-box; }
+    .broll-split-a.broll-split-top-bottom { left: 0; top: 0; width: 100%; height: 50%; }
+    .broll-split-b.broll-split-top-bottom { left: 0; top: 50%; width: 100%; height: 50%; border-top: 4px solid rgba(255,255,255,0.9); box-sizing: border-box; }
     /* Cutaway sits absolutely over the primary media inside the same wrap
        (so it inherits the same Ken Burns move on the wrap element, keeping
        the two shots visually consistent) — starts transparent, GSAP
@@ -65,28 +83,27 @@
     .broll-vignette {
       position: absolute;
       inset: 0;
-      background: radial-gradient(ellipse at center, rgba(0,0,0,0) 45%, rgba(0,0,0,0.3) 100%);
+      background: radial-gradient(ellipse at center, rgba(0,0,0,0) 45%, rgba(0,0,0,0) 100%);
       pointer-events: none;
     }
 
-    .ov-tw-scrim { position: absolute; left: 0; right: 0; bottom: 0; height: 300px; background: linear-gradient(to top, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0.24) 60%, rgba(0,0,0,0) 100%); opacity: 0; pointer-events: none; }
-    .ov-typewriter { position: absolute; left: 80px; right: 220px; bottom: 110px; }
-    .ov-tw-text { font: 600 36px/1.35 "JetBrains Mono", "SF Mono", monospace; color: #ffffff; text-shadow: 0 1px 2px rgba(0,0,0,0.5), 0 4px 14px rgba(0,0,0,0.4); }
-    .ov-tw-char { opacity: 0; }
-    .ov-tw-cursor { display: inline-block; font-weight: 400; opacity: 0; }
+    .ov-ln { position: absolute; opacity: 0; }
+    .ov-ln-num { font: 800 1em/1.1 "Inter", "Montserrat", -apple-system, sans-serif; font-size: 96px; color: #ffd23f; text-shadow: 0 1px 2px rgba(0,0,0,0.55), 0 4px 16px rgba(0,0,0,0.45); line-height: 1; }
+    .ov-ln-of { font-size: 44px; color: #ffffff; opacity: 0.7; margin-left: 6px; }
+    .ov-ln-title { margin-top: 10px; font: 800 1em/1.1 "Inter", "Montserrat", -apple-system, sans-serif; font-size: 54px; text-transform: capitalize; background: #111111; color: #ffffff; padding: 0.28em 0.6em; border-radius: 6px; display: inline-block; }
+    .ov-ln-ch { opacity: 0; }
   </style>
 
   <div
     id="root"
     data-composition-id="98-beat"
-    data-width="1920" data-height="1080" data-duration="6.36"
+    data-width="1920" data-height="1080" data-duration="5.79"
   >
     <div class="broll-wrap" id="f-98-beat-wrap">
-      <video id="f-98-beat-media" class="broll-media clip" src=".media/broll/beat-98.mp4" muted playsinline data-start="0" data-duration="6.36" data-media-start="0" data-track-index="0"></video>
+      <video id="f-98-beat-media" class="broll-media clip" src=".media/broll/beat-98.mp4" muted playsinline data-start="0" data-duration="5.79" data-media-start="0" data-track-index="0"></video>
     </div>
-    <div class="broll-scrim clip" id="f-98-beat-scrim" data-start="0" data-duration="6.36" data-track-index="1"></div>
-    <div class="broll-vignette clip" id="f-98-beat-vignette" data-start="0" data-duration="6.36" data-track-index="3"></div>
-    <div class="ov-tw-scrim" id="f-98-beat-ov-scrim"></div><div class="ov-typewriter" id="f-98-beat-ov"><span class="ov-tw-text"><span class="ov-tw-char" id="f-98-beat-ov-c0">W</span><span class="ov-tw-char" id="f-98-beat-ov-c1">h</span><span class="ov-tw-char" id="f-98-beat-ov-c2">a</span><span class="ov-tw-char" id="f-98-beat-ov-c3">t</span><span class="ov-tw-char" id="f-98-beat-ov-c4"> </span><span class="ov-tw-char" id="f-98-beat-ov-c5">r</span><span class="ov-tw-char" id="f-98-beat-ov-c6">a</span><span class="ov-tw-char" id="f-98-beat-ov-c7">t</span><span class="ov-tw-char" id="f-98-beat-ov-c8">e</span><span class="ov-tw-char" id="f-98-beat-ov-c9"> </span><span class="ov-tw-char" id="f-98-beat-ov-c10">c</span><span class="ov-tw-char" id="f-98-beat-ov-c11">l</span><span class="ov-tw-char" id="f-98-beat-ov-c12">a</span><span class="ov-tw-char" id="f-98-beat-ov-c13">s</span><span class="ov-tw-char" id="f-98-beat-ov-c14">s</span><span class="ov-tw-char" id="f-98-beat-ov-c15"> </span><span class="ov-tw-char" id="f-98-beat-ov-c16">a</span><span class="ov-tw-char" id="f-98-beat-ov-c17">m</span><span class="ov-tw-char" id="f-98-beat-ov-c18"> </span><span class="ov-tw-char" id="f-98-beat-ov-c19">I</span><span class="ov-tw-char" id="f-98-beat-ov-c20"> </span><span class="ov-tw-char" id="f-98-beat-ov-c21">o</span><span class="ov-tw-char" id="f-98-beat-ov-c22">n</span><span class="ov-tw-char" id="f-98-beat-ov-c23">?</span><span class="ov-tw-char" id="f-98-beat-ov-c24"> </span><span class="ov-tw-char" id="f-98-beat-ov-c25">W</span><span class="ov-tw-char" id="f-98-beat-ov-c26">h</span><span class="ov-tw-char" id="f-98-beat-ov-c27">a</span><span class="ov-tw-char" id="f-98-beat-ov-c28">t</span><span class="ov-tw-char" id="f-98-beat-ov-c29"> </span><span class="ov-tw-char" id="f-98-beat-ov-c30">e</span><span class="ov-tw-char" id="f-98-beat-ov-c31">l</span><span class="ov-tw-char" id="f-98-beat-ov-c32">s</span><span class="ov-tw-char" id="f-98-beat-ov-c33">e</span><span class="ov-tw-char" id="f-98-beat-ov-c34"> </span><span class="ov-tw-char" id="f-98-beat-ov-c35">d</span><span class="ov-tw-char" id="f-98-beat-ov-c36">o</span><span class="ov-tw-char" id="f-98-beat-ov-c37"> </span><span class="ov-tw-char" id="f-98-beat-ov-c38">I</span><span class="ov-tw-char" id="f-98-beat-ov-c39"> </span><span class="ov-tw-char" id="f-98-beat-ov-c40">q</span><span class="ov-tw-char" id="f-98-beat-ov-c41">u</span><span class="ov-tw-char" id="f-98-beat-ov-c42">a</span><span class="ov-tw-char" id="f-98-beat-ov-c43">l</span><span class="ov-tw-char" id="f-98-beat-ov-c44">i</span><span class="ov-tw-char" id="f-98-beat-ov-c45">f</span><span class="ov-tw-char" id="f-98-beat-ov-c46">y</span><span class="ov-tw-char" id="f-98-beat-ov-c47"> </span><span class="ov-tw-char" id="f-98-beat-ov-c48">f</span><span class="ov-tw-char" id="f-98-beat-ov-c49">o</span><span class="ov-tw-char" id="f-98-beat-ov-c50">r</span><span class="ov-tw-char" id="f-98-beat-ov-c51">?</span><span class="ov-tw-cursor" id="f-98-beat-ov-cursor">|</span></span></div>
+    <div class="broll-scrim clip" id="f-98-beat-scrim" data-start="0" data-duration="5.79" data-track-index="1"></div>
+    <div class="ov-ln" id="f-98-beat-ov" style="left: 90px; top: 90px;"><div class="ov-ln-num" id="f-98-beat-ov-n">#1</div><div class="ov-ln-title" id="f-98-beat-ov-t"><span id="f-98-beat-ov-c0" class="ov-ln-ch">F</span><span id="f-98-beat-ov-c1" class="ov-ln-ch">r</span><span id="f-98-beat-ov-c2" class="ov-ln-ch">e</span><span id="f-98-beat-ov-c3" class="ov-ln-ch">e</span><span id="f-98-beat-ov-c4" class="ov-ln-ch">&nbsp;</span><span id="f-98-beat-ov-c5" class="ov-ln-ch">h</span><span id="f-98-beat-ov-c6" class="ov-ln-ch">o</span><span id="f-98-beat-ov-c7" class="ov-ln-ch">m</span><span id="f-98-beat-ov-c8" class="ov-ln-ch">e</span><span id="f-98-beat-ov-c9" class="ov-ln-ch">&nbsp;</span><span id="f-98-beat-ov-c10" class="ov-ln-ch">e</span><span id="f-98-beat-ov-c11" class="ov-ln-ch">n</span><span id="f-98-beat-ov-c12" class="ov-ln-ch">e</span><span id="f-98-beat-ov-c13" class="ov-ln-ch">r</span><span id="f-98-beat-ov-c14" class="ov-ln-ch">g</span><span id="f-98-beat-ov-c15" class="ov-ln-ch">y</span><span id="f-98-beat-ov-c16" class="ov-ln-ch">&nbsp;</span><span id="f-98-beat-ov-c17" class="ov-ln-ch">a</span><span id="f-98-beat-ov-c18" class="ov-ln-ch">u</span><span id="f-98-beat-ov-c19" class="ov-ln-ch">d</span><span id="f-98-beat-ov-c20" class="ov-ln-ch">i</span><span id="f-98-beat-ov-c21" class="ov-ln-ch">t</span><span id="f-98-beat-ov-c22" class="ov-ln-ch">s</span></div></div>
   </div>
 
   <script>
@@ -95,70 +112,9 @@
       var tl = gsap.timeline({ paused: true });
       var wrap = document.getElementById("f-98-beat-wrap");
       gsap.set(wrap, { scale: 1.0 });
-      tl.to("#f-98-beat-ov-scrim", { opacity: 1, duration: 0.4, ease: "power2.out" }, 0.20);
-      tl.to("#f-98-beat-ov-c0", { opacity: 1, duration: 0.01 }, 0.300);
-      tl.to("#f-98-beat-ov-c1", { opacity: 1, duration: 0.01 }, 0.320);
-      tl.to("#f-98-beat-ov-c2", { opacity: 1, duration: 0.01 }, 0.340);
-      tl.to("#f-98-beat-ov-c3", { opacity: 1, duration: 0.01 }, 0.360);
-      tl.to("#f-98-beat-ov-c4", { opacity: 1, duration: 0.01 }, 0.380);
-      tl.to("#f-98-beat-ov-c5", { opacity: 1, duration: 0.01 }, 0.405);
-      tl.to("#f-98-beat-ov-c6", { opacity: 1, duration: 0.01 }, 0.438);
-      tl.to("#f-98-beat-ov-c7", { opacity: 1, duration: 0.01 }, 0.484);
-      tl.to("#f-98-beat-ov-c8", { opacity: 1, duration: 0.01 }, 0.548);
-      tl.to("#f-98-beat-ov-c9", { opacity: 1, duration: 0.01 }, 0.634);
-      tl.to("#f-98-beat-ov-c10", { opacity: 1, duration: 0.01 }, 0.654);
-      tl.to("#f-98-beat-ov-c11", { opacity: 1, duration: 0.01 }, 0.681);
-      tl.to("#f-98-beat-ov-c12", { opacity: 1, duration: 0.01 }, 0.716);
-      tl.to("#f-98-beat-ov-c13", { opacity: 1, duration: 0.01 }, 0.765);
-      tl.to("#f-98-beat-ov-c14", { opacity: 1, duration: 0.01 }, 0.833);
-      tl.to("#f-98-beat-ov-c15", { opacity: 1, duration: 0.01 }, 0.925);
-      tl.to("#f-98-beat-ov-c16", { opacity: 1, duration: 0.01 }, 0.951);
-      tl.to("#f-98-beat-ov-c17", { opacity: 1, duration: 0.01 }, 0.986);
-      tl.to("#f-98-beat-ov-c18", { opacity: 1, duration: 0.01 }, 1.035);
-      tl.to("#f-98-beat-ov-c19", { opacity: 1, duration: 0.01 }, 1.102);
-      tl.to("#f-98-beat-ov-c20", { opacity: 1, duration: 0.01 }, 1.194);
-      tl.to("#f-98-beat-ov-c21", { opacity: 1, duration: 0.01 }, 1.220);
-      tl.to("#f-98-beat-ov-c22", { opacity: 1, duration: 0.01 }, 1.255);
-      tl.to("#f-98-beat-ov-c23", { opacity: 1, duration: 0.01 }, 1.304);
-      tl.to("#f-98-beat-ov-c24", { opacity: 1, duration: 0.01 }, 1.591);
-      tl.to("#f-98-beat-ov-c25", { opacity: 1, duration: 0.01 }, 1.663);
-      tl.to("#f-98-beat-ov-c26", { opacity: 1, duration: 0.01 }, 1.683);
-      tl.to("#f-98-beat-ov-c27", { opacity: 1, duration: 0.01 }, 1.703);
-      tl.to("#f-98-beat-ov-c28", { opacity: 1, duration: 0.01 }, 1.723);
-      tl.to("#f-98-beat-ov-c29", { opacity: 1, duration: 0.01 }, 1.745);
-      tl.to("#f-98-beat-ov-c30", { opacity: 1, duration: 0.01 }, 1.774);
-      tl.to("#f-98-beat-ov-c31", { opacity: 1, duration: 0.01 }, 1.814);
-      tl.to("#f-98-beat-ov-c32", { opacity: 1, duration: 0.01 }, 1.870);
-      tl.to("#f-98-beat-ov-c33", { opacity: 1, duration: 0.01 }, 1.945);
-      tl.to("#f-98-beat-ov-c34", { opacity: 1, duration: 0.01 }, 1.965);
-      tl.to("#f-98-beat-ov-c35", { opacity: 1, duration: 0.01 }, 1.985);
-      tl.to("#f-98-beat-ov-c36", { opacity: 1, duration: 0.01 }, 2.005);
-      tl.to("#f-98-beat-ov-c37", { opacity: 1, duration: 0.01 }, 2.031);
-      tl.to("#f-98-beat-ov-c38", { opacity: 1, duration: 0.01 }, 2.067);
-      tl.to("#f-98-beat-ov-c39", { opacity: 1, duration: 0.01 }, 2.116);
-      tl.to("#f-98-beat-ov-c40", { opacity: 1, duration: 0.01 }, 2.183);
-      tl.to("#f-98-beat-ov-c41", { opacity: 1, duration: 0.01 }, 2.275);
-      tl.to("#f-98-beat-ov-c42", { opacity: 1, duration: 0.01 }, 2.300);
-      tl.to("#f-98-beat-ov-c43", { opacity: 1, duration: 0.01 }, 2.335);
-      tl.to("#f-98-beat-ov-c44", { opacity: 1, duration: 0.01 }, 2.383);
-      tl.to("#f-98-beat-ov-c45", { opacity: 1, duration: 0.01 }, 2.449);
-      tl.to("#f-98-beat-ov-c46", { opacity: 1, duration: 0.01 }, 2.539);
-      tl.to("#f-98-beat-ov-c47", { opacity: 1, duration: 0.01 }, 2.562);
-      tl.to("#f-98-beat-ov-c48", { opacity: 1, duration: 0.01 }, 2.595);
-      tl.to("#f-98-beat-ov-c49", { opacity: 1, duration: 0.01 }, 2.639);
-      tl.to("#f-98-beat-ov-c50", { opacity: 1, duration: 0.01 }, 2.699);
-      tl.to("#f-98-beat-ov-c51", { opacity: 1, duration: 0.01 }, 2.781);
-      tl.fromTo("#f-98-beat-ov-cursor", { opacity: 0 }, { opacity: 1, duration: 0.01 }, 0.30);
-      tl.to("#f-98-beat-ov-cursor", { opacity: 0, duration: 0.01 }, 3.12);
-      tl.to("#f-98-beat-ov-cursor", { opacity: 1, duration: 0.01 }, 3.37);
-      tl.to("#f-98-beat-ov-cursor", { opacity: 0, duration: 0.01 }, 3.62);
-      tl.to("#f-98-beat-ov-cursor", { opacity: 1, duration: 0.01 }, 3.87);
-      tl.to("#f-98-beat-ov-cursor", { opacity: 0, duration: 0.01 }, 4.12);
-      tl.to("#f-98-beat-ov-cursor", { opacity: 1, duration: 0.01 }, 4.37);
-      tl.to("#f-98-beat-ov-cursor", { opacity: 0, duration: 0.01 }, 4.62);
-      tl.to("#f-98-beat-ov-cursor", { opacity: 1, duration: 0.01 }, 4.87);
-      tl.to("#f-98-beat-ov", { opacity: 0, y: -6, duration: 0.3, ease: "power2.in" }, 4.12);
-      tl.to("#f-98-beat-ov-scrim", { opacity: 0, duration: 0.4, ease: "power2.in" }, 4.27);
+      tl.set("#f-98-beat-ov", { opacity: 1 }, 1.40);
+      tl.fromTo("#f-98-beat-ov-n", { opacity: 0, scale: 0.6 }, { opacity: 1, scale: 1, duration: 0.24, ease: "back.out(1.8)" }, 1.40);
+      tl.to("#f-98-beat-ov .ov-ln-ch", { opacity: 1, duration: 0.01, stagger: 0.039 }, 1.65);
       window.__timelines["98-beat"] = tl;
     })();
   </script>

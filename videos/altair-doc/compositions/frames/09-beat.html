@@ -18,6 +18,24 @@
       height: 100%;
       object-fit: cover;
     }
+    /* profile additions: blurred pillarbox for portrait/square media, B&W treatment */
+    .broll-pb-bg { position: absolute; inset: -5%; width: 110%; height: 110%; object-fit: cover; filter: blur(36px) brightness(0.55) saturate(1.1); }
+    .broll-pb-fg { position: absolute; inset: 0; object-fit: contain; }
+    .broll-bw { filter: grayscale(1) contrast(1.08); }
+    /* comparison grid: 2-4 tiles with labels; a hairline gap, dark ground */
+    .broll-grid { position: absolute; inset: 0; display: grid; gap: 6px; background: #0b0b0b; padding: 0; }
+    .broll-grid-columns.broll-grid-n2 { grid-template-columns: 1fr 1fr; }
+    .broll-grid-columns.broll-grid-n3 { grid-template-columns: 1fr 1fr 1fr; }
+    .broll-grid-columns.broll-grid-n4 { grid-template-columns: repeat(4, 1fr); }
+    .broll-grid-2x2 { grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; }
+    .broll-grid-tile { position: relative; overflow: hidden; opacity: 0; }
+    .broll-grid-media { width: 100%; height: 100%; object-fit: cover; display: block; }
+    .broll-grid-label { position: absolute; left: 50%; bottom: 140px; transform: translateX(-50%); font: 800 44px/1.1 "Inter", -apple-system, sans-serif; color: #fff; text-shadow: 0 2px 6px rgba(0,0,0,0.7); text-transform: uppercase; letter-spacing: 0.03em; white-space: nowrap; background: rgba(0,0,0,0.55); padding: 0.25em 0.6em; border-radius: 6px; opacity: 0; }
+    .broll-split-a, .broll-split-b { position: absolute; object-fit: cover; }
+    .broll-split-a.broll-split-left-right { left: 0; top: 0; width: 50%; height: 100%; }
+    .broll-split-b.broll-split-left-right { left: 50%; top: 0; width: 50%; height: 100%; border-left: 4px solid rgba(255,255,255,0.9); box-sizing: border-box; }
+    .broll-split-a.broll-split-top-bottom { left: 0; top: 0; width: 100%; height: 50%; }
+    .broll-split-b.broll-split-top-bottom { left: 0; top: 50%; width: 100%; height: 50%; border-top: 4px solid rgba(255,255,255,0.9); box-sizing: border-box; }
     /* Cutaway sits absolutely over the primary media inside the same wrap
        (so it inherits the same Ken Burns move on the wrap element, keeping
        the two shots visually consistent) — starts transparent, GSAP
@@ -65,28 +83,31 @@
     .broll-vignette {
       position: absolute;
       inset: 0;
-      background: radial-gradient(ellipse at center, rgba(0,0,0,0) 45%, rgba(0,0,0,0.3) 100%);
+      background: radial-gradient(ellipse at center, rgba(0,0,0,0) 45%, rgba(0,0,0,0) 100%);
       pointer-events: none;
     }
 
-    .ov-lower-third { position: absolute; left: 0; right: 0; bottom: 92px; display: flex; padding: 0 64px; }
-    .ov-lt-card { display: flex; align-items: center; gap: 18px; padding: 22px 34px; border-radius: 10px; background: rgba(10,10,14,0.72); box-shadow: 0 10px 28px rgba(0,0,0,0.35); opacity: 0; transform: translateX(-14px); }
-    .ov-lt-bar { display: block; width: 5px; height: 40px; background: #ffd9a0; border-radius: 2.5px; transform-origin: 50% 0%; transform: scaleY(0); }
-    .ov-lt-text { font: 700 38px/1 -apple-system, "Inter", sans-serif; letter-spacing: 0.01em; color: #ffffff; opacity: 0; }
+    .ov-sp { position: absolute; top: 0; bottom: 0; width: 42%; background: #f4ecd8; color: #1c1c1c; padding: 120px 64px 0; box-sizing: border-box; opacity: 0; }
+    .ov-sp-right { right: 0; } .ov-sp-left { left: 0; }
+    .ov-sp-kicker { font: 500 1em/1.35 "Inter", -apple-system, sans-serif; font-size: 22px; letter-spacing: 0.18em; text-transform: uppercase; color: #f28c28; margin-bottom: 14px; }
+    .ov-sp-title { font: 700 1em/1.15 "Playfair Display", "Libre Baskerville", Georgia, "Times New Roman", serif; font-size: 54px; line-height: 1.1; margin-bottom: 34px; }
+    .ov-sp-item { display: flex; gap: 16px; align-items: flex-start; font: 500 1em/1.35 "Inter", -apple-system, sans-serif; font-size: 30px; line-height: 1.3; margin: 16px 0; opacity: 0; }
+    .ov-sp-dot { flex: 0 0 auto; width: 12px; height: 12px; margin-top: 12px; border-radius: 50%; background: #f28c28; }
+
+    /* side-panel layout: the footage wrap shares the frame with the card */
+    .broll-wrap { inset: 0 !important; width: 58% !important; height: 100% !important; left: 0 !important; }
   </style>
 
   <div
     id="root"
     data-composition-id="09-beat"
-    data-width="1920" data-height="1080" data-duration="10.44"
+    data-width="1920" data-height="1080" data-duration="2.46"
   >
     <div class="broll-wrap" id="f-09-beat-wrap">
-      <video id="f-09-beat-media" class="broll-media clip" src=".media/broll/beat-09.mp4" muted playsinline data-start="0" data-duration="10.44" data-media-start="0" data-track-index="0"></video>
-      <video id="f-09-beat-cutaway" class="broll-media broll-cutaway clip" src=".media/broll/beat-09-cutaway.mp4" muted playsinline data-start="4.98" data-duration="5.46" data-media-start="0" data-track-index="4" style="opacity:0;"></video>
+      <video id="f-09-beat-media" class="broll-media clip" src=".media/broll/beat-09.mp4" muted playsinline data-start="0" data-duration="2.46" data-media-start="0" data-track-index="0"></video>
     </div>
-    <div class="broll-scrim clip" id="f-09-beat-scrim" data-start="0" data-duration="10.44" data-track-index="1"></div>
-    <div class="broll-vignette clip" id="f-09-beat-vignette" data-start="0" data-duration="10.44" data-track-index="3"></div>
-    <div class="ov-lower-third" id="f-09-beat-ov"><div class="ov-lt-card" id="f-09-beat-ov-card"><span class="ov-lt-bar" id="f-09-beat-ov-bar"></span><span class="ov-lt-text" id="f-09-beat-ov-text">Ruth's Ledger, 1929-1939</span></div></div>
+    <div class="broll-scrim clip" id="f-09-beat-scrim" data-start="0" data-duration="2.46" data-track-index="1"></div>
+    <div class="ov-sp ov-sp-right" id="f-09-beat-ov"><div class="ov-sp-title">What You're Paying For</div><div class="ov-sp-item" id="f-09-beat-ov-b0"><span class="ov-sp-dot"></span>Power</div><div class="ov-sp-item" id="f-09-beat-ov-b1"><span class="ov-sp-dot"></span>Paperwork</div></div>
   </div>
 
   <script>
@@ -95,17 +116,9 @@
       var tl = gsap.timeline({ paused: true });
       var wrap = document.getElementById("f-09-beat-wrap");
       gsap.set(wrap, { scale: 1.0 });
-      tl.fromTo("#f-09-beat-ov-card", { opacity: 0, x: -14 }, { opacity: 1, x: 0, duration: 0.4, ease: "power3.out" }, 3.10);
-      tl.to("#f-09-beat-ov-bar", { scaleY: 1, duration: 0.36, ease: "power3.out" }, 3.28);
-      tl.to("#f-09-beat-ov-text", { opacity: 1, duration: 0.34, ease: "power3.out" }, 3.40);
-      tl.to("#f-09-beat-ov-card", { opacity: 0, x: -10, duration: 0.32, ease: "power2.in" }, 7.34);
-      // Quick crossfade hand-off to the cutaway layer — primary media fades
-      // out just as the cutaway fades in, both centered on --cutaway-at, so
-      // there's never a moment either layer reads as a hard pop.
-      var cutawayEl = document.getElementById("f-09-beat-cutaway");
-      var primaryEl = document.getElementById("f-09-beat-media");
-      tl.to(primaryEl, { opacity: 0, duration: 0.4, ease: "none" }, 4.98 - 0.2);
-      tl.to(cutawayEl, { opacity: 1, duration: 0.4, ease: "none" }, 4.98 - 0.2);
+      tl.fromTo("#f-09-beat-ov", { opacity: 0, x: 60 }, { opacity: 1, x: 0, duration: 0.45, ease: "power3.out" }, 0.80);
+      tl.fromTo("#f-09-beat-ov-b0", { opacity: 0, x: 20 }, { opacity: 1, x: 0, duration: 0.3, ease: "power3.out" }, 1.25);
+      tl.fromTo("#f-09-beat-ov-b1", { opacity: 0, x: 20 }, { opacity: 1, x: 0, duration: 0.3, ease: "power3.out" }, 1.55);
       window.__timelines["09-beat"] = tl;
     })();
   </script>

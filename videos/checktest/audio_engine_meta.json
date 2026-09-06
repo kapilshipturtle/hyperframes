@@ -1,0 +1,215 @@
+{
+  "tts_provider": null,
+  "voice_id": null,
+  "bgm": null,
+  "bgm_pending": false,
+  "bgm_provider": null,
+  "bgm_pid": null,
+  "bgm_log": null,
+  "bgm_mode": null,
+  "bgm_target_duration_s": null,
+  "bgm_seed_duration_s": null,
+  "bgm_loop_count": null,
+  "voices": [],
+  "sfx": [
+    {
+      "id": "03",
+      "name": "whoosh-fast",
+      "file": "assets/sfx/whoosh-fast.mp3",
+      "source": "local",
+      "offset_s": 0,
+      "duration_s": 0.71,
+      "volume": 0.35
+    },
+    {
+      "id": "03",
+      "name": "cash",
+      "file": "assets/sfx/cash.mp3",
+      "source": "local",
+      "offset_s": 0,
+      "duration_s": 0.73,
+      "volume": 0.35
+    },
+    {
+      "id": "04",
+      "name": "click-soft",
+      "file": "assets/sfx/click-soft.mp3",
+      "source": "local",
+      "offset_s": 0,
+      "duration_s": 0.05,
+      "volume": 0.35
+    },
+    {
+      "id": "06",
+      "name": "whoosh-sweep",
+      "file": "assets/sfx/whoosh-sweep.mp3",
+      "source": "local",
+      "offset_s": 0,
+      "duration_s": 0.65,
+      "volume": 0.35
+    },
+    {
+      "id": "08",
+      "name": "tick-burst",
+      "file": "assets/sfx/tick-burst.mp3",
+      "source": "local",
+      "offset_s": 0,
+      "duration_s": 0.7,
+      "volume": 0.35
+    },
+    {
+      "id": "09",
+      "name": "pop",
+      "file": "assets/sfx/pop.mp3",
+      "source": "local",
+      "offset_s": 0,
+      "duration_s": 0.26,
+      "volume": 0.35
+    },
+    {
+      "id": "10",
+      "name": "whoosh-short",
+      "file": "assets/sfx/whoosh-short.mp3",
+      "source": "local",
+      "offset_s": 0,
+      "duration_s": 0.57,
+      "volume": 0.35
+    },
+    {
+      "id": "10",
+      "name": "thud-soft",
+      "file": "assets/sfx/thud-soft.mp3",
+      "source": "local",
+      "offset_s": 0,
+      "duration_s": 0.21,
+      "volume": 0.35
+    },
+    {
+      "id": "11",
+      "name": "pop",
+      "file": "assets/sfx/pop.mp3",
+      "source": "local",
+      "offset_s": 0,
+      "duration_s": 0.26,
+      "volume": 0.35
+    },
+    {
+      "id": "12",
+      "name": "whoosh-fast",
+      "file": "assets/sfx/whoosh-fast.mp3",
+      "source": "local",
+      "offset_s": 0,
+      "duration_s": 0.71,
+      "volume": 0.35
+    },
+    {
+      "id": "15",
+      "name": "whoosh-short",
+      "file": "assets/sfx/whoosh-short.mp3",
+      "source": "local",
+      "offset_s": 0,
+      "duration_s": 0.57,
+      "volume": 0.35
+    },
+    {
+      "id": "19",
+      "name": "pop",
+      "file": "assets/sfx/pop.mp3",
+      "source": "local",
+      "offset_s": 0,
+      "duration_s": 0.26,
+      "volume": 0.35
+    },
+    {
+      "id": "20",
+      "name": "whoosh-hit",
+      "file": "assets/sfx/whoosh-hit.mp3",
+      "source": "local",
+      "offset_s": 0,
+      "duration_s": 1.4,
+      "volume": 0.35
+    },
+    {
+      "id": "21",
+      "name": "cash",
+      "file": "assets/sfx/cash.mp3",
+      "source": "local",
+      "offset_s": 0,
+      "duration_s": 0.73,
+      "volume": 0.35
+    },
+    {
+      "id": "22",
+      "name": "glitch-1",
+      "file": "assets/sfx/glitch-1.mp3",
+      "source": "local",
+      "offset_s": 0,
+      "duration_s": 2.64,
+      "volume": 0.35
+    },
+    {
+      "id": "23",
+      "name": "whoosh-air",
+      "file": "assets/sfx/whoosh-air.mp3",
+      "source": "local",
+      "offset_s": 0,
+      "duration_s": 1.49,
+      "volume": 0.35
+    },
+    {
+      "id": "26",
+      "name": "whoosh-short",
+      "file": "assets/sfx/whoosh-short.mp3",
+      "source": "local",
+      "offset_s": 0,
+      "duration_s": 0.57,
+      "volume": 0.35
+    },
+    {
+      "id": "26",
+      "name": "thud-soft",
+      "file": "assets/sfx/thud-soft.mp3",
+      "source": "local",
+      "offset_s": 0,
+      "duration_s": 0.21,
+      "volume": 0.35
+    },
+    {
+      "id": "28",
+      "name": "shutter",
+      "file": "assets/sfx/shutter.mp3",
+      "source": "local",
+      "offset_s": 0,
+      "duration_s": 0.13,
+      "volume": 0.35
+    },
+    {
+      "id": "29",
+      "name": "shutter",
+      "file": "assets/sfx/shutter.mp3",
+      "source": "local",
+      "offset_s": 0,
+      "duration_s": 0.13,
+      "volume": 0.35
+    },
+    {
+      "id": "30",
+      "name": "whoosh-air",
+      "file": "assets/sfx/whoosh-air.mp3",
+      "source": "local",
+      "offset_s": 0,
+      "duration_s": 1.49,
+      "volume": 0.35
+    },
+    {
+      "id": "32",
+      "name": "whoosh-sweep",
+      "file": "assets/sfx/whoosh-sweep.mp3",
+      "source": "local",
+      "offset_s": 0,
+      "duration_s": 0.65,
+      "volume": 0.35
+    }
+  ],
+  "total_duration_s": 0
+}

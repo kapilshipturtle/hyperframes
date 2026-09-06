@@ -1,0 +1,124 @@
+{
+  "lines": [
+    {
+      "id": "03",
+      "sfx": [
+        "whoosh-fast",
+        "cash"
+      ]
+    },
+    {
+      "id": "04",
+      "sfx": [
+        "click-soft"
+      ]
+    },
+    {
+      "id": "06",
+      "sfx": [
+        "whoosh-sweep"
+      ]
+    },
+    {
+      "id": "08",
+      "sfx": [
+        "tick-burst"
+      ]
+    },
+    {
+      "id": "09",
+      "sfx": [
+        "pop"
+      ]
+    },
+    {
+      "id": "10",
+      "sfx": [
+        "whoosh-short",
+        "thud-soft"
+      ]
+    },
+    {
+      "id": "11",
+      "sfx": [
+        "pop"
+      ]
+    },
+    {
+      "id": "12",
+      "sfx": [
+        "whoosh-fast"
+      ]
+    },
+    {
+      "id": "15",
+      "sfx": [
+        "whoosh-short"
+      ]
+    },
+    {
+      "id": "19",
+      "sfx": [
+        "pop"
+      ]
+    },
+    {
+      "id": "20",
+      "sfx": [
+        "whoosh-hit"
+      ]
+    },
+    {
+      "id": "21",
+      "sfx": [
+        "cash"
+      ]
+    },
+    {
+      "id": "22",
+      "sfx": [
+        "glitch-1"
+      ]
+    },
+    {
+      "id": "23",
+      "sfx": [
+        "whoosh-air"
+      ]
+    },
+    {
+      "id": "26",
+      "sfx": [
+        "whoosh-short",
+        "thud-soft"
+      ]
+    },
+    {
+      "id": "28",
+      "sfx": [
+        "shutter"
+      ]
+    },
+    {
+      "id": "29",
+      "sfx": [
+        "shutter"
+      ]
+    },
+    {
+      "id": "30",
+      "sfx": [
+        "whoosh-air"
+      ]
+    },
+    {
+      "id": "32",
+      "sfx": [
+        "whoosh-sweep"
+      ]
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "sections": [
+    { "name": "hook", "startBeat": "01", "endBeat": "09", "arc": "rising" },
+    { "name": "the-stack-revealed", "startBeat": "10", "endBeat": "19", "arc": "rising" },
+    { "name": "the-bigger-number", "startBeat": "20", "endBeat": "21", "arc": "peak" },
+    { "name": "why-nobody-explained-it", "startBeat": "22", "endBeat": "33", "arc": "settling" }
+  ]
+}

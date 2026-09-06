@@ -1,0 +1,234 @@
+<template>
+<style>
+  #root {
+    background: #0a0a0c;
+    font-family: -apple-system, "Inter", sans-serif;
+    overflow: hidden;
+  }
+
+  .beat18-stage {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .beat18-label {
+    position: absolute;
+    top: 108px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #f2f2f0;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    opacity: 0;
+  }
+
+  /* stack build zone */
+  .beat18-stack {
+    position: relative;
+    width: 980px;
+    height: 560px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 18px;
+  }
+
+  .beat18-bar-row {
+    position: relative;
+    width: 100%;
+    height: 108px;
+    display: flex;
+    align-items: center;
+    opacity: 0;
+  }
+
+  .beat18-bar-track {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 14px;
+    background: rgba(255, 255, 255, 0.06);
+    overflow: hidden;
+  }
+
+  .beat18-bar-fill {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0%;
+    border-radius: 14px;
+    background: linear-gradient(90deg, rgba(169,180,192,0.35), rgba(169,180,192,0.85));
+  }
+
+  .beat18-bar-label {
+    position: absolute;
+    left: 32px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #f2f2f0;
+    font-size: 24px;
+    font-weight: 600;
+    opacity: 0.85;
+    white-space: nowrap;
+  }
+
+  .beat18-bar-value {
+    position: absolute;
+    right: 32px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #a9b4c0;
+    font-size: 26px;
+    font-weight: 700;
+    opacity: 0;
+  }
+
+  /* combined total bar, formed by the three stacking in */
+  .beat18-total-wrap {
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    width: 980px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0;
+  }
+
+  .beat18-total-bar {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 2px solid rgba(169,180,192,0.4);
+    overflow: hidden;
+  }
+
+  .beat18-total-fill {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0%;
+    background: linear-gradient(90deg, rgba(169,180,192,0.5), #a9b4c0);
+  }
+
+  .beat18-total-number {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0a0a0c;
+    font-size: 64px;
+    font-weight: 800;
+    letter-spacing: -0.01em;
+    mix-blend-mode: normal;
+  }
+
+  .beat18-total-caption {
+    margin-top: 14px;
+    color: #a9b4c0;
+    font-size: 22px;
+    font-weight: 600;
+    opacity: 0;
+    letter-spacing: 0.03em;
+  }
+</style>
+
+<div id="root" data-composition-id="18-beat" data-width="1920" data-height="1080" data-duration="3.92">
+  <div id="beat18-bg" class="clip" data-start="0" data-duration="3.92" data-track-index="0" style="position:absolute;inset:0;background:#0a0a0c;"></div>
+
+  <div id="beat18-stage" class="clip beat18-stage" data-start="0" data-duration="3.92" data-track-index="1">
+    <div class="beat18-label">Building the Stack</div>
+
+    <div class="beat18-stack">
+      <div class="beat18-bar-row" data-row="1">
+        <div class="beat18-bar-track">
+          <div class="beat18-bar-fill" data-fill="1"></div>
+          <div class="beat18-bar-label">Base standard deduction</div>
+          <div class="beat18-bar-value" data-value="1">$15,000</div>
+        </div>
+      </div>
+
+      <div class="beat18-bar-row" data-row="2">
+        <div class="beat18-bar-track">
+          <div class="beat18-bar-fill" data-fill="2"></div>
+          <div class="beat18-bar-label">Senior add-on</div>
+          <div class="beat18-bar-value" data-value="2">$2,000</div>
+        </div>
+      </div>
+
+      <div class="beat18-bar-row" data-row="3">
+        <div class="beat18-bar-track">
+          <div class="beat18-bar-fill" data-fill="3"></div>
+          <div class="beat18-bar-label">New 2025 provision</div>
+          <div class="beat18-bar-value" data-value="3">$30,500</div>
+        </div>
+      </div>
+
+      <div class="beat18-total-wrap">
+        <div class="beat18-total-bar">
+          <div class="beat18-total-fill"></div>
+          <div class="beat18-total-number">$47,500</div>
+        </div>
+        <div class="beat18-total-caption">Combined total</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+(function () {
+  var root = document.querySelector('[data-composition-id="18-beat"]');
+  var tl = gsap.timeline({ paused: true });
+
+  var label = root.querySelector('.beat18-label');
+  var rows = root.querySelectorAll('.beat18-bar-row');
+  var fills = root.querySelectorAll('.beat18-bar-fill');
+  var values = root.querySelectorAll('.beat18-bar-value');
+  var totalWrap = root.querySelector('.beat18-total-wrap');
+  var totalFill = root.querySelector('.beat18-total-fill');
+  var totalCaption = root.querySelector('.beat18-total-caption');
+
+  // 0.00s: title label fades in first
+  tl.to(label, { opacity: 1, duration: 0.35, ease: 'power1.out' }, 0.0);
+
+  // Bar 1 builds in ~0.45s -> 1.15s
+  tl.fromTo(rows[0], { y: 40 }, { opacity: 1, y: 0, duration: 0.4, ease: 'power2.out' }, 0.45);
+  tl.to(fills[0], { width: '31%', duration: 0.5, ease: 'power2.out' }, 0.55);
+  tl.to(values[0], { opacity: 1, duration: 0.25 }, 0.9);
+
+  // Bar 2 builds in ~1.25s -> 1.85s
+  tl.fromTo(rows[1], { y: 40 }, { opacity: 1, y: 0, duration: 0.35, ease: 'power2.out' }, 1.25);
+  tl.to(fills[1], { width: '4%', duration: 0.4, ease: 'power2.out' }, 1.35);
+  tl.to(values[1], { opacity: 1, duration: 0.25 }, 1.65);
+
+  // Bar 3 builds in ~1.95s -> 2.55s (the big new provision)
+  tl.fromTo(rows[2], { y: 40 }, { opacity: 1, y: 0, duration: 0.35, ease: 'power2.out' }, 1.95);
+  tl.to(fills[2], { width: '64%', duration: 0.45, ease: 'power2.out' }, 2.05);
+  tl.to(values[2], { opacity: 1, duration: 0.25 }, 2.35);
+
+  // Stack collapses into the single combined total bar ~2.55s -> 3.6s
+  tl.to(rows[0], { opacity: 0.25, duration: 0.3, ease: 'power1.inOut' }, 2.55);
+  tl.to(rows[1], { opacity: 0.25, duration: 0.3, ease: 'power1.inOut' }, 2.55);
+  tl.to(rows[2], { opacity: 0.25, duration: 0.3, ease: 'power1.inOut' }, 2.55);
+
+  tl.fromTo(totalWrap, { xPercent: -50, scale: 0.9 }, { opacity: 1, xPercent: -50, scale: 1, duration: 0.4, ease: 'power2.out' }, 2.85);
+  tl.to(totalFill, { width: '100%', duration: 0.55, ease: 'power3.out' }, 2.9);
+  tl.to(totalCaption, { opacity: 0.85, duration: 0.3 }, 3.25);
+
+  // hold to end of duration (3.92s) — no exit tween
+  window.__timelines = window.__timelines || {};
+  window.__timelines["18-beat"] = tl;
+})();
+</script>
+</template>

@@ -86,6 +86,12 @@
       background: radial-gradient(ellipse at center, rgba(0,0,0,0) 45%, rgba(0,0,0,0) 100%);
       pointer-events: none;
     }
+
+    .ov-kf { position: absolute; left: 50%; display: flex; gap: 0.32em; font: 800 1em/1.1 "Inter", "Montserrat", -apple-system, sans-serif; font-size: 92px; text-transform: capitalize; opacity: 0; white-space: nowrap; }
+    .ov-kf-center { top: 50%; transform: translate(-50%, -50%); }
+    .ov-kf-lower-center { bottom: 150px; transform: translateX(-50%); }
+    .ov-kf-w { background: #111111; color: #ffffff; padding: 0.28em 0.6em; border-radius: 6px; }
+    .ov-kf-acc { color: #ffd23f; }
   </style>
 
   <div
@@ -97,6 +103,7 @@
       <video id="f-01-beat-media" class="broll-media clip" src=".media/broll/beat-01.mp4" muted playsinline data-start="0" data-duration="5.36" data-media-start="0" data-track-index="0"></video>
     </div>
     <div class="broll-scrim clip" id="f-01-beat-scrim" data-start="0" data-duration="5.36" data-track-index="1"></div>
+    <div class="ov-kf ov-kf-center" id="f-01-beat-ov"><span class="ov-kf-w" id="f-01-beat-ov-w0">Born</span> <span class="ov-kf-w" id="f-01-beat-ov-w1">before</span> <span class="ov-kf-w ov-kf-acc" id="f-01-beat-ov-w2">1961?</span></div>
   </div>
 
   <script>
@@ -106,6 +113,10 @@
       var wrap = document.getElementById("f-01-beat-wrap");
       gsap.set(wrap, { scale: 1.0 });
       tl.to("#f-01-beat-media", { scale: 1.350, duration: 0.09, ease: "power3.out" }, 1.18);
+      tl.set("#f-01-beat-ov", { opacity: 1 }, 1.40);
+      tl.fromTo("#f-01-beat-ov-w0", { opacity: 0 }, { opacity: 1, duration: 0.22, ease: "power2.out" }, 1.40);
+      tl.fromTo("#f-01-beat-ov-w1", { opacity: 0 }, { opacity: 1, duration: 0.22, ease: "power2.out" }, 1.47);
+      tl.fromTo("#f-01-beat-ov-w2", { opacity: 0 }, { opacity: 1, duration: 0.22, ease: "power2.out" }, 1.54);
       window.__timelines["01-beat"] = tl;
     })();
   </script>

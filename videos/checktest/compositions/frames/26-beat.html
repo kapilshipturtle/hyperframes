@@ -83,16 +83,16 @@
     .broll-vignette {
       position: absolute;
       inset: 0;
-      background: radial-gradient(ellipse at center, rgba(0,0,0,0) 45%, rgba(0,0,0,0) 100%);
+      background: radial-gradient(ellipse at center, rgba(0,0,0,0) 45%, rgba(0,0,0,0.35) 100%);
       pointer-events: none;
     }
 
     .ov-ic-scrim { position: absolute; inset: 0; background: rgba(0,0,0,0.55); opacity: 0; pointer-events: none; }
-    .ov-ic { position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%); width: 1060px; max-width: 78%; background: #f4ecd8; color: #1c1c1c; padding: 54px 70px 58px; border-radius: 14px; box-shadow: 0 2px 6px rgba(0,0,0,0.35), 0 12px 40px rgba(0,0,0,0.35); opacity: 0; }
+    .ov-ic { position: absolute; left: 50%; top: 46%; transform: translate(-50%,-50%); width: 1060px; max-width: 78%; max-height: 700px; overflow: hidden; background: #f4ecd8; color: #1c1c1c; padding: 44px 70px 48px; border-radius: 14px; box-shadow: 0 2px 6px rgba(0,0,0,0.35), 0 12px 40px rgba(0,0,0,0.35); opacity: 0; } /* sits above the caption band (bottom ~130 px) */
     .ov-ic-kicker { font: 500 1em/1.35 "Inter", -apple-system, sans-serif; font-size: 24px; letter-spacing: 0.18em; text-transform: uppercase; color: #f28c28; margin-bottom: 10px; }
-    .ov-ic-title { font: 700 1em/1.15 "Playfair Display", "Libre Baskerville", Georgia, "Times New Roman", serif; font-size: 60px; line-height: 1.1; }
+    .ov-ic-title { font: 700 1em/1.15 "Playfair Display", "Libre Baskerville", Georgia, "Times New Roman", serif; font-size: 56px; line-height: 1.1; }
     .ov-ic-rule { height: 4px; width: 120px; background: #f28c28; margin: 18px 0 26px; transform-origin: left center; }
-    .ov-ic-item { display: flex; align-items: flex-start; gap: 18px; font: 500 1em/1.35 "Inter", -apple-system, sans-serif; font-size: 34px; margin: 14px 0; opacity: 0; }
+    .ov-ic-item { display: flex; align-items: flex-start; gap: 18px; font: 500 1em/1.35 "Inter", -apple-system, sans-serif; font-size: 32px; margin: 12px 0; opacity: 0; }
     .ov-ic-mk { flex: 0 0 auto; width: 40px; height: 40px; border-radius: 8px; display: inline-flex; align-items: center; justify-content: center; font: 800 26px/1 "Inter", sans-serif; }
     .ov-ic-chk { border: 3px solid #1c1c1c; color: #1c1c1c; }
     .ov-ic-num { background: #f28c28; color: #fff; }
@@ -109,6 +109,7 @@
       <img id="f-26-beat-media" class="broll-media" src=".media/broll/beat-26.jpg" />
     </div>
     <div class="broll-scrim clip" id="f-26-beat-scrim" data-start="0" data-duration="4.94" data-track-index="1"></div>
+    <div class="broll-vignette clip" id="f-26-beat-vignette" data-start="0" data-duration="4.94" data-track-index="3"></div>
     <div class="ov-ic-scrim" id="f-26-beat-ov-scrim"></div><div class="ov-ic" id="f-26-beat-ov"><div class="ov-ic-kicker">Three different times</div><div class="ov-ic-title" id="f-26-beat-ov-t">Three acts of Congress</div><div class="ov-ic-rule"></div><div class="ov-ic-item" id="f-26-beat-ov-b0"><span class="ov-ic-mk ov-ic-num">1</span><span class="ov-ic-txt">Base standard deduction — decades old</span></div><div class="ov-ic-item" id="f-26-beat-ov-b1"><span class="ov-ic-mk ov-ic-num">2</span><span class="ov-ic-txt">Senior add-on — in the code since the 1980s</span></div><div class="ov-ic-item" id="f-26-beat-ov-b2"><span class="ov-ic-mk ov-ic-num">3</span><span class="ov-ic-txt">Third, largest piece — new in 2025, four-year window</span></div></div>
   </div>
 

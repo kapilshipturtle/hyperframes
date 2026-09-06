@@ -1,12 +1,42 @@
 {
-  "01": { "chosen": "pexels-v7546417", "reason": "elderly woman looking at invoice at table — better match for 'born before 1961... need to know' than the signing-document clip" },
-  "04": { "chosen": "pexels-v8439149", "reason": "happy elderly couple HOLDING a document reads better for the married-couple/take-in-income beat than just 'looking at'" },
-  "06": { "chosen": "pexels-v8060739", "reason": "person filling out a form — the checkbox-marking candidates (digital checklist on tablet) don't match a paper tax-form register; kept close to script's paper-form context" },
-  "13": { "chosen": "pexels-p36812196", "reason": "concerned couple reviewing financial document in kitchen — direct match for 'walking into filing season with a wrong picture', stronger than an arguing-couple clip" },
-  "17": { "chosen": "pexels-v7821854", "reason": "a person explaining a document — matches 'preparer who checks one box' better than generic meeting footage" },
-  "18": { "type": "invented-scene", "visualIdea": "three thin horizontal bars/deduction blocks stacking on top of each other into one taller bar labeled with the running total, building left-to-right or bottom-to-top", "tone": "neutral", "reason": "the 'three deductions stack' is the film's central structural metaphor — no stock footage (Jenga blocks) genuinely depicts a tax-deduction stack, this needs an actual invented diagram" },
-  "20": { "chosen": "pexels-p6918479", "reason": "senior women joyfully reading a letter together — the checking-envelopes clip is close but this candidate better matches 'household living mostly on Social Security'" },
-  "25": { "chosen": "pexels-p1370294", "reason": "organized filing cabinets in library — a static photo reads better here than a person browsing card catalogs mid-action for a short 1.76s beat" },
-  "26": { "chosen": "pexels-p1146358", "reason": "exterior US Capitol on a sunny day — a static establishing photo suits the short 4.94s 'three acts of Congress' beat better than an aerial video that needs longer to read" },
-  "31": { "chosen": "pexels-v6813534", "reason": "adult hands holding puzzle pieces — matches 'three separate provisions... happened to land' better than a child's puzzle play" }
+ "01": {
+  "chosen": "pexels-v7546417",
+  "reason": "elderly woman looking at invoice at table \u2014 better match for 'born before 1961... need to know' than the signing-document clip"
+ },
+ "04": {
+  "chosen": "pexels-v8439149",
+  "reason": "happy elderly couple HOLDING a document reads better for the married-couple/take-in-income beat than just 'looking at'"
+ },
+ "06": {
+  "chosen": "pexels-v8060739",
+  "reason": "person filling out a form \u2014 the checkbox-marking candidates (digital checklist on tablet) don't match a paper tax-form register; kept close to script's paper-form context"
+ },
+ "13": {
+  "chosen": "pexels-p36812196",
+  "reason": "concerned couple reviewing financial document in kitchen \u2014 direct match for 'walking into filing season with a wrong picture', stronger than an arguing-couple clip"
+ },
+ "17": {
+  "chosen": "pexels-v7821854",
+  "reason": "a person explaining a document \u2014 matches 'preparer who checks one box' better than generic meeting footage"
+ },
+ "18": {
+  "chosen": "pexels-v7424468",
+  "reason": "run-2: the invented stack diagram read as unfinished; real hands stacking blocks + the template's numbered info card carries the 'one layer at a time' idea"
+ },
+ "20": {
+  "chosen": "pexels-p6918479",
+  "reason": "senior women joyfully reading a letter together \u2014 the checking-envelopes clip is close but this candidate better matches 'household living mostly on Social Security'"
+ },
+ "25": {
+  "chosen": "pexels-p1370294",
+  "reason": "organized filing cabinets in library \u2014 a static photo reads better here than a person browsing card catalogs mid-action for a short 1.76s beat"
+ },
+ "26": {
+  "chosen": "pexels-p1146358",
+  "reason": "exterior US Capitol on a sunny day \u2014 a static establishing photo suits the short 4.94s 'three acts of Congress' beat better than an aerial video that needs longer to read"
+ },
+ "31": {
+  "chosen": "pexels-v6813534",
+  "reason": "adult hands holding puzzle pieces \u2014 matches 'three separate provisions... happened to land' better than a child's puzzle play"
+ }
 }

@@ -68,7 +68,17 @@
  "15": "none",
  "16": "none",
  "17": "none",
- "18": "none",
+ "18": {
+  "signal": "list",
+  "title": "Building the stack",
+  "kicker": "One layer at a time",
+  "bullets": [
+   "Base standard deduction",
+   "+ Senior add-on (age 65+)",
+   "+ New 2025 deduction  =  $47,500"
+  ],
+  "marker": "number"
+ },
  "19": {
   "signal": "keyword",
   "text": "$47,500 looks small",

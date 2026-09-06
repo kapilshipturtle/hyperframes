@@ -67,12 +67,12 @@
       "volume": 0.35
     },
     {
-      "id": "19",
-      "name": "pop",
-      "file": "assets/sfx/pop.mp3",
+      "id": "18",
+      "name": "paper-slide",
+      "file": "assets/sfx/paper-slide.mp3",
       "source": "local",
       "offset_s": 0,
-      "duration_s": 0.26,
+      "duration_s": 0.44,
       "volume": 0.35
     },
     {

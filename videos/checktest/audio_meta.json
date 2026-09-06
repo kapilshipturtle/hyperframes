@@ -2346,11 +2346,11 @@
       "volume": 0.22
     },
     {
-      "frame": 19,
-      "file": "assets/sfx/pop.mp3",
-      "offset_s": 1.31,
-      "duration_s": 0.26,
-      "volume": 0.09
+      "frame": 18,
+      "file": "assets/sfx/paper-slide.mp3",
+      "offset_s": 1.18,
+      "duration_s": 0.44,
+      "volume": 0.22
     },
     {
       "frame": 20,

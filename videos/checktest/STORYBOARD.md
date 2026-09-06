@@ -143,12 +143,13 @@
 - src: compositions/frames/17-beat.html
 
 ## Frame 18 — beat 18
-- scene: INVENTED SCENE — three thin horizontal deduction bars stacking on top of each other into one taller combined bar, each labeled (base standard deduction / senior add-on / new 2025 provision), building up to the $47,500 total
+- scene: Video: hands stacking wooden blocks | overlay: info-card "Building the stack"
 - voiceover: "I am going to build that stack one layer at a time with the real numbers."
 - duration: 3.92s
 - transition_in: crossfade 0.25s
 - status: outline
 - src: compositions/frames/18-beat.html
+- sfx: paper-slide
 
 ## Frame 19 — beat 19
 - scene: stock footage/photo for beat 19 + keyword-flash "$47,500 LOOKS SMALL" overlay
@@ -157,7 +158,6 @@
 - transition_in: hard-cut 0s
 - status: outline
 - src: compositions/frames/19-beat.html
-- sfx: pop
 
 ## Frame 20 — beat 20
 - scene: stock footage/photo for beat 20

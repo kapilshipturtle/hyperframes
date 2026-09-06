@@ -62,16 +62,21 @@
   "reason": "no concrete hook (connective / scene-setting)"
  },
  "18": {
-  "archetype": "none",
+  "archetype": "info-card",
+  "title": "Building the stack",
+  "bullets": [
+   "Base standard deduction",
+   "+ Senior add-on (age 65+)",
+   "+ New 2025 deduction  =  $47,500"
+  ],
+  "kicker": "One layer at a time",
+  "marker": "number",
   "enterAt": 1.18,
-  "reason": "no concrete hook (connective / scene-setting)"
+  "reason": "list of 3 items → info-card"
  },
  "19": {
-  "archetype": "keyword-flash",
-  "text": "$47,500 looks small",
-  "position": "center",
-  "enterAt": 1.31,
-  "reason": "stressed keyword"
+  "archetype": "none",
+  "reason": "dropped for density (keyword-flash, template band 4-9/min)"
  },
  "20": {
   "archetype": "title-card",
@@ -95,11 +100,8 @@
   "reason": "section start \"why-nobody-explained-it\" — template section-start device"
  },
  "23": {
-  "archetype": "keyword-flash",
-  "text": "Why has nobody explained it?",
-  "position": "center",
-  "enterAt": 1.4,
-  "reason": "question beat — stressed words"
+  "archetype": "none",
+  "reason": "dropped for density (keyword-flash, template band 4-9/min)"
  },
  "24": {
   "archetype": "solid-box-label",
@@ -171,8 +173,11 @@
   "reason": "no concrete hook (connective / scene-setting)"
  },
  "01": {
-  "archetype": "none",
-  "reason": "dropped for density (keyword-flash, template band 4-9/min)"
+  "archetype": "keyword-flash",
+  "text": "Born before 1961?",
+  "position": "center",
+  "enterAt": 1.4,
+  "reason": "stressed keyword"
  },
  "02": {
   "archetype": "none",

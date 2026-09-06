@@ -1,5 +1,5 @@
 {
-  "_comment": "Editing-style profiles measured 2026-09-05/06 from 25 top-viewed videos of four retention-explainer channels (@Sidney_Explains_Money x15, @TheCheapFix x3, @EliYoderSecrets x5, @HiddenHomesteadEN x2; ~5 h of footage, every cut/shot/text event/SFX measured, see scripts/style-analysis/). One profile is chosen at the run-shape question (scripts/suggest-style-profile.mjs proposes one); every other script reads its targets from here via scripts/lib/style-profile.mjs. `documentary` reproduces the skill's pre-profile behaviour exactly \u2014 a run that never picks a profile changes nothing. Ranges are [low, high] targets used by verify-style.mjs; single numbers are defaults the scripts apply.",
+  "_comment": "Editing-style profiles measured 2026-09-05/06 from 25 top-viewed videos of four retention-explainer channels (@Sidney_Explains_Money x15, @TheCheapFix x3, @EliYoderSecrets x5, @HiddenHomesteadEN x2; ~5 h of footage, every cut/shot/text event/SFX measured, see scripts/style-analysis/). One profile is chosen at the run-shape question (scripts/suggest-style-profile.mjs proposes one); every other script reads its targets from here via scripts/lib/style-profile.mjs. `documentary` reproduces the skill's pre-profile behaviour exactly \u2014 a run that never picks a profile changes nothing. Ranges are [low, high] targets used by verify-style.mjs; single numbers are defaults the scripts apply. 2026-09-06 REVISION after the checktest review: profiles are TEMPLATES \u2014 plan-template.mjs assigns every beat's device mechanically from hook-signals; transition SFX are MOTIVATED only (section boundaries / pivot openers / accent transitions, never a quota); no glitch anywhere; music and captions are ASKED every run; accents only at section boundaries.",
   "profiles": {
     "documentary": {
       "label": "Documentary (original skill behaviour)",
@@ -144,15 +144,18 @@
         "style": "explainer",
         "dissolve_duration_s": 0.3,
         "dissolve_share": 0.09,
-        "accent_share": 0.03,
+        "accent_share": 0,
         "accents": [
           "paper-tear",
           "light-leak-flash",
           "whip-pan",
           "zoom-through"
         ],
-        "hard_cut_sfx_share": 0.33,
-        "sfx_prefer_speech_pause": true
+        "hard_cut_sfx_share": null,
+        "sfx_prefer_speech_pause": true,
+        "accents_at_section_boundaries": true,
+        "sfx_mode": "motivated",
+        "sfx_max_share": 0.15
       },
       "punch": {
         "share_of_shots": 0.14,
@@ -194,11 +197,25 @@
         "backing": "shadow",
         "words_max": 2,
         "captions": "ask",
-        "captions_suggestion": "karaoke-pill (Sidney style: 37% of on-screen text is word-by-word captions)"
+        "captions_suggestion": "karaoke-pill (Sidney style: 37% of on-screen text is word-by-word captions)",
+        "card": {
+          "font": "bold-sans",
+          "bodyFont": "regular",
+          "plate": "#111111",
+          "ink": "#ffffff",
+          "accent": "#ffd23f",
+          "accent2": "#5ee7ff",
+          "dim": 0.5
+        },
+        "captions_modes": [
+          "sentence-karaoke (full sentence on screen, spoken word highlighted)",
+          "word-pills (2-4 words, karaoke-pill)",
+          "none"
+        ]
       },
       "sfx": {
         "mid_shot_per_min": [
-          1.5,
+          0,
           3.5
         ],
         "on_text_share": 0.6,
@@ -223,15 +240,21 @@
           "credibility-badge": "pop",
           "map-locate": "pop",
           "year-stamp": "shutter",
-          "punch-in": "click-soft",
-          "freeze": "shutter",
           "subscribe-cta": "pop-soft",
           "toggle": "switch",
-          "comparison-grid": "select"
+          "comparison-grid": "select",
+          "info-card": "paper-slide",
+          "side-panel": "paper-slide",
+          "number-badge": "ding",
+          "price-tag": "cash",
+          "title-card": "whoosh-sweep",
+          "quote-card": "pop-soft",
+          "dual-panel": "paper-slide",
+          "punch-in": "click-soft"
         }
       },
       "music": {
-        "enabled": true,
+        "enabled": "ask",
         "bed_db_under_voice": -26,
         "bpm": [
           80,
@@ -243,7 +266,8 @@
           "corporate",
           "electronic",
           "lo-fi"
-        ]
+        ],
+        "ask_text": "Music bed under the narration? The reference channels all have one (-26 dB under voice); off if you say no."
       },
       "ambience": {
         "enabled": false
@@ -266,6 +290,29 @@
         "first_cut_s": 5,
         "first_overlay_s": 8,
         "first_sfx_cut_s": 12
+      },
+      "devices": {
+        "section-start": "title-card",
+        "number": "giant-price",
+        "headline-number": "giant-price",
+        "number-change": "number-counter",
+        "rate": "number-counter",
+        "list": "info-card",
+        "numbered-item": "list-numeral",
+        "quote": "key-phrase",
+        "keyword": "keyword-flash",
+        "question": "keyword-flash",
+        "warning-or-confirmation": "solid-box-label",
+        "visible-detail": "label-pointer",
+        "contrast": "side-panel",
+        "price": "price-tag",
+        "date-or-place": "year-stamp",
+        "citation": "source-tag",
+        "jargon": "definition-callout",
+        "new-topic": "solid-box-label",
+        "pivot-or-thesis": "title-card",
+        "archival": "bw+vignette",
+        "portrait": "pillarbox"
       }
     },
     "explainer-list": {
@@ -294,13 +341,16 @@
         "style": "explainer",
         "dissolve_duration_s": 0.3,
         "dissolve_share": 0.05,
-        "accent_share": 0.02,
+        "accent_share": 0,
         "accents": [
           "light-leak-flash",
           "zoom-through"
         ],
-        "hard_cut_sfx_share": 0.45,
-        "sfx_prefer_speech_pause": true
+        "hard_cut_sfx_share": null,
+        "sfx_prefer_speech_pause": true,
+        "accents_at_section_boundaries": true,
+        "sfx_mode": "motivated",
+        "sfx_max_share": 0.15
       },
       "punch": {
         "share_of_shots": 0.04,
@@ -342,11 +392,25 @@
         "backing": "shadow",
         "words_max": 3,
         "captions": "ask",
-        "captions_suggestion": "karaoke-pill (Sidney style: 37% of on-screen text is word-by-word captions)"
+        "captions_suggestion": "karaoke-pill (Sidney style: 37% of on-screen text is word-by-word captions)",
+        "card": {
+          "font": "bold-sans",
+          "bodyFont": "regular",
+          "plate": "#111111",
+          "ink": "#ffffff",
+          "accent": "#ffd23f",
+          "accent2": "#5ee7ff",
+          "dim": 0.5
+        },
+        "captions_modes": [
+          "sentence-karaoke (full sentence on screen, spoken word highlighted)",
+          "word-pills (2-4 words, karaoke-pill)",
+          "none"
+        ]
       },
       "sfx": {
         "mid_shot_per_min": [
-          2.5,
+          0,
           4
         ],
         "on_text_share": 0.6,
@@ -371,15 +435,21 @@
           "credibility-badge": "pop",
           "map-locate": "pop",
           "year-stamp": "shutter",
-          "punch-in": "click-soft",
-          "freeze": "shutter",
           "subscribe-cta": "pop-soft",
           "toggle": "switch",
-          "comparison-grid": "select"
+          "comparison-grid": "select",
+          "info-card": "paper-slide",
+          "side-panel": "paper-slide",
+          "number-badge": "ding",
+          "price-tag": "cash",
+          "title-card": "whoosh-sweep",
+          "quote-card": "pop-soft",
+          "dual-panel": "paper-slide",
+          "punch-in": "click-soft"
         }
       },
       "music": {
-        "enabled": true,
+        "enabled": "ask",
         "bed_db_under_voice": -23,
         "bpm": [
           80,
@@ -390,7 +460,8 @@
           "ambient",
           "corporate",
           "electronic"
-        ]
+        ],
+        "ask_text": "Music bed under the narration? The reference channels all have one (-23 dB under voice); off if you say no."
       },
       "ambience": {
         "enabled": false
@@ -413,6 +484,29 @@
         "first_cut_s": 5,
         "first_overlay_s": 8,
         "first_sfx_cut_s": 12
+      },
+      "devices": {
+        "section-start": "title-card",
+        "number": "giant-price",
+        "headline-number": "giant-price",
+        "number-change": "number-counter",
+        "rate": "number-counter",
+        "list": "info-card",
+        "numbered-item": "list-numeral",
+        "quote": "key-phrase",
+        "keyword": "keyword-flash",
+        "question": "keyword-flash",
+        "warning-or-confirmation": "solid-box-label",
+        "visible-detail": "label-pointer",
+        "contrast": "side-panel",
+        "price": "price-tag",
+        "date-or-place": "year-stamp",
+        "citation": "source-tag",
+        "jargon": "definition-callout",
+        "new-topic": "solid-box-label",
+        "pivot-or-thesis": "title-card",
+        "archival": "bw+vignette",
+        "portrait": "pillarbox"
       }
     },
     "explainer-punchy": {
@@ -441,15 +535,17 @@
         "style": "explainer",
         "dissolve_duration_s": 0.25,
         "dissolve_share": 0.14,
-        "accent_share": 0.04,
+        "accent_share": 0,
         "accents": [
-          "glitch-cut",
           "light-leak-flash",
           "zoom-through",
           "whip-pan"
         ],
-        "hard_cut_sfx_share": 0.4,
-        "sfx_prefer_speech_pause": true
+        "hard_cut_sfx_share": null,
+        "sfx_prefer_speech_pause": true,
+        "accents_at_section_boundaries": true,
+        "sfx_mode": "motivated",
+        "sfx_max_share": 0.2
       },
       "punch": {
         "share_of_shots": 0.12,
@@ -473,8 +569,8 @@
       "pillarbox_portrait": true,
       "overlays": {
         "density_per_min": [
-          5,
-          10
+          4,
+          9
         ],
         "enter_at_s": [
           0.8,
@@ -494,11 +590,25 @@
         "backing": "solid-box",
         "words_max": 3,
         "captions": "ask",
-        "captions_suggestion": "none (CheapFix/Eli/Hidden show no burned-in captions)"
+        "captions_suggestion": "none (CheapFix/Eli/Hidden show no burned-in captions)",
+        "card": {
+          "font": "serif",
+          "bodyFont": "regular",
+          "plate": "#f4ecd8",
+          "ink": "#1c1c1c",
+          "accent": "#f28c28",
+          "accent2": "#2ab7c9",
+          "dim": 0.55
+        },
+        "captions_modes": [
+          "sentence-karaoke (full sentence on screen, spoken word highlighted)",
+          "word-pills (2-4 words, karaoke-pill)",
+          "none"
+        ]
       },
       "sfx": {
         "mid_shot_per_min": [
-          2.5,
+          0,
           6
         ],
         "on_text_share": 0.7,
@@ -523,17 +633,23 @@
           "credibility-badge": "pop",
           "map-locate": "pop",
           "year-stamp": "shutter",
-          "punch-in": "click-soft",
-          "freeze": "shutter",
           "chart-overlay": "ding",
           "line-chart-reveal": "ding",
           "subscribe-cta": "pop-soft",
           "toggle": "switch",
-          "comparison-grid": "select"
+          "comparison-grid": "select",
+          "info-card": "paper-slide",
+          "side-panel": "paper-slide",
+          "number-badge": "ding",
+          "price-tag": "cash",
+          "title-card": "whoosh-sweep",
+          "quote-card": "pop-soft",
+          "dual-panel": "paper-slide",
+          "punch-in": "click-soft"
         }
       },
       "music": {
-        "enabled": true,
+        "enabled": "ask",
         "bed_db_under_voice": -18,
         "bpm": [
           110,
@@ -544,7 +660,8 @@
           "upbeat",
           "corporate",
           "electronic"
-        ]
+        ],
+        "ask_text": "Music bed under the narration? The reference channels all have one (-18 dB under voice); off if you say no."
       },
       "ambience": {
         "enabled": false
@@ -567,6 +684,29 @@
         "first_cut_s": 4,
         "first_overlay_s": 5,
         "first_sfx_cut_s": 10
+      },
+      "devices": {
+        "section-start": "title-card",
+        "number": "number-badge",
+        "headline-number": "giant-price",
+        "number-change": "number-counter",
+        "rate": "number-counter",
+        "list": "info-card",
+        "numbered-item": "list-numeral",
+        "quote": "quote-card",
+        "keyword": "keyword-flash",
+        "question": "keyword-flash",
+        "warning-or-confirmation": "solid-box-label",
+        "visible-detail": "label-pointer",
+        "contrast": "side-panel",
+        "price": "price-tag",
+        "date-or-place": "year-stamp",
+        "citation": "source-tag",
+        "jargon": "definition-callout",
+        "new-topic": "solid-box-label",
+        "pivot-or-thesis": "title-card",
+        "archival": "bw+vignette",
+        "portrait": "pillarbox"
       }
     },
     "explainer-annotated": {
@@ -595,14 +735,16 @@
         "style": "explainer",
         "dissolve_duration_s": 0.2,
         "dissolve_share": 0.14,
-        "accent_share": 0.03,
+        "accent_share": 0,
         "accents": [
-          "glitch-cut",
           "light-leak-flash",
           "zoom-through"
         ],
-        "hard_cut_sfx_share": 0.4,
-        "sfx_prefer_speech_pause": true
+        "hard_cut_sfx_share": null,
+        "sfx_prefer_speech_pause": true,
+        "accents_at_section_boundaries": true,
+        "sfx_mode": "motivated",
+        "sfx_max_share": 0.15
       },
       "punch": {
         "share_of_shots": 0.1,
@@ -626,8 +768,8 @@
       "pillarbox_portrait": true,
       "overlays": {
         "density_per_min": [
-          6,
-          12
+          5,
+          10
         ],
         "enter_at_s": [
           0.8,
@@ -647,11 +789,25 @@
         "backing": "solid-box",
         "words_max": 3,
         "captions": "ask",
-        "captions_suggestion": "none (CheapFix/Eli/Hidden show no burned-in captions)"
+        "captions_suggestion": "none (CheapFix/Eli/Hidden show no burned-in captions)",
+        "card": {
+          "font": "serif",
+          "bodyFont": "regular",
+          "plate": "#f4ecd8",
+          "ink": "#1c1c1c",
+          "accent": "#f28c28",
+          "accent2": "#2ab7c9",
+          "dim": 0.55
+        },
+        "captions_modes": [
+          "sentence-karaoke (full sentence on screen, spoken word highlighted)",
+          "word-pills (2-4 words, karaoke-pill)",
+          "none"
+        ]
       },
       "sfx": {
         "mid_shot_per_min": [
-          3,
+          0,
           6
         ],
         "on_text_share": 0.75,
@@ -677,19 +833,25 @@
           "map-locate": "pop",
           "map-zoom-chain": "whoosh-short",
           "year-stamp": "shutter",
-          "punch-in": "click-soft",
-          "freeze": "shutter",
           "chart-overlay": "ding",
           "line-chart-reveal": "ding",
           "callout-leader": "click",
           "annotation-draw": "click",
           "subscribe-cta": "pop-soft",
           "toggle": "switch",
-          "comparison-grid": "select"
+          "comparison-grid": "select",
+          "info-card": "paper-slide",
+          "side-panel": "paper-slide",
+          "number-badge": "ding",
+          "price-tag": "cash",
+          "title-card": "whoosh-sweep",
+          "quote-card": "pop-soft",
+          "dual-panel": "paper-slide",
+          "punch-in": "click-soft"
         }
       },
       "music": {
-        "enabled": true,
+        "enabled": "ask",
         "bed_db_under_voice": -19,
         "bpm": [
           110,
@@ -700,7 +862,8 @@
           "ambient",
           "corporate",
           "electronic"
-        ]
+        ],
+        "ask_text": "Music bed under the narration? The reference channels all have one (-19 dB under voice); off if you say no."
       },
       "ambience": {
         "enabled": false
@@ -723,6 +886,29 @@
         "first_cut_s": 4,
         "first_overlay_s": 6,
         "first_sfx_cut_s": 12
+      },
+      "devices": {
+        "section-start": "title-card",
+        "number": "number-badge",
+        "headline-number": "giant-price",
+        "number-change": "number-counter",
+        "rate": "number-counter",
+        "list": "info-card",
+        "numbered-item": "list-numeral",
+        "quote": "quote-card",
+        "keyword": "keyword-flash",
+        "question": "keyword-flash",
+        "warning-or-confirmation": "solid-box-label",
+        "visible-detail": "label-pointer",
+        "contrast": "side-panel",
+        "price": "price-tag",
+        "date-or-place": "year-stamp",
+        "citation": "source-tag",
+        "jargon": "definition-callout",
+        "new-topic": "solid-box-label",
+        "pivot-or-thesis": "title-card",
+        "archival": "bw+vignette",
+        "portrait": "pillarbox"
       }
     }
   },

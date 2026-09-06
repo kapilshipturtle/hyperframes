@@ -1430,3 +1430,782 @@ profile explainer-punchy: 0 FAIL
 - Music bed: "Hidden Agenda" (129 BPM, CC-BY) — attribution required in description/end card, see .hyperframes/credits.txt
 - Color grade: off (per run-shape decision)
 - All local + render-side gates: PASS
+
+### Step 5 — plan-template
+18 devices (9.0/min) from template explainer-punchy
+  - **keyword-flash:** 3
+  - **solid-box-label:** 2
+  - **year-stamp:** 1
+  - **number-badge:** 3
+  - **number-counter:** 1
+  - **giant-price:** 2
+  - **info-card:** 2
+  - **side-panel:** 1
+  - **title-card:** 3
+  - **dropped:** 2
+
+### Step 5 — pick-transitions
+Picked transition sequence for 33 beat(s)
+  - **style:** mixed
+  - **intensity:** moderate
+  - **sfx cues:** off
+  - **pool:** hard-cut 0s, crossfade 0.25s, light-leak-flash 0.5s, zoom-through 1s, whip-pan
+  - **sequence:** cut, hard-cut 0s, hard-cut 0s, crossfade 0.25s, hard-cut 0s, hard-cut 0s, hard-cut 0s, hard-cut 0s, hard-cut 0s, light-leak-flash 0.5s, crossfade 0.25s, hard-cut 0s, hard-cut 0s, hard-cut 0s, hard-cut 0s, hard-cut 0s, hard-cut 0s, crossfade 0.25s, hard-cut 0s, zoom-through 1s, hard-cut 0s, whip-pan …(truncated)
+
+### Step 5 — plan-punches
+4 punch-ins planned (profile explainer-punchy)
+  - **19:** 2.42s "$47500"
+  - **29:** 2.67s "2025"
+  - **01:** 1.18s "1961"
+  - **04:** 4.88s "2026"
+
+### Step 5 — build-frame
+beat 01: frame built [video, kenburns=none]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/01-beat.html
+
+### Step 5 — build-frame
+beat 02: frame built [video, kenburns=none]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/02-beat.html
+
+### Step 5 — build-frame
+beat 03: FAILED to build frame
+  - **overlay:** giant-price
+  - **error:** Unexpected token ''', "'{"text":" is not valid JSON
+
+### Step 5 — build-frame
+beat 04: FAILED to build frame
+  - **overlay:** number-badge
+  - **error:** Unexpected token ''', "'{"value":" is not valid JSON
+
+### Step 5 — build-frame
+beat 05: frame built [video, kenburns=none]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/05-beat.html
+
+### Step 5 — build-frame
+beat 06: FAILED to build frame
+  - **overlay:** solid-box-label
+  - **error:** Unexpected token ''', "'{"text":" is not valid JSON
+
+### Step 5 — build-frame
+beat 07: frame built [video, kenburns=none]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/07-beat.html
+
+### Step 5 — build-frame
+beat 08: FAILED to build frame
+  - **overlay:** number-counter
+  - **error:** Unexpected token ''', "'{"value":" is not valid JSON
+
+### Step 5 — build-frame
+beat 09: frame built [video, kenburns=none]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/09-beat.html
+
+### Step 5 — build-frame
+beat 10: FAILED to build frame
+  - **overlay:** title-card
+  - **error:** Unexpected token ''', "'{"title":" is not valid JSON
+
+### Step 5 — build-frame
+beat 11: FAILED to build frame
+  - **overlay:** number-badge
+  - **error:** Unexpected token ''', "'{"value":" is not valid JSON
+
+### Step 5 — build-frame
+beat 12: FAILED to build frame
+  - **overlay:** info-card
+  - **error:** Unexpected token ''', "'{"title":" is not valid JSON
+
+### Step 5 — build-frame
+beat 13: FAILED to build frame
+  - **overlay:** side-panel
+  - **error:** Unexpected token ''', "'{"title":" is not valid JSON
+
+### Step 5 — build-frame
+beat 14: frame built [video, kenburns=none]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/14-beat.html
+
+### Step 5 — build-frame
+beat 15: frame built [video, kenburns=none]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/15-beat.html
+
+### Step 5 — build-frame
+beat 16: frame built [video, kenburns=none]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/16-beat.html
+
+### Step 5 — build-frame
+beat 17: frame built [video, kenburns=none]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/17-beat.html
+
+### Step 5 — build-frame
+beat 19: FAILED to build frame
+  - **overlay:** keyword-flash
+  - **error:** Unexpected token ''', "'{"text":" is not valid JSON
+
+### Step 5 — build-frame
+beat 20: FAILED to build frame
+  - **overlay:** title-card
+  - **error:** Unexpected token ''', "'{"title":" is not valid JSON
+
+### Step 5 — build-frame
+beat 21: FAILED to build frame
+  - **overlay:** giant-price
+  - **error:** Unexpected token ''', "'{"text":" is not valid JSON
+
+### Step 5 — build-frame
+beat 22: FAILED to build frame
+  - **overlay:** title-card
+  - **error:** Unexpected token ''', "'{"title":" is not valid JSON
+
+### Step 5 — build-frame
+beat 23: FAILED to build frame
+  - **overlay:** keyword-flash
+  - **error:** Unexpected token ''', "'{"text":" is not valid JSON
+
+### Step 5 — build-frame
+beat 24: FAILED to build frame
+  - **overlay:** solid-box-label
+  - **error:** Unexpected token ''', "'{"text":" is not valid JSON
+
+### Step 5 — build-frame
+beat 25: frame built [photo, kenburns=pan-right]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/25-beat.html
+
+### Step 5 — build-frame
+beat 26: FAILED to build frame
+  - **overlay:** info-card
+  - **error:** Unexpected token ''', "'{"title":" is not valid JSON
+
+### Step 5 — build-frame
+beat 27: frame built [video, kenburns=none]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/27-beat.html
+
+### Step 5 — build-frame
+beat 28: FAILED to build frame
+  - **overlay:** number-badge
+  - **error:** Unexpected token ''', "'{"value":" is not valid JSON
+
+### Step 5 — build-frame
+beat 29: FAILED to build frame
+  - **overlay:** year-stamp
+  - **error:** Unexpected token ''', "'{"text":" is not valid JSON
+
+### Step 5 — build-frame
+beat 30: FAILED to build frame
+  - **overlay:** keyword-flash
+  - **error:** Unexpected token ''', "'{"text":" is not valid JSON
+
+### Step 5 — build-frame
+beat 31: frame built [video, kenburns=none]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/31-beat.html
+
+### Step 5 — build-frame
+beat 32: frame built [video, kenburns=none]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/32-beat.html
+
+### Step 5 — build-frame
+beat 33: frame built [video, kenburns=none]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/33-beat.html
+
+### Step 5 — plan-sfx
+profile explainer-punchy: 16 SFX cues planned
+  - **profile:** explainer-punchy
+  - **frames:** 33
+  - **transition_cue_share:** 0.13
+  - **mid_shot_cues_per_min:** 5.99
+  - **target:** [0,6]
+  - **dropped_for_density:** 10
+  - **cues_by_name:** {"thud-soft":2,"tick-burst":1,"whoosh-short":3,"ding":2,"paper-slide":3,"pop":2,"cash":1,"whoosh-fast":1,"shutter":1}
+
+### Step 6 — slice-narration
+33 beat(s) sliced (reference-only, no re-encode)
+  - **narration:** assets/audio/narration.m4a
+  - **audio-meta:** ./audio_meta.json
+
+### Step 6 — set-sfx-offsets
+16 cue(s) patched, 0 left at default
+  - **patched (offset/volume set from editorial pass):** 16
+  - **left at fetch-sfx default (offset 0 / volume 0.35):** none
+
+### Step 5 — build-frame
+beat 01: frame built [video, kenburns=none]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** 1.18s ×1.35
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/01-beat.html
+
+### Step 5 — build-frame
+beat 02: frame built [video, kenburns=none]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/02-beat.html
+
+### Step 5 — build-frame
+beat 03: frame built [video, kenburns=none]
+  - **overlay:** giant-price
+  - **overlay params:** {"text":"$47,500","sub":"tax-free income"}
+  - **overlay enterAt:** 0.89s
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/03-beat.html
+
+### Step 5 — build-frame
+beat 04: frame built [video, kenburns=none]
+  - **overlay:** number-badge
+  - **overlay params:** {"value":"65+","unit":"","label":"married, both spouses","position":"upper-left"}
+  - **overlay enterAt:** 1.4s
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** 4.88s ×1.4
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/04-beat.html
+
+### Step 5 — build-frame
+beat 05: frame built [video, kenburns=none]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/05-beat.html
+
+### Step 5 — build-frame
+beat 06: frame built [video, kenburns=none]
+  - **overlay:** solid-box-label
+  - **overlay params:** {"text":"Not a credit. Not a rebate.","position":"lower-center","variant":"alt"}
+  - **overlay enterAt:** 0.8s
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/06-beat.html
+
+### Step 5 — build-frame
+beat 07: frame built [video, kenburns=none]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/07-beat.html
+
+### Step 5 — build-frame
+beat 08: frame built [video, kenburns=none]
+  - **overlay:** number-counter
+  - **overlay params:** {"value":"47500","prefix":"$","suffix":"","label":"not permitted to tax","from":0,"position":"center"}
+  - **overlay enterAt:** 1.39s
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/08-beat.html
+
+### Step 5 — build-frame
+beat 09: frame built [video, kenburns=none]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/09-beat.html
+
+### Step 5 — build-frame
+beat 10: frame built [video, kenburns=none]
+  - **overlay:** title-card
+  - **overlay params:** {"title":"The Stack Revealed","kicker":"Part 2"}
+  - **overlay enterAt:** 0.2s
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/10-beat.html
+
+### Step 5 — build-frame
+beat 11: frame built [video, kenburns=none]
+  - **overlay:** number-badge
+  - **overlay params:** {"value":"3","unit":"","label":"deductions, one stack","position":"upper-left"}
+  - **overlay enterAt:** 0.8s
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/11-beat.html
+
+### Step 5 — build-frame
+beat 12: frame built [video, kenburns=none]
+  - **overlay:** info-card
+  - **overlay params:** {"title":"Three deductions, one stack","bullets":["Base standard deduction","Senior add-on (age 65+)","New 2025 senior deduction"],"kicker":"Added together","marker":"number"}
+  - **overlay enterAt:** 1.4s
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/12-beat.html
+
+### Step 5 — build-frame
+beat 13: frame built [photo, kenburns=in]
+  - **overlay:** side-panel
+  - **overlay params:** {"title":"What most people get wrong","bullets":["They withhold money they will never owe","They pass up income they could take tax-free","They pay a preparer who checks one box and misses two"],"kicker":"Filing season","side":"right"}
+  - **overlay enterAt:** 1.4s
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/13-beat.html
+
+### Step 5 — build-frame
+beat 14: frame built [video, kenburns=none]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/14-beat.html
+
+### Step 5 — build-frame
+beat 15: frame built [video, kenburns=none]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/15-beat.html
+
+### Step 5 — build-frame
+beat 16: frame built [video, kenburns=none]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/16-beat.html
+
+### Step 5 — build-frame
+beat 17: frame built [video, kenburns=none]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/17-beat.html
+
+### Step 5 — build-frame
+beat 19: frame built [video, kenburns=none]
+  - **overlay:** keyword-flash
+  - **overlay params:** {"text":"$47,500 looks small","position":"center"}
+  - **overlay enterAt:** 1.31s
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** 2.42s ×1.45
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/19-beat.html
+
+### Step 5 — build-frame
+beat 20: frame built [photo, kenburns=pan-left]
+  - **overlay:** title-card
+  - **overlay params:** {"title":"The Bigger Number","kicker":"Part 3"}
+  - **overlay enterAt:** 0.2s
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/20-beat.html
+
+### Step 5 — build-frame
+beat 21: frame built [video, kenburns=none]
+  - **overlay:** giant-price
+  - **overlay params:** {"text":"$80,000","sub":"cash you can receive, untaxed"}
+  - **overlay enterAt:** 0.8s
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/21-beat.html
+
+### Step 5 — build-frame
+beat 22: frame built [video, kenburns=none]
+  - **overlay:** title-card
+  - **overlay params:** {"title":"Why Nobody Explained It","kicker":"Part 4"}
+  - **overlay enterAt:** 0.2s
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/22-beat.html
+
+### Step 5 — build-frame
+beat 23: frame built [video, kenburns=none]
+  - **overlay:** keyword-flash
+  - **overlay params:** {"text":"Why has nobody explained it?","position":"center"}
+  - **overlay enterAt:** 1.4s
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/23-beat.html
+
+### Step 5 — build-frame
+beat 24: frame built [video, kenburns=none]
+  - **overlay:** solid-box-label
+  - **overlay params:** {"text":"Not a conspiracy","position":"upper-left","variant":"primary"}
+  - **overlay enterAt:** 0.82s
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/24-beat.html
+
+### Step 5 — build-frame
+beat 25: frame built [photo, kenburns=pan-right]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/25-beat.html
+
+### Step 5 — build-frame
+beat 26: frame built [photo, kenburns=in]
+  - **overlay:** info-card
+  - **overlay params:** {"title":"Three acts of Congress","bullets":["Base standard deduction — decades old","Senior add-on — in the code since the 1980s","Third, largest piece — new in 2025, four-year window"],"kicker":"Three different times","marker":"number"}
+  - **overlay enterAt:** 1.4s
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/26-beat.html
+
+### Step 5 — build-frame
+beat 27: frame built [video, kenburns=none]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/27-beat.html
+
+### Step 5 — build-frame
+beat 28: frame built [video, kenburns=none]
+  - **overlay:** number-badge
+  - **overlay params:** {"value":"1980s","unit":"","label":"senior add-on","position":"upper-left"}
+  - **overlay enterAt:** 0.86s
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/28-beat.html
+
+### Step 5 — build-frame
+beat 29: frame built [video, kenburns=none]
+  - **overlay:** year-stamp
+  - **overlay params:** {"text":"2025","position":"lower-right"}
+  - **overlay enterAt:** 1.4s
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** 2.67s ×1.375
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/29-beat.html
+
+### Step 5 — build-frame
+beat 30: frame built [video, kenburns=none]
+  - **overlay:** keyword-flash
+  - **overlay params:** {"text":"No single law","position":"center"}
+  - **overlay enterAt:** 0.88s
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/30-beat.html
+
+### Step 5 — build-frame
+beat 31: frame built [video, kenburns=none]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/31-beat.html
+
+### Step 5 — build-frame
+beat 32: frame built [video, kenburns=none]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/32-beat.html
+
+### Step 5 — build-frame
+beat 33: frame built [video, kenburns=none]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/33-beat.html
+
+### Step 5 — build-frames-from-plan
+32 frames built from the explainer-punchy template plan
+  - **failed:** none
+  - **skipped:** 1
+
+### Step 6 — heal-media-start
+33 patched, 0 already correct, 0 had no mediaStart on record
+  - **patched frame ids:** 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33
+  - **note:** assemble-index.mjs's own fix was missing this run — self-heal applied
+
+### verify-style
+profile explainer-punchy: 2 FAIL
+  - **cuts (beats) per minute:** PASS 16.48 (target 13–19)
+  - **visual changes per minute:** PASS 18.48 (target 13–25)
+  - **median shot length:** PASS 2.94 (target 2.5–3.8s)
+  - **p90 shot length:** WARN 4.98 (target 5–7.5s)
+  - **longest gap without a change:** PASS 6.73 (target 0–7.15s)
+  - **dissolve share of boundaries:** PASS 0.16 (target 0.09000000000000001–0.2)
+  - **dissolve duration (median):** PASS 0.25 (target 0.15–0.4s)
+  - **accent transition share:** FAIL 0.09 (target 0–0.03)
+  - **transition SFX share of cuts:** WARN 0.13 (target -0.1–0.12)
+  - **mid-shot SFX per minute:** PASS 5.99 (target 0–6)
+  - **overlays per minute:** PASS 8.99 (target 4–9)
+  - **overlay enter-at (median):** PASS 0.89 (target 0.8–1.4s)
+  - **punch-in share of shots:** PASS 0.12 (target 0.06999999999999999–0.18)
+  - **music bed present:** FAIL 0.00 (target 1–1)
+  - **vignette share of beats:** WARN 0.00 (target 0.3–0.45)
+  - **first cut at:** WARN 5.36 (target 0–4s)
+  - **first overlay at:** WARN 9.30 (target 0–5s)
+  - **first SFX-on-cut at:** WARN 32.41 (target 0–10s)
+
+### verify-ci-parity
+[object Object]
+  - **problems:** []
+
+### Run 2 — template rebuild after the user's review (RCA + what changed)
+- RCA measured on run-1 render: 44 text events/min (2-word caption pills) vs 2-10 designed overlays/min on the reference channels; whoosh on 1/3 of ordinary cuts + a glitch accent; music bed on without being asked; overlays were floating white words, reference channels use designed serif cards.
+- Template plan (plan-template.mjs, explainer-punchy): 3 section title cards (10, 20, 22), 2 info cards with numbered bullets (12, 26), 1 side panel (13), 2 giant figures (03 $47,500, 21 $80,000), 3 number badges (04 65+, 11 3, 28 1980s), 1 counter (08), 2 solid labels (06, 24), 1 year stamp (29), 3 keyword flashes (01, 09, 30); 2 dropped for density (19, 23) → 9.0/min (band 4-9)
+- Transitions: 24 hard cuts, 5 short dissolves, 3 accents ONLY at section boundaries (light-leak 10, zoom-through 20, whip 22); NO glitch
+- Transition SFX: motivated only — 4 of 32 cuts (section boundaries 10/20/22 + pivot 23); mid-shot cues only on graphic landings (paper-slide on cards, ding on badges, cash on price, thud on labels, pop on keywords, tick-burst on the counter, shutter on the year stamp)
+- Music: OFF (not requested). Ambience/grain: OFF (template). Captions: sentence-karaoke (50 groups, ~9 words, spoken word highlighted) instead of 2-word pills.
+- Frames rebuilt by build-frames-from-plan.mjs (32 built, invented-scene 18 kept); lint 0 errors.

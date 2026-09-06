@@ -1,35 +1,231 @@
 {
-  "01": { "archetype": "none", "reason": "connective hook line, no concrete number/name yet — footage + narration carry it" },
-  "02": { "archetype": "none", "reason": "connective, sets up the reveal without a hook itself" },
-  "03": { "archetype": "giant-price", "text": "$47,500", "sub": "tax-free", "enterAt": 1.4, "reason": "the headline figure of the entire film — one giant-price treatment reserved for this single defining number" },
-  "04": { "archetype": "none", "reason": "elaborates on the number just shown, footage (couple with document) carries it" },
-  "05": { "archetype": "none", "reason": "elaboration, no new hook" },
-  "06": { "archetype": "none", "reason": "short connective negation lines, footage carries the beat" },
-  "07": { "archetype": "none", "reason": "continues the negation list, no concrete hook" },
-  "08": { "archetype": "number-counter", "value": 47500, "prefix": "$", "label": "not permitted to tax", "enterAt": 1.0, "reason": "restates the headline number with a new framing (not permitted to tax) — a count-up plate reinforces it without repeating giant-price" },
-  "09": { "archetype": "keyword-flash", "text": "UNEXPLAINED", "position": "center", "enterAt": 0.9, "reason": "the film's thesis pivot line — the single word that reframes everything that follows" },
-  "10": { "archetype": "solid-box-label", "text": "THREE DEDUCTIONS", "position": "lower-third", "variant": "black-on-yellow", "enterAt": 1.1, "reason": "introduces the new named structural concept the whole film builds on" },
-  "11": { "archetype": "keyword-flash", "text": "THREE.", "position": "center", "enterAt": 0.3, "reason": "single stressed word restated as its own beat in the narration — a natural keyword-flash moment" },
-  "12": { "archetype": "none", "reason": "elaboration on the same point, would repeat beat 11's keyword-flash" },
-  "13": { "archetype": "none", "reason": "sets up the number that lands in beat 14, footage (concerned couple) already carries the emotional weight" },
-  "14": { "archetype": "none", "reason": "re-scored on density review — a connective continuation of beat 13's number, not a strong enough standalone hook to justify a 4th keyword-flash in the film" },
-  "15": { "archetype": "none", "reason": "list item 1 of 3 consequences, but too brief/similar to warrant a solid-box-label chain — keeping it sparse per density target" },
-  "16": { "archetype": "none", "reason": "list item 2 of 3, same reasoning as beat 15" },
-  "17": { "archetype": "none", "reason": "list item 3 of 3, same reasoning" },
-  "18": { "archetype": "none", "reason": "this beat's visual IS the overlay — an invented-scene stacking diagram, no separate overlay archetype layered on top of its own diagram" },
-  "19": { "archetype": "keyword-flash", "text": "$47,500 LOOKS SMALL", "position": "center", "enterAt": 1.0, "reason": "the film's mid-point turning-point tease — deliberately echoes beat 03's number to set up the reveal in beats 20-21" },
-  "20": { "archetype": "none", "reason": "sets up the $80,000 reveal, footage (couple with letter) carries it" },
-  "21": { "archetype": "giant-price", "text": "$80,000", "sub": "and still owe zero", "enterAt": 1.2, "reason": "the film's climax number — the second and larger giant-price moment, justified by being the turning point the whole video builds to" },
-  "22": { "archetype": "none", "reason": "connective transition to the audience's likely objection" },
-  "23": { "archetype": "none", "reason": "rhetorical question, footage (confused/shrugging expression) carries it without needing text" },
-  "24": { "archetype": "none", "reason": "connective reassurance line" },
-  "25": { "archetype": "none", "reason": "connective, sets up the historical explanation" },
-  "26": { "archetype": "solid-box-label", "text": "3 ACTS OF CONGRESS", "position": "lower-third", "variant": "white-on-black", "enterAt": 0.8, "reason": "names the structural explanation for why nobody explained it — a genuine new-topic label over the Capitol establishing shot" },
-  "27": { "archetype": "none", "reason": "elaborates on one of the three acts, avoiding overlay repetition immediately after beat 26's label" },
-  "28": { "archetype": "year-stamp", "text": "1980s", "position": "lower-right", "enterAt": 0.6, "reason": "a specific decade named for the senior add-on's origin — a classic year-stamp moment over the retro office footage" },
-  "29": { "archetype": "year-stamp", "text": "2025", "position": "lower-right", "enterAt": 1.3, "reason": "the newest and most consequential of the three provisions gets its own year-stamp, distinct from 1980s, showing the contrast in age" },
-  "30": { "archetype": "none", "reason": "connective, elaborates on the naming point" },
-  "31": { "archetype": "none", "reason": "elaborates the same point as beat 30 (puzzle pieces already visually carry 'separate provisions landing together')" },
-  "32": { "archetype": "none", "reason": "connective, sets up the closing point about media coverage" },
-  "33": { "archetype": "none", "reason": "final connective beat leading into the end-card; end-card itself (structural, not per-beat archetype) closes the film" }
+ "10": {
+  "archetype": "title-card",
+  "title": "The Stack Revealed",
+  "kicker": "Part 2",
+  "enterAt": 0.2,
+  "reason": "section start \"the-stack-revealed\" — template section-start device"
+ },
+ "11": {
+  "archetype": "number-badge",
+  "value": "3",
+  "unit": "",
+  "label": "deductions, one stack",
+  "position": "upper-left",
+  "enterAt": 0.8,
+  "reason": "figure 3 on a badge"
+ },
+ "12": {
+  "archetype": "info-card",
+  "title": "Three deductions, one stack",
+  "bullets": [
+   "Base standard deduction",
+   "Senior add-on (age 65+)",
+   "New 2025 senior deduction"
+  ],
+  "kicker": "Added together",
+  "marker": "number",
+  "enterAt": 1.4,
+  "reason": "list of 3 items → info-card"
+ },
+ "13": {
+  "archetype": "side-panel",
+  "title": "What most people get wrong",
+  "bullets": [
+   "They withhold money they will never owe",
+   "They pass up income they could take tax-free",
+   "They pay a preparer who checks one box and misses two"
+  ],
+  "kicker": "Filing season",
+  "side": "right",
+  "enterAt": 1.4,
+  "reason": "two-sided beat → side panel"
+ },
+ "14": {
+  "archetype": "none",
+  "enterAt": 0.8,
+  "reason": "no concrete hook (connective / scene-setting)"
+ },
+ "15": {
+  "archetype": "none",
+  "enterAt": 0.8,
+  "reason": "no concrete hook (connective / scene-setting)"
+ },
+ "16": {
+  "archetype": "none",
+  "enterAt": 0.8,
+  "reason": "no concrete hook (connective / scene-setting)"
+ },
+ "17": {
+  "archetype": "none",
+  "enterAt": 0.91,
+  "reason": "no concrete hook (connective / scene-setting)"
+ },
+ "18": {
+  "archetype": "none",
+  "enterAt": 1.18,
+  "reason": "no concrete hook (connective / scene-setting)"
+ },
+ "19": {
+  "archetype": "keyword-flash",
+  "text": "$47,500 looks small",
+  "position": "center",
+  "enterAt": 1.31,
+  "reason": "stressed keyword"
+ },
+ "20": {
+  "archetype": "title-card",
+  "title": "The Bigger Number",
+  "kicker": "Part 3",
+  "enterAt": 0.2,
+  "reason": "section start \"the-bigger-number\" — template section-start device"
+ },
+ "21": {
+  "archetype": "giant-price",
+  "text": "$80,000",
+  "sub": "cash you can receive, untaxed",
+  "enterAt": 0.8,
+  "reason": "headline figure $80,000"
+ },
+ "22": {
+  "archetype": "title-card",
+  "title": "Why Nobody Explained It",
+  "kicker": "Part 4",
+  "enterAt": 0.2,
+  "reason": "section start \"why-nobody-explained-it\" — template section-start device"
+ },
+ "23": {
+  "archetype": "keyword-flash",
+  "text": "Why has nobody explained it?",
+  "position": "center",
+  "enterAt": 1.4,
+  "reason": "question beat — stressed words"
+ },
+ "24": {
+  "archetype": "solid-box-label",
+  "text": "Not a conspiracy",
+  "position": "upper-left",
+  "variant": "primary",
+  "enterAt": 0.82,
+  "reason": "warning-or-confirmation"
+ },
+ "25": {
+  "archetype": "none",
+  "enterAt": 0.8,
+  "reason": "no concrete hook (connective / scene-setting)"
+ },
+ "26": {
+  "archetype": "info-card",
+  "title": "Three acts of Congress",
+  "bullets": [
+   "Base standard deduction — decades old",
+   "Senior add-on — in the code since the 1980s",
+   "Third, largest piece — new in 2025, four-year window"
+  ],
+  "kicker": "Three different times",
+  "marker": "number",
+  "enterAt": 1.4,
+  "reason": "list of 3 items → info-card"
+ },
+ "27": {
+  "archetype": "none",
+  "enterAt": 0.8,
+  "reason": "no concrete hook (connective / scene-setting)"
+ },
+ "28": {
+  "archetype": "number-badge",
+  "value": "1980s",
+  "unit": "",
+  "label": "senior add-on",
+  "position": "upper-left",
+  "enterAt": 0.86,
+  "reason": "figure 1980s on a badge"
+ },
+ "29": {
+  "archetype": "year-stamp",
+  "text": "2025",
+  "position": "lower-right",
+  "enterAt": 1.4,
+  "reason": "year 2025"
+ },
+ "30": {
+  "archetype": "keyword-flash",
+  "text": "No single law",
+  "position": "center",
+  "enterAt": 0.88,
+  "reason": "stressed keyword"
+ },
+ "31": {
+  "archetype": "none",
+  "enterAt": 1.29,
+  "reason": "no concrete hook (connective / scene-setting)"
+ },
+ "32": {
+  "archetype": "none",
+  "enterAt": 0.98,
+  "reason": "no concrete hook (connective / scene-setting)"
+ },
+ "33": {
+  "archetype": "none",
+  "enterAt": 1.2,
+  "reason": "no concrete hook (connective / scene-setting)"
+ },
+ "01": {
+  "archetype": "none",
+  "reason": "dropped for density (keyword-flash, template band 4-9/min)"
+ },
+ "02": {
+  "archetype": "none",
+  "enterAt": 0.91,
+  "reason": "no concrete hook (connective / scene-setting)"
+ },
+ "03": {
+  "archetype": "giant-price",
+  "text": "$47,500",
+  "sub": "tax-free income",
+  "enterAt": 0.89,
+  "reason": "headline figure $47,500"
+ },
+ "04": {
+  "archetype": "number-badge",
+  "value": "65+",
+  "unit": "",
+  "label": "married, both spouses",
+  "position": "upper-left",
+  "enterAt": 1.4,
+  "reason": "figure 65+ on a badge"
+ },
+ "05": {
+  "archetype": "none",
+  "enterAt": 0.81,
+  "reason": "no concrete hook (connective / scene-setting)"
+ },
+ "06": {
+  "archetype": "solid-box-label",
+  "text": "Not a credit. Not a rebate.",
+  "position": "lower-center",
+  "variant": "alt",
+  "enterAt": 0.8,
+  "reason": "warning-or-confirmation"
+ },
+ "07": {
+  "archetype": "none",
+  "enterAt": 0.8,
+  "reason": "no concrete hook (connective / scene-setting)"
+ },
+ "08": {
+  "archetype": "number-counter",
+  "value": "47500",
+  "prefix": "$",
+  "suffix": "",
+  "label": "not permitted to tax",
+  "from": 0,
+  "position": "center",
+  "enterAt": 1.39,
+  "reason": "counting figure $47,500"
+ },
+ "09": {
+  "archetype": "none",
+  "reason": "dropped for density (keyword-flash, template band 4-9/min)"
+ }
 }

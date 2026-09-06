@@ -1,22 +1,9 @@
 {
   "lines": [
     {
-      "id": "03",
-      "sfx": [
-        "whoosh-fast",
-        "cash"
-      ]
-    },
-    {
-      "id": "04",
-      "sfx": [
-        "click-soft"
-      ]
-    },
-    {
       "id": "06",
       "sfx": [
-        "whoosh-sweep"
+        "thud-soft"
       ]
     },
     {
@@ -26,34 +13,27 @@
       ]
     },
     {
-      "id": "09",
-      "sfx": [
-        "pop"
-      ]
-    },
-    {
       "id": "10",
       "sfx": [
-        "whoosh-short",
-        "thud-soft"
+        "whoosh-short"
       ]
     },
     {
       "id": "11",
       "sfx": [
-        "pop"
+        "ding"
       ]
     },
     {
       "id": "12",
       "sfx": [
-        "whoosh-fast"
+        "paper-slide"
       ]
     },
     {
-      "id": "15",
+      "id": "13",
       "sfx": [
-        "whoosh-short"
+        "paper-slide"
       ]
     },
     {
@@ -65,7 +45,7 @@
     {
       "id": "20",
       "sfx": [
-        "whoosh-hit"
+        "whoosh-short"
       ]
     },
     {
@@ -77,26 +57,31 @@
     {
       "id": "22",
       "sfx": [
-        "glitch-1"
+        "whoosh-short"
       ]
     },
     {
       "id": "23",
       "sfx": [
-        "whoosh-air"
+        "whoosh-fast"
+      ]
+    },
+    {
+      "id": "24",
+      "sfx": [
+        "thud-soft"
       ]
     },
     {
       "id": "26",
       "sfx": [
-        "whoosh-short",
-        "thud-soft"
+        "paper-slide"
       ]
     },
     {
       "id": "28",
       "sfx": [
-        "shutter"
+        "ding"
       ]
     },
     {
@@ -108,13 +93,7 @@
     {
       "id": "30",
       "sfx": [
-        "whoosh-air"
-      ]
-    },
-    {
-      "id": "32",
-      "sfx": [
-        "whoosh-sweep"
+        "pop"
       ]
     }
   ],

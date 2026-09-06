@@ -23,7 +23,6 @@
 - transition_in: hard-cut 0s
 - status: outline
 - src: compositions/frames/03-beat.html
-- sfx: whoosh-fast, cash
 
 ## Frame 04 — beat 04
 - scene: stock footage/photo for beat 04
@@ -32,7 +31,6 @@
 - transition_in: crossfade 0.25s
 - status: outline
 - src: compositions/frames/04-beat.html
-- sfx: click-soft
 
 ## Frame 05 — beat 05
 - scene: stock footage/photo for beat 05
@@ -49,7 +47,7 @@
 - transition_in: hard-cut 0s
 - status: outline
 - src: compositions/frames/06-beat.html
-- sfx: whoosh-sweep
+- sfx: thud-soft
 
 ## Frame 07 — beat 07
 - scene: stock footage/photo for beat 07
@@ -75,16 +73,15 @@
 - transition_in: hard-cut 0s
 - status: outline
 - src: compositions/frames/09-beat.html
-- sfx: pop
 
 ## Frame 10 — beat 10
 - scene: stock footage/photo for beat 10 + solid-box-label "THREE DEDUCTIONS" overlay
 - voiceover: "The figure is not one deduction. It is three separate deductions that stack on top of each other."
 - duration: 4.78s
-- transition_in: hard-cut 0s
+- transition_in: light-leak-flash 0.5s
 - status: outline
 - src: compositions/frames/10-beat.html
-- sfx: whoosh-short, thud-soft
+- sfx: whoosh-short
 
 ## Frame 11 — beat 11
 - scene: stock footage/photo for beat 11 + keyword-flash "THREE." overlay
@@ -93,7 +90,7 @@
 - transition_in: crossfade 0.25s
 - status: outline
 - src: compositions/frames/11-beat.html
-- sfx: pop
+- sfx: ding
 
 ## Frame 12 — beat 12
 - scene: stock footage/photo for beat 12
@@ -102,7 +99,7 @@
 - transition_in: hard-cut 0s
 - status: outline
 - src: compositions/frames/12-beat.html
-- sfx: whoosh-fast
+- sfx: paper-slide
 
 ## Frame 13 — beat 13
 - scene: stock footage/photo for beat 13
@@ -111,6 +108,7 @@
 - transition_in: hard-cut 0s
 - status: outline
 - src: compositions/frames/13-beat.html
+- sfx: paper-slide
 
 ## Frame 14 — beat 14
 - scene: stock footage/photo for beat 14
@@ -127,7 +125,6 @@
 - transition_in: hard-cut 0s
 - status: outline
 - src: compositions/frames/15-beat.html
-- sfx: whoosh-short
 
 ## Frame 16 — beat 16
 - scene: stock footage/photo for beat 16
@@ -166,10 +163,10 @@
 - scene: stock footage/photo for beat 20
 - voiceover: "Because for a household living mostly on Social Security, the actual cash you can receive in a year and still owe zero federal income"
 - duration: 6.73s
-- transition_in: hard-cut 0s
+- transition_in: zoom-through 1s
 - status: outline
 - src: compositions/frames/20-beat.html
-- sfx: whoosh-hit
+- sfx: whoosh-short
 
 ## Frame 21 — beat 21
 - scene: stock footage/photo for beat 21 + giant-price "$80,000" overlay
@@ -184,10 +181,10 @@
 - scene: stock footage/photo for beat 22
 - voiceover: "Now some of you are already thinking the obvious thing."
 - duration: 2.42s
-- transition_in: glitch-cut 0.25s
+- transition_in: whip-pan DOWN 0.35s
 - status: outline
 - src: compositions/frames/22-beat.html
-- sfx: glitch-1
+- sfx: whoosh-short
 
 ## Frame 23 — beat 23
 - scene: stock footage/photo for beat 23
@@ -196,7 +193,7 @@
 - transition_in: hard-cut 0s
 - status: outline
 - src: compositions/frames/23-beat.html
-- sfx: whoosh-air
+- sfx: whoosh-fast
 
 ## Frame 24 — beat 24
 - scene: stock footage/photo for beat 24
@@ -205,6 +202,7 @@
 - transition_in: hard-cut 0s
 - status: outline
 - src: compositions/frames/24-beat.html
+- sfx: thud-soft
 
 ## Frame 25 — beat 25
 - scene: stock footage/photo for beat 25
@@ -221,7 +219,7 @@
 - transition_in: hard-cut 0s
 - status: outline
 - src: compositions/frames/26-beat.html
-- sfx: whoosh-short, thud-soft
+- sfx: paper-slide
 
 ## Frame 27 — beat 27
 - scene: stock footage/photo for beat 27
@@ -238,7 +236,7 @@
 - transition_in: hard-cut 0s
 - status: outline
 - src: compositions/frames/28-beat.html
-- sfx: shutter
+- sfx: ding
 
 ## Frame 29 — beat 29
 - scene: stock footage/photo for beat 29 + year-stamp "2025" overlay
@@ -256,7 +254,7 @@
 - transition_in: hard-cut 0s
 - status: outline
 - src: compositions/frames/30-beat.html
-- sfx: whoosh-air
+- sfx: pop
 
 ## Frame 31 — beat 31
 - scene: stock footage/photo for beat 31
@@ -273,7 +271,6 @@
 - transition_in: hard-cut 0s
 - status: outline
 - src: compositions/frames/32-beat.html
-- sfx: whoosh-sweep
 
 ## Frame 33 — beat 33
 - scene: stock footage/photo for beat 33, freezes at 1s + end-card "Three deductions. One number. Check yours."
@@ -281,6 +278,5 @@
 - duration: 4s
 - transition_in: crossfade 0.25s
 - status: outline
-- src: compositions/frames/33-beat.html
-- sfx:  
+- src: compositions/frames/33-beat.html  
 

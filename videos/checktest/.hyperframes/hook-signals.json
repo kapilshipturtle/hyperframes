@@ -1,35 +1,127 @@
 {
-  "01": "none",
-  "02": "none",
-  "03": "number",
-  "04": "none",
-  "05": "none",
-  "06": "none",
-  "07": "none",
-  "08": "number",
-  "09": "pivot-or-thesis",
-  "10": "new-topic",
-  "11": "number",
-  "12": "none",
-  "13": "number-change",
-  "14": "none",
-  "15": "none",
-  "16": "none",
-  "17": "none",
-  "18": "none",
-  "19": "pivot-or-thesis",
-  "20": "none",
-  "21": "number",
-  "22": "none",
-  "23": "quote",
-  "24": "none",
-  "25": "none",
-  "26": "date-or-place",
-  "27": "none",
-  "28": "date-or-place",
-  "29": "date-or-place",
-  "30": "none",
-  "31": "none",
-  "32": "none",
-  "33": "none"
+ "01": {
+  "signal": "keyword",
+  "text": "Born before 1961?",
+  "position": "center"
+ },
+ "02": "none",
+ "03": {
+  "signal": "number",
+  "headline": true,
+  "value": "$47,500",
+  "label": "tax-free income"
+ },
+ "04": {
+  "signal": "number",
+  "value": "65+",
+  "label": "married, both spouses",
+  "position": "upper-left"
+ },
+ "05": "none",
+ "06": {
+  "signal": "warning-or-confirmation",
+  "text": "Not a credit. Not a rebate.",
+  "position": "lower-center",
+  "variant": "alt"
+ },
+ "07": "none",
+ "08": {
+  "signal": "number-change",
+  "value": "$47,500",
+  "label": "not permitted to tax",
+  "from": 0
+ },
+ "09": {
+  "signal": "keyword",
+  "text": "Unexplained",
+  "position": "center"
+ },
+ "10": "none",
+ "11": {
+  "signal": "number",
+  "value": "3",
+  "label": "deductions, one stack",
+  "position": "upper-left"
+ },
+ "12": {
+  "signal": "list",
+  "title": "Three deductions, one stack",
+  "kicker": "Added together",
+  "bullets": [
+   "Base standard deduction",
+   "Senior add-on (age 65+)",
+   "New 2025 senior deduction"
+  ],
+  "marker": "number"
+ },
+ "13": {
+  "signal": "contrast",
+  "title": "What most people get wrong",
+  "kicker": "Filing season",
+  "bullets": [
+   "They withhold money they will never owe",
+   "They pass up income they could take tax-free",
+   "They pay a preparer who checks one box and misses two"
+  ]
+ },
+ "14": "none",
+ "15": "none",
+ "16": "none",
+ "17": "none",
+ "18": "none",
+ "19": {
+  "signal": "keyword",
+  "text": "$47,500 looks small",
+  "position": "center"
+ },
+ "20": "none",
+ "21": {
+  "signal": "number",
+  "headline": true,
+  "value": "$80,000",
+  "label": "cash you can receive, untaxed"
+ },
+ "22": "none",
+ "23": {
+  "signal": "question",
+  "text": "Why has nobody explained it?",
+  "position": "center"
+ },
+ "24": {
+  "signal": "warning-or-confirmation",
+  "text": "Not a conspiracy",
+  "position": "upper-left"
+ },
+ "25": "none",
+ "26": {
+  "signal": "list",
+  "title": "Three acts of Congress",
+  "kicker": "Three different times",
+  "bullets": [
+   "Base standard deduction \u2014 decades old",
+   "Senior add-on \u2014 in the code since the 1980s",
+   "Third, largest piece \u2014 new in 2025, four-year window"
+  ],
+  "marker": "number"
+ },
+ "27": "none",
+ "28": {
+  "signal": "number",
+  "value": "1980s",
+  "label": "senior add-on",
+  "position": "upper-left"
+ },
+ "29": {
+  "signal": "date-or-place",
+  "text": "2025",
+  "position": "lower-right"
+ },
+ "30": {
+  "signal": "keyword",
+  "text": "No single law",
+  "position": "center"
+ },
+ "31": "none",
+ "32": "none",
+ "33": "none"
 }

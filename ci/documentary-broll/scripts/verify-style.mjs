@@ -108,13 +108,17 @@ check("p90 shot length", pct(shotLens, 0.9), P?.cuts.p90_shot_s, { unit: "s" });
 check("longest gap without a change", Math.max(...gaps, 0), P?.beats.watchdog_s ? [0, P.beats.watchdog_s * 1.3] : null, { unit: "s" });
 check("dissolve share of boundaries", dissolveShare, P?.transitions.dissolve_share != null ? [Math.max(0, P.transitions.dissolve_share - 0.05), P.transitions.dissolve_share + 0.06] : null);
 check("dissolve duration (median)", dissolveDur, P?.transitions.dissolve_duration_s ? [P.transitions.dissolve_duration_s * 0.6, P.transitions.dissolve_duration_s * 1.6] : null, { unit: "s" });
-check("accent transition share", accentShare, P ? [0, P.transitions.accent_share + 0.03] : null);
-check("transition SFX share of cuts", transCues.length / Math.max(1, beats.length - 1), P ? [P.transitions.hard_cut_sfx_share - 0.1, P.transitions.hard_cut_sfx_share + 0.12] : null);
+// accents live at section boundaries on templates (accents_at_section_boundaries) — the expected share is the
+// number of section starts over the cut count, not a fixed percentage
+const sectionsFile = existsSync(".hyperframes/sections.json") ? (JSON.parse(readFileSync(".hyperframes/sections.json", "utf8")).sections || []) : [];
+const expectedAccent = P ? Math.max(P.transitions.accent_share || 0, P.transitions.accents_at_section_boundaries ? Math.max(0, sectionsFile.length - 1) / Math.max(1, beats.length - 1) : 0) : 0;
+check("accent transition share", accentShare, P ? [0, expectedAccent + 0.03] : null);
+check("transition SFX share of cuts", transCues.length / Math.max(1, beats.length - 1), P ? (P.transitions.sfx_mode === "motivated" ? [0, (P.transitions.sfx_max_share || 0.15) + 0.05] : [(P.transitions.hard_cut_sfx_share || 0) - 0.1, (P.transitions.hard_cut_sfx_share || 0) + 0.12]) : null);
 check("mid-shot SFX per minute", midCues.length / mins, P?.sfx.mid_shot_per_min);
 check("overlays per minute", ovPerMin, P?.overlays.density_per_min);
 check("overlay enter-at (median)", med(enterAts), P?.overlays.enter_at_s, { unit: "s" });
 check("punch-in share of shots", punchShare, P ? [Math.max(0, P.punch.share_of_shots - 0.05), P.punch.share_of_shots + 0.06] : null);
-check("music bed present", bedOn ? 1 : 0, P ? (P.music.enabled ? [1, 1] : [0, 0]) : null, { fmt: (v) => (v ? "yes" : "no") + (bedVol != null ? ` (vol ${bedVol})` : "") });
+check("music bed present", bedOn ? 1 : 0, P && P.music.enabled !== "ask" ? (P.music.enabled ? [1, 1] : [0, 0]) : null, { fmt: (v) => (v ? "yes" : "no") + (bedVol != null ? ` (vol ${bedVol})` : "") + (P && P.music.enabled === "ask" ? " (asked per run)" : "") });
 check("vignette share of beats", vignetteShare, P?.look.vignette_share, { fail: false });
 check("first cut at", beats[0]?.durationSeconds, P?.hook.first_cut_s ? [0, P.hook.first_cut_s] : null, { unit: "s", fail: false });
 check("first overlay at", firstOverlayAt, P?.hook.first_overlay_s ? [0, P.hook.first_overlay_s] : null, { unit: "s", fail: false });

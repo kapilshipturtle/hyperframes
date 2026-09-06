@@ -86,7 +86,11 @@
       background: radial-gradient(ellipse at center, rgba(0,0,0,0) 45%, rgba(0,0,0,0) 100%);
       pointer-events: none;
     }
-.ov-ys { position: absolute; font: 700 1em/1.15 "Playfair Display", Georgia, serif; font-size: 150px; color: #ffffff; text-shadow: 0 1px 2px rgba(0,0,0,0.55), 0 4px 16px rgba(0,0,0,0.45); opacity: 0; letter-spacing: 0.02em; }
+
+    .ov-nb { position: absolute; text-align: center; opacity: 0; }
+    .ov-nb-num { font: 700 1em/1.15 "Playfair Display", "Libre Baskerville", Georgia, "Times New Roman", serif; font-size: 124px; line-height: 1; color: #fff; text-shadow: 0 3px 10px rgba(0,0,0,0.55); letter-spacing: -0.01em; }
+    .ov-nb-unit { font-size: 60px; margin-left: 8px; }
+    .ov-nb-label { display: inline-block; margin-top: 12px; font: 500 1em/1.35 "Inter", -apple-system, sans-serif; font-size: 26px; letter-spacing: 0.16em; text-transform: uppercase; background: #f28c28; color: #fff; padding: 8px 22px; border-radius: 6px; }
   </style>
 
   <div
@@ -98,7 +102,7 @@
       <video id="f-28-beat-media" class="broll-media clip" src=".media/broll/beat-28.mp4" muted playsinline data-start="0" data-duration="2.88" data-media-start="0" data-track-index="0"></video>
     </div>
     <div class="broll-scrim clip" id="f-28-beat-scrim" data-start="0" data-duration="2.88" data-track-index="1"></div>
-    <div class="ov-ys" id="f-28-beat-ov" style="right: 90px; bottom: 150px;">1980s</div>
+    <div class="ov-nb" id="f-28-beat-ov" style="left: 90px; top: 110px;"><div class="ov-nb-num">1980s<span class="ov-nb-unit"></span></div><div class="ov-nb-label">senior add-on</div></div>
   </div>
 
   <script>
@@ -107,7 +111,7 @@
       var tl = gsap.timeline({ paused: true });
       var wrap = document.getElementById("f-28-beat-wrap");
       gsap.set(wrap, { scale: 1.0 });
-      tl.fromTo("#f-28-beat-ov", { opacity: 0, scale: 1.15 }, { opacity: 0.92, scale: 1, duration: 0.3, ease: "power2.out" }, 0.60);
+      tl.fromTo("#f-28-beat-ov", { opacity: 0, scale: 0.7 }, { opacity: 1, scale: 1, duration: 0.32, ease: "back.out(1.5)" }, 0.86);
       window.__timelines["28-beat"] = tl;
     })();
   </script>

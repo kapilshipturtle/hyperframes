@@ -86,6 +86,7 @@
       background: radial-gradient(ellipse at center, rgba(0,0,0,0) 45%, rgba(0,0,0,0) 100%);
       pointer-events: none;
     }
+.ov-sbl { position: absolute; font: 800 1em/1.1 "Inter", "Montserrat", -apple-system, sans-serif; font-size: 40px; text-transform: capitalize; background: #111111; color: #ffffff; padding: 0.3em 0.7em; border-radius: 6px; box-shadow: 0 6px 20px rgba(0,0,0,0.35); opacity: 0; white-space: nowrap; max-width: 60%; }
   </style>
 
   <div
@@ -97,6 +98,7 @@
       <video id="f-24-beat-media" class="broll-media clip" src=".media/broll/beat-24.mp4" muted playsinline data-start="0" data-duration="2.97" data-media-start="0" data-track-index="0"></video>
     </div>
     <div class="broll-scrim clip" id="f-24-beat-scrim" data-start="0" data-duration="2.97" data-track-index="1"></div>
+    <div class="ov-sbl" id="f-24-beat-ov" style="left: 72px; top: 72px;">Not a conspiracy</div>
   </div>
 
   <script>
@@ -105,6 +107,7 @@
       var tl = gsap.timeline({ paused: true });
       var wrap = document.getElementById("f-24-beat-wrap");
       gsap.set(wrap, { scale: 1.0 });
+      tl.fromTo("#f-24-beat-ov", { opacity: 0 }, { opacity: 1, duration: 0.22, ease: "power2.out" }, 0.82);
       window.__timelines["24-beat"] = tl;
     })();
   </script>

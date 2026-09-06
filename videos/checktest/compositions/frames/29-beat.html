@@ -83,7 +83,7 @@
     .broll-vignette {
       position: absolute;
       inset: 0;
-      background: radial-gradient(ellipse at center, rgba(0,0,0,0) 45%, rgba(0,0,0,0.3) 100%);
+      background: radial-gradient(ellipse at center, rgba(0,0,0,0) 45%, rgba(0,0,0,0) 100%);
       pointer-events: none;
     }
 .ov-ys { position: absolute; font: 700 1em/1.15 "Playfair Display", Georgia, serif; font-size: 150px; color: #ffffff; text-shadow: 0 1px 2px rgba(0,0,0,0.55), 0 4px 16px rgba(0,0,0,0.45); opacity: 0; letter-spacing: 0.02em; }
@@ -98,7 +98,6 @@
       <video id="f-29-beat-media" class="broll-media clip" src=".media/broll/beat-29.mp4" muted playsinline data-start="0" data-duration="6.22" data-media-start="0" data-track-index="0"></video>
     </div>
     <div class="broll-scrim clip" id="f-29-beat-scrim" data-start="0" data-duration="6.22" data-track-index="1"></div>
-    <div class="broll-vignette clip" id="f-29-beat-vignette" data-start="0" data-duration="6.22" data-track-index="3"></div>
     <div class="ov-ys" id="f-29-beat-ov" style="right: 90px; bottom: 150px;">2025</div>
   </div>
 
@@ -109,7 +108,7 @@
       var wrap = document.getElementById("f-29-beat-wrap");
       gsap.set(wrap, { scale: 1.0 });
       tl.to("#f-29-beat-media", { scale: 1.375, duration: 0.09, ease: "power3.out" }, 2.67);
-      tl.fromTo("#f-29-beat-ov", { opacity: 0, scale: 1.15 }, { opacity: 0.92, scale: 1, duration: 0.3, ease: "power2.out" }, 1.30);
+      tl.fromTo("#f-29-beat-ov", { opacity: 0, scale: 1.15 }, { opacity: 0.92, scale: 1, duration: 0.3, ease: "power2.out" }, 1.40);
       window.__timelines["29-beat"] = tl;
     })();
   </script>

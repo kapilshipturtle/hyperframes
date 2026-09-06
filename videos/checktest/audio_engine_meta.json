@@ -13,39 +13,12 @@
   "voices": [],
   "sfx": [
     {
-      "id": "03",
-      "name": "whoosh-fast",
-      "file": "assets/sfx/whoosh-fast.mp3",
-      "source": "local",
-      "offset_s": 0,
-      "duration_s": 0.71,
-      "volume": 0.35
-    },
-    {
-      "id": "03",
-      "name": "cash",
-      "file": "assets/sfx/cash.mp3",
-      "source": "local",
-      "offset_s": 0,
-      "duration_s": 0.73,
-      "volume": 0.35
-    },
-    {
-      "id": "04",
-      "name": "click-soft",
-      "file": "assets/sfx/click-soft.mp3",
-      "source": "local",
-      "offset_s": 0,
-      "duration_s": 0.05,
-      "volume": 0.35
-    },
-    {
       "id": "06",
-      "name": "whoosh-sweep",
-      "file": "assets/sfx/whoosh-sweep.mp3",
+      "name": "thud-soft",
+      "file": "assets/sfx/thud-soft.mp3",
       "source": "local",
       "offset_s": 0,
-      "duration_s": 0.65,
+      "duration_s": 0.21,
       "volume": 0.35
     },
     {
@@ -58,57 +31,39 @@
       "volume": 0.35
     },
     {
-      "id": "09",
-      "name": "pop",
-      "file": "assets/sfx/pop.mp3",
-      "source": "local",
-      "offset_s": 0,
-      "duration_s": 0.26,
-      "volume": 0.35
-    },
-    {
       "id": "10",
       "name": "whoosh-short",
       "file": "assets/sfx/whoosh-short.mp3",
       "source": "local",
       "offset_s": 0,
       "duration_s": 0.57,
-      "volume": 0.35
-    },
-    {
-      "id": "10",
-      "name": "thud-soft",
-      "file": "assets/sfx/thud-soft.mp3",
-      "source": "local",
-      "offset_s": 0,
-      "duration_s": 0.21,
       "volume": 0.35
     },
     {
       "id": "11",
-      "name": "pop",
-      "file": "assets/sfx/pop.mp3",
+      "name": "ding",
+      "file": "assets/sfx/ding.mp3",
       "source": "local",
       "offset_s": 0,
-      "duration_s": 0.26,
+      "duration_s": 0.31,
       "volume": 0.35
     },
     {
       "id": "12",
-      "name": "whoosh-fast",
-      "file": "assets/sfx/whoosh-fast.mp3",
+      "name": "paper-slide",
+      "file": "assets/sfx/paper-slide.mp3",
       "source": "local",
       "offset_s": 0,
-      "duration_s": 0.71,
+      "duration_s": 0.44,
       "volume": 0.35
     },
     {
-      "id": "15",
-      "name": "whoosh-short",
-      "file": "assets/sfx/whoosh-short.mp3",
+      "id": "13",
+      "name": "paper-slide",
+      "file": "assets/sfx/paper-slide.mp3",
       "source": "local",
       "offset_s": 0,
-      "duration_s": 0.57,
+      "duration_s": 0.44,
       "volume": 0.35
     },
     {
@@ -122,11 +77,11 @@
     },
     {
       "id": "20",
-      "name": "whoosh-hit",
-      "file": "assets/sfx/whoosh-hit.mp3",
+      "name": "whoosh-short",
+      "file": "assets/sfx/whoosh-short.mp3",
       "source": "local",
       "offset_s": 0,
-      "duration_s": 1.4,
+      "duration_s": 0.57,
       "volume": 0.35
     },
     {
@@ -140,24 +95,6 @@
     },
     {
       "id": "22",
-      "name": "glitch-1",
-      "file": "assets/sfx/glitch-1.mp3",
-      "source": "local",
-      "offset_s": 0,
-      "duration_s": 2.64,
-      "volume": 0.35
-    },
-    {
-      "id": "23",
-      "name": "whoosh-air",
-      "file": "assets/sfx/whoosh-air.mp3",
-      "source": "local",
-      "offset_s": 0,
-      "duration_s": 1.49,
-      "volume": 0.35
-    },
-    {
-      "id": "26",
       "name": "whoosh-short",
       "file": "assets/sfx/whoosh-short.mp3",
       "source": "local",
@@ -166,7 +103,16 @@
       "volume": 0.35
     },
     {
-      "id": "26",
+      "id": "23",
+      "name": "whoosh-fast",
+      "file": "assets/sfx/whoosh-fast.mp3",
+      "source": "local",
+      "offset_s": 0,
+      "duration_s": 0.71,
+      "volume": 0.35
+    },
+    {
+      "id": "24",
       "name": "thud-soft",
       "file": "assets/sfx/thud-soft.mp3",
       "source": "local",
@@ -175,12 +121,21 @@
       "volume": 0.35
     },
     {
-      "id": "28",
-      "name": "shutter",
-      "file": "assets/sfx/shutter.mp3",
+      "id": "26",
+      "name": "paper-slide",
+      "file": "assets/sfx/paper-slide.mp3",
       "source": "local",
       "offset_s": 0,
-      "duration_s": 0.13,
+      "duration_s": 0.44,
+      "volume": 0.35
+    },
+    {
+      "id": "28",
+      "name": "ding",
+      "file": "assets/sfx/ding.mp3",
+      "source": "local",
+      "offset_s": 0,
+      "duration_s": 0.31,
       "volume": 0.35
     },
     {
@@ -194,20 +149,11 @@
     },
     {
       "id": "30",
-      "name": "whoosh-air",
-      "file": "assets/sfx/whoosh-air.mp3",
+      "name": "pop",
+      "file": "assets/sfx/pop.mp3",
       "source": "local",
       "offset_s": 0,
-      "duration_s": 1.49,
-      "volume": 0.35
-    },
-    {
-      "id": "32",
-      "name": "whoosh-sweep",
-      "file": "assets/sfx/whoosh-sweep.mp3",
-      "source": "local",
-      "offset_s": 0,
-      "duration_s": 0.65,
+      "duration_s": 0.26,
       "volume": 0.35
     }
   ],

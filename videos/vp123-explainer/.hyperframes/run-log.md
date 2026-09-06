@@ -759,3 +759,8 @@ profile explainer-fast: 0 FAIL
 ### verify-ci-parity
 [object Object]
   - **problems:** []
+
+### Step 6 — re-render with the real SFX kit (CI run 34012623128, success)
+- whooshes: 03 whoosh-fast, 08 whoosh-sweep, 10 whoosh-hit (peak boundary), 12 whoosh-air — pivots first, 1-in-3 density, real recordings (Mixkit/Kenney)
+- CI style gate now runs in the project dir: pre-normalize -18.7 LUFS / 0 dBTP → normalized to the profile target
+- delivered: ~/Downloads/vp123-explainer-fast-v2.mp4

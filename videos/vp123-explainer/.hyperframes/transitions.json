@@ -29,16 +29,16 @@
   "sfxCues": [
     null,
     null,
-    null,
-    "whoosh-short",
-    null,
+    "whoosh-fast",
     null,
     null,
-    "whoosh-short",
     null,
-    "whoosh-short",
     null,
-    "whoosh-short",
+    "whoosh-sweep",
+    null,
+    "whoosh-hit",
+    null,
+    "whoosh-air",
     null
   ]
 }

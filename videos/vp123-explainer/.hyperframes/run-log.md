@@ -674,3 +674,88 @@ Tier 0-2: 0/4 passed, 4 escalated
 - two craft fixes from the spot-check, applied to the skill for future runs: (1) explainer overlays now EXIT at an internal cutaway/freeze cut (the 300,000 counter had persisted over the cutaway); (2) keyword-flash placed centre when karaoke captions occupy lower-centre
 - CI style-gate step ran in the wrong directory on push events → fixed in render.yml (79bfc6b)
 - credits to publish: "Backbay Lounge" Kevin MacLeod (incompetech.com), CC BY 4.0 (see .hyperframes/credits.txt) + Pexels clips (no attribution required, listed in .media/broll/CREDITS.json)
+
+### Step 5 — pick-transitions
+Picked transition sequence for 13 beat(s)
+  - **style:** mixed
+  - **intensity:** moderate
+  - **sfx cues:** off
+  - **pool:** hard-cut 0s, crossfade 0.3s, paper-tear 0.35s, light-leak-flash 0.5s, whip-pan, zoom-through 1s
+  - **sequence:** cut, hard-cut 0s, hard-cut 0s, hard-cut 0s, hard-cut 0s, crossfade 0.3s, hard-cut 0s, hard-cut 0s, hard-cut 0s, hard-cut 0s, hard-cut 0s, hard-cut 0s, hard-cut 0s
+
+### Step 5 — plan-sfx
+profile explainer-fast: 6 SFX cues planned
+  - **profile:** explainer-fast
+  - **frames:** 13
+  - **transition_cue_share:** 0.33
+  - **mid_shot_cues_per_min:** 2.79
+  - **target:** [1.5,3.5]
+  - **dropped_for_density:** 4
+  - **cues_by_name:** {"whoosh-hit":3,"tick-burst":1,"whoosh-sweep":1,"pop":1}
+
+### Step 5 — pick-transitions
+Picked transition sequence for 13 beat(s)
+  - **style:** mixed
+  - **intensity:** moderate
+  - **sfx cues:** off
+  - **pool:** hard-cut 0s, crossfade 0.3s, paper-tear 0.35s, light-leak-flash 0.5s, whip-pan, zoom-through 1s
+  - **sequence:** cut, hard-cut 0s, hard-cut 0s, hard-cut 0s, hard-cut 0s, crossfade 0.3s, hard-cut 0s, hard-cut 0s, hard-cut 0s, hard-cut 0s, hard-cut 0s, hard-cut 0s, hard-cut 0s
+
+### Step 5 — plan-sfx
+profile explainer-fast: 6 SFX cues planned
+  - **profile:** explainer-fast
+  - **frames:** 13
+  - **transition_cue_share:** 0.33
+  - **mid_shot_cues_per_min:** 2.79
+  - **target:** [1.5,3.5]
+  - **dropped_for_density:** 4
+  - **cues_by_name:** {"whoosh-fast":1,"tick-burst":1,"whoosh-sweep":1,"whoosh-hit":1,"pop":1,"whoosh-air":1}
+
+### Step 6 — slice-narration
+13 beat(s) sliced (reference-only, no re-encode)
+  - **narration:** assets/audio/narration.m4a
+  - **audio-meta:** ./audio_meta.json
+
+### Step 6 — plan-bgm
+bed "Backbay Lounge" at -26 dB under narration
+  - **track:** backbay-lounge
+  - **bpm:** 117
+  - **narration LUFS:** -18.7
+  - **bed target LUFS:** -44.7
+  - **gap lift dB:** 2.5
+  - **credits:** .hyperframes/credits.txt
+
+### Step 6 — set-sfx-offsets
+6 cue(s) patched, 0 left at default
+  - **patched (offset/volume set from editorial pass):** 6
+  - **left at fetch-sfx default (offset 0 / volume 0.35):** none
+
+### Step 6 — heal-media-start
+13 patched, 0 already correct, 0 had no mediaStart on record
+  - **patched frame ids:** 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13
+  - **note:** assemble-index.mjs's own fix was missing this run — self-heal applied
+
+### verify-style
+profile explainer-fast: 0 FAIL
+  - **cuts (beats) per minute:** PASS 18.13 (target 12–19)
+  - **visual changes per minute:** PASS 23.70 (target 12–25)
+  - **median shot length:** PASS 2.31 (target 2–4s)
+  - **p90 shot length:** PASS 4.20 (target 4–8s)
+  - **longest gap without a change:** PASS 4.33 (target 0–9.1s)
+  - **dissolve share of boundaries:** PASS 0.08 (target 0.039999999999999994–0.15)
+  - **dissolve duration (median):** PASS 0.30 (target 0.18–0.48s)
+  - **accent transition share:** PASS 0.00 (target 0–0.06)
+  - **transition SFX share of cuts:** PASS 0.33 (target 0.23–0.45)
+  - **mid-shot SFX per minute:** PASS 2.79 (target 1.5–3.5)
+  - **overlays per minute:** PASS 5.58 (target 2–6)
+  - **overlay enter-at (median):** PASS 1.40 (target 1–1.8s)
+  - **punch-in share of shots:** PASS 0.15 (target 0.09000000000000001–0.2)
+  - **music bed present:** PASS 1.00 (target 1–1)
+  - **vignette share of beats:** PASS 0.23 (target 0.15–0.35)
+  - **first cut at:** PASS 2.87 (target 0–5s)
+  - **first overlay at:** PASS 6.65 (target 0–8s)
+  - **first SFX-on-cut at:** PASS 5.35 (target 0–12s)
+
+### verify-ci-parity
+[object Object]
+  - **problems:** []

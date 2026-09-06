@@ -23,6 +23,7 @@
 - transition_in: hard-cut 0s
 - status: outline
 - src: compositions/frames/03-beat.html
+- sfx: whoosh-fast
 
 ## Frame 04 — sunset time-lapse fading to dark
 - scene: Video: sunset time-lapse fading to dark
@@ -31,7 +32,6 @@
 - transition_in: hard-cut 0s
 - status: outline
 - src: compositions/frames/04-beat.html
-- sfx: whoosh-short
 
 ## Frame 05 — monochrome hand reaching out of darkness
 - scene: Photo: monochrome hand reaching out of darkness | overlay: key-phrase
@@ -65,7 +65,7 @@
 - transition_in: hard-cut 0s
 - status: outline
 - src: compositions/frames/08-beat.html
-- sfx: whoosh-short
+- sfx: whoosh-sweep
 
 ## Frame 09 — starry night sky time-lapse
 - scene: Video: starry night sky time-lapse
@@ -82,7 +82,7 @@
 - transition_in: hard-cut 0s
 - status: outline
 - src: compositions/frames/10-beat.html
-- sfx: whoosh-short
+- sfx: whoosh-hit
 
 ## Frame 11 — man and woman by a campfire
 - scene: Video: man and woman by a campfire | cutaway at 3.6s (family around a campfire) | overlay: keyword-flash
@@ -100,7 +100,7 @@
 - transition_in: hard-cut 0s
 - status: outline
 - src: compositions/frames/12-beat.html
-- sfx: whoosh-short
+- sfx: whoosh-air
 
 ## Frame 13 — aerial of an ancient excavation mound
 - scene: Video: aerial of an ancient excavation mound

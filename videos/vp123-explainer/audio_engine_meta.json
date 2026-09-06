@@ -13,12 +13,12 @@
   "voices": [],
   "sfx": [
     {
-      "id": "04",
-      "name": "whoosh-short",
-      "file": "assets/sfx/whoosh-short.mp3",
+      "id": "03",
+      "name": "whoosh-fast",
+      "file": "assets/sfx/whoosh-fast.mp3",
       "source": "local",
       "offset_s": 0,
-      "duration_s": 0.57,
+      "duration_s": 0.71,
       "volume": 0.35
     },
     {
@@ -32,20 +32,20 @@
     },
     {
       "id": "08",
-      "name": "whoosh-short",
-      "file": "assets/sfx/whoosh-short.mp3",
+      "name": "whoosh-sweep",
+      "file": "assets/sfx/whoosh-sweep.mp3",
       "source": "local",
       "offset_s": 0,
-      "duration_s": 0.57,
+      "duration_s": 0.65,
       "volume": 0.35
     },
     {
       "id": "10",
-      "name": "whoosh-short",
-      "file": "assets/sfx/whoosh-short.mp3",
+      "name": "whoosh-hit",
+      "file": "assets/sfx/whoosh-hit.mp3",
       "source": "local",
       "offset_s": 0,
-      "duration_s": 0.57,
+      "duration_s": 1.4,
       "volume": 0.35
     },
     {
@@ -54,16 +54,16 @@
       "file": "assets/sfx/pop.mp3",
       "source": "local",
       "offset_s": 0,
-      "duration_s": 0.72,
+      "duration_s": 0.26,
       "volume": 0.35
     },
     {
       "id": "12",
-      "name": "whoosh-short",
-      "file": "assets/sfx/whoosh-short.mp3",
+      "name": "whoosh-air",
+      "file": "assets/sfx/whoosh-air.mp3",
       "source": "local",
       "offset_s": 0,
-      "duration_s": 0.57,
+      "duration_s": 1.49,
       "volume": 0.35
     }
   ],

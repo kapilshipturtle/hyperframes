@@ -1,8 +1,8 @@
 {
- "4": {
-  "whoosh-short": {
+ "3": {
+  "whoosh-fast": {
    "offset_s": 0,
-   "volume": 0.45,
+   "volume": 0.42,
    "stem": "transition"
   }
  },
@@ -14,16 +14,16 @@
   }
  },
  "8": {
-  "whoosh-short": {
+  "whoosh-sweep": {
    "offset_s": 0,
-   "volume": 0.45,
+   "volume": 0.38,
    "stem": "transition"
   }
  },
  "10": {
-  "whoosh-short": {
+  "whoosh-hit": {
    "offset_s": 0,
-   "volume": 0.45,
+   "volume": 0.3,
    "stem": "transition"
   }
  },
@@ -35,9 +35,9 @@
   }
  },
  "12": {
-  "whoosh-short": {
+  "whoosh-air": {
    "offset_s": 0,
-   "volume": 0.45,
+   "volume": 0.4,
    "stem": "transition"
   }
  }

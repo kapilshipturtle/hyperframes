@@ -1,9 +1,9 @@
 {
   "lines": [
     {
-      "id": "04",
+      "id": "03",
       "sfx": [
-        "whoosh-short"
+        "whoosh-fast"
       ]
     },
     {
@@ -15,13 +15,13 @@
     {
       "id": "08",
       "sfx": [
-        "whoosh-short"
+        "whoosh-sweep"
       ]
     },
     {
       "id": "10",
       "sfx": [
-        "whoosh-short"
+        "whoosh-hit"
       ]
     },
     {
@@ -33,7 +33,7 @@
     {
       "id": "12",
       "sfx": [
-        "whoosh-short"
+        "whoosh-air"
       ]
     }
   ],

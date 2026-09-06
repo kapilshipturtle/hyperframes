@@ -70,7 +70,8 @@
         },
         "backing": "shadow",
         "words_max": 8,
-        "captions": "ask"
+        "captions": "ask",
+        "captions_suggestion": "none (CheapFix/Eli/Hidden show no burned-in captions)"
       },
       "sfx": {
         "mid_shot_per_min": [
@@ -192,7 +193,8 @@
         },
         "backing": "shadow",
         "words_max": 2,
-        "captions": "karaoke-pill"
+        "captions": "ask",
+        "captions_suggestion": "karaoke-pill (Sidney style: 37% of on-screen text is word-by-word captions)"
       },
       "sfx": {
         "mid_shot_per_min": [
@@ -207,14 +209,14 @@
           "value-delta": "ding",
           "number-counter": "tick-burst",
           "list-reveal": "click",
-          "list-numeral": "click",
+          "list-numeral": "typewriter",
           "price-callout": "cash",
           "giant-price": "cash",
           "label-pointer": "click",
           "arrow-callout": "click",
           "highlight-box": "click",
           "circle-highlight": "click",
-          "solid-box-label": "pop",
+          "solid-box-label": "thud-soft",
           "lower-third": "pop",
           "chapter-title": "whoosh-short",
           "icon-accent": "pop",
@@ -222,7 +224,10 @@
           "map-locate": "pop",
           "year-stamp": "shutter",
           "punch-in": "click-soft",
-          "freeze": "shutter"
+          "freeze": "shutter",
+          "subscribe-cta": "pop-soft",
+          "toggle": "switch",
+          "comparison-grid": "select"
         }
       },
       "music": {
@@ -336,7 +341,8 @@
         },
         "backing": "shadow",
         "words_max": 3,
-        "captions": "karaoke-pill"
+        "captions": "ask",
+        "captions_suggestion": "karaoke-pill (Sidney style: 37% of on-screen text is word-by-word captions)"
       },
       "sfx": {
         "mid_shot_per_min": [
@@ -351,14 +357,14 @@
           "value-delta": "ding",
           "number-counter": "tick-burst",
           "list-reveal": "click",
-          "list-numeral": "ding",
+          "list-numeral": "typewriter",
           "price-callout": "cash",
           "giant-price": "cash",
           "label-pointer": "click",
           "arrow-callout": "click",
           "highlight-box": "click",
           "circle-highlight": "click",
-          "solid-box-label": "pop",
+          "solid-box-label": "thud-soft",
           "lower-third": "pop",
           "chapter-title": "whoosh-short",
           "icon-accent": "pop",
@@ -366,7 +372,10 @@
           "map-locate": "pop",
           "year-stamp": "shutter",
           "punch-in": "click-soft",
-          "freeze": "shutter"
+          "freeze": "shutter",
+          "subscribe-cta": "pop-soft",
+          "toggle": "switch",
+          "comparison-grid": "select"
         }
       },
       "music": {
@@ -484,7 +493,8 @@
         },
         "backing": "solid-box",
         "words_max": 3,
-        "captions": "none"
+        "captions": "ask",
+        "captions_suggestion": "none (CheapFix/Eli/Hidden show no burned-in captions)"
       },
       "sfx": {
         "mid_shot_per_min": [
@@ -506,7 +516,7 @@
           "arrow-callout": "click",
           "highlight-box": "click",
           "circle-highlight": "click",
-          "solid-box-label": "pop",
+          "solid-box-label": "thud-soft",
           "lower-third": "pop",
           "chapter-title": "whoosh-short",
           "icon-accent": "pop",
@@ -516,7 +526,10 @@
           "punch-in": "click-soft",
           "freeze": "shutter",
           "chart-overlay": "ding",
-          "line-chart-reveal": "ding"
+          "line-chart-reveal": "ding",
+          "subscribe-cta": "pop-soft",
+          "toggle": "switch",
+          "comparison-grid": "select"
         }
       },
       "music": {
@@ -633,7 +646,8 @@
         },
         "backing": "solid-box",
         "words_max": 3,
-        "captions": "none"
+        "captions": "ask",
+        "captions_suggestion": "none (CheapFix/Eli/Hidden show no burned-in captions)"
       },
       "sfx": {
         "mid_shot_per_min": [
@@ -655,7 +669,7 @@
           "arrow-callout": "click",
           "highlight-box": "click",
           "circle-highlight": "click",
-          "solid-box-label": "pop",
+          "solid-box-label": "thud-soft",
           "lower-third": "pop",
           "chapter-title": "whoosh-short",
           "icon-accent": "pop",
@@ -668,7 +682,10 @@
           "chart-overlay": "ding",
           "line-chart-reveal": "ding",
           "callout-leader": "click",
-          "annotation-draw": "click"
+          "annotation-draw": "click",
+          "subscribe-cta": "pop-soft",
+          "toggle": "switch",
+          "comparison-grid": "select"
         }
       },
       "music": {
@@ -739,6 +756,18 @@
     "paper-tear": 0.3,
     "typewriter": 0.09,
     "thud-soft": 0.18,
-    "swell": 0.14
+    "swell": 0.14,
+    "whoosh-fast": 0.42,
+    "whoosh-air": 0.4,
+    "whoosh-sweep": 0.38,
+    "whoosh-explainer": 0.4,
+    "whoosh-hit": 0.3,
+    "swoosh-wind": 0.3,
+    "pop-soft": 0.07,
+    "switch": 0.1,
+    "select": 0.08,
+    "toggle": 0.09,
+    "paper-slide": 0.22,
+    "glitch-soft": 0.25
   }
 }

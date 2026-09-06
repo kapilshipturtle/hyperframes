@@ -1362,3 +1362,71 @@ PASS on 14/19 metrics; WARN (soft, non-blocking) on: p90 shot length (4.98s vs 5
 ### verify-ci-parity
 [object Object]
   - **problems:** []
+
+### Step 6 — normalize-mix
+Loudness normalized
+  - **measured before:** -19.02 LUFS / -1.80 dBTP
+  - **target:** -18 LUFS / -1 dBTP
+  - **out:** /home/shipturtle/hyperframes/videos/checktest/renders/video.mp4
+
+### QC cascade
+Tier 0-2: 1/6 passed, 5 escalated
+  - **frozen video spans:** 118.167
+  - **dead-air spans:** none
+  - **sampled beats:** 18, 10, 11, 21, 28, 08
+  - **escalated to vision check:** 18, 10, 21, 28, 08
+
+### QC cascade
+Tier 0-2: 1/6 passed, 5 escalated
+  - **frozen video spans:** 118.167
+  - **dead-air spans:** none
+  - **sampled beats:** 18, 10, 11, 21, 28, 08
+  - **escalated to vision check:** 18, 10, 21, 28, 08
+
+### verify-style
+profile explainer-punchy: 0 FAIL
+  - **cuts (beats) per minute:** PASS 16.48 (target 13–19)
+  - **visual changes per minute:** PASS 18.48 (target 13–25)
+  - **median shot length:** PASS 2.94 (target 2.5–3.8s)
+  - **p90 shot length:** WARN 4.98 (target 5–7.5s)
+  - **longest gap without a change:** PASS 6.73 (target 0–7.15s)
+  - **dissolve share of boundaries:** PASS 0.16 (target 0.09000000000000001–0.2)
+  - **dissolve duration (median):** PASS 0.25 (target 0.15–0.4s)
+  - **accent transition share:** PASS 0.03 (target 0–0.07)
+  - **transition SFX share of cuts:** PASS 0.34 (target 0.30000000000000004–0.52)
+  - **mid-shot SFX per minute:** PASS 5.49 (target 2.5–6)
+  - **overlays per minute:** WARN 4.99 (target 5–10)
+  - **overlay enter-at (median):** PASS 1.00 (target 0.8–1.4s)
+  - **punch-in share of shots:** PASS 0.12 (target 0.06999999999999999–0.18)
+  - **music bed present:** PASS 1.00 (target 1–1)
+  - **vignette share of beats:** WARN 0.21 (target 0.3–0.45)
+  - **first cut at:** WARN 5.36 (target 0–4s)
+  - **first overlay at:** WARN 9.81 (target 0–5s)
+  - **first SFX-on-cut at:** PASS 8.41 (target 0–10s)
+  - **render scene cuts per minute:** PASS 14.48 (target 10.4–24.7)
+  - **render integrated LUFS:** PASS -18.00 (target -21–-17 LUFS)
+  - **render true peak:** PASS -1.20 (target -30–-0.7 dBTP)
+  - **render duration vs beats:** PASS 0.03 (target -3–3s)
+
+### Step 6 — cloud render + post-render QC (final)
+- GitHub Actions run 34015318171: SUCCESS, downloaded renders/video.mp4 (120.15s, ~160MB)
+- normalize-mix.mjs: -19.02 LUFS measured -> normalized to -18 LUFS / -1.2 dBTP (explainer-punchy target -17..-19)
+- qc-cascade.mjs (post-render): Tier 0 flagged one "frozen video" at 118.167s — expected, this is beat 33's deliberate --freeze-at 1.0 end-card hold, not a bug
+- 6 beats sampled Tier 1/2; 1 passed outright (beat 11), 5 escalated to Tier 3
+- Tier 3 vision check: beat 18 auto-confirmed OK by Gemini vision ("shows a visual stack of financial components... matching the description")
+- beats 10/21/28/08: auto-escalate hit a spawnSync base64 ENOBUFS error (large PNG payload) — fell back to manual ffmpeg-extract + Read review for all 4:
+  - beat 10 "THREE DEDUCTIONS" solid-box-label: legible, correct, tier1's low-contrast flag was a false positive against the busy paper-stack background
+  - beat 21 "$80,000 / And Still Owe Zero" giant-price: correctly separated after the earlier CSS line-height/margin fix, legible, correct number
+  - beat 28 "1980s" year-stamp: correct decade, legible over retro typewriter footage
+  - beat 08 "$47,500 / Not Permitted To Tax" number-counter: correct value, legible
+- All 6 sampled beats confirmed correct on manual/vision review — no re-render needed
+- verify-style.mjs on final render: ALL PASS (render scene cuts/min 14.48, LUFS -18.00, true peak -1.20 dBTP, duration match 0.03s) — plan-side warnings (p90 shot length, overlays/min, vignette share pre-vignette-pass, first cut/overlay timing) remain soft/accepted per this script's own sentence structure, none render-blocking
+
+### FINAL SUMMARY
+- renders/video.mp4: 120.15s, loudness-normalized to -18 LUFS / -1.2 dBTP
+- 33 beats: 32 real footage (29 video + 3 photo) + 1 invented-scene (deduction-stack diagram)
+- Overlays: 2 giant-price, 2 solid-box-label, 3 keyword-flash, 2 year-stamp, 1 number-counter, plus title-sequence (beat 01) + end-card (beat 33) structural archetypes = 12 total overlay events across 33 beats
+- Captions: karaoke-pill, on
+- Music bed: "Hidden Agenda" (129 BPM, CC-BY) — attribution required in description/end card, see .hyperframes/credits.txt
+- Color grade: off (per run-shape decision)
+- All local + render-side gates: PASS

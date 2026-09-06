@@ -1,0 +1,207 @@
+{
+  "tier0": {
+    "freezeStarts": [
+      118.167
+    ],
+    "silenceStarts": []
+  },
+  "sampled": [
+    {
+      "id": "18",
+      "reason": "invented-scene",
+      "timestamp": 61.8,
+      "tier1": {
+        "ocrText": "Building the Stack enior add-on ee TL $30,500 $2,000 $15,000",
+        "textMatch": null,
+        "placement": {
+          "expected": "",
+          "actual": "center",
+          "match": null
+        },
+        "contrastRatio": 4.33,
+        "contrastPass": false,
+        "confidence": "high",
+        "checksFailed": [
+          "low_contrast"
+        ],
+        "verdict": "fail"
+      },
+      "tier2": {
+        "similarities": [
+          0.943,
+          0.9399,
+          0.9272,
+          0.9295
+        ],
+        "meanChange": 0.0651,
+        "maxSingleJump": 0.0728,
+        "maxJumpAt": 2,
+        "verdict": "pass"
+      },
+      "verdict": "escalate"
+    },
+    {
+      "id": "10",
+      "reason": "archetype variety (solid-box-label)",
+      "timestamp": 34.51,
+      "tier1": {
+        "ocrText": "]",
+        "textMatch": false,
+        "placement": {
+          "expected": "",
+          "actual": "corner",
+          "match": null
+        },
+        "contrastRatio": 3.72,
+        "contrastPass": false,
+        "confidence": "high",
+        "checksFailed": [
+          "text_mismatch",
+          "low_contrast"
+        ],
+        "verdict": "fail"
+      },
+      "tier2": null,
+      "verdict": "escalate"
+    },
+    {
+      "id": "11",
+      "reason": "archetype variety (keyword-flash)",
+      "timestamp": 38.49,
+      "tier1": {
+        "ocrText": "Most people",
+        "textMatch": true,
+        "placement": {
+          "expected": "",
+          "actual": "corner",
+          "match": null
+        },
+        "contrastRatio": 16.13,
+        "contrastPass": true,
+        "confidence": "high",
+        "checksFailed": [],
+        "verdict": "pass"
+      },
+      "tier2": null,
+      "verdict": "pass"
+    },
+    {
+      "id": "21",
+      "reason": "archetype variety (giant-price)",
+      "timestamp": 76.46,
+      "tier1": {
+        "ocrText": "",
+        "textMatch": false,
+        "placement": {
+          "expected": "",
+          "actual": null,
+          "match": null
+        },
+        "contrastRatio": null,
+        "contrastPass": null,
+        "confidence": "low",
+        "checksFailed": [
+          "text_mismatch"
+        ],
+        "verdict": "escalate"
+      },
+      "tier2": null,
+      "verdict": "escalate"
+    },
+    {
+      "id": "28",
+      "reason": "archetype variety (year-stamp)",
+      "timestamp": 98.13,
+      "tier1": {
+        "ocrText": "ATL eae SS a.",
+        "textMatch": false,
+        "placement": {
+          "expected": "",
+          "actual": "corner",
+          "match": null
+        },
+        "contrastRatio": 4.95,
+        "contrastPass": true,
+        "confidence": "low",
+        "checksFailed": [
+          "text_mismatch"
+        ],
+        "verdict": "escalate"
+      },
+      "tier2": null,
+      "verdict": "escalate"
+    },
+    {
+      "id": "08",
+      "reason": "archetype variety (number-counter)",
+      "timestamp": 26.41,
+      "tier1": {
+        "ocrText": "",
+        "textMatch": false,
+        "placement": {
+          "expected": "",
+          "actual": null,
+          "match": null
+        },
+        "contrastRatio": null,
+        "contrastPass": null,
+        "confidence": "low",
+        "checksFailed": [
+          "text_mismatch"
+        ],
+        "verdict": "escalate"
+      },
+      "tier2": null,
+      "verdict": "escalate"
+    }
+  ],
+  "escalate": [
+    {
+      "id": "18",
+      "timestamp": 61.8,
+      "framePath": "/tmp/documentary-broll-qc/qc-18.png",
+      "why": "tier1 fail",
+      "autoVerdict": {
+        "match": true,
+        "reason": "The image shows a visual stack of financial components labeled with specific dollar amounts, matching the description of building a stack with real numbers."
+      }
+    },
+    {
+      "id": "10",
+      "timestamp": 34.51,
+      "framePath": "/tmp/documentary-broll-qc/qc-10.png",
+      "why": "tier1 fail",
+      "autoVerdict": {
+        "error": "spawnSync base64 ENOBUFS"
+      }
+    },
+    {
+      "id": "21",
+      "timestamp": 76.46,
+      "framePath": "/tmp/documentary-broll-qc/qc-21.png",
+      "why": "tier1 low-confidence",
+      "autoVerdict": {
+        "error": "spawnSync base64 ENOBUFS"
+      }
+    },
+    {
+      "id": "28",
+      "timestamp": 98.13,
+      "framePath": "/tmp/documentary-broll-qc/qc-28.png",
+      "why": "tier1 low-confidence",
+      "autoVerdict": {
+        "error": "spawnSync base64 ENOBUFS"
+      }
+    },
+    {
+      "id": "08",
+      "timestamp": 26.41,
+      "framePath": "/tmp/documentary-broll-qc/qc-08.png",
+      "why": "tier1 low-confidence",
+      "autoVerdict": {
+        "error": "spawnSync base64 ENOBUFS"
+      }
+    }
+  ],
+  "generatedFromVideo": "renders/video.mp4"
+}

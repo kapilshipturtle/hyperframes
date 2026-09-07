@@ -6,7 +6,7 @@
     "light-leak-flash 0.5s",
     "hard-cut 0s",
     "hard-cut 0s",
-    "zoom-through 1s",
+    "zoom-through 0.68s",
     "hard-cut 0s"
   ],
   "style": "explainer(explainer-punchy)",

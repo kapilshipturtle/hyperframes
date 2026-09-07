@@ -291,3 +291,11 @@ profile explainer-punchy: 6 SFX cues planned
   - **target:** [0,6]
   - **dropped_for_density:** 2
   - **cues_by_name:** {"whoosh-hit":1,"paper-slide":4,"whoosh-air":1}
+
+### Step 5 — pick-transitions
+Picked transition sequence for 8 beat(s)
+  - **style:** mixed-cuts
+  - **intensity:** moderate
+  - **sfx cues:** off
+  - **pool:** hard-cut 0s, crossfade 0.25s, light-leak-flash 0.5s, zoom-through 1s, whip-pan
+  - **sequence:** cut, hard-cut 0s, hard-cut 0s, light-leak-flash 0.5s, hard-cut 0s, hard-cut 0s, zoom-through 0.68s, hard-cut 0s

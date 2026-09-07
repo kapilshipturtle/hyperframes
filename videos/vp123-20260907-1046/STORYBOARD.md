@@ -70,7 +70,7 @@
 - sfx: whoosh-air, paper-slide
 - duration: 6.55s
 - status: built
-- transition: zoom-through 1s
+- transition: zoom-through 0.68s
 - look: grade cool, vignette 0.35
 - query: people sitting around campfire talking night
 - overlay: title-card at middle-right, fade entrance

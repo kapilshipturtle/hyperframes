@@ -133,7 +133,13 @@ check("accent transition share", accentShare, P ? [0, expectedAccent + 0.03] : n
 // bound is the profile's ceiling either way. Before this, opting in tripped a FAIL
 // against [0, 0.001] while the placement check right below it passed, giving two
 // contradictory verdicts for the same number.
-check("transition SFX share of cuts", transCues.length / Math.max(1, beats.length - 1), P ? (P.transitions.transition_sfx_optin || P.transitions.sfx_mode === "motivated-only" ? [0, P.transitions.sfx_max_share ?? 0.12] : P.transitions.transition_sfx === false ? [0, 0.001] : P.transitions.sfx_mode === "motivated" ? [0, (P.transitions.sfx_max_share || 0.15) + 0.05] : [(P.transitions.hard_cut_sfx_share || 0) - 0.1, (P.transitions.hard_cut_sfx_share || 0) + 0.12]) : null);
+// Small-N guard, same fix as plan-sfx.mjs's cue budget (ISS-0014): a SHARE is
+// meaningless on a short film. An 8-beat clip has 7 cuts, so a 12 % ceiling allows
+// 0.84 cues and two genuinely-motivated section-boundary accents read as 29 %.
+// Allow a 3-cue absolute floor before the share binds. plan-sfx already refuses to
+// write any cue that cannot name an editorial reason, so this is a density backstop.
+const sfxCeil = P ? Math.max(P.transitions.sfx_max_share ?? 0.12, 3 / Math.max(1, beats.length - 1)) : 0.12;
+check("transition SFX share of cuts", transCues.length / Math.max(1, beats.length - 1), P ? (P.transitions.transition_sfx_optin || P.transitions.sfx_mode === "motivated-only" ? [0, sfxCeil] : P.transitions.transition_sfx === false ? [0, 0.001] : P.transitions.sfx_mode === "motivated" ? [0, (P.transitions.sfx_max_share || 0.15) + 0.05] : [(P.transitions.hard_cut_sfx_share || 0) - 0.1, (P.transitions.hard_cut_sfx_share || 0) + 0.12]) : null);
 check("mid-shot SFX per minute", midCues.length / mins, P?.sfx.mid_shot_per_min);
 check("overlays per minute", ovPerMin, P?.overlays.density_per_min);
 check("overlay enter-at (median)", med(enterAts), P?.overlays.enter_at_s, { unit: "s" });

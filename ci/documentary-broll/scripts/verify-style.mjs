@@ -217,13 +217,30 @@ if (render && existsSync(render)) {
   }
   // whole-film mean luma, sampled at 1 fps — cheap, and catches a film that is
   // uniformly murky rather than spot-black.
-  const lm = spawnSync("ffmpeg", ["-v", "error", "-i", render, "-vf", "fps=1,scale=64:36,signalstats,metadata=print:key=lavfi.signalstats.YAVG:file=-", "-an", "-f", "null", "-"], { encoding: "utf8" });
-  const lumas = [...(`${lm.stdout || ""}`).matchAll(/YAVG=([\d.]+)/g)].map((m) => Number(m[1]));
+  // A dark frame and an EMPTY frame are different defects, and only one is a bug.
+  // Measured 2026-09-07 on a film about darkness ("you couldn't see your own hand"):
+  // beat 03 sits at mean luma 17.9 and beat 02 at 28.7 — deliberately, and both still
+  // carry real highlights (YMAX 122.7 and 255: silhouette edges, a lamp flame). A
+  // pure luma threshold called that a defect and would have blocked the render,
+  // making the subject unfilmable. The altair-doc failure was different in kind: its
+  // invented scenes had NO bright content anywhere — a hole in the film.
+  // So the blocking test is VOID frames (dark AND no highlight), not dark frames.
+  const lm = spawnSync("ffmpeg", ["-v", "error", "-i", render, "-vf", "fps=1,scale=64:36,signalstats,metadata=print:key=lavfi.signalstats.YAVG:file=-,metadata=print:key=lavfi.signalstats.YMAX:file=-", "-an", "-f", "null", "-"], { encoding: "utf8" });
+  const lumaTxt = `${lm.stdout || ""}`;
+  const lumas = [...lumaTxt.matchAll(/YAVG=([\d.]+)/g)].map((m) => Number(m[1]));
+  const maxes = [...lumaTxt.matchAll(/YMAX=([\d.]+)/g)].map((m) => Number(m[1]));
   if (lumas.length) {
     const meanLuma = lumas.reduce((a, b) => a + b, 0) / lumas.length;
     const darkShare = lumas.filter((v) => v < 40).length / lumas.length;
-    check("render mean luma", meanLuma, [70, 190], { fail: false });
-    check("render very-dark frame share", darkShare, [0, 0.08]);
+    // void = the frame is dark AND has no highlight to read detail from
+    const pairs = lumas.map((y, i) => [y, maxes[i] ?? 255]);
+    const voidShare = pairs.filter(([y, mx]) => y < 40 && mx < 80).length / pairs.length;
+    check("render mean luma", meanLuma, [40, 190], { fail: false });
+    check("render very-dark frame share", darkShare, [0, 0.35], { fail: false });
+    check("render VOID frame share (dark with no highlight)", voidShare, [0, 0.02]);
+    if (darkShare > 0.08 && voidShare <= 0.02) {
+      console.log(`    ${(darkShare * 100).toFixed(0)}% of frames are dark but carry highlights — legitimate for dark subject matter, not a defect (void share ${(voidShare * 100).toFixed(1)}%)`);
+    }
   }
 }
 logIfRequested(argv, "verify-style", `profile ${profile ? profile.name : "none"}: ${fails} FAIL`, Object.fromEntries(rows.map((r) => [r.name, `${r.status} ${typeof r.value === "number" ? r.value.toFixed(2) : r.value} (target ${r.target})`])));

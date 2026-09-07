@@ -1,0 +1,30 @@
+{
+ "4": {
+  "paper-tear": {
+   "offset_s": 0,
+   "volume": 0.3,
+   "stem": "transition"
+  }
+ },
+ "5": {
+  "paper-slide": {
+   "offset_s": 1,
+   "volume": 0.22,
+   "stem": "graphic-cue"
+  }
+ },
+ "6": {
+  "paper-slide": {
+   "offset_s": 1.13,
+   "volume": 0.22,
+   "stem": "graphic-cue"
+  }
+ },
+ "7": {
+  "whoosh-hit": {
+   "offset_s": 0,
+   "volume": 0.3,
+   "stem": "transition"
+  }
+ }
+}

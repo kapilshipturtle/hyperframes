@@ -1,0 +1,24 @@
+{
+ "01": {
+  "grade": "desaturate"
+ },
+ "02": {
+  "vignette": 0.25,
+  "gradeContrast": true
+ },
+ "03": {},
+ "04": {
+  "vignette": 0.25,
+  "grade": "cool"
+ },
+ "05": {
+  "gradeContrast": true
+ },
+ "06": {
+  "grade": "warm"
+ },
+ "07": {
+  "vignette": 0.25
+ },
+ "08": {}
+}

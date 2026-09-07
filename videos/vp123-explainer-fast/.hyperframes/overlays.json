@@ -1,0 +1,60 @@
+{
+ "01": {
+  "archetype": "none",
+  "enterAt": 1.63,
+  "reason": "cold open: the everyday act of flipping a switch — footage, no card"
+ },
+ "02": {
+  "archetype": "none",
+  "enterAt": 1.3,
+  "reason": "the film's first hard number and its whole premise"
+ },
+ "03": {
+  "archetype": "none",
+  "enterAt": 1.49,
+  "reason": "sensory description of total darkness — footage carries it"
+ },
+ "04": {
+  "archetype": "title-card",
+  "title": "300,000 years of dark",
+  "kicker": "Part 2",
+  "enterAt": 0.2,
+  "reason": "section start \"undefined\" — template section-start device",
+  "placement": "middle-center",
+  "entrance": "pop-scale"
+ },
+ "05": {
+  "archetype": "title-card",
+  "title": "No candles",
+  "kicker": "FOR MOST OF IT",
+  "enterAt": 1,
+  "reason": "thesis / pivot line",
+  "placement": "middle-left"
+ },
+ "06": {
+  "archetype": "info-card",
+  "title": "whatever black",
+  "bullets": [
+   "The black sky",
+   "The stars",
+   "Whatever fire they kept alive"
+  ],
+  "kicker": "",
+  "marker": "check",
+  "enterAt": 1.13,
+  "reason": "list of 3 items → info-card",
+  "placement": "middle-right"
+ },
+ "07": {
+  "archetype": "title-card",
+  "title": "So what did they do?",
+  "kicker": "Part 3",
+  "enterAt": 0.2,
+  "reason": "section start \"undefined\" — template section-start device",
+  "placement": "lower-center"
+ },
+ "08": {
+  "archetype": "none",
+  "reason": "dropped for density (definition-callout, template band 2-6/min)"
+ }
+}

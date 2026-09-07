@@ -1,0 +1,10 @@
+{
+ "01": { "signal": "scene-setting", "reason": "cold open: the everyday act of flipping a switch — footage, no card" },
+ "02": { "signal": "statistic", "text": "99.9%", "kicker": "OF HUMAN HISTORY", "reason": "the film's first hard number and its whole premise" },
+ "03": { "signal": "scene-setting", "reason": "sensory description of total darkness — footage carries it" },
+ "04": { "signal": "statistic", "text": "300,000", "kicker": "YEARS OF DARKNESS", "reason": "the span number; the longest beat, room for a count-up" },
+ "05": { "signal": "pivot-or-thesis", "text": "No candles", "kicker": "FOR MOST OF IT", "reason": "removes the obvious objection" },
+ "06": { "signal": "list", "bullets": ["The black sky", "The stars", "Whatever fire they kept alive"], "reason": "three named things — an explicit list in the narration" },
+ "07": { "signal": "pivot-or-thesis", "text": "So what did they do?", "reason": "the question the film exists to answer" },
+ "08": { "signal": "jargon", "term": "Fire", "text": "the reason any of this was possible", "reason": "names the next chapter's subject" }
+}

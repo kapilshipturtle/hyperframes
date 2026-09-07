@@ -57,7 +57,13 @@ const soft = argv.includes("--soft");
 // advisory; a black frame never is. Added 2026-09-07 after 21.3 s of black shipped
 // through a gate that was continue-on-error + --soft + `|| true`.
 const defectsOnly = argv.includes("--defects-only");
-const DEFECT_CHECKS = new Set(["render black-frame share", "render very-dark frame share"]);
+// Only genuine DEFECTS belong here — a check in this set hard-fails regardless of
+// its own `fail` flag. "render very-dark frame share" was in this set and kept
+// failing a film that is legitimately dark, even after the row itself was made
+// advisory: the output literally printed "not a defect (void share 0.0%)" and then
+// failed the run anyway. Darkness is a style choice; a VOID frame (dark AND no
+// highlight anywhere) and actual black video are the defects.
+const DEFECT_CHECKS = new Set(["render black-frame share", "render VOID frame share (dark with no highlight)"]);
 let defectFails = 0;
 
 const total = beats.reduce((a, b) => a + b.durationSeconds, 0); const mins = total / 60;

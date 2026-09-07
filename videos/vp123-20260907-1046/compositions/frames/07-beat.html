@@ -25,16 +25,16 @@
     /* per-shot colour grades (measured shares in the --grade comment above).
        Restrained on purpose: these must read as a colourist's pass, not a filter. */
     .broll-g-desaturate { filter: saturate(0.55) contrast(1.04); }
-    .broll-g-warm { filter: saturate(1.06) sepia(0.10) hue-rotate(-6deg) contrast(1.02); }
-    .broll-g-cool { filter: saturate(0.96) hue-rotate(8deg) brightness(1.01) contrast(1.03); }
+    .broll-g-warm { filter: saturate(1.08) sepia(0.14) contrast(1.02); }
+    .broll-g-cool { filter: saturate(0.92) grayscale(0.12) brightness(1.03) contrast(1.05); }
     .broll-g-contrast { filter: contrast(1.22) saturate(1.04); }
     /* high-contrast MODIFIER: composes with a base grade. Two filter
        declarations on one element do NOT add up (the later one wins), so each
        base+modifier pair is spelled out below with both functions merged. */
     .broll-g-hc { filter: contrast(1.18) saturate(1.02); }
     .broll-g-desaturate.broll-g-hc { filter: saturate(0.55) contrast(1.23); }
-    .broll-g-warm.broll-g-hc { filter: saturate(1.06) sepia(0.10) hue-rotate(-6deg) contrast(1.20); }
-    .broll-g-cool.broll-g-hc { filter: saturate(0.96) hue-rotate(8deg) brightness(1.01) contrast(1.21); }
+    .broll-g-warm.broll-g-hc { filter: saturate(1.08) sepia(0.14) contrast(1.20); }
+    .broll-g-cool.broll-g-hc { filter: saturate(0.92) grayscale(0.12) brightness(1.03) contrast(1.21); }
     .broll-g-contrast.broll-g-hc { filter: contrast(1.34) saturate(1.06); }
     .broll-bw.broll-g-hc { filter: grayscale(1) contrast(1.26); }
     /* comparison grid: 2-4 tiles with labels; a hairline gap, dark ground */

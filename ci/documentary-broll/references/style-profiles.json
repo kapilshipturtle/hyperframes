@@ -162,7 +162,11 @@
     "sfx_max_share": 0.12,
     "transition_sfx": false,
     "transition_sfx_optin": true,
-    "_sfx_placement_rule": "MOTIVATED ONLY. Measured 2026-09-07 on 3 channels: reference whooshes sit on 29-36% of cuts but NO measurable signal predicts which cuts -- they are NOT in speech pauses (14/18/13% pause vs 37/25/28% for silent cuts), NOT at section boundaries (43-51% isolated, gaps 2.4-45s), and next-shot duration/motion do not separate them. So we do NOT reproduce the share. A cue is attached only where an editorial reason exists in the plan: a section boundary, or a hard-cut into a beat that carries a graphic landing. Never a bare footage-to-footage cut."
+    "_sfx_placement_rule": "MOTIVATED ONLY. Measured 2026-09-07 on 3 channels: reference whooshes sit on 29-36% of cuts but NO measurable signal predicts which cuts -- they are NOT in speech pauses (14/18/13% pause vs 37/25/28% for silent cuts), NOT at section boundaries (43-51% isolated, gaps 2.4-45s), and next-shot duration/motion do not separate them. So we do NOT reproduce the share. A cue is attached only where an editorial reason exists in the plan: a section boundary, or a hard-cut into a beat that carries a graphic landing. Never a bare footage-to-footage cut.",
+    "flash_per_min": [
+     1.5,
+     3.0
+    ]
    },
    "punch": {
     "share_of_shots": 0.24,
@@ -187,7 +191,15 @@
     "photo_zoom_total_pct": [
      10,
      16
-    ]
+    ],
+    "static_max_share": 0.35,
+    "handheld_share": 0.08,
+    "kenburns_share": 0.09,
+    "synthetic_move_classes": [
+     "static",
+     "slow"
+    ],
+    "_source": "measured 2026-09-07: 809 shots / 3 channels / 67 min, every second"
    },
    "pillarbox_portrait": true,
    "overlays": {
@@ -237,7 +249,19 @@
      "lower-right": 0.042
     },
     "pop_scale_share": 0.233,
-    "_placement_source": "measured 2026-09-07: 3163 text events / 3 channels / 67 min; density_per_min intentionally unchanged (see ISS-0006)"
+    "_placement_source": "measured 2026-09-07: 3163 text events / 3 channels / 67 min; density_per_min intentionally unchanged (see ISS-0006)",
+    "text_frame_share": [
+     0.25,
+     0.45
+    ],
+    "text_life_s": [
+     1.2,
+     2.8
+    ],
+    "graphic_card_share": [
+     0.05,
+     0.1
+    ]
    },
    "sfx": {
     "mid_shot_per_min": [
@@ -354,6 +378,13 @@
     "pivot-or-thesis": "title-card",
     "archival": "bw+vignette",
     "portrait": "pillarbox"
+   },
+   "media": {
+    "photo_share": [
+     0.1,
+     0.18
+    ],
+    "_photo_note": "Photos are what produce the measured zoom-in-photo share (5-15% of reference shots): a still gets a Ken Burns move automatically, a video does not. A pool of 100% video makes that dimension unreachable no matter what motion flags are set. Aim this share when picking per-beat media in Step 3."
    }
   },
   "explainer-list": {
@@ -394,7 +425,11 @@
     "sfx_max_share": 0.12,
     "transition_sfx": false,
     "transition_sfx_optin": true,
-    "_sfx_placement_rule": "MOTIVATED ONLY. Measured 2026-09-07 on 3 channels: reference whooshes sit on 29-36% of cuts but NO measurable signal predicts which cuts -- they are NOT in speech pauses (14/18/13% pause vs 37/25/28% for silent cuts), NOT at section boundaries (43-51% isolated, gaps 2.4-45s), and next-shot duration/motion do not separate them. So we do NOT reproduce the share. A cue is attached only where an editorial reason exists in the plan: a section boundary, or a hard-cut into a beat that carries a graphic landing. Never a bare footage-to-footage cut."
+    "_sfx_placement_rule": "MOTIVATED ONLY. Measured 2026-09-07 on 3 channels: reference whooshes sit on 29-36% of cuts but NO measurable signal predicts which cuts -- they are NOT in speech pauses (14/18/13% pause vs 37/25/28% for silent cuts), NOT at section boundaries (43-51% isolated, gaps 2.4-45s), and next-shot duration/motion do not separate them. So we do NOT reproduce the share. A cue is attached only where an editorial reason exists in the plan: a section boundary, or a hard-cut into a beat that carries a graphic landing. Never a bare footage-to-footage cut.",
+    "flash_per_min": [
+     2.0,
+     3.5
+    ]
    },
    "punch": {
     "share_of_shots": 0.31,
@@ -412,14 +447,22 @@
    },
    "motion": {
     "moving_share": [
-     0.28,
-     0.5
+     0.65,
+     0.8
     ],
     "video_static_gets_motion": true,
     "photo_zoom_total_pct": [
      10,
      16
-    ]
+    ],
+    "static_max_share": 0.3,
+    "handheld_share": 0.09,
+    "kenburns_share": 0.08,
+    "synthetic_move_classes": [
+     "static",
+     "slow"
+    ],
+    "_source": "measured 2026-09-07: 809 shots / 3 channels / 67 min, every second"
    },
    "pillarbox_portrait": true,
    "overlays": {
@@ -469,7 +512,19 @@
      "lower-right": 0.042
     },
     "pop_scale_share": 0.233,
-    "_placement_source": "measured 2026-09-07: 3163 text events / 3 channels / 67 min; density_per_min intentionally unchanged (see ISS-0006)"
+    "_placement_source": "measured 2026-09-07: 3163 text events / 3 channels / 67 min; density_per_min intentionally unchanged (see ISS-0006)",
+    "text_frame_share": [
+     0.4,
+     0.55
+    ],
+    "text_life_s": [
+     1.0,
+     1.6
+    ],
+    "graphic_card_share": [
+     0.04,
+     0.07
+    ]
    },
    "sfx": {
     "mid_shot_per_min": [
@@ -585,6 +640,13 @@
     "pivot-or-thesis": "title-card",
     "archival": "bw+vignette",
     "portrait": "pillarbox"
+   },
+   "media": {
+    "photo_share": [
+     0.08,
+     0.16
+    ],
+    "_photo_note": "Photos are what produce the measured zoom-in-photo share (5-15% of reference shots): a still gets a Ken Burns move automatically, a video does not. A pool of 100% video makes that dimension unreachable no matter what motion flags are set. Aim this share when picking per-beat media in Step 3."
    }
   },
   "explainer-punchy": {
@@ -626,7 +688,11 @@
     "sfx_max_share": 0.12,
     "transition_sfx": false,
     "transition_sfx_optin": true,
-    "_sfx_placement_rule": "MOTIVATED ONLY. Measured 2026-09-07 on 3 channels: reference whooshes sit on 29-36% of cuts but NO measurable signal predicts which cuts -- they are NOT in speech pauses (14/18/13% pause vs 37/25/28% for silent cuts), NOT at section boundaries (43-51% isolated, gaps 2.4-45s), and next-shot duration/motion do not separate them. So we do NOT reproduce the share. A cue is attached only where an editorial reason exists in the plan: a section boundary, or a hard-cut into a beat that carries a graphic landing. Never a bare footage-to-footage cut."
+    "_sfx_placement_rule": "MOTIVATED ONLY. Measured 2026-09-07 on 3 channels: reference whooshes sit on 29-36% of cuts but NO measurable signal predicts which cuts -- they are NOT in speech pauses (14/18/13% pause vs 37/25/28% for silent cuts), NOT at section boundaries (43-51% isolated, gaps 2.4-45s), and next-shot duration/motion do not separate them. So we do NOT reproduce the share. A cue is attached only where an editorial reason exists in the plan: a section boundary, or a hard-cut into a beat that carries a graphic landing. Never a bare footage-to-footage cut.",
+    "flash_per_min": [
+     3.0,
+     5.5
+    ]
    },
    "punch": {
     "share_of_shots": 0.21,
@@ -651,7 +717,15 @@
     "photo_zoom_total_pct": [
      10,
      14
-    ]
+    ],
+    "static_max_share": 0.3,
+    "handheld_share": 0.08,
+    "kenburns_share": 0.15,
+    "synthetic_move_classes": [
+     "static",
+     "slow"
+    ],
+    "_source": "measured 2026-09-07: 809 shots / 3 channels / 67 min, every second"
    },
    "pillarbox_portrait": true,
    "overlays": {
@@ -704,7 +778,19 @@
      "lower-right": 0.042
     },
     "pop_scale_share": 0.233,
-    "_placement_source": "measured 2026-09-07: 3163 text events / 3 channels / 67 min; density_per_min intentionally unchanged (see ISS-0006)"
+    "_placement_source": "measured 2026-09-07: 3163 text events / 3 channels / 67 min; density_per_min intentionally unchanged (see ISS-0006)",
+    "text_frame_share": [
+     0.35,
+     0.5
+    ],
+    "text_life_s": [
+     1.2,
+     2.6
+    ],
+    "graphic_card_share": [
+     0.05,
+     0.11
+    ]
    },
    "sfx": {
     "mid_shot_per_min": [
@@ -822,6 +908,13 @@
     "pivot-or-thesis": "title-card",
     "archival": "bw+vignette",
     "portrait": "pillarbox"
+   },
+   "media": {
+    "photo_share": [
+     0.15,
+     0.25
+    ],
+    "_photo_note": "Photos are what produce the measured zoom-in-photo share (5-15% of reference shots): a still gets a Ken Burns move automatically, a video does not. A pool of 100% video makes that dimension unreachable no matter what motion flags are set. Aim this share when picking per-beat media in Step 3."
    }
   },
   "explainer-annotated": {
@@ -862,7 +955,11 @@
     "sfx_max_share": 0.12,
     "transition_sfx": false,
     "transition_sfx_optin": true,
-    "_sfx_placement_rule": "MOTIVATED ONLY. Measured 2026-09-07 on 3 channels: reference whooshes sit on 29-36% of cuts but NO measurable signal predicts which cuts -- they are NOT in speech pauses (14/18/13% pause vs 37/25/28% for silent cuts), NOT at section boundaries (43-51% isolated, gaps 2.4-45s), and next-shot duration/motion do not separate them. So we do NOT reproduce the share. A cue is attached only where an editorial reason exists in the plan: a section boundary, or a hard-cut into a beat that carries a graphic landing. Never a bare footage-to-footage cut."
+    "_sfx_placement_rule": "MOTIVATED ONLY. Measured 2026-09-07 on 3 channels: reference whooshes sit on 29-36% of cuts but NO measurable signal predicts which cuts -- they are NOT in speech pauses (14/18/13% pause vs 37/25/28% for silent cuts), NOT at section boundaries (43-51% isolated, gaps 2.4-45s), and next-shot duration/motion do not separate them. So we do NOT reproduce the share. A cue is attached only where an editorial reason exists in the plan: a section boundary, or a hard-cut into a beat that carries a graphic landing. Never a bare footage-to-footage cut.",
+    "flash_per_min": [
+     1.0,
+     2.0
+    ]
    },
    "punch": {
     "share_of_shots": 0.22,
@@ -880,14 +977,22 @@
    },
    "motion": {
     "moving_share": [
-     0.65,
-     0.8
+     0.5,
+     0.65
     ],
     "video_static_gets_motion": true,
     "photo_zoom_total_pct": [
      10,
      14
-    ]
+    ],
+    "static_max_share": 0.44,
+    "handheld_share": 0.08,
+    "kenburns_share": 0.05,
+    "synthetic_move_classes": [
+     "static",
+     "slow"
+    ],
+    "_source": "measured 2026-09-07: 809 shots / 3 channels / 67 min, every second"
    },
    "pillarbox_portrait": true,
    "overlays": {
@@ -940,7 +1045,19 @@
      "lower-right": 0.042
     },
     "pop_scale_share": 0.233,
-    "_placement_source": "measured 2026-09-07: 3163 text events / 3 channels / 67 min; density_per_min intentionally unchanged (see ISS-0006)"
+    "_placement_source": "measured 2026-09-07: 3163 text events / 3 channels / 67 min; density_per_min intentionally unchanged (see ISS-0006)",
+    "text_frame_share": [
+     0.2,
+     0.3
+    ],
+    "text_life_s": [
+     2.2,
+     3.0
+    ],
+    "graphic_card_share": [
+     0.05,
+     0.1
+    ]
    },
    "sfx": {
     "mid_shot_per_min": [
@@ -1060,6 +1177,13 @@
     "pivot-or-thesis": "title-card",
     "archival": "bw+vignette",
     "portrait": "pillarbox"
+   },
+   "media": {
+    "photo_share": [
+     0.05,
+     0.12
+    ],
+    "_photo_note": "Photos are what produce the measured zoom-in-photo share (5-15% of reference shots): a still gets a Ken Burns move automatically, a video does not. A pool of 100% video makes that dimension unreachable no matter what motion flags are set. Aim this share when picking per-beat media in Step 3."
    }
   }
  },

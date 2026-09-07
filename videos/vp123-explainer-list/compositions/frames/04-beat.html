@@ -128,7 +128,7 @@
       window.__timelines = window.__timelines || {};
       var tl = gsap.timeline({ paused: true });
       var wrap = document.getElementById("f-04-beat-wrap");
-      gsap.set(wrap, { scale: 1.0 });
+      tl.fromTo(wrap, { scale: 1.0 }, { scale: 1.05, duration: 9.14, ease: "none" }, 0);
       tl.to("#f-04-beat-media", { scale: 1.137, duration: 0.09, ease: "power3.out" }, 3.42);
       tl.to("#f-04-beat-media", { scale: 1.250, duration: 0.09, ease: "power3.out" }, 4.52);
       tl.to("#f-04-beat-ov-scrim", { opacity: 1, duration: 0.35 }, 0.20);

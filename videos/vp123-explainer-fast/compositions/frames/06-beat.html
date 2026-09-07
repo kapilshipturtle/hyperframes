@@ -132,7 +132,7 @@
       window.__timelines = window.__timelines || {};
       var tl = gsap.timeline({ paused: true });
       var wrap = document.getElementById("f-06-beat-wrap");
-      gsap.set(wrap, { scale: 1.0 });
+      tl.fromTo(wrap, { scale: 1.0 }, { scale: 1.05, duration: 3.77, ease: "none" }, 0);
       tl.to("#f-06-beat-ov-scrim", { opacity: 1, duration: 0.3 }, 1.13);
       tl.fromTo("#f-06-beat-ov", { opacity: 0, y: 40, scale: 0.96 }, { opacity: 1, y: 0, scale: 1, duration: 0.42, ease: "power3.out" }, 1.13);
       tl.fromTo("#f-06-beat-ov .ov-ic-rule", { scaleX: 0 }, { scaleX: 1, duration: 0.35, ease: "power2.out" }, 1.43);

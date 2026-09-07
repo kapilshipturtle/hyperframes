@@ -176,6 +176,53 @@ check("vignette share of beats", vignetteShare, P?.look.vignette_share, { fail: 
     const popShare = placed.length ? placed.filter((o) => o.entrance === "pop-scale").length / placed.length : 0;
     if (P.overlays.pop_scale_share != null) check("pop-scale entrance share", popShare, [Math.max(0, P.overlays.pop_scale_share - 0.10), P.overlays.pop_scale_share + 0.12], { fail: false });
   }
+  // 2b. MOTION: the share of beats that actually move. Measured 2026-09-07 — 56-73 %
+  //     of reference shots are moving and only 27-44 % static; our own first film
+  //     measured 62 % static / 38 % moving, the mirror image, because pickKenBurns
+  //     fired only on the literal probe class "static" while probe-motion labels most
+  //     stock clips "slow" (avgYdif 0.5-1.4 = drift you cannot see). The profile keys
+  //     motion.moving_share / static_max_share existed for months and NO script read
+  //     them — exactly how a measured dimension goes unimplemented in silence.
+  if (P?.motion?.moving_share) {
+    // a beat moves if its probe class earns a synthetic move, or its own footage moves
+    // Count a beat as moving only if the BUILT FRAME actually contains a wrap tween
+    // (a Ken Burns / push / drift). Probing the class alone is useless: an earlier
+    // version counted `classes.includes(cls) || cls === "active"`, which is every
+    // possible class, so it always returned 1.00 — a check that cannot fail.
+    const classes = P.motion.synthetic_move_classes || ["static", "slow"];
+    let moved = 0, probed = 0;
+    for (const b of beats) {
+      const fp = `compositions/frames/${b.id}-beat.html`;
+      if (!existsSync(fp)) continue;
+      probed++;
+      try {
+        const html = readFileSync(fp, "utf8");
+        const hasTween = /(?:gsap|tl)\.(?:to|fromTo)\(\s*wrap/.test(html);
+        // real camera motion in the source also counts toward the moving share
+        const mp = `.hyperframes/motion-${b.id}.json`;
+        let native = false;
+        if (existsSync(mp)) { try { native = JSON.parse(readFileSync(mp, "utf8")).class === "active"; } catch { /* ignore */ } }
+        if (hasTween || native) moved++;
+      } catch { /* ignore */ }
+    }
+    if (probed) {
+      check("moving-shot share", moved / probed, P.motion.moving_share, { fail: false });
+      if (probed < beats.length) console.log(`    only ${probed}/${beats.length} beats have a motion probe — run probe-motion.mjs per clip so pickKenBurns can move the still ones`);
+    } else {
+      console.log(`    ⚠ NO motion probes found (.hyperframes/motion-NN.json). Without them every video clip renders STATIC — this is what made a real film 62% static vs the 27-44% reference.`);
+    }
+  }
+  // 2c. MEDIA MIX: photos are what produce the measured zoom-in-photo share (5-15 %);
+  //     a 100 %-video pool makes that dimension unreachable whatever the motion flags say.
+  if (P?.media?.photo_share) {
+    let photos = 0, known = 0;
+    for (const b of beats) {
+      const bp = `.hyperframes/broll/beat-${b.id}.json`;
+      if (!existsSync(bp)) continue;
+      try { const c = JSON.parse(readFileSync(bp, "utf8")).chosen; if (c && c.mediaType) { known++; if (c.mediaType === "photo") photos++; } } catch { /* ignore */ }
+    }
+    if (known) check("photo share of beats", photos / known, P.media.photo_share, { fail: false });
+  }
   // 3. punch steps per punched shot — references average 2.05-2.38
   {
     const pv = Object.values(punches || {}).filter((x) => x && (x.at != null || x.steps));

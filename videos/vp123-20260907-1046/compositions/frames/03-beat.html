@@ -119,7 +119,7 @@
       window.__timelines = window.__timelines || {};
       var tl = gsap.timeline({ paused: true });
       var wrap = document.getElementById("f-03-beat-wrap");
-      gsap.set(wrap, { scale: 1.0 });
+      tl.fromTo(wrap, { scale: 1.0 }, { scale: 1.05, duration: 4.95, ease: "none" }, 0);
       window.__timelines["03-beat"] = tl;
     })();
   </script>

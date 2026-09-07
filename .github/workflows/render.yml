@@ -392,10 +392,19 @@ jobs:
           echo "All 3 render attempts failed"
           exit 1
 
-      # Informational style gate (profile additions): measures the finished
-      # render against the project's editing profile (.hyperframes/style-profile.json,
-      # written at the run-shape question). Never fails the job — the numbers
-      # land in the run log for the orchestrator to read.
+      # Style gate. Two halves, deliberately different in severity:
+      #
+      #  1. STYLE metrics (cuts/min, overlay density, dissolve share, LUFS...) stay
+      #     INFORMATIONAL — they are targets from a measured corpus, and a film that
+      #     sits slightly outside its profile is a judgement call, not a defect.
+      #
+      #  2. DEFECT metrics (black-frame share, very-dark frame share) HARD-FAIL.
+      #     Added 2026-09-07: a 193-beat film shipped 12 black spans / 21.3 s (2.8 %
+      #     of runtime) because its 9 invented scenes were built on a near-black
+      #     ground. Nothing could catch it — this step was continue-on-error +
+      #     --soft + `|| true` (three independent reasons it could never fail), and
+      #     qc-cascade.mjs, which names blackdetect in its docstring, is not invoked
+      #     by any workflow. Black video is never a style preference.
       - name: Style gate (informational)
         continue-on-error: true
         working-directory: ${{ matrix.project }}
@@ -404,6 +413,14 @@ jobs:
             --beats .hyperframes/beats.json --transitions .hyperframes/transitions.json --overlays .hyperframes/overlays.json \
             --sfx-offsets .hyperframes/sfx-offsets.json --punches .hyperframes/punches.json --audio-meta audio_meta.json \
             --storyboard STORYBOARD.md --log .hyperframes/run-log.md || true
+
+      # Defect gate (blocking): black / near-black video only. Runs the same script
+      # with --defects-only so style targets cannot fail the job, but a black frame can.
+      - name: Defect gate (black frames — blocking)
+        working-directory: ${{ matrix.project }}
+        run: |
+          node "$GITHUB_WORKSPACE/ci/documentary-broll/scripts/verify-style.mjs" --render renders/video.mp4 --defects-only \
+            --beats .hyperframes/beats.json --log .hyperframes/run-log.md
 
       - name: Normalize loudness
         # On workflow_dispatch, respect the explicit input. On push (no

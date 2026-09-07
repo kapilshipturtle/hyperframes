@@ -542,10 +542,37 @@ async function main() {
   const orientation = flag(argv, "orientation", "landscape");
   const exclude = (flag(argv, "exclude", "") || "").split(",").filter(Boolean);
   await openverseToken(); // no-op unless OPENVERSE_CLIENT_ID/SECRET are configured
+  // TRUNCATED-QUERY GUARD. A real 193-beat run searched for "air" instead of
+  // "air conditioner unit summer" for EVERY beat: the driver loop passed the
+  // queries through `xargs`/`set --`, which word-splits on spaces, so only the
+  // first word survived. Every beat still returned footage, so nothing failed —
+  // the film just looked generic. A single-word query is almost never what the
+  // query planner writes (references/matching.md asks for concrete visual
+  // phrases), so warn loudly; the caller can pass --allow-single-word for the
+  // rare genuine case ("Antarctica", "sunrise").
+  if (query && !argv.includes("--allow-single-word")) {
+    const words = query.trim().split(/\s+/).filter(Boolean);
+    if (words.length === 1 && query.trim().length < 24) {
+      console.warn(`⚠ fetch-clips: query is a single word ("${query}"). If you are driving this from a loop,`);
+      console.warn(`  check that the whole phrase is reaching --query — xargs/set-- word-splitting has silently`);
+      console.warn(`  truncated every query in a real run. Read ids in a loop and the phrase in node, never shell-split.`);
+      console.warn(`  Pass --allow-single-word to silence this when the query really is one word.`);
+    }
+  }
+
   const sources = (flag(argv, "sources", "pixabay,coverr") || "")
     .split(",")
     .map((s) => s.trim())
     .filter(Boolean);
+  // MULTI-PROVIDER REQUIREMENT. A one-provider pool makes a film look repetitive
+  // (the altair-doc run drew all 43 of its distinct sources from Pexels alone) and
+  // means one sick provider stalls every beat. Two or more sources also let the
+  // pacing ledger spread load instead of hammering one API.
+  if (sources.length < 2 && !argv.includes("--allow-single-source")) {
+    console.warn(`⚠ fetch-clips: only ONE source configured (${sources.join(",") || "none"}). A single-provider pool`);
+    console.warn(`  looks repetitive and stalls the whole film if that provider is slow. Prefer --sources pixabay,coverr`);
+    console.warn(`  (or add pexels/openverse). Pass --allow-single-source to silence this deliberately.`);
+  }
   const mediaTypes = (flag(argv, "media", "video,photo") || "")
     .split(",")
     .map((s) => s.trim())

@@ -43,10 +43,22 @@ const trans = rd(flag(argv, "transitions", ".hyperframes/transitions.json")) || 
 const overlays = rd(flag(argv, "overlays", ".hyperframes/overlays.json")) || {};
 const sfx = rd(flag(argv, "sfx-offsets", ".hyperframes/sfx-offsets.json")) || {};
 const punches = rd(flag(argv, "punches", ".hyperframes/punches.json")) || {};
+// frame-flags.json carries the per-shot grade / bw / vignette / gradeContrast decisions.
+// It was NOT loaded here before, which is exactly why a film could ship with zero
+// graded shots and still pass every check in this script.
+const flags = rd(flag(argv, "flags", ".hyperframes/frame-flags.json")) || {};
 const audioMeta = rd(flag(argv, "audio-meta", "audio_meta.json"));
 const sb = existsSync(flag(argv, "storyboard", "STORYBOARD.md")) ? readFileSync(flag(argv, "storyboard", "STORYBOARD.md"), "utf8") : "";
 const render = flag(argv, "render", null);
 const soft = argv.includes("--soft");
+// --defects-only: run ONLY the checks that represent an outright defect (black /
+// near-black video), and exit non-zero on any of them regardless of --soft. Style
+// targets (cuts/min, overlay density, LUFS...) are judgement calls and stay
+// advisory; a black frame never is. Added 2026-09-07 after 21.3 s of black shipped
+// through a gate that was continue-on-error + --soft + `|| true`.
+const defectsOnly = argv.includes("--defects-only");
+const DEFECT_CHECKS = new Set(["render black-frame share", "render very-dark frame share"]);
+let defectFails = 0;
 
 const total = beats.reduce((a, b) => a + b.durationSeconds, 0); const mins = total / 60;
 const med = (xs) => { const s = [...xs].sort((a, b) => a - b); return s.length ? s[Math.floor(s.length / 2)] : 0; };
@@ -93,8 +105,11 @@ const check = (name, value, range, { unit = "", fmt = (v) => (typeof v === "numb
     const [lo, hi] = range; const ok = value >= lo && value <= hi;
     const near = value >= lo * 0.85 && value <= hi * 1.15;
     status = ok ? "PASS" : near ? "WARN" : fail ? "FAIL" : "WARN";
-    if (status === "FAIL") fails++;
+    // A defect check is binary: outside the range is a FAIL, never softened to WARN.
+    if (DEFECT_CHECKS.has(name) && !ok) { status = "FAIL"; defectFails++; }
+    else if (status === "FAIL") fails++;
   }
+  if (defectsOnly && !DEFECT_CHECKS.has(name)) return;
   rows.push({ name, value, status, target: range ? `${range[0]}–${range[1]}${unit}` : "—" });
   console.log(`${status.padEnd(4)}  ${name.padEnd(38)} ${value == null ? "n/a" : fmt(value)}${unit}${range ? `   (target ${range[0]}–${range[1]}${unit})` : ""}`);
 };
@@ -113,13 +128,54 @@ check("dissolve duration (median)", dissolveDur, P?.transitions.dissolve_duratio
 const sectionsFile = existsSync(".hyperframes/sections.json") ? (JSON.parse(readFileSync(".hyperframes/sections.json", "utf8")).sections || []) : [];
 const expectedAccent = P ? Math.max(P.transitions.accent_share || 0, P.transitions.accents_at_section_boundaries ? Math.max(0, sectionsFile.length - 1) / Math.max(1, beats.length - 1) : 0) : 0;
 check("accent transition share", accentShare, P ? [0, expectedAccent + 0.03] : null);
-check("transition SFX share of cuts", transCues.length / Math.max(1, beats.length - 1), P ? (P.transitions.transition_sfx === false ? [0, 0.001] : P.transitions.sfx_mode === "motivated" ? [0, (P.transitions.sfx_max_share || 0.15) + 0.05] : [(P.transitions.hard_cut_sfx_share || 0) - 0.1, (P.transitions.hard_cut_sfx_share || 0) + 0.12]) : null);
+// transition_sfx:false means OFF BY DEFAULT + opt-in per run (transition_sfx_optin),
+// not "must always be zero" — a run that answered yes places motivated cues, so the
+// bound is the profile's ceiling either way. Before this, opting in tripped a FAIL
+// against [0, 0.001] while the placement check right below it passed, giving two
+// contradictory verdicts for the same number.
+check("transition SFX share of cuts", transCues.length / Math.max(1, beats.length - 1), P ? (P.transitions.transition_sfx_optin || P.transitions.sfx_mode === "motivated-only" ? [0, P.transitions.sfx_max_share ?? 0.12] : P.transitions.transition_sfx === false ? [0, 0.001] : P.transitions.sfx_mode === "motivated" ? [0, (P.transitions.sfx_max_share || 0.15) + 0.05] : [(P.transitions.hard_cut_sfx_share || 0) - 0.1, (P.transitions.hard_cut_sfx_share || 0) + 0.12]) : null);
 check("mid-shot SFX per minute", midCues.length / mins, P?.sfx.mid_shot_per_min);
 check("overlays per minute", ovPerMin, P?.overlays.density_per_min);
 check("overlay enter-at (median)", med(enterAts), P?.overlays.enter_at_s, { unit: "s" });
 check("punch-in share of shots", punchShare, P ? [Math.max(0, P.punch.share_of_shots - 0.05), P.punch.share_of_shots + 0.06] : null);
 check("music bed present", bedOn ? 1 : 0, P && P.music.enabled !== "ask" ? (P.music.enabled ? [1, 1] : [0, 0]) : null, { fmt: (v) => (v ? "yes" : "no") + (bedVol != null ? ` (vol ${bedVol})` : "") + (P && P.music.enabled === "ask" ? " (asked per run)" : "") });
 check("vignette share of beats", vignetteShare, P?.look.vignette_share, { fail: false });
+
+// --- PHASE 7 checks: the dimensions that let the 2026-09-06 regression ship ---
+// Each of these was invisible to this script before, which is why a film could sit
+// "inside the profile" while having 0 graded shots, every card in one position, and
+// half the punch density of the references.
+{
+  const flagVals = Object.values(flags || {});
+  const n = beats.length || 1;
+  // 1. grade share — measured 60/15/13/6.3/5.7 pooled; per-profile in look.grade_share
+  if (P?.look?.grade_share) {
+    const graded = flagVals.filter((f) => f && (f.grade || f.bw)).length;
+    const wantGraded = 1 - (P.look.grade_share.natural ?? 0.6);
+    check("graded shot share", graded / n, [Math.max(0, wantGraded - 0.10), Math.min(1, wantGraded + 0.10)]);
+    const hcShare = flagVals.filter((f) => f && f.gradeContrast).length / n;
+    if (P.look.high_contrast_share != null) check("high-contrast share", hcShare, [Math.max(0, P.look.high_contrast_share - 0.10), P.look.high_contrast_share + 0.10], { fail: false });
+  }
+  // 2. overlay placement spread — the middle row was entirely missing before
+  if (P?.overlays?.placement_share) {
+    const placed = Object.values(overlays).filter((o) => o && o.placement);
+    const distinct = new Set(placed.map((o) => o.placement)).size;
+    check("distinct overlay placements", distinct, [4, 9]);
+    const popShare = placed.length ? placed.filter((o) => o.entrance === "pop-scale").length / placed.length : 0;
+    if (P.overlays.pop_scale_share != null) check("pop-scale entrance share", popShare, [Math.max(0, P.overlays.pop_scale_share - 0.10), P.overlays.pop_scale_share + 0.12], { fail: false });
+  }
+  // 3. punch steps per punched shot — references average 2.05-2.38
+  {
+    const pv = Object.values(punches || {}).filter((x) => x && (x.at != null || x.steps));
+    if (pv.length) {
+      const steps = pv.reduce((a, x) => a + (Array.isArray(x.steps) ? x.steps.length : 1), 0);
+      check("punch steps per punched shot", steps / pv.length, [1.2, 2.6], { fail: false });
+    }
+  }
+  // 4. transition-SFX share is checked once, above (the ceiling applies whether the
+  //    run opted in or not). plan-sfx.mjs owns the stronger guarantee: it refuses to
+  //    write a cue that has no editorial reason, so this is a backstop, not the gate.
+}
 check("first cut at", beats[0]?.durationSeconds, P?.hook.first_cut_s ? [0, P.hook.first_cut_s] : null, { unit: "s", fail: false });
 check("first overlay at", firstOverlayAt, P?.hook.first_overlay_s ? [0, P.hook.first_overlay_s] : null, { unit: "s", fail: false });
 check("first SFX-on-cut at", firstSfxCutAt, P?.hook.first_sfx_cut_s ? [0, P.hook.first_sfx_cut_s] : null, { unit: "s", fail: false });
@@ -135,7 +191,43 @@ if (render && existsSync(render)) {
   check("render integrated LUFS", last("I"), P ? [P.mix.integrated_lufs - 2, P.mix.integrated_lufs + 2] : [-16, -12], { unit: " LUFS" });
   check("render true peak", last("Peak"), [-30, P ? P.mix.true_peak_dbtp + 0.3 : -0.7], { unit: " dBTP", fail: false });
   check("render duration vs beats", dur - total, [-3, 3], { unit: "s", fail: false });
+
+  // --- BLACK / BRIGHTNESS (added 2026-09-07 after 21.3 s of black shipped) ---
+  // A 193-beat film rendered 12 black spans (2.8 % of runtime) because its 9
+  // invented scenes were built on a near-black ground (mean luma 10-16/255) while
+  // its 184 footage beats sat at ~115. Nothing in the CI path could catch it:
+  // qc-cascade.mjs (which names blackdetect in its docstring) is never invoked by
+  // the workflows, and this script had no pixel-brightness check at all.
+  // Reference films measure 4.8 % near-black frames INCLUDING genuinely dark shots.
+  const bd = spawnSync("ffmpeg", ["-hide_banner", "-nostats", "-i", render, "-vf", "blackdetect=d=0.20:pix_th=0.10", "-an", "-f", "null", "-"], { encoding: "utf8" }).stderr || "";
+  const blackSpans = [...bd.matchAll(/black_start:\s*([\d.]+)\s+black_end:\s*([\d.]+)\s+black_duration:\s*([\d.]+)/g)]
+    .map((m) => ({ start: Number(m[1]), end: Number(m[2]), duration: Number(m[3]) }));
+  const blackSeconds = blackSpans.reduce((a, b) => a + b.duration, 0);
+  check("render black-frame share", dur > 0 ? blackSeconds / dur : 0, [0, 0.02]);
+  if (blackSpans.length) {
+    const worst = [...blackSpans].sort((a, b) => b.duration - a.duration).slice(0, 6);
+    console.log(`    black spans (${blackSpans.length}, ${blackSeconds.toFixed(1)}s total): ${worst.map((b) => `${b.start.toFixed(1)}-${b.end.toFixed(1)}s`).join(", ")}`);
+    console.log(`    → map each to its beat (cumulative beat durations); a dark invented scene or a frame with no media is the usual cause`);
+  }
+  // whole-film mean luma, sampled at 1 fps — cheap, and catches a film that is
+  // uniformly murky rather than spot-black.
+  const lm = spawnSync("ffmpeg", ["-v", "error", "-i", render, "-vf", "fps=1,scale=64:36,signalstats,metadata=print:key=lavfi.signalstats.YAVG:file=-", "-an", "-f", "null", "-"], { encoding: "utf8" });
+  const lumas = [...(`${lm.stdout || ""}`).matchAll(/YAVG=([\d.]+)/g)].map((m) => Number(m[1]));
+  if (lumas.length) {
+    const meanLuma = lumas.reduce((a, b) => a + b, 0) / lumas.length;
+    const darkShare = lumas.filter((v) => v < 40).length / lumas.length;
+    check("render mean luma", meanLuma, [70, 190], { fail: false });
+    check("render very-dark frame share", darkShare, [0, 0.08]);
+  }
 }
 logIfRequested(argv, "verify-style", `profile ${profile ? profile.name : "none"}: ${fails} FAIL`, Object.fromEntries(rows.map((r) => [r.name, `${r.status} ${typeof r.value === "number" ? r.value.toFixed(2) : r.value} (target ${r.target})`])));
+if (defectFails) {
+  console.error(`\n✗ verify-style: ${defectFails} DEFECT check(s) failed — black or near-black video in the render.`);
+  console.error(`  This is not a style target: black frames are always a bug. Usual cause is an invented scene built on a`);
+  console.error(`  dark ground (see sub-agents/invented-scene-worker.md "Palette") or a frame with no media element.`);
+  console.error(`  Map each black span to its beat with cumulative beat durations, fix that frame, then re-render.`);
+  process.exit(1);
+}
+if (defectsOnly) { console.log("✓ verify-style --defects-only: no black/near-black video defects"); process.exit(0); }
 if (fails && !soft && P) { console.error(`✗ verify-style: ${fails} metric(s) outside the ${P.name} profile — fix the plan (or pass --soft to warn only)`); process.exit(1); }
 console.log(fails ? `⚠ verify-style: ${fails} FAIL (soft mode)` : "✓ verify-style: all measured metrics inside the profile");

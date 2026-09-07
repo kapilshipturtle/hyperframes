@@ -1,0 +1,33 @@
+{
+  "transitions": [
+    "cut",
+    "hard-cut 0s",
+    "hard-cut 0s",
+    "light-leak-flash 0.5s",
+    "hard-cut 0s",
+    "hard-cut 0s",
+    "zoom-through 1s",
+    "hard-cut 0s"
+  ],
+  "style": "explainer(explainer-punchy)",
+  "intensity": "moderate",
+  "pool": [
+    "hard-cut 0s",
+    "crossfade 0.25s",
+    "light-leak-flash 0.5s",
+    "zoom-through 1s",
+    "whip-pan"
+  ],
+  "startIndex": 0,
+  "profile": "explainer-punchy",
+  "sfxCues": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ]
+}

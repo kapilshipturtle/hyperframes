@@ -1,962 +1,1110 @@
 {
-  "_comment": "Editing-style profiles measured 2026-09-05/06 from 25 top-viewed videos of four retention-explainer channels (@Sidney_Explains_Money x15, @TheCheapFix x3, @EliYoderSecrets x5, @HiddenHomesteadEN x2; ~5 h of footage, every cut/shot/text event/SFX measured, see scripts/style-analysis/). One profile is chosen at the run-shape question (scripts/suggest-style-profile.mjs proposes one); every other script reads its targets from here via scripts/lib/style-profile.mjs. `documentary` reproduces the skill's pre-profile behaviour exactly \u2014 a run that never picks a profile changes nothing. Ranges are [low, high] targets used by verify-style.mjs; single numbers are defaults the scripts apply. 2026-09-06 REVISION after the checktest review: profiles are TEMPLATES \u2014 plan-template.mjs assigns every beat's device mechanically from hook-signals; transition SFX are MOTIVATED only (section boundaries / pivot openers / accent transitions, never a quota); no glitch anywhere; music and captions are ASKED every run; accents only at section boundaries. 2026-09-06 (second review): transition whooshes are OFF on every template (transition_sfx:false) \u2014 the user judged every placement wrong; only graphic-landing cues remain.",
-  "profiles": {
-    "documentary": {
-      "label": "Documentary (original skill behaviour)",
-      "beats": {
-        "min_s": 3,
-        "max_s": 6.5,
-        "watchdog_s": null
-      },
-      "cuts": {
-        "true_cuts_per_min": [
-          6,
-          14
-        ],
-        "median_shot_s": [
-          3.5,
-          7
-        ],
-        "p90_shot_s": [
-          7,
-          14
-        ]
-      },
-      "transitions": {
-        "style": "mixed-cuts",
-        "dissolve_duration_s": null,
-        "dissolve_share": null,
-        "accent_share": 0,
-        "accents": [],
-        "hard_cut_sfx_share": 0,
-        "sfx_prefer_speech_pause": true,
-        "transition_sfx": false,
-        "sfx_max_share": 0
-      },
-      "punch": {
-        "share_of_shots": 0,
-        "scale": [
-          1.25,
-          1.45
-        ],
-        "sfx": null
-      },
-      "motion": {
-        "moving_share": [
-          0,
-          1
-        ],
-        "video_static_gets_motion": false,
-        "photo_zoom_total_pct": [
-          10,
-          16
-        ]
-      },
-      "pillarbox_portrait": false,
-      "overlays": {
-        "density_per_min": [
-          0.5,
-          4
-        ],
-        "enter_at_s": [
-          0.4,
-          0.8
-        ],
-        "exit": "own",
-        "entrance": "archetype-default",
-        "font": "bold-sans",
-        "case": "sentence",
-        "palette": {
-          "text": "#ffffff",
-          "accent": "#ffffff"
-        },
-        "backing": "shadow",
-        "words_max": 8,
-        "captions": "ask",
-        "captions_suggestion": "none (CheapFix/Eli/Hidden show no burned-in captions)"
-      },
-      "sfx": {
-        "mid_shot_per_min": [
-          0,
-          1
-        ],
-        "on_text_share": 0,
-        "map": {
-          "title-card": "paper-slide"
-        }
-      },
-      "music": {
-        "enabled": false,
-        "bed_db_under_voice": -22,
-        "bpm": [
-          80,
-          120
-        ],
-        "duck_db": 3,
-        "tags": [
-          "ambient",
-          "corporate",
-          "electronic"
-        ]
-      },
-      "ambience": {
-        "enabled": true
-      },
-      "mix": {
-        "integrated_lufs": -14,
-        "true_peak_dbtp": -1
-      },
-      "look": {
-        "vignette_share": [
-          0,
-          0.3
-        ],
-        "vignette_strength": 0.3,
-        "grain": "global-optional",
-        "bw_archival": false,
-        "color": "natural"
-      },
-      "hook": {
-        "first_cut_s": null,
-        "first_overlay_s": null,
-        "first_sfx_cut_s": null
-      }
+ "_comment": "Editing-style profiles measured 2026-09-05/06 from 25 top-viewed videos of four retention-explainer channels (@Sidney_Explains_Money x15, @TheCheapFix x3, @EliYoderSecrets x5, @HiddenHomesteadEN x2; ~5 h of footage, every cut/shot/text event/SFX measured, see scripts/style-analysis/). One profile is chosen at the run-shape question (scripts/suggest-style-profile.mjs proposes one); every other script reads its targets from here via scripts/lib/style-profile.mjs. `documentary` reproduces the skill's pre-profile behaviour exactly \u2014 a run that never picks a profile changes nothing. Ranges are [low, high] targets used by verify-style.mjs; single numbers are defaults the scripts apply. 2026-09-06 REVISION after the checktest review: profiles are TEMPLATES \u2014 plan-template.mjs assigns every beat's device mechanically from hook-signals; transition SFX are MOTIVATED only (section boundaries / pivot openers / accent transitions, never a quota); no glitch anywhere; music and captions are ASKED every run; accents only at section boundaries. 2026-09-06 (second review): transition whooshes are OFF on every template (transition_sfx:false) \u2014 the user judged every placement wrong; only graphic-landing cues remain.",
+ "profiles": {
+  "documentary": {
+   "label": "Documentary (original skill behaviour)",
+   "beats": {
+    "min_s": 3,
+    "max_s": 6.5,
+    "watchdog_s": null
+   },
+   "cuts": {
+    "true_cuts_per_min": [
+     6,
+     14
+    ],
+    "median_shot_s": [
+     3.5,
+     7
+    ],
+    "p90_shot_s": [
+     7,
+     14
+    ]
+   },
+   "transitions": {
+    "style": "mixed-cuts",
+    "dissolve_duration_s": null,
+    "dissolve_share": null,
+    "accent_share": 0,
+    "accents": [],
+    "hard_cut_sfx_share": 0,
+    "sfx_prefer_speech_pause": true,
+    "transition_sfx": false,
+    "sfx_max_share": 0
+   },
+   "punch": {
+    "share_of_shots": 0,
+    "scale": [
+     1.25,
+     1.45
+    ],
+    "sfx": null
+   },
+   "motion": {
+    "moving_share": [
+     0,
+     1
+    ],
+    "video_static_gets_motion": false,
+    "photo_zoom_total_pct": [
+     10,
+     16
+    ]
+   },
+   "pillarbox_portrait": false,
+   "overlays": {
+    "density_per_min": [
+     0.5,
+     4
+    ],
+    "enter_at_s": [
+     0.4,
+     0.8
+    ],
+    "exit": "own",
+    "entrance": "archetype-default",
+    "font": "bold-sans",
+    "case": "sentence",
+    "palette": {
+     "text": "#ffffff",
+     "accent": "#ffffff"
     },
-    "explainer-fast": {
-      "label": "Retention explainer, footage-driven (Sidney 6-9 min videos)",
-      "_measured": "15 videos: 13-19 true cuts/min, median shot 2-4 s, p90 ~7 s, 1.3-4.5 punch-ins/min (step 28%), 55-80% shots moving, dissolves 9% at 0.29 s, paper-tear/blur accents, whoosh on 31% of cuts (4/min), 2 mid-shot accents/min (ding 48%, click 30%), karaoke word-by-word captions 37% of text + pop-scale keywords (white, cyan accent, lower-center, shadow), 72% of overlays appear mid-shot ~1.8 s after the cut and exit on the cut, bed -26 dB at 74-129 BPM, mix -17 LUFS, 21% vertical UGC pillarboxed, natural colour, vignette on ~24% of frames",
-      "beats": {
-        "min_s": 1.6,
-        "max_s": 4.5,
-        "watchdog_s": 7
-      },
-      "cuts": {
-        "true_cuts_per_min": [
-          12,
-          19
-        ],
-        "median_shot_s": [
-          2.0,
-          4.0
-        ],
-        "p90_shot_s": [
-          4,
-          8
-        ]
-      },
-      "transitions": {
-        "style": "explainer",
-        "dissolve_duration_s": 0.3,
-        "dissolve_share": 0.09,
-        "accent_share": 0,
-        "accents": [
-          "paper-tear",
-          "light-leak-flash",
-          "whip-pan",
-          "zoom-through"
-        ],
-        "hard_cut_sfx_share": null,
-        "sfx_prefer_speech_pause": true,
-        "accents_at_section_boundaries": true,
-        "sfx_mode": "motivated",
-        "sfx_max_share": 0,
-        "transition_sfx": false
-      },
-      "punch": {
-        "share_of_shots": 0.14,
-        "scale": [
-          1.25,
-          1.35
-        ],
-        "sfx": "click-soft"
-      },
-      "motion": {
-        "moving_share": [
-          0.55,
-          0.8
-        ],
-        "video_static_gets_motion": true,
-        "photo_zoom_total_pct": [
-          10,
-          16
-        ]
-      },
-      "pillarbox_portrait": true,
-      "overlays": {
-        "density_per_min": [
-          2,
-          6
-        ],
-        "enter_at_s": [
-          1.0,
-          1.8
-        ],
-        "exit": "cut",
-        "entrance": "pop-scale",
-        "font": "bold-sans",
-        "case": "ALL-CAPS",
-        "palette": {
-          "text": "#ffffff",
-          "accent": "#5ee7ff"
-        },
-        "backing": "shadow",
-        "words_max": 2,
-        "captions": "ask",
-        "captions_suggestion": "karaoke-pill (Sidney style: 37% of on-screen text is word-by-word captions)",
-        "card": {
-          "font": "bold-sans",
-          "bodyFont": "regular",
-          "plate": "#111111",
-          "ink": "#ffffff",
-          "accent": "#ffd23f",
-          "accent2": "#5ee7ff",
-          "dim": 0.5
-        },
-        "captions_modes": [
-          "sentence-karaoke (full sentence on screen, spoken word highlighted)",
-          "word-pills (2-4 words, karaoke-pill)",
-          "none"
-        ]
-      },
-      "sfx": {
-        "mid_shot_per_min": [
-          0,
-          3.5
-        ],
-        "on_text_share": 0.6,
-        "map": {
-          "keyword-flash": "pop",
-          "key-phrase": "pop",
-          "stat-callout": "ding",
-          "value-delta": "ding",
-          "number-counter": "tick-burst",
-          "list-reveal": "click",
-          "list-numeral": "typewriter",
-          "price-callout": "cash",
-          "giant-price": "cash",
-          "label-pointer": "click",
-          "arrow-callout": "click",
-          "highlight-box": "click",
-          "circle-highlight": "click",
-          "solid-box-label": "thud-soft",
-          "lower-third": "pop",
-          "icon-accent": "pop",
-          "credibility-badge": "pop",
-          "map-locate": "pop",
-          "year-stamp": "shutter",
-          "subscribe-cta": "pop-soft",
-          "toggle": "switch",
-          "comparison-grid": "select",
-          "info-card": "paper-slide",
-          "side-panel": "paper-slide",
-          "number-badge": "ding",
-          "price-tag": "cash",
-          "title-card": "paper-slide",
-          "quote-card": "pop-soft",
-          "dual-panel": "paper-slide",
-          "punch-in": "click-soft"
-        }
-      },
-      "music": {
-        "enabled": "ask",
-        "bed_db_under_voice": -26,
-        "bpm": [
-          80,
-          125
-        ],
-        "duck_db": 2.5,
-        "tags": [
-          "ambient",
-          "corporate",
-          "electronic",
-          "lo-fi"
-        ],
-        "ask_text": "Music bed under the narration? The reference channels all have one (-26 dB under voice); off if you say no."
-      },
-      "ambience": {
-        "enabled": false
-      },
-      "mix": {
-        "integrated_lufs": -17,
-        "true_peak_dbtp": -1
-      },
-      "look": {
-        "vignette_share": [
-          0.15,
-          0.35
-        ],
-        "vignette_strength": 0.25,
-        "grain": "off",
-        "bw_archival": false,
-        "color": "natural"
-      },
-      "hook": {
-        "first_cut_s": 5,
-        "first_overlay_s": 8,
-        "first_sfx_cut_s": 12
-      },
-      "devices": {
-        "section-start": "title-card",
-        "number": "giant-price",
-        "headline-number": "giant-price",
-        "number-change": "number-counter",
-        "rate": "number-counter",
-        "list": "info-card",
-        "numbered-item": "list-numeral",
-        "quote": "key-phrase",
-        "keyword": "keyword-flash",
-        "question": "keyword-flash",
-        "warning-or-confirmation": "solid-box-label",
-        "visible-detail": "label-pointer",
-        "contrast": "side-panel",
-        "price": "price-tag",
-        "date-or-place": "year-stamp",
-        "citation": "source-tag",
-        "jargon": "definition-callout",
-        "new-topic": "solid-box-label",
-        "pivot-or-thesis": "title-card",
-        "archival": "bw+vignette",
-        "portrait": "pillarbox"
-      }
-    },
-    "explainer-list": {
-      "label": "Retention explainer, long list video (Sidney 17-23 min '10 crops\u2026')",
-      "_measured": "3 videos: 6.6-10 true cuts/min, median shot 5-7 s, p90 12-17 s, 0.2-0.5 punch/min, 28-33% shots moving, 5 overlays/min (list numerals + captions), whoosh on 45-49% of cuts, 3-3.5 mid-shot accents/min, bed -23 dB",
-      "beats": {
-        "min_s": 3,
-        "max_s": 7,
-        "watchdog_s": 10
-      },
-      "cuts": {
-        "true_cuts_per_min": [
-          6,
-          11
-        ],
-        "median_shot_s": [
-          4.5,
-          7.5
-        ],
-        "p90_shot_s": [
-          10,
-          17
-        ]
-      },
-      "transitions": {
-        "style": "explainer",
-        "dissolve_duration_s": 0.3,
-        "dissolve_share": 0.05,
-        "accent_share": 0,
-        "accents": [
-          "light-leak-flash",
-          "zoom-through"
-        ],
-        "hard_cut_sfx_share": null,
-        "sfx_prefer_speech_pause": true,
-        "accents_at_section_boundaries": true,
-        "sfx_mode": "motivated",
-        "sfx_max_share": 0,
-        "transition_sfx": false
-      },
-      "punch": {
-        "share_of_shots": 0.04,
-        "scale": [
-          1.25,
-          1.35
-        ],
-        "sfx": "click-soft"
-      },
-      "motion": {
-        "moving_share": [
-          0.28,
-          0.5
-        ],
-        "video_static_gets_motion": true,
-        "photo_zoom_total_pct": [
-          10,
-          16
-        ]
-      },
-      "pillarbox_portrait": true,
-      "overlays": {
-        "density_per_min": [
-          3,
-          7
-        ],
-        "enter_at_s": [
-          1.0,
-          2.0
-        ],
-        "exit": "cut",
-        "entrance": "pop-scale",
-        "font": "bold-sans",
-        "case": "ALL-CAPS",
-        "palette": {
-          "text": "#ffffff",
-          "accent": "#5ee7ff"
-        },
-        "backing": "shadow",
-        "words_max": 3,
-        "captions": "ask",
-        "captions_suggestion": "karaoke-pill (Sidney style: 37% of on-screen text is word-by-word captions)",
-        "card": {
-          "font": "bold-sans",
-          "bodyFont": "regular",
-          "plate": "#111111",
-          "ink": "#ffffff",
-          "accent": "#ffd23f",
-          "accent2": "#5ee7ff",
-          "dim": 0.5
-        },
-        "captions_modes": [
-          "sentence-karaoke (full sentence on screen, spoken word highlighted)",
-          "word-pills (2-4 words, karaoke-pill)",
-          "none"
-        ]
-      },
-      "sfx": {
-        "mid_shot_per_min": [
-          0,
-          4
-        ],
-        "on_text_share": 0.6,
-        "map": {
-          "keyword-flash": "pop",
-          "key-phrase": "pop",
-          "stat-callout": "ding",
-          "value-delta": "ding",
-          "number-counter": "tick-burst",
-          "list-reveal": "click",
-          "list-numeral": "typewriter",
-          "price-callout": "cash",
-          "giant-price": "cash",
-          "label-pointer": "click",
-          "arrow-callout": "click",
-          "highlight-box": "click",
-          "circle-highlight": "click",
-          "solid-box-label": "thud-soft",
-          "lower-third": "pop",
-          "icon-accent": "pop",
-          "credibility-badge": "pop",
-          "map-locate": "pop",
-          "year-stamp": "shutter",
-          "subscribe-cta": "pop-soft",
-          "toggle": "switch",
-          "comparison-grid": "select",
-          "info-card": "paper-slide",
-          "side-panel": "paper-slide",
-          "number-badge": "ding",
-          "price-tag": "cash",
-          "title-card": "paper-slide",
-          "quote-card": "pop-soft",
-          "dual-panel": "paper-slide",
-          "punch-in": "click-soft"
-        }
-      },
-      "music": {
-        "enabled": "ask",
-        "bed_db_under_voice": -23,
-        "bpm": [
-          80,
-          120
-        ],
-        "duck_db": 2.5,
-        "tags": [
-          "ambient",
-          "corporate",
-          "electronic"
-        ],
-        "ask_text": "Music bed under the narration? The reference channels all have one (-23 dB under voice); off if you say no."
-      },
-      "ambience": {
-        "enabled": false
-      },
-      "mix": {
-        "integrated_lufs": -17,
-        "true_peak_dbtp": -1
-      },
-      "look": {
-        "vignette_share": [
-          0.15,
-          0.35
-        ],
-        "vignette_strength": 0.25,
-        "grain": "off",
-        "bw_archival": false,
-        "color": "natural"
-      },
-      "hook": {
-        "first_cut_s": 5,
-        "first_overlay_s": 8,
-        "first_sfx_cut_s": 12
-      },
-      "devices": {
-        "section-start": "title-card",
-        "number": "giant-price",
-        "headline-number": "giant-price",
-        "number-change": "number-counter",
-        "rate": "number-counter",
-        "list": "info-card",
-        "numbered-item": "list-numeral",
-        "quote": "key-phrase",
-        "keyword": "keyword-flash",
-        "question": "keyword-flash",
-        "warning-or-confirmation": "solid-box-label",
-        "visible-detail": "label-pointer",
-        "contrast": "side-panel",
-        "price": "price-tag",
-        "date-or-place": "year-stamp",
-        "citation": "source-tag",
-        "jargon": "definition-callout",
-        "new-topic": "solid-box-label",
-        "pivot-or-thesis": "title-card",
-        "archival": "bw+vignette",
-        "portrait": "pillarbox"
-      }
-    },
-    "explainer-punchy": {
-      "label": "Retention explainer, fast list with titles/counters (TheCheapFix, EliYoderSecrets)",
-      "_measured": "8 videos: 14-18 true cuts/min, median shot 2.7-3.4 s, p90 5.5 s, nothing >10 s, 1.4-2.7 punch/min (step 42-45%), 60-76% moving, dissolves 14% of boundaries at 0.26 s + glitch/light-leak accents, whoosh on 33-46% of cuts (4.7-7/min), 2.75-6 mid-shot accents/min, tick bursts under count-ups, titles/labels/list numerals with typewriter + fade, count-up '$150 saved' counters on dark plates, solid-box labels, serif/handwritten accents (Eli), archival B&W + vignette + grain (Eli), overlays stay on screen (Eli 52%) or exit on cut (CheapFix 82%), bed -16 to -21 dB at 115-140 BPM, mix -19 to -21 LUFS, first cut at 2.5-4 s",
-      "beats": {
-        "min_s": 1.6,
-        "max_s": 4.5,
-        "watchdog_s": 5.5
-      },
-      "cuts": {
-        "true_cuts_per_min": [
-          13,
-          19
-        ],
-        "median_shot_s": [
-          2.5,
-          3.8
-        ],
-        "p90_shot_s": [
-          5,
-          7.5
-        ]
-      },
-      "transitions": {
-        "style": "explainer",
-        "dissolve_duration_s": 0.25,
-        "dissolve_share": 0.14,
-        "accent_share": 0,
-        "accents": [
-          "light-leak-flash",
-          "zoom-through",
-          "whip-pan"
-        ],
-        "hard_cut_sfx_share": null,
-        "sfx_prefer_speech_pause": true,
-        "accents_at_section_boundaries": true,
-        "sfx_mode": "motivated",
-        "sfx_max_share": 0,
-        "transition_sfx": false
-      },
-      "punch": {
-        "share_of_shots": 0.12,
-        "scale": [
-          1.35,
-          1.45
-        ],
-        "sfx": "click-soft"
-      },
-      "motion": {
-        "moving_share": [
-          0.6,
-          0.8
-        ],
-        "video_static_gets_motion": true,
-        "photo_zoom_total_pct": [
-          10,
-          14
-        ]
-      },
-      "pillarbox_portrait": true,
-      "overlays": {
-        "density_per_min": [
-          4,
-          9
-        ],
-        "enter_at_s": [
-          0.8,
-          1.4
-        ],
-        "exit": "cut",
-        "entrance": "fade",
-        "font": "bold-sans",
-        "case": "Title Case",
-        "palette": {
-          "text": "#ffffff",
-          "accent": "#ffd23f",
-          "box": "#111111",
-          "alt_text": "#111111",
-          "alt_box": "#ffd23f"
-        },
-        "backing": "solid-box",
-        "words_max": 3,
-        "captions": "ask",
-        "captions_suggestion": "none (CheapFix/Eli/Hidden show no burned-in captions)",
-        "card": {
-          "font": "serif",
-          "bodyFont": "regular",
-          "plate": "#f4ecd8",
-          "ink": "#1c1c1c",
-          "accent": "#f28c28",
-          "accent2": "#2ab7c9",
-          "dim": 0.55
-        },
-        "captions_modes": [
-          "sentence-karaoke (full sentence on screen, spoken word highlighted)",
-          "word-pills (2-4 words, karaoke-pill)",
-          "none"
-        ]
-      },
-      "sfx": {
-        "mid_shot_per_min": [
-          0,
-          6
-        ],
-        "on_text_share": 0.7,
-        "map": {
-          "keyword-flash": "pop",
-          "key-phrase": "pop",
-          "stat-callout": "ding",
-          "value-delta": "tick-burst",
-          "number-counter": "tick-burst",
-          "list-reveal": "typewriter",
-          "list-numeral": "typewriter",
-          "price-callout": "cash",
-          "giant-price": "cash",
-          "label-pointer": "click",
-          "arrow-callout": "click",
-          "highlight-box": "click",
-          "circle-highlight": "click",
-          "solid-box-label": "thud-soft",
-          "lower-third": "pop",
-          "icon-accent": "pop",
-          "credibility-badge": "pop",
-          "map-locate": "pop",
-          "year-stamp": "shutter",
-          "chart-overlay": "ding",
-          "line-chart-reveal": "ding",
-          "subscribe-cta": "pop-soft",
-          "toggle": "switch",
-          "comparison-grid": "select",
-          "info-card": "paper-slide",
-          "side-panel": "paper-slide",
-          "number-badge": "ding",
-          "price-tag": "cash",
-          "title-card": "paper-slide",
-          "quote-card": "pop-soft",
-          "dual-panel": "paper-slide",
-          "punch-in": "click-soft"
-        }
-      },
-      "music": {
-        "enabled": "ask",
-        "bed_db_under_voice": -18,
-        "bpm": [
-          110,
-          140
-        ],
-        "duck_db": 2.5,
-        "tags": [
-          "upbeat",
-          "corporate",
-          "electronic"
-        ],
-        "ask_text": "Music bed under the narration? The reference channels all have one (-18 dB under voice); off if you say no."
-      },
-      "ambience": {
-        "enabled": false
-      },
-      "mix": {
-        "integrated_lufs": -19,
-        "true_peak_dbtp": -1
-      },
-      "look": {
-        "vignette_share": [
-          0.3,
-          0.45
-        ],
-        "vignette_strength": 0.35,
-        "grain": "archival-only",
-        "bw_archival": true,
-        "color": "natural"
-      },
-      "hook": {
-        "first_cut_s": 4,
-        "first_overlay_s": 5,
-        "first_sfx_cut_s": 10
-      },
-      "devices": {
-        "section-start": "title-card",
-        "number": "number-badge",
-        "headline-number": "giant-price",
-        "number-change": "number-counter",
-        "rate": "number-counter",
-        "list": "info-card",
-        "numbered-item": "list-numeral",
-        "quote": "quote-card",
-        "keyword": "keyword-flash",
-        "question": "keyword-flash",
-        "warning-or-confirmation": "solid-box-label",
-        "visible-detail": "label-pointer",
-        "contrast": "side-panel",
-        "price": "price-tag",
-        "date-or-place": "year-stamp",
-        "citation": "source-tag",
-        "jargon": "definition-callout",
-        "new-topic": "solid-box-label",
-        "pivot-or-thesis": "title-card",
-        "archival": "bw+vignette",
-        "portrait": "pillarbox"
-      }
-    },
-    "explainer-annotated": {
-      "label": "Retention explainer, annotated/diagram style (HiddenHomestead)",
-      "_measured": "2 videos: 12-13 true cuts/min, median shot 4.2-4.5 s, 69-74% moving (30% photo zoom-in), 1.1-1.4 punch/min (step 46%), dissolves 14% at 0.18 s, whoosh on 37-44% of cuts (5/min), 3.25-6 mid-shot accents/min (click on labels, tick on numbers), 60% of overlays are labels with pointer lines/arrows drawing on, yellow circle highlights, maps zooming, split screens 7%, condensed sans + yellow/black solid boxes, overlays stay (45%) or exit on cut (32%), warmest grade (+9 b*), vignette ratio 0.85 on 38% frames, bed -18 to -21 dB at 120-130 BPM, mix -19 LUFS, first cut at 2.6 s",
-      "beats": {
-        "min_s": 2.2,
-        "max_s": 6,
-        "watchdog_s": 7
-      },
-      "cuts": {
-        "true_cuts_per_min": [
-          10,
-          15
-        ],
-        "median_shot_s": [
-          3.5,
-          5
-        ],
-        "p90_shot_s": [
-          6,
-          9
-        ]
-      },
-      "transitions": {
-        "style": "explainer",
-        "dissolve_duration_s": 0.2,
-        "dissolve_share": 0.14,
-        "accent_share": 0,
-        "accents": [
-          "light-leak-flash",
-          "zoom-through"
-        ],
-        "hard_cut_sfx_share": null,
-        "sfx_prefer_speech_pause": true,
-        "accents_at_section_boundaries": true,
-        "sfx_mode": "motivated",
-        "sfx_max_share": 0,
-        "transition_sfx": false
-      },
-      "punch": {
-        "share_of_shots": 0.1,
-        "scale": [
-          1.35,
-          1.45
-        ],
-        "sfx": "click-soft"
-      },
-      "motion": {
-        "moving_share": [
-          0.65,
-          0.8
-        ],
-        "video_static_gets_motion": true,
-        "photo_zoom_total_pct": [
-          10,
-          14
-        ]
-      },
-      "pillarbox_portrait": true,
-      "overlays": {
-        "density_per_min": [
-          5,
-          10
-        ],
-        "enter_at_s": [
-          0.8,
-          1.4
-        ],
-        "exit": "stay",
-        "entrance": "draw-on",
-        "font": "condensed-sans",
-        "case": "ALL-CAPS",
-        "palette": {
-          "text": "#ffffff",
-          "accent": "#ffd23f",
-          "box": "#111111",
-          "alt_text": "#111111",
-          "alt_box": "#ffd23f"
-        },
-        "backing": "solid-box",
-        "words_max": 3,
-        "captions": "ask",
-        "captions_suggestion": "none (CheapFix/Eli/Hidden show no burned-in captions)",
-        "card": {
-          "font": "serif",
-          "bodyFont": "regular",
-          "plate": "#f4ecd8",
-          "ink": "#1c1c1c",
-          "accent": "#f28c28",
-          "accent2": "#2ab7c9",
-          "dim": 0.55
-        },
-        "captions_modes": [
-          "sentence-karaoke (full sentence on screen, spoken word highlighted)",
-          "word-pills (2-4 words, karaoke-pill)",
-          "none"
-        ]
-      },
-      "sfx": {
-        "mid_shot_per_min": [
-          0,
-          6
-        ],
-        "on_text_share": 0.75,
-        "map": {
-          "keyword-flash": "pop",
-          "key-phrase": "pop",
-          "stat-callout": "tick-burst",
-          "value-delta": "tick-burst",
-          "number-counter": "tick-burst",
-          "list-reveal": "click",
-          "list-numeral": "typewriter",
-          "price-callout": "cash",
-          "giant-price": "cash",
-          "label-pointer": "click",
-          "arrow-callout": "click",
-          "highlight-box": "click",
-          "circle-highlight": "click",
-          "solid-box-label": "thud-soft",
-          "lower-third": "pop",
-          "icon-accent": "pop",
-          "credibility-badge": "pop",
-          "map-locate": "pop",
-          "year-stamp": "shutter",
-          "chart-overlay": "ding",
-          "line-chart-reveal": "ding",
-          "callout-leader": "click",
-          "annotation-draw": "click",
-          "subscribe-cta": "pop-soft",
-          "toggle": "switch",
-          "comparison-grid": "select",
-          "info-card": "paper-slide",
-          "side-panel": "paper-slide",
-          "number-badge": "ding",
-          "price-tag": "cash",
-          "title-card": "paper-slide",
-          "quote-card": "pop-soft",
-          "dual-panel": "paper-slide",
-          "punch-in": "click-soft"
-        }
-      },
-      "music": {
-        "enabled": "ask",
-        "bed_db_under_voice": -19,
-        "bpm": [
-          110,
-          135
-        ],
-        "duck_db": 2.5,
-        "tags": [
-          "ambient",
-          "corporate",
-          "electronic"
-        ],
-        "ask_text": "Music bed under the narration? The reference channels all have one (-19 dB under voice); off if you say no."
-      },
-      "ambience": {
-        "enabled": false
-      },
-      "mix": {
-        "integrated_lufs": -19,
-        "true_peak_dbtp": -1
-      },
-      "look": {
-        "vignette_share": [
-          0.3,
-          0.45
-        ],
-        "vignette_strength": 0.4,
-        "grain": "archival-only",
-        "bw_archival": true,
-        "color": "natural-warm"
-      },
-      "hook": {
-        "first_cut_s": 4,
-        "first_overlay_s": 6,
-        "first_sfx_cut_s": 12
-      },
-      "devices": {
-        "section-start": "title-card",
-        "number": "number-badge",
-        "headline-number": "giant-price",
-        "number-change": "number-counter",
-        "rate": "number-counter",
-        "list": "info-card",
-        "numbered-item": "list-numeral",
-        "quote": "quote-card",
-        "keyword": "keyword-flash",
-        "question": "keyword-flash",
-        "warning-or-confirmation": "solid-box-label",
-        "visible-detail": "label-pointer",
-        "contrast": "side-panel",
-        "price": "price-tag",
-        "date-or-place": "year-stamp",
-        "citation": "source-tag",
-        "jargon": "definition-callout",
-        "new-topic": "solid-box-label",
-        "pivot-or-thesis": "title-card",
-        "archival": "bw+vignette",
-        "portrait": "pillarbox"
-      }
+    "backing": "shadow",
+    "words_max": 8,
+    "captions": "ask",
+    "captions_suggestion": "none (CheapFix/Eli/Hidden show no burned-in captions)"
+   },
+   "sfx": {
+    "mid_shot_per_min": [
+     0,
+     1
+    ],
+    "on_text_share": 0,
+    "map": {
+     "title-card": "paper-slide"
     }
+   },
+   "music": {
+    "enabled": false,
+    "bed_db_under_voice": -22,
+    "bpm": [
+     80,
+     120
+    ],
+    "duck_db": 3,
+    "tags": [
+     "ambient",
+     "corporate",
+     "electronic"
+    ]
+   },
+   "ambience": {
+    "enabled": true
+   },
+   "mix": {
+    "integrated_lufs": -14,
+    "true_peak_dbtp": -1
+   },
+   "look": {
+    "vignette_share": [
+     0,
+     0.3
+    ],
+    "vignette_strength": 0.3,
+    "grain": "global-optional",
+    "bw_archival": false,
+    "color": "natural"
+   },
+   "hook": {
+    "first_cut_s": null,
+    "first_overlay_s": null,
+    "first_sfx_cut_s": null
+   }
   },
-  "sfx_levels_linear": {
-    "_comment": "Measured: transition whoosh/hit peaks at about voice RMS (-0.3\u2026+3.4 dB); UI pops/clicks sit -20\u2026-26 dB under voice; dings -18\u2026-22; cash/impact -12\u2026-18. Linear values are relative to the engine's 1.0 = narration reference (see references/audio-mix.md).",
-    "whoosh-short": 0.45,
-    "whoosh": 0.4,
-    "whoosh-cinematic": 0.35,
-    "impact-bass-1": 0.22,
-    "impact-bass-2": 0.22,
-    "riser": 0.14,
-    "glitch-1": 0.3,
-    "glitch-3": 0.2,
-    "pop": 0.09,
-    "click": 0.09,
-    "click-soft": 0.07,
-    "ping": 0.1,
-    "chime": 0.1,
-    "notification": 0.09,
-    "sparkle": 0.08,
-    "key-press": 0.08,
-    "typing": 0.08,
-    "error": 0.12,
-    "tick": 0.09,
-    "tick-burst": 0.09,
-    "ding": 0.12,
-    "ding-soft": 0.09,
-    "cash": 0.16,
-    "coin": 0.12,
-    "shutter": 0.12,
-    "paper-tear": 0.3,
-    "typewriter": 0.09,
-    "thud-soft": 0.18,
-    "swell": 0.14,
-    "whoosh-fast": 0.42,
-    "whoosh-air": 0.4,
-    "whoosh-sweep": 0.38,
-    "whoosh-explainer": 0.4,
-    "whoosh-hit": 0.3,
-    "swoosh-wind": 0.3,
-    "pop-soft": 0.07,
-    "switch": 0.1,
-    "select": 0.08,
-    "toggle": 0.09,
-    "paper-slide": 0.22,
-    "glitch-soft": 0.25
+  "explainer-fast": {
+   "label": "Retention explainer, footage-driven (Sidney 6-9 min videos)",
+   "_measured": "15 videos: 13-19 true cuts/min, median shot 2-4 s, p90 ~7 s, 1.3-4.5 punch-ins/min (step 28%), 55-80% shots moving, dissolves 9% at 0.29 s, paper-tear/blur accents, whoosh on 31% of cuts (4/min), 2 mid-shot accents/min (ding 48%, click 30%), karaoke word-by-word captions 37% of text + pop-scale keywords (white, cyan accent, lower-center, shadow), 72% of overlays appear mid-shot ~1.8 s after the cut and exit on the cut, bed -26 dB at 74-129 BPM, mix -17 LUFS, 21% vertical UGC pillarboxed, natural colour, vignette on ~24% of frames",
+   "beats": {
+    "min_s": 1.6,
+    "max_s": 4.5,
+    "watchdog_s": 7
+   },
+   "cuts": {
+    "true_cuts_per_min": [
+     12,
+     19
+    ],
+    "median_shot_s": [
+     2.0,
+     4.0
+    ],
+    "p90_shot_s": [
+     4,
+     8
+    ]
+   },
+   "transitions": {
+    "style": "explainer",
+    "dissolve_duration_s": 0.3,
+    "dissolve_share": 0.09,
+    "accent_share": 0,
+    "accents": [
+     "paper-tear",
+     "light-leak-flash",
+     "whip-pan",
+     "zoom-through"
+    ],
+    "hard_cut_sfx_share": null,
+    "sfx_prefer_speech_pause": true,
+    "accents_at_section_boundaries": true,
+    "sfx_mode": "motivated-only",
+    "sfx_max_share": 0.12,
+    "transition_sfx": false,
+    "transition_sfx_optin": true,
+    "_sfx_placement_rule": "MOTIVATED ONLY. Measured 2026-09-07 on 3 channels: reference whooshes sit on 29-36% of cuts but NO measurable signal predicts which cuts -- they are NOT in speech pauses (14/18/13% pause vs 37/25/28% for silent cuts), NOT at section boundaries (43-51% isolated, gaps 2.4-45s), and next-shot duration/motion do not separate them. So we do NOT reproduce the share. A cue is attached only where an editorial reason exists in the plan: a section boundary, or a hard-cut into a beat that carries a graphic landing. Never a bare footage-to-footage cut."
+   },
+   "punch": {
+    "share_of_shots": 0.24,
+    "scale": [
+     1.25,
+     1.35
+    ],
+    "sfx": "click-soft",
+    "steps_per_punch": [
+     1,
+     2
+    ],
+    "multi_step_share": 0.48,
+    "_punch_source": "measured 2026-09-07: 809 shots / 3 channels; 20.8-31.1% of shots punched, 2.05-2.38 steps per punched shot"
+   },
+   "motion": {
+    "moving_share": [
+     0.55,
+     0.8
+    ],
+    "video_static_gets_motion": true,
+    "photo_zoom_total_pct": [
+     10,
+     16
+    ]
+   },
+   "pillarbox_portrait": true,
+   "overlays": {
+    "density_per_min": [
+     2,
+     6
+    ],
+    "enter_at_s": [
+     1.0,
+     1.8
+    ],
+    "exit": "cut",
+    "entrance": "pop-scale",
+    "font": "bold-sans",
+    "case": "ALL-CAPS",
+    "palette": {
+     "text": "#ffffff",
+     "accent": "#5ee7ff"
+    },
+    "backing": "shadow",
+    "words_max": 2,
+    "captions": "ask",
+    "captions_suggestion": "karaoke-pill (Sidney style: 37% of on-screen text is word-by-word captions)",
+    "card": {
+     "font": "bold-sans",
+     "bodyFont": "regular",
+     "plate": "#111111",
+     "ink": "#ffffff",
+     "accent": "#ffd23f",
+     "accent2": "#5ee7ff",
+     "dim": 0.5
+    },
+    "captions_modes": [
+     "sentence-karaoke (full sentence on screen, spoken word highlighted)",
+     "word-pills (2-4 words, karaoke-pill)",
+     "none"
+    ],
+    "placement_share": {
+     "middle-center": 0.301,
+     "middle-left": 0.165,
+     "middle-right": 0.129,
+     "lower-center": 0.124,
+     "upper-center": 0.073,
+     "upper-right": 0.058,
+     "upper-left": 0.054,
+     "lower-left": 0.053,
+     "lower-right": 0.042
+    },
+    "pop_scale_share": 0.233,
+    "_placement_source": "measured 2026-09-07: 3163 text events / 3 channels / 67 min; density_per_min intentionally unchanged (see ISS-0006)"
+   },
+   "sfx": {
+    "mid_shot_per_min": [
+     0,
+     3.5
+    ],
+    "on_text_share": 0.6,
+    "map": {
+     "keyword-flash": "pop",
+     "key-phrase": "pop",
+     "stat-callout": "ding",
+     "value-delta": "ding",
+     "number-counter": "tick-burst",
+     "list-reveal": "click",
+     "list-numeral": "typewriter",
+     "price-callout": "cash",
+     "giant-price": "cash",
+     "label-pointer": "click",
+     "arrow-callout": "click",
+     "highlight-box": "click",
+     "circle-highlight": "click",
+     "solid-box-label": "thud-soft",
+     "lower-third": "pop",
+     "icon-accent": "pop",
+     "credibility-badge": "pop",
+     "map-locate": "pop",
+     "year-stamp": "shutter",
+     "subscribe-cta": "pop-soft",
+     "toggle": "switch",
+     "comparison-grid": "select",
+     "info-card": "paper-slide",
+     "side-panel": "paper-slide",
+     "number-badge": "ding",
+     "price-tag": "cash",
+     "title-card": "paper-slide",
+     "quote-card": "pop-soft",
+     "dual-panel": "paper-slide",
+     "punch-in": "click-soft"
+    }
+   },
+   "music": {
+    "enabled": "ask",
+    "bed_db_under_voice": -26,
+    "bpm": [
+     80,
+     125
+    ],
+    "duck_db": 2.5,
+    "tags": [
+     "ambient",
+     "corporate",
+     "electronic",
+     "lo-fi"
+    ],
+    "ask_text": "Music bed under the narration? The reference channels all have one (-26 dB under voice); off if you say no."
+   },
+   "ambience": {
+    "enabled": false
+   },
+   "mix": {
+    "integrated_lufs": -17,
+    "true_peak_dbtp": -1,
+    "narration_compression": "ask",
+    "narration_compression_default": false,
+    "narration_lra_target": [
+     2.8,
+     3.3
+    ],
+    "_narration_note": "OPT-IN ONLY, never applied without an explicit yes. Measured 2026-09-07: all 3 reference channels crush narration to LRA 2.8-3.3 LU (two also clip above 0 dBFS), which is why they sound relentless. Our standing rule is that narration audio is referenced in place and never reprocessed - a previous loudnorm dynamic-mode pass audibly degraded a real narration. So this is a question at the run-shape step, and the default answer is NO."
+   },
+   "look": {
+    "vignette_share": [
+     0.36,
+     0.5
+    ],
+    "vignette_strength": 0.25,
+    "grain": "off",
+    "bw_archival": false,
+    "color": "natural",
+    "grade_share": {
+     "natural": 0.6,
+     "desaturate": 0.15,
+     "warm": 0.13,
+     "cool": 0.063,
+     "bw": 0.057
+    },
+    "high_contrast_share": 0.21,
+    "_grade_source": "measured 2026-09-07: 809 shots / 3 channels / 67 min, every second"
+   },
+   "hook": {
+    "first_cut_s": 5,
+    "first_overlay_s": 8,
+    "first_sfx_cut_s": 12
+   },
+   "devices": {
+    "section-start": "title-card",
+    "number": "giant-price",
+    "headline-number": "giant-price",
+    "number-change": "number-counter",
+    "rate": "number-counter",
+    "list": "info-card",
+    "numbered-item": "list-numeral",
+    "quote": "key-phrase",
+    "keyword": "keyword-flash",
+    "question": "keyword-flash",
+    "warning-or-confirmation": "solid-box-label",
+    "visible-detail": "label-pointer",
+    "contrast": "side-panel",
+    "price": "price-tag",
+    "date-or-place": "year-stamp",
+    "citation": "source-tag",
+    "jargon": "definition-callout",
+    "new-topic": "solid-box-label",
+    "pivot-or-thesis": "title-card",
+    "archival": "bw+vignette",
+    "portrait": "pillarbox"
+   }
+  },
+  "explainer-list": {
+   "label": "Retention explainer, long list video (Sidney 17-23 min '10 crops\u2026')",
+   "_measured": "3 videos: 6.6-10 true cuts/min, median shot 5-7 s, p90 12-17 s, 0.2-0.5 punch/min, 28-33% shots moving, 5 overlays/min (list numerals + captions), whoosh on 45-49% of cuts, 3-3.5 mid-shot accents/min, bed -23 dB",
+   "beats": {
+    "min_s": 3,
+    "max_s": 7,
+    "watchdog_s": 10
+   },
+   "cuts": {
+    "true_cuts_per_min": [
+     6,
+     11
+    ],
+    "median_shot_s": [
+     4.5,
+     7.5
+    ],
+    "p90_shot_s": [
+     10,
+     17
+    ]
+   },
+   "transitions": {
+    "style": "explainer",
+    "dissolve_duration_s": 0.3,
+    "dissolve_share": 0.05,
+    "accent_share": 0,
+    "accents": [
+     "light-leak-flash",
+     "zoom-through"
+    ],
+    "hard_cut_sfx_share": null,
+    "sfx_prefer_speech_pause": true,
+    "accents_at_section_boundaries": true,
+    "sfx_mode": "motivated-only",
+    "sfx_max_share": 0.12,
+    "transition_sfx": false,
+    "transition_sfx_optin": true,
+    "_sfx_placement_rule": "MOTIVATED ONLY. Measured 2026-09-07 on 3 channels: reference whooshes sit on 29-36% of cuts but NO measurable signal predicts which cuts -- they are NOT in speech pauses (14/18/13% pause vs 37/25/28% for silent cuts), NOT at section boundaries (43-51% isolated, gaps 2.4-45s), and next-shot duration/motion do not separate them. So we do NOT reproduce the share. A cue is attached only where an editorial reason exists in the plan: a section boundary, or a hard-cut into a beat that carries a graphic landing. Never a bare footage-to-footage cut."
+   },
+   "punch": {
+    "share_of_shots": 0.31,
+    "scale": [
+     1.25,
+     1.35
+    ],
+    "sfx": "click-soft",
+    "steps_per_punch": [
+     1,
+     2
+    ],
+    "multi_step_share": 0.5,
+    "_punch_source": "measured 2026-09-07: 809 shots / 3 channels; 20.8-31.1% of shots punched, 2.05-2.38 steps per punched shot"
+   },
+   "motion": {
+    "moving_share": [
+     0.28,
+     0.5
+    ],
+    "video_static_gets_motion": true,
+    "photo_zoom_total_pct": [
+     10,
+     16
+    ]
+   },
+   "pillarbox_portrait": true,
+   "overlays": {
+    "density_per_min": [
+     3,
+     7
+    ],
+    "enter_at_s": [
+     1.0,
+     2.0
+    ],
+    "exit": "cut",
+    "entrance": "pop-scale",
+    "font": "bold-sans",
+    "case": "ALL-CAPS",
+    "palette": {
+     "text": "#ffffff",
+     "accent": "#5ee7ff"
+    },
+    "backing": "shadow",
+    "words_max": 3,
+    "captions": "ask",
+    "captions_suggestion": "karaoke-pill (Sidney style: 37% of on-screen text is word-by-word captions)",
+    "card": {
+     "font": "bold-sans",
+     "bodyFont": "regular",
+     "plate": "#111111",
+     "ink": "#ffffff",
+     "accent": "#ffd23f",
+     "accent2": "#5ee7ff",
+     "dim": 0.5
+    },
+    "captions_modes": [
+     "sentence-karaoke (full sentence on screen, spoken word highlighted)",
+     "word-pills (2-4 words, karaoke-pill)",
+     "none"
+    ],
+    "placement_share": {
+     "middle-center": 0.301,
+     "middle-left": 0.165,
+     "middle-right": 0.129,
+     "lower-center": 0.124,
+     "upper-center": 0.073,
+     "upper-right": 0.058,
+     "upper-left": 0.054,
+     "lower-left": 0.053,
+     "lower-right": 0.042
+    },
+    "pop_scale_share": 0.233,
+    "_placement_source": "measured 2026-09-07: 3163 text events / 3 channels / 67 min; density_per_min intentionally unchanged (see ISS-0006)"
+   },
+   "sfx": {
+    "mid_shot_per_min": [
+     0,
+     4
+    ],
+    "on_text_share": 0.6,
+    "map": {
+     "keyword-flash": "pop",
+     "key-phrase": "pop",
+     "stat-callout": "ding",
+     "value-delta": "ding",
+     "number-counter": "tick-burst",
+     "list-reveal": "click",
+     "list-numeral": "typewriter",
+     "price-callout": "cash",
+     "giant-price": "cash",
+     "label-pointer": "click",
+     "arrow-callout": "click",
+     "highlight-box": "click",
+     "circle-highlight": "click",
+     "solid-box-label": "thud-soft",
+     "lower-third": "pop",
+     "icon-accent": "pop",
+     "credibility-badge": "pop",
+     "map-locate": "pop",
+     "year-stamp": "shutter",
+     "subscribe-cta": "pop-soft",
+     "toggle": "switch",
+     "comparison-grid": "select",
+     "info-card": "paper-slide",
+     "side-panel": "paper-slide",
+     "number-badge": "ding",
+     "price-tag": "cash",
+     "title-card": "paper-slide",
+     "quote-card": "pop-soft",
+     "dual-panel": "paper-slide",
+     "punch-in": "click-soft"
+    }
+   },
+   "music": {
+    "enabled": "ask",
+    "bed_db_under_voice": -23,
+    "bpm": [
+     80,
+     120
+    ],
+    "duck_db": 2.5,
+    "tags": [
+     "ambient",
+     "corporate",
+     "electronic"
+    ],
+    "ask_text": "Music bed under the narration? The reference channels all have one (-23 dB under voice); off if you say no."
+   },
+   "ambience": {
+    "enabled": false
+   },
+   "mix": {
+    "integrated_lufs": -17,
+    "true_peak_dbtp": -1,
+    "narration_compression": "ask",
+    "narration_compression_default": false,
+    "narration_lra_target": [
+     2.8,
+     3.3
+    ],
+    "_narration_note": "OPT-IN ONLY, never applied without an explicit yes. Measured 2026-09-07: all 3 reference channels crush narration to LRA 2.8-3.3 LU (two also clip above 0 dBFS), which is why they sound relentless. Our standing rule is that narration audio is referenced in place and never reprocessed - a previous loudnorm dynamic-mode pass audibly degraded a real narration. So this is a question at the run-shape step, and the default answer is NO."
+   },
+   "look": {
+    "vignette_share": [
+     0.24,
+     0.36
+    ],
+    "vignette_strength": 0.25,
+    "grain": "off",
+    "bw_archival": false,
+    "color": "natural",
+    "grade_share": {
+     "natural": 0.69,
+     "warm": 0.13,
+     "desaturate": 0.1,
+     "cool": 0.04,
+     "bw": 0.04
+    },
+    "high_contrast_share": 0.28,
+    "_grade_source": "measured 2026-09-07: 809 shots / 3 channels / 67 min, every second"
+   },
+   "hook": {
+    "first_cut_s": 5,
+    "first_overlay_s": 8,
+    "first_sfx_cut_s": 12
+   },
+   "devices": {
+    "section-start": "title-card",
+    "number": "giant-price",
+    "headline-number": "giant-price",
+    "number-change": "number-counter",
+    "rate": "number-counter",
+    "list": "info-card",
+    "numbered-item": "list-numeral",
+    "quote": "key-phrase",
+    "keyword": "keyword-flash",
+    "question": "keyword-flash",
+    "warning-or-confirmation": "solid-box-label",
+    "visible-detail": "label-pointer",
+    "contrast": "side-panel",
+    "price": "price-tag",
+    "date-or-place": "year-stamp",
+    "citation": "source-tag",
+    "jargon": "definition-callout",
+    "new-topic": "solid-box-label",
+    "pivot-or-thesis": "title-card",
+    "archival": "bw+vignette",
+    "portrait": "pillarbox"
+   }
+  },
+  "explainer-punchy": {
+   "label": "Retention explainer, fast list with titles/counters (TheCheapFix, EliYoderSecrets)",
+   "_measured": "8 videos: 14-18 true cuts/min, median shot 2.7-3.4 s, p90 5.5 s, nothing >10 s, 1.4-2.7 punch/min (step 42-45%), 60-76% moving, dissolves 14% of boundaries at 0.26 s + glitch/light-leak accents, whoosh on 33-46% of cuts (4.7-7/min), 2.75-6 mid-shot accents/min, tick bursts under count-ups, titles/labels/list numerals with typewriter + fade, count-up '$150 saved' counters on dark plates, solid-box labels, serif/handwritten accents (Eli), archival B&W + vignette + grain (Eli), overlays stay on screen (Eli 52%) or exit on cut (CheapFix 82%), bed -16 to -21 dB at 115-140 BPM, mix -19 to -21 LUFS, first cut at 2.5-4 s",
+   "beats": {
+    "min_s": 1.6,
+    "max_s": 4.5,
+    "watchdog_s": 5.5
+   },
+   "cuts": {
+    "true_cuts_per_min": [
+     13,
+     19
+    ],
+    "median_shot_s": [
+     2.5,
+     3.8
+    ],
+    "p90_shot_s": [
+     5,
+     7.5
+    ]
+   },
+   "transitions": {
+    "style": "explainer",
+    "dissolve_duration_s": 0.25,
+    "dissolve_share": 0.14,
+    "accent_share": 0,
+    "accents": [
+     "light-leak-flash",
+     "zoom-through",
+     "whip-pan"
+    ],
+    "hard_cut_sfx_share": null,
+    "sfx_prefer_speech_pause": true,
+    "accents_at_section_boundaries": true,
+    "sfx_mode": "motivated-only",
+    "sfx_max_share": 0.12,
+    "transition_sfx": false,
+    "transition_sfx_optin": true,
+    "_sfx_placement_rule": "MOTIVATED ONLY. Measured 2026-09-07 on 3 channels: reference whooshes sit on 29-36% of cuts but NO measurable signal predicts which cuts -- they are NOT in speech pauses (14/18/13% pause vs 37/25/28% for silent cuts), NOT at section boundaries (43-51% isolated, gaps 2.4-45s), and next-shot duration/motion do not separate them. So we do NOT reproduce the share. A cue is attached only where an editorial reason exists in the plan: a section boundary, or a hard-cut into a beat that carries a graphic landing. Never a bare footage-to-footage cut."
+   },
+   "punch": {
+    "share_of_shots": 0.21,
+    "scale": [
+     1.35,
+     1.45
+    ],
+    "sfx": "click-soft",
+    "steps_per_punch": [
+     1,
+     2
+    ],
+    "multi_step_share": 0.45,
+    "_punch_source": "measured 2026-09-07: 809 shots / 3 channels; 20.8-31.1% of shots punched, 2.05-2.38 steps per punched shot"
+   },
+   "motion": {
+    "moving_share": [
+     0.6,
+     0.8
+    ],
+    "video_static_gets_motion": true,
+    "photo_zoom_total_pct": [
+     10,
+     14
+    ]
+   },
+   "pillarbox_portrait": true,
+   "overlays": {
+    "density_per_min": [
+     4,
+     9
+    ],
+    "enter_at_s": [
+     0.8,
+     1.4
+    ],
+    "exit": "cut",
+    "entrance": "fade",
+    "font": "bold-sans",
+    "case": "Title Case",
+    "palette": {
+     "text": "#ffffff",
+     "accent": "#ffd23f",
+     "box": "#111111",
+     "alt_text": "#111111",
+     "alt_box": "#ffd23f"
+    },
+    "backing": "solid-box",
+    "words_max": 3,
+    "captions": "ask",
+    "captions_suggestion": "none (CheapFix/Eli/Hidden show no burned-in captions)",
+    "card": {
+     "font": "serif",
+     "bodyFont": "regular",
+     "plate": "#f4ecd8",
+     "ink": "#1c1c1c",
+     "accent": "#f28c28",
+     "accent2": "#2ab7c9",
+     "dim": 0.55
+    },
+    "captions_modes": [
+     "sentence-karaoke (full sentence on screen, spoken word highlighted)",
+     "word-pills (2-4 words, karaoke-pill)",
+     "none"
+    ],
+    "placement_share": {
+     "middle-center": 0.301,
+     "middle-left": 0.165,
+     "middle-right": 0.129,
+     "lower-center": 0.124,
+     "upper-center": 0.073,
+     "upper-right": 0.058,
+     "upper-left": 0.054,
+     "lower-left": 0.053,
+     "lower-right": 0.042
+    },
+    "pop_scale_share": 0.233,
+    "_placement_source": "measured 2026-09-07: 3163 text events / 3 channels / 67 min; density_per_min intentionally unchanged (see ISS-0006)"
+   },
+   "sfx": {
+    "mid_shot_per_min": [
+     0,
+     6
+    ],
+    "on_text_share": 0.7,
+    "map": {
+     "keyword-flash": "pop",
+     "key-phrase": "pop",
+     "stat-callout": "ding",
+     "value-delta": "tick-burst",
+     "number-counter": "tick-burst",
+     "list-reveal": "typewriter",
+     "list-numeral": "typewriter",
+     "price-callout": "cash",
+     "giant-price": "cash",
+     "label-pointer": "click",
+     "arrow-callout": "click",
+     "highlight-box": "click",
+     "circle-highlight": "click",
+     "solid-box-label": "thud-soft",
+     "lower-third": "pop",
+     "icon-accent": "pop",
+     "credibility-badge": "pop",
+     "map-locate": "pop",
+     "year-stamp": "shutter",
+     "chart-overlay": "ding",
+     "line-chart-reveal": "ding",
+     "subscribe-cta": "pop-soft",
+     "toggle": "switch",
+     "comparison-grid": "select",
+     "info-card": "paper-slide",
+     "side-panel": "paper-slide",
+     "number-badge": "ding",
+     "price-tag": "cash",
+     "title-card": "paper-slide",
+     "quote-card": "pop-soft",
+     "dual-panel": "paper-slide",
+     "punch-in": "click-soft"
+    }
+   },
+   "music": {
+    "enabled": "ask",
+    "bed_db_under_voice": -18,
+    "bpm": [
+     110,
+     140
+    ],
+    "duck_db": 2.5,
+    "tags": [
+     "upbeat",
+     "corporate",
+     "electronic"
+    ],
+    "ask_text": "Music bed under the narration? The reference channels all have one (-18 dB under voice); off if you say no."
+   },
+   "ambience": {
+    "enabled": false
+   },
+   "mix": {
+    "integrated_lufs": -19,
+    "true_peak_dbtp": -1,
+    "narration_compression": "ask",
+    "narration_compression_default": false,
+    "narration_lra_target": [
+     2.8,
+     3.3
+    ],
+    "_narration_note": "OPT-IN ONLY, never applied without an explicit yes. Measured 2026-09-07: all 3 reference channels crush narration to LRA 2.8-3.3 LU (two also clip above 0 dBFS), which is why they sound relentless. Our standing rule is that narration audio is referenced in place and never reprocessed - a previous loudnorm dynamic-mode pass audibly degraded a real narration. So this is a question at the run-shape step, and the default answer is NO."
+   },
+   "look": {
+    "vignette_share": [
+     0.55,
+     0.7
+    ],
+    "vignette_strength": 0.35,
+    "grain": "archival-only",
+    "bw_archival": true,
+    "color": "natural",
+    "grade_share": {
+     "natural": 0.44,
+     "desaturate": 0.27,
+     "cool": 0.13,
+     "warm": 0.08,
+     "bw": 0.08
+    },
+    "high_contrast_share": 0.15,
+    "_grade_source": "measured 2026-09-07: 809 shots / 3 channels / 67 min, every second"
+   },
+   "hook": {
+    "first_cut_s": 4,
+    "first_overlay_s": 5,
+    "first_sfx_cut_s": 10
+   },
+   "devices": {
+    "section-start": "title-card",
+    "number": "number-badge",
+    "headline-number": "giant-price",
+    "number-change": "number-counter",
+    "rate": "number-counter",
+    "list": "info-card",
+    "numbered-item": "list-numeral",
+    "quote": "quote-card",
+    "keyword": "keyword-flash",
+    "question": "keyword-flash",
+    "warning-or-confirmation": "solid-box-label",
+    "visible-detail": "label-pointer",
+    "contrast": "side-panel",
+    "price": "price-tag",
+    "date-or-place": "year-stamp",
+    "citation": "source-tag",
+    "jargon": "definition-callout",
+    "new-topic": "solid-box-label",
+    "pivot-or-thesis": "title-card",
+    "archival": "bw+vignette",
+    "portrait": "pillarbox"
+   }
+  },
+  "explainer-annotated": {
+   "label": "Retention explainer, annotated/diagram style (HiddenHomestead)",
+   "_measured": "2 videos: 12-13 true cuts/min, median shot 4.2-4.5 s, 69-74% moving (30% photo zoom-in), 1.1-1.4 punch/min (step 46%), dissolves 14% at 0.18 s, whoosh on 37-44% of cuts (5/min), 3.25-6 mid-shot accents/min (click on labels, tick on numbers), 60% of overlays are labels with pointer lines/arrows drawing on, yellow circle highlights, maps zooming, split screens 7%, condensed sans + yellow/black solid boxes, overlays stay (45%) or exit on cut (32%), warmest grade (+9 b*), vignette ratio 0.85 on 38% frames, bed -18 to -21 dB at 120-130 BPM, mix -19 LUFS, first cut at 2.6 s",
+   "beats": {
+    "min_s": 2.2,
+    "max_s": 6,
+    "watchdog_s": 7
+   },
+   "cuts": {
+    "true_cuts_per_min": [
+     10,
+     15
+    ],
+    "median_shot_s": [
+     3.5,
+     5
+    ],
+    "p90_shot_s": [
+     6,
+     9
+    ]
+   },
+   "transitions": {
+    "style": "explainer",
+    "dissolve_duration_s": 0.2,
+    "dissolve_share": 0.14,
+    "accent_share": 0,
+    "accents": [
+     "light-leak-flash",
+     "zoom-through"
+    ],
+    "hard_cut_sfx_share": null,
+    "sfx_prefer_speech_pause": true,
+    "accents_at_section_boundaries": true,
+    "sfx_mode": "motivated-only",
+    "sfx_max_share": 0.12,
+    "transition_sfx": false,
+    "transition_sfx_optin": true,
+    "_sfx_placement_rule": "MOTIVATED ONLY. Measured 2026-09-07 on 3 channels: reference whooshes sit on 29-36% of cuts but NO measurable signal predicts which cuts -- they are NOT in speech pauses (14/18/13% pause vs 37/25/28% for silent cuts), NOT at section boundaries (43-51% isolated, gaps 2.4-45s), and next-shot duration/motion do not separate them. So we do NOT reproduce the share. A cue is attached only where an editorial reason exists in the plan: a section boundary, or a hard-cut into a beat that carries a graphic landing. Never a bare footage-to-footage cut."
+   },
+   "punch": {
+    "share_of_shots": 0.22,
+    "scale": [
+     1.35,
+     1.45
+    ],
+    "sfx": "click-soft",
+    "steps_per_punch": [
+     1,
+     2
+    ],
+    "multi_step_share": 0.55,
+    "_punch_source": "measured 2026-09-07: 809 shots / 3 channels; 20.8-31.1% of shots punched, 2.05-2.38 steps per punched shot"
+   },
+   "motion": {
+    "moving_share": [
+     0.65,
+     0.8
+    ],
+    "video_static_gets_motion": true,
+    "photo_zoom_total_pct": [
+     10,
+     14
+    ]
+   },
+   "pillarbox_portrait": true,
+   "overlays": {
+    "density_per_min": [
+     5,
+     10
+    ],
+    "enter_at_s": [
+     0.8,
+     1.4
+    ],
+    "exit": "stay",
+    "entrance": "draw-on",
+    "font": "condensed-sans",
+    "case": "ALL-CAPS",
+    "palette": {
+     "text": "#ffffff",
+     "accent": "#ffd23f",
+     "box": "#111111",
+     "alt_text": "#111111",
+     "alt_box": "#ffd23f"
+    },
+    "backing": "solid-box",
+    "words_max": 3,
+    "captions": "ask",
+    "captions_suggestion": "none (CheapFix/Eli/Hidden show no burned-in captions)",
+    "card": {
+     "font": "serif",
+     "bodyFont": "regular",
+     "plate": "#f4ecd8",
+     "ink": "#1c1c1c",
+     "accent": "#f28c28",
+     "accent2": "#2ab7c9",
+     "dim": 0.55
+    },
+    "captions_modes": [
+     "sentence-karaoke (full sentence on screen, spoken word highlighted)",
+     "word-pills (2-4 words, karaoke-pill)",
+     "none"
+    ],
+    "placement_share": {
+     "middle-center": 0.301,
+     "middle-left": 0.165,
+     "middle-right": 0.129,
+     "lower-center": 0.124,
+     "upper-center": 0.073,
+     "upper-right": 0.058,
+     "upper-left": 0.054,
+     "lower-left": 0.053,
+     "lower-right": 0.042
+    },
+    "pop_scale_share": 0.233,
+    "_placement_source": "measured 2026-09-07: 3163 text events / 3 channels / 67 min; density_per_min intentionally unchanged (see ISS-0006)"
+   },
+   "sfx": {
+    "mid_shot_per_min": [
+     0,
+     6
+    ],
+    "on_text_share": 0.75,
+    "map": {
+     "keyword-flash": "pop",
+     "key-phrase": "pop",
+     "stat-callout": "tick-burst",
+     "value-delta": "tick-burst",
+     "number-counter": "tick-burst",
+     "list-reveal": "click",
+     "list-numeral": "typewriter",
+     "price-callout": "cash",
+     "giant-price": "cash",
+     "label-pointer": "click",
+     "arrow-callout": "click",
+     "highlight-box": "click",
+     "circle-highlight": "click",
+     "solid-box-label": "thud-soft",
+     "lower-third": "pop",
+     "icon-accent": "pop",
+     "credibility-badge": "pop",
+     "map-locate": "pop",
+     "year-stamp": "shutter",
+     "chart-overlay": "ding",
+     "line-chart-reveal": "ding",
+     "callout-leader": "click",
+     "annotation-draw": "click",
+     "subscribe-cta": "pop-soft",
+     "toggle": "switch",
+     "comparison-grid": "select",
+     "info-card": "paper-slide",
+     "side-panel": "paper-slide",
+     "number-badge": "ding",
+     "price-tag": "cash",
+     "title-card": "paper-slide",
+     "quote-card": "pop-soft",
+     "dual-panel": "paper-slide",
+     "punch-in": "click-soft"
+    }
+   },
+   "music": {
+    "enabled": "ask",
+    "bed_db_under_voice": -19,
+    "bpm": [
+     110,
+     135
+    ],
+    "duck_db": 2.5,
+    "tags": [
+     "ambient",
+     "corporate",
+     "electronic"
+    ],
+    "ask_text": "Music bed under the narration? The reference channels all have one (-19 dB under voice); off if you say no."
+   },
+   "ambience": {
+    "enabled": false
+   },
+   "mix": {
+    "integrated_lufs": -19,
+    "true_peak_dbtp": -1,
+    "narration_compression": "ask",
+    "narration_compression_default": false,
+    "narration_lra_target": [
+     2.8,
+     3.3
+    ],
+    "_narration_note": "OPT-IN ONLY, never applied without an explicit yes. Measured 2026-09-07: all 3 reference channels crush narration to LRA 2.8-3.3 LU (two also clip above 0 dBFS), which is why they sound relentless. Our standing rule is that narration audio is referenced in place and never reprocessed - a previous loudnorm dynamic-mode pass audibly degraded a real narration. So this is a question at the run-shape step, and the default answer is NO."
+   },
+   "look": {
+    "vignette_share": [
+     0.38,
+     0.52
+    ],
+    "vignette_strength": 0.4,
+    "grain": "archival-only",
+    "bw_archival": true,
+    "color": "natural-warm",
+    "grade_share": {
+     "natural": 0.63,
+     "warm": 0.19,
+     "desaturate": 0.09,
+     "bw": 0.06,
+     "cool": 0.03
+    },
+    "high_contrast_share": 0.16,
+    "_grade_source": "measured 2026-09-07: 809 shots / 3 channels / 67 min, every second"
+   },
+   "hook": {
+    "first_cut_s": 4,
+    "first_overlay_s": 6,
+    "first_sfx_cut_s": 12
+   },
+   "devices": {
+    "section-start": "title-card",
+    "number": "number-badge",
+    "headline-number": "giant-price",
+    "number-change": "number-counter",
+    "rate": "number-counter",
+    "list": "info-card",
+    "numbered-item": "list-numeral",
+    "quote": "quote-card",
+    "keyword": "keyword-flash",
+    "question": "keyword-flash",
+    "warning-or-confirmation": "solid-box-label",
+    "visible-detail": "label-pointer",
+    "contrast": "side-panel",
+    "price": "price-tag",
+    "date-or-place": "year-stamp",
+    "citation": "source-tag",
+    "jargon": "definition-callout",
+    "new-topic": "solid-box-label",
+    "pivot-or-thesis": "title-card",
+    "archival": "bw+vignette",
+    "portrait": "pillarbox"
+   }
   }
+ },
+ "sfx_levels_linear": {
+  "_comment": "Measured: transition whoosh/hit peaks at about voice RMS (-0.3\u2026+3.4 dB); UI pops/clicks sit -20\u2026-26 dB under voice; dings -18\u2026-22; cash/impact -12\u2026-18. Linear values are relative to the engine's 1.0 = narration reference (see references/audio-mix.md).",
+  "whoosh-short": 0.45,
+  "whoosh": 0.4,
+  "whoosh-cinematic": 0.35,
+  "impact-bass-1": 0.22,
+  "impact-bass-2": 0.22,
+  "riser": 0.14,
+  "glitch-1": 0.3,
+  "glitch-3": 0.2,
+  "pop": 0.09,
+  "click": 0.09,
+  "click-soft": 0.07,
+  "ping": 0.1,
+  "chime": 0.1,
+  "notification": 0.09,
+  "sparkle": 0.08,
+  "key-press": 0.08,
+  "typing": 0.08,
+  "error": 0.12,
+  "tick": 0.09,
+  "tick-burst": 0.09,
+  "ding": 0.12,
+  "ding-soft": 0.09,
+  "cash": 0.16,
+  "coin": 0.12,
+  "shutter": 0.12,
+  "paper-tear": 0.3,
+  "typewriter": 0.09,
+  "thud-soft": 0.18,
+  "swell": 0.14,
+  "whoosh-fast": 0.42,
+  "whoosh-air": 0.4,
+  "whoosh-sweep": 0.38,
+  "whoosh-explainer": 0.4,
+  "whoosh-hit": 0.3,
+  "swoosh-wind": 0.3,
+  "pop-soft": 0.07,
+  "switch": 0.1,
+  "select": 0.08,
+  "toggle": 0.09,
+  "paper-slide": 0.22,
+  "glitch-soft": 0.25
+ }
 }

@@ -4761,3 +4761,1546 @@ beat 118: frame built [photo, kenburns=pan-left]
 ### Chunked render — split
 3 chunk(s) created
   - **chunks:** chunk-00: beats 01-40, ~40 sources | chunk-01: beats 41-80, ~40 sources | chunk-02: beats 81-118, ~38 sources
+
+### Step 5 — build-frame
+beat 01: frame built [video, kenburns=none]
+  - **overlay:** keyword-flash
+  - **overlay params:** {"text":"CRAYFISH","position":"center","placement":"middle-center","entrance":"pop-scale"}
+  - **overlay enterAt:** 1.4s
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/01-beat.html
+
+### Step 5 — build-frame
+beat 02: frame built [video, kenburns=none]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** yes
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/02-beat.html
+
+### Step 5 — build-frame
+beat 03: frame built [photo, kenburns=pan-right]
+  - **overlay:** keyword-flash
+  - **overlay params:** {"text":"WINDOW","position":"center","placement":"middle-left"}
+  - **overlay enterAt:** 1.19s
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/03-beat.html
+
+### Step 5 — build-frame
+beat 04: frame built [video, kenburns=none]
+  - **overlay:** title-card
+  - **overlay params:** {"title":"It is the engine. It is the reason the Everglades could su","kicker":"","placement":"middle-center"}
+  - **overlay enterAt:** 1.4s
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/04-beat.html
+
+### Step 5 — build-frame
+beat 05: frame built [photo, kenburns=out]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/05-beat.html
+
+### Step 5 — build-frame
+beat 06: frame built [video, kenburns=none]
+  - **overlay:** title-card
+  - **overlay params:** {"title":"The animal that never leaves","kicker":"Part 2","placement":"middle-left"}
+  - **overlay enterAt:** 0.2s
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/06-beat.html
+
+### Step 5 — build-frame
+beat 07: frame built [video, kenburns=none]
+  - **overlay:** definition-callout
+  - **overlay params:** {"term":"Swamp eel","definition":"air-breathing, so a drying pool is not a barrier","placement":"middle-center","entrance":"pop-scale"}
+  - **overlay enterAt:** 1.4s
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/07-beat.html
+
+### Step 5 — build-frame
+beat 08: frame built [video, kenburns=video-handheld-drift]
+  - **overlay:** keyword-flash
+  - **overlay params:** {"text":"MUD","position":"center","placement":"middle-left"}
+  - **overlay enterAt:** 1.4s
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** 4.45s ×1.375
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/08-beat.html
+
+### Step 5 — build-frame
+beat 09: frame built [video, kenburns=none]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/09-beat.html
+
+### Step 5 — build-frame
+beat 10: frame built [video, kenburns=video-push-in]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/10-beat.html
+
+### Step 5 — build-frame
+beat 11: frame built [photo, kenburns=pan-left]
+  - **overlay:** title-card
+  - **overlay params:** {"title":"Above the line, below the line","kicker":"Part 3","placement":"middle-center"}
+  - **overlay enterAt:** 0.2s
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/11-beat.html
+
+### Step 5 — build-frame
+beat 12: frame built [video, kenburns=none]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/12-beat.html
+
+### Step 5 — build-frame
+beat 13: frame built [photo, kenburns=in]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/13-beat.html
+
+### Step 5 — build-frame
+beat 14: frame built [video, kenburns=none]
+  - **overlay:** keyword-flash
+  - **overlay params:** {"text":"LAYER","position":"center","placement":"middle-right"}
+  - **overlay enterAt:** 1.07s
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/14-beat.html
+
+### Step 5 — build-frame
+beat 15: frame built [photo, kenburns=pan-left]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/15-beat.html
+
+### Step 5 — build-frame
+beat 16: frame built [photo, kenburns=pan-right]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** yes
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/16-beat.html
+
+### Step 5 — build-frame
+beat 17: frame built [photo, kenburns=in]
+  - **overlay:** keyword-flash
+  - **overlay params:** {"text":"ALTITUDE","position":"center","placement":"middle-center","entrance":"pop-scale"}
+  - **overlay enterAt:** 1.1s
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/17-beat.html
+
+### Step 5 — build-frame
+beat 18: frame built [video, kenburns=none]
+  - **overlay:** title-card
+  - **overlay params:** {"title":"The numbers were already published","kicker":"Part 4","placement":"lower-center"}
+  - **overlay enterAt:** 0.2s
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/18-beat.html
+
+### Step 5 — build-frame
+beat 19: frame built [video, kenburns=video-push-in]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** yes
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/19-beat.html
+
+### Step 5 — build-frame
+beat 20: frame built [video, kenburns=video-push-in]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/20-beat.html
+
+### Step 5 — build-frame
+beat 21: frame built [video, kenburns=none]
+  - **overlay:** keyword-flash
+  - **overlay params:** {"text":"CURRENCY","position":"center","placement":"middle-center"}
+  - **overlay enterAt:** 1.4s
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/21-beat.html
+
+### Step 5 — build-frame
+beat 22: frame built [photo, kenburns=in]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** yes
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/22-beat.html
+
+### Step 5 — build-frame
+beat 23: frame built [photo, kenburns=out]
+  - **overlay:** keyword-flash
+  - **overlay params:** {"text":"LAYER","position":"center","placement":"middle-left"}
+  - **overlay enterAt:** 1.4s
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** 4.09s ×1.45
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/23-beat.html
+
+### Step 5 — build-frame
+beat 24: frame built [video, kenburns=none]
+  - **overlay:** title-card
+  - **overlay params:** {"title":"Checking everything else","kicker":"Part 5","placement":"middle-center","entrance":"pop-scale"}
+  - **overlay enterAt:** 0.2s
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/24-beat.html
+
+### Step 5 — build-frame
+beat 25: frame built [photo, kenburns=pan-right]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/25-beat.html
+
+### Step 5 — build-frame
+beat 26: frame built [video, kenburns=none]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/26-beat.html
+
+### Step 5 — build-frame
+beat 27: frame built [video, kenburns=none]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/27-beat.html
+
+### Step 5 — build-frame
+beat 28: frame built [video, kenburns=none]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/28-beat.html
+
+### Step 5 — build-frame
+beat 29: frame built [photo, kenburns=pan-right]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/29-beat.html
+
+### Step 5 — build-frame
+beat 30: frame built [video, kenburns=none]
+  - **overlay:** title-card
+  - **overlay params:** {"title":"Every other explanation, tested","kicker":"Part 6","placement":"middle-right"}
+  - **overlay enterAt:** 0.2s
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/30-beat.html
+
+### Step 5 — build-frame
+beat 31: frame built [video, kenburns=none]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/31-beat.html
+
+### Step 5 — build-frame
+beat 32: frame built [video, kenburns=none]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/32-beat.html
+
+### Step 5 — build-frame
+beat 33: frame built [video, kenburns=none]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/33-beat.html
+
+### Step 5 — build-frame
+beat 34: frame built [video, kenburns=none]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/34-beat.html
+
+### Step 5 — build-frame
+beat 35: frame built [video, kenburns=none]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** 3.75s ×1.4
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/35-beat.html
+
+### Step 5 — build-frame
+beat 36: frame built [video, kenburns=none]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** yes
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/36-beat.html
+
+### Step 5 — build-frame
+beat 37: frame built [photo, kenburns=pan-left]
+  - **overlay:** definition-callout
+  - **overlay params:** {"term":"Chytrid fungus","definition":"a leading global amphibian killer — tested and ruled out","placement":"middle-center"}
+  - **overlay enterAt:** 1.4s
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/37-beat.html
+
+### Step 5 — build-frame
+beat 38: frame built [video, kenburns=none]
+  - **overlay:** definition-callout
+  - **overlay params:** {"term":"Chytrid fungus","definition":"a leading global amphibian killer — tested and ruled out","placement":"lower-center"}
+  - **overlay enterAt:** 1.19s
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/38-beat.html
+
+### Step 5 — build-frame
+beat 39: frame built [video, kenburns=none]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** yes
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/39-beat.html
+
+### Step 5 — build-frame
+beat 40: frame built [video, kenburns=none]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/40-beat.html
+
+### Step 5 — build-frame
+beat 41: frame built [photo, kenburns=out]
+  - **overlay:** keyword-flash
+  - **overlay params:** {"text":"STUDY","position":"center","placement":"upper-center","entrance":"pop-scale"}
+  - **overlay enterAt:** 1.4s
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/41-beat.html
+
+### Step 5 — build-frame
+beat 42: frame built [video, kenburns=none]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** yes
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/42-beat.html
+
+### Step 5 — build-frame
+beat 43: frame built [video, kenburns=none]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/43-beat.html
+
+### Step 5 — build-frame
+beat 44: frame built [video, kenburns=none]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** 1.98s ×1.425
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/44-beat.html
+
+### Step 5 — build-frame
+beat 45: frame built [video, kenburns=none]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/45-beat.html
+
+### Step 5 — build-frame
+beat 46: frame built [video, kenburns=none]
+  - **overlay:** title-card
+  - **overlay params:** {"title":"Twice the size of any other factor","kicker":"Part 7","placement":"middle-center"}
+  - **overlay enterAt:** 0.2s
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/46-beat.html
+
+### Step 5 — build-frame
+beat 47: frame built [video, kenburns=none]
+  - **overlay:** title-card
+  - **overlay params:** {"title":"That's the finding. Not that swamp eels are one of several","kicker":"","placement":"middle-left"}
+  - **overlay enterAt:** 1.4s
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/47-beat.html
+
+### Step 5 — build-frame
+beat 48: frame built [video, kenburns=none]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/48-beat.html
+
+### Step 5 — build-frame
+beat 49: frame built [photo, kenburns=out]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/49-beat.html
+
+### Step 5 — build-frame
+beat 50: frame built [video, kenburns=none]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/50-beat.html
+
+### Step 5 — build-frame
+beat 51: frame built [video, kenburns=none]
+  - **overlay:** keyword-flash
+  - **overlay params:** {"text":"ABUNDANCE","position":"center","placement":"middle-right"}
+  - **overlay enterAt:** 1.4s
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/51-beat.html
+
+### Step 5 — build-frame
+beat 52: frame built [video, kenburns=none]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/52-beat.html
+
+### Step 5 — build-frame
+beat 53: frame built [video, kenburns=none]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/53-beat.html
+
+### Step 5 — build-frame
+beat 54: frame built [video, kenburns=none]
+  - **overlay:** keyword-flash
+  - **overlay params:** {"text":"FROG","position":"center","placement":"lower-center","entrance":"pop-scale"}
+  - **overlay enterAt:** 1.4s
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/54-beat.html
+
+### Step 5 — build-frame
+beat 55: frame built [video, kenburns=none]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** 1.97s ×1.375
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/55-beat.html
+
+### Step 5 — build-frame
+beat 56: frame built [video, kenburns=none]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** yes
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/56-beat.html
+
+### Step 5 — build-frame
+beat 57: frame built [photo, kenburns=in]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/57-beat.html
+
+### Step 5 — build-frame
+beat 58: frame built [video, kenburns=none]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/58-beat.html
+
+### Step 5 — build-frame
+beat 59: frame built [video, kenburns=none]
+  - **overlay:** keyword-flash
+  - **overlay params:** {"text":"EEL","position":"center","placement":"upper-center"}
+  - **overlay enterAt:** 1.4s
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** yes
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/59-beat.html
+
+### Step 5 — build-frame
+beat 60: frame built [video, kenburns=none]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/60-beat.html
+
+### Step 5 — build-frame
+beat 61: frame built [video, kenburns=none]
+  - **overlay:** title-card
+  - **overlay params:** {"title":"Two species, both eel-shaped","kicker":"Part 8","placement":"upper-right"}
+  - **overlay enterAt:** 0.2s
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/61-beat.html
+
+### Step 5 — build-frame
+beat 62: frame built [video, kenburns=none]
+  - **overlay:** keyword-flash
+  - **overlay params:** {"text":"PREY","position":"center","placement":"upper-left"}
+  - **overlay enterAt:** 1.4s
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** yes
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/62-beat.html
+
+### Step 5 — build-frame
+beat 63: frame built [video, kenburns=none]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/63-beat.html
+
+### Step 5 — build-frame
+beat 64: frame built [video, kenburns=none]
+  - **overlay:** keyword-flash
+  - **overlay params:** {"text":"INVASION","position":"center","placement":"lower-left","entrance":"pop-scale"}
+  - **overlay enterAt:** 1.29s
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/64-beat.html
+
+### Step 5 — build-frame
+beat 65: frame built [video, kenburns=none]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/65-beat.html
+
+### Step 5 — build-frame
+beat 66: frame built [video, kenburns=none]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/66-beat.html
+
+### Step 5 — build-frame
+beat 67: frame built [photo, kenburns=out]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/67-beat.html
+
+### Step 5 — build-frame
+beat 68: frame built [video, kenburns=none]
+  - **overlay:** keyword-flash
+  - **overlay params:** {"text":"SITES","position":"center","placement":"middle-center"}
+  - **overlay enterAt:** 1.4s
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** 5.81s ×1.45
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/68-beat.html
+
+### Step 5 — build-frame
+beat 69: frame built [video, kenburns=none]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/69-beat.html
+
+### Step 5 — build-frame
+beat 70: frame built [photo, kenburns=pan-right]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/70-beat.html
+
+### Step 5 — build-frame
+beat 71: frame built [video, kenburns=none]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/71-beat.html
+
+### Step 5 — build-frame
+beat 72: frame built [video, kenburns=none]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/72-beat.html
+
+### Step 5 — build-frame
+beat 73: frame built [photo, kenburns=pan-left]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/73-beat.html
+
+### Step 5 — build-frame
+beat 74: frame built [photo, kenburns=pan-right]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/74-beat.html
+
+### Step 5 — build-frame
+beat 75: frame built [video, kenburns=none]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/75-beat.html
+
+### Step 5 — build-frame
+beat 76: frame built [video, kenburns=none]
+  - **overlay:** title-card
+  - **overlay params:** {"title":"Why almost nothing can be done","kicker":"Part 9","placement":"middle-left"}
+  - **overlay enterAt:** 0.2s
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** yes
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/76-beat.html
+
+### Step 5 — build-frame
+beat 77: frame built [video, kenburns=none]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** 1.67s ×1.35
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/77-beat.html
+
+### Step 5 — build-frame
+beat 78: frame built [video, kenburns=video-push-in]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/78-beat.html
+
+### Step 5 — build-frame
+beat 79: frame built [video, kenburns=video-handheld-drift]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** yes
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/79-beat.html
+
+### Step 5 — build-frame
+beat 80: frame built [video, kenburns=video-handheld-drift]
+  - **overlay:** keyword-flash
+  - **overlay params:** {"text":"MUD","position":"center","placement":"middle-right"}
+  - **overlay enterAt:** 1.4s
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/80-beat.html
+
+### Step 5 — build-frame
+beat 81: frame built [video, kenburns=none]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/81-beat.html
+
+### Step 5 — build-frame
+beat 82: frame built [video, kenburns=none]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/82-beat.html
+
+### Step 5 — build-frame
+beat 83: frame built [video, kenburns=none]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/83-beat.html
+
+### Step 5 — build-frame
+beat 84: frame built [video, kenburns=none]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/84-beat.html
+
+### Step 5 — build-frame
+beat 85: frame built [video, kenburns=none]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/85-beat.html
+
+### Step 5 — build-frame
+beat 86: frame built [video, kenburns=none]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/86-beat.html
+
+### Step 5 — build-frame
+beat 87: frame built [video, kenburns=none]
+  - **overlay:** keyword-flash
+  - **overlay params:** {"text":"WADING","position":"center","placement":"lower-center","entrance":"pop-scale"}
+  - **overlay enterAt:** 1.4s
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/87-beat.html
+
+### Step 5 — build-frame
+beat 88: frame built [video, kenburns=none]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/88-beat.html
+
+### Step 5 — build-frame
+beat 89: frame built [video, kenburns=video-push-in]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/89-beat.html
+
+### Step 5 — build-frame
+beat 90: frame built [video, kenburns=none]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/90-beat.html
+
+### Step 5 — build-frame
+beat 91: frame built [video, kenburns=video-push-in]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/91-beat.html
+
+### Step 5 — build-frame
+beat 92: frame built [video, kenburns=none]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/92-beat.html
+
+### Step 5 — build-frame
+beat 93: frame built [video, kenburns=video-push-in]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/93-beat.html
+
+### Step 5 — build-frame
+beat 94: frame built [photo, kenburns=out]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/94-beat.html
+
+### Step 5 — build-frame
+beat 95: frame built [photo, kenburns=pan-left]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** 2.82s ×1.425
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/95-beat.html
+
+### Step 5 — build-frame
+beat 96: frame built [video, kenburns=none]
+  - **overlay:** title-card
+  - **overlay params:** {"title":"The front line is moving","kicker":"Part 10","placement":"upper-center"}
+  - **overlay enterAt:** 0.2s
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** yes
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/96-beat.html
+
+### Step 5 — build-frame
+beat 97: frame built [video, kenburns=video-handheld-drift]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/97-beat.html
+
+### Step 5 — build-frame
+beat 98: frame built [video, kenburns=none]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** 4.9s ×1.35
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/98-beat.html
+
+### Step 5 — build-frame
+beat 99: frame built [video, kenburns=none]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** yes
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/99-beat.html
+
+### Step 5 — build-frame
+beat 100: frame built [video, kenburns=none]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/100-beat.html
+
+### Step 5 — build-frame
+beat 101: frame built [video, kenburns=video-push-in]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/101-beat.html
+
+### Step 5 — build-frame
+beat 102: frame built [photo, kenburns=pan-right]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/102-beat.html
+
+### Step 5 — build-frame
+beat 103: frame built [video, kenburns=none]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/103-beat.html
+
+### Step 5 — build-frame
+beat 104: frame built [video, kenburns=none]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/104-beat.html
+
+### Step 5 — build-frame
+beat 105: frame built [photo, kenburns=pan-left]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/105-beat.html
+
+### Step 5 — build-frame
+beat 106: frame built [video, kenburns=none]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/106-beat.html
+
+### Step 5 — build-frame
+beat 107: frame built [video, kenburns=none]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/107-beat.html
+
+### Step 5 — build-frame
+beat 108: frame built [photo, kenburns=out]
+  - **overlay:** keyword-flash
+  - **overlay params:** {"text":"LAYER","position":"center","placement":"upper-right"}
+  - **overlay enterAt:** 1.21s
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/108-beat.html
+
+### Step 5 — build-frame
+beat 109: frame built [photo, kenburns=pan-left]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** 0.95s ×1.425
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/109-beat.html
+
+### Step 5 — build-frame
+beat 110: frame built [video, kenburns=none]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/110-beat.html
+
+### Step 5 — build-frame
+beat 111: frame built [video, kenburns=none]
+  - **overlay:** title-card
+  - **overlay params:** {"title":"High risk, 28 years late","kicker":"Part 11","placement":"upper-left"}
+  - **overlay enterAt:** 0.2s
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/111-beat.html
+
+### Step 5 — build-frame
+beat 112: frame built [video, kenburns=video-push-in]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/112-beat.html
+
+### Step 5 — build-frame
+beat 113: frame built [photo, kenburns=out]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/113-beat.html
+
+### Step 5 — build-frame
+beat 114: frame built [video, kenburns=none]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/114-beat.html
+
+### Step 5 — build-frame
+beat 115: frame built [video, kenburns=none]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/115-beat.html
+
+### Step 5 — build-frame
+beat 116: frame built [video, kenburns=none]
+  - **overlay:** keyword-flash
+  - **overlay params:** {"text":"HOLLOWED","position":"center","placement":"lower-left","entrance":"pop-scale"}
+  - **overlay enterAt:** 1.4s
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** yes
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/116-beat.html
+
+### Step 5 — build-frame
+beat 117: frame built [photo, kenburns=out]
+  - **overlay:** title-card
+  - **overlay params:** {"title":"A barrier that cost over a billion dollars, built to stop ","kicker":"","placement":"lower-right"}
+  - **overlay enterAt:** 1.4s
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** 2.27s ×1.45
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/117-beat.html
+
+### Step 5 — build-frame
+beat 118: frame built [photo, kenburns=pan-left]
+  - **overlay:** none
+  - **overlay params:** n/a
+  - **overlay enterAt:** n/a
+  - **cutaway:** n/a
+  - **parallax:** n/a
+  - **punch-in:** n/a
+  - **pillarbox:** n/a
+  - **bw:** no
+  - **profile:** explainer-punchy
+  - **out:** compositions/frames/118-beat.html
+
+### Step 5 — build-frames-from-plan
+118 frames built from the explainer-punchy template plan
+  - **failed:** none
+  - **skipped:** 0
+
+### Chunked render — split
+3 chunk(s) created
+  - **chunks:** chunk-00: beats 01-40, ~40 sources | chunk-01: beats 41-80, ~40 sources | chunk-02: beats 81-118, ~38 sources

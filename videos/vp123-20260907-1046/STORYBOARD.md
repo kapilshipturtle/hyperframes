@@ -5,8 +5,7 @@
 - profile: explainer-punchy
 - audio: assets/audio/narration.m4a
 
-## Frame 1 — beat 01
-
+## Frame 01
 - src: compositions/frames/01-beat.html
 - duration: 5.42s
 - status: built
@@ -15,8 +14,7 @@
 - query: hand flipping light switch dark room
 - narration: Tonight, when the sun goes down, you're going to flip a switch. Light will flood the room, and you won't think twice about it.
 
-## Frame 2 — beat 02
-
+## Frame 02
 - src: compositions/frames/02-beat.html
 - duration: 4.33s
 - status: built
@@ -25,8 +23,7 @@
 - query: old oil lamp burning darkness
 - narration: But for 99.9% of human history, that switch didn't exist.
 
-## Frame 3 — beat 03
-
+## Frame 03
 - src: compositions/frames/03-beat.html
 - duration: 4.95s
 - status: built
@@ -35,8 +32,7 @@
 - query: pitch black night no light silhouette
 - narration: When the sun set, the world went dark. You couldn't even see your own hand in front of your face.
 
-## Frame 4 — beat 04
-
+## Frame 04
 - src: compositions/frames/04-beat.html
 - sfx: whoosh-hit, paper-slide
 - duration: 9.14s
@@ -47,8 +43,7 @@
 - overlay: title-card at middle-center, pop-scale entrance
 - narration: But modern humans almost never experienced this. For over 300,000 years, every single one of your ancestors spent roughly half their life in near total
 
-## Frame 5 — beat 05
-
+## Frame 05
 - src: compositions/frames/05-beat.html
 - sfx: paper-slide
 - duration: 3.16s
@@ -59,8 +54,7 @@
 - overlay: title-card at middle-left, fade entrance
 - narration: darkness. They didn't even have candles for most of that time.
 
-## Frame 6 — beat 06
-
+## Frame 06
 - src: compositions/frames/06-beat.html
 - sfx: paper-slide
 - duration: 3.77s
@@ -71,8 +65,7 @@
 - overlay: info-card at middle-center, fade entrance
 - narration: Just the black sky, the stars, and whatever fire they could keep alive.
 
-## Frame 7 — beat 07
-
+## Frame 07
 - src: compositions/frames/07-beat.html
 - sfx: whoosh-air, paper-slide
 - duration: 6.55s
@@ -83,8 +76,7 @@
 - overlay: title-card at middle-right, fade entrance
 - narration: So what did they actually do for all those hours? The answer changes everything we think we know about sleep, storytelling,
 
-## Frame 8 — beat 08
-
+## Frame 08
 - src: compositions/frames/08-beat.html
 - duration: 6.18s
 - status: built

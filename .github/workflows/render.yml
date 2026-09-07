@@ -416,6 +416,12 @@ jobs:
 
       # Defect gate (blocking): black / near-black video only. Runs the same script
       # with --defects-only so style targets cannot fail the job, but a black frame can.
+      # The defect gate deliberately runs AFTER the video is safely uploaded (below).
+      # Learned the hard way: a false positive from this gate (it once flagged a film
+      # that is legitimately dark — "you couldn't see your own hand" — as black video)
+      # skipped both the loudness pass and the artifact upload, so a perfectly good
+      # 43.5s render was discarded and had to be re-run. A gate should tell you the
+      # film is wrong; it must never be the reason you cannot look at it.
       - name: Defect gate (black frames — blocking)
         working-directory: ${{ matrix.project }}
         run: |
@@ -429,7 +435,9 @@ jobs:
         # own run-shape default ("Recommended: on" — see SKILL.md). Caught
         # as a real bug: the naive `== 'true'` check silently skipped
         # normalization on every auto-triggered push render.
-        if: ${{ github.event_name != 'workflow_dispatch' || github.event.inputs.normalize == 'true' }}
+        # `always() &&` so a failed defect gate does not also cost you the loudness pass —
+        # the two are independent, and an un-normalised render is a worse artifact.
+        if: ${{ always() && (github.event_name != 'workflow_dispatch' || github.event.inputs.normalize == 'true') }}
         working-directory: ${{ matrix.project }}
         run: |
           # Target follows the project's editing profile (explainer profiles master at -17…-19 LUFS, documentary at -14)
@@ -443,6 +451,7 @@ jobs:
 
       - name: Compute a slash-free artifact name
         id: artifact_name
+        if: always()
         run: echo "slug=$(echo '${{ matrix.project }}' | tr '/' '-')" >> "$GITHUB_OUTPUT"
 
       # retention-days lowered from 14 -> 3 (real fix, requested after a real
@@ -454,11 +463,15 @@ jobs:
       # risk. See the scheduled cleanup workflow (cleanup.yml) for the
       # complementary periodic sweep of anything that still slips past
       # this window.
+      # if: always() — the finished MP4 is uploaded even when a later gate fails, so a
+      # gate can never cost you the render (see the Defect gate note above).
       - uses: actions/upload-artifact@v7
+        if: always()
         with:
           name: video-${{ steps.artifact_name.outputs.slug }}-${{ github.run_number }}
           path: ${{ matrix.project }}/renders/video.mp4
           retention-days: 3
+          if-no-files-found: warn
 
       - uses: actions/upload-artifact@v7
         if: always()

@@ -1,0 +1,38 @@
+{
+  "totalChunks": 3,
+  "chunks": [
+    {
+      "index": 0,
+      "dirName": "chunk-00",
+      "originalBeatRange": [
+        "01",
+        "40"
+      ],
+      "frameCount": 40,
+      "sourceCount": 40,
+      "totalDurationSeconds": 250.5
+    },
+    {
+      "index": 1,
+      "dirName": "chunk-01",
+      "originalBeatRange": [
+        "41",
+        "80"
+      ],
+      "frameCount": 40,
+      "sourceCount": 40,
+      "totalDurationSeconds": 260.03
+    },
+    {
+      "index": 2,
+      "dirName": "chunk-02",
+      "originalBeatRange": [
+        "81",
+        "118"
+      ],
+      "frameCount": 38,
+      "sourceCount": 38,
+      "totalDurationSeconds": 223.55
+    }
+  ]
+}

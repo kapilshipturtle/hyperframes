@@ -223,6 +223,49 @@ check("vignette share of beats", vignetteShare, P?.look.vignette_share, { fail: 
     }
     if (known) check("photo share of beats", photos / known, P.media.photo_share, { fail: false });
   }
+  // 2d. TEXT PRESENCE + FLASH RATE. These four keys shipped with measured bands and
+  //     no consumer, which is exactly the ISS-0024 trap (a target nothing reads is
+  //     the same as no target). Computed from the PLAN, since these are planning
+  //     decisions: text-frame share = the fraction of the film's seconds covered by
+  //     a card's on-screen life; card life = the planned exit minus enter; graphic-
+  //     card share = beats whose archetype is a full designed card rather than a
+  //     small label; flash rate = accent transitions per minute.
+  {
+    const O = P?.overlays || {};
+    const cards = Object.values(overlays).filter((o) => o && o.archetype && o.archetype !== "none");
+    if (cards.length && total > 0) {
+      // life: prefer an explicit exitAt, else the profile's measured median life
+      const midLife = O.text_life_s ? (O.text_life_s[0] + O.text_life_s[1]) / 2 : 2;
+      const lives = cards.map((o) => {
+        const enter = Number(o.enterAt ?? 0);
+        const exit = o.exitAt != null ? Number(o.exitAt) : null;
+        return exit != null && exit > enter ? exit - enter : midLife;
+      });
+      if (O.text_life_s) check("card on-screen life (median)", med(lives), O.text_life_s, { unit: "s", fail: false });
+      if (O.text_frame_share) check("text-frame share of runtime", lives.reduce((a, b) => a + b, 0) / total, O.text_frame_share, { fail: false });
+      if (O.graphic_card_share) {
+        const FULL_CARD = new Set(["title-card", "info-card", "side-panel", "quote-card", "giant-price", "definition-callout", "comparison-card"]);
+        const full = cards.filter((o) => FULL_CARD.has(o.archetype)).length;
+        // SMALL-N GUARD. This band is a LONG-FILM rate (5-11 % of ~200 reference
+        // shots = 10-22 cards). On an 8-beat film a SINGLE card is already 0.125,
+        // above the ceiling, so the metric cannot land in band without having no
+        // cards at all — it would report a defect for doing the right thing.
+        // density_per_min already governs card count at every length; below ~40
+        // beats this share is reported for information only.
+        const MIN_BEATS_FOR_SHARE = 40;
+        if (beats.length >= MIN_BEATS_FOR_SHARE) {
+          check("graphic-card share of beats", full / beats.length, O.graphic_card_share, { fail: false });
+        } else {
+          console.log(`    graphic-card share ${(full / beats.length).toFixed(2)} (${full} card(s) on ${beats.length} beats) — band ${O.graphic_card_share[0]}-${O.graphic_card_share[1]} is a long-film rate, not meaningful under ${MIN_BEATS_FOR_SHARE} beats; density_per_min governs card count here`);
+        }
+      }
+    }
+    if (P?.transitions?.flash_per_min) {
+      const ACCENTS = /^(light-leak-flash|glitch-cut|whip-pan|zoom-through|paper-tear|iris|film-dissolve)/;
+      const flashes = (trans.transitions || []).filter((x) => ACCENTS.test(String(x))).length;
+      check("accent/flash transitions per minute", flashes / mins, P.transitions.flash_per_min, { fail: false });
+    }
+  }
   // 3. punch steps per punched shot — references average 2.05-2.38
   {
     const pv = Object.values(punches || {}).filter((x) => x && (x.at != null || x.steps));

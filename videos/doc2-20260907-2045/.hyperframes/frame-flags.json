@@ -1,0 +1,472 @@
+{
+ "10": {
+  "vignette": 0.542,
+  "grade": "desaturate"
+ },
+ "11": {
+  "vignette": 0.542,
+  "grade": "warm",
+  "gradeContrast": true
+ },
+ "12": {
+  "vignette": 0.542,
+  "grade": "cool"
+ },
+ "13": {
+  "vignette": 0.542,
+  "grade": "desaturate"
+ },
+ "14": {
+  "vignette": 0.542,
+  "grade": "warm",
+  "gradeContrast": true
+ },
+ "15": {
+  "vignette": 0.542,
+  "grade": "cool"
+ },
+ "16": {
+  "vignette": 0.542,
+  "bw": true
+ },
+ "17": {
+  "vignette": 0.542,
+  "grade": "warm",
+  "gradeContrast": true
+ },
+ "18": {
+  "vignette": 0.542,
+  "grade": "desaturate"
+ },
+ "19": {
+  "vignette": 0.542,
+  "bw": true
+ },
+ "20": {
+  "vignette": 0.542,
+  "grade": "desaturate",
+  "gradeContrast": true
+ },
+ "21": {
+  "vignette": 0.542,
+  "grade": "desaturate"
+ },
+ "22": {
+  "vignette": 0.542,
+  "bw": true
+ },
+ "23": {
+  "vignette": 0.542,
+  "grade": "desaturate",
+  "gradeContrast": true
+ },
+ "24": {
+  "vignette": 0.542,
+  "grade": "desaturate"
+ },
+ "25": {
+  "vignette": 0.542,
+  "grade": "cool"
+ },
+ "26": {
+  "vignette": 0.542,
+  "grade": "cool",
+  "gradeContrast": true
+ },
+ "27": {
+  "vignette": 0.542,
+  "grade": "desaturate"
+ },
+ "28": {
+  "vignette": 0.542,
+  "grade": "desaturate"
+ },
+ "29": {
+  "vignette": 0.542,
+  "grade": "cool",
+  "gradeContrast": true
+ },
+ "30": {
+  "vignette": 0.542,
+  "grade": "desaturate"
+ },
+ "31": {
+  "vignette": 0.542,
+  "grade": "warm"
+ },
+ "32": {
+  "vignette": 0.542,
+  "grade": "cool",
+  "gradeContrast": true
+ },
+ "33": {
+  "vignette": 0.542,
+  "grade": "desaturate"
+ },
+ "34": {
+  "vignette": 0.542,
+  "grade": "warm"
+ },
+ "35": {
+  "vignette": 0.542,
+  "grade": "cool",
+  "gradeContrast": true
+ },
+ "36": {
+  "vignette": 0.542,
+  "bw": true
+ },
+ "37": {
+  "vignette": 0.542,
+  "grade": "warm"
+ },
+ "38": {
+  "vignette": 0.542,
+  "grade": "desaturate",
+  "gradeContrast": true
+ },
+ "39": {
+  "vignette": 0.542,
+  "bw": true
+ },
+ "40": {
+  "vignette": 0.542,
+  "grade": "desaturate"
+ },
+ "41": {
+  "vignette": 0.542,
+  "grade": "desaturate",
+  "gradeContrast": true
+ },
+ "42": {
+  "vignette": 0.542,
+  "bw": true
+ },
+ "43": {
+  "vignette": 0.542,
+  "grade": "desaturate"
+ },
+ "44": {
+  "vignette": 0.542,
+  "grade": "desaturate",
+  "gradeContrast": true
+ },
+ "45": {
+  "vignette": 0.542,
+  "grade": "desaturate"
+ },
+ "46": {
+  "vignette": 0.542,
+  "grade": "cool"
+ },
+ "47": {
+  "vignette": 0.542,
+  "grade": "desaturate",
+  "gradeContrast": true
+ },
+ "48": {
+  "vignette": 0.542
+ },
+ "49": {
+  "vignette": 0.542,
+  "grade": "cool"
+ },
+ "50": {
+  "vignette": 0.542,
+  "grade": "desaturate",
+  "gradeContrast": true
+ },
+ "51": {
+  "vignette": 0.542,
+  "grade": "warm"
+ },
+ "52": {
+  "vignette": 0.542,
+  "grade": "cool"
+ },
+ "53": {
+  "vignette": 0.542,
+  "gradeContrast": true
+ },
+ "54": {
+  "vignette": 0.542,
+  "grade": "warm"
+ },
+ "55": {
+  "vignette": 0.542,
+  "grade": "desaturate"
+ },
+ "56": {
+  "vignette": 0.542,
+  "bw": true,
+  "gradeContrast": true
+ },
+ "57": {
+  "vignette": 0.542,
+  "grade": "warm"
+ },
+ "58": {
+  "vignette": 0.542
+ },
+ "59": {
+  "vignette": 0.542,
+  "bw": true,
+  "gradeContrast": true
+ },
+ "60": {
+  "vignette": 0.542,
+  "grade": "desaturate"
+ },
+ "61": {
+  "vignette": 0.542,
+  "grade": "desaturate"
+ },
+ "62": {
+  "vignette": 0.542,
+  "bw": true,
+  "gradeContrast": true
+ },
+ "63": {
+  "vignette": 0.542
+ },
+ "64": {
+  "vignette": 0.542,
+  "grade": "desaturate"
+ },
+ "65": {
+  "vignette": 0.542,
+  "grade": "desaturate",
+  "gradeContrast": true
+ },
+ "66": {
+  "vignette": 0.542,
+  "grade": "cool"
+ },
+ "67": {
+  "vignette": 0.542,
+  "grade": "desaturate"
+ },
+ "68": {
+  "vignette": 0.542,
+  "gradeContrast": true
+ },
+ "69": {
+  "vignette": 0.542,
+  "grade": "cool"
+ },
+ "70": {
+  "vignette": 0.542,
+  "grade": "desaturate"
+ },
+ "71": {
+  "vignette": 0.542,
+  "grade": "warm",
+  "gradeContrast": true
+ },
+ "72": {
+  "vignette": 0.542,
+  "grade": "cool"
+ },
+ "73": {
+  "vignette": 0.542
+ },
+ "74": {
+  "vignette": 0.542,
+  "grade": "warm",
+  "gradeContrast": true
+ },
+ "75": {
+  "vignette": 0.542,
+  "grade": "desaturate"
+ },
+ "76": {
+  "vignette": 0.542,
+  "bw": true
+ },
+ "77": {
+  "vignette": 0.542,
+  "grade": "desaturate",
+  "gradeContrast": true
+ },
+ "78": {
+  "vignette": 0.542
+ },
+ "79": {
+  "vignette": 0.542,
+  "bw": true
+ },
+ "80": {
+  "vignette": 0.542,
+  "grade": "desaturate",
+  "gradeContrast": true
+ },
+ "81": {
+  "vignette": 0.542,
+  "grade": "desaturate"
+ },
+ "82": {
+  "vignette": 0.542,
+  "grade": "cool"
+ },
+ "83": {
+  "vignette": 0.542
+ },
+ "84": {
+  "vignette": 0.542,
+  "grade": "desaturate"
+ },
+ "85": {
+  "vignette": 0.542,
+  "grade": "desaturate"
+ },
+ "86": {
+  "vignette": 0.542,
+  "grade": "cool"
+ },
+ "87": {
+  "vignette": 0.542,
+  "grade": "desaturate"
+ },
+ "88": {
+  "vignette": 0.542
+ },
+ "89": {
+  "vignette": 0.542,
+  "grade": "cool"
+ },
+ "90": {
+  "vignette": 0.542,
+  "grade": "desaturate"
+ },
+ "91": {
+  "vignette": 0.542,
+  "grade": "warm"
+ },
+ "92": {
+  "vignette": 0.542,
+  "grade": "cool"
+ },
+ "93": {
+  "vignette": 0.542
+ },
+ "94": {
+  "vignette": 0.542,
+  "grade": "warm"
+ },
+ "95": {
+  "vignette": 0.542,
+  "grade": "desaturate"
+ },
+ "96": {
+  "vignette": 0.542,
+  "bw": true
+ },
+ "97": {
+  "vignette": 0.542,
+  "grade": "desaturate"
+ },
+ "98": {
+  "vignette": 0.542
+ },
+ "99": {
+  "vignette": 0.542,
+  "bw": true
+ },
+ "100": {
+  "vignette": 0.542,
+  "grade": "desaturate"
+ },
+ "101": {
+  "vignette": 0.542,
+  "grade": "desaturate"
+ },
+ "102": {
+  "grade": "cool"
+ },
+ "103": {},
+ "104": {
+  "vignette": 0.542,
+  "grade": "desaturate"
+ },
+ "105": {
+  "grade": "desaturate"
+ },
+ "106": {
+  "grade": "cool"
+ },
+ "107": {
+  "vignette": 0.542,
+  "grade": "desaturate"
+ },
+ "108": {},
+ "109": {
+  "grade": "cool"
+ },
+ "110": {
+  "vignette": 0.542,
+  "grade": "desaturate"
+ },
+ "111": {
+  "vignette": 0.542,
+  "grade": "warm"
+ },
+ "112": {
+  "grade": "cool"
+ },
+ "113": {
+  "vignette": 0.542
+ },
+ "114": {
+  "grade": "warm"
+ },
+ "115": {
+  "grade": "desaturate"
+ },
+ "116": {
+  "vignette": 0.542,
+  "bw": true
+ },
+ "117": {
+  "grade": "desaturate"
+ },
+ "118": {},
+ "01": {
+  "vignette": 0.542,
+  "grade": "desaturate"
+ },
+ "02": {
+  "vignette": 0.542,
+  "bw": true,
+  "gradeContrast": true
+ },
+ "03": {
+  "vignette": 0.542,
+  "grade": "desaturate"
+ },
+ "04": {
+  "vignette": 0.542,
+  "grade": "desaturate"
+ },
+ "05": {
+  "vignette": 0.542,
+  "grade": "cool",
+  "gradeContrast": true
+ },
+ "06": {
+  "vignette": 0.542,
+  "grade": "cool"
+ },
+ "07": {
+  "vignette": 0.542,
+  "grade": "desaturate"
+ },
+ "08": {
+  "vignette": 0.542,
+  "grade": "desaturate",
+  "gradeContrast": true
+ },
+ "09": {
+  "vignette": 0.542,
+  "grade": "cool"
+ }
+}

@@ -1,0 +1,703 @@
+{
+ "10": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "scene-setting prose — footage carries it, no card"
+ },
+ "11": {
+  "archetype": "title-card",
+  "title": "Above the line, below the line",
+  "kicker": "Part 3",
+  "enterAt": 0.2,
+  "reason": "section start \"undefined\" — template section-start device",
+  "placement": "middle-center"
+ },
+ "12": {
+  "archetype": "none",
+  "enterAt": 1.28,
+  "reason": "scene-setting prose — footage carries it, no card"
+ },
+ "13": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "scene-setting prose — footage carries it, no card"
+ },
+ "14": {
+  "archetype": "keyword-flash",
+  "text": "LAYER",
+  "position": "center",
+  "enterAt": 1.07,
+  "reason": "stressed keyword",
+  "placement": "middle-right"
+ },
+ "15": {
+  "archetype": "none",
+  "enterAt": 1.38,
+  "reason": "scene-setting prose — footage carries it, no card"
+ },
+ "16": {
+  "archetype": "none",
+  "enterAt": 1.3,
+  "reason": "scene-setting prose — footage carries it, no card"
+ },
+ "17": {
+  "archetype": "keyword-flash",
+  "text": "ALTITUDE",
+  "position": "center",
+  "enterAt": 1.1,
+  "reason": "stressed keyword",
+  "placement": "middle-center",
+  "entrance": "pop-scale"
+ },
+ "18": {
+  "archetype": "title-card",
+  "title": "The numbers were already published",
+  "kicker": "Part 4",
+  "enterAt": 0.2,
+  "reason": "section start \"undefined\" — template section-start device",
+  "placement": "lower-center"
+ },
+ "19": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "dates the study being described"
+ },
+ "20": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "the study's headline collapse figure"
+ },
+ "21": {
+  "archetype": "keyword-flash",
+  "text": "CURRENCY",
+  "position": "center",
+  "enterAt": 1.4,
+  "reason": "stressed keyword",
+  "placement": "middle-center"
+ },
+ "22": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "scene-setting prose — footage carries it, no card"
+ },
+ "23": {
+  "archetype": "keyword-flash",
+  "text": "LAYER",
+  "position": "center",
+  "enterAt": 1.4,
+  "reason": "stressed keyword",
+  "placement": "middle-left"
+ },
+ "24": {
+  "archetype": "title-card",
+  "title": "Checking everything else",
+  "kicker": "Part 5",
+  "enterAt": 0.2,
+  "reason": "section start \"undefined\" — template section-start device",
+  "placement": "middle-center",
+  "entrance": "pop-scale"
+ },
+ "25": {
+  "archetype": "none",
+  "enterAt": 1.31,
+  "reason": "scene-setting prose — footage carries it, no card"
+ },
+ "26": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "scene-setting prose — footage carries it, no card"
+ },
+ "27": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "the survey's sample size — what makes the finding hard to argue with"
+ },
+ "28": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "the specific place the collapse was measured"
+ },
+ "29": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "scene-setting prose — footage carries it, no card"
+ },
+ "30": {
+  "archetype": "title-card",
+  "title": "Every other explanation, tested",
+  "kicker": "Part 6",
+  "enterAt": 0.2,
+  "reason": "section start \"undefined\" — template section-start device",
+  "placement": "middle-right"
+ },
+ "31": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "scene-setting prose — footage carries it, no card"
+ },
+ "32": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "scene-setting prose — footage carries it, no card"
+ },
+ "33": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "scene-setting prose — footage carries it, no card"
+ },
+ "34": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "scene-setting prose — footage carries it, no card"
+ },
+ "35": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "scene-setting prose — footage carries it, no card"
+ },
+ "36": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "scene-setting prose — footage carries it, no card"
+ },
+ "37": {
+  "archetype": "definition-callout",
+  "term": "Chytrid fungus",
+  "definition": "a leading global amphibian killer — tested and ruled out",
+  "enterAt": 1.4,
+  "reason": "jargon",
+  "placement": "middle-center"
+ },
+ "38": {
+  "archetype": "definition-callout",
+  "term": "Chytrid fungus",
+  "definition": "a leading global amphibian killer — tested and ruled out",
+  "enterAt": 1.19,
+  "reason": "jargon",
+  "placement": "lower-center"
+ },
+ "39": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "scene-setting prose — footage carries it, no card"
+ },
+ "40": {
+  "archetype": "none",
+  "enterAt": 1,
+  "reason": "scene-setting prose — footage carries it, no card"
+ },
+ "41": {
+  "archetype": "keyword-flash",
+  "text": "STUDY",
+  "position": "center",
+  "enterAt": 1.4,
+  "reason": "stressed keyword",
+  "placement": "upper-center",
+  "entrance": "pop-scale"
+ },
+ "42": {
+  "archetype": "none",
+  "enterAt": 1.2,
+  "reason": "scene-setting prose — footage carries it, no card"
+ },
+ "43": {
+  "archetype": "none",
+  "enterAt": 0.9,
+  "reason": "scene-setting prose — footage carries it, no card"
+ },
+ "44": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "scene-setting prose — footage carries it, no card"
+ },
+ "45": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "scene-setting prose — footage carries it, no card"
+ },
+ "46": {
+  "archetype": "title-card",
+  "title": "Twice the size of any other factor",
+  "kicker": "Part 7",
+  "enterAt": 0.2,
+  "reason": "section start \"undefined\" — template section-start device",
+  "placement": "middle-center"
+ },
+ "47": {
+  "archetype": "title-card",
+  "title": "That's the finding. Not that swamp eels are one of several",
+  "kicker": "",
+  "enterAt": 1.4,
+  "reason": "thesis / pivot line",
+  "placement": "middle-left"
+ },
+ "48": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "scene-setting prose — footage carries it, no card"
+ },
+ "49": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "scene-setting prose — footage carries it, no card"
+ },
+ "50": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "scene-setting prose — footage carries it, no card"
+ },
+ "51": {
+  "archetype": "keyword-flash",
+  "text": "ABUNDANCE",
+  "position": "center",
+  "enterAt": 1.4,
+  "reason": "stressed keyword",
+  "placement": "middle-right"
+ },
+ "52": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "scene-setting prose — footage carries it, no card"
+ },
+ "53": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "scene-setting prose — footage carries it, no card"
+ },
+ "54": {
+  "archetype": "keyword-flash",
+  "text": "FROG",
+  "position": "center",
+  "enterAt": 1.4,
+  "reason": "stressed keyword",
+  "placement": "lower-center",
+  "entrance": "pop-scale"
+ },
+ "55": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "scene-setting prose — footage carries it, no card"
+ },
+ "56": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "scene-setting prose — footage carries it, no card"
+ },
+ "57": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "scene-setting prose — footage carries it, no card"
+ },
+ "58": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "scene-setting prose — footage carries it, no card"
+ },
+ "59": {
+  "archetype": "keyword-flash",
+  "text": "EEL",
+  "position": "center",
+  "enterAt": 1.4,
+  "reason": "stressed keyword",
+  "placement": "upper-center"
+ },
+ "60": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "scene-setting prose — footage carries it, no card"
+ },
+ "61": {
+  "archetype": "title-card",
+  "title": "Two species, both eel-shaped",
+  "kicker": "Part 8",
+  "enterAt": 0.2,
+  "reason": "section start \"undefined\" — template section-start device",
+  "placement": "upper-right"
+ },
+ "62": {
+  "archetype": "keyword-flash",
+  "text": "PREY",
+  "position": "center",
+  "enterAt": 1.4,
+  "reason": "stressed keyword",
+  "placement": "upper-left"
+ },
+ "63": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "scene-setting prose — footage carries it, no card"
+ },
+ "64": {
+  "archetype": "keyword-flash",
+  "text": "INVASION",
+  "position": "center",
+  "enterAt": 1.29,
+  "reason": "stressed keyword",
+  "placement": "lower-left",
+  "entrance": "pop-scale"
+ },
+ "65": {
+  "archetype": "none",
+  "enterAt": 1.39,
+  "reason": "scene-setting prose — footage carries it, no card"
+ },
+ "66": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "scene-setting prose — footage carries it, no card"
+ },
+ "67": {
+  "archetype": "none",
+  "enterAt": 1.33,
+  "reason": "scene-setting prose — footage carries it, no card"
+ },
+ "68": {
+  "archetype": "keyword-flash",
+  "text": "SITES",
+  "position": "center",
+  "enterAt": 1.4,
+  "reason": "stressed keyword",
+  "placement": "middle-center"
+ },
+ "69": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "scene-setting prose — footage carries it, no card"
+ },
+ "70": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "scene-setting prose — footage carries it, no card"
+ },
+ "71": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "scene-setting prose — footage carries it, no card"
+ },
+ "72": {
+  "archetype": "none",
+  "enterAt": 1.18,
+  "reason": "scene-setting prose — footage carries it, no card"
+ },
+ "73": {
+  "archetype": "none",
+  "enterAt": 1.27,
+  "reason": "scene-setting prose — footage carries it, no card"
+ },
+ "74": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "scene-setting prose — footage carries it, no card"
+ },
+ "75": {
+  "archetype": "none",
+  "enterAt": 1.28,
+  "reason": "scene-setting prose — footage carries it, no card"
+ },
+ "76": {
+  "archetype": "title-card",
+  "title": "Why almost nothing can be done",
+  "kicker": "Part 9",
+  "enterAt": 0.2,
+  "reason": "section start \"undefined\" — template section-start device",
+  "placement": "middle-left"
+ },
+ "77": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "scene-setting prose — footage carries it, no card"
+ },
+ "78": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "scene-setting prose — footage carries it, no card"
+ },
+ "79": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "scene-setting prose — footage carries it, no card"
+ },
+ "80": {
+  "archetype": "keyword-flash",
+  "text": "MUD",
+  "position": "center",
+  "enterAt": 1.4,
+  "reason": "stressed keyword",
+  "placement": "middle-right"
+ },
+ "81": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "scene-setting prose — footage carries it, no card"
+ },
+ "82": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "scene-setting prose — footage carries it, no card"
+ },
+ "83": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "scene-setting prose — footage carries it, no card"
+ },
+ "84": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "scene-setting prose — footage carries it, no card"
+ },
+ "85": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "scene-setting prose — footage carries it, no card"
+ },
+ "86": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "scene-setting prose — footage carries it, no card"
+ },
+ "87": {
+  "archetype": "keyword-flash",
+  "text": "WADING",
+  "position": "center",
+  "enterAt": 1.4,
+  "reason": "stressed keyword",
+  "placement": "lower-center",
+  "entrance": "pop-scale"
+ },
+ "88": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "scene-setting prose — footage carries it, no card"
+ },
+ "89": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "scene-setting prose — footage carries it, no card"
+ },
+ "90": {
+  "archetype": "none",
+  "enterAt": 1.35,
+  "reason": "scene-setting prose — footage carries it, no card"
+ },
+ "91": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "scene-setting prose — footage carries it, no card"
+ },
+ "92": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "scene-setting prose — footage carries it, no card"
+ },
+ "93": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "scene-setting prose — footage carries it, no card"
+ },
+ "94": {
+  "archetype": "none",
+  "enterAt": 1.08,
+  "reason": "scene-setting prose — footage carries it, no card"
+ },
+ "95": {
+  "archetype": "none",
+  "enterAt": 1.24,
+  "reason": "scene-setting prose — footage carries it, no card"
+ },
+ "96": {
+  "archetype": "title-card",
+  "title": "The front line is moving",
+  "kicker": "Part 10",
+  "enterAt": 0.2,
+  "reason": "section start \"undefined\" — template section-start device",
+  "placement": "upper-center"
+ },
+ "97": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "scene-setting prose — footage carries it, no card"
+ },
+ "98": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "scene-setting prose — footage carries it, no card"
+ },
+ "99": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "scene-setting prose — footage carries it, no card"
+ },
+ "100": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "scene-setting prose — footage carries it, no card"
+ },
+ "101": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "the study's headline collapse figure"
+ },
+ "102": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "scene-setting prose — footage carries it, no card"
+ },
+ "103": {
+  "archetype": "none",
+  "enterAt": 1.19,
+  "reason": "scene-setting prose — footage carries it, no card"
+ },
+ "104": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "scene-setting prose — footage carries it, no card"
+ },
+ "105": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "scene-setting prose — footage carries it, no card"
+ },
+ "106": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "scene-setting prose — footage carries it, no card"
+ },
+ "107": {
+  "archetype": "none",
+  "enterAt": 1.1,
+  "reason": "scene-setting prose — footage carries it, no card"
+ },
+ "108": {
+  "archetype": "keyword-flash",
+  "text": "LAYER",
+  "position": "center",
+  "enterAt": 1.21,
+  "reason": "stressed keyword",
+  "placement": "upper-right"
+ },
+ "109": {
+  "archetype": "none",
+  "enterAt": 1.3,
+  "reason": "scene-setting prose — footage carries it, no card"
+ },
+ "110": {
+  "archetype": "none",
+  "enterAt": 1.23,
+  "reason": "scene-setting prose — footage carries it, no card"
+ },
+ "111": {
+  "archetype": "title-card",
+  "title": "High risk, 28 years late",
+  "kicker": "Part 11",
+  "enterAt": 0.2,
+  "reason": "section start \"undefined\" — template section-start device",
+  "placement": "upper-left"
+ },
+ "112": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "scene-setting prose — footage carries it, no card"
+ },
+ "113": {
+  "archetype": "none",
+  "enterAt": 1.23,
+  "reason": "scene-setting prose — footage carries it, no card"
+ },
+ "114": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "scene-setting prose — footage carries it, no card"
+ },
+ "115": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "scene-setting prose — footage carries it, no card"
+ },
+ "116": {
+  "archetype": "keyword-flash",
+  "text": "HOLLOWED",
+  "position": "center",
+  "enterAt": 1.4,
+  "reason": "stressed keyword",
+  "placement": "lower-left",
+  "entrance": "pop-scale"
+ },
+ "117": {
+  "archetype": "title-card",
+  "title": "A barrier that cost over a billion dollars, built to stop ",
+  "kicker": "",
+  "enterAt": 1.4,
+  "reason": "thesis / pivot line",
+  "placement": "lower-right"
+ },
+ "118": {
+  "archetype": "none",
+  "enterAt": 1.39,
+  "reason": "scene-setting prose — footage carries it, no card"
+ },
+ "01": {
+  "archetype": "keyword-flash",
+  "text": "CRAYFISH",
+  "position": "center",
+  "enterAt": 1.4,
+  "reason": "stressed keyword",
+  "placement": "middle-center",
+  "entrance": "pop-scale"
+ },
+ "02": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "scene-setting prose — footage carries it, no card"
+ },
+ "03": {
+  "archetype": "keyword-flash",
+  "text": "WINDOW",
+  "position": "center",
+  "enterAt": 1.19,
+  "reason": "stressed keyword",
+  "placement": "middle-left"
+ },
+ "04": {
+  "archetype": "title-card",
+  "title": "It is the engine. It is the reason the Everglades could su",
+  "kicker": "",
+  "enterAt": 1.4,
+  "reason": "thesis / pivot line",
+  "placement": "middle-center"
+ },
+ "05": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "scene-setting prose — footage carries it, no card"
+ },
+ "06": {
+  "archetype": "title-card",
+  "title": "The animal that never leaves",
+  "kicker": "Part 2",
+  "enterAt": 0.2,
+  "reason": "section start \"undefined\" — template section-start device",
+  "placement": "middle-left"
+ },
+ "07": {
+  "archetype": "definition-callout",
+  "term": "Swamp eel",
+  "definition": "air-breathing, so a drying pool is not a barrier",
+  "enterAt": 1.4,
+  "reason": "jargon",
+  "placement": "middle-center",
+  "entrance": "pop-scale"
+ },
+ "08": {
+  "archetype": "keyword-flash",
+  "text": "MUD",
+  "position": "center",
+  "enterAt": 1.4,
+  "reason": "stressed keyword",
+  "placement": "middle-left"
+ },
+ "09": {
+  "archetype": "none",
+  "enterAt": 1.02,
+  "reason": "scene-setting prose — footage carries it, no card"
+ }
+}

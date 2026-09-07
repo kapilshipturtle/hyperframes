@@ -1,0 +1,248 @@
+{
+ "name": "explainer-punchy",
+ "label": "Retention explainer, fast list with titles/counters (TheCheapFix, EliYoderSecrets)",
+ "_measured": "8 videos: 14-18 true cuts/min, median shot 2.7-3.4 s, p90 5.5 s, nothing >10 s, 1.4-2.7 punch/min (step 42-45%), 60-76% moving, dissolves 14% of boundaries at 0.26 s + glitch/light-leak accents, whoosh on 33-46% of cuts (4.7-7/min), 2.75-6 mid-shot accents/min, tick bursts under count-ups, titles/labels/list numerals with typewriter + fade, count-up '$150 saved' counters on dark plates, solid-box labels, serif/handwritten accents (Eli), archival B&W + vignette + grain (Eli), overlays stay on screen (Eli 52%) or exit on cut (CheapFix 82%), bed -16 to -21 dB at 115-140 BPM, mix -19 to -21 LUFS, first cut at 2.5-4 s",
+ "beats": {
+  "min_s": 1.6,
+  "max_s": 4.5,
+  "watchdog_s": 5.5
+ },
+ "cuts": {
+  "true_cuts_per_min": [
+   13,
+   19
+  ],
+  "median_shot_s": [
+   2.5,
+   3.8
+  ],
+  "p90_shot_s": [
+   5,
+   7.5
+  ]
+ },
+ "transitions": {
+  "style": "explainer",
+  "dissolve_duration_s": 0.25,
+  "dissolve_share": 0.14,
+  "accent_share": 0.12,
+  "accents": [
+   "light-leak-flash",
+   "zoom-through",
+   "whip-pan",
+   "glitch-cut"
+  ],
+  "hard_cut_sfx_share": null,
+  "sfx_prefer_speech_pause": true,
+  "accents_at_section_boundaries": true,
+  "sfx_mode": "motivated-only",
+  "sfx_max_share": 0,
+  "transition_sfx": false,
+  "transition_sfx_optin": true,
+  "_sfx_placement_rule": "MOTIVATED ONLY. Measured 2026-09-07 on 3 channels: reference whooshes sit on 29-36% of cuts but NO measurable signal predicts which cuts -- they are NOT in speech pauses (14/18/13% pause vs 37/25/28% for silent cuts), NOT at section boundaries (43-51% isolated, gaps 2.4-45s), and next-shot duration/motion do not separate them. So we do NOT reproduce the share. A cue is attached only where an editorial reason exists in the plan: a section boundary, or a hard-cut into a beat that carries a graphic landing. Never a bare footage-to-footage cut.",
+  "flash_per_min": [
+   4.65,
+   8.525
+  ]
+ },
+ "punch": {
+  "share_of_shots": 0.326,
+  "scale": [
+   1.35,
+   1.45
+  ],
+  "sfx": "click-soft",
+  "steps_per_punch": [
+   1,
+   2
+  ],
+  "multi_step_share": 0.698,
+  "_punch_source": "measured 2026-09-07: 809 shots / 3 channels; 20.8-31.1% of shots punched, 2.05-2.38 steps per punched shot"
+ },
+ "motion": {
+  "moving_share": [
+   0.93,
+   1
+  ],
+  "video_static_gets_motion": true,
+  "photo_zoom_total_pct": [
+   10,
+   14
+  ],
+  "static_max_share": 0.3,
+  "handheld_share": 0.124,
+  "kenburns_share": 0.232,
+  "synthetic_move_classes": [
+   "static",
+   "slow"
+  ],
+  "_source": "measured 2026-09-07: 809 shots / 3 channels / 67 min, every second"
+ },
+ "pillarbox_portrait": true,
+ "overlays": {
+  "density_per_min": [
+   6.2,
+   13.95
+  ],
+  "enter_at_s": [
+   0.8,
+   1.4
+  ],
+  "exit": "cut",
+  "entrance": "fade",
+  "font": "bold-sans",
+  "case": "Title Case",
+  "palette": {
+   "text": "#ffffff",
+   "accent": "#ffd23f",
+   "box": "#111111",
+   "alt_text": "#111111",
+   "alt_box": "#ffd23f"
+  },
+  "backing": "solid-box",
+  "words_max": 3,
+  "captions": "ask",
+  "captions_suggestion": "none (CheapFix/Eli/Hidden show no burned-in captions)",
+  "card": {
+   "font": "serif",
+   "bodyFont": "regular",
+   "plate": "#f4ecd8",
+   "ink": "#1c1c1c",
+   "accent": "#f28c28",
+   "accent2": "#2ab7c9",
+   "dim": 0.55
+  },
+  "captions_modes": [
+   "sentence-karaoke (full sentence on screen, spoken word highlighted)",
+   "word-pills (2-4 words, karaoke-pill)",
+   "none"
+  ],
+  "placement_share": {
+   "middle-center": 0.301,
+   "middle-left": 0.165,
+   "middle-right": 0.129,
+   "lower-center": 0.124,
+   "upper-center": 0.073,
+   "upper-right": 0.058,
+   "upper-left": 0.054,
+   "lower-left": 0.053,
+   "lower-right": 0.042
+  },
+  "pop_scale_share": 0.361,
+  "_placement_source": "measured 2026-09-07: 3163 text events / 3 channels / 67 min; density_per_min intentionally unchanged (see ISS-0006)",
+  "text_frame_share": [
+   0.542,
+   0.775
+  ],
+  "text_life_s": [
+   1.2,
+   2.6
+  ],
+  "graphic_card_share": [
+   0.05,
+   0.11
+  ]
+ },
+ "sfx": {
+  "mid_shot_per_min": [
+   0,
+   0
+  ],
+  "on_text_share": 0.7,
+  "map": {}
+ },
+ "music": {
+  "enabled": false,
+  "bed_db_under_voice": -18,
+  "bpm": [
+   110,
+   140
+  ],
+  "duck_db": 2.5,
+  "tags": [
+   "upbeat",
+   "corporate",
+   "electronic"
+  ],
+  "ask_text": "Music bed under the narration? The reference channels all have one (-18 dB under voice); off if you say no."
+ },
+ "ambience": {
+  "enabled": false
+ },
+ "mix": {
+  "integrated_lufs": -19,
+  "true_peak_dbtp": -1,
+  "narration_compression": "ask",
+  "narration_compression_default": false,
+  "narration_lra_target": [
+   2.8,
+   3.3
+  ],
+  "_narration_note": "OPT-IN ONLY, never applied without an explicit yes. Measured 2026-09-07: all 3 reference channels crush narration to LRA 2.8-3.3 LU (two also clip above 0 dBFS), which is why they sound relentless. Our standing rule is that narration audio is referenced in place and never reprocessed - a previous loudnorm dynamic-mode pass audibly degraded a real narration. So this is a question at the run-shape step, and the default answer is NO."
+ },
+ "look": {
+  "vignette_share": [
+   0.853,
+   1
+  ],
+  "vignette_strength": 0.542,
+  "grain": "archival-only",
+  "bw_archival": true,
+  "color": "natural",
+  "grade_share": {
+   "natural": 0.132,
+   "desaturate": 0.419,
+   "cool": 0.202,
+   "warm": 0.124,
+   "bw": 0.124
+  },
+  "high_contrast_share": 0.232,
+  "_grade_source": "measured 2026-09-07: 809 shots / 3 channels / 67 min, every second"
+ },
+ "hook": {
+  "first_cut_s": 4,
+  "first_overlay_s": 5,
+  "first_sfx_cut_s": 10
+ },
+ "devices": {
+  "section-start": "title-card",
+  "number": "number-badge",
+  "headline-number": "giant-price",
+  "number-change": "number-counter",
+  "rate": "number-counter",
+  "list": "info-card",
+  "numbered-item": "list-numeral",
+  "quote": "quote-card",
+  "keyword": "keyword-flash",
+  "question": "keyword-flash",
+  "warning-or-confirmation": "solid-box-label",
+  "visible-detail": "label-pointer",
+  "contrast": "side-panel",
+  "price": "price-tag",
+  "date-or-place": "year-stamp",
+  "citation": "source-tag",
+  "jargon": "definition-callout",
+  "new-topic": "solid-box-label",
+  "pivot-or-thesis": "title-card",
+  "archival": "bw+vignette",
+  "portrait": "pillarbox"
+ },
+ "media": {
+  "photo_share": [
+   0.15,
+   0.25
+  ],
+  "_photo_note": "Photos are what produce the measured zoom-in-photo share (5-15% of reference shots): a still gets a Ken Burns move automatically, a video does not. A pool of 100% video makes that dimension unreachable no matter what motion flags are set. Aim this share when picking per-beat media in Step 3."
+ },
+ "_intensity": {
+  "grade": "strong",
+  "vignette": "strong",
+  "motion": "strong",
+  "punch": "strong",
+  "overlays": "strong",
+  "transitions": "strong",
+  "sfx": "off",
+  "music": "off"
+ },
+ "_intensity_note": "derived by apply-intensity.mjs — normal = the measured corpus band; subtle 45%, strong 155%, off = 0. Planners must read this file, not references/style-profiles.json."
+}

@@ -31,12 +31,37 @@ export function profileNames() {
 // Returns the profile object, or null for a missing/"documentary" name when
 // `allowNull` is set — callers use null to mean "legacy behaviour, don't
 // consult profile targets at all".
+// TUNED-PROFILE OVERRIDE. apply-intensity.mjs writes a per-run copy of the profile
+// with each layer's measured band scaled by the user's chosen intensity
+// (off/subtle/normal/strong per layer). Every planner goes through loadProfile, so
+// preferring that file HERE means the dials reach all of them — plan-template,
+// plan-punches, plan-sfx, pick-transitions, build-frame, verify-style — without
+// each script needing to know intensity exists.
+// `normal` on every layer reproduces the shipped bands exactly, so a run that never
+// calls apply-intensity behaves exactly as before.
+const TUNED_PATH = process.env.DOCUMENTARY_BROLL_TUNED_PROFILE || ".hyperframes/style-profile-tuned.json";
+function tunedOverride(name) {
+  try {
+    if (!existsSync(TUNED_PATH)) return null;
+    const t = JSON.parse(readFileSync(TUNED_PATH, "utf8"));
+    // only honour it when it is for THIS profile — a stale file from another
+    // template must never silently retarget the run
+    if (t && t.name === name) return t;
+    if (t && t.name && t.name !== name) {
+      console.error(`⚠ style-profile: ${TUNED_PATH} is for "${t.name}" but this run is "${name}" — ignoring the tuned profile (re-run apply-intensity for this template).`);
+    }
+    return null;
+  } catch { return null; }
+}
+
 export function loadProfile(name, { allowNull = true } = {}) {
   if (!name) return allowNull ? null : loadProfiles().profiles.documentary;
   const p = loadProfiles().profiles[name];
   if (!p) {
     throw new Error(`style-profile: unknown profile "${name}" — expected one of: ${profileNames().join(", ")}`);
   }
+  const tuned = tunedOverride(name);
+  if (tuned) return tuned;
   return { name, ...p };
 }
 

@@ -1,0 +1,462 @@
+{
+ "10": {
+  "at": 2.23,
+  "scale": 1.425,
+  "word": "retreats",
+  "steps": [
+   {
+    "at": 2.23,
+    "scale": 1.234
+   },
+   {
+    "at": 3.33,
+    "scale": 1.425
+   }
+  ]
+ },
+ "15": {
+  "at": 2.06,
+  "scale": 1.35,
+  "word": "Everything",
+  "steps": [
+   {
+    "at": 2.06,
+    "scale": 1.193
+   },
+   {
+    "at": 3.16,
+    "scale": 1.35
+   }
+  ]
+ },
+ "20": {
+  "at": 6.23,
+  "scale": 1.4,
+  "word": "93",
+  "steps": [
+   {
+    "at": 6.23,
+    "scale": 1.22
+   },
+   {
+    "at": 7.33,
+    "scale": 1.4
+   }
+  ]
+ },
+ "23": {
+  "at": 4.09,
+  "scale": 1.45,
+  "word": "everything"
+ },
+ "27": {
+  "at": 3.24,
+  "scale": 1.375,
+  "word": "2251",
+  "steps": [
+   {
+    "at": 3.24,
+    "scale": 1.206
+   },
+   {
+    "at": 4.34,
+    "scale": 1.375
+   }
+  ]
+ },
+ "30": {
+  "at": 1.88,
+  "scale": 1.425,
+  "word": "every",
+  "steps": [
+   {
+    "at": 1.88,
+    "scale": 1.234
+   },
+   {
+    "at": 2.98,
+    "scale": 1.425
+   }
+  ]
+ },
+ "33": {
+  "at": 3.58,
+  "scale": 1.35,
+  "word": "well-documented",
+  "steps": [
+   {
+    "at": 3.58,
+    "scale": 1.193
+   },
+   {
+    "at": 4.68,
+    "scale": 1.35
+   }
+  ]
+ },
+ "35": {
+  "at": 3.75,
+  "scale": 1.4,
+  "word": "everything"
+ },
+ "37": {
+  "at": 4.17,
+  "scale": 1.45,
+  "word": "continents",
+  "steps": [
+   {
+    "at": 4.17,
+    "scale": 1.248
+   },
+   {
+    "at": 5.27,
+    "scale": 1.45
+   }
+  ]
+ },
+ "41": {
+  "at": 6.91,
+  "scale": 1.375,
+  "word": "concluding",
+  "steps": [
+   {
+    "at": 6.91,
+    "scale": 1.206
+   },
+   {
+    "at": 8.01,
+    "scale": 1.375
+   }
+  ]
+ },
+ "44": {
+  "at": 1.98,
+  "scale": 1.425,
+  "word": "Everything"
+ },
+ "46": {
+  "at": 1.78,
+  "scale": 1.35,
+  "word": "twice",
+  "steps": [
+   {
+    "at": 1.78,
+    "scale": 1.193
+   },
+   {
+    "at": 2.88,
+    "scale": 1.35
+   }
+  ]
+ },
+ "50": {
+  "at": 3.78,
+  "scale": 1.4,
+  "word": "Everglades",
+  "steps": [
+   {
+    "at": 3.78,
+    "scale": 1.22
+   },
+   {
+    "at": 4.88,
+    "scale": 1.4
+   }
+  ]
+ },
+ "52": {
+  "at": 1.98,
+  "scale": 1.45,
+  "word": "loud.",
+  "steps": [
+   {
+    "at": 1.98,
+    "scale": 1.248
+   },
+   {
+    "at": 3.08,
+    "scale": 1.45
+   }
+  ]
+ },
+ "55": {
+  "at": 1.97,
+  "scale": 1.375,
+  "word": "Everglades"
+ },
+ "57": {
+  "at": 7.08,
+  "scale": 1.425,
+  "word": "functionally",
+  "steps": [
+   {
+    "at": 7.08,
+    "scale": 1.234
+   },
+   {
+    "at": 8.18,
+    "scale": 1.425
+   }
+  ]
+ },
+ "60": {
+  "at": 3.77,
+  "scale": 1.35,
+  "word": "salamanders",
+  "steps": [
+   {
+    "at": 3.77,
+    "scale": 1.193
+   },
+   {
+    "at": 4.87,
+    "scale": 1.35
+   }
+  ]
+ },
+ "62": {
+  "at": 1,
+  "scale": 1.4,
+  "word": "problem.",
+  "steps": [
+   {
+    "at": 1,
+    "scale": 1.22
+   },
+   {
+    "at": 2.1,
+    "scale": 1.4
+   }
+  ]
+ },
+ "68": {
+  "at": 5.81,
+  "scale": 1.45,
+  "word": "surveying"
+ },
+ "70": {
+  "at": 2.02,
+  "scale": 1.375,
+  "word": "contains.",
+  "steps": [
+   {
+    "at": 2.02,
+    "scale": 1.206
+   },
+   {
+    "at": 3.12,
+    "scale": 1.375
+   }
+  ]
+ },
+ "74": {
+  "at": 3.91,
+  "scale": 1.425,
+  "word": "photographed",
+  "steps": [
+   {
+    "at": 3.91,
+    "scale": 1.234
+   },
+   {
+    "at": 5.01,
+    "scale": 1.425
+   }
+  ]
+ },
+ "77": {
+  "at": 1.67,
+  "scale": 1.35,
+  "word": "invasive"
+ },
+ "81": {
+  "at": 2.38,
+  "scale": 1.4,
+  "word": "historically",
+  "steps": [
+   {
+    "at": 2.38,
+    "scale": 1.22
+   },
+   {
+    "at": 3.48,
+    "scale": 1.4
+   }
+  ]
+ },
+ "88": {
+  "at": 3.08,
+  "scale": 1.45,
+  "word": "infrastructure",
+  "steps": [
+   {
+    "at": 3.08,
+    "scale": 1.248
+   },
+   {
+    "at": 4.18,
+    "scale": 1.45
+   }
+  ]
+ },
+ "91": {
+  "at": 1.59,
+  "scale": 1.375,
+  "word": "surveillance.",
+  "steps": [
+   {
+    "at": 1.59,
+    "scale": 1.206
+   },
+   {
+    "at": 2.69,
+    "scale": 1.375
+   }
+  ]
+ },
+ "95": {
+  "at": 2.82,
+  "scale": 1.425,
+  "word": "nothing"
+ },
+ "98": {
+  "at": 4.9,
+  "scale": 1.35,
+  "word": "Everglades"
+ },
+ "101": {
+  "at": 2.84,
+  "scale": 1.4,
+  "word": "95%",
+  "steps": [
+   {
+    "at": 2.84,
+    "scale": 1.22
+   },
+   {
+    "at": 3.94,
+    "scale": 1.4
+   }
+  ]
+ },
+ "104": {
+  "at": 3.66,
+  "scale": 1.45,
+  "word": "25",
+  "steps": [
+   {
+    "at": 3.66,
+    "scale": 1.248
+   },
+   {
+    "at": 4.76,
+    "scale": 1.45
+   }
+  ]
+ },
+ "106": {
+  "at": 2.07,
+  "scale": 1.375,
+  "word": "something",
+  "steps": [
+   {
+    "at": 2.07,
+    "scale": 1.206
+   },
+   {
+    "at": 3.17,
+    "scale": 1.375
+   }
+  ]
+ },
+ "109": {
+  "at": 0.95,
+  "scale": 1.425,
+  "word": "90s"
+ },
+ "111": {
+  "at": 2.12,
+  "scale": 1.35,
+  "word": "2025",
+  "steps": [
+   {
+    "at": 2.12,
+    "scale": 1.193
+   },
+   {
+    "at": 3.22,
+    "scale": 1.35
+   }
+  ]
+ },
+ "115": {
+  "at": 5.5,
+  "scale": 1.4,
+  "word": "technology",
+  "steps": [
+   {
+    "at": 5.5,
+    "scale": 1.22
+   },
+   {
+    "at": 6.6,
+    "scale": 1.4
+   }
+  ]
+ },
+ "117": {
+  "at": 2.27,
+  "scale": 1.45,
+  "word": "dollars"
+ },
+ "01": {
+  "at": 3.18,
+  "scale": 1.35,
+  "word": "tadpoles",
+  "steps": [
+   {
+    "at": 3.18,
+    "scale": 1.193
+   },
+   {
+    "at": 4.28,
+    "scale": 1.35
+   }
+  ]
+ },
+ "03": {
+  "at": 1.03,
+  "scale": 1.4,
+  "word": "bite-sized.",
+  "steps": [
+   {
+    "at": 1.03,
+    "scale": 1.22
+   },
+   {
+    "at": 2.13,
+    "scale": 1.4
+   }
+  ]
+ },
+ "05": {
+  "at": 2.04,
+  "scale": 1.45,
+  "word": "every",
+  "steps": [
+   {
+    "at": 2.04,
+    "scale": 1.248
+   },
+   {
+    "at": 3.14,
+    "scale": 1.45
+   }
+  ]
+ },
+ "08": {
+  "at": 4.45,
+  "scale": 1.375,
+  "word": "alongside"
+ }
+}

@@ -1,0 +1,1163 @@
+{
+  "beats": [
+    {
+      "id": "51",
+      "text": "The eels, spreading up from the southeast, have exaggerated that existing pattern, pushing southern abundance down further,",
+      "start": 316.96,
+      "end": 324.12,
+      "durationSeconds": 7.16,
+      "words": [
+        {
+          "text": "The",
+          "start": 316.96,
+          "end": 317.26
+        },
+        {
+          "text": "eels,",
+          "start": 317.26,
+          "end": 317.59
+        },
+        {
+          "text": "spreading",
+          "start": 317.59,
+          "end": 318.02
+        },
+        {
+          "text": "up",
+          "start": 318.02,
+          "end": 318.47
+        },
+        {
+          "text": "from",
+          "start": 318.47,
+          "end": 318.58
+        },
+        {
+          "text": "the",
+          "start": 318.58,
+          "end": 318.78
+        },
+        {
+          "text": "southeast,",
+          "start": 318.78,
+          "end": 319.51
+        },
+        {
+          "text": "have",
+          "start": 319.51,
+          "end": 319.77
+        },
+        {
+          "text": "exaggerated",
+          "start": 319.77,
+          "end": 320.5
+        },
+        {
+          "text": "that",
+          "start": 320.5,
+          "end": 320.76
+        },
+        {
+          "text": "existing",
+          "start": 320.76,
+          "end": 321.12
+        },
+        {
+          "text": "pattern,",
+          "start": 321.47,
+          "end": 321.9
+        },
+        {
+          "text": "pushing",
+          "start": 321.9,
+          "end": 322.3
+        },
+        {
+          "text": "southern",
+          "start": 322.3,
+          "end": 322.58
+        },
+        {
+          "text": "abundance",
+          "start": 322.93,
+          "end": 323.24
+        },
+        {
+          "text": "down",
+          "start": 323.41,
+          "end": 323.58
+        },
+        {
+          "text": "further,",
+          "start": 323.58,
+          "end": 324.12
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "text": "while the northern strongholds remain loud. Which means the pattern isn't just that amphibians are declining, it's that amphibians are declining in a spatial gradient",
+      "start": 324.12,
+      "end": 333.51,
+      "durationSeconds": 9.39,
+      "words": [
+        {
+          "text": "while",
+          "start": 324.12,
+          "end": 324.42
+        },
+        {
+          "text": "the",
+          "start": 324.42,
+          "end": 324.6
+        },
+        {
+          "text": "northern",
+          "start": 324.6,
+          "end": 325.08
+        },
+        {
+          "text": "strongholds",
+          "start": 325.08,
+          "end": 325.59
+        },
+        {
+          "text": "remain",
+          "start": 325.75,
+          "end": 326.02
+        },
+        {
+          "text": "loud.",
+          "start": 326.1,
+          "end": 326.74
+        },
+        {
+          "text": "Which",
+          "start": 327.1,
+          "end": 327.29
+        },
+        {
+          "text": "means",
+          "start": 327.29,
+          "end": 327.57
+        },
+        {
+          "text": "the",
+          "start": 327.57,
+          "end": 327.75
+        },
+        {
+          "text": "pattern",
+          "start": 327.75,
+          "end": 328.02
+        },
+        {
+          "text": "isn't",
+          "start": 328.1,
+          "end": 328.43
+        },
+        {
+          "text": "just",
+          "start": 328.57,
+          "end": 328.66
+        },
+        {
+          "text": "that",
+          "start": 328.66,
+          "end": 328.88
+        },
+        {
+          "text": "amphibians",
+          "start": 329.05,
+          "end": 329.37
+        },
+        {
+          "text": "are",
+          "start": 329.6,
+          "end": 329.63
+        },
+        {
+          "text": "declining,",
+          "start": 329.73,
+          "end": 330.26
+        },
+        {
+          "text": "it's",
+          "start": 330.26,
+          "end": 330.48
+        },
+        {
+          "text": "that",
+          "start": 330.55,
+          "end": 330.71
+        },
+        {
+          "text": "amphibians",
+          "start": 330.71,
+          "end": 331.23
+        },
+        {
+          "text": "are",
+          "start": 331.46,
+          "end": 331.55
+        },
+        {
+          "text": "declining",
+          "start": 331.6,
+          "end": 332.25
+        },
+        {
+          "text": "in",
+          "start": 332.25,
+          "end": 332.38
+        },
+        {
+          "text": "a",
+          "start": 332.38,
+          "end": 332.5
+        },
+        {
+          "text": "spatial",
+          "start": 332.5,
+          "end": 332.99
+        },
+        {
+          "text": "gradient",
+          "start": 332.99,
+          "end": 333.51
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "text": "that tracks the eel invasion front. And that front is still moving.",
+      "start": 333.51,
+      "end": 337.99,
+      "durationSeconds": 4.82,
+      "words": [
+        {
+          "text": "that",
+          "start": 333.51,
+          "end": 333.73
+        },
+        {
+          "text": "tracks",
+          "start": 334.09,
+          "end": 334.26
+        },
+        {
+          "text": "the",
+          "start": 334.39,
+          "end": 334.56
+        },
+        {
+          "text": "eel",
+          "start": 334.56,
+          "end": 334.7
+        },
+        {
+          "text": "invasion",
+          "start": 334.91,
+          "end": 335.38
+        },
+        {
+          "text": "front.",
+          "start": 335.38,
+          "end": 336.02
+        },
+        {
+          "text": "And",
+          "start": 336.1,
+          "end": 336.19
+        },
+        {
+          "text": "that",
+          "start": 336.19,
+          "end": 336.39
+        },
+        {
+          "text": "front",
+          "start": 336.39,
+          "end": 336.63
+        },
+        {
+          "text": "is",
+          "start": 336.64,
+          "end": 336.76
+        },
+        {
+          "text": "still",
+          "start": 336.86,
+          "end": 337.28
+        },
+        {
+          "text": "moving.",
+          "start": 337.28,
+          "end": 337.99
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "text": "The northern Everglades, the part that still gives researchers headaches with the volume of the frog calls, is not a refuge, it's just the part the eels haven't finished reaching.",
+      "start": 338.33,
+      "end": 348.4,
+      "durationSeconds": 10.07,
+      "words": [
+        {
+          "text": "The",
+          "start": 338.33,
+          "end": 338.4
+        },
+        {
+          "text": "northern",
+          "start": 338.4,
+          "end": 338.82
+        },
+        {
+          "text": "Everglades,",
+          "start": 338.82,
+          "end": 339.41
+        },
+        {
+          "text": "the",
+          "start": 339.5,
+          "end": 339.6
+        },
+        {
+          "text": "part",
+          "start": 339.6,
+          "end": 339.81
+        },
+        {
+          "text": "that",
+          "start": 339.81,
+          "end": 340.02
+        },
+        {
+          "text": "still",
+          "start": 340.02,
+          "end": 340.32
+        },
+        {
+          "text": "gives",
+          "start": 340.32,
+          "end": 340.53
+        },
+        {
+          "text": "researchers",
+          "start": 340.62,
+          "end": 341.16
+        },
+        {
+          "text": "headaches",
+          "start": 341.16,
+          "end": 341.6
+        },
+        {
+          "text": "with",
+          "start": 341.76,
+          "end": 341.94
+        },
+        {
+          "text": "the",
+          "start": 341.94,
+          "end": 342.15
+        },
+        {
+          "text": "volume",
+          "start": 342.15,
+          "end": 342.57
+        },
+        {
+          "text": "of",
+          "start": 342.57,
+          "end": 342.68
+        },
+        {
+          "text": "the",
+          "start": 342.72,
+          "end": 342.89
+        },
+        {
+          "text": "frog",
+          "start": 342.89,
+          "end": 343.23
+        },
+        {
+          "text": "calls,",
+          "start": 343.23,
+          "end": 343.69
+        },
+        {
+          "text": "is",
+          "start": 343.71,
+          "end": 343.82
+        },
+        {
+          "text": "not",
+          "start": 343.82,
+          "end": 344.01
+        },
+        {
+          "text": "a",
+          "start": 344.01,
+          "end": 344.04
+        },
+        {
+          "text": "refuge,",
+          "start": 344.39,
+          "end": 344.56
+        },
+        {
+          "text": "it's",
+          "start": 344.67,
+          "end": 344.95
+        },
+        {
+          "text": "just",
+          "start": 344.95,
+          "end": 345.23
+        },
+        {
+          "text": "the",
+          "start": 345.23,
+          "end": 345.43
+        },
+        {
+          "text": "part",
+          "start": 345.54,
+          "end": 345.72
+        },
+        {
+          "text": "the",
+          "start": 345.72,
+          "end": 345.91
+        },
+        {
+          "text": "eels",
+          "start": 346,
+          "end": 346.21
+        },
+        {
+          "text": "haven't",
+          "start": 346.21,
+          "end": 346.8
+        },
+        {
+          "text": "finished",
+          "start": 346.9,
+          "end": 347.39
+        },
+        {
+          "text": "reaching.",
+          "start": 347.47,
+          "end": 348.4
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "text": "Twenty years ago, surveys inside Everglades National Park found the southern leopard frog to be one of the most common amphibians in the system.",
+      "start": 348.4,
+      "end": 356.44,
+      "durationSeconds": 8.05,
+      "words": [
+        {
+          "text": "Twenty",
+          "start": 348.4,
+          "end": 348.68
+        },
+        {
+          "text": "years",
+          "start": 348.85,
+          "end": 349.15
+        },
+        {
+          "text": "ago,",
+          "start": 349.15,
+          "end": 349.46
+        },
+        {
+          "text": "surveys",
+          "start": 349.53,
+          "end": 349.9
+        },
+        {
+          "text": "inside",
+          "start": 349.97,
+          "end": 350.37
+        },
+        {
+          "text": "Everglades",
+          "start": 350.37,
+          "end": 351.03
+        },
+        {
+          "text": "National",
+          "start": 351.19,
+          "end": 351.55
+        },
+        {
+          "text": "Park",
+          "start": 351.55,
+          "end": 351.64
+        },
+        {
+          "text": "found",
+          "start": 351.79,
+          "end": 351.96
+        },
+        {
+          "text": "the",
+          "start": 352.05,
+          "end": 352.2
+        },
+        {
+          "text": "southern",
+          "start": 352.34,
+          "end": 352.76
+        },
+        {
+          "text": "leopard",
+          "start": 352.76,
+          "end": 353.2
+        },
+        {
+          "text": "frog",
+          "start": 353.21,
+          "end": 353.46
+        },
+        {
+          "text": "to",
+          "start": 353.46,
+          "end": 353.48
+        },
+        {
+          "text": "be",
+          "start": 353.48,
+          "end": 353.81
+        },
+        {
+          "text": "one",
+          "start": 353.81,
+          "end": 353.93
+        },
+        {
+          "text": "of",
+          "start": 353.93,
+          "end": 354.06
+        },
+        {
+          "text": "the",
+          "start": 354.06,
+          "end": 354.12
+        },
+        {
+          "text": "most",
+          "start": 354.29,
+          "end": 354.51
+        },
+        {
+          "text": "common",
+          "start": 354.51,
+          "end": 354.9
+        },
+        {
+          "text": "amphibians",
+          "start": 354.97,
+          "end": 355.54
+        },
+        {
+          "text": "in",
+          "start": 355.54,
+          "end": 355.58
+        },
+        {
+          "text": "the",
+          "start": 355.79,
+          "end": 355.87
+        },
+        {
+          "text": "system.",
+          "start": 355.87,
+          "end": 356.44
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "text": "Ordinary. Everywhere. The kind of animal you don't bother recording carefully, because there will always be more of them.",
+      "start": 356.45,
+      "end": 363.39,
+      "durationSeconds": 7,
+      "words": [
+        {
+          "text": "Ordinary.",
+          "start": 356.45,
+          "end": 357.39
+        },
+        {
+          "text": "Everywhere.",
+          "start": 357.54,
+          "end": 358.16
+        },
+        {
+          "text": "The",
+          "start": 358.16,
+          "end": 358.33
+        },
+        {
+          "text": "kind",
+          "start": 358.33,
+          "end": 358.46
+        },
+        {
+          "text": "of",
+          "start": 358.55,
+          "end": 358.66
+        },
+        {
+          "text": "animal",
+          "start": 358.66,
+          "end": 359.01
+        },
+        {
+          "text": "you",
+          "start": 359.01,
+          "end": 359.17
+        },
+        {
+          "text": "don't",
+          "start": 359.17,
+          "end": 359.45
+        },
+        {
+          "text": "bother",
+          "start": 359.49,
+          "end": 359.79
+        },
+        {
+          "text": "recording",
+          "start": 360.17,
+          "end": 360.3
+        },
+        {
+          "text": "carefully,",
+          "start": 360.3,
+          "end": 360.92
+        },
+        {
+          "text": "because",
+          "start": 360.99,
+          "end": 361.3
+        },
+        {
+          "text": "there",
+          "start": 361.31,
+          "end": 361.64
+        },
+        {
+          "text": "will",
+          "start": 361.83,
+          "end": 361.88
+        },
+        {
+          "text": "always",
+          "start": 361.99,
+          "end": 362.32
+        },
+        {
+          "text": "be",
+          "start": 362.32,
+          "end": 362.45
+        },
+        {
+          "text": "more",
+          "start": 362.45,
+          "end": 362.75
+        },
+        {
+          "text": "of",
+          "start": 362.75,
+          "end": 362.87
+        },
+        {
+          "text": "them.",
+          "start": 362.9,
+          "end": 363.39
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "text": "Howell's team did not detect a single one inside Everglades National Park, from the most common species in the park to functionally absent in about twenty",
+      "start": 363.45,
+      "end": 372.92,
+      "durationSeconds": 9.47,
+      "words": [
+        {
+          "text": "Howell's",
+          "start": 363.45,
+          "end": 363.97
+        },
+        {
+          "text": "team",
+          "start": 363.97,
+          "end": 364.23
+        },
+        {
+          "text": "did",
+          "start": 364.23,
+          "end": 364.26
+        },
+        {
+          "text": "not",
+          "start": 364.62,
+          "end": 364.7
+        },
+        {
+          "text": "detect",
+          "start": 364.7,
+          "end": 364.98
+        },
+        {
+          "text": "a",
+          "start": 364.98,
+          "end": 365.21
+        },
+        {
+          "text": "single",
+          "start": 365.43,
+          "end": 365.65
+        },
+        {
+          "text": "one",
+          "start": 365.65,
+          "end": 365.91
+        },
+        {
+          "text": "inside",
+          "start": 365.92,
+          "end": 366.31
+        },
+        {
+          "text": "Everglades",
+          "start": 366.31,
+          "end": 366.96
+        },
+        {
+          "text": "National",
+          "start": 367.06,
+          "end": 367.55
+        },
+        {
+          "text": "Park,",
+          "start": 367.55,
+          "end": 367.95
+        },
+        {
+          "text": "from",
+          "start": 367.98,
+          "end": 368.19
+        },
+        {
+          "text": "the",
+          "start": 368.19,
+          "end": 368.53
+        },
+        {
+          "text": "most",
+          "start": 368.53,
+          "end": 368.78
+        },
+        {
+          "text": "common",
+          "start": 368.78,
+          "end": 369.19
+        },
+        {
+          "text": "species",
+          "start": 369.21,
+          "end": 369.74
+        },
+        {
+          "text": "in",
+          "start": 369.74,
+          "end": 369.86
+        },
+        {
+          "text": "the",
+          "start": 369.99,
+          "end": 370.06
+        },
+        {
+          "text": "park",
+          "start": 370.06,
+          "end": 370.28
+        },
+        {
+          "text": "to",
+          "start": 370.51,
+          "end": 370.53
+        },
+        {
+          "text": "functionally",
+          "start": 370.53,
+          "end": 371.42
+        },
+        {
+          "text": "absent",
+          "start": 371.42,
+          "end": 371.79
+        },
+        {
+          "text": "in",
+          "start": 371.95,
+          "end": 372
+        },
+        {
+          "text": "about",
+          "start": 372,
+          "end": 372.34
+        },
+        {
+          "text": "twenty",
+          "start": 372.59,
+          "end": 372.92
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "text": "years. And it happened without a headline, because nobody counts frogs.",
+      "start": 372.92,
+      "end": 377.8,
+      "durationSeconds": 4.88,
+      "words": [
+        {
+          "text": "years.",
+          "start": 372.92,
+          "end": 373.47
+        },
+        {
+          "text": "And",
+          "start": 373.5,
+          "end": 373.71
+        },
+        {
+          "text": "it",
+          "start": 373.71,
+          "end": 373.72
+        },
+        {
+          "text": "happened",
+          "start": 374.05,
+          "end": 374.36
+        },
+        {
+          "text": "without",
+          "start": 374.53,
+          "end": 374.83
+        },
+        {
+          "text": "a",
+          "start": 374.83,
+          "end": 375.21
+        },
+        {
+          "text": "headline,",
+          "start": 375.21,
+          "end": 375.76
+        },
+        {
+          "text": "because",
+          "start": 375.76,
+          "end": 376.25
+        },
+        {
+          "text": "nobody",
+          "start": 376.34,
+          "end": 376.7
+        },
+        {
+          "text": "counts",
+          "start": 376.87,
+          "end": 377.14
+        },
+        {
+          "text": "frogs.",
+          "start": 377.22,
+          "end": 377.8
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "text": "The species that are hanging on in the eel-occupied zones are the ones with an escape route.",
+      "start": 377.8,
+      "end": 383.1,
+      "durationSeconds": 5.38,
+      "words": [
+        {
+          "text": "The",
+          "start": 377.8,
+          "end": 377.88
+        },
+        {
+          "text": "species",
+          "start": 377.96,
+          "end": 378.23
+        },
+        {
+          "text": "that",
+          "start": 378.43,
+          "end": 378.44
+        },
+        {
+          "text": "are",
+          "start": 378.54,
+          "end": 378.63
+        },
+        {
+          "text": "hanging",
+          "start": 378.68,
+          "end": 379.17
+        },
+        {
+          "text": "on",
+          "start": 379.17,
+          "end": 379.31
+        },
+        {
+          "text": "in",
+          "start": 379.31,
+          "end": 379.43
+        },
+        {
+          "text": "the",
+          "start": 379.46,
+          "end": 379.66
+        },
+        {
+          "text": "eel-occupied",
+          "start": 379.66,
+          "end": 380.53
+        },
+        {
+          "text": "zones",
+          "start": 380.53,
+          "end": 380.79
+        },
+        {
+          "text": "are",
+          "start": 381.04,
+          "end": 381.1
+        },
+        {
+          "text": "the",
+          "start": 381.18,
+          "end": 381.33
+        },
+        {
+          "text": "ones",
+          "start": 381.33,
+          "end": 381.54
+        },
+        {
+          "text": "with",
+          "start": 381.6,
+          "end": 381.77
+        },
+        {
+          "text": "an",
+          "start": 381.99,
+          "end": 382.05
+        },
+        {
+          "text": "escape",
+          "start": 382.05,
+          "end": 382.48
+        },
+        {
+          "text": "route.",
+          "start": 382.49,
+          "end": 383.1
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "text": "The tree frogs, up in the canopy. And two large aquatic salamanders, the greater siren and the two-toed amphiuma.",
+      "start": 383.18,
+      "end": 391.08,
+      "durationSeconds": 8.32,
+      "words": [
+        {
+          "text": "The",
+          "start": 383.18,
+          "end": 383.27
+        },
+        {
+          "text": "tree",
+          "start": 383.43,
+          "end": 383.6
+        },
+        {
+          "text": "frogs,",
+          "start": 383.69,
+          "end": 384.2
+        },
+        {
+          "text": "up",
+          "start": 384.28,
+          "end": 384.36
+        },
+        {
+          "text": "in",
+          "start": 384.36,
+          "end": 384.52
+        },
+        {
+          "text": "the",
+          "start": 384.52,
+          "end": 384.76
+        },
+        {
+          "text": "canopy.",
+          "start": 384.76,
+          "end": 385.43
+        },
+        {
+          "text": "And",
+          "start": 385.43,
+          "end": 385.77
+        },
+        {
+          "text": "two",
+          "start": 385.77,
+          "end": 385.97
+        },
+        {
+          "text": "large",
+          "start": 385.97,
+          "end": 386.35
+        },
+        {
+          "text": "aquatic",
+          "start": 386.4,
+          "end": 386.95
+        },
+        {
+          "text": "salamanders,",
+          "start": 386.95,
+          "end": 387.97
+        },
+        {
+          "text": "the",
+          "start": 388.08,
+          "end": 388.23
+        },
+        {
+          "text": "greater",
+          "start": 388.25,
+          "end": 388.81
+        },
+        {
+          "text": "siren",
+          "start": 388.81,
+          "end": 389.22
+        },
+        {
+          "text": "and",
+          "start": 389.22,
+          "end": 389.36
+        },
+        {
+          "text": "the",
+          "start": 389.45,
+          "end": 389.6
+        },
+        {
+          "text": "two-toed",
+          "start": 389.67,
+          "end": 390.34
+        },
+        {
+          "text": "amphiuma.",
+          "start": 390.34,
+          "end": 391.08
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "text": "Both are big, both are eel-shaped themselves, both live in the mud.",
+      "start": 391.5,
+      "end": 396.06,
+      "durationSeconds": 4.64,
+      "words": [
+        {
+          "text": "Both",
+          "start": 391.5,
+          "end": 391.71
+        },
+        {
+          "text": "are",
+          "start": 391.71,
+          "end": 391.94
+        },
+        {
+          "text": "big,",
+          "start": 391.94,
+          "end": 392.32
+        },
+        {
+          "text": "both",
+          "start": 392.32,
+          "end": 392.61
+        },
+        {
+          "text": "are",
+          "start": 392.61,
+          "end": 392.64
+        },
+        {
+          "text": "eel-shaped",
+          "start": 392.93,
+          "end": 393.55
+        },
+        {
+          "text": "themselves,",
+          "start": 393.61,
+          "end": 394.53
+        },
+        {
+          "text": "both",
+          "start": 394.53,
+          "end": 394.72
+        },
+        {
+          "text": "live",
+          "start": 394.95,
+          "end": 395.15
+        },
+        {
+          "text": "in",
+          "start": 395.15,
+          "end": 395.17
+        },
+        {
+          "text": "the",
+          "start": 395.3,
+          "end": 395.53
+        },
+        {
+          "text": "mud.",
+          "start": 395.53,
+          "end": 396.06
+        }
+      ]
+    }
+  ]
+}

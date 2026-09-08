@@ -3,9 +3,9 @@
   "dirName": "chunk-00",
   "originalBeatRange": [
     "01",
-    "40"
+    "10"
   ],
-  "frameCount": 40,
-  "sourceCount": 40,
-  "totalDurationSeconds": 250.5
+  "frameCount": 10,
+  "sourceCount": 10,
+  "totalDurationSeconds": 66.75
 }

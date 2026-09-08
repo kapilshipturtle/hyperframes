@@ -1,0 +1,914 @@
+{
+  "beats": [
+    {
+      "id": "72",
+      "text": "Extinctions in the public imagination are large and slow and mournful.",
+      "start": 458.24,
+      "end": 462,
+      "durationSeconds": 3.93,
+      "words": [
+        {
+          "text": "Extinctions",
+          "start": 458.24,
+          "end": 458.77
+        },
+        {
+          "text": "in",
+          "start": 458.77,
+          "end": 458.9
+        },
+        {
+          "text": "the",
+          "start": 459.03,
+          "end": 459.05
+        },
+        {
+          "text": "public",
+          "start": 459.05,
+          "end": 459.3
+        },
+        {
+          "text": "imagination",
+          "start": 459.38,
+          "end": 459.91
+        },
+        {
+          "text": "are",
+          "start": 459.92,
+          "end": 460.04
+        },
+        {
+          "text": "large",
+          "start": 460.23,
+          "end": 460.5
+        },
+        {
+          "text": "and",
+          "start": 460.5,
+          "end": 460.71
+        },
+        {
+          "text": "slow",
+          "start": 460.79,
+          "end": 461.04
+        },
+        {
+          "text": "and",
+          "start": 461.04,
+          "end": 461.26
+        },
+        {
+          "text": "mournful.",
+          "start": 461.26,
+          "end": 462
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "text": "The last of something, filmed, named, grieved over.",
+      "start": 462.17,
+      "end": 466.4,
+      "durationSeconds": 4.23,
+      "words": [
+        {
+          "text": "The",
+          "start": 462.17,
+          "end": 462.34
+        },
+        {
+          "text": "last",
+          "start": 462.34,
+          "end": 462.49
+        },
+        {
+          "text": "of",
+          "start": 462.72,
+          "end": 462.78
+        },
+        {
+          "text": "something,",
+          "start": 462.85,
+          "end": 463.64
+        },
+        {
+          "text": "filmed,",
+          "start": 463.67,
+          "end": 464.24
+        },
+        {
+          "text": "named,",
+          "start": 464.51,
+          "end": 464.78
+        },
+        {
+          "text": "grieved",
+          "start": 464.78,
+          "end": 465.39
+        },
+        {
+          "text": "over.",
+          "start": 465.4,
+          "end": 466.4
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "text": "This is what most of them actually look like. A subspecies nobody photographed, in water nobody was sampling,",
+      "start": 466.4,
+      "end": 473.42,
+      "durationSeconds": 7.23,
+      "words": [
+        {
+          "text": "This",
+          "start": 466.4,
+          "end": 466.54
+        },
+        {
+          "text": "is",
+          "start": 466.54,
+          "end": 466.61
+        },
+        {
+          "text": "what",
+          "start": 466.61,
+          "end": 466.76
+        },
+        {
+          "text": "most",
+          "start": 466.86,
+          "end": 467.03
+        },
+        {
+          "text": "of",
+          "start": 467.03,
+          "end": 467.16
+        },
+        {
+          "text": "them",
+          "start": 467.16,
+          "end": 467.35
+        },
+        {
+          "text": "actually",
+          "start": 467.43,
+          "end": 467.93
+        },
+        {
+          "text": "look",
+          "start": 467.93,
+          "end": 467.99
+        },
+        {
+          "text": "like.",
+          "start": 468.33,
+          "end": 468.64
+        },
+        {
+          "text": "A",
+          "start": 468.81,
+          "end": 468.84
+        },
+        {
+          "text": "subspecies",
+          "start": 468.84,
+          "end": 469.67
+        },
+        {
+          "text": "nobody",
+          "start": 469.67,
+          "end": 470.01
+        },
+        {
+          "text": "photographed,",
+          "start": 470.31,
+          "end": 471.33
+        },
+        {
+          "text": "in",
+          "start": 471.33,
+          "end": 471.42
+        },
+        {
+          "text": "water",
+          "start": 471.5,
+          "end": 471.9
+        },
+        {
+          "text": "nobody",
+          "start": 471.9,
+          "end": 472.14
+        },
+        {
+          "text": "was",
+          "start": 472.14,
+          "end": 472.71
+        },
+        {
+          "text": "sampling,",
+          "start": 472.71,
+          "end": 473.42
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "text": "removed by an animal that arrived in a bucket. So what is being done?",
+      "start": 473.63,
+      "end": 477.75,
+      "durationSeconds": 4.28,
+      "words": [
+        {
+          "text": "removed",
+          "start": 473.63,
+          "end": 473.98
+        },
+        {
+          "text": "by",
+          "start": 473.98,
+          "end": 474.11
+        },
+        {
+          "text": "an",
+          "start": 474.11,
+          "end": 474.24
+        },
+        {
+          "text": "animal",
+          "start": 474.24,
+          "end": 474.54
+        },
+        {
+          "text": "that",
+          "start": 474.62,
+          "end": 474.76
+        },
+        {
+          "text": "arrived",
+          "start": 475.09,
+          "end": 475.35
+        },
+        {
+          "text": "in",
+          "start": 475.35,
+          "end": 475.4
+        },
+        {
+          "text": "a",
+          "start": 475.4,
+          "end": 475.57
+        },
+        {
+          "text": "bucket.",
+          "start": 475.57,
+          "end": 476.16
+        },
+        {
+          "text": "So",
+          "start": 476.26,
+          "end": 476.32
+        },
+        {
+          "text": "what",
+          "start": 476.32,
+          "end": 476.62
+        },
+        {
+          "text": "is",
+          "start": 476.63,
+          "end": 476.8
+        },
+        {
+          "text": "being",
+          "start": 476.8,
+          "end": 477.19
+        },
+        {
+          "text": "done?",
+          "start": 477.19,
+          "end": 477.75
+        }
+      ]
+    },
+    {
+      "id": "76",
+      "text": "Honestly, very little. And not because anyone is being negligent, because the tools don't exist.",
+      "start": 477.91,
+      "end": 483.78,
+      "durationSeconds": 5.88,
+      "words": [
+        {
+          "text": "Honestly,",
+          "start": 477.91,
+          "end": 478.57
+        },
+        {
+          "text": "very",
+          "start": 478.57,
+          "end": 478.88
+        },
+        {
+          "text": "little.",
+          "start": 478.88,
+          "end": 479.62
+        },
+        {
+          "text": "And",
+          "start": 479.73,
+          "end": 479.82
+        },
+        {
+          "text": "not",
+          "start": 479.88,
+          "end": 480.02
+        },
+        {
+          "text": "because",
+          "start": 480.02,
+          "end": 480.47
+        },
+        {
+          "text": "anyone",
+          "start": 480.47,
+          "end": 480.84
+        },
+        {
+          "text": "is",
+          "start": 480.84,
+          "end": 480.88
+        },
+        {
+          "text": "being",
+          "start": 481.21,
+          "end": 481.31
+        },
+        {
+          "text": "negligent,",
+          "start": 481.31,
+          "end": 482.01
+        },
+        {
+          "text": "because",
+          "start": 482.37,
+          "end": 482.46
+        },
+        {
+          "text": "the",
+          "start": 482.46,
+          "end": 482.54
+        },
+        {
+          "text": "tools",
+          "start": 482.64,
+          "end": 482.94
+        },
+        {
+          "text": "don't",
+          "start": 482.95,
+          "end": 483.28
+        },
+        {
+          "text": "exist.",
+          "start": 483.28,
+          "end": 483.78
+        }
+      ]
+    },
+    {
+      "id": "77",
+      "text": "Run through the standard invasive species playbook and watch it fail one option at a time.",
+      "start": 483.79,
+      "end": 490.44,
+      "durationSeconds": 6.75,
+      "words": [
+        {
+          "text": "Run",
+          "start": 483.79,
+          "end": 483.87
+        },
+        {
+          "text": "through",
+          "start": 484.03,
+          "end": 484.48
+        },
+        {
+          "text": "the",
+          "start": 484.62,
+          "end": 484.78
+        },
+        {
+          "text": "standard",
+          "start": 484.78,
+          "end": 485.46
+        },
+        {
+          "text": "invasive",
+          "start": 485.46,
+          "end": 486.18
+        },
+        {
+          "text": "species",
+          "start": 486.18,
+          "end": 486.67
+        },
+        {
+          "text": "playbook",
+          "start": 486.78,
+          "end": 487.43
+        },
+        {
+          "text": "and",
+          "start": 487.55,
+          "end": 487.75
+        },
+        {
+          "text": "watch",
+          "start": 487.75,
+          "end": 488.19
+        },
+        {
+          "text": "it",
+          "start": 488.19,
+          "end": 488.29
+        },
+        {
+          "text": "fail",
+          "start": 488.38,
+          "end": 488.71
+        },
+        {
+          "text": "one",
+          "start": 488.71,
+          "end": 488.97
+        },
+        {
+          "text": "option",
+          "start": 488.97,
+          "end": 489.35
+        },
+        {
+          "text": "at",
+          "start": 489.51,
+          "end": 489.66
+        },
+        {
+          "text": "a",
+          "start": 489.66,
+          "end": 489.67
+        },
+        {
+          "text": "time.",
+          "start": 489.73,
+          "end": 490.44
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "text": "Physical removal. This is the python model. Pay people to go and catch them.",
+      "start": 490.54,
+      "end": 495.25,
+      "durationSeconds": 4.71,
+      "words": [
+        {
+          "text": "Physical",
+          "start": 490.54,
+          "end": 490.97
+        },
+        {
+          "text": "removal.",
+          "start": 490.97,
+          "end": 491.64
+        },
+        {
+          "text": "This",
+          "start": 491.64,
+          "end": 491.67
+        },
+        {
+          "text": "is",
+          "start": 492.01,
+          "end": 492.06
+        },
+        {
+          "text": "the",
+          "start": 492.06,
+          "end": 492.27
+        },
+        {
+          "text": "python",
+          "start": 492.27,
+          "end": 492.67
+        },
+        {
+          "text": "model.",
+          "start": 492.67,
+          "end": 493.27
+        },
+        {
+          "text": "Pay",
+          "start": 493.27,
+          "end": 493.48
+        },
+        {
+          "text": "people",
+          "start": 493.48,
+          "end": 493.76
+        },
+        {
+          "text": "to",
+          "start": 493.99,
+          "end": 494.05
+        },
+        {
+          "text": "go",
+          "start": 494.05,
+          "end": 494.19
+        },
+        {
+          "text": "and",
+          "start": 494.19,
+          "end": 494.4
+        },
+        {
+          "text": "catch",
+          "start": 494.4,
+          "end": 494.67
+        },
+        {
+          "text": "them.",
+          "start": 494.83,
+          "end": 495.25
+        }
+      ]
+    },
+    {
+      "id": "79",
+      "text": "It works on pythons, because pythons are large, visible when you find them, and worth a bounty.",
+      "start": 495.25,
+      "end": 501.22,
+      "durationSeconds": 6.04,
+      "words": [
+        {
+          "text": "It",
+          "start": 495.25,
+          "end": 495.28
+        },
+        {
+          "text": "works",
+          "start": 495.43,
+          "end": 495.82
+        },
+        {
+          "text": "on",
+          "start": 495.9,
+          "end": 495.96
+        },
+        {
+          "text": "pythons,",
+          "start": 495.96,
+          "end": 496.59
+        },
+        {
+          "text": "because",
+          "start": 496.59,
+          "end": 497.03
+        },
+        {
+          "text": "pythons",
+          "start": 497.16,
+          "end": 497.58
+        },
+        {
+          "text": "are",
+          "start": 497.58,
+          "end": 497.7
+        },
+        {
+          "text": "large,",
+          "start": 497.87,
+          "end": 498.2
+        },
+        {
+          "text": "visible",
+          "start": 498.55,
+          "end": 498.72
+        },
+        {
+          "text": "when",
+          "start": 498.85,
+          "end": 499.08
+        },
+        {
+          "text": "you",
+          "start": 499.08,
+          "end": 499.15
+        },
+        {
+          "text": "find",
+          "start": 499.37,
+          "end": 499.58
+        },
+        {
+          "text": "them,",
+          "start": 499.58,
+          "end": 500.01
+        },
+        {
+          "text": "and",
+          "start": 500.01,
+          "end": 500.22
+        },
+        {
+          "text": "worth",
+          "start": 500.22,
+          "end": 500.58
+        },
+        {
+          "text": "a",
+          "start": 500.58,
+          "end": 500.65
+        },
+        {
+          "text": "bounty.",
+          "start": 500.65,
+          "end": 501.22
+        }
+      ]
+    },
+    {
+      "id": "80",
+      "text": "Swamp eels are small, live in mud, occupy a wetland the size of a small state, and there is no plausible number of people you could pay to make a",
+      "start": 501.29,
+      "end": 510.53,
+      "durationSeconds": 9.24,
+      "words": [
+        {
+          "text": "Swamp",
+          "start": 501.29,
+          "end": 501.6
+        },
+        {
+          "text": "eels",
+          "start": 501.67,
+          "end": 501.91
+        },
+        {
+          "text": "are",
+          "start": 501.91,
+          "end": 502.15
+        },
+        {
+          "text": "small,",
+          "start": 502.15,
+          "end": 502.63
+        },
+        {
+          "text": "live",
+          "start": 502.7,
+          "end": 502.84
+        },
+        {
+          "text": "in",
+          "start": 502.84,
+          "end": 503.17
+        },
+        {
+          "text": "mud,",
+          "start": 503.17,
+          "end": 503.48
+        },
+        {
+          "text": "occupy",
+          "start": 503.65,
+          "end": 503.95
+        },
+        {
+          "text": "a",
+          "start": 503.95,
+          "end": 504.33
+        },
+        {
+          "text": "wetland",
+          "start": 504.33,
+          "end": 504.65
+        },
+        {
+          "text": "the",
+          "start": 504.65,
+          "end": 504.89
+        },
+        {
+          "text": "size",
+          "start": 504.89,
+          "end": 505.2
+        },
+        {
+          "text": "of",
+          "start": 505.2,
+          "end": 505.36
+        },
+        {
+          "text": "a",
+          "start": 505.36,
+          "end": 505.37
+        },
+        {
+          "text": "small",
+          "start": 505.46,
+          "end": 505.83
+        },
+        {
+          "text": "state,",
+          "start": 505.99,
+          "end": 506.37
+        },
+        {
+          "text": "and",
+          "start": 506.37,
+          "end": 506.61
+        },
+        {
+          "text": "there",
+          "start": 506.61,
+          "end": 506.98
+        },
+        {
+          "text": "is",
+          "start": 506.99,
+          "end": 507
+        },
+        {
+          "text": "no",
+          "start": 507.13,
+          "end": 507.35
+        },
+        {
+          "text": "plausible",
+          "start": 507.54,
+          "end": 508.12
+        },
+        {
+          "text": "number",
+          "start": 508.12,
+          "end": 508.46
+        },
+        {
+          "text": "of",
+          "start": 508.54,
+          "end": 508.68
+        },
+        {
+          "text": "people",
+          "start": 509.01,
+          "end": 509.17
+        },
+        {
+          "text": "you",
+          "start": 509.17,
+          "end": 509.32
+        },
+        {
+          "text": "could",
+          "start": 509.49,
+          "end": 509.76
+        },
+        {
+          "text": "pay",
+          "start": 509.76,
+          "end": 509.82
+        },
+        {
+          "text": "to",
+          "start": 509.82,
+          "end": 510.18
+        },
+        {
+          "text": "make",
+          "start": 510.18,
+          "end": 510.34
+        },
+        {
+          "text": "a",
+          "start": 510.45,
+          "end": 510.53
+        }
+      ]
+    },
+    {
+      "id": "81",
+      "text": "dent. Draining. The one thing that has historically knocked back invasive aquatic species in South Florida is the natural dry season.",
+      "start": 510.53,
+      "end": 518.85,
+      "durationSeconds": 8.32,
+      "words": [
+        {
+          "text": "dent.",
+          "start": 510.53,
+          "end": 511.12
+        },
+        {
+          "text": "Draining.",
+          "start": 511.12,
+          "end": 511.67
+        },
+        {
+          "text": "The",
+          "start": 511.83,
+          "end": 511.96
+        },
+        {
+          "text": "one",
+          "start": 511.96,
+          "end": 512.1
+        },
+        {
+          "text": "thing",
+          "start": 512.18,
+          "end": 512.44
+        },
+        {
+          "text": "that",
+          "start": 512.44,
+          "end": 512.71
+        },
+        {
+          "text": "has",
+          "start": 512.81,
+          "end": 512.9
+        },
+        {
+          "text": "historically",
+          "start": 512.91,
+          "end": 513.66
+        },
+        {
+          "text": "knocked",
+          "start": 513.66,
+          "end": 513.94
+        },
+        {
+          "text": "back",
+          "start": 514.29,
+          "end": 514.38
+        },
+        {
+          "text": "invasive",
+          "start": 514.38,
+          "end": 514.87
+        },
+        {
+          "text": "aquatic",
+          "start": 514.87,
+          "end": 515.33
+        },
+        {
+          "text": "species",
+          "start": 515.45,
+          "end": 515.79
+        },
+        {
+          "text": "in",
+          "start": 515.79,
+          "end": 515.91
+        },
+        {
+          "text": "South",
+          "start": 515.91,
+          "end": 516.04
+        },
+        {
+          "text": "Florida",
+          "start": 516.27,
+          "end": 516.68
+        },
+        {
+          "text": "is",
+          "start": 516.68,
+          "end": 516.8
+        },
+        {
+          "text": "the",
+          "start": 516.8,
+          "end": 516.98
+        },
+        {
+          "text": "natural",
+          "start": 517.11,
+          "end": 517.38
+        },
+        {
+          "text": "dry",
+          "start": 517.46,
+          "end": 517.55
+        },
+        {
+          "text": "season.",
+          "start": 517.78,
+          "end": 518.85
+        }
+      ]
+    }
+  ]
+}

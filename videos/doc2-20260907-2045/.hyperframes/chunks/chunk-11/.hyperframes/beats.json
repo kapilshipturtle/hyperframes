@@ -1,0 +1,752 @@
+{
+  "beats": [
+    {
+      "id": "112",
+      "text": "And this year, a team walked 30 sites across an area the size of Delaware, tested every other explanation they could construct,",
+      "start": 688.78,
+      "end": 696.28,
+      "durationSeconds": 7.5,
+      "words": [
+        {
+          "text": "And",
+          "start": 688.78,
+          "end": 688.86
+        },
+        {
+          "text": "this",
+          "start": 688.86,
+          "end": 689.04
+        },
+        {
+          "text": "year,",
+          "start": 689.04,
+          "end": 689.32
+        },
+        {
+          "text": "a",
+          "start": 689.32,
+          "end": 689.67
+        },
+        {
+          "text": "team",
+          "start": 689.67,
+          "end": 689.89
+        },
+        {
+          "text": "walked",
+          "start": 689.89,
+          "end": 690.3
+        },
+        {
+          "text": "30",
+          "start": 690.3,
+          "end": 690.7
+        },
+        {
+          "text": "sites",
+          "start": 690.7,
+          "end": 690.79
+        },
+        {
+          "text": "across",
+          "start": 691.13,
+          "end": 691.44
+        },
+        {
+          "text": "an",
+          "start": 691.44,
+          "end": 691.61
+        },
+        {
+          "text": "area",
+          "start": 691.61,
+          "end": 691.86
+        },
+        {
+          "text": "the",
+          "start": 691.86,
+          "end": 691.94
+        },
+        {
+          "text": "size",
+          "start": 692.29,
+          "end": 692.33
+        },
+        {
+          "text": "of",
+          "start": 692.33,
+          "end": 692.46
+        },
+        {
+          "text": "Delaware,",
+          "start": 692.46,
+          "end": 693.13
+        },
+        {
+          "text": "tested",
+          "start": 693.13,
+          "end": 693.54
+        },
+        {
+          "text": "every",
+          "start": 693.54,
+          "end": 693.79
+        },
+        {
+          "text": "other",
+          "start": 693.95,
+          "end": 694.22
+        },
+        {
+          "text": "explanation",
+          "start": 694.22,
+          "end": 694.91
+        },
+        {
+          "text": "they",
+          "start": 695.14,
+          "end": 695.31
+        },
+        {
+          "text": "could",
+          "start": 695.31,
+          "end": 695.63
+        },
+        {
+          "text": "construct,",
+          "start": 695.71,
+          "end": 696.28
+        }
+      ]
+    },
+    {
+      "id": "113",
+      "text": "and found that this one animal outweighed all of them combined.",
+      "start": 696.28,
+      "end": 700.19,
+      "durationSeconds": 4.1,
+      "words": [
+        {
+          "text": "and",
+          "start": 696.28,
+          "end": 696.61
+        },
+        {
+          "text": "found",
+          "start": 696.61,
+          "end": 696.92
+        },
+        {
+          "text": "that",
+          "start": 697.09,
+          "end": 697.2
+        },
+        {
+          "text": "this",
+          "start": 697.2,
+          "end": 697.39
+        },
+        {
+          "text": "one",
+          "start": 697.64,
+          "end": 697.68
+        },
+        {
+          "text": "animal",
+          "start": 697.77,
+          "end": 698.09
+        },
+        {
+          "text": "outweighed",
+          "start": 698.09,
+          "end": 698.77
+        },
+        {
+          "text": "all",
+          "start": 698.77,
+          "end": 698.97
+        },
+        {
+          "text": "of",
+          "start": 698.97,
+          "end": 699.11
+        },
+        {
+          "text": "them",
+          "start": 699.11,
+          "end": 699.27
+        },
+        {
+          "text": "combined.",
+          "start": 699.43,
+          "end": 700.19
+        }
+      ]
+    },
+    {
+      "id": "114",
+      "text": "That sound is still there in the northern Everglades, loud enough to give you a headache.",
+      "start": 700.38,
+      "end": 704.94,
+      "durationSeconds": 4.66,
+      "words": [
+        {
+          "text": "That",
+          "start": 700.38,
+          "end": 700.47
+        },
+        {
+          "text": "sound",
+          "start": 700.52,
+          "end": 700.82
+        },
+        {
+          "text": "is",
+          "start": 700.82,
+          "end": 700.87
+        },
+        {
+          "text": "still",
+          "start": 700.95,
+          "end": 701.23
+        },
+        {
+          "text": "there",
+          "start": 701.23,
+          "end": 701.5
+        },
+        {
+          "text": "in",
+          "start": 701.5,
+          "end": 701.675
+        },
+        {
+          "text": "the",
+          "start": 701.675,
+          "end": 701.85
+        },
+        {
+          "text": "northern",
+          "start": 701.85,
+          "end": 702.16
+        },
+        {
+          "text": "Everglades,",
+          "start": 702.33,
+          "end": 703.04
+        },
+        {
+          "text": "loud",
+          "start": 703.04,
+          "end": 703.18
+        },
+        {
+          "text": "enough",
+          "start": 703.28,
+          "end": 703.58
+        },
+        {
+          "text": "to",
+          "start": 703.58,
+          "end": 703.83
+        },
+        {
+          "text": "give",
+          "start": 703.83,
+          "end": 704
+        },
+        {
+          "text": "you",
+          "start": 704,
+          "end": 704.05
+        },
+        {
+          "text": "a",
+          "start": 704.18,
+          "end": 704.24
+        },
+        {
+          "text": "headache.",
+          "start": 704.24,
+          "end": 704.94
+        }
+      ]
+    },
+    {
+      "id": "115",
+      "text": "In Taylor Slow it's already gone, and there is currently no method, no funding line, and no technology that would bring it back.",
+      "start": 705.04,
+      "end": 712.78,
+      "durationSeconds": 7.96,
+      "words": [
+        {
+          "text": "In",
+          "start": 705.04,
+          "end": 705.1
+        },
+        {
+          "text": "Taylor",
+          "start": 705.1,
+          "end": 705.53
+        },
+        {
+          "text": "Slow",
+          "start": 705.53,
+          "end": 705.83
+        },
+        {
+          "text": "it's",
+          "start": 705.83,
+          "end": 706.11
+        },
+        {
+          "text": "already",
+          "start": 706.13,
+          "end": 706.62
+        },
+        {
+          "text": "gone,",
+          "start": 706.62,
+          "end": 707.05
+        },
+        {
+          "text": "and",
+          "start": 707.05,
+          "end": 707.26
+        },
+        {
+          "text": "there",
+          "start": 707.26,
+          "end": 707.62
+        },
+        {
+          "text": "is",
+          "start": 707.7,
+          "end": 707.77
+        },
+        {
+          "text": "currently",
+          "start": 707.77,
+          "end": 708.21
+        },
+        {
+          "text": "no",
+          "start": 708.51,
+          "end": 708.57
+        },
+        {
+          "text": "method,",
+          "start": 708.57,
+          "end": 709.15
+        },
+        {
+          "text": "no",
+          "start": 709.15,
+          "end": 709.19
+        },
+        {
+          "text": "funding",
+          "start": 709.35,
+          "end": 709.79
+        },
+        {
+          "text": "line,",
+          "start": 709.79,
+          "end": 710.34
+        },
+        {
+          "text": "and",
+          "start": 710.35,
+          "end": 710.36
+        },
+        {
+          "text": "no",
+          "start": 710.48,
+          "end": 710.54
+        },
+        {
+          "text": "technology",
+          "start": 710.54,
+          "end": 711.27
+        },
+        {
+          "text": "that",
+          "start": 711.27,
+          "end": 711.54
+        },
+        {
+          "text": "would",
+          "start": 711.54,
+          "end": 711.62
+        },
+        {
+          "text": "bring",
+          "start": 711.97,
+          "end": 712.28
+        },
+        {
+          "text": "it",
+          "start": 712.28,
+          "end": 712.45
+        },
+        {
+          "text": "back.",
+          "start": 712.45,
+          "end": 712.78
+        }
+      ]
+    },
+    {
+      "id": "116",
+      "text": "If you want to understand how a place this large gets hollowed out while everyone is watching, there's a second story that runs directly parallel to this one.",
+      "start": 713,
+      "end": 721.75,
+      "durationSeconds": 8.75,
+      "words": [
+        {
+          "text": "If",
+          "start": 713,
+          "end": 713.06
+        },
+        {
+          "text": "you",
+          "start": 713.14,
+          "end": 713.22
+        },
+        {
+          "text": "want",
+          "start": 713.22,
+          "end": 713.3
+        },
+        {
+          "text": "to",
+          "start": 713.43,
+          "end": 713.53
+        },
+        {
+          "text": "understand",
+          "start": 713.53,
+          "end": 714.07
+        },
+        {
+          "text": "how",
+          "start": 714.07,
+          "end": 714.17
+        },
+        {
+          "text": "a",
+          "start": 714.17,
+          "end": 714.28
+        },
+        {
+          "text": "place",
+          "start": 714.28,
+          "end": 714.54
+        },
+        {
+          "text": "this",
+          "start": 714.57,
+          "end": 714.8
+        },
+        {
+          "text": "large",
+          "start": 714.8,
+          "end": 715.24
+        },
+        {
+          "text": "gets",
+          "start": 715.38,
+          "end": 715.53
+        },
+        {
+          "text": "hollowed",
+          "start": 715.53,
+          "end": 716.03
+        },
+        {
+          "text": "out",
+          "start": 716.03,
+          "end": 716.22
+        },
+        {
+          "text": "while",
+          "start": 716.22,
+          "end": 716.49
+        },
+        {
+          "text": "everyone",
+          "start": 716.85,
+          "end": 717.05
+        },
+        {
+          "text": "is",
+          "start": 717.05,
+          "end": 717.16
+        },
+        {
+          "text": "watching,",
+          "start": 717.33,
+          "end": 717.81
+        },
+        {
+          "text": "there's",
+          "start": 718.01,
+          "end": 718.18
+        },
+        {
+          "text": "a",
+          "start": 718.18,
+          "end": 718.31
+        },
+        {
+          "text": "second",
+          "start": 718.31,
+          "end": 718.6
+        },
+        {
+          "text": "story",
+          "start": 718.83,
+          "end": 719.01
+        },
+        {
+          "text": "that",
+          "start": 719.01,
+          "end": 719.26
+        },
+        {
+          "text": "runs",
+          "start": 719.26,
+          "end": 719.51
+        },
+        {
+          "text": "directly",
+          "start": 719.67,
+          "end": 720.12
+        },
+        {
+          "text": "parallel",
+          "start": 720.24,
+          "end": 720.73
+        },
+        {
+          "text": "to",
+          "start": 720.81,
+          "end": 720.95
+        },
+        {
+          "text": "this",
+          "start": 720.95,
+          "end": 721.16
+        },
+        {
+          "text": "one.",
+          "start": 721.24,
+          "end": 721.75
+        }
+      ]
+    },
+    {
+      "id": "117",
+      "text": "A barrier that cost over a billion dollars, built to stop a different invasion, and the reason it stopped being built this summer.",
+      "start": 721.75,
+      "end": 729.44,
+      "durationSeconds": 7.69,
+      "words": [
+        {
+          "text": "A",
+          "start": 721.75,
+          "end": 721.83
+        },
+        {
+          "text": "barrier",
+          "start": 721.83,
+          "end": 722.29
+        },
+        {
+          "text": "that",
+          "start": 722.29,
+          "end": 722.51
+        },
+        {
+          "text": "cost",
+          "start": 722.87,
+          "end": 723.04
+        },
+        {
+          "text": "over",
+          "start": 723.04,
+          "end": 723.24
+        },
+        {
+          "text": "a",
+          "start": 723.3,
+          "end": 723.44
+        },
+        {
+          "text": "billion",
+          "start": 723.44,
+          "end": 724
+        },
+        {
+          "text": "dollars,",
+          "start": 724.02,
+          "end": 724.8
+        },
+        {
+          "text": "built",
+          "start": 724.8,
+          "end": 724.97
+        },
+        {
+          "text": "to",
+          "start": 725.13,
+          "end": 725.15
+        },
+        {
+          "text": "stop",
+          "start": 725.15,
+          "end": 725.3
+        },
+        {
+          "text": "a",
+          "start": 725.3,
+          "end": 725.39
+        },
+        {
+          "text": "different",
+          "start": 725.39,
+          "end": 725.77
+        },
+        {
+          "text": "invasion,",
+          "start": 725.98,
+          "end": 726.47
+        },
+        {
+          "text": "and",
+          "start": 726.55,
+          "end": 726.72
+        },
+        {
+          "text": "the",
+          "start": 726.72,
+          "end": 726.87
+        },
+        {
+          "text": "reason",
+          "start": 726.9,
+          "end": 727.11
+        },
+        {
+          "text": "it",
+          "start": 727.11,
+          "end": 727.45
+        },
+        {
+          "text": "stopped",
+          "start": 727.45,
+          "end": 727.76
+        },
+        {
+          "text": "being",
+          "start": 727.93,
+          "end": 728.2
+        },
+        {
+          "text": "built",
+          "start": 728.2,
+          "end": 728.53
+        },
+        {
+          "text": "this",
+          "start": 728.61,
+          "end": 728.78
+        },
+        {
+          "text": "summer.",
+          "start": 728.79,
+          "end": 729.44
+        }
+      ]
+    },
+    {
+      "id": "118",
+      "text": "It's on screen now. Subscribe, and I'll keep going through the ones nobody's covering.",
+      "start": 729.44,
+      "end": 734.08,
+      "durationSeconds": 4.64,
+      "words": [
+        {
+          "text": "It's",
+          "start": 729.44,
+          "end": 729.65
+        },
+        {
+          "text": "on",
+          "start": 729.74,
+          "end": 729.89
+        },
+        {
+          "text": "screen",
+          "start": 729.89,
+          "end": 730.34
+        },
+        {
+          "text": "now.",
+          "start": 730.38,
+          "end": 730.71
+        },
+        {
+          "text": "Subscribe,",
+          "start": 730.83,
+          "end": 731.84
+        },
+        {
+          "text": "and",
+          "start": 731.92,
+          "end": 731.98
+        },
+        {
+          "text": "I'll",
+          "start": 731.98,
+          "end": 732.16
+        },
+        {
+          "text": "keep",
+          "start": 732.16,
+          "end": 732.35
+        },
+        {
+          "text": "going",
+          "start": 732.35,
+          "end": 732.59
+        },
+        {
+          "text": "through",
+          "start": 732.59,
+          "end": 732.86
+        },
+        {
+          "text": "the",
+          "start": 732.94,
+          "end": 733.07
+        },
+        {
+          "text": "ones",
+          "start": 733.07,
+          "end": 733.08
+        },
+        {
+          "text": "nobody's",
+          "start": 733.41,
+          "end": 733.64
+        },
+        {
+          "text": "covering.",
+          "start": 733.64,
+          "end": 734.08
+        }
+      ]
+    }
+  ]
+}

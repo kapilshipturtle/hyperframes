@@ -6304,3 +6304,23 @@ beat 118: frame built [photo, kenburns=pan-left]
 ### Chunked render — split
 3 chunk(s) created
   - **chunks:** chunk-00: beats 01-40, ~40 sources | chunk-01: beats 41-80, ~40 sources | chunk-02: beats 81-118, ~38 sources
+
+### Chunked render — split
+12 chunk(s) created
+  - **chunks:** chunk-00: beats 01-10, ~10 sources | chunk-01: beats 11-20, ~10 sources | chunk-02: beats 21-30, ~10 sources | chunk-03: beats 31-40, ~10 sources | chunk-04: beats 41-50, ~10 sources | chunk-05: beats 51-60, ~10 sources | chunk-06: beats 61-70, ~10 sources | chunk-07: beats 71-80, ~10 sources | chun…(truncated)
+
+### Chunked render — split
+12 chunk(s) created
+  - **chunks:** chunk-00: beats 01-10, ~10 sources | chunk-01: beats 11-20, ~10 sources | chunk-02: beats 21-30, ~10 sources | chunk-03: beats 31-40, ~10 sources | chunk-04: beats 41-50, ~10 sources | chunk-05: beats 51-60, ~10 sources | chunk-06: beats 61-70, ~10 sources | chunk-07: beats 71-80, ~10 sources | chun…(truncated)
+
+### Chunked render — split
+12 chunk(s) created
+  - **chunks:** chunk-00: beats 01-10, ~10 sources | chunk-01: beats 11-20, ~10 sources | chunk-02: beats 21-30, ~10 sources | chunk-03: beats 31-40, ~10 sources | chunk-04: beats 41-50, ~10 sources | chunk-05: beats 51-60, ~10 sources | chunk-06: beats 61-70, ~10 sources | chunk-07: beats 71-80, ~10 sources | chun…(truncated)
+
+### Chunked render — split
+12 chunk(s) created
+  - **chunks:** chunk-00: beats 01-10, ~10 sources | chunk-01: beats 11-20, ~10 sources | chunk-02: beats 21-30, ~10 sources | chunk-03: beats 31-40, ~10 sources | chunk-04: beats 41-50, ~10 sources | chunk-05: beats 51-61, ~11 sources | chunk-06: beats 62-71, ~10 sources | chunk-07: beats 72-81, ~10 sources | chun…(truncated)
+
+### Chunked render — split
+12 chunk(s) created
+  - **chunks:** chunk-00: beats 01-10, ~10 sources | chunk-01: beats 11-20, ~10 sources | chunk-02: beats 21-30, ~10 sources | chunk-03: beats 31-40, ~10 sources | chunk-04: beats 41-50, ~10 sources | chunk-05: beats 51-61, ~11 sources | chunk-06: beats 62-71, ~10 sources | chunk-07: beats 72-81, ~10 sources | chun…(truncated)

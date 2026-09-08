@@ -1,0 +1,809 @@
+{
+  "beats": [
+    {
+      "id": "31",
+      "text": "Water level change over time. The Everglades hydrology has been re-engineered for a century.",
+      "start": 191.43,
+      "end": 197.18,
+      "durationSeconds": 5.8,
+      "words": [
+        {
+          "text": "Water",
+          "start": 191.43,
+          "end": 191.7
+        },
+        {
+          "text": "level",
+          "start": 191.7,
+          "end": 191.97
+        },
+        {
+          "text": "change",
+          "start": 192.33,
+          "end": 192.45
+        },
+        {
+          "text": "over",
+          "start": 192.45,
+          "end": 192.64
+        },
+        {
+          "text": "time.",
+          "start": 192.81,
+          "end": 193.13
+        },
+        {
+          "text": "The",
+          "start": 193.36,
+          "end": 193.39
+        },
+        {
+          "text": "Everglades",
+          "start": 193.49,
+          "end": 194.06
+        },
+        {
+          "text": "hydrology",
+          "start": 194.06,
+          "end": 194.66
+        },
+        {
+          "text": "has",
+          "start": 194.67,
+          "end": 194.87
+        },
+        {
+          "text": "been",
+          "start": 194.87,
+          "end": 194.99
+        },
+        {
+          "text": "re-engineered",
+          "start": 195.15,
+          "end": 196.14
+        },
+        {
+          "text": "for",
+          "start": 196.26,
+          "end": 196.35
+        },
+        {
+          "text": "a",
+          "start": 196.4,
+          "end": 196.46
+        },
+        {
+          "text": "century.",
+          "start": 196.46,
+          "end": 197.18
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "text": "Canals, levees, pumps, and drainage have altered how long any given patch stays wet.",
+      "start": 197.23,
+      "end": 203.21,
+      "durationSeconds": 5.98,
+      "words": [
+        {
+          "text": "Canals,",
+          "start": 197.23,
+          "end": 197.85
+        },
+        {
+          "text": "levees,",
+          "start": 197.85,
+          "end": 198.45
+        },
+        {
+          "text": "pumps,",
+          "start": 198.45,
+          "end": 199
+        },
+        {
+          "text": "and",
+          "start": 199,
+          "end": 199.23
+        },
+        {
+          "text": "drainage",
+          "start": 199.23,
+          "end": 199.86
+        },
+        {
+          "text": "have",
+          "start": 199.86,
+          "end": 200.17
+        },
+        {
+          "text": "altered",
+          "start": 200.17,
+          "end": 200.72
+        },
+        {
+          "text": "how",
+          "start": 200.72,
+          "end": 200.95
+        },
+        {
+          "text": "long",
+          "start": 200.95,
+          "end": 201.26
+        },
+        {
+          "text": "any",
+          "start": 201.26,
+          "end": 201.49
+        },
+        {
+          "text": "given",
+          "start": 201.49,
+          "end": 201.82
+        },
+        {
+          "text": "patch",
+          "start": 202.11,
+          "end": 202.39
+        },
+        {
+          "text": "stays",
+          "start": 202.51,
+          "end": 202.77
+        },
+        {
+          "text": "wet.",
+          "start": 202.77,
+          "end": 203.21
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "text": "Amphibians are sensitive to that. This is a genuine, well-documented driver of decline.",
+      "start": 203.21,
+      "end": 209.27,
+      "durationSeconds": 6.06,
+      "words": [
+        {
+          "text": "Amphibians",
+          "start": 203.21,
+          "end": 203.96
+        },
+        {
+          "text": "are",
+          "start": 203.97,
+          "end": 204.18
+        },
+        {
+          "text": "sensitive",
+          "start": 204.18,
+          "end": 204.67
+        },
+        {
+          "text": "to",
+          "start": 205,
+          "end": 205.01
+        },
+        {
+          "text": "that.",
+          "start": 205.13,
+          "end": 205.5
+        },
+        {
+          "text": "This",
+          "start": 205.5,
+          "end": 205.72
+        },
+        {
+          "text": "is",
+          "start": 205.95,
+          "end": 205.98
+        },
+        {
+          "text": "a",
+          "start": 205.99,
+          "end": 206.05
+        },
+        {
+          "text": "genuine,",
+          "start": 206.05,
+          "end": 206.63
+        },
+        {
+          "text": "well-documented",
+          "start": 206.79,
+          "end": 207.75
+        },
+        {
+          "text": "driver",
+          "start": 208.35,
+          "end": 208.4
+        },
+        {
+          "text": "of",
+          "start": 208.48,
+          "end": 208.54
+        },
+        {
+          "text": "decline.",
+          "start": 208.54,
+          "end": 209.27
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "text": "Soil nitrogen and phosphorus. Agricultural runoff enters the system from the north and drops off as you move south.",
+      "start": 209.27,
+      "end": 216.45,
+      "durationSeconds": 7.41,
+      "words": [
+        {
+          "text": "Soil",
+          "start": 209.27,
+          "end": 209.55
+        },
+        {
+          "text": "nitrogen",
+          "start": 209.97,
+          "end": 210.13
+        },
+        {
+          "text": "and",
+          "start": 210.13,
+          "end": 210.28
+        },
+        {
+          "text": "phosphorus.",
+          "start": 210.45,
+          "end": 211.3
+        },
+        {
+          "text": "Agricultural",
+          "start": 211.3,
+          "end": 212.17
+        },
+        {
+          "text": "runoff",
+          "start": 212.26,
+          "end": 212.62
+        },
+        {
+          "text": "enters",
+          "start": 212.79,
+          "end": 213.06
+        },
+        {
+          "text": "the",
+          "start": 213.06,
+          "end": 213.23
+        },
+        {
+          "text": "system",
+          "start": 213.39,
+          "end": 213.72
+        },
+        {
+          "text": "from",
+          "start": 213.72,
+          "end": 214.03
+        },
+        {
+          "text": "the",
+          "start": 214.17,
+          "end": 214.27
+        },
+        {
+          "text": "north",
+          "start": 214.32,
+          "end": 214.62
+        },
+        {
+          "text": "and",
+          "start": 214.62,
+          "end": 214.82
+        },
+        {
+          "text": "drops",
+          "start": 214.82,
+          "end": 215.1
+        },
+        {
+          "text": "off",
+          "start": 215.15,
+          "end": 215.31
+        },
+        {
+          "text": "as",
+          "start": 215.31,
+          "end": 215.65
+        },
+        {
+          "text": "you",
+          "start": 215.65,
+          "end": 215.69
+        },
+        {
+          "text": "move",
+          "start": 215.69,
+          "end": 215.96
+        },
+        {
+          "text": "south.",
+          "start": 215.96,
+          "end": 216.45
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "text": "Nutrient enrichment restructures wetland plant communities and everything that depends on them.",
+      "start": 216.68,
+      "end": 222.38,
+      "durationSeconds": 5.83,
+      "words": [
+        {
+          "text": "Nutrient",
+          "start": 216.68,
+          "end": 216.98
+        },
+        {
+          "text": "enrichment",
+          "start": 217.11,
+          "end": 217.73
+        },
+        {
+          "text": "restructures",
+          "start": 217.73,
+          "end": 218.54
+        },
+        {
+          "text": "wetland",
+          "start": 218.58,
+          "end": 218.91
+        },
+        {
+          "text": "plant",
+          "start": 219.07,
+          "end": 219.46
+        },
+        {
+          "text": "communities",
+          "start": 219.58,
+          "end": 220.23
+        },
+        {
+          "text": "and",
+          "start": 220.23,
+          "end": 220.43
+        },
+        {
+          "text": "everything",
+          "start": 220.43,
+          "end": 221.11
+        },
+        {
+          "text": "that",
+          "start": 221.11,
+          "end": 221.36
+        },
+        {
+          "text": "depends",
+          "start": 221.53,
+          "end": 221.8
+        },
+        {
+          "text": "on",
+          "start": 221.8,
+          "end": 221.86
+        },
+        {
+          "text": "them.",
+          "start": 222.21,
+          "end": 222.38
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "text": "This is real and in the early stages of the analysis it looked like the strongest signal in the whole dataset.",
+      "start": 222.51,
+      "end": 229,
+      "durationSeconds": 6.49,
+      "words": [
+        {
+          "text": "This",
+          "start": 222.51,
+          "end": 222.71
+        },
+        {
+          "text": "is",
+          "start": 222.71,
+          "end": 222.81
+        },
+        {
+          "text": "real",
+          "start": 223.03,
+          "end": 223.12
+        },
+        {
+          "text": "and",
+          "start": 223.12,
+          "end": 223.25
+        },
+        {
+          "text": "in",
+          "start": 223.34,
+          "end": 223.45
+        },
+        {
+          "text": "the",
+          "start": 223.45,
+          "end": 223.65
+        },
+        {
+          "text": "early",
+          "start": 223.87,
+          "end": 223.99
+        },
+        {
+          "text": "stages",
+          "start": 223.99,
+          "end": 224.48
+        },
+        {
+          "text": "of",
+          "start": 224.56,
+          "end": 224.62
+        },
+        {
+          "text": "the",
+          "start": 224.62,
+          "end": 224.83
+        },
+        {
+          "text": "analysis",
+          "start": 224.83,
+          "end": 225.4
+        },
+        {
+          "text": "it",
+          "start": 225.4,
+          "end": 225.5
+        },
+        {
+          "text": "looked",
+          "start": 225.54,
+          "end": 225.71
+        },
+        {
+          "text": "like",
+          "start": 226.05,
+          "end": 226.25
+        },
+        {
+          "text": "the",
+          "start": 226.25,
+          "end": 226.36
+        },
+        {
+          "text": "strongest",
+          "start": 226.53,
+          "end": 227.09
+        },
+        {
+          "text": "signal",
+          "start": 227.21,
+          "end": 227.53
+        },
+        {
+          "text": "in",
+          "start": 227.53,
+          "end": 227.67
+        },
+        {
+          "text": "the",
+          "start": 227.67,
+          "end": 227.81
+        },
+        {
+          "text": "whole",
+          "start": 228.03,
+          "end": 228.23
+        },
+        {
+          "text": "dataset.",
+          "start": 228.23,
+          "end": 229
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "text": "Disease. Chitrid fungus has devastated amphibian populations on multiple continents and is one of the most serious wildlife pathogens ever recorded.",
+      "start": 229,
+      "end": 238.2,
+      "durationSeconds": 9.2,
+      "words": [
+        {
+          "text": "Disease.",
+          "start": 229,
+          "end": 229.64
+        },
+        {
+          "text": "Chitrid",
+          "start": 229.65,
+          "end": 230
+        },
+        {
+          "text": "fungus",
+          "start": 230.11,
+          "end": 230.39
+        },
+        {
+          "text": "has",
+          "start": 230.39,
+          "end": 230.57
+        },
+        {
+          "text": "devastated",
+          "start": 230.57,
+          "end": 230.99
+        },
+        {
+          "text": "amphibian",
+          "start": 231.57,
+          "end": 231.81
+        },
+        {
+          "text": "populations",
+          "start": 231.81,
+          "end": 232.28
+        },
+        {
+          "text": "on",
+          "start": 232.6,
+          "end": 232.66
+        },
+        {
+          "text": "multiple",
+          "start": 232.73,
+          "end": 233.12
+        },
+        {
+          "text": "continents",
+          "start": 233.17,
+          "end": 233.77
+        },
+        {
+          "text": "and",
+          "start": 233.86,
+          "end": 234.02
+        },
+        {
+          "text": "is",
+          "start": 234.02,
+          "end": 234.14
+        },
+        {
+          "text": "one",
+          "start": 234.15,
+          "end": 234.23
+        },
+        {
+          "text": "of",
+          "start": 234.39,
+          "end": 234.46
+        },
+        {
+          "text": "the",
+          "start": 234.5,
+          "end": 234.66
+        },
+        {
+          "text": "most",
+          "start": 234.66,
+          "end": 235
+        },
+        {
+          "text": "serious",
+          "start": 235.1,
+          "end": 235.57
+        },
+        {
+          "text": "wildlife",
+          "start": 235.57,
+          "end": 235.99
+        },
+        {
+          "text": "pathogens",
+          "start": 236.57,
+          "end": 236.88
+        },
+        {
+          "text": "ever",
+          "start": 237.05,
+          "end": 237.3
+        },
+        {
+          "text": "recorded.",
+          "start": 237.31,
+          "end": 238.2
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "text": "Ranovirus does similar damage. Both were tested.",
+      "start": 238.2,
+      "end": 241.84,
+      "durationSeconds": 3.98,
+      "words": [
+        {
+          "text": "Ranovirus",
+          "start": 238.2,
+          "end": 238.95
+        },
+        {
+          "text": "does",
+          "start": 238.95,
+          "end": 239.25
+        },
+        {
+          "text": "similar",
+          "start": 239.39,
+          "end": 239.84
+        },
+        {
+          "text": "damage.",
+          "start": 239.99,
+          "end": 240.56
+        },
+        {
+          "text": "Both",
+          "start": 240.56,
+          "end": 240.95
+        },
+        {
+          "text": "were",
+          "start": 240.95,
+          "end": 241.2
+        },
+        {
+          "text": "tested.",
+          "start": 241.26,
+          "end": 241.84
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "text": "Pollution and other human cause pressures. Contaminants, land use, development at the edges.",
+      "start": 242.18,
+      "end": 247.18,
+      "durationSeconds": 5,
+      "words": [
+        {
+          "text": "Pollution",
+          "start": 242.18,
+          "end": 242.6
+        },
+        {
+          "text": "and",
+          "start": 242.6,
+          "end": 242.77
+        },
+        {
+          "text": "other",
+          "start": 242.77,
+          "end": 243.04
+        },
+        {
+          "text": "human",
+          "start": 243.05,
+          "end": 243.3
+        },
+        {
+          "text": "cause",
+          "start": 243.3,
+          "end": 243.65
+        },
+        {
+          "text": "pressures.",
+          "start": 243.65,
+          "end": 244.33
+        },
+        {
+          "text": "Contaminants,",
+          "start": 244.33,
+          "end": 245.13
+        },
+        {
+          "text": "land",
+          "start": 245.13,
+          "end": 245.36
+        },
+        {
+          "text": "use,",
+          "start": 245.36,
+          "end": 245.64
+        },
+        {
+          "text": "development",
+          "start": 245.64,
+          "end": 246.27
+        },
+        {
+          "text": "at",
+          "start": 246.29,
+          "end": 246.31
+        },
+        {
+          "text": "the",
+          "start": 246.47,
+          "end": 246.64
+        },
+        {
+          "text": "edges.",
+          "start": 246.75,
+          "end": 247.18
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "text": "Every one of those factors is a legitimate explanation.",
+      "start": 247.18,
+      "end": 250.41,
+      "durationSeconds": 3.32,
+      "words": [
+        {
+          "text": "Every",
+          "start": 247.18,
+          "end": 247.52
+        },
+        {
+          "text": "one",
+          "start": 247.52,
+          "end": 247.66
+        },
+        {
+          "text": "of",
+          "start": 247.71,
+          "end": 247.85
+        },
+        {
+          "text": "those",
+          "start": 247.85,
+          "end": 248.21
+        },
+        {
+          "text": "factors",
+          "start": 248.21,
+          "end": 248.52
+        },
+        {
+          "text": "is",
+          "start": 248.69,
+          "end": 248.8
+        },
+        {
+          "text": "a",
+          "start": 248.8,
+          "end": 248.85
+        },
+        {
+          "text": "legitimate",
+          "start": 248.85,
+          "end": 249.54
+        },
+        {
+          "text": "explanation.",
+          "start": 249.54,
+          "end": 250.41
+        }
+      ]
+    }
+  ]
+}

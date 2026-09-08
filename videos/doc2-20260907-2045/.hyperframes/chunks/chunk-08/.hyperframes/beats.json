@@ -1,0 +1,954 @@
+{
+  "beats": [
+    {
+      "id": "82",
+      "text": "That leaver does not work here. This animal breathes air, survives dry down in a burrow, and walks overland when it needs to.",
+      "start": 518.85,
+      "end": 527.04,
+      "durationSeconds": 8.38,
+      "words": [
+        {
+          "text": "That",
+          "start": 518.85,
+          "end": 518.91
+        },
+        {
+          "text": "leaver",
+          "start": 519.25,
+          "end": 519.56
+        },
+        {
+          "text": "does",
+          "start": 519.73,
+          "end": 519.84
+        },
+        {
+          "text": "not",
+          "start": 519.87,
+          "end": 520.03
+        },
+        {
+          "text": "work",
+          "start": 520.28,
+          "end": 520.34
+        },
+        {
+          "text": "here.",
+          "start": 520.42,
+          "end": 520.86
+        },
+        {
+          "text": "This",
+          "start": 520.86,
+          "end": 521.01
+        },
+        {
+          "text": "animal",
+          "start": 521.23,
+          "end": 521.28
+        },
+        {
+          "text": "breathes",
+          "start": 521.28,
+          "end": 521.91
+        },
+        {
+          "text": "air,",
+          "start": 522.07,
+          "end": 522.32
+        },
+        {
+          "text": "survives",
+          "start": 522.32,
+          "end": 522.82
+        },
+        {
+          "text": "dry",
+          "start": 522.94,
+          "end": 523.08
+        },
+        {
+          "text": "down",
+          "start": 523.23,
+          "end": 523.31
+        },
+        {
+          "text": "in",
+          "start": 523.63,
+          "end": 523.72
+        },
+        {
+          "text": "a",
+          "start": 523.79,
+          "end": 523.8
+        },
+        {
+          "text": "burrow,",
+          "start": 523.83,
+          "end": 524.44
+        },
+        {
+          "text": "and",
+          "start": 524.44,
+          "end": 524.68
+        },
+        {
+          "text": "walks",
+          "start": 524.68,
+          "end": 524.94
+        },
+        {
+          "text": "overland",
+          "start": 525.29,
+          "end": 525.6
+        },
+        {
+          "text": "when",
+          "start": 525.77,
+          "end": 526.07
+        },
+        {
+          "text": "it",
+          "start": 526.07,
+          "end": 526.1
+        },
+        {
+          "text": "needs",
+          "start": 526.45,
+          "end": 526.62
+        },
+        {
+          "text": "to.",
+          "start": 526.75,
+          "end": 527.04
+        }
+      ]
+    },
+    {
+      "id": "83",
+      "text": "Poison. Rotanone and similar treatments kill fish in a treated water body.",
+      "start": 527.23,
+      "end": 531.95,
+      "durationSeconds": 4.72,
+      "words": [
+        {
+          "text": "Poison.",
+          "start": 527.23,
+          "end": 527.71
+        },
+        {
+          "text": "Rotanone",
+          "start": 527.79,
+          "end": 528.31
+        },
+        {
+          "text": "and",
+          "start": 528.31,
+          "end": 528.36
+        },
+        {
+          "text": "similar",
+          "start": 528.69,
+          "end": 529
+        },
+        {
+          "text": "treatments",
+          "start": 529,
+          "end": 529.47
+        },
+        {
+          "text": "kill",
+          "start": 529.85,
+          "end": 529.99
+        },
+        {
+          "text": "fish",
+          "start": 529.99,
+          "end": 530.21
+        },
+        {
+          "text": "in",
+          "start": 530.28,
+          "end": 530.44
+        },
+        {
+          "text": "a",
+          "start": 530.44,
+          "end": 530.67
+        },
+        {
+          "text": "treated",
+          "start": 530.67,
+          "end": 531.07
+        },
+        {
+          "text": "water",
+          "start": 531.07,
+          "end": 531.35
+        },
+        {
+          "text": "body.",
+          "start": 531.51,
+          "end": 531.95
+        }
+      ]
+    },
+    {
+      "id": "84",
+      "text": "In a connected sheet-flow wetland running through a national park, you cannot dose the water without killing everything native in it,",
+      "start": 531.95,
+      "end": 539.36,
+      "durationSeconds": 7.41,
+      "words": [
+        {
+          "text": "In",
+          "start": 531.95,
+          "end": 532.11
+        },
+        {
+          "text": "a",
+          "start": 532.11,
+          "end": 532.18
+        },
+        {
+          "text": "connected",
+          "start": 532.18,
+          "end": 532.5
+        },
+        {
+          "text": "sheet-flow",
+          "start": 532.98,
+          "end": 533.47
+        },
+        {
+          "text": "wetland",
+          "start": 533.55,
+          "end": 533.87
+        },
+        {
+          "text": "running",
+          "start": 533.94,
+          "end": 534.11
+        },
+        {
+          "text": "through",
+          "start": 534.45,
+          "end": 534.76
+        },
+        {
+          "text": "a",
+          "start": 534.76,
+          "end": 534.93
+        },
+        {
+          "text": "national",
+          "start": 534.93,
+          "end": 535.23
+        },
+        {
+          "text": "park,",
+          "start": 535.61,
+          "end": 535.74
+        },
+        {
+          "text": "you",
+          "start": 535.74,
+          "end": 535.92
+        },
+        {
+          "text": "cannot",
+          "start": 535.92,
+          "end": 536.2
+        },
+        {
+          "text": "dose",
+          "start": 536.43,
+          "end": 536.54
+        },
+        {
+          "text": "the",
+          "start": 536.54,
+          "end": 536.65
+        },
+        {
+          "text": "water",
+          "start": 536.74,
+          "end": 537.02
+        },
+        {
+          "text": "without",
+          "start": 537.27,
+          "end": 537.47
+        },
+        {
+          "text": "killing",
+          "start": 537.47,
+          "end": 537.98
+        },
+        {
+          "text": "everything",
+          "start": 538.08,
+          "end": 538.57
+        },
+        {
+          "text": "native",
+          "start": 538.65,
+          "end": 538.97
+        },
+        {
+          "text": "in",
+          "start": 539,
+          "end": 539.12
+        },
+        {
+          "text": "it,",
+          "start": 539.12,
+          "end": 539.36
+        }
+      ]
+    },
+    {
+      "id": "85",
+      "text": "and the eels can breathe air at the surface and travel out of the treatment zone.",
+      "start": 539.36,
+      "end": 544.59,
+      "durationSeconds": 5.28,
+      "words": [
+        {
+          "text": "and",
+          "start": 539.36,
+          "end": 539.55
+        },
+        {
+          "text": "the",
+          "start": 539.55,
+          "end": 539.74
+        },
+        {
+          "text": "eels",
+          "start": 539.74,
+          "end": 539.86
+        },
+        {
+          "text": "can",
+          "start": 540.03,
+          "end": 540.15
+        },
+        {
+          "text": "breathe",
+          "start": 540.17,
+          "end": 540.63
+        },
+        {
+          "text": "air",
+          "start": 540.72,
+          "end": 540.82
+        },
+        {
+          "text": "at",
+          "start": 540.82,
+          "end": 540.88
+        },
+        {
+          "text": "the",
+          "start": 541.01,
+          "end": 541.1
+        },
+        {
+          "text": "surface",
+          "start": 541.15,
+          "end": 541.58
+        },
+        {
+          "text": "and",
+          "start": 541.58,
+          "end": 541.75
+        },
+        {
+          "text": "travel",
+          "start": 541.84,
+          "end": 542.11
+        },
+        {
+          "text": "out",
+          "start": 542.17,
+          "end": 542.44
+        },
+        {
+          "text": "of",
+          "start": 542.53,
+          "end": 542.63
+        },
+        {
+          "text": "the",
+          "start": 542.68,
+          "end": 542.95
+        },
+        {
+          "text": "treatment",
+          "start": 542.95,
+          "end": 543.43
+        },
+        {
+          "text": "zone.",
+          "start": 544.01,
+          "end": 544.59
+        }
+      ]
+    },
+    {
+      "id": "86",
+      "text": "Biological control. No natural enemy is available that would eat swamp eels and nothing else.",
+      "start": 544.64,
+      "end": 549.82,
+      "durationSeconds": 5.18,
+      "words": [
+        {
+          "text": "Biological",
+          "start": 544.64,
+          "end": 545.25
+        },
+        {
+          "text": "control.",
+          "start": 545.25,
+          "end": 545.78
+        },
+        {
+          "text": "No",
+          "start": 545.99,
+          "end": 546
+        },
+        {
+          "text": "natural",
+          "start": 546,
+          "end": 546.44
+        },
+        {
+          "text": "enemy",
+          "start": 546.44,
+          "end": 546.67
+        },
+        {
+          "text": "is",
+          "start": 546.83,
+          "end": 546.87
+        },
+        {
+          "text": "available",
+          "start": 546.87,
+          "end": 547.48
+        },
+        {
+          "text": "that",
+          "start": 547.48,
+          "end": 547.59
+        },
+        {
+          "text": "would",
+          "start": 547.65,
+          "end": 547.82
+        },
+        {
+          "text": "eat",
+          "start": 547.82,
+          "end": 547.84
+        },
+        {
+          "text": "swamp",
+          "start": 548.07,
+          "end": 548.32
+        },
+        {
+          "text": "eels",
+          "start": 548.32,
+          "end": 548.55
+        },
+        {
+          "text": "and",
+          "start": 548.63,
+          "end": 548.81
+        },
+        {
+          "text": "nothing",
+          "start": 548.81,
+          "end": 549.17
+        },
+        {
+          "text": "else.",
+          "start": 549.53,
+          "end": 549.82
+        }
+      ]
+    },
+    {
+      "id": "87",
+      "text": "Wading birds take them opportunistically, and it isn't close to enough.",
+      "start": 549.82,
+      "end": 554.51,
+      "durationSeconds": 4.79,
+      "words": [
+        {
+          "text": "Wading",
+          "start": 549.82,
+          "end": 550.24
+        },
+        {
+          "text": "birds",
+          "start": 550.24,
+          "end": 550.61
+        },
+        {
+          "text": "take",
+          "start": 550.69,
+          "end": 550.86
+        },
+        {
+          "text": "them",
+          "start": 550.99,
+          "end": 551.19
+        },
+        {
+          "text": "opportunistically,",
+          "start": 551.19,
+          "end": 552.56
+        },
+        {
+          "text": "and",
+          "start": 552.56,
+          "end": 552.77
+        },
+        {
+          "text": "it",
+          "start": 552.77,
+          "end": 552.8
+        },
+        {
+          "text": "isn't",
+          "start": 552.95,
+          "end": 553.34
+        },
+        {
+          "text": "close",
+          "start": 553.47,
+          "end": 553.72
+        },
+        {
+          "text": "to",
+          "start": 553.72,
+          "end": 553.86
+        },
+        {
+          "text": "enough.",
+          "start": 553.86,
+          "end": 554.51
+        }
+      ]
+    },
+    {
+      "id": "88",
+      "text": "Barriers. The canal network that spread them is public infrastructure, hundreds of miles of it, built for flood control.",
+      "start": 554.61,
+      "end": 562.16,
+      "durationSeconds": 7.55,
+      "words": [
+        {
+          "text": "Barriers.",
+          "start": 554.61,
+          "end": 555.25
+        },
+        {
+          "text": "The",
+          "start": 555.25,
+          "end": 555.45
+        },
+        {
+          "text": "canal",
+          "start": 555.45,
+          "end": 555.73
+        },
+        {
+          "text": "network",
+          "start": 556.09,
+          "end": 556.25
+        },
+        {
+          "text": "that",
+          "start": 556.25,
+          "end": 556.4
+        },
+        {
+          "text": "spread",
+          "start": 556.57,
+          "end": 556.87
+        },
+        {
+          "text": "them",
+          "start": 557.12,
+          "end": 557.17
+        },
+        {
+          "text": "is",
+          "start": 557.26,
+          "end": 557.3
+        },
+        {
+          "text": "public",
+          "start": 557.3,
+          "end": 557.62
+        },
+        {
+          "text": "infrastructure,",
+          "start": 557.69,
+          "end": 558.77
+        },
+        {
+          "text": "hundreds",
+          "start": 558.91,
+          "end": 559.3
+        },
+        {
+          "text": "of",
+          "start": 559.3,
+          "end": 559.36
+        },
+        {
+          "text": "miles",
+          "start": 559.51,
+          "end": 559.84
+        },
+        {
+          "text": "of",
+          "start": 559.92,
+          "end": 560
+        },
+        {
+          "text": "it,",
+          "start": 560,
+          "end": 560.32
+        },
+        {
+          "text": "built",
+          "start": 560.32,
+          "end": 560.72
+        },
+        {
+          "text": "for",
+          "start": 560.72,
+          "end": 560.86
+        },
+        {
+          "text": "flood",
+          "start": 560.97,
+          "end": 561.06
+        },
+        {
+          "text": "control.",
+          "start": 561.41,
+          "end": 562.16
+        }
+      ]
+    },
+    {
+      "id": "89",
+      "text": "You cannot wall it off. Howell's own summary of the situation is about as blunt as a scientist gets in print.",
+      "start": 562.16,
+      "end": 569.15,
+      "durationSeconds": 7.01,
+      "words": [
+        {
+          "text": "You",
+          "start": 562.16,
+          "end": 562.22
+        },
+        {
+          "text": "cannot",
+          "start": 562.57,
+          "end": 562.88
+        },
+        {
+          "text": "wall",
+          "start": 562.88,
+          "end": 563.16
+        },
+        {
+          "text": "it",
+          "start": 563.16,
+          "end": 563.39
+        },
+        {
+          "text": "off.",
+          "start": 563.39,
+          "end": 563.87
+        },
+        {
+          "text": "Howell's",
+          "start": 563.88,
+          "end": 564.26
+        },
+        {
+          "text": "own",
+          "start": 564.26,
+          "end": 564.4
+        },
+        {
+          "text": "summary",
+          "start": 564.4,
+          "end": 564.67
+        },
+        {
+          "text": "of",
+          "start": 564.67,
+          "end": 564.83
+        },
+        {
+          "text": "the",
+          "start": 564.83,
+          "end": 565
+        },
+        {
+          "text": "situation",
+          "start": 565.1,
+          "end": 565.76
+        },
+        {
+          "text": "is",
+          "start": 565.76,
+          "end": 565.93
+        },
+        {
+          "text": "about",
+          "start": 565.93,
+          "end": 566.21
+        },
+        {
+          "text": "as",
+          "start": 566.21,
+          "end": 566.57
+        },
+        {
+          "text": "blunt",
+          "start": 566.57,
+          "end": 566.88
+        },
+        {
+          "text": "as",
+          "start": 567.05,
+          "end": 567.11
+        },
+        {
+          "text": "a",
+          "start": 567.11,
+          "end": 567.16
+        },
+        {
+          "text": "scientist",
+          "start": 567.2,
+          "end": 567.9
+        },
+        {
+          "text": "gets",
+          "start": 568.03,
+          "end": 568.28
+        },
+        {
+          "text": "in",
+          "start": 568.28,
+          "end": 568.33
+        },
+        {
+          "text": "print.",
+          "start": 568.55,
+          "end": 569.15
+        }
+      ]
+    },
+    {
+      "id": "90",
+      "text": "Controlling an invasive species in a system like this is basically impossible.",
+      "start": 569.17,
+      "end": 573.68,
+      "durationSeconds": 4.51,
+      "words": [
+        {
+          "text": "Controlling",
+          "start": 569.17,
+          "end": 569.66
+        },
+        {
+          "text": "an",
+          "start": 569.74,
+          "end": 569.77
+        },
+        {
+          "text": "invasive",
+          "start": 569.77,
+          "end": 570.14
+        },
+        {
+          "text": "species",
+          "start": 570.14,
+          "end": 570.38
+        },
+        {
+          "text": "in",
+          "start": 570.58,
+          "end": 570.65
+        },
+        {
+          "text": "a",
+          "start": 570.65,
+          "end": 570.69
+        },
+        {
+          "text": "system",
+          "start": 570.74,
+          "end": 571.19
+        },
+        {
+          "text": "like",
+          "start": 571.19,
+          "end": 571.49
+        },
+        {
+          "text": "this",
+          "start": 571.5,
+          "end": 571.72
+        },
+        {
+          "text": "is",
+          "start": 571.72,
+          "end": 572.07
+        },
+        {
+          "text": "basically",
+          "start": 572.07,
+          "end": 572.65
+        },
+        {
+          "text": "impossible.",
+          "start": 572.65,
+          "end": 573.68
+        }
+      ]
+    },
+    {
+      "id": "91",
+      "text": "What is actually happening is surveillance. In February of this year, a University of Florida team published a method using environmental DNA,",
+      "start": 573.68,
+      "end": 581.7,
+      "durationSeconds": 8.02,
+      "words": [
+        {
+          "text": "What",
+          "start": 573.68,
+          "end": 573.83
+        },
+        {
+          "text": "is",
+          "start": 574.05,
+          "end": 574.09
+        },
+        {
+          "text": "actually",
+          "start": 574.09,
+          "end": 574.59
+        },
+        {
+          "text": "happening",
+          "start": 574.59,
+          "end": 575.15
+        },
+        {
+          "text": "is",
+          "start": 575.15,
+          "end": 575.27
+        },
+        {
+          "text": "surveillance.",
+          "start": 575.27,
+          "end": 576.24
+        },
+        {
+          "text": "In",
+          "start": 576.3,
+          "end": 576.36
+        },
+        {
+          "text": "February",
+          "start": 576.36,
+          "end": 576.83
+        },
+        {
+          "text": "of",
+          "start": 576.91,
+          "end": 576.98
+        },
+        {
+          "text": "this",
+          "start": 576.98,
+          "end": 577.23
+        },
+        {
+          "text": "year,",
+          "start": 577.23,
+          "end": 577.48
+        },
+        {
+          "text": "a",
+          "start": 577.59,
+          "end": 577.64
+        },
+        {
+          "text": "University",
+          "start": 577.81,
+          "end": 578.12
+        },
+        {
+          "text": "of",
+          "start": 578.29,
+          "end": 578.4
+        },
+        {
+          "text": "Florida",
+          "start": 578.4,
+          "end": 578.85
+        },
+        {
+          "text": "team",
+          "start": 578.97,
+          "end": 579.1
+        },
+        {
+          "text": "published",
+          "start": 579.1,
+          "end": 579.49
+        },
+        {
+          "text": "a",
+          "start": 579.49,
+          "end": 579.79
+        },
+        {
+          "text": "method",
+          "start": 579.79,
+          "end": 580.1
+        },
+        {
+          "text": "using",
+          "start": 580.11,
+          "end": 580.42
+        },
+        {
+          "text": "environmental",
+          "start": 580.63,
+          "end": 581.32
+        },
+        {
+          "text": "DNA,",
+          "start": 581.42,
+          "end": 581.7
+        }
+      ]
+    }
+  ]
+}

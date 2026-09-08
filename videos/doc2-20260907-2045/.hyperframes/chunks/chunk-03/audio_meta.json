@@ -1,0 +1,801 @@
+{
+  "bgm": null,
+  "voices": [
+    {
+      "frame": 1,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 191.43,
+      "duration_s": 5.8,
+      "words": [
+        {
+          "text": "Water",
+          "start": 0,
+          "end": 0.27
+        },
+        {
+          "text": "level",
+          "start": 0.27,
+          "end": 0.54
+        },
+        {
+          "text": "change",
+          "start": 0.9,
+          "end": 1.02
+        },
+        {
+          "text": "over",
+          "start": 1.02,
+          "end": 1.21
+        },
+        {
+          "text": "time.",
+          "start": 1.38,
+          "end": 1.7
+        },
+        {
+          "text": "The",
+          "start": 1.93,
+          "end": 1.96
+        },
+        {
+          "text": "Everglades",
+          "start": 2.06,
+          "end": 2.63
+        },
+        {
+          "text": "hydrology",
+          "start": 2.63,
+          "end": 3.23
+        },
+        {
+          "text": "has",
+          "start": 3.24,
+          "end": 3.44
+        },
+        {
+          "text": "been",
+          "start": 3.44,
+          "end": 3.56
+        },
+        {
+          "text": "re-engineered",
+          "start": 3.72,
+          "end": 4.71
+        },
+        {
+          "text": "for",
+          "start": 4.83,
+          "end": 4.92
+        },
+        {
+          "text": "a",
+          "start": 4.97,
+          "end": 5.03
+        },
+        {
+          "text": "century.",
+          "start": 5.03,
+          "end": 5.75
+        }
+      ]
+    },
+    {
+      "frame": 2,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 197.23,
+      "duration_s": 5.98,
+      "words": [
+        {
+          "text": "Canals,",
+          "start": 0,
+          "end": 0.62
+        },
+        {
+          "text": "levees,",
+          "start": 0.62,
+          "end": 1.22
+        },
+        {
+          "text": "pumps,",
+          "start": 1.22,
+          "end": 1.77
+        },
+        {
+          "text": "and",
+          "start": 1.77,
+          "end": 2
+        },
+        {
+          "text": "drainage",
+          "start": 2,
+          "end": 2.63
+        },
+        {
+          "text": "have",
+          "start": 2.63,
+          "end": 2.94
+        },
+        {
+          "text": "altered",
+          "start": 2.94,
+          "end": 3.49
+        },
+        {
+          "text": "how",
+          "start": 3.49,
+          "end": 3.72
+        },
+        {
+          "text": "long",
+          "start": 3.72,
+          "end": 4.03
+        },
+        {
+          "text": "any",
+          "start": 4.03,
+          "end": 4.26
+        },
+        {
+          "text": "given",
+          "start": 4.26,
+          "end": 4.59
+        },
+        {
+          "text": "patch",
+          "start": 4.88,
+          "end": 5.16
+        },
+        {
+          "text": "stays",
+          "start": 5.28,
+          "end": 5.54
+        },
+        {
+          "text": "wet.",
+          "start": 5.54,
+          "end": 5.98
+        }
+      ]
+    },
+    {
+      "frame": 3,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 203.21,
+      "duration_s": 6.06,
+      "words": [
+        {
+          "text": "Amphibians",
+          "start": 0,
+          "end": 0.75
+        },
+        {
+          "text": "are",
+          "start": 0.76,
+          "end": 0.97
+        },
+        {
+          "text": "sensitive",
+          "start": 0.97,
+          "end": 1.46
+        },
+        {
+          "text": "to",
+          "start": 1.79,
+          "end": 1.8
+        },
+        {
+          "text": "that.",
+          "start": 1.92,
+          "end": 2.29
+        },
+        {
+          "text": "This",
+          "start": 2.29,
+          "end": 2.51
+        },
+        {
+          "text": "is",
+          "start": 2.74,
+          "end": 2.77
+        },
+        {
+          "text": "a",
+          "start": 2.78,
+          "end": 2.84
+        },
+        {
+          "text": "genuine,",
+          "start": 2.84,
+          "end": 3.42
+        },
+        {
+          "text": "well-documented",
+          "start": 3.58,
+          "end": 4.54
+        },
+        {
+          "text": "driver",
+          "start": 5.14,
+          "end": 5.19
+        },
+        {
+          "text": "of",
+          "start": 5.27,
+          "end": 5.33
+        },
+        {
+          "text": "decline.",
+          "start": 5.33,
+          "end": 6.06
+        }
+      ]
+    },
+    {
+      "frame": 4,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 209.27,
+      "duration_s": 7.41,
+      "words": [
+        {
+          "text": "Soil",
+          "start": 0,
+          "end": 0.28
+        },
+        {
+          "text": "nitrogen",
+          "start": 0.7,
+          "end": 0.86
+        },
+        {
+          "text": "and",
+          "start": 0.86,
+          "end": 1.01
+        },
+        {
+          "text": "phosphorus.",
+          "start": 1.18,
+          "end": 2.03
+        },
+        {
+          "text": "Agricultural",
+          "start": 2.03,
+          "end": 2.9
+        },
+        {
+          "text": "runoff",
+          "start": 2.99,
+          "end": 3.35
+        },
+        {
+          "text": "enters",
+          "start": 3.52,
+          "end": 3.79
+        },
+        {
+          "text": "the",
+          "start": 3.79,
+          "end": 3.96
+        },
+        {
+          "text": "system",
+          "start": 4.12,
+          "end": 4.45
+        },
+        {
+          "text": "from",
+          "start": 4.45,
+          "end": 4.76
+        },
+        {
+          "text": "the",
+          "start": 4.9,
+          "end": 5
+        },
+        {
+          "text": "north",
+          "start": 5.05,
+          "end": 5.35
+        },
+        {
+          "text": "and",
+          "start": 5.35,
+          "end": 5.55
+        },
+        {
+          "text": "drops",
+          "start": 5.55,
+          "end": 5.83
+        },
+        {
+          "text": "off",
+          "start": 5.88,
+          "end": 6.04
+        },
+        {
+          "text": "as",
+          "start": 6.04,
+          "end": 6.38
+        },
+        {
+          "text": "you",
+          "start": 6.38,
+          "end": 6.42
+        },
+        {
+          "text": "move",
+          "start": 6.42,
+          "end": 6.69
+        },
+        {
+          "text": "south.",
+          "start": 6.69,
+          "end": 7.18
+        }
+      ]
+    },
+    {
+      "frame": 5,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 216.68,
+      "duration_s": 5.83,
+      "words": [
+        {
+          "text": "Nutrient",
+          "start": 0,
+          "end": 0.3
+        },
+        {
+          "text": "enrichment",
+          "start": 0.43,
+          "end": 1.05
+        },
+        {
+          "text": "restructures",
+          "start": 1.05,
+          "end": 1.86
+        },
+        {
+          "text": "wetland",
+          "start": 1.9,
+          "end": 2.23
+        },
+        {
+          "text": "plant",
+          "start": 2.39,
+          "end": 2.78
+        },
+        {
+          "text": "communities",
+          "start": 2.9,
+          "end": 3.55
+        },
+        {
+          "text": "and",
+          "start": 3.55,
+          "end": 3.75
+        },
+        {
+          "text": "everything",
+          "start": 3.75,
+          "end": 4.43
+        },
+        {
+          "text": "that",
+          "start": 4.43,
+          "end": 4.68
+        },
+        {
+          "text": "depends",
+          "start": 4.85,
+          "end": 5.12
+        },
+        {
+          "text": "on",
+          "start": 5.12,
+          "end": 5.18
+        },
+        {
+          "text": "them.",
+          "start": 5.53,
+          "end": 5.7
+        }
+      ]
+    },
+    {
+      "frame": 6,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 222.51,
+      "duration_s": 6.49,
+      "words": [
+        {
+          "text": "This",
+          "start": 0,
+          "end": 0.2
+        },
+        {
+          "text": "is",
+          "start": 0.2,
+          "end": 0.3
+        },
+        {
+          "text": "real",
+          "start": 0.52,
+          "end": 0.61
+        },
+        {
+          "text": "and",
+          "start": 0.61,
+          "end": 0.74
+        },
+        {
+          "text": "in",
+          "start": 0.83,
+          "end": 0.94
+        },
+        {
+          "text": "the",
+          "start": 0.94,
+          "end": 1.14
+        },
+        {
+          "text": "early",
+          "start": 1.36,
+          "end": 1.48
+        },
+        {
+          "text": "stages",
+          "start": 1.48,
+          "end": 1.97
+        },
+        {
+          "text": "of",
+          "start": 2.05,
+          "end": 2.11
+        },
+        {
+          "text": "the",
+          "start": 2.11,
+          "end": 2.32
+        },
+        {
+          "text": "analysis",
+          "start": 2.32,
+          "end": 2.89
+        },
+        {
+          "text": "it",
+          "start": 2.89,
+          "end": 2.99
+        },
+        {
+          "text": "looked",
+          "start": 3.03,
+          "end": 3.2
+        },
+        {
+          "text": "like",
+          "start": 3.54,
+          "end": 3.74
+        },
+        {
+          "text": "the",
+          "start": 3.74,
+          "end": 3.85
+        },
+        {
+          "text": "strongest",
+          "start": 4.02,
+          "end": 4.58
+        },
+        {
+          "text": "signal",
+          "start": 4.7,
+          "end": 5.02
+        },
+        {
+          "text": "in",
+          "start": 5.02,
+          "end": 5.16
+        },
+        {
+          "text": "the",
+          "start": 5.16,
+          "end": 5.3
+        },
+        {
+          "text": "whole",
+          "start": 5.52,
+          "end": 5.72
+        },
+        {
+          "text": "dataset.",
+          "start": 5.72,
+          "end": 6.49
+        }
+      ]
+    },
+    {
+      "frame": 7,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 229,
+      "duration_s": 9.2,
+      "words": [
+        {
+          "text": "Disease.",
+          "start": 0,
+          "end": 0.64
+        },
+        {
+          "text": "Chitrid",
+          "start": 0.65,
+          "end": 1
+        },
+        {
+          "text": "fungus",
+          "start": 1.11,
+          "end": 1.39
+        },
+        {
+          "text": "has",
+          "start": 1.39,
+          "end": 1.57
+        },
+        {
+          "text": "devastated",
+          "start": 1.57,
+          "end": 1.99
+        },
+        {
+          "text": "amphibian",
+          "start": 2.57,
+          "end": 2.81
+        },
+        {
+          "text": "populations",
+          "start": 2.81,
+          "end": 3.28
+        },
+        {
+          "text": "on",
+          "start": 3.6,
+          "end": 3.66
+        },
+        {
+          "text": "multiple",
+          "start": 3.73,
+          "end": 4.12
+        },
+        {
+          "text": "continents",
+          "start": 4.17,
+          "end": 4.77
+        },
+        {
+          "text": "and",
+          "start": 4.86,
+          "end": 5.02
+        },
+        {
+          "text": "is",
+          "start": 5.02,
+          "end": 5.14
+        },
+        {
+          "text": "one",
+          "start": 5.15,
+          "end": 5.23
+        },
+        {
+          "text": "of",
+          "start": 5.39,
+          "end": 5.46
+        },
+        {
+          "text": "the",
+          "start": 5.5,
+          "end": 5.66
+        },
+        {
+          "text": "most",
+          "start": 5.66,
+          "end": 6
+        },
+        {
+          "text": "serious",
+          "start": 6.1,
+          "end": 6.57
+        },
+        {
+          "text": "wildlife",
+          "start": 6.57,
+          "end": 6.99
+        },
+        {
+          "text": "pathogens",
+          "start": 7.57,
+          "end": 7.88
+        },
+        {
+          "text": "ever",
+          "start": 8.05,
+          "end": 8.3
+        },
+        {
+          "text": "recorded.",
+          "start": 8.31,
+          "end": 9.2
+        }
+      ]
+    },
+    {
+      "frame": 8,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 238.2,
+      "duration_s": 3.98,
+      "words": [
+        {
+          "text": "Ranovirus",
+          "start": 0,
+          "end": 0.75
+        },
+        {
+          "text": "does",
+          "start": 0.75,
+          "end": 1.05
+        },
+        {
+          "text": "similar",
+          "start": 1.19,
+          "end": 1.64
+        },
+        {
+          "text": "damage.",
+          "start": 1.79,
+          "end": 2.36
+        },
+        {
+          "text": "Both",
+          "start": 2.36,
+          "end": 2.75
+        },
+        {
+          "text": "were",
+          "start": 2.75,
+          "end": 3
+        },
+        {
+          "text": "tested.",
+          "start": 3.06,
+          "end": 3.64
+        }
+      ]
+    },
+    {
+      "frame": 9,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 242.18,
+      "duration_s": 5,
+      "words": [
+        {
+          "text": "Pollution",
+          "start": 0,
+          "end": 0.42
+        },
+        {
+          "text": "and",
+          "start": 0.42,
+          "end": 0.59
+        },
+        {
+          "text": "other",
+          "start": 0.59,
+          "end": 0.86
+        },
+        {
+          "text": "human",
+          "start": 0.87,
+          "end": 1.12
+        },
+        {
+          "text": "cause",
+          "start": 1.12,
+          "end": 1.47
+        },
+        {
+          "text": "pressures.",
+          "start": 1.47,
+          "end": 2.15
+        },
+        {
+          "text": "Contaminants,",
+          "start": 2.15,
+          "end": 2.95
+        },
+        {
+          "text": "land",
+          "start": 2.95,
+          "end": 3.18
+        },
+        {
+          "text": "use,",
+          "start": 3.18,
+          "end": 3.46
+        },
+        {
+          "text": "development",
+          "start": 3.46,
+          "end": 4.09
+        },
+        {
+          "text": "at",
+          "start": 4.11,
+          "end": 4.13
+        },
+        {
+          "text": "the",
+          "start": 4.29,
+          "end": 4.46
+        },
+        {
+          "text": "edges.",
+          "start": 4.57,
+          "end": 5
+        }
+      ]
+    },
+    {
+      "frame": 10,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 247.18,
+      "duration_s": 3.32,
+      "words": [
+        {
+          "text": "Every",
+          "start": 0,
+          "end": 0.34
+        },
+        {
+          "text": "one",
+          "start": 0.34,
+          "end": 0.48
+        },
+        {
+          "text": "of",
+          "start": 0.53,
+          "end": 0.67
+        },
+        {
+          "text": "those",
+          "start": 0.67,
+          "end": 1.03
+        },
+        {
+          "text": "factors",
+          "start": 1.03,
+          "end": 1.34
+        },
+        {
+          "text": "is",
+          "start": 1.51,
+          "end": 1.62
+        },
+        {
+          "text": "a",
+          "start": 1.62,
+          "end": 1.67
+        },
+        {
+          "text": "legitimate",
+          "start": 1.67,
+          "end": 2.36
+        },
+        {
+          "text": "explanation.",
+          "start": 2.36,
+          "end": 3.23
+        }
+      ]
+    }
+  ],
+  "sfx": []
+}

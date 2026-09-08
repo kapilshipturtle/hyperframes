@@ -1,0 +1,888 @@
+{
+  "beats": [
+    {
+      "id": "156",
+      "text": "In the same water, at the same time, something without a public profile that nobody was frightened of,",
+      "start": 657,
+      "end": 662.67,
+      "durationSeconds": 5.67,
+      "words": [
+        {
+          "text": "In",
+          "start": 657,
+          "end": 657.13
+        },
+        {
+          "text": "the",
+          "start": 657.13,
+          "end": 657.24
+        },
+        {
+          "text": "same",
+          "start": 657.41,
+          "end": 657.59
+        },
+        {
+          "text": "water,",
+          "start": 657.59,
+          "end": 658.07
+        },
+        {
+          "text": "at",
+          "start": 658.1,
+          "end": 658.2
+        },
+        {
+          "text": "the",
+          "start": 658.2,
+          "end": 658.4
+        },
+        {
+          "text": "same",
+          "start": 658.4,
+          "end": 658.66
+        },
+        {
+          "text": "time,",
+          "start": 658.91,
+          "end": 659.07
+        },
+        {
+          "text": "something",
+          "start": 659.07,
+          "end": 659.76
+        },
+        {
+          "text": "without",
+          "start": 659.76,
+          "end": 660.13
+        },
+        {
+          "text": "a",
+          "start": 660.13,
+          "end": 660.18
+        },
+        {
+          "text": "public",
+          "start": 660.18,
+          "end": 660.51
+        },
+        {
+          "text": "profile",
+          "start": 660.63,
+          "end": 660.97
+        },
+        {
+          "text": "that",
+          "start": 660.97,
+          "end": 661.22
+        },
+        {
+          "text": "nobody",
+          "start": 661.22,
+          "end": 661.54
+        },
+        {
+          "text": "was",
+          "start": 661.59,
+          "end": 661.75
+        },
+        {
+          "text": "frightened",
+          "start": 662.09,
+          "end": 662.4
+        },
+        {
+          "text": "of,",
+          "start": 662.55,
+          "end": 662.67
+        }
+      ]
+    },
+    {
+      "id": "157",
+      "text": "that early assessments had explicitly cleared as low risk, went through the base of the food web and removed",
+      "start": 662.67,
+      "end": 669.36,
+      "durationSeconds": 6.69,
+      "words": [
+        {
+          "text": "that",
+          "start": 662.67,
+          "end": 662.87
+        },
+        {
+          "text": "early",
+          "start": 662.87,
+          "end": 663.25
+        },
+        {
+          "text": "assessments",
+          "start": 663.25,
+          "end": 663.77
+        },
+        {
+          "text": "had",
+          "start": 664.07,
+          "end": 664.14
+        },
+        {
+          "text": "explicitly",
+          "start": 664.14,
+          "end": 664.75
+        },
+        {
+          "text": "cleared",
+          "start": 664.91,
+          "end": 665.18
+        },
+        {
+          "text": "as",
+          "start": 665.26,
+          "end": 665.35
+        },
+        {
+          "text": "low",
+          "start": 665.54,
+          "end": 665.63
+        },
+        {
+          "text": "risk,",
+          "start": 665.68,
+          "end": 666.16
+        },
+        {
+          "text": "went",
+          "start": 666.16,
+          "end": 666.46
+        },
+        {
+          "text": "through",
+          "start": 666.57,
+          "end": 667.04
+        },
+        {
+          "text": "the",
+          "start": 667.04,
+          "end": 667.28
+        },
+        {
+          "text": "base",
+          "start": 667.28,
+          "end": 667.59
+        },
+        {
+          "text": "of",
+          "start": 667.59,
+          "end": 667.76
+        },
+        {
+          "text": "the",
+          "start": 667.76,
+          "end": 667.82
+        },
+        {
+          "text": "food",
+          "start": 668.17,
+          "end": 668.32
+        },
+        {
+          "text": "web",
+          "start": 668.32,
+          "end": 668.53
+        },
+        {
+          "text": "and",
+          "start": 668.53,
+          "end": 668.76
+        },
+        {
+          "text": "removed",
+          "start": 668.99,
+          "end": 669.36
+        }
+      ]
+    },
+    {
+      "id": "158",
+      "text": "it. Not the top. The bottom.",
+      "start": 669.36,
+      "end": 671.73,
+      "durationSeconds": 2.37,
+      "words": [
+        {
+          "text": "it.",
+          "start": 669.36,
+          "end": 669.67
+        },
+        {
+          "text": "Not",
+          "start": 669.83,
+          "end": 670.03
+        },
+        {
+          "text": "the",
+          "start": 670.03,
+          "end": 670.26
+        },
+        {
+          "text": "top.",
+          "start": 670.26,
+          "end": 670.71
+        },
+        {
+          "text": "The",
+          "start": 670.71,
+          "end": 670.84
+        },
+        {
+          "text": "bottom.",
+          "start": 671.39,
+          "end": 671.64
+        }
+      ]
+    },
+    {
+      "id": "159",
+      "text": "The layer everything else stands on.",
+      "start": 671.73,
+      "end": 673.86,
+      "durationSeconds": 2.13,
+      "words": [
+        {
+          "text": "The",
+          "start": 671.73,
+          "end": 671.83
+        },
+        {
+          "text": "layer",
+          "start": 671.88,
+          "end": 672.18
+        },
+        {
+          "text": "everything",
+          "start": 672.18,
+          "end": 672.63
+        },
+        {
+          "text": "else",
+          "start": 672.75,
+          "end": 672.87
+        },
+        {
+          "text": "stands",
+          "start": 673.21,
+          "end": 673.52
+        },
+        {
+          "text": "on.",
+          "start": 673.66,
+          "end": 673.86
+        }
+      ]
+    },
+    {
+      "id": "160",
+      "text": "It arrived in the 90s in a bucket from a fish market or a backyard pond.",
+      "start": 673.86,
+      "end": 678.19,
+      "durationSeconds": 4.33,
+      "words": [
+        {
+          "text": "It",
+          "start": 673.86,
+          "end": 673.99
+        },
+        {
+          "text": "arrived",
+          "start": 674.37,
+          "end": 674.46
+        },
+        {
+          "text": "in",
+          "start": 674.46,
+          "end": 674.54
+        },
+        {
+          "text": "the",
+          "start": 674.67,
+          "end": 674.76
+        },
+        {
+          "text": "90s",
+          "start": 674.81,
+          "end": 675.25
+        },
+        {
+          "text": "in",
+          "start": 675.25,
+          "end": 675.38
+        },
+        {
+          "text": "a",
+          "start": 675.38,
+          "end": 675.41
+        },
+        {
+          "text": "bucket",
+          "start": 675.5,
+          "end": 675.83
+        },
+        {
+          "text": "from",
+          "start": 676.03,
+          "end": 676.1
+        },
+        {
+          "text": "a",
+          "start": 676.14,
+          "end": 676.17
+        },
+        {
+          "text": "fish",
+          "start": 676.17,
+          "end": 676.44
+        },
+        {
+          "text": "market",
+          "start": 676.44,
+          "end": 676.96
+        },
+        {
+          "text": "or",
+          "start": 677.04,
+          "end": 677.1
+        },
+        {
+          "text": "a",
+          "start": 677.1,
+          "end": 677.16
+        },
+        {
+          "text": "backyard",
+          "start": 677.2,
+          "end": 677.74
+        },
+        {
+          "text": "pond.",
+          "start": 677.74,
+          "end": 678.19
+        }
+      ]
+    },
+    {
+      "id": "161",
+      "text": "It was formally considered a minor concern for well over a decade.",
+      "start": 678.19,
+      "end": 682.28,
+      "durationSeconds": 4.09,
+      "words": [
+        {
+          "text": "It",
+          "start": 678.19,
+          "end": 678.53
+        },
+        {
+          "text": "was",
+          "start": 678.53,
+          "end": 678.58
+        },
+        {
+          "text": "formally",
+          "start": 678.58,
+          "end": 679.11
+        },
+        {
+          "text": "considered",
+          "start": 679.16,
+          "end": 679.86
+        },
+        {
+          "text": "a",
+          "start": 679.86,
+          "end": 679.97
+        },
+        {
+          "text": "minor",
+          "start": 679.97,
+          "end": 680.26
+        },
+        {
+          "text": "concern",
+          "start": 680.51,
+          "end": 680.73
+        },
+        {
+          "text": "for",
+          "start": 680.82,
+          "end": 681.01
+        },
+        {
+          "text": "well",
+          "start": 681.01,
+          "end": 681.19
+        },
+        {
+          "text": "over",
+          "start": 681.35,
+          "end": 681.57
+        },
+        {
+          "text": "a",
+          "start": 681.57,
+          "end": 681.62
+        },
+        {
+          "text": "decade.",
+          "start": 681.7,
+          "end": 682.28
+        }
+      ]
+    },
+    {
+      "id": "162",
+      "text": "It was upgraded to high risk in 2025, 28 years after it was first found here.",
+      "start": 682.28,
+      "end": 688.78,
+      "durationSeconds": 6.5,
+      "words": [
+        {
+          "text": "It",
+          "start": 682.28,
+          "end": 682.36
+        },
+        {
+          "text": "was",
+          "start": 682.62,
+          "end": 682.71
+        },
+        {
+          "text": "upgraded",
+          "start": 682.76,
+          "end": 683.42
+        },
+        {
+          "text": "to",
+          "start": 683.42,
+          "end": 683.54
+        },
+        {
+          "text": "high",
+          "start": 683.58,
+          "end": 683.75
+        },
+        {
+          "text": "risk",
+          "start": 684.09,
+          "end": 684.24
+        },
+        {
+          "text": "in",
+          "start": 684.24,
+          "end": 684.4
+        },
+        {
+          "text": "2025,",
+          "start": 684.4,
+          "end": 685.42
+        },
+        {
+          "text": "28",
+          "start": 685.54,
+          "end": 685.84
+        },
+        {
+          "text": "years",
+          "start": 686.07,
+          "end": 686.45
+        },
+        {
+          "text": "after",
+          "start": 686.45,
+          "end": 686.75
+        },
+        {
+          "text": "it",
+          "start": 686.91,
+          "end": 686.98
+        },
+        {
+          "text": "was",
+          "start": 687.02,
+          "end": 687.18
+        },
+        {
+          "text": "first",
+          "start": 687.26,
+          "end": 687.66
+        },
+        {
+          "text": "found",
+          "start": 687.66,
+          "end": 687.9
+        },
+        {
+          "text": "here.",
+          "start": 688.41,
+          "end": 688.72
+        }
+      ]
+    },
+    {
+      "id": "163",
+      "text": "And this year, a team walked 30 sites across an area the size of Delaware, tested every other explanation they",
+      "start": 688.78,
+      "end": 695.31,
+      "durationSeconds": 6.53,
+      "words": [
+        {
+          "text": "And",
+          "start": 688.78,
+          "end": 688.86
+        },
+        {
+          "text": "this",
+          "start": 688.86,
+          "end": 689.04
+        },
+        {
+          "text": "year,",
+          "start": 689.04,
+          "end": 689.32
+        },
+        {
+          "text": "a",
+          "start": 689.32,
+          "end": 689.67
+        },
+        {
+          "text": "team",
+          "start": 689.67,
+          "end": 689.89
+        },
+        {
+          "text": "walked",
+          "start": 689.89,
+          "end": 690.3
+        },
+        {
+          "text": "30",
+          "start": 690.3,
+          "end": 690.7
+        },
+        {
+          "text": "sites",
+          "start": 690.7,
+          "end": 690.79
+        },
+        {
+          "text": "across",
+          "start": 691.13,
+          "end": 691.44
+        },
+        {
+          "text": "an",
+          "start": 691.44,
+          "end": 691.61
+        },
+        {
+          "text": "area",
+          "start": 691.61,
+          "end": 691.86
+        },
+        {
+          "text": "the",
+          "start": 691.86,
+          "end": 691.94
+        },
+        {
+          "text": "size",
+          "start": 692.29,
+          "end": 692.33
+        },
+        {
+          "text": "of",
+          "start": 692.33,
+          "end": 692.46
+        },
+        {
+          "text": "Delaware,",
+          "start": 692.46,
+          "end": 693.13
+        },
+        {
+          "text": "tested",
+          "start": 693.13,
+          "end": 693.54
+        },
+        {
+          "text": "every",
+          "start": 693.54,
+          "end": 693.79
+        },
+        {
+          "text": "other",
+          "start": 693.95,
+          "end": 694.22
+        },
+        {
+          "text": "explanation",
+          "start": 694.22,
+          "end": 694.91
+        },
+        {
+          "text": "they",
+          "start": 695.14,
+          "end": 695.31
+        }
+      ]
+    },
+    {
+      "id": "164",
+      "text": "could construct, and found that this one animal outweighed all of them combined.",
+      "start": 695.31,
+      "end": 700.38,
+      "durationSeconds": 5.07,
+      "words": [
+        {
+          "text": "could",
+          "start": 695.31,
+          "end": 695.63
+        },
+        {
+          "text": "construct,",
+          "start": 695.71,
+          "end": 696.28
+        },
+        {
+          "text": "and",
+          "start": 696.28,
+          "end": 696.61
+        },
+        {
+          "text": "found",
+          "start": 696.61,
+          "end": 696.92
+        },
+        {
+          "text": "that",
+          "start": 697.09,
+          "end": 697.2
+        },
+        {
+          "text": "this",
+          "start": 697.2,
+          "end": 697.39
+        },
+        {
+          "text": "one",
+          "start": 697.64,
+          "end": 697.68
+        },
+        {
+          "text": "animal",
+          "start": 697.77,
+          "end": 698.09
+        },
+        {
+          "text": "outweighed",
+          "start": 698.09,
+          "end": 698.77
+        },
+        {
+          "text": "all",
+          "start": 698.77,
+          "end": 698.97
+        },
+        {
+          "text": "of",
+          "start": 698.97,
+          "end": 699.11
+        },
+        {
+          "text": "them",
+          "start": 699.11,
+          "end": 699.27
+        },
+        {
+          "text": "combined.",
+          "start": 699.43,
+          "end": 700.19
+        }
+      ]
+    },
+    {
+      "id": "165",
+      "text": "That sound is still there in the northern Everglades, loud enough to give you a headache.",
+      "start": 700.38,
+      "end": 705.04,
+      "durationSeconds": 4.66,
+      "words": [
+        {
+          "text": "That",
+          "start": 700.38,
+          "end": 700.47
+        },
+        {
+          "text": "sound",
+          "start": 700.52,
+          "end": 700.82
+        },
+        {
+          "text": "is",
+          "start": 700.82,
+          "end": 700.87
+        },
+        {
+          "text": "still",
+          "start": 700.95,
+          "end": 701.23
+        },
+        {
+          "text": "there",
+          "start": 701.23,
+          "end": 701.5
+        },
+        {
+          "text": "in",
+          "start": 701.5,
+          "end": 701.675
+        },
+        {
+          "text": "the",
+          "start": 701.675,
+          "end": 701.85
+        },
+        {
+          "text": "northern",
+          "start": 701.85,
+          "end": 702.16
+        },
+        {
+          "text": "Everglades,",
+          "start": 702.33,
+          "end": 703.04
+        },
+        {
+          "text": "loud",
+          "start": 703.04,
+          "end": 703.18
+        },
+        {
+          "text": "enough",
+          "start": 703.28,
+          "end": 703.58
+        },
+        {
+          "text": "to",
+          "start": 703.58,
+          "end": 703.83
+        },
+        {
+          "text": "give",
+          "start": 703.83,
+          "end": 704
+        },
+        {
+          "text": "you",
+          "start": 704,
+          "end": 704.05
+        },
+        {
+          "text": "a",
+          "start": 704.18,
+          "end": 704.24
+        },
+        {
+          "text": "headache.",
+          "start": 704.24,
+          "end": 704.94
+        }
+      ]
+    },
+    {
+      "id": "166",
+      "text": "In Taylor Slow it's already gone, and there is currently no method, no funding line,",
+      "start": 705.04,
+      "end": 710.35,
+      "durationSeconds": 5.31,
+      "words": [
+        {
+          "text": "In",
+          "start": 705.04,
+          "end": 705.1
+        },
+        {
+          "text": "Taylor",
+          "start": 705.1,
+          "end": 705.53
+        },
+        {
+          "text": "Slow",
+          "start": 705.53,
+          "end": 705.83
+        },
+        {
+          "text": "it's",
+          "start": 705.83,
+          "end": 706.11
+        },
+        {
+          "text": "already",
+          "start": 706.13,
+          "end": 706.62
+        },
+        {
+          "text": "gone,",
+          "start": 706.62,
+          "end": 707.05
+        },
+        {
+          "text": "and",
+          "start": 707.05,
+          "end": 707.26
+        },
+        {
+          "text": "there",
+          "start": 707.26,
+          "end": 707.62
+        },
+        {
+          "text": "is",
+          "start": 707.7,
+          "end": 707.77
+        },
+        {
+          "text": "currently",
+          "start": 707.77,
+          "end": 708.21
+        },
+        {
+          "text": "no",
+          "start": 708.51,
+          "end": 708.57
+        },
+        {
+          "text": "method,",
+          "start": 708.57,
+          "end": 709.15
+        },
+        {
+          "text": "no",
+          "start": 709.15,
+          "end": 709.19
+        },
+        {
+          "text": "funding",
+          "start": 709.35,
+          "end": 709.79
+        },
+        {
+          "text": "line,",
+          "start": 709.79,
+          "end": 710.34
+        }
+      ]
+    }
+  ]
+}

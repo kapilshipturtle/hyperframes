@@ -1,392 +1,380 @@
 {
  "10": {
-  "vignette": 0.542,
+  "vignette": 0.378,
   "grade": "desaturate"
  },
  "11": {
-  "vignette": 0.542,
+  "vignette": 0.378,
   "grade": "warm",
   "gradeContrast": true
  },
  "12": {
-  "vignette": 0.542,
-  "grade": "cool"
+  "vignette": 0.378,
+  "bw": true
  },
  "13": {
-  "vignette": 0.542,
-  "grade": "desaturate"
+  "vignette": 0.378
  },
  "14": {
-  "vignette": 0.542,
-  "grade": "warm",
+  "vignette": 0.378,
+  "grade": "cool",
   "gradeContrast": true
  },
  "15": {
-  "vignette": 0.542,
-  "grade": "cool"
+  "vignette": 0.378,
+  "grade": "desaturate"
  },
  "16": {
-  "vignette": 0.542,
+  "vignette": 0.378,
   "bw": true
  },
  "17": {
-  "vignette": 0.542,
-  "grade": "warm",
+  "vignette": 0.378,
+  "grade": "desaturate",
   "gradeContrast": true
  },
  "18": {
-  "vignette": 0.542,
-  "grade": "desaturate"
+  "vignette": 0.378
  },
  "19": {
-  "vignette": 0.542,
-  "bw": true
+  "vignette": 0.378,
+  "grade": "warm"
  },
  "20": {
-  "vignette": 0.542,
+  "vignette": 0.378,
   "grade": "desaturate",
   "gradeContrast": true
  },
  "21": {
-  "vignette": 0.542,
+  "vignette": 0.378,
   "grade": "desaturate"
  },
  "22": {
-  "vignette": 0.542,
-  "bw": true
+  "vignette": 0.378,
+  "grade": "cool"
  },
  "23": {
-  "vignette": 0.542,
-  "grade": "desaturate",
+  "vignette": 0.378,
   "gradeContrast": true
  },
  "24": {
-  "vignette": 0.542,
-  "grade": "desaturate"
+  "vignette": 0.378,
+  "bw": true
  },
  "25": {
-  "vignette": 0.542,
-  "grade": "cool"
+  "vignette": 0.378,
+  "grade": "desaturate"
  },
  "26": {
-  "vignette": 0.542,
+  "vignette": 0.378,
   "grade": "cool",
   "gradeContrast": true
  },
  "27": {
-  "vignette": 0.542,
+  "vignette": 0.378,
   "grade": "desaturate"
  },
  "28": {
-  "vignette": 0.542,
-  "grade": "desaturate"
+  "vignette": 0.378
  },
  "29": {
-  "vignette": 0.542,
-  "grade": "cool",
+  "vignette": 0.378,
+  "grade": "desaturate",
   "gradeContrast": true
  },
  "30": {
-  "vignette": 0.542,
+  "vignette": 0.378,
   "grade": "desaturate"
  },
  "31": {
-  "vignette": 0.542,
+  "vignette": 0.378,
   "grade": "warm"
  },
  "32": {
-  "vignette": 0.542,
+  "vignette": 0.378,
   "grade": "cool",
   "gradeContrast": true
  },
  "33": {
-  "vignette": 0.542,
-  "grade": "desaturate"
+  "vignette": 0.378
  },
  "34": {
-  "vignette": 0.542,
-  "grade": "warm"
+  "vignette": 0.378,
+  "grade": "cool"
  },
  "35": {
-  "vignette": 0.542,
-  "grade": "cool",
-  "gradeContrast": true
- },
- "36": {
-  "vignette": 0.542,
-  "bw": true
- },
- "37": {
-  "vignette": 0.542,
-  "grade": "warm"
- },
- "38": {
-  "vignette": 0.542,
+  "vignette": 0.378,
   "grade": "desaturate",
   "gradeContrast": true
  },
- "39": {
-  "vignette": 0.542,
+ "36": {
+  "vignette": 0.378,
   "bw": true
  },
+ "37": {
+  "vignette": 0.378,
+  "grade": "desaturate"
+ },
+ "38": {
+  "vignette": 0.378,
+  "gradeContrast": true
+ },
+ "39": {
+  "vignette": 0.378,
+  "grade": "warm"
+ },
  "40": {
-  "vignette": 0.542,
+  "vignette": 0.378,
   "grade": "desaturate"
  },
  "41": {
-  "vignette": 0.542,
+  "vignette": 0.378,
   "grade": "desaturate",
   "gradeContrast": true
  },
  "42": {
-  "vignette": 0.542,
-  "bw": true
+  "vignette": 0.378,
+  "grade": "cool"
  },
  "43": {
-  "vignette": 0.542,
-  "grade": "desaturate"
+  "vignette": 0.378
  },
  "44": {
-  "vignette": 0.542,
-  "grade": "desaturate",
+  "vignette": 0.378,
+  "bw": true,
   "gradeContrast": true
  },
  "45": {
-  "vignette": 0.542,
+  "vignette": 0.378,
   "grade": "desaturate"
  },
  "46": {
-  "vignette": 0.542,
+  "vignette": 0.378,
   "grade": "cool"
  },
  "47": {
-  "vignette": 0.542,
+  "vignette": 0.378,
   "grade": "desaturate",
   "gradeContrast": true
  },
  "48": {
-  "vignette": 0.542
+  "vignette": 0.378
  },
  "49": {
-  "vignette": 0.542,
-  "grade": "cool"
+  "vignette": 0.378,
+  "grade": "desaturate"
  },
  "50": {
-  "vignette": 0.542,
+  "vignette": 0.378,
   "grade": "desaturate",
   "gradeContrast": true
  },
  "51": {
-  "vignette": 0.542,
+  "vignette": 0.378,
   "grade": "warm"
  },
  "52": {
-  "vignette": 0.542,
+  "vignette": 0.378,
   "grade": "cool"
  },
  "53": {
-  "vignette": 0.542,
+  "vignette": 0.378,
   "gradeContrast": true
  },
  "54": {
-  "vignette": 0.542,
-  "grade": "warm"
+  "vignette": 0.378,
+  "grade": "cool"
  },
  "55": {
-  "vignette": 0.542,
+  "vignette": 0.378,
   "grade": "desaturate"
  },
  "56": {
-  "vignette": 0.542,
+  "vignette": 0.378,
   "bw": true,
   "gradeContrast": true
  },
  "57": {
-  "vignette": 0.542,
-  "grade": "warm"
+  "vignette": 0.378,
+  "grade": "desaturate"
  },
  "58": {
-  "vignette": 0.542
+  "vignette": 0.378
  },
  "59": {
-  "vignette": 0.542,
-  "bw": true,
+  "vignette": 0.378,
+  "grade": "warm",
   "gradeContrast": true
  },
  "60": {
-  "vignette": 0.542,
+  "vignette": 0.378,
   "grade": "desaturate"
  },
  "61": {
-  "vignette": 0.542,
+  "vignette": 0.378,
   "grade": "desaturate"
  },
  "62": {
-  "vignette": 0.542,
-  "bw": true,
+  "vignette": 0.378,
+  "grade": "cool",
   "gradeContrast": true
  },
  "63": {
-  "vignette": 0.542
+  "vignette": 0.378
  },
  "64": {
-  "vignette": 0.542,
-  "grade": "desaturate"
+  "vignette": 0.378,
+  "bw": true
  },
  "65": {
-  "vignette": 0.542,
+  "vignette": 0.378,
   "grade": "desaturate",
   "gradeContrast": true
  },
  "66": {
-  "vignette": 0.542,
+  "vignette": 0.378,
   "grade": "cool"
  },
  "67": {
-  "vignette": 0.542,
+  "vignette": 0.378,
   "grade": "desaturate"
  },
  "68": {
-  "vignette": 0.542,
+  "vignette": 0.378,
   "gradeContrast": true
  },
  "69": {
-  "vignette": 0.542,
-  "grade": "cool"
+  "vignette": 0.378,
+  "grade": "desaturate"
  },
  "70": {
-  "vignette": 0.542,
+  "vignette": 0.378,
   "grade": "desaturate"
  },
  "71": {
-  "vignette": 0.542,
+  "vignette": 0.378,
   "grade": "warm",
   "gradeContrast": true
  },
  "72": {
-  "vignette": 0.542,
+  "vignette": 0.378,
   "grade": "cool"
  },
  "73": {
-  "vignette": 0.542
+  "vignette": 0.378
  },
  "74": {
-  "vignette": 0.542,
-  "grade": "warm",
+  "vignette": 0.378,
+  "grade": "cool",
   "gradeContrast": true
  },
  "75": {
-  "vignette": 0.542,
+  "vignette": 0.378,
   "grade": "desaturate"
  },
  "76": {
-  "vignette": 0.542,
+  "vignette": 0.378,
   "bw": true
  },
  "77": {
-  "vignette": 0.542,
+  "vignette": 0.378,
   "grade": "desaturate",
   "gradeContrast": true
  },
  "78": {
-  "vignette": 0.542
+  "vignette": 0.378
  },
  "79": {
-  "vignette": 0.542,
-  "bw": true
+  "vignette": 0.378,
+  "grade": "warm"
  },
  "80": {
-  "vignette": 0.542,
+  "vignette": 0.378,
   "grade": "desaturate",
   "gradeContrast": true
  },
  "81": {
-  "vignette": 0.542,
+  "vignette": 0.378,
   "grade": "desaturate"
  },
  "82": {
-  "vignette": 0.542,
+  "vignette": 0.378,
   "grade": "cool"
  },
  "83": {
-  "vignette": 0.542
+  "vignette": 0.378,
+  "gradeContrast": true
  },
  "84": {
-  "vignette": 0.542,
-  "grade": "desaturate"
+  "vignette": 0.378,
+  "bw": true
  },
  "85": {
-  "vignette": 0.542,
   "grade": "desaturate"
  },
  "86": {
-  "vignette": 0.542,
-  "grade": "cool"
+  "vignette": 0.378,
+  "grade": "cool",
+  "gradeContrast": true
  },
  "87": {
-  "vignette": 0.542,
   "grade": "desaturate"
  },
- "88": {
-  "vignette": 0.542
- },
+ "88": {},
  "89": {
-  "vignette": 0.542,
-  "grade": "cool"
+  "vignette": 0.378,
+  "grade": "desaturate",
+  "gradeContrast": true
  },
  "90": {
-  "vignette": 0.542,
   "grade": "desaturate"
  },
  "91": {
-  "vignette": 0.542,
   "grade": "warm"
  },
  "92": {
-  "vignette": 0.542,
+  "vignette": 0.378,
+  "grade": "cool",
+  "gradeContrast": true
+ },
+ "93": {},
+ "94": {
   "grade": "cool"
  },
- "93": {
-  "vignette": 0.542
- },
- "94": {
-  "vignette": 0.542,
-  "grade": "warm"
- },
  "95": {
-  "vignette": 0.542,
-  "grade": "desaturate"
+  "vignette": 0.378,
+  "grade": "desaturate",
+  "gradeContrast": true
  },
  "96": {
-  "vignette": 0.542,
   "bw": true
  },
  "97": {
-  "vignette": 0.542,
   "grade": "desaturate"
  },
  "98": {
-  "vignette": 0.542
+  "vignette": 0.378,
+  "gradeContrast": true
  },
  "99": {
-  "vignette": 0.542,
-  "bw": true
+  "grade": "warm"
  },
  "100": {
-  "vignette": 0.542,
   "grade": "desaturate"
  },
  "101": {
-  "vignette": 0.542,
-  "grade": "desaturate"
+  "vignette": 0.378,
+  "grade": "desaturate",
+  "gradeContrast": true
  },
  "102": {
   "grade": "cool"
  },
  "103": {},
  "104": {
-  "vignette": 0.542,
-  "grade": "desaturate"
+  "vignette": 0.378,
+  "bw": true,
+  "gradeContrast": true
  },
  "105": {
   "grade": "desaturate"
@@ -395,78 +383,223 @@
   "grade": "cool"
  },
  "107": {
-  "vignette": 0.542,
-  "grade": "desaturate"
+  "vignette": 0.378,
+  "grade": "desaturate",
+  "gradeContrast": true
  },
  "108": {},
  "109": {
-  "grade": "cool"
- },
- "110": {
-  "vignette": 0.542,
   "grade": "desaturate"
  },
+ "110": {
+  "vignette": 0.378,
+  "grade": "desaturate",
+  "gradeContrast": true
+ },
  "111": {
-  "vignette": 0.542,
   "grade": "warm"
  },
  "112": {
   "grade": "cool"
  },
  "113": {
-  "vignette": 0.542
+  "vignette": 0.378,
+  "gradeContrast": true
  },
  "114": {
-  "grade": "warm"
+  "grade": "cool"
  },
- "115": {
-  "grade": "desaturate"
- },
+ "115": {},
  "116": {
-  "vignette": 0.542,
-  "bw": true
+  "vignette": 0.378,
+  "bw": true,
+  "gradeContrast": true
  },
  "117": {
   "grade": "desaturate"
  },
  "118": {},
+ "119": {
+  "vignette": 0.378,
+  "grade": "warm",
+  "gradeContrast": true
+ },
+ "120": {},
+ "121": {
+  "grade": "desaturate"
+ },
+ "122": {
+  "vignette": 0.378,
+  "grade": "cool"
+ },
+ "123": {},
+ "124": {
+  "bw": true
+ },
+ "125": {
+  "vignette": 0.378
+ },
+ "126": {
+  "grade": "cool"
+ },
+ "127": {
+  "grade": "desaturate"
+ },
+ "128": {
+  "vignette": 0.378
+ },
+ "129": {
+  "grade": "desaturate"
+ },
+ "130": {},
+ "131": {
+  "vignette": 0.378,
+  "grade": "warm"
+ },
+ "132": {
+  "grade": "desaturate"
+ },
+ "133": {},
+ "134": {
+  "vignette": 0.378,
+  "grade": "cool"
+ },
+ "135": {},
+ "136": {
+  "bw": true
+ },
+ "137": {
+  "vignette": 0.378,
+  "grade": "desaturate"
+ },
+ "138": {},
+ "139": {
+  "grade": "warm"
+ },
+ "140": {
+  "vignette": 0.378
+ },
+ "141": {
+  "grade": "desaturate"
+ },
+ "142": {
+  "grade": "desaturate"
+ },
+ "143": {
+  "vignette": 0.378
+ },
+ "144": {
+  "bw": true
+ },
+ "145": {},
+ "146": {
+  "vignette": 0.378,
+  "grade": "cool"
+ },
+ "147": {
+  "grade": "desaturate"
+ },
+ "148": {},
+ "149": {
+  "vignette": 0.378,
+  "grade": "desaturate"
+ },
+ "150": {},
+ "151": {
+  "grade": "warm"
+ },
+ "152": {
+  "vignette": 0.378,
+  "grade": "desaturate"
+ },
+ "153": {},
+ "154": {
+  "grade": "cool"
+ },
+ "155": {
+  "vignette": 0.378
+ },
+ "156": {
+  "bw": true
+ },
+ "157": {
+  "grade": "desaturate"
+ },
+ "158": {
+  "vignette": 0.378
+ },
+ "159": {
+  "grade": "warm"
+ },
+ "160": {},
+ "161": {
+  "vignette": 0.378,
+  "grade": "desaturate"
+ },
+ "162": {
+  "grade": "desaturate"
+ },
+ "163": {},
+ "164": {
+  "vignette": 0.378,
+  "bw": true
+ },
+ "165": {},
+ "166": {
+  "grade": "cool"
+ },
+ "167": {
+  "vignette": 0.378,
+  "grade": "desaturate"
+ },
+ "168": {},
+ "169": {
+  "grade": "desaturate"
+ },
+ "170": {
+  "vignette": 0.378
+ },
+ "171": {
+  "grade": "warm"
+ },
+ "172": {
+  "grade": "desaturate"
+ },
  "01": {
-  "vignette": 0.542,
+  "vignette": 0.378,
   "grade": "desaturate"
  },
  "02": {
-  "vignette": 0.542,
-  "bw": true,
-  "gradeContrast": true
- },
- "03": {
-  "vignette": 0.542,
-  "grade": "desaturate"
- },
- "04": {
-  "vignette": 0.542,
-  "grade": "desaturate"
- },
- "05": {
-  "vignette": 0.542,
+  "vignette": 0.378,
   "grade": "cool",
   "gradeContrast": true
  },
- "06": {
-  "vignette": 0.542,
-  "grade": "cool"
+ "03": {
+  "vignette": 0.378
  },
- "07": {
-  "vignette": 0.542,
-  "grade": "desaturate"
+ "04": {
+  "vignette": 0.378,
+  "bw": true
  },
- "08": {
-  "vignette": 0.542,
+ "05": {
+  "vignette": 0.378,
   "grade": "desaturate",
   "gradeContrast": true
  },
- "09": {
-  "vignette": 0.542,
+ "06": {
+  "vignette": 0.378,
   "grade": "cool"
+ },
+ "07": {
+  "vignette": 0.378,
+  "grade": "warm"
+ },
+ "08": {
+  "vignette": 0.378,
+  "gradeContrast": true
+ },
+ "09": {
+  "vignette": 0.378,
+  "grade": "desaturate"
  }
 }

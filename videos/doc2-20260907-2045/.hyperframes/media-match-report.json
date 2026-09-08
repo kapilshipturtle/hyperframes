@@ -1,0 +1,457 @@
+{
+  "checkedCount": 169,
+  "totalRealFootageBeats": 172,
+  "flaggedCount": 75,
+  "flagged": [
+    {
+      "beatId": "03",
+      "narration": "and the predators spread back out, they're no longer bite-sized.",
+      "mediaPath": ".media/broll/beat-03.mp4",
+      "reason": "The image shows a school of very small, bite-sized fish rather than larger predators that have spread out."
+    },
+    {
+      "beatId": "04",
+      "narration": "That window is not a nice bonus.",
+      "mediaPath": ".media/broll/beat-04.mp4",
+      "reason": "The image depicts a natural wetland landscape at sunset, with no literal or clearly metaphorical window visible."
+    },
+    {
+      "beatId": "09",
+      "narration": "Now watch what happens when you add an animal that doesn't have to leave.",
+      "mediaPath": ".media/broll/beat-09.mp4",
+      "reason": "The image shows only pond water and vegetation, with no animal visible to depict the narration."
+    },
+    {
+      "beatId": "12",
+      "narration": "And when it does get too dry, it burrows into the same mud, in the same shallows, alongside the same small animals",
+      "mediaPath": ".media/broll/beat-12.mp4",
+      "reason": "The image shows a furry mammal burrowing into dry sand, rather than an animal burrowing into mud in shallows."
+    },
+    {
+      "beatId": "19",
+      "narration": "They breed in water, but they live above it.",
+      "mediaPath": ".media/broll/beat-19.mp4",
+      "reason": "The image shows eggs laid on a dry vertical surface out of water, which contradicts breeding directly in water."
+    },
+    {
+      "beatId": "27",
+      "narration": "In 2023, a study looking at the same system found that in areas the swamp eels had colonised,",
+      "mediaPath": ".media/broll/beat-27.mp4",
+      "reason": "The image depicts a grey heron standing on grass, not swamp eels."
+    },
+    {
+      "beatId": "30",
+      "narration": "fish and crayfish. Those are not incidental animals.",
+      "mediaPath": ".media/broll/beat-30.mp4",
+      "reason": "The image shows a large school of fish, but there are no crayfish visible."
+    },
+    {
+      "beatId": "33",
+      "narration": "what the amphibians compete with and feed alongside.",
+      "mediaPath": ".media/broll/beat-33.mp4",
+      "reason": "The image only shows a single axolotl and does not depict any other species that it competes with or feeds alongside."
+    },
+    {
+      "beatId": "36",
+      "narration": "The 2023 paper covered the fish and the crustaceans.",
+      "mediaPath": ".media/broll/beat-36.mp4",
+      "reason": "The image shows chemistry notes about esters and lactones, not a paper about fish and crustaceans."
+    },
+    {
+      "beatId": "37",
+      "narration": "What Howell's team did was go and check what had happened to everything else.",
+      "mediaPath": ".media/broll/beat-37.mp4",
+      "reason": "The image shows a vinyl record player, which has no relation to a team checking on what happened to other things."
+    },
+    {
+      "beatId": "41",
+      "narration": "nine species, 30 sites.",
+      "mediaPath": ".media/broll/beat-41.mp4",
+      "reason": "The image shows an aerial view of a housing construction site, which does not relate to biological species or ecological sites."
+    },
+    {
+      "beatId": "42",
+      "narration": "They knew abundance dropped as you move toward Taylor Slough but correlation in a system as complicated",
+      "mediaPath": ".media/broll/beat-42.jpg",
+      "reason": "The image shows a commercial fishing boat casting a large net in open ocean water, which does not depict ecological abundance trends or Taylor Slough."
+    },
+    {
+      "beatId": "43",
+      "narration": "as the everglades is close to worthless on its own because there are a dozen plausible reasons for amphibians",
+      "mediaPath": ".media/broll/beat-43.mp4",
+      "reason": "The image depicts a tropical rainforest river basin with dense forest and fog, rather than the Everglades wetland ecosystem or any visible amphibians."
+    },
+    {
+      "beatId": "44",
+      "narration": "to decline and most of them are true somewhere.",
+      "mediaPath": ".media/broll/beat-44.mp4",
+      "reason": "The sentence is abstract and grammatically awkward, with no clear connection to the mud volcano or bubbling mud shown in the image."
+    },
+    {
+      "beatId": "46",
+      "narration": "Water level change over time.",
+      "mediaPath": ".media/broll/beat-46.mp4",
+      "reason": "The image shows a static scene of birds resting in a wetland, which does not depict the process of water levels changing over time."
+    },
+    {
+      "beatId": "47",
+      "narration": "The Everglades hydrology has been re-engineered for a century.",
+      "mediaPath": ".media/broll/beat-47.mp4",
+      "reason": "The image depicts a pristine tropical rainforest river rather than the marshy, canal-altered landscape of the Florida Everglades."
+    },
+    {
+      "beatId": "51",
+      "narration": "Soil nitrogen and phosphorus.",
+      "mediaPath": ".media/broll/beat-51.mp4",
+      "reason": "The image shows sand slipping through a hand, which does not depict the chemical nutrients nitrogen and phosphorus."
+    },
+    {
+      "beatId": "52",
+      "narration": "Agricultural runoff enters the system from the north and drops off as you move south.",
+      "mediaPath": ".media/broll/beat-52.jpg",
+      "reason": "The image depicts a historic city canal at night, which is unrelated to agricultural runoff."
+    },
+    {
+      "beatId": "55",
+      "narration": "Disease. Chitrid fungus has devastated amphibian populations on multiple continents and is one of the most serious",
+      "mediaPath": ".media/broll/beat-55.mp4",
+      "reason": "The image shows a healthy-looking frog with no visible signs of disease or devastation."
+    },
+    {
+      "beatId": "57",
+      "narration": "Ranovirus does similar damage.",
+      "mediaPath": ".media/broll/beat-57.mp4",
+      "reason": "The image shows a microscope being adjusted in a laboratory, rather than depicting a virus or the damage it causes."
+    },
+    {
+      "beatId": "59",
+      "narration": "Contaminants, land use, development at the edges.",
+      "mediaPath": ".media/broll/beat-59.mp4",
+      "reason": "The image shows a kingfisher perched on a branch in a natural setting, with no signs of contaminants, land use, or development."
+    },
+    {
+      "beatId": "60",
+      "narration": "Every one of those factors is a legitimate explanation.",
+      "mediaPath": ".media/broll/beat-60.jpg",
+      "reason": "The image depicts a fishing boat casting a large net in the ocean, which does not represent abstract concepts like 'factors' or 'explanations'."
+    },
+    {
+      "beatId": "61",
+      "narration": "Several of them showed a real effect.",
+      "mediaPath": ".media/broll/beat-61.mp4",
+      "reason": "The image shows empty graph axes with no data plotted, so it cannot depict any effects."
+    },
+    {
+      "beatId": "62",
+      "narration": "If the study had stopped there, it would have produced a perfectly respectable paper concluding that Everglades amphibians",
+      "mediaPath": ".media/broll/beat-62.jpg",
+      "reason": "The image shows an old Polish newspaper with articles about local elections and warehouses, which is completely unrelated to a scientific study on Everglades amphibians."
+    },
+    {
+      "beatId": "65",
+      "narration": "Swamp eel presence.",
+      "mediaPath": ".media/broll/beat-65.mp4",
+      "reason": "The image depicts a bubbling mud volcano or geothermal mud pot, not signs of swamp eel presence."
+    },
+    {
+      "beatId": "66",
+      "narration": "Everything else fell away. Once swamp eels were in the model, the other factors stopped explaining much of anything.",
+      "mediaPath": ".media/broll/beat-66.mp4",
+      "reason": "The image shows a stock market candlestick chart, which does not depict statistical modeling of swamp eels or ecological factors."
+    },
+    {
+      "beatId": "68",
+      "narration": "and that it isn't even close.",
+      "mediaPath": ".media/broll/beat-68.mp4",
+      "reason": "The image shows two scientists standing side-by-side and does not visually represent a comparison or a significant margin implied by the phrase 'it isn't even close'."
+    },
+    {
+      "beatId": "69",
+      "narration": "The eel effect was more than twice the size of any other single factor tested.",
+      "mediaPath": ".media/broll/beat-69.jpg",
+      "reason": "The image displays web analytics data where no single category is twice the size of any other, and it does not depict scientific factors like an 'eel effect'."
+    },
+    {
+      "beatId": "71",
+      "narration": "Not that swamp eels are one of several stresses, that they are the leading predictor of both how many amphibians a site",
+      "mediaPath": ".media/broll/beat-71.mp4",
+      "reason": "The image shows clouds in the sky, which has no relation to swamp eels or amphibians."
+    },
+    {
+      "beatId": "72",
+      "narration": "holds and which species are in it, across four regions of the largest wetland in the United States.",
+      "mediaPath": ".media/broll/beat-72.jpg",
+      "reason": "The image shows clouds in the sky, which does not depict a wetland or any species within it."
+    },
+    {
+      "beatId": "74",
+      "narration": "Because of the nutrient gradient running from north to south, aquatic life in the Everglades was already naturally more abundant",
+      "mediaPath": ".media/broll/beat-74.jpg",
+      "reason": "The image shows an old world map and a compass, which does not depict the Everglades, nutrient gradients, or aquatic life."
+    },
+    {
+      "beatId": "76",
+      "narration": "The eels, spreading up from the southeast, have exaggerated that existing pattern,",
+      "mediaPath": ".media/broll/beat-76.mp4",
+      "reason": "The image shows an aerial view of a canal and residential area at sunset, with no eels or related patterns visible."
+    },
+    {
+      "beatId": "78",
+      "narration": "Which means the pattern isn't just that amphibians are declining, it's that amphibians are declining in a spatial gradient",
+      "mediaPath": ".media/broll/beat-78.mp4",
+      "reason": "The image shows clouds and the sun from above, with no depiction of amphibians or their decline."
+    },
+    {
+      "beatId": "79",
+      "narration": "that tracks the eel invasion front.",
+      "mediaPath": ".media/broll/beat-79.jpg",
+      "reason": "The image depicts a pirate-themed treasure map with a compass and gold coins, which is unrelated to tracking an eel invasion."
+    },
+    {
+      "beatId": "80",
+      "narration": "And that front is still moving.",
+      "mediaPath": ".media/broll/beat-80.jpg",
+      "reason": "The image shows a close-up of grilled eel (unaju) and soup, which has no relation to a moving weather or battle front."
+    },
+    {
+      "beatId": "82",
+      "narration": "is not a refuge, it's just the part the eels haven't finished reaching.",
+      "mediaPath": ".media/broll/beat-82.mp4",
+      "reason": "The image depicts a mountain peak rising above a sea of clouds, with no visible eels or aquatic elements related to the narration."
+    },
+    {
+      "beatId": "83",
+      "narration": "Twenty years ago, surveys inside Everglades National Park found the southern leopard frog to be one of the most common",
+      "mediaPath": ".media/broll/beat-83.mp4",
+      "reason": "The frog shown is a smooth green tree frog, which lacks the characteristic dark spots of a southern leopard frog."
+    },
+    {
+      "beatId": "84",
+      "narration": "amphibians in the system. Ordinary.",
+      "mediaPath": ".media/broll/beat-84.jpg",
+      "reason": "The image depicts a butterfly, which is an insect rather than an amphibian."
+    },
+    {
+      "beatId": "88",
+      "narration": "And it happened without a headline, because nobody counts frogs.",
+      "mediaPath": ".media/broll/beat-88.mp4",
+      "reason": "The image shows an empty playground swing, which does not depict frogs, headlines, or the act of counting."
+    },
+    {
+      "beatId": "89",
+      "narration": "The species that are hanging on in the eel-occupied zones are the ones with an escape route.",
+      "mediaPath": ".media/broll/beat-89.mp4",
+      "reason": "The image depicts a frog on a bamboo branch, with no indication of eels, eel-occupied zones, or related escape routes."
+    },
+    {
+      "beatId": "91",
+      "narration": "And two large aquatic salamanders, the greater siren and the two-toed amphiuma.",
+      "mediaPath": ".media/broll/beat-91.mp4",
+      "reason": "The image shows a single terrestrial fire salamander rather than two large aquatic salamanders like the greater siren or two-toed amphiuma."
+    },
+    {
+      "beatId": "92",
+      "narration": "Both are big, both are eel-shaped themselves, both live in the mud.",
+      "mediaPath": ".media/broll/beat-92.mp4",
+      "reason": "The image shows a small fire salamander on forest ground, which is not big, eel-shaped, or living in mud."
+    },
+    {
+      "beatId": "94",
+      "narration": "They're surviving right now because they're large enough not to be prey.",
+      "mediaPath": ".media/broll/beat-94.mp4",
+      "reason": "The image depicts a small salamander, which is not a large animal that survives solely due to its size preventing predation."
+    },
+    {
+      "beatId": "95",
+      "narration": "But they eat the same things the swamp eel eats, in the same places, using the same strategy.",
+      "mediaPath": ".media/broll/beat-95.mp4",
+      "reason": "The image depicts a terrestrial fire salamander on a forest floor, which is unrelated to swamp eels or their aquatic habitats."
+    },
+    {
+      "beatId": "97",
+      "narration": "They are in direct competition with it.",
+      "mediaPath": ".media/broll/beat-97.mp4",
+      "reason": "The image depicts a bubbling mud volcano, which does not show any organisms or entities in competition."
+    },
+    {
+      "beatId": "100",
+      "narration": "The Everglades dwarf siren is a small, eel-like salamander.",
+      "mediaPath": ".media/broll/beat-100.jpg",
+      "reason": "The image depicts a hamster, which is a rodent, not an eel-like salamander."
+    },
+    {
+      "beatId": "102",
+      "narration": "Across 30 sites, across an area the size of Delaware, over two months of intensive trapping and surveying,",
+      "mediaPath": ".media/broll/beat-102.mp4",
+      "reason": "The image shows a single isolated shed in a marshy landscape, with no visible evidence of trapping, surveying activities, or a large-scale operation."
+    },
+    {
+      "beatId": "103",
+      "narration": "the team did not record one. Howell's assessment was that it's the kind of animal that could simply blink out of existence,",
+      "mediaPath": ".media/broll/beat-103.mp4",
+      "reason": "The image depicts a basketball hoop against a cloudy sky, which has no connection to the narration about an animal."
+    },
+    {
+      "beatId": "109",
+      "narration": "The last of something, filmed, named, grieved over.",
+      "mediaPath": ".media/broll/beat-109.mp4",
+      "reason": "The image shows someone browsing vinyl records, which does not depict grieving over or naming the last of something."
+    },
+    {
+      "beatId": "111",
+      "narration": "A subspecies nobody photographed, in water nobody was sampling,",
+      "mediaPath": ".media/broll/beat-111.mp4",
+      "reason": "The image shows a forest path with no water or aquatic environment depicted."
+    },
+    {
+      "beatId": "112",
+      "narration": "removed by an animal that arrived in a bucket.",
+      "mediaPath": ".media/broll/beat-112.mp4",
+      "reason": "The image shows an aerial view of boats on a river, with no animals or buckets visible."
+    },
+    {
+      "beatId": "114",
+      "narration": "And not because anyone is being negligent, because the tools don't exist.",
+      "mediaPath": ".media/broll/beat-114.mp4",
+      "reason": "The image shows a generic cartoon presenter holding a laptop, which does not depict negligence or a lack of tools."
+    },
+    {
+      "beatId": "115",
+      "narration": "Run through the standard invasive species playbook and watch it fail one option at a time.",
+      "mediaPath": ".media/broll/beat-115.mp4",
+      "reason": "The image depicts someone preparing food, which is completely unrelated to invasive species or ecological management."
+    },
+    {
+      "beatId": "117",
+      "narration": "Pay people to go and catch them.",
+      "mediaPath": ".media/broll/beat-117.mp4",
+      "reason": "The image shows a wolf in a forest, but there are no people depicted catching it or being paid."
+    },
+    {
+      "beatId": "121",
+      "narration": "Draining. The one thing that has historically knocked back invasive aquatic species in South Florida is the natural dry",
+      "mediaPath": ".media/broll/beat-121.mp4",
+      "reason": "The image depicts an arid, red-dirt landscape with sparse scrub vegetation typical of Australia or the American Southwest, rather than South Florida's subtropical environment."
+    },
+    {
+      "beatId": "123",
+      "narration": "This animal breathes air, survives dry down in a burrow, and walks overland when it needs to.",
+      "mediaPath": ".media/broll/beat-123.mp4",
+      "reason": "The image depicts a moray eel, which is a fully aquatic marine fish that cannot breathe air or walk overland."
+    },
+    {
+      "beatId": "124",
+      "narration": "Poison. Rotanone and similar treatments kill fish in a treated water body.",
+      "mediaPath": ".media/broll/beat-124.mp4",
+      "reason": "The image shows fishing rods set up on a dock by a calm lake, with no signs of chemical treatment or dead fish."
+    },
+    {
+      "beatId": "125",
+      "narration": "In a connected sheet-flow wetland running through a national park, you cannot dose the water without killing everything",
+      "mediaPath": ".media/broll/beat-125.mp4",
+      "reason": "The image shows laboratory pipetting equipment, not a wetland or national park."
+    },
+    {
+      "beatId": "126",
+      "narration": "native in it, and the eels can breathe air at the surface and travel out of the treatment zone.",
+      "mediaPath": ".media/broll/beat-126.mp4",
+      "reason": "The image shows a marine eel coiled underwater in a reef, rather than breathing air at the surface or traveling."
+    },
+    {
+      "beatId": "133",
+      "narration": "Controlling an invasive species in a system like this is basically impossible.",
+      "mediaPath": ".media/broll/beat-133.mp4",
+      "reason": "The image depicts a highly controlled laboratory environment, which does not represent a natural ecosystem where controlling an invasive species would be described as impossible."
+    },
+    {
+      "beatId": "134",
+      "narration": "What is actually happening is surveillance.",
+      "mediaPath": ".media/broll/beat-134.mp4",
+      "reason": "The image depicts a laboratory flask on a stand, which represents science or chemistry, not surveillance."
+    },
+    {
+      "beatId": "136",
+      "narration": "testing water samples for genetic traces to detect Asian swamp eels and bullseye snakehead in Florida",
+      "mediaPath": ".media/broll/beat-136.mp4",
+      "reason": "The image shows a rainy city skyline at night, which is completely unrelated to testing water samples for genetic traces of invasive species."
+    },
+    {
+      "beatId": "138",
+      "narration": "It means you can now find out where the eels are without catching one.",
+      "mediaPath": ".media/broll/beat-138.jpg",
+      "reason": "The image shows an investigation board with maps and photos, which is unrelated to tracking or finding eels."
+    },
+    {
+      "beatId": "148",
+      "narration": "directly in its path. There's a version of this story where the lesson is that the python was a distraction,",
+      "mediaPath": ".media/broll/beat-148.mp4",
+      "reason": "The image shows a scenic mountain lake and does not depict a python or anything related to the narration."
+    },
+    {
+      "beatId": "149",
+      "narration": "and that's not right. The python did exactly what everyone said it did.",
+      "mediaPath": ".media/broll/beat-149.mp4",
+      "reason": "The image shows reeds growing in shallow water, with no python or related context visible."
+    },
+    {
+      "beatId": "150",
+      "narration": "95% of the small mammals in Everglades National Park are gone, and the snake took them.",
+      "mediaPath": ".media/broll/beat-150.jpg",
+      "reason": "The image depicts a temperate deciduous forest covered in ivy, which does not resemble the subtropical wetland environment of the Everglades."
+    },
+    {
+      "beatId": "151",
+      "narration": "The real lesson is narrower and worse.",
+      "mediaPath": ".media/broll/beat-151.mp4",
+      "reason": "The image depicts a peaceful sunset over a wetland, which does not visually represent the abstract statement about a lesson being narrower and worse."
+    },
+    {
+      "beatId": "153",
+      "narration": "Funding, hunters, competitions, robotic decoys, 25 years of coverage.",
+      "mediaPath": ".media/broll/beat-153.mp4",
+      "reason": "The image shows a live music concert, which is completely unrelated to hunting, competitions, or robotic decoys."
+    },
+    {
+      "beatId": "154",
+      "narration": "And that apparatus was accurate.",
+      "mediaPath": ".media/broll/beat-154.mp4",
+      "reason": "The image shows a computer screen with Python code, which does not depict a physical apparatus."
+    },
+    {
+      "beatId": "157",
+      "narration": "that early assessments had explicitly cleared as low risk, went through the base of the food web and removed",
+      "mediaPath": ".media/broll/beat-157.mp4",
+      "reason": "The image shows a generic line graph with numerical values, which does not depict a food web, ecological risk assessments, or biological removal."
+    },
+    {
+      "beatId": "161",
+      "narration": "It was formally considered a minor concern for well over a decade.",
+      "mediaPath": ".media/broll/beat-161.mp4",
+      "reason": "The image shows a generic digital folder containing document icons, which does not depict the concept of something being considered a minor concern over time."
+    },
+    {
+      "beatId": "162",
+      "narration": "It was upgraded to high risk in 2025, 28 years after it was first found here.",
+      "mediaPath": ".media/broll/beat-162.mp4",
+      "reason": "The image shows a person looking through a stamp collection, which is unrelated to upgrading something to high risk."
+    },
+    {
+      "beatId": "163",
+      "narration": "And this year, a team walked 30 sites across an area the size of Delaware, tested every other explanation they",
+      "mediaPath": ".media/broll/beat-163.jpg",
+      "reason": "The image depicts a casual walk of an adult and a child rather than a research team conducting field studies."
+    },
+    {
+      "beatId": "168",
+      "narration": "If you want to understand how a place this large gets hollowed out while everyone is watching,",
+      "mediaPath": ".media/broll/beat-168.mp4",
+      "reason": "The image shows a vast sea of clouds under a sunny sky, which does not depict anything being hollowed out."
+    },
+    {
+      "beatId": "172",
+      "narration": "It's on screen now. Subscribe, and I'll keep going through the ones nobody's covering.",
+      "mediaPath": ".media/broll/beat-172.mp4",
+      "reason": "The image shows a generic sunset landscape, which does not depict any specific subject being referred to as 'on screen' or being 'covered' by a narrator."
+    }
+  ]
+}

@@ -98,28 +98,21 @@
     .broll-vignette {
       position: absolute;
       inset: 0;
-      background: radial-gradient(ellipse at center, rgba(0,0,0,0) 45%, rgba(0,0,0,0.542) 100%);
+      background: radial-gradient(ellipse at center, rgba(0,0,0,0) 45%, rgba(0,0,0,0.378) 100%);
       pointer-events: none;
     }
-
-    .ov-def-scrim { position: absolute; left: 0; bottom: 0; width: 560px; height: 220px; background: radial-gradient(ellipse at bottom left, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.24) 60%, rgba(0,0,0,0) 88%); opacity: 0; pointer-events: none; }
-    .ov-def-callout { position: absolute; left: 72px; bottom: 96px; max-width: 420px; opacity: 0; }
-    .ov-def-term { position: relative; display: inline-block; font: 800 35px/1 -apple-system, "Inter", sans-serif; color: #ffffff; text-shadow: 0 1px 2px rgba(0,0,0,0.5), 0 4px 14px rgba(0,0,0,0.4); }
-    .ov-def-underline { position: absolute; left: 0; bottom: -4px; width: 100%; height: 3px; background: #ffffff; border-radius: 1.5px; transform-origin: 0% 50%; transform: scaleX(0); }
-    .ov-def-text { margin-top: 10px; font: 500 23px/1.4 -apple-system, "Inter", sans-serif; color: #ffffff; text-shadow: 0 1px 2px rgba(0,0,0,0.5), 0 4px 14px rgba(0,0,0,0.4); opacity: 0; }
   </style>
 
   <div
     id="root"
     data-composition-id="37-beat"
-    data-width="1920" data-height="1080" data-duration="9.2"
+    data-width="1920" data-height="1080" data-duration="4.36"
   >
-    <div class="broll-wrap clip" id="f-37-beat-wrap" data-start="0" data-duration="9.20" data-track-index="0">
-      <img id="f-37-beat-media" class="broll-media broll-g-warm" src=".media/broll/beat-37.jpg" />
+    <div class="broll-wrap" id="f-37-beat-wrap">
+      <video id="f-37-beat-media" class="broll-media clip broll-g-desaturate" src=".media/broll/beat-37.mp4" muted playsinline data-start="0" data-duration="4.36" data-media-start="0" data-track-index="0"></video>
     </div>
-    <div class="broll-scrim clip" id="f-37-beat-scrim" data-start="0" data-duration="9.20" data-track-index="1"></div>
-    <div class="broll-vignette clip" id="f-37-beat-vignette" data-start="0" data-duration="9.20" data-track-index="3"></div>
-    <div class="ov-def-scrim" id="f-37-beat-ov-scrim"></div><div class="ov-def-callout" id="f-37-beat-ov"><span class="ov-def-term" id="f-37-beat-ov-term">Chytrid fungus<span class="ov-def-underline" id="f-37-beat-ov-underline"></span></span><p class="ov-def-text" id="f-37-beat-ov-text">a leading global amphibian killer — tested and ruled out</p></div>
+    <div class="broll-scrim clip" id="f-37-beat-scrim" data-start="0" data-duration="4.36" data-track-index="1"></div>
+    <div class="broll-vignette clip" id="f-37-beat-vignette" data-start="0" data-duration="4.36" data-track-index="3"></div>
   </div>
 
   <script>
@@ -127,16 +120,7 @@
       window.__timelines = window.__timelines || {};
       var tl = gsap.timeline({ paused: true });
       var wrap = document.getElementById("f-37-beat-wrap");
-      tl.fromTo(wrap, { scale: 1.16, x: 55 }, { scale: 1.16, x: -55, duration: 9.20, ease: "none" }, 0);
-      tl.to("#f-37-beat-media", { scale: 1.248, duration: 0.09, ease: "power3.out" }, 4.17);
-      tl.to("#f-37-beat-media", { scale: 1.450, duration: 0.09, ease: "power3.out" }, 5.27);
-      tl.to("#f-37-beat-ov-scrim", { opacity: 1, duration: 0.4, ease: "power2.out" }, 1.30);
-      tl.to("#f-37-beat-ov", { opacity: 1, duration: 0.01 }, 1.40);
-      tl.fromTo("#f-37-beat-ov-term", { opacity: 0, y: 8 }, { opacity: 1, y: 0, duration: 0.3, ease: "power3.out" }, 1.40);
-      tl.to("#f-37-beat-ov-underline", { scaleX: 1, duration: 0.28, ease: "power2.out" }, 1.68);
-      tl.fromTo("#f-37-beat-ov-text", { opacity: 0, y: 8 }, { opacity: 1, y: 0, duration: 0.3, ease: "power3.out" }, 1.82);
-      tl.to("#f-37-beat-ov", { opacity: 0, y: -6, duration: 0.3, ease: "power2.in" }, 8.60);
-      tl.to("#f-37-beat-ov-scrim", { opacity: 0, duration: 0.4, ease: "power2.in" }, 8.75);
+      gsap.set(wrap, { scale: 1.0 });
       window.__timelines["37-beat"] = tl;
     })();
   </script>

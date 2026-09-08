@@ -98,21 +98,26 @@
     .broll-vignette {
       position: absolute;
       inset: 0;
-      background: radial-gradient(ellipse at center, rgba(0,0,0,0) 45%, rgba(0,0,0,0.542) 100%);
+      background: radial-gradient(ellipse at center, rgba(0,0,0,0) 45%, rgba(0,0,0,0.378) 100%);
       pointer-events: none;
     }
+
+    .ov-cs-scrim { position: absolute; inset: 0; background: rgba(0,0,0,0.62); opacity: 0; pointer-events: none; }
+    .ov-center-statement { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%) scale(0.9); max-width: 1500px; text-align: center; opacity: 0; }
+    .ov-cs-text { font: 800 68px/1.2 -apple-system, "Inter", sans-serif; letter-spacing: -0.01em; color: #ffffff; text-shadow: 0 1px 2px rgba(0,0,0,0.5), 0 4px 14px rgba(0,0,0,0.4); }
   </style>
 
   <div
     id="root"
     data-composition-id="09-beat"
-    data-width="1920" data-height="1080" data-duration="7.69"
+    data-width="1920" data-height="1080" data-duration="1.6"
   >
-    <div class="broll-wrap clip" id="f-09-beat-wrap" data-start="0" data-duration="7.69" data-track-index="0">
-      <img id="f-09-beat-media" class="broll-media broll-g-desaturate" src=".media/broll/beat-70.jpg" />
+    <div class="broll-wrap" id="f-09-beat-wrap">
+      <video id="f-09-beat-media" class="broll-media clip broll-g-desaturate" src=".media/broll/beat-70.mp4" muted playsinline data-start="0" data-duration="1.60" data-media-start="0" data-track-index="0"></video>
     </div>
-    <div class="broll-scrim clip" id="f-09-beat-scrim" data-start="0" data-duration="7.69" data-track-index="1"></div>
-    <div class="broll-vignette clip" id="f-09-beat-vignette" data-start="0" data-duration="7.69" data-track-index="3"></div>
+    <div class="broll-scrim clip" id="f-09-beat-scrim" data-start="0" data-duration="1.60" data-track-index="1"></div>
+    <div class="broll-vignette clip" id="f-09-beat-vignette" data-start="0" data-duration="1.60" data-track-index="3"></div>
+    <div class="ov-cs-scrim" id="f-09-beat-ov-scrim"></div><div class="ov-center-statement" id="f-09-beat-ov"><span class="ov-cs-text">THE FINDING</span></div>
   </div>
 
   <script>
@@ -120,9 +125,11 @@
       window.__timelines = window.__timelines || {};
       var tl = gsap.timeline({ paused: true });
       var wrap = document.getElementById("f-09-beat-wrap");
-      tl.fromTo(wrap, { scale: 1.16, x: -55 }, { scale: 1.16, x: 55, duration: 7.69, ease: "none" }, 0);
-      tl.to("#f-09-beat-media", { scale: 1.206, duration: 0.09, ease: "power3.out" }, 2.02);
-      tl.to("#f-09-beat-media", { scale: 1.375, duration: 0.09, ease: "power3.out" }, 3.12);
+      gsap.set(wrap, { scale: 1.0 });
+      tl.to("#f-09-beat-ov-scrim", { opacity: 1, duration: 0.3, ease: "power2.out" }, 0.58);
+      tl.fromTo("#f-09-beat-ov", { opacity: 0, scale: 0.9 }, { opacity: 1, scale: 1, duration: 0.45, ease: "power3.out" }, 0.80);
+      tl.to("#f-09-beat-ov", { opacity: 0, scale: 0.96, duration: 0.3, ease: "power2.in" }, 1.20);
+      tl.to("#f-09-beat-ov-scrim", { opacity: 0, duration: 0.35, ease: "power2.in" }, 1.20);
       window.__timelines["09-beat"] = tl;
     })();
   </script>

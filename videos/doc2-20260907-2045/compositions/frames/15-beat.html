@@ -98,21 +98,28 @@
     .broll-vignette {
       position: absolute;
       inset: 0;
-      background: radial-gradient(ellipse at center, rgba(0,0,0,0) 45%, rgba(0,0,0,0.542) 100%);
+      background: radial-gradient(ellipse at center, rgba(0,0,0,0) 45%, rgba(0,0,0,0.378) 100%);
       pointer-events: none;
     }
+
+    .ov-kf { position: absolute; left: 50%; display: flex; gap: 0.32em; font: 800 1em/1.1 "Inter", "Montserrat", -apple-system, sans-serif; font-size: 92px; text-transform: capitalize; opacity: 0; white-space: nowrap; }
+    .ov-kf-center { top: 50%; transform: translate(-50%, -50%); }
+    .ov-kf-lower-center { bottom: 150px; transform: translateX(-50%); }
+    .ov-kf-w { background: #111111; color: #ffffff; padding: 0.28em 0.6em; border-radius: 6px; }
+    .ov-kf-acc { color: #ffd23f; }
   </style>
 
   <div
     id="root"
     data-composition-id="15-beat"
-    data-width="1920" data-height="1080" data-duration="4.86"
+    data-width="1920" data-height="1080" data-duration="7.54"
   >
-    <div class="broll-wrap clip" id="f-15-beat-wrap" data-start="0" data-duration="4.86" data-track-index="0">
-      <img id="f-15-beat-media" class="broll-media broll-g-cool" src=".media/broll/beat-15.jpg" />
+    <div class="broll-wrap" id="f-15-beat-wrap">
+      <video id="f-15-beat-media" class="broll-media clip broll-g-desaturate" src=".media/broll/beat-15.mp4" muted playsinline data-start="0" data-duration="7.54" data-media-start="0" data-track-index="0"></video>
     </div>
-    <div class="broll-scrim clip" id="f-15-beat-scrim" data-start="0" data-duration="4.86" data-track-index="1"></div>
-    <div class="broll-vignette clip" id="f-15-beat-vignette" data-start="0" data-duration="4.86" data-track-index="3"></div>
+    <div class="broll-scrim clip" id="f-15-beat-scrim" data-start="0" data-duration="7.54" data-track-index="1"></div>
+    <div class="broll-vignette clip" id="f-15-beat-vignette" data-start="0" data-duration="7.54" data-track-index="3"></div>
+    <div class="ov-kf ov-kf-center" id="f-15-beat-ov"><span class="ov-kf-w" id="f-15-beat-ov-w0">THIS</span> <span class="ov-kf-w" id="f-15-beat-ov-w1">ONE</span> <span class="ov-kf-w ov-kf-acc" id="f-15-beat-ov-w2">STAYS</span></div>
   </div>
 
   <script>
@@ -120,9 +127,11 @@
       window.__timelines = window.__timelines || {};
       var tl = gsap.timeline({ paused: true });
       var wrap = document.getElementById("f-15-beat-wrap");
-      tl.fromTo(wrap, { scale: 1.16, x: 55 }, { scale: 1.16, x: -55, duration: 4.61, ease: "none" }, 0);
-      tl.to("#f-15-beat-media", { scale: 1.193, duration: 0.09, ease: "power3.out" }, 2.06);
-      tl.to("#f-15-beat-media", { scale: 1.350, duration: 0.09, ease: "power3.out" }, 3.16);
+      gsap.set(wrap, { scale: 1.0 });
+      tl.set("#f-15-beat-ov", { opacity: 1 }, 1.40);
+      tl.fromTo("#f-15-beat-ov-w0", { opacity: 0 }, { opacity: 1, duration: 0.22, ease: "power2.out" }, 1.40);
+      tl.fromTo("#f-15-beat-ov-w1", { opacity: 0 }, { opacity: 1, duration: 0.22, ease: "power2.out" }, 1.47);
+      tl.fromTo("#f-15-beat-ov-w2", { opacity: 0 }, { opacity: 1, duration: 0.22, ease: "power2.out" }, 1.54);
       window.__timelines["15-beat"] = tl;
     })();
   </script>

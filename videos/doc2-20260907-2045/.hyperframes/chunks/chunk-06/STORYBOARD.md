@@ -1,107 +1,120 @@
-# STORYBOARD — chunk-06 (chunk 7/12 of a larger film, split for CI render-concurrency limits — see split-for-chunked-render.mjs header)
+# STORYBOARD — chunk-06 (chunk 7/17 of a larger film, split for CI render-concurrency limits — see split-for-chunked-render.mjs header)
 
 10 beats. Original beat range: 62-71. Narration slice: same original file, different offsets.
 
 ## Frame 01
 
 - src: compositions/frames/01-beat.html
-- duration: 5.73s
-- status: built
+- duration: 7.05s
+- status: planned
 - transition_in: cut
-- look: grade bw, vignette 0.542, high-contrast
-- query: crayfish walking pond bottom closeup
-- overlay: keyword-flash at upper-left, fade entrance
-- narration: Which is exactly the problem. They're surviving right now because they're large enough not to be prey.
+- look: grade cool, vignette 0.378
+- motion: out to 1.1216 ease power1.out, focus 59,47
+- motion_reason: narration widens to scale/place/consequence (scale=1 detail=0) | anchored on "prominent newspaper headline" at 59,47
+- query: scientific journal article page
+- narration: If the study had stopped there, it would have produced a perfectly respectable paper concluding that Everglades amphibians
 
 ## Frame 02
 
 - src: compositions/frames/02-beat.html
-- duration: 6.23s
-- status: built
+- duration: 4.03s
+- status: planned
 - transition_in: hard-cut 0s
-- look: grade natural
-- query: muddy shallow pool drying up
-- narration: But they eat the same things the swamp eel eats, in the same places, using the same strategy.
+- look: vignette 0.378
+- punch: at 2.7s scale 1.45
+- query: declining graph chart screen
+- narration: are declining for the usual complicated mix of reasons.
 
 ## Frame 03
 
 - src: compositions/frames/03-beat.html
-- duration: 4.29s
-- status: built
+- duration: 3.01s
+- status: planned
 - transition_in: hard-cut 0s
-- look: grade desaturate
-- query: swamp water lilies still surface
-- overlay: keyword-flash at lower-left, pop-scale entrance
-- narration: They are not sheltered from the invasion. They are in direct competition with it.
+- look: bw, vignette 0.378
+- motion: in to 1.1094 ease power1.in, focus 60,45
+- motion_reason: narration points at a specific detail (detail=1 scale=0) | anchored on "hands typing on laptop" at 60,45
+- query: scientist typing analysis computer
+- narration: Then they added one more variable to the model.
 
 ## Frame 04
 
 - src: compositions/frames/04-beat.html
-- duration: 4.63s
-- status: built
+- duration: 1.98s
+- status: planned
 - transition_in: hard-cut 0s
-- look: grade desaturate, vignette 0.542, high-contrast
-- query: scientist wading wetland sampling net
-- narration: And the researchers expect that competition to start removing them, too.
+- look: grade desaturate, vignette 0.378
+- overlay: keyword-flash "SWAMP EEL" at middle-center, pop-scale entrance
+- query: swamp eel in mud
+- narration: Swamp eel presence.
 
 ## Frame 05
 
 - src: compositions/frames/05-beat.html
-- duration: 6.30s
-- status: built
-- transition_in: zoom-through 0.81s
-- look: grade cool
-- query: cracked dry mud drought wetland
-- narration: Then there's the one nobody will notice. The Everglades dwarf siren is a small, eel-like salamander.
+- duration: 6.35s
+- status: planned
+- transition_in: glitch-cut 0.25s
+- look: grade cool, vignette 0.378
+- punch: at 4.43s scale 1.375
+- overlay: keyword-flash "EVERYTHING ELSE FELL AWAY" at middle-right
+- query: data visualisation screen glow
+- narration: Everything else fell away. Once swamp eels were in the model, the other factors stopped explaining much of anything.
 
 ## Frame 06
 
 - src: compositions/frames/06-beat.html
-- duration: 4.42s
-- status: built
+- duration: 5.54s
+- status: planned
 - transition_in: hard-cut 0s
-- look: grade desaturate
-- query: marsh grass sunset wetland horizon
-- narration: A subspecies found in this system, and effectively nowhere else.
+- look: grade desaturate, vignette 0.378
+- query: scientist speaking interview
+- narration: Howell's summary of it was that none of the rest matters anymore once you account for the eels,
 
 ## Frame 07
 
 - src: compositions/frames/07-beat.html
-- duration: 8.00s
-- status: built
-- transition_in: hard-cut 0s
-- look: grade natural, vignette 0.542, high-contrast
-- query: statistics report pages closeup
-- overlay: keyword-flash at middle-center, fade entrance
-- narration: Across 30 sites, across an area the size of Delaware, over two months of intensive trapping and surveying, the team did not record one.
+- duration: 1.85s
+- status: planned
+- transition_in: crossfade 0.25s
+- look: vignette 0.378
+- overlay: keyword-flash "NOT EVEN CLOSE" at middle-center
+- query: scientist serious face closeup
+- narration: and that it isn't even close.
+
+<!-- SECTION: Twice the size of any other factor -->
 
 ## Frame 08
 
 - src: compositions/frames/08-beat.html
-- duration: 8.01s
-- status: built
-- transition_in: hard-cut 0s
-- look: grade cool
-- query: scientist wading wetland sampling net
-- narration: Howell's assessment was that it's the kind of animal that could simply blink out of existence, and that almost nothing is known about it.
+- duration: 5.05s
+- status: planned
+- transition_in: light-leak-flash 0.33s
+- look: grade desaturate, vignette 0.378
+- motion: in to 1.1314 ease power1.in, focus 60,26
+- motion_reason: narration points at a specific detail (detail=1 scale=0) | anchored on "analytics pie chart" at 60,26
+- punch: at 1.78s scale 1.425
+- query: bar chart comparison screen
+- narration: The eel effect was more than twice the size of any other single factor tested.
 
 ## Frame 09
 
 - src: compositions/frames/09-beat.html
-- duration: 7.69s
-- status: built
+- duration: 1.6s
+- status: planned
 - transition_in: hard-cut 0s
-- look: grade desaturate
-- query: cypress trees standing in swamp water
-- narration: Think about what that sentence actually contains. There is a species in the United States, in a national park, that may already be gone.
+- look: grade desaturate, vignette 0.378
+- overlay: keyword-flash "THE FINDING" at lower-center
+- query: scientific conclusion document page
+- narration: That's the finding.
 
 ## Frame 10
 
 - src: compositions/frames/10-beat.html
-- duration: 6.80s
-- status: built
+- duration: 6.54s
+- status: planned
 - transition_in: hard-cut 0s
-- look: grade warm, vignette 0.542, high-contrast
-- query: mangrove roots shallow tidal water
-- narration: And we would not be able to say when or how many there were before, because nobody ever found out.
+- look: grade warm, vignette 0.378
+- punch: at 3.82s scale 1.35
+- query: eel moving through shallow water
+- narration: Not that swamp eels are one of several stresses, that they are the leading predictor of both how many amphibians a site
 

@@ -6324,3 +6324,19 @@ beat 118: frame built [photo, kenburns=pan-left]
 ### Chunked render — split
 12 chunk(s) created
   - **chunks:** chunk-00: beats 01-10, ~10 sources | chunk-01: beats 11-20, ~10 sources | chunk-02: beats 21-30, ~10 sources | chunk-03: beats 31-40, ~10 sources | chunk-04: beats 41-50, ~10 sources | chunk-05: beats 51-61, ~11 sources | chunk-06: beats 62-71, ~10 sources | chunk-07: beats 72-81, ~10 sources | chun…(truncated)
+
+### Step 4 — verify-media-match
+checked 170/172 beat(s), 83 possible mismatch(es)
+  - **flaggedBeats:** 02, 03, 09, 11, 12, 19, 22, 27, 30, 33, 36, 37, 41, 42, 43, 44, 46, 47, 51, 52, 55, 57, 59, 60, 61, 62, 65, 66, 67, 68, 69, 71, 72, 74, 76, 78, 79, 80, 82, 83, 84, 86, 88, 89, 91, 92, 94, 95, 97, 100, 102, 103, 109, 111, 112, 114, 115, 117, 121, 122, 123, 124, 125, 126, 133, 134, 136, 138, 148, 149,…(truncated)
+
+### Step 4 — verify-media-match
+checked 169/172 beat(s), 75 possible mismatch(es)
+  - **flaggedBeats:** 03, 04, 09, 12, 19, 27, 30, 33, 36, 37, 41, 42, 43, 44, 46, 47, 51, 52, 55, 57, 59, 60, 61, 62, 65, 66, 68, 69, 71, 72, 74, 76, 78, 79, 80, 82, 83, 84, 88, 89, 91, 92, 94, 95, 97, 100, 102, 103, 109, 111, 112, 114, 115, 117, 121, 123, 124, 125, 126, 133, 134, 136, 138, 148, 149, 150, 151, 153, 154, …(truncated)
+
+### Chunked render — split
+17 chunk(s) created
+  - **chunks:** chunk-00: beats 01-11, ~11 sources | chunk-01: beats 12-21, ~10 sources | chunk-02: beats 22-31, ~10 sources | chunk-03: beats 32-41, ~10 sources | chunk-04: beats 42-51, ~10 sources | chunk-05: beats 52-61, ~10 sources | chunk-06: beats 62-71, ~10 sources | chunk-07: beats 72-81, ~10 sources | chun…(truncated)
+
+### Chunked render — split
+17 chunk(s) created
+  - **chunks:** chunk-00: beats 01-11, ~11 sources | chunk-01: beats 12-21, ~10 sources | chunk-02: beats 22-31, ~10 sources | chunk-03: beats 32-41, ~10 sources | chunk-04: beats 42-51, ~10 sources | chunk-05: beats 52-61, ~10 sources | chunk-06: beats 62-71, ~10 sources | chunk-07: beats 72-81, ~10 sources | chun…(truncated)

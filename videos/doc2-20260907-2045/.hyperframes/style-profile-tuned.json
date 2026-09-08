@@ -42,7 +42,7 @@
   "_sfx_placement_rule": "MOTIVATED ONLY. Measured 2026-09-07 on 3 channels: reference whooshes sit on 29-36% of cuts but NO measurable signal predicts which cuts -- they are NOT in speech pauses (14/18/13% pause vs 37/25/28% for silent cuts), NOT at section boundaries (43-51% isolated, gaps 2.4-45s), and next-shot duration/motion do not separate them. So we do NOT reproduce the share. A cue is attached only where an editorial reason exists in the plan: a section boundary, or a hard-cut into a beat that carries a graphic landing. Never a bare footage-to-footage cut.",
   "flash_per_min": [
    4.65,
-   8.525
+   5.94
   ]
  },
  "punch": {
@@ -61,8 +61,8 @@
  },
  "motion": {
   "moving_share": [
-   0.93,
-   1
+   0.664,
+   0.8640000000000001
   ],
   "video_static_gets_motion": true,
   "photo_zoom_total_pct": [
@@ -82,7 +82,7 @@
  "overlays": {
   "density_per_min": [
    6.2,
-   13.95
+   9.72
   ],
   "enter_at_s": [
    0.8,
@@ -131,8 +131,8 @@
   "pop_scale_share": 0.361,
   "_placement_source": "measured 2026-09-07: 3163 text events / 3 channels / 67 min; density_per_min intentionally unchanged (see ISS-0006)",
   "text_frame_share": [
-   0.542,
-   0.775
+   0.39,
+   0.54
   ],
   "text_life_s": [
    1.2,
@@ -182,19 +182,19 @@
  },
  "look": {
   "vignette_share": [
-   0.853,
-   1
+   0.606,
+   0.756
   ],
-  "vignette_strength": 0.542,
+  "vignette_strength": 0.378,
   "grain": "archival-only",
   "bw_archival": true,
   "color": "natural",
   "grade_share": {
-   "natural": 0.132,
-   "desaturate": 0.419,
-   "cool": 0.202,
-   "warm": 0.124,
-   "bw": 0.124
+   "desaturate": 0.355,
+   "cool": 0.171,
+   "warm": 0.105,
+   "bw": 0.105,
+   "natural": 0.264
   },
   "high_contrast_share": 0.232,
   "_grade_source": "measured 2026-09-07: 809 shots / 3 channels / 67 min, every second"

@@ -1,75 +1,132 @@
-# STORYBOARD — chunk-11 (chunk 12/12 of a larger film, split for CI render-concurrency limits — see split-for-chunked-render.mjs header)
+# STORYBOARD — chunk-11 (chunk 12/17 of a larger film, split for CI render-concurrency limits — see split-for-chunked-render.mjs header)
 
-7 beats. Original beat range: 112-118. Narration slice: same original file, different offsets.
+12 beats. Original beat range: 114-125. Narration slice: same original file, different offsets.
 
 ## Frame 01
 
 - src: compositions/frames/01-beat.html
-- duration: 7.50s
-- status: built
+- duration: 4.06s
+- status: planned
 - transition_in: cut
 - look: grade cool
-- query: statistics report pages closeup
-- narration: And this year, a team walked 30 sites across an area the size of Delaware, tested every other explanation they could construct,
+- motion: in to 1.0652 ease power1.in, focus 51,14
+- motion_reason: narration points at a specific detail (detail=1 scale=0) | anchored on "woman's concerned face" at 51,14
+- query: scientist explaining problem hands
+- narration: And not because anyone is being negligent, because the tools don't exist.
 
 ## Frame 02
 
 - src: compositions/frames/02-beat.html
-- duration: 4.10s
-- status: built
+- duration: 6.75s
+- status: planned
 - transition_in: hard-cut 0s
-- look: grade natural, vignette 0.542
-- query: reeds reflection calm water dusk
-- narration: and found that this one animal outweighed all of them combined.
+- punch: at 1.67s scale 1.35
+- query: invasive species control operation
+- narration: Run through the standard invasive species playbook and watch it fail one option at a time.
 
 ## Frame 03
 
 - src: compositions/frames/03-beat.html
-- duration: 4.66s
-- status: built
-- transition_in: hard-cut 0s
-- look: grade warm
-- query: shallow marsh water ripples closeup
-- narration: That sound is still there in the northern Everglades, loud enough to give you a headache.
+- duration: 2.73s
+- status: planned
+- transition_in: light-leak-flash 0.49s
+- look: bw, vignette 0.378
+- overlay: keyword-flash "PHYSICAL REMOVAL" at middle-center, pop-scale entrance
+- query: python removal florida hunter
+- narration: Physical removal. This is the python model.
 
 ## Frame 04
 
 - src: compositions/frames/04-beat.html
-- duration: 7.96s
-- status: built
+- duration: 1.98s
+- status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate
-- query: wet prairie grass florida wide
-- narration: In Taylor Slow it's already gone, and there is currently no method, no funding line, and no technology that would bring it back.
+- query: snake hunter searching everglades
+- narration: Pay people to go and catch them.
 
 ## Frame 05
 
 - src: compositions/frames/05-beat.html
-- duration: 8.75s
-- status: built
-- transition_in: hard-cut 0s
-- look: grade bw, vignette 0.542
-- query: swamp at dawn mist over water
-- overlay: keyword-flash at lower-left, pop-scale entrance
-- narration: If you want to understand how a place this large gets hollowed out while everyone is watching, there's a second story that runs directly parallel to this one.
+- duration: 4.76s
+- status: planned
+- transition_in: crossfade 0.25s
+- query: large python being captured
+- narration: It works on pythons, because pythons are large, visible when you find them,
 
 ## Frame 06
 
 - src: compositions/frames/06-beat.html
-- duration: 7.69s
-- status: built
+- duration: 6.36s
+- status: planned
 - transition_in: hard-cut 0s
-- look: grade desaturate
-- query: border barrier fence construction desert
-- overlay: title-card at lower-right, fade entrance
-- narration: A barrier that cost over a billion dollars, built to stop a different invasion, and the reason it stopped being built this summer.
+- look: grade warm, vignette 0.378
+- punch: at 2.14s scale 1.4
+- query: muddy shallow wetland vast
+- narration: and worth a bounty. Swamp eels are small, live in mud, occupy a wetland the size of a small state,
 
 ## Frame 07
 
 - src: compositions/frames/07-beat.html
-- duration: 4.64s
-- status: built
+- duration: 4.75s
+- status: planned
+- transition_in: hard-cut 0s
+- query: few workers vast wetland
+- narration: and there is no plausible number of people you could pay to make a dent.
+
+## Frame 08
+
+- src: compositions/frames/08-beat.html
+- duration: 6.66s
+- status: planned
+- transition_in: hard-cut 0s
+- look: grade desaturate
+- punch: at 1.79s scale 1.45
+- overlay: keyword-flash "DRAINING" at middle-left
+- query: dry season cracked wetland
+- narration: Draining. The one thing that has historically knocked back invasive aquatic species in South Florida is the natural dry
+
+## Frame 09
+
+- src: compositions/frames/09-beat.html
+- duration: 3.08s
+- status: planned
+- transition_in: hard-cut 0s
+- look: grade cool, vignette 0.378
+- query: dry cracked mud riverbed
+- narration: season. That leaver does not work here.
+
+## Frame 10
+
+- src: compositions/frames/10-beat.html
+- duration: 6.37s
+- status: planned
+- transition_in: hard-cut 0s
+- motion: in to 1.0609 ease power1.in, focus 48,58
+- motion_reason: narration points at a specific detail (detail=1 scale=0) | anchored on "head of lungfish" at 48,58
+- punch: at 2.97s scale 1.375
+- query: eel walking across wet ground
+- narration: This animal breathes air, survives dry down in a burrow, and walks overland when it needs to.
+
+## Frame 11
+
+- src: compositions/frames/11-beat.html
+- duration: 4.72s
+- status: planned
+- transition_in: zoom-through 0.85s
+- look: bw
+- overlay: keyword-flash "POISON" at middle-right
+- query: dead fish floating water
+- narration: Poison. Rotanone and similar treatments kill fish in a treated water body.
+
+## Frame 12
+
+- src: compositions/frames/12-beat.html
+- duration: 6.7s
+- status: planned
 - transition_in: crossfade 0.25s
-- look: grade natural
-- query: heavy construction machinery earthworks
-- narration: It's on screen now. Subscribe, and I'll keep going through the ones nobody's covering.
+- look: vignette 0.378
+- punch: at 1.03s scale 1.425
+- query: water treatment chemical application
+- narration: In a connected sheet-flow wetland running through a national park, you cannot dose the water without killing everything
+

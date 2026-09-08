@@ -98,21 +98,28 @@
     .broll-vignette {
       position: absolute;
       inset: 0;
-      background: radial-gradient(ellipse at center, rgba(0,0,0,0) 45%, rgba(0,0,0,0.542) 100%);
+      background: radial-gradient(ellipse at center, rgba(0,0,0,0) 45%, rgba(0,0,0,0.378) 100%);
       pointer-events: none;
     }
+
+    .ov-def-scrim { position: absolute; left: 0; bottom: 0; width: 560px; height: 220px; background: radial-gradient(ellipse at bottom left, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.24) 60%, rgba(0,0,0,0) 88%); opacity: 0; pointer-events: none; }
+    .ov-def-callout { position: absolute; left: 72px; bottom: 96px; max-width: 420px; opacity: 0; }
+    .ov-def-term { position: relative; display: inline-block; font: 800 35px/1 -apple-system, "Inter", sans-serif; color: #ffffff; text-shadow: 0 1px 2px rgba(0,0,0,0.5), 0 4px 14px rgba(0,0,0,0.4); }
+    .ov-def-underline { position: absolute; left: 0; bottom: -4px; width: 100%; height: 3px; background: #ffffff; border-radius: 1.5px; transform-origin: 0% 50%; transform: scaleX(0); }
+    .ov-def-text { margin-top: 10px; font: 500 23px/1.4 -apple-system, "Inter", sans-serif; color: #ffffff; text-shadow: 0 1px 2px rgba(0,0,0,0.5), 0 4px 14px rgba(0,0,0,0.4); opacity: 0; }
   </style>
 
   <div
     id="root"
     data-composition-id="55-beat"
-    data-width="1920" data-height="1080" data-duration="8.05"
+    data-width="1920" data-height="1080" data-duration="6.57"
   >
     <div class="broll-wrap" id="f-55-beat-wrap">
-      <video id="f-55-beat-media" class="broll-media clip broll-g-desaturate" src=".media/broll/beat-55.mp4" muted playsinline data-start="0" data-duration="8.05" data-media-start="0" data-track-index="0"></video>
+      <video id="f-55-beat-media" class="broll-media clip broll-g-desaturate" src=".media/broll/beat-55.mp4" muted playsinline data-start="0" data-duration="6.57" data-media-start="0" data-track-index="0"></video>
     </div>
-    <div class="broll-scrim clip" id="f-55-beat-scrim" data-start="0" data-duration="8.05" data-track-index="1"></div>
-    <div class="broll-vignette clip" id="f-55-beat-vignette" data-start="0" data-duration="8.05" data-track-index="3"></div>
+    <div class="broll-scrim clip" id="f-55-beat-scrim" data-start="0" data-duration="6.57" data-track-index="1"></div>
+    <div class="broll-vignette clip" id="f-55-beat-vignette" data-start="0" data-duration="6.57" data-track-index="3"></div>
+    <div class="ov-def-scrim" id="f-55-beat-ov-scrim"></div><div class="ov-def-callout" id="f-55-beat-ov"><span class="ov-def-term" id="f-55-beat-ov-term">CHYTRID FUNGUS<span class="ov-def-underline" id="f-55-beat-ov-underline"></span></span><p class="ov-def-text" id="f-55-beat-ov-text">A pathogen that has devastated amphibians worldwide</p></div>
   </div>
 
   <script>
@@ -121,7 +128,14 @@
       var tl = gsap.timeline({ paused: true });
       var wrap = document.getElementById("f-55-beat-wrap");
       gsap.set(wrap, { scale: 1.0 });
-      tl.to("#f-55-beat-media", { scale: 1.375, duration: 0.09, ease: "power3.out" }, 1.97);
+      tl.to("#f-55-beat-media", { scale: 1.350, duration: 0.09, ease: "power3.out" }, 4.17);
+      tl.to("#f-55-beat-ov-scrim", { opacity: 1, duration: 0.4, ease: "power2.out" }, 1.30);
+      tl.to("#f-55-beat-ov", { opacity: 1, duration: 0.01 }, 1.40);
+      tl.fromTo("#f-55-beat-ov-term", { opacity: 0, y: 8 }, { opacity: 1, y: 0, duration: 0.3, ease: "power3.out" }, 1.40);
+      tl.to("#f-55-beat-ov-underline", { scaleX: 1, duration: 0.28, ease: "power2.out" }, 1.68);
+      tl.fromTo("#f-55-beat-ov-text", { opacity: 0, y: 8 }, { opacity: 1, y: 0, duration: 0.3, ease: "power3.out" }, 1.82);
+      tl.to("#f-55-beat-ov", { opacity: 0, y: -6, duration: 0.3, ease: "power2.in" }, 5.97);
+      tl.to("#f-55-beat-ov-scrim", { opacity: 0, duration: 0.4, ease: "power2.in" }, 6.12);
       window.__timelines["55-beat"] = tl;
     })();
   </script>

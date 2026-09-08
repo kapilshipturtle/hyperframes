@@ -1,703 +1,1046 @@
 {
- "10": {
-  "archetype": "none",
-  "enterAt": 1.4,
-  "reason": "scene-setting prose — footage carries it, no card"
- },
- "11": {
-  "archetype": "title-card",
-  "title": "Above the line, below the line",
-  "kicker": "Part 3",
-  "enterAt": 0.2,
-  "reason": "section start \"undefined\" — template section-start device",
-  "placement": "middle-center"
- },
- "12": {
-  "archetype": "none",
-  "enterAt": 1.28,
-  "reason": "scene-setting prose — footage carries it, no card"
- },
- "13": {
-  "archetype": "none",
-  "enterAt": 1.4,
-  "reason": "scene-setting prose — footage carries it, no card"
- },
- "14": {
-  "archetype": "keyword-flash",
-  "text": "LAYER",
-  "position": "center",
-  "enterAt": 1.07,
-  "reason": "stressed keyword",
-  "placement": "middle-right"
- },
- "15": {
-  "archetype": "none",
-  "enterAt": 1.38,
-  "reason": "scene-setting prose — footage carries it, no card"
- },
- "16": {
-  "archetype": "none",
-  "enterAt": 1.3,
-  "reason": "scene-setting prose — footage carries it, no card"
- },
- "17": {
-  "archetype": "keyword-flash",
-  "text": "ALTITUDE",
-  "position": "center",
-  "enterAt": 1.1,
-  "reason": "stressed keyword",
-  "placement": "middle-center",
-  "entrance": "pop-scale"
- },
- "18": {
-  "archetype": "title-card",
-  "title": "The numbers were already published",
-  "kicker": "Part 4",
-  "enterAt": 0.2,
-  "reason": "section start \"undefined\" — template section-start device",
-  "placement": "lower-center"
- },
- "19": {
-  "archetype": "none",
-  "enterAt": 1.4,
-  "reason": "dates the study being described"
- },
- "20": {
-  "archetype": "none",
-  "enterAt": 1.4,
-  "reason": "the study's headline collapse figure"
- },
- "21": {
-  "archetype": "keyword-flash",
-  "text": "CURRENCY",
-  "position": "center",
-  "enterAt": 1.4,
-  "reason": "stressed keyword",
-  "placement": "middle-center"
- },
- "22": {
-  "archetype": "none",
-  "enterAt": 1.4,
-  "reason": "scene-setting prose — footage carries it, no card"
- },
- "23": {
-  "archetype": "keyword-flash",
-  "text": "LAYER",
-  "position": "center",
-  "enterAt": 1.4,
-  "reason": "stressed keyword",
-  "placement": "middle-left"
- },
- "24": {
-  "archetype": "title-card",
-  "title": "Checking everything else",
-  "kicker": "Part 5",
-  "enterAt": 0.2,
-  "reason": "section start \"undefined\" — template section-start device",
-  "placement": "middle-center",
-  "entrance": "pop-scale"
- },
- "25": {
-  "archetype": "none",
-  "enterAt": 1.31,
-  "reason": "scene-setting prose — footage carries it, no card"
- },
- "26": {
-  "archetype": "none",
-  "enterAt": 1.4,
-  "reason": "scene-setting prose — footage carries it, no card"
- },
- "27": {
-  "archetype": "none",
-  "enterAt": 1.4,
-  "reason": "the survey's sample size — what makes the finding hard to argue with"
- },
- "28": {
-  "archetype": "none",
-  "enterAt": 1.4,
-  "reason": "the specific place the collapse was measured"
- },
- "29": {
-  "archetype": "none",
-  "enterAt": 1.4,
-  "reason": "scene-setting prose — footage carries it, no card"
- },
- "30": {
-  "archetype": "title-card",
-  "title": "Every other explanation, tested",
-  "kicker": "Part 6",
-  "enterAt": 0.2,
-  "reason": "section start \"undefined\" — template section-start device",
-  "placement": "middle-right"
- },
- "31": {
-  "archetype": "none",
-  "enterAt": 1.4,
-  "reason": "scene-setting prose — footage carries it, no card"
- },
- "32": {
-  "archetype": "none",
-  "enterAt": 1.4,
-  "reason": "scene-setting prose — footage carries it, no card"
- },
- "33": {
-  "archetype": "none",
-  "enterAt": 1.4,
-  "reason": "scene-setting prose — footage carries it, no card"
- },
- "34": {
-  "archetype": "none",
-  "enterAt": 1.4,
-  "reason": "scene-setting prose — footage carries it, no card"
- },
- "35": {
-  "archetype": "none",
-  "enterAt": 1.4,
-  "reason": "scene-setting prose — footage carries it, no card"
- },
- "36": {
-  "archetype": "none",
-  "enterAt": 1.4,
-  "reason": "scene-setting prose — footage carries it, no card"
- },
- "37": {
-  "archetype": "definition-callout",
-  "term": "Chytrid fungus",
-  "definition": "a leading global amphibian killer — tested and ruled out",
-  "enterAt": 1.4,
-  "reason": "jargon",
-  "placement": "middle-center"
- },
- "38": {
-  "archetype": "definition-callout",
-  "term": "Chytrid fungus",
-  "definition": "a leading global amphibian killer — tested and ruled out",
-  "enterAt": 1.19,
-  "reason": "jargon",
-  "placement": "lower-center"
- },
- "39": {
-  "archetype": "none",
-  "enterAt": 1.4,
-  "reason": "scene-setting prose — footage carries it, no card"
- },
- "40": {
-  "archetype": "none",
-  "enterAt": 1,
-  "reason": "scene-setting prose — footage carries it, no card"
- },
- "41": {
-  "archetype": "keyword-flash",
-  "text": "STUDY",
-  "position": "center",
-  "enterAt": 1.4,
-  "reason": "stressed keyword",
-  "placement": "upper-center",
-  "entrance": "pop-scale"
- },
- "42": {
-  "archetype": "none",
-  "enterAt": 1.2,
-  "reason": "scene-setting prose — footage carries it, no card"
- },
- "43": {
-  "archetype": "none",
-  "enterAt": 0.9,
-  "reason": "scene-setting prose — footage carries it, no card"
- },
- "44": {
-  "archetype": "none",
-  "enterAt": 1.4,
-  "reason": "scene-setting prose — footage carries it, no card"
- },
- "45": {
-  "archetype": "none",
-  "enterAt": 1.4,
-  "reason": "scene-setting prose — footage carries it, no card"
- },
- "46": {
-  "archetype": "title-card",
-  "title": "Twice the size of any other factor",
-  "kicker": "Part 7",
-  "enterAt": 0.2,
-  "reason": "section start \"undefined\" — template section-start device",
-  "placement": "middle-center"
- },
- "47": {
-  "archetype": "title-card",
-  "title": "That's the finding. Not that swamp eels are one of several",
-  "kicker": "",
-  "enterAt": 1.4,
-  "reason": "thesis / pivot line",
-  "placement": "middle-left"
- },
- "48": {
-  "archetype": "none",
-  "enterAt": 1.4,
-  "reason": "scene-setting prose — footage carries it, no card"
- },
- "49": {
-  "archetype": "none",
-  "enterAt": 1.4,
-  "reason": "scene-setting prose — footage carries it, no card"
- },
- "50": {
-  "archetype": "none",
-  "enterAt": 1.4,
-  "reason": "scene-setting prose — footage carries it, no card"
- },
- "51": {
-  "archetype": "keyword-flash",
-  "text": "ABUNDANCE",
-  "position": "center",
-  "enterAt": 1.4,
-  "reason": "stressed keyword",
-  "placement": "middle-right"
- },
- "52": {
-  "archetype": "none",
-  "enterAt": 1.4,
-  "reason": "scene-setting prose — footage carries it, no card"
- },
- "53": {
-  "archetype": "none",
-  "enterAt": 1.4,
-  "reason": "scene-setting prose — footage carries it, no card"
- },
- "54": {
-  "archetype": "keyword-flash",
-  "text": "FROG",
-  "position": "center",
-  "enterAt": 1.4,
-  "reason": "stressed keyword",
-  "placement": "lower-center",
-  "entrance": "pop-scale"
- },
- "55": {
-  "archetype": "none",
-  "enterAt": 1.4,
-  "reason": "scene-setting prose — footage carries it, no card"
- },
- "56": {
-  "archetype": "none",
-  "enterAt": 1.4,
-  "reason": "scene-setting prose — footage carries it, no card"
- },
- "57": {
-  "archetype": "none",
-  "enterAt": 1.4,
-  "reason": "scene-setting prose — footage carries it, no card"
- },
- "58": {
-  "archetype": "none",
-  "enterAt": 1.4,
-  "reason": "scene-setting prose — footage carries it, no card"
- },
- "59": {
-  "archetype": "keyword-flash",
-  "text": "EEL",
-  "position": "center",
-  "enterAt": 1.4,
-  "reason": "stressed keyword",
-  "placement": "upper-center"
- },
- "60": {
-  "archetype": "none",
-  "enterAt": 1.4,
-  "reason": "scene-setting prose — footage carries it, no card"
- },
- "61": {
-  "archetype": "title-card",
-  "title": "Two species, both eel-shaped",
-  "kicker": "Part 8",
-  "enterAt": 0.2,
-  "reason": "section start \"undefined\" — template section-start device",
-  "placement": "upper-right"
- },
- "62": {
-  "archetype": "keyword-flash",
-  "text": "PREY",
-  "position": "center",
-  "enterAt": 1.4,
-  "reason": "stressed keyword",
-  "placement": "upper-left"
- },
- "63": {
-  "archetype": "none",
-  "enterAt": 1.4,
-  "reason": "scene-setting prose — footage carries it, no card"
- },
- "64": {
-  "archetype": "keyword-flash",
-  "text": "INVASION",
-  "position": "center",
-  "enterAt": 1.29,
-  "reason": "stressed keyword",
-  "placement": "lower-left",
-  "entrance": "pop-scale"
- },
- "65": {
-  "archetype": "none",
-  "enterAt": 1.39,
-  "reason": "scene-setting prose — footage carries it, no card"
- },
- "66": {
-  "archetype": "none",
-  "enterAt": 1.4,
-  "reason": "scene-setting prose — footage carries it, no card"
- },
- "67": {
-  "archetype": "none",
-  "enterAt": 1.33,
-  "reason": "scene-setting prose — footage carries it, no card"
- },
- "68": {
-  "archetype": "keyword-flash",
-  "text": "SITES",
-  "position": "center",
-  "enterAt": 1.4,
-  "reason": "stressed keyword",
-  "placement": "middle-center"
- },
- "69": {
-  "archetype": "none",
-  "enterAt": 1.4,
-  "reason": "scene-setting prose — footage carries it, no card"
- },
- "70": {
-  "archetype": "none",
-  "enterAt": 1.4,
-  "reason": "scene-setting prose — footage carries it, no card"
- },
- "71": {
-  "archetype": "none",
-  "enterAt": 1.4,
-  "reason": "scene-setting prose — footage carries it, no card"
- },
- "72": {
-  "archetype": "none",
-  "enterAt": 1.18,
-  "reason": "scene-setting prose — footage carries it, no card"
- },
- "73": {
-  "archetype": "none",
-  "enterAt": 1.27,
-  "reason": "scene-setting prose — footage carries it, no card"
- },
- "74": {
-  "archetype": "none",
-  "enterAt": 1.4,
-  "reason": "scene-setting prose — footage carries it, no card"
- },
- "75": {
-  "archetype": "none",
-  "enterAt": 1.28,
-  "reason": "scene-setting prose — footage carries it, no card"
- },
- "76": {
-  "archetype": "title-card",
-  "title": "Why almost nothing can be done",
-  "kicker": "Part 9",
-  "enterAt": 0.2,
-  "reason": "section start \"undefined\" — template section-start device",
-  "placement": "middle-left"
- },
- "77": {
-  "archetype": "none",
-  "enterAt": 1.4,
-  "reason": "scene-setting prose — footage carries it, no card"
- },
- "78": {
-  "archetype": "none",
-  "enterAt": 1.4,
-  "reason": "scene-setting prose — footage carries it, no card"
- },
- "79": {
-  "archetype": "none",
-  "enterAt": 1.4,
-  "reason": "scene-setting prose — footage carries it, no card"
- },
- "80": {
-  "archetype": "keyword-flash",
-  "text": "MUD",
-  "position": "center",
-  "enterAt": 1.4,
-  "reason": "stressed keyword",
-  "placement": "middle-right"
- },
- "81": {
-  "archetype": "none",
-  "enterAt": 1.4,
-  "reason": "scene-setting prose — footage carries it, no card"
- },
- "82": {
-  "archetype": "none",
-  "enterAt": 1.4,
-  "reason": "scene-setting prose — footage carries it, no card"
- },
- "83": {
-  "archetype": "none",
-  "enterAt": 1.4,
-  "reason": "scene-setting prose — footage carries it, no card"
- },
- "84": {
-  "archetype": "none",
-  "enterAt": 1.4,
-  "reason": "scene-setting prose — footage carries it, no card"
- },
- "85": {
-  "archetype": "none",
-  "enterAt": 1.4,
-  "reason": "scene-setting prose — footage carries it, no card"
- },
- "86": {
-  "archetype": "none",
-  "enterAt": 1.4,
-  "reason": "scene-setting prose — footage carries it, no card"
- },
- "87": {
-  "archetype": "keyword-flash",
-  "text": "WADING",
-  "position": "center",
-  "enterAt": 1.4,
-  "reason": "stressed keyword",
-  "placement": "lower-center",
-  "entrance": "pop-scale"
- },
- "88": {
-  "archetype": "none",
-  "enterAt": 1.4,
-  "reason": "scene-setting prose — footage carries it, no card"
- },
- "89": {
-  "archetype": "none",
-  "enterAt": 1.4,
-  "reason": "scene-setting prose — footage carries it, no card"
- },
- "90": {
-  "archetype": "none",
-  "enterAt": 1.35,
-  "reason": "scene-setting prose — footage carries it, no card"
- },
- "91": {
-  "archetype": "none",
-  "enterAt": 1.4,
-  "reason": "scene-setting prose — footage carries it, no card"
- },
- "92": {
-  "archetype": "none",
-  "enterAt": 1.4,
-  "reason": "scene-setting prose — footage carries it, no card"
- },
- "93": {
-  "archetype": "none",
-  "enterAt": 1.4,
-  "reason": "scene-setting prose — footage carries it, no card"
- },
- "94": {
-  "archetype": "none",
-  "enterAt": 1.08,
-  "reason": "scene-setting prose — footage carries it, no card"
- },
- "95": {
-  "archetype": "none",
-  "enterAt": 1.24,
-  "reason": "scene-setting prose — footage carries it, no card"
- },
- "96": {
-  "archetype": "title-card",
-  "title": "The front line is moving",
-  "kicker": "Part 10",
-  "enterAt": 0.2,
-  "reason": "section start \"undefined\" — template section-start device",
-  "placement": "upper-center"
- },
- "97": {
-  "archetype": "none",
-  "enterAt": 1.4,
-  "reason": "scene-setting prose — footage carries it, no card"
- },
- "98": {
-  "archetype": "none",
-  "enterAt": 1.4,
-  "reason": "scene-setting prose — footage carries it, no card"
- },
- "99": {
-  "archetype": "none",
-  "enterAt": 1.4,
-  "reason": "scene-setting prose — footage carries it, no card"
- },
- "100": {
-  "archetype": "none",
-  "enterAt": 1.4,
-  "reason": "scene-setting prose — footage carries it, no card"
- },
- "101": {
-  "archetype": "none",
-  "enterAt": 1.4,
-  "reason": "the study's headline collapse figure"
- },
- "102": {
-  "archetype": "none",
-  "enterAt": 1.4,
-  "reason": "scene-setting prose — footage carries it, no card"
- },
- "103": {
-  "archetype": "none",
-  "enterAt": 1.19,
-  "reason": "scene-setting prose — footage carries it, no card"
- },
- "104": {
-  "archetype": "none",
-  "enterAt": 1.4,
-  "reason": "scene-setting prose — footage carries it, no card"
- },
- "105": {
-  "archetype": "none",
-  "enterAt": 1.4,
-  "reason": "scene-setting prose — footage carries it, no card"
- },
- "106": {
-  "archetype": "none",
-  "enterAt": 1.4,
-  "reason": "scene-setting prose — footage carries it, no card"
- },
- "107": {
-  "archetype": "none",
-  "enterAt": 1.1,
-  "reason": "scene-setting prose — footage carries it, no card"
- },
- "108": {
-  "archetype": "keyword-flash",
-  "text": "LAYER",
-  "position": "center",
-  "enterAt": 1.21,
-  "reason": "stressed keyword",
-  "placement": "upper-right"
- },
- "109": {
-  "archetype": "none",
-  "enterAt": 1.3,
-  "reason": "scene-setting prose — footage carries it, no card"
- },
- "110": {
-  "archetype": "none",
-  "enterAt": 1.23,
-  "reason": "scene-setting prose — footage carries it, no card"
- },
- "111": {
-  "archetype": "title-card",
-  "title": "High risk, 28 years late",
-  "kicker": "Part 11",
-  "enterAt": 0.2,
-  "reason": "section start \"undefined\" — template section-start device",
-  "placement": "upper-left"
- },
- "112": {
-  "archetype": "none",
-  "enterAt": 1.4,
-  "reason": "scene-setting prose — footage carries it, no card"
- },
- "113": {
-  "archetype": "none",
-  "enterAt": 1.23,
-  "reason": "scene-setting prose — footage carries it, no card"
- },
- "114": {
-  "archetype": "none",
-  "enterAt": 1.4,
-  "reason": "scene-setting prose — footage carries it, no card"
- },
- "115": {
-  "archetype": "none",
-  "enterAt": 1.4,
-  "reason": "scene-setting prose — footage carries it, no card"
- },
- "116": {
-  "archetype": "keyword-flash",
-  "text": "HOLLOWED",
-  "position": "center",
-  "enterAt": 1.4,
-  "reason": "stressed keyword",
-  "placement": "lower-left",
-  "entrance": "pop-scale"
- },
- "117": {
-  "archetype": "title-card",
-  "title": "A barrier that cost over a billion dollars, built to stop ",
-  "kicker": "",
-  "enterAt": 1.4,
-  "reason": "thesis / pivot line",
-  "placement": "lower-right"
- },
- "118": {
-  "archetype": "none",
-  "enterAt": 1.39,
-  "reason": "scene-setting prose — footage carries it, no card"
- },
- "01": {
-  "archetype": "keyword-flash",
-  "text": "CRAYFISH",
-  "position": "center",
-  "enterAt": 1.4,
-  "reason": "stressed keyword",
-  "placement": "middle-center",
-  "entrance": "pop-scale"
- },
- "02": {
-  "archetype": "none",
-  "enterAt": 1.4,
-  "reason": "scene-setting prose — footage carries it, no card"
- },
- "03": {
-  "archetype": "keyword-flash",
-  "text": "WINDOW",
-  "position": "center",
-  "enterAt": 1.19,
-  "reason": "stressed keyword",
-  "placement": "middle-left"
- },
- "04": {
-  "archetype": "title-card",
-  "title": "It is the engine. It is the reason the Everglades could su",
-  "kicker": "",
-  "enterAt": 1.4,
-  "reason": "thesis / pivot line",
-  "placement": "middle-center"
- },
- "05": {
-  "archetype": "none",
-  "enterAt": 1.4,
-  "reason": "scene-setting prose — footage carries it, no card"
- },
- "06": {
-  "archetype": "title-card",
-  "title": "The animal that never leaves",
-  "kicker": "Part 2",
-  "enterAt": 0.2,
-  "reason": "section start \"undefined\" — template section-start device",
-  "placement": "middle-left"
- },
- "07": {
-  "archetype": "definition-callout",
-  "term": "Swamp eel",
-  "definition": "air-breathing, so a drying pool is not a barrier",
-  "enterAt": 1.4,
-  "reason": "jargon",
-  "placement": "middle-center",
-  "entrance": "pop-scale"
- },
- "08": {
-  "archetype": "keyword-flash",
-  "text": "MUD",
-  "position": "center",
-  "enterAt": 1.4,
-  "reason": "stressed keyword",
-  "placement": "middle-left"
- },
- "09": {
-  "archetype": "none",
-  "enterAt": 1.02,
-  "reason": "scene-setting prose — footage carries it, no card"
- }
+  "10": {
+    "archetype": "keyword-flash",
+    "text": "BREATHES AIR",
+    "position": "center",
+    "enterAt": 0.84,
+    "reason": "stressed keyword",
+    "placement": "middle-left"
+  },
+  "11": {
+    "archetype": "none",
+    "enterAt": 1.24,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "12": {
+    "archetype": "none",
+    "enterAt": 1.4,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "13": {
+    "archetype": "none",
+    "enterAt": 0.81,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "14": {
+    "archetype": "keyword-flash",
+    "text": "PREDATORS LEAVE",
+    "position": "center",
+    "enterAt": 0.8,
+    "reason": "stressed keyword",
+    "placement": "middle-center"
+  },
+  "15": {
+    "archetype": "keyword-flash",
+    "text": "THIS ONE STAYS",
+    "position": "center",
+    "enterAt": 1.4,
+    "reason": "stressed keyword",
+    "placement": "middle-left"
+  },
+  "16": {
+    "archetype": "map-tag",
+    "text": "TAYLOR SLOUGH",
+    "position": "center",
+    "enterAt": 1.4,
+    "reason": "stressed keyword",
+    "placement": "middle-center",
+    "entrance": "pop-scale",
+    "place": "TAYLOR SLOUGH"
+  },
+  "17": {
+    "archetype": "none",
+    "enterAt": 0.8,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "18": {
+    "archetype": "none",
+    "enterAt": 1.28,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "19": {
+    "archetype": "none",
+    "enterAt": 0.85,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "20": {
+    "archetype": "none",
+    "enterAt": 1.21,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "21": {
+    "archetype": "none",
+    "enterAt": 1.07,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "22": {
+    "archetype": "keyword-flash",
+    "text": "EELS DON'T CLIMB",
+    "position": "center",
+    "enterAt": 0.8,
+    "reason": "stressed keyword",
+    "placement": "middle-left"
+  },
+  "23": {
+    "archetype": "none",
+    "enterAt": 0.8,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "24": {
+    "archetype": "none",
+    "enterAt": 1.3,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "25": {
+    "archetype": "keyword-flash",
+    "text": "RIGHT ALTITUDE",
+    "position": "center",
+    "enterAt": 1.1,
+    "reason": "stressed keyword",
+    "placement": "middle-center"
+  },
+  "26": {
+    "archetype": "none",
+    "enterAt": 1.4,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "27": {
+    "archetype": "none",
+    "enterAt": 1.4,
+    "reason": "hard fact in this line"
+  },
+  "28": {
+    "archetype": "none",
+    "enterAt": 1.4,
+    "reason": "hard fact in this line"
+  },
+  "29": {
+    "archetype": "none",
+    "enterAt": 1.4,
+    "reason": "hard fact in this line"
+  },
+  "30": {
+    "archetype": "none",
+    "enterAt": 0.97,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "31": {
+    "archetype": "keyword-flash",
+    "text": "THE CURRENCY",
+    "position": "center",
+    "enterAt": 0.81,
+    "reason": "stressed keyword",
+    "placement": "middle-right"
+  },
+  "32": {
+    "archetype": "none",
+    "enterAt": 1.4,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "33": {
+    "archetype": "none",
+    "enterAt": 1.01,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "34": {
+    "archetype": "keyword-flash",
+    "text": "NOT A SPECIES",
+    "position": "center",
+    "enterAt": 0.8,
+    "reason": "stressed keyword",
+    "placement": "middle-center",
+    "entrance": "pop-scale"
+  },
+  "35": {
+    "archetype": "keyword-flash",
+    "text": "THE FOUNDATION",
+    "position": "center",
+    "enterAt": 1.28,
+    "reason": "stressed keyword",
+    "placement": "lower-center"
+  },
+  "36": {
+    "archetype": "none",
+    "enterAt": 1.14,
+    "reason": "hard fact in this line"
+  },
+  "37": {
+    "archetype": "none",
+    "enterAt": 1.31,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "38": {
+    "archetype": "none",
+    "enterAt": 1.4,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "39": {
+    "archetype": "none",
+    "enterAt": 1.08,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "40": {
+    "archetype": "none",
+    "enterAt": 1.39,
+    "reason": "hard fact in this line"
+  },
+  "41": {
+    "archetype": "none",
+    "enterAt": 0.8,
+    "reason": "hard fact in this line"
+  },
+  "42": {
+    "archetype": "map-tag",
+    "text": "TAYLOR SLOUGH",
+    "position": "center",
+    "enterAt": 1.4,
+    "reason": "stressed keyword",
+    "placement": "middle-center",
+    "place": "TAYLOR SLOUGH"
+  },
+  "43": {
+    "archetype": "none",
+    "enterAt": 1.4,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "44": {
+    "archetype": "none",
+    "enterAt": 0.85,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "45": {
+    "archetype": "none",
+    "enterAt": 1.18,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "46": {
+    "archetype": "none",
+    "enterAt": 0.8,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "47": {
+    "archetype": "none",
+    "enterAt": 1.16,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "48": {
+    "archetype": "none",
+    "enterAt": 1.4,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "49": {
+    "archetype": "none",
+    "enterAt": 0.8,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "50": {
+    "archetype": "none",
+    "enterAt": 1.13,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "51": {
+    "archetype": "none",
+    "enterAt": 0.8,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "52": {
+    "archetype": "none",
+    "enterAt": 1.4,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "53": {
+    "archetype": "none",
+    "enterAt": 1.4,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "54": {
+    "archetype": "none",
+    "enterAt": 1.4,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "55": {
+    "archetype": "definition-callout",
+    "text": "CHYTRID FUNGUS",
+    "position": "center",
+    "enterAt": 1.4,
+    "reason": "stressed keyword",
+    "placement": "middle-left",
+    "term": "CHYTRID FUNGUS",
+    "definition": "A pathogen that has devastated amphibians worldwide"
+  },
+  "56": {
+    "archetype": "none",
+    "enterAt": 0.8,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "57": {
+    "archetype": "none",
+    "enterAt": 0.8,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "58": {
+    "archetype": "none",
+    "enterAt": 1.13,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "59": {
+    "archetype": "none",
+    "enterAt": 0.85,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "60": {
+    "archetype": "none",
+    "enterAt": 1,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "61": {
+    "archetype": "none",
+    "enterAt": 0.8,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "62": {
+    "archetype": "none",
+    "enterAt": 1.4,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "63": {
+    "archetype": "none",
+    "enterAt": 1.21,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "64": {
+    "archetype": "none",
+    "enterAt": 0.9,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "65": {
+    "archetype": "keyword-flash",
+    "text": "SWAMP EEL",
+    "position": "center",
+    "enterAt": 0.8,
+    "reason": "stressed keyword",
+    "placement": "middle-center",
+    "entrance": "pop-scale"
+  },
+  "66": {
+    "archetype": "keyword-flash",
+    "text": "EVERYTHING ELSE FELL AWAY",
+    "position": "center",
+    "enterAt": 1.4,
+    "reason": "stressed keyword",
+    "placement": "middle-right"
+  },
+  "67": {
+    "archetype": "none",
+    "enterAt": 1.4,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "68": {
+    "archetype": "center-statement",
+    "text": "NOT EVEN CLOSE",
+    "position": "center",
+    "enterAt": 0.8,
+    "reason": "stressed keyword",
+    "placement": "middle-center",
+    "line": "NOT EVEN CLOSE"
+  },
+  "69": {
+    "archetype": "none",
+    "enterAt": 1.4,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "70": {
+    "archetype": "center-statement",
+    "text": "THE FINDING",
+    "position": "center",
+    "enterAt": 0.8,
+    "reason": "stressed keyword",
+    "placement": "lower-center",
+    "line": "THE FINDING"
+  },
+  "71": {
+    "archetype": "none",
+    "enterAt": 1.4,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "72": {
+    "archetype": "none",
+    "enterAt": 1.4,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "73": {
+    "archetype": "none",
+    "enterAt": 1.4,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "74": {
+    "archetype": "none",
+    "enterAt": 1.4,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "75": {
+    "archetype": "none",
+    "enterAt": 0.8,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "76": {
+    "archetype": "none",
+    "enterAt": 1.4,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "77": {
+    "archetype": "none",
+    "enterAt": 1.4,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "78": {
+    "archetype": "none",
+    "enterAt": 1.4,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "79": {
+    "archetype": "none",
+    "enterAt": 0.8,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "80": {
+    "archetype": "keyword-flash",
+    "text": "STILL MOVING",
+    "position": "center",
+    "enterAt": 0.8,
+    "reason": "stressed keyword",
+    "placement": "middle-center",
+    "entrance": "pop-scale"
+  },
+  "81": {
+    "archetype": "none",
+    "enterAt": 1.4,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "82": {
+    "archetype": "keyword-flash",
+    "text": "NOT A REFUGE",
+    "position": "center",
+    "enterAt": 1.4,
+    "reason": "stressed keyword",
+    "placement": "middle-left"
+  },
+  "83": {
+    "archetype": "map-tag",
+    "text": "EVERGLADES NP",
+    "position": "center",
+    "enterAt": 1.4,
+    "reason": "stressed keyword",
+    "placement": "middle-center",
+    "place": "EVERGLADES NP"
+  },
+  "84": {
+    "archetype": "none",
+    "enterAt": 0.8,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "85": {
+    "archetype": "none",
+    "enterAt": 1.4,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "86": {
+    "archetype": "map-tag",
+    "text": "EVERGLADES NP",
+    "position": "center",
+    "enterAt": 1.36,
+    "reason": "stressed keyword",
+    "placement": "middle-right",
+    "place": "EVERGLADES NP"
+  },
+  "87": {
+    "archetype": "none",
+    "enterAt": 1.4,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "88": {
+    "archetype": "keyword-flash",
+    "text": "NOBODY COUNTS FROGS",
+    "position": "center",
+    "enterAt": 1.29,
+    "reason": "stressed keyword",
+    "placement": "middle-center",
+    "entrance": "pop-scale"
+  },
+  "89": {
+    "archetype": "none",
+    "enterAt": 1.4,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "90": {
+    "archetype": "none",
+    "enterAt": 0.8,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "91": {
+    "archetype": "keyword-flash",
+    "text": "SIREN & AMPHIUMA",
+    "position": "center",
+    "enterAt": 1.4,
+    "reason": "stressed keyword",
+    "placement": "lower-center"
+  },
+  "92": {
+    "archetype": "none",
+    "enterAt": 1.39,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "93": {
+    "archetype": "keyword-flash",
+    "text": "THE PROBLEM",
+    "position": "center",
+    "enterAt": 0.8,
+    "reason": "stressed keyword",
+    "placement": "middle-center"
+  },
+  "94": {
+    "archetype": "none",
+    "enterAt": 1.14,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "95": {
+    "archetype": "none",
+    "enterAt": 1.4,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "96": {
+    "archetype": "none",
+    "enterAt": 0.8,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "97": {
+    "archetype": "keyword-flash",
+    "text": "DIRECT COMPETITION",
+    "position": "center",
+    "enterAt": 0.8,
+    "reason": "stressed keyword",
+    "placement": "middle-left"
+  },
+  "98": {
+    "archetype": "none",
+    "enterAt": 1.39,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "99": {
+    "archetype": "none",
+    "enterAt": 0.8,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "100": {
+    "archetype": "keyword-flash",
+    "text": "DWARF SIREN",
+    "position": "center",
+    "enterAt": 1.21,
+    "reason": "stressed keyword",
+    "placement": "middle-right",
+    "entrance": "pop-scale"
+  },
+  "101": {
+    "archetype": "none",
+    "enterAt": 1.33,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "102": {
+    "archetype": "none",
+    "enterAt": 1.4,
+    "reason": "hard fact in this line"
+  },
+  "103": {
+    "archetype": "none",
+    "enterAt": 1.4,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "104": {
+    "archetype": "none",
+    "enterAt": 0.88,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "105": {
+    "archetype": "none",
+    "enterAt": 0.82,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "106": {
+    "archetype": "center-statement",
+    "text": "MAY ALREADY BE GONE",
+    "position": "center",
+    "enterAt": 1.4,
+    "reason": "stressed keyword",
+    "placement": "lower-center",
+    "line": "MAY ALREADY BE GONE"
+  },
+  "107": {
+    "archetype": "none",
+    "enterAt": 1.4,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "108": {
+    "archetype": "none",
+    "enterAt": 1.18,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "109": {
+    "archetype": "none",
+    "enterAt": 1.27,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "110": {
+    "archetype": "none",
+    "enterAt": 0.8,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "111": {
+    "archetype": "none",
+    "enterAt": 1.4,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "112": {
+    "archetype": "keyword-flash",
+    "text": "ARRIVED IN A BUCKET",
+    "position": "center",
+    "enterAt": 0.8,
+    "reason": "stressed keyword",
+    "placement": "upper-center"
+  },
+  "113": {
+    "archetype": "chapter-title",
+    "text": "VERY LITTLE",
+    "position": "center",
+    "enterAt": 1.04,
+    "reason": "stressed keyword",
+    "placement": "upper-right",
+    "kicker": "",
+    "title": "Why almost nothing can be done"
+  },
+  "114": {
+    "archetype": "none",
+    "enterAt": 1.22,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "115": {
+    "archetype": "none",
+    "enterAt": 1.4,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "116": {
+    "archetype": "lower-third",
+    "text": "PHYSICAL REMOVAL",
+    "position": "center",
+    "enterAt": 0.82,
+    "reason": "stressed keyword",
+    "placement": "middle-center",
+    "entrance": "pop-scale",
+    "label": "PHYSICAL REMOVAL",
+    "sublabel": "OPTION"
+  },
+  "117": {
+    "archetype": "none",
+    "enterAt": 0.8,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "118": {
+    "archetype": "none",
+    "enterAt": 1.4,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "119": {
+    "archetype": "none",
+    "enterAt": 1.4,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "120": {
+    "archetype": "none",
+    "enterAt": 1.4,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "121": {
+    "archetype": "lower-third",
+    "text": "DRAINING",
+    "position": "center",
+    "enterAt": 1.4,
+    "reason": "stressed keyword",
+    "placement": "middle-left",
+    "label": "DRAINING",
+    "sublabel": "OPTION"
+  },
+  "122": {
+    "archetype": "none",
+    "enterAt": 0.92,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "123": {
+    "archetype": "none",
+    "enterAt": 1.4,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "124": {
+    "archetype": "lower-third",
+    "text": "POISON",
+    "position": "center",
+    "enterAt": 1.4,
+    "reason": "stressed keyword",
+    "placement": "middle-right",
+    "label": "POISON",
+    "sublabel": "OPTION"
+  },
+  "125": {
+    "archetype": "none",
+    "enterAt": 1.4,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "126": {
+    "archetype": "none",
+    "enterAt": 1.4,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "127": {
+    "archetype": "lower-third",
+    "text": "BIOLOGICAL CONTROL",
+    "position": "center",
+    "enterAt": 1.4,
+    "reason": "stressed keyword",
+    "placement": "lower-center",
+    "label": "BIOLOGICAL CONTROL",
+    "sublabel": "OPTION"
+  },
+  "128": {
+    "archetype": "none",
+    "enterAt": 1.4,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "129": {
+    "archetype": "lower-third",
+    "text": "BARRIERS",
+    "position": "center",
+    "enterAt": 1.4,
+    "reason": "stressed keyword",
+    "placement": "upper-center",
+    "entrance": "pop-scale",
+    "label": "BARRIERS",
+    "sublabel": "OPTION"
+  },
+  "130": {
+    "archetype": "none",
+    "enterAt": 0.8,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "131": {
+    "archetype": "keyword-flash",
+    "text": "CAN'T WALL IT OFF",
+    "position": "center",
+    "enterAt": 0.8,
+    "reason": "stressed keyword",
+    "placement": "upper-right"
+  },
+  "132": {
+    "archetype": "none",
+    "enterAt": 1.4,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "133": {
+    "archetype": "center-statement",
+    "text": "IMPOSSIBLE",
+    "position": "center",
+    "enterAt": 1.35,
+    "reason": "stressed keyword",
+    "placement": "upper-left",
+    "line": "IMPOSSIBLE"
+  },
+  "134": {
+    "archetype": "lower-third",
+    "text": "SURVEILLANCE",
+    "position": "center",
+    "enterAt": 0.8,
+    "reason": "stressed keyword",
+    "placement": "lower-left",
+    "label": "SURVEILLANCE",
+    "sublabel": "OPTION"
+  },
+  "135": {
+    "archetype": "definition-callout",
+    "text": "eDNA",
+    "position": "center",
+    "enterAt": 1.4,
+    "reason": "stressed keyword",
+    "placement": "lower-right",
+    "entrance": "pop-scale",
+    "term": "eDNA",
+    "definition": "Detects a species from genetic traces in a water sample"
+  },
+  "136": {
+    "archetype": "none",
+    "enterAt": 1.4,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "137": {
+    "archetype": "none",
+    "enterAt": 0.8,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "138": {
+    "archetype": "none",
+    "enterAt": 1.25,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "139": {
+    "archetype": "none",
+    "enterAt": 0.8,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "140": {
+    "archetype": "none",
+    "enterAt": 1.12,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "141": {
+    "archetype": "keyword-flash",
+    "text": "DOES NOTHING",
+    "position": "center",
+    "enterAt": 0.8,
+    "reason": "stressed keyword",
+    "placement": "middle-center"
+  },
+  "142": {
+    "archetype": "none",
+    "enterAt": 0.86,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "143": {
+    "archetype": "map-tag",
+    "text": "GEORGIA",
+    "position": "center",
+    "enterAt": 0.8,
+    "reason": "stressed keyword",
+    "placement": "middle-left",
+    "place": "GEORGIA"
+  },
+  "144": {
+    "archetype": "map-tag",
+    "text": "NEW JERSEY",
+    "position": "center",
+    "enterAt": 0.8,
+    "reason": "stressed keyword",
+    "placement": "middle-right",
+    "place": "NEW JERSEY"
+  },
+  "145": {
+    "archetype": "map-tag",
+    "text": "HAWAII",
+    "position": "center",
+    "enterAt": 0.8,
+    "reason": "stressed keyword",
+    "placement": "lower-center",
+    "entrance": "pop-scale",
+    "place": "HAWAII"
+  },
+  "146": {
+    "archetype": "map-tag",
+    "text": "TAMPA",
+    "position": "center",
+    "enterAt": 1.4,
+    "reason": "stressed keyword",
+    "placement": "upper-center",
+    "place": "TAMPA"
+  },
+  "147": {
+    "archetype": "none",
+    "enterAt": 1.4,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "148": {
+    "archetype": "none",
+    "enterAt": 1.4,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "149": {
+    "archetype": "none",
+    "enterAt": 1.24,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "150": {
+    "archetype": "none",
+    "enterAt": 1.4,
+    "reason": "hard fact in this line"
+  },
+  "151": {
+    "archetype": "center-statement",
+    "text": "NARROWER AND WORSE",
+    "position": "center",
+    "enterAt": 0.94,
+    "reason": "stressed keyword",
+    "placement": "upper-right",
+    "line": "NARROWER AND WORSE"
+  },
+  "152": {
+    "archetype": "none",
+    "enterAt": 1.19,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "153": {
+    "archetype": "none",
+    "enterAt": 1.4,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "154": {
+    "archetype": "none",
+    "enterAt": 0.8,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "155": {
+    "archetype": "none",
+    "enterAt": 0.8,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "156": {
+    "archetype": "none",
+    "enterAt": 1.4,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "157": {
+    "archetype": "none",
+    "enterAt": 1.4,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "158": {
+    "archetype": "center-statement",
+    "text": "NOT THE TOP",
+    "position": "center",
+    "enterAt": 0.8,
+    "reason": "stressed keyword",
+    "placement": "upper-left",
+    "line": "NOT THE TOP"
+  },
+  "159": {
+    "archetype": "center-statement",
+    "text": "THE BOTTOM LAYER",
+    "position": "center",
+    "enterAt": 0.8,
+    "reason": "stressed keyword",
+    "placement": "lower-left",
+    "entrance": "pop-scale",
+    "line": "THE BOTTOM LAYER"
+  },
+  "160": {
+    "archetype": "none",
+    "enterAt": 1.3,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "161": {
+    "archetype": "none",
+    "enterAt": 1.23,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "162": {
+    "archetype": "none",
+    "enterAt": 1.4,
+    "reason": "hard fact in this line"
+  },
+  "163": {
+    "archetype": "none",
+    "enterAt": 1.4,
+    "reason": "hard fact in this line"
+  },
+  "164": {
+    "archetype": "none",
+    "enterAt": 1.4,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "165": {
+    "archetype": "none",
+    "enterAt": 1.4,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "166": {
+    "archetype": "none",
+    "enterAt": 1.4,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "167": {
+    "archetype": "center-statement",
+    "text": "NO WAY BACK",
+    "position": "center",
+    "enterAt": 0.8,
+    "reason": "stressed keyword",
+    "placement": "lower-right",
+    "line": "NO WAY BACK"
+  },
+  "168": {
+    "archetype": "none",
+    "enterAt": 1.4,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "169": {
+    "archetype": "none",
+    "enterAt": 1.12,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "170": {
+    "archetype": "none",
+    "enterAt": 1.4,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "171": {
+    "archetype": "none",
+    "enterAt": 0.87,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "172": {
+    "archetype": "none",
+    "enterAt": 1.4,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "01": {
+    "archetype": "none",
+    "enterAt": 1.4,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "02": {
+    "archetype": "none",
+    "enterAt": 1.4,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "03": {
+    "archetype": "none",
+    "enterAt": 1.29,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "04": {
+    "archetype": "none",
+    "enterAt": 0.8,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "05": {
+    "archetype": "keyword-flash",
+    "text": "THE ENGINE",
+    "position": "center",
+    "enterAt": 1.4,
+    "reason": "stressed keyword",
+    "placement": "middle-center",
+    "entrance": "pop-scale"
+  },
+  "06": {
+    "archetype": "none",
+    "enterAt": 0.8,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "07": {
+    "archetype": "none",
+    "enterAt": 1.4,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "08": {
+    "archetype": "none",
+    "enterAt": 0.8,
+    "reason": "prose \u2014 footage carries it"
+  },
+  "09": {
+    "archetype": "none",
+    "enterAt": 1.08,
+    "reason": "prose \u2014 footage carries it"
+  }
 }

@@ -1,0 +1,419 @@
+{
+  "bgm": null,
+  "voices": [
+    {
+      "frame": 1,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 710.35,
+      "duration_s": 2.65,
+      "words": [
+        {
+          "text": "and",
+          "start": 0,
+          "end": 0.01
+        },
+        {
+          "text": "no",
+          "start": 0.13,
+          "end": 0.19
+        },
+        {
+          "text": "technology",
+          "start": 0.19,
+          "end": 0.92
+        },
+        {
+          "text": "that",
+          "start": 0.92,
+          "end": 1.19
+        },
+        {
+          "text": "would",
+          "start": 1.19,
+          "end": 1.27
+        },
+        {
+          "text": "bring",
+          "start": 1.62,
+          "end": 1.93
+        },
+        {
+          "text": "it",
+          "start": 1.93,
+          "end": 2.1
+        },
+        {
+          "text": "back.",
+          "start": 2.1,
+          "end": 2.43
+        }
+      ]
+    },
+    {
+      "frame": 2,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 713,
+      "duration_s": 5.01,
+      "words": [
+        {
+          "text": "If",
+          "start": 0,
+          "end": 0.06
+        },
+        {
+          "text": "you",
+          "start": 0.14,
+          "end": 0.22
+        },
+        {
+          "text": "want",
+          "start": 0.22,
+          "end": 0.3
+        },
+        {
+          "text": "to",
+          "start": 0.43,
+          "end": 0.53
+        },
+        {
+          "text": "understand",
+          "start": 0.53,
+          "end": 1.07
+        },
+        {
+          "text": "how",
+          "start": 1.07,
+          "end": 1.17
+        },
+        {
+          "text": "a",
+          "start": 1.17,
+          "end": 1.28
+        },
+        {
+          "text": "place",
+          "start": 1.28,
+          "end": 1.54
+        },
+        {
+          "text": "this",
+          "start": 1.57,
+          "end": 1.8
+        },
+        {
+          "text": "large",
+          "start": 1.8,
+          "end": 2.24
+        },
+        {
+          "text": "gets",
+          "start": 2.38,
+          "end": 2.53
+        },
+        {
+          "text": "hollowed",
+          "start": 2.53,
+          "end": 3.03
+        },
+        {
+          "text": "out",
+          "start": 3.03,
+          "end": 3.22
+        },
+        {
+          "text": "while",
+          "start": 3.22,
+          "end": 3.49
+        },
+        {
+          "text": "everyone",
+          "start": 3.85,
+          "end": 4.05
+        },
+        {
+          "text": "is",
+          "start": 4.05,
+          "end": 4.16
+        },
+        {
+          "text": "watching,",
+          "start": 4.33,
+          "end": 4.81
+        }
+      ]
+    },
+    {
+      "frame": 3,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 718.01,
+      "duration_s": 3.74,
+      "words": [
+        {
+          "text": "there's",
+          "start": 0,
+          "end": 0.17
+        },
+        {
+          "text": "a",
+          "start": 0.17,
+          "end": 0.3
+        },
+        {
+          "text": "second",
+          "start": 0.3,
+          "end": 0.59
+        },
+        {
+          "text": "story",
+          "start": 0.82,
+          "end": 1
+        },
+        {
+          "text": "that",
+          "start": 1,
+          "end": 1.25
+        },
+        {
+          "text": "runs",
+          "start": 1.25,
+          "end": 1.5
+        },
+        {
+          "text": "directly",
+          "start": 1.66,
+          "end": 2.11
+        },
+        {
+          "text": "parallel",
+          "start": 2.23,
+          "end": 2.72
+        },
+        {
+          "text": "to",
+          "start": 2.8,
+          "end": 2.94
+        },
+        {
+          "text": "this",
+          "start": 2.94,
+          "end": 3.15
+        },
+        {
+          "text": "one.",
+          "start": 3.23,
+          "end": 3.74
+        }
+      ]
+    },
+    {
+      "frame": 4,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 721.75,
+      "duration_s": 4.8,
+      "words": [
+        {
+          "text": "A",
+          "start": 0,
+          "end": 0.08
+        },
+        {
+          "text": "barrier",
+          "start": 0.08,
+          "end": 0.54
+        },
+        {
+          "text": "that",
+          "start": 0.54,
+          "end": 0.76
+        },
+        {
+          "text": "cost",
+          "start": 1.12,
+          "end": 1.29
+        },
+        {
+          "text": "over",
+          "start": 1.29,
+          "end": 1.49
+        },
+        {
+          "text": "a",
+          "start": 1.55,
+          "end": 1.69
+        },
+        {
+          "text": "billion",
+          "start": 1.69,
+          "end": 2.25
+        },
+        {
+          "text": "dollars,",
+          "start": 2.27,
+          "end": 3.05
+        },
+        {
+          "text": "built",
+          "start": 3.05,
+          "end": 3.22
+        },
+        {
+          "text": "to",
+          "start": 3.38,
+          "end": 3.4
+        },
+        {
+          "text": "stop",
+          "start": 3.4,
+          "end": 3.55
+        },
+        {
+          "text": "a",
+          "start": 3.55,
+          "end": 3.64
+        },
+        {
+          "text": "different",
+          "start": 3.64,
+          "end": 4.02
+        },
+        {
+          "text": "invasion,",
+          "start": 4.23,
+          "end": 4.72
+        }
+      ]
+    },
+    {
+      "frame": 5,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 726.55,
+      "duration_s": 2.89,
+      "words": [
+        {
+          "text": "and",
+          "start": 0,
+          "end": 0.17
+        },
+        {
+          "text": "the",
+          "start": 0.17,
+          "end": 0.32
+        },
+        {
+          "text": "reason",
+          "start": 0.35,
+          "end": 0.56
+        },
+        {
+          "text": "it",
+          "start": 0.56,
+          "end": 0.9
+        },
+        {
+          "text": "stopped",
+          "start": 0.9,
+          "end": 1.21
+        },
+        {
+          "text": "being",
+          "start": 1.38,
+          "end": 1.65
+        },
+        {
+          "text": "built",
+          "start": 1.65,
+          "end": 1.98
+        },
+        {
+          "text": "this",
+          "start": 2.06,
+          "end": 2.23
+        },
+        {
+          "text": "summer.",
+          "start": 2.24,
+          "end": 2.89
+        }
+      ]
+    },
+    {
+      "frame": 6,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 729.44,
+      "duration_s": 4.84,
+      "words": [
+        {
+          "text": "It's",
+          "start": 0,
+          "end": 0.21
+        },
+        {
+          "text": "on",
+          "start": 0.3,
+          "end": 0.45
+        },
+        {
+          "text": "screen",
+          "start": 0.45,
+          "end": 0.9
+        },
+        {
+          "text": "now.",
+          "start": 0.94,
+          "end": 1.27
+        },
+        {
+          "text": "Subscribe,",
+          "start": 1.39,
+          "end": 2.4
+        },
+        {
+          "text": "and",
+          "start": 2.48,
+          "end": 2.54
+        },
+        {
+          "text": "I'll",
+          "start": 2.54,
+          "end": 2.72
+        },
+        {
+          "text": "keep",
+          "start": 2.72,
+          "end": 2.91
+        },
+        {
+          "text": "going",
+          "start": 2.91,
+          "end": 3.15
+        },
+        {
+          "text": "through",
+          "start": 3.15,
+          "end": 3.42
+        },
+        {
+          "text": "the",
+          "start": 3.5,
+          "end": 3.63
+        },
+        {
+          "text": "ones",
+          "start": 3.63,
+          "end": 3.64
+        },
+        {
+          "text": "nobody's",
+          "start": 3.97,
+          "end": 4.2
+        },
+        {
+          "text": "covering.",
+          "start": 4.2,
+          "end": 4.64
+        }
+      ]
+    }
+  ],
+  "sfx": []
+}

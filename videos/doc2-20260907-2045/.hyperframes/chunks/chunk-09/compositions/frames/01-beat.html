@@ -98,21 +98,27 @@
     .broll-vignette {
       position: absolute;
       inset: 0;
-      background: radial-gradient(ellipse at center, rgba(0,0,0,0) 45%, rgba(0,0,0,0.542) 100%);
+      background: radial-gradient(ellipse at center, rgba(0,0,0,0) 45%, rgba(0,0,0,0) 100%);
       pointer-events: none;
     }
+
+    .ov-kf { position: absolute; left: 50%; display: flex; gap: 0.32em; font: 800 1em/1.1 "Inter", "Montserrat", -apple-system, sans-serif; font-size: 118px; text-transform: capitalize; opacity: 0; white-space: nowrap; }
+    .ov-kf-center { top: 50%; transform: translate(-50%, -50%); }
+    .ov-kf-lower-center { bottom: 150px; transform: translateX(-50%); }
+    .ov-kf-w { background: #111111; color: #ffffff; padding: 0.28em 0.6em; border-radius: 6px; }
+    .ov-kf-acc { color: #ffd23f; }
   </style>
 
   <div
     id="root"
     data-composition-id="01-beat"
-    data-width="1920" data-height="1080" data-duration="8.1"
+    data-width="1920" data-height="1080" data-duration="1.92"
   >
     <div class="broll-wrap" id="f-01-beat-wrap">
-      <video id="f-01-beat-media" class="broll-media clip broll-g-cool" src=".media/broll/beat-92.mp4" muted playsinline data-start="0" data-duration="8.10" data-media-start="0" data-track-index="0"></video>
+      <video id="f-01-beat-media" class="broll-media clip" src=".media/broll/beat-93.mp4" muted playsinline data-start="0" data-duration="1.92" data-media-start="0" data-track-index="0"></video>
     </div>
-    <div class="broll-scrim clip" id="f-01-beat-scrim" data-start="0" data-duration="8.10" data-track-index="1"></div>
-    <div class="broll-vignette clip" id="f-01-beat-vignette" data-start="0" data-duration="8.10" data-track-index="3"></div>
+    <div class="broll-scrim clip" id="f-01-beat-scrim" data-start="0" data-duration="1.92" data-track-index="1"></div>
+    <div class="ov-kf ov-kf-center" id="f-01-beat-ov"><span class="ov-kf-w" id="f-01-beat-ov-w0">THE</span> <span class="ov-kf-w ov-kf-acc" id="f-01-beat-ov-w1">PROBLEM</span></div>
   </div>
 
   <script>
@@ -121,6 +127,9 @@
       var tl = gsap.timeline({ paused: true });
       var wrap = document.getElementById("f-01-beat-wrap");
       gsap.set(wrap, { scale: 1.0 });
+      tl.set("#f-01-beat-ov", { opacity: 1 }, 0.80);
+      tl.fromTo("#f-01-beat-ov-w0", { opacity: 0 }, { opacity: 1, duration: 0.22, ease: "power2.out" }, 0.80);
+      tl.fromTo("#f-01-beat-ov-w1", { opacity: 0 }, { opacity: 1, duration: 0.22, ease: "power2.out" }, 0.87);
       window.__timelines["01-beat"] = tl;
     })();
   </script>

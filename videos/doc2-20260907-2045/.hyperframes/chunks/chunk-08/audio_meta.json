@@ -4,940 +4,793 @@
     {
       "frame": 1,
       "path": "assets/audio/narration.mp3",
-      "mediaStart": 518.85,
-      "duration_s": 8.38,
+      "mediaStart": 343.71,
+      "duration_s": 4.69,
       "words": [
         {
-          "text": "That",
+          "text": "is",
           "start": 0,
-          "end": 0.06
-        },
-        {
-          "text": "leaver",
-          "start": 0.4,
-          "end": 0.71
-        },
-        {
-          "text": "does",
-          "start": 0.88,
-          "end": 0.99
+          "end": 0.11
         },
         {
           "text": "not",
-          "start": 1.02,
-          "end": 1.18
-        },
-        {
-          "text": "work",
-          "start": 1.43,
-          "end": 1.49
-        },
-        {
-          "text": "here.",
-          "start": 1.57,
-          "end": 2.01
-        },
-        {
-          "text": "This",
-          "start": 2.01,
-          "end": 2.16
-        },
-        {
-          "text": "animal",
-          "start": 2.38,
-          "end": 2.43
-        },
-        {
-          "text": "breathes",
-          "start": 2.43,
-          "end": 3.06
-        },
-        {
-          "text": "air,",
-          "start": 3.22,
-          "end": 3.47
-        },
-        {
-          "text": "survives",
-          "start": 3.47,
-          "end": 3.97
-        },
-        {
-          "text": "dry",
-          "start": 4.09,
-          "end": 4.23
-        },
-        {
-          "text": "down",
-          "start": 4.38,
-          "end": 4.46
-        },
-        {
-          "text": "in",
-          "start": 4.78,
-          "end": 4.87
+          "start": 0.11,
+          "end": 0.3
         },
         {
           "text": "a",
-          "start": 4.94,
-          "end": 4.95
+          "start": 0.3,
+          "end": 0.33
         },
         {
-          "text": "burrow,",
-          "start": 4.98,
-          "end": 5.59
+          "text": "refuge,",
+          "start": 0.68,
+          "end": 0.85
         },
         {
-          "text": "and",
-          "start": 5.59,
-          "end": 5.83
+          "text": "it's",
+          "start": 0.96,
+          "end": 1.24
         },
         {
-          "text": "walks",
-          "start": 5.83,
-          "end": 6.09
+          "text": "just",
+          "start": 1.24,
+          "end": 1.52
         },
         {
-          "text": "overland",
-          "start": 6.44,
-          "end": 6.75
+          "text": "the",
+          "start": 1.52,
+          "end": 1.72
         },
         {
-          "text": "when",
-          "start": 6.92,
-          "end": 7.22
+          "text": "part",
+          "start": 1.83,
+          "end": 2.01
         },
         {
-          "text": "it",
-          "start": 7.22,
-          "end": 7.25
+          "text": "the",
+          "start": 2.01,
+          "end": 2.2
         },
         {
-          "text": "needs",
-          "start": 7.6,
-          "end": 7.77
+          "text": "eels",
+          "start": 2.29,
+          "end": 2.5
         },
         {
-          "text": "to.",
-          "start": 7.9,
-          "end": 8.19
+          "text": "haven't",
+          "start": 2.5,
+          "end": 3.09
+        },
+        {
+          "text": "finished",
+          "start": 3.19,
+          "end": 3.68
+        },
+        {
+          "text": "reaching.",
+          "start": 3.76,
+          "end": 4.69
         }
       ]
     },
     {
       "frame": 2,
       "path": "assets/audio/narration.mp3",
-      "mediaStart": 527.23,
-      "duration_s": 4.72,
+      "mediaStart": 348.4,
+      "duration_s": 6.57,
       "words": [
         {
-          "text": "Poison.",
+          "text": "Twenty",
           "start": 0,
-          "end": 0.48
+          "end": 0.28
         },
         {
-          "text": "Rotanone",
-          "start": 0.56,
-          "end": 1.08
+          "text": "years",
+          "start": 0.45,
+          "end": 0.75
         },
         {
-          "text": "and",
-          "start": 1.08,
-          "end": 1.13
+          "text": "ago,",
+          "start": 0.75,
+          "end": 1.06
         },
         {
-          "text": "similar",
-          "start": 1.46,
-          "end": 1.77
+          "text": "surveys",
+          "start": 1.13,
+          "end": 1.5
         },
         {
-          "text": "treatments",
-          "start": 1.77,
-          "end": 2.24
+          "text": "inside",
+          "start": 1.57,
+          "end": 1.97
         },
         {
-          "text": "kill",
-          "start": 2.62,
-          "end": 2.76
+          "text": "Everglades",
+          "start": 1.97,
+          "end": 2.63
         },
         {
-          "text": "fish",
-          "start": 2.76,
-          "end": 2.98
+          "text": "National",
+          "start": 2.79,
+          "end": 3.15
         },
         {
-          "text": "in",
-          "start": 3.05,
-          "end": 3.21
+          "text": "Park",
+          "start": 3.15,
+          "end": 3.24
         },
         {
-          "text": "a",
-          "start": 3.21,
-          "end": 3.44
+          "text": "found",
+          "start": 3.39,
+          "end": 3.56
         },
         {
-          "text": "treated",
-          "start": 3.44,
-          "end": 3.84
+          "text": "the",
+          "start": 3.65,
+          "end": 3.8
         },
         {
-          "text": "water",
-          "start": 3.84,
-          "end": 4.12
+          "text": "southern",
+          "start": 3.94,
+          "end": 4.36
         },
         {
-          "text": "body.",
-          "start": 4.28,
-          "end": 4.72
+          "text": "leopard",
+          "start": 4.36,
+          "end": 4.8
+        },
+        {
+          "text": "frog",
+          "start": 4.81,
+          "end": 5.06
+        },
+        {
+          "text": "to",
+          "start": 5.06,
+          "end": 5.08
+        },
+        {
+          "text": "be",
+          "start": 5.08,
+          "end": 5.41
+        },
+        {
+          "text": "one",
+          "start": 5.41,
+          "end": 5.53
+        },
+        {
+          "text": "of",
+          "start": 5.53,
+          "end": 5.66
+        },
+        {
+          "text": "the",
+          "start": 5.66,
+          "end": 5.72
+        },
+        {
+          "text": "most",
+          "start": 5.89,
+          "end": 6.11
+        },
+        {
+          "text": "common",
+          "start": 6.11,
+          "end": 6.5
         }
       ]
     },
     {
       "frame": 3,
       "path": "assets/audio/narration.mp3",
-      "mediaStart": 531.95,
-      "duration_s": 7.41,
+      "mediaStart": 354.97,
+      "duration_s": 2.57,
       "words": [
         {
-          "text": "In",
+          "text": "amphibians",
           "start": 0,
-          "end": 0.16
-        },
-        {
-          "text": "a",
-          "start": 0.16,
-          "end": 0.23
-        },
-        {
-          "text": "connected",
-          "start": 0.23,
-          "end": 0.55
-        },
-        {
-          "text": "sheet-flow",
-          "start": 1.03,
-          "end": 1.52
-        },
-        {
-          "text": "wetland",
-          "start": 1.6,
-          "end": 1.92
-        },
-        {
-          "text": "running",
-          "start": 1.99,
-          "end": 2.16
-        },
-        {
-          "text": "through",
-          "start": 2.5,
-          "end": 2.81
-        },
-        {
-          "text": "a",
-          "start": 2.81,
-          "end": 2.98
-        },
-        {
-          "text": "national",
-          "start": 2.98,
-          "end": 3.28
-        },
-        {
-          "text": "park,",
-          "start": 3.66,
-          "end": 3.79
-        },
-        {
-          "text": "you",
-          "start": 3.79,
-          "end": 3.97
-        },
-        {
-          "text": "cannot",
-          "start": 3.97,
-          "end": 4.25
-        },
-        {
-          "text": "dose",
-          "start": 4.48,
-          "end": 4.59
-        },
-        {
-          "text": "the",
-          "start": 4.59,
-          "end": 4.7
-        },
-        {
-          "text": "water",
-          "start": 4.79,
-          "end": 5.07
-        },
-        {
-          "text": "without",
-          "start": 5.32,
-          "end": 5.52
-        },
-        {
-          "text": "killing",
-          "start": 5.52,
-          "end": 6.03
-        },
-        {
-          "text": "everything",
-          "start": 6.13,
-          "end": 6.62
-        },
-        {
-          "text": "native",
-          "start": 6.7,
-          "end": 7.02
+          "end": 0.57
         },
         {
           "text": "in",
-          "start": 7.05,
-          "end": 7.17
+          "start": 0.57,
+          "end": 0.61
         },
         {
-          "text": "it,",
-          "start": 7.17,
-          "end": 7.41
+          "text": "the",
+          "start": 0.82,
+          "end": 0.9
+        },
+        {
+          "text": "system.",
+          "start": 0.9,
+          "end": 1.47
+        },
+        {
+          "text": "Ordinary.",
+          "start": 1.48,
+          "end": 2.42
         }
       ]
     },
     {
       "frame": 4,
       "path": "assets/audio/narration.mp3",
-      "mediaStart": 539.36,
-      "duration_s": 5.28,
+      "mediaStart": 357.54,
+      "duration_s": 5.91,
       "words": [
         {
-          "text": "and",
+          "text": "Everywhere.",
           "start": 0,
-          "end": 0.19
+          "end": 0.62
         },
         {
-          "text": "the",
-          "start": 0.19,
-          "end": 0.38
-        },
-        {
-          "text": "eels",
-          "start": 0.38,
-          "end": 0.5
-        },
-        {
-          "text": "can",
-          "start": 0.67,
+          "text": "The",
+          "start": 0.62,
           "end": 0.79
         },
         {
-          "text": "breathe",
-          "start": 0.81,
-          "end": 1.27
-        },
-        {
-          "text": "air",
-          "start": 1.36,
-          "end": 1.46
-        },
-        {
-          "text": "at",
-          "start": 1.46,
-          "end": 1.52
-        },
-        {
-          "text": "the",
-          "start": 1.65,
-          "end": 1.74
-        },
-        {
-          "text": "surface",
-          "start": 1.79,
-          "end": 2.22
-        },
-        {
-          "text": "and",
-          "start": 2.22,
-          "end": 2.39
-        },
-        {
-          "text": "travel",
-          "start": 2.48,
-          "end": 2.75
-        },
-        {
-          "text": "out",
-          "start": 2.81,
-          "end": 3.08
+          "text": "kind",
+          "start": 0.79,
+          "end": 0.92
         },
         {
           "text": "of",
-          "start": 3.17,
-          "end": 3.27
+          "start": 1.01,
+          "end": 1.12
         },
         {
-          "text": "the",
-          "start": 3.32,
-          "end": 3.59
+          "text": "animal",
+          "start": 1.12,
+          "end": 1.47
         },
         {
-          "text": "treatment",
-          "start": 3.59,
-          "end": 4.07
+          "text": "you",
+          "start": 1.47,
+          "end": 1.63
         },
         {
-          "text": "zone.",
-          "start": 4.65,
-          "end": 5.23
+          "text": "don't",
+          "start": 1.63,
+          "end": 1.91
+        },
+        {
+          "text": "bother",
+          "start": 1.95,
+          "end": 2.25
+        },
+        {
+          "text": "recording",
+          "start": 2.63,
+          "end": 2.76
+        },
+        {
+          "text": "carefully,",
+          "start": 2.76,
+          "end": 3.38
+        },
+        {
+          "text": "because",
+          "start": 3.45,
+          "end": 3.76
+        },
+        {
+          "text": "there",
+          "start": 3.77,
+          "end": 4.1
+        },
+        {
+          "text": "will",
+          "start": 4.29,
+          "end": 4.34
+        },
+        {
+          "text": "always",
+          "start": 4.45,
+          "end": 4.78
+        },
+        {
+          "text": "be",
+          "start": 4.78,
+          "end": 4.91
+        },
+        {
+          "text": "more",
+          "start": 4.91,
+          "end": 5.21
+        },
+        {
+          "text": "of",
+          "start": 5.21,
+          "end": 5.33
+        },
+        {
+          "text": "them.",
+          "start": 5.36,
+          "end": 5.85
         }
       ]
     },
     {
       "frame": 5,
       "path": "assets/audio/narration.mp3",
-      "mediaStart": 544.64,
-      "duration_s": 5.18,
+      "mediaStart": 363.45,
+      "duration_s": 4.53,
       "words": [
         {
-          "text": "Biological",
+          "text": "Howell's",
           "start": 0,
-          "end": 0.61
+          "end": 0.52
         },
         {
-          "text": "control.",
-          "start": 0.61,
-          "end": 1.14
+          "text": "team",
+          "start": 0.52,
+          "end": 0.78
         },
         {
-          "text": "No",
-          "start": 1.35,
-          "end": 1.36
+          "text": "did",
+          "start": 0.78,
+          "end": 0.81
         },
         {
-          "text": "natural",
-          "start": 1.36,
-          "end": 1.8
+          "text": "not",
+          "start": 1.17,
+          "end": 1.25
         },
         {
-          "text": "enemy",
-          "start": 1.8,
-          "end": 2.03
+          "text": "detect",
+          "start": 1.25,
+          "end": 1.53
         },
         {
-          "text": "is",
-          "start": 2.19,
-          "end": 2.23
+          "text": "a",
+          "start": 1.53,
+          "end": 1.76
         },
         {
-          "text": "available",
-          "start": 2.23,
-          "end": 2.84
+          "text": "single",
+          "start": 1.98,
+          "end": 2.2
         },
         {
-          "text": "that",
-          "start": 2.84,
-          "end": 2.95
+          "text": "one",
+          "start": 2.2,
+          "end": 2.46
         },
         {
-          "text": "would",
-          "start": 3.01,
-          "end": 3.18
+          "text": "inside",
+          "start": 2.47,
+          "end": 2.86
         },
         {
-          "text": "eat",
-          "start": 3.18,
-          "end": 3.2
+          "text": "Everglades",
+          "start": 2.86,
+          "end": 3.51
         },
         {
-          "text": "swamp",
-          "start": 3.43,
-          "end": 3.68
+          "text": "National",
+          "start": 3.61,
+          "end": 4.1
         },
         {
-          "text": "eels",
-          "start": 3.68,
-          "end": 3.91
-        },
-        {
-          "text": "and",
-          "start": 3.99,
-          "end": 4.17
-        },
-        {
-          "text": "nothing",
-          "start": 4.17,
-          "end": 4.53
-        },
-        {
-          "text": "else.",
-          "start": 4.89,
-          "end": 5.18
+          "text": "Park,",
+          "start": 4.1,
+          "end": 4.5
         }
       ]
     },
     {
       "frame": 6,
       "path": "assets/audio/narration.mp3",
-      "mediaStart": 549.82,
-      "duration_s": 4.79,
+      "mediaStart": 367.98,
+      "duration_s": 5.52,
       "words": [
         {
-          "text": "Wading",
+          "text": "from",
           "start": 0,
-          "end": 0.42
+          "end": 0.21
         },
         {
-          "text": "birds",
-          "start": 0.42,
-          "end": 0.79
+          "text": "the",
+          "start": 0.21,
+          "end": 0.55
         },
         {
-          "text": "take",
-          "start": 0.87,
-          "end": 1.04
+          "text": "most",
+          "start": 0.55,
+          "end": 0.8
         },
         {
-          "text": "them",
-          "start": 1.17,
-          "end": 1.37
+          "text": "common",
+          "start": 0.8,
+          "end": 1.21
         },
         {
-          "text": "opportunistically,",
-          "start": 1.37,
-          "end": 2.74
+          "text": "species",
+          "start": 1.23,
+          "end": 1.76
         },
         {
-          "text": "and",
-          "start": 2.74,
-          "end": 2.95
+          "text": "in",
+          "start": 1.76,
+          "end": 1.88
         },
         {
-          "text": "it",
-          "start": 2.95,
-          "end": 2.98
+          "text": "the",
+          "start": 2.01,
+          "end": 2.08
         },
         {
-          "text": "isn't",
-          "start": 3.13,
-          "end": 3.52
-        },
-        {
-          "text": "close",
-          "start": 3.65,
-          "end": 3.9
+          "text": "park",
+          "start": 2.08,
+          "end": 2.3
         },
         {
           "text": "to",
-          "start": 3.9,
-          "end": 4.04
+          "start": 2.53,
+          "end": 2.55
         },
         {
-          "text": "enough.",
-          "start": 4.04,
-          "end": 4.69
+          "text": "functionally",
+          "start": 2.55,
+          "end": 3.44
+        },
+        {
+          "text": "absent",
+          "start": 3.44,
+          "end": 3.81
+        },
+        {
+          "text": "in",
+          "start": 3.97,
+          "end": 4.02
+        },
+        {
+          "text": "about",
+          "start": 4.02,
+          "end": 4.36
+        },
+        {
+          "text": "twenty",
+          "start": 4.61,
+          "end": 4.94
+        },
+        {
+          "text": "years.",
+          "start": 4.94,
+          "end": 5.49
         }
       ]
     },
     {
       "frame": 7,
       "path": "assets/audio/narration.mp3",
-      "mediaStart": 554.61,
-      "duration_s": 7.55,
+      "mediaStart": 373.5,
+      "duration_s": 4.3,
       "words": [
         {
-          "text": "Barriers.",
+          "text": "And",
           "start": 0,
-          "end": 0.64
+          "end": 0.21
         },
         {
-          "text": "The",
-          "start": 0.64,
-          "end": 0.84
+          "text": "it",
+          "start": 0.21,
+          "end": 0.22
         },
         {
-          "text": "canal",
-          "start": 0.84,
-          "end": 1.12
+          "text": "happened",
+          "start": 0.55,
+          "end": 0.86
         },
         {
-          "text": "network",
-          "start": 1.48,
-          "end": 1.64
+          "text": "without",
+          "start": 1.03,
+          "end": 1.33
         },
         {
-          "text": "that",
-          "start": 1.64,
-          "end": 1.79
+          "text": "a",
+          "start": 1.33,
+          "end": 1.71
         },
         {
-          "text": "spread",
-          "start": 1.96,
+          "text": "headline,",
+          "start": 1.71,
           "end": 2.26
         },
         {
-          "text": "them",
-          "start": 2.51,
-          "end": 2.56
+          "text": "because",
+          "start": 2.26,
+          "end": 2.75
         },
         {
-          "text": "is",
-          "start": 2.65,
-          "end": 2.69
+          "text": "nobody",
+          "start": 2.84,
+          "end": 3.2
         },
         {
-          "text": "public",
-          "start": 2.69,
-          "end": 3.01
+          "text": "counts",
+          "start": 3.37,
+          "end": 3.64
         },
         {
-          "text": "infrastructure,",
-          "start": 3.08,
-          "end": 4.16
-        },
-        {
-          "text": "hundreds",
-          "start": 4.3,
-          "end": 4.69
-        },
-        {
-          "text": "of",
-          "start": 4.69,
-          "end": 4.75
-        },
-        {
-          "text": "miles",
-          "start": 4.9,
-          "end": 5.23
-        },
-        {
-          "text": "of",
-          "start": 5.31,
-          "end": 5.39
-        },
-        {
-          "text": "it,",
-          "start": 5.39,
-          "end": 5.71
-        },
-        {
-          "text": "built",
-          "start": 5.71,
-          "end": 6.11
-        },
-        {
-          "text": "for",
-          "start": 6.11,
-          "end": 6.25
-        },
-        {
-          "text": "flood",
-          "start": 6.36,
-          "end": 6.45
-        },
-        {
-          "text": "control.",
-          "start": 6.8,
-          "end": 7.55
+          "text": "frogs.",
+          "start": 3.72,
+          "end": 4.3
         }
       ]
     },
     {
       "frame": 8,
       "path": "assets/audio/narration.mp3",
-      "mediaStart": 562.16,
-      "duration_s": 7.01,
+      "mediaStart": 377.8,
+      "duration_s": 5.38,
       "words": [
         {
-          "text": "You",
+          "text": "The",
           "start": 0,
-          "end": 0.06
+          "end": 0.08
         },
         {
-          "text": "cannot",
-          "start": 0.41,
-          "end": 0.72
+          "text": "species",
+          "start": 0.16,
+          "end": 0.43
         },
         {
-          "text": "wall",
-          "start": 0.72,
-          "end": 1
+          "text": "that",
+          "start": 0.63,
+          "end": 0.64
         },
         {
-          "text": "it",
-          "start": 1,
-          "end": 1.23
+          "text": "are",
+          "start": 0.74,
+          "end": 0.83
         },
         {
-          "text": "off.",
-          "start": 1.23,
-          "end": 1.71
+          "text": "hanging",
+          "start": 0.88,
+          "end": 1.37
         },
         {
-          "text": "Howell's",
-          "start": 1.72,
-          "end": 2.1
-        },
-        {
-          "text": "own",
-          "start": 2.1,
-          "end": 2.24
-        },
-        {
-          "text": "summary",
-          "start": 2.24,
-          "end": 2.51
-        },
-        {
-          "text": "of",
-          "start": 2.51,
-          "end": 2.67
-        },
-        {
-          "text": "the",
-          "start": 2.67,
-          "end": 2.84
-        },
-        {
-          "text": "situation",
-          "start": 2.94,
-          "end": 3.6
-        },
-        {
-          "text": "is",
-          "start": 3.6,
-          "end": 3.77
-        },
-        {
-          "text": "about",
-          "start": 3.77,
-          "end": 4.05
-        },
-        {
-          "text": "as",
-          "start": 4.05,
-          "end": 4.41
-        },
-        {
-          "text": "blunt",
-          "start": 4.41,
-          "end": 4.72
-        },
-        {
-          "text": "as",
-          "start": 4.89,
-          "end": 4.95
-        },
-        {
-          "text": "a",
-          "start": 4.95,
-          "end": 5
-        },
-        {
-          "text": "scientist",
-          "start": 5.04,
-          "end": 5.74
-        },
-        {
-          "text": "gets",
-          "start": 5.87,
-          "end": 6.12
+          "text": "on",
+          "start": 1.37,
+          "end": 1.51
         },
         {
           "text": "in",
-          "start": 6.12,
-          "end": 6.17
+          "start": 1.51,
+          "end": 1.63
         },
         {
-          "text": "print.",
-          "start": 6.39,
-          "end": 6.99
+          "text": "the",
+          "start": 1.66,
+          "end": 1.86
+        },
+        {
+          "text": "eel-occupied",
+          "start": 1.86,
+          "end": 2.73
+        },
+        {
+          "text": "zones",
+          "start": 2.73,
+          "end": 2.99
+        },
+        {
+          "text": "are",
+          "start": 3.24,
+          "end": 3.3
+        },
+        {
+          "text": "the",
+          "start": 3.38,
+          "end": 3.53
+        },
+        {
+          "text": "ones",
+          "start": 3.53,
+          "end": 3.74
+        },
+        {
+          "text": "with",
+          "start": 3.8,
+          "end": 3.97
+        },
+        {
+          "text": "an",
+          "start": 4.19,
+          "end": 4.25
+        },
+        {
+          "text": "escape",
+          "start": 4.25,
+          "end": 4.68
+        },
+        {
+          "text": "route.",
+          "start": 4.69,
+          "end": 5.3
         }
       ]
     },
     {
       "frame": 9,
       "path": "assets/audio/narration.mp3",
-      "mediaStart": 569.17,
-      "duration_s": 4.51,
+      "mediaStart": 383.18,
+      "duration_s": 2.25,
       "words": [
         {
-          "text": "Controlling",
+          "text": "The",
           "start": 0,
-          "end": 0.49
+          "end": 0.09
         },
         {
-          "text": "an",
-          "start": 0.57,
-          "end": 0.6
+          "text": "tree",
+          "start": 0.25,
+          "end": 0.42
         },
         {
-          "text": "invasive",
-          "start": 0.6,
-          "end": 0.97
+          "text": "frogs,",
+          "start": 0.51,
+          "end": 1.02
         },
         {
-          "text": "species",
-          "start": 0.97,
-          "end": 1.21
+          "text": "up",
+          "start": 1.1,
+          "end": 1.18
         },
         {
           "text": "in",
-          "start": 1.41,
-          "end": 1.48
+          "start": 1.18,
+          "end": 1.34
         },
         {
-          "text": "a",
-          "start": 1.48,
-          "end": 1.52
+          "text": "the",
+          "start": 1.34,
+          "end": 1.58
         },
         {
-          "text": "system",
-          "start": 1.57,
-          "end": 2.02
-        },
-        {
-          "text": "like",
-          "start": 2.02,
-          "end": 2.32
-        },
-        {
-          "text": "this",
-          "start": 2.33,
-          "end": 2.55
-        },
-        {
-          "text": "is",
-          "start": 2.55,
-          "end": 2.9
-        },
-        {
-          "text": "basically",
-          "start": 2.9,
-          "end": 3.48
-        },
-        {
-          "text": "impossible.",
-          "start": 3.48,
-          "end": 4.51
+          "text": "canopy.",
+          "start": 1.58,
+          "end": 2.25
         }
       ]
     },
     {
       "frame": 10,
       "path": "assets/audio/narration.mp3",
-      "mediaStart": 573.68,
-      "duration_s": 8.02,
+      "mediaStart": 385.43,
+      "duration_s": 6.07,
       "words": [
         {
-          "text": "What",
+          "text": "And",
           "start": 0,
-          "end": 0.15
+          "end": 0.34
         },
         {
-          "text": "is",
-          "start": 0.37,
-          "end": 0.41
+          "text": "two",
+          "start": 0.34,
+          "end": 0.54
         },
         {
-          "text": "actually",
-          "start": 0.41,
-          "end": 0.91
+          "text": "large",
+          "start": 0.54,
+          "end": 0.92
         },
         {
-          "text": "happening",
-          "start": 0.91,
-          "end": 1.47
+          "text": "aquatic",
+          "start": 0.97,
+          "end": 1.52
         },
         {
-          "text": "is",
-          "start": 1.47,
-          "end": 1.59
+          "text": "salamanders,",
+          "start": 1.52,
+          "end": 2.54
         },
         {
-          "text": "surveillance.",
-          "start": 1.59,
-          "end": 2.56
+          "text": "the",
+          "start": 2.65,
+          "end": 2.8
         },
         {
-          "text": "In",
-          "start": 2.62,
-          "end": 2.68
+          "text": "greater",
+          "start": 2.82,
+          "end": 3.38
         },
         {
-          "text": "February",
-          "start": 2.68,
-          "end": 3.15
+          "text": "siren",
+          "start": 3.38,
+          "end": 3.79
         },
         {
-          "text": "of",
-          "start": 3.23,
-          "end": 3.3
+          "text": "and",
+          "start": 3.79,
+          "end": 3.93
         },
         {
-          "text": "this",
-          "start": 3.3,
-          "end": 3.55
+          "text": "the",
+          "start": 4.02,
+          "end": 4.17
         },
         {
-          "text": "year,",
-          "start": 3.55,
-          "end": 3.8
+          "text": "two-toed",
+          "start": 4.24,
+          "end": 4.91
         },
         {
-          "text": "a",
-          "start": 3.91,
-          "end": 3.96
+          "text": "amphiuma.",
+          "start": 4.91,
+          "end": 5.65
+        }
+      ]
+    },
+    {
+      "frame": 11,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 391.5,
+      "duration_s": 4.64,
+      "words": [
+        {
+          "text": "Both",
+          "start": 0,
+          "end": 0.21
         },
         {
-          "text": "University",
-          "start": 4.13,
-          "end": 4.44
+          "text": "are",
+          "start": 0.21,
+          "end": 0.44
         },
         {
-          "text": "of",
-          "start": 4.61,
-          "end": 4.72
+          "text": "big,",
+          "start": 0.44,
+          "end": 0.82
         },
         {
-          "text": "Florida",
-          "start": 4.72,
-          "end": 5.17
+          "text": "both",
+          "start": 0.82,
+          "end": 1.11
         },
         {
-          "text": "team",
-          "start": 5.29,
-          "end": 5.42
+          "text": "are",
+          "start": 1.11,
+          "end": 1.14
         },
         {
-          "text": "published",
-          "start": 5.42,
-          "end": 5.81
+          "text": "eel-shaped",
+          "start": 1.43,
+          "end": 2.05
         },
         {
-          "text": "a",
-          "start": 5.81,
-          "end": 6.11
+          "text": "themselves,",
+          "start": 2.11,
+          "end": 3.03
         },
         {
-          "text": "method",
-          "start": 6.11,
-          "end": 6.42
+          "text": "both",
+          "start": 3.03,
+          "end": 3.22
         },
         {
-          "text": "using",
-          "start": 6.43,
-          "end": 6.74
+          "text": "live",
+          "start": 3.45,
+          "end": 3.65
         },
         {
-          "text": "environmental",
-          "start": 6.95,
-          "end": 7.64
+          "text": "in",
+          "start": 3.65,
+          "end": 3.67
         },
         {
-          "text": "DNA,",
-          "start": 7.74,
-          "end": 8.02
+          "text": "the",
+          "start": 3.8,
+          "end": 4.03
+        },
+        {
+          "text": "mud.",
+          "start": 4.03,
+          "end": 4.56
         }
       ]
     }

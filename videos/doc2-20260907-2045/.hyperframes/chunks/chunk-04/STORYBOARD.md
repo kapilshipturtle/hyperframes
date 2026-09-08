@@ -1,107 +1,115 @@
-# STORYBOARD — chunk-04 (chunk 5/12 of a larger film, split for CI render-concurrency limits — see split-for-chunked-render.mjs header)
+# STORYBOARD — chunk-04 (chunk 5/17 of a larger film, split for CI render-concurrency limits — see split-for-chunked-render.mjs header)
 
-10 beats. Original beat range: 41-50. Narration slice: same original file, different offsets.
+10 beats. Original beat range: 42-51. Narration slice: same original file, different offsets.
 
 ## Frame 01
 
 - src: compositions/frames/01-beat.html
-- duration: 9.35s
-- status: built
+- duration: 6.35s
+- status: planned
 - transition_in: cut
-- look: grade desaturate, vignette 0.542, high-contrast
-- query: data charts on computer screen research
-- overlay: keyword-flash at upper-center, pop-scale entrance
-- narration: Several of them showed a real effect. If the study had stopped there, it would have produced a perfectly respectable paper concluding that Everglades amphibians are
+- look: grade cool, vignette 0.378
+- motion: in to 1.127 ease power1.in, focus 19,70
+- motion_reason: neutral line (detail=1 scale=1) — alternated against previous shot | anchored on "small fishing boat" at 19,70
+- overlay: keyword-flash "TAYLOR SLOUGH" at middle-center
+- query: everglades sawgrass aerial wide
+- narration: They knew abundance dropped as you move toward Taylor Slough but correlation in a system as complicated
 
 ## Frame 02
 
 - src: compositions/frames/02-beat.html
-- duration: 4.00s
-- status: built
+- duration: 6.53s
+- status: planned
 - transition_in: hard-cut 0s
-- look: grade bw
-- query: waterlogged grassland aerial view
-- narration: declining for the usual complicated mix of reasons.
+- look: vignette 0.378
+- punch: at 1.72s scale 1.35
+- query: vast wetland landscape aerial
+- narration: as the everglades is close to worthless on its own because there are a dozen plausible reasons for amphibians
 
 ## Frame 03
 
 - src: compositions/frames/03-beat.html
-- duration: 3.01s
-- status: built
+- duration: 2.84s
+- status: planned
 - transition_in: hard-cut 0s
-- look: grade desaturate
-- query: map with markers research planning
-- narration: Then they added one more variable to the model.
+- look: bw, vignette 0.378
+- query: drying wetland cracked mud
+- narration: to decline and most of them are true somewhere.
+
+<!-- SECTION: Every other explanation, tested -->
 
 ## Frame 04
 
 - src: compositions/frames/04-beat.html
-- duration: 8.33s
-- status: built
-- transition_in: hard-cut 0s
-- look: grade desaturate, vignette 0.542, high-contrast
-- query: burrow hole wet mud closeup
-- narration: Swamp eel presence. Everything else fell away. Once swamp eels were in the model, the other factors stopped explaining much of anything.
+- duration: 3.94s
+- status: planned
+- transition_in: light-leak-flash 0.5s
+- look: grade desaturate, vignette 0.378
+- motion: out to 1.1298 ease power1.out, focus 66,53
+- motion_reason: narration widens to scale/place/consequence (scale=1 detail=0) | anchored on "analytics pie chart" at 66,53
+- punch: at 1.88s scale 1.4
+- query: scientist analysing data laptop
+- narration: So they built a model and they put every serious candidate into it.
 
 ## Frame 05
 
 - src: compositions/frames/05-beat.html
-- duration: 7.39s
-- status: built
+- duration: 1.93s
+- status: planned
 - transition_in: hard-cut 0s
-- look: grade desaturate
-- query: eel swimming muddy water closeup
-- narration: Howell's summary of it was that none of the rest matters anymore once you account for the eels, and that it isn't even close.
+- look: grade cool, vignette 0.378
+- query: water level gauge wetland
+- narration: Water level change over time.
 
 ## Frame 06
 
 - src: compositions/frames/06-beat.html
-- duration: 5.05s
-- status: built
-- transition_in: zoom-through 0.86s
-- look: grade cool, vignette 0.542
-- query: cracked dry mud drought wetland
-- overlay: title-card at middle-center, fade entrance
-- narration: The eel effect was more than twice the size of any other single factor tested.
+- duration: 3.87s
+- status: planned
+- transition_in: crossfade 0.25s
+- look: grade desaturate, vignette 0.378
+- punch: at 1.79s scale 1.45
+- query: aerial canal florida wetland
+- narration: The Everglades hydrology has been re-engineered for a century.
 
 ## Frame 07
 
 - src: compositions/frames/07-beat.html
-- duration: 9.13s
-- status: built
+- duration: 5.98s
+- status: planned
 - transition_in: hard-cut 0s
-- look: grade desaturate, vignette 0.542, high-contrast
-- query: muddy shallow pool drying up
-- overlay: title-card at middle-left, fade entrance
-- narration: That's the finding. Not that swamp eels are one of several stresses, that they are the leading predictor of both how many amphibians a site holds and which
+- look: vignette 0.378
+- query: water control levee canal
+- narration: Canals, levees, pumps, and drainage have altered how long any given patch stays wet.
 
 ## Frame 08
 
 - src: compositions/frames/08-beat.html
-- duration: 5.26s
-- status: built
-- transition_in: hard-cut 0s
-- look: grade natural
-- query: slow river through wetland aerial
-- narration: species are in it, across four regions of the largest wetland in the United States.
+- duration: 2.29s
+- status: planned
+- transition_in: zoom-through 0.41s
+- look: grade desaturate, vignette 0.378
+- query: frog in shallow water
+- narration: Amphibians are sensitive to that.
 
 ## Frame 09
 
 - src: compositions/frames/09-beat.html
-- duration: 6.32s
-- status: built
-- transition_in: whip-pan DOWN 0.35s
-- look: grade cool
-- query: data charts on computer screen research
-- narration: And there's a geographic signature in the data that makes it even harder to explain any other way.
+- duration: 3.77s
+- status: planned
+- transition_in: hard-cut 0s
+- look: grade desaturate, vignette 0.378
+- punch: at 1.29s scale 1.375
+- query: dried wetland dead vegetation
+- narration: This is a genuine, well-documented driver of decline.
 
 ## Frame 10
 
 - src: compositions/frames/10-beat.html
-- duration: 8.62s
-- status: built
+- duration: 2.03s
+- status: planned
 - transition_in: hard-cut 0s
-- look: grade desaturate, vignette 0.542, high-contrast
-- query: farmland aerial crop rows florida
-- narration: Because of the nutrient gradient running from north to south, aquatic life in the Everglades was already naturally more abundant in the north than the south.
+- look: grade warm, vignette 0.378
+- query: soil sample in hand
+- narration: Soil nitrogen and phosphorus.
 

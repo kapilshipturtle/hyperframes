@@ -2,10 +2,10 @@
   "index": 5,
   "dirName": "chunk-05",
   "originalBeatRange": [
-    "51",
+    "52",
     "61"
   ],
-  "frameCount": 11,
-  "sourceCount": 11,
-  "totalDurationSeconds": 79.18
+  "frameCount": 10,
+  "sourceCount": 10,
+  "totalDurationSeconds": 41.47
 }

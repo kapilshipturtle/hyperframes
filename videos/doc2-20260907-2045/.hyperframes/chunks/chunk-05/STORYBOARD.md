@@ -1,118 +1,114 @@
-# STORYBOARD — chunk-05 (chunk 6/12 of a larger film, split for CI render-concurrency limits — see split-for-chunked-render.mjs header)
+# STORYBOARD — chunk-05 (chunk 6/17 of a larger film, split for CI render-concurrency limits — see split-for-chunked-render.mjs header)
 
-11 beats. Original beat range: 51-61. Narration slice: same original file, different offsets.
+10 beats. Original beat range: 52-61. Narration slice: same original file, different offsets.
 
 ## Frame 01
 
 - src: compositions/frames/01-beat.html
-- duration: 7.16s
-- status: built
+- duration: 5.38s
+- status: planned
 - transition_in: cut
-- look: grade warm
-- query: muddy shallow pool drying up
-- overlay: keyword-flash at middle-right, fade entrance
-- narration: The eels, spreading up from the southeast, have exaggerated that existing pattern, pushing southern abundance down further,
+- look: grade cool, vignette 0.378
+- motion: out to 1.14 ease power1.out, focus 30,75
+- motion_reason: narration widens to scale/place/consequence (scale=3 detail=1) | anchored on "canal water channel" at 30,75
+- query: agricultural runoff canal water
+- narration: Agricultural runoff enters the system from the north and drops off as you move south.
 
 ## Frame 02
 
 - src: compositions/frames/02-beat.html
-- duration: 9.39s
-- status: built
+- duration: 5.83s
+- status: planned
 - transition_in: hard-cut 0s
-- look: grade cool
-- query: pond edge vegetation shallow margin
-- narration: while the northern strongholds remain loud. Which means the pattern isn't just that amphibians are declining, it's that amphibians are declining in a spatial gradient
+- look: vignette 0.378
+- punch: at 3.75s scale 1.425
+- query: wetland reeds dense growth
+- narration: Nutrient enrichment restructures wetland plant communities and everything that depends on them.
 
 ## Frame 03
 
 - src: compositions/frames/03-beat.html
-- duration: 4.82s
-- status: built
-- transition_in: hard-cut 0s
-- look: grade natural, vignette 0.542, high-contrast
-- query: eel swimming muddy water closeup
-- narration: that tracks the eel invasion front. And that front is still moving.
+- duration: 6.49s
+- status: planned
+- transition_in: crossfade 0.25s
+- look: grade cool, vignette 0.378
+- motion: in to 1.1356 ease power1.in, focus 58,52
+- motion_reason: neutral line (detail=1 scale=1) — alternated against previous shot | anchored on "analytics line chart" at 58,52
+- query: data charts on screen
+- narration: This is real and in the early stages of the analysis it looked like the strongest signal in the whole dataset.
 
 ## Frame 04
 
 - src: compositions/frames/04-beat.html
-- duration: 10.07s
-- status: built
-- transition_in: crossfade 0.25s
-- look: grade warm
-- query: cracked dry mud drought wetland
-- overlay: keyword-flash at lower-center, pop-scale entrance
-- narration: The northern Everglades, the part that still gives researchers headaches with the volume of the frog calls, is not a refuge, it's just the part the eels haven't finished reaching.
+- duration: 6.57s
+- status: planned
+- transition_in: hard-cut 0s
+- look: grade desaturate, vignette 0.378
+- punch: at 4.17s scale 1.35
+- overlay: keyword-flash "CHYTRID FUNGUS" at middle-left
+- query: dead frog on wet ground
+- narration: Disease. Chitrid fungus has devastated amphibian populations on multiple continents and is one of the most serious
 
 ## Frame 05
 
 - src: compositions/frames/05-beat.html
-- duration: 8.05s
-- status: built
+- duration: 2.63s
+- status: planned
 - transition_in: hard-cut 0s
-- look: grade desaturate
-- query: map with markers research planning
-- narration: Twenty years ago, surveys inside Everglades National Park found the southern leopard frog to be one of the most common amphibians in the system.
+- look: bw, vignette 0.378
+- query: microscope laboratory research
+- narration: wildlife pathogens ever recorded.
 
 ## Frame 06
 
 - src: compositions/frames/06-beat.html
-- duration: 7.00s
-- status: built
+- duration: 2.36s
+- status: planned
 - transition_in: hard-cut 0s
-- look: grade bw, vignette 0.542, high-contrast
-- query: everglades sawgrass marsh aerial
-- narration: Ordinary. Everywhere. The kind of animal you don't bother recording carefully, because there will always be more of them.
+- look: grade desaturate, vignette 0.378
+- query: laboratory sample testing
+- narration: Ranovirus does similar damage.
 
 ## Frame 07
 
 - src: compositions/frames/07-beat.html
-- duration: 9.47s
-- status: built
-- transition_in: hard-cut 0s
-- look: grade warm
-- query: data charts on computer screen research
-- narration: Howell's team did not detect a single one inside Everglades National Park, from the most common species in the park to functionally absent in about twenty
+- duration: 3.77s
+- status: planned
+- transition_in: whip-pan DOWN 0.35s
+- look: vignette 0.378
+- query: water pollution industrial runoff
+- narration: Both were tested. Pollution and other human cause pressures.
 
 ## Frame 08
 
 - src: compositions/frames/08-beat.html
-- duration: 4.88s
-- status: built
-- transition_in: glitch-cut 0.25s
-- look: grade natural
-- query: florida wetland shallow water reeds
-- narration: years. And it happened without a headline, because nobody counts frogs.
+- duration: 2.85s
+- status: planned
+- transition_in: hard-cut 0s
+- look: grade warm, vignette 0.378
+- query: suburban development edge wetland
+- narration: Contaminants, land use, development at the edges.
 
 ## Frame 09
 
 - src: compositions/frames/09-beat.html
-- duration: 5.38s
-- status: built
+- duration: 3.32s
+- status: planned
 - transition_in: hard-cut 0s
-- look: grade bw, vignette 0.542, high-contrast
-- query: muddy shallow pool drying up
-- overlay: keyword-flash at upper-center, fade entrance
-- narration: The species that are hanging on in the eel-occupied zones are the ones with an escape route.
+- look: grade desaturate, vignette 0.378
+- motion: out to 1.1011 ease power1.out, focus 20,69
+- motion_reason: narration widens to scale/place/consequence (scale=2 detail=1) | anchored on "fishing boat" at 20,69
+- punch: at 2.36s scale 1.4
+- query: aerial everglades wide landscape
+- narration: Every one of those factors is a legitimate explanation.
 
 ## Frame 10
 
 - src: compositions/frames/10-beat.html
-- duration: 8.32s
-- status: built
-- transition_in: hard-cut 0s
-- look: grade desaturate
-- query: small frog calling wetland night
-- narration: The tree frogs, up in the canopy. And two large aquatic salamanders, the greater siren and the two-toed amphiuma.
-
-## Frame 11
-
-- src: compositions/frames/11-beat.html
-- duration: 4.64s
-- status: built
-- transition_in: light-leak-flash 0.5s
-- look: grade desaturate, vignette 0.542
-- query: eel swimming muddy water closeup
-- overlay: title-card at upper-right, fade entrance
-- narration: Both are big, both are eel-shaped themselves, both live in the mud.
+- duration: 2.27s
+- status: planned
+- transition_in: crossfade 0.25s
+- look: grade desaturate, vignette 0.378
+- query: statistical graph on screen
+- narration: Several of them showed a real effect.
 

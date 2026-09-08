@@ -98,29 +98,20 @@
     .broll-vignette {
       position: absolute;
       inset: 0;
-      background: radial-gradient(ellipse at center, rgba(0,0,0,0) 45%, rgba(0,0,0,0.542) 100%);
+      background: radial-gradient(ellipse at center, rgba(0,0,0,0) 45%, rgba(0,0,0,0) 100%);
       pointer-events: none;
     }
-
-    .ov-tc-scrim { position: absolute; inset: 0; background: rgba(0,0,0,0.55); opacity: 0; pointer-events: none; }
-    .ov-tc { position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%); text-align: center; max-width: 80%; opacity: 0; }
-    .ov-tc-kicker { font: 500 1em/1.35 "Inter", -apple-system, sans-serif; font-size: 26px; letter-spacing: 0.22em; text-transform: uppercase; color: #f28c28; margin-bottom: 14px; }
-    .ov-tc-title { font: 700 1em/1.15 "Playfair Display", "Libre Baskerville", Georgia, "Times New Roman", serif; font-size: 92px; line-height: 1.05; color: #fff; text-shadow: 0 3px 12px rgba(0,0,0,0.5); }
-    .ov-tc-rule { width: 160px; height: 5px; background: #f28c28; margin: 22px auto; transform-origin: center; }
-    .ov-tc-sub { font: 500 1em/1.35 "Inter", -apple-system, sans-serif; font-size: 34px; color: rgba(255,255,255,0.85); }
   </style>
 
   <div
     id="root"
     data-composition-id="96-beat"
-    data-width="1920" data-height="1080" data-duration="5.45"
+    data-width="1920" data-height="1080" data-duration="2.38"
   >
     <div class="broll-wrap" id="f-96-beat-wrap">
-      <video id="f-96-beat-media" class="broll-media clip broll-bw" src=".media/broll/beat-96.mp4" muted playsinline data-start="0" data-duration="5.45" data-media-start="0" data-track-index="0"></video>
+      <video id="f-96-beat-media" class="broll-media clip broll-bw" src=".media/broll/beat-96.mp4" muted playsinline data-start="0" data-duration="2.38" data-media-start="0" data-track-index="0"></video>
     </div>
-    <div class="broll-scrim clip" id="f-96-beat-scrim" data-start="0" data-duration="5.45" data-track-index="1"></div>
-    <div class="broll-vignette clip" id="f-96-beat-vignette" data-start="0" data-duration="5.45" data-track-index="3"></div>
-    <div class="ov-tc-scrim" id="f-96-beat-ov-scrim"></div><div class="ov-tc" id="f-96-beat-ov"><div class="ov-tc-kicker">Part 10</div><div class="ov-tc-title">The front line is moving</div><div class="ov-tc-rule" id="f-96-beat-ov-rule"></div></div>
+    <div class="broll-scrim clip" id="f-96-beat-scrim" data-start="0" data-duration="2.38" data-track-index="1"></div>
   </div>
 
   <script>
@@ -129,9 +120,6 @@
       var tl = gsap.timeline({ paused: true });
       var wrap = document.getElementById("f-96-beat-wrap");
       gsap.set(wrap, { scale: 1.0 });
-      tl.to("#f-96-beat-ov-scrim", { opacity: 1, duration: 0.35 }, 0.20);
-      tl.fromTo("#f-96-beat-ov", { opacity: 0, y: 26 }, { opacity: 1, y: 0, duration: 0.5, ease: "power3.out" }, 0.25);
-      tl.fromTo("#f-96-beat-ov-rule", { scaleX: 0 }, { scaleX: 1, duration: 0.4, ease: "power2.out" }, 0.60);
       window.__timelines["96-beat"] = tl;
     })();
   </script>

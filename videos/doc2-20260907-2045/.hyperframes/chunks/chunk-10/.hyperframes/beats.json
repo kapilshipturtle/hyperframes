@@ -1,772 +1,741 @@
 {
   "beats": [
     {
-      "id": "102",
-      "text": "and the snake took them. The real lesson is narrower and worse.",
-      "start": 637.77,
-      "end": 642.88,
-      "durationSeconds": 5.11,
+      "id": "103",
+      "text": "the team did not record one. Howell's assessment was that it's the kind of animal that could simply blink out of existence,",
+      "start": 434.25,
+      "end": 440.82,
+      "durationSeconds": 6.57,
       "words": [
         {
-          "text": "and",
-          "start": 637.77,
-          "end": 637.92
+          "text": "the",
+          "start": 434.25,
+          "end": 434.34
+        },
+        {
+          "text": "team",
+          "start": 434.4,
+          "end": 434.6
+        },
+        {
+          "text": "did",
+          "start": 434.6,
+          "end": 434.75
+        },
+        {
+          "text": "not",
+          "start": 434.83,
+          "end": 434.98
+        },
+        {
+          "text": "record",
+          "start": 434.98,
+          "end": 435.33
+        },
+        {
+          "text": "one.",
+          "start": 435.33,
+          "end": 435.74
+        },
+        {
+          "text": "Howell's",
+          "start": 435.74,
+          "end": 436.24
+        },
+        {
+          "text": "assessment",
+          "start": 436.24,
+          "end": 436.81
+        },
+        {
+          "text": "was",
+          "start": 436.9,
+          "end": 437.06
+        },
+        {
+          "text": "that",
+          "start": 437.06,
+          "end": 437.26
+        },
+        {
+          "text": "it's",
+          "start": 437.33,
+          "end": 437.5
         },
         {
           "text": "the",
-          "start": 638.25,
-          "end": 638.33
+          "start": 437.71,
+          "end": 437.74
         },
         {
-          "text": "snake",
-          "start": 638.33,
-          "end": 638.76
-        },
-        {
-          "text": "took",
-          "start": 638.76,
-          "end": 639.03
-        },
-        {
-          "text": "them.",
-          "start": 639.41,
-          "end": 639.75
-        },
-        {
-          "text": "The",
-          "start": 639.75,
-          "end": 640
-        },
-        {
-          "text": "real",
-          "start": 640.23,
-          "end": 640.4
-        },
-        {
-          "text": "lesson",
-          "start": 640.4,
-          "end": 640.91
-        },
-        {
-          "text": "is",
-          "start": 641.07,
-          "end": 641.13
-        },
-        {
-          "text": "narrower",
-          "start": 641.13,
-          "end": 641.81
-        },
-        {
-          "text": "and",
-          "start": 641.89,
-          "end": 642.06
-        },
-        {
-          "text": "worse.",
-          "start": 642.6,
-          "end": 642.88
-        }
-      ]
-    },
-    {
-      "id": "103",
-      "text": "Florida built an entire apparatus of attention around one animal.",
-      "start": 642.88,
-      "end": 646.85,
-      "durationSeconds": 3.97,
-      "words": [
-        {
-          "text": "Florida",
-          "start": 642.88,
-          "end": 643.03
-        },
-        {
-          "text": "built",
-          "start": 643.03,
-          "end": 643.31
-        },
-        {
-          "text": "an",
-          "start": 643.31,
-          "end": 643.46
-        },
-        {
-          "text": "entire",
-          "start": 643.46,
-          "end": 643.9
-        },
-        {
-          "text": "apparatus",
-          "start": 643.94,
-          "end": 644.62
+          "text": "kind",
+          "start": 437.74,
+          "end": 437.93
         },
         {
           "text": "of",
-          "start": 644.62,
-          "end": 644.77
+          "start": 438.04,
+          "end": 438.15
         },
         {
-          "text": "attention",
-          "start": 644.77,
-          "end": 645.24
+          "text": "animal",
+          "start": 438.15,
+          "end": 438.39
         },
         {
-          "text": "around",
-          "start": 645.65,
-          "end": 645.82
+          "text": "that",
+          "start": 438.55,
+          "end": 438.62
         },
         {
-          "text": "one",
-          "start": 645.93,
-          "end": 646.16
+          "text": "could",
+          "start": 438.66,
+          "end": 438.76
         },
         {
-          "text": "animal.",
-          "start": 646.16,
-          "end": 646.85
+          "text": "simply",
+          "start": 438.87,
+          "end": 439.22
+        },
+        {
+          "text": "blink",
+          "start": 439.22,
+          "end": 439.6
+        },
+        {
+          "text": "out",
+          "start": 439.6,
+          "end": 439.78
+        },
+        {
+          "text": "of",
+          "start": 439.83,
+          "end": 439.98
+        },
+        {
+          "text": "existence,",
+          "start": 440.33,
+          "end": 440.82
         }
       ]
     },
     {
       "id": "104",
-      "text": "Funding, hunters, competitions, robotic decoys, 25 years of coverage.",
-      "start": 646.85,
-      "end": 652.23,
-      "durationSeconds": 5.38,
+      "text": "and that almost nothing is known about it.",
+      "start": 440.82,
+      "end": 443.75,
+      "durationSeconds": 2.93,
       "words": [
         {
-          "text": "Funding,",
-          "start": 646.85,
-          "end": 647.54
+          "text": "and",
+          "start": 440.82,
+          "end": 441.05
         },
         {
-          "text": "hunters,",
-          "start": 647.54,
-          "end": 648.23
+          "text": "that",
+          "start": 441.05,
+          "end": 441.14
         },
         {
-          "text": "competitions,",
-          "start": 648.23,
-          "end": 649.4
+          "text": "almost",
+          "start": 441.49,
+          "end": 441.82
         },
         {
-          "text": "robotic",
-          "start": 649.5,
-          "end": 649.91
+          "text": "nothing",
+          "start": 441.82,
+          "end": 442.36
         },
         {
-          "text": "decoys,",
-          "start": 649.91,
-          "end": 650.43
+          "text": "is",
+          "start": 442.36,
+          "end": 442.51
         },
         {
-          "text": "25",
-          "start": 650.51,
-          "end": 650.62
+          "text": "known",
+          "start": 442.51,
+          "end": 442.87
         },
         {
-          "text": "years",
-          "start": 650.97,
-          "end": 651.28
+          "text": "about",
+          "start": 443.15,
+          "end": 443.27
         },
         {
-          "text": "of",
-          "start": 651.28,
-          "end": 651.45
-        },
-        {
-          "text": "coverage.",
-          "start": 651.45,
-          "end": 652.23
+          "text": "it.",
+          "start": 443.27,
+          "end": 443.59
         }
       ]
     },
     {
       "id": "105",
-      "text": "And that apparatus was accurate. It just wasn't the only thing happening.",
-      "start": 652.23,
-      "end": 657,
-      "durationSeconds": 4.77,
+      "text": "Think about what that sentence actually contains.",
+      "start": 443.75,
+      "end": 446.48,
+      "durationSeconds": 2.73,
       "words": [
         {
-          "text": "And",
-          "start": 652.23,
-          "end": 652.45
+          "text": "Think",
+          "start": 443.75,
+          "end": 443.89
+        },
+        {
+          "text": "about",
+          "start": 443.89,
+          "end": 444.05
+        },
+        {
+          "text": "what",
+          "start": 444.05,
+          "end": 444.16
         },
         {
           "text": "that",
-          "start": 652.45,
-          "end": 652.72
+          "start": 444.3,
+          "end": 444.49
         },
         {
-          "text": "apparatus",
-          "start": 652.95,
-          "end": 653.4
+          "text": "sentence",
+          "start": 444.49,
+          "end": 445.07
         },
         {
-          "text": "was",
-          "start": 653.4,
-          "end": 653.62
+          "text": "actually",
+          "start": 445.07,
+          "end": 445.41
         },
         {
-          "text": "accurate.",
-          "start": 653.79,
-          "end": 654.42
-        },
-        {
-          "text": "It",
-          "start": 654.42,
-          "end": 654.55
-        },
-        {
-          "text": "just",
-          "start": 654.55,
-          "end": 654.78
-        },
-        {
-          "text": "wasn't",
-          "start": 654.88,
-          "end": 655.36
-        },
-        {
-          "text": "the",
-          "start": 655.45,
-          "end": 655.55
-        },
-        {
-          "text": "only",
-          "start": 655.6,
-          "end": 655.83
-        },
-        {
-          "text": "thing",
-          "start": 655.83,
-          "end": 656.17
-        },
-        {
-          "text": "happening.",
-          "start": 656.17,
-          "end": 657
+          "text": "contains.",
+          "start": 445.77,
+          "end": 446.48
         }
       ]
     },
     {
       "id": "106",
-      "text": "In the same water, at the same time, something without a public profile that nobody was frightened of, that early assessments had explicitly cleared as low risk,",
-      "start": 657,
-      "end": 666.16,
-      "durationSeconds": 9.16,
+      "text": "There is a species in the United States, in a national park, that may already be gone.",
+      "start": 446.48,
+      "end": 451.44,
+      "durationSeconds": 4.96,
       "words": [
         {
-          "text": "In",
-          "start": 657,
-          "end": 657.13
+          "text": "There",
+          "start": 446.48,
+          "end": 446.58
         },
         {
-          "text": "the",
-          "start": 657.13,
-          "end": 657.24
-        },
-        {
-          "text": "same",
-          "start": 657.41,
-          "end": 657.59
-        },
-        {
-          "text": "water,",
-          "start": 657.59,
-          "end": 658.07
-        },
-        {
-          "text": "at",
-          "start": 658.1,
-          "end": 658.2
-        },
-        {
-          "text": "the",
-          "start": 658.2,
-          "end": 658.4
-        },
-        {
-          "text": "same",
-          "start": 658.4,
-          "end": 658.66
-        },
-        {
-          "text": "time,",
-          "start": 658.91,
-          "end": 659.07
-        },
-        {
-          "text": "something",
-          "start": 659.07,
-          "end": 659.76
-        },
-        {
-          "text": "without",
-          "start": 659.76,
-          "end": 660.13
+          "text": "is",
+          "start": 446.58,
+          "end": 446.94
         },
         {
           "text": "a",
-          "start": 660.13,
-          "end": 660.18
+          "start": 446.94,
+          "end": 446.97
         },
         {
-          "text": "public",
-          "start": 660.18,
-          "end": 660.51
+          "text": "species",
+          "start": 446.97,
+          "end": 447.3
         },
         {
-          "text": "profile",
-          "start": 660.63,
-          "end": 660.97
+          "text": "in",
+          "start": 447.36,
+          "end": 447.53
+        },
+        {
+          "text": "the",
+          "start": 447.53,
+          "end": 447.75
+        },
+        {
+          "text": "United",
+          "start": 447.75,
+          "end": 448.06
+        },
+        {
+          "text": "States,",
+          "start": 448.08,
+          "end": 448.57
+        },
+        {
+          "text": "in",
+          "start": 448.59,
+          "end": 448.66
+        },
+        {
+          "text": "a",
+          "start": 448.7,
+          "end": 448.75
+        },
+        {
+          "text": "national",
+          "start": 448.75,
+          "end": 449.32
+        },
+        {
+          "text": "park,",
+          "start": 449.42,
+          "end": 449.75
         },
         {
           "text": "that",
-          "start": 660.97,
-          "end": 661.22
+          "start": 449.75,
+          "end": 450.04
         },
         {
-          "text": "nobody",
-          "start": 661.22,
-          "end": 661.54
+          "text": "may",
+          "start": 450.04,
+          "end": 450.26
         },
         {
-          "text": "was",
-          "start": 661.59,
-          "end": 661.75
+          "text": "already",
+          "start": 450.26,
+          "end": 450.54
         },
         {
-          "text": "frightened",
-          "start": 662.09,
-          "end": 662.4
+          "text": "be",
+          "start": 450.89,
+          "end": 450.93
         },
         {
-          "text": "of,",
-          "start": 662.55,
-          "end": 662.67
-        },
-        {
-          "text": "that",
-          "start": 662.67,
-          "end": 662.87
-        },
-        {
-          "text": "early",
-          "start": 662.87,
-          "end": 663.25
-        },
-        {
-          "text": "assessments",
-          "start": 663.25,
-          "end": 663.77
-        },
-        {
-          "text": "had",
-          "start": 664.07,
-          "end": 664.14
-        },
-        {
-          "text": "explicitly",
-          "start": 664.14,
-          "end": 664.75
-        },
-        {
-          "text": "cleared",
-          "start": 664.91,
-          "end": 665.18
-        },
-        {
-          "text": "as",
-          "start": 665.26,
-          "end": 665.35
-        },
-        {
-          "text": "low",
-          "start": 665.54,
-          "end": 665.63
-        },
-        {
-          "text": "risk,",
-          "start": 665.68,
-          "end": 666.16
+          "text": "gone.",
+          "start": 450.93,
+          "end": 451.44
         }
       ]
     },
     {
       "id": "107",
-      "text": "went through the base of the food web and removed it.",
-      "start": 666.16,
-      "end": 669.67,
-      "durationSeconds": 3.67,
+      "text": "And we would not be able to say when or how many there were before, because nobody ever found out.",
+      "start": 451.44,
+      "end": 458.24,
+      "durationSeconds": 6.8,
       "words": [
         {
-          "text": "went",
-          "start": 666.16,
-          "end": 666.46
+          "text": "And",
+          "start": 451.44,
+          "end": 451.64
         },
         {
-          "text": "through",
-          "start": 666.57,
-          "end": 667.04
+          "text": "we",
+          "start": 451.64,
+          "end": 451.7
         },
         {
-          "text": "the",
-          "start": 667.04,
-          "end": 667.28
+          "text": "would",
+          "start": 452.05,
+          "end": 452.18
         },
         {
-          "text": "base",
-          "start": 667.28,
-          "end": 667.59
+          "text": "not",
+          "start": 452.18,
+          "end": 452.39
         },
         {
-          "text": "of",
-          "start": 667.59,
-          "end": 667.76
+          "text": "be",
+          "start": 452.39,
+          "end": 452.55
         },
         {
-          "text": "the",
-          "start": 667.76,
-          "end": 667.82
+          "text": "able",
+          "start": 452.55,
+          "end": 452.65
         },
         {
-          "text": "food",
-          "start": 668.17,
-          "end": 668.32
+          "text": "to",
+          "start": 452.87,
+          "end": 452.99
         },
         {
-          "text": "web",
-          "start": 668.32,
-          "end": 668.53
+          "text": "say",
+          "start": 452.99,
+          "end": 453.09
         },
         {
-          "text": "and",
-          "start": 668.53,
-          "end": 668.76
+          "text": "when",
+          "start": 453.2,
+          "end": 453.5
         },
         {
-          "text": "removed",
-          "start": 668.99,
-          "end": 669.36
+          "text": "or",
+          "start": 453.5,
+          "end": 453.55
         },
         {
-          "text": "it.",
-          "start": 669.36,
-          "end": 669.67
+          "text": "how",
+          "start": 453.71,
+          "end": 453.87
+        },
+        {
+          "text": "many",
+          "start": 453.87,
+          "end": 454.15
+        },
+        {
+          "text": "there",
+          "start": 454.15,
+          "end": 454.64
+        },
+        {
+          "text": "were",
+          "start": 454.75,
+          "end": 455
+        },
+        {
+          "text": "before,",
+          "start": 455,
+          "end": 455.66
+        },
+        {
+          "text": "because",
+          "start": 455.81,
+          "end": 456.32
+        },
+        {
+          "text": "nobody",
+          "start": 456.32,
+          "end": 456.79
+        },
+        {
+          "text": "ever",
+          "start": 456.79,
+          "end": 457.01
+        },
+        {
+          "text": "found",
+          "start": 457.37,
+          "end": 457.54
+        },
+        {
+          "text": "out.",
+          "start": 457.65,
+          "end": 458.24
         }
       ]
     },
     {
       "id": "108",
-      "text": "Not the top. The bottom. The layer everything else stands on.",
-      "start": 669.83,
-      "end": 673.86,
-      "durationSeconds": 4.03,
+      "text": "Extinctions in the public imagination are large and slow and mournful.",
+      "start": 458.24,
+      "end": 462.17,
+      "durationSeconds": 3.93,
       "words": [
         {
-          "text": "Not",
-          "start": 669.83,
-          "end": 670.03
+          "text": "Extinctions",
+          "start": 458.24,
+          "end": 458.77
+        },
+        {
+          "text": "in",
+          "start": 458.77,
+          "end": 458.9
         },
         {
           "text": "the",
-          "start": 670.03,
-          "end": 670.26
+          "start": 459.03,
+          "end": 459.05
         },
         {
-          "text": "top.",
-          "start": 670.26,
-          "end": 670.71
+          "text": "public",
+          "start": 459.05,
+          "end": 459.3
         },
         {
-          "text": "The",
-          "start": 670.71,
-          "end": 670.84
+          "text": "imagination",
+          "start": 459.38,
+          "end": 459.91
         },
         {
-          "text": "bottom.",
-          "start": 671.39,
-          "end": 671.64
+          "text": "are",
+          "start": 459.92,
+          "end": 460.04
         },
         {
-          "text": "The",
-          "start": 671.73,
-          "end": 671.83
+          "text": "large",
+          "start": 460.23,
+          "end": 460.5
         },
         {
-          "text": "layer",
-          "start": 671.88,
-          "end": 672.18
+          "text": "and",
+          "start": 460.5,
+          "end": 460.71
         },
         {
-          "text": "everything",
-          "start": 672.18,
-          "end": 672.63
+          "text": "slow",
+          "start": 460.79,
+          "end": 461.04
         },
         {
-          "text": "else",
-          "start": 672.75,
-          "end": 672.87
+          "text": "and",
+          "start": 461.04,
+          "end": 461.26
         },
         {
-          "text": "stands",
-          "start": 673.21,
-          "end": 673.52
-        },
-        {
-          "text": "on.",
-          "start": 673.66,
-          "end": 673.86
+          "text": "mournful.",
+          "start": 461.26,
+          "end": 462
         }
       ]
     },
     {
       "id": "109",
-      "text": "It arrived in the 90s in a bucket from a fish market or a backyard pond.",
-      "start": 673.86,
-      "end": 678.19,
-      "durationSeconds": 4.33,
+      "text": "The last of something, filmed, named, grieved over.",
+      "start": 462.17,
+      "end": 466.4,
+      "durationSeconds": 4.23,
       "words": [
         {
-          "text": "It",
-          "start": 673.86,
-          "end": 673.99
+          "text": "The",
+          "start": 462.17,
+          "end": 462.34
         },
         {
-          "text": "arrived",
-          "start": 674.37,
-          "end": 674.46
+          "text": "last",
+          "start": 462.34,
+          "end": 462.49
         },
         {
-          "text": "in",
-          "start": 674.46,
-          "end": 674.54
+          "text": "of",
+          "start": 462.72,
+          "end": 462.78
         },
         {
-          "text": "the",
-          "start": 674.67,
-          "end": 674.76
+          "text": "something,",
+          "start": 462.85,
+          "end": 463.64
         },
         {
-          "text": "90s",
-          "start": 674.81,
-          "end": 675.25
+          "text": "filmed,",
+          "start": 463.67,
+          "end": 464.24
         },
         {
-          "text": "in",
-          "start": 675.25,
-          "end": 675.38
+          "text": "named,",
+          "start": 464.51,
+          "end": 464.78
         },
         {
-          "text": "a",
-          "start": 675.38,
-          "end": 675.41
+          "text": "grieved",
+          "start": 464.78,
+          "end": 465.39
         },
         {
-          "text": "bucket",
-          "start": 675.5,
-          "end": 675.83
-        },
-        {
-          "text": "from",
-          "start": 676.03,
-          "end": 676.1
-        },
-        {
-          "text": "a",
-          "start": 676.14,
-          "end": 676.17
-        },
-        {
-          "text": "fish",
-          "start": 676.17,
-          "end": 676.44
-        },
-        {
-          "text": "market",
-          "start": 676.44,
-          "end": 676.96
-        },
-        {
-          "text": "or",
-          "start": 677.04,
-          "end": 677.1
-        },
-        {
-          "text": "a",
-          "start": 677.1,
-          "end": 677.16
-        },
-        {
-          "text": "backyard",
-          "start": 677.2,
-          "end": 677.74
-        },
-        {
-          "text": "pond.",
-          "start": 677.74,
-          "end": 678.19
+          "text": "over.",
+          "start": 465.4,
+          "end": 466.4
         }
       ]
     },
     {
       "id": "110",
-      "text": "It was formally considered a minor concern for well over a decade.",
-      "start": 678.19,
-      "end": 682.28,
-      "durationSeconds": 4.09,
+      "text": "This is what most of them actually look like.",
+      "start": 466.4,
+      "end": 468.81,
+      "durationSeconds": 2.41,
       "words": [
         {
-          "text": "It",
-          "start": 678.19,
-          "end": 678.53
+          "text": "This",
+          "start": 466.4,
+          "end": 466.54
         },
         {
-          "text": "was",
-          "start": 678.53,
-          "end": 678.58
+          "text": "is",
+          "start": 466.54,
+          "end": 466.61
         },
         {
-          "text": "formally",
-          "start": 678.58,
-          "end": 679.11
+          "text": "what",
+          "start": 466.61,
+          "end": 466.76
         },
         {
-          "text": "considered",
-          "start": 679.16,
-          "end": 679.86
+          "text": "most",
+          "start": 466.86,
+          "end": 467.03
         },
         {
-          "text": "a",
-          "start": 679.86,
-          "end": 679.97
+          "text": "of",
+          "start": 467.03,
+          "end": 467.16
         },
         {
-          "text": "minor",
-          "start": 679.97,
-          "end": 680.26
+          "text": "them",
+          "start": 467.16,
+          "end": 467.35
         },
         {
-          "text": "concern",
-          "start": 680.51,
-          "end": 680.73
+          "text": "actually",
+          "start": 467.43,
+          "end": 467.93
         },
         {
-          "text": "for",
-          "start": 680.82,
-          "end": 681.01
+          "text": "look",
+          "start": 467.93,
+          "end": 467.99
         },
         {
-          "text": "well",
-          "start": 681.01,
-          "end": 681.19
-        },
-        {
-          "text": "over",
-          "start": 681.35,
-          "end": 681.57
-        },
-        {
-          "text": "a",
-          "start": 681.57,
-          "end": 681.62
-        },
-        {
-          "text": "decade.",
-          "start": 681.7,
-          "end": 682.28
+          "text": "like.",
+          "start": 468.33,
+          "end": 468.64
         }
       ]
     },
     {
       "id": "111",
-      "text": "It was upgraded to high risk in 2025, 28 years after it was first found here.",
-      "start": 682.28,
-      "end": 688.72,
-      "durationSeconds": 6.5,
+      "text": "A subspecies nobody photographed, in water nobody was sampling,",
+      "start": 468.81,
+      "end": 473.63,
+      "durationSeconds": 4.82,
       "words": [
         {
-          "text": "It",
-          "start": 682.28,
-          "end": 682.36
+          "text": "A",
+          "start": 468.81,
+          "end": 468.84
         },
         {
-          "text": "was",
-          "start": 682.62,
-          "end": 682.71
+          "text": "subspecies",
+          "start": 468.84,
+          "end": 469.67
         },
         {
-          "text": "upgraded",
-          "start": 682.76,
-          "end": 683.42
+          "text": "nobody",
+          "start": 469.67,
+          "end": 470.01
         },
         {
-          "text": "to",
-          "start": 683.42,
-          "end": 683.54
-        },
-        {
-          "text": "high",
-          "start": 683.58,
-          "end": 683.75
-        },
-        {
-          "text": "risk",
-          "start": 684.09,
-          "end": 684.24
+          "text": "photographed,",
+          "start": 470.31,
+          "end": 471.33
         },
         {
           "text": "in",
-          "start": 684.24,
-          "end": 684.4
+          "start": 471.33,
+          "end": 471.42
         },
         {
-          "text": "2025,",
-          "start": 684.4,
-          "end": 685.42
+          "text": "water",
+          "start": 471.5,
+          "end": 471.9
         },
         {
-          "text": "28",
-          "start": 685.54,
-          "end": 685.84
-        },
-        {
-          "text": "years",
-          "start": 686.07,
-          "end": 686.45
-        },
-        {
-          "text": "after",
-          "start": 686.45,
-          "end": 686.75
-        },
-        {
-          "text": "it",
-          "start": 686.91,
-          "end": 686.98
+          "text": "nobody",
+          "start": 471.9,
+          "end": 472.14
         },
         {
           "text": "was",
-          "start": 687.02,
-          "end": 687.18
+          "start": 472.14,
+          "end": 472.71
         },
         {
-          "text": "first",
-          "start": 687.26,
-          "end": 687.66
+          "text": "sampling,",
+          "start": 472.71,
+          "end": 473.42
+        }
+      ]
+    },
+    {
+      "id": "112",
+      "text": "removed by an animal that arrived in a bucket.",
+      "start": 473.63,
+      "end": 476.26,
+      "durationSeconds": 2.63,
+      "words": [
+        {
+          "text": "removed",
+          "start": 473.63,
+          "end": 473.98
         },
         {
-          "text": "found",
-          "start": 687.66,
-          "end": 687.9
+          "text": "by",
+          "start": 473.98,
+          "end": 474.11
         },
         {
-          "text": "here.",
-          "start": 688.41,
-          "end": 688.72
+          "text": "an",
+          "start": 474.11,
+          "end": 474.24
+        },
+        {
+          "text": "animal",
+          "start": 474.24,
+          "end": 474.54
+        },
+        {
+          "text": "that",
+          "start": 474.62,
+          "end": 474.76
+        },
+        {
+          "text": "arrived",
+          "start": 475.09,
+          "end": 475.35
+        },
+        {
+          "text": "in",
+          "start": 475.35,
+          "end": 475.4
+        },
+        {
+          "text": "a",
+          "start": 475.4,
+          "end": 475.57
+        },
+        {
+          "text": "bucket.",
+          "start": 475.57,
+          "end": 476.16
+        }
+      ]
+    },
+    {
+      "id": "113",
+      "text": "So what is being done? Honestly, very little.",
+      "start": 476.26,
+      "end": 479.73,
+      "durationSeconds": 3.47,
+      "words": [
+        {
+          "text": "So",
+          "start": 476.26,
+          "end": 476.32
+        },
+        {
+          "text": "what",
+          "start": 476.32,
+          "end": 476.62
+        },
+        {
+          "text": "is",
+          "start": 476.63,
+          "end": 476.8
+        },
+        {
+          "text": "being",
+          "start": 476.8,
+          "end": 477.19
+        },
+        {
+          "text": "done?",
+          "start": 477.19,
+          "end": 477.75
+        },
+        {
+          "text": "Honestly,",
+          "start": 477.91,
+          "end": 478.57
+        },
+        {
+          "text": "very",
+          "start": 478.57,
+          "end": 478.88
+        },
+        {
+          "text": "little.",
+          "start": 478.88,
+          "end": 479.62
         }
       ]
     }

@@ -1,106 +1,112 @@
-# STORYBOARD — chunk-03 (chunk 4/12 of a larger film, split for CI render-concurrency limits — see split-for-chunked-render.mjs header)
+# STORYBOARD — chunk-03 (chunk 4/17 of a larger film, split for CI render-concurrency limits — see split-for-chunked-render.mjs header)
 
-10 beats. Original beat range: 31-40. Narration slice: same original file, different offsets.
+10 beats. Original beat range: 32-41. Narration slice: same original file, different offsets.
 
 ## Frame 01
 
 - src: compositions/frames/01-beat.html
-- duration: 5.80s
-- status: built
+- duration: 5.08s
+- status: planned
 - transition_in: cut
-- look: grade warm
-- query: irrigation canal aerial farmland
-- narration: Water level change over time. The Everglades hydrology has been re-engineered for a century.
+- look: grade cool, vignette 0.378
+- query: wading bird eating fish
+- narration: They are what the wading birds eat, what the larger fish eat, what the young alligators eat,
 
 ## Frame 02
 
 - src: compositions/frames/02-beat.html
-- duration: 5.98s
-- status: built
-- transition_in: hard-cut 0s
-- look: grade cool, vignette 0.542, high-contrast
-- query: pump station water infrastructure
-- narration: Canals, levees, pumps, and drainage have altered how long any given patch stays wet.
+- duration: 3.38s
+- status: planned
+- transition_in: zoom-through 0.61s
+- look: vignette 0.378
+- query: salamander in shallow water
+- narration: what the amphibians compete with and feed alongside.
 
 ## Frame 03
 
 - src: compositions/frames/03-beat.html
-- duration: 6.06s
-- status: built
-- transition_in: glitch-cut 0.25s
-- look: grade desaturate
-- query: shallow marsh water ripples closeup
-- narration: Amphibians are sensitive to that. This is a genuine, well-documented driver of decline.
+- duration: 2.36s
+- status: planned
+- transition_in: hard-cut 0s
+- look: grade cool, vignette 0.378
+- overlay: keyword-flash "NOT A SPECIES" at middle-center, pop-scale entrance
+- query: hand holding small fish
+- narration: Take them out and you have not removed a species.
 
 ## Frame 04
 
 - src: compositions/frames/04-beat.html
-- duration: 7.41s
-- status: built
+- duration: 4.28s
+- status: planned
 - transition_in: hard-cut 0s
-- look: grade warm
-- query: farmland aerial crop rows florida
-- narration: Soil nitrogen and phosphorus. Agricultural runoff enters the system from the north and drops off as you move south.
+- look: grade desaturate, vignette 0.378
+- punch: at 1.73s scale 1.375
+- overlay: keyword-flash "THE FOUNDATION" at lower-center
+- query: wetland ecosystem wide aerial
+- narration: You have removed the layer that everything else is standing on.
+
+<!-- SECTION: Checking everything else -->
 
 ## Frame 05
 
 - src: compositions/frames/05-beat.html
-- duration: 5.83s
-- status: built
-- transition_in: hard-cut 0s
-- look: grade cool, vignette 0.542, high-contrast
-- query: fertiliser spreading field tractor
-- narration: Nutrient enrichment restructures wetland plant communities and everything that depends on them.
+- duration: 3.81s
+- status: planned
+- transition_in: whip-pan DOWN 0.35s
+- look: bw, vignette 0.378
+- query: marine biology research paper
+- narration: The 2023 paper covered the fish and the crustaceans.
 
 ## Frame 06
 
 - src: compositions/frames/06-beat.html
-- duration: 6.49s
-- status: built
+- duration: 4.36s
+- status: planned
 - transition_in: hard-cut 0s
-- look: grade bw
-- query: statistics report pages closeup
-- narration: This is real and in the early stages of the analysis it looked like the strongest signal in the whole dataset.
+- look: grade desaturate, vignette 0.378
+- query: field researcher taking notes
+- narration: What Howell's team did was go and check what had happened to everything else.
 
 ## Frame 07
 
 - src: compositions/frames/07-beat.html
-- duration: 9.20s
-- status: built
+- duration: 6.45s
+- status: planned
 - transition_in: hard-cut 0s
-- look: grade warm
-- query: laboratory microscope researcher hands
-- overlay: definition-callout at middle-center, fade entrance
-- narration: Disease. Chitrid fungus has devastated amphibian populations on multiple continents and is one of the most serious wildlife pathogens ever recorded.
+- look: vignette 0.378
+- query: scientist examining sample closeup
+- narration: This is the part of the study that makes it hard to argue with and it's worth walking through slowly because the method is the
 
 ## Frame 08
 
 - src: compositions/frames/08-beat.html
-- duration: 3.98s
-- status: built
+- duration: 3.61s
+- status: planned
 - transition_in: hard-cut 0s
-- look: grade desaturate, vignette 0.542, high-contrast
-- query: petri dish sample laboratory closeup
-- overlay: definition-callout at lower-center, fade entrance
-- narration: Ranovirus does similar damage. Both were tested.
+- look: grade warm, vignette 0.378
+- motion: out to 1.1041 ease power1.out, focus 49,27
+- motion_reason: narration widens to scale/place/consequence (scale=1 detail=0) | anchored on "focused scientist's face" at 49,27
+- query: researcher writing field notebook
+- narration: whole reason the conclusion carries weight.
 
 ## Frame 09
 
 - src: compositions/frames/09-beat.html
-- duration: 5.00s
-- status: built
-- transition_in: hard-cut 0s
-- look: grade bw
-- query: wet prairie grass florida wide
-- narration: Pollution and other human cause pressures. Contaminants, land use, development at the edges.
+- duration: 4.63s
+- status: planned
+- transition_in: crossfade 0.25s
+- look: grade desaturate, vignette 0.378
+- punch: at 2.43s scale 1.425
+- query: frog held in gloved hand
+- narration: The team had their survey data, 2,251 amphibians,
 
 ## Frame 10
 
 - src: compositions/frames/10-beat.html
-- duration: 3.32s
-- status: built
-- transition_in: crossfade 0.25s
-- look: grade desaturate
-- query: swamp at dawn mist over water
-- narration: Every one of those factors is a legitimate explanation.
+- duration: 1.92s
+- status: planned
+- transition_in: glitch-cut 0.25s
+- look: grade desaturate, vignette 0.378
+- query: field survey site marker
+- narration: nine species, 30 sites.
 

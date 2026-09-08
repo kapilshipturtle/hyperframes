@@ -1,807 +1,652 @@
 {
   "beats": [
     {
-      "id": "31",
-      "text": "Water level change over time. The Everglades hydrology has been re-engineered for a century.",
-      "start": 191.43,
-      "end": 197.18,
-      "durationSeconds": 5.8,
-      "words": [
-        {
-          "text": "Water",
-          "start": 191.43,
-          "end": 191.7
-        },
-        {
-          "text": "level",
-          "start": 191.7,
-          "end": 191.97
-        },
-        {
-          "text": "change",
-          "start": 192.33,
-          "end": 192.45
-        },
-        {
-          "text": "over",
-          "start": 192.45,
-          "end": 192.64
-        },
-        {
-          "text": "time.",
-          "start": 192.81,
-          "end": 193.13
-        },
-        {
-          "text": "The",
-          "start": 193.36,
-          "end": 193.39
-        },
-        {
-          "text": "Everglades",
-          "start": 193.49,
-          "end": 194.06
-        },
-        {
-          "text": "hydrology",
-          "start": 194.06,
-          "end": 194.66
-        },
-        {
-          "text": "has",
-          "start": 194.67,
-          "end": 194.87
-        },
-        {
-          "text": "been",
-          "start": 194.87,
-          "end": 194.99
-        },
-        {
-          "text": "re-engineered",
-          "start": 195.15,
-          "end": 196.14
-        },
-        {
-          "text": "for",
-          "start": 196.26,
-          "end": 196.35
-        },
-        {
-          "text": "a",
-          "start": 196.4,
-          "end": 196.46
-        },
-        {
-          "text": "century.",
-          "start": 196.46,
-          "end": 197.18
-        }
-      ]
-    },
-    {
       "id": "32",
-      "text": "Canals, levees, pumps, and drainage have altered how long any given patch stays wet.",
-      "start": 197.23,
-      "end": 203.21,
-      "durationSeconds": 5.98,
+      "text": "They are what the wading birds eat, what the larger fish eat, what the young alligators eat,",
+      "start": 131.89,
+      "end": 136.97,
+      "durationSeconds": 5.08,
       "words": [
         {
-          "text": "Canals,",
-          "start": 197.23,
-          "end": 197.85
+          "text": "They",
+          "start": 131.89,
+          "end": 131.93
         },
         {
-          "text": "levees,",
-          "start": 197.85,
-          "end": 198.45
+          "text": "are",
+          "start": 131.93,
+          "end": 132.12
         },
         {
-          "text": "pumps,",
-          "start": 198.45,
-          "end": 199
+          "text": "what",
+          "start": 132.12,
+          "end": 132.38
         },
         {
-          "text": "and",
-          "start": 199,
-          "end": 199.23
+          "text": "the",
+          "start": 132.38,
+          "end": 132.57
         },
         {
-          "text": "drainage",
-          "start": 199.23,
-          "end": 199.86
+          "text": "wading",
+          "start": 132.57,
+          "end": 132.95
         },
         {
-          "text": "have",
-          "start": 199.86,
-          "end": 200.17
+          "text": "birds",
+          "start": 133.05,
+          "end": 133.22
         },
         {
-          "text": "altered",
-          "start": 200.17,
-          "end": 200.72
+          "text": "eat,",
+          "start": 133.35,
+          "end": 133.59
         },
         {
-          "text": "how",
-          "start": 200.72,
-          "end": 200.95
+          "text": "what",
+          "start": 133.59,
+          "end": 133.64
         },
         {
-          "text": "long",
-          "start": 200.95,
-          "end": 201.26
+          "text": "the",
+          "start": 133.87,
+          "end": 134.04
         },
         {
-          "text": "any",
-          "start": 201.26,
-          "end": 201.49
+          "text": "larger",
+          "start": 134.04,
+          "end": 134.43
         },
         {
-          "text": "given",
-          "start": 201.49,
-          "end": 201.82
+          "text": "fish",
+          "start": 134.43,
+          "end": 134.55
         },
         {
-          "text": "patch",
-          "start": 202.11,
-          "end": 202.39
+          "text": "eat,",
+          "start": 134.71,
+          "end": 134.98
         },
         {
-          "text": "stays",
-          "start": 202.51,
-          "end": 202.77
+          "text": "what",
+          "start": 135.06,
+          "end": 135.36
         },
         {
-          "text": "wet.",
-          "start": 202.77,
-          "end": 203.21
+          "text": "the",
+          "start": 135.45,
+          "end": 135.56
+        },
+        {
+          "text": "young",
+          "start": 135.6,
+          "end": 135.92
+        },
+        {
+          "text": "alligators",
+          "start": 135.92,
+          "end": 136.57
+        },
+        {
+          "text": "eat,",
+          "start": 136.83,
+          "end": 136.97
         }
       ]
     },
     {
       "id": "33",
-      "text": "Amphibians are sensitive to that. This is a genuine, well-documented driver of decline.",
-      "start": 203.21,
-      "end": 209.27,
-      "durationSeconds": 6.06,
+      "text": "what the amphibians compete with and feed alongside.",
+      "start": 136.97,
+      "end": 140.35,
+      "durationSeconds": 3.38,
       "words": [
         {
-          "text": "Amphibians",
-          "start": 203.21,
-          "end": 203.96
+          "text": "what",
+          "start": 136.97,
+          "end": 137.24
         },
         {
-          "text": "are",
-          "start": 203.97,
-          "end": 204.18
+          "text": "the",
+          "start": 137.41,
+          "end": 137.46
         },
         {
-          "text": "sensitive",
-          "start": 204.18,
-          "end": 204.67
+          "text": "amphibians",
+          "start": 137.46,
+          "end": 138.16
         },
         {
-          "text": "to",
-          "start": 205,
-          "end": 205.01
+          "text": "compete",
+          "start": 138.16,
+          "end": 138.58
         },
         {
-          "text": "that.",
-          "start": 205.13,
-          "end": 205.5
+          "text": "with",
+          "start": 138.64,
+          "end": 138.93
         },
         {
-          "text": "This",
-          "start": 205.5,
-          "end": 205.72
+          "text": "and",
+          "start": 138.93,
+          "end": 139.13
         },
         {
-          "text": "is",
-          "start": 205.95,
-          "end": 205.98
+          "text": "feed",
+          "start": 139.24,
+          "end": 139.42
         },
         {
-          "text": "a",
-          "start": 205.99,
-          "end": 206.05
-        },
-        {
-          "text": "genuine,",
-          "start": 206.05,
-          "end": 206.63
-        },
-        {
-          "text": "well-documented",
-          "start": 206.79,
-          "end": 207.75
-        },
-        {
-          "text": "driver",
-          "start": 208.35,
-          "end": 208.4
-        },
-        {
-          "text": "of",
-          "start": 208.48,
-          "end": 208.54
-        },
-        {
-          "text": "decline.",
-          "start": 208.54,
-          "end": 209.27
+          "text": "alongside.",
+          "start": 139.43,
+          "end": 140.19
         }
       ]
     },
     {
       "id": "34",
-      "text": "Soil nitrogen and phosphorus. Agricultural runoff enters the system from the north and drops off as you move south.",
-      "start": 209.27,
-      "end": 216.45,
-      "durationSeconds": 7.41,
+      "text": "Take them out and you have not removed a species.",
+      "start": 140.35,
+      "end": 142.71,
+      "durationSeconds": 2.36,
       "words": [
         {
-          "text": "Soil",
-          "start": 209.27,
-          "end": 209.55
+          "text": "Take",
+          "start": 140.35,
+          "end": 140.42
         },
         {
-          "text": "nitrogen",
-          "start": 209.97,
-          "end": 210.13
+          "text": "them",
+          "start": 140.42,
+          "end": 140.51
         },
         {
-          "text": "and",
-          "start": 210.13,
-          "end": 210.28
-        },
-        {
-          "text": "phosphorus.",
-          "start": 210.45,
-          "end": 211.3
-        },
-        {
-          "text": "Agricultural",
-          "start": 211.3,
-          "end": 212.17
-        },
-        {
-          "text": "runoff",
-          "start": 212.26,
-          "end": 212.62
-        },
-        {
-          "text": "enters",
-          "start": 212.79,
-          "end": 213.06
-        },
-        {
-          "text": "the",
-          "start": 213.06,
-          "end": 213.23
-        },
-        {
-          "text": "system",
-          "start": 213.39,
-          "end": 213.72
-        },
-        {
-          "text": "from",
-          "start": 213.72,
-          "end": 214.03
-        },
-        {
-          "text": "the",
-          "start": 214.17,
-          "end": 214.27
-        },
-        {
-          "text": "north",
-          "start": 214.32,
-          "end": 214.62
+          "text": "out",
+          "start": 140.61,
+          "end": 140.7
         },
         {
           "text": "and",
-          "start": 214.62,
-          "end": 214.82
-        },
-        {
-          "text": "drops",
-          "start": 214.82,
-          "end": 215.1
-        },
-        {
-          "text": "off",
-          "start": 215.15,
-          "end": 215.31
-        },
-        {
-          "text": "as",
-          "start": 215.31,
-          "end": 215.65
+          "start": 140.76,
+          "end": 140.9
         },
         {
           "text": "you",
-          "start": 215.65,
-          "end": 215.69
+          "start": 140.9,
+          "end": 141.09
         },
         {
-          "text": "move",
-          "start": 215.69,
-          "end": 215.96
+          "text": "have",
+          "start": 141.09,
+          "end": 141.35
         },
         {
-          "text": "south.",
-          "start": 215.96,
-          "end": 216.45
+          "text": "not",
+          "start": 141.35,
+          "end": 141.51
+        },
+        {
+          "text": "removed",
+          "start": 141.54,
+          "end": 141.75
+        },
+        {
+          "text": "a",
+          "start": 141.75,
+          "end": 142.09
+        },
+        {
+          "text": "species.",
+          "start": 142.09,
+          "end": 142.69
         }
       ]
     },
     {
       "id": "35",
-      "text": "Nutrient enrichment restructures wetland plant communities and everything that depends on them.",
-      "start": 216.68,
-      "end": 222.38,
-      "durationSeconds": 5.83,
+      "text": "You have removed the layer that everything else is standing on.",
+      "start": 142.71,
+      "end": 146.99,
+      "durationSeconds": 4.28,
       "words": [
         {
-          "text": "Nutrient",
-          "start": 216.68,
-          "end": 216.98
+          "text": "You",
+          "start": 142.71,
+          "end": 142.87
         },
         {
-          "text": "enrichment",
-          "start": 217.11,
-          "end": 217.73
+          "text": "have",
+          "start": 143.12,
+          "end": 143.16
         },
         {
-          "text": "restructures",
-          "start": 217.73,
-          "end": 218.54
+          "text": "removed",
+          "start": 143.25,
+          "end": 143.61
         },
         {
-          "text": "wetland",
-          "start": 218.58,
-          "end": 218.91
+          "text": "the",
+          "start": 143.61,
+          "end": 143.81
         },
         {
-          "text": "plant",
-          "start": 219.07,
-          "end": 219.46
-        },
-        {
-          "text": "communities",
-          "start": 219.58,
-          "end": 220.23
-        },
-        {
-          "text": "and",
-          "start": 220.23,
-          "end": 220.43
-        },
-        {
-          "text": "everything",
-          "start": 220.43,
-          "end": 221.11
+          "text": "layer",
+          "start": 143.82,
+          "end": 144.14
         },
         {
           "text": "that",
-          "start": 221.11,
-          "end": 221.36
+          "start": 144.14,
+          "end": 144.29
         },
         {
-          "text": "depends",
-          "start": 221.53,
-          "end": 221.8
+          "text": "everything",
+          "start": 144.44,
+          "end": 145.06
         },
         {
-          "text": "on",
-          "start": 221.8,
-          "end": 221.86
+          "text": "else",
+          "start": 145.06,
+          "end": 145.35
         },
         {
-          "text": "them.",
-          "start": 222.21,
-          "end": 222.38
+          "text": "is",
+          "start": 145.51,
+          "end": 145.6
+        },
+        {
+          "text": "standing",
+          "start": 145.61,
+          "end": 146.36
+        },
+        {
+          "text": "on.",
+          "start": 146.36,
+          "end": 146.66
         }
       ]
     },
     {
       "id": "36",
-      "text": "This is real and in the early stages of the analysis it looked like the strongest signal in the whole dataset.",
-      "start": 222.51,
-      "end": 229,
-      "durationSeconds": 6.49,
+      "text": "The 2023 paper covered the fish and the crustaceans.",
+      "start": 146.99,
+      "end": 150.8,
+      "durationSeconds": 3.81,
       "words": [
         {
-          "text": "This",
-          "start": 222.51,
-          "end": 222.71
+          "text": "The",
+          "start": 146.99,
+          "end": 147.05
         },
         {
-          "text": "is",
-          "start": 222.71,
-          "end": 222.81
+          "text": "2023",
+          "start": 147.05,
+          "end": 147.77
         },
         {
-          "text": "real",
-          "start": 223.03,
-          "end": 223.12
+          "text": "paper",
+          "start": 147.77,
+          "end": 148.15
+        },
+        {
+          "text": "covered",
+          "start": 148.15,
+          "end": 148.52
+        },
+        {
+          "text": "the",
+          "start": 148.58,
+          "end": 148.74
+        },
+        {
+          "text": "fish",
+          "start": 148.97,
+          "end": 149.02
         },
         {
           "text": "and",
-          "start": 223.12,
-          "end": 223.25
-        },
-        {
-          "text": "in",
-          "start": 223.34,
-          "end": 223.45
+          "start": 149.02,
+          "end": 149.19
         },
         {
           "text": "the",
-          "start": 223.45,
-          "end": 223.65
+          "start": 149.3,
+          "end": 149.44
         },
         {
-          "text": "early",
-          "start": 223.87,
-          "end": 223.99
-        },
-        {
-          "text": "stages",
-          "start": 223.99,
-          "end": 224.48
-        },
-        {
-          "text": "of",
-          "start": 224.56,
-          "end": 224.62
-        },
-        {
-          "text": "the",
-          "start": 224.62,
-          "end": 224.83
-        },
-        {
-          "text": "analysis",
-          "start": 224.83,
-          "end": 225.4
-        },
-        {
-          "text": "it",
-          "start": 225.4,
-          "end": 225.5
-        },
-        {
-          "text": "looked",
-          "start": 225.54,
-          "end": 225.71
-        },
-        {
-          "text": "like",
-          "start": 226.05,
-          "end": 226.25
-        },
-        {
-          "text": "the",
-          "start": 226.25,
-          "end": 226.36
-        },
-        {
-          "text": "strongest",
-          "start": 226.53,
-          "end": 227.09
-        },
-        {
-          "text": "signal",
-          "start": 227.21,
-          "end": 227.53
-        },
-        {
-          "text": "in",
-          "start": 227.53,
-          "end": 227.67
-        },
-        {
-          "text": "the",
-          "start": 227.67,
-          "end": 227.81
-        },
-        {
-          "text": "whole",
-          "start": 228.03,
-          "end": 228.23
-        },
-        {
-          "text": "dataset.",
-          "start": 228.23,
-          "end": 229
+          "text": "crustaceans.",
+          "start": 149.44,
+          "end": 150.8
         }
       ]
     },
     {
       "id": "37",
-      "text": "Disease. Chitrid fungus has devastated amphibian populations on multiple continents and is one of the most serious wildlife pathogens ever recorded.",
-      "start": 229,
-      "end": 238.2,
-      "durationSeconds": 9.2,
+      "text": "What Howell's team did was go and check what had happened to everything else.",
+      "start": 150.8,
+      "end": 155.16,
+      "durationSeconds": 4.36,
       "words": [
         {
-          "text": "Disease.",
-          "start": 229,
-          "end": 229.64
+          "text": "What",
+          "start": 150.8,
+          "end": 150.82
         },
         {
-          "text": "Chitrid",
-          "start": 229.65,
-          "end": 230
+          "text": "Howell's",
+          "start": 151.33,
+          "end": 151.44
         },
         {
-          "text": "fungus",
-          "start": 230.11,
-          "end": 230.39
+          "text": "team",
+          "start": 151.44,
+          "end": 151.54
         },
         {
-          "text": "has",
-          "start": 230.39,
-          "end": 230.57
+          "text": "did",
+          "start": 151.54,
+          "end": 151.63
         },
         {
-          "text": "devastated",
-          "start": 230.57,
-          "end": 230.99
+          "text": "was",
+          "start": 151.68,
+          "end": 151.88
         },
         {
-          "text": "amphibian",
-          "start": 231.57,
-          "end": 231.81
-        },
-        {
-          "text": "populations",
-          "start": 231.81,
-          "end": 232.28
-        },
-        {
-          "text": "on",
-          "start": 232.6,
-          "end": 232.66
-        },
-        {
-          "text": "multiple",
-          "start": 232.73,
-          "end": 233.12
-        },
-        {
-          "text": "continents",
-          "start": 233.17,
-          "end": 233.77
+          "text": "go",
+          "start": 151.88,
+          "end": 152.01
         },
         {
           "text": "and",
-          "start": 233.86,
-          "end": 234.02
+          "start": 152.01,
+          "end": 152.24
         },
         {
-          "text": "is",
-          "start": 234.02,
-          "end": 234.14
+          "text": "check",
+          "start": 152.24,
+          "end": 152.46
         },
         {
-          "text": "one",
-          "start": 234.15,
-          "end": 234.23
+          "text": "what",
+          "start": 152.54,
+          "end": 152.68
         },
         {
-          "text": "of",
-          "start": 234.39,
-          "end": 234.46
+          "text": "had",
+          "start": 153.01,
+          "end": 153.12
         },
         {
-          "text": "the",
-          "start": 234.5,
-          "end": 234.66
+          "text": "happened",
+          "start": 153.12,
+          "end": 153.59
         },
         {
-          "text": "most",
-          "start": 234.66,
-          "end": 235
+          "text": "to",
+          "start": 153.59,
+          "end": 153.81
         },
         {
-          "text": "serious",
-          "start": 235.1,
-          "end": 235.57
+          "text": "everything",
+          "start": 154.09,
+          "end": 154.56
         },
         {
-          "text": "wildlife",
-          "start": 235.57,
-          "end": 235.99
-        },
-        {
-          "text": "pathogens",
-          "start": 236.57,
-          "end": 236.88
-        },
-        {
-          "text": "ever",
-          "start": 237.05,
-          "end": 237.3
-        },
-        {
-          "text": "recorded.",
-          "start": 237.31,
-          "end": 238.2
+          "text": "else.",
+          "start": 154.59,
+          "end": 155.16
         }
       ]
     },
     {
       "id": "38",
-      "text": "Ranovirus does similar damage. Both were tested.",
-      "start": 238.2,
-      "end": 241.84,
-      "durationSeconds": 3.98,
+      "text": "This is the part of the study that makes it hard to argue with and it's worth walking through slowly because the method is the",
+      "start": 155.16,
+      "end": 161.61,
+      "durationSeconds": 6.45,
       "words": [
         {
-          "text": "Ranovirus",
-          "start": 238.2,
-          "end": 238.95
+          "text": "This",
+          "start": 155.16,
+          "end": 155.21
         },
         {
-          "text": "does",
-          "start": 238.95,
-          "end": 239.25
+          "text": "is",
+          "start": 155.34,
+          "end": 155.43
         },
         {
-          "text": "similar",
-          "start": 239.39,
-          "end": 239.84
+          "text": "the",
+          "start": 155.43,
+          "end": 155.56
         },
         {
-          "text": "damage.",
-          "start": 239.99,
-          "end": 240.56
+          "text": "part",
+          "start": 155.56,
+          "end": 155.68
         },
         {
-          "text": "Both",
-          "start": 240.56,
-          "end": 240.95
+          "text": "of",
+          "start": 155.82,
+          "end": 155.83
         },
         {
-          "text": "were",
-          "start": 240.95,
-          "end": 241.2
+          "text": "the",
+          "start": 155.83,
+          "end": 155.96
         },
         {
-          "text": "tested.",
-          "start": 241.26,
-          "end": 241.84
+          "text": "study",
+          "start": 155.96,
+          "end": 156.22
+        },
+        {
+          "text": "that",
+          "start": 156.32,
+          "end": 156.48
+        },
+        {
+          "text": "makes",
+          "start": 156.48,
+          "end": 156.79
+        },
+        {
+          "text": "it",
+          "start": 156.79,
+          "end": 156.93
+        },
+        {
+          "text": "hard",
+          "start": 156.93,
+          "end": 157.18
+        },
+        {
+          "text": "to",
+          "start": 157.18,
+          "end": 157.25
+        },
+        {
+          "text": "argue",
+          "start": 157.32,
+          "end": 157.46
+        },
+        {
+          "text": "with",
+          "start": 157.79,
+          "end": 157.9
+        },
+        {
+          "text": "and",
+          "start": 157.9,
+          "end": 158.09
+        },
+        {
+          "text": "it's",
+          "start": 158.09,
+          "end": 158.34
+        },
+        {
+          "text": "worth",
+          "start": 158.34,
+          "end": 158.57
+        },
+        {
+          "text": "walking",
+          "start": 158.95,
+          "end": 159.11
+        },
+        {
+          "text": "through",
+          "start": 159.11,
+          "end": 159.45
+        },
+        {
+          "text": "slowly",
+          "start": 159.77,
+          "end": 159.94
+        },
+        {
+          "text": "because",
+          "start": 159.94,
+          "end": 160.35
+        },
+        {
+          "text": "the",
+          "start": 160.41,
+          "end": 160.64
+        },
+        {
+          "text": "method",
+          "start": 160.64,
+          "end": 161.05
+        },
+        {
+          "text": "is",
+          "start": 161.25,
+          "end": 161.34
+        },
+        {
+          "text": "the",
+          "start": 161.4,
+          "end": 161.61
         }
       ]
     },
     {
       "id": "39",
-      "text": "Pollution and other human cause pressures. Contaminants, land use, development at the edges.",
-      "start": 242.18,
-      "end": 247.18,
-      "durationSeconds": 5,
+      "text": "whole reason the conclusion carries weight.",
+      "start": 161.61,
+      "end": 165.22,
+      "durationSeconds": 3.61,
       "words": [
         {
-          "text": "Pollution",
-          "start": 242.18,
-          "end": 242.6
+          "text": "whole",
+          "start": 161.61,
+          "end": 162.06
         },
         {
-          "text": "and",
-          "start": 242.6,
-          "end": 242.77
-        },
-        {
-          "text": "other",
-          "start": 242.77,
-          "end": 243.04
-        },
-        {
-          "text": "human",
-          "start": 243.05,
-          "end": 243.3
-        },
-        {
-          "text": "cause",
-          "start": 243.3,
-          "end": 243.65
-        },
-        {
-          "text": "pressures.",
-          "start": 243.65,
-          "end": 244.33
-        },
-        {
-          "text": "Contaminants,",
-          "start": 244.33,
-          "end": 245.13
-        },
-        {
-          "text": "land",
-          "start": 245.13,
-          "end": 245.36
-        },
-        {
-          "text": "use,",
-          "start": 245.36,
-          "end": 245.64
-        },
-        {
-          "text": "development",
-          "start": 245.64,
-          "end": 246.27
-        },
-        {
-          "text": "at",
-          "start": 246.29,
-          "end": 246.31
+          "text": "reason",
+          "start": 162.06,
+          "end": 162.37
         },
         {
           "text": "the",
-          "start": 246.47,
-          "end": 246.64
+          "start": 162.73,
+          "end": 162.87
         },
         {
-          "text": "edges.",
-          "start": 246.75,
-          "end": 247.18
+          "text": "conclusion",
+          "start": 162.87,
+          "end": 163.43
+        },
+        {
+          "text": "carries",
+          "start": 163.81,
+          "end": 164.41
+        },
+        {
+          "text": "weight.",
+          "start": 164.41,
+          "end": 165.22
         }
       ]
     },
     {
       "id": "40",
-      "text": "Every one of those factors is a legitimate explanation.",
-      "start": 247.18,
-      "end": 250.41,
-      "durationSeconds": 3.32,
+      "text": "The team had their survey data, 2,251 amphibians,",
+      "start": 165.22,
+      "end": 169.85,
+      "durationSeconds": 4.63,
       "words": [
         {
-          "text": "Every",
-          "start": 247.18,
-          "end": 247.52
+          "text": "The",
+          "start": 165.22,
+          "end": 165.39
         },
         {
-          "text": "one",
-          "start": 247.52,
-          "end": 247.66
+          "text": "team",
+          "start": 165.55,
+          "end": 165.82
         },
         {
-          "text": "of",
-          "start": 247.71,
-          "end": 247.85
+          "text": "had",
+          "start": 165.9,
+          "end": 165.99
         },
         {
-          "text": "those",
-          "start": 247.85,
-          "end": 248.21
+          "text": "their",
+          "start": 166.15,
+          "end": 166.54
         },
         {
-          "text": "factors",
-          "start": 248.21,
-          "end": 248.52
+          "text": "survey",
+          "start": 166.54,
+          "end": 167.11
         },
         {
-          "text": "is",
-          "start": 248.69,
-          "end": 248.8
+          "text": "data,",
+          "start": 167.11,
+          "end": 167.65
         },
         {
-          "text": "a",
-          "start": 248.8,
-          "end": 248.85
+          "text": "2,251",
+          "start": 167.65,
+          "end": 169
         },
         {
-          "text": "legitimate",
-          "start": 248.85,
-          "end": 249.54
+          "text": "amphibians,",
+          "start": 169.11,
+          "end": 169.85
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "text": "nine species, 30 sites.",
+      "start": 169.85,
+      "end": 171.77,
+      "durationSeconds": 1.92,
+      "words": [
+        {
+          "text": "nine",
+          "start": 169.85,
+          "end": 170.02
         },
         {
-          "text": "explanation.",
-          "start": 249.54,
-          "end": 250.41
+          "text": "species,",
+          "start": 170.14,
+          "end": 170.77
+        },
+        {
+          "text": "30",
+          "start": 170.77,
+          "end": 171.15
+        },
+        {
+          "text": "sites.",
+          "start": 171.19,
+          "end": 171.77
         }
       ]
     }

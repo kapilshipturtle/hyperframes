@@ -1,0 +1,694 @@
+{
+  "beats": [
+    {
+      "id": "146",
+      "text": "Within Florida, it has now been confirmed as far north as Tampa, which puts the northern Everglades,",
+      "start": 612.76,
+      "end": 618.49,
+      "durationSeconds": 5.73,
+      "words": [
+        {
+          "text": "Within",
+          "start": 612.76,
+          "end": 613.1
+        },
+        {
+          "text": "Florida,",
+          "start": 613.11,
+          "end": 613.63
+        },
+        {
+          "text": "it",
+          "start": 613.63,
+          "end": 613.75
+        },
+        {
+          "text": "has",
+          "start": 613.75,
+          "end": 613.86
+        },
+        {
+          "text": "now",
+          "start": 613.94,
+          "end": 614.04
+        },
+        {
+          "text": "been",
+          "start": 614.19,
+          "end": 614.34
+        },
+        {
+          "text": "confirmed",
+          "start": 614.34,
+          "end": 614.58
+        },
+        {
+          "text": "as",
+          "start": 615,
+          "end": 615.06
+        },
+        {
+          "text": "far",
+          "start": 615.06,
+          "end": 615.27
+        },
+        {
+          "text": "north",
+          "start": 615.27,
+          "end": 615.62
+        },
+        {
+          "text": "as",
+          "start": 615.62,
+          "end": 615.76
+        },
+        {
+          "text": "Tampa,",
+          "start": 615.76,
+          "end": 616.16
+        },
+        {
+          "text": "which",
+          "start": 616.49,
+          "end": 616.6
+        },
+        {
+          "text": "puts",
+          "start": 616.6,
+          "end": 616.8
+        },
+        {
+          "text": "the",
+          "start": 616.97,
+          "end": 617.08
+        },
+        {
+          "text": "northern",
+          "start": 617.12,
+          "end": 617.24
+        },
+        {
+          "text": "Everglades,",
+          "start": 617.66,
+          "end": 618.49
+        }
+      ]
+    },
+    {
+      "id": "147",
+      "text": "the loud part, the part that still sounds the way the whole system used to sound,",
+      "start": 618.49,
+      "end": 623.31,
+      "durationSeconds": 4.82,
+      "words": [
+        {
+          "text": "the",
+          "start": 618.49,
+          "end": 618.69
+        },
+        {
+          "text": "loud",
+          "start": 618.8,
+          "end": 618.98
+        },
+        {
+          "text": "part,",
+          "start": 618.98,
+          "end": 619.38
+        },
+        {
+          "text": "the",
+          "start": 619.42,
+          "end": 619.58
+        },
+        {
+          "text": "part",
+          "start": 619.66,
+          "end": 619.75
+        },
+        {
+          "text": "that",
+          "start": 619.91,
+          "end": 620.08
+        },
+        {
+          "text": "still",
+          "start": 620.17,
+          "end": 620.32
+        },
+        {
+          "text": "sounds",
+          "start": 620.69,
+          "end": 621
+        },
+        {
+          "text": "the",
+          "start": 621,
+          "end": 621.17
+        },
+        {
+          "text": "way",
+          "start": 621.25,
+          "end": 621.42
+        },
+        {
+          "text": "the",
+          "start": 621.42,
+          "end": 621.6
+        },
+        {
+          "text": "whole",
+          "start": 621.64,
+          "end": 621.81
+        },
+        {
+          "text": "system",
+          "start": 622.15,
+          "end": 622.4
+        },
+        {
+          "text": "used",
+          "start": 622.4,
+          "end": 622.68
+        },
+        {
+          "text": "to",
+          "start": 622.68,
+          "end": 622.81
+        },
+        {
+          "text": "sound,",
+          "start": 622.81,
+          "end": 623.31
+        }
+      ]
+    },
+    {
+      "id": "148",
+      "text": "directly in its path. There's a version of this story where the lesson is that the python was a distraction,",
+      "start": 623.31,
+      "end": 629.43,
+      "durationSeconds": 6.12,
+      "words": [
+        {
+          "text": "directly",
+          "start": 623.31,
+          "end": 623.81
+        },
+        {
+          "text": "in",
+          "start": 623.81,
+          "end": 623.92
+        },
+        {
+          "text": "its",
+          "start": 624.13,
+          "end": 624.23
+        },
+        {
+          "text": "path.",
+          "start": 624.23,
+          "end": 624.8
+        },
+        {
+          "text": "There's",
+          "start": 624.97,
+          "end": 625.23
+        },
+        {
+          "text": "a",
+          "start": 625.23,
+          "end": 625.32
+        },
+        {
+          "text": "version",
+          "start": 625.32,
+          "end": 625.72
+        },
+        {
+          "text": "of",
+          "start": 625.84,
+          "end": 625.88
+        },
+        {
+          "text": "this",
+          "start": 625.98,
+          "end": 626.14
+        },
+        {
+          "text": "story",
+          "start": 626.14,
+          "end": 626.45
+        },
+        {
+          "text": "where",
+          "start": 626.45,
+          "end": 626.78
+        },
+        {
+          "text": "the",
+          "start": 626.78,
+          "end": 626.9
+        },
+        {
+          "text": "lesson",
+          "start": 626.98,
+          "end": 627.11
+        },
+        {
+          "text": "is",
+          "start": 627.45,
+          "end": 627.49
+        },
+        {
+          "text": "that",
+          "start": 627.49,
+          "end": 627.75
+        },
+        {
+          "text": "the",
+          "start": 627.75,
+          "end": 627.94
+        },
+        {
+          "text": "python",
+          "start": 627.94,
+          "end": 628.23
+        },
+        {
+          "text": "was",
+          "start": 628.48,
+          "end": 628.52
+        },
+        {
+          "text": "a",
+          "start": 628.52,
+          "end": 628.61
+        },
+        {
+          "text": "distraction,",
+          "start": 628.61,
+          "end": 629.41
+        }
+      ]
+    },
+    {
+      "id": "149",
+      "text": "and that's not right. The python did exactly what everyone said it did.",
+      "start": 629.43,
+      "end": 633.55,
+      "durationSeconds": 4.12,
+      "words": [
+        {
+          "text": "and",
+          "start": 629.43,
+          "end": 629.6
+        },
+        {
+          "text": "that's",
+          "start": 629.6,
+          "end": 629.97
+        },
+        {
+          "text": "not",
+          "start": 629.97,
+          "end": 630.13
+        },
+        {
+          "text": "right.",
+          "start": 630.27,
+          "end": 630.71
+        },
+        {
+          "text": "The",
+          "start": 630.71,
+          "end": 630.93
+        },
+        {
+          "text": "python",
+          "start": 630.93,
+          "end": 631.23
+        },
+        {
+          "text": "did",
+          "start": 631.23,
+          "end": 631.41
+        },
+        {
+          "text": "exactly",
+          "start": 631.49,
+          "end": 631.81
+        },
+        {
+          "text": "what",
+          "start": 631.92,
+          "end": 632.06
+        },
+        {
+          "text": "everyone",
+          "start": 632.39,
+          "end": 632.7
+        },
+        {
+          "text": "said",
+          "start": 632.87,
+          "end": 632.98
+        },
+        {
+          "text": "it",
+          "start": 633.02,
+          "end": 633.12
+        },
+        {
+          "text": "did.",
+          "start": 633.12,
+          "end": 633.53
+        }
+      ]
+    },
+    {
+      "id": "150",
+      "text": "95% of the small mammals in Everglades National Park are gone, and the snake took them.",
+      "start": 633.55,
+      "end": 639.75,
+      "durationSeconds": 6.2,
+      "words": [
+        {
+          "text": "95%",
+          "start": 633.55,
+          "end": 634
+        },
+        {
+          "text": "of",
+          "start": 634,
+          "end": 634.12
+        },
+        {
+          "text": "the",
+          "start": 634.12,
+          "end": 634.15
+        },
+        {
+          "text": "small",
+          "start": 634.37,
+          "end": 634.59
+        },
+        {
+          "text": "mammals",
+          "start": 634.68,
+          "end": 635.05
+        },
+        {
+          "text": "in",
+          "start": 635.21,
+          "end": 635.28
+        },
+        {
+          "text": "Everglades",
+          "start": 635.28,
+          "end": 635.94
+        },
+        {
+          "text": "National",
+          "start": 635.94,
+          "end": 636.2
+        },
+        {
+          "text": "Park",
+          "start": 636.79,
+          "end": 637.03
+        },
+        {
+          "text": "are",
+          "start": 637.03,
+          "end": 637.27
+        },
+        {
+          "text": "gone,",
+          "start": 637.35,
+          "end": 637.71
+        },
+        {
+          "text": "and",
+          "start": 637.77,
+          "end": 637.92
+        },
+        {
+          "text": "the",
+          "start": 638.25,
+          "end": 638.33
+        },
+        {
+          "text": "snake",
+          "start": 638.33,
+          "end": 638.76
+        },
+        {
+          "text": "took",
+          "start": 638.76,
+          "end": 639.03
+        },
+        {
+          "text": "them.",
+          "start": 639.41,
+          "end": 639.75
+        }
+      ]
+    },
+    {
+      "id": "151",
+      "text": "The real lesson is narrower and worse.",
+      "start": 639.75,
+      "end": 642.88,
+      "durationSeconds": 3.13,
+      "words": [
+        {
+          "text": "The",
+          "start": 639.75,
+          "end": 640
+        },
+        {
+          "text": "real",
+          "start": 640.23,
+          "end": 640.4
+        },
+        {
+          "text": "lesson",
+          "start": 640.4,
+          "end": 640.91
+        },
+        {
+          "text": "is",
+          "start": 641.07,
+          "end": 641.13
+        },
+        {
+          "text": "narrower",
+          "start": 641.13,
+          "end": 641.81
+        },
+        {
+          "text": "and",
+          "start": 641.89,
+          "end": 642.06
+        },
+        {
+          "text": "worse.",
+          "start": 642.6,
+          "end": 642.88
+        }
+      ]
+    },
+    {
+      "id": "152",
+      "text": "Florida built an entire apparatus of attention around one animal.",
+      "start": 642.88,
+      "end": 646.85,
+      "durationSeconds": 3.97,
+      "words": [
+        {
+          "text": "Florida",
+          "start": 642.88,
+          "end": 643.03
+        },
+        {
+          "text": "built",
+          "start": 643.03,
+          "end": 643.31
+        },
+        {
+          "text": "an",
+          "start": 643.31,
+          "end": 643.46
+        },
+        {
+          "text": "entire",
+          "start": 643.46,
+          "end": 643.9
+        },
+        {
+          "text": "apparatus",
+          "start": 643.94,
+          "end": 644.62
+        },
+        {
+          "text": "of",
+          "start": 644.62,
+          "end": 644.77
+        },
+        {
+          "text": "attention",
+          "start": 644.77,
+          "end": 645.24
+        },
+        {
+          "text": "around",
+          "start": 645.65,
+          "end": 645.82
+        },
+        {
+          "text": "one",
+          "start": 645.93,
+          "end": 646.16
+        },
+        {
+          "text": "animal.",
+          "start": 646.16,
+          "end": 646.85
+        }
+      ]
+    },
+    {
+      "id": "153",
+      "text": "Funding, hunters, competitions, robotic decoys, 25 years of coverage.",
+      "start": 646.85,
+      "end": 652.23,
+      "durationSeconds": 5.38,
+      "words": [
+        {
+          "text": "Funding,",
+          "start": 646.85,
+          "end": 647.54
+        },
+        {
+          "text": "hunters,",
+          "start": 647.54,
+          "end": 648.23
+        },
+        {
+          "text": "competitions,",
+          "start": 648.23,
+          "end": 649.4
+        },
+        {
+          "text": "robotic",
+          "start": 649.5,
+          "end": 649.91
+        },
+        {
+          "text": "decoys,",
+          "start": 649.91,
+          "end": 650.43
+        },
+        {
+          "text": "25",
+          "start": 650.51,
+          "end": 650.62
+        },
+        {
+          "text": "years",
+          "start": 650.97,
+          "end": 651.28
+        },
+        {
+          "text": "of",
+          "start": 651.28,
+          "end": 651.45
+        },
+        {
+          "text": "coverage.",
+          "start": 651.45,
+          "end": 652.23
+        }
+      ]
+    },
+    {
+      "id": "154",
+      "text": "And that apparatus was accurate.",
+      "start": 652.23,
+      "end": 654.42,
+      "durationSeconds": 2.19,
+      "words": [
+        {
+          "text": "And",
+          "start": 652.23,
+          "end": 652.45
+        },
+        {
+          "text": "that",
+          "start": 652.45,
+          "end": 652.72
+        },
+        {
+          "text": "apparatus",
+          "start": 652.95,
+          "end": 653.4
+        },
+        {
+          "text": "was",
+          "start": 653.4,
+          "end": 653.62
+        },
+        {
+          "text": "accurate.",
+          "start": 653.79,
+          "end": 654.42
+        }
+      ]
+    },
+    {
+      "id": "155",
+      "text": "It just wasn't the only thing happening.",
+      "start": 654.42,
+      "end": 657,
+      "durationSeconds": 2.58,
+      "words": [
+        {
+          "text": "It",
+          "start": 654.42,
+          "end": 654.55
+        },
+        {
+          "text": "just",
+          "start": 654.55,
+          "end": 654.78
+        },
+        {
+          "text": "wasn't",
+          "start": 654.88,
+          "end": 655.36
+        },
+        {
+          "text": "the",
+          "start": 655.45,
+          "end": 655.55
+        },
+        {
+          "text": "only",
+          "start": 655.6,
+          "end": 655.83
+        },
+        {
+          "text": "thing",
+          "start": 655.83,
+          "end": 656.17
+        },
+        {
+          "text": "happening.",
+          "start": 656.17,
+          "end": 657
+        }
+      ]
+    }
+  ]
+}

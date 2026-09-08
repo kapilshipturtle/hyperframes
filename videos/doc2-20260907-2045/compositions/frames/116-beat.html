@@ -98,28 +98,27 @@
     .broll-vignette {
       position: absolute;
       inset: 0;
-      background: radial-gradient(ellipse at center, rgba(0,0,0,0) 45%, rgba(0,0,0,0.542) 100%);
+      background: radial-gradient(ellipse at center, rgba(0,0,0,0) 45%, rgba(0,0,0,0.378) 100%);
       pointer-events: none;
     }
 
-    .ov-kf { position: absolute; left: 50%; display: flex; gap: 0.32em; font: 800 1em/1.1 "Inter", "Montserrat", -apple-system, sans-serif; font-size: 118px; text-transform: capitalize; opacity: 0; white-space: nowrap; }
-    .ov-kf-center { top: 50%; transform: translate(-50%, -50%); }
-    .ov-kf-lower-center { bottom: 150px; transform: translateX(-50%); }
-    .ov-kf-w { background: #111111; color: #ffffff; padding: 0.28em 0.6em; border-radius: 6px; }
-    .ov-kf-acc { color: #ffd23f; }
+    .ov-lower-third { position: absolute; left: 0; right: 0; bottom: 92px; display: flex; padding: 0 64px; }
+    .ov-lt-card { display: flex; align-items: center; gap: 18px; padding: 22px 34px; border-radius: 10px; background: rgba(10,10,14,0.72); box-shadow: 0 10px 28px rgba(0,0,0,0.35); opacity: 0; transform: translateX(-14px); }
+    .ov-lt-bar { display: block; width: 5px; height: 40px; background: #ffffff; border-radius: 2.5px; transform-origin: 50% 0%; transform: scaleY(0); }
+    .ov-lt-text { font: 700 38px/1 -apple-system, "Inter", sans-serif; letter-spacing: 0.01em; color: #ffffff; opacity: 0; }
   </style>
 
   <div
     id="root"
     data-composition-id="116-beat"
-    data-width="1920" data-height="1080" data-duration="8.75"
+    data-width="1920" data-height="1080" data-duration="2.73"
   >
     <div class="broll-wrap" id="f-116-beat-wrap">
-      <video id="f-116-beat-media" class="broll-media clip broll-bw" src=".media/broll/beat-116.mp4" muted playsinline data-start="0" data-duration="8.75" data-media-start="0" data-track-index="0"></video>
+      <video id="f-116-beat-media" class="broll-media clip broll-bw broll-g-hc" src=".media/broll/beat-116.mp4" muted playsinline data-start="0" data-duration="2.73" data-media-start="0" data-track-index="0"></video>
     </div>
-    <div class="broll-scrim clip" id="f-116-beat-scrim" data-start="0" data-duration="8.75" data-track-index="1"></div>
-    <div class="broll-vignette clip" id="f-116-beat-vignette" data-start="0" data-duration="8.75" data-track-index="3"></div>
-    <div class="ov-kf ov-kf-center" id="f-116-beat-ov"><span class="ov-kf-w" id="f-116-beat-ov-w0">HOLLOWED</span></div>
+    <div class="broll-scrim clip" id="f-116-beat-scrim" data-start="0" data-duration="2.73" data-track-index="1"></div>
+    <div class="broll-vignette clip" id="f-116-beat-vignette" data-start="0" data-duration="2.73" data-track-index="3"></div>
+    <div class="ov-lower-third" id="f-116-beat-ov"><div class="ov-lt-card" id="f-116-beat-ov-card"><span class="ov-lt-bar" id="f-116-beat-ov-bar"></span><span class="ov-lt-text" id="f-116-beat-ov-text">PHYSICAL REMOVAL</span></div></div>
   </div>
 
   <script>
@@ -128,8 +127,10 @@
       var tl = gsap.timeline({ paused: true });
       var wrap = document.getElementById("f-116-beat-wrap");
       gsap.set(wrap, { scale: 1.0 });
-      tl.set("#f-116-beat-ov", { opacity: 1 }, 1.40);
-      tl.fromTo("#f-116-beat-ov-w0", { opacity: 0 }, { opacity: 1, duration: 0.22, ease: "power2.out" }, 1.40);
+      tl.fromTo("#f-116-beat-ov-card", { opacity: 0, x: -14 }, { opacity: 1, x: 0, duration: 0.4, ease: "power3.out" }, 0.72);
+      tl.to("#f-116-beat-ov-bar", { scaleY: 1, duration: 0.36, ease: "power3.out" }, 0.90);
+      tl.to("#f-116-beat-ov-text", { opacity: 1, duration: 0.34, ease: "power3.out" }, 1.02);
+      tl.to("#f-116-beat-ov-card", { opacity: 0, x: -10, duration: 0.32, ease: "power2.in" }, 2.03);
       window.__timelines["116-beat"] = tl;
     })();
   </script>

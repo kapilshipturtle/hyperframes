@@ -98,21 +98,27 @@
     .broll-vignette {
       position: absolute;
       inset: 0;
-      background: radial-gradient(ellipse at center, rgba(0,0,0,0) 45%, rgba(0,0,0,0.542) 100%);
+      background: radial-gradient(ellipse at center, rgba(0,0,0,0) 45%, rgba(0,0,0,0.378) 100%);
       pointer-events: none;
     }
+
+    .ov-map-scrim { position: absolute; left: 0; top: 0; width: 480px; height: 200px; background: radial-gradient(ellipse at top left, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.22) 60%, rgba(0,0,0,0) 88%); opacity: 0; pointer-events: none; }
+    .ov-map-tag { position: absolute; left: 72px; top: 96px; display: flex; align-items: center; gap: 10px; opacity: 0; }
+    .ov-map-pin { width: 30px; height: 30px; color: #ffffff; filter: drop-shadow(0 2px 6px rgba(0,0,0,0.5)); transform-origin: 50% 90%; }
+    .ov-map-place { font: 700 28px/1 -apple-system, "Inter", sans-serif; color: #ffffff; text-shadow: 0 1px 2px rgba(0,0,0,0.5), 0 4px 14px rgba(0,0,0,0.4); }
   </style>
 
   <div
     id="root"
     data-composition-id="05-beat"
-    data-width="1920" data-height="1080" data-duration="4.86"
+    data-width="1920" data-height="1080" data-duration="6.48"
   >
-    <div class="broll-wrap clip" id="f-05-beat-wrap" data-start="0" data-duration="4.86" data-track-index="0">
-      <img id="f-05-beat-media" class="broll-media broll-g-cool" src=".media/broll/beat-15.jpg" />
+    <div class="broll-wrap" id="f-05-beat-wrap">
+      <video id="f-05-beat-media" class="broll-media clip broll-bw" src=".media/broll/beat-16.mp4" muted playsinline data-start="0" data-duration="6.48" data-media-start="0" data-track-index="0"></video>
     </div>
-    <div class="broll-scrim clip" id="f-05-beat-scrim" data-start="0" data-duration="4.86" data-track-index="1"></div>
-    <div class="broll-vignette clip" id="f-05-beat-vignette" data-start="0" data-duration="4.86" data-track-index="3"></div>
+    <div class="broll-scrim clip" id="f-05-beat-scrim" data-start="0" data-duration="6.48" data-track-index="1"></div>
+    <div class="broll-vignette clip" id="f-05-beat-vignette" data-start="0" data-duration="6.48" data-track-index="3"></div>
+    <div class="ov-map-scrim" id="f-05-beat-ov-scrim"></div><div class="ov-map-tag" id="f-05-beat-ov"><span class="ov-map-pin" id="f-05-beat-ov-pin"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-7.2-7-12a7 7 0 1 1 14 0c0 4.8-7 12-7 12z"/><circle cx="12" cy="9" r="2.5" fill="currentColor" stroke="none"/></svg></span><span class="ov-map-place" id="f-05-beat-ov-place">TAYLOR SLOUGH</span></div>
   </div>
 
   <script>
@@ -120,9 +126,14 @@
       window.__timelines = window.__timelines || {};
       var tl = gsap.timeline({ paused: true });
       var wrap = document.getElementById("f-05-beat-wrap");
-      tl.fromTo(wrap, { scale: 1.16, x: 55 }, { scale: 1.16, x: -55, duration: 4.61, ease: "none" }, 0);
-      tl.to("#f-05-beat-media", { scale: 1.193, duration: 0.09, ease: "power3.out" }, 2.06);
-      tl.to("#f-05-beat-media", { scale: 1.350, duration: 0.09, ease: "power3.out" }, 3.16);
+      gsap.set(wrap, { scale: 1.0 });
+      tl.to("#f-05-beat-media", { scale: 1.350, duration: 0.09, ease: "power3.out" }, 2.25);
+      tl.to("#f-05-beat-ov-scrim", { opacity: 1, duration: 0.4, ease: "power2.out" }, 1.30);
+      tl.to("#f-05-beat-ov", { opacity: 1, duration: 0.01 }, 1.40);
+      tl.fromTo("#f-05-beat-ov-pin", { scale: 0, y: -10 }, { scale: 1, y: 0, duration: 0.4, ease: "back.out(1.6)" }, 1.40);
+      tl.fromTo("#f-05-beat-ov-place", { opacity: 0, x: -8 }, { opacity: 1, x: 0, duration: 0.3, ease: "power3.out" }, 1.55);
+      tl.to("#f-05-beat-ov", { opacity: 0, duration: 0.3, ease: "power2.in" }, 5.98);
+      tl.to("#f-05-beat-ov-scrim", { opacity: 0, duration: 0.4, ease: "power2.in" }, 6.13);
       window.__timelines["05-beat"] = tl;
     })();
   </script>

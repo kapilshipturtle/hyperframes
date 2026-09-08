@@ -1,518 +1,746 @@
 {
- "01": {
-  "signal": "keyword",
-  "text": "CRAYFISH",
-  "reason": "echoes the stressed word 'crayfish' in this line"
- },
- "02": {
-  "signal": "none",
-  "reason": "scene-setting prose \u2014 footage carries it, no card"
- },
- "03": {
-  "signal": "keyword",
-  "text": "WINDOW",
-  "reason": "echoes the stressed word 'window' in this line"
- },
- "04": {
-  "signal": "pivot-or-thesis",
-  "text": "It is the engine. It is the reason the Everglades could su",
-  "reason": "a turn in the argument"
- },
- "05": {
-  "signal": "none",
-  "reason": "scene-setting prose \u2014 footage carries it, no card"
- },
- "06": {
-  "signal": "pivot-or-thesis",
-  "text": "Now watch what happens when you add an animal that doesn't",
-  "reason": "a turn in the argument"
- },
- "07": {
-  "signal": "jargon",
-  "term": "Swamp eel",
-  "text": "air-breathing, so a drying pool is not a barrier",
-  "reason": "the mechanism the whole film turns on"
- },
- "08": {
-  "signal": "keyword",
-  "text": "MUD",
-  "reason": "echoes the stressed word 'mud' in this line"
- },
- "09": {
-  "signal": "none",
-  "reason": "scene-setting prose \u2014 footage carries it, no card"
- },
- "10": {
-  "signal": "none",
-  "reason": "scene-setting prose \u2014 footage carries it, no card"
- },
- "11": {
-  "signal": "named-entity",
-  "text": "Taylor Slough",
-  "reason": "the specific place the collapse was measured"
- },
- "12": {
-  "signal": "none",
-  "reason": "scene-setting prose \u2014 footage carries it, no card"
- },
- "13": {
-  "signal": "none",
-  "reason": "scene-setting prose \u2014 footage carries it, no card"
- },
- "14": {
-  "signal": "keyword",
-  "text": "LAYER",
-  "reason": "echoes the stressed word 'layer' in this line"
- },
- "15": {
-  "signal": "none",
-  "reason": "scene-setting prose \u2014 footage carries it, no card"
- },
- "16": {
-  "signal": "none",
-  "reason": "scene-setting prose \u2014 footage carries it, no card"
- },
- "17": {
-  "signal": "keyword",
-  "text": "ALTITUDE",
-  "reason": "echoes the stressed word 'altitude' in this line"
- },
- "18": {
-  "signal": "none",
-  "reason": "scene-setting prose \u2014 footage carries it, no card"
- },
- "19": {
-  "signal": "year-stamp",
-  "text": "2023",
-  "position": "lower-right",
-  "reason": "dates the study being described"
- },
- "20": {
-  "signal": "statistic",
-  "text": "93%",
-  "kicker": "OF SMALL AQUATIC LIFE LOST",
-  "reason": "the study's headline collapse figure"
- },
- "21": {
-  "signal": "keyword",
-  "text": "CURRENCY",
-  "reason": "echoes the stressed word 'currency' in this line"
- },
- "22": {
-  "signal": "none",
-  "reason": "scene-setting prose \u2014 footage carries it, no card"
- },
- "23": {
-  "signal": "keyword",
-  "text": "LAYER",
-  "reason": "echoes the stressed word 'layer' in this line"
- },
- "24": {
-  "signal": "year-stamp",
-  "text": "2023",
-  "position": "lower-right",
-  "reason": "dates the study being described"
- },
- "25": {
-  "signal": "none",
-  "reason": "scene-setting prose \u2014 footage carries it, no card"
- },
- "26": {
-  "signal": "none",
-  "reason": "scene-setting prose \u2014 footage carries it, no card"
- },
- "27": {
-  "signal": "statistic",
-  "text": "2,251",
-  "kicker": "AMPHIBIANS SURVEYED",
-  "reason": "the survey's sample size \u2014 what makes the finding hard to argue with"
- },
- "28": {
-  "signal": "named-entity",
-  "text": "Taylor Slough",
-  "reason": "the specific place the collapse was measured"
- },
- "29": {
-  "signal": "none",
-  "reason": "scene-setting prose \u2014 footage carries it, no card"
- },
- "30": {
-  "signal": "keyword",
-  "text": "MODEL",
-  "reason": "echoes the stressed word 'model' in this line"
- },
- "31": {
-  "signal": "none",
-  "reason": "scene-setting prose \u2014 footage carries it, no card"
- },
- "32": {
-  "signal": "none",
-  "reason": "scene-setting prose \u2014 footage carries it, no card"
- },
- "33": {
-  "signal": "none",
-  "reason": "scene-setting prose \u2014 footage carries it, no card"
- },
- "34": {
-  "signal": "none",
-  "reason": "scene-setting prose \u2014 footage carries it, no card"
- },
- "35": {
-  "signal": "none",
-  "reason": "scene-setting prose \u2014 footage carries it, no card"
- },
- "36": {
-  "signal": "none",
-  "reason": "scene-setting prose \u2014 footage carries it, no card"
- },
- "37": {
-  "signal": "jargon",
-  "term": "Chytrid fungus",
-  "text": "a leading global amphibian killer \u2014 tested and ruled out",
-  "reason": "names the alternative explanation being eliminated"
- },
- "38": {
-  "signal": "jargon",
-  "term": "Chytrid fungus",
-  "text": "a leading global amphibian killer \u2014 tested and ruled out",
-  "reason": "names the alternative explanation being eliminated"
- },
- "39": {
-  "signal": "none",
-  "reason": "scene-setting prose \u2014 footage carries it, no card"
- },
- "40": {
-  "signal": "none",
-  "reason": "scene-setting prose \u2014 footage carries it, no card"
- },
- "41": {
-  "signal": "keyword",
-  "text": "STUDY",
-  "reason": "echoes the stressed word 'study' in this line"
- },
- "42": {
-  "signal": "none",
-  "reason": "scene-setting prose \u2014 footage carries it, no card"
- },
- "43": {
-  "signal": "none",
-  "reason": "scene-setting prose \u2014 footage carries it, no card"
- },
- "44": {
-  "signal": "none",
-  "reason": "scene-setting prose \u2014 footage carries it, no card"
- },
- "45": {
-  "signal": "none",
-  "reason": "scene-setting prose \u2014 footage carries it, no card"
- },
- "46": {
-  "signal": "keyword",
-  "text": "EEL",
-  "reason": "echoes the stressed word 'eel' in this line"
- },
- "47": {
-  "signal": "pivot-or-thesis",
-  "text": "That's the finding. Not that swamp eels are one of several",
-  "reason": "a turn in the argument"
- },
- "48": {
-  "signal": "none",
-  "reason": "scene-setting prose \u2014 footage carries it, no card"
- },
- "49": {
-  "signal": "none",
-  "reason": "scene-setting prose \u2014 footage carries it, no card"
- },
- "50": {
-  "signal": "none",
-  "reason": "scene-setting prose \u2014 footage carries it, no card"
- },
- "51": {
-  "signal": "keyword",
-  "text": "ABUNDANCE",
-  "reason": "echoes the stressed word 'abundance' in this line"
- },
- "52": {
-  "signal": "none",
-  "reason": "scene-setting prose \u2014 footage carries it, no card"
- },
- "53": {
-  "signal": "none",
-  "reason": "scene-setting prose \u2014 footage carries it, no card"
- },
- "54": {
-  "signal": "keyword",
-  "text": "FROG",
-  "reason": "echoes the stressed word 'frog' in this line"
- },
- "55": {
-  "signal": "none",
-  "reason": "scene-setting prose \u2014 footage carries it, no card"
- },
- "56": {
-  "signal": "none",
-  "reason": "scene-setting prose \u2014 footage carries it, no card"
- },
- "57": {
-  "signal": "none",
-  "reason": "scene-setting prose \u2014 footage carries it, no card"
- },
- "58": {
-  "signal": "none",
-  "reason": "scene-setting prose \u2014 footage carries it, no card"
- },
- "59": {
-  "signal": "keyword",
-  "text": "EEL",
-  "reason": "echoes the stressed word 'eel' in this line"
- },
- "60": {
-  "signal": "none",
-  "reason": "scene-setting prose \u2014 footage carries it, no card"
- },
- "61": {
-  "signal": "none",
-  "reason": "scene-setting prose \u2014 footage carries it, no card"
- },
- "62": {
-  "signal": "keyword",
-  "text": "PREY",
-  "reason": "echoes the stressed word 'prey' in this line"
- },
- "63": {
-  "signal": "none",
-  "reason": "scene-setting prose \u2014 footage carries it, no card"
- },
- "64": {
-  "signal": "keyword",
-  "text": "INVASION",
-  "reason": "echoes the stressed word 'invasion' in this line"
- },
- "65": {
-  "signal": "none",
-  "reason": "scene-setting prose \u2014 footage carries it, no card"
- },
- "66": {
-  "signal": "none",
-  "reason": "scene-setting prose \u2014 footage carries it, no card"
- },
- "67": {
-  "signal": "none",
-  "reason": "scene-setting prose \u2014 footage carries it, no card"
- },
- "68": {
-  "signal": "keyword",
-  "text": "SITES",
-  "reason": "echoes the stressed word 'sites' in this line"
- },
- "69": {
-  "signal": "none",
-  "reason": "scene-setting prose \u2014 footage carries it, no card"
- },
- "70": {
-  "signal": "none",
-  "reason": "scene-setting prose \u2014 footage carries it, no card"
- },
- "71": {
-  "signal": "none",
-  "reason": "scene-setting prose \u2014 footage carries it, no card"
- },
- "72": {
-  "signal": "none",
-  "reason": "scene-setting prose \u2014 footage carries it, no card"
- },
- "73": {
-  "signal": "none",
-  "reason": "scene-setting prose \u2014 footage carries it, no card"
- },
- "74": {
-  "signal": "none",
-  "reason": "scene-setting prose \u2014 footage carries it, no card"
- },
- "75": {
-  "signal": "none",
-  "reason": "scene-setting prose \u2014 footage carries it, no card"
- },
- "76": {
-  "signal": "none",
-  "reason": "scene-setting prose \u2014 footage carries it, no card"
- },
- "77": {
-  "signal": "none",
-  "reason": "scene-setting prose \u2014 footage carries it, no card"
- },
- "78": {
-  "signal": "none",
-  "reason": "scene-setting prose \u2014 footage carries it, no card"
- },
- "79": {
-  "signal": "none",
-  "reason": "scene-setting prose \u2014 footage carries it, no card"
- },
- "80": {
-  "signal": "keyword",
-  "text": "MUD",
-  "reason": "echoes the stressed word 'mud' in this line"
- },
- "81": {
-  "signal": "none",
-  "reason": "scene-setting prose \u2014 footage carries it, no card"
- },
- "82": {
-  "signal": "none",
-  "reason": "scene-setting prose \u2014 footage carries it, no card"
- },
- "83": {
-  "signal": "none",
-  "reason": "scene-setting prose \u2014 footage carries it, no card"
- },
- "84": {
-  "signal": "none",
-  "reason": "scene-setting prose \u2014 footage carries it, no card"
- },
- "85": {
-  "signal": "none",
-  "reason": "scene-setting prose \u2014 footage carries it, no card"
- },
- "86": {
-  "signal": "none",
-  "reason": "scene-setting prose \u2014 footage carries it, no card"
- },
- "87": {
-  "signal": "keyword",
-  "text": "WADING",
-  "reason": "echoes the stressed word 'Wading' in this line"
- },
- "88": {
-  "signal": "none",
-  "reason": "scene-setting prose \u2014 footage carries it, no card"
- },
- "89": {
-  "signal": "none",
-  "reason": "scene-setting prose \u2014 footage carries it, no card"
- },
- "90": {
-  "signal": "none",
-  "reason": "scene-setting prose \u2014 footage carries it, no card"
- },
- "91": {
-  "signal": "none",
-  "reason": "scene-setting prose \u2014 footage carries it, no card"
- },
- "92": {
-  "signal": "none",
-  "reason": "scene-setting prose \u2014 footage carries it, no card"
- },
- "93": {
-  "signal": "none",
-  "reason": "scene-setting prose \u2014 footage carries it, no card"
- },
- "94": {
-  "signal": "none",
-  "reason": "scene-setting prose \u2014 footage carries it, no card"
- },
- "95": {
-  "signal": "none",
-  "reason": "scene-setting prose \u2014 footage carries it, no card"
- },
- "96": {
-  "signal": "none",
-  "reason": "scene-setting prose \u2014 footage carries it, no card"
- },
- "97": {
-  "signal": "none",
-  "reason": "scene-setting prose \u2014 footage carries it, no card"
- },
- "98": {
-  "signal": "none",
-  "reason": "scene-setting prose \u2014 footage carries it, no card"
- },
- "99": {
-  "signal": "none",
-  "reason": "scene-setting prose \u2014 footage carries it, no card"
- },
- "100": {
-  "signal": "none",
-  "reason": "scene-setting prose \u2014 footage carries it, no card"
- },
- "101": {
-  "signal": "statistic",
-  "text": "95%",
-  "kicker": "OF SMALL AQUATIC LIFE LOST",
-  "reason": "the study's headline collapse figure"
- },
- "102": {
-  "signal": "none",
-  "reason": "scene-setting prose \u2014 footage carries it, no card"
- },
- "103": {
-  "signal": "none",
-  "reason": "scene-setting prose \u2014 footage carries it, no card"
- },
- "104": {
-  "signal": "none",
-  "reason": "scene-setting prose \u2014 footage carries it, no card"
- },
- "105": {
-  "signal": "none",
-  "reason": "scene-setting prose \u2014 footage carries it, no card"
- },
- "106": {
-  "signal": "none",
-  "reason": "scene-setting prose \u2014 footage carries it, no card"
- },
- "107": {
-  "signal": "none",
-  "reason": "scene-setting prose \u2014 footage carries it, no card"
- },
- "108": {
-  "signal": "keyword",
-  "text": "LAYER",
-  "reason": "echoes the stressed word 'layer' in this line"
- },
- "109": {
-  "signal": "none",
-  "reason": "scene-setting prose \u2014 footage carries it, no card"
- },
- "110": {
-  "signal": "none",
-  "reason": "scene-setting prose \u2014 footage carries it, no card"
- },
- "111": {
-  "signal": "year-stamp",
-  "text": "2025",
-  "position": "lower-right",
-  "reason": "dates the study being described"
- },
- "112": {
-  "signal": "none",
-  "reason": "scene-setting prose \u2014 footage carries it, no card"
- },
- "113": {
-  "signal": "none",
-  "reason": "scene-setting prose \u2014 footage carries it, no card"
- },
- "114": {
-  "signal": "none",
-  "reason": "scene-setting prose \u2014 footage carries it, no card"
- },
- "115": {
-  "signal": "none",
-  "reason": "scene-setting prose \u2014 footage carries it, no card"
- },
- "116": {
-  "signal": "keyword",
-  "text": "HOLLOWED",
-  "reason": "echoes the stressed word 'hollowed' in this line"
- },
- "117": {
-  "signal": "pivot-or-thesis",
-  "text": "A barrier that cost over a billion dollars, built to stop ",
-  "reason": "a turn in the argument"
- },
- "118": {
-  "signal": "none",
-  "reason": "scene-setting prose \u2014 footage carries it, no card"
- }
+  "01": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "02": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "03": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "04": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "05": {
+    "signal": "keyword",
+    "text": "THE ENGINE",
+    "reason": "blunt verdict / named mechanism in this line"
+  },
+  "06": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "07": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "08": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "09": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "10": {
+    "signal": "keyword",
+    "text": "BREATHES AIR",
+    "reason": "blunt verdict / named mechanism in this line"
+  },
+  "11": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "12": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "13": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "14": {
+    "signal": "keyword",
+    "text": "PREDATORS LEAVE",
+    "reason": "blunt verdict / named mechanism in this line"
+  },
+  "15": {
+    "signal": "keyword",
+    "text": "THIS ONE STAYS",
+    "reason": "blunt verdict / named mechanism in this line"
+  },
+  "16": {
+    "signal": "keyword",
+    "text": "TAYLOR SLOUGH",
+    "reason": "hard fact in this line"
+  },
+  "17": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "18": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "19": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "20": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "21": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "22": {
+    "signal": "keyword",
+    "text": "EELS DON'T CLIMB",
+    "reason": "blunt verdict / named mechanism in this line"
+  },
+  "23": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "24": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "25": {
+    "signal": "keyword",
+    "text": "RIGHT ALTITUDE",
+    "reason": "blunt verdict / named mechanism in this line"
+  },
+  "26": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "27": {
+    "signal": "stat",
+    "text": "2023",
+    "reason": "hard fact in this line"
+  },
+  "28": {
+    "signal": "stat",
+    "text": "85-93% GONE",
+    "reason": "hard fact in this line"
+  },
+  "29": {
+    "signal": "stat",
+    "text": "85-93% GONE",
+    "reason": "hard fact in this line"
+  },
+  "30": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "31": {
+    "signal": "keyword",
+    "text": "THE CURRENCY",
+    "reason": "blunt verdict / named mechanism in this line"
+  },
+  "32": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "33": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "34": {
+    "signal": "keyword",
+    "text": "NOT A SPECIES",
+    "reason": "blunt verdict / named mechanism in this line"
+  },
+  "35": {
+    "signal": "keyword",
+    "text": "THE FOUNDATION",
+    "reason": "blunt verdict / named mechanism in this line"
+  },
+  "36": {
+    "signal": "stat",
+    "text": "2023",
+    "reason": "hard fact in this line"
+  },
+  "37": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "38": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "39": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "40": {
+    "signal": "stat",
+    "text": "2251",
+    "reason": "hard fact in this line"
+  },
+  "41": {
+    "signal": "stat",
+    "text": "30 SITES",
+    "reason": "hard fact in this line"
+  },
+  "42": {
+    "signal": "keyword",
+    "text": "TAYLOR SLOUGH",
+    "reason": "hard fact in this line"
+  },
+  "43": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "44": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "45": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "46": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "47": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "48": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "49": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "50": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "51": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "52": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "53": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "54": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "55": {
+    "signal": "keyword",
+    "text": "CHYTRID FUNGUS",
+    "reason": "hard fact in this line"
+  },
+  "56": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "57": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "58": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "59": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "60": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "61": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "62": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "63": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "64": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "65": {
+    "signal": "keyword",
+    "text": "SWAMP EEL",
+    "reason": "blunt verdict / named mechanism in this line"
+  },
+  "66": {
+    "signal": "keyword",
+    "text": "EVERYTHING ELSE FELL AWAY",
+    "reason": "blunt verdict / named mechanism in this line"
+  },
+  "67": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "68": {
+    "signal": "keyword",
+    "text": "NOT EVEN CLOSE",
+    "reason": "blunt verdict / named mechanism in this line"
+  },
+  "69": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "70": {
+    "signal": "keyword",
+    "text": "THE FINDING",
+    "reason": "blunt verdict / named mechanism in this line"
+  },
+  "71": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "72": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "73": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "74": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "75": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "76": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "77": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "78": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "79": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "80": {
+    "signal": "keyword",
+    "text": "STILL MOVING",
+    "reason": "blunt verdict / named mechanism in this line"
+  },
+  "81": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "82": {
+    "signal": "keyword",
+    "text": "NOT A REFUGE",
+    "reason": "blunt verdict / named mechanism in this line"
+  },
+  "83": {
+    "signal": "keyword",
+    "text": "EVERGLADES NP",
+    "reason": "hard fact in this line"
+  },
+  "84": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "85": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "86": {
+    "signal": "keyword",
+    "text": "EVERGLADES NP",
+    "reason": "hard fact in this line"
+  },
+  "87": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "88": {
+    "signal": "keyword",
+    "text": "NOBODY COUNTS FROGS",
+    "reason": "blunt verdict / named mechanism in this line"
+  },
+  "89": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "90": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "91": {
+    "signal": "keyword",
+    "text": "SIREN & AMPHIUMA",
+    "reason": "hard fact in this line"
+  },
+  "92": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "93": {
+    "signal": "keyword",
+    "text": "THE PROBLEM",
+    "reason": "blunt verdict / named mechanism in this line"
+  },
+  "94": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "95": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "96": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "97": {
+    "signal": "keyword",
+    "text": "DIRECT COMPETITION",
+    "reason": "blunt verdict / named mechanism in this line"
+  },
+  "98": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "99": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "100": {
+    "signal": "keyword",
+    "text": "DWARF SIREN",
+    "reason": "hard fact in this line"
+  },
+  "101": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "102": {
+    "signal": "stat",
+    "text": "30 SITES",
+    "reason": "hard fact in this line"
+  },
+  "103": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "104": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "105": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "106": {
+    "signal": "keyword",
+    "text": "MAY ALREADY BE GONE",
+    "reason": "blunt verdict / named mechanism in this line"
+  },
+  "107": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "108": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "109": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "110": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "111": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "112": {
+    "signal": "keyword",
+    "text": "ARRIVED IN A BUCKET",
+    "reason": "blunt verdict / named mechanism in this line"
+  },
+  "113": {
+    "signal": "keyword",
+    "text": "VERY LITTLE",
+    "reason": "blunt verdict / named mechanism in this line"
+  },
+  "114": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "115": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "116": {
+    "signal": "keyword",
+    "text": "PHYSICAL REMOVAL",
+    "reason": "blunt verdict / named mechanism in this line"
+  },
+  "117": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "118": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "119": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "120": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "121": {
+    "signal": "keyword",
+    "text": "DRAINING",
+    "reason": "blunt verdict / named mechanism in this line"
+  },
+  "122": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "123": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "124": {
+    "signal": "keyword",
+    "text": "POISON",
+    "reason": "blunt verdict / named mechanism in this line"
+  },
+  "125": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "126": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "127": {
+    "signal": "keyword",
+    "text": "BIOLOGICAL CONTROL",
+    "reason": "blunt verdict / named mechanism in this line"
+  },
+  "128": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "129": {
+    "signal": "keyword",
+    "text": "BARRIERS",
+    "reason": "blunt verdict / named mechanism in this line"
+  },
+  "130": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "131": {
+    "signal": "keyword",
+    "text": "CAN'T WALL IT OFF",
+    "reason": "blunt verdict / named mechanism in this line"
+  },
+  "132": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "133": {
+    "signal": "keyword",
+    "text": "IMPOSSIBLE",
+    "reason": "hard fact in this line"
+  },
+  "134": {
+    "signal": "keyword",
+    "text": "SURVEILLANCE",
+    "reason": "blunt verdict / named mechanism in this line"
+  },
+  "135": {
+    "signal": "keyword",
+    "text": "eDNA",
+    "reason": "hard fact in this line"
+  },
+  "136": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "137": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "138": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "139": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "140": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "141": {
+    "signal": "keyword",
+    "text": "DOES NOTHING",
+    "reason": "blunt verdict / named mechanism in this line"
+  },
+  "142": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "143": {
+    "signal": "keyword",
+    "text": "GEORGIA",
+    "reason": "hard fact in this line"
+  },
+  "144": {
+    "signal": "keyword",
+    "text": "NEW JERSEY",
+    "reason": "hard fact in this line"
+  },
+  "145": {
+    "signal": "keyword",
+    "text": "HAWAII",
+    "reason": "hard fact in this line"
+  },
+  "146": {
+    "signal": "keyword",
+    "text": "TAMPA",
+    "reason": "hard fact in this line"
+  },
+  "147": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "148": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "149": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "150": {
+    "signal": "stat",
+    "text": "95%",
+    "reason": "hard fact in this line"
+  },
+  "151": {
+    "signal": "keyword",
+    "text": "NARROWER AND WORSE",
+    "reason": "blunt verdict / named mechanism in this line"
+  },
+  "152": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "153": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "154": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "155": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "156": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "157": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "158": {
+    "signal": "keyword",
+    "text": "NOT THE TOP",
+    "reason": "blunt verdict / named mechanism in this line"
+  },
+  "159": {
+    "signal": "keyword",
+    "text": "THE BOTTOM LAYER",
+    "reason": "blunt verdict / named mechanism in this line"
+  },
+  "160": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "161": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "162": {
+    "signal": "stat",
+    "text": "2025",
+    "reason": "hard fact in this line"
+  },
+  "163": {
+    "signal": "stat",
+    "text": "30 SITES",
+    "reason": "hard fact in this line"
+  },
+  "164": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "165": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "166": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "167": {
+    "signal": "keyword",
+    "text": "NO WAY BACK",
+    "reason": "blunt verdict / named mechanism in this line"
+  },
+  "168": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "169": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "170": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "171": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  },
+  "172": {
+    "signal": "none",
+    "reason": "prose \u2014 footage carries it"
+  }
 }

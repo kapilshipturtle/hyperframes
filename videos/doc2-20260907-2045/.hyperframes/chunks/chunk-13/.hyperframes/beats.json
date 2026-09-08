@@ -1,0 +1,534 @@
+{
+  "beats": [
+    {
+      "id": "136",
+      "text": "testing water samples for genetic traces to detect Asian swamp eels and bullseye snakehead in Florida",
+      "start": 581.7,
+      "end": 588.54,
+      "durationSeconds": 6.84,
+      "words": [
+        {
+          "text": "testing",
+          "start": 581.7,
+          "end": 582.24
+        },
+        {
+          "text": "water",
+          "start": 582.24,
+          "end": 582.53
+        },
+        {
+          "text": "samples",
+          "start": 582.89,
+          "end": 583.19
+        },
+        {
+          "text": "for",
+          "start": 583.19,
+          "end": 583.42
+        },
+        {
+          "text": "genetic",
+          "start": 583.42,
+          "end": 583.93
+        },
+        {
+          "text": "traces",
+          "start": 584.05,
+          "end": 584.42
+        },
+        {
+          "text": "to",
+          "start": 584.43,
+          "end": 584.59
+        },
+        {
+          "text": "detect",
+          "start": 584.59,
+          "end": 585.06
+        },
+        {
+          "text": "Asian",
+          "start": 585.06,
+          "end": 585.43
+        },
+        {
+          "text": "swamp",
+          "start": 585.71,
+          "end": 585.84
+        },
+        {
+          "text": "eels",
+          "start": 585.84,
+          "end": 586.15
+        },
+        {
+          "text": "and",
+          "start": 586.15,
+          "end": 586.38
+        },
+        {
+          "text": "bullseye",
+          "start": 586.38,
+          "end": 586.99
+        },
+        {
+          "text": "snakehead",
+          "start": 587.27,
+          "end": 587.76
+        },
+        {
+          "text": "in",
+          "start": 587.85,
+          "end": 587.93
+        },
+        {
+          "text": "Florida",
+          "start": 587.93,
+          "end": 588.54
+        }
+      ]
+    },
+    {
+      "id": "137",
+      "text": "freshwater. It's a genuine advance.",
+      "start": 588.54,
+      "end": 591.05,
+      "durationSeconds": 2.51,
+      "words": [
+        {
+          "text": "freshwater.",
+          "start": 588.54,
+          "end": 589.64
+        },
+        {
+          "text": "It's",
+          "start": 589.8,
+          "end": 589.92
+        },
+        {
+          "text": "a",
+          "start": 589.92,
+          "end": 589.97
+        },
+        {
+          "text": "genuine",
+          "start": 589.97,
+          "end": 590.42
+        },
+        {
+          "text": "advance.",
+          "start": 590.49,
+          "end": 591.05
+        }
+      ]
+    },
+    {
+      "id": "138",
+      "text": "It means you can now find out where the eels are without catching one.",
+      "start": 591.05,
+      "end": 595.2,
+      "durationSeconds": 4.15,
+      "words": [
+        {
+          "text": "It",
+          "start": 591.05,
+          "end": 591.1
+        },
+        {
+          "text": "means",
+          "start": 591.31,
+          "end": 591.48
+        },
+        {
+          "text": "you",
+          "start": 591.48,
+          "end": 591.53
+        },
+        {
+          "text": "can",
+          "start": 591.67,
+          "end": 591.86
+        },
+        {
+          "text": "now",
+          "start": 591.86,
+          "end": 592.01
+        },
+        {
+          "text": "find",
+          "start": 592.15,
+          "end": 592.3
+        },
+        {
+          "text": "out",
+          "start": 592.3,
+          "end": 592.42
+        },
+        {
+          "text": "where",
+          "start": 592.5,
+          "end": 592.88
+        },
+        {
+          "text": "the",
+          "start": 592.88,
+          "end": 593.03
+        },
+        {
+          "text": "eels",
+          "start": 593.04,
+          "end": 593.16
+        },
+        {
+          "text": "are",
+          "start": 593.42,
+          "end": 593.51
+        },
+        {
+          "text": "without",
+          "start": 593.56,
+          "end": 594.09
+        },
+        {
+          "text": "catching",
+          "start": 594.09,
+          "end": 594.53
+        },
+        {
+          "text": "one.",
+          "start": 594.89,
+          "end": 595.2
+        }
+      ]
+    },
+    {
+      "id": "139",
+      "text": "But be clear about what that is.",
+      "start": 595.2,
+      "end": 597.35,
+      "durationSeconds": 2.15,
+      "words": [
+        {
+          "text": "But",
+          "start": 595.2,
+          "end": 595.43
+        },
+        {
+          "text": "be",
+          "start": 595.43,
+          "end": 595.58
+        },
+        {
+          "text": "clear",
+          "start": 595.58,
+          "end": 595.95
+        },
+        {
+          "text": "about",
+          "start": 596.05,
+          "end": 596.22
+        },
+        {
+          "text": "what",
+          "start": 596.32,
+          "end": 596.62
+        },
+        {
+          "text": "that",
+          "start": 596.87,
+          "end": 596.94
+        },
+        {
+          "text": "is.",
+          "start": 596.94,
+          "end": 597.35
+        }
+      ]
+    },
+    {
+      "id": "140",
+      "text": "It's a tracking system. It tells you where the front line is.",
+      "start": 597.35,
+      "end": 601.08,
+      "durationSeconds": 3.73,
+      "words": [
+        {
+          "text": "It's",
+          "start": 597.35,
+          "end": 597.56
+        },
+        {
+          "text": "a",
+          "start": 597.56,
+          "end": 597.71
+        },
+        {
+          "text": "tracking",
+          "start": 597.71,
+          "end": 598.16
+        },
+        {
+          "text": "system.",
+          "start": 598.31,
+          "end": 598.72
+        },
+        {
+          "text": "It",
+          "start": 598.79,
+          "end": 598.88
+        },
+        {
+          "text": "tells",
+          "start": 598.99,
+          "end": 599.25
+        },
+        {
+          "text": "you",
+          "start": 599.25,
+          "end": 599.47
+        },
+        {
+          "text": "where",
+          "start": 599.47,
+          "end": 599.83
+        },
+        {
+          "text": "the",
+          "start": 599.83,
+          "end": 600.06
+        },
+        {
+          "text": "front",
+          "start": 600.06,
+          "end": 600.09
+        },
+        {
+          "text": "line",
+          "start": 600.45,
+          "end": 600.72
+        },
+        {
+          "text": "is.",
+          "start": 600.72,
+          "end": 601.08
+        }
+      ]
+    },
+    {
+      "id": "141",
+      "text": "It does nothing to move it.",
+      "start": 601.08,
+      "end": 602.91,
+      "durationSeconds": 1.83,
+      "words": [
+        {
+          "text": "It",
+          "start": 601.08,
+          "end": 601.23
+        },
+        {
+          "text": "does",
+          "start": 601.23,
+          "end": 601.53
+        },
+        {
+          "text": "nothing",
+          "start": 601.61,
+          "end": 602
+        },
+        {
+          "text": "to",
+          "start": 602.04,
+          "end": 602.18
+        },
+        {
+          "text": "move",
+          "start": 602.43,
+          "end": 602.49
+        },
+        {
+          "text": "it.",
+          "start": 602.49,
+          "end": 602.91
+        }
+      ]
+    },
+    {
+      "id": "142",
+      "text": "And the front line is not only inside the Everglades.",
+      "start": 602.91,
+      "end": 605.77,
+      "durationSeconds": 2.86,
+      "words": [
+        {
+          "text": "And",
+          "start": 602.91,
+          "end": 603.05
+        },
+        {
+          "text": "the",
+          "start": 603.06,
+          "end": 603.11
+        },
+        {
+          "text": "front",
+          "start": 603.27,
+          "end": 603.43
+        },
+        {
+          "text": "line",
+          "start": 603.43,
+          "end": 603.54
+        },
+        {
+          "text": "is",
+          "start": 603.62,
+          "end": 603.71
+        },
+        {
+          "text": "not",
+          "start": 603.81,
+          "end": 603.91
+        },
+        {
+          "text": "only",
+          "start": 603.96,
+          "end": 604.19
+        },
+        {
+          "text": "inside",
+          "start": 604.19,
+          "end": 604.6
+        },
+        {
+          "text": "the",
+          "start": 604.6,
+          "end": 604.74
+        },
+        {
+          "text": "Everglades.",
+          "start": 604.79,
+          "end": 605.6
+        }
+      ]
+    },
+    {
+      "id": "143",
+      "text": "The species is established in Georgia.",
+      "start": 605.77,
+      "end": 608.11,
+      "durationSeconds": 2.34,
+      "words": [
+        {
+          "text": "The",
+          "start": 605.77,
+          "end": 605.87
+        },
+        {
+          "text": "species",
+          "start": 605.87,
+          "end": 606.33
+        },
+        {
+          "text": "is",
+          "start": 606.46,
+          "end": 606.48
+        },
+        {
+          "text": "established",
+          "start": 606.48,
+          "end": 606.97
+        },
+        {
+          "text": "in",
+          "start": 607.27,
+          "end": 607.37
+        },
+        {
+          "text": "Georgia.",
+          "start": 607.37,
+          "end": 607.95
+        }
+      ]
+    },
+    {
+      "id": "144",
+      "text": "It's established in New Jersey.",
+      "start": 608.11,
+      "end": 610.3,
+      "durationSeconds": 2.19,
+      "words": [
+        {
+          "text": "It's",
+          "start": 608.11,
+          "end": 608.31
+        },
+        {
+          "text": "established",
+          "start": 608.31,
+          "end": 609.07
+        },
+        {
+          "text": "in",
+          "start": 609.28,
+          "end": 609.36
+        },
+        {
+          "text": "New",
+          "start": 609.36,
+          "end": 609.6
+        },
+        {
+          "text": "Jersey.",
+          "start": 609.6,
+          "end": 610.22
+        }
+      ]
+    },
+    {
+      "id": "145",
+      "text": "It has been in Hawaii for decades.",
+      "start": 610.3,
+      "end": 612.76,
+      "durationSeconds": 2.46,
+      "words": [
+        {
+          "text": "It",
+          "start": 610.3,
+          "end": 610.44
+        },
+        {
+          "text": "has",
+          "start": 610.44,
+          "end": 610.77
+        },
+        {
+          "text": "been",
+          "start": 610.77,
+          "end": 611.04
+        },
+        {
+          "text": "in",
+          "start": 611.04,
+          "end": 611.08
+        },
+        {
+          "text": "Hawaii",
+          "start": 611.25,
+          "end": 611.55
+        },
+        {
+          "text": "for",
+          "start": 611.55,
+          "end": 611.93
+        },
+        {
+          "text": "decades.",
+          "start": 611.93,
+          "end": 612.76
+        }
+      ]
+    }
+  ]
+}

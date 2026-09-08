@@ -98,7 +98,7 @@
     .broll-vignette {
       position: absolute;
       inset: 0;
-      background: radial-gradient(ellipse at center, rgba(0,0,0,0) 45%, rgba(0,0,0,0.542) 100%);
+      background: radial-gradient(ellipse at center, rgba(0,0,0,0) 45%, rgba(0,0,0,0) 100%);
       pointer-events: none;
     }
   </style>
@@ -106,13 +106,12 @@
   <div
     id="root"
     data-composition-id="94-beat"
-    data-width="1920" data-height="1080" data-duration="3.59"
+    data-width="1920" data-height="1080" data-duration="3.81"
   >
-    <div class="broll-wrap clip" id="f-94-beat-wrap" data-start="0" data-duration="3.59" data-track-index="0">
-      <img id="f-94-beat-media" class="broll-media broll-g-warm" src=".media/broll/beat-94.jpg" />
+    <div class="broll-wrap" id="f-94-beat-wrap">
+      <video id="f-94-beat-media" class="broll-media clip broll-g-cool" src=".media/broll/beat-94.mp4" muted playsinline data-start="0" data-duration="3.81" data-media-start="0" data-track-index="0"></video>
     </div>
-    <div class="broll-scrim clip" id="f-94-beat-scrim" data-start="0" data-duration="3.59" data-track-index="1"></div>
-    <div class="broll-vignette clip" id="f-94-beat-vignette" data-start="0" data-duration="3.59" data-track-index="3"></div>
+    <div class="broll-scrim clip" id="f-94-beat-scrim" data-start="0" data-duration="3.81" data-track-index="1"></div>
   </div>
 
   <script>
@@ -120,7 +119,7 @@
       window.__timelines = window.__timelines || {};
       var tl = gsap.timeline({ paused: true });
       var wrap = document.getElementById("f-94-beat-wrap");
-      tl.fromTo(wrap, { scale: 1.16 }, { scale: 1.0, duration: 3.59, ease: "none" }, 0);
+      gsap.set(wrap, { scale: 1.0 });
       window.__timelines["94-beat"] = tl;
     })();
   </script>

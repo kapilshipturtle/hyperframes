@@ -1,155 +1,210 @@
 {
- "10": {
-  "at": 2.23,
+ "12": {
+  "at": 4.45,
   "scale": 1.425,
-  "word": "retreats",
+  "word": "alongside",
   "steps": [
    {
-    "at": 2.23,
+    "at": 4.45,
     "scale": 1.234
    },
    {
-    "at": 3.33,
+    "at": 5.55,
     "scale": 1.425
    }
   ]
  },
- "15": {
-  "at": 2.06,
+ "16": {
+  "at": 2.25,
   "scale": 1.35,
-  "word": "Everything",
-  "steps": [
-   {
-    "at": 2.06,
-    "scale": 1.193
-   },
-   {
-    "at": 3.16,
-    "scale": 1.35
-   }
-  ]
+  "word": "never"
  },
- "20": {
-  "at": 6.23,
+ "26": {
+  "at": 3.18,
   "scale": 1.4,
-  "word": "93",
+  "word": "published",
   "steps": [
    {
-    "at": 6.23,
+    "at": 3.18,
     "scale": 1.22
    },
    {
-    "at": 7.33,
+    "at": 4.28,
     "scale": 1.4
    }
   ]
  },
- "23": {
-  "at": 4.09,
+ "29": {
+  "at": 4.57,
   "scale": 1.45,
-  "word": "everything"
- },
- "27": {
-  "at": 3.24,
-  "scale": 1.375,
-  "word": "2251",
+  "word": "93",
   "steps": [
    {
-    "at": 3.24,
-    "scale": 1.206
-   },
-   {
-    "at": 4.34,
-    "scale": 1.375
-   }
-  ]
- },
- "30": {
-  "at": 1.88,
-  "scale": 1.425,
-  "word": "every",
-  "steps": [
-   {
-    "at": 1.88,
-    "scale": 1.234
-   },
-   {
-    "at": 2.98,
-    "scale": 1.425
-   }
-  ]
- },
- "33": {
-  "at": 3.58,
-  "scale": 1.35,
-  "word": "well-documented",
-  "steps": [
-   {
-    "at": 3.58,
-    "scale": 1.193
-   },
-   {
-    "at": 4.68,
-    "scale": 1.35
-   }
-  ]
- },
- "35": {
-  "at": 3.75,
-  "scale": 1.4,
-  "word": "everything"
- },
- "37": {
-  "at": 4.17,
-  "scale": 1.45,
-  "word": "continents",
-  "steps": [
-   {
-    "at": 4.17,
+    "at": 4.57,
     "scale": 1.248
    },
    {
-    "at": 5.27,
+    "at": 5.67,
     "scale": 1.45
    }
   ]
  },
- "41": {
-  "at": 6.91,
+ "35": {
+  "at": 1.73,
   "scale": 1.375,
-  "word": "concluding",
+  "word": "everything",
   "steps": [
    {
-    "at": 6.91,
+    "at": 1.73,
     "scale": 1.206
    },
    {
-    "at": 8.01,
+    "at": 2.83,
     "scale": 1.375
    }
   ]
  },
- "44": {
-  "at": 1.98,
+ "40": {
+  "at": 2.43,
   "scale": 1.425,
-  "word": "Everything"
- },
- "46": {
-  "at": 1.78,
-  "scale": 1.35,
-  "word": "twice",
+  "word": "2251",
   "steps": [
    {
-    "at": 1.78,
-    "scale": 1.193
+    "at": 2.43,
+    "scale": 1.234
    },
    {
-    "at": 2.88,
-    "scale": 1.35
+    "at": 3.53,
+    "scale": 1.425
+   }
+  ]
+ },
+ "43": {
+  "at": 1.72,
+  "scale": 1.35,
+  "word": "worthless"
+ },
+ "45": {
+  "at": 1.88,
+  "scale": 1.4,
+  "word": "every",
+  "steps": [
+   {
+    "at": 1.88,
+    "scale": 1.22
+   },
+   {
+    "at": 2.98,
+    "scale": 1.4
+   }
+  ]
+ },
+ "47": {
+  "at": 1.79,
+  "scale": 1.45,
+  "word": "re-engineered",
+  "steps": [
+   {
+    "at": 1.79,
+    "scale": 1.248
+   },
+   {
+    "at": 2.89,
+    "scale": 1.45
    }
   ]
  },
  "50": {
+  "at": 1.29,
+  "scale": 1.375,
+  "word": "well-documented",
+  "steps": [
+   {
+    "at": 1.29,
+    "scale": 1.206
+   },
+   {
+    "at": 2.39,
+    "scale": 1.375
+   }
+  ]
+ },
+ "53": {
+  "at": 3.75,
+  "scale": 1.425,
+  "word": "everything",
+  "steps": [
+   {
+    "at": 3.75,
+    "scale": 1.234
+   },
+   {
+    "at": 4.85,
+    "scale": 1.425
+   }
+  ]
+ },
+ "55": {
+  "at": 4.17,
+  "scale": 1.35,
+  "word": "continents"
+ },
+ "60": {
+  "at": 2.36,
+  "scale": 1.4,
+  "word": "explanation."
+ },
+ "63": {
+  "at": 2.7,
+  "scale": 1.45,
+  "word": "reasons."
+ },
+ "66": {
+  "at": 4.43,
+  "scale": 1.375,
+  "word": "explaining",
+  "steps": [
+   {
+    "at": 4.43,
+    "scale": 1.206
+   },
+   {
+    "at": 5.53,
+    "scale": 1.375
+   }
+  ]
+ },
+ "69": {
+  "at": 1.78,
+  "scale": 1.425,
+  "word": "twice",
+  "steps": [
+   {
+    "at": 1.78,
+    "scale": 1.234
+   },
+   {
+    "at": 2.88,
+    "scale": 1.425
+   }
+  ]
+ },
+ "71": {
+  "at": 3.82,
+  "scale": 1.35,
+  "word": "predictor",
+  "steps": [
+   {
+    "at": 3.82,
+    "scale": 1.193
+   },
+   {
+    "at": 4.92,
+    "scale": 1.35
+   }
+  ]
+ },
+ "74": {
   "at": 3.78,
   "scale": 1.4,
   "word": "Everglades",
@@ -164,182 +219,302 @@
    }
   ]
  },
- "52": {
-  "at": 1.98,
+ "76": {
+  "at": 1.82,
   "scale": 1.45,
-  "word": "loud.",
-  "steps": [
-   {
-    "at": 1.98,
-    "scale": 1.248
-   },
-   {
-    "at": 3.08,
-    "scale": 1.45
-   }
-  ]
+  "word": "southeast"
  },
- "55": {
-  "at": 1.97,
+ "78": {
+  "at": 4.5,
   "scale": 1.375,
-  "word": "Everglades"
- },
- "57": {
-  "at": 7.08,
-  "scale": 1.425,
-  "word": "functionally",
+  "word": "declining",
   "steps": [
    {
-    "at": 7.08,
-    "scale": 1.234
-   },
-   {
-    "at": 8.18,
-    "scale": 1.425
-   }
-  ]
- },
- "60": {
-  "at": 3.77,
-  "scale": 1.35,
-  "word": "salamanders",
-  "steps": [
-   {
-    "at": 3.77,
-    "scale": 1.193
-   },
-   {
-    "at": 4.87,
-    "scale": 1.35
-   }
-  ]
- },
- "62": {
-  "at": 1,
-  "scale": 1.4,
-  "word": "problem.",
-  "steps": [
-   {
-    "at": 1,
-    "scale": 1.22
-   },
-   {
-    "at": 2.1,
-    "scale": 1.4
-   }
-  ]
- },
- "68": {
-  "at": 5.81,
-  "scale": 1.45,
-  "word": "surveying"
- },
- "70": {
-  "at": 2.02,
-  "scale": 1.375,
-  "word": "contains.",
-  "steps": [
-   {
-    "at": 2.02,
+    "at": 4.5,
     "scale": 1.206
    },
    {
-    "at": 3.12,
+    "at": 5.6,
     "scale": 1.375
    }
   ]
  },
- "74": {
-  "at": 3.91,
+ "83": {
+  "at": 1.97,
   "scale": 1.425,
-  "word": "photographed",
+  "word": "Everglades",
   "steps": [
    {
-    "at": 3.91,
+    "at": 1.97,
     "scale": 1.234
    },
    {
-    "at": 5.01,
+    "at": 3.07,
     "scale": 1.425
    }
   ]
  },
- "77": {
-  "at": 1.67,
+ "85": {
+  "at": 2.76,
   "scale": 1.35,
-  "word": "invasive"
- },
- "81": {
-  "at": 2.38,
-  "scale": 1.4,
-  "word": "historically",
+  "word": "carefully",
   "steps": [
    {
-    "at": 2.38,
+    "at": 2.76,
+    "scale": 1.193
+   },
+   {
+    "at": 3.86,
+    "scale": 1.35
+   }
+  ]
+ },
+ "87": {
+  "at": 2.55,
+  "scale": 1.4,
+  "word": "functionally",
+  "steps": [
+   {
+    "at": 2.55,
     "scale": 1.22
    },
    {
-    "at": 3.48,
+    "at": 3.65,
     "scale": 1.4
    }
   ]
  },
- "88": {
-  "at": 3.08,
+ "89": {
+  "at": 1.86,
   "scale": 1.45,
-  "word": "infrastructure",
-  "steps": [
-   {
-    "at": 3.08,
-    "scale": 1.248
-   },
-   {
-    "at": 4.18,
-    "scale": 1.45
-   }
-  ]
+  "word": "eel-occupied"
  },
  "91": {
-  "at": 1.59,
+  "at": 1.52,
   "scale": 1.375,
-  "word": "surveillance.",
+  "word": "salamanders",
   "steps": [
    {
-    "at": 1.59,
+    "at": 1.52,
     "scale": 1.206
    },
    {
-    "at": 2.69,
+    "at": 2.62,
     "scale": 1.375
    }
   ]
  },
  "95": {
-  "at": 2.82,
+  "at": 2.37,
   "scale": 1.425,
-  "word": "nothing"
- },
- "98": {
-  "at": 4.9,
-  "scale": 1.35,
-  "word": "Everglades"
- },
- "101": {
-  "at": 2.84,
-  "scale": 1.4,
-  "word": "95%",
+  "word": "eats",
   "steps": [
    {
-    "at": 2.84,
+    "at": 2.37,
+    "scale": 1.234
+   },
+   {
+    "at": 3.47,
+    "scale": 1.425
+   }
+  ]
+ },
+ "98": {
+  "at": 1.88,
+  "scale": 1.35,
+  "word": "competition",
+  "steps": [
+   {
+    "at": 1.88,
+    "scale": 1.193
+   },
+   {
+    "at": 2.98,
+    "scale": 1.35
+   }
+  ]
+ },
+ "102": {
+  "at": 4.43,
+  "scale": 1.4,
+  "word": "intensive",
+  "steps": [
+   {
+    "at": 4.43,
     "scale": 1.22
    },
    {
-    "at": 3.94,
+    "at": 5.53,
     "scale": 1.4
    }
   ]
  },
  "104": {
+  "at": 1,
+  "scale": 1.45,
+  "word": "nothing"
+ },
+ "107": {
+  "at": 3.56,
+  "scale": 1.375,
+  "word": "before"
+ },
+ "111": {
+  "at": 1.5,
+  "scale": 1.425,
+  "word": "photographed",
+  "steps": [
+   {
+    "at": 1.5,
+    "scale": 1.234
+   },
+   {
+    "at": 2.6,
+    "scale": 1.425
+   }
+  ]
+ },
+ "115": {
+  "at": 1.67,
+  "scale": 1.35,
+  "word": "invasive",
+  "steps": [
+   {
+    "at": 1.67,
+    "scale": 1.193
+   },
+   {
+    "at": 2.77,
+    "scale": 1.35
+   }
+  ]
+ },
+ "119": {
+  "at": 2.14,
+  "scale": 1.4,
+  "word": "small",
+  "steps": [
+   {
+    "at": 2.14,
+    "scale": 1.22
+   },
+   {
+    "at": 3.24,
+    "scale": 1.4
+   }
+  ]
+ },
+ "121": {
+  "at": 1.79,
+  "scale": 1.45,
+  "word": "historically",
+  "steps": [
+   {
+    "at": 1.79,
+    "scale": 1.248
+   },
+   {
+    "at": 2.89,
+    "scale": 1.45
+   }
+  ]
+ },
+ "123": {
+  "at": 2.97,
+  "scale": 1.375,
+  "word": "burrow"
+ },
+ "125": {
+  "at": 1.03,
+  "scale": 1.425,
+  "word": "sheet-flow",
+  "steps": [
+   {
+    "at": 1.03,
+    "scale": 1.234
+   },
+   {
+    "at": 2.13,
+    "scale": 1.425
+   }
+  ]
+ },
+ "128": {
+  "at": 1.37,
+  "scale": 1.35,
+  "word": "opportunistically",
+  "steps": [
+   {
+    "at": 1.37,
+    "scale": 1.193
+   },
+   {
+    "at": 2.47,
+    "scale": 1.35
+   }
+  ]
+ },
+ "132": {
+  "at": 3.32,
+  "scale": 1.4,
+  "word": "scientist",
+  "steps": [
+   {
+    "at": 3.32,
+    "scale": 1.22
+   },
+   {
+    "at": 4.42,
+    "scale": 1.4
+   }
+  ]
+ },
+ "134": {
+  "at": 1.59,
+  "scale": 1.45,
+  "word": "surveillance."
+ },
+ "136": {
+  "at": 4.68,
+  "scale": 1.375,
+  "word": "bullseye",
+  "steps": [
+   {
+    "at": 4.68,
+    "scale": 1.206
+   },
+   {
+    "at": 5.78,
+    "scale": 1.375
+   }
+  ]
+ },
+ "142": {
+  "at": 1.05,
+  "scale": 1.425,
+  "word": "only"
+ },
+ "148": {
+  "at": 0.92,
+  "scale": 1.35,
+  "word": "path."
+ },
+ "150": {
+  "at": 1.73,
+  "scale": 1.4,
+  "word": "Everglades",
+  "steps": [
+   {
+    "at": 1.73,
+    "scale": 1.22
+   },
+   {
+    "at": 2.83,
+    "scale": 1.4
+   }
+  ]
+ },
+ "153": {
   "at": 3.66,
   "scale": 1.45,
   "word": "25",
@@ -354,60 +529,95 @@
    }
   ]
  },
- "106": {
-  "at": 2.07,
+ "155": {
+  "at": 1.18,
   "scale": 1.375,
-  "word": "something",
+  "word": "only"
+ },
+ "157": {
+  "at": 1.47,
+  "scale": 1.425,
+  "word": "explicitly",
   "steps": [
    {
-    "at": 2.07,
-    "scale": 1.206
+    "at": 1.47,
+    "scale": 1.234
    },
    {
-    "at": 3.17,
-    "scale": 1.375
+    "at": 2.57,
+    "scale": 1.425
    }
   ]
  },
- "109": {
+ "160": {
   "at": 0.95,
-  "scale": 1.425,
-  "word": "90s"
- },
- "111": {
-  "at": 2.12,
   "scale": 1.35,
-  "word": "2025",
+  "word": "90s",
   "steps": [
    {
-    "at": 2.12,
+    "at": 0.95,
     "scale": 1.193
    },
    {
-    "at": 3.22,
+    "at": 2.05,
     "scale": 1.35
    }
   ]
  },
- "115": {
-  "at": 5.5,
+ "162": {
+  "at": 2.12,
   "scale": 1.4,
-  "word": "technology",
+  "word": "2025"
+ },
+ "164": {
+  "at": 2.78,
+  "scale": 1.45,
+  "word": "outweighed",
   "steps": [
    {
-    "at": 5.5,
-    "scale": 1.22
+    "at": 2.78,
+    "scale": 1.248
    },
    {
-    "at": 6.6,
-    "scale": 1.4
+    "at": 3.88,
+    "scale": 1.45
    }
   ]
  },
- "117": {
+ "166": {
+  "at": 3.53,
+  "scale": 1.375,
+  "word": "method",
+  "steps": [
+   {
+    "at": 3.53,
+    "scale": 1.206
+   },
+   {
+    "at": 4.63,
+    "scale": 1.375
+   }
+  ]
+ },
+ "170": {
   "at": 2.27,
-  "scale": 1.45,
-  "word": "dollars"
+  "scale": 1.425,
+  "word": "dollars",
+  "steps": [
+   {
+    "at": 2.27,
+    "scale": 1.234
+   },
+   {
+    "at": 3.37,
+    "scale": 1.425
+   }
+  ]
+ },
+ "172": {
+  "at": 1.39,
+  "scale": 1.35,
+  "word": "Subscribe"
  },
  "01": {
   "at": 3.18,
@@ -425,38 +635,38 @@
   ]
  },
  "03": {
-  "at": 1.03,
+  "at": 3.07,
   "scale": 1.4,
-  "word": "bite-sized.",
-  "steps": [
-   {
-    "at": 1.03,
-    "scale": 1.22
-   },
-   {
-    "at": 2.13,
-    "scale": 1.4
-   }
-  ]
+  "word": "bite-sized."
  },
  "05": {
-  "at": 2.04,
+  "at": 2.25,
   "scale": 1.45,
-  "word": "every",
+  "word": "Everglades",
   "steps": [
    {
-    "at": 2.04,
+    "at": 2.25,
     "scale": 1.248
    },
    {
-    "at": 3.14,
+    "at": 3.35,
     "scale": 1.45
    }
   ]
  },
- "08": {
-  "at": 4.45,
+ "07": {
+  "at": 2.04,
   "scale": 1.375,
-  "word": "alongside"
+  "word": "every",
+  "steps": [
+   {
+    "at": 2.04,
+    "scale": 1.206
+   },
+   {
+    "at": 3.14,
+    "scale": 1.375
+   }
+  ]
  }
 }

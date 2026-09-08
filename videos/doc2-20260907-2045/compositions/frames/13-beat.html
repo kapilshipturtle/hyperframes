@@ -98,7 +98,7 @@
     .broll-vignette {
       position: absolute;
       inset: 0;
-      background: radial-gradient(ellipse at center, rgba(0,0,0,0) 45%, rgba(0,0,0,0.542) 100%);
+      background: radial-gradient(ellipse at center, rgba(0,0,0,0) 45%, rgba(0,0,0,0.378) 100%);
       pointer-events: none;
     }
   </style>
@@ -106,13 +106,13 @@
   <div
     id="root"
     data-composition-id="13-beat"
-    data-width="1920" data-height="1080" data-duration="6.88"
+    data-width="1920" data-height="1080" data-duration="2.7"
   >
-    <div class="broll-wrap clip" id="f-13-beat-wrap" data-start="0" data-duration="6.88" data-track-index="0">
-      <img id="f-13-beat-media" class="broll-media broll-g-desaturate" src=".media/broll/beat-13.jpg" />
+    <div class="broll-wrap" id="f-13-beat-wrap">
+      <video id="f-13-beat-media" class="broll-media clip" src=".media/broll/beat-13.mp4" muted playsinline data-start="0" data-duration="2.70" data-media-start="0" data-track-index="0"></video>
     </div>
-    <div class="broll-scrim clip" id="f-13-beat-scrim" data-start="0" data-duration="6.88" data-track-index="1"></div>
-    <div class="broll-vignette clip" id="f-13-beat-vignette" data-start="0" data-duration="6.88" data-track-index="3"></div>
+    <div class="broll-scrim clip" id="f-13-beat-scrim" data-start="0" data-duration="2.70" data-track-index="1"></div>
+    <div class="broll-vignette clip" id="f-13-beat-vignette" data-start="0" data-duration="2.70" data-track-index="3"></div>
   </div>
 
   <script>
@@ -120,7 +120,7 @@
       window.__timelines = window.__timelines || {};
       var tl = gsap.timeline({ paused: true });
       var wrap = document.getElementById("f-13-beat-wrap");
-      tl.fromTo(wrap, { scale: 1.0 }, { scale: 1.16, duration: 6.88, ease: "none" }, 0);
+      gsap.set(wrap, { scale: 1.0 });
       window.__timelines["13-beat"] = tl;
     })();
   </script>

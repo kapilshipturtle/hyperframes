@@ -98,20 +98,27 @@
     .broll-vignette {
       position: absolute;
       inset: 0;
-      background: radial-gradient(ellipse at center, rgba(0,0,0,0) 45%, rgba(0,0,0,0) 100%);
+      background: radial-gradient(ellipse at center, rgba(0,0,0,0) 45%, rgba(0,0,0,0.378) 100%);
       pointer-events: none;
     }
+
+    .ov-lower-third { position: absolute; left: 0; right: 0; bottom: 92px; display: flex; padding: 0 64px; }
+    .ov-lt-card { display: flex; align-items: center; gap: 18px; padding: 22px 34px; border-radius: 10px; background: rgba(10,10,14,0.72); box-shadow: 0 10px 28px rgba(0,0,0,0.35); opacity: 0; transform: translateX(-14px); }
+    .ov-lt-bar { display: block; width: 5px; height: 40px; background: #ffffff; border-radius: 2.5px; transform-origin: 50% 0%; transform: scaleY(0); }
+    .ov-lt-text { font: 700 38px/1 -apple-system, "Inter", sans-serif; letter-spacing: 0.01em; color: #ffffff; opacity: 0; }
   </style>
 
   <div
     id="root"
     data-composition-id="03-beat"
-    data-width="1920" data-height="1080" data-duration="4.66"
+    data-width="1920" data-height="1080" data-duration="2.73"
   >
     <div class="broll-wrap" id="f-03-beat-wrap">
-      <video id="f-03-beat-media" class="broll-media clip broll-g-warm" src=".media/broll/beat-114.mp4" muted playsinline data-start="0" data-duration="4.66" data-media-start="0" data-track-index="0"></video>
+      <video id="f-03-beat-media" class="broll-media clip broll-bw broll-g-hc" src=".media/broll/beat-116.mp4" muted playsinline data-start="0" data-duration="2.73" data-media-start="0" data-track-index="0"></video>
     </div>
-    <div class="broll-scrim clip" id="f-03-beat-scrim" data-start="0" data-duration="4.66" data-track-index="1"></div>
+    <div class="broll-scrim clip" id="f-03-beat-scrim" data-start="0" data-duration="2.73" data-track-index="1"></div>
+    <div class="broll-vignette clip" id="f-03-beat-vignette" data-start="0" data-duration="2.73" data-track-index="3"></div>
+    <div class="ov-lower-third" id="f-03-beat-ov"><div class="ov-lt-card" id="f-03-beat-ov-card"><span class="ov-lt-bar" id="f-03-beat-ov-bar"></span><span class="ov-lt-text" id="f-03-beat-ov-text">PHYSICAL REMOVAL</span></div></div>
   </div>
 
   <script>
@@ -120,6 +127,10 @@
       var tl = gsap.timeline({ paused: true });
       var wrap = document.getElementById("f-03-beat-wrap");
       gsap.set(wrap, { scale: 1.0 });
+      tl.fromTo("#f-03-beat-ov-card", { opacity: 0, x: -14 }, { opacity: 1, x: 0, duration: 0.4, ease: "power3.out" }, 0.72);
+      tl.to("#f-03-beat-ov-bar", { scaleY: 1, duration: 0.36, ease: "power3.out" }, 0.90);
+      tl.to("#f-03-beat-ov-text", { opacity: 1, duration: 0.34, ease: "power3.out" }, 1.02);
+      tl.to("#f-03-beat-ov-card", { opacity: 0, x: -10, duration: 0.32, ease: "power2.in" }, 2.03);
       window.__timelines["03-beat"] = tl;
     })();
   </script>

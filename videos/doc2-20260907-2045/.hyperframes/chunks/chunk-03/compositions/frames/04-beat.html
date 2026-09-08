@@ -98,21 +98,28 @@
     .broll-vignette {
       position: absolute;
       inset: 0;
-      background: radial-gradient(ellipse at center, rgba(0,0,0,0) 45%, rgba(0,0,0,0.542) 100%);
+      background: radial-gradient(ellipse at center, rgba(0,0,0,0) 45%, rgba(0,0,0,0.378) 100%);
       pointer-events: none;
     }
+
+    .ov-kf { position: absolute; left: 50%; display: flex; gap: 0.32em; font: 800 1em/1.1 "Inter", "Montserrat", -apple-system, sans-serif; font-size: 92px; text-transform: capitalize; opacity: 0; white-space: nowrap; }
+    .ov-kf-center { top: 50%; transform: translate(-50%, -50%); }
+    .ov-kf-lower-center { bottom: 150px; transform: translateX(-50%); }
+    .ov-kf-w { background: #111111; color: #ffffff; padding: 0.28em 0.6em; border-radius: 6px; }
+    .ov-kf-acc { color: #ffd23f; }
   </style>
 
   <div
     id="root"
     data-composition-id="04-beat"
-    data-width="1920" data-height="1080" data-duration="7.41"
+    data-width="1920" data-height="1080" data-duration="4.63"
   >
     <div class="broll-wrap" id="f-04-beat-wrap">
-      <video id="f-04-beat-media" class="broll-media clip broll-g-warm" src=".media/broll/beat-34.mp4" muted playsinline data-start="0" data-duration="7.41" data-media-start="0" data-track-index="0"></video>
+      <video id="f-04-beat-media" class="broll-media clip broll-g-desaturate broll-g-hc" src=".media/broll/beat-35.mp4" muted playsinline data-start="0" data-duration="4.63" data-media-start="0" data-track-index="0"></video>
     </div>
-    <div class="broll-scrim clip" id="f-04-beat-scrim" data-start="0" data-duration="7.41" data-track-index="1"></div>
-    <div class="broll-vignette clip" id="f-04-beat-vignette" data-start="0" data-duration="7.41" data-track-index="3"></div>
+    <div class="broll-scrim clip" id="f-04-beat-scrim" data-start="0" data-duration="4.63" data-track-index="1"></div>
+    <div class="broll-vignette clip" id="f-04-beat-vignette" data-start="0" data-duration="4.63" data-track-index="3"></div>
+    <div class="ov-kf ov-kf-center" id="f-04-beat-ov"><span class="ov-kf-w" id="f-04-beat-ov-w0">THE</span> <span class="ov-kf-w ov-kf-acc" id="f-04-beat-ov-w1">FOUNDATION</span></div>
   </div>
 
   <script>
@@ -121,6 +128,11 @@
       var tl = gsap.timeline({ paused: true });
       var wrap = document.getElementById("f-04-beat-wrap");
       gsap.set(wrap, { scale: 1.0 });
+      tl.to("#f-04-beat-media", { scale: 1.206, duration: 0.09, ease: "power3.out" }, 1.73);
+      tl.to("#f-04-beat-media", { scale: 1.375, duration: 0.09, ease: "power3.out" }, 2.83);
+      tl.set("#f-04-beat-ov", { opacity: 1 }, 1.28);
+      tl.fromTo("#f-04-beat-ov-w0", { opacity: 0 }, { opacity: 1, duration: 0.22, ease: "power2.out" }, 1.28);
+      tl.fromTo("#f-04-beat-ov-w1", { opacity: 0 }, { opacity: 1, duration: 0.22, ease: "power2.out" }, 1.35);
       window.__timelines["04-beat"] = tl;
     })();
   </script>

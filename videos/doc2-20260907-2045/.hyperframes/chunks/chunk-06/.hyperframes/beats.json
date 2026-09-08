@@ -2,981 +2,701 @@
   "beats": [
     {
       "id": "62",
-      "text": "Which is exactly the problem. They're surviving right now because they're large enough not to be prey.",
-      "start": 396.14,
-      "end": 401.87,
-      "durationSeconds": 5.73,
+      "text": "If the study had stopped there, it would have produced a perfectly respectable paper concluding that Everglades amphibians",
+      "start": 252.77,
+      "end": 259.82,
+      "durationSeconds": 7.05,
       "words": [
         {
-          "text": "Which",
-          "start": 396.14,
-          "end": 396.23
-        },
-        {
-          "text": "is",
-          "start": 396.39,
-          "end": 396.47
-        },
-        {
-          "text": "exactly",
-          "start": 396.47,
-          "end": 396.78
+          "text": "If",
+          "start": 252.77,
+          "end": 252.89
         },
         {
           "text": "the",
-          "start": 396.88,
-          "end": 397.03
+          "start": 252.89,
+          "end": 253.08
         },
         {
-          "text": "problem.",
-          "start": 397.14,
-          "end": 398.03
+          "text": "study",
+          "start": 253.08,
+          "end": 253.38
         },
         {
-          "text": "They're",
-          "start": 398.06,
-          "end": 398.28
+          "text": "had",
+          "start": 253.38,
+          "end": 253.44
         },
         {
-          "text": "surviving",
-          "start": 398.61,
-          "end": 398.92
+          "text": "stopped",
+          "start": 253.77,
+          "end": 254.03
         },
         {
-          "text": "right",
-          "start": 399.09,
-          "end": 399.3
+          "text": "there,",
+          "start": 254.03,
+          "end": 254.47
         },
         {
-          "text": "now",
-          "start": 399.3,
-          "end": 399.41
+          "text": "it",
+          "start": 254.47,
+          "end": 254.57
         },
         {
-          "text": "because",
-          "start": 399.77,
-          "end": 399.9
+          "text": "would",
+          "start": 254.57,
+          "end": 254.94
         },
         {
-          "text": "they're",
-          "start": 399.9,
-          "end": 400.32
+          "text": "have",
+          "start": 254.94,
+          "end": 255.1
         },
         {
-          "text": "large",
-          "start": 400.32,
-          "end": 400.62
+          "text": "produced",
+          "start": 255.21,
+          "end": 255.5
         },
         {
-          "text": "enough",
-          "start": 400.62,
-          "end": 400.98
+          "text": "a",
+          "start": 255.5,
+          "end": 255.75
         },
         {
-          "text": "not",
-          "start": 400.98,
-          "end": 401.16
+          "text": "perfectly",
+          "start": 255.75,
+          "end": 256.29
         },
         {
-          "text": "to",
-          "start": 401.16,
-          "end": 401.28
+          "text": "respectable",
+          "start": 256.59,
+          "end": 257.04
         },
         {
-          "text": "be",
-          "start": 401.28,
-          "end": 401.43
+          "text": "paper",
+          "start": 257.19,
+          "end": 257.41
         },
         {
-          "text": "prey.",
-          "start": 401.43,
-          "end": 401.87
+          "text": "concluding",
+          "start": 257.41,
+          "end": 258.02
+        },
+        {
+          "text": "that",
+          "start": 258.1,
+          "end": 258.3
+        },
+        {
+          "text": "Everglades",
+          "start": 258.6,
+          "end": 258.96
+        },
+        {
+          "text": "amphibians",
+          "start": 259.13,
+          "end": 259.46
         }
       ]
     },
     {
       "id": "63",
-      "text": "But they eat the same things the swamp eel eats, in the same places, using the same strategy.",
-      "start": 401.87,
-      "end": 408,
-      "durationSeconds": 6.23,
+      "text": "are declining for the usual complicated mix of reasons.",
+      "start": 259.82,
+      "end": 263.85,
+      "durationSeconds": 4.03,
       "words": [
         {
-          "text": "But",
-          "start": 401.87,
-          "end": 401.88
+          "text": "are",
+          "start": 259.82,
+          "end": 259.85
         },
         {
-          "text": "they",
-          "start": 402.03,
-          "end": 402.08
+          "text": "declining",
+          "start": 259.85,
+          "end": 260.33
         },
         {
-          "text": "eat",
-          "start": 402.18,
-          "end": 402.27
-        },
-        {
-          "text": "the",
-          "start": 402.32,
-          "end": 402.56
-        },
-        {
-          "text": "same",
-          "start": 402.56,
-          "end": 402.88
-        },
-        {
-          "text": "things",
-          "start": 402.88,
-          "end": 403.29
+          "text": "for",
+          "start": 260.63,
+          "end": 260.65
         },
         {
           "text": "the",
-          "start": 403.29,
-          "end": 403.65
+          "start": 260.65,
+          "end": 260.85
         },
         {
-          "text": "swamp",
-          "start": 403.65,
-          "end": 403.96
+          "text": "usual",
+          "start": 260.85,
+          "end": 261.17
         },
         {
-          "text": "eel",
-          "start": 404.08,
-          "end": 404.24
+          "text": "complicated",
+          "start": 261.47,
+          "end": 261.92
         },
         {
-          "text": "eats,",
-          "start": 404.24,
-          "end": 404.72
+          "text": "mix",
+          "start": 262.07,
+          "end": 262.23
         },
         {
-          "text": "in",
-          "start": 404.82,
-          "end": 404.88
+          "text": "of",
+          "start": 262.38,
+          "end": 262.47
         },
         {
-          "text": "the",
-          "start": 404.88,
-          "end": 405.12
-        },
-        {
-          "text": "same",
-          "start": 405.12,
-          "end": 405.4
-        },
-        {
-          "text": "places,",
-          "start": 405.63,
-          "end": 406.08
-        },
-        {
-          "text": "using",
-          "start": 406.08,
-          "end": 406.48
-        },
-        {
-          "text": "the",
-          "start": 406.48,
-          "end": 406.72
-        },
-        {
-          "text": "same",
-          "start": 406.72,
-          "end": 406.91
-        },
-        {
-          "text": "strategy.",
-          "start": 407.05,
-          "end": 408
+          "text": "reasons.",
+          "start": 262.52,
+          "end": 263.51
         }
       ]
     },
     {
       "id": "64",
-      "text": "They are not sheltered from the invasion. They are in direct competition with it.",
-      "start": 408.1,
-      "end": 412.23,
-      "durationSeconds": 4.29,
+      "text": "Then they added one more variable to the model.",
+      "start": 263.85,
+      "end": 266.86,
+      "durationSeconds": 3.01,
       "words": [
         {
-          "text": "They",
-          "start": 408.1,
-          "end": 408.19
+          "text": "Then",
+          "start": 263.85,
+          "end": 263.99
         },
         {
-          "text": "are",
-          "start": 408.24,
-          "end": 408.42
+          "text": "they",
+          "start": 263.99,
+          "end": 264.16
         },
         {
-          "text": "not",
-          "start": 408.42,
-          "end": 408.59
+          "text": "added",
+          "start": 264.33,
+          "end": 264.63
         },
         {
-          "text": "sheltered",
-          "start": 408.67,
-          "end": 408.99
+          "text": "one",
+          "start": 264.88,
+          "end": 264.91
         },
         {
-          "text": "from",
-          "start": 409.09,
-          "end": 409.24
+          "text": "more",
+          "start": 265.01,
+          "end": 265.18
+        },
+        {
+          "text": "variable",
+          "start": 265.31,
+          "end": 265.58
+        },
+        {
+          "text": "to",
+          "start": 265.83,
+          "end": 265.98
         },
         {
           "text": "the",
-          "start": 409.24,
-          "end": 409.57
+          "start": 265.98,
+          "end": 266.21
         },
         {
-          "text": "invasion.",
-          "start": 409.57,
-          "end": 410.23
-        },
-        {
-          "text": "They",
-          "start": 410.23,
-          "end": 410.37
-        },
-        {
-          "text": "are",
-          "start": 410.6,
-          "end": 410.66
-        },
-        {
-          "text": "in",
-          "start": 410.74,
-          "end": 410.78
-        },
-        {
-          "text": "direct",
-          "start": 410.78,
-          "end": 411.1
-        },
-        {
-          "text": "competition",
-          "start": 411.17,
-          "end": 411.77
-        },
-        {
-          "text": "with",
-          "start": 411.86,
-          "end": 412.06
-        },
-        {
-          "text": "it.",
-          "start": 412.06,
-          "end": 412.23
+          "text": "model.",
+          "start": 266.21,
+          "end": 266.86
         }
       ]
     },
     {
       "id": "65",
-      "text": "And the researchers expect that competition to start removing them, too.",
-      "start": 412.39,
-      "end": 416.88,
-      "durationSeconds": 4.63,
+      "text": "Swamp eel presence.",
+      "start": 266.86,
+      "end": 268.84,
+      "durationSeconds": 1.98,
       "words": [
         {
-          "text": "And",
-          "start": 412.39,
-          "end": 412.64
+          "text": "Swamp",
+          "start": 266.86,
+          "end": 267.38
         },
         {
-          "text": "the",
-          "start": 412.73,
-          "end": 412.83
+          "text": "eel",
+          "start": 267.38,
+          "end": 267.66
         },
         {
-          "text": "researchers",
-          "start": 412.88,
-          "end": 413.58
-        },
-        {
-          "text": "expect",
-          "start": 413.58,
-          "end": 413.86
-        },
-        {
-          "text": "that",
-          "start": 414.21,
-          "end": 414.27
-        },
-        {
-          "text": "competition",
-          "start": 414.27,
-          "end": 414.91
-        },
-        {
-          "text": "to",
-          "start": 414.91,
-          "end": 415.02
-        },
-        {
-          "text": "start",
-          "start": 415.37,
-          "end": 415.49
-        },
-        {
-          "text": "removing",
-          "start": 415.49,
-          "end": 415.89
-        },
-        {
-          "text": "them,",
-          "start": 416.19,
-          "end": 416.41
-        },
-        {
-          "text": "too.",
-          "start": 416.52,
-          "end": 416.88
+          "text": "presence.",
+          "start": 268.23,
+          "end": 268.84
         }
       ]
     },
     {
       "id": "66",
-      "text": "Then there's the one nobody will notice. The Everglades dwarf siren is a small, eel-like salamander.",
-      "start": 417.02,
-      "end": 423.32,
-      "durationSeconds": 6.3,
+      "text": "Everything else fell away. Once swamp eels were in the model, the other factors stopped explaining much of anything.",
+      "start": 268.84,
+      "end": 275.19,
+      "durationSeconds": 6.35,
       "words": [
         {
-          "text": "Then",
-          "start": 417.02,
-          "end": 417.2
+          "text": "Everything",
+          "start": 268.84,
+          "end": 268.94
         },
         {
-          "text": "there's",
-          "start": 417.2,
-          "end": 417.69
+          "text": "else",
+          "start": 268.94,
+          "end": 269.11
+        },
+        {
+          "text": "fell",
+          "start": 269.11,
+          "end": 269.38
+        },
+        {
+          "text": "away.",
+          "start": 269.38,
+          "end": 269.83
+        },
+        {
+          "text": "Once",
+          "start": 269.86,
+          "end": 270.07
+        },
+        {
+          "text": "swamp",
+          "start": 270.41,
+          "end": 270.46
+        },
+        {
+          "text": "eels",
+          "start": 270.46,
+          "end": 270.72
+        },
+        {
+          "text": "were",
+          "start": 270.72,
+          "end": 270.99
+        },
+        {
+          "text": "in",
+          "start": 270.99,
+          "end": 271.11
         },
         {
           "text": "the",
-          "start": 417.69,
-          "end": 417.88
+          "start": 271.11,
+          "end": 271.22
         },
         {
-          "text": "one",
-          "start": 417.89,
-          "end": 418.11
+          "text": "model,",
+          "start": 271.57,
+          "end": 271.74
         },
         {
-          "text": "nobody",
-          "start": 418.12,
-          "end": 418.53
+          "text": "the",
+          "start": 271.87,
+          "end": 271.96
         },
         {
-          "text": "will",
-          "start": 418.53,
-          "end": 418.8
+          "text": "other",
+          "start": 271.99,
+          "end": 272.16
         },
         {
-          "text": "notice.",
-          "start": 418.97,
-          "end": 419.3
+          "text": "factors",
+          "start": 272.39,
+          "end": 272.8
         },
         {
-          "text": "The",
-          "start": 419.3,
-          "end": 419.66
+          "text": "stopped",
+          "start": 272.8,
+          "end": 273.27
         },
         {
-          "text": "Everglades",
-          "start": 419.66,
-          "end": 420.24
+          "text": "explaining",
+          "start": 273.27,
+          "end": 273.97
         },
         {
-          "text": "dwarf",
-          "start": 420.47,
-          "end": 420.69
+          "text": "much",
+          "start": 274.14,
+          "end": 274.31
         },
         {
-          "text": "siren",
-          "start": 420.77,
-          "end": 421.04
+          "text": "of",
+          "start": 274.31,
+          "end": 274.44
         },
         {
-          "text": "is",
-          "start": 421.04,
-          "end": 421.18
-        },
-        {
-          "text": "a",
-          "start": 421.18,
-          "end": 421.31
-        },
-        {
-          "text": "small,",
-          "start": 421.31,
-          "end": 421.75
-        },
-        {
-          "text": "eel-like",
-          "start": 421.75,
-          "end": 422.3
-        },
-        {
-          "text": "salamander.",
-          "start": 422.46,
-          "end": 423.32
+          "text": "anything.",
+          "start": 274.44,
+          "end": 275.18
         }
       ]
     },
     {
       "id": "67",
-      "text": "A subspecies found in this system, and effectively nowhere else.",
-      "start": 423.32,
-      "end": 427.74,
-      "durationSeconds": 4.42,
+      "text": "Howell's summary of it was that none of the rest matters anymore once you account for the eels,",
+      "start": 275.19,
+      "end": 280.73,
+      "durationSeconds": 5.54,
       "words": [
         {
-          "text": "A",
-          "start": 423.32,
-          "end": 423.39
+          "text": "Howell's",
+          "start": 275.19,
+          "end": 275.73
         },
         {
-          "text": "subspecies",
-          "start": 423.39,
-          "end": 424.14
+          "text": "summary",
+          "start": 275.73,
+          "end": 276.19
         },
         {
-          "text": "found",
-          "start": 424.14,
-          "end": 424.51
+          "text": "of",
+          "start": 276.21,
+          "end": 276.33
         },
         {
-          "text": "in",
-          "start": 424.51,
-          "end": 424.66
+          "text": "it",
+          "start": 276.33,
+          "end": 276.41
         },
         {
-          "text": "this",
-          "start": 424.66,
-          "end": 424.97
+          "text": "was",
+          "start": 276.64,
+          "end": 276.67
         },
         {
-          "text": "system,",
-          "start": 425.09,
-          "end": 425.57
+          "text": "that",
+          "start": 276.77,
+          "end": 276.94
         },
         {
-          "text": "and",
-          "start": 425.57,
-          "end": 425.69
+          "text": "none",
+          "start": 276.94,
+          "end": 277.14
         },
         {
-          "text": "effectively",
-          "start": 425.91,
-          "end": 426.6
+          "text": "of",
+          "start": 277.2,
+          "end": 277.34
         },
         {
-          "text": "nowhere",
-          "start": 426.75,
-          "end": 427.15
+          "text": "the",
+          "start": 277.34,
+          "end": 277.37
         },
         {
-          "text": "else.",
-          "start": 427.15,
-          "end": 427.74
+          "text": "rest",
+          "start": 277.59,
+          "end": 277.81
+        },
+        {
+          "text": "matters",
+          "start": 277.81,
+          "end": 278.27
+        },
+        {
+          "text": "anymore",
+          "start": 278.43,
+          "end": 278.88
+        },
+        {
+          "text": "once",
+          "start": 278.98,
+          "end": 279.17
+        },
+        {
+          "text": "you",
+          "start": 279.17,
+          "end": 279.38
+        },
+        {
+          "text": "account",
+          "start": 279.38,
+          "end": 279.86
+        },
+        {
+          "text": "for",
+          "start": 279.9,
+          "end": 280.1
+        },
+        {
+          "text": "the",
+          "start": 280.1,
+          "end": 280.12
+        },
+        {
+          "text": "eels,",
+          "start": 280.38,
+          "end": 280.73
         }
       ]
     },
     {
       "id": "68",
-      "text": "Across 30 sites, across an area the size of Delaware, over two months of intensive trapping and surveying, the team did not record one.",
-      "start": 427.74,
-      "end": 435.74,
-      "durationSeconds": 8,
+      "text": "and that it isn't even close.",
+      "start": 280.73,
+      "end": 282.58,
+      "durationSeconds": 1.85,
       "words": [
         {
-          "text": "Across",
-          "start": 427.74,
-          "end": 428.02
-        },
-        {
-          "text": "30",
-          "start": 428.31,
-          "end": 428.54
-        },
-        {
-          "text": "sites,",
-          "start": 428.54,
-          "end": 429.02
-        },
-        {
-          "text": "across",
-          "start": 429.27,
-          "end": 429.55
-        },
-        {
-          "text": "an",
-          "start": 429.55,
-          "end": 429.68
-        },
-        {
-          "text": "area",
-          "start": 429.68,
-          "end": 429.94
-        },
-        {
-          "text": "the",
-          "start": 429.94,
-          "end": 430.12
-        },
-        {
-          "text": "size",
-          "start": 430.12,
-          "end": 430.38
-        },
-        {
-          "text": "of",
-          "start": 430.38,
-          "end": 430.4
-        },
-        {
-          "text": "Delaware,",
-          "start": 430.73,
-          "end": 431.04
-        },
-        {
-          "text": "over",
-          "start": 431.21,
-          "end": 431.43
-        },
-        {
-          "text": "two",
-          "start": 431.43,
-          "end": 431.53
-        },
-        {
-          "text": "months",
-          "start": 431.89,
-          "end": 432.01
-        },
-        {
-          "text": "of",
-          "start": 432.01,
-          "end": 432.06
-        },
-        {
-          "text": "intensive",
-          "start": 432.17,
-          "end": 432.72
-        },
-        {
-          "text": "trapping",
-          "start": 432.72,
-          "end": 433.23
-        },
-        {
           "text": "and",
-          "start": 433.23,
-          "end": 433.42
+          "start": 280.73,
+          "end": 280.94
         },
         {
-          "text": "surveying,",
-          "start": 433.55,
-          "end": 434.16
+          "text": "that",
+          "start": 280.94,
+          "end": 281.23
         },
         {
-          "text": "the",
-          "start": 434.25,
-          "end": 434.34
+          "text": "it",
+          "start": 281.23,
+          "end": 281.26
         },
         {
-          "text": "team",
-          "start": 434.4,
-          "end": 434.6
+          "text": "isn't",
+          "start": 281.53,
+          "end": 281.72
         },
         {
-          "text": "did",
-          "start": 434.6,
-          "end": 434.75
+          "text": "even",
+          "start": 281.72,
+          "end": 281.97
         },
         {
-          "text": "not",
-          "start": 434.83,
-          "end": 434.98
-        },
-        {
-          "text": "record",
-          "start": 434.98,
-          "end": 435.33
-        },
-        {
-          "text": "one.",
-          "start": 435.33,
-          "end": 435.74
+          "text": "close.",
+          "start": 281.97,
+          "end": 282.58
         }
       ]
     },
     {
       "id": "69",
-      "text": "Howell's assessment was that it's the kind of animal that could simply blink out of existence, and that almost nothing is known about it.",
-      "start": 435.74,
-      "end": 443.59,
-      "durationSeconds": 8.01,
+      "text": "The eel effect was more than twice the size of any other single factor tested.",
+      "start": 282.58,
+      "end": 287.63,
+      "durationSeconds": 5.05,
       "words": [
         {
-          "text": "Howell's",
-          "start": 435.74,
-          "end": 436.24
+          "text": "The",
+          "start": 282.58,
+          "end": 282.65
         },
         {
-          "text": "assessment",
-          "start": 436.24,
-          "end": 436.81
+          "text": "eel",
+          "start": 282.79,
+          "end": 283
+        },
+        {
+          "text": "effect",
+          "start": 283.27,
+          "end": 283.43
         },
         {
           "text": "was",
-          "start": 436.9,
-          "end": 437.06
+          "start": 283.43,
+          "end": 283.64
         },
         {
-          "text": "that",
-          "start": 437.06,
-          "end": 437.26
+          "text": "more",
+          "start": 283.64,
+          "end": 284.03
         },
         {
-          "text": "it's",
-          "start": 437.33,
-          "end": 437.5
+          "text": "than",
+          "start": 284.18,
+          "end": 284.36
+        },
+        {
+          "text": "twice",
+          "start": 284.36,
+          "end": 284.67
         },
         {
           "text": "the",
-          "start": 437.71,
-          "end": 437.74
+          "start": 284.75,
+          "end": 284.92
         },
         {
-          "text": "kind",
-          "start": 437.74,
-          "end": 437.93
-        },
-        {
-          "text": "of",
-          "start": 438.04,
-          "end": 438.15
-        },
-        {
-          "text": "animal",
-          "start": 438.15,
-          "end": 438.39
-        },
-        {
-          "text": "that",
-          "start": 438.55,
-          "end": 438.62
-        },
-        {
-          "text": "could",
-          "start": 438.66,
-          "end": 438.76
-        },
-        {
-          "text": "simply",
-          "start": 438.87,
-          "end": 439.22
-        },
-        {
-          "text": "blink",
-          "start": 439.22,
-          "end": 439.6
-        },
-        {
-          "text": "out",
-          "start": 439.6,
-          "end": 439.78
+          "text": "size",
+          "start": 284.92,
+          "end": 285.1
         },
         {
           "text": "of",
-          "start": 439.83,
-          "end": 439.98
+          "start": 285.18,
+          "end": 285.32
         },
         {
-          "text": "existence,",
-          "start": 440.33,
-          "end": 440.82
+          "text": "any",
+          "start": 285.32,
+          "end": 285.65
         },
         {
-          "text": "and",
-          "start": 440.82,
-          "end": 441.05
+          "text": "other",
+          "start": 285.65,
+          "end": 285.9
         },
         {
-          "text": "that",
-          "start": 441.05,
-          "end": 441.14
+          "text": "single",
+          "start": 285.9,
+          "end": 286.31
         },
         {
-          "text": "almost",
-          "start": 441.49,
-          "end": 441.82
+          "text": "factor",
+          "start": 286.31,
+          "end": 286.74
         },
         {
-          "text": "nothing",
-          "start": 441.82,
-          "end": 442.36
-        },
-        {
-          "text": "is",
-          "start": 442.36,
-          "end": 442.51
-        },
-        {
-          "text": "known",
-          "start": 442.51,
-          "end": 442.87
-        },
-        {
-          "text": "about",
-          "start": 443.15,
-          "end": 443.27
-        },
-        {
-          "text": "it.",
-          "start": 443.27,
-          "end": 443.59
+          "text": "tested.",
+          "start": 286.81,
+          "end": 287.38
         }
       ]
     },
     {
       "id": "70",
-      "text": "Think about what that sentence actually contains. There is a species in the United States, in a national park, that may already be gone.",
-      "start": 443.75,
-      "end": 451.44,
-      "durationSeconds": 7.69,
+      "text": "That's the finding.",
+      "start": 287.63,
+      "end": 289.23,
+      "durationSeconds": 1.6,
       "words": [
         {
-          "text": "Think",
-          "start": 443.75,
-          "end": 443.89
-        },
-        {
-          "text": "about",
-          "start": 443.89,
-          "end": 444.05
-        },
-        {
-          "text": "what",
-          "start": 444.05,
-          "end": 444.16
-        },
-        {
-          "text": "that",
-          "start": 444.3,
-          "end": 444.49
-        },
-        {
-          "text": "sentence",
-          "start": 444.49,
-          "end": 445.07
-        },
-        {
-          "text": "actually",
-          "start": 445.07,
-          "end": 445.41
-        },
-        {
-          "text": "contains.",
-          "start": 445.77,
-          "end": 446.48
-        },
-        {
-          "text": "There",
-          "start": 446.48,
-          "end": 446.58
-        },
-        {
-          "text": "is",
-          "start": 446.58,
-          "end": 446.94
-        },
-        {
-          "text": "a",
-          "start": 446.94,
-          "end": 446.97
-        },
-        {
-          "text": "species",
-          "start": 446.97,
-          "end": 447.3
-        },
-        {
-          "text": "in",
-          "start": 447.36,
-          "end": 447.53
+          "text": "That's",
+          "start": 287.63,
+          "end": 287.85
         },
         {
           "text": "the",
-          "start": 447.53,
-          "end": 447.75
+          "start": 287.96,
+          "end": 288.26
         },
         {
-          "text": "United",
-          "start": 447.75,
-          "end": 448.06
-        },
-        {
-          "text": "States,",
-          "start": 448.08,
-          "end": 448.57
-        },
-        {
-          "text": "in",
-          "start": 448.59,
-          "end": 448.66
-        },
-        {
-          "text": "a",
-          "start": 448.7,
-          "end": 448.75
-        },
-        {
-          "text": "national",
-          "start": 448.75,
-          "end": 449.32
-        },
-        {
-          "text": "park,",
-          "start": 449.42,
-          "end": 449.75
-        },
-        {
-          "text": "that",
-          "start": 449.75,
-          "end": 450.04
-        },
-        {
-          "text": "may",
-          "start": 450.04,
-          "end": 450.26
-        },
-        {
-          "text": "already",
-          "start": 450.26,
-          "end": 450.54
-        },
-        {
-          "text": "be",
-          "start": 450.89,
-          "end": 450.93
-        },
-        {
-          "text": "gone.",
-          "start": 450.93,
-          "end": 451.44
+          "text": "finding.",
+          "start": 288.47,
+          "end": 289.23
         }
       ]
     },
     {
       "id": "71",
-      "text": "And we would not be able to say when or how many there were before, because nobody ever found out.",
-      "start": 451.44,
-      "end": 458.24,
-      "durationSeconds": 6.8,
+      "text": "Not that swamp eels are one of several stresses, that they are the leading predictor of both how many amphibians a site",
+      "start": 289.23,
+      "end": 295.77,
+      "durationSeconds": 6.54,
       "words": [
         {
-          "text": "And",
-          "start": 451.44,
-          "end": 451.64
+          "text": "Not",
+          "start": 289.23,
+          "end": 289.24
         },
         {
-          "text": "we",
-          "start": 451.64,
-          "end": 451.7
+          "text": "that",
+          "start": 289.29,
+          "end": 289.4
         },
         {
-          "text": "would",
-          "start": 452.05,
-          "end": 452.18
+          "text": "swamp",
+          "start": 289.4,
+          "end": 289.74
         },
         {
-          "text": "not",
-          "start": 452.18,
-          "end": 452.39
+          "text": "eels",
+          "start": 289.94,
+          "end": 290.13
         },
         {
-          "text": "be",
-          "start": 452.39,
-          "end": 452.55
+          "text": "are",
+          "start": 290.13,
+          "end": 290.32
         },
         {
-          "text": "able",
-          "start": 452.55,
-          "end": 452.65
+          "text": "one",
+          "start": 290.32,
+          "end": 290.47
         },
         {
-          "text": "to",
-          "start": 452.87,
-          "end": 452.99
+          "text": "of",
+          "start": 290.55,
+          "end": 290.64
         },
         {
-          "text": "say",
-          "start": 452.99,
-          "end": 453.09
+          "text": "several",
+          "start": 290.64,
+          "end": 291.09
         },
         {
-          "text": "when",
-          "start": 453.2,
-          "end": 453.5
+          "text": "stresses,",
+          "start": 291.45,
+          "end": 291.75
         },
         {
-          "text": "or",
-          "start": 453.5,
-          "end": 453.55
+          "text": "that",
+          "start": 291.75,
+          "end": 292.01
+        },
+        {
+          "text": "they",
+          "start": 292.01,
+          "end": 292.23
+        },
+        {
+          "text": "are",
+          "start": 292.23,
+          "end": 292.62
+        },
+        {
+          "text": "the",
+          "start": 292.62,
+          "end": 292.65
+        },
+        {
+          "text": "leading",
+          "start": 292.65,
+          "end": 292.98
+        },
+        {
+          "text": "predictor",
+          "start": 293.05,
+          "end": 293.65
+        },
+        {
+          "text": "of",
+          "start": 293.76,
+          "end": 293.83
+        },
+        {
+          "text": "both",
+          "start": 293.83,
+          "end": 294.08
         },
         {
           "text": "how",
-          "start": 453.71,
-          "end": 453.87
+          "start": 294.09,
+          "end": 294.28
         },
         {
           "text": "many",
-          "start": 453.87,
-          "end": 454.15
+          "start": 294.28,
+          "end": 294.64
         },
         {
-          "text": "there",
-          "start": 454.15,
-          "end": 454.64
+          "text": "amphibians",
+          "start": 294.75,
+          "end": 295.4
         },
         {
-          "text": "were",
-          "start": 454.75,
-          "end": 455
+          "text": "a",
+          "start": 295.4,
+          "end": 295.47
         },
         {
-          "text": "before,",
-          "start": 455,
-          "end": 455.66
-        },
-        {
-          "text": "because",
-          "start": 455.81,
-          "end": 456.32
-        },
-        {
-          "text": "nobody",
-          "start": 456.32,
-          "end": 456.79
-        },
-        {
-          "text": "ever",
-          "start": 456.79,
-          "end": 457.01
-        },
-        {
-          "text": "found",
-          "start": 457.37,
-          "end": 457.54
-        },
-        {
-          "text": "out.",
-          "start": 457.65,
-          "end": 458.24
+          "text": "site",
+          "start": 295.47,
+          "end": 295.66
         }
       ]
     }

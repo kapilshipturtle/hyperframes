@@ -101,24 +101,17 @@
       background: radial-gradient(ellipse at center, rgba(0,0,0,0) 45%, rgba(0,0,0,0) 100%);
       pointer-events: none;
     }
-
-    .ov-kf { position: absolute; left: 50%; display: flex; gap: 0.32em; font: 800 1em/1.1 "Inter", "Montserrat", -apple-system, sans-serif; font-size: 118px; text-transform: capitalize; opacity: 0; white-space: nowrap; }
-    .ov-kf-center { top: 50%; transform: translate(-50%, -50%); }
-    .ov-kf-lower-center { bottom: 150px; transform: translateX(-50%); }
-    .ov-kf-w { background: #111111; color: #ffffff; padding: 0.28em 0.6em; border-radius: 6px; }
-    .ov-kf-acc { color: #ffd23f; }
   </style>
 
   <div
     id="root"
     data-composition-id="07-beat"
-    data-width="1920" data-height="1080" data-duration="4.03"
+    data-width="1920" data-height="1080" data-duration="4.23"
   >
-    <div class="broll-wrap clip" id="f-07-beat-wrap" data-start="0" data-duration="4.03" data-track-index="0">
-      <img id="f-07-beat-media" class="broll-media" src=".media/broll/beat-108.jpg" />
+    <div class="broll-wrap" id="f-07-beat-wrap">
+      <video id="f-07-beat-media" class="broll-media clip broll-g-desaturate" src=".media/broll/beat-109.mp4" muted playsinline data-start="0" data-duration="4.23" data-media-start="0" data-track-index="0"></video>
     </div>
-    <div class="broll-scrim clip" id="f-07-beat-scrim" data-start="0" data-duration="4.03" data-track-index="1"></div>
-    <div class="ov-kf ov-kf-center" id="f-07-beat-ov"><span class="ov-kf-w" id="f-07-beat-ov-w0">LAYER</span></div>
+    <div class="broll-scrim clip" id="f-07-beat-scrim" data-start="0" data-duration="4.23" data-track-index="1"></div>
   </div>
 
   <script>
@@ -126,9 +119,7 @@
       window.__timelines = window.__timelines || {};
       var tl = gsap.timeline({ paused: true });
       var wrap = document.getElementById("f-07-beat-wrap");
-      tl.fromTo(wrap, { scale: 1.16 }, { scale: 1.0, duration: 4.03, ease: "none" }, 0);
-      tl.set("#f-07-beat-ov", { opacity: 1 }, 1.21);
-      tl.fromTo("#f-07-beat-ov-w0", { opacity: 0 }, { opacity: 1, duration: 0.22, ease: "power2.out" }, 1.21);
+      gsap.set(wrap, { scale: 1.0 });
       window.__timelines["07-beat"] = tl;
     })();
   </script>

@@ -1,12 +1,353 @@
 {
   "beats": [
     {
-      "id": "11",
-      "text": "The window never opens, and that is why the tree frogs are still calling in Taylor Slough while nothing calls from the water.",
-      "start": 66.75,
-      "end": 73.89,
-      "durationSeconds": 7.14,
+      "id": "12",
+      "text": "And when it does get too dry, it burrows into the same mud, in the same shallows, alongside the same small animals",
+      "start": 46.73,
+      "end": 53.21,
+      "durationSeconds": 6.48,
       "words": [
+        {
+          "text": "And",
+          "start": 46.73,
+          "end": 46.83
+        },
+        {
+          "text": "when",
+          "start": 46.88,
+          "end": 47.11
+        },
+        {
+          "text": "it",
+          "start": 47.11,
+          "end": 47.23
+        },
+        {
+          "text": "does",
+          "start": 47.31,
+          "end": 47.51
+        },
+        {
+          "text": "get",
+          "start": 47.51,
+          "end": 47.66
+        },
+        {
+          "text": "too",
+          "start": 47.7,
+          "end": 47.87
+        },
+        {
+          "text": "dry,",
+          "start": 48.11,
+          "end": 48.24
+        },
+        {
+          "text": "it",
+          "start": 48.24,
+          "end": 48.37
+        },
+        {
+          "text": "burrows",
+          "start": 48.37,
+          "end": 48.8
+        },
+        {
+          "text": "into",
+          "start": 48.83,
+          "end": 48.99
+        },
+        {
+          "text": "the",
+          "start": 49.24,
+          "end": 49.3
+        },
+        {
+          "text": "same",
+          "start": 49.38,
+          "end": 49.54
+        },
+        {
+          "text": "mud,",
+          "start": 49.67,
+          "end": 49.91
+        },
+        {
+          "text": "in",
+          "start": 49.91,
+          "end": 49.98
+        },
+        {
+          "text": "the",
+          "start": 50.19,
+          "end": 50.24
+        },
+        {
+          "text": "same",
+          "start": 50.24,
+          "end": 50.41
+        },
+        {
+          "text": "shallows,",
+          "start": 50.5,
+          "end": 51.18
+        },
+        {
+          "text": "alongside",
+          "start": 51.18,
+          "end": 51.99
+        },
+        {
+          "text": "the",
+          "start": 52.09,
+          "end": 52.19
+        },
+        {
+          "text": "same",
+          "start": 52.24,
+          "end": 52.47
+        },
+        {
+          "text": "small",
+          "start": 52.47,
+          "end": 52.8
+        },
+        {
+          "text": "animals",
+          "start": 52.8,
+          "end": 53.21
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "text": "that were counting on those months of peace.",
+      "start": 53.21,
+      "end": 55.91,
+      "durationSeconds": 2.7,
+      "words": [
+        {
+          "text": "that",
+          "start": 53.21,
+          "end": 53.57
+        },
+        {
+          "text": "were",
+          "start": 53.57,
+          "end": 53.81
+        },
+        {
+          "text": "counting",
+          "start": 53.81,
+          "end": 54.27
+        },
+        {
+          "text": "on",
+          "start": 54.27,
+          "end": 54.38
+        },
+        {
+          "text": "those",
+          "start": 54.73,
+          "end": 54.81
+        },
+        {
+          "text": "months",
+          "start": 54.81,
+          "end": 55.1
+        },
+        {
+          "text": "of",
+          "start": 55.16,
+          "end": 55.33
+        },
+        {
+          "text": "peace.",
+          "start": 55.55,
+          "end": 55.77
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "text": "The predators are supposed to leave.",
+      "start": 55.91,
+      "end": 58.13,
+      "durationSeconds": 2.22,
+      "words": [
+        {
+          "text": "The",
+          "start": 55.91,
+          "end": 56.04
+        },
+        {
+          "text": "predators",
+          "start": 56.04,
+          "end": 56.42
+        },
+        {
+          "text": "are",
+          "start": 56.42,
+          "end": 56.56
+        },
+        {
+          "text": "supposed",
+          "start": 56.66,
+          "end": 57.15
+        },
+        {
+          "text": "to",
+          "start": 57.23,
+          "end": 57.36
+        },
+        {
+          "text": "leave.",
+          "start": 57.36,
+          "end": 57.8
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "text": "This one stays. It stays in the exact place the prey retreats to, at the exact time the prey is most concentrated",
+      "start": 58.13,
+      "end": 65.32,
+      "durationSeconds": 7.19,
+      "words": [
+        {
+          "text": "This",
+          "start": 58.13,
+          "end": 58.32
+        },
+        {
+          "text": "one",
+          "start": 58.32,
+          "end": 58.44
+        },
+        {
+          "text": "stays.",
+          "start": 58.61,
+          "end": 59.2
+        },
+        {
+          "text": "It",
+          "start": 59.3,
+          "end": 59.36
+        },
+        {
+          "text": "stays",
+          "start": 59.36,
+          "end": 59.66
+        },
+        {
+          "text": "in",
+          "start": 59.72,
+          "end": 59.89
+        },
+        {
+          "text": "the",
+          "start": 60.11,
+          "end": 60.16
+        },
+        {
+          "text": "exact",
+          "start": 60.16,
+          "end": 60.56
+        },
+        {
+          "text": "place",
+          "start": 60.56,
+          "end": 60.96
+        },
+        {
+          "text": "the",
+          "start": 60.96,
+          "end": 61.2
+        },
+        {
+          "text": "prey",
+          "start": 61.2,
+          "end": 61.39
+        },
+        {
+          "text": "retreats",
+          "start": 61.53,
+          "end": 62.16
+        },
+        {
+          "text": "to,",
+          "start": 62.16,
+          "end": 62.56
+        },
+        {
+          "text": "at",
+          "start": 62.56,
+          "end": 62.58
+        },
+        {
+          "text": "the",
+          "start": 62.67,
+          "end": 62.78
+        },
+        {
+          "text": "exact",
+          "start": 62.82,
+          "end": 63.15
+        },
+        {
+          "text": "time",
+          "start": 63.15,
+          "end": 63.44
+        },
+        {
+          "text": "the",
+          "start": 63.44,
+          "end": 63.6
+        },
+        {
+          "text": "prey",
+          "start": 63.64,
+          "end": 63.82
+        },
+        {
+          "text": "is",
+          "start": 63.82,
+          "end": 64.15
+        },
+        {
+          "text": "most",
+          "start": 64.15,
+          "end": 64.37
+        },
+        {
+          "text": "concentrated",
+          "start": 64.37,
+          "end": 64.85
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "text": "and most vulnerable. The window never opens, and that is why the tree frogs are still calling in Taylor Slough",
+      "start": 65.32,
+      "end": 71.8,
+      "durationSeconds": 6.48,
+      "words": [
+        {
+          "text": "and",
+          "start": 65.32,
+          "end": 65.45
+        },
+        {
+          "text": "most",
+          "start": 65.45,
+          "end": 65.67
+        },
+        {
+          "text": "vulnerable.",
+          "start": 65.75,
+          "end": 66.72
+        },
         {
           "text": "The",
           "start": 66.75,
@@ -91,7 +432,16 @@
           "text": "Slough",
           "start": 71.46,
           "end": 71.76
-        },
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "text": "while nothing calls from the water.",
+      "start": 71.8,
+      "end": 73.89,
+      "durationSeconds": 2.09,
+      "words": [
         {
           "text": "while",
           "start": 71.8,
@@ -125,7 +475,7 @@
       ]
     },
     {
-      "id": "12",
+      "id": "18",
       "text": "The squirrel tree frogs, the green tree frogs, the Cuban tree frogs.",
       "start": 73.89,
       "end": 78.17,
@@ -194,11 +544,11 @@
       ]
     },
     {
-      "id": "13",
-      "text": "They breed in water, but they live above it. They spend their adult lives on trunks and leaves and branches.",
+      "id": "19",
+      "text": "They breed in water, but they live above it.",
       "start": 78.17,
-      "end": 85.05,
-      "durationSeconds": 6.88,
+      "end": 81,
+      "durationSeconds": 2.83,
       "words": [
         {
           "text": "They",
@@ -244,7 +594,16 @@
           "text": "it.",
           "start": 80.65,
           "end": 81
-        },
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "text": "They spend their adult lives on trunks and leaves and branches.",
+      "start": 81,
+      "end": 85.05,
+      "durationSeconds": 4.05,
+      "words": [
         {
           "text": "They",
           "start": 81,
@@ -303,10 +662,10 @@
       ]
     },
     {
-      "id": "14",
+      "id": "21",
       "text": "In a layer of the ecosystem the eel cannot reach.",
       "start": 85.05,
-      "end": 88.58,
+      "end": 88.62,
       "durationSeconds": 3.57,
       "words": [
         {
@@ -358,585 +717,6 @@
           "text": "reach.",
           "start": 87.98,
           "end": 88.58
-        }
-      ]
-    },
-    {
-      "id": "15",
-      "text": "Eels don't climb trees. Everything below that line was exposed.",
-      "start": 88.62,
-      "end": 92.93,
-      "durationSeconds": 4.61,
-      "words": [
-        {
-          "text": "Eels",
-          "start": 88.62,
-          "end": 88.94
-        },
-        {
-          "text": "don't",
-          "start": 88.94,
-          "end": 89.27
-        },
-        {
-          "text": "climb",
-          "start": 89.37,
-          "end": 89.52
-        },
-        {
-          "text": "trees.",
-          "start": 90.07,
-          "end": 90.58
-        },
-        {
-          "text": "Everything",
-          "start": 90.68,
-          "end": 91.17
-        },
-        {
-          "text": "below",
-          "start": 91.25,
-          "end": 91.57
-        },
-        {
-          "text": "that",
-          "start": 91.57,
-          "end": 91.8
-        },
-        {
-          "text": "line",
-          "start": 91.8,
-          "end": 92.15
-        },
-        {
-          "text": "was",
-          "start": 92.15,
-          "end": 92.29
-        },
-        {
-          "text": "exposed.",
-          "start": 92.29,
-          "end": 92.93
-        }
-      ]
-    },
-    {
-      "id": "16",
-      "text": "Everything above it was fine. The survivors weren't the strong ones or the fast ones.",
-      "start": 93.23,
-      "end": 97.57,
-      "durationSeconds": 4.34,
-      "words": [
-        {
-          "text": "Everything",
-          "start": 93.23,
-          "end": 93.49
-        },
-        {
-          "text": "above",
-          "start": 93.6,
-          "end": 93.9
-        },
-        {
-          "text": "it",
-          "start": 93.9,
-          "end": 94.13
-        },
-        {
-          "text": "was",
-          "start": 94.13,
-          "end": 94.27
-        },
-        {
-          "text": "fine.",
-          "start": 94.27,
-          "end": 94.8
-        },
-        {
-          "text": "The",
-          "start": 94.8,
-          "end": 94.81
-        },
-        {
-          "text": "survivors",
-          "start": 94.97,
-          "end": 95.41
-        },
-        {
-          "text": "weren't",
-          "start": 95.41,
-          "end": 95.73
-        },
-        {
-          "text": "the",
-          "start": 95.73,
-          "end": 95.93
-        },
-        {
-          "text": "strong",
-          "start": 95.93,
-          "end": 96.23
-        },
-        {
-          "text": "ones",
-          "start": 96.23,
-          "end": 96.41
-        },
-        {
-          "text": "or",
-          "start": 96.49,
-          "end": 96.63
-        },
-        {
-          "text": "the",
-          "start": 96.63,
-          "end": 96.81
-        },
-        {
-          "text": "fast",
-          "start": 96.84,
-          "end": 97.05
-        },
-        {
-          "text": "ones.",
-          "start": 97.37,
-          "end": 97.57
-        }
-      ]
-    },
-    {
-      "id": "17",
-      "text": "They were the ones that happened to live at the right altitude.",
-      "start": 97.57,
-      "end": 101.14,
-      "durationSeconds": 3.66,
-      "words": [
-        {
-          "text": "They",
-          "start": 97.57,
-          "end": 97.7
-        },
-        {
-          "text": "were",
-          "start": 97.87,
-          "end": 98.11
-        },
-        {
-          "text": "the",
-          "start": 98.11,
-          "end": 98.2
-        },
-        {
-          "text": "ones",
-          "start": 98.55,
-          "end": 98.58
-        },
-        {
-          "text": "that",
-          "start": 98.58,
-          "end": 98.72
-        },
-        {
-          "text": "happened",
-          "start": 98.85,
-          "end": 99.4
-        },
-        {
-          "text": "to",
-          "start": 99.4,
-          "end": 99.53
-        },
-        {
-          "text": "live",
-          "start": 99.53,
-          "end": 99.8
-        },
-        {
-          "text": "at",
-          "start": 99.8,
-          "end": 99.93
-        },
-        {
-          "text": "the",
-          "start": 99.93,
-          "end": 100.05
-        },
-        {
-          "text": "right",
-          "start": 100.21,
-          "end": 100.47
-        },
-        {
-          "text": "altitude.",
-          "start": 100.47,
-          "end": 101.14
-        }
-      ]
-    },
-    {
-      "id": "18",
-      "text": "And the numbers on what happened below that line had already been published, three years before Howell's amphibian survey.",
-      "start": 101.23,
-      "end": 108.11,
-      "durationSeconds": 6.88,
-      "words": [
-        {
-          "text": "And",
-          "start": 101.23,
-          "end": 101.32
-        },
-        {
-          "text": "the",
-          "start": 101.38,
-          "end": 101.5
-        },
-        {
-          "text": "numbers",
-          "start": 101.5,
-          "end": 101.93
-        },
-        {
-          "text": "on",
-          "start": 101.93,
-          "end": 102.05
-        },
-        {
-          "text": "what",
-          "start": 102.05,
-          "end": 102.28
-        },
-        {
-          "text": "happened",
-          "start": 102.3,
-          "end": 102.78
-        },
-        {
-          "text": "below",
-          "start": 102.78,
-          "end": 103.02
-        },
-        {
-          "text": "that",
-          "start": 103.19,
-          "end": 103.3
-        },
-        {
-          "text": "line",
-          "start": 103.33,
-          "end": 103.49
-        },
-        {
-          "text": "had",
-          "start": 103.49,
-          "end": 103.87
-        },
-        {
-          "text": "already",
-          "start": 103.87,
-          "end": 104.04
-        },
-        {
-          "text": "been",
-          "start": 104.17,
-          "end": 104.41
-        },
-        {
-          "text": "published,",
-          "start": 104.41,
-          "end": 105.08
-        },
-        {
-          "text": "three",
-          "start": 105.08,
-          "end": 105.37
-        },
-        {
-          "text": "years",
-          "start": 105.53,
-          "end": 105.76
-        },
-        {
-          "text": "before",
-          "start": 105.87,
-          "end": 106.21
-        },
-        {
-          "text": "Howell's",
-          "start": 106.21,
-          "end": 106.78
-        },
-        {
-          "text": "amphibian",
-          "start": 106.87,
-          "end": 107.48
-        },
-        {
-          "text": "survey.",
-          "start": 107.48,
-          "end": 108.11
-        }
-      ]
-    },
-    {
-      "id": "19",
-      "text": "In 2023, a study looking at the same system found that in areas the swamp eels had colonised, native fish and crayfish had fallen by between",
-      "start": 108.11,
-      "end": 117.34,
-      "durationSeconds": 9.8,
-      "words": [
-        {
-          "text": "In",
-          "start": 108.11,
-          "end": 108.49
-        },
-        {
-          "text": "2023,",
-          "start": 108.49,
-          "end": 109.35
-        },
-        {
-          "text": "a",
-          "start": 109.35,
-          "end": 109.42
-        },
-        {
-          "text": "study",
-          "start": 109.42,
-          "end": 109.79
-        },
-        {
-          "text": "looking",
-          "start": 109.81,
-          "end": 110.33
-        },
-        {
-          "text": "at",
-          "start": 110.33,
-          "end": 110.42
-        },
-        {
-          "text": "the",
-          "start": 110.5,
-          "end": 110.59
-        },
-        {
-          "text": "same",
-          "start": 110.75,
-          "end": 110.92
-        },
-        {
-          "text": "system",
-          "start": 111.01,
-          "end": 111.39
-        },
-        {
-          "text": "found",
-          "start": 111.71,
-          "end": 111.87
-        },
-        {
-          "text": "that",
-          "start": 111.88,
-          "end": 111.95
-        },
-        {
-          "text": "in",
-          "start": 112.04,
-          "end": 112.11
-        },
-        {
-          "text": "areas",
-          "start": 112.11,
-          "end": 112.49
-        },
-        {
-          "text": "the",
-          "start": 112.49,
-          "end": 112.72
-        },
-        {
-          "text": "swamp",
-          "start": 112.72,
-          "end": 112.98
-        },
-        {
-          "text": "eels",
-          "start": 113.07,
-          "end": 113.2
-        },
-        {
-          "text": "had",
-          "start": 113.53,
-          "end": 113.63
-        },
-        {
-          "text": "colonised,",
-          "start": 113.63,
-          "end": 114.34
-        },
-        {
-          "text": "native",
-          "start": 114.69,
-          "end": 114.86
-        },
-        {
-          "text": "fish",
-          "start": 114.99,
-          "end": 115.21
-        },
-        {
-          "text": "and",
-          "start": 115.21,
-          "end": 115.29
-        },
-        {
-          "text": "crayfish",
-          "start": 115.51,
-          "end": 116.05
-        },
-        {
-          "text": "had",
-          "start": 116.05,
-          "end": 116.19
-        },
-        {
-          "text": "fallen",
-          "start": 116.35,
-          "end": 116.74
-        },
-        {
-          "text": "by",
-          "start": 116.74,
-          "end": 116.8
-        },
-        {
-          "text": "between",
-          "start": 116.95,
-          "end": 117.34
-        }
-      ]
-    },
-    {
-      "id": "20",
-      "text": "85 and 93 percent. The authors described it as a complete ecosystem collapse, 85 to 93 percent of the small fish and crayfish.",
-      "start": 117.91,
-      "end": 127.08,
-      "durationSeconds": 9.17,
-      "words": [
-        {
-          "text": "85",
-          "start": 117.91,
-          "end": 118
-        },
-        {
-          "text": "and",
-          "start": 118.1,
-          "end": 118.19
-        },
-        {
-          "text": "93",
-          "start": 118.24,
-          "end": 118.71
-        },
-        {
-          "text": "percent.",
-          "start": 118.71,
-          "end": 119.49
-        },
-        {
-          "text": "The",
-          "start": 119.57,
-          "end": 119.73
-        },
-        {
-          "text": "authors",
-          "start": 119.73,
-          "end": 120.15
-        },
-        {
-          "text": "described",
-          "start": 120.28,
-          "end": 120.91
-        },
-        {
-          "text": "it",
-          "start": 121.03,
-          "end": 121.13
-        },
-        {
-          "text": "as",
-          "start": 121.16,
-          "end": 121.3
-        },
-        {
-          "text": "a",
-          "start": 121.3,
-          "end": 121.34
-        },
-        {
-          "text": "complete",
-          "start": 121.55,
-          "end": 122.02
-        },
-        {
-          "text": "ecosystem",
-          "start": 122.02,
-          "end": 122.66
-        },
-        {
-          "text": "collapse,",
-          "start": 122.74,
-          "end": 123.4
-        },
-        {
-          "text": "85",
-          "start": 123.95,
-          "end": 123.98
-        },
-        {
-          "text": "to",
-          "start": 123.98,
-          "end": 124.14
-        },
-        {
-          "text": "93",
-          "start": 124.14,
-          "end": 124.61
-        },
-        {
-          "text": "percent",
-          "start": 124.61,
-          "end": 125.28
-        },
-        {
-          "text": "of",
-          "start": 125.35,
-          "end": 125.41
-        },
-        {
-          "text": "the",
-          "start": 125.41,
-          "end": 125.6
-        },
-        {
-          "text": "small",
-          "start": 125.6,
-          "end": 125.87
-        },
-        {
-          "text": "fish",
-          "start": 125.95,
-          "end": 126.18
-        },
-        {
-          "text": "and",
-          "start": 126.18,
-          "end": 126.3
-        },
-        {
-          "text": "crayfish.",
-          "start": 126.38,
-          "end": 127.08
         }
       ]
     }

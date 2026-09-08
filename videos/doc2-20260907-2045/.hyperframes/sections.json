@@ -1,13 +1,48 @@
-{ "sections": [
-  { "startBeat": "01", "title": "The window that lets small things grow" },
-  { "startBeat": "06", "title": "The animal that never leaves" },
-  { "startBeat": "11", "title": "Above the line, below the line" },
-  { "startBeat": "18", "title": "The numbers were already published" },
-  { "startBeat": "24", "title": "Checking everything else" },
-  { "startBeat": "30", "title": "Every other explanation, tested" },
-  { "startBeat": "46", "title": "Twice the size of any other factor" },
-  { "startBeat": "61", "title": "Two species, both eel-shaped" },
-  { "startBeat": "76", "title": "Why almost nothing can be done" },
-  { "startBeat": "96", "title": "The front line is moving" },
-  { "startBeat": "111", "title": "High risk, 28 years late" }
-] }
+{
+  "sections": [
+    {
+      "startBeat": "01",
+      "title": "The window that lets small things grow"
+    },
+    {
+      "startBeat": "09",
+      "title": "The animal that never leaves"
+    },
+    {
+      "startBeat": "16",
+      "title": "Above the line, below the line"
+    },
+    {
+      "startBeat": "26",
+      "title": "The numbers were already published"
+    },
+    {
+      "startBeat": "36",
+      "title": "Checking everything else"
+    },
+    {
+      "startBeat": "45",
+      "title": "Every other explanation, tested"
+    },
+    {
+      "startBeat": "69",
+      "title": "Twice the size of any other factor"
+    },
+    {
+      "startBeat": "92",
+      "title": "Two species, both eel-shaped"
+    },
+    {
+      "startBeat": "113",
+      "title": "Why almost nothing can be done"
+    },
+    {
+      "startBeat": "142",
+      "title": "The front line is moving"
+    },
+    {
+      "startBeat": "162",
+      "title": "High risk, 28 years late"
+    }
+  ]
+}

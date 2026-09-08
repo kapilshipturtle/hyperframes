@@ -148,12 +148,27 @@ function main() {
   const chunkBoundaries = []; // frame indices where a new chunk starts (always includes 0)
   let chunkStart = 0;
   let chunkSources = 0;
+  // When the quota is reached, split at the NEAREST hard cut searching FORWARD,
+  // instead of only accepting the exact frame the quota landed on. With one
+  // source per beat (the common case: one clip, no cutaway) the quota trips on an
+  // exact multiple of maxSources; if that frame's transition is an accent, the old
+  // guard just refused and let the counter keep climbing, so the boundary still
+  // landed mid-transition. Measured: --max-sources-per-chunk 10 on a 118-beat film
+  // put 3 of 12 boundaries on light-leak-flash / zoom-through, which breaks the
+  // workflow's lossless-join guarantee (a chunk join must be an instantaneous cut).
   for (let i = 0; i < frames.length; i++) {
     const n = countSources(projectDir, frames[i].id);
-    if (chunkSources + n > maxSources && i > chunkStart && isHardCut(frames[i].transitionIn)) {
-      chunkBoundaries.push(i);
-      chunkStart = i;
-      chunkSources = 0;
+    if (chunkSources + n > maxSources && i > chunkStart) {
+      let cut = -1;
+      for (let j = i; j < frames.length; j++) {
+        if (isHardCut(frames[j].transitionIn)) { cut = j; break; }
+      }
+      if (cut > chunkStart) {
+        chunkBoundaries.push(cut);
+        chunkStart = cut;
+        chunkSources = 0;
+        if (cut > i) { i = cut - 1; continue; }
+      }
     }
     chunkSources += n;
   }

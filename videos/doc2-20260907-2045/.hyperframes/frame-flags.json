@@ -298,7 +298,6 @@
   "grade": "desaturate"
  },
  "82": {
-  "vignette": 0.378,
   "grade": "cool"
  },
  "83": {
@@ -306,7 +305,6 @@
   "gradeContrast": true
  },
  "84": {
-  "vignette": 0.378,
   "bw": true
  },
  "85": {
@@ -483,6 +481,7 @@
   "grade": "desaturate"
  },
  "142": {
+  "vignette": 0.378,
   "grade": "desaturate"
  },
  "143": {
@@ -537,6 +536,7 @@
   "grade": "desaturate"
  },
  "162": {
+  "vignette": 0.378,
   "grade": "desaturate"
  },
  "163": {},

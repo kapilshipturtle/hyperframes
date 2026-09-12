@@ -215,7 +215,25 @@ function lutFilterFragment(lutPath) {
   return `,lut3d=file='${lutPath.replace(/:/g, "\\:")}'`;
 }
 
+// ── TAIL MARGIN — the cause of 43.4s of BLACK in a shipped 12-minute film ──
+// Trimming to EXACTLY the beat duration leaves the render no frames the instant
+// anything asks for one more: float rounding at the boundary, the transition
+// injector extending the outgoing clip to hold its last frame, or a held frame
+// at a hard cut. The renderer falls off the end of the extracted frame set and
+// paints 100% BLACK.
+//
+// Measured on the delivered film: EVERY ONE of the 12 black video beats had
+// between -0.018s and +0.034s of spare media — i.e. none. Reproduced locally on
+// an 11-beat chunk: 7 black frames, each the last frame of a beat whose boundary
+// was an exact touch, plus beats needing 0.245-0.350s MORE than their source had
+// (exactly their transition durations). Upstream issue #3377 is the same defect.
+//
+// The extra tail is never SHOWN — the clip's data-duration still ends at the
+// beat; the margin only guarantees a decodable frame exists past that point.
+const TAIL_MARGIN_S = 0.75;
+
 async function processVideo({ chosen, beatId, targetDuration, brollDir, grade, freeze, lut, effect }) {
+  const trimDuration = targetDuration + TAIL_MARGIN_S;
   const gradeFilter = (grade && GRADE_PRESETS[grade] ? `,${GRADE_PRESETS[grade]}` : "") + lutFilterFragment(lut) + (effect && EFFECT_PRESETS[effect] ? `,${EFFECT_PRESETS[effect]}` : "");
   const rawPath = join(brollDir, `beat-${beatId}-raw.mp4`);
   const outPath = join(brollDir, `beat-${beatId}.mp4`);
@@ -311,7 +329,7 @@ async function processVideo({ chosen, beatId, targetDuration, brollDir, grade, f
       "-y", "-v", "error",
       ...(freeze ? [] : ["-stream_loop", String(loops - 1)]),
       "-i", rawPath,
-      "-t", String(targetDuration.toFixed(3)),
+      "-t", String(trimDuration.toFixed(3)),
       "-an", // strip source audio — narration/BGM own the audio track
       "-vf", `scale=1920:1080:force_original_aspect_ratio=increase,crop=1920:1080${padFilter}${gradeFilter}`,
       "-c:v", "libx264", "-preset", "veryfast", "-crf", "18",
@@ -347,7 +365,7 @@ async function processVideo({ chosen, beatId, targetDuration, brollDir, grade, f
     "-y", "-v", "error",
     "-ss", offset.toFixed(2),
     "-i", rawPath,
-    "-t", targetDuration.toFixed(3),
+    "-t", trimDuration.toFixed(3),
     "-an",
     "-vf", `scale=1920:1080:force_original_aspect_ratio=increase,crop=1920:1080${gradeFilter}`,
     "-c:v", "libx264", "-preset", "veryfast", "-crf", "18",

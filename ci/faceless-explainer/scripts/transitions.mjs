@@ -237,9 +237,47 @@ function runInject(argv) {
 
   const gsapLines = [];
   const applied = [];
+
+  // ── ONE-FRAME HOLE AT EVERY HARD CUT (measured, reproduced 2026-09-12) ──
+  // A hard cut left the outgoing clip's window ending at EXACTLY the incoming
+  // clip's start. Frames tile, so at that shared timestamp the outgoing clip is
+  // already out of its window and the incoming one has not opened: the renderer
+  // paints nothing and the frame is 100% BLACK.
+  //
+  // Measured on a real 11-beat chunk: 7 black frames at 5.833, 12.367, 18.367,
+  // 24.733, 33.633, 39.667 and 46.600s — each exactly the last frame of a beat
+  // whose boundary was an exact touch (gap +0.0000s). Every boundary carrying a
+  // real transition had negative overlap (-0.25 to -0.35s) and produced NO black
+  // frame, which is what isolates the cause to the touch itself.
+  //
+  // blackdetect never reported any of this: it has a 2-second minimum-duration
+  // floor and discards shorter runs silently. Use blackframe (no floor).
+  //
+  // Fix: hold the outgoing clip ONE FRAME past the cut. The incoming clip is on
+  // the other track and already opaque at its own start, so it covers the held
+  // frame — the hold only guarantees something is painted, it never shows.
+  const HOLD_FRAMES = 1;
+  const holdSeconds = HOLD_FRAMES / (reg.fps ?? 30);
+  let holes = 0;
   for (let i = 1; i < order.length; i++) {
     const spec = parseTransitionIn(order[i].frame.transitionIn);
-    if (!spec) continue; // hard cut
+    if (!spec) {
+      // hard cut: extend the outgoing clip by one frame so the boundary
+      // timestamp always has a painted layer beneath the incoming clip.
+      const inc = clips.get(order[i].id);
+      const out = clips.get(order[i - 1].id);
+      if (inc && out) {
+        const touch = Math.abs(out.start + out.duration - inc.start);
+        if (touch < 1e-6) {
+          const base = out.duration;
+          out.duration = r3(base + holdSeconds);
+          extendFrameTail(hyperframesDir, order[i - 1].frame, base, out.duration, die);
+          padFrameInternalDuration(hyperframesDir, order[i - 1].frame.src, out.id, out.duration);
+          holes++;
+        }
+      }
+      continue;
+    }
     const incoming = clips.get(order[i].id);
     const outgoing = clips.get(order[i - 1].id);
     const rec = resolveRecord(spec, byName, reg, (m) =>
@@ -262,10 +300,11 @@ function runInject(argv) {
     applied.push({ from: outgoing.id, to: incoming.id, type: rec.name, dur, T });
   }
 
-  if (applied.length === 0) {
+  if (applied.length === 0 && holes === 0) {
     console.log(`✓ transitions inject: 0 transitions (all cuts) — index.html unchanged`);
     return;
   }
+  if (holes) console.log(`  + closed ${holes} one-frame hole(s) at hard cuts (black-frame fix)`);
 
   // 0/1 ping-pong all frame clips in play order.
   const ordered = [...clips.values()].sort((a, b) => a.start - b.start || a.id.localeCompare(b.id));

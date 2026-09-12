@@ -154,7 +154,8 @@ jobs:
             --storyboard ./STORYBOARD.md --hyperframes . \
             --registry "$GITHUB_WORKSPACE/ci/documentary-broll/scripts/lib/transitions.json"
           node "$GITHUB_WORKSPACE/ci/faceless-explainer/scripts/transitions.mjs" verify \
-            --storyboard ./STORYBOARD.md --index ./index.html
+            --storyboard ./STORYBOARD.md --index ./index.html \
+            --registry "$GITHUB_WORKSPACE/ci/documentary-broll/scripts/lib/transitions.json"
 
       # NOTE: no cinematic-layers step here (ambience/grain) — deliberately
       # SKIPPED per-chunk. The always-on ambience bed and grain overlay are

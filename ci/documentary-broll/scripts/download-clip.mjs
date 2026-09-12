@@ -235,10 +235,23 @@ async function processVideo({ chosen, beatId, targetDuration, brollDir, grade, f
   // DIFFERENT candidate was silently reused when the chosen clip changed. The
   // raw's source URL is recorded in a sidecar; a mismatch deletes the raw (and
   // any processed output) so the new choice is actually downloaded.
+  // FAIL-CLOSED (ISS-0041): a raw with NO sidecar is STALE, not fresh. The old
+  // condition required existsSync(urlSidecar), so deleting the sidecars while
+  // leaving the raws in place disarmed the guard completely — measured at 146
+  // of 147 raws in a real run. Nine beats then re-fetched with corrected
+  // queries silently re-trimmed the ORIGINAL footage: the candidate record
+  // said "view of the dry ground" while the file on disk was still a whale,
+  // and only extracting a frame and looking at it revealed the mismatch.
   const urlSidecar = `${rawPath}.url`;
-  if (existsSync(rawPath) && existsSync(urlSidecar) && readFileSync(urlSidecar, "utf8").trim() !== String(chosen.downloadUrl)) {
-    console.log(`  ↻ download-clip: beat-${beatId} raw belongs to a different candidate — re-downloading`);
-    rmSync(rawPath); if (existsSync(outPath)) rmSync(outPath);
+  if (existsSync(rawPath)) {
+    const recorded = existsSync(urlSidecar) ? readFileSync(urlSidecar, "utf8").trim() : null;
+    if (recorded === null) {
+      console.log(`  ↻ download-clip: beat-${beatId} raw has NO .url sidecar — treating as stale, re-downloading`);
+      rmSync(rawPath); if (existsSync(outPath)) rmSync(outPath);
+    } else if (recorded !== String(chosen.downloadUrl)) {
+      console.log(`  ↻ download-clip: beat-${beatId} raw belongs to a different candidate — re-downloading`);
+      rmSync(rawPath); if (existsSync(outPath)) rmSync(outPath);
+    }
   }
   if (!existsSync(rawPath) || statSync(rawPath).size === 0) {
     await download(chosen.downloadUrl, rawPath);

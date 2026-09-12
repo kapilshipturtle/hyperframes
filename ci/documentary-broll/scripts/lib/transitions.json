@@ -1,190 +1,485 @@
 {
- "_comment": "documentary-broll's own vendored transition registry \u2014 a copy of faceless-explainer's base 5 (kept in step manually if those change) PLUS whip-pan, a documentary-broll-only addition. Vendored as a SEPARATE file (not edited in place on faceless-explainer's own lib/transitions.json) because that file is shared/reused as-is by 4 other workflows \u2014 adding a type there would leak it into all of them. Passed to the shared ../faceless-explainer/scripts/transitions.mjs via its --registry flag. Token placeholders the injector substitutes: __OLD__ (#el-<from>), __NEW__ (#el-<to>), __T__ (overlap-start s), __DUR__ (this boundary's duration), __DX__/__DXIN__ (horizontal travel + incoming offset), __DY__/__DYIN__ (vertical).",
- "transitions": [
-  {
-   "name": "crossfade",
-   "energy": "any",
-   "default_duration_s": 0.5,
-   "directions": [],
-   "source": "css-dissolve.md",
-   "gsap_template": [
-    "tl.to(__OLD__, { opacity: 0, duration: __DUR__, ease: \"power2.inOut\" }, __T__);",
-    "tl.fromTo(__NEW__, { opacity: 0 }, { opacity: 1, duration: __DUR__, ease: \"power2.inOut\" }, __T__);"
-   ]
-  },
-  {
-   "name": "blur-crossfade",
-   "energy": "calm",
-   "default_duration_s": 0.6,
-   "directions": [],
-   "source": "css-dissolve.md",
-   "note": "Default when the two frames' #root backgrounds differ a lot \u2014 the blur masks the background-color clash a plain crossfade would expose.",
-   "gsap_template": [
-    "tl.to(__OLD__, { filter: \"blur(10px)\", scale: 1.03, opacity: 0, duration: __DUR__, ease: \"power2.inOut\" }, __T__);",
-    "tl.fromTo(__NEW__, { filter: \"blur(10px)\", scale: 0.97, opacity: 0 }, { filter: \"blur(0px)\", scale: 1, opacity: 1, duration: __DUR__, ease: \"power2.inOut\" }, __T__);"
-   ]
-  },
-  {
-   "name": "push-slide",
-   "energy": "medium",
-   "default_duration_s": 0.5,
-   "directions": [
-    "LEFT",
-    "RIGHT",
-    "UP",
-    "DOWN"
-   ],
-   "default_direction": "LEFT",
-   "source": "css-push.md",
-   "note": "Directional. The injector picks __DX__/__DY__ from the direction and emits the horizontal OR vertical pair (not both).",
-   "gsap_template_horizontal": [
-    "tl.to(__OLD__, { x: __DX__, duration: __DUR__, ease: \"power3.inOut\" }, __T__);",
-    "tl.fromTo(__NEW__, { x: __DXIN__, opacity: 1 }, { x: 0, duration: __DUR__, ease: \"power3.inOut\" }, __T__);"
-   ],
-   "gsap_template_vertical": [
-    "tl.to(__OLD__, { y: __DY__, duration: __DUR__, ease: \"power3.inOut\" }, __T__);",
-    "tl.fromTo(__NEW__, { y: __DYIN__, opacity: 1 }, { y: 0, duration: __DUR__, ease: \"power3.inOut\" }, __T__);"
-   ]
-  },
-  {
-   "name": "zoom-through",
-   "energy": "high",
-   "default_duration_s": 0.4,
-   "directions": [],
-   "source": "css-scale.md",
-   "gsap_template": [
-    "tl.to(__OLD__, { scale: 2.5, opacity: 0, filter: \"blur(8px)\", duration: __DUR__, ease: \"power3.in\" }, __T__);",
-    "tl.fromTo(__NEW__, { scale: 0.5, opacity: 0, filter: \"blur(8px)\" }, { scale: 1, opacity: 1, filter: \"blur(0px)\", duration: __DUR__, ease: \"power3.out\" }, __T__);"
-   ]
-  },
-  {
-   "name": "squeeze",
-   "energy": "medium",
-   "default_duration_s": 0.4,
-   "directions": [],
-   "source": "css-push.md",
-   "note": "Old compresses to a vertical line on the left edge; new expands from the right edge. Incoming starts off (scaleX 0) so its higher-track stacking is harmless.",
-   "gsap_template": [
-    "tl.to(__OLD__, { scaleX: 0, transformOrigin: \"left center\", duration: __DUR__, ease: \"power3.inOut\" }, __T__);",
-    "tl.fromTo(__NEW__, { scaleX: 0, transformOrigin: \"right center\", opacity: 1 }, { scaleX: 1, transformOrigin: \"right center\", duration: __DUR__, ease: \"power3.inOut\" }, __T__);"
-   ]
-  },
-  {
-   "name": "hard-cut",
-   "energy": "any",
-   "default_duration_s": 0.0,
-   "directions": [],
-   "source": "documentary-broll (craft-upgrade E3 \u2014 every entry in this registry before this one was a blend/dissolve; real documentaries are MOSTLY straight cuts, confirmed via the craft-upgrade research's NLE-parity comparison against DaVinci/CapCut/Premiere, all of which treat a plain cut as the DEFAULT boundary type, dissolves as the deliberate exception)",
-   "note": "A true instantaneous cut \u2014 the outgoing frame's opacity drops to 0 and the incoming frame's opacity jumps to 1 in the SAME instant (duration effectively 0, using the smallest non-zero GSAP duration the engine will still register reliably rather than a literal 0 which some tween engines treat as a no-op). Use for within-sequence shot changes inside one topic/idea (matches E1's multi-shot-beat splits) \u2014 NOT for a topic pivot, which still wants a real dissolve to signal the change. A film where every boundary is a dissolve is itself an amateur tell; this is the fix.",
-   "gsap_template": [
-    "tl.set(__OLD__, { opacity: 0 }, __T__);",
-    "tl.set(__NEW__, { opacity: 1 }, __T__);"
-   ]
-  },
-  {
-   "name": "dip-to-black",
-   "energy": "any",
-   "default_duration_s": 0.9,
-   "directions": [],
-   "source": "documentary-broll (craft-upgrade P1b \u2014 a real documentary device, not a flashy one: dip-to-black at act breaks. Every professional NLE \u2014 Resolve, Premiere \u2014 ships a dip-to-color family; this registry had none)",
-   "note": "IMPORTANT SCOPE NOTE (found during this pass's own development, not assumed): the shared injector (faceless-explainer/scripts/transitions.mjs) only substitutes a FIXED token set (__OLD__/__NEW__/__T__/__DUR__/__DX__ family) and never creates new DOM elements \u2014 there is no scrim/color-layer token available, so a dip-to-ARBITRARY-color (dip-to-white, dip-to-red) is genuinely not buildable through this registry mechanism without a shared-injector code change (out of scope for this pass \u2014 see the shared script's own file, owned by faceless-explainer, reused by 4 other workflows). What IS buildable with existing tokens: dip-to-BLACK specifically, since this skill's own composition root already sits on a black canvas (`body{background:#000}` \u2014 see index.html's own boilerplate) \u2014 fading __OLD__ fully out reveals that black canvas for free, holding briefly, then fading __NEW__ in from transparent achieves a real, correct dip-to-black with zero new mechanism. Shipped as `dip-to-black` (not the more general `dip-to-color` name) so this scope limit is honest in the registry itself, not just in this comment.",
-   "gsap_template": [
-    "tl.to(__OLD__, { opacity: 0, duration: __DUR__, ease: \"power2.in\" }, __T__);",
-    "tl.fromTo(__NEW__, { opacity: 0 }, { opacity: 1, duration: __DUR__, ease: \"power2.out\" }, \">+0.15\");"
-   ]
-  },
-  {
-   "name": "whip-pan",
-   "energy": "high",
-   "default_duration_s": 0.35,
-   "directions": [
-    "LEFT",
-    "RIGHT",
-    "UP",
-    "DOWN"
-   ],
-   "default_direction": "LEFT",
-   "source": "documentary-broll (new \u2014 synthetic whip-pan, no real camera motion available in a stock-footage architecture)",
-   "note": "Fakes a real whip-pan camera move: a fast directional streak-blur + translate on the outgoing frame, the incoming frame already blurred and offset from the opposite side, both deblurring/settling only in the tween's final beat. Deliberately the shortest duration in the registry (real whip-pans are a snap, not a glide) \u2014 keep --intensity energetic/pool inclusion sparing, this is meant to be a rare accent (e.g. a hard scene/location change), not a rotation staple.",
-   "gsap_template_horizontal": [
-    "tl.to(__OLD__, { x: __DX__, filter: \"blur(28px)\", duration: __DUR__, ease: \"power4.in\" }, __T__);",
-    "tl.fromTo(__NEW__, { x: __DXIN__, filter: \"blur(28px)\", opacity: 1 }, { x: 0, filter: \"blur(0px)\", duration: __DUR__, ease: \"power4.out\" }, __T__);"
-   ],
-   "gsap_template_vertical": [
-    "tl.to(__OLD__, { y: __DY__, filter: \"blur(28px)\", duration: __DUR__, ease: \"power4.in\" }, __T__);",
-    "tl.fromTo(__NEW__, { y: __DYIN__, filter: \"blur(28px)\", opacity: 1 }, { y: 0, filter: \"blur(0px)\", duration: __DUR__, ease: \"power4.out\" }, __T__);"
-   ]
-  },
-  {
-   "name": "film-dissolve",
-   "energy": "calm",
-   "default_duration_s": 1.1,
-   "directions": [],
-   "source": "documentary-broll (craft-upgrade P1c \u2014 a real film-optical-printer dissolve holds a brief overlap where BOTH frames are simultaneously visible at meaningful opacity, distinct from crossfade's simple linear cross-dissolve where the sum of both opacities stays close to 1.0 throughout)",
-   "note": "The outgoing frame fades out on a SLOWER/later curve while the incoming frame fades in on a faster/earlier one, so there's a real mid-transition window where both sit at 40-70% opacity together (an actual double-exposure look) rather than crossfade's clean linear handoff. Reserve for a genuinely slow, contemplative beat-to-beat move \u2014 this reads noticeably softer/dreamier than crossfade, not a drop-in replacement for it.",
-   "gsap_template": [
-    "tl.to(__OLD__, { opacity: 0, duration: __DUR__, ease: \"power1.in\" }, __T__);",
-    "tl.fromTo(__NEW__, { opacity: 0 }, { opacity: 1, duration: __DUR__, ease: \"power3.out\" }, __T__ + 0.15);"
-   ]
-  },
-  {
-   "name": "iris",
-   "energy": "medium",
-   "default_duration_s": 0.8,
-   "directions": [],
-   "source": "documentary-broll (craft-upgrade P1e \u2014 the classic iris wipe: a circular reveal expanding from center, real silent-film/classic-documentary convention for a deliberate scene punctuation, not a routine cut)",
-   "note": "Uses clip-path (a real, standard CSS/GSAP-animatable property \u2014 no new token or DOM element needed, same verified-safe mechanism as every other entry here) to expand a circle from the center of frame outward. The outgoing frame's circle SHRINKS to nothing while the incoming's GROWS from nothing, both centered \u2014 a deliberate, rare accent (silent-film/classic-doc convention), not a rotation staple, similar tier to whip-pan.",
-   "gsap_template": [
-    "tl.fromTo(__OLD__, { clipPath: \"circle(150% at 50% 50%)\" }, { clipPath: \"circle(0% at 50% 50%)\", duration: __DUR__, ease: \"power2.inOut\" }, __T__);",
-    "tl.fromTo(__NEW__, { clipPath: \"circle(0% at 50% 50%)\", opacity: 1 }, { clipPath: \"circle(150% at 50% 50%)\", duration: __DUR__, ease: \"power2.inOut\" }, __T__);"
-   ]
-  },
-  {
-   "name": "light-leak-flash",
-   "energy": "high",
-   "default_duration_s": 0.5,
-   "directions": [],
-   "source": "documentary-broll (craft-upgrade P1f \u2014 a bright flash-to-white punctuation, real analog-film-leak convention, distinct from dip-to-black's dark punctuation)",
-   "note": "A bright flash-to-white punctuation. IMPORTANT: the outgoing clip must stay OPAQUE while it blows out, and the incoming clip must arrive at opacity 1 already bright \u2014 pairing brightness() with opacity:0 in the same tween makes the brightened pixels transparent and the whole effect reads as a dip to BLACK. Verified against a PNG-sequence render 2026-09-07.",
-   "gsap_template": [
-    "tl.to(__OLD__, { filter: \"brightness(4.5)\", duration: __DUR__ * 0.45, ease: \"power2.in\" }, __T__);",
-    "tl.set(__OLD__, { opacity: 0 }, __T__ + __DUR__ * 0.45);",
-    "tl.set(__NEW__, { opacity: 1, filter: \"brightness(4.5)\" }, __T__ + __DUR__ * 0.45);",
-    "tl.to(__NEW__, { filter: \"brightness(1)\", duration: __DUR__ * 0.55, ease: \"power2.out\" }, __T__ + __DUR__ * 0.45);"
-   ]
-  },
-  {
-   "name": "glitch-cut",
-   "energy": "high",
-   "default_duration_s": 0.25,
-   "directions": [],
-   "source": "documentary-broll (craft-upgrade P1g \u2014 a deliberate digital-glitch punctuation: a fast juddering hue/position stutter right at the cut, real convention for a jarring reveal/expose-style beat)",
-   "note": "The rarest-tier transition in this registry \u2014 even rarer than whip-pan. A real glitch effect needs pixel-level RGB channel splitting this token set can't produce; the honest, buildable version is a fast multi-step juddering position+hue-rotate stutter via several quick GSAP steps, which reads as a genuine digital-glitch accent without overclaiming a full RGB-split effect. Use for AT MOST one moment in an entire film, on a beat whose content is genuinely about a reveal/expose/malfunction \u2014 never a rotation pool member, never used twice in one video.",
-   "gsap_template": [
-    "tl.set(__OLD__, { filter: \"hue-rotate(0deg)\" }, __T__);",
-    "tl.to(__OLD__, { x: 8, filter: \"hue-rotate(90deg)\", duration: __DUR__ * 0.2, ease: \"none\" }, __T__);",
-    "tl.to(__OLD__, { x: -6, filter: \"hue-rotate(-60deg)\", opacity: 0.6, duration: __DUR__ * 0.2, ease: \"none\" }, __T__ + __DUR__ * 0.2);",
-    "tl.to(__OLD__, { x: 4, opacity: 0, duration: __DUR__ * 0.2, ease: \"none\" }, __T__ + __DUR__ * 0.4);",
-    "tl.set(__NEW__, { x: -4, filter: \"hue-rotate(60deg)\", opacity: 1 }, __T__ + __DUR__ * 0.5);",
-    "tl.to(__NEW__, { x: 0, filter: \"hue-rotate(0deg)\", duration: __DUR__ * 0.5, ease: \"power2.out\" }, __T__ + __DUR__ * 0.5);"
-   ]
-  },
-  {
-   "name": "paper-tear",
-   "energy": "high",
-   "default_duration_s": 0.35,
-   "directions": [],
-   "source": "documentary-broll (retention-explainer profiles, 2026-09-06 \u2014 measured: 3 % of one channel's boundaries are a torn-paper reveal, always with a paper-tear SFX)",
-   "note": "A jagged tear wiping the outgoing frame away left\u2192right to reveal the incoming one: the outgoing frame's clip-path polygon (a 6-point jagged right edge) animates from full width to zero. Rare accent (2-4 % of boundaries, profile-driven via pick-transitions --profile), never a rotation staple; plan-sfx pairs it with the procedural `paper-tear` cue.",
-   "gsap_template": [
-    "tl.set(__NEW__, { opacity: 1 }, __T__);",
-    "tl.set(__OLD__, { clipPath: \"polygon(0% 0%, 100% 0%, 97% 18%, 101% 36%, 96% 55%, 100% 73%, 97% 88%, 100% 100%, 0% 100%)\", zIndex: 5 }, __T__);",
-    "tl.to(__OLD__, { clipPath: \"polygon(0% 0%, 0% 0%, -3% 18%, 1% 36%, -4% 55%, 0% 73%, -3% 88%, 0% 100%, 0% 100%)\", duration: __DUR__, ease: \"power2.in\" }, __T__);",
-    "tl.set(__OLD__, { opacity: 0, clipPath: \"none\", zIndex: \"auto\" }, __T__ + __DUR__);"
-   ]
+  "_comment": "documentary-broll's own vendored transition registry \u2014 a copy of faceless-explainer's base 5 (kept in step manually if those change) PLUS whip-pan, a documentary-broll-only addition. Vendored as a SEPARATE file (not edited in place on faceless-explainer's own lib/transitions.json) because that file is shared/reused as-is by 4 other workflows \u2014 adding a type there would leak it into all of them. Passed to the shared ../faceless-explainer/scripts/transitions.mjs via its --registry flag. Token placeholders the injector substitutes: __OLD__ (#el-<from>), __NEW__ (#el-<to>), __T__ (overlap-start s), __DUR__ (this boundary's duration), __DX__/__DXIN__ (horizontal travel + incoming offset), __DY__/__DYIN__ (vertical).",
+  "transitions": [
+    {
+      "name": "crossfade",
+      "energy": "any",
+      "default_duration_s": 0.5,
+      "directions": [],
+      "source": "css-dissolve.md",
+      "gsap_template": [
+        "tl.to(__OLD__, { opacity: 0, duration: __DUR__, ease: \"power2.inOut\" }, __T__);",
+        "tl.fromTo(__NEW__, { opacity: 0 }, { opacity: 1, duration: __DUR__, ease: \"power2.inOut\" }, __T__);"
+      ]
+    },
+    {
+      "name": "blur-crossfade",
+      "energy": "calm",
+      "default_duration_s": 0.6,
+      "directions": [],
+      "source": "css-dissolve.md",
+      "note": "Default when the two frames' #root backgrounds differ a lot \u2014 the blur masks the background-color clash a plain crossfade would expose.",
+      "gsap_template": [
+        "tl.to(__OLD__, { filter: \"blur(10px)\", scale: 1.03, opacity: 0, duration: __DUR__, ease: \"power2.inOut\" }, __T__);",
+        "tl.fromTo(__NEW__, { filter: \"blur(10px)\", scale: 0.97, opacity: 0 }, { filter: \"blur(0px)\", scale: 1, opacity: 1, duration: __DUR__, ease: \"power2.inOut\" }, __T__);"
+      ]
+    },
+    {
+      "name": "push-slide",
+      "energy": "medium",
+      "default_duration_s": 0.5,
+      "directions": [
+        "LEFT",
+        "RIGHT",
+        "UP",
+        "DOWN"
+      ],
+      "default_direction": "LEFT",
+      "source": "css-push.md",
+      "note": "Directional. The injector picks __DX__/__DY__ from the direction and emits the horizontal OR vertical pair (not both).",
+      "gsap_template_horizontal": [
+        "tl.to(__OLD__, { x: __DX__, duration: __DUR__, ease: \"power3.inOut\" }, __T__);",
+        "tl.fromTo(__NEW__, { x: __DXIN__, opacity: 1 }, { x: 0, duration: __DUR__, ease: \"power3.inOut\" }, __T__);"
+      ],
+      "gsap_template_vertical": [
+        "tl.to(__OLD__, { y: __DY__, duration: __DUR__, ease: \"power3.inOut\" }, __T__);",
+        "tl.fromTo(__NEW__, { y: __DYIN__, opacity: 1 }, { y: 0, duration: __DUR__, ease: \"power3.inOut\" }, __T__);"
+      ]
+    },
+    {
+      "name": "zoom-through",
+      "energy": "high",
+      "default_duration_s": 0.4,
+      "directions": [],
+      "source": "css-scale.md",
+      "gsap_template": [
+        "tl.to(__OLD__, { scale: 2.5, opacity: 0, filter: \"blur(8px)\", duration: __DUR__, ease: \"power3.in\" }, __T__);",
+        "tl.fromTo(__NEW__, { scale: 0.5, opacity: 0, filter: \"blur(8px)\" }, { scale: 1, opacity: 1, filter: \"blur(0px)\", duration: __DUR__, ease: \"power3.out\" }, __T__);"
+      ]
+    },
+    {
+      "name": "squeeze",
+      "energy": "medium",
+      "default_duration_s": 0.4,
+      "directions": [],
+      "source": "css-push.md",
+      "note": "Old compresses to a vertical line on the left edge; new expands from the right edge. Incoming starts off (scaleX 0) so its higher-track stacking is harmless.",
+      "gsap_template": [
+        "tl.to(__OLD__, { scaleX: 0, transformOrigin: \"left center\", duration: __DUR__, ease: \"power3.inOut\" }, __T__);",
+        "tl.fromTo(__NEW__, { scaleX: 0, transformOrigin: \"right center\", opacity: 1 }, { scaleX: 1, transformOrigin: \"right center\", duration: __DUR__, ease: \"power3.inOut\" }, __T__);"
+      ]
+    },
+    {
+      "name": "hard-cut",
+      "energy": "any",
+      "default_duration_s": 0.0,
+      "directions": [],
+      "source": "documentary-broll (craft-upgrade E3 \u2014 every entry in this registry before this one was a blend/dissolve; real documentaries are MOSTLY straight cuts, confirmed via the craft-upgrade research's NLE-parity comparison against DaVinci/CapCut/Premiere, all of which treat a plain cut as the DEFAULT boundary type, dissolves as the deliberate exception)",
+      "note": "A true instantaneous cut \u2014 the outgoing frame's opacity drops to 0 and the incoming frame's opacity jumps to 1 in the SAME instant (duration effectively 0, using the smallest non-zero GSAP duration the engine will still register reliably rather than a literal 0 which some tween engines treat as a no-op). Use for within-sequence shot changes inside one topic/idea (matches E1's multi-shot-beat splits) \u2014 NOT for a topic pivot, which still wants a real dissolve to signal the change. A film where every boundary is a dissolve is itself an amateur tell; this is the fix.",
+      "gsap_template": [
+        "tl.set(__OLD__, { opacity: 0 }, __T__);",
+        "tl.set(__NEW__, { opacity: 1 }, __T__);"
+      ]
+    },
+    {
+      "name": "dip-to-black",
+      "energy": "any",
+      "default_duration_s": 0.9,
+      "directions": [],
+      "source": "documentary-broll (craft-upgrade P1b \u2014 a real documentary device, not a flashy one: dip-to-black at act breaks. Every professional NLE \u2014 Resolve, Premiere \u2014 ships a dip-to-color family; this registry had none)",
+      "note": "IMPORTANT SCOPE NOTE (found during this pass's own development, not assumed): the shared injector (faceless-explainer/scripts/transitions.mjs) only substitutes a FIXED token set (__OLD__/__NEW__/__T__/__DUR__/__DX__ family) and never creates new DOM elements \u2014 there is no scrim/color-layer token available, so a dip-to-ARBITRARY-color (dip-to-white, dip-to-red) is genuinely not buildable through this registry mechanism without a shared-injector code change (out of scope for this pass \u2014 see the shared script's own file, owned by faceless-explainer, reused by 4 other workflows). What IS buildable with existing tokens: dip-to-BLACK specifically, since this skill's own composition root already sits on a black canvas (`body{background:#000}` \u2014 see index.html's own boilerplate) \u2014 fading __OLD__ fully out reveals that black canvas for free, holding briefly, then fading __NEW__ in from transparent achieves a real, correct dip-to-black with zero new mechanism. Shipped as `dip-to-black` (not the more general `dip-to-color` name) so this scope limit is honest in the registry itself, not just in this comment.",
+      "gsap_template": [
+        "tl.to(__OLD__, { opacity: 0, duration: __DUR__, ease: \"power2.in\" }, __T__);",
+        "tl.fromTo(__NEW__, { opacity: 0 }, { opacity: 1, duration: __DUR__, ease: \"power2.out\" }, \">+0.15\");"
+      ]
+    },
+    {
+      "name": "whip-pan",
+      "energy": "high",
+      "default_duration_s": 0.35,
+      "directions": [
+        "LEFT",
+        "RIGHT",
+        "UP",
+        "DOWN"
+      ],
+      "default_direction": "LEFT",
+      "source": "documentary-broll (new \u2014 synthetic whip-pan, no real camera motion available in a stock-footage architecture)",
+      "note": "Fakes a real whip-pan camera move: a fast directional streak-blur + translate on the outgoing frame, the incoming frame already blurred and offset from the opposite side, both deblurring/settling only in the tween's final beat. Deliberately the shortest duration in the registry (real whip-pans are a snap, not a glide) \u2014 keep --intensity energetic/pool inclusion sparing, this is meant to be a rare accent (e.g. a hard scene/location change), not a rotation staple.",
+      "gsap_template_horizontal": [
+        "tl.to(__OLD__, { x: __DX__, filter: \"blur(28px)\", duration: __DUR__, ease: \"power4.in\" }, __T__);",
+        "tl.fromTo(__NEW__, { x: __DXIN__, filter: \"blur(28px)\", opacity: 1 }, { x: 0, filter: \"blur(0px)\", duration: __DUR__, ease: \"power4.out\" }, __T__);"
+      ],
+      "gsap_template_vertical": [
+        "tl.to(__OLD__, { y: __DY__, filter: \"blur(28px)\", duration: __DUR__, ease: \"power4.in\" }, __T__);",
+        "tl.fromTo(__NEW__, { y: __DYIN__, filter: \"blur(28px)\", opacity: 1 }, { y: 0, filter: \"blur(0px)\", duration: __DUR__, ease: \"power4.out\" }, __T__);"
+      ]
+    },
+    {
+      "name": "film-dissolve",
+      "energy": "calm",
+      "default_duration_s": 1.1,
+      "directions": [],
+      "source": "documentary-broll (craft-upgrade P1c \u2014 a real film-optical-printer dissolve holds a brief overlap where BOTH frames are simultaneously visible at meaningful opacity, distinct from crossfade's simple linear cross-dissolve where the sum of both opacities stays close to 1.0 throughout)",
+      "note": "The outgoing frame fades out on a SLOWER/later curve while the incoming frame fades in on a faster/earlier one, so there's a real mid-transition window where both sit at 40-70% opacity together (an actual double-exposure look) rather than crossfade's clean linear handoff. Reserve for a genuinely slow, contemplative beat-to-beat move \u2014 this reads noticeably softer/dreamier than crossfade, not a drop-in replacement for it.",
+      "gsap_template": [
+        "tl.to(__OLD__, { opacity: 0, duration: __DUR__, ease: \"power1.in\" }, __T__);",
+        "tl.fromTo(__NEW__, { opacity: 0 }, { opacity: 1, duration: __DUR__, ease: \"power3.out\" }, __T__ + 0.15);"
+      ]
+    },
+    {
+      "name": "iris",
+      "energy": "medium",
+      "default_duration_s": 0.8,
+      "directions": [],
+      "source": "documentary-broll (craft-upgrade P1e \u2014 the classic iris wipe: a circular reveal expanding from center, real silent-film/classic-documentary convention for a deliberate scene punctuation, not a routine cut)",
+      "note": "Uses clip-path (a real, standard CSS/GSAP-animatable property \u2014 no new token or DOM element needed, same verified-safe mechanism as every other entry here) to expand a circle from the center of frame outward. The outgoing frame's circle SHRINKS to nothing while the incoming's GROWS from nothing, both centered \u2014 a deliberate, rare accent (silent-film/classic-doc convention), not a rotation staple, similar tier to whip-pan.",
+      "gsap_template": [
+        "tl.fromTo(__OLD__, { clipPath: \"circle(150% at 50% 50%)\" }, { clipPath: \"circle(0% at 50% 50%)\", duration: __DUR__, ease: \"power2.inOut\" }, __T__);",
+        "tl.fromTo(__NEW__, { clipPath: \"circle(0% at 50% 50%)\", opacity: 1 }, { clipPath: \"circle(150% at 50% 50%)\", duration: __DUR__, ease: \"power2.inOut\" }, __T__);"
+      ]
+    },
+    {
+      "name": "light-leak-flash",
+      "energy": "high",
+      "default_duration_s": 0.5,
+      "directions": [],
+      "source": "documentary-broll (craft-upgrade P1f \u2014 a bright flash-to-white punctuation, real analog-film-leak convention, distinct from dip-to-black's dark punctuation)",
+      "note": "A bright flash-to-white punctuation. IMPORTANT: the outgoing clip must stay OPAQUE while it blows out, and the incoming clip must arrive at opacity 1 already bright \u2014 pairing brightness() with opacity:0 in the same tween makes the brightened pixels transparent and the whole effect reads as a dip to BLACK. Verified against a PNG-sequence render 2026-09-07.",
+      "gsap_template": [
+        "tl.to(__OLD__, { filter: \"brightness(4.5)\", duration: __DUR__ * 0.45, ease: \"power2.in\" }, __T__);",
+        "tl.set(__OLD__, { opacity: 0 }, __T__ + __DUR__ * 0.45);",
+        "tl.set(__NEW__, { opacity: 1, filter: \"brightness(4.5)\" }, __T__ + __DUR__ * 0.45);",
+        "tl.to(__NEW__, { filter: \"brightness(1)\", duration: __DUR__ * 0.55, ease: \"power2.out\" }, __T__ + __DUR__ * 0.45);"
+      ]
+    },
+    {
+      "name": "glitch-cut",
+      "energy": "high",
+      "default_duration_s": 0.25,
+      "directions": [],
+      "source": "documentary-broll (craft-upgrade P1g \u2014 a deliberate digital-glitch punctuation: a fast juddering hue/position stutter right at the cut, real convention for a jarring reveal/expose-style beat)",
+      "note": "The rarest-tier transition in this registry \u2014 even rarer than whip-pan. A real glitch effect needs pixel-level RGB channel splitting this token set can't produce; the honest, buildable version is a fast multi-step juddering position+hue-rotate stutter via several quick GSAP steps, which reads as a genuine digital-glitch accent without overclaiming a full RGB-split effect. Use for AT MOST one moment in an entire film, on a beat whose content is genuinely about a reveal/expose/malfunction \u2014 never a rotation pool member, never used twice in one video.",
+      "gsap_template": [
+        "tl.set(__OLD__, { filter: \"hue-rotate(0deg)\" }, __T__);",
+        "tl.to(__OLD__, { x: 8, filter: \"hue-rotate(90deg)\", duration: __DUR__ * 0.2, ease: \"none\" }, __T__);",
+        "tl.to(__OLD__, { x: -6, filter: \"hue-rotate(-60deg)\", opacity: 0.6, duration: __DUR__ * 0.2, ease: \"none\" }, __T__ + __DUR__ * 0.2);",
+        "tl.to(__OLD__, { x: 4, opacity: 0, duration: __DUR__ * 0.2, ease: \"none\" }, __T__ + __DUR__ * 0.4);",
+        "tl.set(__NEW__, { x: -4, filter: \"hue-rotate(60deg)\", opacity: 1 }, __T__ + __DUR__ * 0.5);",
+        "tl.to(__NEW__, { x: 0, filter: \"hue-rotate(0deg)\", duration: __DUR__ * 0.5, ease: \"power2.out\" }, __T__ + __DUR__ * 0.5);"
+      ]
+    },
+    {
+      "name": "paper-tear",
+      "energy": "high",
+      "default_duration_s": 0.35,
+      "directions": [],
+      "source": "documentary-broll (retention-explainer profiles, 2026-09-06 \u2014 measured: 3 % of one channel's boundaries are a torn-paper reveal, always with a paper-tear SFX)",
+      "note": "A jagged tear wiping the outgoing frame away left\u2192right to reveal the incoming one: the outgoing frame's clip-path polygon (a 6-point jagged right edge) animates from full width to zero. Rare accent (2-4 % of boundaries, profile-driven via pick-transitions --profile), never a rotation staple; plan-sfx pairs it with the procedural `paper-tear` cue.",
+      "gsap_template": [
+        "tl.set(__NEW__, { opacity: 1 }, __T__);",
+        "tl.set(__OLD__, { clipPath: \"polygon(0% 0%, 100% 0%, 97% 18%, 101% 36%, 96% 55%, 100% 73%, 97% 88%, 100% 100%, 0% 100%)\", zIndex: 5 }, __T__);",
+        "tl.to(__OLD__, { clipPath: \"polygon(0% 0%, 0% 0%, -3% 18%, 1% 36%, -4% 55%, 0% 73%, -3% 88%, 0% 100%, 0% 100%)\", duration: __DUR__, ease: \"power2.in\" }, __T__);",
+        "tl.set(__OLD__, { opacity: 0, clipPath: \"none\", zIndex: \"auto\" }, __T__ + __DUR__);"
+      ]
+    },
+    {
+      "name": "rgb-split",
+      "energy": "high",
+      "default_duration_s": 0.45,
+      "directions": [],
+      "source": "documentary-broll 2026-09-12 \u2014 deep research + headless-Chrome pixel verification. Supersedes the old glitch-cut note that claimed real RGB channel splitting was impossible through this token set.",
+      "note": "REAL chromatic aberration, not a hue-rotate stand-in: three copies of the outgoing frame are filtered to pure R / G / B via feColorMatrix and recombined with mix-blend-mode:screen, then the R and B copies are driven apart horizontally. Measured-professional offsets are 2-4px subtle / 8-14px intense; this uses 10px peak with 3 discrete jitter sub-steps (research: jitter must be DISCRETE .set() steps, not an eased tween \u2014 an eased 'corruption' effect is the cheap-template tell). Phases: attack 0-80ms out to peak, hold/jitter 80-250ms, release to 0 by ~400ms. Earned by a reveal or a contradiction beat, never routine b-roll. IMPLEMENTATION: #el-NN-beat is an EMPTY sub-composition host at parse time \u2014 its img/video mounts later from compositions/frames/NN-beat.html. A synchronous host.querySelector('img,video') finds nothing and the whole effect silently no-ops (measured: blocks present in index.html, zero visible effect in snapshots). So the overlay elements are created immediately (their tweens must be on the paused timeline before any seek) and the image URL is filled in via a MutationObserver once the media mounts.",
+      "gsap_template": [
+        "(function(){",
+        "  var host=document.querySelector(__OLD__); if(!host) return;",
+        "  // build the overlay NOW so its tweens are on the paused timeline before any",
+        "  // seek; fill in the media-derived layers once the sub-composition mounts.",
+        "  if(!document.getElementById('hf-rgbsplit-filters')){",
+        "    var sv=document.createElementNS('http://www.w3.org/2000/svg','svg');",
+        "    sv.id='hf-rgbsplit-filters'; sv.setAttribute('width','0'); sv.setAttribute('height','0');",
+        "    sv.style.cssText='position:absolute;width:0;height:0';",
+        "    sv.innerHTML='<filter id=\"hf-kr\"><feColorMatrix type=\"matrix\" values=\"1 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 0\"/></filter>'+",
+        "      '<filter id=\"hf-kg\"><feColorMatrix type=\"matrix\" values=\"0 0 0 0 0  0 1 0 0 0  0 0 0 0 0  0 0 0 1 0\"/></filter>'+",
+        "      '<filter id=\"hf-kb\"><feColorMatrix type=\"matrix\" values=\"0 0 0 0 0  0 0 0 0 0  0 0 1 0 0  0 0 0 1 0\"/></filter>';",
+        "    document.body.appendChild(sv);",
+        "  }",
+        "  var wrap=document.createElement('div');",
+        "  wrap.style.cssText='position:absolute;inset:0;overflow:hidden;opacity:0;pointer-events:none';",
+        "  host.appendChild(wrap);",
+        "  var R=document.createElement('div'), B=document.createElement('div');",
+        "  [R,B].forEach(function(e){ e.style.cssText='position:absolute;inset:0;mix-blend-mode:screen;background-size:cover;background-position:center'; wrap.appendChild(e); });",
+        "  R.style.filter='url(#hf-kr)'; B.style.filter='url(#hf-kb)';",
+        "  var im=host.querySelector('img');",
+        "  if(!im||!(im.currentSrc||im.src)) { tl.set(__NEW__,{opacity:1},__T__); tl.set(__OLD__,{opacity:0},__T__); return; }",
+        "  var s=im.currentSrc||im.src; R.style.backgroundImage='url('+s+')'; B.style.backgroundImage='url('+s+')';",
+        "  var P=10;",
+        "  tl.set(wrap,{opacity:1},__T__);",
+        "  tl.to(R,{x:P,duration:__DUR__*0.18,ease:'power2.out'},__T__);",
+        "  tl.to(B,{x:-P,duration:__DUR__*0.18,ease:'power2.out'},__T__);",
+        "  tl.set(R,{x:P-2},__T__+__DUR__*0.24); tl.set(B,{x:-P+3},__T__+__DUR__*0.24);",
+        "  tl.set(R,{x:P+2},__T__+__DUR__*0.36); tl.set(B,{x:-P-2},__T__+__DUR__*0.36);",
+        "  tl.set(R,{x:P-1},__T__+__DUR__*0.48); tl.set(B,{x:-P+1},__T__+__DUR__*0.48);",
+        "  tl.to([R,B],{x:0,duration:__DUR__*0.34,ease:'power3.out'},__T__+__DUR__*0.56);",
+        "  tl.set(__NEW__,{opacity:1},__T__+__DUR__*0.66);",
+        "  tl.set(wrap,{opacity:0},__T__+__DUR__*0.74);",
+        "  tl.set(__OLD__,{opacity:0},__T__+__DUR__*0.74);",
+        "})();"
+      ]
+    },
+    {
+      "name": "slice-glitch",
+      "energy": "high",
+      "default_duration_s": 0.35,
+      "directions": [],
+      "source": "documentary-broll 2026-09-12 \u2014 muffinman.io CSS-only slice technique + headless-Chrome pixel verification on real footage",
+      "note": "The frame tears into 6 uneven horizontal bands that jump sideways by different amounts, then the incoming clip is revealed through them. Research values: 4-8 bands, heights randomised 4-40px, per-band x offset 10-40px with ALTERNATING sign (uniform sign reads as a shift, not a tear), optional per-band hue-rotate 10-20deg. The snap must be a .set() jump \u2014 muffinman's key trick is keyframes ~0.4% apart so the move completes inside one rendered frame. A base copy stays under the bands so no black gaps show (verified: without it the gaps render black). Reads as the most 'generically glitchy but still tasteful' family, so it can carry most of a film's glitch budget. IMPLEMENTATION: #el-NN-beat is an EMPTY sub-composition host at parse time \u2014 its img/video mounts later from compositions/frames/NN-beat.html. A synchronous host.querySelector('img,video') finds nothing and the whole effect silently no-ops (measured: blocks present in index.html, zero visible effect in snapshots). So the overlay elements are created immediately (their tweens must be on the paused timeline before any seek) and the image URL is filled in via a MutationObserver once the media mounts.",
+      "gsap_template": [
+        "(function(){",
+        "  var host=document.querySelector(__OLD__); if(!host) return;",
+        "  // build the overlay NOW so its tweens are on the paused timeline before any",
+        "  // seek; fill in the media-derived layers once the sub-composition mounts.",
+        "  var wrap=document.createElement('div');",
+        "  wrap.style.cssText='position:absolute;inset:0;overflow:hidden;opacity:0;pointer-events:none';",
+        "  host.appendChild(wrap);",
+        "  var hs=[0.12,0.20,0.08,0.23,0.14,0.23], top=0, bands=[];",
+        "  hs.forEach(function(fr,i){",
+        "    var b=document.createElement('div');",
+        "    var tp=(top*100).toFixed(2), bt=((1-top-fr)*100).toFixed(2);",
+        "    b.style.cssText='position:absolute;inset:0;background-size:cover;background-position:center;'+",
+        "      'clip-path:inset('+tp+'% 0 '+bt+'% 0);will-change:transform';",
+        "    wrap.appendChild(b);",
+        "    bands.push({el:b,dx:(i%2?-1:1)*(12+i*6),hue:(i%2?22:-14)});",
+        "    top+=fr;",
+        "  });",
+        "  var im=host.querySelector('img');",
+        "  if(!im||!(im.currentSrc||im.src)) { tl.set(__NEW__,{opacity:1},__T__); tl.set(__OLD__,{opacity:0},__T__); return; }",
+        "  var s=im.currentSrc||im.src; bands.forEach(function(b){ b.el.style.backgroundImage='url('+s+')'; });",
+        "  tl.set(wrap,{opacity:1},__T__);",
+        "  bands.forEach(function(b,i){",
+        "    tl.set(b.el,{x:b.dx,filter:'hue-rotate('+b.hue+'deg) saturate(1.25)'},__T__+0.012*i);",
+        "    tl.set(b.el,{x:b.dx*-0.55},__T__+__DUR__*0.34+0.012*i);",
+        "    tl.set(b.el,{x:b.dx*0.30,filter:'none'},__T__+__DUR__*0.62);",
+        "  });",
+        "  tl.set(__NEW__,{opacity:1},__T__+__DUR__*0.58);",
+        "  tl.set(wrap,{opacity:0},__T__+__DUR__*0.80);",
+        "  tl.set(__OLD__,{opacity:0},__T__+__DUR__*0.80);",
+        "})();"
+      ]
+    },
+    {
+      "name": "signal-loss",
+      "energy": "high",
+      "default_duration_s": 0.2,
+      "directions": [],
+      "source": "documentary-broll 2026-09-12 \u2014 SVG feTurbulence static, verified rendering in headless Chrome",
+      "note": "A full-frame burst of grayscale TV snow totally replaces the picture for 2-5 frames, then the incoming clip appears. The SHORTEST entry in the registry and it must stay short \u2014 longer reads as an error, not an edit. Research values: feTurbulence fractalNoise baseFrequency 0.8-0.9 numOctaves 2-4 desaturated to pure gray, static opacity 0.85-1.0, burst in/out on a .set() (1 frame, never eased), hold 66-166ms, with 3-6 discrete seed re-randomisations across the hold so the snow visibly rolls instead of sitting frozen. Earned ONLY by a hard pivot \u2014 a contradiction reveal, a year/location jump. At most 2-3 in a 12-minute film.",
+      "gsap_template": [
+        "(function(){",
+        "  var host=document.querySelector(__OLD__); if(!host) return;",
+        "  if(!document.getElementById('hf-snow-filters')){",
+        "    var sv=document.createElementNS('http://www.w3.org/2000/svg','svg');",
+        "    sv.id='hf-snow-filters'; sv.setAttribute('width','0'); sv.setAttribute('height','0');",
+        "    sv.style.cssText='position:absolute;width:0;height:0'; var s='';",
+        "    for(var k=0;k<4;k++){",
+        "      s+='<filter id=\"hf-snow'+k+'\"><feTurbulence type=\"fractalNoise\" baseFrequency=\"0.85\" numOctaves=\"3\" seed=\"'+(k*17+3)+'\"/>'+",
+        "         '<feColorMatrix type=\"saturate\" values=\"0\"/></filter>';",
+        "    }",
+        "    sv.innerHTML=s; document.body.appendChild(sv);",
+        "  }",
+        "  var n=document.createElement('div');",
+        "  n.style.cssText='position:absolute;inset:0;background:#888;opacity:0;filter:url(#hf-snow0)';",
+        "  n.style.zIndex='9'; host.appendChild(n);",
+        "  tl.set(n,{opacity:0.95},__T__);",
+        "  tl.set(n,{filter:'url(#hf-snow1)'},__T__+__DUR__*0.22);",
+        "  tl.set(n,{filter:'url(#hf-snow2)'},__T__+__DUR__*0.44);",
+        "  tl.set(n,{filter:'url(#hf-snow3)'},__T__+__DUR__*0.66);",
+        "  tl.set(__NEW__,{opacity:1},__T__+__DUR__*0.80);",
+        "  tl.set(n,{opacity:0},__T__+__DUR__*0.86);",
+        "  tl.set(__OLD__,{opacity:0},__T__+__DUR__*0.86);",
+        "})();"
+      ]
+    },
+    {
+      "name": "macroblock",
+      "energy": "high",
+      "default_duration_s": 0.28,
+      "directions": [],
+      "source": "documentary-broll 2026-09-12 \u2014 backdrop-filter block corruption, verified on real footage in headless Chrome",
+      "note": "Random rectangles of the frame freeze into flat low-res blocks (real compression-artifact look) for a burst, then resolve. Research values: 2-5 rectangles covering 10-30% of frame area, blocks fully OPAQUE (a replacement effect, not a fade), onset 1-2 frames with no easing, hold 3-6 frames. Built with backdrop-filter:blur+saturate so the blocks genuinely flatten whatever is beneath rather than painting a guessed flat colour. The harshest-reading family alongside signal-loss \u2014 1-3 uses per 12 minutes, reserved for a topic pivot or a contradiction (visual corruption signalling 'the picture you were shown was wrong').",
+      "gsap_template": [
+        "(function(){",
+        "  var host=document.querySelector(__OLD__); if(!host) return;",
+        "  var R=[[6,14,28,22],[52,62,34,20],[24,44,22,16],[70,20,24,26]], bl=[];",
+        "  R.forEach(function(r){",
+        "    var b=document.createElement('div');",
+        "    b.style.cssText='position:absolute;left:'+r[0]+'%;top:'+r[1]+'%;width:'+r[2]+'%;height:'+r[3]+'%;'+",
+        "      'backdrop-filter:blur(14px) saturate(0.45) contrast(1.15);opacity:0';",
+        "    b.style.zIndex='9'; host.appendChild(b); bl.push(b);",
+        "  });",
+        "  tl.set([bl[0],bl[2]],{opacity:1},__T__);",
+        "  tl.set([bl[1],bl[3]],{opacity:1},__T__+__DUR__*0.22);",
+        "  tl.set([bl[0]],{opacity:0},__T__+__DUR__*0.40);",
+        "  tl.set([bl[2],bl[3]],{opacity:0},__T__+__DUR__*0.58);",
+        "  tl.set(__NEW__,{opacity:1},__T__+__DUR__*0.66);",
+        "  tl.set(bl,{opacity:0},__T__+__DUR__*0.74);",
+        "  tl.set(__OLD__,{opacity:0},__T__+__DUR__*0.74);",
+        "})();"
+      ]
+    },
+    {
+      "name": "vhs-roll",
+      "energy": "medium",
+      "default_duration_s": 0.4,
+      "directions": [],
+      "source": "documentary-broll 2026-09-12 \u2014 VHS tracking-error roll; the rolling band IS the cut mechanism",
+      "note": "A band of noise sweeps top-to-bottom; above the band you see the outgoing clip, below it the incoming one, so the roll itself performs the cut. Research values: band height 20-60px, full traverse 200-400ms, scanline stripe on a 2-4px period at 0.15-0.3 opacity, CRT flicker oscillating 0.95-1.0. Thematically tied to old media, so it EARNS its place on an archival/flashback or then-vs-now pivot, not on an arbitrary boundary. 2-4 uses per 12 minutes.",
+      "gsap_template": [
+        "(function(){",
+        "  var host=document.querySelector(__OLD__); if(!host) return;",
+        "  var scan=document.createElement('div');",
+        "  scan.style.cssText='position:absolute;inset:0;pointer-events:none;opacity:0;'+",
+        "    'background:repeating-linear-gradient(0deg,transparent 0 2px,rgba(0,0,0,0.18) 2px 3px)';",
+        "  scan.style.zIndex='9'; host.appendChild(scan);",
+        "  var band=document.createElement('div');",
+        "  band.style.cssText='position:absolute;left:0;width:100%;height:7%;top:-8%;pointer-events:none;'+",
+        "    'background:linear-gradient(180deg,rgba(255,255,255,0.05),rgba(190,190,200,0.55),rgba(255,255,255,0.05));'+",
+        "    'filter:blur(1px)';",
+        "  band.style.zIndex='9'; host.appendChild(band);",
+        "  tl.set(scan,{opacity:1},__T__);",
+        "  tl.to(band,{top:'104%',duration:__DUR__,ease:'power1.inOut'},__T__);",
+        "  tl.to(__OLD__,{clipPath:'inset(0% 0% 100% 0%)',duration:__DUR__,ease:'power1.inOut'},__T__);",
+        "  tl.set(__NEW__,{opacity:1,clipPath:'inset(0% 0% 0% 0%)'},__T__);",
+        "  tl.set(__OLD__,{opacity:0,clipPath:'none'},__T__+__DUR__);",
+        "  tl.set([scan,band],{opacity:0},__T__+__DUR__);",
+        "})();"
+      ]
+    },
+    {
+      "name": "stutter-cut",
+      "energy": "high",
+      "default_duration_s": 0.3,
+      "directions": [],
+      "source": "documentary-broll 2026-09-12 \u2014 strobe/frame-skip; every step is a .set(), never a tween",
+      "note": "Not a blend at all: the two clips hard-toggle 6-8 times on a duty cycle that increasingly favours the incoming one, so it reads as a rhythmic frame-skip rather than a flicker. Research is explicit that this family must use discrete .set() steps with NO interpolation \u2014 an eased tween defeats the entire effect. Step gaps are deliberately uneven (40-100ms) so it doesn't read as a metronome, with a small brightness/x jitter on alternating steps. Best used where the film ALREADY has a fast-cut montage (a number run, a list), not as a scene-to-scene device. 3-5 per 12 minutes.",
+      "gsap_template": [
+        "tl.set(__NEW__,{opacity:0},__T__);",
+        "tl.set(__OLD__,{opacity:1},__T__);",
+        "tl.set([__OLD__],{opacity:0},__T__+__DUR__*0.10);",
+        "tl.set([__NEW__],{opacity:1,filter:'brightness(1.25)'},__T__+__DUR__*0.10);",
+        "tl.set([__NEW__],{opacity:0},__T__+__DUR__*0.26);",
+        "tl.set([__OLD__],{opacity:1,x:4,filter:'brightness(1.1)'},__T__+__DUR__*0.26);",
+        "tl.set([__OLD__],{opacity:0},__T__+__DUR__*0.40);",
+        "tl.set([__NEW__],{opacity:1,filter:'none'},__T__+__DUR__*0.40);",
+        "tl.set([__NEW__],{opacity:0},__T__+__DUR__*0.56);",
+        "tl.set([__OLD__],{opacity:1,x:-3},__T__+__DUR__*0.56);",
+        "tl.set([__OLD__],{opacity:0,x:0},__T__+__DUR__*0.66);",
+        "tl.set([__NEW__],{opacity:1},__T__+__DUR__*0.66);",
+        "tl.set([__NEW__],{opacity:0},__T__+__DUR__*0.78);",
+        "tl.set([__OLD__],{opacity:1},__T__+__DUR__*0.78);",
+        "tl.set([__OLD__],{opacity:0},__T__+__DUR__*0.86);",
+        "tl.set([__NEW__],{opacity:1,filter:'none',x:0},__T__+__DUR__*0.86);"
+      ]
+    },
+    {
+      "name": "smear-cut",
+      "energy": "high",
+      "default_duration_s": 0.3,
+      "directions": [
+        "LEFT",
+        "RIGHT"
+      ],
+      "default_direction": "LEFT",
+      "source": "documentary-broll 2026-09-12 \u2014 CSS-Tricks directional motion blur (N copies x opacity ~= 110%), verified on real footage",
+      "note": "A real DIRECTIONAL smear, which CSS blur() cannot do on its own (it is omnidirectional). Research rule: stack N offset copies whose copies x opacity sums to roughly 100-120% \u2014 CSS-Tricks used 20 copies at 10%; 4 copies at 0.45 was verified to read convincingly at a fraction of the DOM cost (5 x 0.22 measured too washed out). Each copy sits progressively further along the pan axis with a slight scale to sell velocity. The safest, most broadcast-normal of the glitch families, so it can be used more freely: 4-6 per 12 minutes for topic-to-topic changes. The incoming clip is seated at full opacity UNDERNEATH before the outgoing frame translates off \u2014 verified necessary in headless Chrome, since otherwise the vacated area renders as a black band. IMPLEMENTATION: #el-NN-beat is an EMPTY sub-composition host at parse time \u2014 its img/video mounts later from compositions/frames/NN-beat.html. A synchronous host.querySelector('img,video') finds nothing and the whole effect silently no-ops (measured: blocks present in index.html, zero visible effect in snapshots). So the overlay elements are created immediately (their tweens must be on the paused timeline before any seek) and the image URL is filled in via a MutationObserver once the media mounts.",
+      "gsap_template_horizontal": [
+        "(function(){",
+        "  var host=document.querySelector(__OLD__); if(!host) return;",
+        "  // build the overlay NOW so its tweens are on the paused timeline before any",
+        "  // seek; fill in the media-derived layers once the sub-composition mounts.",
+        "  var wrap=document.createElement('div');",
+        "  wrap.style.cssText='position:absolute;inset:0;overflow:hidden;opacity:0;pointer-events:none';",
+        "  host.appendChild(wrap);",
+        "  var sgn=(__DX__<0?-1:1), cp=[];",
+        "  for(var i=1;i<=4;i++){",
+        "    var c=document.createElement('div');",
+        "    c.style.cssText='position:absolute;inset:0;background-size:cover;background-position:center;opacity:0.45;will-change:transform';",
+        "    wrap.appendChild(c); cp.push(c);",
+        "  }",
+        "  var im=host.querySelector('img');",
+        "  if(!im||!(im.currentSrc||im.src)) { tl.set(__NEW__,{opacity:1},__T__); tl.set(__OLD__,{opacity:0},__T__); return; }",
+        "  var s=im.currentSrc||im.src; cp.forEach(function(c){ c.style.backgroundImage='url('+s+')'; });",
+        "  tl.set(wrap,{opacity:1},__T__);",
+        "  cp.forEach(function(c,i){",
+        "    tl.fromTo(c,{x:0,scale:1},{x:sgn*(i+1)*34,scale:1.05,duration:__DUR__*0.55,ease:'power2.in'},__T__);",
+        "  });",
+        "  tl.set(__NEW__,{opacity:1,x:0},__T__);",
+        "  tl.to(host,{x:sgn*110,filter:'brightness(1.12)',duration:__DUR__*0.55,ease:'power2.in'},__T__);",
+        "  tl.set(wrap,{opacity:0},__T__+__DUR__*0.6);",
+        "  tl.set(__OLD__,{opacity:0,x:0,filter:'none'},__T__+__DUR__*0.6);",
+        "})();"
+      ],
+      "gsap_template_vertical": [
+        "(function(){",
+        "  var host=document.querySelector(__OLD__); if(!host) return;",
+        "  // build the overlay NOW so its tweens are on the paused timeline before any",
+        "  // seek; fill in the media-derived layers once the sub-composition mounts.",
+        "  var wrap=document.createElement('div');",
+        "  wrap.style.cssText='position:absolute;inset:0;overflow:hidden;opacity:0;pointer-events:none';",
+        "  host.appendChild(wrap);",
+        "  var sgn=(__DY__<0?-1:1), cp=[];",
+        "  for(var i=1;i<=4;i++){",
+        "    var c=document.createElement('div');",
+        "    c.style.cssText='position:absolute;inset:0;background-size:cover;background-position:center;opacity:0.45;will-change:transform';",
+        "    wrap.appendChild(c); cp.push(c);",
+        "  }",
+        "  var im=host.querySelector('img');",
+        "  if(!im||!(im.currentSrc||im.src)) { tl.set(__NEW__,{opacity:1},__T__); tl.set(__OLD__,{opacity:0},__T__); return; }",
+        "  var s=im.currentSrc||im.src; cp.forEach(function(c){ c.style.backgroundImage='url('+s+')'; });",
+        "  tl.set(wrap,{opacity:1},__T__);",
+        "  cp.forEach(function(c,i){",
+        "    tl.fromTo(c,{y:0,scale:1},{y:sgn*(i+1)*26,scale:1.05,duration:__DUR__*0.55,ease:'power2.in'},__T__);",
+        "  });",
+        "  tl.set(__NEW__,{opacity:1,y:0},__T__);",
+        "  tl.to(host,{y:sgn*90,filter:'brightness(1.12)',duration:__DUR__*0.55,ease:'power2.in'},__T__);",
+        "  tl.set(wrap,{opacity:0},__T__+__DUR__*0.6);",
+        "  tl.set(__OLD__,{opacity:0,y:0,filter:'none'},__T__+__DUR__*0.6);",
+        "})();"
+      ]
+    }
+  ],
+  "default_high_energy": "zoom-through",
+  "default_calm": "blur-crossfade",
+  "max_duration_s": 2.0,
+  "_glitch_budget": {
+    "_source": "deep research 2026-09-12, cross-referenced against the measured 4-channel corpus",
+    "total_glitch_family_per_12min": [
+      8,
+      14
+    ],
+    "min_seconds_between_any_two_glitches": 38,
+    "hard_families": [
+      "signal-loss",
+      "macroblock"
+    ],
+    "max_hard_per_3min": 1,
+    "safe_families": [
+      "smear-cut",
+      "slice-glitch"
+    ],
+    "earned_by": [
+      "a reveal",
+      "a contradiction",
+      "a topic pivot",
+      "a data drop",
+      "a jump to archival material"
+    ],
+    "never_for": [
+      "routine b-roll-to-b-roll inside one argument",
+      "every chapter break",
+      "quiet/somber beats",
+      "covering a bad cut or missing b-roll",
+      "two glitches back to back"
+    ]
   }
- ],
- "default_high_energy": "zoom-through",
- "default_calm": "blur-crossfade",
- "max_duration_s": 2.0
 }

@@ -350,8 +350,21 @@ function runVerify(argv) {
         fail.push(`same-track overlap: ${a.id}[t${a.track}] & ${b.id}[t${b.track}]`);
     }
 
-  const bm = html.match(/frame transitions \(injected[\s\S]*?\}\)\(\);/);
-  const txBlock = bm ? bm[0] : "";
+  // The injected block is one outer IIFE that may CONTAIN inner IIFEs: a
+  // registry gsap_template is stamped as plain JS, and the glitch families
+  // (rgb-split, slice-glitch, signal-loss, macroblock, vhs-roll, smear-cut)
+  // build their own overlay DOM inside `(function(){ ... })();`. A lazy match
+  // ending at the first `})();` therefore truncated the block at the FIRST
+  // glitch — measured on a real 172-frame film: 1786 of ~90 KB captured, so
+  // every later boundary was reported as "does not reference both ids" even
+  // though all 172 ids were present. Take the block from its marker to the end
+  // of the enclosing <script> instead, which cannot be cut short by nesting.
+  const bStart = html.indexOf("frame transitions (injected");
+  let txBlock = "";
+  if (bStart >= 0) {
+    const bEnd = html.indexOf("</script>", bStart);
+    txBlock = html.slice(bStart, bEnd > bStart ? bEnd : undefined);
+  }
 
   let expected = 0;
   for (let i = 1; i < order.length; i++) {

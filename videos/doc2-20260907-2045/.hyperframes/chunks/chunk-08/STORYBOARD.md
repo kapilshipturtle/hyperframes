@@ -20,7 +20,7 @@
 - src: compositions/frames/02-beat.html
 - duration: 6.57s
 - status: planned
-- transition_in: whip-pan DOWN 0.35s
+- transition_in: glitch-cut 0.25s
 - look: vignette 0.378
 - punch: at 1.97s scale 1.425
 - overlay: keyword-flash "EVERGLADES NP" at middle-center
@@ -110,7 +110,7 @@
 - src: compositions/frames/10-beat.html
 - duration: 6.07s
 - status: planned
-- transition_in: glitch-cut 0.25s
+- transition_in: whip-pan LEFT 0.35s
 - look: grade warm
 - punch: at 1.52s scale 1.375
 - overlay: keyword-flash "SIREN & AMPHIUMA" at lower-center
@@ -124,7 +124,7 @@
 - src: compositions/frames/11-beat.html
 - duration: 4.64s
 - status: planned
-- transition_in: light-leak-flash 0.5s
+- transition_in: zoom-through 0.84s
 - look: grade cool, vignette 0.378
 - query: siren salamander mud shallow
 - narration: Both are big, both are eel-shaped themselves, both live in the mud.

@@ -82,7 +82,7 @@
 - src: compositions/frames/08-beat.html
 - duration: 2.44s
 - status: planned
-- transition_in: light-leak-flash 0.44s
+- transition_in: macroblock 0.28s
 - look: vignette 0.378
 - query: egret feeding shallow marsh
 - narration: because of the seasonal reprieve.
@@ -94,7 +94,7 @@
 - src: compositions/frames/09-beat.html
 - duration: 3.59s
 - status: planned
-- transition_in: zoom-through 0.44s
+- transition_in: whip-pan RIGHT 0.35s
 - look: grade desaturate, vignette 0.378
 - query: dark swamp water still surface
 - narration: Now watch what happens when you add an animal that doesn't have to leave.

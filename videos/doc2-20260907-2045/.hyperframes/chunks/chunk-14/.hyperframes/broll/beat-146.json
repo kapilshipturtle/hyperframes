@@ -905,19 +905,19 @@
     }
   ],
   "chosen": {
-    "source": "pixabay",
+    "source": "pexels",
     "mediaType": "video",
-    "id": "pixabay-v135808",
-    "url": "https://pixabay.com/videos/id-135808/",
-    "previewUrl": null,
+    "id": "pexels-v17170792",
+    "url": "https://www.pexels.com/video/downtown-tampa-florida-drone-shot-17170792/",
+    "previewUrl": "https://images.pexels.com/videos/17170792/downtown-tampa-drone-of-florida-drone-of-tampa-florida-drone-17170792.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
     "width": 1920,
     "height": 1080,
-    "durationSeconds": 9,
+    "durationSeconds": 23,
     "orientation": "landscape",
-    "downloadUrl": "https://cdn.pixabay.com/video/2022/10/21/135808-764361936_large.mp4",
-    "description": "bridge, boat, skyway, tampa, sunshine, saint-petersburg, florida, bay, water, sky, drone, drone footage, sea, waterway",
+    "downloadUrl": "https://videos.pexels.com/video-files/17170792/17170792-hd_1920_1080_30fps.mp4",
+    "description": "downtown tampa florida drone shot",
     "providerRank": 0,
-    "_score": 17
+    "_score": 16
   },
   "anomalies": []
 }

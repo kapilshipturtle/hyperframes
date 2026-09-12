@@ -905,19 +905,19 @@
     }
   ],
   "chosen": {
-    "source": "pixabay",
+    "source": "pexels",
     "mediaType": "video",
-    "id": "pixabay-v5180",
-    "url": "https://pixabay.com/videos/id-5180/",
-    "previewUrl": null,
+    "id": "pexels-v10639709",
+    "url": "https://www.pexels.com/video/a-person-taking-notes-while-looking-at-a-barometer-10639709/",
+    "previewUrl": "https://images.pexels.com/videos/10639709/pexels-photo-10639709.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
     "width": 1920,
     "height": 1080,
     "durationSeconds": 10,
     "orientation": "landscape",
-    "downloadUrl": "https://cdn.pixabay.com/video/2016/09/13/5180-183786417_large.mp4",
-    "description": "dj, music, sound, note, equipment, audio, party, turntable, nightclub, concert",
-    "providerRank": 0,
-    "_score": 17
+    "downloadUrl": "https://videos.pexels.com/video-files/10639709/10639709-hd_1920_1080_30fps.mp4",
+    "description": "a person taking notes while looking at a barometer",
+    "providerRank": 1,
+    "_score": 15
   },
   "anomalies": []
 }

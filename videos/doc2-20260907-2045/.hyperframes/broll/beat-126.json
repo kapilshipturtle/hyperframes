@@ -905,19 +905,19 @@
     }
   ],
   "chosen": {
-    "source": "pixabay",
+    "source": "pexels",
     "mediaType": "video",
-    "id": "pixabay-v219676",
-    "url": "https://pixabay.com/videos/id-219676/",
-    "previewUrl": null,
-    "width": 3840,
-    "height": 2160,
-    "durationSeconds": 10,
+    "id": "pexels-v7036652",
+    "url": "https://www.pexels.com/video/moray-eels-in-an-aquarium-7036652/",
+    "previewUrl": "https://images.pexels.com/videos/7036652/pexels-photo-7036652.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+    "width": 1366,
+    "height": 720,
+    "durationSeconds": 51,
     "orientation": "landscape",
-    "downloadUrl": "https://cdn.pixabay.com/video/2024/07/06/219676_large.mp4",
-    "description": "eel, sea, ocean, solomon islands, underwater, islands, south pacific, animal, closeup, nature, tropical",
+    "downloadUrl": "https://videos.pexels.com/video-files/7036652/7036652-hd_1366_720_30fps.mp4",
+    "description": "moray eels in an aquarium",
     "providerRank": 0,
-    "_score": 17
+    "_score": 16
   },
   "anomalies": []
 }

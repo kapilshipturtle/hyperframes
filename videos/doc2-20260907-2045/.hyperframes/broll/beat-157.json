@@ -905,19 +905,19 @@
     }
   ],
   "chosen": {
-    "source": "pixabay",
+    "source": "pexels",
     "mediaType": "video",
-    "id": "pixabay-v31772",
-    "url": "https://pixabay.com/videos/id-31772/",
-    "previewUrl": null,
-    "width": 3840,
-    "height": 2160,
-    "durationSeconds": 10,
+    "id": "pexels-v9464465",
+    "url": "https://www.pexels.com/video/reviewing-of-paperworks-9464465/",
+    "previewUrl": "https://images.pexels.com/videos/9464465/pexels-photo-9464465.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+    "width": 1366,
+    "height": 720,
+    "durationSeconds": 28,
     "orientation": "landscape",
-    "downloadUrl": "https://cdn.pixabay.com/video/2020/01/30/31772-388253161_large.mp4",
-    "description": "infographic, line chart, stats, survey, infograph, business, marketing, analytic, data, performance, growth, finance, paperwork, meeting, page, chart, note, pen, questionnaire, document, investment",
+    "downloadUrl": "https://videos.pexels.com/video-files/9464465/9464465-hd_1366_720_30fps.mp4",
+    "description": "reviewing of paperworks",
     "providerRank": 0,
-    "_score": 17
+    "_score": 16
   },
   "anomalies": []
 }

@@ -108,8 +108,8 @@
     data-composition-id="10-beat"
     data-width="1920" data-height="1080" data-duration="6.51"
   >
-    <div class="broll-wrap" id="f-10-beat-wrap">
-      <video id="f-10-beat-media" class="broll-media clip broll-g-cool" src=".media/broll/beat-102.mp4" muted playsinline data-start="0" data-duration="6.51" data-media-start="0" data-track-index="0"></video>
+    <div class="broll-wrap clip" id="f-10-beat-wrap" data-start="0" data-duration="6.51" data-track-index="0">
+      <img id="f-10-beat-media" class="broll-media broll-g-cool" src=".media/broll/beat-102.jpg" />
     </div>
     <div class="broll-scrim clip" id="f-10-beat-scrim" data-start="0" data-duration="6.51" data-track-index="1"></div>
   </div>
@@ -119,7 +119,7 @@
       window.__timelines = window.__timelines || {};
       var tl = gsap.timeline({ paused: true });
       var wrap = document.getElementById("f-10-beat-wrap");
-      gsap.set(wrap, { scale: 1.0 });
+      tl.fromTo(wrap, { scale: 1.0, x: 0, y: 0 }, { scale: 1.1248, x: 5.9, y: 6.0, duration: 6.51, ease: "power1.out" }, 0);
       tl.to("#f-10-beat-media", { scale: 1.220, duration: 0.09, ease: "power3.out" }, 4.43);
       tl.to("#f-10-beat-media", { scale: 1.400, duration: 0.09, ease: "power3.out" }, 5.53);
       window.__timelines["10-beat"] = tl;

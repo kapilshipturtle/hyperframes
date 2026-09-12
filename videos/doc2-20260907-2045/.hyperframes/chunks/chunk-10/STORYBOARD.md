@@ -61,7 +61,7 @@
 - src: compositions/frames/06-beat.html
 - duration: 3.93s
 - status: planned
-- transition_in: whip-pan DOWN 0.35s
+- transition_in: stutter-cut 0.3s
 - motion: out to 1.1208 ease power1.out, focus 48,25
 - motion_reason: narration widens to scale/place/consequence (scale=1 detail=0) | anchored on "dinosaur head" at 48,25
 - query: extinct animal museum exhibit
@@ -118,7 +118,7 @@
 - src: compositions/frames/11-beat.html
 - duration: 3.47s
 - status: planned
-- transition_in: glitch-cut 0.25s
+- transition_in: zoom-through 0.47s
 - look: vignette 0.378
 - motion: out to 1.05 ease power1.out, focus 42,68
 - motion_reason: neutral line (detail=0 scale=0) — alternated against previous shot | anchored on "empty office chair" at 42,68

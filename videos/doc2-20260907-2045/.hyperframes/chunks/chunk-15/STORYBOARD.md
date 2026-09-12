@@ -74,7 +74,7 @@
 - src: compositions/frames/07-beat.html
 - duration: 6.5s
 - status: planned
-- transition_in: glitch-cut 0.25s
+- transition_in: zoom-through 0.74s
 - look: grade desaturate
 - punch: at 2.12s scale 1.4
 - query: official report stamped page
@@ -116,7 +116,7 @@
 - src: compositions/frames/11-beat.html
 - duration: 5.31s
 - status: planned
-- transition_in: light-leak-flash 0.5s
+- transition_in: glitch-cut 0.25s
 - look: grade cool
 - punch: at 3.53s scale 1.375
 - query: silent dark empty marsh

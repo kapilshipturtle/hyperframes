@@ -40,7 +40,7 @@
 - src: compositions/frames/04-beat.html
 - duration: 4.12s
 - status: planned
-- transition_in: zoom-through 0.74s
+- transition_in: stutter-cut 0.3s
 - look: grade desaturate, vignette 0.378
 - motion: in to 1.0673 ease power1.in, focus 56,40
 - motion_reason: narration points at a specific detail (detail=2 scale=0) | anchored on "python head" at 56,40

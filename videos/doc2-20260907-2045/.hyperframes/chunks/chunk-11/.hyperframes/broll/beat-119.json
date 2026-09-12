@@ -149,7 +149,7 @@
       "durationSeconds": null,
       "orientation": "landscape",
       "downloadUrl": "https://pixabay.com/get/ge466742bc428429b31852394f103b43f1cbbf0fab013988e8789a7df87f5cdcad6938a99ab9ddc78a522dd0daa14154ef56f32d151d52394f7e4cb624e9d0c30_1280.jpg",
-      "description": "castle, park, wetland, swamp, nature, spring, landscape, schloss türnich, castle, castle, castle, castle, castle, swamp, swamp, swamp, spring, spring",
+      "description": "castle, park, wetland, swamp, nature, spring, landscape, schloss t\u00fcrnich, castle, castle, castle, castle, castle, swamp, swamp, swamp, spring, spring",
       "providerRank": 1,
       "_score": 12
     },
@@ -704,7 +704,7 @@
       "durationSeconds": null,
       "orientation": "landscape",
       "downloadUrl": "https://images.pexels.com/photos/33019961/pexels-photo-33019961.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "description": "Intense storm clouds gather over tranquil wetlands in Garešnica, Croatia.",
+      "description": "Intense storm clouds gather over tranquil wetlands in Gare\u0161nica, Croatia.",
       "providerRank": 11,
       "_score": 4
     },
@@ -905,19 +905,19 @@
     }
   ],
   "chosen": {
-    "source": "pixabay",
-    "mediaType": "video",
-    "id": "pixabay-v89769",
-    "url": "https://pixabay.com/videos/id-89769/",
-    "previewUrl": null,
-    "width": 3840,
-    "height": 2160,
-    "durationSeconds": 16,
+    "source": "pexels",
+    "mediaType": "photo",
+    "id": "pexels-p36345997",
+    "url": "https://www.pexels.com/photo/serene-wetland-scene-with-reeds-and-water-36345997/",
+    "previewUrl": "https://images.pexels.com/photos/36345997/pexels-photo-36345997.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "width": 4500,
+    "height": 2845,
+    "durationSeconds": null,
     "orientation": "landscape",
-    "downloadUrl": "https://cdn.pixabay.com/video/2021/09/26/89769-615423174_large.mp4",
-    "description": "desert, drought, muddy, river",
+    "downloadUrl": "https://images.pexels.com/photos/36345997/pexels-photo-36345997.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "description": "A tranquil wetland scene showcasing reeds and shallow water creating a peaceful natural setting.",
     "providerRank": 0,
-    "_score": 17
+    "_score": 14
   },
   "anomalies": []
 }

@@ -59,7 +59,7 @@
 - src: compositions/frames/06-beat.html
 - duration: 1.83s
 - status: planned
-- transition_in: glitch-cut 0.25s
+- transition_in: stutter-cut 0.3s
 - look: grade desaturate
 - overlay: keyword-flash "DOES NOTHING" at middle-center
 - query: map marker not moving
@@ -72,7 +72,7 @@
 - src: compositions/frames/07-beat.html
 - duration: 2.86s
 - status: planned
-- transition_in: light-leak-flash 0.33s
+- transition_in: whip-pan DOWN 0.33s
 - look: grade desaturate
 - motion: out to 1.1232 ease power1.out, focus 50,30
 - motion_reason: narration widens to scale/place/consequence (scale=1 detail=0) | anchored on "dramatic cloud formation" at 50,30

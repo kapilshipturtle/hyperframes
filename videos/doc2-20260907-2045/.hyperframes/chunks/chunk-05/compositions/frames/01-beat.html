@@ -108,8 +108,8 @@
     data-composition-id="01-beat"
     data-width="1920" data-height="1080" data-duration="5.38"
   >
-    <div class="broll-wrap clip" id="f-01-beat-wrap" data-start="0" data-duration="5.38" data-track-index="0">
-      <img id="f-01-beat-media" class="broll-media broll-g-cool" src=".media/broll/beat-52.jpg" />
+    <div class="broll-wrap" id="f-01-beat-wrap">
+      <video id="f-01-beat-media" class="broll-media clip broll-g-cool" src=".media/broll/beat-52.mp4" muted playsinline data-start="0" data-duration="5.38" data-media-start="0" data-track-index="0"></video>
     </div>
     <div class="broll-scrim clip" id="f-01-beat-scrim" data-start="0" data-duration="5.38" data-track-index="1"></div>
     <div class="broll-vignette clip" id="f-01-beat-vignette" data-start="0" data-duration="5.38" data-track-index="3"></div>
@@ -120,7 +120,7 @@
       window.__timelines = window.__timelines || {};
       var tl = gsap.timeline({ paused: true });
       var wrap = document.getElementById("f-01-beat-wrap");
-      tl.fromTo(wrap, { scale: 1.0, x: 0, y: 0 }, { scale: 1.14, x: 19.2, y: -14.4, duration: 5.38, ease: "power1.out" }, 0);
+      tl.fromTo(wrap, { scale: 1.14 }, { scale: 1.0, duration: 5.38, ease: "power1.out" }, 0);
       window.__timelines["01-beat"] = tl;
     })();
   </script>

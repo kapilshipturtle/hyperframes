@@ -890,19 +890,19 @@
     }
   ],
   "chosen": {
-    "source": "pixabay",
+    "source": "pexels",
     "mediaType": "video",
-    "id": "pixabay-v113403",
-    "url": "https://pixabay.com/videos/id-113403/",
-    "previewUrl": null,
-    "width": 1920,
-    "height": 1080,
-    "durationSeconds": 15,
+    "id": "pexels-v32506337",
+    "url": "https://www.pexels.com/video/green-frog-resting-in-a-lush-pond-scene-32506337/",
+    "previewUrl": "https://images.pexels.com/videos/32506337/amphibian-amphibious-animal-animals-32506337.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+    "width": 1366,
+    "height": 720,
+    "durationSeconds": 59,
     "orientation": "landscape",
-    "downloadUrl": "https://cdn.pixabay.com/video/2022/04/09/113403-697718184_large.mp4",
-    "description": "frog, reeds, green",
-    "providerRank": 0,
-    "_score": 17
+    "downloadUrl": "https://videos.pexels.com/video-files/32506337/13861788_1366_720_30fps.mp4",
+    "description": "green frog resting in a lush pond scene",
+    "providerRank": 1,
+    "_score": 14
   },
   "anomalies": []
 }

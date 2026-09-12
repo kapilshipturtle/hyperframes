@@ -905,19 +905,19 @@
     }
   ],
   "chosen": {
-    "source": "pixabay",
+    "source": "pexels",
     "mediaType": "video",
-    "id": "pixabay-v44534",
-    "url": "https://pixabay.com/videos/id-44534/",
-    "previewUrl": null,
+    "id": "pexels-v29568894",
+    "url": "https://www.pexels.com/video/peaceful-autumn-leaves-floating-on-lake-29568894/",
+    "previewUrl": "https://images.pexels.com/videos/29568894/beautiful-boardwalk-calm-contemplate-29568894.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
     "width": 1920,
     "height": 1080,
-    "durationSeconds": 10,
+    "durationSeconds": 38,
     "orientation": "landscape",
-    "downloadUrl": "https://cdn.pixabay.com/video/2020/07/12/44534-439384681_large.mp4",
-    "description": "fishing, fish, fisherman, water, animal, angler, blue, salmon, lake, boat, nature, mountain lake, switzerland, fishing rod, quiet, relaxation, rowing, food",
+    "downloadUrl": "https://videos.pexels.com/video-files/29568894/12727516_1920_1080_30fps.mp4",
+    "description": "peaceful autumn leaves floating on lake",
     "providerRank": 0,
-    "_score": 17
+    "_score": 16
   },
   "anomalies": []
 }

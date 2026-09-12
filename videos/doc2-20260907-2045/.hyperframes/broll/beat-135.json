@@ -905,19 +905,19 @@
     }
   ],
   "chosen": {
-    "source": "pixabay",
+    "source": "pexels",
     "mediaType": "video",
-    "id": "pixabay-v262188",
-    "url": "https://pixabay.com/videos/id-262188/",
-    "previewUrl": null,
-    "width": 4096,
-    "height": 2160,
-    "durationSeconds": 14,
+    "id": "pexels-v8381255",
+    "url": "https://www.pexels.com/video/a-laboratory-technician-putting-samples-in-a-machine-8381255/",
+    "previewUrl": "https://images.pexels.com/videos/8381255/pexels-photo-8381255.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+    "width": 1920,
+    "height": 1080,
+    "durationSeconds": 9,
     "orientation": "landscape",
-    "downloadUrl": "https://cdn.pixabay.com/video/2025/03/03/262188_large.mp4",
-    "description": "scientist, laboratory, biology, science, researcher, specimen, experiment, chemistry, research, testing, medical, precision, technology, clinical, investigation, equipment, examine, biological, probe, visualization, gloves, analysis, education, innovation",
-    "providerRank": 0,
-    "_score": 17
+    "downloadUrl": "https://videos.pexels.com/video-files/8381255/8381255-hd_1920_1080_25fps.mp4",
+    "description": "a laboratory technician putting samples in a machine",
+    "providerRank": 1,
+    "_score": 15
   },
   "anomalies": []
 }

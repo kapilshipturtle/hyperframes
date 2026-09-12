@@ -905,19 +905,19 @@
     }
   ],
   "chosen": {
-    "source": "pixabay",
-    "mediaType": "video",
-    "id": "pixabay-v28569",
-    "url": "https://pixabay.com/videos/id-28569/",
-    "previewUrl": null,
-    "width": 1920,
-    "height": 1080,
-    "durationSeconds": 8,
+    "source": "pexels",
+    "mediaType": "photo",
+    "id": "pexels-p11456324",
+    "url": "https://www.pexels.com/photo/white-bird-on-shallow-water-11456324/",
+    "previewUrl": "https://images.pexels.com/photos/11456324/pexels-photo-11456324.png?auto=compress&cs=tinysrgb&h=350",
+    "width": 3250,
+    "height": 2083,
+    "durationSeconds": null,
     "orientation": "landscape",
-    "downloadUrl": "https://cdn.pixabay.com/video/2019/11/01/28569-370332756_large.mp4",
-    "description": "heron, wading bird, animal, feather, plumage, beak, preening, grooming, water, meadow, habitat, rural",
+    "downloadUrl": "https://images.pexels.com/photos/11456324/pexels-photo-11456324.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "description": "A Great Egret wading in shallow waters surrounded by driftwood in Florida.",
     "providerRank": 0,
-    "_score": 17
+    "_score": 14
   },
   "anomalies": []
 }

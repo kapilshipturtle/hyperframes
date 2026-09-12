@@ -599,7 +599,7 @@
       "durationSeconds": null,
       "orientation": "landscape",
       "downloadUrl": "https://pixabay.com/get/g3cf1bd0ef0b43a2ab46ef25f921bcbf55202c50e53f2f8987e7ed9847ee372421ea7a2270508174443869d0d6dd09968b9228b6786e0afd4b41eff9a2a89a7d8_1280.jpg",
-      "description": "castle, park, wetland, swamp, nature, spring, landscape, schloss türnich, castle, castle, castle, castle, castle, swamp, swamp, swamp, spring, spring",
+      "description": "castle, park, wetland, swamp, nature, spring, landscape, schloss t\u00fcrnich, castle, castle, castle, castle, castle, swamp, swamp, swamp, spring, spring",
       "providerRank": 4,
       "_score": 6
     },
@@ -906,18 +906,18 @@
   ],
   "chosen": {
     "source": "pexels",
-    "mediaType": "video",
-    "id": "pexels-v34338326",
-    "url": "https://www.pexels.com/video/aerial-view-of-lush-mangrove-islands-34338326/",
-    "previewUrl": "https://images.pexels.com/videos/34338326/2025-travel-4k-aerial-4k-aerial-footage-4k-drone-34338326.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
-    "width": 1920,
-    "height": 1080,
-    "durationSeconds": 86,
+    "mediaType": "photo",
+    "id": "pexels-p32731085",
+    "url": "https://www.pexels.com/photo/aerial-view-of-salt-marshes-at-hilton-head-island-32731085/",
+    "previewUrl": "https://images.pexels.com/photos/32731085/pexels-photo-32731085.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "width": 5272,
+    "height": 2962,
+    "durationSeconds": null,
     "orientation": "landscape",
-    "downloadUrl": "https://videos.pexels.com/video-files/34338326/14547336_1920_1080_30fps.mp4",
-    "description": "aerial view of lush mangrove islands",
+    "downloadUrl": "https://images.pexels.com/photos/32731085/pexels-photo-32731085.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "description": "Unique aerial perspective of salt marshes on Hilton Head Island showing intricate water patterns.",
     "providerRank": 0,
-    "_score": 16
+    "_score": 14
   },
   "anomalies": []
 }

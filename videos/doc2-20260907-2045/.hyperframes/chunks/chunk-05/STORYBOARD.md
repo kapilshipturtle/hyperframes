@@ -74,7 +74,7 @@
 - src: compositions/frames/07-beat.html
 - duration: 3.77s
 - status: planned
-- transition_in: whip-pan DOWN 0.35s
+- transition_in: light-leak-flash 0.42s
 - look: vignette 0.378
 - query: water pollution industrial runoff
 - narration: Both were tested. Pollution and other human cause pressures.

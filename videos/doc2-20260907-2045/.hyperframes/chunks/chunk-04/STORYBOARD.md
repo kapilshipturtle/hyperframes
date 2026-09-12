@@ -43,7 +43,7 @@
 - src: compositions/frames/04-beat.html
 - duration: 3.94s
 - status: planned
-- transition_in: light-leak-flash 0.5s
+- transition_in: zoom-through 0.51s
 - look: grade desaturate, vignette 0.378
 - motion: out to 1.1298 ease power1.out, focus 66,53
 - motion_reason: narration widens to scale/place/consequence (scale=1 detail=0) | anchored on "analytics pie chart" at 66,53
@@ -87,7 +87,7 @@
 - src: compositions/frames/08-beat.html
 - duration: 2.29s
 - status: planned
-- transition_in: zoom-through 0.41s
+- transition_in: macroblock 0.28s
 - look: grade desaturate, vignette 0.378
 - query: frog in shallow water
 - narration: Amphibians are sensitive to that.

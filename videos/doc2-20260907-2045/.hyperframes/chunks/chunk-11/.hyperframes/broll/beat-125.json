@@ -905,19 +905,19 @@
     }
   ],
   "chosen": {
-    "source": "pixabay",
+    "source": "pexels",
     "mediaType": "video",
-    "id": "pixabay-v76395",
-    "url": "https://pixabay.com/videos/id-76395/",
-    "previewUrl": null,
-    "width": 3840,
-    "height": 2160,
-    "durationSeconds": 13,
+    "id": "pexels-v5131192",
+    "url": "https://www.pexels.com/video/drone-footage-of-water-treatment-facility-5131192/",
+    "previewUrl": "https://images.pexels.com/videos/5131192/aerial-aeriate-air-pollution-architecture-5131192.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+    "width": 1920,
+    "height": 1080,
+    "durationSeconds": 67,
     "orientation": "landscape",
-    "downloadUrl": "https://cdn.pixabay.com/video/2021/06/03/76395-559159183_large.mp4",
-    "description": "laboratory, test, tube, chemistry, hospital, research, medical, health, analysis, chemical, treatment, liquid, diagnosis, medicine",
+    "downloadUrl": "https://videos.pexels.com/video-files/5131192/5131192-hd_1920_1080_30fps.mp4",
+    "description": "drone footage of water treatment facility",
     "providerRank": 0,
-    "_score": 17
+    "_score": 16
   },
   "anomalies": []
 }

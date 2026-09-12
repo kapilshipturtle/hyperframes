@@ -28,7 +28,7 @@
 - src: compositions/frames/03-beat.html
 - duration: 4.34s
 - status: planned
-- transition_in: glitch-cut 0.25s
+- transition_in: light-leak-flash 0.46s
 - look: bw, vignette 0.378
 - motion: in to 1.0649 ease power1.in, focus 56,42
 - motion_reason: neutral line (detail=0 scale=0) — alternated against previous shot | anchored on "frog head above water" at 56,42
@@ -53,7 +53,7 @@
 - src: compositions/frames/05-beat.html
 - duration: 6.88s
 - status: planned
-- transition_in: light-leak-flash 0.5s
+- transition_in: whip-pan LEFT 0.35s
 - look: grade cool, vignette 0.378
 - punch: at 3.18s scale 1.4
 - query: scientific paper pages closeup

@@ -905,19 +905,19 @@
     }
   ],
   "chosen": {
-    "source": "pixabay",
+    "source": "pexels",
     "mediaType": "video",
-    "id": "pixabay-v16224",
-    "url": "https://pixabay.com/videos/id-16224/",
-    "previewUrl": null,
-    "width": 3840,
-    "height": 2160,
-    "durationSeconds": 15,
+    "id": "pexels-v1430660",
+    "url": "https://www.pexels.com/video/people-studying-the-water-1430660/",
+    "previewUrl": "https://images.pexels.com/videos/1430660/free-video-1430660.jpg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+    "width": 1280,
+    "height": 720,
+    "durationSeconds": 45,
     "orientation": "landscape",
-    "downloadUrl": "https://cdn.pixabay.com/video/2018/05/15/16224-270577444_large.mp4",
-    "description": "background, sample, flooded, beautiful wallpaper, rain, textures, wallpaper, glass, weeping, water, design, blur, drops, night lights, a drop, water drops, warmly, macro, lights, air, city, night, night city",
+    "downloadUrl": "https://videos.pexels.com/video-files/1430660/1430660-hd_1280_720_30fps.mp4",
+    "description": "people studying the water",
     "providerRank": 0,
-    "_score": 17
+    "_score": 16
   },
   "anomalies": []
 }

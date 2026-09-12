@@ -905,19 +905,19 @@
     }
   ],
   "chosen": {
-    "source": "pixabay",
+    "source": "pexels",
     "mediaType": "video",
-    "id": "pixabay-v18390",
-    "url": "https://pixabay.com/videos/id-18390/",
-    "previewUrl": null,
-    "width": 3840,
-    "height": 2160,
-    "durationSeconds": 11,
+    "id": "pexels-v34338326",
+    "url": "https://www.pexels.com/video/aerial-view-of-lush-mangrove-islands-34338326/",
+    "previewUrl": "https://images.pexels.com/videos/34338326/2025-travel-4k-aerial-4k-aerial-footage-4k-drone-34338326.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+    "width": 1920,
+    "height": 1080,
+    "durationSeconds": 86,
     "orientation": "landscape",
-    "downloadUrl": "https://cdn.pixabay.com/video/2018/09/24/18390-291585321_large.mp4",
-    "description": "aerial, aerial shot, clouds, dawn, daylight, dusk, fog, nature, sky, morning, landscape, sunlight",
+    "downloadUrl": "https://videos.pexels.com/video-files/34338326/14547336_1920_1080_30fps.mp4",
+    "description": "aerial view of lush mangrove islands",
     "providerRank": 0,
-    "_score": 17
+    "_score": 16
   },
   "anomalies": []
 }

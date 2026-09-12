@@ -890,19 +890,19 @@
     }
   ],
   "chosen": {
-    "source": "pixabay",
+    "source": "pexels",
     "mediaType": "video",
-    "id": "pixabay-v16166",
-    "url": "https://pixabay.com/videos/id-16166/",
-    "previewUrl": null,
+    "id": "pexels-v4183975",
+    "url": "https://www.pexels.com/video/school-of-fish-on-the-water-4183975/",
+    "previewUrl": "https://images.pexels.com/videos/4183975/--4183975.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
     "width": 1920,
     "height": 1080,
-    "durationSeconds": 8,
+    "durationSeconds": 21,
     "orientation": "landscape",
-    "downloadUrl": "https://cdn.pixabay.com/video/2018/05/12/16166-269541539_large.mp4",
-    "description": "fishes, small, aquarium, small fish, sea creatures, underwater, hover, weightlessness",
+    "downloadUrl": "https://videos.pexels.com/video-files/4183975/4183975-hd_1920_1080_30fps.mp4",
+    "description": "school of fish on the water",
     "providerRank": 0,
-    "_score": 17
+    "_score": 16
   },
   "anomalies": []
 }

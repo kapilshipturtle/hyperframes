@@ -905,19 +905,19 @@
     }
   ],
   "chosen": {
-    "source": "pixabay",
-    "mediaType": "video",
-    "id": "pixabay-v275593",
-    "url": "https://pixabay.com/videos/id-275593/",
-    "previewUrl": null,
-    "width": 3840,
-    "height": 2160,
-    "durationSeconds": 12,
+    "source": "pexels",
+    "mediaType": "photo",
+    "id": "pexels-p8991677",
+    "url": "https://www.pexels.com/photo/cracks-on-the-dry-ground-8991677/",
+    "previewUrl": "https://images.pexels.com/photos/8991677/pexels-photo-8991677.jpeg?auto=compress&cs=tinysrgb&h=350",
+    "width": 6000,
+    "height": 4000,
+    "durationSeconds": null,
     "orientation": "landscape",
-    "downloadUrl": "https://cdn.pixabay.com/video/2025/04/29/275593_large.mp4",
-    "description": "aerial view, salt lake, shoreline, nature, landscape, dry, salt, bushland, australia, dirt track",
+    "downloadUrl": "https://images.pexels.com/photos/8991677/pexels-photo-8991677.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "description": "Aerial view of cracked, dry land symbolizing drought and climate impact.",
     "providerRank": 0,
-    "_score": 17
+    "_score": 14
   },
   "anomalies": []
 }

@@ -31,7 +31,7 @@
 - src: compositions/frames/03-beat.html
 - duration: 6.6s
 - status: planned
-- transition_in: zoom-through 1s
+- transition_in: whip-pan DOWN 0.35s
 - look: grade cool, vignette 0.378
 - motion: out to 1.1193 ease power1.out, focus 81,22
 - motion_reason: narration widens to scale/place/consequence (scale=3 detail=0) | anchored on "brass compass" at 81,22

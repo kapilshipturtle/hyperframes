@@ -85,7 +85,7 @@ direction from narration meaning, anchor from vision subject-locate.
 - src: compositions/frames/08-beat.html
 - duration: 2.44s
 - status: planned
-- transition_in: light-leak-flash 0.44s
+- transition_in: macroblock 0.28s
 - look: vignette 0.378
 - query: egret feeding shallow marsh
 - narration: because of the seasonal reprieve.
@@ -97,7 +97,7 @@ direction from narration meaning, anchor from vision subject-locate.
 - src: compositions/frames/09-beat.html
 - duration: 3.59s
 - status: planned
-- transition_in: zoom-through 0.44s
+- transition_in: whip-pan RIGHT 0.35s
 - look: grade desaturate, vignette 0.378
 - query: dark swamp water still surface
 - narration: Now watch what happens when you add an animal that doesn't have to leave.
@@ -173,7 +173,7 @@ direction from narration meaning, anchor from vision subject-locate.
 - src: compositions/frames/16-beat.html
 - duration: 6.48s
 - status: planned
-- transition_in: whip-pan DOWN 0.35s
+- transition_in: zoom-through 1s
 - look: bw, vignette 0.378
 - punch: at 2.25s scale 1.35
 - overlay: keyword-flash "TAYLOR SLOUGH" at middle-center, pop-scale entrance
@@ -258,7 +258,7 @@ direction from narration meaning, anchor from vision subject-locate.
 - src: compositions/frames/24-beat.html
 - duration: 4.34s
 - status: planned
-- transition_in: glitch-cut 0.25s
+- transition_in: light-leak-flash 0.46s
 - look: bw, vignette 0.378
 - motion: in to 1.0649 ease power1.in, focus 56,42
 - motion_reason: neutral line (detail=0 scale=0) — alternated against previous shot | anchored on "frog head above water" at 56,42
@@ -283,7 +283,7 @@ direction from narration meaning, anchor from vision subject-locate.
 - src: compositions/frames/26-beat.html
 - duration: 6.88s
 - status: planned
-- transition_in: light-leak-flash 0.5s
+- transition_in: whip-pan LEFT 0.35s
 - look: grade cool, vignette 0.378
 - punch: at 3.18s scale 1.4
 - query: scientific paper pages closeup
@@ -358,7 +358,7 @@ direction from narration meaning, anchor from vision subject-locate.
 - src: compositions/frames/33-beat.html
 - duration: 3.38s
 - status: planned
-- transition_in: zoom-through 0.61s
+- transition_in: stutter-cut 0.3s
 - look: vignette 0.378
 - query: salamander in shallow water
 - narration: what the amphibians compete with and feed alongside.
@@ -393,7 +393,7 @@ direction from narration meaning, anchor from vision subject-locate.
 - src: compositions/frames/36-beat.html
 - duration: 3.81s
 - status: planned
-- transition_in: whip-pan DOWN 0.35s
+- transition_in: zoom-through 0.69s
 - look: bw, vignette 0.378
 - query: marine biology research paper
 - narration: The 2023 paper covered the fish and the crustaceans.
@@ -446,7 +446,7 @@ direction from narration meaning, anchor from vision subject-locate.
 - src: compositions/frames/41-beat.html
 - duration: 1.92s
 - status: planned
-- transition_in: glitch-cut 0.25s
+- transition_in: whip-pan UP 0.35s
 - look: grade desaturate, vignette 0.378
 - query: field survey site marker
 - narration: nine species, 30 sites.
@@ -492,7 +492,7 @@ direction from narration meaning, anchor from vision subject-locate.
 - src: compositions/frames/45-beat.html
 - duration: 3.94s
 - status: planned
-- transition_in: light-leak-flash 0.5s
+- transition_in: zoom-through 0.51s
 - look: grade desaturate, vignette 0.378
 - motion: out to 1.1298 ease power1.out, focus 66,53
 - motion_reason: narration widens to scale/place/consequence (scale=1 detail=0) | anchored on "analytics pie chart" at 66,53
@@ -536,7 +536,7 @@ direction from narration meaning, anchor from vision subject-locate.
 - src: compositions/frames/49-beat.html
 - duration: 2.29s
 - status: planned
-- transition_in: zoom-through 0.41s
+- transition_in: macroblock 0.28s
 - look: grade desaturate, vignette 0.378
 - query: frog in shallow water
 - narration: Amphibians are sensitive to that.
@@ -634,7 +634,7 @@ direction from narration meaning, anchor from vision subject-locate.
 - src: compositions/frames/58-beat.html
 - duration: 3.77s
 - status: planned
-- transition_in: whip-pan DOWN 0.35s
+- transition_in: light-leak-flash 0.42s
 - look: vignette 0.378
 - query: water pollution industrial runoff
 - narration: Both were tested. Pollution and other human cause pressures.
@@ -723,7 +723,7 @@ direction from narration meaning, anchor from vision subject-locate.
 - src: compositions/frames/66-beat.html
 - duration: 6.35s
 - status: planned
-- transition_in: glitch-cut 0.25s
+- transition_in: stutter-cut 0.3s
 - look: grade cool, vignette 0.378
 - punch: at 4.43s scale 1.375
 - overlay: keyword-flash "EVERYTHING ELSE FELL AWAY" at middle-right
@@ -758,7 +758,7 @@ direction from narration meaning, anchor from vision subject-locate.
 - src: compositions/frames/69-beat.html
 - duration: 5.05s
 - status: planned
-- transition_in: light-leak-flash 0.33s
+- transition_in: zoom-through 0.33s
 - look: grade desaturate, vignette 0.378
 - motion: in to 1.1314 ease power1.in, focus 60,26
 - motion_reason: narration points at a specific detail (detail=1 scale=0) | anchored on "analytics pie chart" at 60,26
@@ -817,7 +817,7 @@ direction from narration meaning, anchor from vision subject-locate.
 - src: compositions/frames/74-beat.html
 - duration: 6.6s
 - status: planned
-- transition_in: zoom-through 1s
+- transition_in: whip-pan DOWN 0.35s
 - look: grade cool, vignette 0.378
 - motion: out to 1.1193 ease power1.out, focus 81,22
 - motion_reason: narration widens to scale/place/consequence (scale=3 detail=0) | anchored on "brass compass" at 81,22
@@ -922,7 +922,7 @@ direction from narration meaning, anchor from vision subject-locate.
 - src: compositions/frames/83-beat.html
 - duration: 6.57s
 - status: planned
-- transition_in: whip-pan DOWN 0.35s
+- transition_in: glitch-cut 0.25s
 - look: vignette 0.378
 - punch: at 1.97s scale 1.425
 - overlay: keyword-flash "EVERGLADES NP" at middle-center
@@ -1012,7 +1012,7 @@ direction from narration meaning, anchor from vision subject-locate.
 - src: compositions/frames/91-beat.html
 - duration: 6.07s
 - status: planned
-- transition_in: glitch-cut 0.25s
+- transition_in: whip-pan LEFT 0.35s
 - look: grade warm
 - punch: at 1.52s scale 1.375
 - overlay: keyword-flash "SIREN & AMPHIUMA" at lower-center
@@ -1026,7 +1026,7 @@ direction from narration meaning, anchor from vision subject-locate.
 - src: compositions/frames/92-beat.html
 - duration: 4.64s
 - status: planned
-- transition_in: light-leak-flash 0.5s
+- transition_in: zoom-through 0.84s
 - look: grade cool, vignette 0.378
 - query: siren salamander mud shallow
 - narration: Both are big, both are eel-shaped themselves, both live in the mud.
@@ -1099,7 +1099,7 @@ direction from narration meaning, anchor from vision subject-locate.
 - src: compositions/frames/99-beat.html
 - duration: 2.28s
 - status: planned
-- transition_in: zoom-through 0.41s
+- transition_in: signal-loss 0.2s
 - look: grade warm
 - motion: in to 1.1212 ease power1.in, focus 43,62
 - motion_reason: narration points at a specific detail (detail=2 scale=0) | anchored on "baby's tiny hand" at 43,62
@@ -1201,7 +1201,7 @@ direction from narration meaning, anchor from vision subject-locate.
 - src: compositions/frames/108-beat.html
 - duration: 3.93s
 - status: planned
-- transition_in: whip-pan DOWN 0.35s
+- transition_in: stutter-cut 0.3s
 - motion: out to 1.1208 ease power1.out, focus 48,25
 - motion_reason: narration widens to scale/place/consequence (scale=1 detail=0) | anchored on "dinosaur head" at 48,25
 - query: extinct animal museum exhibit
@@ -1258,7 +1258,7 @@ direction from narration meaning, anchor from vision subject-locate.
 - src: compositions/frames/113-beat.html
 - duration: 3.47s
 - status: planned
-- transition_in: glitch-cut 0.25s
+- transition_in: zoom-through 0.47s
 - look: vignette 0.378
 - motion: out to 1.05 ease power1.out, focus 42,68
 - motion_reason: neutral line (detail=0 scale=0) — alternated against previous shot | anchored on "empty office chair" at 42,68
@@ -1377,7 +1377,7 @@ direction from narration meaning, anchor from vision subject-locate.
 - src: compositions/frames/124-beat.html
 - duration: 4.72s
 - status: planned
-- transition_in: zoom-through 0.85s
+- transition_in: macroblock 0.28s
 - look: bw
 - overlay: keyword-flash "POISON" at middle-right
 - query: dead fish floating water
@@ -1473,7 +1473,7 @@ direction from narration meaning, anchor from vision subject-locate.
 - src: compositions/frames/133-beat.html
 - duration: 4.51s
 - status: planned
-- transition_in: whip-pan DOWN 0.35s
+- transition_in: zoom-through 0.81s
 - overlay: keyword-flash "IMPOSSIBLE" at upper-left
 - query: researcher explaining impossible task
 - narration: Controlling an invasive species in a system like this is basically impossible.
@@ -1559,7 +1559,7 @@ direction from narration meaning, anchor from vision subject-locate.
 - src: compositions/frames/141-beat.html
 - duration: 1.83s
 - status: planned
-- transition_in: glitch-cut 0.25s
+- transition_in: stutter-cut 0.3s
 - look: grade desaturate
 - overlay: keyword-flash "DOES NOTHING" at middle-center
 - query: map marker not moving
@@ -1572,7 +1572,7 @@ direction from narration meaning, anchor from vision subject-locate.
 - src: compositions/frames/142-beat.html
 - duration: 2.86s
 - status: planned
-- transition_in: light-leak-flash 0.33s
+- transition_in: whip-pan DOWN 0.33s
 - look: grade desaturate
 - motion: out to 1.1232 ease power1.out, focus 50,30
 - motion_reason: narration widens to scale/place/consequence (scale=1 detail=0) | anchored on "dramatic cloud formation" at 50,30
@@ -1650,7 +1650,7 @@ direction from narration meaning, anchor from vision subject-locate.
 - src: compositions/frames/149-beat.html
 - duration: 4.12s
 - status: planned
-- transition_in: zoom-through 0.74s
+- transition_in: stutter-cut 0.3s
 - look: grade desaturate, vignette 0.378
 - motion: in to 1.0673 ease power1.in, focus 56,40
 - motion_reason: narration points at a specific detail (detail=2 scale=0) | anchored on "python head" at 56,40
@@ -1795,7 +1795,7 @@ direction from narration meaning, anchor from vision subject-locate.
 - src: compositions/frames/162-beat.html
 - duration: 6.5s
 - status: planned
-- transition_in: glitch-cut 0.25s
+- transition_in: zoom-through 0.74s
 - look: grade desaturate
 - punch: at 2.12s scale 1.4
 - query: official report stamped page
@@ -1837,7 +1837,7 @@ direction from narration meaning, anchor from vision subject-locate.
 - src: compositions/frames/166-beat.html
 - duration: 5.31s
 - status: planned
-- transition_in: light-leak-flash 0.5s
+- transition_in: glitch-cut 0.25s
 - look: grade cool
 - punch: at 3.53s scale 1.375
 - query: silent dark empty marsh

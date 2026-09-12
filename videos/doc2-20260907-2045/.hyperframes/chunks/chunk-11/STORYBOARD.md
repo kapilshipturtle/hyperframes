@@ -113,7 +113,7 @@
 - src: compositions/frames/11-beat.html
 - duration: 4.72s
 - status: planned
-- transition_in: zoom-through 0.85s
+- transition_in: macroblock 0.28s
 - look: bw
 - overlay: keyword-flash "POISON" at middle-right
 - query: dead fish floating water

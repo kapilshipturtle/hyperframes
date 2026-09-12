@@ -905,19 +905,19 @@
     }
   ],
   "chosen": {
-    "source": "pixabay",
+    "source": "pexels",
     "mediaType": "video",
-    "id": "pixabay-v126620",
-    "url": "https://pixabay.com/videos/id-126620/",
-    "previewUrl": null,
-    "width": 3840,
-    "height": 2160,
-    "durationSeconds": 5,
+    "id": "pexels-v32504652",
+    "url": "https://www.pexels.com/video/plastic-bottle-pollution-in-natural-water-body-32504652/",
+    "previewUrl": "https://images.pexels.com/videos/32504652/bottle-climate-change-danger-dirty-32504652.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+    "width": 1366,
+    "height": 720,
+    "durationSeconds": 59,
     "orientation": "landscape",
-    "downloadUrl": "https://cdn.pixabay.com/video/2022/08/03/126620-736345431_large.mp4",
-    "description": "glass, bottle, glass bottle, water, liquid",
+    "downloadUrl": "https://videos.pexels.com/video-files/32504652/13860911_1366_720_30fps.mp4",
+    "description": "plastic bottle pollution in natural water body",
     "providerRank": 0,
-    "_score": 17
+    "_score": 16
   },
   "anomalies": []
 }

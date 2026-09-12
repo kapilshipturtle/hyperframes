@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T18:45:05.078Z",
+  "generatedAt": "2026-09-12T11:54:16.340Z",
   "vision": true,
   "beats": {
     "beat-01": {
@@ -254,7 +254,7 @@
       "durationSeconds": 3.57,
       "isPhoto": true,
       "motionClass": null,
-      "reason": "narration widens to scale/place/consequence (scale=2 detail=1) | anchored on \"upper forest canopy\" at 48,48",
+      "reason": "narration widens to scale/place/consequence (scale=2 detail=1) | anchored on \"eel shaped lake\" at 48,48",
       "source": "text+vision"
     },
     "beat-22": {
@@ -284,8 +284,8 @@
     "beat-24": {
       "direction": "in",
       "focus": {
-        "x": 56,
-        "y": 42
+        "x": 61,
+        "y": 38
       },
       "zoomTo": 1.0649,
       "panSpan": 14,
@@ -293,7 +293,7 @@
       "durationSeconds": 4.34,
       "isPhoto": false,
       "motionClass": "slow",
-      "reason": "neutral line (detail=0 scale=0) — alternated against previous shot | anchored on \"frog head above water\" at 56,42",
+      "reason": "neutral line (detail=0 scale=0) — alternated against previous shot | anchored on \"frog's eye in water\" at 61,38",
       "source": "text+vision"
     },
     "beat-25": {
@@ -321,21 +321,24 @@
       "source": "text"
     },
     "beat-27": {
-      "direction": "none",
-      "focus": null,
-      "zoomTo": 1.0645,
-      "panSpan": 14,
-      "ease": "none",
+      "direction": "out",
+      "focus": {
+        "x": 37,
+        "y": 27
+      },
+      "zoomTo": 1.129,
+      "panSpan": 44,
+      "ease": "power1.out",
       "durationSeconds": 6.58,
-      "isPhoto": false,
-      "motionClass": "active",
-      "reason": "footage carries real camera motion (probe: active)",
-      "source": "text"
+      "isPhoto": true,
+      "motionClass": null,
+      "reason": "neutral line (detail=1 scale=1) — alternated against previous shot | anchored on \"white egret head\" at 37,27",
+      "source": "text+vision"
     },
     "beat-28": {
       "direction": "in",
       "focus": {
-        "x": 53,
+        "x": 54,
         "y": 28
       },
       "zoomTo": 1.1234,
@@ -344,20 +347,23 @@
       "durationSeconds": 4.88,
       "isPhoto": true,
       "motionClass": null,
-      "reason": "narration points at a specific detail (detail=1 scale=0) | anchored on \"crayfish head\" at 53,28",
+      "reason": "narration points at a specific detail (detail=1 scale=0) | anchored on \"crayfish face and claw\" at 54,28",
       "source": "text+vision"
     },
     "beat-29": {
-      "direction": "none",
-      "focus": null,
-      "zoomTo": 1.0691,
-      "panSpan": 15,
-      "ease": "none",
+      "direction": "out",
+      "focus": {
+        "x": 50,
+        "y": 50
+      },
+      "zoomTo": 1.1383,
+      "panSpan": 47,
+      "ease": "power1.out",
       "durationSeconds": 6.38,
-      "isPhoto": false,
-      "motionClass": "active",
-      "reason": "footage carries real camera motion (probe: active)",
-      "source": "text"
+      "isPhoto": true,
+      "motionClass": null,
+      "reason": "narration widens to scale/place/consequence (scale=3 detail=2) | anchored on \"cracked dry earth\" at 50,50",
+      "source": "text+vision"
     },
     "beat-30": {
       "direction": "none",
@@ -470,8 +476,8 @@
     "beat-39": {
       "direction": "out",
       "focus": {
-        "x": 49,
-        "y": 27
+        "x": 48,
+        "y": 33
       },
       "zoomTo": 1.1041,
       "panSpan": 35,
@@ -479,7 +485,7 @@
       "durationSeconds": 3.61,
       "isPhoto": true,
       "motionClass": null,
-      "reason": "narration widens to scale/place/consequence (scale=1 detail=0) | anchored on \"focused scientist's face\" at 49,27",
+      "reason": "narration widens to scale/place/consequence (scale=1 detail=0) | anchored on \"scientist's face\" at 48,33",
       "source": "text+vision"
     },
     "beat-40": {
@@ -509,8 +515,8 @@
     "beat-42": {
       "direction": "in",
       "focus": {
-        "x": 19,
-        "y": 70
+        "x": 42,
+        "y": 56
       },
       "zoomTo": 1.127,
       "panSpan": 43,
@@ -518,7 +524,7 @@
       "durationSeconds": 6.35,
       "isPhoto": true,
       "motionClass": null,
-      "reason": "neutral line (detail=1 scale=1) — alternated against previous shot | anchored on \"small fishing boat\" at 19,70",
+      "reason": "neutral line (detail=1 scale=1) — alternated against previous shot | anchored on \"sandy beach area\" at 42,56",
       "source": "text+vision"
     },
     "beat-43": {
@@ -548,8 +554,8 @@
     "beat-45": {
       "direction": "out",
       "focus": {
-        "x": 66,
-        "y": 53
+        "x": 42,
+        "y": 60
       },
       "zoomTo": 1.1298,
       "panSpan": 44,
@@ -557,7 +563,7 @@
       "durationSeconds": 3.94,
       "isPhoto": true,
       "motionClass": null,
-      "reason": "narration widens to scale/place/consequence (scale=1 detail=0) | anchored on \"analytics pie chart\" at 66,53",
+      "reason": "narration widens to scale/place/consequence (scale=1 detail=0) | anchored on \"molecular model screen\" at 42,60",
       "source": "text+vision"
     },
     "beat-46": {
@@ -635,7 +641,7 @@
     "beat-52": {
       "direction": "out",
       "focus": {
-        "x": 30,
+        "x": 35,
         "y": 75
       },
       "zoomTo": 1.14,
@@ -643,8 +649,8 @@
       "ease": "power1.out",
       "durationSeconds": 5.38,
       "isPhoto": true,
-      "motionClass": null,
-      "reason": "narration widens to scale/place/consequence (scale=3 detail=1) | anchored on \"canal water channel\" at 30,75",
+      "motionClass": "active",
+      "reason": "narration widens to scale/place/consequence (scale=3 detail=1) | anchored on \"canal water surface\" at 35,75",
       "source": "text+vision"
     },
     "beat-53": {
@@ -662,8 +668,8 @@
     "beat-54": {
       "direction": "in",
       "focus": {
-        "x": 58,
-        "y": 52
+        "x": 27,
+        "y": 44
       },
       "zoomTo": 1.1356,
       "panSpan": 46,
@@ -671,7 +677,7 @@
       "durationSeconds": 6.49,
       "isPhoto": true,
       "motionClass": null,
-      "reason": "neutral line (detail=1 scale=1) — alternated against previous shot | anchored on \"analytics line chart\" at 58,52",
+      "reason": "neutral line (detail=1 scale=1) — alternated against previous shot | anchored on \"pointing finger at chart\" at 27,44",
       "source": "text+vision"
     },
     "beat-55": {
@@ -737,8 +743,8 @@
     "beat-60": {
       "direction": "out",
       "focus": {
-        "x": 20,
-        "y": 69
+        "x": 50,
+        "y": 34
       },
       "zoomTo": 1.1011,
       "panSpan": 34,
@@ -746,7 +752,7 @@
       "durationSeconds": 3.32,
       "isPhoto": true,
       "motionClass": null,
-      "reason": "narration widens to scale/place/consequence (scale=2 detail=1) | anchored on \"fishing boat\" at 20,69",
+      "reason": "narration widens to scale/place/consequence (scale=2 detail=1) | anchored on \"small white structure\" at 50,34",
       "source": "text+vision"
     },
     "beat-61": {
@@ -764,7 +770,7 @@
     "beat-62": {
       "direction": "out",
       "focus": {
-        "x": 59,
+        "x": 58,
         "y": 47
       },
       "zoomTo": 1.1216,
@@ -772,8 +778,8 @@
       "ease": "power1.out",
       "durationSeconds": 7.05,
       "isPhoto": true,
-      "motionClass": null,
-      "reason": "narration widens to scale/place/consequence (scale=1 detail=0) | anchored on \"prominent newspaper headline\" at 59,47",
+      "motionClass": "active",
+      "reason": "narration widens to scale/place/consequence (scale=1 detail=0) | anchored on \"newspaper article headline\" at 58,47",
       "source": "text+vision"
     },
     "beat-63": {
@@ -792,7 +798,7 @@
       "direction": "in",
       "focus": {
         "x": 60,
-        "y": 45
+        "y": 34
       },
       "zoomTo": 1.1094,
       "panSpan": 37,
@@ -800,7 +806,7 @@
       "durationSeconds": 3.01,
       "isPhoto": true,
       "motionClass": null,
-      "reason": "narration points at a specific detail (detail=1 scale=0) | anchored on \"hands typing on laptop\" at 60,45",
+      "reason": "narration points at a specific detail (detail=1 scale=0) | anchored on \"scientist at work\" at 60,34",
       "source": "text+vision"
     },
     "beat-65": {
@@ -854,8 +860,8 @@
     "beat-69": {
       "direction": "in",
       "focus": {
-        "x": 60,
-        "y": 26
+        "x": 51,
+        "y": 54
       },
       "zoomTo": 1.1314,
       "panSpan": 45,
@@ -863,7 +869,7 @@
       "durationSeconds": 5.05,
       "isPhoto": true,
       "motionClass": null,
-      "reason": "narration points at a specific detail (detail=1 scale=0) | anchored on \"analytics pie chart\" at 60,26",
+      "reason": "narration points at a specific detail (detail=1 scale=0) | anchored on \"tv data display\" at 51,54",
       "source": "text+vision"
     },
     "beat-70": {
@@ -879,22 +885,25 @@
       "source": "text"
     },
     "beat-71": {
-      "direction": "none",
-      "focus": null,
-      "zoomTo": 1.0674,
-      "panSpan": 15,
-      "ease": "none",
+      "direction": "out",
+      "focus": {
+        "x": 42,
+        "y": 74
+      },
+      "zoomTo": 1.1348,
+      "panSpan": 46,
+      "ease": "power1.out",
       "durationSeconds": 6.54,
-      "isPhoto": false,
-      "motionClass": "active",
-      "reason": "footage carries real camera motion (probe: active)",
-      "source": "text"
+      "isPhoto": true,
+      "motionClass": null,
+      "reason": "narration points at a specific detail (detail=1 scale=0) | forced away from a 3rd consecutive identical move | anchored on \"spotted eel head\" at 42,74",
+      "source": "text+vision"
     },
     "beat-72": {
       "direction": "out",
       "focus": {
-        "x": 48,
-        "y": 42
+        "x": 50,
+        "y": 33
       },
       "zoomTo": 1.1343,
       "panSpan": 46,
@@ -902,14 +911,14 @@
       "durationSeconds": 6.25,
       "isPhoto": true,
       "motionClass": null,
-      "reason": "narration widens to scale/place/consequence (scale=4 detail=0) | anchored on \"towering cloud formation\" at 48,42",
+      "reason": "narration widens to scale/place/consequence (scale=4 detail=0) | anchored on \"small shelter structure\" at 50,33",
       "source": "text+vision"
     },
     "beat-73": {
       "direction": "in",
       "focus": {
-        "x": 58,
-        "y": 40
+        "x": 48,
+        "y": 52
       },
       "zoomTo": 1.0608,
       "panSpan": 13,
@@ -917,14 +926,14 @@
       "durationSeconds": 6.32,
       "isPhoto": false,
       "motionClass": "slow",
-      "reason": "narration points at a specific detail (detail=1 scale=0) | anchored on \"illuminated earth horizon\" at 58,40",
+      "reason": "narration points at a specific detail (detail=1 scale=0) | anchored on \"central green canopy\" at 48,52",
       "source": "text+vision"
     },
     "beat-74": {
       "direction": "out",
       "focus": {
-        "x": 81,
-        "y": 22
+        "x": 55,
+        "y": 45
       },
       "zoomTo": 1.1193,
       "panSpan": 41,
@@ -932,14 +941,14 @@
       "durationSeconds": 6.6,
       "isPhoto": true,
       "motionClass": null,
-      "reason": "narration widens to scale/place/consequence (scale=3 detail=0) | anchored on \"brass compass\" at 81,22",
+      "reason": "narration widens to scale/place/consequence (scale=3 detail=0) | anchored on \"branching water channel\" at 55,45",
       "source": "text+vision"
     },
     "beat-75": {
       "direction": "out",
       "focus": {
-        "x": 31,
-        "y": 24
+        "x": 50,
+        "y": 35
       },
       "zoomTo": 1.0631,
       "panSpan": 14,
@@ -947,7 +956,7 @@
       "durationSeconds": 2.02,
       "isPhoto": false,
       "motionClass": "slow",
-      "reason": "narration widens to scale/place/consequence (scale=2 detail=0) | anchored on \"illuminated mountain peak\" at 31,24",
+      "reason": "narration widens to scale/place/consequence (scale=2 detail=0) | anchored on \"tall green reeds\" at 50,35",
       "source": "text+vision"
     },
     "beat-76": {
@@ -975,30 +984,33 @@
       "source": "text"
     },
     "beat-78": {
-      "direction": "none",
-      "focus": null,
-      "zoomTo": 1.0653,
-      "panSpan": 14,
-      "ease": "none",
+      "direction": "in",
+      "focus": {
+        "x": 48,
+        "y": 48
+      },
+      "zoomTo": 1.1306,
+      "panSpan": 44,
+      "ease": "power1.in",
       "durationSeconds": 6.41,
-      "isPhoto": false,
-      "motionClass": "active",
-      "reason": "footage carries real camera motion (probe: active)",
-      "source": "text"
+      "isPhoto": true,
+      "motionClass": null,
+      "reason": "neutral line (detail=0 scale=0) — alternated against previous shot | anchored on \"salt pan gradient\" at 48,48",
+      "source": "text+vision"
     },
     "beat-79": {
       "direction": "pan",
       "focus": {
         "x": 35,
-        "y": 71
+        "y": 72
       },
       "zoomTo": 1.1152,
       "panSpan": 39,
       "ease": "none",
       "durationSeconds": 2.59,
       "isPhoto": true,
-      "motionClass": null,
-      "reason": "narration is about movement/traversal (motion=1 detail=0 scale=0) | anchored on \"vintage compass\" at 35,71",
+      "motionClass": "active",
+      "reason": "narration is about movement/traversal (motion=1 detail=0 scale=0) | anchored on \"nautical compass\" at 35,72",
       "source": "text+vision"
     },
     "beat-80": {
@@ -1012,8 +1024,8 @@
       "ease": "none",
       "durationSeconds": 2.23,
       "isPhoto": true,
-      "motionClass": null,
-      "reason": "narration is about movement/traversal (motion=1 detail=0 scale=0) | anchored on \"grilled eel texture\" at 50,65",
+      "motionClass": "active",
+      "reason": "narration is about movement/traversal (motion=1 detail=0 scale=0) | anchored on \"glazed grilled eel\" at 50,65",
       "source": "text+vision"
     },
     "beat-81": {
@@ -1031,8 +1043,8 @@
     "beat-82": {
       "direction": "in",
       "focus": {
-        "x": 31,
-        "y": 25
+        "x": 40,
+        "y": 63
       },
       "zoomTo": 1.0688,
       "panSpan": 15,
@@ -1040,20 +1052,23 @@
       "durationSeconds": 4.69,
       "isPhoto": false,
       "motionClass": "slow",
-      "reason": "narration points at a specific detail (detail=1 scale=0) | anchored on \"illuminated mountain peak\" at 31,25",
+      "reason": "narration points at a specific detail (detail=1 scale=0) | anchored on \"white egret\" at 40,63",
       "source": "text+vision"
     },
     "beat-83": {
-      "direction": "none",
-      "focus": null,
-      "zoomTo": 1.0563,
-      "panSpan": 12,
-      "ease": "none",
+      "direction": "out",
+      "focus": {
+        "x": 53,
+        "y": 42
+      },
+      "zoomTo": 1.1127,
+      "panSpan": 38,
+      "ease": "power1.out",
       "durationSeconds": 6.57,
-      "isPhoto": false,
-      "motionClass": "active",
-      "reason": "footage carries real camera motion (probe: active)",
-      "source": "text"
+      "isPhoto": true,
+      "motionClass": null,
+      "reason": "narration widens to scale/place/consequence (scale=3 detail=2) | anchored on \"southern leopard frog\" at 53,42",
+      "source": "text+vision"
     },
     "beat-84": {
       "direction": "out",
@@ -1066,7 +1081,7 @@
       "ease": "power1.out",
       "durationSeconds": 2.57,
       "isPhoto": true,
-      "motionClass": null,
+      "motionClass": "active",
       "reason": "narration widens to scale/place/consequence (scale=1 detail=0) | anchored on \"butterfly head\" at 51,56",
       "source": "text+vision"
     },
@@ -1094,7 +1109,7 @@
       "durationSeconds": 4.53,
       "isPhoto": false,
       "motionClass": "slow",
-      "reason": "neutral line (detail=2 scale=2) — alternated against previous shot | anchored on \"heron in water\" at 28,54",
+      "reason": "neutral line (detail=2 scale=2) — alternated against previous shot | anchored on \"standing heron\" at 28,54",
       "source": "text+vision"
     },
     "beat-87": {
@@ -1244,23 +1259,23 @@
     "beat-99": {
       "direction": "in",
       "focus": {
-        "x": 43,
-        "y": 62
+        "x": 42,
+        "y": 63
       },
       "zoomTo": 1.1212,
       "panSpan": 41,
       "ease": "power1.in",
       "durationSeconds": 2.28,
       "isPhoto": true,
-      "motionClass": null,
-      "reason": "narration points at a specific detail (detail=2 scale=0) | anchored on \"baby's tiny hand\" at 43,62",
+      "motionClass": "active",
+      "reason": "narration points at a specific detail (detail=2 scale=0) | anchored on \"baby's hand\" at 42,63",
       "source": "text+vision"
     },
     "beat-100": {
       "direction": "out",
       "focus": {
-        "x": 48,
-        "y": 45
+        "x": 56,
+        "y": 51
       },
       "zoomTo": 1.1333,
       "panSpan": 45,
@@ -1268,47 +1283,53 @@
       "durationSeconds": 4.02,
       "isPhoto": true,
       "motionClass": null,
-      "reason": "neutral line (detail=1 scale=1) — alternated against previous shot | anchored on \"hamster eating food\" at 48,45",
+      "reason": "neutral line (detail=1 scale=1) — alternated against previous shot | anchored on \"dwarf siren head\" at 56,51",
       "source": "text+vision"
     },
     "beat-101": {
       "direction": "in",
       "focus": {
-        "x": 38,
-        "y": 53
+        "x": 27,
+        "y": 44
       },
       "zoomTo": 1.1177,
       "panSpan": 40,
       "ease": "power1.in",
       "durationSeconds": 4.42,
       "isPhoto": true,
-      "motionClass": null,
-      "reason": "neutral line (detail=1 scale=1) — alternated against previous shot | anchored on \"endemic salamander\" at 38,53",
+      "motionClass": "active",
+      "reason": "neutral line (detail=1 scale=1) — alternated against previous shot | anchored on \"rare salamander head\" at 27,44",
       "source": "text+vision"
     },
     "beat-102": {
-      "direction": "none",
-      "focus": null,
-      "zoomTo": 1.0624,
-      "panSpan": 14,
-      "ease": "none",
+      "direction": "out",
+      "focus": {
+        "x": 43,
+        "y": 38
+      },
+      "zoomTo": 1.1248,
+      "panSpan": 42,
+      "ease": "power1.out",
       "durationSeconds": 6.51,
-      "isPhoto": false,
-      "motionClass": "active",
-      "reason": "footage carries real camera motion (probe: active)",
-      "source": "text"
+      "isPhoto": true,
+      "motionClass": null,
+      "reason": "narration widens to scale/place/consequence (scale=1 detail=0) | anchored on \"surveyor on boat\" at 43,38",
+      "source": "text+vision"
     },
     "beat-103": {
-      "direction": "none",
-      "focus": null,
-      "zoomTo": 1.0589,
-      "panSpan": 13,
-      "ease": "none",
+      "direction": "in",
+      "focus": {
+        "x": 52,
+        "y": 49
+      },
+      "zoomTo": 1.1178,
+      "panSpan": 40,
+      "ease": "power1.in",
       "durationSeconds": 6.57,
-      "isPhoto": false,
-      "motionClass": "active",
-      "reason": "footage carries real camera motion (probe: active)",
-      "source": "text"
+      "isPhoto": true,
+      "motionClass": null,
+      "reason": "neutral line (detail=0 scale=0) — alternated against previous shot | anchored on \"empty blue net\" at 52,49",
+      "source": "text+vision"
     },
     "beat-104": {
       "direction": "none",
@@ -1337,8 +1358,8 @@
     "beat-106": {
       "direction": "out",
       "focus": {
-        "x": 36,
-        "y": 44
+        "x": 62,
+        "y": 49
       },
       "zoomTo": 1.0659,
       "panSpan": 15,
@@ -1346,7 +1367,7 @@
       "durationSeconds": 4.96,
       "isPhoto": false,
       "motionClass": "slow",
-      "reason": "narration widens to scale/place/consequence (scale=2 detail=0) | anchored on \"setting sun treeline\" at 36,44",
+      "reason": "narration widens to scale/place/consequence (scale=2 detail=0) | anchored on \"National Park Service logo\" at 62,49",
       "source": "text+vision"
     },
     "beat-107": {
@@ -1365,15 +1386,15 @@
       "direction": "out",
       "focus": {
         "x": 48,
-        "y": 25
+        "y": 28
       },
       "zoomTo": 1.1208,
       "panSpan": 41,
       "ease": "power1.out",
       "durationSeconds": 3.93,
       "isPhoto": true,
-      "motionClass": null,
-      "reason": "narration widens to scale/place/consequence (scale=1 detail=0) | anchored on \"dinosaur head\" at 48,25",
+      "motionClass": "active",
+      "reason": "narration widens to scale/place/consequence (scale=1 detail=0) | anchored on \"dinosaur model head\" at 48,28",
       "source": "text+vision"
     },
     "beat-109": {
@@ -1391,8 +1412,8 @@
     "beat-110": {
       "direction": "in",
       "focus": {
-        "x": 57,
-        "y": 60
+        "x": 49,
+        "y": 50
       },
       "zoomTo": 1.05,
       "panSpan": 11,
@@ -1400,7 +1421,7 @@
       "durationSeconds": 2.41,
       "isPhoto": false,
       "motionClass": "slow",
-      "reason": "neutral line (detail=0 scale=0) — alternated against previous shot | anchored on \"pink water lily\" at 57,60",
+      "reason": "neutral line (detail=0 scale=0) — alternated against previous shot | anchored on \"surfacing turtle head\" at 49,50",
       "source": "text+vision"
     },
     "beat-111": {
@@ -1430,8 +1451,8 @@
     "beat-113": {
       "direction": "out",
       "focus": {
-        "x": 42,
-        "y": 68
+        "x": 55,
+        "y": 60
       },
       "zoomTo": 1.05,
       "panSpan": 11,
@@ -1439,14 +1460,14 @@
       "durationSeconds": 3.47,
       "isPhoto": false,
       "motionClass": "static",
-      "reason": "neutral line (detail=0 scale=0) — alternated against previous shot | anchored on \"empty office chair\" at 42,68",
+      "reason": "neutral line (detail=0 scale=0) — alternated against previous shot | anchored on \"empty office workstation\" at 55,60",
       "source": "text+vision"
     },
     "beat-114": {
       "direction": "in",
       "focus": {
-        "x": 51,
-        "y": 14
+        "x": 47,
+        "y": 43
       },
       "zoomTo": 1.0652,
       "panSpan": 14,
@@ -1454,7 +1475,7 @@
       "durationSeconds": 4.06,
       "isPhoto": false,
       "motionClass": "static",
-      "reason": "narration points at a specific detail (detail=1 scale=0) | anchored on \"woman's concerned face\" at 51,14",
+      "reason": "narration points at a specific detail (detail=1 scale=0) | anchored on \"beaker pouring liquid\" at 47,43",
       "source": "text+vision"
     },
     "beat-115": {
@@ -1506,16 +1527,19 @@
       "source": "text"
     },
     "beat-119": {
-      "direction": "none",
-      "focus": null,
-      "zoomTo": 1.0657,
-      "panSpan": 14,
-      "ease": "none",
+      "direction": "out",
+      "focus": {
+        "x": 55,
+        "y": 45
+      },
+      "zoomTo": 1.1314,
+      "panSpan": 45,
+      "ease": "power1.out",
       "durationSeconds": 6.36,
-      "isPhoto": false,
-      "motionClass": "active",
-      "reason": "footage carries real camera motion (probe: active)",
-      "source": "text"
+      "isPhoto": true,
+      "motionClass": null,
+      "reason": "narration widens to scale/place/consequence (scale=2 detail=1) | anchored on \"stick in swamp water\" at 55,45",
+      "source": "text+vision"
     },
     "beat-120": {
       "direction": "none",
@@ -1556,8 +1580,8 @@
     "beat-123": {
       "direction": "in",
       "focus": {
-        "x": 48,
-        "y": 58
+        "x": 50,
+        "y": 57
       },
       "zoomTo": 1.0609,
       "panSpan": 13,
@@ -1565,7 +1589,7 @@
       "durationSeconds": 6.37,
       "isPhoto": false,
       "motionClass": "slow",
-      "reason": "narration points at a specific detail (detail=1 scale=0) | anchored on \"head of lungfish\" at 48,58",
+      "reason": "narration points at a specific detail (detail=1 scale=0) | anchored on \"animal head\" at 50,57",
       "source": "text+vision"
     },
     "beat-124": {
@@ -1691,8 +1715,8 @@
     "beat-134": {
       "direction": "out",
       "focus": {
-        "x": 50,
-        "y": 48
+        "x": 60,
+        "y": 50
       },
       "zoomTo": 1.0589,
       "panSpan": 13,
@@ -1700,7 +1724,7 @@
       "durationSeconds": 2.62,
       "isPhoto": false,
       "motionClass": "static",
-      "reason": "neutral line (detail=0 scale=0) — alternated against previous shot | anchored on \"chemistry flask\" at 50,48",
+      "reason": "neutral line (detail=0 scale=0) — alternated against previous shot | anchored on \"glass bottle in water\" at 60,50",
       "source": "text+vision"
     },
     "beat-135": {
@@ -1742,8 +1766,8 @@
     "beat-138": {
       "direction": "in",
       "focus": {
-        "x": 63,
-        "y": 53
+        "x": 60,
+        "y": 54
       },
       "zoomTo": 1.1202,
       "panSpan": 41,
@@ -1751,7 +1775,7 @@
       "durationSeconds": 4.15,
       "isPhoto": true,
       "motionClass": null,
-      "reason": "neutral line (detail=0 scale=0) — alternated against previous shot | anchored on \"hand pointing at map\" at 63,53",
+      "reason": "neutral line (detail=0 scale=0) — alternated against previous shot | anchored on \"hand pointing at map\" at 60,54",
       "source": "text+vision"
     },
     "beat-139": {
@@ -1793,8 +1817,8 @@
     "beat-142": {
       "direction": "out",
       "focus": {
-        "x": 50,
-        "y": 30
+        "x": 42,
+        "y": 57
       },
       "zoomTo": 1.1232,
       "panSpan": 42,
@@ -1802,7 +1826,7 @@
       "durationSeconds": 2.86,
       "isPhoto": true,
       "motionClass": null,
-      "reason": "narration widens to scale/place/consequence (scale=1 detail=0) | anchored on \"dramatic cloud formation\" at 50,30",
+      "reason": "narration widens to scale/place/consequence (scale=1 detail=0) | anchored on \"coastal urban development\" at 42,57",
       "source": "text+vision"
     },
     "beat-143": {
@@ -1865,7 +1889,7 @@
       "durationSeconds": 4.82,
       "isPhoto": false,
       "motionClass": "slow",
-      "reason": "narration widens to scale/place/consequence (scale=2 detail=0) | anchored on \"tall reed plume\" at 36,15",
+      "reason": "narration widens to scale/place/consequence (scale=2 detail=0) | anchored on \"tall reed stalk\" at 36,15",
       "source": "text+vision"
     },
     "beat-148": {
@@ -1884,7 +1908,7 @@
       "direction": "in",
       "focus": {
         "x": 56,
-        "y": 40
+        "y": 37
       },
       "zoomTo": 1.0673,
       "panSpan": 15,
@@ -1892,7 +1916,7 @@
       "durationSeconds": 4.12,
       "isPhoto": false,
       "motionClass": "slow",
-      "reason": "narration points at a specific detail (detail=2 scale=0) | anchored on \"python head\" at 56,40",
+      "reason": "narration points at a specific detail (detail=2 scale=0) | anchored on \"raised python head\" at 56,37",
       "source": "text+vision"
     },
     "beat-150": {
@@ -1907,7 +1931,7 @@
       "durationSeconds": 6.2,
       "isPhoto": true,
       "motionClass": null,
-      "reason": "neutral line (detail=2 scale=2) — alternated against previous shot | anchored on \"vine covered tree\" at 60,45",
+      "reason": "neutral line (detail=2 scale=2) — alternated against previous shot | anchored on \"ivy covered tree\" at 60,45",
       "source": "text+vision"
     },
     "beat-151": {
@@ -1934,7 +1958,7 @@
       "durationSeconds": 3.97,
       "isPhoto": true,
       "motionClass": null,
-      "reason": "neutral line (detail=1 scale=1) — alternated against previous shot | anchored on \"snake head\" at 29,52",
+      "reason": "neutral line (detail=1 scale=1) — alternated against previous shot | anchored on \"head of python\" at 29,52",
       "source": "text+vision"
     },
     "beat-153": {
@@ -2036,8 +2060,8 @@
     "beat-161": {
       "direction": "out",
       "focus": {
-        "x": 35,
-        "y": 10
+        "x": 46,
+        "y": 55
       },
       "zoomTo": 1.0594,
       "panSpan": 13,
@@ -2045,7 +2069,7 @@
       "durationSeconds": 4.09,
       "isPhoto": false,
       "motionClass": "slow",
-      "reason": "neutral line (detail=0 scale=0) — alternated against previous shot | anchored on \"documents folder label\" at 35,10",
+      "reason": "neutral line (detail=0 scale=0) — alternated against previous shot | anchored on \"hands searching files\" at 46,55",
       "source": "text+vision"
     },
     "beat-162": {
@@ -2063,8 +2087,8 @@
     "beat-163": {
       "direction": "out",
       "focus": {
-        "x": 55,
-        "y": 35
+        "x": 54,
+        "y": 36
       },
       "zoomTo": 1.1396,
       "panSpan": 47,
@@ -2072,7 +2096,7 @@
       "durationSeconds": 6.53,
       "isPhoto": true,
       "motionClass": null,
-      "reason": "narration widens to scale/place/consequence (scale=3 detail=0) | anchored on \"two people walking\" at 55,35",
+      "reason": "narration widens to scale/place/consequence (scale=3 detail=0) | anchored on \"two people walking\" at 54,36",
       "source": "text+vision"
     },
     "beat-164": {
@@ -2136,16 +2160,19 @@
       "source": "text"
     },
     "beat-169": {
-      "direction": "none",
-      "focus": null,
-      "zoomTo": 1.0562,
-      "panSpan": 12,
-      "ease": "none",
+      "direction": "in",
+      "focus": {
+        "x": 58,
+        "y": 46
+      },
+      "zoomTo": 1.1124,
+      "panSpan": 38,
+      "ease": "power1.in",
       "durationSeconds": 3.74,
-      "isPhoto": false,
-      "motionClass": "active",
-      "reason": "footage carries real camera motion (probe: active)",
-      "source": "text"
+      "isPhoto": true,
+      "motionClass": null,
+      "reason": "narration points at a specific detail (detail=1 scale=0) | anchored on \"branching tidal channel\" at 58,46",
+      "source": "text+vision"
     },
     "beat-170": {
       "direction": "none",

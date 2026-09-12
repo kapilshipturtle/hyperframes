@@ -53,7 +53,7 @@
 - src: compositions/frames/05-beat.html
 - duration: 6.35s
 - status: planned
-- transition_in: glitch-cut 0.25s
+- transition_in: stutter-cut 0.3s
 - look: grade cool, vignette 0.378
 - punch: at 4.43s scale 1.375
 - overlay: keyword-flash "EVERYTHING ELSE FELL AWAY" at middle-right
@@ -88,7 +88,7 @@
 - src: compositions/frames/08-beat.html
 - duration: 5.05s
 - status: planned
-- transition_in: light-leak-flash 0.33s
+- transition_in: zoom-through 0.33s
 - look: grade desaturate, vignette 0.378
 - motion: in to 1.1314 ease power1.in, focus 60,26
 - motion_reason: narration points at a specific detail (detail=1 scale=0) | anchored on "analytics pie chart" at 60,26

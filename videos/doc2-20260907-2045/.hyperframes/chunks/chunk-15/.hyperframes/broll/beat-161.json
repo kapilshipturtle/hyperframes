@@ -905,19 +905,19 @@
     }
   ],
   "chosen": {
-    "source": "pixabay",
+    "source": "pexels",
     "mediaType": "video",
-    "id": "pixabay-v9772",
-    "url": "https://pixabay.com/videos/id-9772/",
-    "previewUrl": null,
-    "width": 1796,
-    "height": 1079,
-    "durationSeconds": 10,
+    "id": "pexels-v6549976",
+    "url": "https://www.pexels.com/video/looking-among-files-6549976/",
+    "previewUrl": "https://images.pexels.com/videos/6549976/pexels-photo-6549976.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+    "width": 1920,
+    "height": 1080,
+    "durationSeconds": 22,
     "orientation": "landscape",
-    "downloadUrl": "https://cdn.pixabay.com/video/2017/06/10/9772-221163248_large.mp4",
-    "description": "file, folder, office, business, document, archive, file folder, bureaucracy, management, paper",
+    "downloadUrl": "https://videos.pexels.com/video-files/6549976/6549976-hd_1920_1080_25fps.mp4",
+    "description": "looking among files",
     "providerRank": 0,
-    "_score": 17
+    "_score": 16
   },
   "anomalies": []
 }

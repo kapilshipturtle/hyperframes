@@ -890,19 +890,19 @@
     }
   ],
   "chosen": {
-    "source": "pixabay",
+    "source": "pexels",
     "mediaType": "video",
-    "id": "pixabay-v1630",
-    "url": "https://pixabay.com/videos/id-1630/",
-    "previewUrl": null,
+    "id": "pexels-v30014878",
+    "url": "https://www.pexels.com/video/exciting-outdoor-easter-egg-hunt-event-30014878/",
+    "previewUrl": "https://images.pexels.com/videos/30014878/easter-hunt-30014878.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
     "width": 1920,
     "height": 1080,
-    "durationSeconds": 15,
+    "durationSeconds": 31,
     "orientation": "landscape",
-    "downloadUrl": "https://cdn.pixabay.com/video/2015/12/11/1630-148614385_large.mp4",
-    "description": "concert, light effects, cheering, audience, light beams, people, crowd, happy, party, festival, music, dance, performance, stage, band, group, cheering crowd, event, entertainment, young, happiness, cheerful, fun, festival crowd, crowd of people, rock, concert crowd, live, excitement, rock concert, celebration, applauding, popular, light, concert stage, music festival, sound",
+    "downloadUrl": "https://videos.pexels.com/video-files/30014878/12878089_1920_1080_50fps.mp4",
+    "description": "exciting outdoor easter egg hunt event",
     "providerRank": 0,
-    "_score": 17
+    "_score": 16
   },
   "anomalies": []
 }

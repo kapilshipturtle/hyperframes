@@ -30,6 +30,12 @@
    "light-leak-flash",
    "zoom-through",
    "whip-pan",
+   "smear-cut",
+   "slice-glitch",
+   "rgb-split",
+   "stutter-cut",
+   "macroblock",
+   "signal-loss",
    "glitch-cut"
   ],
   "hard_cut_sfx_share": null,
@@ -43,7 +49,9 @@
   "flash_per_min": [
    4.65,
    5.94
-  ]
+  ],
+  "accent_min_gap_boundaries": 6,
+  "_accents_source": "2026-09-12 glitch research + headless-Chrome pixel verification; selection is content-motivated with spacing, NOT a round-robin (see pick-transitions.mjs explainerSequence)"
  },
  "punch": {
   "share_of_shots": 0.326,

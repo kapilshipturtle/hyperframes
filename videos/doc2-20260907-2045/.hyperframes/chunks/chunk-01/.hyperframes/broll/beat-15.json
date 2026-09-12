@@ -905,19 +905,19 @@
     }
   ],
   "chosen": {
-    "source": "pixabay",
+    "source": "pexels",
     "mediaType": "video",
-    "id": "pixabay-v89769",
-    "url": "https://pixabay.com/videos/id-89769/",
-    "previewUrl": null,
-    "width": 3840,
-    "height": 2160,
-    "durationSeconds": 16,
+    "id": "pexels-v9332715",
+    "url": "https://www.pexels.com/video/video-of-a-crab-under-water-9332715/",
+    "previewUrl": "https://images.pexels.com/videos/9332715/animal-aquatic-aquatic-animal-biology-9332715.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+    "width": 1920,
+    "height": 1080,
+    "durationSeconds": 23,
     "orientation": "landscape",
-    "downloadUrl": "https://cdn.pixabay.com/video/2021/09/26/89769-615423174_large.mp4",
-    "description": "desert, drought, muddy, river",
+    "downloadUrl": "https://videos.pexels.com/video-files/9332715/9332715-hd_1920_1080_24fps.mp4",
+    "description": "video of a crab under water",
     "providerRank": 0,
-    "_score": 17
+    "_score": 16
   },
   "anomalies": []
 }

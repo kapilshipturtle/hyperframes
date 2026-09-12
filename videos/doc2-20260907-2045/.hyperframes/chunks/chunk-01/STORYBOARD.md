@@ -52,7 +52,7 @@
 - src: compositions/frames/05-beat.html
 - duration: 6.48s
 - status: planned
-- transition_in: whip-pan DOWN 0.35s
+- transition_in: zoom-through 1s
 - look: bw, vignette 0.378
 - punch: at 2.25s scale 1.35
 - overlay: keyword-flash "TAYLOR SLOUGH" at middle-center, pop-scale entrance

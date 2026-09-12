@@ -17,7 +17,7 @@
 - src: compositions/frames/02-beat.html
 - duration: 3.38s
 - status: planned
-- transition_in: zoom-through 0.61s
+- transition_in: stutter-cut 0.3s
 - look: vignette 0.378
 - query: salamander in shallow water
 - narration: what the amphibians compete with and feed alongside.
@@ -52,7 +52,7 @@
 - src: compositions/frames/05-beat.html
 - duration: 3.81s
 - status: planned
-- transition_in: whip-pan DOWN 0.35s
+- transition_in: zoom-through 0.69s
 - look: bw, vignette 0.378
 - query: marine biology research paper
 - narration: The 2023 paper covered the fish and the crustaceans.
@@ -105,7 +105,7 @@
 - src: compositions/frames/10-beat.html
 - duration: 1.92s
 - status: planned
-- transition_in: glitch-cut 0.25s
+- transition_in: whip-pan UP 0.35s
 - look: grade desaturate, vignette 0.378
 - query: field survey site marker
 - narration: nine species, 30 sites.

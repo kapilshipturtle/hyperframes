@@ -905,19 +905,19 @@
     }
   ],
   "chosen": {
-    "source": "pixabay",
+    "source": "pexels",
     "mediaType": "video",
-    "id": "pixabay-v192281",
-    "url": "https://pixabay.com/videos/id-192281/",
-    "previewUrl": null,
+    "id": "pexels-v31767895",
+    "url": "https://www.pexels.com/video/scientist-examining-bacterial-petri-dish-in-lab-31767895/",
+    "previewUrl": "https://images.pexels.com/videos/31767895/petri-dish-laboratory-virus-31767895.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
     "width": 1920,
     "height": 1080,
-    "durationSeconds": 15,
+    "durationSeconds": 30,
     "orientation": "landscape",
-    "downloadUrl": "https://cdn.pixabay.com/video/2023/12/06/192281-892475127_large.mp4",
-    "description": "scientist, laboratory, research, space, science, technology, discussion",
+    "downloadUrl": "https://videos.pexels.com/video-files/31767895/13534326_1920_1080_25fps.mp4",
+    "description": "scientist examining bacterial petri dish in lab",
     "providerRank": 0,
-    "_score": 17
+    "_score": 16
   },
   "anomalies": []
 }

@@ -70,7 +70,7 @@
 - src: compositions/frames/07-beat.html
 - duration: 2.28s
 - status: planned
-- transition_in: zoom-through 0.41s
+- transition_in: signal-loss 0.2s
 - look: grade warm
 - motion: in to 1.1212 ease power1.in, focus 43,62
 - motion_reason: narration points at a specific detail (detail=2 scale=0) | anchored on "baby's tiny hand" at 43,62

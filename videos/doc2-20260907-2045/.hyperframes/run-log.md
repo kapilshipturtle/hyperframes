@@ -6340,3 +6340,7 @@ checked 169/172 beat(s), 75 possible mismatch(es)
 ### Chunked render — split
 17 chunk(s) created
   - **chunks:** chunk-00: beats 01-11, ~11 sources | chunk-01: beats 12-21, ~10 sources | chunk-02: beats 22-31, ~10 sources | chunk-03: beats 32-41, ~10 sources | chunk-04: beats 42-51, ~10 sources | chunk-05: beats 52-61, ~10 sources | chunk-06: beats 62-71, ~10 sources | chunk-07: beats 72-81, ~10 sources | chun…(truncated)
+
+### Chunked render — split
+17 chunk(s) created
+  - **chunks:** chunk-00: beats 01-11, ~11 sources | chunk-01: beats 12-21, ~10 sources | chunk-02: beats 22-31, ~10 sources | chunk-03: beats 32-41, ~10 sources | chunk-04: beats 42-51, ~10 sources | chunk-05: beats 52-61, ~10 sources | chunk-06: beats 62-71, ~10 sources | chunk-07: beats 72-81, ~10 sources | chun…(truncated)

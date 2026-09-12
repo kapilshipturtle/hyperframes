@@ -81,7 +81,7 @@
 - src: compositions/frames/08-beat.html
 - duration: 4.51s
 - status: planned
-- transition_in: whip-pan DOWN 0.35s
+- transition_in: zoom-through 0.81s
 - overlay: keyword-flash "IMPOSSIBLE" at upper-left
 - query: researcher explaining impossible task
 - narration: Controlling an invasive species in a system like this is basically impossible.

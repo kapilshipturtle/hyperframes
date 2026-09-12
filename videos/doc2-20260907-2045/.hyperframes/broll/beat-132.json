@@ -905,19 +905,19 @@
     }
   ],
   "chosen": {
-    "source": "pixabay",
+    "source": "pexels",
     "mediaType": "video",
-    "id": "pixabay-v192281",
-    "url": "https://pixabay.com/videos/id-192281/",
-    "previewUrl": null,
-    "width": 1920,
-    "height": 1080,
-    "durationSeconds": 15,
+    "id": "pexels-v7698613",
+    "url": "https://www.pexels.com/video/a-woman-with-glasses-talking-7698613/",
+    "previewUrl": "https://images.pexels.com/videos/7698613/pexels-photo-7698613.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
+    "width": 1366,
+    "height": 720,
+    "durationSeconds": 20,
     "orientation": "landscape",
-    "downloadUrl": "https://cdn.pixabay.com/video/2023/12/06/192281-892475127_large.mp4",
-    "description": "scientist, laboratory, research, space, science, technology, discussion",
+    "downloadUrl": "https://videos.pexels.com/video-files/7698613/7698613-hd_1366_720_25fps.mp4",
+    "description": "a woman with glasses talking",
     "providerRank": 0,
-    "_score": 17
+    "_score": 16
   },
   "anomalies": []
 }

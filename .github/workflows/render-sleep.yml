@@ -16,11 +16,15 @@ name: render-sleep-video
 #                 across cuts without needing a second whole-film pass.
 #   2. join    (single) -- concat all clips losslessly into one base video
 #   3. finish  (single) -- mux narration onto the joined film, run the style gate
+permissions:
+  contents: read
+
 on:
   workflow_dispatch:
     inputs:
       project: { description: "project dir under videos/", required: true }
       chunks:  { description: "parallel jobs (GitHub free cap is 20 concurrent)", required: false, default: "20" }
+      inputs_tag: { description: "release tag holding the inputs (created by push-inputs.mjs)", required: true }
 
 jobs:
   plan:
@@ -45,6 +49,15 @@ jobs:
       - uses: actions/setup-node@v4
         with: { node-version: "20" }
       - run: sudo apt-get update && sudo apt-get install -y ffmpeg python3-pil
+      - name: Fetch + unpack render inputs (gitignored, never in the checkout)
+        env: { GH_TOKEN: "${{ secrets.GITHUB_TOKEN }}" }
+        run: |
+          cd videos/${{ github.event.inputs.project }}
+          mkdir -p .media .hyperframes
+          gh release download "${{ github.event.inputs.inputs_tag }}" \
+            -R ${{ github.repository }} -p "scenes-media.tar" -p "scenes-meta.tar" -D /tmp/in
+          tar -xf /tmp/in/scenes-media.tar -C .media
+          tar -xf /tmp/in/scenes-meta.tar  -C .hyperframes
       - name: Render this chunk's clips (fog included, offset by each scene's start)
         run: |
           cd videos/${{ github.event.inputs.project }}
@@ -94,11 +107,14 @@ jobs:
       - run: sudo apt-get update && sudo apt-get install -y ffmpeg python3-pil
       - uses: actions/download-artifact@v4
         with: { name: base, path: basein }
+      - name: Fetch narration
+        env: { GH_TOKEN: "${{ secrets.GITHUB_TOKEN }}" }
+        run: gh release download "${{ github.event.inputs.inputs_tag }}" -R ${{ github.repository }} -p "narration.m4a" -D $GITHUB_WORKSPACE/narr
       - name: Mux narration onto the joined film, gate
         run: |
           cd videos/${{ github.event.inputs.project }}
           mkdir -p renders .work   # .work does not exist in a fresh checkout
-          ffmpeg -hide_banner -loglevel error -y -i $GITHUB_WORKSPACE/basein/base.mp4 -i assets/audio/narration.m4a \
+          ffmpeg -hide_banner -loglevel error -y -i $GITHUB_WORKSPACE/basein/base.mp4 -i $GITHUB_WORKSPACE/narr/narration.m4a \
             -c:v copy -c:a aac -b:a 160k -af loudnorm=I=-26:TP=-2:LRA=11 -shortest renders/film.mp4
           node ci/sleep/verify-style.mjs --video renders/film.mp4
       - uses: actions/upload-artifact@v4

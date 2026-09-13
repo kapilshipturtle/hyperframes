@@ -112,7 +112,7 @@ const fc = fogLoop
       // blend HARD-ERRORS on mismatched input sizes, so the fog is always scaled to the base.
       // Black-background smoke needs NO keying: screen treats black as the identity element.
       `[1:v]scale=${W}:${H},setsar=1,hue=s=0,format=yuv420p[fg]`,
-      `[bg][fg]blend=all_mode=screen:all_opacity=${f("fog-opacity", "0.40")},eq=brightness=-0.20:saturation=0.13:contrast=1.02,format=yuv420p[v]`,
+      `[bg][fg]blend=all_mode=screen:all_opacity=${f("fog-opacity", "0.50")},eq=brightness=-0.20:saturation=0.13:contrast=1.02,format=yuv420p[v]`,
     ].join(";")
   : [
       `[0:v]scale=${Math.round(W * 4)}:-2,zoompan=z='${mv.z}':x='${mv.x}':y='${mv.y}':d=${frames}:s=${W}x${H}:fps=${fps}[bg]`,

@@ -108,5 +108,20 @@ for (const [k, v, lo, why] of [["fogPixels>10%", fog.p10, 2.4, "% of frame chang
   const ok = v >= lo; if (!ok) fail++;
   console.log(`${ok ? "PASS" : "FAIL"}  ${k.padEnd(11)} ${v.toFixed(2).padStart(7)}  [>=${lo}]  ${why}`);
 }
+// DURATION / AUDIO-COVERAGE GATE (added 2026-09-13). Every check above is per-frame, so a
+// film that was 4.3 minutes SHORT passed all six of them: the video ran 145.7 min against a
+// 149.9 min narration and `-shortest` silently cut the end off. Length is not a style
+// property, and nothing else here would ever notice. Pass --audio to enforce it.
+const audio = f("audio");
+if (audio) {
+  const dur = (p) => parseFloat(execFileSync("ffprobe", ["-v", "error", "-show_entries",
+    "format=duration", "-of", "csv=p=0", p], { encoding: "utf8" }).trim());
+  const dv = dur(video), da = dur(audio), missing = da - dv;
+  // 2s of slack: the last clip is whole frames and loudnorm can trim a few ms.
+  const ok = missing <= 2.0;
+  if (!ok) fail++;
+  console.log(`${ok ? "PASS" : "FAIL"}  ${"coverage".padEnd(11)} ${missing.toFixed(2).padStart(7)}s  [<=2s]  narration left uncovered by video (video ${(dv / 60).toFixed(1)}min vs audio ${(da / 60).toFixed(1)}min)`);
+}
+
 console.log(`${fail === 0 ? "STYLE GATE PASSED" : `STYLE GATE FAILED (${fail})`} -- ${video}`);
 process.exit(fail === 0 ? 0 : 1);

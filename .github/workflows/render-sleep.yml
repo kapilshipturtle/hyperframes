@@ -116,7 +116,9 @@ jobs:
           mkdir -p renders .work   # .work does not exist in a fresh checkout
           ffmpeg -hide_banner -loglevel error -y -i $GITHUB_WORKSPACE/basein/base.mp4 -i $GITHUB_WORKSPACE/narr/narration.m4a \
             -c:v copy -c:a aac -b:a 160k -af loudnorm=I=-26:TP=-2:LRA=11 -shortest renders/film.mp4
-          node ci/sleep/verify-style.mjs --video renders/film.mp4
+          # --audio: enforce that the video actually covers the narration. A 4.3-minute
+          # truncation once passed all six style checks, which are all per-frame.
+          node ci/sleep/verify-style.mjs --video renders/film.mp4 --audio $GITHUB_WORKSPACE/narr/narration.m4a
       - uses: actions/upload-artifact@v4
         with:
           name: film

@@ -3,9 +3,9 @@
     {
       "id": "106",
       "text": "Not by cooking the rock, but by dissolving it and reassembling the pieces you want.",
-      "start": 424.8,
-      "end": 429.31,
-      "durationSeconds": 4.51,
+      "start": 424.866667,
+      "end": 429.366667,
+      "durationSeconds": 4.5,
       "words": [
         {
           "text": "Not",
@@ -82,14 +82,15 @@
           "start": 428.79,
           "end": 429.31
         }
-      ]
+      ],
+      "frames": 135
     },
     {
       "id": "107",
       "text": "That is Sublime's process, and the company describes it plainly, an electrochemical system that extracts reactive calcium and silicates",
-      "start": 429.31,
-      "end": 435.79,
-      "durationSeconds": 6.48,
+      "start": 429.366667,
+      "end": 435.833333,
+      "durationSeconds": 6.466667,
       "words": [
         {
           "text": "That",
@@ -186,14 +187,15 @@
           "start": 435.32,
           "end": 435.77
         }
-      ]
+      ],
+      "frames": 194
     },
     {
       "id": "108",
       "text": "from a range of raw materials at ambient temperature, using clean electricity and carbon-free inputs to produce",
-      "start": 435.79,
-      "end": 442.55,
-      "durationSeconds": 6.76,
+      "start": 435.833333,
+      "end": 442.6,
+      "durationSeconds": 6.766667,
       "words": [
         {
           "text": "from",
@@ -280,14 +282,15 @@
           "start": 441.77,
           "end": 442.26
         }
-      ]
+      ],
+      "frames": 203
     },
     {
       "id": "109",
       "text": "cement. Read the two halves of that again, because they solve two different problems.",
-      "start": 442.55,
-      "end": 447.2,
-      "durationSeconds": 4.65,
+      "start": 442.6,
+      "end": 447.266667,
+      "durationSeconds": 4.666667,
       "words": [
         {
           "text": "cement.",
@@ -359,13 +362,14 @@
           "start": 446.4,
           "end": 447.04
         }
-      ]
+      ],
+      "frames": 140
     },
     {
       "id": "110",
       "text": "Ambient temperature kills the fuel emission.",
-      "start": 447.2,
-      "end": 449.5,
+      "start": 447.266667,
+      "end": 449.566667,
       "durationSeconds": 2.3,
       "words": [
         {
@@ -398,14 +402,15 @@
           "start": 448.65,
           "end": 449.28
         }
-      ]
+      ],
+      "frames": 69
     },
     {
       "id": "111",
       "text": "There is no flame to decarbonize because there is no flame.",
-      "start": 449.5,
-      "end": 453.39,
-      "durationSeconds": 3.89,
+      "start": 449.566667,
+      "end": 453.466667,
+      "durationSeconds": 3.9,
       "words": [
         {
           "text": "There",
@@ -462,14 +467,15 @@
           "start": 452.66,
           "end": 452.99
         }
-      ]
+      ],
+      "frames": 117
     },
     {
       "id": "112",
       "text": "Calcium-free inputs kills the process emission, and this is the part that actually matters.",
-      "start": 453.39,
-      "end": 457.32,
-      "durationSeconds": 3.93,
+      "start": 453.466667,
+      "end": 457.4,
+      "durationSeconds": 3.933333,
       "words": [
         {
           "text": "Calcium-free",
@@ -541,14 +547,15 @@
           "start": 456.79,
           "end": 457.32
         }
-      ]
+      ],
+      "frames": 118
     },
     {
       "id": "113",
       "text": "The process does not need limestone.",
-      "start": 457.32,
-      "end": 459.37,
-      "durationSeconds": 2.05,
+      "start": 457.4,
+      "end": 459.433333,
+      "durationSeconds": 2.033333,
       "words": [
         {
           "text": "The",
@@ -580,14 +587,15 @@
           "start": 458.7,
           "end": 459.37
         }
-      ]
+      ],
+      "frames": 61
     },
     {
       "id": "114",
       "text": "It can work from non-carbonate rock, low-value stone, and industrial waste, material with no carbon dioxide locked",
-      "start": 459.37,
-      "end": 465.89,
-      "durationSeconds": 6.52,
+      "start": 459.433333,
+      "end": 465.966667,
+      "durationSeconds": 6.533333,
       "words": [
         {
           "text": "It",
@@ -674,14 +682,15 @@
           "start": 465.79,
           "end": 465.89
         }
-      ]
+      ],
+      "frames": 196
     },
     {
       "id": "115",
       "text": "inside it to release. You cannot capture an emission that was never created.",
-      "start": 465.89,
-      "end": 470.32,
-      "durationSeconds": 4.43,
+      "start": 465.966667,
+      "end": 470.4,
+      "durationSeconds": 4.433333,
       "words": [
         {
           "text": "inside",
@@ -748,14 +757,15 @@
           "start": 469.51,
           "end": 470.1
         }
-      ]
+      ],
+      "frames": 133
     },
     {
       "id": "116",
       "text": "This is not a cleaner kiln. It is not a better limestone.",
-      "start": 470.32,
-      "end": 473.26,
-      "durationSeconds": 2.94,
+      "start": 470.4,
+      "end": 473.333333,
+      "durationSeconds": 2.933333,
       "words": [
         {
           "text": "This",
@@ -817,7 +827,8 @@
           "start": 472.93,
           "end": 473.26
         }
-      ]
+      ],
+      "frames": 88
     }
   ]
 }

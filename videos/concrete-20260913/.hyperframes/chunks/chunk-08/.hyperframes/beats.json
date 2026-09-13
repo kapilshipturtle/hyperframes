@@ -3,9 +3,9 @@
     {
       "id": "86",
       "text": "and everyone kept attacking the fire.",
-      "start": 346.06,
-      "end": 348.7,
-      "durationSeconds": 2.64,
+      "start": 346.1,
+      "end": 348.733333,
+      "durationSeconds": 2.633333,
       "words": [
         {
           "text": "and",
@@ -37,14 +37,15 @@
           "start": 348.02,
           "end": 348.34
         }
-      ]
+      ],
+      "frames": 79
     },
     {
       "id": "87",
       "text": "Until two people at MIT stopped trying to make the kiln better and asked whether the kiln needed to exist.",
-      "start": 348.7,
-      "end": 354.26,
-      "durationSeconds": 5.56,
+      "start": 348.733333,
+      "end": 354.3,
+      "durationSeconds": 5.566667,
       "words": [
         {
           "text": "Until",
@@ -146,14 +147,15 @@
           "start": 353.57,
           "end": 354.26
         }
-      ]
+      ],
+      "frames": 167
     },
     {
       "id": "88",
       "text": "The company is called Sublime Systems.",
-      "start": 354.26,
-      "end": 356.64,
-      "durationSeconds": 2.38,
+      "start": 354.3,
+      "end": 356.666667,
+      "durationSeconds": 2.366667,
       "words": [
         {
           "text": "The",
@@ -185,14 +187,15 @@
           "start": 355.97,
           "end": 356.64
         }
-      ]
+      ],
+      "frames": 71
     },
     {
       "id": "89",
       "text": "It spun out of MIT in March of 2020, on Pi Day, the same week the pandemic shut down the country,",
-      "start": 356.64,
-      "end": 362.53,
-      "durationSeconds": 5.89,
+      "start": 356.666667,
+      "end": 362.566667,
+      "durationSeconds": 5.9,
       "words": [
         {
           "text": "It",
@@ -299,14 +302,15 @@
           "start": 361.38,
           "end": 362
         }
-      ]
+      ],
+      "frames": 177
     },
     {
       "id": "90",
       "text": "founded by Professor Yetming Chang and Dr.",
-      "start": 362.53,
-      "end": 364.78,
-      "durationSeconds": 2.25,
+      "start": 362.566667,
+      "end": 364.833333,
+      "durationSeconds": 2.266667,
       "words": [
         {
           "text": "founded",
@@ -343,14 +347,15 @@
           "start": 364.42,
           "end": 364.78
         }
-      ]
+      ],
+      "frames": 68
     },
     {
       "id": "91",
       "text": "Leah Ellis, a former MIT post-doc.",
-      "start": 364.78,
-      "end": 368,
-      "durationSeconds": 3.22,
+      "start": 364.833333,
+      "end": 368.066667,
+      "durationSeconds": 3.233333,
       "words": [
         {
           "text": "Leah",
@@ -382,14 +387,15 @@
           "start": 366.3,
           "end": 368
         }
-      ]
+      ],
+      "frames": 97
     },
     {
       "id": "92",
       "text": "And the important thing about both of them, is that neither is a cement person.",
-      "start": 368,
-      "end": 372.22,
-      "durationSeconds": 4.22,
+      "start": 368.066667,
+      "end": 372.3,
+      "durationSeconds": 4.233333,
       "words": [
         {
           "text": "And",
@@ -466,14 +472,15 @@
           "start": 371.38,
           "end": 372
         }
-      ]
+      ],
+      "frames": 127
     },
     {
       "id": "93",
       "text": "They are electrochemists.",
-      "start": 372.22,
-      "end": 374.1,
-      "durationSeconds": 1.88,
+      "start": 372.3,
+      "end": 374.166667,
+      "durationSeconds": 1.866667,
       "words": [
         {
           "text": "They",
@@ -490,14 +497,15 @@
           "start": 372.52,
           "end": 373.88
         }
-      ]
+      ],
+      "frames": 56
     },
     {
       "id": "94",
       "text": "Battery people. Chiang's other companies include Form Energy, which is building iron-air batteries designed to store electricity for",
-      "start": 374.1,
-      "end": 380.86,
-      "durationSeconds": 6.76,
+      "start": 374.166667,
+      "end": 380.933333,
+      "durationSeconds": 6.766667,
       "words": [
         {
           "text": "Battery",
@@ -589,14 +597,15 @@
           "start": 380.69,
           "end": 380.86
         }
-      ]
+      ],
+      "frames": 203
     },
     {
       "id": "95",
       "text": "a hundred hours at a stretch.",
-      "start": 380.86,
-      "end": 382.8,
-      "durationSeconds": 1.94,
+      "start": 380.933333,
+      "end": 382.866667,
+      "durationSeconds": 1.933333,
       "words": [
         {
           "text": "a",
@@ -628,7 +637,8 @@
           "start": 382.02,
           "end": 382.8
         }
-      ]
+      ],
+      "frames": 58
     }
   ]
 }

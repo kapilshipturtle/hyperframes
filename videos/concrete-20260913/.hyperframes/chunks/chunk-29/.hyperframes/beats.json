@@ -3,8 +3,8 @@
     {
       "id": "302",
       "text": "reserved by two of the largest cement companies on Earth and ordered bindingly by Microsoft,",
-      "start": 1312.42,
-      "end": 1317.32,
+      "start": 1312.366667,
+      "end": 1317.266667,
       "durationSeconds": 4.9,
       "words": [
         {
@@ -82,14 +82,15 @@
           "start": 1316.69,
           "end": 1317.32
         }
-      ]
+      ],
+      "frames": 147
     },
     {
       "id": "303",
       "text": "sighted on a river in a city that made paper for a hundred years, and a first factory that has not been built because half its",
-      "start": 1317.32,
-      "end": 1323.84,
-      "durationSeconds": 6.52,
+      "start": 1317.266667,
+      "end": 1323.8,
+      "durationSeconds": 6.533333,
       "words": [
         {
           "text": "sighted",
@@ -221,14 +222,15 @@
           "start": 1323.82,
           "end": 1323.84
         }
-      ]
+      ],
+      "frames": 196
     },
     {
       "id": "304",
       "text": "funding was withdrawn and the two-thirds of a company that used to be there is gone.",
-      "start": 1323.84,
-      "end": 1329.26,
-      "durationSeconds": 5.42,
+      "start": 1323.8,
+      "end": 1329.233333,
+      "durationSeconds": 5.433333,
       "words": [
         {
           "text": "funding",
@@ -310,14 +312,15 @@
           "start": 1328.55,
           "end": 1329.04
         }
-      ]
+      ],
+      "frames": 163
     },
     {
       "id": "305",
       "text": "Look down again at that floor. Nothing about it is going to change soon.",
-      "start": 1329.26,
-      "end": 1333.35,
-      "durationSeconds": 4.09,
+      "start": 1329.233333,
+      "end": 1333.333333,
+      "durationSeconds": 4.1,
       "words": [
         {
           "text": "Look",
@@ -389,14 +392,15 @@
           "start": 1332.72,
           "end": 1333.2
         }
-      ]
+      ],
+      "frames": 123
     },
     {
       "id": "306",
       "text": "Ordinary Portland cement is not being replaced.",
-      "start": 1333.35,
-      "end": 1335.27,
-      "durationSeconds": 1.92,
+      "start": 1333.333333,
+      "end": 1335.266667,
+      "durationSeconds": 1.933333,
       "words": [
         {
           "text": "Ordinary",
@@ -433,14 +437,15 @@
           "start": 1334.8,
           "end": 1335.27
         }
-      ]
+      ],
+      "frames": 58
     },
     {
       "id": "307",
       "text": "It is not being phased out, and there is a very good chance it will still be the default material for everything you walk on for the rest",
-      "start": 1335.27,
+      "start": 1335.266667,
       "end": 1341.6,
-      "durationSeconds": 6.33,
+      "durationSeconds": 6.333333,
       "words": [
         {
           "text": "It",
@@ -582,7 +587,8 @@
           "start": 1341.34,
           "end": 1341.58
         }
-      ]
+      ],
+      "frames": 190
     },
     {
       "id": "308",
@@ -686,14 +692,15 @@
           "start": 1345.65,
           "end": 1346
         }
-      ]
+      ],
+      "frames": 132
     },
     {
       "id": "309",
       "text": "But for 2,000 years, the story of this material was heat.",
       "start": 1346,
-      "end": 1350.22,
-      "durationSeconds": 4.22,
+      "end": 1350.233333,
+      "durationSeconds": 4.233333,
       "words": [
         {
           "text": "But",
@@ -750,14 +757,15 @@
           "start": 1349.46,
           "end": 1350
         }
-      ]
+      ],
+      "frames": 127
     },
     {
       "id": "310",
       "text": "Hotter kilns, bigger kilns, better fuel, higher temperatures.",
-      "start": 1350.22,
-      "end": 1354.58,
-      "durationSeconds": 4.36,
+      "start": 1350.233333,
+      "end": 1354.6,
+      "durationSeconds": 4.366667,
       "words": [
         {
           "text": "Hotter",
@@ -799,14 +807,15 @@
           "start": 1353.38,
           "end": 1354.58
         }
-      ]
+      ],
+      "frames": 131
     },
     {
       "id": "311",
       "text": "The thing that may end that era does not get hot at all, and the only reason it is not being built right now is money.",
-      "start": 1354.58,
-      "end": 1360.42,
-      "durationSeconds": 5.84,
+      "start": 1354.6,
+      "end": 1360.433333,
+      "durationSeconds": 5.833333,
       "words": [
         {
           "text": "The",
@@ -938,7 +947,8 @@
           "start": 1359.83,
           "end": 1360.42
         }
-      ]
+      ],
+      "frames": 175
     }
   ]
 }

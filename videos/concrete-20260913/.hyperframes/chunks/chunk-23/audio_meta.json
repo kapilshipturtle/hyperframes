@@ -4,478 +4,478 @@
     {
       "frame": 1,
       "path": "assets/audio/narration.mp3",
-      "mediaStart": 1045.18,
-      "duration_s": 1.84,
+      "mediaStart": 1045.2,
+      "duration_s": 1.833333,
       "words": [
         {
           "text": "The",
-          "start": 0,
-          "end": 0.03
+          "start": -0.02,
+          "end": 0.01
         },
         {
           "text": "hydropower",
-          "start": 0.03,
-          "end": 0.65
+          "start": 0.01,
+          "end": 0.63
         },
         {
           "text": "stayed.",
-          "start": 1.15,
-          "end": 1.62
+          "start": 1.13,
+          "end": 1.6
         }
       ]
     },
     {
       "frame": 2,
       "path": "assets/audio/narration.mp3",
-      "mediaStart": 1047.02,
-      "duration_s": 6.77,
+      "mediaStart": 1047.033333,
+      "duration_s": 6.766667,
       "words": [
         {
           "text": "That",
-          "start": 0,
-          "end": 0.03
+          "start": -0.013,
+          "end": 0.017
         },
         {
           "text": "is",
-          "start": 0.03,
-          "end": 0.14
+          "start": 0.017,
+          "end": 0.127
         },
         {
           "text": "why",
-          "start": 0.25,
-          "end": 0.35
+          "start": 0.237,
+          "end": 0.337
         },
         {
           "text": "Sublime",
-          "start": 0.35,
-          "end": 0.63
+          "start": 0.337,
+          "end": 0.617
         },
         {
           "text": "chose",
-          "start": 0.63,
-          "end": 1.15
+          "start": 0.617,
+          "end": 1.137
         },
         {
           "text": "it,",
-          "start": 1.15,
-          "end": 1.36
+          "start": 1.137,
+          "end": 1.347
         },
         {
           "text": "a",
-          "start": 1.36,
-          "end": 1.42
+          "start": 1.347,
+          "end": 1.407
         },
         {
           "text": "process",
-          "start": 1.42,
-          "end": 1.83
+          "start": 1.407,
+          "end": 1.817
         },
         {
           "text": "that",
-          "start": 1.96,
-          "end": 2.12
+          "start": 1.947,
+          "end": 2.107
         },
         {
           "text": "needs",
-          "start": 2.12,
-          "end": 2.44
+          "start": 2.107,
+          "end": 2.427
         },
         {
           "text": "large",
-          "start": 2.44,
-          "end": 2.62
+          "start": 2.427,
+          "end": 2.607
         },
         {
           "text": "amounts",
-          "start": 2.99,
-          "end": 3.21
+          "start": 2.977,
+          "end": 3.197
         },
         {
           "text": "of",
-          "start": 3.21,
-          "end": 3.34
+          "start": 3.197,
+          "end": 3.327
         },
         {
           "text": "clean",
-          "start": 3.34,
-          "end": 3.48
+          "start": 3.327,
+          "end": 3.467
         },
         {
           "text": "electricity,",
-          "start": 3.77,
-          "end": 4.38
+          "start": 3.757,
+          "end": 4.367
         },
         {
           "text": "sited",
-          "start": 4.59,
-          "end": 4.9
+          "start": 4.577,
+          "end": 4.887
         },
         {
           "text": "on",
-          "start": 4.9,
-          "end": 4.93
+          "start": 4.887,
+          "end": 4.917
         },
         {
           "text": "a",
-          "start": 5.05,
-          "end": 5.09
+          "start": 5.037,
+          "end": 5.077
         },
         {
           "text": "river",
-          "start": 5.09,
-          "end": 5.4
+          "start": 5.077,
+          "end": 5.387
         },
         {
           "text": "that",
-          "start": 5.4,
-          "end": 5.45
+          "start": 5.387,
+          "end": 5.437
         },
         {
           "text": "has",
-          "start": 5.45,
-          "end": 5.95
+          "start": 5.437,
+          "end": 5.937
         },
         {
           "text": "been",
-          "start": 5.95,
-          "end": 6.12
+          "start": 5.937,
+          "end": 6.107
         },
         {
           "text": "generating",
-          "start": 6.12,
-          "end": 6.77
+          "start": 6.107,
+          "end": 6.757
         }
       ]
     },
     {
       "frame": 3,
       "path": "assets/audio/narration.mp3",
-      "mediaStart": 1053.79,
-      "duration_s": 6.15,
+      "mediaStart": 1053.8,
+      "duration_s": 6.133333,
       "words": [
         {
           "text": "power",
-          "start": 0,
-          "end": 0.31
+          "start": -0.01,
+          "end": 0.3
         },
         {
           "text": "for",
-          "start": 0.33,
-          "end": 0.51
+          "start": 0.32,
+          "end": 0.5
         },
         {
           "text": "150",
-          "start": 0.51,
-          "end": 1.09
+          "start": 0.5,
+          "end": 1.08
         },
         {
           "text": "years",
-          "start": 1.19,
-          "end": 1.41
+          "start": 1.18,
+          "end": 1.4
         },
         {
           "text": "in",
-          "start": 1.41,
-          "end": 1.51
+          "start": 1.4,
+          "end": 1.5
         },
         {
           "text": "a",
-          "start": 1.51,
-          "end": 1.8
+          "start": 1.5,
+          "end": 1.79
         },
         {
           "text": "city",
-          "start": 1.8,
-          "end": 1.86
+          "start": 1.79,
+          "end": 1.85
         },
         {
           "text": "that",
-          "start": 1.86,
-          "end": 2.12
+          "start": 1.85,
+          "end": 2.11
         },
         {
           "text": "lost",
-          "start": 2.12,
-          "end": 2.33
+          "start": 2.11,
+          "end": 2.32
         },
         {
           "text": "its",
-          "start": 2.38,
-          "end": 2.41
+          "start": 2.37,
+          "end": 2.4
         },
         {
           "text": "industry",
-          "start": 2.87,
-          "end": 3.25
+          "start": 2.86,
+          "end": 3.24
         },
         {
           "text": "and",
-          "start": 3.25,
-          "end": 3.46
+          "start": 3.24,
+          "end": 3.45
         },
         {
           "text": "has",
-          "start": 3.46,
-          "end": 3.52
+          "start": 3.45,
+          "end": 3.51
         },
         {
           "text": "been",
-          "start": 3.52,
-          "end": 4.03
+          "start": 3.51,
+          "end": 4.02
         },
         {
           "text": "trying",
-          "start": 4.03,
-          "end": 4.44
+          "start": 4.02,
+          "end": 4.43
         },
         {
           "text": "to",
-          "start": 4.44,
-          "end": 4.59
+          "start": 4.43,
+          "end": 4.58
         },
         {
           "text": "replace",
-          "start": 4.59,
-          "end": 5.11
+          "start": 4.58,
+          "end": 5.1
         },
         {
           "text": "it",
-          "start": 5.12,
-          "end": 5.27
+          "start": 5.11,
+          "end": 5.26
         },
         {
           "text": "since.",
-          "start": 5.27,
-          "end": 5.93
+          "start": 5.26,
+          "end": 5.92
         }
       ]
     },
     {
       "frame": 4,
       "path": "assets/audio/narration.mp3",
-      "mediaStart": 1059.94,
-      "duration_s": 4.82,
+      "mediaStart": 1059.933333,
+      "duration_s": 4.833333,
       "words": [
         {
           "text": "70",
-          "start": 0,
-          "end": 0.17
+          "start": 0.007,
+          "end": 0.177
         },
         {
           "text": "to",
-          "start": 0.25,
-          "end": 0.32
+          "start": 0.257,
+          "end": 0.327
         },
         {
           "text": "90",
-          "start": 0.32,
-          "end": 0.6
+          "start": 0.327,
+          "end": 0.607
         },
         {
           "text": "permanent",
-          "start": 1.15,
-          "end": 1.35
+          "start": 1.157,
+          "end": 1.357
         },
         {
           "text": "jobs,",
-          "start": 1.35,
-          "end": 1.75
+          "start": 1.357,
+          "end": 1.757
         },
         {
           "text": "hundreds",
-          "start": 1.75,
-          "end": 2.26
+          "start": 1.757,
+          "end": 2.267
         },
         {
           "text": "during",
-          "start": 2.29,
-          "end": 2.62
+          "start": 2.297,
+          "end": 2.627
         },
         {
           "text": "construction,",
-          "start": 2.99,
-          "end": 3.67
+          "start": 2.997,
+          "end": 3.677
         },
         {
           "text": "state",
-          "start": 3.77,
-          "end": 4.01
+          "start": 3.777,
+          "end": 4.017
         },
         {
           "text": "tax",
-          "start": 4.01,
-          "end": 4.21
+          "start": 4.017,
+          "end": 4.217
         },
         {
           "text": "credits,",
-          "start": 4.21,
-          "end": 4.82
+          "start": 4.217,
+          "end": 4.827
         }
       ]
     },
     {
       "frame": 5,
       "path": "assets/audio/narration.mp3",
-      "mediaStart": 1064.76,
-      "duration_s": 7.88,
+      "mediaStart": 1064.766667,
+      "duration_s": 7.866667,
       "words": [
         {
           "text": "local",
-          "start": 0,
-          "end": 0.29
+          "start": -0.007,
+          "end": 0.283
         },
         {
           "text": "tax",
-          "start": 0.34,
-          "end": 0.54
+          "start": 0.333,
+          "end": 0.533
         },
         {
           "text": "increment",
-          "start": 0.54,
-          "end": 1.16
+          "start": 0.533,
+          "end": 1.153
         },
         {
           "text": "financing,",
-          "start": 1.16,
-          "end": 2.16
+          "start": 1.153,
+          "end": 2.153
         },
         {
           "text": "a",
-          "start": 2.17,
-          "end": 2.21
+          "start": 2.163,
+          "end": 2.203
         },
         {
           "text": "mayor's",
-          "start": 2.38,
-          "end": 2.52
+          "start": 2.373,
+          "end": 2.513
         },
         {
           "text": "office,",
-          "start": 2.63,
-          "end": 3
+          "start": 2.623,
+          "end": 2.993
         },
         {
           "text": "and",
-          "start": 3,
-          "end": 3.18
+          "start": 2.993,
+          "end": 3.173
         },
         {
           "text": "a",
-          "start": 3.18,
-          "end": 3.24
+          "start": 3.173,
+          "end": 3.233
         },
         {
           "text": "congressional",
-          "start": 3.53,
-          "end": 3.96
+          "start": 3.523,
+          "end": 3.953
         },
         {
           "text": "delegation",
-          "start": 3.96,
-          "end": 4.51
+          "start": 3.953,
+          "end": 4.503
         },
         {
           "text": "at",
-          "start": 4.51,
-          "end": 4.62
+          "start": 4.503,
+          "end": 4.613
         },
         {
           "text": "the",
-          "start": 4.62,
-          "end": 4.78
+          "start": 4.613,
+          "end": 4.773
         },
         {
           "text": "ribbon",
-          "start": 4.78,
-          "end": 5
+          "start": 4.773,
+          "end": 4.993
         },
         {
           "text": "cuttings",
-          "start": 5.27,
-          "end": 5.52
+          "start": 5.263,
+          "end": 5.513
         },
         {
           "text": "and",
-          "start": 5.54,
-          "end": 5.7
+          "start": 5.533,
+          "end": 5.693
         },
         {
           "text": "the",
-          "start": 5.7,
-          "end": 5.85
+          "start": 5.693,
+          "end": 5.843
         },
         {
           "text": "test",
-          "start": 5.85,
-          "end": 6.16
+          "start": 5.843,
+          "end": 6.153
         },
         {
           "text": "pours.",
-          "start": 6.16,
-          "end": 7.65
+          "start": 6.153,
+          "end": 7.643
         }
       ]
     },
     {
       "frame": 6,
       "path": "assets/audio/narration.mp3",
-      "mediaStart": 1072.64,
-      "duration_s": 5.06,
+      "mediaStart": 1072.633333,
+      "duration_s": 5.066667,
       "words": [
         {
           "text": "Everything",
-          "start": 0,
-          "end": 0.42
+          "start": 0.007,
+          "end": 0.427
         },
         {
           "text": "was",
-          "start": 0.42,
-          "end": 0.6
+          "start": 0.427,
+          "end": 0.607
         },
         {
           "text": "in",
-          "start": 0.6,
-          "end": 0.65
+          "start": 0.607,
+          "end": 0.657
         },
         {
           "text": "place,",
-          "start": 1.06,
-          "end": 1.18
+          "start": 1.067,
+          "end": 1.187
         },
         {
           "text": "certification,",
-          "start": 1.18,
-          "end": 2.14
+          "start": 1.187,
+          "end": 2.147
         },
         {
           "text": "a",
-          "start": 2.14,
-          "end": 2.2
+          "start": 2.147,
+          "end": 2.207
         },
         {
           "text": "signed",
-          "start": 2.2,
-          "end": 2.58
+          "start": 2.207,
+          "end": 2.587
         },
         {
           "text": "anchor",
-          "start": 2.58,
-          "end": 2.63
+          "start": 2.587,
+          "end": 2.637
         },
         {
           "text": "customer,",
-          "start": 2.99,
-          "end": 3.49
+          "start": 2.997,
+          "end": 3.497
         },
         {
           "text": "incumbent",
-          "start": 3.77,
-          "end": 4.17
+          "start": 3.777,
+          "end": 4.177
         },
         {
           "text": "investment,",
-          "start": 4.17,
-          "end": 5.04
+          "start": 4.177,
+          "end": 5.047
         }
       ]
     },
@@ -483,7 +483,7 @@
       "frame": 7,
       "path": "assets/audio/narration.mp3",
       "mediaStart": 1077.7,
-      "duration_s": 4.38,
+      "duration_s": 4.366667,
       "words": [
         {
           "text": "a",
@@ -530,209 +530,209 @@
     {
       "frame": 8,
       "path": "assets/audio/narration.mp3",
-      "mediaStart": 1082.08,
-      "duration_s": 4.46,
+      "mediaStart": 1082.066667,
+      "duration_s": 4.466667,
       "words": [
         {
           "text": "And",
-          "start": 0,
-          "end": 0.22
+          "start": 0.013,
+          "end": 0.233
         },
         {
           "text": "then",
-          "start": 0.22,
-          "end": 0.39
+          "start": 0.233,
+          "end": 0.403
         },
         {
           "text": "a",
-          "start": 0.47,
-          "end": 0.51
+          "start": 0.483,
+          "end": 0.523
         },
         {
           "text": "single",
-          "start": 0.51,
-          "end": 0.82
+          "start": 0.523,
+          "end": 0.833
         },
         {
           "text": "line",
-          "start": 0.9,
-          "end": 0.91
+          "start": 0.913,
+          "end": 0.923
         },
         {
           "text": "in",
-          "start": 0.91,
-          "end": 1.145
+          "start": 0.923,
+          "end": 1.158
         },
         {
           "text": "a",
-          "start": 1.145,
-          "end": 1.38
+          "start": 1.158,
+          "end": 1.393
         },
         {
           "text": "federal",
-          "start": 1.38,
-          "end": 1.8
+          "start": 1.393,
+          "end": 1.813
         },
         {
           "text": "portfolio",
-          "start": 1.8,
-          "end": 2.38
+          "start": 1.813,
+          "end": 2.393
         },
         {
           "text": "review",
-          "start": 2.38,
-          "end": 2.77
+          "start": 2.393,
+          "end": 2.783
         },
         {
           "text": "removed",
-          "start": 2.77,
-          "end": 3.22
+          "start": 2.783,
+          "end": 3.233
         },
         {
           "text": "half",
-          "start": 3.22,
-          "end": 3.48
+          "start": 3.233,
+          "end": 3.493
         },
         {
           "text": "the",
-          "start": 3.48,
-          "end": 3.67
+          "start": 3.493,
+          "end": 3.683
         },
         {
           "text": "money.",
-          "start": 3.67,
-          "end": 4.24
+          "start": 3.683,
+          "end": 4.253
         }
       ]
     },
     {
       "frame": 9,
       "path": "assets/audio/narration.mp3",
-      "mediaStart": 1086.54,
-      "duration_s": 1.84,
+      "mediaStart": 1086.533333,
+      "duration_s": 1.833333,
       "words": [
         {
           "text": "Here",
-          "start": 0,
-          "end": 0.06
+          "start": 0.007,
+          "end": 0.067
         },
         {
           "text": "is",
-          "start": 0.06,
-          "end": 0.14
+          "start": 0.067,
+          "end": 0.147
         },
         {
           "text": "the",
-          "start": 0.25,
-          "end": 0.41
+          "start": 0.257,
+          "end": 0.417
         },
         {
           "text": "sequence,",
-          "start": 0.41,
-          "end": 1.12
+          "start": 0.417,
+          "end": 1.127
         },
         {
           "text": "plainly.",
-          "start": 1.16,
-          "end": 1.84
+          "start": 1.167,
+          "end": 1.847
         }
       ]
     },
     {
       "frame": 10,
       "path": "assets/audio/narration.mp3",
-      "mediaStart": 1088.38,
-      "duration_s": 6.74,
+      "mediaStart": 1088.366667,
+      "duration_s": 6.733333,
       "words": [
         {
           "text": "At",
-          "start": 0,
-          "end": 0.24
+          "start": 0.013,
+          "end": 0.253
         },
         {
           "text": "the",
-          "start": 0.24,
-          "end": 0.29
+          "start": 0.253,
+          "end": 0.303
         },
         {
           "text": "end",
-          "start": 0.29,
-          "end": 0.38
+          "start": 0.303,
+          "end": 0.393
         },
         {
           "text": "of",
-          "start": 0.49,
-          "end": 0.56
+          "start": 0.503,
+          "end": 0.573
         },
         {
           "text": "May",
-          "start": 0.56,
-          "end": 0.71
+          "start": 0.573,
+          "end": 0.723
         },
         {
           "text": "2025,",
-          "start": 0.71,
-          "end": 1.5
+          "start": 0.723,
+          "end": 1.513
         },
         {
           "text": "the",
-          "start": 1.5,
-          "end": 1.66
+          "start": 1.513,
+          "end": 1.673
         },
         {
           "text": "Department",
-          "start": 1.66,
-          "end": 2.22
+          "start": 1.673,
+          "end": 2.233
         },
         {
           "text": "of",
-          "start": 2.22,
-          "end": 2.31
+          "start": 2.233,
+          "end": 2.323
         },
         {
           "text": "Energy",
-          "start": 2.35,
-          "end": 2.66
+          "start": 2.363,
+          "end": 2.673
         },
         {
           "text": "announced",
-          "start": 2.66,
-          "end": 2.86
+          "start": 2.673,
+          "end": 2.873
         },
         {
           "text": "the",
-          "start": 3.23,
-          "end": 3.32
+          "start": 3.243,
+          "end": 3.333
         },
         {
           "text": "cancellation",
-          "start": 3.4,
-          "end": 3.73
+          "start": 3.413,
+          "end": 3.743
         },
         {
           "text": "of",
-          "start": 4.01,
-          "end": 4.1
+          "start": 4.023,
+          "end": 4.113
         },
         {
           "text": "funding",
-          "start": 4.1,
-          "end": 4.54
+          "start": 4.113,
+          "end": 4.553
         },
         {
           "text": "for",
-          "start": 4.8,
-          "end": 4.91
+          "start": 4.813,
+          "end": 4.923
         },
         {
           "text": "24",
-          "start": 4.91,
-          "end": 5.4
+          "start": 4.923,
+          "end": 5.413
         },
         {
           "text": "projects,",
-          "start": 5.95,
-          "end": 6.63
+          "start": 5.963,
+          "end": 6.643
         }
       ]
     }

@@ -3,9 +3,9 @@
     {
       "id": "65",
       "text": "Carbon cleaner fuel. It works, and it addresses the smaller half of the problem.",
-      "start": 256.58,
-      "end": 261.66,
-      "durationSeconds": 5.08,
+      "start": 256.633333,
+      "end": 261.7,
+      "durationSeconds": 5.066667,
       "words": [
         {
           "text": "Carbon",
@@ -77,14 +77,15 @@
           "start": 260.85,
           "end": 261.34
         }
-      ]
+      ],
+      "frames": 152
     },
     {
       "id": "66",
       "text": "Replace some of the clinker with blast furnace slag or coal fly ash, genuinely effective, widely used,",
-      "start": 261.66,
-      "end": 267.04,
-      "durationSeconds": 5.38,
+      "start": 261.7,
+      "end": 267.066667,
+      "durationSeconds": 5.366667,
       "words": [
         {
           "text": "Replace",
@@ -171,13 +172,14 @@
           "start": 266.67,
           "end": 267.04
         }
-      ]
+      ],
+      "frames": 161
     },
     {
       "id": "67",
       "text": "and quietly running out.",
-      "start": 267.04,
-      "end": 268.94,
+      "start": 267.066667,
+      "end": 268.966667,
       "durationSeconds": 1.9,
       "words": [
         {
@@ -200,14 +202,15 @@
           "start": 268.25,
           "end": 268.7
         }
-      ]
+      ],
+      "frames": 57
     },
     {
       "id": "68",
       "text": "Because the supply of both depends on steel mills and coal plants that are closing.",
-      "start": 268.94,
-      "end": 273.18,
-      "durationSeconds": 4.24,
+      "start": 268.966667,
+      "end": 273.2,
+      "durationSeconds": 4.233333,
       "words": [
         {
           "text": "Because",
@@ -284,14 +287,15 @@
           "start": 272.24,
           "end": 272.96
         }
-      ]
+      ],
+      "frames": 127
     },
     {
       "id": "69",
       "text": "Improve kiln efficiency, recover waste heat, grind smarter.",
-      "start": 273.18,
-      "end": 276.9,
-      "durationSeconds": 3.72,
+      "start": 273.2,
+      "end": 276.933333,
+      "durationSeconds": 3.733333,
       "words": [
         {
           "text": "Improve",
@@ -333,14 +337,15 @@
           "start": 276.17,
           "end": 276.66
         }
-      ]
+      ],
+      "frames": 112
     },
     {
       "id": "70",
       "text": "Every one of those worked. Every one of them mattered less than the one before it.",
-      "start": 276.9,
-      "end": 280.68,
-      "durationSeconds": 3.78,
+      "start": 276.933333,
+      "end": 280.7,
+      "durationSeconds": 3.766667,
       "words": [
         {
           "text": "Every",
@@ -422,14 +427,15 @@
           "start": 280.36,
           "end": 280.68
         }
-      ]
+      ],
+      "frames": 113
     },
     {
       "id": "71",
       "text": "Then there is carbon capture, which is where most of the money has gone.",
-      "start": 280.68,
-      "end": 284.46,
-      "durationSeconds": 3.78,
+      "start": 280.7,
+      "end": 284.466667,
+      "durationSeconds": 3.766667,
       "words": [
         {
           "text": "Then",
@@ -501,14 +507,15 @@
           "start": 283.89,
           "end": 284.24
         }
-      ]
+      ],
+      "frames": 113
     },
     {
       "id": "72",
       "text": "Plant equipment onto the kiln, catch the carbon dioxide as it leaves, compress it, pipe it somewhere,",
-      "start": 284.46,
-      "end": 289.82,
-      "durationSeconds": 5.36,
+      "start": 284.466667,
+      "end": 289.833333,
+      "durationSeconds": 5.366667,
       "words": [
         {
           "text": "Plant",
@@ -595,14 +602,15 @@
           "start": 289.34,
           "end": 289.82
         }
-      ]
+      ],
+      "frames": 161
     },
     {
       "id": "73",
       "text": "put it underground. The engineering is real.",
-      "start": 289.82,
-      "end": 292.44,
-      "durationSeconds": 2.62,
+      "start": 289.833333,
+      "end": 292.466667,
+      "durationSeconds": 2.633333,
       "words": [
         {
           "text": "put",
@@ -639,14 +647,15 @@
           "start": 292.01,
           "end": 292.44
         }
-      ]
+      ],
+      "frames": 79
     },
     {
       "id": "74",
       "text": "The problem is that it makes a cheap product expensive.",
-      "start": 292.44,
-      "end": 295.62,
-      "durationSeconds": 3.18,
+      "start": 292.466667,
+      "end": 295.633333,
+      "durationSeconds": 3.166667,
       "words": [
         {
           "text": "The",
@@ -698,14 +707,15 @@
           "start": 294.62,
           "end": 295.28
         }
-      ]
+      ],
+      "frames": 95
     },
     {
       "id": "75",
       "text": "Capture equipment needs its own energy supply, which means burning more to catch more.",
-      "start": 295.62,
-      "end": 299.64,
-      "durationSeconds": 4.02,
+      "start": 295.633333,
+      "end": 299.666667,
+      "durationSeconds": 4.033333,
       "words": [
         {
           "text": "Capture",
@@ -777,7 +787,8 @@
           "start": 299.38,
           "end": 299.64
         }
-      ]
+      ],
+      "frames": 121
     }
   ]
 }

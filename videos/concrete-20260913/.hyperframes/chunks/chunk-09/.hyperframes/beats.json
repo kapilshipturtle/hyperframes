@@ -3,9 +3,9 @@
     {
       "id": "96",
       "text": "That background is not a footnote, it is the whole reason the answer looks the way it does.",
-      "start": 382.8,
-      "end": 387.44,
-      "durationSeconds": 4.64,
+      "start": 382.866667,
+      "end": 387.5,
+      "durationSeconds": 4.633333,
       "words": [
         {
           "text": "That",
@@ -97,14 +97,15 @@
           "start": 386.25,
           "end": 387.22
         }
-      ]
+      ],
+      "frames": 139
     },
     {
       "id": "97",
       "text": "Because heat is a blunt instrument.",
-      "start": 387.44,
-      "end": 389.3,
-      "durationSeconds": 1.86,
+      "start": 387.5,
+      "end": 389.366667,
+      "durationSeconds": 1.866667,
       "words": [
         {
           "text": "Because",
@@ -136,14 +137,15 @@
           "start": 388.59,
           "end": 389.08
         }
-      ]
+      ],
+      "frames": 56
     },
     {
       "id": "98",
       "text": "When you heat a rock to 1450 degrees, you are not targeting anything.",
-      "start": 389.3,
-      "end": 393.66,
-      "durationSeconds": 4.36,
+      "start": 389.366667,
+      "end": 393.733333,
+      "durationSeconds": 4.366667,
       "words": [
         {
           "text": "When",
@@ -210,14 +212,15 @@
           "start": 393.07,
           "end": 393.66
         }
-      ]
+      ],
+      "frames": 131
     },
     {
       "id": "99",
       "text": "You are pouring energy into every atom in the kiln and hoping the bonds you want to break happen to be the weakest ones present.",
-      "start": 393.66,
-      "end": 399.84,
-      "durationSeconds": 6.18,
+      "start": 393.733333,
+      "end": 399.9,
+      "durationSeconds": 6.166667,
       "words": [
         {
           "text": "You",
@@ -344,14 +347,15 @@
           "start": 399.16,
           "end": 399.84
         }
-      ]
+      ],
+      "frames": 185
     },
     {
       "id": "100",
       "text": "It works. It is also, in a very literal sense, the least selective tool available.",
-      "start": 399.84,
-      "end": 406.58,
-      "durationSeconds": 6.74,
+      "start": 399.9,
+      "end": 406.633333,
+      "durationSeconds": 6.733333,
       "words": [
         {
           "text": "It",
@@ -428,13 +432,14 @@
           "start": 405.27,
           "end": 406.35
         }
-      ]
+      ],
+      "frames": 202
     },
     {
       "id": "101",
       "text": "Electrochemistry is the opposite. Run a current through water and it splits.",
-      "start": 406.58,
-      "end": 410.38,
+      "start": 406.633333,
+      "end": 410.433333,
       "durationSeconds": 3.8,
       "words": [
         {
@@ -497,14 +502,15 @@
           "start": 409.55,
           "end": 410.16
         }
-      ]
+      ],
+      "frames": 114
     },
     {
       "id": "102",
       "text": "Acid forms at one electrode, base at the other.",
-      "start": 410.38,
-      "end": 413.01,
-      "durationSeconds": 2.63,
+      "start": 410.433333,
+      "end": 413.066667,
+      "durationSeconds": 2.633333,
       "words": [
         {
           "text": "Acid",
@@ -551,14 +557,15 @@
           "start": 412.55,
           "end": 413.01
         }
-      ]
+      ],
+      "frames": 79
     },
     {
       "id": "103",
       "text": "That gives you, on demand, two chemically aggressive environments sitting side-by-side inside a device at ordinary room temperature.",
-      "start": 413.01,
-      "end": 420,
-      "durationSeconds": 6.99,
+      "start": 413.066667,
+      "end": 420.066667,
+      "durationSeconds": 7,
       "words": [
         {
           "text": "That",
@@ -650,13 +657,14 @@
           "start": 418.78,
           "end": 419.78
         }
-      ]
+      ],
+      "frames": 210
     },
     {
       "id": "104",
       "text": "Feed rock into that and you can pull specific things out of it.",
-      "start": 420,
-      "end": 423.1,
+      "start": 420.066667,
+      "end": 423.166667,
       "durationSeconds": 3.1,
       "words": [
         {
@@ -724,13 +732,14 @@
           "start": 422.54,
           "end": 422.65
         }
-      ]
+      ],
+      "frames": 93
     },
     {
       "id": "105",
       "text": "Calcium here, silicates there.",
-      "start": 423.1,
-      "end": 424.8,
+      "start": 423.166667,
+      "end": 424.866667,
       "durationSeconds": 1.7,
       "words": [
         {
@@ -753,7 +762,8 @@
           "start": 424.29,
           "end": 424.8
         }
-      ]
+      ],
+      "frames": 51
     }
   ]
 }

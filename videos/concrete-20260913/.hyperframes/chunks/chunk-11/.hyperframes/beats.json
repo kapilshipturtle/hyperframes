@@ -3,9 +3,9 @@
     {
       "id": "117",
       "text": "It is a different answer to the question, how do you get reactive calcium out of the ground?",
-      "start": 473.26,
-      "end": 477.84,
-      "durationSeconds": 4.58,
+      "start": 473.333333,
+      "end": 477.9,
+      "durationSeconds": 4.566667,
       "words": [
         {
           "text": "It",
@@ -97,14 +97,15 @@
           "start": 476.8,
           "end": 477.84
         }
-      ]
+      ],
+      "frames": 137
     },
     {
       "id": "118",
       "text": "And the old answer was the only one anyone had for 200 years.",
-      "start": 477.84,
-      "end": 481.61,
-      "durationSeconds": 3.77,
+      "start": 477.9,
+      "end": 481.666667,
+      "durationSeconds": 3.766667,
       "words": [
         {
           "text": "And",
@@ -171,14 +172,15 @@
           "start": 481.13,
           "end": 481.6
         }
-      ]
+      ],
+      "frames": 113
     },
     {
       "id": "119",
       "text": "A few consequences fall out of that, and they stack.",
-      "start": 481.61,
-      "end": 484.47,
-      "durationSeconds": 2.86,
+      "start": 481.666667,
+      "end": 484.533333,
+      "durationSeconds": 2.866667,
       "words": [
         {
           "text": "A",
@@ -230,14 +232,15 @@
           "start": 484.1,
           "end": 484.47
         }
-      ]
+      ],
+      "frames": 86
     },
     {
       "id": "120",
       "text": "The company states its process cuts the energy intensity of cement production by 30-40% against a conventional",
-      "start": 484.47,
-      "end": 490.79,
-      "durationSeconds": 6.32,
+      "start": 484.533333,
+      "end": 490.866667,
+      "durationSeconds": 6.333333,
       "words": [
         {
           "text": "The",
@@ -324,14 +327,15 @@
           "start": 490.18,
           "end": 490.78
         }
-      ]
+      ],
+      "frames": 190
     },
     {
       "id": "121",
       "text": "kiln, because it is not heating everything to move a few atoms.",
-      "start": 490.79,
-      "end": 494.42,
-      "durationSeconds": 3.63,
+      "start": 490.866667,
+      "end": 494.5,
+      "durationSeconds": 3.633333,
       "words": [
         {
           "text": "kiln,",
@@ -393,14 +397,15 @@
           "start": 493.95,
           "end": 494.42
         }
-      ]
+      ],
+      "frames": 109
     },
     {
       "id": "122",
       "text": "It produces none of the other things a kiln produces, no nitrogen oxides, no sulfur oxides,",
-      "start": 494.42,
-      "end": 499.04,
-      "durationSeconds": 4.62,
+      "start": 494.5,
+      "end": 499.133333,
+      "durationSeconds": 4.633333,
       "words": [
         {
           "text": "It",
@@ -482,14 +487,15 @@
           "start": 498.68,
           "end": 499.04
         }
-      ]
+      ],
+      "frames": 139
     },
     {
       "id": "123",
       "text": "no mercury, no kiln dust, the pollutants that make cement plants unpopular neighbors regardless of anyone's views on",
-      "start": 499.04,
-      "end": 505.37,
-      "durationSeconds": 6.33,
+      "start": 499.133333,
+      "end": 505.466667,
+      "durationSeconds": 6.333333,
       "words": [
         {
           "text": "no",
@@ -581,14 +587,15 @@
           "start": 504.87,
           "end": 505.37
         }
-      ]
+      ],
+      "frames": 190
     },
     {
       "id": "124",
       "text": "climate. And because the input can be almost any suitable rock or waste stream, the process co-produces separated mineral streams",
-      "start": 505.37,
-      "end": 512.29,
-      "durationSeconds": 6.92,
+      "start": 505.466667,
+      "end": 512.4,
+      "durationSeconds": 6.933333,
       "words": [
         {
           "text": "climate.",
@@ -690,14 +697,15 @@
           "start": 512.01,
           "end": 512.29
         }
-      ]
+      ],
+      "frames": 208
     },
     {
       "id": "125",
       "text": "as a byproduct, some of them commercially useful.",
-      "start": 512.29,
-      "end": 515.78,
-      "durationSeconds": 3.49,
+      "start": 512.4,
+      "end": 515.9,
+      "durationSeconds": 3.5,
       "words": [
         {
           "text": "as",
@@ -739,13 +747,14 @@
           "start": 514.84,
           "end": 515.55
         }
-      ]
+      ],
+      "frames": 105
     },
     {
       "id": "126",
       "text": "There is one more property, and it is the sort of detail that does not make headlines but makes engineers pay attention.",
-      "start": 515.78,
-      "end": 521.78,
+      "start": 515.9,
+      "end": 521.9,
       "durationSeconds": 6,
       "words": [
         {
@@ -858,7 +867,8 @@
           "start": 520.71,
           "end": 521.56
         }
-      ]
+      ],
+      "frames": 180
     }
   ]
 }

@@ -3,9 +3,9 @@
     {
       "id": "282",
       "text": "Forterra, which converts kiln carbon dioxide into a reactive calcium carbonate cement,",
-      "start": 1222.32,
-      "end": 1227.36,
-      "durationSeconds": 5.04,
+      "start": 1222.3,
+      "end": 1227.333333,
+      "durationSeconds": 5.033333,
       "words": [
         {
           "text": "Forterra,",
@@ -67,14 +67,15 @@
           "start": 1226.97,
           "end": 1227.36
         }
-      ]
+      ],
+      "frames": 151
     },
     {
       "id": "283",
       "text": "has Microsoft investment behind a 400,000-ton-per-year facility.",
-      "start": 1227.36,
-      "end": 1231.6,
-      "durationSeconds": 4.24,
+      "start": 1227.333333,
+      "end": 1231.566667,
+      "durationSeconds": 4.233333,
       "words": [
         {
           "text": "has",
@@ -111,14 +112,15 @@
           "start": 1230.76,
           "end": 1231.48
         }
-      ]
+      ],
+      "frames": 127
     },
     {
       "id": "284",
       "text": "Brimstone, working from calcium silicate rock rather than limestone, has an Amazon reservation on output from a",
-      "start": 1231.6,
-      "end": 1238.25,
-      "durationSeconds": 6.65,
+      "start": 1231.566667,
+      "end": 1238.233333,
+      "durationSeconds": 6.666667,
       "words": [
         {
           "text": "Brimstone,",
@@ -205,14 +207,15 @@
           "start": 1237.7,
           "end": 1238.25
         }
-      ]
+      ],
+      "frames": 200
     },
     {
       "id": "285",
       "text": "planned Oakland plant. Meta has worked with carbon built.",
-      "start": 1238.25,
-      "end": 1241.36,
-      "durationSeconds": 3.11,
+      "start": 1238.233333,
+      "end": 1241.333333,
+      "durationSeconds": 3.1,
       "words": [
         {
           "text": "planned",
@@ -259,14 +262,15 @@
           "start": 1240.89,
           "end": 1241.24
         }
-      ]
+      ],
+      "frames": 93
     },
     {
       "id": "286",
       "text": "Biomason grows binder biologically.",
-      "start": 1241.36,
-      "end": 1243.54,
-      "durationSeconds": 2.18,
+      "start": 1241.333333,
+      "end": 1243.5,
+      "durationSeconds": 2.166667,
       "words": [
         {
           "text": "Biomason",
@@ -288,14 +292,15 @@
           "start": 1242.61,
           "end": 1243.3
         }
-      ]
+      ],
+      "frames": 65
     },
     {
       "id": "287",
       "text": "Blue Planet makes aggregate out of waste carbon dioxide.",
-      "start": 1243.54,
-      "end": 1246.88,
-      "durationSeconds": 3.34,
+      "start": 1243.5,
+      "end": 1246.833333,
+      "durationSeconds": 3.333333,
       "words": [
         {
           "text": "Blue",
@@ -342,14 +347,15 @@
           "start": 1245.97,
           "end": 1246.61
         }
-      ]
+      ],
+      "frames": 100
     },
     {
       "id": "288",
       "text": "Several roots, several chemistries, and a set of technology buyers who have concluded independently that this problem is worth prepaying",
-      "start": 1246.88,
-      "end": 1253.39,
-      "durationSeconds": 6.51,
+      "start": 1246.833333,
+      "end": 1253.333333,
+      "durationSeconds": 6.5,
       "words": [
         {
           "text": "Several",
@@ -451,14 +457,15 @@
           "start": 1252.82,
           "end": 1253.39
         }
-      ]
+      ],
+      "frames": 195
     },
     {
       "id": "289",
       "text": "to solve. And the honest measurement, which almost nobody covering this story puts in, 30,000 tons a year against a global",
-      "start": 1253.39,
-      "end": 1260.18,
-      "durationSeconds": 6.79,
+      "start": 1253.333333,
+      "end": 1260.133333,
+      "durationSeconds": 6.8,
       "words": [
         {
           "text": "to",
@@ -565,14 +572,15 @@
           "start": 1259.67,
           "end": 1260.18
         }
-      ]
+      ],
+      "frames": 204
     },
     {
       "id": "290",
       "text": "market of 4 billion, is a rounding error.",
-      "start": 1260.18,
-      "end": 1263.16,
-      "durationSeconds": 2.98,
+      "start": 1260.133333,
+      "end": 1263.1,
+      "durationSeconds": 2.966667,
       "words": [
         {
           "text": "market",
@@ -614,14 +622,15 @@
           "start": 1262.48,
           "end": 1263.16
         }
-      ]
+      ],
+      "frames": 89
     },
     {
       "id": "291",
       "text": "It would not have supplied one large project.",
-      "start": 1263.16,
-      "end": 1265.88,
-      "durationSeconds": 2.72,
+      "start": 1263.1,
+      "end": 1265.833333,
+      "durationSeconds": 2.733333,
       "words": [
         {
           "text": "It",
@@ -663,7 +672,8 @@
           "start": 1265,
           "end": 1265.66
         }
-      ]
+      ],
+      "frames": 82
     }
   ]
 }

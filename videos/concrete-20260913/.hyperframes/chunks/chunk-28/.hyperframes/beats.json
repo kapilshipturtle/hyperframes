@@ -3,9 +3,9 @@
     {
       "id": "292",
       "text": "That was never the point. The point of the Holyoke plant was stated openly by Ellis.",
-      "start": 1265.88,
-      "end": 1269.92,
-      "durationSeconds": 4.04,
+      "start": 1265.833333,
+      "end": 1269.866667,
+      "durationSeconds": 4.033333,
       "words": [
         {
           "text": "That",
@@ -87,14 +87,15 @@
           "start": 1269.49,
           "end": 1269.92
         }
-      ]
+      ],
+      "frames": 121
     },
     {
       "id": "293",
       "text": "It was designed as a module, a unit you build once, de-risk, and then copy until you reach a million tons a year,",
-      "start": 1269.92,
-      "end": 1276.45,
-      "durationSeconds": 6.53,
+      "start": 1269.866667,
+      "end": 1276.4,
+      "durationSeconds": 6.533333,
       "words": [
         {
           "text": "It",
@@ -211,14 +212,15 @@
           "start": 1275.98,
           "end": 1276.41
         }
-      ]
+      ],
+      "frames": 196
     },
     {
       "id": "294",
       "text": "which is the size of an ordinary cement plant.",
-      "start": 1276.45,
-      "end": 1279.28,
-      "durationSeconds": 2.83,
+      "start": 1276.4,
+      "end": 1279.233333,
+      "durationSeconds": 2.833333,
       "words": [
         {
           "text": "which",
@@ -265,14 +267,15 @@
           "start": 1278.65,
           "end": 1279.28
         }
-      ]
+      ],
+      "frames": 85
     },
     {
       "id": "295",
       "text": "The 30,000-ton facility was not the product.",
-      "start": 1279.28,
-      "end": 1282.12,
-      "durationSeconds": 2.84,
+      "start": 1279.233333,
+      "end": 1282.066667,
+      "durationSeconds": 2.833333,
       "words": [
         {
           "text": "The",
@@ -309,14 +312,15 @@
           "start": 1281.52,
           "end": 1282.12
         }
-      ]
+      ],
+      "frames": 85
     },
     {
       "id": "296",
       "text": "It was the proof you need before anyone will finance the real one.",
-      "start": 1282.12,
-      "end": 1285.98,
-      "durationSeconds": 3.86,
+      "start": 1282.066667,
+      "end": 1285.933333,
+      "durationSeconds": 3.866667,
       "words": [
         {
           "text": "It",
@@ -383,14 +387,15 @@
           "start": 1285.37,
           "end": 1285.76
         }
-      ]
+      ],
+      "frames": 116
     },
     {
       "id": "297",
       "text": "Until a module exists and runs, skepticism is the correct position.",
-      "start": 1285.98,
-      "end": 1290.14,
-      "durationSeconds": 4.16,
+      "start": 1285.933333,
+      "end": 1290.1,
+      "durationSeconds": 4.166667,
       "words": [
         {
           "text": "Until",
@@ -447,14 +452,15 @@
           "start": 1289.14,
           "end": 1289.92
         }
-      ]
+      ],
+      "frames": 125
     },
     {
       "id": "298",
       "text": "That is not a critic's framing. It is the company's own stated logic for why the plant mattered.",
-      "start": 1290.14,
-      "end": 1295.16,
-      "durationSeconds": 5.02,
+      "start": 1290.1,
+      "end": 1295.133333,
+      "durationSeconds": 5.033333,
       "words": [
         {
           "text": "That",
@@ -546,14 +552,15 @@
           "start": 1294.37,
           "end": 1295.16
         }
-      ]
+      ],
+      "frames": 151
     },
     {
       "id": "299",
       "text": "So that is where it stands. A process that makes cement with electricity instead of fire,",
-      "start": 1295.16,
-      "end": 1299.84,
-      "durationSeconds": 4.68,
+      "start": 1295.133333,
+      "end": 1299.8,
+      "durationSeconds": 4.666667,
       "words": [
         {
           "text": "So",
@@ -635,14 +642,15 @@
           "start": 1299.72,
           "end": 1299.84
         }
-      ]
+      ],
+      "frames": 140
     },
     {
       "id": "300",
       "text": "from rock that has no carbon dioxide in it to release, certified under a performance standard that asks what a material does rather",
-      "start": 1299.84,
-      "end": 1306.41,
-      "durationSeconds": 6.57,
+      "start": 1299.8,
+      "end": 1306.366667,
+      "durationSeconds": 6.566667,
       "words": [
         {
           "text": "from",
@@ -759,14 +767,15 @@
           "start": 1306.04,
           "end": 1306.41
         }
-      ]
+      ],
+      "frames": 197
     },
     {
       "id": "301",
       "text": "than how it was made, poured into a building in Boston on a day whose most notable feature was that nothing went wrong,",
-      "start": 1306.41,
-      "end": 1312.42,
-      "durationSeconds": 6.01,
+      "start": 1306.366667,
+      "end": 1312.366667,
+      "durationSeconds": 6,
       "words": [
         {
           "text": "than",
@@ -883,7 +892,8 @@
           "start": 1312.03,
           "end": 1312.42
         }
-      ]
+      ],
+      "frames": 180
     }
   ]
 }

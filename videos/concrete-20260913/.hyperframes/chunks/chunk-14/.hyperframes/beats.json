@@ -3,9 +3,9 @@
     {
       "id": "148",
       "text": "This is where the interesting part of this story actually lives, not in the lab, in the paperwork.",
-      "start": 616.6,
-      "end": 621.27,
-      "durationSeconds": 4.67,
+      "start": 616.666667,
+      "end": 621.333333,
+      "durationSeconds": 4.666667,
       "words": [
         {
           "text": "This",
@@ -97,14 +97,15 @@
           "start": 620.58,
           "end": 621.27
         }
-      ]
+      ],
+      "frames": 140
     },
     {
       "id": "149",
       "text": "In September of 2023, Sublime Cement received an ASTM C1157 designation.",
-      "start": 621.27,
-      "end": 628.08,
-      "durationSeconds": 6.81,
+      "start": 621.333333,
+      "end": 628.133333,
+      "durationSeconds": 6.8,
       "words": [
         {
           "text": "In",
@@ -161,14 +162,15 @@
           "start": 626.94,
           "end": 628.08
         }
-      ]
+      ],
+      "frames": 204
     },
     {
       "id": "150",
       "text": "That string of characters is the single most important fact in this video, and it deserves unpacking.",
-      "start": 628.08,
-      "end": 633.52,
-      "durationSeconds": 5.44,
+      "start": 628.133333,
+      "end": 633.566667,
+      "durationSeconds": 5.433333,
       "words": [
         {
           "text": "That",
@@ -255,14 +257,15 @@
           "start": 632.1,
           "end": 633.52
         }
-      ]
+      ],
+      "frames": 163
     },
     {
       "id": "151",
       "text": "Most cement is specified under a standard that describes what cement must be made of, a prescriptive standard.",
-      "start": 633.52,
-      "end": 639.4,
-      "durationSeconds": 5.88,
+      "start": 633.566667,
+      "end": 639.433333,
+      "durationSeconds": 5.866667,
       "words": [
         {
           "text": "Most",
@@ -354,14 +357,15 @@
           "start": 639.01,
           "end": 639.4
         }
-      ]
+      ],
+      "frames": 176
     },
     {
       "id": "152",
       "text": "If your material is not made the approved way, it does not qualify, no matter how well it performs.",
-      "start": 639.4,
-      "end": 644.73,
-      "durationSeconds": 5.33,
+      "start": 639.433333,
+      "end": 644.766667,
+      "durationSeconds": 5.333333,
       "words": [
         {
           "text": "If",
@@ -458,14 +462,15 @@
           "start": 643.58,
           "end": 644.72
         }
-      ]
+      ],
+      "frames": 160
     },
     {
       "id": "153",
       "text": "C1157 is different.",
-      "start": 644.73,
-      "end": 646.68,
-      "durationSeconds": 1.95,
+      "start": 644.766667,
+      "end": 646.7,
+      "durationSeconds": 1.933333,
       "words": [
         {
           "text": "C1157",
@@ -482,14 +487,15 @@
           "start": 646.09,
           "end": 646.68
         }
-      ]
+      ],
+      "frames": 58
     },
     {
       "id": "154",
       "text": "It is a performance standard.",
-      "start": 646.68,
-      "end": 648.32,
-      "durationSeconds": 1.64,
+      "start": 646.7,
+      "end": 648.333333,
+      "durationSeconds": 1.633333,
       "words": [
         {
           "text": "It",
@@ -516,14 +522,15 @@
           "start": 648.05,
           "end": 648.32
         }
-      ]
+      ],
+      "frames": 49
     },
     {
       "id": "155",
       "text": "It describes what the cement must do, strength development, setting time, durability,",
-      "start": 648.32,
-      "end": 653.37,
-      "durationSeconds": 5.05,
+      "start": 648.333333,
+      "end": 653.4,
+      "durationSeconds": 5.066667,
       "words": [
         {
           "text": "It",
@@ -585,14 +592,15 @@
           "start": 652.59,
           "end": 653.37
         }
-      ]
+      ],
+      "frames": 152
     },
     {
       "id": "156",
       "text": "sulfate resistance. It is silent on how you made it.",
-      "start": 653.37,
-      "end": 656.94,
-      "durationSeconds": 3.57,
+      "start": 653.4,
+      "end": 656.966667,
+      "durationSeconds": 3.566667,
       "words": [
         {
           "text": "sulfate",
@@ -644,14 +652,15 @@
           "start": 656.62,
           "end": 656.94
         }
-      ]
+      ],
+      "frames": 107
     },
     {
       "id": "157",
       "text": "So a material produced in an electrochemical cell at room temperature from industrial waste can be specified under it,",
-      "start": 656.94,
-      "end": 662.52,
-      "durationSeconds": 5.58,
+      "start": 656.966667,
+      "end": 662.533333,
+      "durationSeconds": 5.566667,
       "words": [
         {
           "text": "So",
@@ -748,14 +757,15 @@
           "start": 662.35,
           "end": 662.52
         }
-      ]
+      ],
+      "frames": 167
     },
     {
       "id": "158",
       "text": "tested against it, and used under it, because the standard asks about behavior,",
-      "start": 662.52,
-      "end": 667.16,
-      "durationSeconds": 4.64,
+      "start": 662.533333,
+      "end": 667.166667,
+      "durationSeconds": 4.633333,
       "words": [
         {
           "text": "tested",
@@ -822,7 +832,8 @@
           "start": 666.34,
           "end": 667.16
         }
-      ]
+      ],
+      "frames": 139
     }
   ]
 }

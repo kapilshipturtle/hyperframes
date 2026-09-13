@@ -4215,3 +4215,7 @@ beat 321: frame built [video, kenburns=none]
 ### Chunked render — split
 31 chunk(s) created
   - **chunks:** chunk-00: beats 01-11, ~11 sources | chunk-01: beats 12-22, ~11 sources | chunk-02: beats 23-33, ~11 sources | chunk-03: beats 34-43, ~10 sources | chunk-04: beats 44-54, ~11 sources | chunk-05: beats 55-64, ~10 sources | chunk-06: beats 65-75, ~11 sources | chunk-07: beats 76-85, ~10 sources | chun…(truncated)
+
+### Chunked render — split
+31 chunk(s) created
+  - **chunks:** chunk-00: beats 01-11, ~11 sources | chunk-01: beats 12-22, ~11 sources | chunk-02: beats 23-33, ~11 sources | chunk-03: beats 34-43, ~10 sources | chunk-04: beats 44-54, ~11 sources | chunk-05: beats 55-64, ~10 sources | chunk-06: beats 65-75, ~11 sources | chunk-07: beats 76-85, ~10 sources | chun…(truncated)

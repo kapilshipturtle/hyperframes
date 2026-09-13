@@ -3,9 +3,9 @@
     {
       "id": "01",
       "text": "Look down, whatever is under your feet right now, a floor, a sidewalk, a parking structure,",
-      "start": 0.22,
-      "end": 6.18,
-      "durationSeconds": 5.96,
+      "start": 0.233333,
+      "end": 6.2,
+      "durationSeconds": 5.966667,
       "words": [
         {
           "text": "Look",
@@ -87,14 +87,15 @@
           "start": 5.28,
           "end": 6.18
         }
-      ]
+      ],
+      "frames": 179
     },
     {
       "id": "02",
       "text": "the slab your building is standing on, there is a very high chance it is concrete.",
-      "start": 6.18,
-      "end": 10.54,
-      "durationSeconds": 4.36,
+      "start": 6.2,
+      "end": 10.566667,
+      "durationSeconds": 4.366667,
       "words": [
         {
           "text": "the",
@@ -176,14 +177,15 @@
           "start": 9.76,
           "end": 10.54
         }
-      ]
+      ],
+      "frames": 131
     },
     {
       "id": "03",
       "text": "The stairwell you use, the pipe carrying water to your kitchen, the bridge you crossed this morning without looking at it once.",
-      "start": 10.54,
-      "end": 17.45,
-      "durationSeconds": 6.91,
+      "start": 10.566667,
+      "end": 17.466667,
+      "durationSeconds": 6.9,
       "words": [
         {
           "text": "The",
@@ -295,14 +297,15 @@
           "start": 16.71,
           "end": 17.28
         }
-      ]
+      ],
+      "frames": 207
     },
     {
       "id": "04",
       "text": "Concrete is the second most used substance on this planet, only water beats it.",
-      "start": 17.45,
+      "start": 17.466667,
       "end": 21.4,
-      "durationSeconds": 3.95,
+      "durationSeconds": 3.933333,
       "words": [
         {
           "text": "Concrete",
@@ -374,14 +377,15 @@
           "start": 20.97,
           "end": 21.4
         }
-      ]
+      ],
+      "frames": 118
     },
     {
       "id": "05",
       "text": "And the grey powder that holds it together, cement, is made in one specific way.",
       "start": 21.4,
-      "end": 25.98,
-      "durationSeconds": 4.58,
+      "end": 25.966667,
+      "durationSeconds": 4.566667,
       "words": [
         {
           "text": "And",
@@ -458,14 +462,15 @@
           "start": 25.54,
           "end": 25.98
         }
-      ]
+      ],
+      "frames": 137
     },
     {
       "id": "06",
       "text": "You take limestone out of the ground.",
-      "start": 25.98,
-      "end": 28.02,
-      "durationSeconds": 2.04,
+      "start": 25.966667,
+      "end": 28,
+      "durationSeconds": 2.033333,
       "words": [
         {
           "text": "You",
@@ -502,14 +507,15 @@
           "start": 27.46,
           "end": 28.02
         }
-      ]
+      ],
+      "frames": 61
     },
     {
       "id": "07",
       "text": "You put it in a kiln, you heat that kiln to about 1,450 degrees Celsius, roughly 2,640 Fahrenheit,",
-      "start": 28.02,
-      "end": 34.76,
-      "durationSeconds": 6.74,
+      "start": 28,
+      "end": 34.733333,
+      "durationSeconds": 6.733333,
       "words": [
         {
           "text": "You",
@@ -601,14 +607,15 @@
           "start": 34.14,
           "end": 34.76
         }
-      ]
+      ],
+      "frames": 202
     },
     {
       "id": "08",
       "text": "hot enough that the rock stops being rock.",
-      "start": 34.76,
-      "end": 37.6,
-      "durationSeconds": 2.84,
+      "start": 34.733333,
+      "end": 37.566667,
+      "durationSeconds": 2.833333,
       "words": [
         {
           "text": "hot",
@@ -650,14 +657,15 @@
           "start": 37.13,
           "end": 37.6
         }
-      ]
+      ],
+      "frames": 85
     },
     {
       "id": "09",
       "text": "Out the other end comes cement.",
-      "start": 37.6,
-      "end": 39.72,
-      "durationSeconds": 2.12,
+      "start": 37.566667,
+      "end": 39.7,
+      "durationSeconds": 2.133333,
       "words": [
         {
           "text": "Out",
@@ -689,14 +697,15 @@
           "start": 38.97,
           "end": 39.5
         }
-      ]
+      ],
+      "frames": 64
     },
     {
       "id": "10",
       "text": "The world does this about 4 billion tons a year.",
-      "start": 39.72,
-      "end": 43.24,
-      "durationSeconds": 3.52,
+      "start": 39.7,
+      "end": 43.233333,
+      "durationSeconds": 3.533333,
       "words": [
         {
           "text": "The",
@@ -748,14 +757,15 @@
           "start": 42.71,
           "end": 43.02
         }
-      ]
+      ],
+      "frames": 106
     },
     {
       "id": "11",
       "text": "Here is the part almost nobody outside the industry knows.",
-      "start": 43.24,
-      "end": 46.38,
-      "durationSeconds": 3.14,
+      "start": 43.233333,
+      "end": 46.366667,
+      "durationSeconds": 3.133333,
       "words": [
         {
           "text": "Here",
@@ -807,7 +817,8 @@
           "start": 45.62,
           "end": 46.16
         }
-      ]
+      ],
+      "frames": 94
     }
   ]
 }

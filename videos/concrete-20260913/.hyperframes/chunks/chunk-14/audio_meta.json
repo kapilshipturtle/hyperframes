@@ -4,813 +4,813 @@
     {
       "frame": 1,
       "path": "assets/audio/narration.mp3",
-      "mediaStart": 616.6,
-      "duration_s": 4.67,
+      "mediaStart": 616.666667,
+      "duration_s": 4.666667,
       "words": [
         {
           "text": "This",
-          "start": 0,
-          "end": 0.26
+          "start": -0.067,
+          "end": 0.193
         },
         {
           "text": "is",
-          "start": 0.26,
-          "end": 0.34
+          "start": 0.193,
+          "end": 0.273
         },
         {
           "text": "where",
-          "start": 0.34,
-          "end": 0.59
+          "start": 0.273,
+          "end": 0.523
         },
         {
           "text": "the",
-          "start": 0.59,
-          "end": 0.73
+          "start": 0.523,
+          "end": 0.663
         },
         {
           "text": "interesting",
-          "start": 0.73,
-          "end": 0.89
+          "start": 0.663,
+          "end": 0.823
         },
         {
           "text": "part",
-          "start": 1.41,
-          "end": 1.49
+          "start": 1.343,
+          "end": 1.423
         },
         {
           "text": "of",
-          "start": 1.49,
-          "end": 1.59
+          "start": 1.423,
+          "end": 1.523
         },
         {
           "text": "this",
-          "start": 1.59,
-          "end": 1.79
+          "start": 1.523,
+          "end": 1.723
         },
         {
           "text": "story",
-          "start": 1.79,
-          "end": 2.04
+          "start": 1.723,
+          "end": 1.973
         },
         {
           "text": "actually",
-          "start": 2.04,
-          "end": 2.44
+          "start": 1.973,
+          "end": 2.373
         },
         {
           "text": "lives,",
-          "start": 2.44,
-          "end": 2.79
+          "start": 2.373,
+          "end": 2.723
         },
         {
           "text": "not",
-          "start": 2.79,
-          "end": 2.88
+          "start": 2.723,
+          "end": 2.813
         },
         {
           "text": "in",
-          "start": 2.88,
-          "end": 3.065
+          "start": 2.813,
+          "end": 2.998
         },
         {
           "text": "the",
-          "start": 3.065,
-          "end": 3.25
+          "start": 2.998,
+          "end": 3.183
         },
         {
           "text": "lab,",
-          "start": 3.25,
-          "end": 3.44
+          "start": 3.183,
+          "end": 3.373
         },
         {
           "text": "in",
-          "start": 3.44,
-          "end": 3.54
+          "start": 3.373,
+          "end": 3.473
         },
         {
           "text": "the",
-          "start": 3.54,
-          "end": 3.74
+          "start": 3.473,
+          "end": 3.673
         },
         {
           "text": "paperwork.",
-          "start": 3.98,
-          "end": 4.67
+          "start": 3.913,
+          "end": 4.603
         }
       ]
     },
     {
       "frame": 2,
       "path": "assets/audio/narration.mp3",
-      "mediaStart": 621.27,
-      "duration_s": 6.81,
+      "mediaStart": 621.333333,
+      "duration_s": 6.8,
       "words": [
         {
           "text": "In",
-          "start": 0,
-          "end": 0.51
+          "start": -0.063,
+          "end": 0.447
         },
         {
           "text": "September",
-          "start": 0.51,
-          "end": 1.11
+          "start": 0.447,
+          "end": 1.047
         },
         {
           "text": "of",
-          "start": 1.11,
-          "end": 1.66
+          "start": 1.047,
+          "end": 1.597
         },
         {
           "text": "2023,",
-          "start": 1.66,
-          "end": 2.36
+          "start": 1.597,
+          "end": 2.297
         },
         {
           "text": "Sublime",
-          "start": 2.46,
-          "end": 3.01
+          "start": 2.397,
+          "end": 2.947
         },
         {
           "text": "Cement",
-          "start": 3.01,
-          "end": 3.16
+          "start": 2.947,
+          "end": 3.097
         },
         {
           "text": "received",
-          "start": 3.5,
-          "end": 4
+          "start": 3.437,
+          "end": 3.937
         },
         {
           "text": "an",
-          "start": 4.27,
-          "end": 4.29
+          "start": 4.207,
+          "end": 4.227
         },
         {
           "text": "ASTM",
-          "start": 4.29,
-          "end": 4.61
+          "start": 4.227,
+          "end": 4.547
         },
         {
           "text": "C1157",
-          "start": 4.61,
-          "end": 5.63
+          "start": 4.547,
+          "end": 5.567
         },
         {
           "text": "designation.",
-          "start": 5.67,
-          "end": 6.81
+          "start": 5.607,
+          "end": 6.747
         }
       ]
     },
     {
       "frame": 3,
       "path": "assets/audio/narration.mp3",
-      "mediaStart": 628.08,
-      "duration_s": 5.44,
+      "mediaStart": 628.133333,
+      "duration_s": 5.433333,
       "words": [
         {
           "text": "That",
-          "start": 0,
-          "end": 0.22
+          "start": -0.053,
+          "end": 0.167
         },
         {
           "text": "string",
-          "start": 0.22,
-          "end": 0.49
+          "start": 0.167,
+          "end": 0.437
         },
         {
           "text": "of",
-          "start": 0.49,
-          "end": 0.59
+          "start": 0.437,
+          "end": 0.537
         },
         {
           "text": "characters",
-          "start": 0.59,
-          "end": 0.82
+          "start": 0.537,
+          "end": 0.767
         },
         {
           "text": "is",
-          "start": 1.05,
-          "end": 1.17
+          "start": 0.997,
+          "end": 1.117
         },
         {
           "text": "the",
-          "start": 1.17,
-          "end": 1.37
+          "start": 1.117,
+          "end": 1.317
         },
         {
           "text": "single",
-          "start": 1.37,
-          "end": 1.62
+          "start": 1.317,
+          "end": 1.567
         },
         {
           "text": "most",
-          "start": 1.62,
-          "end": 1.82
+          "start": 1.567,
+          "end": 1.767
         },
         {
           "text": "important",
-          "start": 1.82,
-          "end": 2.26
+          "start": 1.767,
+          "end": 2.207
         },
         {
           "text": "fact",
-          "start": 2.26,
-          "end": 2.46
+          "start": 2.207,
+          "end": 2.407
         },
         {
           "text": "in",
-          "start": 2.46,
-          "end": 2.56
+          "start": 2.407,
+          "end": 2.507
         },
         {
           "text": "this",
-          "start": 2.56,
-          "end": 2.76
+          "start": 2.507,
+          "end": 2.707
         },
         {
           "text": "video,",
-          "start": 2.76,
-          "end": 3.04
+          "start": 2.707,
+          "end": 2.987
         },
         {
           "text": "and",
-          "start": 3.21,
-          "end": 3.24
+          "start": 3.157,
+          "end": 3.187
         },
         {
           "text": "it",
-          "start": 3.24,
-          "end": 3.27
+          "start": 3.187,
+          "end": 3.217
         },
         {
           "text": "deserves",
-          "start": 3.38,
-          "end": 3.7
+          "start": 3.327,
+          "end": 3.647
         },
         {
           "text": "unpacking.",
-          "start": 4.02,
-          "end": 5.44
+          "start": 3.967,
+          "end": 5.387
         }
       ]
     },
     {
       "frame": 4,
       "path": "assets/audio/narration.mp3",
-      "mediaStart": 633.52,
-      "duration_s": 5.88,
+      "mediaStart": 633.566667,
+      "duration_s": 5.866667,
       "words": [
         {
           "text": "Most",
-          "start": 0,
-          "end": 0.22
+          "start": -0.047,
+          "end": 0.173
         },
         {
           "text": "cement",
-          "start": 0.22,
-          "end": 0.5
+          "start": 0.173,
+          "end": 0.453
         },
         {
           "text": "is",
-          "start": 0.5,
-          "end": 0.6
+          "start": 0.453,
+          "end": 0.553
         },
         {
           "text": "specified",
-          "start": 0.6,
-          "end": 0.82
+          "start": 0.553,
+          "end": 0.773
         },
         {
           "text": "under",
-          "start": 0.82,
-          "end": 1.1
+          "start": 0.773,
+          "end": 1.053
         },
         {
           "text": "a",
-          "start": 1.1,
-          "end": 1.38
+          "start": 1.053,
+          "end": 1.333
         },
         {
           "text": "standard",
-          "start": 1.38,
-          "end": 1.77
+          "start": 1.333,
+          "end": 1.723
         },
         {
           "text": "that",
-          "start": 1.77,
-          "end": 1.97
+          "start": 1.723,
+          "end": 1.923
         },
         {
           "text": "describes",
-          "start": 1.97,
-          "end": 2.43
+          "start": 1.923,
+          "end": 2.383
         },
         {
           "text": "what",
-          "start": 2.43,
-          "end": 2.63
+          "start": 2.383,
+          "end": 2.583
         },
         {
           "text": "cement",
-          "start": 2.63,
-          "end": 2.84
+          "start": 2.583,
+          "end": 2.793
         },
         {
           "text": "must",
-          "start": 2.84,
-          "end": 3.21
+          "start": 2.793,
+          "end": 3.163
         },
         {
           "text": "be",
-          "start": 3.21,
-          "end": 3.23
+          "start": 3.163,
+          "end": 3.183
         },
         {
           "text": "made",
-          "start": 3.23,
-          "end": 3.43
+          "start": 3.183,
+          "end": 3.383
         },
         {
           "text": "of,",
-          "start": 3.43,
-          "end": 4.12
+          "start": 3.383,
+          "end": 4.073
         },
         {
           "text": "a",
-          "start": 4.13,
-          "end": 4.19
+          "start": 4.083,
+          "end": 4.143
         },
         {
           "text": "prescriptive",
-          "start": 4.34,
-          "end": 4.96
+          "start": 4.293,
+          "end": 4.913
         },
         {
           "text": "standard.",
-          "start": 5.49,
-          "end": 5.88
+          "start": 5.443,
+          "end": 5.833
         }
       ]
     },
     {
       "frame": 5,
       "path": "assets/audio/narration.mp3",
-      "mediaStart": 639.4,
-      "duration_s": 5.33,
+      "mediaStart": 639.433333,
+      "duration_s": 5.333333,
       "words": [
         {
           "text": "If",
-          "start": 0,
-          "end": 0.22
+          "start": -0.033,
+          "end": 0.187
         },
         {
           "text": "your",
-          "start": 0.22,
-          "end": 0.33
+          "start": 0.187,
+          "end": 0.297
         },
         {
           "text": "material",
-          "start": 0.33,
-          "end": 0.75
+          "start": 0.297,
+          "end": 0.717
         },
         {
           "text": "is",
-          "start": 0.75,
-          "end": 0.84
+          "start": 0.717,
+          "end": 0.807
         },
         {
           "text": "not",
-          "start": 0.84,
-          "end": 1.03
+          "start": 0.807,
+          "end": 0.997
         },
         {
           "text": "made",
-          "start": 1.03,
-          "end": 1.25
+          "start": 0.997,
+          "end": 1.217
         },
         {
           "text": "the",
-          "start": 1.37,
-          "end": 1.41
+          "start": 1.337,
+          "end": 1.377
         },
         {
           "text": "approved",
-          "start": 1.41,
-          "end": 1.84
+          "start": 1.377,
+          "end": 1.807
         },
         {
           "text": "way,",
-          "start": 1.84,
-          "end": 2.07
+          "start": 1.807,
+          "end": 2.037
         },
         {
           "text": "it",
-          "start": 2.18,
-          "end": 2.21
+          "start": 2.147,
+          "end": 2.177
         },
         {
           "text": "does",
-          "start": 2.21,
-          "end": 2.43
+          "start": 2.177,
+          "end": 2.397
         },
         {
           "text": "not",
-          "start": 2.43,
-          "end": 2.59
+          "start": 2.397,
+          "end": 2.557
         },
         {
           "text": "qualify,",
-          "start": 2.59,
-          "end": 3.04
+          "start": 2.557,
+          "end": 3.007
         },
         {
           "text": "no",
-          "start": 3.04,
-          "end": 3.21
+          "start": 3.007,
+          "end": 3.177
         },
         {
           "text": "matter",
-          "start": 3.21,
-          "end": 3.5
+          "start": 3.177,
+          "end": 3.467
         },
         {
           "text": "how",
-          "start": 3.5,
-          "end": 3.66
+          "start": 3.467,
+          "end": 3.627
         },
         {
           "text": "well",
-          "start": 3.66,
-          "end": 3.71
+          "start": 3.627,
+          "end": 3.677
         },
         {
           "text": "it",
-          "start": 3.71,
-          "end": 4.18
+          "start": 3.677,
+          "end": 4.147
         },
         {
           "text": "performs.",
-          "start": 4.18,
-          "end": 5.32
+          "start": 4.147,
+          "end": 5.287
         }
       ]
     },
     {
       "frame": 6,
       "path": "assets/audio/narration.mp3",
-      "mediaStart": 644.73,
-      "duration_s": 1.95,
+      "mediaStart": 644.766667,
+      "duration_s": 1.933333,
       "words": [
         {
           "text": "C1157",
-          "start": 0,
-          "end": 0.81
+          "start": -0.037,
+          "end": 0.773
         },
         {
           "text": "is",
-          "start": 0.92,
-          "end": 0.95
+          "start": 0.883,
+          "end": 0.913
         },
         {
           "text": "different.",
-          "start": 1.36,
-          "end": 1.95
+          "start": 1.323,
+          "end": 1.913
         }
       ]
     },
     {
       "frame": 7,
       "path": "assets/audio/narration.mp3",
-      "mediaStart": 646.68,
-      "duration_s": 1.64,
+      "mediaStart": 646.7,
+      "duration_s": 1.633333,
       "words": [
         {
           "text": "It",
-          "start": 0,
-          "end": 0.22
+          "start": -0.02,
+          "end": 0.2
         },
         {
           "text": "is",
-          "start": 0.22,
-          "end": 0.24
+          "start": 0.2,
+          "end": 0.22
         },
         {
           "text": "a",
-          "start": 0.24,
-          "end": 0.3
+          "start": 0.22,
+          "end": 0.28
         },
         {
           "text": "performance",
-          "start": 0.3,
-          "end": 0.82
+          "start": 0.28,
+          "end": 0.8
         },
         {
           "text": "standard.",
-          "start": 1.37,
-          "end": 1.64
+          "start": 1.35,
+          "end": 1.62
         }
       ]
     },
     {
       "frame": 8,
       "path": "assets/audio/narration.mp3",
-      "mediaStart": 648.32,
-      "duration_s": 5.05,
+      "mediaStart": 648.333333,
+      "duration_s": 5.066667,
       "words": [
         {
           "text": "It",
-          "start": 0,
-          "end": 0.22
+          "start": -0.013,
+          "end": 0.207
         },
         {
           "text": "describes",
-          "start": 0.22,
-          "end": 0.71
+          "start": 0.207,
+          "end": 0.697
         },
         {
           "text": "what",
-          "start": 0.71,
-          "end": 0.84
+          "start": 0.697,
+          "end": 0.827
         },
         {
           "text": "the",
-          "start": 0.96,
-          "end": 1.15
+          "start": 0.947,
+          "end": 1.137
         },
         {
           "text": "cement",
-          "start": 1.37,
-          "end": 1.55
+          "start": 1.357,
+          "end": 1.537
         },
         {
           "text": "must",
-          "start": 1.55,
-          "end": 1.81
+          "start": 1.537,
+          "end": 1.797
         },
         {
           "text": "do,",
-          "start": 1.81,
-          "end": 2.06
+          "start": 1.797,
+          "end": 2.047
         },
         {
           "text": "strength",
-          "start": 2.06,
-          "end": 2.59
+          "start": 2.047,
+          "end": 2.577
         },
         {
           "text": "development,",
-          "start": 2.59,
-          "end": 3.43
+          "start": 2.577,
+          "end": 3.417
         },
         {
           "text": "setting",
-          "start": 3.43,
-          "end": 3.7
+          "start": 3.417,
+          "end": 3.687
         },
         {
           "text": "time,",
-          "start": 3.99,
-          "end": 4.27
+          "start": 3.977,
+          "end": 4.257
         },
         {
           "text": "durability,",
-          "start": 4.27,
-          "end": 5.05
+          "start": 4.257,
+          "end": 5.037
         }
       ]
     },
     {
       "frame": 9,
       "path": "assets/audio/narration.mp3",
-      "mediaStart": 653.37,
-      "duration_s": 3.57,
+      "mediaStart": 653.4,
+      "duration_s": 3.566667,
       "words": [
         {
           "text": "sulfate",
-          "start": 0,
-          "end": 0.51
+          "start": -0.03,
+          "end": 0.48
         },
         {
           "text": "resistance.",
-          "start": 0.73,
-          "end": 1.35
+          "start": 0.7,
+          "end": 1.32
         },
         {
           "text": "It",
-          "start": 1.35,
-          "end": 1.73
+          "start": 1.32,
+          "end": 1.7
         },
         {
           "text": "is",
-          "start": 1.73,
-          "end": 1.83
+          "start": 1.7,
+          "end": 1.8
         },
         {
           "text": "silent",
-          "start": 1.83,
-          "end": 2.3
+          "start": 1.8,
+          "end": 2.27
         },
         {
           "text": "on",
-          "start": 2.3,
-          "end": 2.36
+          "start": 2.27,
+          "end": 2.33
         },
         {
           "text": "how",
-          "start": 2.45,
-          "end": 2.66
+          "start": 2.42,
+          "end": 2.63
         },
         {
           "text": "you",
-          "start": 2.88,
-          "end": 2.94
+          "start": 2.85,
+          "end": 2.91
         },
         {
           "text": "made",
-          "start": 2.94,
-          "end": 3.25
+          "start": 2.91,
+          "end": 3.22
         },
         {
           "text": "it.",
-          "start": 3.25,
-          "end": 3.57
+          "start": 3.22,
+          "end": 3.54
         }
       ]
     },
     {
       "frame": 10,
       "path": "assets/audio/narration.mp3",
-      "mediaStart": 656.94,
-      "duration_s": 5.58,
+      "mediaStart": 656.966667,
+      "duration_s": 5.566667,
       "words": [
         {
           "text": "So",
-          "start": 0,
-          "end": 0.16
+          "start": -0.027,
+          "end": 0.133
         },
         {
           "text": "a",
-          "start": 0.16,
-          "end": 0.32
+          "start": 0.133,
+          "end": 0.293
         },
         {
           "text": "material",
-          "start": 0.32,
-          "end": 0.67
+          "start": 0.293,
+          "end": 0.643
         },
         {
           "text": "produced",
-          "start": 0.67,
-          "end": 0.92
+          "start": 0.643,
+          "end": 0.893
         },
         {
           "text": "in",
-          "start": 1.08,
-          "end": 1.19
+          "start": 1.053,
+          "end": 1.163
         },
         {
           "text": "an",
-          "start": 1.19,
-          "end": 1.29
+          "start": 1.163,
+          "end": 1.263
         },
         {
           "text": "electrochemical",
-          "start": 1.47,
-          "end": 2.06
+          "start": 1.443,
+          "end": 2.033
         },
         {
           "text": "cell",
-          "start": 2.06,
-          "end": 2.16
+          "start": 2.033,
+          "end": 2.133
         },
         {
           "text": "at",
-          "start": 2.27,
-          "end": 2.37
+          "start": 2.243,
+          "end": 2.343
         },
         {
           "text": "room",
-          "start": 2.37,
-          "end": 2.58
+          "start": 2.343,
+          "end": 2.553
         },
         {
           "text": "temperature",
-          "start": 2.58,
-          "end": 2.94
+          "start": 2.553,
+          "end": 2.913
         },
         {
           "text": "from",
-          "start": 3.3,
-          "end": 3.36
+          "start": 3.273,
+          "end": 3.333
         },
         {
           "text": "industrial",
-          "start": 3.36,
-          "end": 3.8
+          "start": 3.333,
+          "end": 3.773
         },
         {
           "text": "waste",
-          "start": 4.09,
-          "end": 4.2
+          "start": 4.063,
+          "end": 4.173
         },
         {
           "text": "can",
-          "start": 4.2,
-          "end": 4.42
+          "start": 4.173,
+          "end": 4.393
         },
         {
           "text": "be",
-          "start": 4.42,
-          "end": 4.5
+          "start": 4.393,
+          "end": 4.473
         },
         {
           "text": "specified",
-          "start": 4.5,
-          "end": 5.01
+          "start": 4.473,
+          "end": 4.983
         },
         {
           "text": "under",
-          "start": 5.01,
-          "end": 5.07
+          "start": 4.983,
+          "end": 5.043
         },
         {
           "text": "it,",
-          "start": 5.41,
-          "end": 5.58
+          "start": 5.383,
+          "end": 5.553
         }
       ]
     },
     {
       "frame": 11,
       "path": "assets/audio/narration.mp3",
-      "mediaStart": 662.52,
-      "duration_s": 4.64,
+      "mediaStart": 662.533333,
+      "duration_s": 4.633333,
       "words": [
         {
           "text": "tested",
-          "start": 0,
-          "end": 0.36
+          "start": -0.013,
+          "end": 0.347
         },
         {
           "text": "against",
-          "start": 0.36,
-          "end": 0.67
+          "start": 0.347,
+          "end": 0.657
         },
         {
           "text": "it,",
-          "start": 0.8,
-          "end": 1.02
+          "start": 0.787,
+          "end": 1.007
         },
         {
           "text": "and",
-          "start": 1.02,
-          "end": 1.2
+          "start": 1.007,
+          "end": 1.187
         },
         {
           "text": "used",
-          "start": 1.2,
-          "end": 1.44
+          "start": 1.187,
+          "end": 1.427
         },
         {
           "text": "under",
-          "start": 1.44,
-          "end": 1.49
+          "start": 1.427,
+          "end": 1.477
         },
         {
           "text": "it,",
-          "start": 1.83,
-          "end": 1.88
+          "start": 1.817,
+          "end": 1.867
         },
         {
           "text": "because",
-          "start": 2,
-          "end": 2.32
+          "start": 1.987,
+          "end": 2.307
         },
         {
           "text": "the",
-          "start": 2.32,
-          "end": 2.61
+          "start": 2.307,
+          "end": 2.597
         },
         {
           "text": "standard",
-          "start": 2.61,
-          "end": 3.08
+          "start": 2.597,
+          "end": 3.067
         },
         {
           "text": "asks",
-          "start": 3.3,
-          "end": 3.41
+          "start": 3.287,
+          "end": 3.397
         },
         {
           "text": "about",
-          "start": 3.41,
-          "end": 3.81
+          "start": 3.397,
+          "end": 3.797
         },
         {
           "text": "behavior,",
-          "start": 3.82,
-          "end": 4.64
+          "start": 3.807,
+          "end": 4.627
         }
       ]
     }

@@ -5,7 +5,7 @@
 ## Frame 01
 
 - src: compositions/frames/01-beat.html
-- duration: 4.04s
+- duration: 4.033333s
 - status: planned
 - transition_in: cut
 - look: grade desaturate
@@ -18,7 +18,7 @@
 ## Frame 02
 
 - src: compositions/frames/02-beat.html
-- duration: 6.53s
+- duration: 6.533333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: vignette 0.378
@@ -29,7 +29,7 @@
 ## Frame 03
 
 - src: compositions/frames/03-beat.html
-- duration: 2.83s
+- duration: 2.833333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: bw
@@ -39,7 +39,7 @@
 ## Frame 04
 
 - src: compositions/frames/04-beat.html
-- duration: 2.84s
+- duration: 2.833333s
 - status: planned
 - transition_in: hard-cut 0s
 - query: small factory building
@@ -48,7 +48,7 @@
 ## Frame 05
 
 - src: compositions/frames/05-beat.html
-- duration: 3.86s
+- duration: 3.866667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: bw, vignette 0.378
@@ -61,7 +61,7 @@
 ## Frame 06
 
 - src: compositions/frames/06-beat.html
-- duration: 4.16s
+- duration: 4.166667s
 - status: planned
 - transition_in: crossfade 0.25s
 - look: grade desaturate
@@ -71,7 +71,7 @@
 ## Frame 07
 
 - src: compositions/frames/07-beat.html
-- duration: 5.02s
+- duration: 5.033333s
 - status: planned
 - transition_in: hard-cut 0s
 - motion: out to 1.1303 ease power1.inOut, focus 30,54
@@ -84,7 +84,7 @@
 ## Frame 08
 
 - src: compositions/frames/08-beat.html
-- duration: 4.68s
+- duration: 4.666667s
 - status: planned
 - transition_in: smear-cut RIGHT
 - look: grade desaturate, vignette 0.378
@@ -97,7 +97,7 @@
 ## Frame 09
 
 - src: compositions/frames/09-beat.html
-- duration: 6.57s
+- duration: 6.566667s
 - status: planned
 - transition_in: hard-cut 0s
 - motion: out to 1.139 ease power1.inOut, focus 66,91
@@ -109,7 +109,7 @@
 ## Frame 10
 
 - src: compositions/frames/10-beat.html
-- duration: 6.01s
+- duration: 6.0s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate

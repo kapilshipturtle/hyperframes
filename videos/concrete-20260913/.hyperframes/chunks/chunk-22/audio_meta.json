@@ -4,645 +4,645 @@
     {
       "frame": 1,
       "path": "assets/audio/narration.mp3",
-      "mediaStart": 1003.94,
-      "duration_s": 5.71,
+      "mediaStart": 1004,
+      "duration_s": 5.7,
       "words": [
         {
           "text": "million",
-          "start": 0,
-          "end": 0.52
+          "start": -0.06,
+          "end": 0.46
         },
         {
           "text": "under",
-          "start": 0.52,
-          "end": 0.8
+          "start": 0.46,
+          "end": 0.74
         },
         {
           "text": "the",
-          "start": 0.8,
-          "end": 1.17
+          "start": 0.74,
+          "end": 1.11
         },
         {
           "text": "Industrial",
-          "start": 1.17,
-          "end": 1.67
+          "start": 1.11,
+          "end": 1.61
         },
         {
           "text": "Demonstrations",
-          "start": 1.95,
-          "end": 2.86
+          "start": 1.89,
+          "end": 2.8
         },
         {
           "text": "Program",
-          "start": 2.92,
-          "end": 3.4
+          "start": 2.86,
+          "end": 3.34
         },
         {
           "text": "to",
-          "start": 3.4,
-          "end": 3.54
+          "start": 3.34,
+          "end": 3.48
         },
         {
           "text": "build",
-          "start": 3.54,
-          "end": 3.77
+          "start": 3.48,
+          "end": 3.71
         },
         {
           "text": "a",
-          "start": 4.01,
-          "end": 4.07
+          "start": 3.95,
+          "end": 4.01
         },
         {
           "text": "first",
-          "start": 4.22,
-          "end": 4.39
+          "start": 4.16,
+          "end": 4.33
         },
         {
           "text": "commercial",
-          "start": 4.47,
-          "end": 4.84
+          "start": 4.41,
+          "end": 4.78
         },
         {
           "text": "plant,",
-          "start": 5.37,
-          "end": 5.71
+          "start": 5.31,
+          "end": 5.65
         }
       ]
     },
     {
       "frame": 2,
       "path": "assets/audio/narration.mp3",
-      "mediaStart": 1009.65,
+      "mediaStart": 1009.7,
       "duration_s": 2,
       "words": [
         {
           "text": "30,000",
-          "start": 0,
-          "end": 1.11
+          "start": -0.05,
+          "end": 1.06
         },
         {
           "text": "tons",
-          "start": 1.5,
-          "end": 1.58
+          "start": 1.45,
+          "end": 1.53
         },
         {
           "text": "a",
-          "start": 1.58,
-          "end": 1.67
+          "start": 1.53,
+          "end": 1.62
         },
         {
           "text": "year.",
-          "start": 1.67,
-          "end": 2
+          "start": 1.62,
+          "end": 1.95
         }
       ]
     },
     {
       "frame": 3,
       "path": "assets/audio/narration.mp3",
-      "mediaStart": 1011.65,
-      "duration_s": 6.51,
+      "mediaStart": 1011.7,
+      "duration_s": 6.5,
       "words": [
         {
           "text": "In",
-          "start": 0,
-          "end": 0.45
+          "start": -0.05,
+          "end": 0.4
         },
         {
           "text": "January",
-          "start": 0.45,
-          "end": 0.77
+          "start": 0.4,
+          "end": 0.72
         },
         {
           "text": "of",
-          "start": 0.77,
-          "end": 0.89
+          "start": 0.72,
+          "end": 0.84
         },
         {
           "text": "2025,",
-          "start": 0.89,
-          "end": 1.73
+          "start": 0.84,
+          "end": 1.68
         },
         {
           "text": "a",
-          "start": 1.73,
-          "end": 1.79
+          "start": 1.68,
+          "end": 1.74
         },
         {
           "text": "$46.7",
-          "start": 1.79,
-          "end": 2.57
+          "start": 1.74,
+          "end": 2.52
         },
         {
           "text": "million",
-          "start": 2.57,
-          "end": 2.99
+          "start": 2.52,
+          "end": 2.94
         },
         {
           "text": "investment",
-          "start": 2.99,
-          "end": 3.59
+          "start": 2.94,
+          "end": 3.54
         },
         {
           "text": "tax",
-          "start": 3.61,
-          "end": 3.77
+          "start": 3.56,
+          "end": 3.72
         },
         {
           "text": "credit",
-          "start": 3.77,
-          "end": 3.93
+          "start": 3.72,
+          "end": 3.88
         },
         {
           "text": "followed",
-          "start": 4.22,
-          "end": 4.61
+          "start": 4.17,
+          "end": 4.56
         },
         {
           "text": "from",
-          "start": 4.61,
-          "end": 4.81
+          "start": 4.56,
+          "end": 4.76
         },
         {
           "text": "the",
-          "start": 4.84,
-          "end": 4.85
+          "start": 4.79,
+          "end": 4.8
         },
         {
           "text": "Department",
-          "start": 5.09,
-          "end": 5.62
+          "start": 5.04,
+          "end": 5.57
         },
         {
           "text": "of",
-          "start": 5.63,
-          "end": 5.79
+          "start": 5.58,
+          "end": 5.74
         },
         {
           "text": "Energy",
-          "start": 6.01,
-          "end": 6.27
+          "start": 5.96,
+          "end": 6.22
         },
         {
           "text": "and",
-          "start": 6.27,
-          "end": 6.51
+          "start": 6.22,
+          "end": 6.46
         }
       ]
     },
     {
       "frame": 4,
       "path": "assets/audio/narration.mp3",
-      "mediaStart": 1018.16,
-      "duration_s": 4.61,
+      "mediaStart": 1018.2,
+      "duration_s": 4.6,
       "words": [
         {
           "text": "the",
-          "start": 0,
-          "end": 0.12
+          "start": -0.04,
+          "end": 0.08
         },
         {
           "text": "IRS",
-          "start": 0.23,
-          "end": 0.46
+          "start": 0.19,
+          "end": 0.42
         },
         {
           "text": "total",
-          "start": 0.65,
-          "end": 0.88
+          "start": 0.61,
+          "end": 0.84
         },
         {
           "text": "projected",
-          "start": 0.88,
-          "end": 1.55
+          "start": 0.84,
+          "end": 1.51
         },
         {
           "text": "plant",
-          "start": 1.61,
-          "end": 2.01
+          "start": 1.57,
+          "end": 1.97
         },
         {
           "text": "cost,",
-          "start": 2.01,
-          "end": 2.49
+          "start": 1.97,
+          "end": 2.45
         },
         {
           "text": "around",
-          "start": 2.49,
-          "end": 2.97
+          "start": 2.45,
+          "end": 2.93
         },
         {
           "text": "$150",
-          "start": 2.97,
-          "end": 3.78
+          "start": 2.93,
+          "end": 3.74
         },
         {
           "text": "million.",
-          "start": 3.78,
-          "end": 4.61
+          "start": 3.74,
+          "end": 4.57
         }
       ]
     },
     {
       "frame": 5,
       "path": "assets/audio/narration.mp3",
-      "mediaStart": 1022.77,
-      "duration_s": 5.61,
+      "mediaStart": 1022.8,
+      "duration_s": 5.6,
       "words": [
         {
           "text": "The",
-          "start": 0,
-          "end": 0.27
+          "start": -0.03,
+          "end": 0.24
         },
         {
           "text": "site",
-          "start": 0.27,
-          "end": 0.44
+          "start": 0.24,
+          "end": 0.41
         },
         {
           "text": "was",
-          "start": 0.52,
-          "end": 0.72
+          "start": 0.49,
+          "end": 0.69
         },
         {
           "text": "Holyoke,",
-          "start": 0.72,
-          "end": 1.32
+          "start": 0.69,
+          "end": 1.29
         },
         {
           "text": "Massachusetts,",
-          "start": 1.42,
-          "end": 2.33
+          "start": 1.39,
+          "end": 2.3
         },
         {
           "text": "16",
-          "start": 2.33,
-          "end": 2.72
+          "start": 2.3,
+          "end": 2.69
         },
         {
           "text": "acres",
-          "start": 2.72,
-          "end": 2.89
+          "start": 2.69,
+          "end": 2.86
         },
         {
           "text": "on",
-          "start": 2.89,
-          "end": 3.26
+          "start": 2.86,
+          "end": 3.23
         },
         {
           "text": "Water",
-          "start": 3.26,
-          "end": 3.52
+          "start": 3.23,
+          "end": 3.49
         },
         {
           "text": "Street,",
-          "start": 3.52,
-          "end": 4.05
+          "start": 3.49,
+          "end": 4.02
         },
         {
           "text": "in",
-          "start": 4.05,
-          "end": 4.17
+          "start": 4.02,
+          "end": 4.14
         },
         {
           "text": "the",
-          "start": 4.18,
-          "end": 4.38
+          "start": 4.15,
+          "end": 4.35
         },
         {
           "text": "industrial",
-          "start": 4.38,
-          "end": 5.02
+          "start": 4.35,
+          "end": 4.99
         },
         {
           "text": "flats,",
-          "start": 5.05,
-          "end": 5.61
+          "start": 5.02,
+          "end": 5.58
         }
       ]
     },
     {
       "frame": 6,
       "path": "assets/audio/narration.mp3",
-      "mediaStart": 1028.38,
-      "duration_s": 2.96,
+      "mediaStart": 1028.4,
+      "duration_s": 2.966667,
       "words": [
         {
           "text": "on",
-          "start": 0,
-          "end": 0.22
+          "start": -0.02,
+          "end": 0.2
         },
         {
           "text": "land",
-          "start": 0.22,
-          "end": 0.49
+          "start": 0.2,
+          "end": 0.47
         },
         {
           "text": "that",
-          "start": 0.49,
-          "end": 0.82
+          "start": 0.47,
+          "end": 0.8
         },
         {
           "text": "used",
-          "start": 0.82,
-          "end": 0.87
+          "start": 0.8,
+          "end": 0.85
         },
         {
           "text": "to",
-          "start": 0.87,
-          "end": 1.37
+          "start": 0.85,
+          "end": 1.35
         },
         {
           "text": "hold",
-          "start": 1.37,
-          "end": 1.64
+          "start": 1.35,
+          "end": 1.62
         },
         {
           "text": "paper",
-          "start": 1.64,
-          "end": 2.05
+          "start": 1.62,
+          "end": 2.03
         },
         {
           "text": "mills.",
-          "start": 2.05,
-          "end": 2.74
+          "start": 2.03,
+          "end": 2.72
         }
       ]
     },
     {
       "frame": 7,
       "path": "assets/audio/narration.mp3",
-      "mediaStart": 1031.34,
-      "duration_s": 1.64,
+      "mediaStart": 1031.366667,
+      "duration_s": 1.633333,
       "words": [
         {
           "text": "Holyoke",
-          "start": 0,
-          "end": 0.17
+          "start": -0.027,
+          "end": 0.143
         },
         {
           "text": "was",
-          "start": 0.25,
-          "end": 0.38
+          "start": 0.223,
+          "end": 0.353
         },
         {
           "text": "built",
-          "start": 0.38,
-          "end": 0.6
+          "start": 0.353,
+          "end": 0.573
         },
         {
           "text": "on",
-          "start": 0.6,
-          "end": 0.875
+          "start": 0.573,
+          "end": 0.848
         },
         {
           "text": "water",
-          "start": 0.875,
-          "end": 1.15
+          "start": 0.848,
+          "end": 1.123
         },
         {
           "text": "power.",
-          "start": 1.15,
-          "end": 1.62
+          "start": 1.123,
+          "end": 1.593
         }
       ]
     },
     {
       "frame": 8,
       "path": "assets/audio/narration.mp3",
-      "mediaStart": 1032.98,
-      "duration_s": 6.44,
+      "mediaStart": 1033,
+      "duration_s": 6.433333,
       "words": [
         {
           "text": "In",
-          "start": 0,
-          "end": 0.07
+          "start": -0.02,
+          "end": 0.05
         },
         {
           "text": "the",
-          "start": 0.2,
-          "end": 0.21
+          "start": 0.18,
+          "end": 0.19
         },
         {
           "text": "19th",
-          "start": 0.21,
-          "end": 0.59
+          "start": 0.19,
+          "end": 0.57
         },
         {
           "text": "century,",
-          "start": 0.59,
-          "end": 0.99
+          "start": 0.57,
+          "end": 0.97
         },
         {
           "text": "its",
-          "start": 1.01,
-          "end": 1.15
+          "start": 0.99,
+          "end": 1.13
         },
         {
           "text": "canal",
-          "start": 1.35,
-          "end": 1.4
+          "start": 1.33,
+          "end": 1.38
         },
         {
           "text": "system",
-          "start": 1.4,
-          "end": 1.69
+          "start": 1.38,
+          "end": 1.67
         },
         {
           "text": "and",
-          "start": 1.69,
-          "end": 1.83
+          "start": 1.67,
+          "end": 1.81
         },
         {
           "text": "turbines",
-          "start": 1.83,
-          "end": 2.22
+          "start": 1.81,
+          "end": 2.2
         },
         {
           "text": "drove",
-          "start": 2.22,
-          "end": 2.46
+          "start": 2.2,
+          "end": 2.44
         },
         {
           "text": "the",
-          "start": 2.46,
-          "end": 2.6
+          "start": 2.44,
+          "end": 2.58
         },
         {
           "text": "mills",
-          "start": 2.6,
-          "end": 2.8
+          "start": 2.58,
+          "end": 2.78
         },
         {
           "text": "that",
-          "start": 2.83,
-          "end": 2.85
+          "start": 2.81,
+          "end": 2.83
         },
         {
           "text": "at",
-          "start": 2.85,
-          "end": 3.19
+          "start": 2.83,
+          "end": 3.17
         },
         {
           "text": "one",
-          "start": 3.19,
-          "end": 3.26
+          "start": 3.17,
+          "end": 3.24
         },
         {
           "text": "point",
-          "start": 3.36,
-          "end": 3.62
+          "start": 3.34,
+          "end": 3.6
         },
         {
           "text": "produced",
-          "start": 3.62,
-          "end": 3.69
+          "start": 3.6,
+          "end": 3.67
         },
         {
           "text": "something",
-          "start": 4.18,
-          "end": 4.49
+          "start": 4.16,
+          "end": 4.47
         },
         {
           "text": "like",
-          "start": 4.49,
-          "end": 4.73
+          "start": 4.47,
+          "end": 4.71
         },
         {
           "text": "80%",
-          "start": 4.73,
-          "end": 5.13
+          "start": 4.71,
+          "end": 5.11
         },
         {
           "text": "of",
-          "start": 5.13,
-          "end": 5.33
+          "start": 5.11,
+          "end": 5.31
         },
         {
           "text": "the",
-          "start": 5.33,
-          "end": 5.43
+          "start": 5.31,
+          "end": 5.41
         },
         {
           "text": "writing",
-          "start": 5.43,
-          "end": 5.84
+          "start": 5.41,
+          "end": 5.82
         },
         {
           "text": "paper",
-          "start": 5.84,
-          "end": 6.02
+          "start": 5.82,
+          "end": 6
         },
         {
           "text": "in",
-          "start": 6.14,
-          "end": 6.25
+          "start": 6.12,
+          "end": 6.23
         },
         {
           "text": "the",
-          "start": 6.29,
-          "end": 6.44
+          "start": 6.27,
+          "end": 6.42
         }
       ]
     },
     {
       "frame": 9,
       "path": "assets/audio/narration.mp3",
-      "mediaStart": 1039.42,
-      "duration_s": 2.96,
+      "mediaStart": 1039.433333,
+      "duration_s": 2.966667,
       "words": [
         {
           "text": "United",
-          "start": 0,
-          "end": 0.34
+          "start": -0.013,
+          "end": 0.327
         },
         {
           "text": "States.",
-          "start": 0.35,
-          "end": 0.94
+          "start": 0.337,
+          "end": 0.927
         },
         {
           "text": "They",
-          "start": 1.16,
-          "end": 1.2
+          "start": 1.147,
+          "end": 1.187
         },
         {
           "text": "called",
-          "start": 1.2,
-          "end": 1.59
+          "start": 1.187,
+          "end": 1.577
         },
         {
           "text": "it",
-          "start": 1.59,
-          "end": 1.72
+          "start": 1.577,
+          "end": 1.707
         },
         {
           "text": "the",
-          "start": 1.72,
-          "end": 1.79
+          "start": 1.707,
+          "end": 1.777
         },
         {
           "text": "Paper",
-          "start": 1.79,
-          "end": 2.31
+          "start": 1.777,
+          "end": 2.297
         },
         {
           "text": "City.",
-          "start": 2.31,
-          "end": 2.74
+          "start": 2.297,
+          "end": 2.727
         }
       ]
     },
     {
       "frame": 10,
       "path": "assets/audio/narration.mp3",
-      "mediaStart": 1042.38,
+      "mediaStart": 1042.4,
       "duration_s": 2.8,
       "words": [
         {
           "text": "Then",
-          "start": 0,
-          "end": 0.02
+          "start": -0.02,
+          "end": 0
         },
         {
           "text": "the",
-          "start": 0.02,
-          "end": 0.17
+          "start": 0,
+          "end": 0.15
         },
         {
           "text": "mills",
-          "start": 0.25,
-          "end": 0.5
+          "start": 0.23,
+          "end": 0.48
         },
         {
           "text": "went,",
-          "start": 0.5,
-          "end": 0.85
+          "start": 0.48,
+          "end": 0.83
         },
         {
           "text": "the",
-          "start": 0.99,
-          "end": 1.01
+          "start": 0.97,
+          "end": 0.99
         },
         {
           "text": "way",
-          "start": 1.15,
-          "end": 1.22
+          "start": 1.13,
+          "end": 1.2
         },
         {
           "text": "mills",
-          "start": 1.22,
-          "end": 1.52
+          "start": 1.2,
+          "end": 1.5
         },
         {
           "text": "went",
-          "start": 1.52,
-          "end": 1.76
+          "start": 1.5,
+          "end": 1.74
         },
         {
           "text": "everywhere.",
-          "start": 1.76,
-          "end": 2.58
+          "start": 1.74,
+          "end": 2.56
         }
       ]
     }

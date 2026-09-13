@@ -3,8 +3,8 @@
     {
       "id": "76",
       "text": "And it needs a pipeline and a permanent storage site that most plants simply do not have next door.",
-      "start": 299.64,
-      "end": 304.54,
+      "start": 299.666667,
+      "end": 304.566667,
       "durationSeconds": 4.9,
       "words": [
         {
@@ -102,14 +102,15 @@
           "start": 303.94,
           "end": 304.54
         }
-      ]
+      ],
+      "frames": 147
     },
     {
       "id": "77",
       "text": "So sit with the shape of this for a moment.",
-      "start": 304.54,
-      "end": 306.77,
-      "durationSeconds": 2.23,
+      "start": 304.566667,
+      "end": 306.8,
+      "durationSeconds": 2.233333,
       "words": [
         {
           "text": "So",
@@ -161,14 +162,15 @@
           "start": 306.25,
           "end": 306.77
         }
-      ]
+      ],
+      "frames": 67
     },
     {
       "id": "78",
       "text": "The most used manufactured material on Earth, made by a process whose emissions are written into the molecular structure of the input.",
-      "start": 306.77,
-      "end": 313.49,
-      "durationSeconds": 6.72,
+      "start": 306.8,
+      "end": 313.533333,
+      "durationSeconds": 6.733333,
       "words": [
         {
           "text": "The",
@@ -280,14 +282,15 @@
           "start": 312.93,
           "end": 313.48
         }
-      ]
+      ],
+      "frames": 202
     },
     {
       "id": "79",
       "text": "A product so cheap that shipping at any real distance costs more than making it.",
-      "start": 313.49,
-      "end": 317.6,
-      "durationSeconds": 4.11,
+      "start": 313.533333,
+      "end": 317.633333,
+      "durationSeconds": 4.1,
       "words": [
         {
           "text": "A",
@@ -364,14 +367,15 @@
           "start": 317.38,
           "end": 317.6
         }
-      ]
+      ],
+      "frames": 123
     },
     {
       "id": "80",
       "text": "An industry with thousands of existing plants, each one a billion dollar asset, with decades of life left.",
-      "start": 317.6,
-      "end": 324.04,
-      "durationSeconds": 6.44,
+      "start": 317.633333,
+      "end": 324.066667,
+      "durationSeconds": 6.433333,
       "words": [
         {
           "text": "An",
@@ -463,14 +467,15 @@
           "start": 323.17,
           "end": 324.04
         }
-      ]
+      ],
+      "frames": 193
     },
     {
       "id": "81",
       "text": "And one more pressure, specific to the United States.",
-      "start": 324.04,
-      "end": 327.26,
-      "durationSeconds": 3.22,
+      "start": 324.066667,
+      "end": 327.3,
+      "durationSeconds": 3.233333,
       "words": [
         {
           "text": "And",
@@ -517,14 +522,15 @@
           "start": 326.42,
           "end": 326.89
         }
-      ]
+      ],
+      "frames": 97
     },
     {
       "id": "82",
       "text": "America does not make enough of its own. The country imports tens of millions of tons of cement a year.",
-      "start": 327.26,
-      "end": 332.34,
-      "durationSeconds": 5.08,
+      "start": 327.3,
+      "end": 332.366667,
+      "durationSeconds": 5.066667,
       "words": [
         {
           "text": "America",
@@ -626,14 +632,15 @@
           "start": 331.64,
           "end": 332.12
         }
-      ]
+      ],
+      "frames": 152
     },
     {
       "id": "83",
       "text": "That is not a climate statistic. That is a supply chain statistic.",
-      "start": 332.34,
-      "end": 335.8,
-      "durationSeconds": 3.46,
+      "start": 332.366667,
+      "end": 335.833333,
+      "durationSeconds": 3.466667,
       "words": [
         {
           "text": "That",
@@ -695,13 +702,14 @@
           "start": 335.29,
           "end": 335.8
         }
-      ]
+      ],
+      "frames": 104
     },
     {
       "id": "84",
       "text": "And it is the reason this story has an audience across the political spectrum.",
-      "start": 335.8,
-      "end": 339.8,
+      "start": 335.833333,
+      "end": 339.833333,
       "durationSeconds": 4,
       "words": [
         {
@@ -774,14 +782,15 @@
           "start": 339.03,
           "end": 339.8
         }
-      ]
+      ],
+      "frames": 120
     },
     {
       "id": "85",
       "text": "For 60 years, the process emission did not budge, not because nobody tried, because the problem was in the rock,",
-      "start": 339.8,
-      "end": 346.06,
-      "durationSeconds": 6.26,
+      "start": 339.833333,
+      "end": 346.1,
+      "durationSeconds": 6.266667,
       "words": [
         {
           "text": "For",
@@ -883,7 +892,8 @@
           "start": 345.93,
           "end": 346.06
         }
-      ]
+      ],
+      "frames": 188
     }
   ]
 }

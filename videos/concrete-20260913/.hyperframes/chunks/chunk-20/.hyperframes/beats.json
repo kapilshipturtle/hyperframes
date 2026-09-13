@@ -3,9 +3,9 @@
     {
       "id": "212",
       "text": "it is Holsim and C.R.H.",
-      "start": 909.85,
-      "end": 911.94,
-      "durationSeconds": 2.09,
+      "start": 909.9,
+      "end": 912,
+      "durationSeconds": 2.1,
       "words": [
         {
           "text": "it",
@@ -32,14 +32,15 @@
           "start": 910.77,
           "end": 911.64
         }
-      ]
+      ],
+      "frames": 63
     },
     {
       "id": "213",
       "text": "Instead, they wrote checks and reserve tonnage.",
-      "start": 911.94,
-      "end": 915.3,
-      "durationSeconds": 3.36,
+      "start": 912,
+      "end": 915.366667,
+      "durationSeconds": 3.366667,
       "words": [
         {
           "text": "Instead,",
@@ -76,14 +77,15 @@
           "start": 914.28,
           "end": 915.08
         }
-      ]
+      ],
+      "frames": 101
     },
     {
       "id": "214",
       "text": "That is not a press release. That is two incumbents deciding that being early to the thing that threatens them is cheaper than being",
-      "start": 915.3,
-      "end": 921.78,
-      "durationSeconds": 6.48,
+      "start": 915.366667,
+      "end": 921.833333,
+      "durationSeconds": 6.466667,
       "words": [
         {
           "text": "That",
@@ -205,14 +207,15 @@
           "start": 921.77,
           "end": 921.78
         }
-      ]
+      ],
+      "frames": 194
     },
     {
       "id": "215",
       "text": "late to it. Then the customer side.",
-      "start": 921.78,
-      "end": 924.12,
-      "durationSeconds": 2.34,
+      "start": 921.833333,
+      "end": 924.166667,
+      "durationSeconds": 2.333333,
       "words": [
         {
           "text": "late",
@@ -249,14 +252,15 @@
           "start": 923.66,
           "end": 924.12
         }
-      ]
+      ],
+      "frames": 70
     },
     {
       "id": "216",
       "text": "On May 22, 2025, Microsoft signed a binding agreement to purchase up to 622,500",
-      "start": 924.12,
-      "end": 930.98,
-      "durationSeconds": 6.86,
+      "start": 924.166667,
+      "end": 931.033333,
+      "durationSeconds": 6.866667,
       "words": [
         {
           "text": "On",
@@ -328,14 +332,15 @@
           "start": 929.52,
           "end": 930.98
         }
-      ]
+      ],
+      "frames": 206
     },
     {
       "id": "217",
       "text": "metric tons of sublime cement over six to nine years, an agreement tied to the output of the first commercial",
-      "start": 930.98,
-      "end": 937.43,
-      "durationSeconds": 6.45,
+      "start": 931.033333,
+      "end": 937.5,
+      "durationSeconds": 6.466667,
       "words": [
         {
           "text": "metric",
@@ -437,14 +442,15 @@
           "start": 937,
           "end": 937.43
         }
-      ]
+      ],
+      "frames": 194
     },
     {
       "id": "218",
       "text": "plant, aimed substantially at data center construction.",
-      "start": 937.43,
-      "end": 940.84,
-      "durationSeconds": 3.41,
+      "start": 937.5,
+      "end": 940.9,
+      "durationSeconds": 3.4,
       "words": [
         {
           "text": "plant,",
@@ -481,14 +487,15 @@
           "start": 939.99,
           "end": 940.84
         }
-      ]
+      ],
+      "frames": 102
     },
     {
       "id": "219",
       "text": "Read the word binding again. This is not a memorandum of understanding or a letter of intent.",
-      "start": 940.84,
-      "end": 945.76,
-      "durationSeconds": 4.92,
+      "start": 940.9,
+      "end": 945.833333,
+      "durationSeconds": 4.933333,
       "words": [
         {
           "text": "Read",
@@ -575,14 +582,15 @@
           "start": 945.15,
           "end": 945.76
         }
-      ]
+      ],
+      "frames": 148
     },
     {
       "id": "220",
       "text": "It is a company with among the most sophisticated procurement operations in existence, committing to buy hundreds of thousands of",
-      "start": 945.76,
-      "end": 952.15,
-      "durationSeconds": 6.39,
+      "start": 945.833333,
+      "end": 952.233333,
+      "durationSeconds": 6.4,
       "words": [
         {
           "text": "It",
@@ -684,14 +692,15 @@
           "start": 952,
           "end": 952.15
         }
-      ]
+      ],
+      "frames": 192
     },
     {
       "id": "221",
       "text": "tons of a material from a factory that did not yet exist.",
-      "start": 952.15,
-      "end": 955.84,
-      "durationSeconds": 3.69,
+      "start": 952.233333,
+      "end": 955.933333,
+      "durationSeconds": 3.7,
       "words": [
         {
           "text": "tons",
@@ -753,7 +762,8 @@
           "start": 955.16,
           "end": 955.84
         }
-      ]
+      ],
+      "frames": 111
     }
   ]
 }

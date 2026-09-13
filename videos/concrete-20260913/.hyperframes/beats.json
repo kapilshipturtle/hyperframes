@@ -3,9 +3,9 @@
     {
       "id": "01",
       "text": "Look down, whatever is under your feet right now, a floor, a sidewalk, a parking structure,",
-      "start": 0.22,
-      "end": 6.18,
-      "durationSeconds": 5.96,
+      "start": 0.233333,
+      "end": 6.2,
+      "durationSeconds": 5.966667,
       "words": [
         {
           "text": "Look",
@@ -87,14 +87,15 @@
           "start": 5.28,
           "end": 6.18
         }
-      ]
+      ],
+      "frames": 179
     },
     {
       "id": "02",
       "text": "the slab your building is standing on, there is a very high chance it is concrete.",
-      "start": 6.18,
-      "end": 10.54,
-      "durationSeconds": 4.36,
+      "start": 6.2,
+      "end": 10.566667,
+      "durationSeconds": 4.366667,
       "words": [
         {
           "text": "the",
@@ -176,14 +177,15 @@
           "start": 9.76,
           "end": 10.54
         }
-      ]
+      ],
+      "frames": 131
     },
     {
       "id": "03",
       "text": "The stairwell you use, the pipe carrying water to your kitchen, the bridge you crossed this morning without looking at it once.",
-      "start": 10.54,
-      "end": 17.45,
-      "durationSeconds": 6.91,
+      "start": 10.566667,
+      "end": 17.466667,
+      "durationSeconds": 6.9,
       "words": [
         {
           "text": "The",
@@ -295,14 +297,15 @@
           "start": 16.71,
           "end": 17.28
         }
-      ]
+      ],
+      "frames": 207
     },
     {
       "id": "04",
       "text": "Concrete is the second most used substance on this planet, only water beats it.",
-      "start": 17.45,
+      "start": 17.466667,
       "end": 21.4,
-      "durationSeconds": 3.95,
+      "durationSeconds": 3.933333,
       "words": [
         {
           "text": "Concrete",
@@ -374,14 +377,15 @@
           "start": 20.97,
           "end": 21.4
         }
-      ]
+      ],
+      "frames": 118
     },
     {
       "id": "05",
       "text": "And the grey powder that holds it together, cement, is made in one specific way.",
       "start": 21.4,
-      "end": 25.98,
-      "durationSeconds": 4.58,
+      "end": 25.966667,
+      "durationSeconds": 4.566667,
       "words": [
         {
           "text": "And",
@@ -458,14 +462,15 @@
           "start": 25.54,
           "end": 25.98
         }
-      ]
+      ],
+      "frames": 137
     },
     {
       "id": "06",
       "text": "You take limestone out of the ground.",
-      "start": 25.98,
-      "end": 28.02,
-      "durationSeconds": 2.04,
+      "start": 25.966667,
+      "end": 28.0,
+      "durationSeconds": 2.033333,
       "words": [
         {
           "text": "You",
@@ -502,14 +507,15 @@
           "start": 27.46,
           "end": 28.02
         }
-      ]
+      ],
+      "frames": 61
     },
     {
       "id": "07",
       "text": "You put it in a kiln, you heat that kiln to about 1,450 degrees Celsius, roughly 2,640 Fahrenheit,",
-      "start": 28.02,
-      "end": 34.76,
-      "durationSeconds": 6.74,
+      "start": 28.0,
+      "end": 34.733333,
+      "durationSeconds": 6.733333,
       "words": [
         {
           "text": "You",
@@ -601,14 +607,15 @@
           "start": 34.14,
           "end": 34.76
         }
-      ]
+      ],
+      "frames": 202
     },
     {
       "id": "08",
       "text": "hot enough that the rock stops being rock.",
-      "start": 34.76,
-      "end": 37.6,
-      "durationSeconds": 2.84,
+      "start": 34.733333,
+      "end": 37.566667,
+      "durationSeconds": 2.833333,
       "words": [
         {
           "text": "hot",
@@ -650,14 +657,15 @@
           "start": 37.13,
           "end": 37.6
         }
-      ]
+      ],
+      "frames": 85
     },
     {
       "id": "09",
       "text": "Out the other end comes cement.",
-      "start": 37.6,
-      "end": 39.72,
-      "durationSeconds": 2.12,
+      "start": 37.566667,
+      "end": 39.7,
+      "durationSeconds": 2.133333,
       "words": [
         {
           "text": "Out",
@@ -689,14 +697,15 @@
           "start": 38.97,
           "end": 39.5
         }
-      ]
+      ],
+      "frames": 64
     },
     {
       "id": "10",
       "text": "The world does this about 4 billion tons a year.",
-      "start": 39.72,
-      "end": 43.24,
-      "durationSeconds": 3.52,
+      "start": 39.7,
+      "end": 43.233333,
+      "durationSeconds": 3.533333,
       "words": [
         {
           "text": "The",
@@ -748,14 +757,15 @@
           "start": 42.71,
           "end": 43.02
         }
-      ]
+      ],
+      "frames": 106
     },
     {
       "id": "11",
       "text": "Here is the part almost nobody outside the industry knows.",
-      "start": 43.24,
-      "end": 46.38,
-      "durationSeconds": 3.14,
+      "start": 43.233333,
+      "end": 46.366667,
+      "durationSeconds": 3.133333,
       "words": [
         {
           "text": "Here",
@@ -807,13 +817,14 @@
           "start": 45.62,
           "end": 46.16
         }
-      ]
+      ],
+      "frames": 94
     },
     {
       "id": "12",
       "text": "That kiln has two carbon problems, not one.",
-      "start": 46.38,
-      "end": 49.18,
+      "start": 46.366667,
+      "end": 49.166667,
       "durationSeconds": 2.8,
       "words": [
         {
@@ -856,14 +867,15 @@
           "start": 48.49,
           "end": 48.96
         }
-      ]
+      ],
+      "frames": 84
     },
     {
       "id": "13",
       "text": "The first is obvious. You are burning fuel to reach 2,640 degrees.",
-      "start": 49.18,
+      "start": 49.166667,
       "end": 53.8,
-      "durationSeconds": 4.62,
+      "durationSeconds": 4.633333,
       "words": [
         {
           "text": "The",
@@ -925,14 +937,15 @@
           "start": 53.07,
           "end": 53.8
         }
-      ]
+      ],
+      "frames": 139
     },
     {
       "id": "14",
       "text": "The second is the one that has trapped this entire industry for two centuries.",
       "start": 53.8,
-      "end": 58.22,
-      "durationSeconds": 4.42,
+      "end": 58.233333,
+      "durationSeconds": 4.433333,
       "words": [
         {
           "text": "The",
@@ -1004,14 +1017,15 @@
           "start": 57.18,
           "end": 58
         }
-      ]
+      ],
+      "frames": 133
     },
     {
       "id": "15",
       "text": "Sandstone is roughly 44% carbon dioxide by weight.",
-      "start": 58.22,
-      "end": 61.44,
-      "durationSeconds": 3.22,
+      "start": 58.233333,
+      "end": 61.466667,
+      "durationSeconds": 3.233333,
       "words": [
         {
           "text": "Sandstone",
@@ -1053,14 +1067,15 @@
           "start": 60.58,
           "end": 61.22
         }
-      ]
+      ],
+      "frames": 97
     },
     {
       "id": "16",
       "text": "Nearly half the rock, by mass, is carbon dioxide waiting to leave.",
-      "start": 61.44,
-      "end": 65.62,
-      "durationSeconds": 4.18,
+      "start": 61.466667,
+      "end": 65.633333,
+      "durationSeconds": 4.166667,
       "words": [
         {
           "text": "Nearly",
@@ -1122,14 +1137,15 @@
           "start": 64.79,
           "end": 65.4
         }
-      ]
+      ],
+      "frames": 125
     },
     {
       "id": "17",
       "text": "Heat it and it leaves. That release has nothing to do with the fuel.",
-      "start": 65.62,
-      "end": 69.26,
-      "durationSeconds": 3.64,
+      "start": 65.633333,
+      "end": 69.266667,
+      "durationSeconds": 3.633333,
       "words": [
         {
           "text": "Heat",
@@ -1201,14 +1217,15 @@
           "start": 68.64,
           "end": 69.04
         }
-      ]
+      ],
+      "frames": 109
     },
     {
       "id": "18",
       "text": "Switch the kiln to hydrogen, to electricity, to sunlight.",
-      "start": 69.26,
-      "end": 73.04,
-      "durationSeconds": 3.78,
+      "start": 69.266667,
+      "end": 73.033333,
+      "durationSeconds": 3.766667,
       "words": [
         {
           "text": "Switch",
@@ -1255,13 +1272,14 @@
           "start": 72.25,
           "end": 72.74
         }
-      ]
+      ],
+      "frames": 113
     },
     {
       "id": "19",
       "text": "The rock still breathes out.",
-      "start": 73.04,
-      "end": 75.24,
+      "start": 73.033333,
+      "end": 75.233333,
       "durationSeconds": 2.2,
       "words": [
         {
@@ -1289,13 +1307,14 @@
           "start": 74.65,
           "end": 75.24
         }
-      ]
+      ],
+      "frames": 66
     },
     {
       "id": "20",
       "text": "So when people say cement is hard to decarbonize, this is what they actually mean.",
-      "start": 75.24,
-      "end": 79.44,
+      "start": 75.233333,
+      "end": 79.433333,
       "durationSeconds": 4.2,
       "words": [
         {
@@ -1373,14 +1392,15 @@
           "start": 78.91,
           "end": 79.44
         }
-      ]
+      ],
+      "frames": 126
     },
     {
       "id": "21",
       "text": "It is not an engineering shortfall, it is the chemistry of the raw material.",
-      "start": 79.44,
-      "end": 83.68,
-      "durationSeconds": 4.24,
+      "start": 79.433333,
+      "end": 83.666667,
+      "durationSeconds": 4.233333,
       "words": [
         {
           "text": "It",
@@ -1452,14 +1472,15 @@
           "start": 82.88,
           "end": 83.68
         }
-      ]
+      ],
+      "frames": 127
     },
     {
       "id": "22",
       "text": "Two people at MIT built a machine that skips both problems.",
-      "start": 83.68,
-      "end": 87,
-      "durationSeconds": 3.32,
+      "start": 83.666667,
+      "end": 87.0,
+      "durationSeconds": 3.333333,
       "words": [
         {
           "text": "Two",
@@ -1516,14 +1537,15 @@
           "start": 86.25,
           "end": 87
         }
-      ]
+      ],
+      "frames": 100
     },
     {
       "id": "23",
       "text": "No kiln, no flame, no limestone.",
-      "start": 87,
-      "end": 90.44,
-      "durationSeconds": 3.44,
+      "start": 87.0,
+      "end": 90.433333,
+      "durationSeconds": 3.433333,
       "words": [
         {
           "text": "No",
@@ -1555,14 +1577,15 @@
           "start": 89.09,
           "end": 90.44
         }
-      ]
+      ],
+      "frames": 103
     },
     {
       "id": "24",
       "text": "It runs at about room temperature, on electricity.",
-      "start": 90.44,
+      "start": 90.433333,
       "end": 93.2,
-      "durationSeconds": 2.76,
+      "durationSeconds": 2.766667,
       "words": [
         {
           "text": "It",
@@ -1604,7 +1627,8 @@
           "start": 92.34,
           "end": 93.2
         }
-      ]
+      ],
+      "frames": 83
     },
     {
       "id": "25",
@@ -1683,14 +1707,15 @@
           "start": 96.58,
           "end": 97.3
         }
-      ]
+      ],
+      "frames": 123
     },
     {
       "id": "26",
       "text": "It is cement, certified to the same standard as the ordinary stuff, poured into the foundation of a real building in Boston",
       "start": 97.3,
-      "end": 103.69,
-      "durationSeconds": 6.39,
+      "end": 103.7,
+      "durationSeconds": 6.4,
       "words": [
         {
           "text": "It",
@@ -1802,14 +1827,15 @@
           "start": 103.45,
           "end": 103.69
         }
-      ]
+      ],
+      "frames": 192
     },
     {
       "id": "27",
       "text": "with a binding order from Microsoft for over 600,000 tons.",
-      "start": 103.69,
+      "start": 103.7,
       "end": 108.2,
-      "durationSeconds": 4.51,
+      "durationSeconds": 4.5,
       "words": [
         {
           "text": "with",
@@ -1861,14 +1887,15 @@
           "start": 107.68,
           "end": 108.2
         }
-      ]
+      ],
+      "frames": 135
     },
     {
       "id": "28",
       "text": "And in May of 2025, the federal grant paying for half of their first factory was cancelled.",
       "start": 108.2,
-      "end": 113.53,
-      "durationSeconds": 5.33,
+      "end": 113.533333,
+      "durationSeconds": 5.333333,
       "words": [
         {
           "text": "And",
@@ -1955,14 +1982,15 @@
           "start": 112.71,
           "end": 113.53
         }
-      ]
+      ],
+      "frames": 160
     },
     {
       "id": "29",
       "text": "If this is the kind of thing you stay to the end of, a like helps more than you'd think.",
-      "start": 113.53,
-      "end": 117.88,
-      "durationSeconds": 4.35,
+      "start": 113.533333,
+      "end": 117.866667,
+      "durationSeconds": 4.333333,
       "words": [
         {
           "text": "If",
@@ -2064,13 +2092,14 @@
           "start": 117.55,
           "end": 117.88
         }
-      ]
+      ],
+      "frames": 130
     },
     {
       "id": "30",
       "text": "And subscribing with notifications on means the next one actually finds you.",
-      "start": 117.88,
-      "end": 122.18,
+      "start": 117.866667,
+      "end": 122.166667,
       "durationSeconds": 4.3,
       "words": [
         {
@@ -2133,14 +2162,15 @@
           "start": 121.55,
           "end": 121.96
         }
-      ]
+      ],
+      "frames": 129
     },
     {
       "id": "31",
       "text": "What follows is three things.",
-      "start": 122.18,
-      "end": 124.37,
-      "durationSeconds": 2.19,
+      "start": 122.166667,
+      "end": 124.366667,
+      "durationSeconds": 2.2,
       "words": [
         {
           "text": "What",
@@ -2167,14 +2197,15 @@
           "start": 123.54,
           "end": 124.36
         }
-      ]
+      ],
+      "frames": 66
     },
     {
       "id": "32",
       "text": "A mineral that is nearly half carbon dioxide by weight, and why that single fact has defeated 60 years of good engineering.",
-      "start": 124.37,
-      "end": 130.69,
-      "durationSeconds": 6.32,
+      "start": 124.366667,
+      "end": 130.7,
+      "durationSeconds": 6.333333,
       "words": [
         {
           "text": "A",
@@ -2286,14 +2317,15 @@
           "start": 130.29,
           "end": 130.68
         }
-      ]
+      ],
+      "frames": 190
     },
     {
       "id": "33",
       "text": "A concrete pour in Boston's seaport where the most remarkable thing that happened was nothing.",
-      "start": 130.69,
-      "end": 135.08,
-      "durationSeconds": 4.39,
+      "start": 130.7,
+      "end": 135.1,
+      "durationSeconds": 4.4,
       "words": [
         {
           "text": "A",
@@ -2370,14 +2402,15 @@
           "start": 134.46,
           "end": 135.08
         }
-      ]
+      ],
+      "frames": 132
     },
     {
       "id": "34",
       "text": "And an $87 million line item in a Department of Energy portfolio that, when it disappeared,",
-      "start": 135.08,
-      "end": 140.46,
-      "durationSeconds": 5.38,
+      "start": 135.1,
+      "end": 140.466667,
+      "durationSeconds": 5.366667,
       "words": [
         {
           "text": "And",
@@ -2459,14 +2492,15 @@
           "start": 139.38,
           "end": 140.21
         }
-      ]
+      ],
+      "frames": 161
     },
     {
       "id": "35",
       "text": "took a factory with it.",
-      "start": 140.46,
-      "end": 142.29,
-      "durationSeconds": 1.83,
+      "start": 140.466667,
+      "end": 142.3,
+      "durationSeconds": 1.833333,
       "words": [
         {
           "text": "took",
@@ -2493,14 +2527,15 @@
           "start": 141.84,
           "end": 142.29
         }
-      ]
+      ],
+      "frames": 55
     },
     {
       "id": "36",
       "text": "But before any of that means anything, you need to understand what a cement kiln actually is, and why it has survived,",
-      "start": 142.29,
-      "end": 148.33,
-      "durationSeconds": 6.04,
+      "start": 142.3,
+      "end": 148.333333,
+      "durationSeconds": 6.033333,
       "words": [
         {
           "text": "But",
@@ -2612,14 +2647,15 @@
           "start": 147.73,
           "end": 148.33
         }
-      ]
+      ],
+      "frames": 181
     },
     {
       "id": "37",
       "text": "essentially unchanged in principle since Victorian England.",
-      "start": 148.33,
-      "end": 152.98,
-      "durationSeconds": 4.65,
+      "start": 148.333333,
+      "end": 153.0,
+      "durationSeconds": 4.666667,
       "words": [
         {
           "text": "essentially",
@@ -2656,14 +2692,15 @@
           "start": 151.89,
           "end": 152.76
         }
-      ]
+      ],
+      "frames": 140
     },
     {
       "id": "38",
       "text": "Start with respect, because the kiln has earned it.",
-      "start": 152.98,
-      "end": 156.42,
-      "durationSeconds": 3.44,
+      "start": 153.0,
+      "end": 156.433333,
+      "durationSeconds": 3.433333,
       "words": [
         {
           "text": "Start",
@@ -2710,14 +2747,15 @@
           "start": 155.92,
           "end": 156.2
         }
-      ]
+      ],
+      "frames": 103
     },
     {
       "id": "39",
       "text": "Portland cement was patented in 1824 by a bricklayer in Leeds named Joseph Aspden.",
-      "start": 156.42,
-      "end": 161.11,
-      "durationSeconds": 4.69,
+      "start": 156.433333,
+      "end": 161.133333,
+      "durationSeconds": 4.7,
       "words": [
         {
           "text": "Portland",
@@ -2789,14 +2827,15 @@
           "start": 160.5,
           "end": 161.11
         }
-      ]
+      ],
+      "frames": 141
     },
     {
       "id": "40",
       "text": "The modern version of his idea is one of the great machines of industrial civilization.",
-      "start": 161.11,
-      "end": 165.37,
-      "durationSeconds": 4.26,
+      "start": 161.133333,
+      "end": 165.4,
+      "durationSeconds": 4.266667,
       "words": [
         {
           "text": "The",
@@ -2873,14 +2912,15 @@
           "start": 164.5,
           "end": 165.36
         }
-      ]
+      ],
+      "frames": 128
     },
     {
       "id": "41",
       "text": "A steel tube, sometimes 60 meters long, tilted a few degrees, rotating slowly,",
-      "start": 165.37,
-      "end": 170.56,
-      "durationSeconds": 5.19,
+      "start": 165.4,
+      "end": 170.6,
+      "durationSeconds": 5.2,
       "words": [
         {
           "text": "A",
@@ -2947,14 +2987,15 @@
           "start": 170.21,
           "end": 170.56
         }
-      ]
+      ],
+      "frames": 156
     },
     {
       "id": "42",
       "text": "lined with refractory brick, with a flame at the low end.",
-      "start": 170.56,
-      "end": 174.81,
-      "durationSeconds": 4.25,
+      "start": 170.6,
+      "end": 174.866667,
+      "durationSeconds": 4.266667,
       "words": [
         {
           "text": "lined",
@@ -3011,14 +3052,15 @@
           "start": 174.11,
           "end": 174.68
         }
-      ]
+      ],
+      "frames": 128
     },
     {
       "id": "43",
       "text": "Crushed limestone and clay go in cold at the top.",
-      "start": 174.81,
-      "end": 177.66,
-      "durationSeconds": 2.85,
+      "start": 174.866667,
+      "end": 177.733333,
+      "durationSeconds": 2.866667,
       "words": [
         {
           "text": "Crushed",
@@ -3070,13 +3112,14 @@
           "start": 177.01,
           "end": 177.44
         }
-      ]
+      ],
+      "frames": 86
     },
     {
       "id": "44",
       "text": "They tumble down through progressively hotter zones.",
-      "start": 177.66,
-      "end": 180.26,
+      "start": 177.733333,
+      "end": 180.333333,
       "durationSeconds": 2.6,
       "words": [
         {
@@ -3114,14 +3157,15 @@
           "start": 179.77,
           "end": 180.26
         }
-      ]
+      ],
+      "frames": 78
     },
     {
       "id": "45",
       "text": "At about 1,450 degrees, something remarkable happens.",
-      "start": 180.26,
-      "end": 184.48,
-      "durationSeconds": 4.22,
+      "start": 180.333333,
+      "end": 184.566667,
+      "durationSeconds": 4.233333,
       "words": [
         {
           "text": "At",
@@ -3158,14 +3202,15 @@
           "start": 183.73,
           "end": 184.48
         }
-      ]
+      ],
+      "frames": 127
     },
     {
       "id": "46",
       "text": "The material partially melts and reforms into hard gray nodules called clinker.",
-      "start": 184.48,
-      "end": 189.46,
-      "durationSeconds": 4.98,
+      "start": 184.566667,
+      "end": 189.533333,
+      "durationSeconds": 4.966667,
       "words": [
         {
           "text": "The",
@@ -3227,13 +3272,14 @@
           "start": 188.52,
           "end": 189.07
         }
-      ]
+      ],
+      "frames": 149
     },
     {
       "id": "47",
       "text": "Grind the clinker, add a little gypsum, and you have cement.",
-      "start": 189.46,
-      "end": 194.06,
+      "start": 189.533333,
+      "end": 194.133333,
       "durationSeconds": 4.6,
       "words": [
         {
@@ -3291,14 +3337,15 @@
           "start": 193.23,
           "end": 193.82
         }
-      ]
+      ],
+      "frames": 138
     },
     {
       "id": "48",
       "text": "That process is robust, cheap, and almost absurdly forgiving.",
-      "start": 194.06,
-      "end": 197.54,
-      "durationSeconds": 3.48,
+      "start": 194.133333,
+      "end": 197.6,
+      "durationSeconds": 3.466667,
       "words": [
         {
           "text": "That",
@@ -3345,14 +3392,15 @@
           "start": 197.05,
           "end": 197.54
         }
-      ]
+      ],
+      "frames": 104
     },
     {
       "id": "49",
       "text": "It runs on coal, petroleum coke, waste tires, whatever is nearby.",
-      "start": 197.54,
-      "end": 202.12,
-      "durationSeconds": 4.58,
+      "start": 197.6,
+      "end": 202.166667,
+      "durationSeconds": 4.566667,
       "words": [
         {
           "text": "It",
@@ -3409,14 +3457,15 @@
           "start": 201.59,
           "end": 202.12
         }
-      ]
+      ],
+      "frames": 137
     },
     {
       "id": "50",
       "text": "It tolerates variable rock.",
-      "start": 202.12,
-      "end": 204.04,
-      "durationSeconds": 1.92,
+      "start": 202.166667,
+      "end": 204.1,
+      "durationSeconds": 1.933333,
       "words": [
         {
           "text": "It",
@@ -3438,14 +3487,15 @@
           "start": 203.53,
           "end": 204.04
         }
-      ]
+      ],
+      "frames": 58
     },
     {
       "id": "51",
       "text": "It has been optimized continuously for 150 years by very good engineers.",
-      "start": 204.04,
-      "end": 208.62,
-      "durationSeconds": 4.58,
+      "start": 204.1,
+      "end": 208.666667,
+      "durationSeconds": 4.566667,
       "words": [
         {
           "text": "It",
@@ -3507,14 +3557,15 @@
           "start": 208.03,
           "end": 208.62
         }
-      ]
+      ],
+      "frames": 137
     },
     {
       "id": "52",
       "text": "It also produces, by most accounting, somewhere between half and two-thirds of its carbon dioxide from the rock,",
-      "start": 208.62,
-      "end": 214.46,
-      "durationSeconds": 5.84,
+      "start": 208.666667,
+      "end": 214.5,
+      "durationSeconds": 5.833333,
       "words": [
         {
           "text": "It",
@@ -3606,14 +3657,15 @@
           "start": 214.31,
           "end": 214.46
         }
-      ]
+      ],
+      "frames": 175
     },
     {
       "id": "53",
       "text": "rather than the fire. Here is that chemistry in one sentence.",
-      "start": 214.46,
-      "end": 218.92,
-      "durationSeconds": 4.46,
+      "start": 214.5,
+      "end": 218.966667,
+      "durationSeconds": 4.466667,
       "words": [
         {
           "text": "rather",
@@ -3670,14 +3722,15 @@
           "start": 217.84,
           "end": 218.72
         }
-      ]
+      ],
+      "frames": 134
     },
     {
       "id": "54",
       "text": "Limestone is calcium carbonate.",
-      "start": 218.92,
-      "end": 220.94,
-      "durationSeconds": 2.02,
+      "start": 218.966667,
+      "end": 221.0,
+      "durationSeconds": 2.033333,
       "words": [
         {
           "text": "Limestone",
@@ -3699,13 +3752,14 @@
           "start": 220.09,
           "end": 220.72
         }
-      ]
+      ],
+      "frames": 61
     },
     {
       "id": "55",
       "text": "Heat it and it splits into calcium oxide, the thing you want, and carbon dioxide, which you do not.",
-      "start": 220.94,
-      "end": 226.94,
+      "start": 221.0,
+      "end": 227.0,
       "durationSeconds": 6.0,
       "words": [
         {
@@ -3803,13 +3857,14 @@
           "start": 225.89,
           "end": 226.76
         }
-      ]
+      ],
+      "frames": 180
     },
     {
       "id": "56",
       "text": "Let's call that step calcination.",
-      "start": 226.94,
-      "end": 228.64,
+      "start": 227.0,
+      "end": 228.7,
       "durationSeconds": 1.7,
       "words": [
         {
@@ -3837,14 +3892,15 @@
           "start": 227.97,
           "end": 228.64
         }
-      ]
+      ],
+      "frames": 51
     },
     {
       "id": "57",
       "text": "It is not a side effect. It is not inefficiency.",
-      "start": 228.64,
-      "end": 231.48,
-      "durationSeconds": 2.84,
+      "start": 228.7,
+      "end": 231.533333,
+      "durationSeconds": 2.833333,
       "words": [
         {
           "text": "It",
@@ -3896,14 +3952,15 @@
           "start": 230.47,
           "end": 231.48
         }
-      ]
+      ],
+      "frames": 85
     },
     {
       "id": "58",
       "text": "It is the reaction.",
-      "start": 231.48,
-      "end": 233.3,
-      "durationSeconds": 1.82,
+      "start": 231.533333,
+      "end": 233.366667,
+      "durationSeconds": 1.833333,
       "words": [
         {
           "text": "It",
@@ -3925,14 +3982,15 @@
           "start": 232.08,
           "end": 233.08
         }
-      ]
+      ],
+      "frames": 55
     },
     {
       "id": "59",
       "text": "Making cement the Portland way is the act of breaking carbon dioxide off a rock.",
-      "start": 233.3,
-      "end": 238.18,
-      "durationSeconds": 4.88,
+      "start": 233.366667,
+      "end": 238.233333,
+      "durationSeconds": 4.866667,
       "words": [
         {
           "text": "Making",
@@ -4009,14 +4067,15 @@
           "start": 237.41,
           "end": 237.96
         }
-      ]
+      ],
+      "frames": 146
     },
     {
       "id": "60",
       "text": "Added up in cement production accounts for as much as 8% of global carbon dioxide emissions,",
-      "start": 238.18,
-      "end": 243.26,
-      "durationSeconds": 5.08,
+      "start": 238.233333,
+      "end": 243.3,
+      "durationSeconds": 5.066667,
       "words": [
         {
           "text": "Added",
@@ -4098,14 +4157,15 @@
           "start": 242.13,
           "end": 243.04
         }
-      ]
+      ],
+      "frames": 152
     },
     {
       "id": "61",
       "text": "depending on whose methodology you use.",
-      "start": 243.26,
-      "end": 245.13,
-      "durationSeconds": 1.87,
+      "start": 243.3,
+      "end": 245.166667,
+      "durationSeconds": 1.866667,
       "words": [
         {
           "text": "depending",
@@ -4137,14 +4197,15 @@
           "start": 244.74,
           "end": 245.1
         }
-      ]
+      ],
+      "frames": 56
     },
     {
       "id": "62",
       "text": "A figure that would put it above the entire aviation industry several times over, and behind only a couple of countries if you lined",
-      "start": 245.13,
-      "end": 251.78,
-      "durationSeconds": 6.65,
+      "start": 245.166667,
+      "end": 251.833333,
+      "durationSeconds": 6.666667,
       "words": [
         {
           "text": "A",
@@ -4266,14 +4327,15 @@
           "start": 251.36,
           "end": 251.65
         }
-      ]
+      ],
+      "frames": 200
     },
     {
       "id": "63",
       "text": "the world's emitters up by volume.",
-      "start": 251.78,
-      "end": 253.8,
-      "durationSeconds": 2.02,
+      "start": 251.833333,
+      "end": 253.866667,
+      "durationSeconds": 2.033333,
       "words": [
         {
           "text": "the",
@@ -4305,14 +4367,15 @@
           "start": 253.13,
           "end": 253.8
         }
-      ]
+      ],
+      "frames": 61
     },
     {
       "id": "64",
       "text": "Now look at what the industry has actually tried.",
-      "start": 253.8,
-      "end": 256.58,
-      "durationSeconds": 2.78,
+      "start": 253.866667,
+      "end": 256.633333,
+      "durationSeconds": 2.766667,
       "words": [
         {
           "text": "Now",
@@ -4359,14 +4422,15 @@
           "start": 255.82,
           "end": 256.36
         }
-      ]
+      ],
+      "frames": 83
     },
     {
       "id": "65",
       "text": "Carbon cleaner fuel. It works, and it addresses the smaller half of the problem.",
-      "start": 256.58,
-      "end": 261.66,
-      "durationSeconds": 5.08,
+      "start": 256.633333,
+      "end": 261.7,
+      "durationSeconds": 5.066667,
       "words": [
         {
           "text": "Carbon",
@@ -4438,14 +4502,15 @@
           "start": 260.85,
           "end": 261.34
         }
-      ]
+      ],
+      "frames": 152
     },
     {
       "id": "66",
       "text": "Replace some of the clinker with blast furnace slag or coal fly ash, genuinely effective, widely used,",
-      "start": 261.66,
-      "end": 267.04,
-      "durationSeconds": 5.38,
+      "start": 261.7,
+      "end": 267.066667,
+      "durationSeconds": 5.366667,
       "words": [
         {
           "text": "Replace",
@@ -4532,13 +4597,14 @@
           "start": 266.67,
           "end": 267.04
         }
-      ]
+      ],
+      "frames": 161
     },
     {
       "id": "67",
       "text": "and quietly running out.",
-      "start": 267.04,
-      "end": 268.94,
+      "start": 267.066667,
+      "end": 268.966667,
       "durationSeconds": 1.9,
       "words": [
         {
@@ -4561,14 +4627,15 @@
           "start": 268.25,
           "end": 268.7
         }
-      ]
+      ],
+      "frames": 57
     },
     {
       "id": "68",
       "text": "Because the supply of both depends on steel mills and coal plants that are closing.",
-      "start": 268.94,
-      "end": 273.18,
-      "durationSeconds": 4.24,
+      "start": 268.966667,
+      "end": 273.2,
+      "durationSeconds": 4.233333,
       "words": [
         {
           "text": "Because",
@@ -4645,14 +4712,15 @@
           "start": 272.24,
           "end": 272.96
         }
-      ]
+      ],
+      "frames": 127
     },
     {
       "id": "69",
       "text": "Improve kiln efficiency, recover waste heat, grind smarter.",
-      "start": 273.18,
-      "end": 276.9,
-      "durationSeconds": 3.72,
+      "start": 273.2,
+      "end": 276.933333,
+      "durationSeconds": 3.733333,
       "words": [
         {
           "text": "Improve",
@@ -4694,14 +4762,15 @@
           "start": 276.17,
           "end": 276.66
         }
-      ]
+      ],
+      "frames": 112
     },
     {
       "id": "70",
       "text": "Every one of those worked. Every one of them mattered less than the one before it.",
-      "start": 276.9,
-      "end": 280.68,
-      "durationSeconds": 3.78,
+      "start": 276.933333,
+      "end": 280.7,
+      "durationSeconds": 3.766667,
       "words": [
         {
           "text": "Every",
@@ -4783,14 +4852,15 @@
           "start": 280.36,
           "end": 280.68
         }
-      ]
+      ],
+      "frames": 113
     },
     {
       "id": "71",
       "text": "Then there is carbon capture, which is where most of the money has gone.",
-      "start": 280.68,
-      "end": 284.46,
-      "durationSeconds": 3.78,
+      "start": 280.7,
+      "end": 284.466667,
+      "durationSeconds": 3.766667,
       "words": [
         {
           "text": "Then",
@@ -4862,14 +4932,15 @@
           "start": 283.89,
           "end": 284.24
         }
-      ]
+      ],
+      "frames": 113
     },
     {
       "id": "72",
       "text": "Plant equipment onto the kiln, catch the carbon dioxide as it leaves, compress it, pipe it somewhere,",
-      "start": 284.46,
-      "end": 289.82,
-      "durationSeconds": 5.36,
+      "start": 284.466667,
+      "end": 289.833333,
+      "durationSeconds": 5.366667,
       "words": [
         {
           "text": "Plant",
@@ -4956,14 +5027,15 @@
           "start": 289.34,
           "end": 289.82
         }
-      ]
+      ],
+      "frames": 161
     },
     {
       "id": "73",
       "text": "put it underground. The engineering is real.",
-      "start": 289.82,
-      "end": 292.44,
-      "durationSeconds": 2.62,
+      "start": 289.833333,
+      "end": 292.466667,
+      "durationSeconds": 2.633333,
       "words": [
         {
           "text": "put",
@@ -5000,14 +5072,15 @@
           "start": 292.01,
           "end": 292.44
         }
-      ]
+      ],
+      "frames": 79
     },
     {
       "id": "74",
       "text": "The problem is that it makes a cheap product expensive.",
-      "start": 292.44,
-      "end": 295.62,
-      "durationSeconds": 3.18,
+      "start": 292.466667,
+      "end": 295.633333,
+      "durationSeconds": 3.166667,
       "words": [
         {
           "text": "The",
@@ -5059,14 +5132,15 @@
           "start": 294.62,
           "end": 295.28
         }
-      ]
+      ],
+      "frames": 95
     },
     {
       "id": "75",
       "text": "Capture equipment needs its own energy supply, which means burning more to catch more.",
-      "start": 295.62,
-      "end": 299.64,
-      "durationSeconds": 4.02,
+      "start": 295.633333,
+      "end": 299.666667,
+      "durationSeconds": 4.033333,
       "words": [
         {
           "text": "Capture",
@@ -5138,13 +5212,14 @@
           "start": 299.38,
           "end": 299.64
         }
-      ]
+      ],
+      "frames": 121
     },
     {
       "id": "76",
       "text": "And it needs a pipeline and a permanent storage site that most plants simply do not have next door.",
-      "start": 299.64,
-      "end": 304.54,
+      "start": 299.666667,
+      "end": 304.566667,
       "durationSeconds": 4.9,
       "words": [
         {
@@ -5242,14 +5317,15 @@
           "start": 303.94,
           "end": 304.54
         }
-      ]
+      ],
+      "frames": 147
     },
     {
       "id": "77",
       "text": "So sit with the shape of this for a moment.",
-      "start": 304.54,
-      "end": 306.77,
-      "durationSeconds": 2.23,
+      "start": 304.566667,
+      "end": 306.8,
+      "durationSeconds": 2.233333,
       "words": [
         {
           "text": "So",
@@ -5301,14 +5377,15 @@
           "start": 306.25,
           "end": 306.77
         }
-      ]
+      ],
+      "frames": 67
     },
     {
       "id": "78",
       "text": "The most used manufactured material on Earth, made by a process whose emissions are written into the molecular structure of the input.",
-      "start": 306.77,
-      "end": 313.49,
-      "durationSeconds": 6.72,
+      "start": 306.8,
+      "end": 313.533333,
+      "durationSeconds": 6.733333,
       "words": [
         {
           "text": "The",
@@ -5420,14 +5497,15 @@
           "start": 312.93,
           "end": 313.48
         }
-      ]
+      ],
+      "frames": 202
     },
     {
       "id": "79",
       "text": "A product so cheap that shipping at any real distance costs more than making it.",
-      "start": 313.49,
-      "end": 317.6,
-      "durationSeconds": 4.11,
+      "start": 313.533333,
+      "end": 317.633333,
+      "durationSeconds": 4.1,
       "words": [
         {
           "text": "A",
@@ -5504,14 +5582,15 @@
           "start": 317.38,
           "end": 317.6
         }
-      ]
+      ],
+      "frames": 123
     },
     {
       "id": "80",
       "text": "An industry with thousands of existing plants, each one a billion dollar asset, with decades of life left.",
-      "start": 317.6,
-      "end": 324.04,
-      "durationSeconds": 6.44,
+      "start": 317.633333,
+      "end": 324.066667,
+      "durationSeconds": 6.433333,
       "words": [
         {
           "text": "An",
@@ -5603,14 +5682,15 @@
           "start": 323.17,
           "end": 324.04
         }
-      ]
+      ],
+      "frames": 193
     },
     {
       "id": "81",
       "text": "And one more pressure, specific to the United States.",
-      "start": 324.04,
-      "end": 327.26,
-      "durationSeconds": 3.22,
+      "start": 324.066667,
+      "end": 327.3,
+      "durationSeconds": 3.233333,
       "words": [
         {
           "text": "And",
@@ -5657,14 +5737,15 @@
           "start": 326.42,
           "end": 326.89
         }
-      ]
+      ],
+      "frames": 97
     },
     {
       "id": "82",
       "text": "America does not make enough of its own. The country imports tens of millions of tons of cement a year.",
-      "start": 327.26,
-      "end": 332.34,
-      "durationSeconds": 5.08,
+      "start": 327.3,
+      "end": 332.366667,
+      "durationSeconds": 5.066667,
       "words": [
         {
           "text": "America",
@@ -5766,14 +5847,15 @@
           "start": 331.64,
           "end": 332.12
         }
-      ]
+      ],
+      "frames": 152
     },
     {
       "id": "83",
       "text": "That is not a climate statistic. That is a supply chain statistic.",
-      "start": 332.34,
-      "end": 335.8,
-      "durationSeconds": 3.46,
+      "start": 332.366667,
+      "end": 335.833333,
+      "durationSeconds": 3.466667,
       "words": [
         {
           "text": "That",
@@ -5835,13 +5917,14 @@
           "start": 335.29,
           "end": 335.8
         }
-      ]
+      ],
+      "frames": 104
     },
     {
       "id": "84",
       "text": "And it is the reason this story has an audience across the political spectrum.",
-      "start": 335.8,
-      "end": 339.8,
+      "start": 335.833333,
+      "end": 339.833333,
       "durationSeconds": 4.0,
       "words": [
         {
@@ -5914,14 +5997,15 @@
           "start": 339.03,
           "end": 339.8
         }
-      ]
+      ],
+      "frames": 120
     },
     {
       "id": "85",
       "text": "For 60 years, the process emission did not budge, not because nobody tried, because the problem was in the rock,",
-      "start": 339.8,
-      "end": 346.06,
-      "durationSeconds": 6.26,
+      "start": 339.833333,
+      "end": 346.1,
+      "durationSeconds": 6.266667,
       "words": [
         {
           "text": "For",
@@ -6023,14 +6107,15 @@
           "start": 345.93,
           "end": 346.06
         }
-      ]
+      ],
+      "frames": 188
     },
     {
       "id": "86",
       "text": "and everyone kept attacking the fire.",
-      "start": 346.06,
-      "end": 348.7,
-      "durationSeconds": 2.64,
+      "start": 346.1,
+      "end": 348.733333,
+      "durationSeconds": 2.633333,
       "words": [
         {
           "text": "and",
@@ -6062,14 +6147,15 @@
           "start": 348.02,
           "end": 348.34
         }
-      ]
+      ],
+      "frames": 79
     },
     {
       "id": "87",
       "text": "Until two people at MIT stopped trying to make the kiln better and asked whether the kiln needed to exist.",
-      "start": 348.7,
-      "end": 354.26,
-      "durationSeconds": 5.56,
+      "start": 348.733333,
+      "end": 354.3,
+      "durationSeconds": 5.566667,
       "words": [
         {
           "text": "Until",
@@ -6171,14 +6257,15 @@
           "start": 353.57,
           "end": 354.26
         }
-      ]
+      ],
+      "frames": 167
     },
     {
       "id": "88",
       "text": "The company is called Sublime Systems.",
-      "start": 354.26,
-      "end": 356.64,
-      "durationSeconds": 2.38,
+      "start": 354.3,
+      "end": 356.666667,
+      "durationSeconds": 2.366667,
       "words": [
         {
           "text": "The",
@@ -6210,14 +6297,15 @@
           "start": 355.97,
           "end": 356.64
         }
-      ]
+      ],
+      "frames": 71
     },
     {
       "id": "89",
       "text": "It spun out of MIT in March of 2020, on Pi Day, the same week the pandemic shut down the country,",
-      "start": 356.64,
-      "end": 362.53,
-      "durationSeconds": 5.89,
+      "start": 356.666667,
+      "end": 362.566667,
+      "durationSeconds": 5.9,
       "words": [
         {
           "text": "It",
@@ -6324,14 +6412,15 @@
           "start": 361.38,
           "end": 362
         }
-      ]
+      ],
+      "frames": 177
     },
     {
       "id": "90",
       "text": "founded by Professor Yetming Chang and Dr.",
-      "start": 362.53,
-      "end": 364.78,
-      "durationSeconds": 2.25,
+      "start": 362.566667,
+      "end": 364.833333,
+      "durationSeconds": 2.266667,
       "words": [
         {
           "text": "founded",
@@ -6368,14 +6457,15 @@
           "start": 364.42,
           "end": 364.78
         }
-      ]
+      ],
+      "frames": 68
     },
     {
       "id": "91",
       "text": "Leah Ellis, a former MIT post-doc.",
-      "start": 364.78,
-      "end": 368,
-      "durationSeconds": 3.22,
+      "start": 364.833333,
+      "end": 368.066667,
+      "durationSeconds": 3.233333,
       "words": [
         {
           "text": "Leah",
@@ -6407,14 +6497,15 @@
           "start": 366.3,
           "end": 368
         }
-      ]
+      ],
+      "frames": 97
     },
     {
       "id": "92",
       "text": "And the important thing about both of them, is that neither is a cement person.",
-      "start": 368,
-      "end": 372.22,
-      "durationSeconds": 4.22,
+      "start": 368.066667,
+      "end": 372.3,
+      "durationSeconds": 4.233333,
       "words": [
         {
           "text": "And",
@@ -6491,14 +6582,15 @@
           "start": 371.38,
           "end": 372
         }
-      ]
+      ],
+      "frames": 127
     },
     {
       "id": "93",
       "text": "They are electrochemists.",
-      "start": 372.22,
-      "end": 374.1,
-      "durationSeconds": 1.88,
+      "start": 372.3,
+      "end": 374.166667,
+      "durationSeconds": 1.866667,
       "words": [
         {
           "text": "They",
@@ -6515,14 +6607,15 @@
           "start": 372.52,
           "end": 373.88
         }
-      ]
+      ],
+      "frames": 56
     },
     {
       "id": "94",
       "text": "Battery people. Chiang's other companies include Form Energy, which is building iron-air batteries designed to store electricity for",
-      "start": 374.1,
-      "end": 380.86,
-      "durationSeconds": 6.76,
+      "start": 374.166667,
+      "end": 380.933333,
+      "durationSeconds": 6.766667,
       "words": [
         {
           "text": "Battery",
@@ -6614,14 +6707,15 @@
           "start": 380.69,
           "end": 380.86
         }
-      ]
+      ],
+      "frames": 203
     },
     {
       "id": "95",
       "text": "a hundred hours at a stretch.",
-      "start": 380.86,
-      "end": 382.8,
-      "durationSeconds": 1.94,
+      "start": 380.933333,
+      "end": 382.866667,
+      "durationSeconds": 1.933333,
       "words": [
         {
           "text": "a",
@@ -6653,14 +6747,15 @@
           "start": 382.02,
           "end": 382.8
         }
-      ]
+      ],
+      "frames": 58
     },
     {
       "id": "96",
       "text": "That background is not a footnote, it is the whole reason the answer looks the way it does.",
-      "start": 382.8,
-      "end": 387.44,
-      "durationSeconds": 4.64,
+      "start": 382.866667,
+      "end": 387.5,
+      "durationSeconds": 4.633333,
       "words": [
         {
           "text": "That",
@@ -6752,14 +6847,15 @@
           "start": 386.25,
           "end": 387.22
         }
-      ]
+      ],
+      "frames": 139
     },
     {
       "id": "97",
       "text": "Because heat is a blunt instrument.",
-      "start": 387.44,
-      "end": 389.3,
-      "durationSeconds": 1.86,
+      "start": 387.5,
+      "end": 389.366667,
+      "durationSeconds": 1.866667,
       "words": [
         {
           "text": "Because",
@@ -6791,14 +6887,15 @@
           "start": 388.59,
           "end": 389.08
         }
-      ]
+      ],
+      "frames": 56
     },
     {
       "id": "98",
       "text": "When you heat a rock to 1450 degrees, you are not targeting anything.",
-      "start": 389.3,
-      "end": 393.66,
-      "durationSeconds": 4.36,
+      "start": 389.366667,
+      "end": 393.733333,
+      "durationSeconds": 4.366667,
       "words": [
         {
           "text": "When",
@@ -6865,14 +6962,15 @@
           "start": 393.07,
           "end": 393.66
         }
-      ]
+      ],
+      "frames": 131
     },
     {
       "id": "99",
       "text": "You are pouring energy into every atom in the kiln and hoping the bonds you want to break happen to be the weakest ones present.",
-      "start": 393.66,
-      "end": 399.84,
-      "durationSeconds": 6.18,
+      "start": 393.733333,
+      "end": 399.9,
+      "durationSeconds": 6.166667,
       "words": [
         {
           "text": "You",
@@ -6999,14 +7097,15 @@
           "start": 399.16,
           "end": 399.84
         }
-      ]
+      ],
+      "frames": 185
     },
     {
       "id": "100",
       "text": "It works. It is also, in a very literal sense, the least selective tool available.",
-      "start": 399.84,
-      "end": 406.58,
-      "durationSeconds": 6.74,
+      "start": 399.9,
+      "end": 406.633333,
+      "durationSeconds": 6.733333,
       "words": [
         {
           "text": "It",
@@ -7083,13 +7182,14 @@
           "start": 405.27,
           "end": 406.35
         }
-      ]
+      ],
+      "frames": 202
     },
     {
       "id": "101",
       "text": "Electrochemistry is the opposite. Run a current through water and it splits.",
-      "start": 406.58,
-      "end": 410.38,
+      "start": 406.633333,
+      "end": 410.433333,
       "durationSeconds": 3.8,
       "words": [
         {
@@ -7152,14 +7252,15 @@
           "start": 409.55,
           "end": 410.16
         }
-      ]
+      ],
+      "frames": 114
     },
     {
       "id": "102",
       "text": "Acid forms at one electrode, base at the other.",
-      "start": 410.38,
-      "end": 413.01,
-      "durationSeconds": 2.63,
+      "start": 410.433333,
+      "end": 413.066667,
+      "durationSeconds": 2.633333,
       "words": [
         {
           "text": "Acid",
@@ -7206,14 +7307,15 @@
           "start": 412.55,
           "end": 413.01
         }
-      ]
+      ],
+      "frames": 79
     },
     {
       "id": "103",
       "text": "That gives you, on demand, two chemically aggressive environments sitting side-by-side inside a device at ordinary room temperature.",
-      "start": 413.01,
-      "end": 420,
-      "durationSeconds": 6.99,
+      "start": 413.066667,
+      "end": 420.066667,
+      "durationSeconds": 7.0,
       "words": [
         {
           "text": "That",
@@ -7305,13 +7407,14 @@
           "start": 418.78,
           "end": 419.78
         }
-      ]
+      ],
+      "frames": 210
     },
     {
       "id": "104",
       "text": "Feed rock into that and you can pull specific things out of it.",
-      "start": 420,
-      "end": 423.1,
+      "start": 420.066667,
+      "end": 423.166667,
       "durationSeconds": 3.1,
       "words": [
         {
@@ -7379,13 +7482,14 @@
           "start": 422.54,
           "end": 422.65
         }
-      ]
+      ],
+      "frames": 93
     },
     {
       "id": "105",
       "text": "Calcium here, silicates there.",
-      "start": 423.1,
-      "end": 424.8,
+      "start": 423.166667,
+      "end": 424.866667,
       "durationSeconds": 1.7,
       "words": [
         {
@@ -7408,14 +7512,15 @@
           "start": 424.29,
           "end": 424.8
         }
-      ]
+      ],
+      "frames": 51
     },
     {
       "id": "106",
       "text": "Not by cooking the rock, but by dissolving it and reassembling the pieces you want.",
-      "start": 424.8,
-      "end": 429.31,
-      "durationSeconds": 4.51,
+      "start": 424.866667,
+      "end": 429.366667,
+      "durationSeconds": 4.5,
       "words": [
         {
           "text": "Not",
@@ -7492,14 +7597,15 @@
           "start": 428.79,
           "end": 429.31
         }
-      ]
+      ],
+      "frames": 135
     },
     {
       "id": "107",
       "text": "That is Sublime's process, and the company describes it plainly, an electrochemical system that extracts reactive calcium and silicates",
-      "start": 429.31,
-      "end": 435.79,
-      "durationSeconds": 6.48,
+      "start": 429.366667,
+      "end": 435.833333,
+      "durationSeconds": 6.466667,
       "words": [
         {
           "text": "That",
@@ -7596,14 +7702,15 @@
           "start": 435.32,
           "end": 435.77
         }
-      ]
+      ],
+      "frames": 194
     },
     {
       "id": "108",
       "text": "from a range of raw materials at ambient temperature, using clean electricity and carbon-free inputs to produce",
-      "start": 435.79,
-      "end": 442.55,
-      "durationSeconds": 6.76,
+      "start": 435.833333,
+      "end": 442.6,
+      "durationSeconds": 6.766667,
       "words": [
         {
           "text": "from",
@@ -7690,14 +7797,15 @@
           "start": 441.77,
           "end": 442.26
         }
-      ]
+      ],
+      "frames": 203
     },
     {
       "id": "109",
       "text": "cement. Read the two halves of that again, because they solve two different problems.",
-      "start": 442.55,
-      "end": 447.2,
-      "durationSeconds": 4.65,
+      "start": 442.6,
+      "end": 447.266667,
+      "durationSeconds": 4.666667,
       "words": [
         {
           "text": "cement.",
@@ -7769,13 +7877,14 @@
           "start": 446.4,
           "end": 447.04
         }
-      ]
+      ],
+      "frames": 140
     },
     {
       "id": "110",
       "text": "Ambient temperature kills the fuel emission.",
-      "start": 447.2,
-      "end": 449.5,
+      "start": 447.266667,
+      "end": 449.566667,
       "durationSeconds": 2.3,
       "words": [
         {
@@ -7808,14 +7917,15 @@
           "start": 448.65,
           "end": 449.28
         }
-      ]
+      ],
+      "frames": 69
     },
     {
       "id": "111",
       "text": "There is no flame to decarbonize because there is no flame.",
-      "start": 449.5,
-      "end": 453.39,
-      "durationSeconds": 3.89,
+      "start": 449.566667,
+      "end": 453.466667,
+      "durationSeconds": 3.9,
       "words": [
         {
           "text": "There",
@@ -7872,14 +7982,15 @@
           "start": 452.66,
           "end": 452.99
         }
-      ]
+      ],
+      "frames": 117
     },
     {
       "id": "112",
       "text": "Calcium-free inputs kills the process emission, and this is the part that actually matters.",
-      "start": 453.39,
-      "end": 457.32,
-      "durationSeconds": 3.93,
+      "start": 453.466667,
+      "end": 457.4,
+      "durationSeconds": 3.933333,
       "words": [
         {
           "text": "Calcium-free",
@@ -7951,14 +8062,15 @@
           "start": 456.79,
           "end": 457.32
         }
-      ]
+      ],
+      "frames": 118
     },
     {
       "id": "113",
       "text": "The process does not need limestone.",
-      "start": 457.32,
-      "end": 459.37,
-      "durationSeconds": 2.05,
+      "start": 457.4,
+      "end": 459.433333,
+      "durationSeconds": 2.033333,
       "words": [
         {
           "text": "The",
@@ -7990,14 +8102,15 @@
           "start": 458.7,
           "end": 459.37
         }
-      ]
+      ],
+      "frames": 61
     },
     {
       "id": "114",
       "text": "It can work from non-carbonate rock, low-value stone, and industrial waste, material with no carbon dioxide locked",
-      "start": 459.37,
-      "end": 465.89,
-      "durationSeconds": 6.52,
+      "start": 459.433333,
+      "end": 465.966667,
+      "durationSeconds": 6.533333,
       "words": [
         {
           "text": "It",
@@ -8084,14 +8197,15 @@
           "start": 465.79,
           "end": 465.89
         }
-      ]
+      ],
+      "frames": 196
     },
     {
       "id": "115",
       "text": "inside it to release. You cannot capture an emission that was never created.",
-      "start": 465.89,
-      "end": 470.32,
-      "durationSeconds": 4.43,
+      "start": 465.966667,
+      "end": 470.4,
+      "durationSeconds": 4.433333,
       "words": [
         {
           "text": "inside",
@@ -8158,14 +8272,15 @@
           "start": 469.51,
           "end": 470.1
         }
-      ]
+      ],
+      "frames": 133
     },
     {
       "id": "116",
       "text": "This is not a cleaner kiln. It is not a better limestone.",
-      "start": 470.32,
-      "end": 473.26,
-      "durationSeconds": 2.94,
+      "start": 470.4,
+      "end": 473.333333,
+      "durationSeconds": 2.933333,
       "words": [
         {
           "text": "This",
@@ -8227,14 +8342,15 @@
           "start": 472.93,
           "end": 473.26
         }
-      ]
+      ],
+      "frames": 88
     },
     {
       "id": "117",
       "text": "It is a different answer to the question, how do you get reactive calcium out of the ground?",
-      "start": 473.26,
-      "end": 477.84,
-      "durationSeconds": 4.58,
+      "start": 473.333333,
+      "end": 477.9,
+      "durationSeconds": 4.566667,
       "words": [
         {
           "text": "It",
@@ -8326,14 +8442,15 @@
           "start": 476.8,
           "end": 477.84
         }
-      ]
+      ],
+      "frames": 137
     },
     {
       "id": "118",
       "text": "And the old answer was the only one anyone had for 200 years.",
-      "start": 477.84,
-      "end": 481.61,
-      "durationSeconds": 3.77,
+      "start": 477.9,
+      "end": 481.666667,
+      "durationSeconds": 3.766667,
       "words": [
         {
           "text": "And",
@@ -8400,14 +8517,15 @@
           "start": 481.13,
           "end": 481.6
         }
-      ]
+      ],
+      "frames": 113
     },
     {
       "id": "119",
       "text": "A few consequences fall out of that, and they stack.",
-      "start": 481.61,
-      "end": 484.47,
-      "durationSeconds": 2.86,
+      "start": 481.666667,
+      "end": 484.533333,
+      "durationSeconds": 2.866667,
       "words": [
         {
           "text": "A",
@@ -8459,14 +8577,15 @@
           "start": 484.1,
           "end": 484.47
         }
-      ]
+      ],
+      "frames": 86
     },
     {
       "id": "120",
       "text": "The company states its process cuts the energy intensity of cement production by 30-40% against a conventional",
-      "start": 484.47,
-      "end": 490.79,
-      "durationSeconds": 6.32,
+      "start": 484.533333,
+      "end": 490.866667,
+      "durationSeconds": 6.333333,
       "words": [
         {
           "text": "The",
@@ -8553,14 +8672,15 @@
           "start": 490.18,
           "end": 490.78
         }
-      ]
+      ],
+      "frames": 190
     },
     {
       "id": "121",
       "text": "kiln, because it is not heating everything to move a few atoms.",
-      "start": 490.79,
-      "end": 494.42,
-      "durationSeconds": 3.63,
+      "start": 490.866667,
+      "end": 494.5,
+      "durationSeconds": 3.633333,
       "words": [
         {
           "text": "kiln,",
@@ -8622,14 +8742,15 @@
           "start": 493.95,
           "end": 494.42
         }
-      ]
+      ],
+      "frames": 109
     },
     {
       "id": "122",
       "text": "It produces none of the other things a kiln produces, no nitrogen oxides, no sulfur oxides,",
-      "start": 494.42,
-      "end": 499.04,
-      "durationSeconds": 4.62,
+      "start": 494.5,
+      "end": 499.133333,
+      "durationSeconds": 4.633333,
       "words": [
         {
           "text": "It",
@@ -8711,14 +8832,15 @@
           "start": 498.68,
           "end": 499.04
         }
-      ]
+      ],
+      "frames": 139
     },
     {
       "id": "123",
       "text": "no mercury, no kiln dust, the pollutants that make cement plants unpopular neighbors regardless of anyone's views on",
-      "start": 499.04,
-      "end": 505.37,
-      "durationSeconds": 6.33,
+      "start": 499.133333,
+      "end": 505.466667,
+      "durationSeconds": 6.333333,
       "words": [
         {
           "text": "no",
@@ -8810,14 +8932,15 @@
           "start": 504.87,
           "end": 505.37
         }
-      ]
+      ],
+      "frames": 190
     },
     {
       "id": "124",
       "text": "climate. And because the input can be almost any suitable rock or waste stream, the process co-produces separated mineral streams",
-      "start": 505.37,
-      "end": 512.29,
-      "durationSeconds": 6.92,
+      "start": 505.466667,
+      "end": 512.4,
+      "durationSeconds": 6.933333,
       "words": [
         {
           "text": "climate.",
@@ -8919,14 +9042,15 @@
           "start": 512.01,
           "end": 512.29
         }
-      ]
+      ],
+      "frames": 208
     },
     {
       "id": "125",
       "text": "as a byproduct, some of them commercially useful.",
-      "start": 512.29,
-      "end": 515.78,
-      "durationSeconds": 3.49,
+      "start": 512.4,
+      "end": 515.9,
+      "durationSeconds": 3.5,
       "words": [
         {
           "text": "as",
@@ -8968,13 +9092,14 @@
           "start": 514.84,
           "end": 515.55
         }
-      ]
+      ],
+      "frames": 105
     },
     {
       "id": "126",
       "text": "There is one more property, and it is the sort of detail that does not make headlines but makes engineers pay attention.",
-      "start": 515.78,
-      "end": 521.78,
+      "start": 515.9,
+      "end": 521.9,
       "durationSeconds": 6.0,
       "words": [
         {
@@ -9087,14 +9212,15 @@
           "start": 520.71,
           "end": 521.56
         }
-      ]
+      ],
+      "frames": 180
     },
     {
       "id": "127",
       "text": "Because the process is electrochemical, rather than thermal, it can ramp up and down.",
-      "start": 521.78,
-      "end": 526.21,
-      "durationSeconds": 4.43,
+      "start": 521.9,
+      "end": 526.333333,
+      "durationSeconds": 4.433333,
       "words": [
         {
           "text": "Because",
@@ -9166,14 +9292,15 @@
           "start": 525.7,
           "end": 526.14
         }
-      ]
+      ],
+      "frames": 133
     },
     {
       "id": "128",
       "text": "A rotary kiln is a thermal mass the size of a building.",
-      "start": 526.21,
-      "end": 529.48,
-      "durationSeconds": 3.27,
+      "start": 526.333333,
+      "end": 529.6,
+      "durationSeconds": 3.266667,
       "words": [
         {
           "text": "A",
@@ -9235,14 +9362,15 @@
           "start": 528.65,
           "end": 529.48
         }
-      ]
+      ],
+      "frames": 98
     },
     {
       "id": "129",
       "text": "You do not switch it off because electricity got expensive at 4 in the afternoon.",
-      "start": 529.48,
-      "end": 533.69,
-      "durationSeconds": 4.21,
+      "start": 529.6,
+      "end": 533.8,
+      "durationSeconds": 4.2,
       "words": [
         {
           "text": "You",
@@ -9319,14 +9447,15 @@
           "start": 532.87,
           "end": 533.68
         }
-      ]
+      ],
+      "frames": 126
     },
     {
       "id": "130",
       "text": "A stack of electrochemical cells can follow a grid.",
-      "start": 533.69,
-      "end": 536.96,
-      "durationSeconds": 3.27,
+      "start": 533.8,
+      "end": 537.066667,
+      "durationSeconds": 3.266667,
       "words": [
         {
           "text": "A",
@@ -9373,14 +9502,15 @@
           "start": 536.4,
           "end": 536.96
         }
-      ]
+      ],
+      "frames": 98
     },
     {
       "id": "131",
       "text": "On a power system increasingly built around wind and solar, a heavy industrial process that can throttle is not just cleaner,",
-      "start": 536.96,
-      "end": 543.74,
-      "durationSeconds": 6.78,
+      "start": 537.066667,
+      "end": 543.833333,
+      "durationSeconds": 6.766667,
       "words": [
         {
           "text": "On",
@@ -9487,14 +9617,15 @@
           "start": 543.07,
           "end": 543.74
         }
-      ]
+      ],
+      "frames": 203
     },
     {
       "id": "132",
       "text": "it is a different kind of asset.",
-      "start": 543.74,
-      "end": 546.12,
-      "durationSeconds": 2.38,
+      "start": 543.833333,
+      "end": 546.2,
+      "durationSeconds": 2.366667,
       "words": [
         {
           "text": "it",
@@ -9531,14 +9662,15 @@
           "start": 545.27,
           "end": 545.86
         }
-      ]
+      ],
+      "frames": 71
     },
     {
       "id": "133",
       "text": "Which leaves exactly one question, and it is the question that has killed every previous attempt to reinvent cement.",
-      "start": 546.12,
-      "end": 552.86,
-      "durationSeconds": 6.74,
+      "start": 546.2,
+      "end": 552.933333,
+      "durationSeconds": 6.733333,
       "words": [
         {
           "text": "Which",
@@ -9635,14 +9767,15 @@
           "start": 551.81,
           "end": 552.64
         }
-      ]
+      ],
+      "frames": 202
     },
     {
       "id": "134",
       "text": "Will anyone be allowed to build with it?",
-      "start": 552.86,
-      "end": 555.12,
-      "durationSeconds": 2.26,
+      "start": 552.933333,
+      "end": 555.2,
+      "durationSeconds": 2.266667,
       "words": [
         {
           "text": "Will",
@@ -9684,14 +9817,15 @@
           "start": 554.53,
           "end": 554.9
         }
-      ]
+      ],
+      "frames": 68
     },
     {
       "id": "135",
       "text": "Because this is not the first time someone has claimed to have fixed cement.",
-      "start": 555.12,
-      "end": 558.84,
-      "durationSeconds": 3.72,
+      "start": 555.2,
+      "end": 558.933333,
+      "durationSeconds": 3.733333,
       "words": [
         {
           "text": "Because",
@@ -9763,14 +9897,15 @@
           "start": 558.11,
           "end": 558.6
         }
-      ]
+      ],
+      "frames": 112
     },
     {
       "id": "136",
       "text": "Novacem, out of Imperial College London, proposed a magnesium-based cement that would absorb carbon dioxide as",
-      "start": 558.84,
-      "end": 565.7,
-      "durationSeconds": 6.86,
+      "start": 558.933333,
+      "end": 565.8,
+      "durationSeconds": 6.866667,
       "words": [
         {
           "text": "Novacem,",
@@ -9852,13 +9987,14 @@
           "start": 565.53,
           "end": 565.7
         }
-      ]
+      ],
+      "frames": 206
     },
     {
       "id": "137",
       "text": "it cured. It attracted serious attention and serious money, and it wound down in 2012 its intellectual",
-      "start": 565.7,
-      "end": 572.3,
+      "start": 565.8,
+      "end": 572.4,
       "durationSeconds": 6.6,
       "words": [
         {
@@ -9946,14 +10082,15 @@
           "start": 571.28,
           "end": 572.08
         }
-      ]
+      ],
+      "frames": 198
     },
     {
       "id": "138",
       "text": "property sold off. Calera, backed heavily in the late 2000s, aimed to make cement-like carbonates out of captured",
-      "start": 572.3,
-      "end": 579.01,
-      "durationSeconds": 6.71,
+      "start": 572.4,
+      "end": 579.1,
+      "durationSeconds": 6.7,
       "words": [
         {
           "text": "property",
@@ -10045,14 +10182,15 @@
           "start": 578.62,
           "end": 579.01
         }
-      ]
+      ],
+      "frames": 201
     },
     {
       "id": "139",
       "text": "carbon dioxide in seawater.",
-      "start": 579.01,
-      "end": 581,
-      "durationSeconds": 1.99,
+      "start": 579.1,
+      "end": 581.1,
+      "durationSeconds": 2.0,
       "words": [
         {
           "text": "carbon",
@@ -10074,14 +10212,15 @@
           "start": 580.13,
           "end": 581
         }
-      ]
+      ],
+      "frames": 60
     },
     {
       "id": "140",
       "text": "It never reached commercial scale.",
-      "start": 581,
-      "end": 583.06,
-      "durationSeconds": 2.06,
+      "start": 581.1,
+      "end": 583.166667,
+      "durationSeconds": 2.066667,
       "words": [
         {
           "text": "It",
@@ -10108,14 +10247,15 @@
           "start": 582.54,
           "end": 583.06
         }
-      ]
+      ],
+      "frames": 62
     },
     {
       "id": "141",
       "text": "The pattern repeated often enough that the construction industry developed a standing immune response to the phrase,",
-      "start": 583.06,
-      "end": 588.41,
-      "durationSeconds": 5.35,
+      "start": 583.166667,
+      "end": 588.5,
+      "durationSeconds": 5.333333,
       "words": [
         {
           "text": "The",
@@ -10202,14 +10342,15 @@
           "start": 587.86,
           "end": 588.41
         }
-      ]
+      ],
+      "frames": 160
     },
     {
       "id": "142",
       "text": "new cement. And the reason is not chemistry, the reason is liability.",
-      "start": 588.41,
-      "end": 593.14,
-      "durationSeconds": 4.73,
+      "start": 588.5,
+      "end": 593.233333,
+      "durationSeconds": 4.733333,
       "words": [
         {
           "text": "new",
@@ -10271,14 +10412,15 @@
           "start": 592.05,
           "end": 592.92
         }
-      ]
+      ],
+      "frames": 142
     },
     {
       "id": "143",
       "text": "Think about who actually has to say yes.",
-      "start": 593.14,
-      "end": 595.21,
-      "durationSeconds": 2.07,
+      "start": 593.233333,
+      "end": 595.3,
+      "durationSeconds": 2.066667,
       "words": [
         {
           "text": "Think",
@@ -10320,14 +10462,15 @@
           "start": 594.8,
           "end": 595.21
         }
-      ]
+      ],
+      "frames": 62
     },
     {
       "id": "144",
       "text": "Not a scientist, a structural engineer signing a stamped drawing, a ready mix supplier who has to hit a strength spec on",
-      "start": 595.21,
-      "end": 601.69,
-      "durationSeconds": 6.48,
+      "start": 595.3,
+      "end": 601.766667,
+      "durationSeconds": 6.466667,
       "words": [
         {
           "text": "Not",
@@ -10439,14 +10582,15 @@
           "start": 601.58,
           "end": 601.69
         }
-      ]
+      ],
+      "frames": 194
     },
     {
       "id": "145",
       "text": "a Tuesday, a general contractor whose schedule collapses if a pore fails, a building inspector,",
-      "start": 601.69,
-      "end": 607.72,
-      "durationSeconds": 6.03,
+      "start": 601.766667,
+      "end": 607.8,
+      "durationSeconds": 6.033333,
       "words": [
         {
           "text": "a",
@@ -10523,14 +10667,15 @@
           "start": 606.58,
           "end": 607.4
         }
-      ]
+      ],
+      "frames": 181
     },
     {
       "id": "146",
       "text": "an insurer, a bank. Every one of those people is professionally rewarded for saying no to unfamiliar materials,",
-      "start": 607.72,
-      "end": 613.76,
-      "durationSeconds": 6.04,
+      "start": 607.8,
+      "end": 613.833333,
+      "durationSeconds": 6.033333,
       "words": [
         {
           "text": "an",
@@ -10622,14 +10767,15 @@
           "start": 613.31,
           "end": 613.76
         }
-      ]
+      ],
+      "frames": 181
     },
     {
       "id": "147",
       "text": "and none of them is rewarded for saying yes.",
-      "start": 613.76,
-      "end": 616.6,
-      "durationSeconds": 2.84,
+      "start": 613.833333,
+      "end": 616.666667,
+      "durationSeconds": 2.833333,
       "words": [
         {
           "text": "and",
@@ -10676,14 +10822,15 @@
           "start": 616.15,
           "end": 616.6
         }
-      ]
+      ],
+      "frames": 85
     },
     {
       "id": "148",
       "text": "This is where the interesting part of this story actually lives, not in the lab, in the paperwork.",
-      "start": 616.6,
-      "end": 621.27,
-      "durationSeconds": 4.67,
+      "start": 616.666667,
+      "end": 621.333333,
+      "durationSeconds": 4.666667,
       "words": [
         {
           "text": "This",
@@ -10775,14 +10922,15 @@
           "start": 620.58,
           "end": 621.27
         }
-      ]
+      ],
+      "frames": 140
     },
     {
       "id": "149",
       "text": "In September of 2023, Sublime Cement received an ASTM C1157 designation.",
-      "start": 621.27,
-      "end": 628.08,
-      "durationSeconds": 6.81,
+      "start": 621.333333,
+      "end": 628.133333,
+      "durationSeconds": 6.8,
       "words": [
         {
           "text": "In",
@@ -10839,14 +10987,15 @@
           "start": 626.94,
           "end": 628.08
         }
-      ]
+      ],
+      "frames": 204
     },
     {
       "id": "150",
       "text": "That string of characters is the single most important fact in this video, and it deserves unpacking.",
-      "start": 628.08,
-      "end": 633.52,
-      "durationSeconds": 5.44,
+      "start": 628.133333,
+      "end": 633.566667,
+      "durationSeconds": 5.433333,
       "words": [
         {
           "text": "That",
@@ -10933,14 +11082,15 @@
           "start": 632.1,
           "end": 633.52
         }
-      ]
+      ],
+      "frames": 163
     },
     {
       "id": "151",
       "text": "Most cement is specified under a standard that describes what cement must be made of, a prescriptive standard.",
-      "start": 633.52,
-      "end": 639.4,
-      "durationSeconds": 5.88,
+      "start": 633.566667,
+      "end": 639.433333,
+      "durationSeconds": 5.866667,
       "words": [
         {
           "text": "Most",
@@ -11032,14 +11182,15 @@
           "start": 639.01,
           "end": 639.4
         }
-      ]
+      ],
+      "frames": 176
     },
     {
       "id": "152",
       "text": "If your material is not made the approved way, it does not qualify, no matter how well it performs.",
-      "start": 639.4,
-      "end": 644.73,
-      "durationSeconds": 5.33,
+      "start": 639.433333,
+      "end": 644.766667,
+      "durationSeconds": 5.333333,
       "words": [
         {
           "text": "If",
@@ -11136,14 +11287,15 @@
           "start": 643.58,
           "end": 644.72
         }
-      ]
+      ],
+      "frames": 160
     },
     {
       "id": "153",
       "text": "C1157 is different.",
-      "start": 644.73,
-      "end": 646.68,
-      "durationSeconds": 1.95,
+      "start": 644.766667,
+      "end": 646.7,
+      "durationSeconds": 1.933333,
       "words": [
         {
           "text": "C1157",
@@ -11160,14 +11312,15 @@
           "start": 646.09,
           "end": 646.68
         }
-      ]
+      ],
+      "frames": 58
     },
     {
       "id": "154",
       "text": "It is a performance standard.",
-      "start": 646.68,
-      "end": 648.32,
-      "durationSeconds": 1.64,
+      "start": 646.7,
+      "end": 648.333333,
+      "durationSeconds": 1.633333,
       "words": [
         {
           "text": "It",
@@ -11194,14 +11347,15 @@
           "start": 648.05,
           "end": 648.32
         }
-      ]
+      ],
+      "frames": 49
     },
     {
       "id": "155",
       "text": "It describes what the cement must do, strength development, setting time, durability,",
-      "start": 648.32,
-      "end": 653.37,
-      "durationSeconds": 5.05,
+      "start": 648.333333,
+      "end": 653.4,
+      "durationSeconds": 5.066667,
       "words": [
         {
           "text": "It",
@@ -11263,14 +11417,15 @@
           "start": 652.59,
           "end": 653.37
         }
-      ]
+      ],
+      "frames": 152
     },
     {
       "id": "156",
       "text": "sulfate resistance. It is silent on how you made it.",
-      "start": 653.37,
-      "end": 656.94,
-      "durationSeconds": 3.57,
+      "start": 653.4,
+      "end": 656.966667,
+      "durationSeconds": 3.566667,
       "words": [
         {
           "text": "sulfate",
@@ -11322,14 +11477,15 @@
           "start": 656.62,
           "end": 656.94
         }
-      ]
+      ],
+      "frames": 107
     },
     {
       "id": "157",
       "text": "So a material produced in an electrochemical cell at room temperature from industrial waste can be specified under it,",
-      "start": 656.94,
-      "end": 662.52,
-      "durationSeconds": 5.58,
+      "start": 656.966667,
+      "end": 662.533333,
+      "durationSeconds": 5.566667,
       "words": [
         {
           "text": "So",
@@ -11426,14 +11582,15 @@
           "start": 662.35,
           "end": 662.52
         }
-      ]
+      ],
+      "frames": 167
     },
     {
       "id": "158",
       "text": "tested against it, and used under it, because the standard asks about behavior,",
-      "start": 662.52,
-      "end": 667.16,
-      "durationSeconds": 4.64,
+      "start": 662.533333,
+      "end": 667.166667,
+      "durationSeconds": 4.633333,
       "words": [
         {
           "text": "tested",
@@ -11500,14 +11657,15 @@
           "start": 666.34,
           "end": 667.16
         }
-      ]
+      ],
+      "frames": 139
     },
     {
       "id": "159",
       "text": "not birth. That single procedural door is the difference between a laboratory curiosity and a product.",
-      "start": 667.16,
-      "end": 673.02,
-      "durationSeconds": 5.86,
+      "start": 667.166667,
+      "end": 673.033333,
+      "durationSeconds": 5.866667,
       "words": [
         {
           "text": "not",
@@ -11589,14 +11747,15 @@
           "start": 672.15,
           "end": 672.67
         }
-      ]
+      ],
+      "frames": 176
     },
     {
       "id": "160",
       "text": "Sublime calls its output a drop-in replacement for ordinary Portland cement, and drop-in is the load-bearing phrase,",
-      "start": 673.02,
-      "end": 679.31,
-      "durationSeconds": 6.29,
+      "start": 673.033333,
+      "end": 679.333333,
+      "durationSeconds": 6.3,
       "words": [
         {
           "text": "Sublime",
@@ -11683,14 +11842,15 @@
           "start": 678.93,
           "end": 679.31
         }
-      ]
+      ],
+      "frames": 189
     },
     {
       "id": "161",
       "text": "no new mixers, no new trucks, no retrained crews, no new code variants for every project.",
-      "start": 679.31,
-      "end": 685.38,
-      "durationSeconds": 6.07,
+      "start": 679.333333,
+      "end": 685.4,
+      "durationSeconds": 6.066667,
       "words": [
         {
           "text": "no",
@@ -11772,13 +11932,14 @@
           "start": 684.36,
           "end": 685.13
         }
-      ]
+      ],
+      "frames": 182
     },
     {
       "id": "162",
       "text": "Then, in May of 2024, it got poured.",
-      "start": 685.38,
-      "end": 689.58,
+      "start": 685.4,
+      "end": 689.6,
       "durationSeconds": 4.2,
       "words": [
         {
@@ -11821,14 +11982,15 @@
           "start": 688.38,
           "end": 689.36
         }
-      ]
+      ],
+      "frames": 126
     },
     {
       "id": "163",
       "text": "Three tons of sublime cement went into a foundation pour in Boston's Seaport District, in what was described as the largest net-zero commercial",
-      "start": 689.58,
-      "end": 695.9,
-      "durationSeconds": 6.32,
+      "start": 689.6,
+      "end": 695.933333,
+      "durationSeconds": 6.333333,
       "words": [
         {
           "text": "Three",
@@ -11945,14 +12107,15 @@
           "start": 695.37,
           "end": 695.9
         }
-      ]
+      ],
+      "frames": 190
     },
     {
       "id": "164",
       "text": "building in the city, placed by Turner Construction, the largest domestic contractor in the United States,",
-      "start": 695.9,
-      "end": 701.86,
-      "durationSeconds": 5.96,
+      "start": 695.933333,
+      "end": 701.9,
+      "durationSeconds": 5.966667,
       "words": [
         {
           "text": "building",
@@ -12034,14 +12197,15 @@
           "start": 701.37,
           "end": 701.81
         }
-      ]
+      ],
+      "frames": 179
     },
     {
       "id": "165",
       "text": "not a test slab in a parking lot.",
-      "start": 701.86,
-      "end": 703.69,
-      "durationSeconds": 1.83,
+      "start": 701.9,
+      "end": 703.733333,
+      "durationSeconds": 1.833333,
       "words": [
         {
           "text": "not",
@@ -12083,14 +12247,15 @@
           "start": 703.22,
           "end": 703.55
         }
-      ]
+      ],
+      "frames": 55
     },
     {
       "id": "166",
       "text": "A structural pour by a contractor with everything to lose, on a real project with a real schedule.",
-      "start": 703.69,
-      "end": 709.84,
-      "durationSeconds": 6.15,
+      "start": 703.733333,
+      "end": 709.866667,
+      "durationSeconds": 6.133333,
       "words": [
         {
           "text": "A",
@@ -12182,14 +12347,15 @@
           "start": 708.95,
           "end": 709.84
         }
-      ]
+      ],
+      "frames": 184
     },
     {
       "id": "167",
       "text": "And the most credible thing anyone has said about this entire technology is what Ellis said about that day.",
-      "start": 709.84,
-      "end": 715.2,
-      "durationSeconds": 5.36,
+      "start": 709.866667,
+      "end": 715.233333,
+      "durationSeconds": 5.366667,
       "words": [
         {
           "text": "And",
@@ -12286,14 +12452,15 @@
           "start": 714.92,
           "end": 715.2
         }
-      ]
+      ],
+      "frames": 161
     },
     {
       "id": "168",
       "text": "It was a boring day in construction, because everything worked.",
-      "start": 715.2,
-      "end": 719.48,
-      "durationSeconds": 4.28,
+      "start": 715.233333,
+      "end": 719.5,
+      "durationSeconds": 4.266667,
       "words": [
         {
           "text": "It",
@@ -12345,14 +12512,15 @@
           "start": 718.58,
           "end": 719.26
         }
-      ]
+      ],
+      "frames": 128
     },
     {
       "id": "169",
       "text": "That is what success looks like at this stage.",
-      "start": 719.48,
-      "end": 721.55,
-      "durationSeconds": 2.07,
+      "start": 719.5,
+      "end": 721.566667,
+      "durationSeconds": 2.066667,
       "words": [
         {
           "text": "That",
@@ -12399,14 +12567,15 @@
           "start": 721.08,
           "end": 721.55
         }
-      ]
+      ],
+      "frames": 62
     },
     {
       "id": "170",
       "text": "Not a breakthrough, a delivery that showed up, mixed normally, pumped normally, set normally,",
-      "start": 721.55,
-      "end": 726.88,
-      "durationSeconds": 5.33,
+      "start": 721.566667,
+      "end": 726.9,
+      "durationSeconds": 5.333333,
       "words": [
         {
           "text": "Not",
@@ -12478,14 +12647,15 @@
           "start": 726.16,
           "end": 726.88
         }
-      ]
+      ],
+      "frames": 160
     },
     {
       "id": "171",
       "text": "and generated no story, which raises a question that sounds like a joke and is not.",
-      "start": 726.88,
-      "end": 731.47,
-      "durationSeconds": 4.59,
+      "start": 726.9,
+      "end": 731.5,
+      "durationSeconds": 4.6,
       "words": [
         {
           "text": "and",
@@ -12567,14 +12737,15 @@
           "start": 731.11,
           "end": 731.47
         }
-      ]
+      ],
+      "frames": 138
     },
     {
       "id": "172",
       "text": "If cement can be made without extreme heat, why did anybody ever think it had to be?",
-      "start": 731.47,
-      "end": 736.46,
-      "durationSeconds": 4.99,
+      "start": 731.5,
+      "end": 736.5,
+      "durationSeconds": 5.0,
       "words": [
         {
           "text": "If",
@@ -12661,14 +12832,15 @@
           "start": 735.85,
           "end": 736.18
         }
-      ]
+      ],
+      "frames": 150
     },
     {
       "id": "173",
       "text": "There is concrete in Italy that has been standing in salt water for 2,000 years.",
-      "start": 736.46,
-      "end": 740.82,
-      "durationSeconds": 4.36,
+      "start": 736.5,
+      "end": 740.866667,
+      "durationSeconds": 4.366667,
       "words": [
         {
           "text": "There",
@@ -12745,14 +12917,15 @@
           "start": 740.23,
           "end": 740.6
         }
-      ]
+      ],
+      "frames": 131
     },
     {
       "id": "174",
       "text": "Roman marine concrete, harbor works, breakwaters, piers, is still there,",
-      "start": 740.82,
-      "end": 745.47,
-      "durationSeconds": 4.65,
+      "start": 740.866667,
+      "end": 745.533333,
+      "durationSeconds": 4.666667,
       "words": [
         {
           "text": "Roman",
@@ -12804,14 +12977,15 @@
           "start": 744.97,
           "end": 745.47
         }
-      ]
+      ],
+      "frames": 140
     },
     {
       "id": "175",
       "text": "not preserved as ruins, structurally intact in the single most hostile environment there is for modern concrete,",
-      "start": 745.47,
-      "end": 751.74,
-      "durationSeconds": 6.27,
+      "start": 745.533333,
+      "end": 751.8,
+      "durationSeconds": 6.266667,
       "words": [
         {
           "text": "not",
@@ -12898,14 +13072,15 @@
           "start": 751.07,
           "end": 751.52
         }
-      ]
+      ],
+      "frames": 188
     },
     {
       "id": "176",
       "text": "which is seawater, because chloride attacks steel reinforcement and salt cycling cracks the matrix.",
-      "start": 751.74,
-      "end": 757.38,
-      "durationSeconds": 5.64,
+      "start": 751.8,
+      "end": 757.433333,
+      "durationSeconds": 5.633333,
       "words": [
         {
           "text": "which",
@@ -12977,14 +13152,15 @@
           "start": 756.11,
           "end": 757.16
         }
-      ]
+      ],
+      "frames": 169
     },
     {
       "id": "177",
       "text": "Modern marine structures are designed for decades, Roman ones are measured in millennia.",
-      "start": 757.38,
-      "end": 761.84,
-      "durationSeconds": 4.46,
+      "start": 757.433333,
+      "end": 761.9,
+      "durationSeconds": 4.466667,
       "words": [
         {
           "text": "Modern",
@@ -13051,14 +13227,15 @@
           "start": 761.22,
           "end": 761.84
         }
-      ]
+      ],
+      "frames": 134
     },
     {
       "id": "178",
       "text": "The Romans did not have a 1,450 degree rotary kiln, they could not have built one.",
-      "start": 761.84,
-      "end": 766.9,
-      "durationSeconds": 5.06,
+      "start": 761.9,
+      "end": 766.966667,
+      "durationSeconds": 5.066667,
       "words": [
         {
           "text": "The",
@@ -13140,14 +13317,15 @@
           "start": 766.23,
           "end": 766.44
         }
-      ]
+      ],
+      "frames": 152
     },
     {
       "id": "179",
       "text": "They had lime, volcanic ash from around the Bay of Naples, seawater, and aggregate.",
-      "start": 766.9,
-      "end": 771.98,
-      "durationSeconds": 5.08,
+      "start": 766.966667,
+      "end": 772.033333,
+      "durationSeconds": 5.066667,
       "words": [
         {
           "text": "They",
@@ -13219,14 +13397,15 @@
           "start": 771.09,
           "end": 771.98
         }
-      ]
+      ],
+      "frames": 152
     },
     {
       "id": "180",
       "text": "For a long time the standard explanation was the ash, the pozzolanic reaction between volcanic glass and lime producing",
-      "start": 771.98,
-      "end": 778.56,
-      "durationSeconds": 6.58,
+      "start": 772.033333,
+      "end": 778.6,
+      "durationSeconds": 6.566667,
       "words": [
         {
           "text": "For",
@@ -13323,14 +13502,15 @@
           "start": 778.17,
           "end": 778.56
         }
-      ]
+      ],
+      "frames": 197
     },
     {
       "id": "181",
       "text": "a durable binder. That is real, and it is genuinely part of the answer.",
-      "start": 778.56,
-      "end": 782.89,
-      "durationSeconds": 4.33,
+      "start": 778.6,
+      "end": 782.933333,
+      "durationSeconds": 4.333333,
       "words": [
         {
           "text": "a",
@@ -13402,14 +13582,15 @@
           "start": 782.48,
           "end": 782.89
         }
-      ]
+      ],
+      "frames": 130
     },
     {
       "id": "182",
       "text": "But recent MIT research pushed further, examining the small white mineral lumps found scattered through Roman concrete.",
-      "start": 782.89,
-      "end": 789.56,
-      "durationSeconds": 6.67,
+      "start": 782.933333,
+      "end": 789.6,
+      "durationSeconds": 6.666667,
       "words": [
         {
           "text": "But",
@@ -13496,14 +13677,15 @@
           "start": 789.17,
           "end": 789.56
         }
-      ]
+      ],
+      "frames": 200
     },
     {
       "id": "183",
       "text": "For two centuries those lumps were treated as evidence of sloppy mixing.",
-      "start": 789.56,
-      "end": 793.68,
-      "durationSeconds": 4.12,
+      "start": 789.6,
+      "end": 793.733333,
+      "durationSeconds": 4.133333,
       "words": [
         {
           "text": "For",
@@ -13565,14 +13747,15 @@
           "start": 792.94,
           "end": 793.27
         }
-      ]
+      ],
+      "frames": 124
     },
     {
       "id": "184",
       "text": "They are not. The research indicates they are the product of hot mixing, using quick lime rather than only slaked lime,",
-      "start": 793.68,
-      "end": 799.59,
-      "durationSeconds": 5.91,
+      "start": 793.733333,
+      "end": 799.633333,
+      "durationSeconds": 5.9,
       "words": [
         {
           "text": "They",
@@ -13679,14 +13862,15 @@
           "start": 799.34,
           "end": 799.59
         }
-      ]
+      ],
+      "frames": 177
     },
     {
       "id": "185",
       "text": "which raises the temperature of the mix and leaves behind reactive calcium-rich deposits inside the hardened material,",
-      "start": 799.59,
-      "end": 806.15,
-      "durationSeconds": 6.56,
+      "start": 799.633333,
+      "end": 806.2,
+      "durationSeconds": 6.566667,
       "words": [
         {
           "text": "which",
@@ -13773,14 +13957,15 @@
           "start": 805.53,
           "end": 806.15
         }
-      ]
+      ],
+      "frames": 197
     },
     {
       "id": "186",
       "text": "and when a crack later opens and water reaches one, it dissolves, reacts, and recrystallizes.",
-      "start": 806.15,
-      "end": 812.38,
-      "durationSeconds": 6.23,
+      "start": 806.2,
+      "end": 812.433333,
+      "durationSeconds": 6.233333,
       "words": [
         {
           "text": "and",
@@ -13857,14 +14042,15 @@
           "start": 810.8,
           "end": 812.16
         }
-      ]
+      ],
+      "frames": 187
     },
     {
       "id": "187",
       "text": "The crack fills itself. The Romans built a self-healing material and, as far as anyone can tell,",
-      "start": 812.38,
-      "end": 817.62,
-      "durationSeconds": 5.24,
+      "start": 812.433333,
+      "end": 817.666667,
+      "durationSeconds": 5.233333,
       "words": [
         {
           "text": "The",
@@ -13951,14 +14137,15 @@
           "start": 817.3,
           "end": 817.62
         }
-      ]
+      ],
+      "frames": 157
     },
     {
       "id": "188",
       "text": "did not fully know it.",
-      "start": 817.62,
-      "end": 819.38,
-      "durationSeconds": 1.76,
+      "start": 817.666667,
+      "end": 819.433333,
+      "durationSeconds": 1.766667,
       "words": [
         {
           "text": "did",
@@ -13985,13 +14172,14 @@
           "start": 818.78,
           "end": 819.38
         }
-      ]
+      ],
+      "frames": 53
     },
     {
       "id": "189",
       "text": "Now put the two ends of this story next to each other.",
-      "start": 819.38,
-      "end": 822.38,
+      "start": 819.433333,
+      "end": 822.433333,
       "durationSeconds": 3.0,
       "words": [
         {
@@ -14054,14 +14242,15 @@
           "start": 821.74,
           "end": 822.16
         }
-      ]
+      ],
+      "frames": 90
     },
     {
       "id": "190",
       "text": "For two thousand years cement got hotter.",
-      "start": 822.38,
-      "end": 826.05,
-      "durationSeconds": 3.67,
+      "start": 822.433333,
+      "end": 826.1,
+      "durationSeconds": 3.666667,
       "words": [
         {
           "text": "For",
@@ -14098,14 +14287,15 @@
           "start": 825.37,
           "end": 825.86
         }
-      ]
+      ],
+      "frames": 110
     },
     {
       "id": "191",
       "text": "Aspidants kiln, then rotary kilns, then bigger rotary kilns, then pre-calciners and pre-heaters,",
-      "start": 826.05,
-      "end": 831.48,
-      "durationSeconds": 5.43,
+      "start": 826.1,
+      "end": 831.533333,
+      "durationSeconds": 5.433333,
       "words": [
         {
           "text": "Aspidants",
@@ -14172,14 +14362,15 @@
           "start": 830.18,
           "end": 831.26
         }
-      ]
+      ],
+      "frames": 163
     },
     {
       "id": "192",
       "text": "every generation reaching higher temperatures more efficiently.",
-      "start": 831.48,
-      "end": 834.46,
-      "durationSeconds": 2.98,
+      "start": 831.533333,
+      "end": 834.5,
+      "durationSeconds": 2.966667,
       "words": [
         {
           "text": "every",
@@ -14216,13 +14407,14 @@
           "start": 833.51,
           "end": 834.13
         }
-      ]
+      ],
+      "frames": 89
     },
     {
       "id": "193",
       "text": "Heat was the axis of progress.",
-      "start": 834.46,
-      "end": 836.16,
+      "start": 834.5,
+      "end": 836.2,
       "durationSeconds": 1.7,
       "words": [
         {
@@ -14255,14 +14447,15 @@
           "start": 835.61,
           "end": 836.16
         }
-      ]
+      ],
+      "frames": 51
     },
     {
       "id": "194",
       "text": "The entire industrial history of this material is a story about temperature, and the most promising route out of its emissions",
-      "start": 836.16,
-      "end": 842.92,
-      "durationSeconds": 6.76,
+      "start": 836.2,
+      "end": 842.966667,
+      "durationSeconds": 6.766667,
       "words": [
         {
           "text": "The",
@@ -14369,14 +14562,15 @@
           "start": 842.35,
           "end": 842.92
         }
-      ]
+      ],
+      "frames": 203
     },
     {
       "id": "195",
       "text": "runs at about the temperature of this room.",
-      "start": 842.92,
-      "end": 845.56,
-      "durationSeconds": 2.64,
+      "start": 842.966667,
+      "end": 845.6,
+      "durationSeconds": 2.633333,
       "words": [
         {
           "text": "runs",
@@ -14418,13 +14612,14 @@
           "start": 844.95,
           "end": 845.4
         }
-      ]
+      ],
+      "frames": 79
     },
     {
       "id": "196",
       "text": "Sublime itself points at the connection.",
-      "start": 845.56,
-      "end": 847.46,
+      "start": 845.6,
+      "end": 847.5,
       "durationSeconds": 1.9,
       "words": [
         {
@@ -14457,14 +14652,15 @@
           "start": 846.77,
           "end": 847.46
         }
-      ]
+      ],
+      "frames": 57
     },
     {
       "id": "197",
       "text": "Its cement chemistry draws on the older lime and silicate approach, and the company argues the result is more durable than ordinary",
-      "start": 847.46,
-      "end": 853.88,
-      "durationSeconds": 6.42,
+      "start": 847.5,
+      "end": 853.933333,
+      "durationSeconds": 6.433333,
       "words": [
         {
           "text": "Its",
@@ -14576,14 +14772,15 @@
           "start": 853.4,
           "end": 853.88
         }
-      ]
+      ],
+      "frames": 193
     },
     {
       "id": "198",
       "text": "Portland cement in most applications, which is an odd thing to sit with.",
-      "start": 853.88,
-      "end": 858.2,
-      "durationSeconds": 4.32,
+      "start": 853.933333,
+      "end": 858.266667,
+      "durationSeconds": 4.333333,
       "words": [
         {
           "text": "Portland",
@@ -14650,13 +14847,14 @@
           "start": 857.54,
           "end": 858.2
         }
-      ]
+      ],
+      "frames": 130
     },
     {
       "id": "199",
       "text": "Two hundred years of making cement hotter, and the way out might be making it cold again.",
-      "start": 858.2,
-      "end": 863.2,
+      "start": 858.266667,
+      "end": 863.266667,
       "durationSeconds": 5.0,
       "words": [
         {
@@ -14744,14 +14942,15 @@
           "start": 862.36,
           "end": 862.79
         }
-      ]
+      ],
+      "frames": 150
     },
     {
       "id": "200",
       "text": "That is the science. The science was never going to be the hard part, because the question that decides whether any of this reaches",
-      "start": 863.2,
-      "end": 869.79,
-      "durationSeconds": 6.59,
+      "start": 863.266667,
+      "end": 869.866667,
+      "durationSeconds": 6.6,
       "words": [
         {
           "text": "That",
@@ -14873,14 +15072,15 @@
           "start": 869.18,
           "end": 869.79
         }
-      ]
+      ],
+      "frames": 198
     },
     {
       "id": "201",
       "text": "your city is not, does it work?",
-      "start": 869.79,
-      "end": 872.1,
-      "durationSeconds": 2.31,
+      "start": 869.866667,
+      "end": 872.166667,
+      "durationSeconds": 2.3,
       "words": [
         {
           "text": "your",
@@ -14917,13 +15117,14 @@
           "start": 871.61,
           "end": 872.1
         }
-      ]
+      ],
+      "frames": 69
     },
     {
       "id": "202",
       "text": "It is, who has put money behind it that they cannot get back?",
-      "start": 872.1,
-      "end": 876.5,
+      "start": 872.166667,
+      "end": 876.566667,
       "durationSeconds": 4.4,
       "words": [
         {
@@ -14991,14 +15192,15 @@
           "start": 875.7,
           "end": 876.28
         }
-      ]
+      ],
+      "frames": 132
     },
     {
       "id": "203",
       "text": "Start with the ones who had every reason not to.",
-      "start": 876.5,
-      "end": 878.68,
-      "durationSeconds": 2.18,
+      "start": 876.566667,
+      "end": 878.733333,
+      "durationSeconds": 2.166667,
       "words": [
         {
           "text": "Start",
@@ -15050,13 +15252,14 @@
           "start": 878.34,
           "end": 878.68
         }
-      ]
+      ],
+      "frames": 65
     },
     {
       "id": "204",
       "text": "In September of 2024, C.R.H.",
-      "start": 878.68,
-      "end": 880.68,
+      "start": 878.733333,
+      "end": 880.733333,
       "durationSeconds": 2.0,
       "words": [
         {
@@ -15084,14 +15287,15 @@
           "start": 880.05,
           "end": 880.68
         }
-      ]
+      ],
+      "frames": 60
     },
     {
       "id": "205",
       "text": "and Holsim, two of the largest building materials companies on the planet, invested a combined 75 million dollars",
-      "start": 880.68,
-      "end": 887.22,
-      "durationSeconds": 6.54,
+      "start": 880.733333,
+      "end": 887.266667,
+      "durationSeconds": 6.533333,
       "words": [
         {
           "text": "and",
@@ -15183,14 +15387,15 @@
           "start": 887.05,
           "end": 887.16
         }
-      ]
+      ],
+      "frames": 196
     },
     {
       "id": "206",
       "text": "in sublime, with binding reservations on the plant's future output.",
-      "start": 887.22,
-      "end": 892.16,
-      "durationSeconds": 4.94,
+      "start": 887.266667,
+      "end": 892.2,
+      "durationSeconds": 4.933333,
       "words": [
         {
           "text": "in",
@@ -15242,14 +15447,15 @@
           "start": 891.25,
           "end": 892.16
         }
-      ]
+      ],
+      "frames": 148
     },
     {
       "id": "207",
       "text": "Sit with the position those two companies are in.",
-      "start": 892.16,
-      "end": 894.42,
-      "durationSeconds": 2.26,
+      "start": 892.2,
+      "end": 894.466667,
+      "durationSeconds": 2.266667,
       "words": [
         {
           "text": "Sit",
@@ -15296,14 +15502,15 @@
           "start": 893.92,
           "end": 894.2
         }
-      ]
+      ],
+      "frames": 68
     },
     {
       "id": "208",
       "text": "They own kilns. Thousands of them.",
-      "start": 894.42,
-      "end": 897.1,
-      "durationSeconds": 2.68,
+      "start": 894.466667,
+      "end": 897.133333,
+      "durationSeconds": 2.666667,
       "words": [
         {
           "text": "They",
@@ -15335,14 +15542,15 @@
           "start": 896.48,
           "end": 896.75
         }
-      ]
+      ],
+      "frames": 80
     },
     {
       "id": "209",
       "text": "Only one is a capital asset with decades of remaining life.",
-      "start": 897.1,
-      "end": 900.34,
-      "durationSeconds": 3.24,
+      "start": 897.133333,
+      "end": 900.366667,
+      "durationSeconds": 3.233333,
       "words": [
         {
           "text": "Only",
@@ -15399,14 +15607,15 @@
           "start": 899.63,
           "end": 900.12
         }
-      ]
+      ],
+      "frames": 97
     },
     {
       "id": "210",
       "text": "Built around the exact process this technology makes unnecessary.",
-      "start": 900.34,
-      "end": 903.83,
-      "durationSeconds": 3.49,
+      "start": 900.366667,
+      "end": 903.866667,
+      "durationSeconds": 3.5,
       "words": [
         {
           "text": "Built",
@@ -15453,14 +15662,15 @@
           "start": 903.33,
           "end": 903.83
         }
-      ]
+      ],
+      "frames": 105
     },
     {
       "id": "211",
       "text": "If anyone on Earth has a reason to ignore electrochemical cement, underfund it, or acquire it and shelve it,",
-      "start": 903.83,
-      "end": 909.85,
-      "durationSeconds": 6.02,
+      "start": 903.866667,
+      "end": 909.9,
+      "durationSeconds": 6.033333,
       "words": [
         {
           "text": "If",
@@ -15557,14 +15767,15 @@
           "start": 909.58,
           "end": 909.74
         }
-      ]
+      ],
+      "frames": 181
     },
     {
       "id": "212",
       "text": "it is Holsim and C.R.H.",
-      "start": 909.85,
-      "end": 911.94,
-      "durationSeconds": 2.09,
+      "start": 909.9,
+      "end": 912.0,
+      "durationSeconds": 2.1,
       "words": [
         {
           "text": "it",
@@ -15591,14 +15802,15 @@
           "start": 910.77,
           "end": 911.64
         }
-      ]
+      ],
+      "frames": 63
     },
     {
       "id": "213",
       "text": "Instead, they wrote checks and reserve tonnage.",
-      "start": 911.94,
-      "end": 915.3,
-      "durationSeconds": 3.36,
+      "start": 912.0,
+      "end": 915.366667,
+      "durationSeconds": 3.366667,
       "words": [
         {
           "text": "Instead,",
@@ -15635,14 +15847,15 @@
           "start": 914.28,
           "end": 915.08
         }
-      ]
+      ],
+      "frames": 101
     },
     {
       "id": "214",
       "text": "That is not a press release. That is two incumbents deciding that being early to the thing that threatens them is cheaper than being",
-      "start": 915.3,
-      "end": 921.78,
-      "durationSeconds": 6.48,
+      "start": 915.366667,
+      "end": 921.833333,
+      "durationSeconds": 6.466667,
       "words": [
         {
           "text": "That",
@@ -15764,14 +15977,15 @@
           "start": 921.77,
           "end": 921.78
         }
-      ]
+      ],
+      "frames": 194
     },
     {
       "id": "215",
       "text": "late to it. Then the customer side.",
-      "start": 921.78,
-      "end": 924.12,
-      "durationSeconds": 2.34,
+      "start": 921.833333,
+      "end": 924.166667,
+      "durationSeconds": 2.333333,
       "words": [
         {
           "text": "late",
@@ -15808,14 +16022,15 @@
           "start": 923.66,
           "end": 924.12
         }
-      ]
+      ],
+      "frames": 70
     },
     {
       "id": "216",
       "text": "On May 22, 2025, Microsoft signed a binding agreement to purchase up to 622,500",
-      "start": 924.12,
-      "end": 930.98,
-      "durationSeconds": 6.86,
+      "start": 924.166667,
+      "end": 931.033333,
+      "durationSeconds": 6.866667,
       "words": [
         {
           "text": "On",
@@ -15887,14 +16102,15 @@
           "start": 929.52,
           "end": 930.98
         }
-      ]
+      ],
+      "frames": 206
     },
     {
       "id": "217",
       "text": "metric tons of sublime cement over six to nine years, an agreement tied to the output of the first commercial",
-      "start": 930.98,
-      "end": 937.43,
-      "durationSeconds": 6.45,
+      "start": 931.033333,
+      "end": 937.5,
+      "durationSeconds": 6.466667,
       "words": [
         {
           "text": "metric",
@@ -15996,14 +16212,15 @@
           "start": 937,
           "end": 937.43
         }
-      ]
+      ],
+      "frames": 194
     },
     {
       "id": "218",
       "text": "plant, aimed substantially at data center construction.",
-      "start": 937.43,
-      "end": 940.84,
-      "durationSeconds": 3.41,
+      "start": 937.5,
+      "end": 940.9,
+      "durationSeconds": 3.4,
       "words": [
         {
           "text": "plant,",
@@ -16040,14 +16257,15 @@
           "start": 939.99,
           "end": 940.84
         }
-      ]
+      ],
+      "frames": 102
     },
     {
       "id": "219",
       "text": "Read the word binding again. This is not a memorandum of understanding or a letter of intent.",
-      "start": 940.84,
-      "end": 945.76,
-      "durationSeconds": 4.92,
+      "start": 940.9,
+      "end": 945.833333,
+      "durationSeconds": 4.933333,
       "words": [
         {
           "text": "Read",
@@ -16134,14 +16352,15 @@
           "start": 945.15,
           "end": 945.76
         }
-      ]
+      ],
+      "frames": 148
     },
     {
       "id": "220",
       "text": "It is a company with among the most sophisticated procurement operations in existence, committing to buy hundreds of thousands of",
-      "start": 945.76,
-      "end": 952.15,
-      "durationSeconds": 6.39,
+      "start": 945.833333,
+      "end": 952.233333,
+      "durationSeconds": 6.4,
       "words": [
         {
           "text": "It",
@@ -16243,14 +16462,15 @@
           "start": 952,
           "end": 952.15
         }
-      ]
+      ],
+      "frames": 192
     },
     {
       "id": "221",
       "text": "tons of a material from a factory that did not yet exist.",
-      "start": 952.15,
-      "end": 955.84,
-      "durationSeconds": 3.69,
+      "start": 952.233333,
+      "end": 955.933333,
+      "durationSeconds": 3.7,
       "words": [
         {
           "text": "tons",
@@ -16312,14 +16532,15 @@
           "start": 955.16,
           "end": 955.84
         }
-      ]
+      ],
+      "frames": 111
     },
     {
       "id": "222",
       "text": "And the reason is not only environmental.",
-      "start": 955.84,
-      "end": 957.69,
-      "durationSeconds": 1.85,
+      "start": 955.933333,
+      "end": 957.8,
+      "durationSeconds": 1.866667,
       "words": [
         {
           "text": "And",
@@ -16356,14 +16577,15 @@
           "start": 957.21,
           "end": 957.68
         }
-      ]
+      ],
+      "frames": 56
     },
     {
       "id": "223",
       "text": "A hyperscale data center is a very large amount of concrete on a very tight schedule, and the companies building them have discovered that construction",
-      "start": 957.69,
-      "end": 964.2,
-      "durationSeconds": 6.51,
+      "start": 957.8,
+      "end": 964.3,
+      "durationSeconds": 6.5,
       "words": [
         {
           "text": "A",
@@ -16490,14 +16712,15 @@
           "start": 963.71,
           "end": 964.2
         }
-      ]
+      ],
+      "frames": 195
     },
     {
       "id": "224",
       "text": "emissions are the part of their footprint they cannot solve with a power purchase agreement.",
-      "start": 964.2,
-      "end": 968.81,
-      "durationSeconds": 4.61,
+      "start": 964.3,
+      "end": 968.9,
+      "durationSeconds": 4.6,
       "words": [
         {
           "text": "emissions",
@@ -16574,14 +16797,15 @@
           "start": 968.31,
           "end": 968.81
         }
-      ]
+      ],
+      "frames": 138
     },
     {
       "id": "225",
       "text": "Add the rest of the ledger, Siam Cement Group, the largest cement producer in Southeast Asia,",
-      "start": 968.81,
-      "end": 974.29,
-      "durationSeconds": 5.48,
+      "start": 968.9,
+      "end": 974.366667,
+      "durationSeconds": 5.466667,
       "words": [
         {
           "text": "Add",
@@ -16663,14 +16887,15 @@
           "start": 973.92,
           "end": 974.29
         }
-      ]
+      ],
+      "frames": 164
     },
     {
       "id": "226",
       "text": "as a strategic investor, more than $200 million raised in total across climate investors,",
-      "start": 974.29,
-      "end": 980.18,
-      "durationSeconds": 5.89,
+      "start": 974.366667,
+      "end": 980.266667,
+      "durationSeconds": 5.9,
       "words": [
         {
           "text": "as",
@@ -16742,14 +16967,15 @@
           "start": 979.22,
           "end": 979.96
         }
-      ]
+      ],
+      "frames": 177
     },
     {
       "id": "227",
       "text": "industry incumbents, and federal programs.",
-      "start": 980.18,
-      "end": 983.12,
-      "durationSeconds": 2.94,
+      "start": 980.266667,
+      "end": 983.2,
+      "durationSeconds": 2.933333,
       "words": [
         {
           "text": "industry",
@@ -16776,14 +17002,15 @@
           "start": 982.23,
           "end": 983.12
         }
-      ]
+      ],
+      "frames": 88
     },
     {
       "id": "228",
       "text": "In August of 2025, the data center developer Stack completed a test pour of Sublime's product at its campus in Prince William County,",
-      "start": 983.12,
-      "end": 989.68,
-      "durationSeconds": 6.56,
+      "start": 983.2,
+      "end": 989.766667,
+      "durationSeconds": 6.566667,
       "words": [
         {
           "text": "In",
@@ -16900,14 +17127,15 @@
           "start": 989.26,
           "end": 989.68
         }
-      ]
+      ],
+      "frames": 197
     },
     {
       "id": "229",
       "text": "Virginia, the first use of the material in the data center market specifically, and the federal piece,",
-      "start": 989.68,
-      "end": 995.29,
-      "durationSeconds": 5.61,
+      "start": 989.766667,
+      "end": 995.366667,
+      "durationSeconds": 5.6,
       "words": [
         {
           "text": "Virginia,",
@@ -16994,14 +17222,15 @@
           "start": 994.74,
           "end": 995.21
         }
-      ]
+      ],
+      "frames": 168
     },
     {
       "id": "230",
       "text": "which is where the story turns.",
-      "start": 995.29,
-      "end": 997.23,
-      "durationSeconds": 1.94,
+      "start": 995.366667,
+      "end": 997.3,
+      "durationSeconds": 1.933333,
       "words": [
         {
           "text": "which",
@@ -17033,14 +17262,15 @@
           "start": 996.56,
           "end": 997.23
         }
-      ]
+      ],
+      "frames": 58
     },
     {
       "id": "231",
       "text": "In March of 2024, Sublime was selected by the Department of Energy's Office of Clean Energy Demonstrations for up to $87",
-      "start": 997.23,
-      "end": 1003.94,
-      "durationSeconds": 6.71,
+      "start": 997.3,
+      "end": 1004.0,
+      "durationSeconds": 6.7,
       "words": [
         {
           "text": "In",
@@ -17147,14 +17377,15 @@
           "start": 1003.43,
           "end": 1003.94
         }
-      ]
+      ],
+      "frames": 201
     },
     {
       "id": "232",
       "text": "million under the Industrial Demonstrations Program to build a first commercial plant,",
-      "start": 1003.94,
-      "end": 1009.65,
-      "durationSeconds": 5.71,
+      "start": 1004.0,
+      "end": 1009.7,
+      "durationSeconds": 5.7,
       "words": [
         {
           "text": "million",
@@ -17216,13 +17447,14 @@
           "start": 1009.31,
           "end": 1009.65
         }
-      ]
+      ],
+      "frames": 171
     },
     {
       "id": "233",
       "text": "30,000 tons a year.",
-      "start": 1009.65,
-      "end": 1011.65,
+      "start": 1009.7,
+      "end": 1011.7,
       "durationSeconds": 2.0,
       "words": [
         {
@@ -17245,14 +17477,15 @@
           "start": 1011.32,
           "end": 1011.65
         }
-      ]
+      ],
+      "frames": 60
     },
     {
       "id": "234",
       "text": "In January of 2025, a $46.7 million investment tax credit followed from the Department of Energy and",
-      "start": 1011.65,
-      "end": 1018.16,
-      "durationSeconds": 6.51,
+      "start": 1011.7,
+      "end": 1018.2,
+      "durationSeconds": 6.5,
       "words": [
         {
           "text": "In",
@@ -17339,14 +17572,15 @@
           "start": 1017.92,
           "end": 1018.16
         }
-      ]
+      ],
+      "frames": 195
     },
     {
       "id": "235",
       "text": "the IRS total projected plant cost, around $150 million.",
-      "start": 1018.16,
-      "end": 1022.77,
-      "durationSeconds": 4.61,
+      "start": 1018.2,
+      "end": 1022.8,
+      "durationSeconds": 4.6,
       "words": [
         {
           "text": "the",
@@ -17393,14 +17627,15 @@
           "start": 1021.94,
           "end": 1022.77
         }
-      ]
+      ],
+      "frames": 138
     },
     {
       "id": "236",
       "text": "The site was Holyoke, Massachusetts, 16 acres on Water Street, in the industrial flats,",
-      "start": 1022.77,
-      "end": 1028.38,
-      "durationSeconds": 5.61,
+      "start": 1022.8,
+      "end": 1028.4,
+      "durationSeconds": 5.6,
       "words": [
         {
           "text": "The",
@@ -17472,14 +17707,15 @@
           "start": 1027.82,
           "end": 1028.38
         }
-      ]
+      ],
+      "frames": 168
     },
     {
       "id": "237",
       "text": "on land that used to hold paper mills.",
-      "start": 1028.38,
-      "end": 1031.34,
-      "durationSeconds": 2.96,
+      "start": 1028.4,
+      "end": 1031.366667,
+      "durationSeconds": 2.966667,
       "words": [
         {
           "text": "on",
@@ -17521,14 +17757,15 @@
           "start": 1030.43,
           "end": 1031.12
         }
-      ]
+      ],
+      "frames": 89
     },
     {
       "id": "238",
       "text": "Holyoke was built on water power.",
-      "start": 1031.34,
-      "end": 1032.98,
-      "durationSeconds": 1.64,
+      "start": 1031.366667,
+      "end": 1033.0,
+      "durationSeconds": 1.633333,
       "words": [
         {
           "text": "Holyoke",
@@ -17560,14 +17797,15 @@
           "start": 1032.49,
           "end": 1032.96
         }
-      ]
+      ],
+      "frames": 49
     },
     {
       "id": "239",
       "text": "In the 19th century, its canal system and turbines drove the mills that at one point produced something like 80% of the writing paper in the",
-      "start": 1032.98,
-      "end": 1039.42,
-      "durationSeconds": 6.44,
+      "start": 1033.0,
+      "end": 1039.433333,
+      "durationSeconds": 6.433333,
       "words": [
         {
           "text": "In",
@@ -17699,14 +17937,15 @@
           "start": 1039.27,
           "end": 1039.42
         }
-      ]
+      ],
+      "frames": 193
     },
     {
       "id": "240",
       "text": "United States. They called it the Paper City.",
-      "start": 1039.42,
-      "end": 1042.38,
-      "durationSeconds": 2.96,
+      "start": 1039.433333,
+      "end": 1042.4,
+      "durationSeconds": 2.966667,
       "words": [
         {
           "text": "United",
@@ -17748,13 +17987,14 @@
           "start": 1041.73,
           "end": 1042.16
         }
-      ]
+      ],
+      "frames": 89
     },
     {
       "id": "241",
       "text": "Then the mills went, the way mills went everywhere.",
-      "start": 1042.38,
-      "end": 1045.18,
+      "start": 1042.4,
+      "end": 1045.2,
       "durationSeconds": 2.8,
       "words": [
         {
@@ -17802,14 +18042,15 @@
           "start": 1044.14,
           "end": 1044.96
         }
-      ]
+      ],
+      "frames": 84
     },
     {
       "id": "242",
       "text": "The hydropower stayed.",
-      "start": 1045.18,
-      "end": 1047.02,
-      "durationSeconds": 1.84,
+      "start": 1045.2,
+      "end": 1047.033333,
+      "durationSeconds": 1.833333,
       "words": [
         {
           "text": "The",
@@ -17826,14 +18067,15 @@
           "start": 1046.33,
           "end": 1046.8
         }
-      ]
+      ],
+      "frames": 55
     },
     {
       "id": "243",
       "text": "That is why Sublime chose it, a process that needs large amounts of clean electricity, sited on a river that has been generating",
-      "start": 1047.02,
-      "end": 1053.79,
-      "durationSeconds": 6.77,
+      "start": 1047.033333,
+      "end": 1053.8,
+      "durationSeconds": 6.766667,
       "words": [
         {
           "text": "That",
@@ -17950,14 +18192,15 @@
           "start": 1053.14,
           "end": 1053.79
         }
-      ]
+      ],
+      "frames": 203
     },
     {
       "id": "244",
       "text": "power for 150 years in a city that lost its industry and has been trying to replace it since.",
-      "start": 1053.79,
-      "end": 1059.94,
-      "durationSeconds": 6.15,
+      "start": 1053.8,
+      "end": 1059.933333,
+      "durationSeconds": 6.133333,
       "words": [
         {
           "text": "power",
@@ -18054,14 +18297,15 @@
           "start": 1059.06,
           "end": 1059.72
         }
-      ]
+      ],
+      "frames": 184
     },
     {
       "id": "245",
       "text": "70 to 90 permanent jobs, hundreds during construction, state tax credits,",
-      "start": 1059.94,
-      "end": 1064.76,
-      "durationSeconds": 4.82,
+      "start": 1059.933333,
+      "end": 1064.766667,
+      "durationSeconds": 4.833333,
       "words": [
         {
           "text": "70",
@@ -18118,14 +18362,15 @@
           "start": 1064.15,
           "end": 1064.76
         }
-      ]
+      ],
+      "frames": 145
     },
     {
       "id": "246",
       "text": "local tax increment financing, a mayor's office, and a congressional delegation at the ribbon cuttings and the test pours.",
-      "start": 1064.76,
-      "end": 1072.64,
-      "durationSeconds": 7.88,
+      "start": 1064.766667,
+      "end": 1072.633333,
+      "durationSeconds": 7.866667,
       "words": [
         {
           "text": "local",
@@ -18222,14 +18467,15 @@
           "start": 1070.92,
           "end": 1072.41
         }
-      ]
+      ],
+      "frames": 236
     },
     {
       "id": "247",
       "text": "Everything was in place, certification, a signed anchor customer, incumbent investment,",
-      "start": 1072.64,
+      "start": 1072.633333,
       "end": 1077.7,
-      "durationSeconds": 5.06,
+      "durationSeconds": 5.066667,
       "words": [
         {
           "text": "Everything",
@@ -18286,14 +18532,15 @@
           "start": 1076.81,
           "end": 1077.68
         }
-      ]
+      ],
+      "frames": 152
     },
     {
       "id": "248",
       "text": "a site, a power source, a construction timeline.",
       "start": 1077.7,
-      "end": 1082.08,
-      "durationSeconds": 4.38,
+      "end": 1082.066667,
+      "durationSeconds": 4.366667,
       "words": [
         {
           "text": "a",
@@ -18335,14 +18582,15 @@
           "start": 1081.06,
           "end": 1082.08
         }
-      ]
+      ],
+      "frames": 131
     },
     {
       "id": "249",
       "text": "And then a single line in a federal portfolio review removed half the money.",
-      "start": 1082.08,
-      "end": 1086.54,
-      "durationSeconds": 4.46,
+      "start": 1082.066667,
+      "end": 1086.533333,
+      "durationSeconds": 4.466667,
       "words": [
         {
           "text": "And",
@@ -18414,14 +18662,15 @@
           "start": 1085.75,
           "end": 1086.32
         }
-      ]
+      ],
+      "frames": 134
     },
     {
       "id": "250",
       "text": "Here is the sequence, plainly.",
-      "start": 1086.54,
-      "end": 1088.38,
-      "durationSeconds": 1.84,
+      "start": 1086.533333,
+      "end": 1088.366667,
+      "durationSeconds": 1.833333,
       "words": [
         {
           "text": "Here",
@@ -18448,14 +18697,15 @@
           "start": 1087.7,
           "end": 1088.38
         }
-      ]
+      ],
+      "frames": 55
     },
     {
       "id": "251",
       "text": "At the end of May 2025, the Department of Energy announced the cancellation of funding for 24 projects,",
-      "start": 1088.38,
-      "end": 1095.12,
-      "durationSeconds": 6.74,
+      "start": 1088.366667,
+      "end": 1095.1,
+      "durationSeconds": 6.733333,
       "words": [
         {
           "text": "At",
@@ -18547,13 +18797,14 @@
           "start": 1094.33,
           "end": 1095.01
         }
-      ]
+      ],
+      "frames": 202
     },
     {
       "id": "252",
       "text": "totaling $3.7 billion.",
-      "start": 1095.12,
-      "end": 1098.42,
+      "start": 1095.1,
+      "end": 1098.4,
       "durationSeconds": 3.3,
       "words": [
         {
@@ -18571,14 +18822,15 @@
           "start": 1097.06,
           "end": 1098.24
         }
-      ]
+      ],
+      "frames": 99
     },
     {
       "id": "253",
       "text": "Sublime's $87 million award was one of them.",
-      "start": 1098.42,
-      "end": 1100.84,
-      "durationSeconds": 2.42,
+      "start": 1098.4,
+      "end": 1100.833333,
+      "durationSeconds": 2.433333,
       "words": [
         {
           "text": "Sublime's",
@@ -18620,14 +18872,15 @@
           "start": 1100.41,
           "end": 1100.84
         }
-      ]
+      ],
+      "frames": 73
     },
     {
       "id": "254",
       "text": "The department stated that the awards in question had been approved in the closing period of the previous administration.",
-      "start": 1100.84,
-      "end": 1106.89,
-      "durationSeconds": 6.05,
+      "start": 1100.833333,
+      "end": 1106.9,
+      "durationSeconds": 6.066667,
       "words": [
         {
           "text": "The",
@@ -18724,14 +18977,15 @@
           "start": 1105.89,
           "end": 1106.72
         }
-      ]
+      ],
+      "frames": 182
     },
     {
       "id": "255",
       "text": "Sublime said at the time that it would continue and would seek funding elsewhere.",
-      "start": 1106.89,
-      "end": 1110.76,
-      "durationSeconds": 3.87,
+      "start": 1106.9,
+      "end": 1110.766667,
+      "durationSeconds": 3.866667,
       "words": [
         {
           "text": "Sublime",
@@ -18803,13 +19057,14 @@
           "start": 1110.1,
           "end": 1110.76
         }
-      ]
+      ],
+      "frames": 116
     },
     {
       "id": "256",
       "text": "It publicly argued that its technology served stated federal priorities directly, onshoring manufacturing,",
-      "start": 1110.76,
-      "end": 1116.16,
+      "start": 1110.766667,
+      "end": 1116.166667,
       "durationSeconds": 5.4,
       "words": [
         {
@@ -18877,14 +19132,15 @@
           "start": 1115.54,
           "end": 1116.16
         }
-      ]
+      ],
+      "frames": 162
     },
     {
       "id": "257",
       "text": "adding American jobs, supporting critical minerals production, and reducing dependence on a building material the United States currently",
-      "start": 1116.16,
-      "end": 1122.71,
-      "durationSeconds": 6.55,
+      "start": 1116.166667,
+      "end": 1122.7,
+      "durationSeconds": 6.533333,
       "words": [
         {
           "text": "adding",
@@ -18976,14 +19232,15 @@
           "start": 1122.26,
           "end": 1122.71
         }
-      ]
+      ],
+      "frames": 196
     },
     {
       "id": "258",
       "text": "imports by the tens of millions of tons.",
-      "start": 1122.71,
-      "end": 1125.76,
-      "durationSeconds": 3.05,
+      "start": 1122.7,
+      "end": 1125.766667,
+      "durationSeconds": 3.066667,
       "words": [
         {
           "text": "imports",
@@ -19025,14 +19282,15 @@
           "start": 1124.43,
           "end": 1125.76
         }
-      ]
+      ],
+      "frames": 92
     },
     {
       "id": "259",
       "text": "The grant was going to fund 50% of the Holyoke plant.",
-      "start": 1125.76,
-      "end": 1128.63,
-      "durationSeconds": 2.87,
+      "start": 1125.766667,
+      "end": 1128.633333,
+      "durationSeconds": 2.866667,
       "words": [
         {
           "text": "The",
@@ -19089,14 +19347,15 @@
           "start": 1128.32,
           "end": 1128.63
         }
-      ]
+      ],
+      "frames": 86
     },
     {
       "id": "260",
       "text": "On December 4, 2025, Sublime announced it was pausing work on Holyoke and cutting 10% of its workforce.",
-      "start": 1128.63,
-      "end": 1135.32,
-      "durationSeconds": 6.69,
+      "start": 1128.633333,
+      "end": 1135.333333,
+      "durationSeconds": 6.7,
       "words": [
         {
           "text": "On",
@@ -19188,14 +19447,15 @@
           "start": 1134.35,
           "end": 1135.32
         }
-      ]
+      ],
+      "frames": 201
     },
     {
       "id": "261",
       "text": "The company said the loss of the award had created real difficulty in assembling the rest of the capital stack.",
-      "start": 1135.32,
-      "end": 1140.56,
-      "durationSeconds": 5.24,
+      "start": 1135.333333,
+      "end": 1140.566667,
+      "durationSeconds": 5.233333,
       "words": [
         {
           "text": "The",
@@ -19297,14 +19557,15 @@
           "start": 1140.05,
           "end": 1140.56
         }
-      ]
+      ],
+      "frames": 157
     },
     {
       "id": "262",
       "text": "It said it was working through alternative scale-up plans and had several options.",
-      "start": 1140.56,
-      "end": 1144.28,
-      "durationSeconds": 3.72,
+      "start": 1140.566667,
+      "end": 1144.3,
+      "durationSeconds": 3.733333,
       "words": [
         {
           "text": "It",
@@ -19371,14 +19632,15 @@
           "start": 1143.77,
           "end": 1144.26
         }
-      ]
+      ],
+      "frames": 112
     },
     {
       "id": "263",
       "text": "It said it remained in dialogue with the Department of Energy, Massachusetts' state administration had tried to close the gap.",
-      "start": 1144.28,
-      "end": 1150.37,
-      "durationSeconds": 6.09,
+      "start": 1144.3,
+      "end": 1150.4,
+      "durationSeconds": 6.1,
       "words": [
         {
           "text": "It",
@@ -19480,14 +19742,15 @@
           "start": 1149.91,
           "end": 1150.36
         }
-      ]
+      ],
+      "frames": 183
     },
     {
       "id": "264",
       "text": "A smaller version of the project on an adjacent lot was discussed.",
-      "start": 1150.37,
-      "end": 1154.22,
-      "durationSeconds": 3.85,
+      "start": 1150.4,
+      "end": 1154.266667,
+      "durationSeconds": 3.866667,
       "words": [
         {
           "text": "A",
@@ -19549,14 +19812,15 @@
           "start": 1153.18,
           "end": 1154
         }
-      ]
+      ],
+      "frames": 116
     },
     {
       "id": "265",
       "text": "The arithmetic did not work.",
-      "start": 1154.22,
-      "end": 1156,
-      "durationSeconds": 1.78,
+      "start": 1154.266667,
+      "end": 1156.033333,
+      "durationSeconds": 1.766667,
       "words": [
         {
           "text": "The",
@@ -19583,14 +19847,15 @@
           "start": 1155.45,
           "end": 1156
         }
-      ]
+      ],
+      "frames": 53
     },
     {
       "id": "266",
       "text": "On March 12, 2026, Sublime confirmed it had laid off approximately two-thirds of its workforce,",
-      "start": 1156,
-      "end": 1162.18,
-      "durationSeconds": 6.18,
+      "start": 1156.033333,
+      "end": 1162.2,
+      "durationSeconds": 6.166667,
       "words": [
         {
           "text": "On",
@@ -19667,14 +19932,15 @@
           "start": 1160.5,
           "end": 1161.78
         }
-      ]
+      ],
+      "frames": 185
     },
     {
       "id": "267",
       "text": "attributing the decision to the loss of the federal grant and the compounding difficulty of financing scale-up without it.",
-      "start": 1162.18,
-      "end": 1167.96,
-      "durationSeconds": 5.78,
+      "start": 1162.2,
+      "end": 1167.966667,
+      "durationSeconds": 5.766667,
       "words": [
         {
           "text": "attributing",
@@ -19771,14 +20037,15 @@
           "start": 1167.55,
           "end": 1167.96
         }
-      ]
+      ],
+      "frames": 173
     },
     {
       "id": "268",
       "text": "By then, the appeals process had been running for close to 10 months, with very little movement.",
-      "start": 1167.96,
+      "start": 1167.966667,
       "end": 1173.7,
-      "durationSeconds": 5.74,
+      "durationSeconds": 5.733333,
       "words": [
         {
           "text": "By",
@@ -19865,14 +20132,15 @@
           "start": 1172.82,
           "end": 1173.47
         }
-      ]
+      ],
+      "frames": 172
     },
     {
       "id": "269",
       "text": "Reporting on the wider program describes the same pattern across many of the canceled awards.",
       "start": 1173.7,
-      "end": 1178.08,
-      "durationSeconds": 4.38,
+      "end": 1178.066667,
+      "durationSeconds": 4.366667,
       "words": [
         {
           "text": "Reporting",
@@ -19949,14 +20217,15 @@
           "start": 1176.86,
           "end": 1177.86
         }
-      ]
+      ],
+      "frames": 131
     },
     {
       "id": "270",
       "text": "Some recipients withdrawing and seeking private money, some litigating, many still inside an internal appeals process at an agency that",
-      "start": 1178.08,
-      "end": 1184.42,
-      "durationSeconds": 6.34,
+      "start": 1178.066667,
+      "end": 1184.4,
+      "durationSeconds": 6.333333,
       "words": [
         {
           "text": "Some",
@@ -20058,14 +20327,15 @@
           "start": 1184.21,
           "end": 1184.42
         }
-      ]
+      ],
+      "frames": 190
     },
     {
       "id": "271",
       "text": "went through large staff reductions in the same period.",
-      "start": 1184.42,
-      "end": 1187.98,
-      "durationSeconds": 3.56,
+      "start": 1184.4,
+      "end": 1187.966667,
+      "durationSeconds": 3.566667,
       "words": [
         {
           "text": "went",
@@ -20112,13 +20382,14 @@
           "start": 1186.83,
           "end": 1187.76
         }
-      ]
+      ],
+      "frames": 107
     },
     {
       "id": "272",
       "text": "Those are the facts. The decision, the amount, the date, the effect.",
-      "start": 1187.98,
-      "end": 1192.68,
+      "start": 1187.966667,
+      "end": 1192.666667,
       "durationSeconds": 4.7,
       "words": [
         {
@@ -20181,14 +20452,15 @@
           "start": 1192.27,
           "end": 1192.46
         }
-      ]
+      ],
+      "frames": 141
     },
     {
       "id": "273",
       "text": "What is left is worth being precise about, because it is neither nothing nor a factory.",
-      "start": 1192.68,
-      "end": 1197.04,
-      "durationSeconds": 4.36,
+      "start": 1192.666667,
+      "end": 1197.033333,
+      "durationSeconds": 4.366667,
       "words": [
         {
           "text": "What",
@@ -20270,14 +20542,15 @@
           "start": 1196.45,
           "end": 1197.04
         }
-      ]
+      ],
+      "frames": 131
     },
     {
       "id": "274",
       "text": "The technology has not stopped working.",
-      "start": 1197.04,
+      "start": 1197.033333,
       "end": 1199.2,
-      "durationSeconds": 2.16,
+      "durationSeconds": 2.166667,
       "words": [
         {
           "text": "The",
@@ -20309,14 +20582,15 @@
           "start": 1198.62,
           "end": 1199.2
         }
-      ]
+      ],
+      "frames": 65
     },
     {
       "id": "275",
       "text": "The certification still stands.",
       "start": 1199.2,
-      "end": 1201.12,
-      "durationSeconds": 1.92,
+      "end": 1201.133333,
+      "durationSeconds": 1.933333,
       "words": [
         {
           "text": "The",
@@ -20338,14 +20612,15 @@
           "start": 1200.57,
           "end": 1201.12
         }
-      ]
+      ],
+      "frames": 58
     },
     {
       "id": "276",
       "text": "The building in Boston is still standing.",
-      "start": 1201.12,
+      "start": 1201.133333,
       "end": 1203.5,
-      "durationSeconds": 2.38,
+      "durationSeconds": 2.366667,
       "words": [
         {
           "text": "The",
@@ -20382,14 +20657,15 @@
           "start": 1202.61,
           "end": 1203.18
         }
-      ]
+      ],
+      "frames": 71
     },
     {
       "id": "277",
       "text": "The pilot plant in Somerville still runs.",
       "start": 1203.5,
-      "end": 1206.31,
-      "durationSeconds": 2.81,
+      "end": 1206.3,
+      "durationSeconds": 2.8,
       "words": [
         {
           "text": "The",
@@ -20426,14 +20702,15 @@
           "start": 1205.55,
           "end": 1206.12
         }
-      ]
+      ],
+      "frames": 84
     },
     {
       "id": "278",
       "text": "Sublime says it continues to see strong customer demand and industry backing.",
-      "start": 1206.31,
-      "end": 1209.64,
-      "durationSeconds": 3.33,
+      "start": 1206.3,
+      "end": 1209.633333,
+      "durationSeconds": 3.333333,
       "words": [
         {
           "text": "Sublime",
@@ -20495,14 +20772,15 @@
           "start": 1209.36,
           "end": 1209.64
         }
-      ]
+      ],
+      "frames": 100
     },
     {
       "id": "279",
       "text": "And as of March 2026, it was still stating a goal of bringing its first electrochemical cement plants online in the United States and Europe",
-      "start": 1209.64,
-      "end": 1216.21,
-      "durationSeconds": 6.57,
+      "start": 1209.633333,
+      "end": 1216.2,
+      "durationSeconds": 6.566667,
       "words": [
         {
           "text": "And",
@@ -20629,14 +20907,15 @@
           "start": 1215.89,
           "end": 1216.2
         }
-      ]
+      ],
+      "frames": 197
     },
     {
       "id": "280",
       "text": "by 2030, and still seeking to restore the award.",
-      "start": 1216.21,
-      "end": 1219.88,
-      "durationSeconds": 3.67,
+      "start": 1216.2,
+      "end": 1219.866667,
+      "durationSeconds": 3.666667,
       "words": [
         {
           "text": "by",
@@ -20683,14 +20962,15 @@
           "start": 1218.89,
           "end": 1219.88
         }
-      ]
+      ],
+      "frames": 110
     },
     {
       "id": "281",
       "text": "The rest of the field has not stopped either.",
-      "start": 1219.88,
-      "end": 1222.32,
-      "durationSeconds": 2.44,
+      "start": 1219.866667,
+      "end": 1222.3,
+      "durationSeconds": 2.433333,
       "words": [
         {
           "text": "The",
@@ -20737,14 +21017,15 @@
           "start": 1221.57,
           "end": 1222.12
         }
-      ]
+      ],
+      "frames": 73
     },
     {
       "id": "282",
       "text": "Forterra, which converts kiln carbon dioxide into a reactive calcium carbonate cement,",
-      "start": 1222.32,
-      "end": 1227.36,
-      "durationSeconds": 5.04,
+      "start": 1222.3,
+      "end": 1227.333333,
+      "durationSeconds": 5.033333,
       "words": [
         {
           "text": "Forterra,",
@@ -20806,14 +21087,15 @@
           "start": 1226.97,
           "end": 1227.36
         }
-      ]
+      ],
+      "frames": 151
     },
     {
       "id": "283",
       "text": "has Microsoft investment behind a 400,000-ton-per-year facility.",
-      "start": 1227.36,
-      "end": 1231.6,
-      "durationSeconds": 4.24,
+      "start": 1227.333333,
+      "end": 1231.566667,
+      "durationSeconds": 4.233333,
       "words": [
         {
           "text": "has",
@@ -20850,14 +21132,15 @@
           "start": 1230.76,
           "end": 1231.48
         }
-      ]
+      ],
+      "frames": 127
     },
     {
       "id": "284",
       "text": "Brimstone, working from calcium silicate rock rather than limestone, has an Amazon reservation on output from a",
-      "start": 1231.6,
-      "end": 1238.25,
-      "durationSeconds": 6.65,
+      "start": 1231.566667,
+      "end": 1238.233333,
+      "durationSeconds": 6.666667,
       "words": [
         {
           "text": "Brimstone,",
@@ -20944,14 +21227,15 @@
           "start": 1237.7,
           "end": 1238.25
         }
-      ]
+      ],
+      "frames": 200
     },
     {
       "id": "285",
       "text": "planned Oakland plant. Meta has worked with carbon built.",
-      "start": 1238.25,
-      "end": 1241.36,
-      "durationSeconds": 3.11,
+      "start": 1238.233333,
+      "end": 1241.333333,
+      "durationSeconds": 3.1,
       "words": [
         {
           "text": "planned",
@@ -20998,14 +21282,15 @@
           "start": 1240.89,
           "end": 1241.24
         }
-      ]
+      ],
+      "frames": 93
     },
     {
       "id": "286",
       "text": "Biomason grows binder biologically.",
-      "start": 1241.36,
-      "end": 1243.54,
-      "durationSeconds": 2.18,
+      "start": 1241.333333,
+      "end": 1243.5,
+      "durationSeconds": 2.166667,
       "words": [
         {
           "text": "Biomason",
@@ -21027,14 +21312,15 @@
           "start": 1242.61,
           "end": 1243.3
         }
-      ]
+      ],
+      "frames": 65
     },
     {
       "id": "287",
       "text": "Blue Planet makes aggregate out of waste carbon dioxide.",
-      "start": 1243.54,
-      "end": 1246.88,
-      "durationSeconds": 3.34,
+      "start": 1243.5,
+      "end": 1246.833333,
+      "durationSeconds": 3.333333,
       "words": [
         {
           "text": "Blue",
@@ -21081,14 +21367,15 @@
           "start": 1245.97,
           "end": 1246.61
         }
-      ]
+      ],
+      "frames": 100
     },
     {
       "id": "288",
       "text": "Several roots, several chemistries, and a set of technology buyers who have concluded independently that this problem is worth prepaying",
-      "start": 1246.88,
-      "end": 1253.39,
-      "durationSeconds": 6.51,
+      "start": 1246.833333,
+      "end": 1253.333333,
+      "durationSeconds": 6.5,
       "words": [
         {
           "text": "Several",
@@ -21190,14 +21477,15 @@
           "start": 1252.82,
           "end": 1253.39
         }
-      ]
+      ],
+      "frames": 195
     },
     {
       "id": "289",
       "text": "to solve. And the honest measurement, which almost nobody covering this story puts in, 30,000 tons a year against a global",
-      "start": 1253.39,
-      "end": 1260.18,
-      "durationSeconds": 6.79,
+      "start": 1253.333333,
+      "end": 1260.133333,
+      "durationSeconds": 6.8,
       "words": [
         {
           "text": "to",
@@ -21304,14 +21592,15 @@
           "start": 1259.67,
           "end": 1260.18
         }
-      ]
+      ],
+      "frames": 204
     },
     {
       "id": "290",
       "text": "market of 4 billion, is a rounding error.",
-      "start": 1260.18,
-      "end": 1263.16,
-      "durationSeconds": 2.98,
+      "start": 1260.133333,
+      "end": 1263.1,
+      "durationSeconds": 2.966667,
       "words": [
         {
           "text": "market",
@@ -21353,14 +21642,15 @@
           "start": 1262.48,
           "end": 1263.16
         }
-      ]
+      ],
+      "frames": 89
     },
     {
       "id": "291",
       "text": "It would not have supplied one large project.",
-      "start": 1263.16,
-      "end": 1265.88,
-      "durationSeconds": 2.72,
+      "start": 1263.1,
+      "end": 1265.833333,
+      "durationSeconds": 2.733333,
       "words": [
         {
           "text": "It",
@@ -21402,14 +21692,15 @@
           "start": 1265,
           "end": 1265.66
         }
-      ]
+      ],
+      "frames": 82
     },
     {
       "id": "292",
       "text": "That was never the point. The point of the Holyoke plant was stated openly by Ellis.",
-      "start": 1265.88,
-      "end": 1269.92,
-      "durationSeconds": 4.04,
+      "start": 1265.833333,
+      "end": 1269.866667,
+      "durationSeconds": 4.033333,
       "words": [
         {
           "text": "That",
@@ -21491,14 +21782,15 @@
           "start": 1269.49,
           "end": 1269.92
         }
-      ]
+      ],
+      "frames": 121
     },
     {
       "id": "293",
       "text": "It was designed as a module, a unit you build once, de-risk, and then copy until you reach a million tons a year,",
-      "start": 1269.92,
-      "end": 1276.45,
-      "durationSeconds": 6.53,
+      "start": 1269.866667,
+      "end": 1276.4,
+      "durationSeconds": 6.533333,
       "words": [
         {
           "text": "It",
@@ -21615,14 +21907,15 @@
           "start": 1275.98,
           "end": 1276.41
         }
-      ]
+      ],
+      "frames": 196
     },
     {
       "id": "294",
       "text": "which is the size of an ordinary cement plant.",
-      "start": 1276.45,
-      "end": 1279.28,
-      "durationSeconds": 2.83,
+      "start": 1276.4,
+      "end": 1279.233333,
+      "durationSeconds": 2.833333,
       "words": [
         {
           "text": "which",
@@ -21669,14 +21962,15 @@
           "start": 1278.65,
           "end": 1279.28
         }
-      ]
+      ],
+      "frames": 85
     },
     {
       "id": "295",
       "text": "The 30,000-ton facility was not the product.",
-      "start": 1279.28,
-      "end": 1282.12,
-      "durationSeconds": 2.84,
+      "start": 1279.233333,
+      "end": 1282.066667,
+      "durationSeconds": 2.833333,
       "words": [
         {
           "text": "The",
@@ -21713,14 +22007,15 @@
           "start": 1281.52,
           "end": 1282.12
         }
-      ]
+      ],
+      "frames": 85
     },
     {
       "id": "296",
       "text": "It was the proof you need before anyone will finance the real one.",
-      "start": 1282.12,
-      "end": 1285.98,
-      "durationSeconds": 3.86,
+      "start": 1282.066667,
+      "end": 1285.933333,
+      "durationSeconds": 3.866667,
       "words": [
         {
           "text": "It",
@@ -21787,14 +22082,15 @@
           "start": 1285.37,
           "end": 1285.76
         }
-      ]
+      ],
+      "frames": 116
     },
     {
       "id": "297",
       "text": "Until a module exists and runs, skepticism is the correct position.",
-      "start": 1285.98,
-      "end": 1290.14,
-      "durationSeconds": 4.16,
+      "start": 1285.933333,
+      "end": 1290.1,
+      "durationSeconds": 4.166667,
       "words": [
         {
           "text": "Until",
@@ -21851,14 +22147,15 @@
           "start": 1289.14,
           "end": 1289.92
         }
-      ]
+      ],
+      "frames": 125
     },
     {
       "id": "298",
       "text": "That is not a critic's framing. It is the company's own stated logic for why the plant mattered.",
-      "start": 1290.14,
-      "end": 1295.16,
-      "durationSeconds": 5.02,
+      "start": 1290.1,
+      "end": 1295.133333,
+      "durationSeconds": 5.033333,
       "words": [
         {
           "text": "That",
@@ -21950,14 +22247,15 @@
           "start": 1294.37,
           "end": 1295.16
         }
-      ]
+      ],
+      "frames": 151
     },
     {
       "id": "299",
       "text": "So that is where it stands. A process that makes cement with electricity instead of fire,",
-      "start": 1295.16,
-      "end": 1299.84,
-      "durationSeconds": 4.68,
+      "start": 1295.133333,
+      "end": 1299.8,
+      "durationSeconds": 4.666667,
       "words": [
         {
           "text": "So",
@@ -22039,14 +22337,15 @@
           "start": 1299.72,
           "end": 1299.84
         }
-      ]
+      ],
+      "frames": 140
     },
     {
       "id": "300",
       "text": "from rock that has no carbon dioxide in it to release, certified under a performance standard that asks what a material does rather",
-      "start": 1299.84,
-      "end": 1306.41,
-      "durationSeconds": 6.57,
+      "start": 1299.8,
+      "end": 1306.366667,
+      "durationSeconds": 6.566667,
       "words": [
         {
           "text": "from",
@@ -22163,14 +22462,15 @@
           "start": 1306.04,
           "end": 1306.41
         }
-      ]
+      ],
+      "frames": 197
     },
     {
       "id": "301",
       "text": "than how it was made, poured into a building in Boston on a day whose most notable feature was that nothing went wrong,",
-      "start": 1306.41,
-      "end": 1312.42,
-      "durationSeconds": 6.01,
+      "start": 1306.366667,
+      "end": 1312.366667,
+      "durationSeconds": 6.0,
       "words": [
         {
           "text": "than",
@@ -22287,13 +22587,14 @@
           "start": 1312.03,
           "end": 1312.42
         }
-      ]
+      ],
+      "frames": 180
     },
     {
       "id": "302",
       "text": "reserved by two of the largest cement companies on Earth and ordered bindingly by Microsoft,",
-      "start": 1312.42,
-      "end": 1317.32,
+      "start": 1312.366667,
+      "end": 1317.266667,
       "durationSeconds": 4.9,
       "words": [
         {
@@ -22371,14 +22672,15 @@
           "start": 1316.69,
           "end": 1317.32
         }
-      ]
+      ],
+      "frames": 147
     },
     {
       "id": "303",
       "text": "sighted on a river in a city that made paper for a hundred years, and a first factory that has not been built because half its",
-      "start": 1317.32,
-      "end": 1323.84,
-      "durationSeconds": 6.52,
+      "start": 1317.266667,
+      "end": 1323.8,
+      "durationSeconds": 6.533333,
       "words": [
         {
           "text": "sighted",
@@ -22510,14 +22812,15 @@
           "start": 1323.82,
           "end": 1323.84
         }
-      ]
+      ],
+      "frames": 196
     },
     {
       "id": "304",
       "text": "funding was withdrawn and the two-thirds of a company that used to be there is gone.",
-      "start": 1323.84,
-      "end": 1329.26,
-      "durationSeconds": 5.42,
+      "start": 1323.8,
+      "end": 1329.233333,
+      "durationSeconds": 5.433333,
       "words": [
         {
           "text": "funding",
@@ -22599,14 +22902,15 @@
           "start": 1328.55,
           "end": 1329.04
         }
-      ]
+      ],
+      "frames": 163
     },
     {
       "id": "305",
       "text": "Look down again at that floor. Nothing about it is going to change soon.",
-      "start": 1329.26,
-      "end": 1333.35,
-      "durationSeconds": 4.09,
+      "start": 1329.233333,
+      "end": 1333.333333,
+      "durationSeconds": 4.1,
       "words": [
         {
           "text": "Look",
@@ -22678,14 +22982,15 @@
           "start": 1332.72,
           "end": 1333.2
         }
-      ]
+      ],
+      "frames": 123
     },
     {
       "id": "306",
       "text": "Ordinary Portland cement is not being replaced.",
-      "start": 1333.35,
-      "end": 1335.27,
-      "durationSeconds": 1.92,
+      "start": 1333.333333,
+      "end": 1335.266667,
+      "durationSeconds": 1.933333,
       "words": [
         {
           "text": "Ordinary",
@@ -22722,14 +23027,15 @@
           "start": 1334.8,
           "end": 1335.27
         }
-      ]
+      ],
+      "frames": 58
     },
     {
       "id": "307",
       "text": "It is not being phased out, and there is a very good chance it will still be the default material for everything you walk on for the rest",
-      "start": 1335.27,
+      "start": 1335.266667,
       "end": 1341.6,
-      "durationSeconds": 6.33,
+      "durationSeconds": 6.333333,
       "words": [
         {
           "text": "It",
@@ -22871,13 +23177,14 @@
           "start": 1341.34,
           "end": 1341.58
         }
-      ]
+      ],
+      "frames": 190
     },
     {
       "id": "308",
       "text": "of your life. Four billion tons a year does not turn on a policy decision or a press release.",
       "start": 1341.6,
-      "end": 1346,
+      "end": 1346.0,
       "durationSeconds": 4.4,
       "words": [
         {
@@ -22975,14 +23282,15 @@
           "start": 1345.65,
           "end": 1346
         }
-      ]
+      ],
+      "frames": 132
     },
     {
       "id": "309",
       "text": "But for 2,000 years, the story of this material was heat.",
-      "start": 1346,
-      "end": 1350.22,
-      "durationSeconds": 4.22,
+      "start": 1346.0,
+      "end": 1350.233333,
+      "durationSeconds": 4.233333,
       "words": [
         {
           "text": "But",
@@ -23039,14 +23347,15 @@
           "start": 1349.46,
           "end": 1350
         }
-      ]
+      ],
+      "frames": 127
     },
     {
       "id": "310",
       "text": "Hotter kilns, bigger kilns, better fuel, higher temperatures.",
-      "start": 1350.22,
-      "end": 1354.58,
-      "durationSeconds": 4.36,
+      "start": 1350.233333,
+      "end": 1354.6,
+      "durationSeconds": 4.366667,
       "words": [
         {
           "text": "Hotter",
@@ -23088,14 +23397,15 @@
           "start": 1353.38,
           "end": 1354.58
         }
-      ]
+      ],
+      "frames": 131
     },
     {
       "id": "311",
       "text": "The thing that may end that era does not get hot at all, and the only reason it is not being built right now is money.",
-      "start": 1354.58,
-      "end": 1360.42,
-      "durationSeconds": 5.84,
+      "start": 1354.6,
+      "end": 1360.433333,
+      "durationSeconds": 5.833333,
       "words": [
         {
           "text": "The",
@@ -23227,14 +23537,15 @@
           "start": 1359.83,
           "end": 1360.42
         }
-      ]
+      ],
+      "frames": 175
     },
     {
       "id": "312",
       "text": "If you got something out of this, a like genuinely helps.",
-      "start": 1360.42,
-      "end": 1363.75,
-      "durationSeconds": 3.33,
+      "start": 1360.433333,
+      "end": 1363.766667,
+      "durationSeconds": 3.333333,
       "words": [
         {
           "text": "If",
@@ -23291,14 +23602,15 @@
           "start": 1363.16,
           "end": 1363.75
         }
-      ]
+      ],
+      "frames": 100
     },
     {
       "id": "313",
       "text": "And subscribing with notifications on means you'll catch the next one.",
-      "start": 1363.75,
-      "end": 1367.54,
-      "durationSeconds": 3.79,
+      "start": 1363.766667,
+      "end": 1367.566667,
+      "durationSeconds": 3.8,
       "words": [
         {
           "text": "And",
@@ -23355,14 +23667,15 @@
           "start": 1366.97,
           "end": 1367.32
         }
-      ]
+      ],
+      "frames": 114
     },
     {
       "id": "314",
       "text": "There's a related video on screen right now about the Iron Air Battery Company founded by the same MIT professor.",
-      "start": 1367.54,
-      "end": 1373.46,
-      "durationSeconds": 5.92,
+      "start": 1367.566667,
+      "end": 1373.5,
+      "durationSeconds": 5.933333,
       "words": [
         {
           "text": "There's",
@@ -23464,14 +23777,15 @@
           "start": 1372.37,
           "end": 1373.24
         }
-      ]
+      ],
+      "frames": 178
     },
     {
       "id": "315",
       "text": "Different material, same idea about replacing fire with electrons, and a factory going up on a dead steel mill.",
-      "start": 1373.46,
-      "end": 1379.6,
-      "durationSeconds": 6.14,
+      "start": 1373.5,
+      "end": 1379.633333,
+      "durationSeconds": 6.133333,
       "words": [
         {
           "text": "Different",
@@ -23568,14 +23882,15 @@
           "start": 1379.17,
           "end": 1379.6
         }
-      ]
+      ],
+      "frames": 184
     },
     {
       "id": "316",
       "text": "One question before you go.",
-      "start": 1379.6,
-      "end": 1381.46,
-      "durationSeconds": 1.86,
+      "start": 1379.633333,
+      "end": 1381.5,
+      "durationSeconds": 1.866667,
       "words": [
         {
           "text": "One",
@@ -23602,14 +23917,15 @@
           "start": 1380.97,
           "end": 1381.24
         }
-      ]
+      ],
+      "frames": 56
     },
     {
       "id": "317",
       "text": "The gap here is $87 million on a $150 million plant.",
-      "start": 1381.46,
-      "end": 1386.18,
-      "durationSeconds": 4.72,
+      "start": 1381.5,
+      "end": 1386.233333,
+      "durationSeconds": 4.733333,
       "words": [
         {
           "text": "The",
@@ -23666,14 +23982,15 @@
           "start": 1385.38,
           "end": 1386.15
         }
-      ]
+      ],
+      "frames": 142
     },
     {
       "id": "318",
       "text": "If that money isn't coming from Washington, where should it come from?",
-      "start": 1386.18,
-      "end": 1389,
-      "durationSeconds": 2.82,
+      "start": 1386.233333,
+      "end": 1389.066667,
+      "durationSeconds": 2.833333,
       "words": [
         {
           "text": "If",
@@ -23735,14 +24052,15 @@
           "start": 1388.65,
           "end": 1389
         }
-      ]
+      ],
+      "frames": 85
     },
     {
       "id": "319",
       "text": "The cement incumbents who already own the old plants, the tech companies who already signed up to buy the output,",
-      "start": 1389,
-      "end": 1394.33,
-      "durationSeconds": 5.33,
+      "start": 1389.066667,
+      "end": 1394.4,
+      "durationSeconds": 5.333333,
       "words": [
         {
           "text": "The",
@@ -23844,14 +24162,15 @@
           "start": 1393.86,
           "end": 1394.29
         }
-      ]
+      ],
+      "frames": 160
     },
     {
       "id": "320",
       "text": "or private investors who'd want to return before a single-ton ships?",
-      "start": 1394.33,
-      "end": 1398.5,
-      "durationSeconds": 4.17,
+      "start": 1394.4,
+      "end": 1398.566667,
+      "durationSeconds": 4.166667,
       "words": [
         {
           "text": "or",
@@ -23908,14 +24227,15 @@
           "start": 1397.44,
           "end": 1398.28
         }
-      ]
+      ],
+      "frames": 125
     },
     {
       "id": "321",
       "text": "Pick one and say what you'd want in exchange.",
-      "start": 1398.5,
-      "end": 1400.68,
-      "durationSeconds": 2.18,
+      "start": 1398.566667,
+      "end": 1400.733333,
+      "durationSeconds": 2.166667,
       "words": [
         {
           "text": "Pick",
@@ -23962,7 +24282,8 @@
           "start": 1399.96,
           "end": 1400.68
         }
-      ]
+      ],
+      "frames": 65
     }
   ],
   "totalDuration": 1400.68,

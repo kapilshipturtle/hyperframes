@@ -5,7 +5,7 @@
 ## Frame 01
 
 - src: compositions/frames/01-beat.html
-- duration: 5.71s
+- duration: 5.7s
 - status: planned
 - transition_in: cut
 - look: grade cool
@@ -27,7 +27,7 @@
 ## Frame 03
 
 - src: compositions/frames/03-beat.html
-- duration: 6.51s
+- duration: 6.5s
 - status: planned
 - transition_in: hard-cut 0s
 - look: bw
@@ -39,7 +39,7 @@
 ## Frame 04
 
 - src: compositions/frames/04-beat.html
-- duration: 4.61s
+- duration: 4.6s
 - status: planned
 - transition_in: hard-cut 0s
 - motion: in to 1.14 ease power1.inOut, focus 58,23
@@ -51,7 +51,7 @@
 ## Frame 05
 
 - src: compositions/frames/05-beat.html
-- duration: 5.61s
+- duration: 5.6s
 - status: planned
 - transition_in: hard-cut 0s
 - look: bw, vignette 0.378
@@ -63,7 +63,7 @@
 ## Frame 06
 
 - src: compositions/frames/06-beat.html
-- duration: 2.96s
+- duration: 2.966667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate
@@ -73,7 +73,7 @@
 ## Frame 07
 
 - src: compositions/frames/07-beat.html
-- duration: 1.64s
+- duration: 1.633333s
 - status: planned
 - transition_in: hard-cut 0s
 - overlay: location-stamp
@@ -83,7 +83,7 @@
 ## Frame 08
 
 - src: compositions/frames/08-beat.html
-- duration: 6.44s
+- duration: 6.433333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate, vignette 0.378
@@ -97,7 +97,7 @@
 ## Frame 09
 
 - src: compositions/frames/09-beat.html
-- duration: 2.96s
+- duration: 2.966667s
 - status: planned
 - transition_in: crossfade 0.25s
 - query: vintage paper mill photo

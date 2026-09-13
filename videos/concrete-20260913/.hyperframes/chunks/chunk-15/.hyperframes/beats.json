@@ -3,9 +3,9 @@
     {
       "id": "159",
       "text": "not birth. That single procedural door is the difference between a laboratory curiosity and a product.",
-      "start": 667.16,
-      "end": 673.02,
-      "durationSeconds": 5.86,
+      "start": 667.166667,
+      "end": 673.033333,
+      "durationSeconds": 5.866667,
       "words": [
         {
           "text": "not",
@@ -87,14 +87,15 @@
           "start": 672.15,
           "end": 672.67
         }
-      ]
+      ],
+      "frames": 176
     },
     {
       "id": "160",
       "text": "Sublime calls its output a drop-in replacement for ordinary Portland cement, and drop-in is the load-bearing phrase,",
-      "start": 673.02,
-      "end": 679.31,
-      "durationSeconds": 6.29,
+      "start": 673.033333,
+      "end": 679.333333,
+      "durationSeconds": 6.3,
       "words": [
         {
           "text": "Sublime",
@@ -181,14 +182,15 @@
           "start": 678.93,
           "end": 679.31
         }
-      ]
+      ],
+      "frames": 189
     },
     {
       "id": "161",
       "text": "no new mixers, no new trucks, no retrained crews, no new code variants for every project.",
-      "start": 679.31,
-      "end": 685.38,
-      "durationSeconds": 6.07,
+      "start": 679.333333,
+      "end": 685.4,
+      "durationSeconds": 6.066667,
       "words": [
         {
           "text": "no",
@@ -270,13 +272,14 @@
           "start": 684.36,
           "end": 685.13
         }
-      ]
+      ],
+      "frames": 182
     },
     {
       "id": "162",
       "text": "Then, in May of 2024, it got poured.",
-      "start": 685.38,
-      "end": 689.58,
+      "start": 685.4,
+      "end": 689.6,
       "durationSeconds": 4.2,
       "words": [
         {
@@ -319,14 +322,15 @@
           "start": 688.38,
           "end": 689.36
         }
-      ]
+      ],
+      "frames": 126
     },
     {
       "id": "163",
       "text": "Three tons of sublime cement went into a foundation pour in Boston's Seaport District, in what was described as the largest net-zero commercial",
-      "start": 689.58,
-      "end": 695.9,
-      "durationSeconds": 6.32,
+      "start": 689.6,
+      "end": 695.933333,
+      "durationSeconds": 6.333333,
       "words": [
         {
           "text": "Three",
@@ -443,14 +447,15 @@
           "start": 695.37,
           "end": 695.9
         }
-      ]
+      ],
+      "frames": 190
     },
     {
       "id": "164",
       "text": "building in the city, placed by Turner Construction, the largest domestic contractor in the United States,",
-      "start": 695.9,
-      "end": 701.86,
-      "durationSeconds": 5.96,
+      "start": 695.933333,
+      "end": 701.9,
+      "durationSeconds": 5.966667,
       "words": [
         {
           "text": "building",
@@ -532,14 +537,15 @@
           "start": 701.37,
           "end": 701.81
         }
-      ]
+      ],
+      "frames": 179
     },
     {
       "id": "165",
       "text": "not a test slab in a parking lot.",
-      "start": 701.86,
-      "end": 703.69,
-      "durationSeconds": 1.83,
+      "start": 701.9,
+      "end": 703.733333,
+      "durationSeconds": 1.833333,
       "words": [
         {
           "text": "not",
@@ -581,14 +587,15 @@
           "start": 703.22,
           "end": 703.55
         }
-      ]
+      ],
+      "frames": 55
     },
     {
       "id": "166",
       "text": "A structural pour by a contractor with everything to lose, on a real project with a real schedule.",
-      "start": 703.69,
-      "end": 709.84,
-      "durationSeconds": 6.15,
+      "start": 703.733333,
+      "end": 709.866667,
+      "durationSeconds": 6.133333,
       "words": [
         {
           "text": "A",
@@ -680,14 +687,15 @@
           "start": 708.95,
           "end": 709.84
         }
-      ]
+      ],
+      "frames": 184
     },
     {
       "id": "167",
       "text": "And the most credible thing anyone has said about this entire technology is what Ellis said about that day.",
-      "start": 709.84,
-      "end": 715.2,
-      "durationSeconds": 5.36,
+      "start": 709.866667,
+      "end": 715.233333,
+      "durationSeconds": 5.366667,
       "words": [
         {
           "text": "And",
@@ -784,14 +792,15 @@
           "start": 714.92,
           "end": 715.2
         }
-      ]
+      ],
+      "frames": 161
     },
     {
       "id": "168",
       "text": "It was a boring day in construction, because everything worked.",
-      "start": 715.2,
-      "end": 719.48,
-      "durationSeconds": 4.28,
+      "start": 715.233333,
+      "end": 719.5,
+      "durationSeconds": 4.266667,
       "words": [
         {
           "text": "It",
@@ -843,7 +852,8 @@
           "start": 718.58,
           "end": 719.26
         }
-      ]
+      ],
+      "frames": 128
     }
   ]
 }

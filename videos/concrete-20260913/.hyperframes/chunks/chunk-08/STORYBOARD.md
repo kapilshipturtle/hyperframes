@@ -5,7 +5,7 @@
 ## Frame 01
 
 - src: compositions/frames/01-beat.html
-- duration: 2.64s
+- duration: 2.633333s
 - status: planned
 - transition_in: cut
 - look: grade cool, vignette 0.378, high-contrast
@@ -17,7 +17,7 @@
 ## Frame 02
 
 - src: compositions/frames/02-beat.html
-- duration: 5.56s
+- duration: 5.566667s
 - status: planned
 - transition_in: zoom-through 0.48s
 - look: grade desaturate, vignette 0.378
@@ -28,7 +28,7 @@
 ## Frame 03
 
 - src: compositions/frames/03-beat.html
-- duration: 2.38s
+- duration: 2.366667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: vignette 0.378
@@ -39,7 +39,7 @@
 ## Frame 04
 
 - src: compositions/frames/04-beat.html
-- duration: 5.89s
+- duration: 5.9s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade warm, vignette 0.378, high-contrast
@@ -51,7 +51,7 @@
 ## Frame 05
 
 - src: compositions/frames/05-beat.html
-- duration: 2.25s
+- duration: 2.266667s
 - status: planned
 - transition_in: crossfade 0.25s
 - look: grade desaturate, vignette 0.378
@@ -61,7 +61,7 @@
 ## Frame 06
 
 - src: compositions/frames/06-beat.html
-- duration: 3.22s
+- duration: 3.233333s
 - status: planned
 - transition_in: stutter-cut 0.3s
 - look: grade warm, vignette 0.378
@@ -73,7 +73,7 @@
 ## Frame 07
 
 - src: compositions/frames/07-beat.html
-- duration: 4.22s
+- duration: 4.233333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade cool, vignette 0.378, high-contrast
@@ -83,7 +83,7 @@
 ## Frame 08
 
 - src: compositions/frames/08-beat.html
-- duration: 1.88s
+- duration: 1.866667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: vignette 0.378
@@ -94,7 +94,7 @@
 ## Frame 09
 
 - src: compositions/frames/09-beat.html
-- duration: 6.76s
+- duration: 6.766667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: bw, vignette 0.378
@@ -105,7 +105,7 @@
 ## Frame 10
 
 - src: compositions/frames/10-beat.html
-- duration: 1.94s
+- duration: 1.933333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate, vignette 0.378, high-contrast

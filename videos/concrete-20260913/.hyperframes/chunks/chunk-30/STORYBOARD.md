@@ -5,7 +5,7 @@
 ## Frame 01
 
 - src: compositions/frames/01-beat.html
-- duration: 3.33s
+- duration: 3.333333s
 - status: planned
 - transition_in: cut
 - look: grade desaturate
@@ -15,7 +15,7 @@
 ## Frame 02
 
 - src: compositions/frames/02-beat.html
-- duration: 3.79s
+- duration: 3.8s
 - status: planned
 - transition_in: hard-cut 0s
 - motion: pan to 1.057 ease sine.inOut, focus 50,50
@@ -26,7 +26,7 @@
 ## Frame 03
 
 - src: compositions/frames/03-beat.html
-- duration: 5.92s
+- duration: 5.933333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: bw, vignette 0.378
@@ -40,7 +40,7 @@
 ## Frame 04
 
 - src: compositions/frames/04-beat.html
-- duration: 6.14s
+- duration: 6.133333s
 - status: planned
 - transition_in: hard-cut 0s
 - query: steel mill converted factory
@@ -49,7 +49,7 @@
 ## Frame 05
 
 - src: compositions/frames/05-beat.html
-- duration: 1.86s
+- duration: 1.866667s
 - status: planned
 - transition_in: light-leak-flash 0.33s
 - look: bw
@@ -59,7 +59,7 @@
 ## Frame 06
 
 - src: compositions/frames/06-beat.html
-- duration: 4.72s
+- duration: 4.733333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate, vignette 0.378
@@ -71,7 +71,7 @@
 ## Frame 07
 
 - src: compositions/frames/07-beat.html
-- duration: 2.82s
+- duration: 2.833333s
 - status: planned
 - transition_in: crossfade 0.25s
 - query: money funding sources
@@ -80,7 +80,7 @@
 ## Frame 08
 
 - src: compositions/frames/08-beat.html
-- duration: 5.33s
+- duration: 5.333333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate
@@ -92,7 +92,7 @@
 ## Frame 09
 
 - src: compositions/frames/09-beat.html
-- duration: 4.17s
+- duration: 4.166667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: vignette 0.378
@@ -105,7 +105,7 @@
 ## Frame 10
 
 - src: compositions/frames/10-beat.html
-- duration: 2.18s
+- duration: 2.166667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate

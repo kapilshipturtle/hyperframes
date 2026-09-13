@@ -3,8 +3,8 @@
     {
       "id": "252",
       "text": "totaling $3.7 billion.",
-      "start": 1095.12,
-      "end": 1098.42,
+      "start": 1095.1,
+      "end": 1098.4,
       "durationSeconds": 3.3,
       "words": [
         {
@@ -22,14 +22,15 @@
           "start": 1097.06,
           "end": 1098.24
         }
-      ]
+      ],
+      "frames": 99
     },
     {
       "id": "253",
       "text": "Sublime's $87 million award was one of them.",
-      "start": 1098.42,
-      "end": 1100.84,
-      "durationSeconds": 2.42,
+      "start": 1098.4,
+      "end": 1100.833333,
+      "durationSeconds": 2.433333,
       "words": [
         {
           "text": "Sublime's",
@@ -71,14 +72,15 @@
           "start": 1100.41,
           "end": 1100.84
         }
-      ]
+      ],
+      "frames": 73
     },
     {
       "id": "254",
       "text": "The department stated that the awards in question had been approved in the closing period of the previous administration.",
-      "start": 1100.84,
-      "end": 1106.89,
-      "durationSeconds": 6.05,
+      "start": 1100.833333,
+      "end": 1106.9,
+      "durationSeconds": 6.066667,
       "words": [
         {
           "text": "The",
@@ -175,14 +177,15 @@
           "start": 1105.89,
           "end": 1106.72
         }
-      ]
+      ],
+      "frames": 182
     },
     {
       "id": "255",
       "text": "Sublime said at the time that it would continue and would seek funding elsewhere.",
-      "start": 1106.89,
-      "end": 1110.76,
-      "durationSeconds": 3.87,
+      "start": 1106.9,
+      "end": 1110.766667,
+      "durationSeconds": 3.866667,
       "words": [
         {
           "text": "Sublime",
@@ -254,13 +257,14 @@
           "start": 1110.1,
           "end": 1110.76
         }
-      ]
+      ],
+      "frames": 116
     },
     {
       "id": "256",
       "text": "It publicly argued that its technology served stated federal priorities directly, onshoring manufacturing,",
-      "start": 1110.76,
-      "end": 1116.16,
+      "start": 1110.766667,
+      "end": 1116.166667,
       "durationSeconds": 5.4,
       "words": [
         {
@@ -328,14 +332,15 @@
           "start": 1115.54,
           "end": 1116.16
         }
-      ]
+      ],
+      "frames": 162
     },
     {
       "id": "257",
       "text": "adding American jobs, supporting critical minerals production, and reducing dependence on a building material the United States currently",
-      "start": 1116.16,
-      "end": 1122.71,
-      "durationSeconds": 6.55,
+      "start": 1116.166667,
+      "end": 1122.7,
+      "durationSeconds": 6.533333,
       "words": [
         {
           "text": "adding",
@@ -427,14 +432,15 @@
           "start": 1122.26,
           "end": 1122.71
         }
-      ]
+      ],
+      "frames": 196
     },
     {
       "id": "258",
       "text": "imports by the tens of millions of tons.",
-      "start": 1122.71,
-      "end": 1125.76,
-      "durationSeconds": 3.05,
+      "start": 1122.7,
+      "end": 1125.766667,
+      "durationSeconds": 3.066667,
       "words": [
         {
           "text": "imports",
@@ -476,14 +482,15 @@
           "start": 1124.43,
           "end": 1125.76
         }
-      ]
+      ],
+      "frames": 92
     },
     {
       "id": "259",
       "text": "The grant was going to fund 50% of the Holyoke plant.",
-      "start": 1125.76,
-      "end": 1128.63,
-      "durationSeconds": 2.87,
+      "start": 1125.766667,
+      "end": 1128.633333,
+      "durationSeconds": 2.866667,
       "words": [
         {
           "text": "The",
@@ -540,14 +547,15 @@
           "start": 1128.32,
           "end": 1128.63
         }
-      ]
+      ],
+      "frames": 86
     },
     {
       "id": "260",
       "text": "On December 4, 2025, Sublime announced it was pausing work on Holyoke and cutting 10% of its workforce.",
-      "start": 1128.63,
-      "end": 1135.32,
-      "durationSeconds": 6.69,
+      "start": 1128.633333,
+      "end": 1135.333333,
+      "durationSeconds": 6.7,
       "words": [
         {
           "text": "On",
@@ -639,14 +647,15 @@
           "start": 1134.35,
           "end": 1135.32
         }
-      ]
+      ],
+      "frames": 201
     },
     {
       "id": "261",
       "text": "The company said the loss of the award had created real difficulty in assembling the rest of the capital stack.",
-      "start": 1135.32,
-      "end": 1140.56,
-      "durationSeconds": 5.24,
+      "start": 1135.333333,
+      "end": 1140.566667,
+      "durationSeconds": 5.233333,
       "words": [
         {
           "text": "The",
@@ -748,7 +757,8 @@
           "start": 1140.05,
           "end": 1140.56
         }
-      ]
+      ],
+      "frames": 157
     }
   ]
 }

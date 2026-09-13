@@ -3,9 +3,9 @@
     {
       "id": "312",
       "text": "If you got something out of this, a like genuinely helps.",
-      "start": 1360.42,
-      "end": 1363.75,
-      "durationSeconds": 3.33,
+      "start": 1360.433333,
+      "end": 1363.766667,
+      "durationSeconds": 3.333333,
       "words": [
         {
           "text": "If",
@@ -62,14 +62,15 @@
           "start": 1363.16,
           "end": 1363.75
         }
-      ]
+      ],
+      "frames": 100
     },
     {
       "id": "313",
       "text": "And subscribing with notifications on means you'll catch the next one.",
-      "start": 1363.75,
-      "end": 1367.54,
-      "durationSeconds": 3.79,
+      "start": 1363.766667,
+      "end": 1367.566667,
+      "durationSeconds": 3.8,
       "words": [
         {
           "text": "And",
@@ -126,14 +127,15 @@
           "start": 1366.97,
           "end": 1367.32
         }
-      ]
+      ],
+      "frames": 114
     },
     {
       "id": "314",
       "text": "There's a related video on screen right now about the Iron Air Battery Company founded by the same MIT professor.",
-      "start": 1367.54,
-      "end": 1373.46,
-      "durationSeconds": 5.92,
+      "start": 1367.566667,
+      "end": 1373.5,
+      "durationSeconds": 5.933333,
       "words": [
         {
           "text": "There's",
@@ -235,14 +237,15 @@
           "start": 1372.37,
           "end": 1373.24
         }
-      ]
+      ],
+      "frames": 178
     },
     {
       "id": "315",
       "text": "Different material, same idea about replacing fire with electrons, and a factory going up on a dead steel mill.",
-      "start": 1373.46,
-      "end": 1379.6,
-      "durationSeconds": 6.14,
+      "start": 1373.5,
+      "end": 1379.633333,
+      "durationSeconds": 6.133333,
       "words": [
         {
           "text": "Different",
@@ -339,14 +342,15 @@
           "start": 1379.17,
           "end": 1379.6
         }
-      ]
+      ],
+      "frames": 184
     },
     {
       "id": "316",
       "text": "One question before you go.",
-      "start": 1379.6,
-      "end": 1381.46,
-      "durationSeconds": 1.86,
+      "start": 1379.633333,
+      "end": 1381.5,
+      "durationSeconds": 1.866667,
       "words": [
         {
           "text": "One",
@@ -373,14 +377,15 @@
           "start": 1380.97,
           "end": 1381.24
         }
-      ]
+      ],
+      "frames": 56
     },
     {
       "id": "317",
       "text": "The gap here is $87 million on a $150 million plant.",
-      "start": 1381.46,
-      "end": 1386.18,
-      "durationSeconds": 4.72,
+      "start": 1381.5,
+      "end": 1386.233333,
+      "durationSeconds": 4.733333,
       "words": [
         {
           "text": "The",
@@ -437,14 +442,15 @@
           "start": 1385.38,
           "end": 1386.15
         }
-      ]
+      ],
+      "frames": 142
     },
     {
       "id": "318",
       "text": "If that money isn't coming from Washington, where should it come from?",
-      "start": 1386.18,
-      "end": 1389,
-      "durationSeconds": 2.82,
+      "start": 1386.233333,
+      "end": 1389.066667,
+      "durationSeconds": 2.833333,
       "words": [
         {
           "text": "If",
@@ -506,14 +512,15 @@
           "start": 1388.65,
           "end": 1389
         }
-      ]
+      ],
+      "frames": 85
     },
     {
       "id": "319",
       "text": "The cement incumbents who already own the old plants, the tech companies who already signed up to buy the output,",
-      "start": 1389,
-      "end": 1394.33,
-      "durationSeconds": 5.33,
+      "start": 1389.066667,
+      "end": 1394.4,
+      "durationSeconds": 5.333333,
       "words": [
         {
           "text": "The",
@@ -615,14 +622,15 @@
           "start": 1393.86,
           "end": 1394.29
         }
-      ]
+      ],
+      "frames": 160
     },
     {
       "id": "320",
       "text": "or private investors who'd want to return before a single-ton ships?",
-      "start": 1394.33,
-      "end": 1398.5,
-      "durationSeconds": 4.17,
+      "start": 1394.4,
+      "end": 1398.566667,
+      "durationSeconds": 4.166667,
       "words": [
         {
           "text": "or",
@@ -679,14 +687,15 @@
           "start": 1397.44,
           "end": 1398.28
         }
-      ]
+      ],
+      "frames": 125
     },
     {
       "id": "321",
       "text": "Pick one and say what you'd want in exchange.",
-      "start": 1398.5,
-      "end": 1400.68,
-      "durationSeconds": 2.18,
+      "start": 1398.566667,
+      "end": 1400.733333,
+      "durationSeconds": 2.166667,
       "words": [
         {
           "text": "Pick",
@@ -733,7 +742,8 @@
           "start": 1399.96,
           "end": 1400.68
         }
-      ]
+      ],
+      "frames": 65
     }
   ]
 }

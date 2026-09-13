@@ -3,8 +3,8 @@
     {
       "id": "12",
       "text": "That kiln has two carbon problems, not one.",
-      "start": 46.38,
-      "end": 49.18,
+      "start": 46.366667,
+      "end": 49.166667,
       "durationSeconds": 2.8,
       "words": [
         {
@@ -47,14 +47,15 @@
           "start": 48.49,
           "end": 48.96
         }
-      ]
+      ],
+      "frames": 84
     },
     {
       "id": "13",
       "text": "The first is obvious. You are burning fuel to reach 2,640 degrees.",
-      "start": 49.18,
+      "start": 49.166667,
       "end": 53.8,
-      "durationSeconds": 4.62,
+      "durationSeconds": 4.633333,
       "words": [
         {
           "text": "The",
@@ -116,14 +117,15 @@
           "start": 53.07,
           "end": 53.8
         }
-      ]
+      ],
+      "frames": 139
     },
     {
       "id": "14",
       "text": "The second is the one that has trapped this entire industry for two centuries.",
       "start": 53.8,
-      "end": 58.22,
-      "durationSeconds": 4.42,
+      "end": 58.233333,
+      "durationSeconds": 4.433333,
       "words": [
         {
           "text": "The",
@@ -195,14 +197,15 @@
           "start": 57.18,
           "end": 58
         }
-      ]
+      ],
+      "frames": 133
     },
     {
       "id": "15",
       "text": "Sandstone is roughly 44% carbon dioxide by weight.",
-      "start": 58.22,
-      "end": 61.44,
-      "durationSeconds": 3.22,
+      "start": 58.233333,
+      "end": 61.466667,
+      "durationSeconds": 3.233333,
       "words": [
         {
           "text": "Sandstone",
@@ -244,14 +247,15 @@
           "start": 60.58,
           "end": 61.22
         }
-      ]
+      ],
+      "frames": 97
     },
     {
       "id": "16",
       "text": "Nearly half the rock, by mass, is carbon dioxide waiting to leave.",
-      "start": 61.44,
-      "end": 65.62,
-      "durationSeconds": 4.18,
+      "start": 61.466667,
+      "end": 65.633333,
+      "durationSeconds": 4.166667,
       "words": [
         {
           "text": "Nearly",
@@ -313,14 +317,15 @@
           "start": 64.79,
           "end": 65.4
         }
-      ]
+      ],
+      "frames": 125
     },
     {
       "id": "17",
       "text": "Heat it and it leaves. That release has nothing to do with the fuel.",
-      "start": 65.62,
-      "end": 69.26,
-      "durationSeconds": 3.64,
+      "start": 65.633333,
+      "end": 69.266667,
+      "durationSeconds": 3.633333,
       "words": [
         {
           "text": "Heat",
@@ -392,14 +397,15 @@
           "start": 68.64,
           "end": 69.04
         }
-      ]
+      ],
+      "frames": 109
     },
     {
       "id": "18",
       "text": "Switch the kiln to hydrogen, to electricity, to sunlight.",
-      "start": 69.26,
-      "end": 73.04,
-      "durationSeconds": 3.78,
+      "start": 69.266667,
+      "end": 73.033333,
+      "durationSeconds": 3.766667,
       "words": [
         {
           "text": "Switch",
@@ -446,13 +452,14 @@
           "start": 72.25,
           "end": 72.74
         }
-      ]
+      ],
+      "frames": 113
     },
     {
       "id": "19",
       "text": "The rock still breathes out.",
-      "start": 73.04,
-      "end": 75.24,
+      "start": 73.033333,
+      "end": 75.233333,
       "durationSeconds": 2.2,
       "words": [
         {
@@ -480,13 +487,14 @@
           "start": 74.65,
           "end": 75.24
         }
-      ]
+      ],
+      "frames": 66
     },
     {
       "id": "20",
       "text": "So when people say cement is hard to decarbonize, this is what they actually mean.",
-      "start": 75.24,
-      "end": 79.44,
+      "start": 75.233333,
+      "end": 79.433333,
       "durationSeconds": 4.2,
       "words": [
         {
@@ -564,14 +572,15 @@
           "start": 78.91,
           "end": 79.44
         }
-      ]
+      ],
+      "frames": 126
     },
     {
       "id": "21",
       "text": "It is not an engineering shortfall, it is the chemistry of the raw material.",
-      "start": 79.44,
-      "end": 83.68,
-      "durationSeconds": 4.24,
+      "start": 79.433333,
+      "end": 83.666667,
+      "durationSeconds": 4.233333,
       "words": [
         {
           "text": "It",
@@ -643,14 +652,15 @@
           "start": 82.88,
           "end": 83.68
         }
-      ]
+      ],
+      "frames": 127
     },
     {
       "id": "22",
       "text": "Two people at MIT built a machine that skips both problems.",
-      "start": 83.68,
+      "start": 83.666667,
       "end": 87,
-      "durationSeconds": 3.32,
+      "durationSeconds": 3.333333,
       "words": [
         {
           "text": "Two",
@@ -707,7 +717,8 @@
           "start": 86.25,
           "end": 87
         }
-      ]
+      ],
+      "frames": 100
     }
   ]
 }

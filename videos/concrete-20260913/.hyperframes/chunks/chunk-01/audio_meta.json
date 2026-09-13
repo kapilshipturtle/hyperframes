@@ -4,116 +4,116 @@
     {
       "frame": 1,
       "path": "assets/audio/narration.mp3",
-      "mediaStart": 46.38,
+      "mediaStart": 46.366667,
       "duration_s": 2.8,
       "words": [
         {
           "text": "That",
-          "start": 0,
-          "end": 0.06
+          "start": 0.013,
+          "end": 0.073
         },
         {
           "text": "kiln",
-          "start": 0.06,
-          "end": 0.34
+          "start": 0.073,
+          "end": 0.353
         },
         {
           "text": "has",
-          "start": 0.34,
-          "end": 0.55
+          "start": 0.353,
+          "end": 0.563
         },
         {
           "text": "two",
-          "start": 0.55,
-          "end": 0.62
+          "start": 0.563,
+          "end": 0.633
         },
         {
           "text": "carbon",
-          "start": 1.15,
-          "end": 1.19
+          "start": 1.163,
+          "end": 1.203
         },
         {
           "text": "problems,",
-          "start": 1.19,
-          "end": 1.84
+          "start": 1.203,
+          "end": 1.853
         },
         {
           "text": "not",
-          "start": 1.96,
-          "end": 2.07
+          "start": 1.973,
+          "end": 2.083
         },
         {
           "text": "one.",
-          "start": 2.11,
-          "end": 2.58
+          "start": 2.123,
+          "end": 2.593
         }
       ]
     },
     {
       "frame": 2,
       "path": "assets/audio/narration.mp3",
-      "mediaStart": 49.18,
-      "duration_s": 4.62,
+      "mediaStart": 49.166667,
+      "duration_s": 4.633333,
       "words": [
         {
           "text": "The",
-          "start": 0,
-          "end": 0.01
+          "start": 0.013,
+          "end": 0.023
         },
         {
           "text": "first",
-          "start": 0.01,
-          "end": 0.4
+          "start": 0.023,
+          "end": 0.413
         },
         {
           "text": "is",
-          "start": 0.4,
-          "end": 0.55
+          "start": 0.413,
+          "end": 0.563
         },
         {
           "text": "obvious.",
-          "start": 0.55,
-          "end": 1.34
+          "start": 0.563,
+          "end": 1.353
         },
         {
           "text": "You",
-          "start": 1.34,
-          "end": 1.56
+          "start": 1.353,
+          "end": 1.573
         },
         {
           "text": "are",
-          "start": 1.56,
-          "end": 1.73
+          "start": 1.573,
+          "end": 1.743
         },
         {
           "text": "burning",
-          "start": 1.81,
-          "end": 2.15
+          "start": 1.823,
+          "end": 2.163
         },
         {
           "text": "fuel",
-          "start": 2.2,
-          "end": 2.21
+          "start": 2.213,
+          "end": 2.223
         },
         {
           "text": "to",
-          "start": 2.21,
-          "end": 2.71
+          "start": 2.223,
+          "end": 2.723
         },
         {
           "text": "reach",
-          "start": 2.71,
-          "end": 2.95
+          "start": 2.723,
+          "end": 2.963
         },
         {
           "text": "2,640",
-          "start": 2.95,
-          "end": 3.89
+          "start": 2.963,
+          "end": 3.903
         },
         {
           "text": "degrees.",
-          "start": 3.89,
-          "end": 4.62
+          "start": 3.903,
+          "end": 4.633
         }
       ]
     },
@@ -121,7 +121,7 @@
       "frame": 3,
       "path": "assets/audio/narration.mp3",
       "mediaStart": 53.8,
-      "duration_s": 4.42,
+      "duration_s": 4.433333,
       "words": [
         {
           "text": "The",
@@ -198,504 +198,504 @@
     {
       "frame": 4,
       "path": "assets/audio/narration.mp3",
-      "mediaStart": 58.22,
-      "duration_s": 3.22,
+      "mediaStart": 58.233333,
+      "duration_s": 3.233333,
       "words": [
         {
           "text": "Sandstone",
-          "start": 0,
-          "end": 0.36
+          "start": -0.013,
+          "end": 0.347
         },
         {
           "text": "is",
-          "start": 0.36,
-          "end": 0.48
+          "start": 0.347,
+          "end": 0.467
         },
         {
           "text": "roughly",
-          "start": 0.48,
-          "end": 0.62
+          "start": 0.467,
+          "end": 0.607
         },
         {
           "text": "44%",
-          "start": 1.15,
-          "end": 1.39
+          "start": 1.137,
+          "end": 1.377
         },
         {
           "text": "carbon",
-          "start": 1.39,
-          "end": 1.78
+          "start": 1.377,
+          "end": 1.767
         },
         {
           "text": "dioxide",
-          "start": 1.78,
-          "end": 2.23
+          "start": 1.767,
+          "end": 2.217
         },
         {
           "text": "by",
-          "start": 2.23,
-          "end": 2.36
+          "start": 2.217,
+          "end": 2.347
         },
         {
           "text": "weight.",
-          "start": 2.36,
-          "end": 3
+          "start": 2.347,
+          "end": 2.987
         }
       ]
     },
     {
       "frame": 5,
       "path": "assets/audio/narration.mp3",
-      "mediaStart": 61.44,
-      "duration_s": 4.18,
+      "mediaStart": 61.466667,
+      "duration_s": 4.166667,
       "words": [
         {
           "text": "Nearly",
-          "start": 0,
-          "end": 0.17
+          "start": -0.027,
+          "end": 0.143
         },
         {
           "text": "half",
-          "start": 0.25,
-          "end": 0.47
+          "start": 0.223,
+          "end": 0.443
         },
         {
           "text": "the",
-          "start": 0.47,
-          "end": 0.62
+          "start": 0.443,
+          "end": 0.593
         },
         {
           "text": "rock,",
-          "start": 0.68,
-          "end": 1.11
+          "start": 0.653,
+          "end": 1.083
         },
         {
           "text": "by",
-          "start": 1.15,
-          "end": 1.25
+          "start": 1.123,
+          "end": 1.223
         },
         {
           "text": "mass,",
-          "start": 1.25,
-          "end": 1.67
+          "start": 1.223,
+          "end": 1.643
         },
         {
           "text": "is",
-          "start": 1.67,
-          "end": 1.81
+          "start": 1.643,
+          "end": 1.783
         },
         {
           "text": "carbon",
-          "start": 1.81,
-          "end": 2.23
+          "start": 1.783,
+          "end": 2.203
         },
         {
           "text": "dioxide",
-          "start": 2.23,
-          "end": 2.6
+          "start": 2.203,
+          "end": 2.573
         },
         {
           "text": "waiting",
-          "start": 2.99,
-          "end": 3.21
+          "start": 2.963,
+          "end": 3.183
         },
         {
           "text": "to",
-          "start": 3.21,
-          "end": 3.35
+          "start": 3.183,
+          "end": 3.323
         },
         {
           "text": "leave.",
-          "start": 3.35,
-          "end": 3.96
+          "start": 3.323,
+          "end": 3.933
         }
       ]
     },
     {
       "frame": 6,
       "path": "assets/audio/narration.mp3",
-      "mediaStart": 65.62,
-      "duration_s": 3.64,
+      "mediaStart": 65.633333,
+      "duration_s": 3.633333,
       "words": [
         {
           "text": "Heat",
-          "start": 0,
-          "end": 0.1
+          "start": -0.013,
+          "end": 0.087
         },
         {
           "text": "it",
-          "start": 0.1,
-          "end": 0.26
+          "start": 0.087,
+          "end": 0.247
         },
         {
           "text": "and",
-          "start": 0.26,
-          "end": 0.5
+          "start": 0.247,
+          "end": 0.487
         },
         {
           "text": "it",
-          "start": 0.5,
-          "end": 0.62
+          "start": 0.487,
+          "end": 0.607
         },
         {
           "text": "leaves.",
-          "start": 1.14,
-          "end": 1.4
+          "start": 1.127,
+          "end": 1.387
         },
         {
           "text": "That",
-          "start": 1.4,
-          "end": 1.62
+          "start": 1.387,
+          "end": 1.607
         },
         {
           "text": "release",
-          "start": 1.62,
-          "end": 1.96
+          "start": 1.607,
+          "end": 1.947
         },
         {
           "text": "has",
-          "start": 1.96,
-          "end": 2.11
+          "start": 1.947,
+          "end": 2.097
         },
         {
           "text": "nothing",
-          "start": 2.11,
-          "end": 2.24
+          "start": 2.097,
+          "end": 2.227
         },
         {
           "text": "to",
-          "start": 2.45,
-          "end": 2.57
+          "start": 2.437,
+          "end": 2.557
         },
         {
           "text": "do",
-          "start": 2.57,
-          "end": 2.77
+          "start": 2.557,
+          "end": 2.757
         },
         {
           "text": "with",
-          "start": 2.77,
-          "end": 2.87
+          "start": 2.757,
+          "end": 2.857
         },
         {
           "text": "the",
-          "start": 2.87,
-          "end": 3.02
+          "start": 2.857,
+          "end": 3.007
         },
         {
           "text": "fuel.",
-          "start": 3.02,
-          "end": 3.42
+          "start": 3.007,
+          "end": 3.407
         }
       ]
     },
     {
       "frame": 7,
       "path": "assets/audio/narration.mp3",
-      "mediaStart": 69.26,
-      "duration_s": 3.78,
+      "mediaStart": 69.266667,
+      "duration_s": 3.766667,
       "words": [
         {
           "text": "Switch",
-          "start": 0,
-          "end": 0.17
+          "start": -0.007,
+          "end": 0.163
         },
         {
           "text": "the",
-          "start": 0.25,
-          "end": 0.41
+          "start": 0.243,
+          "end": 0.403
         },
         {
           "text": "kiln",
-          "start": 0.41,
-          "end": 0.65
+          "start": 0.403,
+          "end": 0.643
         },
         {
           "text": "to",
-          "start": 0.65,
-          "end": 1.15
+          "start": 0.643,
+          "end": 1.143
         },
         {
           "text": "hydrogen,",
-          "start": 1.15,
-          "end": 1.54
+          "start": 1.143,
+          "end": 1.533
         },
         {
           "text": "to",
-          "start": 1.54,
-          "end": 1.68
+          "start": 1.533,
+          "end": 1.673
         },
         {
           "text": "electricity,",
-          "start": 1.68,
-          "end": 2.6
+          "start": 1.673,
+          "end": 2.593
         },
         {
           "text": "to",
-          "start": 2.6,
-          "end": 2.65
+          "start": 2.593,
+          "end": 2.643
         },
         {
           "text": "sunlight.",
-          "start": 2.99,
-          "end": 3.48
+          "start": 2.983,
+          "end": 3.473
         }
       ]
     },
     {
       "frame": 8,
       "path": "assets/audio/narration.mp3",
-      "mediaStart": 73.04,
+      "mediaStart": 73.033333,
       "duration_s": 2.2,
       "words": [
         {
           "text": "The",
-          "start": 0,
-          "end": 0.05
+          "start": 0.007,
+          "end": 0.057
         },
         {
           "text": "rock",
-          "start": 0.05,
-          "end": 0.42
+          "start": 0.057,
+          "end": 0.427
         },
         {
           "text": "still",
-          "start": 0.42,
-          "end": 0.62
+          "start": 0.427,
+          "end": 0.627
         },
         {
           "text": "breathes",
-          "start": 1.15,
-          "end": 1.61
+          "start": 1.157,
+          "end": 1.617
         },
         {
           "text": "out.",
-          "start": 1.61,
-          "end": 2.2
+          "start": 1.617,
+          "end": 2.207
         }
       ]
     },
     {
       "frame": 9,
       "path": "assets/audio/narration.mp3",
-      "mediaStart": 75.24,
+      "mediaStart": 75.233333,
       "duration_s": 4.2,
       "words": [
         {
           "text": "So",
-          "start": 0,
-          "end": 0.22
+          "start": 0.007,
+          "end": 0.227
         },
         {
           "text": "when",
-          "start": 0.22,
-          "end": 0.34
+          "start": 0.227,
+          "end": 0.347
         },
         {
           "text": "people",
-          "start": 0.34,
-          "end": 0.68
+          "start": 0.347,
+          "end": 0.687
         },
         {
           "text": "say",
-          "start": 0.68,
-          "end": 0.84
+          "start": 0.687,
+          "end": 0.847
         },
         {
           "text": "cement",
-          "start": 0.84,
-          "end": 0.87
+          "start": 0.847,
+          "end": 0.877
         },
         {
           "text": "is",
-          "start": 0.87,
-          "end": 1.37
+          "start": 0.877,
+          "end": 1.377
         },
         {
           "text": "hard",
-          "start": 1.37,
-          "end": 1.55
+          "start": 1.377,
+          "end": 1.557
         },
         {
           "text": "to",
-          "start": 1.55,
-          "end": 1.66
+          "start": 1.557,
+          "end": 1.667
         },
         {
           "text": "decarbonize,",
-          "start": 1.66,
-          "end": 2.4
+          "start": 1.667,
+          "end": 2.407
         },
         {
           "text": "this",
-          "start": 2.4,
-          "end": 2.63
+          "start": 2.407,
+          "end": 2.637
         },
         {
           "text": "is",
-          "start": 2.63,
-          "end": 2.74
+          "start": 2.637,
+          "end": 2.747
         },
         {
           "text": "what",
-          "start": 2.74,
-          "end": 2.84
+          "start": 2.747,
+          "end": 2.847
         },
         {
           "text": "they",
-          "start": 2.84,
-          "end": 3.21
+          "start": 2.847,
+          "end": 3.217
         },
         {
           "text": "actually",
-          "start": 3.21,
-          "end": 3.67
+          "start": 3.217,
+          "end": 3.677
         },
         {
           "text": "mean.",
-          "start": 3.67,
-          "end": 4.2
+          "start": 3.677,
+          "end": 4.207
         }
       ]
     },
     {
       "frame": 10,
       "path": "assets/audio/narration.mp3",
-      "mediaStart": 79.44,
-      "duration_s": 4.24,
+      "mediaStart": 79.433333,
+      "duration_s": 4.233333,
       "words": [
         {
           "text": "It",
-          "start": 0,
-          "end": 0.22
+          "start": 0.007,
+          "end": 0.227
         },
         {
           "text": "is",
-          "start": 0.22,
-          "end": 0.24
+          "start": 0.227,
+          "end": 0.247
         },
         {
           "text": "not",
-          "start": 0.24,
-          "end": 0.39
+          "start": 0.247,
+          "end": 0.397
         },
         {
           "text": "an",
-          "start": 0.47,
-          "end": 0.55
+          "start": 0.477,
+          "end": 0.557
         },
         {
           "text": "engineering",
-          "start": 0.55,
-          "end": 0.84
+          "start": 0.557,
+          "end": 0.847
         },
         {
           "text": "shortfall,",
-          "start": 1.37,
-          "end": 1.94
+          "start": 1.377,
+          "end": 1.947
         },
         {
           "text": "it",
-          "start": 1.94,
-          "end": 2.05
+          "start": 1.947,
+          "end": 2.057
         },
         {
           "text": "is",
-          "start": 2.05,
-          "end": 2.08
+          "start": 2.057,
+          "end": 2.087
         },
         {
           "text": "the",
-          "start": 2.18,
-          "end": 2.37
+          "start": 2.187,
+          "end": 2.377
         },
         {
           "text": "chemistry",
-          "start": 2.37,
-          "end": 2.82
+          "start": 2.377,
+          "end": 2.827
         },
         {
           "text": "of",
-          "start": 2.93,
-          "end": 2.99
+          "start": 2.937,
+          "end": 2.997
         },
         {
           "text": "the",
-          "start": 3.2,
-          "end": 3.25
+          "start": 3.207,
+          "end": 3.257
         },
         {
           "text": "raw",
-          "start": 3.25,
-          "end": 3.44
+          "start": 3.257,
+          "end": 3.447
         },
         {
           "text": "material.",
-          "start": 3.44,
-          "end": 4.24
+          "start": 3.447,
+          "end": 4.247
         }
       ]
     },
     {
       "frame": 11,
       "path": "assets/audio/narration.mp3",
-      "mediaStart": 83.68,
-      "duration_s": 3.32,
+      "mediaStart": 83.666667,
+      "duration_s": 3.333333,
       "words": [
         {
           "text": "Two",
-          "start": 0,
-          "end": 0.22
+          "start": 0.013,
+          "end": 0.233
         },
         {
           "text": "people",
-          "start": 0.22,
-          "end": 0.58
+          "start": 0.233,
+          "end": 0.593
         },
         {
           "text": "at",
-          "start": 0.58,
-          "end": 0.7
+          "start": 0.593,
+          "end": 0.713
         },
         {
           "text": "MIT",
-          "start": 0.7,
-          "end": 0.84
+          "start": 0.713,
+          "end": 0.853
         },
         {
           "text": "built",
-          "start": 0.9,
-          "end": 0.91
+          "start": 0.913,
+          "end": 0.923
         },
         {
           "text": "a",
-          "start": 0.91,
-          "end": 1.37
+          "start": 0.923,
+          "end": 1.383
         },
         {
           "text": "machine",
-          "start": 1.37,
-          "end": 1.73
+          "start": 1.383,
+          "end": 1.743
         },
         {
           "text": "that",
-          "start": 1.73,
-          "end": 1.99
+          "start": 1.743,
+          "end": 2.003
         },
         {
           "text": "skips",
-          "start": 1.99,
-          "end": 2.29
+          "start": 2.003,
+          "end": 2.303
         },
         {
           "text": "both",
-          "start": 2.33,
-          "end": 2.57
+          "start": 2.343,
+          "end": 2.583
         },
         {
           "text": "problems.",
-          "start": 2.57,
-          "end": 3.32
+          "start": 2.583,
+          "end": 3.333
         }
       ]
     }

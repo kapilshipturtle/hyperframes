@@ -5,7 +5,7 @@
 ## Frame 01
 
 - src: compositions/frames/01-beat.html
-- duration: 3.44s
+- duration: 3.433333s
 - status: planned
 - transition_in: cut
 - look: vignette 0.378, high-contrast
@@ -17,7 +17,7 @@
 ## Frame 02
 
 - src: compositions/frames/02-beat.html
-- duration: 2.76s
+- duration: 2.766667s
 - status: planned
 - transition_in: light-leak-flash 0.5s
 - look: grade cool, vignette 0.378
@@ -39,7 +39,7 @@
 ## Frame 04
 
 - src: compositions/frames/04-beat.html
-- duration: 6.39s
+- duration: 6.4s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade cool, vignette 0.378, high-contrast
@@ -49,7 +49,7 @@
 ## Frame 05
 
 - src: compositions/frames/05-beat.html
-- duration: 4.51s
+- duration: 4.5s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade warm, vignette 0.378
@@ -61,7 +61,7 @@
 ## Frame 06
 
 - src: compositions/frames/06-beat.html
-- duration: 5.33s
+- duration: 5.333333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: vignette 0.378
@@ -72,7 +72,7 @@
 ## Frame 07
 
 - src: compositions/frames/07-beat.html
-- duration: 4.35s
+- duration: 4.333333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade warm, vignette 0.378, high-contrast
@@ -92,7 +92,7 @@
 ## Frame 09
 
 - src: compositions/frames/09-beat.html
-- duration: 2.19s
+- duration: 2.2s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade warm, vignette 0.378
@@ -102,7 +102,7 @@
 ## Frame 10
 
 - src: compositions/frames/10-beat.html
-- duration: 6.32s
+- duration: 6.333333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: bw, vignette 0.378, high-contrast
@@ -113,7 +113,7 @@
 ## Frame 11
 
 - src: compositions/frames/11-beat.html
-- duration: 4.39s
+- duration: 4.4s
 - status: planned
 - transition_in: stutter-cut 0.3s
 - look: vignette 0.378

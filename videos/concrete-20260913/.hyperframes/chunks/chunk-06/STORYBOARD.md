@@ -5,7 +5,7 @@
 ## Frame 01
 
 - src: compositions/frames/01-beat.html
-- duration: 5.08s
+- duration: 5.066667s
 - status: planned
 - transition_in: cut
 - look: grade desaturate, vignette 0.378, high-contrast
@@ -16,7 +16,7 @@
 ## Frame 02
 
 - src: compositions/frames/02-beat.html
-- duration: 5.38s
+- duration: 5.366667s
 - status: planned
 - transition_in: stutter-cut 0.3s
 - look: grade cool, vignette 0.378
@@ -36,7 +36,7 @@
 ## Frame 04
 
 - src: compositions/frames/04-beat.html
-- duration: 4.24s
+- duration: 4.233333s
 - status: planned
 - transition_in: crossfade 0.25s
 - look: vignette 0.378, high-contrast
@@ -46,7 +46,7 @@
 ## Frame 05
 
 - src: compositions/frames/05-beat.html
-- duration: 3.72s
+- duration: 3.733333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade warm, vignette 0.378
@@ -58,7 +58,7 @@
 ## Frame 06
 
 - src: compositions/frames/06-beat.html
-- duration: 3.78s
+- duration: 3.766667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate, vignette 0.378
@@ -69,7 +69,7 @@
 ## Frame 07
 
 - src: compositions/frames/07-beat.html
-- duration: 3.78s
+- duration: 3.766667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade warm, vignette 0.378, high-contrast
@@ -79,7 +79,7 @@
 ## Frame 08
 
 - src: compositions/frames/08-beat.html
-- duration: 5.36s
+- duration: 5.366667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade cool, vignette 0.378
@@ -89,7 +89,7 @@
 ## Frame 09
 
 - src: compositions/frames/09-beat.html
-- duration: 2.62s
+- duration: 2.633333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: vignette 0.378
@@ -99,7 +99,7 @@
 ## Frame 10
 
 - src: compositions/frames/10-beat.html
-- duration: 3.18s
+- duration: 3.166667s
 - status: planned
 - transition_in: zoom-through 0.47s
 - look: bw, vignette 0.378, high-contrast
@@ -111,7 +111,7 @@
 ## Frame 11
 
 - src: compositions/frames/11-beat.html
-- duration: 4.02s
+- duration: 4.033333s
 - status: planned
 - transition_in: crossfade 0.25s
 - look: grade desaturate, vignette 0.378

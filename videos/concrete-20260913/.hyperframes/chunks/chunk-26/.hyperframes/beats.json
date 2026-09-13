@@ -3,8 +3,8 @@
     {
       "id": "272",
       "text": "Those are the facts. The decision, the amount, the date, the effect.",
-      "start": 1187.98,
-      "end": 1192.68,
+      "start": 1187.966667,
+      "end": 1192.666667,
       "durationSeconds": 4.7,
       "words": [
         {
@@ -67,14 +67,15 @@
           "start": 1192.27,
           "end": 1192.46
         }
-      ]
+      ],
+      "frames": 141
     },
     {
       "id": "273",
       "text": "What is left is worth being precise about, because it is neither nothing nor a factory.",
-      "start": 1192.68,
-      "end": 1197.04,
-      "durationSeconds": 4.36,
+      "start": 1192.666667,
+      "end": 1197.033333,
+      "durationSeconds": 4.366667,
       "words": [
         {
           "text": "What",
@@ -156,14 +157,15 @@
           "start": 1196.45,
           "end": 1197.04
         }
-      ]
+      ],
+      "frames": 131
     },
     {
       "id": "274",
       "text": "The technology has not stopped working.",
-      "start": 1197.04,
+      "start": 1197.033333,
       "end": 1199.2,
-      "durationSeconds": 2.16,
+      "durationSeconds": 2.166667,
       "words": [
         {
           "text": "The",
@@ -195,14 +197,15 @@
           "start": 1198.62,
           "end": 1199.2
         }
-      ]
+      ],
+      "frames": 65
     },
     {
       "id": "275",
       "text": "The certification still stands.",
       "start": 1199.2,
-      "end": 1201.12,
-      "durationSeconds": 1.92,
+      "end": 1201.133333,
+      "durationSeconds": 1.933333,
       "words": [
         {
           "text": "The",
@@ -224,14 +227,15 @@
           "start": 1200.57,
           "end": 1201.12
         }
-      ]
+      ],
+      "frames": 58
     },
     {
       "id": "276",
       "text": "The building in Boston is still standing.",
-      "start": 1201.12,
+      "start": 1201.133333,
       "end": 1203.5,
-      "durationSeconds": 2.38,
+      "durationSeconds": 2.366667,
       "words": [
         {
           "text": "The",
@@ -268,14 +272,15 @@
           "start": 1202.61,
           "end": 1203.18
         }
-      ]
+      ],
+      "frames": 71
     },
     {
       "id": "277",
       "text": "The pilot plant in Somerville still runs.",
       "start": 1203.5,
-      "end": 1206.31,
-      "durationSeconds": 2.81,
+      "end": 1206.3,
+      "durationSeconds": 2.8,
       "words": [
         {
           "text": "The",
@@ -312,14 +317,15 @@
           "start": 1205.55,
           "end": 1206.12
         }
-      ]
+      ],
+      "frames": 84
     },
     {
       "id": "278",
       "text": "Sublime says it continues to see strong customer demand and industry backing.",
-      "start": 1206.31,
-      "end": 1209.64,
-      "durationSeconds": 3.33,
+      "start": 1206.3,
+      "end": 1209.633333,
+      "durationSeconds": 3.333333,
       "words": [
         {
           "text": "Sublime",
@@ -381,14 +387,15 @@
           "start": 1209.36,
           "end": 1209.64
         }
-      ]
+      ],
+      "frames": 100
     },
     {
       "id": "279",
       "text": "And as of March 2026, it was still stating a goal of bringing its first electrochemical cement plants online in the United States and Europe",
-      "start": 1209.64,
-      "end": 1216.21,
-      "durationSeconds": 6.57,
+      "start": 1209.633333,
+      "end": 1216.2,
+      "durationSeconds": 6.566667,
       "words": [
         {
           "text": "And",
@@ -515,14 +522,15 @@
           "start": 1215.89,
           "end": 1216.2
         }
-      ]
+      ],
+      "frames": 197
     },
     {
       "id": "280",
       "text": "by 2030, and still seeking to restore the award.",
-      "start": 1216.21,
-      "end": 1219.88,
-      "durationSeconds": 3.67,
+      "start": 1216.2,
+      "end": 1219.866667,
+      "durationSeconds": 3.666667,
       "words": [
         {
           "text": "by",
@@ -569,14 +577,15 @@
           "start": 1218.89,
           "end": 1219.88
         }
-      ]
+      ],
+      "frames": 110
     },
     {
       "id": "281",
       "text": "The rest of the field has not stopped either.",
-      "start": 1219.88,
-      "end": 1222.32,
-      "durationSeconds": 2.44,
+      "start": 1219.866667,
+      "end": 1222.3,
+      "durationSeconds": 2.433333,
       "words": [
         {
           "text": "The",
@@ -623,7 +632,8 @@
           "start": 1221.57,
           "end": 1222.12
         }
-      ]
+      ],
+      "frames": 73
     }
   ]
 }

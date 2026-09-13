@@ -3,8 +3,8 @@
     {
       "id": "55",
       "text": "Heat it and it splits into calcium oxide, the thing you want, and carbon dioxide, which you do not.",
-      "start": 220.94,
-      "end": 226.94,
+      "start": 221,
+      "end": 227,
       "durationSeconds": 6,
       "words": [
         {
@@ -102,13 +102,14 @@
           "start": 225.89,
           "end": 226.76
         }
-      ]
+      ],
+      "frames": 180
     },
     {
       "id": "56",
       "text": "Let's call that step calcination.",
-      "start": 226.94,
-      "end": 228.64,
+      "start": 227,
+      "end": 228.7,
       "durationSeconds": 1.7,
       "words": [
         {
@@ -136,14 +137,15 @@
           "start": 227.97,
           "end": 228.64
         }
-      ]
+      ],
+      "frames": 51
     },
     {
       "id": "57",
       "text": "It is not a side effect. It is not inefficiency.",
-      "start": 228.64,
-      "end": 231.48,
-      "durationSeconds": 2.84,
+      "start": 228.7,
+      "end": 231.533333,
+      "durationSeconds": 2.833333,
       "words": [
         {
           "text": "It",
@@ -195,14 +197,15 @@
           "start": 230.47,
           "end": 231.48
         }
-      ]
+      ],
+      "frames": 85
     },
     {
       "id": "58",
       "text": "It is the reaction.",
-      "start": 231.48,
-      "end": 233.3,
-      "durationSeconds": 1.82,
+      "start": 231.533333,
+      "end": 233.366667,
+      "durationSeconds": 1.833333,
       "words": [
         {
           "text": "It",
@@ -224,14 +227,15 @@
           "start": 232.08,
           "end": 233.08
         }
-      ]
+      ],
+      "frames": 55
     },
     {
       "id": "59",
       "text": "Making cement the Portland way is the act of breaking carbon dioxide off a rock.",
-      "start": 233.3,
-      "end": 238.18,
-      "durationSeconds": 4.88,
+      "start": 233.366667,
+      "end": 238.233333,
+      "durationSeconds": 4.866667,
       "words": [
         {
           "text": "Making",
@@ -308,14 +312,15 @@
           "start": 237.41,
           "end": 237.96
         }
-      ]
+      ],
+      "frames": 146
     },
     {
       "id": "60",
       "text": "Added up in cement production accounts for as much as 8% of global carbon dioxide emissions,",
-      "start": 238.18,
-      "end": 243.26,
-      "durationSeconds": 5.08,
+      "start": 238.233333,
+      "end": 243.3,
+      "durationSeconds": 5.066667,
       "words": [
         {
           "text": "Added",
@@ -397,14 +402,15 @@
           "start": 242.13,
           "end": 243.04
         }
-      ]
+      ],
+      "frames": 152
     },
     {
       "id": "61",
       "text": "depending on whose methodology you use.",
-      "start": 243.26,
-      "end": 245.13,
-      "durationSeconds": 1.87,
+      "start": 243.3,
+      "end": 245.166667,
+      "durationSeconds": 1.866667,
       "words": [
         {
           "text": "depending",
@@ -436,14 +442,15 @@
           "start": 244.74,
           "end": 245.1
         }
-      ]
+      ],
+      "frames": 56
     },
     {
       "id": "62",
       "text": "A figure that would put it above the entire aviation industry several times over, and behind only a couple of countries if you lined",
-      "start": 245.13,
-      "end": 251.78,
-      "durationSeconds": 6.65,
+      "start": 245.166667,
+      "end": 251.833333,
+      "durationSeconds": 6.666667,
       "words": [
         {
           "text": "A",
@@ -565,14 +572,15 @@
           "start": 251.36,
           "end": 251.65
         }
-      ]
+      ],
+      "frames": 200
     },
     {
       "id": "63",
       "text": "the world's emitters up by volume.",
-      "start": 251.78,
-      "end": 253.8,
-      "durationSeconds": 2.02,
+      "start": 251.833333,
+      "end": 253.866667,
+      "durationSeconds": 2.033333,
       "words": [
         {
           "text": "the",
@@ -604,14 +612,15 @@
           "start": 253.13,
           "end": 253.8
         }
-      ]
+      ],
+      "frames": 61
     },
     {
       "id": "64",
       "text": "Now look at what the industry has actually tried.",
-      "start": 253.8,
-      "end": 256.58,
-      "durationSeconds": 2.78,
+      "start": 253.866667,
+      "end": 256.633333,
+      "durationSeconds": 2.766667,
       "words": [
         {
           "text": "Now",
@@ -658,7 +667,8 @@
           "start": 255.82,
           "end": 256.36
         }
-      ]
+      ],
+      "frames": 83
     }
   ]
 }

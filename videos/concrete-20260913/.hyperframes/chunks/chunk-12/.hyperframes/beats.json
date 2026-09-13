@@ -3,9 +3,9 @@
     {
       "id": "127",
       "text": "Because the process is electrochemical, rather than thermal, it can ramp up and down.",
-      "start": 521.78,
-      "end": 526.21,
-      "durationSeconds": 4.43,
+      "start": 521.9,
+      "end": 526.333333,
+      "durationSeconds": 4.433333,
       "words": [
         {
           "text": "Because",
@@ -77,14 +77,15 @@
           "start": 525.7,
           "end": 526.14
         }
-      ]
+      ],
+      "frames": 133
     },
     {
       "id": "128",
       "text": "A rotary kiln is a thermal mass the size of a building.",
-      "start": 526.21,
-      "end": 529.48,
-      "durationSeconds": 3.27,
+      "start": 526.333333,
+      "end": 529.6,
+      "durationSeconds": 3.266667,
       "words": [
         {
           "text": "A",
@@ -146,14 +147,15 @@
           "start": 528.65,
           "end": 529.48
         }
-      ]
+      ],
+      "frames": 98
     },
     {
       "id": "129",
       "text": "You do not switch it off because electricity got expensive at 4 in the afternoon.",
-      "start": 529.48,
-      "end": 533.69,
-      "durationSeconds": 4.21,
+      "start": 529.6,
+      "end": 533.8,
+      "durationSeconds": 4.2,
       "words": [
         {
           "text": "You",
@@ -230,14 +232,15 @@
           "start": 532.87,
           "end": 533.68
         }
-      ]
+      ],
+      "frames": 126
     },
     {
       "id": "130",
       "text": "A stack of electrochemical cells can follow a grid.",
-      "start": 533.69,
-      "end": 536.96,
-      "durationSeconds": 3.27,
+      "start": 533.8,
+      "end": 537.066667,
+      "durationSeconds": 3.266667,
       "words": [
         {
           "text": "A",
@@ -284,14 +287,15 @@
           "start": 536.4,
           "end": 536.96
         }
-      ]
+      ],
+      "frames": 98
     },
     {
       "id": "131",
       "text": "On a power system increasingly built around wind and solar, a heavy industrial process that can throttle is not just cleaner,",
-      "start": 536.96,
-      "end": 543.74,
-      "durationSeconds": 6.78,
+      "start": 537.066667,
+      "end": 543.833333,
+      "durationSeconds": 6.766667,
       "words": [
         {
           "text": "On",
@@ -398,14 +402,15 @@
           "start": 543.07,
           "end": 543.74
         }
-      ]
+      ],
+      "frames": 203
     },
     {
       "id": "132",
       "text": "it is a different kind of asset.",
-      "start": 543.74,
-      "end": 546.12,
-      "durationSeconds": 2.38,
+      "start": 543.833333,
+      "end": 546.2,
+      "durationSeconds": 2.366667,
       "words": [
         {
           "text": "it",
@@ -442,14 +447,15 @@
           "start": 545.27,
           "end": 545.86
         }
-      ]
+      ],
+      "frames": 71
     },
     {
       "id": "133",
       "text": "Which leaves exactly one question, and it is the question that has killed every previous attempt to reinvent cement.",
-      "start": 546.12,
-      "end": 552.86,
-      "durationSeconds": 6.74,
+      "start": 546.2,
+      "end": 552.933333,
+      "durationSeconds": 6.733333,
       "words": [
         {
           "text": "Which",
@@ -546,14 +552,15 @@
           "start": 551.81,
           "end": 552.64
         }
-      ]
+      ],
+      "frames": 202
     },
     {
       "id": "134",
       "text": "Will anyone be allowed to build with it?",
-      "start": 552.86,
-      "end": 555.12,
-      "durationSeconds": 2.26,
+      "start": 552.933333,
+      "end": 555.2,
+      "durationSeconds": 2.266667,
       "words": [
         {
           "text": "Will",
@@ -595,14 +602,15 @@
           "start": 554.53,
           "end": 554.9
         }
-      ]
+      ],
+      "frames": 68
     },
     {
       "id": "135",
       "text": "Because this is not the first time someone has claimed to have fixed cement.",
-      "start": 555.12,
-      "end": 558.84,
-      "durationSeconds": 3.72,
+      "start": 555.2,
+      "end": 558.933333,
+      "durationSeconds": 3.733333,
       "words": [
         {
           "text": "Because",
@@ -674,14 +682,15 @@
           "start": 558.11,
           "end": 558.6
         }
-      ]
+      ],
+      "frames": 112
     },
     {
       "id": "136",
       "text": "Novacem, out of Imperial College London, proposed a magnesium-based cement that would absorb carbon dioxide as",
-      "start": 558.84,
-      "end": 565.7,
-      "durationSeconds": 6.86,
+      "start": 558.933333,
+      "end": 565.8,
+      "durationSeconds": 6.866667,
       "words": [
         {
           "text": "Novacem,",
@@ -763,7 +772,8 @@
           "start": 565.53,
           "end": 565.7
         }
-      ]
+      ],
+      "frames": 206
     }
   ]
 }

@@ -4,8 +4,8 @@
       "id": "23",
       "text": "No kiln, no flame, no limestone.",
       "start": 87,
-      "end": 90.44,
-      "durationSeconds": 3.44,
+      "end": 90.433333,
+      "durationSeconds": 3.433333,
       "words": [
         {
           "text": "No",
@@ -37,14 +37,15 @@
           "start": 89.09,
           "end": 90.44
         }
-      ]
+      ],
+      "frames": 103
     },
     {
       "id": "24",
       "text": "It runs at about room temperature, on electricity.",
-      "start": 90.44,
+      "start": 90.433333,
       "end": 93.2,
-      "durationSeconds": 2.76,
+      "durationSeconds": 2.766667,
       "words": [
         {
           "text": "It",
@@ -86,7 +87,8 @@
           "start": 92.34,
           "end": 93.2
         }
-      ]
+      ],
+      "frames": 83
     },
     {
       "id": "25",
@@ -165,14 +167,15 @@
           "start": 96.58,
           "end": 97.3
         }
-      ]
+      ],
+      "frames": 123
     },
     {
       "id": "26",
       "text": "It is cement, certified to the same standard as the ordinary stuff, poured into the foundation of a real building in Boston",
       "start": 97.3,
-      "end": 103.69,
-      "durationSeconds": 6.39,
+      "end": 103.7,
+      "durationSeconds": 6.4,
       "words": [
         {
           "text": "It",
@@ -284,14 +287,15 @@
           "start": 103.45,
           "end": 103.69
         }
-      ]
+      ],
+      "frames": 192
     },
     {
       "id": "27",
       "text": "with a binding order from Microsoft for over 600,000 tons.",
-      "start": 103.69,
+      "start": 103.7,
       "end": 108.2,
-      "durationSeconds": 4.51,
+      "durationSeconds": 4.5,
       "words": [
         {
           "text": "with",
@@ -343,14 +347,15 @@
           "start": 107.68,
           "end": 108.2
         }
-      ]
+      ],
+      "frames": 135
     },
     {
       "id": "28",
       "text": "And in May of 2025, the federal grant paying for half of their first factory was cancelled.",
       "start": 108.2,
-      "end": 113.53,
-      "durationSeconds": 5.33,
+      "end": 113.533333,
+      "durationSeconds": 5.333333,
       "words": [
         {
           "text": "And",
@@ -437,14 +442,15 @@
           "start": 112.71,
           "end": 113.53
         }
-      ]
+      ],
+      "frames": 160
     },
     {
       "id": "29",
       "text": "If this is the kind of thing you stay to the end of, a like helps more than you'd think.",
-      "start": 113.53,
-      "end": 117.88,
-      "durationSeconds": 4.35,
+      "start": 113.533333,
+      "end": 117.866667,
+      "durationSeconds": 4.333333,
       "words": [
         {
           "text": "If",
@@ -546,13 +552,14 @@
           "start": 117.55,
           "end": 117.88
         }
-      ]
+      ],
+      "frames": 130
     },
     {
       "id": "30",
       "text": "And subscribing with notifications on means the next one actually finds you.",
-      "start": 117.88,
-      "end": 122.18,
+      "start": 117.866667,
+      "end": 122.166667,
       "durationSeconds": 4.3,
       "words": [
         {
@@ -615,14 +622,15 @@
           "start": 121.55,
           "end": 121.96
         }
-      ]
+      ],
+      "frames": 129
     },
     {
       "id": "31",
       "text": "What follows is three things.",
-      "start": 122.18,
-      "end": 124.37,
-      "durationSeconds": 2.19,
+      "start": 122.166667,
+      "end": 124.366667,
+      "durationSeconds": 2.2,
       "words": [
         {
           "text": "What",
@@ -649,14 +657,15 @@
           "start": 123.54,
           "end": 124.36
         }
-      ]
+      ],
+      "frames": 66
     },
     {
       "id": "32",
       "text": "A mineral that is nearly half carbon dioxide by weight, and why that single fact has defeated 60 years of good engineering.",
-      "start": 124.37,
-      "end": 130.69,
-      "durationSeconds": 6.32,
+      "start": 124.366667,
+      "end": 130.7,
+      "durationSeconds": 6.333333,
       "words": [
         {
           "text": "A",
@@ -768,14 +777,15 @@
           "start": 130.29,
           "end": 130.68
         }
-      ]
+      ],
+      "frames": 190
     },
     {
       "id": "33",
       "text": "A concrete pour in Boston's seaport where the most remarkable thing that happened was nothing.",
-      "start": 130.69,
-      "end": 135.08,
-      "durationSeconds": 4.39,
+      "start": 130.7,
+      "end": 135.1,
+      "durationSeconds": 4.4,
       "words": [
         {
           "text": "A",
@@ -852,7 +862,8 @@
           "start": 134.46,
           "end": 135.08
         }
-      ]
+      ],
+      "frames": 132
     }
   ]
 }

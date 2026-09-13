@@ -3,8 +3,8 @@
     {
       "id": "137",
       "text": "it cured. It attracted serious attention and serious money, and it wound down in 2012 its intellectual",
-      "start": 565.7,
-      "end": 572.3,
+      "start": 565.8,
+      "end": 572.4,
       "durationSeconds": 6.6,
       "words": [
         {
@@ -92,14 +92,15 @@
           "start": 571.28,
           "end": 572.08
         }
-      ]
+      ],
+      "frames": 198
     },
     {
       "id": "138",
       "text": "property sold off. Calera, backed heavily in the late 2000s, aimed to make cement-like carbonates out of captured",
-      "start": 572.3,
-      "end": 579.01,
-      "durationSeconds": 6.71,
+      "start": 572.4,
+      "end": 579.1,
+      "durationSeconds": 6.7,
       "words": [
         {
           "text": "property",
@@ -191,14 +192,15 @@
           "start": 578.62,
           "end": 579.01
         }
-      ]
+      ],
+      "frames": 201
     },
     {
       "id": "139",
       "text": "carbon dioxide in seawater.",
-      "start": 579.01,
-      "end": 581,
-      "durationSeconds": 1.99,
+      "start": 579.1,
+      "end": 581.1,
+      "durationSeconds": 2,
       "words": [
         {
           "text": "carbon",
@@ -220,14 +222,15 @@
           "start": 580.13,
           "end": 581
         }
-      ]
+      ],
+      "frames": 60
     },
     {
       "id": "140",
       "text": "It never reached commercial scale.",
-      "start": 581,
-      "end": 583.06,
-      "durationSeconds": 2.06,
+      "start": 581.1,
+      "end": 583.166667,
+      "durationSeconds": 2.066667,
       "words": [
         {
           "text": "It",
@@ -254,14 +257,15 @@
           "start": 582.54,
           "end": 583.06
         }
-      ]
+      ],
+      "frames": 62
     },
     {
       "id": "141",
       "text": "The pattern repeated often enough that the construction industry developed a standing immune response to the phrase,",
-      "start": 583.06,
-      "end": 588.41,
-      "durationSeconds": 5.35,
+      "start": 583.166667,
+      "end": 588.5,
+      "durationSeconds": 5.333333,
       "words": [
         {
           "text": "The",
@@ -348,14 +352,15 @@
           "start": 587.86,
           "end": 588.41
         }
-      ]
+      ],
+      "frames": 160
     },
     {
       "id": "142",
       "text": "new cement. And the reason is not chemistry, the reason is liability.",
-      "start": 588.41,
-      "end": 593.14,
-      "durationSeconds": 4.73,
+      "start": 588.5,
+      "end": 593.233333,
+      "durationSeconds": 4.733333,
       "words": [
         {
           "text": "new",
@@ -417,14 +422,15 @@
           "start": 592.05,
           "end": 592.92
         }
-      ]
+      ],
+      "frames": 142
     },
     {
       "id": "143",
       "text": "Think about who actually has to say yes.",
-      "start": 593.14,
-      "end": 595.21,
-      "durationSeconds": 2.07,
+      "start": 593.233333,
+      "end": 595.3,
+      "durationSeconds": 2.066667,
       "words": [
         {
           "text": "Think",
@@ -466,14 +472,15 @@
           "start": 594.8,
           "end": 595.21
         }
-      ]
+      ],
+      "frames": 62
     },
     {
       "id": "144",
       "text": "Not a scientist, a structural engineer signing a stamped drawing, a ready mix supplier who has to hit a strength spec on",
-      "start": 595.21,
-      "end": 601.69,
-      "durationSeconds": 6.48,
+      "start": 595.3,
+      "end": 601.766667,
+      "durationSeconds": 6.466667,
       "words": [
         {
           "text": "Not",
@@ -585,14 +592,15 @@
           "start": 601.58,
           "end": 601.69
         }
-      ]
+      ],
+      "frames": 194
     },
     {
       "id": "145",
       "text": "a Tuesday, a general contractor whose schedule collapses if a pore fails, a building inspector,",
-      "start": 601.69,
-      "end": 607.72,
-      "durationSeconds": 6.03,
+      "start": 601.766667,
+      "end": 607.8,
+      "durationSeconds": 6.033333,
       "words": [
         {
           "text": "a",
@@ -669,14 +677,15 @@
           "start": 606.58,
           "end": 607.4
         }
-      ]
+      ],
+      "frames": 181
     },
     {
       "id": "146",
       "text": "an insurer, a bank. Every one of those people is professionally rewarded for saying no to unfamiliar materials,",
-      "start": 607.72,
-      "end": 613.76,
-      "durationSeconds": 6.04,
+      "start": 607.8,
+      "end": 613.833333,
+      "durationSeconds": 6.033333,
       "words": [
         {
           "text": "an",
@@ -768,14 +777,15 @@
           "start": 613.31,
           "end": 613.76
         }
-      ]
+      ],
+      "frames": 181
     },
     {
       "id": "147",
       "text": "and none of them is rewarded for saying yes.",
-      "start": 613.76,
-      "end": 616.6,
-      "durationSeconds": 2.84,
+      "start": 613.833333,
+      "end": 616.666667,
+      "durationSeconds": 2.833333,
       "words": [
         {
           "text": "and",
@@ -822,7 +832,8 @@
           "start": 616.15,
           "end": 616.6
         }
-      ]
+      ],
+      "frames": 85
     }
   ]
 }

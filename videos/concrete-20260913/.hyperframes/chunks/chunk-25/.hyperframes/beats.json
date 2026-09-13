@@ -3,9 +3,9 @@
     {
       "id": "262",
       "text": "It said it was working through alternative scale-up plans and had several options.",
-      "start": 1140.56,
-      "end": 1144.28,
-      "durationSeconds": 3.72,
+      "start": 1140.566667,
+      "end": 1144.3,
+      "durationSeconds": 3.733333,
       "words": [
         {
           "text": "It",
@@ -72,14 +72,15 @@
           "start": 1143.77,
           "end": 1144.26
         }
-      ]
+      ],
+      "frames": 112
     },
     {
       "id": "263",
       "text": "It said it remained in dialogue with the Department of Energy, Massachusetts' state administration had tried to close the gap.",
-      "start": 1144.28,
-      "end": 1150.37,
-      "durationSeconds": 6.09,
+      "start": 1144.3,
+      "end": 1150.4,
+      "durationSeconds": 6.1,
       "words": [
         {
           "text": "It",
@@ -181,14 +182,15 @@
           "start": 1149.91,
           "end": 1150.36
         }
-      ]
+      ],
+      "frames": 183
     },
     {
       "id": "264",
       "text": "A smaller version of the project on an adjacent lot was discussed.",
-      "start": 1150.37,
-      "end": 1154.22,
-      "durationSeconds": 3.85,
+      "start": 1150.4,
+      "end": 1154.266667,
+      "durationSeconds": 3.866667,
       "words": [
         {
           "text": "A",
@@ -250,14 +252,15 @@
           "start": 1153.18,
           "end": 1154
         }
-      ]
+      ],
+      "frames": 116
     },
     {
       "id": "265",
       "text": "The arithmetic did not work.",
-      "start": 1154.22,
-      "end": 1156,
-      "durationSeconds": 1.78,
+      "start": 1154.266667,
+      "end": 1156.033333,
+      "durationSeconds": 1.766667,
       "words": [
         {
           "text": "The",
@@ -284,14 +287,15 @@
           "start": 1155.45,
           "end": 1156
         }
-      ]
+      ],
+      "frames": 53
     },
     {
       "id": "266",
       "text": "On March 12, 2026, Sublime confirmed it had laid off approximately two-thirds of its workforce,",
-      "start": 1156,
-      "end": 1162.18,
-      "durationSeconds": 6.18,
+      "start": 1156.033333,
+      "end": 1162.2,
+      "durationSeconds": 6.166667,
       "words": [
         {
           "text": "On",
@@ -368,14 +372,15 @@
           "start": 1160.5,
           "end": 1161.78
         }
-      ]
+      ],
+      "frames": 185
     },
     {
       "id": "267",
       "text": "attributing the decision to the loss of the federal grant and the compounding difficulty of financing scale-up without it.",
-      "start": 1162.18,
-      "end": 1167.96,
-      "durationSeconds": 5.78,
+      "start": 1162.2,
+      "end": 1167.966667,
+      "durationSeconds": 5.766667,
       "words": [
         {
           "text": "attributing",
@@ -472,14 +477,15 @@
           "start": 1167.55,
           "end": 1167.96
         }
-      ]
+      ],
+      "frames": 173
     },
     {
       "id": "268",
       "text": "By then, the appeals process had been running for close to 10 months, with very little movement.",
-      "start": 1167.96,
+      "start": 1167.966667,
       "end": 1173.7,
-      "durationSeconds": 5.74,
+      "durationSeconds": 5.733333,
       "words": [
         {
           "text": "By",
@@ -566,14 +572,15 @@
           "start": 1172.82,
           "end": 1173.47
         }
-      ]
+      ],
+      "frames": 172
     },
     {
       "id": "269",
       "text": "Reporting on the wider program describes the same pattern across many of the canceled awards.",
       "start": 1173.7,
-      "end": 1178.08,
-      "durationSeconds": 4.38,
+      "end": 1178.066667,
+      "durationSeconds": 4.366667,
       "words": [
         {
           "text": "Reporting",
@@ -650,14 +657,15 @@
           "start": 1176.86,
           "end": 1177.86
         }
-      ]
+      ],
+      "frames": 131
     },
     {
       "id": "270",
       "text": "Some recipients withdrawing and seeking private money, some litigating, many still inside an internal appeals process at an agency that",
-      "start": 1178.08,
-      "end": 1184.42,
-      "durationSeconds": 6.34,
+      "start": 1178.066667,
+      "end": 1184.4,
+      "durationSeconds": 6.333333,
       "words": [
         {
           "text": "Some",
@@ -759,14 +767,15 @@
           "start": 1184.21,
           "end": 1184.42
         }
-      ]
+      ],
+      "frames": 190
     },
     {
       "id": "271",
       "text": "went through large staff reductions in the same period.",
-      "start": 1184.42,
-      "end": 1187.98,
-      "durationSeconds": 3.56,
+      "start": 1184.4,
+      "end": 1187.966667,
+      "durationSeconds": 3.566667,
       "words": [
         {
           "text": "went",
@@ -813,7 +822,8 @@
           "start": 1186.83,
           "end": 1187.76
         }
-      ]
+      ],
+      "frames": 107
     }
   ]
 }

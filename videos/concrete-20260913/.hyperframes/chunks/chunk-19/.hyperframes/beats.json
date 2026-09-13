@@ -3,9 +3,9 @@
     {
       "id": "201",
       "text": "your city is not, does it work?",
-      "start": 869.79,
-      "end": 872.1,
-      "durationSeconds": 2.31,
+      "start": 869.866667,
+      "end": 872.166667,
+      "durationSeconds": 2.3,
       "words": [
         {
           "text": "your",
@@ -42,13 +42,14 @@
           "start": 871.61,
           "end": 872.1
         }
-      ]
+      ],
+      "frames": 69
     },
     {
       "id": "202",
       "text": "It is, who has put money behind it that they cannot get back?",
-      "start": 872.1,
-      "end": 876.5,
+      "start": 872.166667,
+      "end": 876.566667,
       "durationSeconds": 4.4,
       "words": [
         {
@@ -116,14 +117,15 @@
           "start": 875.7,
           "end": 876.28
         }
-      ]
+      ],
+      "frames": 132
     },
     {
       "id": "203",
       "text": "Start with the ones who had every reason not to.",
-      "start": 876.5,
-      "end": 878.68,
-      "durationSeconds": 2.18,
+      "start": 876.566667,
+      "end": 878.733333,
+      "durationSeconds": 2.166667,
       "words": [
         {
           "text": "Start",
@@ -175,13 +177,14 @@
           "start": 878.34,
           "end": 878.68
         }
-      ]
+      ],
+      "frames": 65
     },
     {
       "id": "204",
       "text": "In September of 2024, C.R.H.",
-      "start": 878.68,
-      "end": 880.68,
+      "start": 878.733333,
+      "end": 880.733333,
       "durationSeconds": 2,
       "words": [
         {
@@ -209,14 +212,15 @@
           "start": 880.05,
           "end": 880.68
         }
-      ]
+      ],
+      "frames": 60
     },
     {
       "id": "205",
       "text": "and Holsim, two of the largest building materials companies on the planet, invested a combined 75 million dollars",
-      "start": 880.68,
-      "end": 887.22,
-      "durationSeconds": 6.54,
+      "start": 880.733333,
+      "end": 887.266667,
+      "durationSeconds": 6.533333,
       "words": [
         {
           "text": "and",
@@ -308,14 +312,15 @@
           "start": 887.05,
           "end": 887.16
         }
-      ]
+      ],
+      "frames": 196
     },
     {
       "id": "206",
       "text": "in sublime, with binding reservations on the plant's future output.",
-      "start": 887.22,
-      "end": 892.16,
-      "durationSeconds": 4.94,
+      "start": 887.266667,
+      "end": 892.2,
+      "durationSeconds": 4.933333,
       "words": [
         {
           "text": "in",
@@ -367,14 +372,15 @@
           "start": 891.25,
           "end": 892.16
         }
-      ]
+      ],
+      "frames": 148
     },
     {
       "id": "207",
       "text": "Sit with the position those two companies are in.",
-      "start": 892.16,
-      "end": 894.42,
-      "durationSeconds": 2.26,
+      "start": 892.2,
+      "end": 894.466667,
+      "durationSeconds": 2.266667,
       "words": [
         {
           "text": "Sit",
@@ -421,14 +427,15 @@
           "start": 893.92,
           "end": 894.2
         }
-      ]
+      ],
+      "frames": 68
     },
     {
       "id": "208",
       "text": "They own kilns. Thousands of them.",
-      "start": 894.42,
-      "end": 897.1,
-      "durationSeconds": 2.68,
+      "start": 894.466667,
+      "end": 897.133333,
+      "durationSeconds": 2.666667,
       "words": [
         {
           "text": "They",
@@ -460,14 +467,15 @@
           "start": 896.48,
           "end": 896.75
         }
-      ]
+      ],
+      "frames": 80
     },
     {
       "id": "209",
       "text": "Only one is a capital asset with decades of remaining life.",
-      "start": 897.1,
-      "end": 900.34,
-      "durationSeconds": 3.24,
+      "start": 897.133333,
+      "end": 900.366667,
+      "durationSeconds": 3.233333,
       "words": [
         {
           "text": "Only",
@@ -524,14 +532,15 @@
           "start": 899.63,
           "end": 900.12
         }
-      ]
+      ],
+      "frames": 97
     },
     {
       "id": "210",
       "text": "Built around the exact process this technology makes unnecessary.",
-      "start": 900.34,
-      "end": 903.83,
-      "durationSeconds": 3.49,
+      "start": 900.366667,
+      "end": 903.866667,
+      "durationSeconds": 3.5,
       "words": [
         {
           "text": "Built",
@@ -578,14 +587,15 @@
           "start": 903.33,
           "end": 903.83
         }
-      ]
+      ],
+      "frames": 105
     },
     {
       "id": "211",
       "text": "If anyone on Earth has a reason to ignore electrochemical cement, underfund it, or acquire it and shelve it,",
-      "start": 903.83,
-      "end": 909.85,
-      "durationSeconds": 6.02,
+      "start": 903.866667,
+      "end": 909.9,
+      "durationSeconds": 6.033333,
       "words": [
         {
           "text": "If",
@@ -682,7 +692,8 @@
           "start": 909.58,
           "end": 909.74
         }
-      ]
+      ],
+      "frames": 181
     }
   ]
 }

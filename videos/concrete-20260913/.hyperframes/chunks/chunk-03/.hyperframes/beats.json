@@ -3,9 +3,9 @@
     {
       "id": "34",
       "text": "And an $87 million line item in a Department of Energy portfolio that, when it disappeared,",
-      "start": 135.08,
-      "end": 140.46,
-      "durationSeconds": 5.38,
+      "start": 135.1,
+      "end": 140.466667,
+      "durationSeconds": 5.366667,
       "words": [
         {
           "text": "And",
@@ -87,14 +87,15 @@
           "start": 139.38,
           "end": 140.21
         }
-      ]
+      ],
+      "frames": 161
     },
     {
       "id": "35",
       "text": "took a factory with it.",
-      "start": 140.46,
-      "end": 142.29,
-      "durationSeconds": 1.83,
+      "start": 140.466667,
+      "end": 142.3,
+      "durationSeconds": 1.833333,
       "words": [
         {
           "text": "took",
@@ -121,14 +122,15 @@
           "start": 141.84,
           "end": 142.29
         }
-      ]
+      ],
+      "frames": 55
     },
     {
       "id": "36",
       "text": "But before any of that means anything, you need to understand what a cement kiln actually is, and why it has survived,",
-      "start": 142.29,
-      "end": 148.33,
-      "durationSeconds": 6.04,
+      "start": 142.3,
+      "end": 148.333333,
+      "durationSeconds": 6.033333,
       "words": [
         {
           "text": "But",
@@ -240,14 +242,15 @@
           "start": 147.73,
           "end": 148.33
         }
-      ]
+      ],
+      "frames": 181
     },
     {
       "id": "37",
       "text": "essentially unchanged in principle since Victorian England.",
-      "start": 148.33,
-      "end": 152.98,
-      "durationSeconds": 4.65,
+      "start": 148.333333,
+      "end": 153,
+      "durationSeconds": 4.666667,
       "words": [
         {
           "text": "essentially",
@@ -284,14 +287,15 @@
           "start": 151.89,
           "end": 152.76
         }
-      ]
+      ],
+      "frames": 140
     },
     {
       "id": "38",
       "text": "Start with respect, because the kiln has earned it.",
-      "start": 152.98,
-      "end": 156.42,
-      "durationSeconds": 3.44,
+      "start": 153,
+      "end": 156.433333,
+      "durationSeconds": 3.433333,
       "words": [
         {
           "text": "Start",
@@ -338,14 +342,15 @@
           "start": 155.92,
           "end": 156.2
         }
-      ]
+      ],
+      "frames": 103
     },
     {
       "id": "39",
       "text": "Portland cement was patented in 1824 by a bricklayer in Leeds named Joseph Aspden.",
-      "start": 156.42,
-      "end": 161.11,
-      "durationSeconds": 4.69,
+      "start": 156.433333,
+      "end": 161.133333,
+      "durationSeconds": 4.7,
       "words": [
         {
           "text": "Portland",
@@ -417,14 +422,15 @@
           "start": 160.5,
           "end": 161.11
         }
-      ]
+      ],
+      "frames": 141
     },
     {
       "id": "40",
       "text": "The modern version of his idea is one of the great machines of industrial civilization.",
-      "start": 161.11,
-      "end": 165.37,
-      "durationSeconds": 4.26,
+      "start": 161.133333,
+      "end": 165.4,
+      "durationSeconds": 4.266667,
       "words": [
         {
           "text": "The",
@@ -501,14 +507,15 @@
           "start": 164.5,
           "end": 165.36
         }
-      ]
+      ],
+      "frames": 128
     },
     {
       "id": "41",
       "text": "A steel tube, sometimes 60 meters long, tilted a few degrees, rotating slowly,",
-      "start": 165.37,
-      "end": 170.56,
-      "durationSeconds": 5.19,
+      "start": 165.4,
+      "end": 170.6,
+      "durationSeconds": 5.2,
       "words": [
         {
           "text": "A",
@@ -575,14 +582,15 @@
           "start": 170.21,
           "end": 170.56
         }
-      ]
+      ],
+      "frames": 156
     },
     {
       "id": "42",
       "text": "lined with refractory brick, with a flame at the low end.",
-      "start": 170.56,
-      "end": 174.81,
-      "durationSeconds": 4.25,
+      "start": 170.6,
+      "end": 174.866667,
+      "durationSeconds": 4.266667,
       "words": [
         {
           "text": "lined",
@@ -639,14 +647,15 @@
           "start": 174.11,
           "end": 174.68
         }
-      ]
+      ],
+      "frames": 128
     },
     {
       "id": "43",
       "text": "Crushed limestone and clay go in cold at the top.",
-      "start": 174.81,
-      "end": 177.66,
-      "durationSeconds": 2.85,
+      "start": 174.866667,
+      "end": 177.733333,
+      "durationSeconds": 2.866667,
       "words": [
         {
           "text": "Crushed",
@@ -698,7 +707,8 @@
           "start": 177.01,
           "end": 177.44
         }
-      ]
+      ],
+      "frames": 86
     }
   ]
 }

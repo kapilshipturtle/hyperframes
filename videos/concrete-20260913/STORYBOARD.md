@@ -7,7 +7,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 01
 
 - src: compositions/frames/01-beat.html
-- duration: 5.96s
+- duration: 5.966667s
 - status: planned
 - transition_in: cut
 - look: grade desaturate, vignette 0.378
@@ -18,7 +18,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 02
 
 - src: compositions/frames/02-beat.html
-- duration: 4.36s
+- duration: 4.366667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade cool, vignette 0.378, high-contrast
@@ -28,7 +28,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 03
 
 - src: compositions/frames/03-beat.html
-- duration: 6.91s
+- duration: 6.9s
 - status: planned
 - transition_in: hard-cut 0s
 - look: vignette 0.378
@@ -38,7 +38,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 04
 
 - src: compositions/frames/04-beat.html
-- duration: 3.95s
+- duration: 3.933333s
 - status: planned
 - transition_in: crossfade 0.25s
 - look: grade cool, vignette 0.378
@@ -49,7 +49,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 05
 
 - src: compositions/frames/05-beat.html
-- duration: 4.58s
+- duration: 4.566667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate, vignette 0.378, high-contrast
@@ -59,7 +59,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 06
 
 - src: compositions/frames/06-beat.html
-- duration: 2.04s
+- duration: 2.033333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade cool, vignette 0.378
@@ -69,7 +69,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 07
 
 - src: compositions/frames/07-beat.html
-- duration: 6.74s
+- duration: 6.733333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade warm, vignette 0.378
@@ -81,7 +81,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 08
 
 - src: compositions/frames/08-beat.html
-- duration: 2.84s
+- duration: 2.833333s
 - status: planned
 - transition_in: macroblock 0.28s
 - look: vignette 0.378, high-contrast
@@ -91,7 +91,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 09
 
 - src: compositions/frames/09-beat.html
-- duration: 2.12s
+- duration: 2.133333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade warm, vignette 0.378
@@ -101,7 +101,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 10
 
 - src: compositions/frames/10-beat.html
-- duration: 3.52s
+- duration: 3.533333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate, vignette 0.378
@@ -112,7 +112,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 11
 
 - src: compositions/frames/11-beat.html
-- duration: 3.14s
+- duration: 3.133333s
 - status: planned
 - transition_in: crossfade 0.25s
 - look: grade warm, vignette 0.378, high-contrast
@@ -132,7 +132,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 13
 
 - src: compositions/frames/13-beat.html
-- duration: 4.62s
+- duration: 4.633333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: vignette 0.378
@@ -144,7 +144,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 14
 
 - src: compositions/frames/14-beat.html
-- duration: 4.42s
+- duration: 4.433333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: bw, vignette 0.378, high-contrast
@@ -154,7 +154,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 15
 
 - src: compositions/frames/15-beat.html
-- duration: 3.22s
+- duration: 3.233333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate, vignette 0.378
@@ -166,7 +166,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 16
 
 - src: compositions/frames/16-beat.html
-- duration: 4.18s
+- duration: 4.166667s
 - status: planned
 - transition_in: light-leak-flash 0.5s
 - look: bw, vignette 0.378
@@ -176,7 +176,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 17
 
 - src: compositions/frames/17-beat.html
-- duration: 3.64s
+- duration: 3.633333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate, vignette 0.378, high-contrast
@@ -187,7 +187,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 18
 
 - src: compositions/frames/18-beat.html
-- duration: 3.78s
+- duration: 3.766667s
 - status: planned
 - transition_in: crossfade 0.25s
 - look: vignette 0.378
@@ -220,7 +220,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 21
 
 - src: compositions/frames/21-beat.html
-- duration: 4.24s
+- duration: 4.233333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate, vignette 0.378
@@ -232,7 +232,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 22
 
 - src: compositions/frames/22-beat.html
-- duration: 3.32s
+- duration: 3.333333s
 - status: planned
 - transition_in: whip-pan UP 0.35s
 - look: grade cool, vignette 0.378
@@ -243,7 +243,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 23
 
 - src: compositions/frames/23-beat.html
-- duration: 3.44s
+- duration: 3.433333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: vignette 0.378, high-contrast
@@ -255,7 +255,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 24
 
 - src: compositions/frames/24-beat.html
-- duration: 2.76s
+- duration: 2.766667s
 - status: planned
 - transition_in: light-leak-flash 0.5s
 - look: grade cool, vignette 0.378
@@ -277,7 +277,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 26
 
 - src: compositions/frames/26-beat.html
-- duration: 6.39s
+- duration: 6.4s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade cool, vignette 0.378, high-contrast
@@ -287,7 +287,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 27
 
 - src: compositions/frames/27-beat.html
-- duration: 4.51s
+- duration: 4.5s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade warm, vignette 0.378
@@ -299,7 +299,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 28
 
 - src: compositions/frames/28-beat.html
-- duration: 5.33s
+- duration: 5.333333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: vignette 0.378
@@ -310,7 +310,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 29
 
 - src: compositions/frames/29-beat.html
-- duration: 4.35s
+- duration: 4.333333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade warm, vignette 0.378, high-contrast
@@ -330,7 +330,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 31
 
 - src: compositions/frames/31-beat.html
-- duration: 2.19s
+- duration: 2.2s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade warm, vignette 0.378
@@ -340,7 +340,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 32
 
 - src: compositions/frames/32-beat.html
-- duration: 6.32s
+- duration: 6.333333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: bw, vignette 0.378, high-contrast
@@ -351,7 +351,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 33
 
 - src: compositions/frames/33-beat.html
-- duration: 4.39s
+- duration: 4.4s
 - status: planned
 - transition_in: stutter-cut 0.3s
 - look: vignette 0.378
@@ -361,7 +361,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 34
 
 - src: compositions/frames/34-beat.html
-- duration: 5.38s
+- duration: 5.366667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: bw, vignette 0.378
@@ -373,7 +373,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 35
 
 - src: compositions/frames/35-beat.html
-- duration: 1.83s
+- duration: 1.833333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate, vignette 0.378, high-contrast
@@ -383,7 +383,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 36
 
 - src: compositions/frames/36-beat.html
-- duration: 6.04s
+- duration: 6.033333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: bw, vignette 0.378
@@ -394,7 +394,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 37
 
 - src: compositions/frames/37-beat.html
-- duration: 4.65s
+- duration: 4.666667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate, vignette 0.378
@@ -406,7 +406,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 38
 
 - src: compositions/frames/38-beat.html
-- duration: 3.44s
+- duration: 3.433333s
 - status: planned
 - transition_in: zoom-through 0.62s
 - look: vignette 0.378, high-contrast
@@ -417,7 +417,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 39
 
 - src: compositions/frames/39-beat.html
-- duration: 4.69s
+- duration: 4.7s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate, vignette 0.378
@@ -431,7 +431,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 40
 
 - src: compositions/frames/40-beat.html
-- duration: 4.26s
+- duration: 4.266667s
 - status: planned
 - transition_in: crossfade 0.25s
 - look: grade desaturate, vignette 0.378
@@ -441,7 +441,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 41
 
 - src: compositions/frames/41-beat.html
-- duration: 5.19s
+- duration: 5.2s
 - status: planned
 - transition_in: whip-pan UP 0.35s
 - look: grade desaturate, vignette 0.378, high-contrast
@@ -452,7 +452,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 42
 
 - src: compositions/frames/42-beat.html
-- duration: 4.25s
+- duration: 4.266667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade cool, vignette 0.378
@@ -462,7 +462,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 43
 
 - src: compositions/frames/43-beat.html
-- duration: 2.85s
+- duration: 2.866667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: vignette 0.378
@@ -482,7 +482,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 45
 
 - src: compositions/frames/45-beat.html
-- duration: 4.22s
+- duration: 4.233333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate, vignette 0.378
@@ -494,7 +494,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 46
 
 - src: compositions/frames/46-beat.html
-- duration: 4.98s
+- duration: 4.966667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade cool, vignette 0.378
@@ -514,7 +514,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 48
 
 - src: compositions/frames/48-beat.html
-- duration: 3.48s
+- duration: 3.466667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: vignette 0.378
@@ -524,7 +524,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 49
 
 - src: compositions/frames/49-beat.html
-- duration: 4.58s
+- duration: 4.566667s
 - status: planned
 - transition_in: macroblock 0.28s
 - look: grade warm, vignette 0.378
@@ -534,7 +534,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 50
 
 - src: compositions/frames/50-beat.html
-- duration: 1.92s
+- duration: 1.933333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate, vignette 0.378, high-contrast
@@ -544,7 +544,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 51
 
 - src: compositions/frames/51-beat.html
-- duration: 4.58s
+- duration: 4.566667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade warm, vignette 0.378
@@ -555,7 +555,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 52
 
 - src: compositions/frames/52-beat.html
-- duration: 5.84s
+- duration: 5.833333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade cool, vignette 0.378
@@ -567,7 +567,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 53
 
 - src: compositions/frames/53-beat.html
-- duration: 4.46s
+- duration: 4.466667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: vignette 0.378, high-contrast
@@ -578,7 +578,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 54
 
 - src: compositions/frames/54-beat.html
-- duration: 2.02s
+- duration: 2.033333s
 - status: planned
 - transition_in: crossfade 0.25s
 - look: bw, vignette 0.378
@@ -612,7 +612,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 57
 
 - src: compositions/frames/57-beat.html
-- duration: 2.84s
+- duration: 2.833333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate, vignette 0.378
@@ -623,7 +623,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 58
 
 - src: compositions/frames/58-beat.html
-- duration: 1.82s
+- duration: 1.833333s
 - status: planned
 - transition_in: light-leak-flash 0.33s
 - look: vignette 0.378
@@ -634,7 +634,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 59
 
 - src: compositions/frames/59-beat.html
-- duration: 4.88s
+- duration: 4.866667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate, vignette 0.378, high-contrast
@@ -644,7 +644,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 60
 
 - src: compositions/frames/60-beat.html
-- duration: 5.08s
+- duration: 5.066667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate, vignette 0.378
@@ -656,7 +656,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 61
 
 - src: compositions/frames/61-beat.html
-- duration: 1.87s
+- duration: 1.866667s
 - status: planned
 - transition_in: crossfade 0.25s
 - look: grade desaturate, vignette 0.378
@@ -666,7 +666,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 62
 
 - src: compositions/frames/62-beat.html
-- duration: 6.65s
+- duration: 6.666667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade cool, vignette 0.378, high-contrast
@@ -677,7 +677,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 63
 
 - src: compositions/frames/63-beat.html
-- duration: 2.02s
+- duration: 2.033333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: vignette 0.378
@@ -689,7 +689,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 64
 
 - src: compositions/frames/64-beat.html
-- duration: 2.78s
+- duration: 2.766667s
 - status: planned
 - transition_in: whip-pan RIGHT 0.35s
 - look: grade cool, vignette 0.378
@@ -700,7 +700,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 65
 
 - src: compositions/frames/65-beat.html
-- duration: 5.08s
+- duration: 5.066667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate, vignette 0.378, high-contrast
@@ -711,7 +711,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 66
 
 - src: compositions/frames/66-beat.html
-- duration: 5.38s
+- duration: 5.366667s
 - status: planned
 - transition_in: stutter-cut 0.3s
 - look: grade cool, vignette 0.378
@@ -731,7 +731,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 68
 
 - src: compositions/frames/68-beat.html
-- duration: 4.24s
+- duration: 4.233333s
 - status: planned
 - transition_in: crossfade 0.25s
 - look: vignette 0.378, high-contrast
@@ -741,7 +741,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 69
 
 - src: compositions/frames/69-beat.html
-- duration: 3.72s
+- duration: 3.733333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade warm, vignette 0.378
@@ -753,7 +753,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 70
 
 - src: compositions/frames/70-beat.html
-- duration: 3.78s
+- duration: 3.766667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate, vignette 0.378
@@ -764,7 +764,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 71
 
 - src: compositions/frames/71-beat.html
-- duration: 3.78s
+- duration: 3.766667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade warm, vignette 0.378, high-contrast
@@ -774,7 +774,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 72
 
 - src: compositions/frames/72-beat.html
-- duration: 5.36s
+- duration: 5.366667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade cool, vignette 0.378
@@ -784,7 +784,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 73
 
 - src: compositions/frames/73-beat.html
-- duration: 2.62s
+- duration: 2.633333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: vignette 0.378
@@ -794,7 +794,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 74
 
 - src: compositions/frames/74-beat.html
-- duration: 3.18s
+- duration: 3.166667s
 - status: planned
 - transition_in: zoom-through 0.47s
 - look: bw, vignette 0.378, high-contrast
@@ -806,7 +806,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 75
 
 - src: compositions/frames/75-beat.html
-- duration: 4.02s
+- duration: 4.033333s
 - status: planned
 - transition_in: crossfade 0.25s
 - look: grade desaturate, vignette 0.378
@@ -828,7 +828,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 77
 
 - src: compositions/frames/77-beat.html
-- duration: 2.23s
+- duration: 2.233333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate, vignette 0.378, high-contrast
@@ -838,7 +838,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 78
 
 - src: compositions/frames/78-beat.html
-- duration: 6.72s
+- duration: 6.733333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: vignette 0.378
@@ -849,7 +849,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 79
 
 - src: compositions/frames/79-beat.html
-- duration: 4.11s
+- duration: 4.1s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate, vignette 0.378
@@ -859,7 +859,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 80
 
 - src: compositions/frames/80-beat.html
-- duration: 6.44s
+- duration: 6.433333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate, vignette 0.378, high-contrast
@@ -870,7 +870,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 81
 
 - src: compositions/frames/81-beat.html
-- duration: 3.22s
+- duration: 3.233333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate, vignette 0.378
@@ -880,7 +880,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 82
 
 - src: compositions/frames/82-beat.html
-- duration: 5.08s
+- duration: 5.066667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade cool, vignette 0.378
@@ -890,7 +890,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 83
 
 - src: compositions/frames/83-beat.html
-- duration: 3.46s
+- duration: 3.466667s
 - status: planned
 - transition_in: glitch-cut 0.25s
 - look: vignette 0.378, high-contrast
@@ -910,7 +910,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 85
 
 - src: compositions/frames/85-beat.html
-- duration: 6.26s
+- duration: 6.266667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate, vignette 0.378
@@ -921,7 +921,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 86
 
 - src: compositions/frames/86-beat.html
-- duration: 2.64s
+- duration: 2.633333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade cool, vignette 0.378, high-contrast
@@ -933,7 +933,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 87
 
 - src: compositions/frames/87-beat.html
-- duration: 5.56s
+- duration: 5.566667s
 - status: planned
 - transition_in: zoom-through 0.48s
 - look: grade desaturate, vignette 0.378
@@ -944,7 +944,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 88
 
 - src: compositions/frames/88-beat.html
-- duration: 2.38s
+- duration: 2.366667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: vignette 0.378
@@ -955,7 +955,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 89
 
 - src: compositions/frames/89-beat.html
-- duration: 5.89s
+- duration: 5.9s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade warm, vignette 0.378, high-contrast
@@ -967,7 +967,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 90
 
 - src: compositions/frames/90-beat.html
-- duration: 2.25s
+- duration: 2.266667s
 - status: planned
 - transition_in: crossfade 0.25s
 - look: grade desaturate, vignette 0.378
@@ -977,7 +977,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 91
 
 - src: compositions/frames/91-beat.html
-- duration: 3.22s
+- duration: 3.233333s
 - status: planned
 - transition_in: stutter-cut 0.3s
 - look: grade warm, vignette 0.378
@@ -989,7 +989,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 92
 
 - src: compositions/frames/92-beat.html
-- duration: 4.22s
+- duration: 4.233333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade cool, vignette 0.378, high-contrast
@@ -999,7 +999,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 93
 
 - src: compositions/frames/93-beat.html
-- duration: 1.88s
+- duration: 1.866667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: vignette 0.378
@@ -1010,7 +1010,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 94
 
 - src: compositions/frames/94-beat.html
-- duration: 6.76s
+- duration: 6.766667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: bw, vignette 0.378
@@ -1021,7 +1021,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 95
 
 - src: compositions/frames/95-beat.html
-- duration: 1.94s
+- duration: 1.933333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate, vignette 0.378, high-contrast
@@ -1031,7 +1031,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 96
 
 - src: compositions/frames/96-beat.html
-- duration: 4.64s
+- duration: 4.633333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: bw, vignette 0.378
@@ -1042,7 +1042,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 97
 
 - src: compositions/frames/97-beat.html
-- duration: 1.86s
+- duration: 1.866667s
 - status: planned
 - transition_in: crossfade 0.25s
 - look: grade desaturate, vignette 0.378
@@ -1052,7 +1052,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 98
 
 - src: compositions/frames/98-beat.html
-- duration: 4.36s
+- duration: 4.366667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: vignette 0.378, high-contrast
@@ -1064,7 +1064,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 99
 
 - src: compositions/frames/99-beat.html
-- duration: 6.18s
+- duration: 6.166667s
 - status: planned
 - transition_in: signal-loss 0.2s
 - look: grade desaturate, vignette 0.378
@@ -1074,7 +1074,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 100
 
 - src: compositions/frames/100-beat.html
-- duration: 6.74s
+- duration: 6.733333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate, vignette 0.378
@@ -1098,7 +1098,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 102
 
 - src: compositions/frames/102-beat.html
-- duration: 2.63s
+- duration: 2.633333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade cool, vignette 0.378
@@ -1108,7 +1108,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 103
 
 - src: compositions/frames/103-beat.html
-- duration: 6.99s
+- duration: 7.0s
 - status: planned
 - transition_in: hard-cut 0s
 - look: vignette 0.378
@@ -1141,7 +1141,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 106
 
 - src: compositions/frames/106-beat.html
-- duration: 4.51s
+- duration: 4.5s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade cool, vignette 0.378
@@ -1154,7 +1154,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 107
 
 - src: compositions/frames/107-beat.html
-- duration: 6.48s
+- duration: 6.466667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate, vignette 0.378, high-contrast
@@ -1164,7 +1164,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 108
 
 - src: compositions/frames/108-beat.html
-- duration: 6.76s
+- duration: 6.766667s
 - status: planned
 - transition_in: stutter-cut 0.3s
 - look: vignette 0.378
@@ -1177,7 +1177,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 109
 
 - src: compositions/frames/109-beat.html
-- duration: 4.65s
+- duration: 4.666667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade warm, vignette 0.378
@@ -1197,7 +1197,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 111
 
 - src: compositions/frames/111-beat.html
-- duration: 3.89s
+- duration: 3.9s
 - status: planned
 - transition_in: crossfade 0.25s
 - look: grade warm, vignette 0.378
@@ -1208,7 +1208,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 112
 
 - src: compositions/frames/112-beat.html
-- duration: 3.93s
+- duration: 3.933333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade cool, vignette 0.378
@@ -1218,7 +1218,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 113
 
 - src: compositions/frames/113-beat.html
-- duration: 2.05s
+- duration: 2.033333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: vignette 0.378, high-contrast
@@ -1229,7 +1229,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 114
 
 - src: compositions/frames/114-beat.html
-- duration: 6.52s
+- duration: 6.533333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: bw, vignette 0.378
@@ -1239,7 +1239,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 115
 
 - src: compositions/frames/115-beat.html
-- duration: 4.43s
+- duration: 4.433333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate, vignette 0.378
@@ -1250,7 +1250,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 116
 
 - src: compositions/frames/116-beat.html
-- duration: 2.94s
+- duration: 2.933333s
 - status: planned
 - transition_in: light-leak-flash 0.5s
 - look: bw, vignette 0.378, high-contrast
@@ -1260,7 +1260,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 117
 
 - src: compositions/frames/117-beat.html
-- duration: 4.58s
+- duration: 4.566667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate, vignette 0.378
@@ -1271,7 +1271,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 118
 
 - src: compositions/frames/118-beat.html
-- duration: 3.77s
+- duration: 3.766667s
 - status: planned
 - transition_in: crossfade 0.25s
 - look: vignette 0.378
@@ -1284,7 +1284,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 119
 
 - src: compositions/frames/119-beat.html
-- duration: 2.86s
+- duration: 2.866667s
 - status: planned
 - transition_in: whip-pan UP 0.35s
 - look: grade desaturate, vignette 0.378, high-contrast
@@ -1295,7 +1295,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 120
 
 - src: compositions/frames/120-beat.html
-- duration: 6.32s
+- duration: 6.333333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate, vignette 0.378
@@ -1307,7 +1307,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 121
 
 - src: compositions/frames/121-beat.html
-- duration: 3.63s
+- duration: 3.633333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate, vignette 0.378
@@ -1317,7 +1317,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 122
 
 - src: compositions/frames/122-beat.html
-- duration: 4.62s
+- duration: 4.633333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade cool, vignette 0.378, high-contrast
@@ -1327,7 +1327,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 123
 
 - src: compositions/frames/123-beat.html
-- duration: 6.33s
+- duration: 6.333333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: vignette 0.378
@@ -1339,7 +1339,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 124
 
 - src: compositions/frames/124-beat.html
-- duration: 6.92s
+- duration: 6.933333s
 - status: planned
 - transition_in: macroblock 0.28s
 - look: grade cool, vignette 0.378
@@ -1350,7 +1350,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 125
 
 - src: compositions/frames/125-beat.html
-- duration: 3.49s
+- duration: 3.5s
 - status: planned
 - transition_in: crossfade 0.25s
 - look: grade desaturate, vignette 0.378, high-contrast
@@ -1370,7 +1370,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 127
 
 - src: compositions/frames/127-beat.html
-- duration: 4.43s
+- duration: 4.433333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate, vignette 0.378
@@ -1381,7 +1381,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 128
 
 - src: compositions/frames/128-beat.html
-- duration: 3.27s
+- duration: 3.266667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: vignette 0.378, high-contrast
@@ -1391,7 +1391,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 129
 
 - src: compositions/frames/129-beat.html
-- duration: 4.21s
+- duration: 4.2s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade warm, vignette 0.378
@@ -1402,7 +1402,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 130
 
 - src: compositions/frames/130-beat.html
-- duration: 3.27s
+- duration: 3.266667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate, vignette 0.378
@@ -1412,7 +1412,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 131
 
 - src: compositions/frames/131-beat.html
-- duration: 6.78s
+- duration: 6.766667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade warm, vignette 0.378, high-contrast
@@ -1422,7 +1422,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 132
 
 - src: compositions/frames/132-beat.html
-- duration: 2.38s
+- duration: 2.366667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade cool, vignette 0.378
@@ -1432,7 +1432,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 133
 
 - src: compositions/frames/133-beat.html
-- duration: 6.74s
+- duration: 6.733333s
 - status: planned
 - transition_in: zoom-through 0.43s
 - look: vignette 0.378
@@ -1443,7 +1443,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 134
 
 - src: compositions/frames/134-beat.html
-- duration: 2.26s
+- duration: 2.266667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: bw, vignette 0.378, high-contrast
@@ -1456,7 +1456,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 135
 
 - src: compositions/frames/135-beat.html
-- duration: 3.72s
+- duration: 3.733333s
 - status: planned
 - transition_in: whip-pan RIGHT 0.35s
 - look: grade desaturate, vignette 0.378
@@ -1467,7 +1467,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 136
 
 - src: compositions/frames/136-beat.html
-- duration: 6.86s
+- duration: 6.866667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: bw, vignette 0.378
@@ -1489,7 +1489,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 138
 
 - src: compositions/frames/138-beat.html
-- duration: 6.71s
+- duration: 6.7s
 - status: planned
 - transition_in: hard-cut 0s
 - look: vignette 0.378
@@ -1500,7 +1500,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 139
 
 - src: compositions/frames/139-beat.html
-- duration: 1.99s
+- duration: 2.0s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate, vignette 0.378
@@ -1510,7 +1510,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 140
 
 - src: compositions/frames/140-beat.html
-- duration: 2.06s
+- duration: 2.066667s
 - status: planned
 - transition_in: crossfade 0.25s
 - look: grade desaturate, vignette 0.378, high-contrast
@@ -1520,7 +1520,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 141
 
 - src: compositions/frames/141-beat.html
-- duration: 5.35s
+- duration: 5.333333s
 - status: planned
 - transition_in: stutter-cut 0.3s
 - look: grade desaturate, vignette 0.378
@@ -1530,7 +1530,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 142
 
 - src: compositions/frames/142-beat.html
-- duration: 4.73s
+- duration: 4.733333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade cool, vignette 0.378
@@ -1541,7 +1541,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 143
 
 - src: compositions/frames/143-beat.html
-- duration: 2.07s
+- duration: 2.066667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: vignette 0.378, high-contrast
@@ -1551,7 +1551,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 144
 
 - src: compositions/frames/144-beat.html
-- duration: 6.48s
+- duration: 6.466667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade cool, vignette 0.378
@@ -1562,7 +1562,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 145
 
 - src: compositions/frames/145-beat.html
-- duration: 6.03s
+- duration: 6.033333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate, vignette 0.378
@@ -1572,7 +1572,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 146
 
 - src: compositions/frames/146-beat.html
-- duration: 6.04s
+- duration: 6.033333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade cool, vignette 0.378, high-contrast
@@ -1583,7 +1583,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 147
 
 - src: compositions/frames/147-beat.html
-- duration: 2.84s
+- duration: 2.833333s
 - status: planned
 - transition_in: crossfade 0.25s
 - look: grade desaturate, vignette 0.378
@@ -1593,7 +1593,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 148
 
 - src: compositions/frames/148-beat.html
-- duration: 4.67s
+- duration: 4.666667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: vignette 0.378
@@ -1606,7 +1606,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 149
 
 - src: compositions/frames/149-beat.html
-- duration: 6.81s
+- duration: 6.8s
 - status: planned
 - transition_in: whip-pan UP 0.35s
 - look: grade warm, vignette 0.378, high-contrast
@@ -1618,7 +1618,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 150
 
 - src: compositions/frames/150-beat.html
-- duration: 5.44s
+- duration: 5.433333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate, vignette 0.378
@@ -1628,7 +1628,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 151
 
 - src: compositions/frames/151-beat.html
-- duration: 5.88s
+- duration: 5.866667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade warm, vignette 0.378
@@ -1639,7 +1639,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 152
 
 - src: compositions/frames/152-beat.html
-- duration: 5.33s
+- duration: 5.333333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade cool, vignette 0.378, high-contrast
@@ -1649,7 +1649,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 153
 
 - src: compositions/frames/153-beat.html
-- duration: 1.95s
+- duration: 1.933333s
 - status: planned
 - transition_in: hard-cut 0s
 - query: document comparison desk
@@ -1658,7 +1658,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 154
 
 - src: compositions/frames/154-beat.html
-- duration: 1.64s
+- duration: 1.633333s
 - status: planned
 - transition_in: crossfade 0.25s
 - look: bw
@@ -1669,7 +1669,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 155
 
 - src: compositions/frames/155-beat.html
-- duration: 5.05s
+- duration: 5.066667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate, vignette 0.378, high-contrast
@@ -1680,7 +1680,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 156
 
 - src: compositions/frames/156-beat.html
-- duration: 3.57s
+- duration: 3.566667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: bw
@@ -1690,7 +1690,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 157
 
 - src: compositions/frames/157-beat.html
-- duration: 5.58s
+- duration: 5.566667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate
@@ -1701,7 +1701,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 158
 
 - src: compositions/frames/158-beat.html
-- duration: 4.64s
+- duration: 4.633333s
 - status: planned
 - transition_in: stutter-cut 0.3s
 - look: vignette 0.378, high-contrast
@@ -1711,7 +1711,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 159
 
 - src: compositions/frames/159-beat.html
-- duration: 5.86s
+- duration: 5.866667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate
@@ -1721,7 +1721,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 160
 
 - src: compositions/frames/160-beat.html
-- duration: 6.29s
+- duration: 6.3s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate
@@ -1733,7 +1733,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 161
 
 - src: compositions/frames/161-beat.html
-- duration: 6.07s
+- duration: 6.066667s
 - status: planned
 - transition_in: crossfade 0.25s
 - look: grade desaturate, vignette 0.378, high-contrast
@@ -1755,7 +1755,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 163
 
 - src: compositions/frames/163-beat.html
-- duration: 6.32s
+- duration: 6.333333s
 - status: planned
 - transition_in: hard-cut 0s
 - query: boston seaport construction
@@ -1764,7 +1764,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 164
 
 - src: compositions/frames/164-beat.html
-- duration: 5.96s
+- duration: 5.966667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade cool, vignette 0.378, high-contrast
@@ -1775,7 +1775,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 165
 
 - src: compositions/frames/165-beat.html
-- duration: 1.83s
+- duration: 1.833333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate
@@ -1785,7 +1785,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 166
 
 - src: compositions/frames/166-beat.html
-- duration: 6.15s
+- duration: 6.133333s
 - status: planned
 - transition_in: macroblock 0.28s
 - look: grade cool
@@ -1796,7 +1796,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 167
 
 - src: compositions/frames/167-beat.html
-- duration: 5.36s
+- duration: 5.366667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate, vignette 0.378, high-contrast
@@ -1806,7 +1806,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 168
 
 - src: compositions/frames/168-beat.html
-- duration: 4.28s
+- duration: 4.266667s
 - status: planned
 - transition_in: crossfade 0.25s
 - punch: at 2.67s scale 1.4
@@ -1817,7 +1817,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 169
 
 - src: compositions/frames/169-beat.html
-- duration: 2.07s
+- duration: 2.066667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade warm
@@ -1827,7 +1827,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 170
 
 - src: compositions/frames/170-beat.html
-- duration: 5.33s
+- duration: 5.333333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate, vignette 0.378, high-contrast
@@ -1838,7 +1838,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 171
 
 - src: compositions/frames/171-beat.html
-- duration: 4.59s
+- duration: 4.6s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade warm
@@ -1850,7 +1850,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 172
 
 - src: compositions/frames/172-beat.html
-- duration: 4.99s
+- duration: 5.0s
 - status: planned
 - transition_in: zoom-through 0.83s
 - look: grade cool, vignette 0.378
@@ -1861,7 +1861,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 173
 
 - src: compositions/frames/173-beat.html
-- duration: 4.36s
+- duration: 4.366667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: vignette 0.378, high-contrast
@@ -1873,7 +1873,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 174
 
 - src: compositions/frames/174-beat.html
-- duration: 4.65s
+- duration: 4.666667s
 - status: planned
 - transition_in: light-leak-flash 0.5s
 - look: bw
@@ -1883,7 +1883,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 175
 
 - src: compositions/frames/175-beat.html
-- duration: 6.27s
+- duration: 6.266667s
 - status: planned
 - transition_in: crossfade 0.25s
 - look: grade desaturate
@@ -1894,7 +1894,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 176
 
 - src: compositions/frames/176-beat.html
-- duration: 5.64s
+- duration: 5.633333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: bw, vignette 0.378, high-contrast
@@ -1904,7 +1904,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 177
 
 - src: compositions/frames/177-beat.html
-- duration: 4.46s
+- duration: 4.466667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate
@@ -1914,7 +1914,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 178
 
 - src: compositions/frames/178-beat.html
-- duration: 5.06s
+- duration: 5.066667s
 - status: planned
 - transition_in: hard-cut 0s
 - punch: at 1.37s scale 1.35
@@ -1925,7 +1925,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 179
 
 - src: compositions/frames/179-beat.html
-- duration: 5.08s
+- duration: 5.066667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate, vignette 0.378, high-contrast
@@ -1935,7 +1935,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 180
 
 - src: compositions/frames/180-beat.html
-- duration: 6.58s
+- duration: 6.566667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate
@@ -1946,7 +1946,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 181
 
 - src: compositions/frames/181-beat.html
-- duration: 4.33s
+- duration: 4.333333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate
@@ -1956,7 +1956,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 182
 
 - src: compositions/frames/182-beat.html
-- duration: 6.67s
+- duration: 6.666667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade cool, vignette 0.378, high-contrast
@@ -1968,7 +1968,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 183
 
 - src: compositions/frames/183-beat.html
-- duration: 4.12s
+- duration: 4.133333s
 - status: planned
 - transition_in: zoom-through 0.74s
 - query: white mineral lumps concrete
@@ -1977,7 +1977,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 184
 
 - src: compositions/frames/184-beat.html
-- duration: 5.91s
+- duration: 5.9s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade cool
@@ -1987,7 +1987,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 185
 
 - src: compositions/frames/185-beat.html
-- duration: 6.56s
+- duration: 6.566667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate, vignette 0.378, high-contrast
@@ -1999,7 +1999,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 186
 
 - src: compositions/frames/186-beat.html
-- duration: 6.23s
+- duration: 6.233333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade cool
@@ -2012,7 +2012,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 187
 
 - src: compositions/frames/187-beat.html
-- duration: 5.24s
+- duration: 5.233333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate
@@ -2023,7 +2023,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 188
 
 - src: compositions/frames/188-beat.html
-- duration: 1.76s
+- duration: 1.766667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: vignette 0.378, high-contrast
@@ -2043,7 +2043,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 190
 
 - src: compositions/frames/190-beat.html
-- duration: 3.67s
+- duration: 3.666667s
 - status: planned
 - transition_in: crossfade 0.25s
 - look: grade desaturate
@@ -2055,7 +2055,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 191
 
 - src: compositions/frames/191-beat.html
-- duration: 5.43s
+- duration: 5.433333s
 - status: planned
 - transition_in: signal-loss 0.2s
 - look: grade warm, vignette 0.378, high-contrast
@@ -2066,7 +2066,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 192
 
 - src: compositions/frames/192-beat.html
-- duration: 2.98s
+- duration: 2.966667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade cool
@@ -2085,7 +2085,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 194
 
 - src: compositions/frames/194-beat.html
-- duration: 6.76s
+- duration: 6.766667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: bw, vignette 0.378, high-contrast
@@ -2098,7 +2098,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 195
 
 - src: compositions/frames/195-beat.html
-- duration: 2.64s
+- duration: 2.633333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate
@@ -2118,7 +2118,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 197
 
 - src: compositions/frames/197-beat.html
-- duration: 6.42s
+- duration: 6.433333s
 - status: planned
 - transition_in: crossfade 0.25s
 - look: grade desaturate, vignette 0.378, high-contrast
@@ -2130,7 +2130,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 198
 
 - src: compositions/frames/198-beat.html
-- duration: 4.32s
+- duration: 4.333333s
 - status: planned
 - transition_in: hard-cut 0s
 - punch: at 1.2s scale 1.4
@@ -2155,7 +2155,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 200
 
 - src: compositions/frames/200-beat.html
-- duration: 6.59s
+- duration: 6.6s
 - status: planned
 - transition_in: smear-cut LEFT
 - look: grade desaturate, vignette 0.378, high-contrast
@@ -2167,7 +2167,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 201
 
 - src: compositions/frames/201-beat.html
-- duration: 2.31s
+- duration: 2.3s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate
@@ -2188,7 +2188,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 203
 
 - src: compositions/frames/203-beat.html
-- duration: 2.18s
+- duration: 2.166667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: vignette 0.378, high-contrast
@@ -2209,7 +2209,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 205
 
 - src: compositions/frames/205-beat.html
-- duration: 6.54s
+- duration: 6.533333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate
@@ -2219,7 +2219,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 206
 
 - src: compositions/frames/206-beat.html
-- duration: 4.94s
+- duration: 4.933333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade cool, vignette 0.378, high-contrast
@@ -2232,7 +2232,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 207
 
 - src: compositions/frames/207-beat.html
-- duration: 2.26s
+- duration: 2.266667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate
@@ -2242,7 +2242,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 208
 
 - src: compositions/frames/208-beat.html
-- duration: 2.68s
+- duration: 2.666667s
 - status: planned
 - transition_in: light-leak-flash 0.41s
 - query: cement plant owned assets
@@ -2251,7 +2251,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 209
 
 - src: compositions/frames/209-beat.html
-- duration: 3.24s
+- duration: 3.233333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade warm, vignette 0.378, high-contrast
@@ -2261,7 +2261,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 210
 
 - src: compositions/frames/210-beat.html
-- duration: 3.49s
+- duration: 3.5s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate
@@ -2273,7 +2273,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 211
 
 - src: compositions/frames/211-beat.html
-- duration: 6.02s
+- duration: 6.033333s
 - status: planned
 - transition_in: crossfade 0.25s
 - look: grade warm
@@ -2284,7 +2284,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 212
 
 - src: compositions/frames/212-beat.html
-- duration: 2.09s
+- duration: 2.1s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade cool, vignette 0.378, high-contrast
@@ -2294,7 +2294,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 213
 
 - src: compositions/frames/213-beat.html
-- duration: 3.36s
+- duration: 3.366667s
 - status: planned
 - transition_in: hard-cut 0s
 - motion: out to 1.1142 ease power1.inOut, focus 46,64
@@ -2306,7 +2306,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 214
 
 - src: compositions/frames/214-beat.html
-- duration: 6.48s
+- duration: 6.466667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: bw
@@ -2317,7 +2317,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 215
 
 - src: compositions/frames/215-beat.html
-- duration: 2.34s
+- duration: 2.333333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate, vignette 0.378, high-contrast
@@ -2327,7 +2327,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 216
 
 - src: compositions/frames/216-beat.html
-- duration: 6.86s
+- duration: 6.866667s
 - status: planned
 - transition_in: whip-pan DOWN 0.35s
 - look: bw
@@ -2341,7 +2341,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 217
 
 - src: compositions/frames/217-beat.html
-- duration: 6.45s
+- duration: 6.466667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate
@@ -2353,7 +2353,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 218
 
 - src: compositions/frames/218-beat.html
-- duration: 3.41s
+- duration: 3.4s
 - status: planned
 - transition_in: crossfade 0.25s
 - look: vignette 0.378, high-contrast
@@ -2365,7 +2365,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 219
 
 - src: compositions/frames/219-beat.html
-- duration: 4.92s
+- duration: 4.933333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate
@@ -2376,7 +2376,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 220
 
 - src: compositions/frames/220-beat.html
-- duration: 6.39s
+- duration: 6.4s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate
@@ -2387,7 +2387,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 221
 
 - src: compositions/frames/221-beat.html
-- duration: 3.69s
+- duration: 3.7s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate, vignette 0.378, high-contrast
@@ -2397,7 +2397,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 222
 
 - src: compositions/frames/222-beat.html
-- duration: 1.85s
+- duration: 1.866667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade cool
@@ -2407,7 +2407,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 223
 
 - src: compositions/frames/223-beat.html
-- duration: 6.51s
+- duration: 6.5s
 - status: planned
 - transition_in: hard-cut 0s
 - motion: in to 1.1345 ease power1.inOut, focus 68,48
@@ -2419,7 +2419,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 224
 
 - src: compositions/frames/224-beat.html
-- duration: 4.61s
+- duration: 4.6s
 - status: planned
 - transition_in: light-leak-flash 0.5s
 - look: grade cool, vignette 0.378
@@ -2431,7 +2431,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 225
 
 - src: compositions/frames/225-beat.html
-- duration: 5.48s
+- duration: 5.466667s
 - status: planned
 - transition_in: crossfade 0.25s
 - motion: out to 1.1235 ease power1.inOut, focus 65,45
@@ -2442,7 +2442,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 226
 
 - src: compositions/frames/226-beat.html
-- duration: 5.89s
+- duration: 5.9s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade cool
@@ -2456,7 +2456,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 227
 
 - src: compositions/frames/227-beat.html
-- duration: 2.94s
+- duration: 2.933333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate, vignette 0.378
@@ -2466,7 +2466,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 228
 
 - src: compositions/frames/228-beat.html
-- duration: 6.56s
+- duration: 6.566667s
 - status: planned
 - transition_in: hard-cut 0s
 - motion: in to 1.1138 ease power1.inOut, focus 24,48
@@ -2479,7 +2479,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 229
 
 - src: compositions/frames/229-beat.html
-- duration: 5.61s
+- duration: 5.6s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade warm
@@ -2491,7 +2491,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 230
 
 - src: compositions/frames/230-beat.html
-- duration: 1.94s
+- duration: 1.933333s
 - status: planned
 - transition_in: zoom-through 0.35s
 - look: vignette 0.378
@@ -2502,7 +2502,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 231
 
 - src: compositions/frames/231-beat.html
-- duration: 6.71s
+- duration: 6.7s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade warm
@@ -2515,7 +2515,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 232
 
 - src: compositions/frames/232-beat.html
-- duration: 5.71s
+- duration: 5.7s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade cool
@@ -2537,7 +2537,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 234
 
 - src: compositions/frames/234-beat.html
-- duration: 6.51s
+- duration: 6.5s
 - status: planned
 - transition_in: hard-cut 0s
 - look: bw
@@ -2549,7 +2549,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 235
 
 - src: compositions/frames/235-beat.html
-- duration: 4.61s
+- duration: 4.6s
 - status: planned
 - transition_in: hard-cut 0s
 - motion: in to 1.14 ease power1.inOut, focus 58,23
@@ -2561,7 +2561,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 236
 
 - src: compositions/frames/236-beat.html
-- duration: 5.61s
+- duration: 5.6s
 - status: planned
 - transition_in: hard-cut 0s
 - look: bw, vignette 0.378
@@ -2573,7 +2573,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 237
 
 - src: compositions/frames/237-beat.html
-- duration: 2.96s
+- duration: 2.966667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate
@@ -2583,7 +2583,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 238
 
 - src: compositions/frames/238-beat.html
-- duration: 1.64s
+- duration: 1.633333s
 - status: planned
 - transition_in: hard-cut 0s
 - overlay: location-stamp
@@ -2593,7 +2593,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 239
 
 - src: compositions/frames/239-beat.html
-- duration: 6.44s
+- duration: 6.433333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate, vignette 0.378
@@ -2607,7 +2607,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 240
 
 - src: compositions/frames/240-beat.html
-- duration: 2.96s
+- duration: 2.966667s
 - status: planned
 - transition_in: crossfade 0.25s
 - query: vintage paper mill photo
@@ -2626,7 +2626,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 242
 
 - src: compositions/frames/242-beat.html
-- duration: 1.84s
+- duration: 1.833333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade cool, vignette 0.378
@@ -2636,7 +2636,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 243
 
 - src: compositions/frames/243-beat.html
-- duration: 6.77s
+- duration: 6.766667s
 - status: planned
 - transition_in: hard-cut 0s
 - motion: out to 1.1167 ease power1.inOut, focus 42,72
@@ -2648,7 +2648,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 244
 
 - src: compositions/frames/244-beat.html
-- duration: 6.15s
+- duration: 6.133333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade cool
@@ -2660,7 +2660,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 245
 
 - src: compositions/frames/245-beat.html
-- duration: 4.82s
+- duration: 4.833333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: vignette 0.378
@@ -2672,7 +2672,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 246
 
 - src: compositions/frames/246-beat.html
-- duration: 7.88s
+- duration: 7.866667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade cool
@@ -2683,7 +2683,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 247
 
 - src: compositions/frames/247-beat.html
-- duration: 5.06s
+- duration: 5.066667s
 - status: planned
 - transition_in: crossfade 0.25s
 - look: grade desaturate
@@ -2695,7 +2695,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 248
 
 - src: compositions/frames/248-beat.html
-- duration: 4.38s
+- duration: 4.366667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: vignette 0.378
@@ -2705,7 +2705,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 249
 
 - src: compositions/frames/249-beat.html
-- duration: 4.46s
+- duration: 4.466667s
 - status: planned
 - transition_in: zoom-through 0.79s
 - look: grade warm
@@ -2719,7 +2719,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 250
 
 - src: compositions/frames/250-beat.html
-- duration: 1.84s
+- duration: 1.833333s
 - status: planned
 - transition_in: whip-pan RIGHT 0.33s
 - look: vignette 0.378
@@ -2730,7 +2730,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 251
 
 - src: compositions/frames/251-beat.html
-- duration: 6.74s
+- duration: 6.733333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade warm, vignette 0.378
@@ -2753,7 +2753,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 253
 
 - src: compositions/frames/253-beat.html
-- duration: 2.42s
+- duration: 2.433333s
 - status: planned
 - transition_in: hard-cut 0s
 - overlay: number-badge at middle-right
@@ -2763,7 +2763,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 254
 
 - src: compositions/frames/254-beat.html
-- duration: 6.05s
+- duration: 6.066667s
 - status: planned
 - transition_in: crossfade 0.25s
 - look: bw, vignette 0.378
@@ -2774,7 +2774,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 255
 
 - src: compositions/frames/255-beat.html
-- duration: 3.87s
+- duration: 3.866667s
 - status: planned
 - transition_in: hard-cut 0s
 - query: company statement press release
@@ -2794,7 +2794,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 257
 
 - src: compositions/frames/257-beat.html
-- duration: 6.55s
+- duration: 6.533333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate, vignette 0.378
@@ -2806,7 +2806,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 258
 
 - src: compositions/frames/258-beat.html
-- duration: 3.05s
+- duration: 3.066667s
 - status: planned
 - transition_in: zoom-through 0.55s
 - motion: out to 1.1 ease power1.inOut, focus 58,48
@@ -2818,7 +2818,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 259
 
 - src: compositions/frames/259-beat.html
-- duration: 2.87s
+- duration: 2.866667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate
@@ -2829,7 +2829,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 260
 
 - src: compositions/frames/260-beat.html
-- duration: 6.69s
+- duration: 6.7s
 - status: planned
 - transition_in: hard-cut 0s
 - look: vignette 0.378
@@ -2843,7 +2843,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 261
 
 - src: compositions/frames/261-beat.html
-- duration: 5.24s
+- duration: 5.233333s
 - status: planned
 - transition_in: crossfade 0.25s
 - look: grade desaturate
@@ -2853,7 +2853,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 262
 
 - src: compositions/frames/262-beat.html
-- duration: 3.72s
+- duration: 3.733333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate
@@ -2865,7 +2865,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 263
 
 - src: compositions/frames/263-beat.html
-- duration: 6.09s
+- duration: 6.1s
 - status: planned
 - transition_in: hard-cut 0s
 - look: vignette 0.378
@@ -2878,7 +2878,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 264
 
 - src: compositions/frames/264-beat.html
-- duration: 3.85s
+- duration: 3.866667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade cool
@@ -2890,7 +2890,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 265
 
 - src: compositions/frames/265-beat.html
-- duration: 1.78s
+- duration: 1.766667s
 - status: planned
 - transition_in: hard-cut 0s
 - overlay: keyword-flash "THE ARITHMETIC FAILED" at upper-right
@@ -2900,7 +2900,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 266
 
 - src: compositions/frames/266-beat.html
-- duration: 6.18s
+- duration: 6.166667s
 - status: planned
 - transition_in: light-leak-flash 0.32s
 - look: grade cool, vignette 0.378
@@ -2914,7 +2914,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 267
 
 - src: compositions/frames/267-beat.html
-- duration: 5.78s
+- duration: 5.766667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate
@@ -2926,7 +2926,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 268
 
 - src: compositions/frames/268-beat.html
-- duration: 5.74s
+- duration: 5.733333s
 - status: planned
 - transition_in: crossfade 0.25s
 - motion: pan to 1.1197 ease sine.inOut, focus 50,49
@@ -2938,7 +2938,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 269
 
 - src: compositions/frames/269-beat.html
-- duration: 4.38s
+- duration: 4.366667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade warm, vignette 0.378
@@ -2948,7 +2948,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 270
 
 - src: compositions/frames/270-beat.html
-- duration: 6.34s
+- duration: 6.333333s
 - status: planned
 - transition_in: hard-cut 0s
 - motion: in to 1.1305 ease power1.inOut, focus 72,45
@@ -2959,7 +2959,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 271
 
 - src: compositions/frames/271-beat.html
-- duration: 3.56s
+- duration: 3.566667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade warm
@@ -2983,7 +2983,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 273
 
 - src: compositions/frames/273-beat.html
-- duration: 4.36s
+- duration: 4.366667s
 - status: planned
 - transition_in: zoom-through 0.78s
 - look: vignette 0.378
@@ -2997,7 +2997,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 274
 
 - src: compositions/frames/274-beat.html
-- duration: 2.16s
+- duration: 2.166667s
 - status: planned
 - transition_in: whip-pan DOWN 0.35s
 - look: bw
@@ -3008,7 +3008,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 275
 
 - src: compositions/frames/275-beat.html
-- duration: 1.92s
+- duration: 1.933333s
 - status: planned
 - transition_in: crossfade 0.25s
 - look: vignette 0.378
@@ -3018,7 +3018,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 276
 
 - src: compositions/frames/276-beat.html
-- duration: 2.38s
+- duration: 2.366667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: bw
@@ -3028,7 +3028,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 277
 
 - src: compositions/frames/277-beat.html
-- duration: 2.81s
+- duration: 2.8s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate
@@ -3038,7 +3038,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 278
 
 - src: compositions/frames/278-beat.html
-- duration: 3.33s
+- duration: 3.333333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: vignette 0.378
@@ -3048,7 +3048,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 279
 
 - src: compositions/frames/279-beat.html
-- duration: 6.57s
+- duration: 6.566667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate
@@ -3060,7 +3060,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 280
 
 - src: compositions/frames/280-beat.html
-- duration: 3.67s
+- duration: 3.666667s
 - status: planned
 - transition_in: hard-cut 0s
 - motion: out to 1.1044 ease power1.inOut, focus 52,62
@@ -3072,7 +3072,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 281
 
 - src: compositions/frames/281-beat.html
-- duration: 2.44s
+- duration: 2.433333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate, vignette 0.378
@@ -3082,7 +3082,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 282
 
 - src: compositions/frames/282-beat.html
-- duration: 5.04s
+- duration: 5.033333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate
@@ -3092,7 +3092,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 283
 
 - src: compositions/frames/283-beat.html
-- duration: 4.24s
+- duration: 4.233333s
 - status: planned
 - transition_in: zoom-through 0.76s
 - punch: at 1.52s scale 1.425
@@ -3103,7 +3103,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 284
 
 - src: compositions/frames/284-beat.html
-- duration: 6.65s
+- duration: 6.666667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade cool, vignette 0.378
@@ -3115,7 +3115,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 285
 
 - src: compositions/frames/285-beat.html
-- duration: 3.11s
+- duration: 3.1s
 - status: planned
 - transition_in: hard-cut 0s
 - motion: out to 1.1109 ease power1.inOut, focus 45,65
@@ -3126,7 +3126,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 286
 
 - src: compositions/frames/286-beat.html
-- duration: 2.18s
+- duration: 2.166667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade cool
@@ -3136,7 +3136,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 287
 
 - src: compositions/frames/287-beat.html
-- duration: 3.34s
+- duration: 3.333333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate, vignette 0.378
@@ -3148,7 +3148,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 288
 
 - src: compositions/frames/288-beat.html
-- duration: 6.51s
+- duration: 6.5s
 - status: planned
 - transition_in: hard-cut 0s
 - query: multiple technology laboratories
@@ -3157,7 +3157,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 289
 
 - src: compositions/frames/289-beat.html
-- duration: 6.79s
+- duration: 6.8s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade warm
@@ -3171,7 +3171,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 290
 
 - src: compositions/frames/290-beat.html
-- duration: 2.98s
+- duration: 2.966667s
 - status: planned
 - transition_in: crossfade 0.25s
 - look: vignette 0.378
@@ -3181,7 +3181,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 291
 
 - src: compositions/frames/291-beat.html
-- duration: 2.72s
+- duration: 2.733333s
 - status: planned
 - transition_in: light-leak-flash 0.49s
 - look: grade warm
@@ -3191,7 +3191,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 292
 
 - src: compositions/frames/292-beat.html
-- duration: 4.04s
+- duration: 4.033333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate
@@ -3204,7 +3204,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 293
 
 - src: compositions/frames/293-beat.html
-- duration: 6.53s
+- duration: 6.533333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: vignette 0.378
@@ -3215,7 +3215,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 294
 
 - src: compositions/frames/294-beat.html
-- duration: 2.83s
+- duration: 2.833333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: bw
@@ -3225,7 +3225,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 295
 
 - src: compositions/frames/295-beat.html
-- duration: 2.84s
+- duration: 2.833333s
 - status: planned
 - transition_in: hard-cut 0s
 - query: small factory building
@@ -3234,7 +3234,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 296
 
 - src: compositions/frames/296-beat.html
-- duration: 3.86s
+- duration: 3.866667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: bw, vignette 0.378
@@ -3247,7 +3247,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 297
 
 - src: compositions/frames/297-beat.html
-- duration: 4.16s
+- duration: 4.166667s
 - status: planned
 - transition_in: crossfade 0.25s
 - look: grade desaturate
@@ -3257,7 +3257,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 298
 
 - src: compositions/frames/298-beat.html
-- duration: 5.02s
+- duration: 5.033333s
 - status: planned
 - transition_in: hard-cut 0s
 - motion: out to 1.1303 ease power1.inOut, focus 30,54
@@ -3270,7 +3270,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 299
 
 - src: compositions/frames/299-beat.html
-- duration: 4.68s
+- duration: 4.666667s
 - status: planned
 - transition_in: smear-cut RIGHT
 - look: grade desaturate, vignette 0.378
@@ -3283,7 +3283,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 300
 
 - src: compositions/frames/300-beat.html
-- duration: 6.57s
+- duration: 6.566667s
 - status: planned
 - transition_in: hard-cut 0s
 - motion: out to 1.139 ease power1.inOut, focus 66,91
@@ -3295,7 +3295,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 301
 
 - src: compositions/frames/301-beat.html
-- duration: 6.01s
+- duration: 6.0s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate
@@ -3316,7 +3316,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 303
 
 - src: compositions/frames/303-beat.html
-- duration: 6.52s
+- duration: 6.533333s
 - status: planned
 - transition_in: hard-cut 0s
 - punch: at 3.98s scale 1.375
@@ -3326,7 +3326,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 304
 
 - src: compositions/frames/304-beat.html
-- duration: 5.42s
+- duration: 5.433333s
 - status: planned
 - transition_in: crossfade 0.25s
 - look: grade cool
@@ -3338,7 +3338,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 305
 
 - src: compositions/frames/305-beat.html
-- duration: 4.09s
+- duration: 4.1s
 - status: planned
 - transition_in: hard-cut 0s
 - look: vignette 0.378
@@ -3349,7 +3349,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 306
 
 - src: compositions/frames/306-beat.html
-- duration: 1.92s
+- duration: 1.933333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade cool
@@ -3360,7 +3360,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 307
 
 - src: compositions/frames/307-beat.html
-- duration: 6.33s
+- duration: 6.333333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate
@@ -3381,7 +3381,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 309
 
 - src: compositions/frames/309-beat.html
-- duration: 4.22s
+- duration: 4.233333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade warm
@@ -3393,7 +3393,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 310
 
 - src: compositions/frames/310-beat.html
-- duration: 4.36s
+- duration: 4.366667s
 - status: planned
 - transition_in: hard-cut 0s
 - motion: in to 1.1361 ease power1.inOut, focus 52,48
@@ -3404,7 +3404,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 311
 
 - src: compositions/frames/311-beat.html
-- duration: 5.84s
+- duration: 5.833333s
 - status: planned
 - transition_in: crossfade 0.25s
 - look: grade warm, vignette 0.378
@@ -3416,7 +3416,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 312
 
 - src: compositions/frames/312-beat.html
-- duration: 3.33s
+- duration: 3.333333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate
@@ -3426,7 +3426,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 313
 
 - src: compositions/frames/313-beat.html
-- duration: 3.79s
+- duration: 3.8s
 - status: planned
 - transition_in: hard-cut 0s
 - motion: pan to 1.057 ease sine.inOut, focus 50,50
@@ -3437,7 +3437,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 314
 
 - src: compositions/frames/314-beat.html
-- duration: 5.92s
+- duration: 5.933333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: bw, vignette 0.378
@@ -3451,7 +3451,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 315
 
 - src: compositions/frames/315-beat.html
-- duration: 6.14s
+- duration: 6.133333s
 - status: planned
 - transition_in: hard-cut 0s
 - query: steel mill converted factory
@@ -3460,7 +3460,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 316
 
 - src: compositions/frames/316-beat.html
-- duration: 1.86s
+- duration: 1.866667s
 - status: planned
 - transition_in: light-leak-flash 0.33s
 - look: bw
@@ -3470,7 +3470,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 317
 
 - src: compositions/frames/317-beat.html
-- duration: 4.72s
+- duration: 4.733333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate, vignette 0.378
@@ -3482,7 +3482,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 318
 
 - src: compositions/frames/318-beat.html
-- duration: 2.82s
+- duration: 2.833333s
 - status: planned
 - transition_in: crossfade 0.25s
 - query: money funding sources
@@ -3491,7 +3491,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 319
 
 - src: compositions/frames/319-beat.html
-- duration: 5.33s
+- duration: 5.333333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate
@@ -3503,7 +3503,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 320
 
 - src: compositions/frames/320-beat.html
-- duration: 4.17s
+- duration: 4.166667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: vignette 0.378
@@ -3516,7 +3516,7 @@ explainer-punchy · 321 frames · 13.8 cuts/min · motion is MOTIVATED (plan-mot
 ## Frame 321
 
 - src: compositions/frames/321-beat.html
-- duration: 2.18s
+- duration: 2.166667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate

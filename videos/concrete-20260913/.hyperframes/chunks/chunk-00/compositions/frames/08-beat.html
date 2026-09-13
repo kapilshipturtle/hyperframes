@@ -106,13 +106,13 @@
   <div
     id="root"
     data-composition-id="08-beat"
-    data-width="1920" data-height="1080" data-duration="2.84"
+    data-width="1920" data-height="1080" data-duration="2.833"
   >
     <div class="broll-wrap" id="f-08-beat-wrap">
-      <video id="f-08-beat-media" class="broll-media clip broll-g-hc" src=".media/broll/beat-08.mp4" muted playsinline data-start="0" data-duration="2.84" data-media-start="0" data-track-index="0"></video>
+      <video id="f-08-beat-media" class="broll-media clip broll-g-hc" src=".media/broll/beat-08.mp4" muted playsinline data-start="0" data-duration="2.83" data-media-start="0" data-track-index="0"></video>
     </div>
-    <div class="broll-scrim clip" id="f-08-beat-scrim" data-start="0" data-duration="2.84" data-track-index="1"></div>
-    <div class="broll-vignette clip" id="f-08-beat-vignette" data-start="0" data-duration="2.84" data-track-index="3"></div>
+    <div class="broll-scrim clip" id="f-08-beat-scrim" data-start="0" data-duration="2.83" data-track-index="1"></div>
+    <div class="broll-vignette clip" id="f-08-beat-vignette" data-start="0" data-duration="2.83" data-track-index="3"></div>
   </div>
 
   <script>
@@ -121,8 +121,8 @@
       var tl = gsap.timeline({ paused: true });
       var wrap = document.getElementById("f-08-beat-wrap");
       gsap.set(wrap, { scale: 1.03 });
-      tl.fromTo(wrap, { x: 0, y: 0 }, { x: 0.80, y: -0.60, duration: 1.42, ease: "sine.inOut" }, 0);
-      tl.to(wrap, { x: -0.50, y: 0.40, duration: 1.42, ease: "sine.inOut" }, 1.42);
+      tl.fromTo(wrap, { x: 0, y: 0 }, { x: -0.80, y: -0.60, duration: 1.42, ease: "sine.inOut" }, 0);
+      tl.to(wrap, { x: 0.50, y: 0.40, duration: 1.42, ease: "sine.inOut" }, 1.42);
       window.__timelines["08-beat"] = tl;
     })();
   </script>

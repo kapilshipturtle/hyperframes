@@ -3,9 +3,9 @@
     {
       "id": "232",
       "text": "million under the Industrial Demonstrations Program to build a first commercial plant,",
-      "start": 1003.94,
-      "end": 1009.65,
-      "durationSeconds": 5.71,
+      "start": 1004,
+      "end": 1009.7,
+      "durationSeconds": 5.7,
       "words": [
         {
           "text": "million",
@@ -67,13 +67,14 @@
           "start": 1009.31,
           "end": 1009.65
         }
-      ]
+      ],
+      "frames": 171
     },
     {
       "id": "233",
       "text": "30,000 tons a year.",
-      "start": 1009.65,
-      "end": 1011.65,
+      "start": 1009.7,
+      "end": 1011.7,
       "durationSeconds": 2,
       "words": [
         {
@@ -96,14 +97,15 @@
           "start": 1011.32,
           "end": 1011.65
         }
-      ]
+      ],
+      "frames": 60
     },
     {
       "id": "234",
       "text": "In January of 2025, a $46.7 million investment tax credit followed from the Department of Energy and",
-      "start": 1011.65,
-      "end": 1018.16,
-      "durationSeconds": 6.51,
+      "start": 1011.7,
+      "end": 1018.2,
+      "durationSeconds": 6.5,
       "words": [
         {
           "text": "In",
@@ -190,14 +192,15 @@
           "start": 1017.92,
           "end": 1018.16
         }
-      ]
+      ],
+      "frames": 195
     },
     {
       "id": "235",
       "text": "the IRS total projected plant cost, around $150 million.",
-      "start": 1018.16,
-      "end": 1022.77,
-      "durationSeconds": 4.61,
+      "start": 1018.2,
+      "end": 1022.8,
+      "durationSeconds": 4.6,
       "words": [
         {
           "text": "the",
@@ -244,14 +247,15 @@
           "start": 1021.94,
           "end": 1022.77
         }
-      ]
+      ],
+      "frames": 138
     },
     {
       "id": "236",
       "text": "The site was Holyoke, Massachusetts, 16 acres on Water Street, in the industrial flats,",
-      "start": 1022.77,
-      "end": 1028.38,
-      "durationSeconds": 5.61,
+      "start": 1022.8,
+      "end": 1028.4,
+      "durationSeconds": 5.6,
       "words": [
         {
           "text": "The",
@@ -323,14 +327,15 @@
           "start": 1027.82,
           "end": 1028.38
         }
-      ]
+      ],
+      "frames": 168
     },
     {
       "id": "237",
       "text": "on land that used to hold paper mills.",
-      "start": 1028.38,
-      "end": 1031.34,
-      "durationSeconds": 2.96,
+      "start": 1028.4,
+      "end": 1031.366667,
+      "durationSeconds": 2.966667,
       "words": [
         {
           "text": "on",
@@ -372,14 +377,15 @@
           "start": 1030.43,
           "end": 1031.12
         }
-      ]
+      ],
+      "frames": 89
     },
     {
       "id": "238",
       "text": "Holyoke was built on water power.",
-      "start": 1031.34,
-      "end": 1032.98,
-      "durationSeconds": 1.64,
+      "start": 1031.366667,
+      "end": 1033,
+      "durationSeconds": 1.633333,
       "words": [
         {
           "text": "Holyoke",
@@ -411,14 +417,15 @@
           "start": 1032.49,
           "end": 1032.96
         }
-      ]
+      ],
+      "frames": 49
     },
     {
       "id": "239",
       "text": "In the 19th century, its canal system and turbines drove the mills that at one point produced something like 80% of the writing paper in the",
-      "start": 1032.98,
-      "end": 1039.42,
-      "durationSeconds": 6.44,
+      "start": 1033,
+      "end": 1039.433333,
+      "durationSeconds": 6.433333,
       "words": [
         {
           "text": "In",
@@ -550,14 +557,15 @@
           "start": 1039.27,
           "end": 1039.42
         }
-      ]
+      ],
+      "frames": 193
     },
     {
       "id": "240",
       "text": "United States. They called it the Paper City.",
-      "start": 1039.42,
-      "end": 1042.38,
-      "durationSeconds": 2.96,
+      "start": 1039.433333,
+      "end": 1042.4,
+      "durationSeconds": 2.966667,
       "words": [
         {
           "text": "United",
@@ -599,13 +607,14 @@
           "start": 1041.73,
           "end": 1042.16
         }
-      ]
+      ],
+      "frames": 89
     },
     {
       "id": "241",
       "text": "Then the mills went, the way mills went everywhere.",
-      "start": 1042.38,
-      "end": 1045.18,
+      "start": 1042.4,
+      "end": 1045.2,
       "durationSeconds": 2.8,
       "words": [
         {
@@ -653,7 +662,8 @@
           "start": 1044.14,
           "end": 1044.96
         }
-      ]
+      ],
+      "frames": 84
     }
   ]
 }

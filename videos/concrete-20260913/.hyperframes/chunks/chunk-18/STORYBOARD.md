@@ -15,7 +15,7 @@
 ## Frame 02
 
 - src: compositions/frames/02-beat.html
-- duration: 3.67s
+- duration: 3.666667s
 - status: planned
 - transition_in: crossfade 0.25s
 - look: grade desaturate
@@ -27,7 +27,7 @@
 ## Frame 03
 
 - src: compositions/frames/03-beat.html
-- duration: 5.43s
+- duration: 5.433333s
 - status: planned
 - transition_in: signal-loss 0.2s
 - look: grade warm, vignette 0.378, high-contrast
@@ -38,7 +38,7 @@
 ## Frame 04
 
 - src: compositions/frames/04-beat.html
-- duration: 2.98s
+- duration: 2.966667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade cool
@@ -57,7 +57,7 @@
 ## Frame 06
 
 - src: compositions/frames/06-beat.html
-- duration: 6.76s
+- duration: 6.766667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: bw, vignette 0.378, high-contrast
@@ -70,7 +70,7 @@
 ## Frame 07
 
 - src: compositions/frames/07-beat.html
-- duration: 2.64s
+- duration: 2.633333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate
@@ -90,7 +90,7 @@
 ## Frame 09
 
 - src: compositions/frames/09-beat.html
-- duration: 6.42s
+- duration: 6.433333s
 - status: planned
 - transition_in: crossfade 0.25s
 - look: grade desaturate, vignette 0.378, high-contrast
@@ -102,7 +102,7 @@
 ## Frame 10
 
 - src: compositions/frames/10-beat.html
-- duration: 4.32s
+- duration: 4.333333s
 - status: planned
 - transition_in: hard-cut 0s
 - punch: at 1.2s scale 1.4
@@ -127,7 +127,7 @@
 ## Frame 12
 
 - src: compositions/frames/12-beat.html
-- duration: 6.59s
+- duration: 6.6s
 - status: planned
 - transition_in: smear-cut LEFT
 - look: grade desaturate, vignette 0.378, high-contrast

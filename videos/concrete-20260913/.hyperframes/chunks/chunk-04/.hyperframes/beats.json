@@ -3,8 +3,8 @@
     {
       "id": "44",
       "text": "They tumble down through progressively hotter zones.",
-      "start": 177.66,
-      "end": 180.26,
+      "start": 177.733333,
+      "end": 180.333333,
       "durationSeconds": 2.6,
       "words": [
         {
@@ -42,14 +42,15 @@
           "start": 179.77,
           "end": 180.26
         }
-      ]
+      ],
+      "frames": 78
     },
     {
       "id": "45",
       "text": "At about 1,450 degrees, something remarkable happens.",
-      "start": 180.26,
-      "end": 184.48,
-      "durationSeconds": 4.22,
+      "start": 180.333333,
+      "end": 184.566667,
+      "durationSeconds": 4.233333,
       "words": [
         {
           "text": "At",
@@ -86,14 +87,15 @@
           "start": 183.73,
           "end": 184.48
         }
-      ]
+      ],
+      "frames": 127
     },
     {
       "id": "46",
       "text": "The material partially melts and reforms into hard gray nodules called clinker.",
-      "start": 184.48,
-      "end": 189.46,
-      "durationSeconds": 4.98,
+      "start": 184.566667,
+      "end": 189.533333,
+      "durationSeconds": 4.966667,
       "words": [
         {
           "text": "The",
@@ -155,13 +157,14 @@
           "start": 188.52,
           "end": 189.07
         }
-      ]
+      ],
+      "frames": 149
     },
     {
       "id": "47",
       "text": "Grind the clinker, add a little gypsum, and you have cement.",
-      "start": 189.46,
-      "end": 194.06,
+      "start": 189.533333,
+      "end": 194.133333,
       "durationSeconds": 4.6,
       "words": [
         {
@@ -219,14 +222,15 @@
           "start": 193.23,
           "end": 193.82
         }
-      ]
+      ],
+      "frames": 138
     },
     {
       "id": "48",
       "text": "That process is robust, cheap, and almost absurdly forgiving.",
-      "start": 194.06,
-      "end": 197.54,
-      "durationSeconds": 3.48,
+      "start": 194.133333,
+      "end": 197.6,
+      "durationSeconds": 3.466667,
       "words": [
         {
           "text": "That",
@@ -273,14 +277,15 @@
           "start": 197.05,
           "end": 197.54
         }
-      ]
+      ],
+      "frames": 104
     },
     {
       "id": "49",
       "text": "It runs on coal, petroleum coke, waste tires, whatever is nearby.",
-      "start": 197.54,
-      "end": 202.12,
-      "durationSeconds": 4.58,
+      "start": 197.6,
+      "end": 202.166667,
+      "durationSeconds": 4.566667,
       "words": [
         {
           "text": "It",
@@ -337,14 +342,15 @@
           "start": 201.59,
           "end": 202.12
         }
-      ]
+      ],
+      "frames": 137
     },
     {
       "id": "50",
       "text": "It tolerates variable rock.",
-      "start": 202.12,
-      "end": 204.04,
-      "durationSeconds": 1.92,
+      "start": 202.166667,
+      "end": 204.1,
+      "durationSeconds": 1.933333,
       "words": [
         {
           "text": "It",
@@ -366,14 +372,15 @@
           "start": 203.53,
           "end": 204.04
         }
-      ]
+      ],
+      "frames": 58
     },
     {
       "id": "51",
       "text": "It has been optimized continuously for 150 years by very good engineers.",
-      "start": 204.04,
-      "end": 208.62,
-      "durationSeconds": 4.58,
+      "start": 204.1,
+      "end": 208.666667,
+      "durationSeconds": 4.566667,
       "words": [
         {
           "text": "It",
@@ -435,14 +442,15 @@
           "start": 208.03,
           "end": 208.62
         }
-      ]
+      ],
+      "frames": 137
     },
     {
       "id": "52",
       "text": "It also produces, by most accounting, somewhere between half and two-thirds of its carbon dioxide from the rock,",
-      "start": 208.62,
-      "end": 214.46,
-      "durationSeconds": 5.84,
+      "start": 208.666667,
+      "end": 214.5,
+      "durationSeconds": 5.833333,
       "words": [
         {
           "text": "It",
@@ -534,14 +542,15 @@
           "start": 214.31,
           "end": 214.46
         }
-      ]
+      ],
+      "frames": 175
     },
     {
       "id": "53",
       "text": "rather than the fire. Here is that chemistry in one sentence.",
-      "start": 214.46,
-      "end": 218.92,
-      "durationSeconds": 4.46,
+      "start": 214.5,
+      "end": 218.966667,
+      "durationSeconds": 4.466667,
       "words": [
         {
           "text": "rather",
@@ -598,14 +607,15 @@
           "start": 217.84,
           "end": 218.72
         }
-      ]
+      ],
+      "frames": 134
     },
     {
       "id": "54",
       "text": "Limestone is calcium carbonate.",
-      "start": 218.92,
-      "end": 220.94,
-      "durationSeconds": 2.02,
+      "start": 218.966667,
+      "end": 221,
+      "durationSeconds": 2.033333,
       "words": [
         {
           "text": "Limestone",
@@ -627,7 +637,8 @@
           "start": 220.09,
           "end": 220.72
         }
-      ]
+      ],
+      "frames": 61
     }
   ]
 }

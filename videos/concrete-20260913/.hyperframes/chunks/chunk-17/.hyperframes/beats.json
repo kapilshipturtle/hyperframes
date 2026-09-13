@@ -3,9 +3,9 @@
     {
       "id": "179",
       "text": "They had lime, volcanic ash from around the Bay of Naples, seawater, and aggregate.",
-      "start": 766.9,
-      "end": 771.98,
-      "durationSeconds": 5.08,
+      "start": 766.966667,
+      "end": 772.033333,
+      "durationSeconds": 5.066667,
       "words": [
         {
           "text": "They",
@@ -77,14 +77,15 @@
           "start": 771.09,
           "end": 771.98
         }
-      ]
+      ],
+      "frames": 152
     },
     {
       "id": "180",
       "text": "For a long time the standard explanation was the ash, the pozzolanic reaction between volcanic glass and lime producing",
-      "start": 771.98,
-      "end": 778.56,
-      "durationSeconds": 6.58,
+      "start": 772.033333,
+      "end": 778.6,
+      "durationSeconds": 6.566667,
       "words": [
         {
           "text": "For",
@@ -181,14 +182,15 @@
           "start": 778.17,
           "end": 778.56
         }
-      ]
+      ],
+      "frames": 197
     },
     {
       "id": "181",
       "text": "a durable binder. That is real, and it is genuinely part of the answer.",
-      "start": 778.56,
-      "end": 782.89,
-      "durationSeconds": 4.33,
+      "start": 778.6,
+      "end": 782.933333,
+      "durationSeconds": 4.333333,
       "words": [
         {
           "text": "a",
@@ -260,14 +262,15 @@
           "start": 782.48,
           "end": 782.89
         }
-      ]
+      ],
+      "frames": 130
     },
     {
       "id": "182",
       "text": "But recent MIT research pushed further, examining the small white mineral lumps found scattered through Roman concrete.",
-      "start": 782.89,
-      "end": 789.56,
-      "durationSeconds": 6.67,
+      "start": 782.933333,
+      "end": 789.6,
+      "durationSeconds": 6.666667,
       "words": [
         {
           "text": "But",
@@ -354,14 +357,15 @@
           "start": 789.17,
           "end": 789.56
         }
-      ]
+      ],
+      "frames": 200
     },
     {
       "id": "183",
       "text": "For two centuries those lumps were treated as evidence of sloppy mixing.",
-      "start": 789.56,
-      "end": 793.68,
-      "durationSeconds": 4.12,
+      "start": 789.6,
+      "end": 793.733333,
+      "durationSeconds": 4.133333,
       "words": [
         {
           "text": "For",
@@ -423,14 +427,15 @@
           "start": 792.94,
           "end": 793.27
         }
-      ]
+      ],
+      "frames": 124
     },
     {
       "id": "184",
       "text": "They are not. The research indicates they are the product of hot mixing, using quick lime rather than only slaked lime,",
-      "start": 793.68,
-      "end": 799.59,
-      "durationSeconds": 5.91,
+      "start": 793.733333,
+      "end": 799.633333,
+      "durationSeconds": 5.9,
       "words": [
         {
           "text": "They",
@@ -537,14 +542,15 @@
           "start": 799.34,
           "end": 799.59
         }
-      ]
+      ],
+      "frames": 177
     },
     {
       "id": "185",
       "text": "which raises the temperature of the mix and leaves behind reactive calcium-rich deposits inside the hardened material,",
-      "start": 799.59,
-      "end": 806.15,
-      "durationSeconds": 6.56,
+      "start": 799.633333,
+      "end": 806.2,
+      "durationSeconds": 6.566667,
       "words": [
         {
           "text": "which",
@@ -631,14 +637,15 @@
           "start": 805.53,
           "end": 806.15
         }
-      ]
+      ],
+      "frames": 197
     },
     {
       "id": "186",
       "text": "and when a crack later opens and water reaches one, it dissolves, reacts, and recrystallizes.",
-      "start": 806.15,
-      "end": 812.38,
-      "durationSeconds": 6.23,
+      "start": 806.2,
+      "end": 812.433333,
+      "durationSeconds": 6.233333,
       "words": [
         {
           "text": "and",
@@ -715,14 +722,15 @@
           "start": 810.8,
           "end": 812.16
         }
-      ]
+      ],
+      "frames": 187
     },
     {
       "id": "187",
       "text": "The crack fills itself. The Romans built a self-healing material and, as far as anyone can tell,",
-      "start": 812.38,
-      "end": 817.62,
-      "durationSeconds": 5.24,
+      "start": 812.433333,
+      "end": 817.666667,
+      "durationSeconds": 5.233333,
       "words": [
         {
           "text": "The",
@@ -809,14 +817,15 @@
           "start": 817.3,
           "end": 817.62
         }
-      ]
+      ],
+      "frames": 157
     },
     {
       "id": "188",
       "text": "did not fully know it.",
-      "start": 817.62,
-      "end": 819.38,
-      "durationSeconds": 1.76,
+      "start": 817.666667,
+      "end": 819.433333,
+      "durationSeconds": 1.766667,
       "words": [
         {
           "text": "did",
@@ -843,7 +852,8 @@
           "start": 818.78,
           "end": 819.38
         }
-      ]
+      ],
+      "frames": 53
     }
   ]
 }

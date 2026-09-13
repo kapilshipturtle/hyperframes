@@ -3,9 +3,9 @@
     {
       "id": "242",
       "text": "The hydropower stayed.",
-      "start": 1045.18,
-      "end": 1047.02,
-      "durationSeconds": 1.84,
+      "start": 1045.2,
+      "end": 1047.033333,
+      "durationSeconds": 1.833333,
       "words": [
         {
           "text": "The",
@@ -22,14 +22,15 @@
           "start": 1046.33,
           "end": 1046.8
         }
-      ]
+      ],
+      "frames": 55
     },
     {
       "id": "243",
       "text": "That is why Sublime chose it, a process that needs large amounts of clean electricity, sited on a river that has been generating",
-      "start": 1047.02,
-      "end": 1053.79,
-      "durationSeconds": 6.77,
+      "start": 1047.033333,
+      "end": 1053.8,
+      "durationSeconds": 6.766667,
       "words": [
         {
           "text": "That",
@@ -146,14 +147,15 @@
           "start": 1053.14,
           "end": 1053.79
         }
-      ]
+      ],
+      "frames": 203
     },
     {
       "id": "244",
       "text": "power for 150 years in a city that lost its industry and has been trying to replace it since.",
-      "start": 1053.79,
-      "end": 1059.94,
-      "durationSeconds": 6.15,
+      "start": 1053.8,
+      "end": 1059.933333,
+      "durationSeconds": 6.133333,
       "words": [
         {
           "text": "power",
@@ -250,14 +252,15 @@
           "start": 1059.06,
           "end": 1059.72
         }
-      ]
+      ],
+      "frames": 184
     },
     {
       "id": "245",
       "text": "70 to 90 permanent jobs, hundreds during construction, state tax credits,",
-      "start": 1059.94,
-      "end": 1064.76,
-      "durationSeconds": 4.82,
+      "start": 1059.933333,
+      "end": 1064.766667,
+      "durationSeconds": 4.833333,
       "words": [
         {
           "text": "70",
@@ -314,14 +317,15 @@
           "start": 1064.15,
           "end": 1064.76
         }
-      ]
+      ],
+      "frames": 145
     },
     {
       "id": "246",
       "text": "local tax increment financing, a mayor's office, and a congressional delegation at the ribbon cuttings and the test pours.",
-      "start": 1064.76,
-      "end": 1072.64,
-      "durationSeconds": 7.88,
+      "start": 1064.766667,
+      "end": 1072.633333,
+      "durationSeconds": 7.866667,
       "words": [
         {
           "text": "local",
@@ -418,14 +422,15 @@
           "start": 1070.92,
           "end": 1072.41
         }
-      ]
+      ],
+      "frames": 236
     },
     {
       "id": "247",
       "text": "Everything was in place, certification, a signed anchor customer, incumbent investment,",
-      "start": 1072.64,
+      "start": 1072.633333,
       "end": 1077.7,
-      "durationSeconds": 5.06,
+      "durationSeconds": 5.066667,
       "words": [
         {
           "text": "Everything",
@@ -482,14 +487,15 @@
           "start": 1076.81,
           "end": 1077.68
         }
-      ]
+      ],
+      "frames": 152
     },
     {
       "id": "248",
       "text": "a site, a power source, a construction timeline.",
       "start": 1077.7,
-      "end": 1082.08,
-      "durationSeconds": 4.38,
+      "end": 1082.066667,
+      "durationSeconds": 4.366667,
       "words": [
         {
           "text": "a",
@@ -531,14 +537,15 @@
           "start": 1081.06,
           "end": 1082.08
         }
-      ]
+      ],
+      "frames": 131
     },
     {
       "id": "249",
       "text": "And then a single line in a federal portfolio review removed half the money.",
-      "start": 1082.08,
-      "end": 1086.54,
-      "durationSeconds": 4.46,
+      "start": 1082.066667,
+      "end": 1086.533333,
+      "durationSeconds": 4.466667,
       "words": [
         {
           "text": "And",
@@ -610,14 +617,15 @@
           "start": 1085.75,
           "end": 1086.32
         }
-      ]
+      ],
+      "frames": 134
     },
     {
       "id": "250",
       "text": "Here is the sequence, plainly.",
-      "start": 1086.54,
-      "end": 1088.38,
-      "durationSeconds": 1.84,
+      "start": 1086.533333,
+      "end": 1088.366667,
+      "durationSeconds": 1.833333,
       "words": [
         {
           "text": "Here",
@@ -644,14 +652,15 @@
           "start": 1087.7,
           "end": 1088.38
         }
-      ]
+      ],
+      "frames": 55
     },
     {
       "id": "251",
       "text": "At the end of May 2025, the Department of Energy announced the cancellation of funding for 24 projects,",
-      "start": 1088.38,
-      "end": 1095.12,
-      "durationSeconds": 6.74,
+      "start": 1088.366667,
+      "end": 1095.1,
+      "durationSeconds": 6.733333,
       "words": [
         {
           "text": "At",
@@ -743,7 +752,8 @@
           "start": 1094.33,
           "end": 1095.01
         }
-      ]
+      ],
+      "frames": 202
     }
   ]
 }

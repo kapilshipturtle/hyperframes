@@ -3,8 +3,8 @@
     {
       "id": "189",
       "text": "Now put the two ends of this story next to each other.",
-      "start": 819.38,
-      "end": 822.38,
+      "start": 819.433333,
+      "end": 822.433333,
       "durationSeconds": 3,
       "words": [
         {
@@ -67,14 +67,15 @@
           "start": 821.74,
           "end": 822.16
         }
-      ]
+      ],
+      "frames": 90
     },
     {
       "id": "190",
       "text": "For two thousand years cement got hotter.",
-      "start": 822.38,
-      "end": 826.05,
-      "durationSeconds": 3.67,
+      "start": 822.433333,
+      "end": 826.1,
+      "durationSeconds": 3.666667,
       "words": [
         {
           "text": "For",
@@ -111,14 +112,15 @@
           "start": 825.37,
           "end": 825.86
         }
-      ]
+      ],
+      "frames": 110
     },
     {
       "id": "191",
       "text": "Aspidants kiln, then rotary kilns, then bigger rotary kilns, then pre-calciners and pre-heaters,",
-      "start": 826.05,
-      "end": 831.48,
-      "durationSeconds": 5.43,
+      "start": 826.1,
+      "end": 831.533333,
+      "durationSeconds": 5.433333,
       "words": [
         {
           "text": "Aspidants",
@@ -185,14 +187,15 @@
           "start": 830.18,
           "end": 831.26
         }
-      ]
+      ],
+      "frames": 163
     },
     {
       "id": "192",
       "text": "every generation reaching higher temperatures more efficiently.",
-      "start": 831.48,
-      "end": 834.46,
-      "durationSeconds": 2.98,
+      "start": 831.533333,
+      "end": 834.5,
+      "durationSeconds": 2.966667,
       "words": [
         {
           "text": "every",
@@ -229,13 +232,14 @@
           "start": 833.51,
           "end": 834.13
         }
-      ]
+      ],
+      "frames": 89
     },
     {
       "id": "193",
       "text": "Heat was the axis of progress.",
-      "start": 834.46,
-      "end": 836.16,
+      "start": 834.5,
+      "end": 836.2,
       "durationSeconds": 1.7,
       "words": [
         {
@@ -268,14 +272,15 @@
           "start": 835.61,
           "end": 836.16
         }
-      ]
+      ],
+      "frames": 51
     },
     {
       "id": "194",
       "text": "The entire industrial history of this material is a story about temperature, and the most promising route out of its emissions",
-      "start": 836.16,
-      "end": 842.92,
-      "durationSeconds": 6.76,
+      "start": 836.2,
+      "end": 842.966667,
+      "durationSeconds": 6.766667,
       "words": [
         {
           "text": "The",
@@ -382,14 +387,15 @@
           "start": 842.35,
           "end": 842.92
         }
-      ]
+      ],
+      "frames": 203
     },
     {
       "id": "195",
       "text": "runs at about the temperature of this room.",
-      "start": 842.92,
-      "end": 845.56,
-      "durationSeconds": 2.64,
+      "start": 842.966667,
+      "end": 845.6,
+      "durationSeconds": 2.633333,
       "words": [
         {
           "text": "runs",
@@ -431,13 +437,14 @@
           "start": 844.95,
           "end": 845.4
         }
-      ]
+      ],
+      "frames": 79
     },
     {
       "id": "196",
       "text": "Sublime itself points at the connection.",
-      "start": 845.56,
-      "end": 847.46,
+      "start": 845.6,
+      "end": 847.5,
       "durationSeconds": 1.9,
       "words": [
         {
@@ -470,14 +477,15 @@
           "start": 846.77,
           "end": 847.46
         }
-      ]
+      ],
+      "frames": 57
     },
     {
       "id": "197",
       "text": "Its cement chemistry draws on the older lime and silicate approach, and the company argues the result is more durable than ordinary",
-      "start": 847.46,
-      "end": 853.88,
-      "durationSeconds": 6.42,
+      "start": 847.5,
+      "end": 853.933333,
+      "durationSeconds": 6.433333,
       "words": [
         {
           "text": "Its",
@@ -589,14 +597,15 @@
           "start": 853.4,
           "end": 853.88
         }
-      ]
+      ],
+      "frames": 193
     },
     {
       "id": "198",
       "text": "Portland cement in most applications, which is an odd thing to sit with.",
-      "start": 853.88,
-      "end": 858.2,
-      "durationSeconds": 4.32,
+      "start": 853.933333,
+      "end": 858.266667,
+      "durationSeconds": 4.333333,
       "words": [
         {
           "text": "Portland",
@@ -663,13 +672,14 @@
           "start": 857.54,
           "end": 858.2
         }
-      ]
+      ],
+      "frames": 130
     },
     {
       "id": "199",
       "text": "Two hundred years of making cement hotter, and the way out might be making it cold again.",
-      "start": 858.2,
-      "end": 863.2,
+      "start": 858.266667,
+      "end": 863.266667,
       "durationSeconds": 5,
       "words": [
         {
@@ -757,14 +767,15 @@
           "start": 862.36,
           "end": 862.79
         }
-      ]
+      ],
+      "frames": 150
     },
     {
       "id": "200",
       "text": "That is the science. The science was never going to be the hard part, because the question that decides whether any of this reaches",
-      "start": 863.2,
-      "end": 869.79,
-      "durationSeconds": 6.59,
+      "start": 863.266667,
+      "end": 869.866667,
+      "durationSeconds": 6.6,
       "words": [
         {
           "text": "That",
@@ -886,7 +897,8 @@
           "start": 869.18,
           "end": 869.79
         }
-      ]
+      ],
+      "frames": 198
     }
   ]
 }

@@ -3,9 +3,9 @@
     {
       "id": "169",
       "text": "That is what success looks like at this stage.",
-      "start": 719.48,
-      "end": 721.55,
-      "durationSeconds": 2.07,
+      "start": 719.5,
+      "end": 721.566667,
+      "durationSeconds": 2.066667,
       "words": [
         {
           "text": "That",
@@ -52,14 +52,15 @@
           "start": 721.08,
           "end": 721.55
         }
-      ]
+      ],
+      "frames": 62
     },
     {
       "id": "170",
       "text": "Not a breakthrough, a delivery that showed up, mixed normally, pumped normally, set normally,",
-      "start": 721.55,
-      "end": 726.88,
-      "durationSeconds": 5.33,
+      "start": 721.566667,
+      "end": 726.9,
+      "durationSeconds": 5.333333,
       "words": [
         {
           "text": "Not",
@@ -131,14 +132,15 @@
           "start": 726.16,
           "end": 726.88
         }
-      ]
+      ],
+      "frames": 160
     },
     {
       "id": "171",
       "text": "and generated no story, which raises a question that sounds like a joke and is not.",
-      "start": 726.88,
-      "end": 731.47,
-      "durationSeconds": 4.59,
+      "start": 726.9,
+      "end": 731.5,
+      "durationSeconds": 4.6,
       "words": [
         {
           "text": "and",
@@ -220,14 +222,15 @@
           "start": 731.11,
           "end": 731.47
         }
-      ]
+      ],
+      "frames": 138
     },
     {
       "id": "172",
       "text": "If cement can be made without extreme heat, why did anybody ever think it had to be?",
-      "start": 731.47,
-      "end": 736.46,
-      "durationSeconds": 4.99,
+      "start": 731.5,
+      "end": 736.5,
+      "durationSeconds": 5,
       "words": [
         {
           "text": "If",
@@ -314,14 +317,15 @@
           "start": 735.85,
           "end": 736.18
         }
-      ]
+      ],
+      "frames": 150
     },
     {
       "id": "173",
       "text": "There is concrete in Italy that has been standing in salt water for 2,000 years.",
-      "start": 736.46,
-      "end": 740.82,
-      "durationSeconds": 4.36,
+      "start": 736.5,
+      "end": 740.866667,
+      "durationSeconds": 4.366667,
       "words": [
         {
           "text": "There",
@@ -398,14 +402,15 @@
           "start": 740.23,
           "end": 740.6
         }
-      ]
+      ],
+      "frames": 131
     },
     {
       "id": "174",
       "text": "Roman marine concrete, harbor works, breakwaters, piers, is still there,",
-      "start": 740.82,
-      "end": 745.47,
-      "durationSeconds": 4.65,
+      "start": 740.866667,
+      "end": 745.533333,
+      "durationSeconds": 4.666667,
       "words": [
         {
           "text": "Roman",
@@ -457,14 +462,15 @@
           "start": 744.97,
           "end": 745.47
         }
-      ]
+      ],
+      "frames": 140
     },
     {
       "id": "175",
       "text": "not preserved as ruins, structurally intact in the single most hostile environment there is for modern concrete,",
-      "start": 745.47,
-      "end": 751.74,
-      "durationSeconds": 6.27,
+      "start": 745.533333,
+      "end": 751.8,
+      "durationSeconds": 6.266667,
       "words": [
         {
           "text": "not",
@@ -551,14 +557,15 @@
           "start": 751.07,
           "end": 751.52
         }
-      ]
+      ],
+      "frames": 188
     },
     {
       "id": "176",
       "text": "which is seawater, because chloride attacks steel reinforcement and salt cycling cracks the matrix.",
-      "start": 751.74,
-      "end": 757.38,
-      "durationSeconds": 5.64,
+      "start": 751.8,
+      "end": 757.433333,
+      "durationSeconds": 5.633333,
       "words": [
         {
           "text": "which",
@@ -630,14 +637,15 @@
           "start": 756.11,
           "end": 757.16
         }
-      ]
+      ],
+      "frames": 169
     },
     {
       "id": "177",
       "text": "Modern marine structures are designed for decades, Roman ones are measured in millennia.",
-      "start": 757.38,
-      "end": 761.84,
-      "durationSeconds": 4.46,
+      "start": 757.433333,
+      "end": 761.9,
+      "durationSeconds": 4.466667,
       "words": [
         {
           "text": "Modern",
@@ -704,14 +712,15 @@
           "start": 761.22,
           "end": 761.84
         }
-      ]
+      ],
+      "frames": 134
     },
     {
       "id": "178",
       "text": "The Romans did not have a 1,450 degree rotary kiln, they could not have built one.",
-      "start": 761.84,
-      "end": 766.9,
-      "durationSeconds": 5.06,
+      "start": 761.9,
+      "end": 766.966667,
+      "durationSeconds": 5.066667,
       "words": [
         {
           "text": "The",
@@ -793,7 +802,8 @@
           "start": 766.23,
           "end": 766.44
         }
-      ]
+      ],
+      "frames": 152
     }
   ]
 }

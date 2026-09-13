@@ -5,7 +5,7 @@
 ## Frame 01
 
 - src: compositions/frames/01-beat.html
-- duration: 5.08s
+- duration: 5.066667s
 - status: planned
 - transition_in: cut
 - look: grade desaturate, vignette 0.378, high-contrast
@@ -15,7 +15,7 @@
 ## Frame 02
 
 - src: compositions/frames/02-beat.html
-- duration: 6.58s
+- duration: 6.566667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate
@@ -26,7 +26,7 @@
 ## Frame 03
 
 - src: compositions/frames/03-beat.html
-- duration: 4.33s
+- duration: 4.333333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate
@@ -36,7 +36,7 @@
 ## Frame 04
 
 - src: compositions/frames/04-beat.html
-- duration: 6.67s
+- duration: 6.666667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade cool, vignette 0.378, high-contrast
@@ -48,7 +48,7 @@
 ## Frame 05
 
 - src: compositions/frames/05-beat.html
-- duration: 4.12s
+- duration: 4.133333s
 - status: planned
 - transition_in: zoom-through 0.74s
 - query: white mineral lumps concrete
@@ -57,7 +57,7 @@
 ## Frame 06
 
 - src: compositions/frames/06-beat.html
-- duration: 5.91s
+- duration: 5.9s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade cool
@@ -67,7 +67,7 @@
 ## Frame 07
 
 - src: compositions/frames/07-beat.html
-- duration: 6.56s
+- duration: 6.566667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate, vignette 0.378, high-contrast
@@ -79,7 +79,7 @@
 ## Frame 08
 
 - src: compositions/frames/08-beat.html
-- duration: 6.23s
+- duration: 6.233333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade cool
@@ -92,7 +92,7 @@
 ## Frame 09
 
 - src: compositions/frames/09-beat.html
-- duration: 5.24s
+- duration: 5.233333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate
@@ -103,7 +103,7 @@
 ## Frame 10
 
 - src: compositions/frames/10-beat.html
-- duration: 1.76s
+- duration: 1.766667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: vignette 0.378, high-contrast

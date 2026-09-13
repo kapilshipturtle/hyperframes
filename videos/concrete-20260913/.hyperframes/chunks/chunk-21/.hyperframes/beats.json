@@ -3,9 +3,9 @@
     {
       "id": "222",
       "text": "And the reason is not only environmental.",
-      "start": 955.84,
-      "end": 957.69,
-      "durationSeconds": 1.85,
+      "start": 955.933333,
+      "end": 957.8,
+      "durationSeconds": 1.866667,
       "words": [
         {
           "text": "And",
@@ -42,14 +42,15 @@
           "start": 957.21,
           "end": 957.68
         }
-      ]
+      ],
+      "frames": 56
     },
     {
       "id": "223",
       "text": "A hyperscale data center is a very large amount of concrete on a very tight schedule, and the companies building them have discovered that construction",
-      "start": 957.69,
-      "end": 964.2,
-      "durationSeconds": 6.51,
+      "start": 957.8,
+      "end": 964.3,
+      "durationSeconds": 6.5,
       "words": [
         {
           "text": "A",
@@ -176,14 +177,15 @@
           "start": 963.71,
           "end": 964.2
         }
-      ]
+      ],
+      "frames": 195
     },
     {
       "id": "224",
       "text": "emissions are the part of their footprint they cannot solve with a power purchase agreement.",
-      "start": 964.2,
-      "end": 968.81,
-      "durationSeconds": 4.61,
+      "start": 964.3,
+      "end": 968.9,
+      "durationSeconds": 4.6,
       "words": [
         {
           "text": "emissions",
@@ -260,14 +262,15 @@
           "start": 968.31,
           "end": 968.81
         }
-      ]
+      ],
+      "frames": 138
     },
     {
       "id": "225",
       "text": "Add the rest of the ledger, Siam Cement Group, the largest cement producer in Southeast Asia,",
-      "start": 968.81,
-      "end": 974.29,
-      "durationSeconds": 5.48,
+      "start": 968.9,
+      "end": 974.366667,
+      "durationSeconds": 5.466667,
       "words": [
         {
           "text": "Add",
@@ -349,14 +352,15 @@
           "start": 973.92,
           "end": 974.29
         }
-      ]
+      ],
+      "frames": 164
     },
     {
       "id": "226",
       "text": "as a strategic investor, more than $200 million raised in total across climate investors,",
-      "start": 974.29,
-      "end": 980.18,
-      "durationSeconds": 5.89,
+      "start": 974.366667,
+      "end": 980.266667,
+      "durationSeconds": 5.9,
       "words": [
         {
           "text": "as",
@@ -428,14 +432,15 @@
           "start": 979.22,
           "end": 979.96
         }
-      ]
+      ],
+      "frames": 177
     },
     {
       "id": "227",
       "text": "industry incumbents, and federal programs.",
-      "start": 980.18,
-      "end": 983.12,
-      "durationSeconds": 2.94,
+      "start": 980.266667,
+      "end": 983.2,
+      "durationSeconds": 2.933333,
       "words": [
         {
           "text": "industry",
@@ -462,14 +467,15 @@
           "start": 982.23,
           "end": 983.12
         }
-      ]
+      ],
+      "frames": 88
     },
     {
       "id": "228",
       "text": "In August of 2025, the data center developer Stack completed a test pour of Sublime's product at its campus in Prince William County,",
-      "start": 983.12,
-      "end": 989.68,
-      "durationSeconds": 6.56,
+      "start": 983.2,
+      "end": 989.766667,
+      "durationSeconds": 6.566667,
       "words": [
         {
           "text": "In",
@@ -586,14 +592,15 @@
           "start": 989.26,
           "end": 989.68
         }
-      ]
+      ],
+      "frames": 197
     },
     {
       "id": "229",
       "text": "Virginia, the first use of the material in the data center market specifically, and the federal piece,",
-      "start": 989.68,
-      "end": 995.29,
-      "durationSeconds": 5.61,
+      "start": 989.766667,
+      "end": 995.366667,
+      "durationSeconds": 5.6,
       "words": [
         {
           "text": "Virginia,",
@@ -680,14 +687,15 @@
           "start": 994.74,
           "end": 995.21
         }
-      ]
+      ],
+      "frames": 168
     },
     {
       "id": "230",
       "text": "which is where the story turns.",
-      "start": 995.29,
-      "end": 997.23,
-      "durationSeconds": 1.94,
+      "start": 995.366667,
+      "end": 997.3,
+      "durationSeconds": 1.933333,
       "words": [
         {
           "text": "which",
@@ -719,14 +727,15 @@
           "start": 996.56,
           "end": 997.23
         }
-      ]
+      ],
+      "frames": 58
     },
     {
       "id": "231",
       "text": "In March of 2024, Sublime was selected by the Department of Energy's Office of Clean Energy Demonstrations for up to $87",
-      "start": 997.23,
-      "end": 1003.94,
-      "durationSeconds": 6.71,
+      "start": 997.3,
+      "end": 1004,
+      "durationSeconds": 6.7,
       "words": [
         {
           "text": "In",
@@ -833,7 +842,8 @@
           "start": 1003.43,
           "end": 1003.94
         }
-      ]
+      ],
+      "frames": 201
     }
   ]
 }

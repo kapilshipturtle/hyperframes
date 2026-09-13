@@ -5,7 +5,7 @@
 ## Frame 01
 
 - src: compositions/frames/01-beat.html
-- duration: 3.72s
+- duration: 3.733333s
 - status: planned
 - transition_in: cut
 - look: grade desaturate
@@ -17,7 +17,7 @@
 ## Frame 02
 
 - src: compositions/frames/02-beat.html
-- duration: 6.09s
+- duration: 6.1s
 - status: planned
 - transition_in: hard-cut 0s
 - look: vignette 0.378
@@ -30,7 +30,7 @@
 ## Frame 03
 
 - src: compositions/frames/03-beat.html
-- duration: 3.85s
+- duration: 3.866667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade cool
@@ -42,7 +42,7 @@
 ## Frame 04
 
 - src: compositions/frames/04-beat.html
-- duration: 1.78s
+- duration: 1.766667s
 - status: planned
 - transition_in: hard-cut 0s
 - overlay: keyword-flash "THE ARITHMETIC FAILED" at upper-right
@@ -52,7 +52,7 @@
 ## Frame 05
 
 - src: compositions/frames/05-beat.html
-- duration: 6.18s
+- duration: 6.166667s
 - status: planned
 - transition_in: light-leak-flash 0.32s
 - look: grade cool, vignette 0.378
@@ -66,7 +66,7 @@
 ## Frame 06
 
 - src: compositions/frames/06-beat.html
-- duration: 5.78s
+- duration: 5.766667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate
@@ -78,7 +78,7 @@
 ## Frame 07
 
 - src: compositions/frames/07-beat.html
-- duration: 5.74s
+- duration: 5.733333s
 - status: planned
 - transition_in: crossfade 0.25s
 - motion: pan to 1.1197 ease sine.inOut, focus 50,49
@@ -90,7 +90,7 @@
 ## Frame 08
 
 - src: compositions/frames/08-beat.html
-- duration: 4.38s
+- duration: 4.366667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade warm, vignette 0.378
@@ -100,7 +100,7 @@
 ## Frame 09
 
 - src: compositions/frames/09-beat.html
-- duration: 6.34s
+- duration: 6.333333s
 - status: planned
 - transition_in: hard-cut 0s
 - motion: in to 1.1305 ease power1.inOut, focus 72,45
@@ -111,7 +111,7 @@
 ## Frame 10
 
 - src: compositions/frames/10-beat.html
-- duration: 3.56s
+- duration: 3.566667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade warm

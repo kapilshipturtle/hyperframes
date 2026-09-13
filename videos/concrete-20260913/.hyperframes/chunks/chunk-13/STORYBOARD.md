@@ -16,7 +16,7 @@
 ## Frame 02
 
 - src: compositions/frames/02-beat.html
-- duration: 6.71s
+- duration: 6.7s
 - status: planned
 - transition_in: hard-cut 0s
 - look: vignette 0.378
@@ -27,7 +27,7 @@
 ## Frame 03
 
 - src: compositions/frames/03-beat.html
-- duration: 1.99s
+- duration: 2.0s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate, vignette 0.378
@@ -37,7 +37,7 @@
 ## Frame 04
 
 - src: compositions/frames/04-beat.html
-- duration: 2.06s
+- duration: 2.066667s
 - status: planned
 - transition_in: crossfade 0.25s
 - look: grade desaturate, vignette 0.378, high-contrast
@@ -47,7 +47,7 @@
 ## Frame 05
 
 - src: compositions/frames/05-beat.html
-- duration: 5.35s
+- duration: 5.333333s
 - status: planned
 - transition_in: stutter-cut 0.3s
 - look: grade desaturate, vignette 0.378
@@ -57,7 +57,7 @@
 ## Frame 06
 
 - src: compositions/frames/06-beat.html
-- duration: 4.73s
+- duration: 4.733333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade cool, vignette 0.378
@@ -68,7 +68,7 @@
 ## Frame 07
 
 - src: compositions/frames/07-beat.html
-- duration: 2.07s
+- duration: 2.066667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: vignette 0.378, high-contrast
@@ -78,7 +78,7 @@
 ## Frame 08
 
 - src: compositions/frames/08-beat.html
-- duration: 6.48s
+- duration: 6.466667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade cool, vignette 0.378
@@ -89,7 +89,7 @@
 ## Frame 09
 
 - src: compositions/frames/09-beat.html
-- duration: 6.03s
+- duration: 6.033333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate, vignette 0.378
@@ -99,7 +99,7 @@
 ## Frame 10
 
 - src: compositions/frames/10-beat.html
-- duration: 6.04s
+- duration: 6.033333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade cool, vignette 0.378, high-contrast
@@ -110,7 +110,7 @@
 ## Frame 11
 
 - src: compositions/frames/11-beat.html
-- duration: 2.84s
+- duration: 2.833333s
 - status: planned
 - transition_in: crossfade 0.25s
 - look: grade desaturate, vignette 0.378

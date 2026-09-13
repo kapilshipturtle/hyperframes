@@ -4,785 +4,785 @@
     {
       "frame": 1,
       "path": "assets/audio/narration.mp3",
-      "mediaStart": 719.48,
-      "duration_s": 2.07,
+      "mediaStart": 719.5,
+      "duration_s": 2.066667,
       "words": [
         {
           "text": "That",
-          "start": 0,
-          "end": 0.01
+          "start": -0.02,
+          "end": -0.01
         },
         {
           "text": "is",
-          "start": 0.01,
-          "end": 0.12
+          "start": -0.01,
+          "end": 0.1
         },
         {
           "text": "what",
-          "start": 0.12,
-          "end": 0.35
+          "start": 0.1,
+          "end": 0.33
         },
         {
           "text": "success",
-          "start": 0.35,
-          "end": 0.6
+          "start": 0.33,
+          "end": 0.58
         },
         {
           "text": "looks",
-          "start": 0.74,
-          "end": 1.03
+          "start": 0.72,
+          "end": 1.01
         },
         {
           "text": "like",
-          "start": 1.15,
-          "end": 1.26
+          "start": 1.13,
+          "end": 1.24
         },
         {
           "text": "at",
-          "start": 1.26,
-          "end": 1.37
+          "start": 1.24,
+          "end": 1.35
         },
         {
           "text": "this",
-          "start": 1.37,
-          "end": 1.6
+          "start": 1.35,
+          "end": 1.58
         },
         {
           "text": "stage.",
-          "start": 1.6,
-          "end": 2.07
+          "start": 1.58,
+          "end": 2.05
         }
       ]
     },
     {
       "frame": 2,
       "path": "assets/audio/narration.mp3",
-      "mediaStart": 721.55,
-      "duration_s": 5.33,
+      "mediaStart": 721.566667,
+      "duration_s": 5.333333,
       "words": [
         {
           "text": "Not",
-          "start": 0,
-          "end": 0.25
+          "start": -0.017,
+          "end": 0.233
         },
         {
           "text": "a",
-          "start": 0.25,
-          "end": 0.27
+          "start": 0.233,
+          "end": 0.253
         },
         {
           "text": "breakthrough,",
-          "start": 0.27,
-          "end": 1.12
+          "start": 0.253,
+          "end": 1.103
         },
         {
           "text": "a",
-          "start": 1.13,
-          "end": 1.18
+          "start": 1.113,
+          "end": 1.163
         },
         {
           "text": "delivery",
-          "start": 1.4,
-          "end": 1.68
+          "start": 1.383,
+          "end": 1.663
         },
         {
           "text": "that",
-          "start": 1.68,
-          "end": 1.92
+          "start": 1.663,
+          "end": 1.903
         },
         {
           "text": "showed",
-          "start": 1.92,
-          "end": 2.29
+          "start": 1.903,
+          "end": 2.273
         },
         {
           "text": "up,",
-          "start": 2.29,
-          "end": 2.53
+          "start": 2.273,
+          "end": 2.513
         },
         {
           "text": "mixed",
-          "start": 2.53,
-          "end": 2.84
+          "start": 2.513,
+          "end": 2.823
         },
         {
           "text": "normally,",
-          "start": 2.84,
-          "end": 3.45
+          "start": 2.823,
+          "end": 3.433
         },
         {
           "text": "pumped",
-          "start": 3.45,
-          "end": 3.73
+          "start": 3.433,
+          "end": 3.713
         },
         {
           "text": "normally,",
-          "start": 4.02,
-          "end": 4.43
+          "start": 4.003,
+          "end": 4.413
         },
         {
           "text": "set",
-          "start": 4.43,
-          "end": 4.55
+          "start": 4.413,
+          "end": 4.533
         },
         {
           "text": "normally,",
-          "start": 4.61,
-          "end": 5.33
+          "start": 4.593,
+          "end": 5.313
         }
       ]
     },
     {
       "frame": 3,
       "path": "assets/audio/narration.mp3",
-      "mediaStart": 726.88,
-      "duration_s": 4.59,
+      "mediaStart": 726.9,
+      "duration_s": 4.6,
       "words": [
         {
           "text": "and",
-          "start": 0,
-          "end": 0.22
+          "start": -0.02,
+          "end": 0.2
         },
         {
           "text": "generated",
-          "start": 0.22,
-          "end": 0.78
+          "start": 0.2,
+          "end": 0.76
         },
         {
           "text": "no",
-          "start": 0.78,
-          "end": 0.84
+          "start": 0.76,
+          "end": 0.82
         },
         {
           "text": "story,",
-          "start": 0.9,
-          "end": 1.37
+          "start": 0.88,
+          "end": 1.35
         },
         {
           "text": "which",
-          "start": 1.38,
-          "end": 1.7
+          "start": 1.36,
+          "end": 1.68
         },
         {
           "text": "raises",
-          "start": 1.7,
-          "end": 2.05
+          "start": 1.68,
+          "end": 2.03
         },
         {
           "text": "a",
-          "start": 2.05,
-          "end": 2.17
+          "start": 2.03,
+          "end": 2.15
         },
         {
           "text": "question",
-          "start": 2.17,
-          "end": 2.68
+          "start": 2.15,
+          "end": 2.66
         },
         {
           "text": "that",
-          "start": 2.68,
-          "end": 2.84
+          "start": 2.66,
+          "end": 2.82
         },
         {
           "text": "sounds",
-          "start": 3.21,
-          "end": 3.32
+          "start": 3.19,
+          "end": 3.3
         },
         {
           "text": "like",
-          "start": 3.38,
-          "end": 3.59
+          "start": 3.36,
+          "end": 3.57
         },
         {
           "text": "a",
-          "start": 3.59,
-          "end": 3.65
+          "start": 3.57,
+          "end": 3.63
         },
         {
           "text": "joke",
-          "start": 3.65,
-          "end": 3.71
+          "start": 3.63,
+          "end": 3.69
         },
         {
           "text": "and",
-          "start": 3.99,
-          "end": 4.1
+          "start": 3.97,
+          "end": 4.08
         },
         {
           "text": "is",
-          "start": 4.1,
-          "end": 4.23
+          "start": 4.08,
+          "end": 4.21
         },
         {
           "text": "not.",
-          "start": 4.23,
-          "end": 4.59
+          "start": 4.21,
+          "end": 4.57
         }
       ]
     },
     {
       "frame": 4,
       "path": "assets/audio/narration.mp3",
-      "mediaStart": 731.47,
-      "duration_s": 4.99,
+      "mediaStart": 731.5,
+      "duration_s": 5,
       "words": [
         {
           "text": "If",
-          "start": 0,
-          "end": 0.35
+          "start": -0.03,
+          "end": 0.32
         },
         {
           "text": "cement",
-          "start": 0.35,
-          "end": 0.65
+          "start": 0.32,
+          "end": 0.62
         },
         {
           "text": "can",
-          "start": 0.65,
-          "end": 0.84
+          "start": 0.62,
+          "end": 0.81
         },
         {
           "text": "be",
-          "start": 0.84,
-          "end": 0.97
+          "start": 0.81,
+          "end": 0.94
         },
         {
           "text": "made",
-          "start": 0.97,
-          "end": 1
+          "start": 0.94,
+          "end": 0.97
         },
         {
           "text": "without",
-          "start": 1.5,
-          "end": 1.68
+          "start": 1.47,
+          "end": 1.65
         },
         {
           "text": "extreme",
-          "start": 1.68,
-          "end": 2.13
+          "start": 1.65,
+          "end": 2.1
         },
         {
           "text": "heat,",
-          "start": 2.13,
-          "end": 2.52
+          "start": 2.1,
+          "end": 2.49
         },
         {
           "text": "why",
-          "start": 2.52,
-          "end": 2.71
+          "start": 2.49,
+          "end": 2.68
         },
         {
           "text": "did",
-          "start": 2.71,
-          "end": 2.9
+          "start": 2.68,
+          "end": 2.87
         },
         {
           "text": "anybody",
-          "start": 2.9,
-          "end": 3.35
+          "start": 2.87,
+          "end": 3.32
         },
         {
           "text": "ever",
-          "start": 3.35,
-          "end": 3.61
+          "start": 3.32,
+          "end": 3.58
         },
         {
           "text": "think",
-          "start": 3.61,
-          "end": 3.83
+          "start": 3.58,
+          "end": 3.8
         },
         {
           "text": "it",
-          "start": 3.83,
-          "end": 4.12
+          "start": 3.8,
+          "end": 4.09
         },
         {
           "text": "had",
-          "start": 4.12,
-          "end": 4.25
+          "start": 4.09,
+          "end": 4.22
         },
         {
           "text": "to",
-          "start": 4.25,
-          "end": 4.38
+          "start": 4.22,
+          "end": 4.35
         },
         {
           "text": "be?",
-          "start": 4.38,
-          "end": 4.71
+          "start": 4.35,
+          "end": 4.68
         }
       ]
     },
     {
       "frame": 5,
       "path": "assets/audio/narration.mp3",
-      "mediaStart": 736.46,
-      "duration_s": 4.36,
+      "mediaStart": 736.5,
+      "duration_s": 4.366667,
       "words": [
         {
           "text": "There",
-          "start": 0,
-          "end": 0.06
+          "start": -0.04,
+          "end": 0.02
         },
         {
           "text": "is",
-          "start": 0.06,
-          "end": 0.14
+          "start": 0.02,
+          "end": 0.1
         },
         {
           "text": "concrete",
-          "start": 0.17,
-          "end": 0.59
+          "start": 0.13,
+          "end": 0.55
         },
         {
           "text": "in",
-          "start": 0.61,
-          "end": 0.65
+          "start": 0.57,
+          "end": 0.61
         },
         {
           "text": "Italy",
-          "start": 0.72,
-          "end": 1.01
+          "start": 0.68,
+          "end": 0.97
         },
         {
           "text": "that",
-          "start": 1.15,
-          "end": 1.23
+          "start": 1.11,
+          "end": 1.19
         },
         {
           "text": "has",
-          "start": 1.23,
-          "end": 1.4
+          "start": 1.19,
+          "end": 1.36
         },
         {
           "text": "been",
-          "start": 1.4,
-          "end": 1.62
+          "start": 1.36,
+          "end": 1.58
         },
         {
           "text": "standing",
-          "start": 1.62,
-          "end": 2.05
+          "start": 1.58,
+          "end": 2.01
         },
         {
           "text": "in",
-          "start": 2.06,
-          "end": 2.18
+          "start": 2.02,
+          "end": 2.14
         },
         {
           "text": "salt",
-          "start": 2.18,
-          "end": 2.4
+          "start": 2.14,
+          "end": 2.36
         },
         {
           "text": "water",
-          "start": 2.4,
-          "end": 2.62
+          "start": 2.36,
+          "end": 2.58
         },
         {
           "text": "for",
-          "start": 2.68,
-          "end": 2.69
+          "start": 2.64,
+          "end": 2.65
         },
         {
           "text": "2,000",
-          "start": 2.98,
-          "end": 3.48
+          "start": 2.94,
+          "end": 3.44
         },
         {
           "text": "years.",
-          "start": 3.77,
-          "end": 4.14
+          "start": 3.73,
+          "end": 4.1
         }
       ]
     },
     {
       "frame": 6,
       "path": "assets/audio/narration.mp3",
-      "mediaStart": 740.82,
-      "duration_s": 4.65,
+      "mediaStart": 740.866667,
+      "duration_s": 4.666667,
       "words": [
         {
           "text": "Roman",
-          "start": 0,
-          "end": 0.14
+          "start": -0.047,
+          "end": 0.093
         },
         {
           "text": "marine",
-          "start": 0.14,
-          "end": 0.57
+          "start": 0.093,
+          "end": 0.523
         },
         {
           "text": "concrete,",
-          "start": 0.57,
-          "end": 1.29
+          "start": 0.523,
+          "end": 1.243
         },
         {
           "text": "harbor",
-          "start": 1.29,
-          "end": 1.72
+          "start": 1.243,
+          "end": 1.673
         },
         {
           "text": "works,",
-          "start": 1.72,
-          "end": 2.22
+          "start": 1.673,
+          "end": 2.173
         },
         {
           "text": "breakwaters,",
-          "start": 2.22,
-          "end": 3.04
+          "start": 2.173,
+          "end": 2.993
         },
         {
           "text": "piers,",
-          "start": 3.16,
-          "end": 3.65
+          "start": 3.113,
+          "end": 3.603
         },
         {
           "text": "is",
-          "start": 3.76,
-          "end": 3.79
+          "start": 3.713,
+          "end": 3.743
         },
         {
           "text": "still",
-          "start": 3.79,
-          "end": 4.15
+          "start": 3.743,
+          "end": 4.103
         },
         {
           "text": "there,",
-          "start": 4.15,
-          "end": 4.65
+          "start": 4.103,
+          "end": 4.603
         }
       ]
     },
     {
       "frame": 7,
       "path": "assets/audio/narration.mp3",
-      "mediaStart": 745.47,
-      "duration_s": 6.27,
+      "mediaStart": 745.533333,
+      "duration_s": 6.266667,
       "words": [
         {
           "text": "not",
-          "start": 0,
-          "end": 0.21
+          "start": -0.063,
+          "end": 0.147
         },
         {
           "text": "preserved",
-          "start": 0.21,
-          "end": 0.86
+          "start": 0.147,
+          "end": 0.797
         },
         {
           "text": "as",
-          "start": 0.86,
-          "end": 0.94
+          "start": 0.797,
+          "end": 0.877
         },
         {
           "text": "ruins,",
-          "start": 1.31,
-          "end": 1.61
+          "start": 1.247,
+          "end": 1.547
         },
         {
           "text": "structurally",
-          "start": 1.83,
-          "end": 2.28
+          "start": 1.767,
+          "end": 2.217
         },
         {
           "text": "intact",
-          "start": 2.28,
-          "end": 2.45
+          "start": 2.217,
+          "end": 2.387
         },
         {
           "text": "in",
-          "start": 2.61,
-          "end": 2.74
+          "start": 2.547,
+          "end": 2.677
         },
         {
           "text": "the",
-          "start": 2.74,
-          "end": 2.98
+          "start": 2.677,
+          "end": 2.917
         },
         {
           "text": "single",
-          "start": 2.98,
-          "end": 3.25
+          "start": 2.917,
+          "end": 3.187
         },
         {
           "text": "most",
-          "start": 3.25,
-          "end": 3.48
+          "start": 3.187,
+          "end": 3.417
         },
         {
           "text": "hostile",
-          "start": 3.48,
-          "end": 3.88
+          "start": 3.417,
+          "end": 3.817
         },
         {
           "text": "environment",
-          "start": 3.88,
-          "end": 4.42
+          "start": 3.817,
+          "end": 4.357
         },
         {
           "text": "there",
-          "start": 4.42,
-          "end": 4.82
+          "start": 4.357,
+          "end": 4.757
         },
         {
           "text": "is",
-          "start": 4.82,
-          "end": 4.9
+          "start": 4.757,
+          "end": 4.837
         },
         {
           "text": "for",
-          "start": 4.99,
-          "end": 5.07
+          "start": 4.927,
+          "end": 5.007
         },
         {
           "text": "modern",
-          "start": 5.07,
-          "end": 5.31
+          "start": 5.007,
+          "end": 5.247
         },
         {
           "text": "concrete,",
-          "start": 5.6,
-          "end": 6.05
+          "start": 5.537,
+          "end": 5.987
         }
       ]
     },
     {
       "frame": 8,
       "path": "assets/audio/narration.mp3",
-      "mediaStart": 751.74,
-      "duration_s": 5.64,
+      "mediaStart": 751.8,
+      "duration_s": 5.633333,
       "words": [
         {
           "text": "which",
-          "start": 0,
-          "end": 0.05
+          "start": -0.06,
+          "end": -0.01
         },
         {
           "text": "is",
-          "start": 0.05,
-          "end": 0.14
+          "start": -0.01,
+          "end": 0.08
         },
         {
           "text": "seawater,",
-          "start": 0.25,
-          "end": 0.63
+          "start": 0.19,
+          "end": 0.57
         },
         {
           "text": "because",
-          "start": 0.63,
-          "end": 1.15
+          "start": 0.57,
+          "end": 1.09
         },
         {
           "text": "chloride",
-          "start": 1.15,
-          "end": 1.51
+          "start": 1.09,
+          "end": 1.45
         },
         {
           "text": "attacks",
-          "start": 1.51,
-          "end": 1.83
+          "start": 1.45,
+          "end": 1.77
         },
         {
           "text": "steel",
-          "start": 1.96,
-          "end": 2.16
+          "start": 1.9,
+          "end": 2.1
         },
         {
           "text": "reinforcement",
-          "start": 2.16,
-          "end": 2.62
+          "start": 2.1,
+          "end": 2.56
         },
         {
           "text": "and",
-          "start": 2.99,
-          "end": 3.03
+          "start": 2.93,
+          "end": 2.97
         },
         {
           "text": "salt",
-          "start": 3.03,
-          "end": 3.25
+          "start": 2.97,
+          "end": 3.19
         },
         {
           "text": "cycling",
-          "start": 3.25,
-          "end": 3.48
+          "start": 3.19,
+          "end": 3.42
         },
         {
           "text": "cracks",
-          "start": 3.77,
-          "end": 4.02
+          "start": 3.71,
+          "end": 3.96
         },
         {
           "text": "the",
-          "start": 4.24,
-          "end": 4.37
+          "start": 4.18,
+          "end": 4.31
         },
         {
           "text": "matrix.",
-          "start": 4.37,
-          "end": 5.42
+          "start": 4.31,
+          "end": 5.36
         }
       ]
     },
     {
       "frame": 9,
       "path": "assets/audio/narration.mp3",
-      "mediaStart": 757.38,
-      "duration_s": 4.46,
+      "mediaStart": 757.433333,
+      "duration_s": 4.466667,
       "words": [
         {
           "text": "Modern",
-          "start": 0,
-          "end": 0.14
+          "start": -0.053,
+          "end": 0.087
         },
         {
           "text": "marine",
-          "start": 0.14,
-          "end": 0.5
+          "start": 0.087,
+          "end": 0.447
         },
         {
           "text": "structures",
-          "start": 0.5,
-          "end": 0.62
+          "start": 0.447,
+          "end": 0.567
         },
         {
           "text": "are",
-          "start": 1.15,
-          "end": 1.29
+          "start": 1.097,
+          "end": 1.237
         },
         {
           "text": "designed",
-          "start": 1.29,
-          "end": 1.78
+          "start": 1.237,
+          "end": 1.727
         },
         {
           "text": "for",
-          "start": 1.78,
-          "end": 1.85
+          "start": 1.727,
+          "end": 1.797
         },
         {
           "text": "decades,",
-          "start": 1.96,
-          "end": 2.51
+          "start": 1.907,
+          "end": 2.457
         },
         {
           "text": "Roman",
-          "start": 2.51,
-          "end": 2.63
+          "start": 2.457,
+          "end": 2.577
         },
         {
           "text": "ones",
-          "start": 2.99,
-          "end": 3.05
+          "start": 2.937,
+          "end": 2.997
         },
         {
           "text": "are",
-          "start": 3.16,
-          "end": 3.23
+          "start": 3.107,
+          "end": 3.177
         },
         {
           "text": "measured",
-          "start": 3.23,
-          "end": 3.48
+          "start": 3.177,
+          "end": 3.427
         },
         {
           "text": "in",
-          "start": 3.77,
-          "end": 3.84
+          "start": 3.717,
+          "end": 3.787
         },
         {
           "text": "millennia.",
-          "start": 3.84,
-          "end": 4.46
+          "start": 3.787,
+          "end": 4.407
         }
       ]
     },
     {
       "frame": 10,
       "path": "assets/audio/narration.mp3",
-      "mediaStart": 761.84,
-      "duration_s": 5.06,
+      "mediaStart": 761.9,
+      "duration_s": 5.066667,
       "words": [
         {
           "text": "The",
-          "start": 0,
-          "end": 0.22
+          "start": -0.06,
+          "end": 0.16
         },
         {
           "text": "Romans",
-          "start": 0.22,
-          "end": 0.54
+          "start": 0.16,
+          "end": 0.48
         },
         {
           "text": "did",
-          "start": 0.54,
-          "end": 0.72
+          "start": 0.48,
+          "end": 0.66
         },
         {
           "text": "not",
-          "start": 0.72,
-          "end": 0.84
+          "start": 0.66,
+          "end": 0.78
         },
         {
           "text": "have",
-          "start": 0.9,
-          "end": 0.91
+          "start": 0.84,
+          "end": 0.85
         },
         {
           "text": "a",
-          "start": 1.14,
-          "end": 1.19
+          "start": 1.08,
+          "end": 1.13
         },
         {
           "text": "1,450",
-          "start": 1.37,
-          "end": 2.05
+          "start": 1.31,
+          "end": 1.99
         },
         {
           "text": "degree",
-          "start": 2.05,
-          "end": 2.41
+          "start": 1.99,
+          "end": 2.35
         },
         {
           "text": "rotary",
-          "start": 2.41,
-          "end": 2.77
+          "start": 2.35,
+          "end": 2.71
         },
         {
           "text": "kiln,",
-          "start": 2.77,
-          "end": 3.13
+          "start": 2.71,
+          "end": 3.07
         },
         {
           "text": "they",
-          "start": 3.21,
-          "end": 3.36
+          "start": 3.15,
+          "end": 3.3
         },
         {
           "text": "could",
-          "start": 3.38,
-          "end": 3.67
+          "start": 3.32,
+          "end": 3.61
         },
         {
           "text": "not",
-          "start": 3.67,
-          "end": 3.71
+          "start": 3.61,
+          "end": 3.65
         },
         {
           "text": "have",
-          "start": 3.99,
-          "end": 4.09
+          "start": 3.93,
+          "end": 4.03
         },
         {
           "text": "built",
-          "start": 4.09,
-          "end": 4.39
+          "start": 4.03,
+          "end": 4.33
         },
         {
           "text": "one.",
-          "start": 4.39,
-          "end": 4.6
+          "start": 4.33,
+          "end": 4.54
         }
       ]
     }

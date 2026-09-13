@@ -5,7 +5,7 @@
 ## Frame 01
 
 - src: compositions/frames/01-beat.html
-- duration: 5.04s
+- duration: 5.033333s
 - status: planned
 - transition_in: cut
 - look: grade desaturate
@@ -15,7 +15,7 @@
 ## Frame 02
 
 - src: compositions/frames/02-beat.html
-- duration: 4.24s
+- duration: 4.233333s
 - status: planned
 - transition_in: zoom-through 0.76s
 - punch: at 1.52s scale 1.425
@@ -26,7 +26,7 @@
 ## Frame 03
 
 - src: compositions/frames/03-beat.html
-- duration: 6.65s
+- duration: 6.666667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade cool, vignette 0.378
@@ -38,7 +38,7 @@
 ## Frame 04
 
 - src: compositions/frames/04-beat.html
-- duration: 3.11s
+- duration: 3.1s
 - status: planned
 - transition_in: hard-cut 0s
 - motion: out to 1.1109 ease power1.inOut, focus 45,65
@@ -49,7 +49,7 @@
 ## Frame 05
 
 - src: compositions/frames/05-beat.html
-- duration: 2.18s
+- duration: 2.166667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade cool
@@ -59,7 +59,7 @@
 ## Frame 06
 
 - src: compositions/frames/06-beat.html
-- duration: 3.34s
+- duration: 3.333333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate, vignette 0.378
@@ -71,7 +71,7 @@
 ## Frame 07
 
 - src: compositions/frames/07-beat.html
-- duration: 6.51s
+- duration: 6.5s
 - status: planned
 - transition_in: hard-cut 0s
 - query: multiple technology laboratories
@@ -80,7 +80,7 @@
 ## Frame 08
 
 - src: compositions/frames/08-beat.html
-- duration: 6.79s
+- duration: 6.8s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade warm
@@ -94,7 +94,7 @@
 ## Frame 09
 
 - src: compositions/frames/09-beat.html
-- duration: 2.98s
+- duration: 2.966667s
 - status: planned
 - transition_in: crossfade 0.25s
 - look: vignette 0.378
@@ -104,7 +104,7 @@
 ## Frame 10
 
 - src: compositions/frames/10-beat.html
-- duration: 2.72s
+- duration: 2.733333s
 - status: planned
 - transition_in: light-leak-flash 0.49s
 - look: grade warm

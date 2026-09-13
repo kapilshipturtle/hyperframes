@@ -17,7 +17,7 @@
 ## Frame 02
 
 - src: compositions/frames/02-beat.html
-- duration: 2.42s
+- duration: 2.433333s
 - status: planned
 - transition_in: hard-cut 0s
 - overlay: number-badge at middle-right
@@ -27,7 +27,7 @@
 ## Frame 03
 
 - src: compositions/frames/03-beat.html
-- duration: 6.05s
+- duration: 6.066667s
 - status: planned
 - transition_in: crossfade 0.25s
 - look: bw, vignette 0.378
@@ -38,7 +38,7 @@
 ## Frame 04
 
 - src: compositions/frames/04-beat.html
-- duration: 3.87s
+- duration: 3.866667s
 - status: planned
 - transition_in: hard-cut 0s
 - query: company statement press release
@@ -58,7 +58,7 @@
 ## Frame 06
 
 - src: compositions/frames/06-beat.html
-- duration: 6.55s
+- duration: 6.533333s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate, vignette 0.378
@@ -70,7 +70,7 @@
 ## Frame 07
 
 - src: compositions/frames/07-beat.html
-- duration: 3.05s
+- duration: 3.066667s
 - status: planned
 - transition_in: zoom-through 0.55s
 - motion: out to 1.1 ease power1.inOut, focus 58,48
@@ -82,7 +82,7 @@
 ## Frame 08
 
 - src: compositions/frames/08-beat.html
-- duration: 2.87s
+- duration: 2.866667s
 - status: planned
 - transition_in: hard-cut 0s
 - look: grade desaturate
@@ -93,7 +93,7 @@
 ## Frame 09
 
 - src: compositions/frames/09-beat.html
-- duration: 6.69s
+- duration: 6.7s
 - status: planned
 - transition_in: hard-cut 0s
 - look: vignette 0.378
@@ -107,7 +107,7 @@
 ## Frame 10
 
 - src: compositions/frames/10-beat.html
-- duration: 5.24s
+- duration: 5.233333s
 - status: planned
 - transition_in: crossfade 0.25s
 - look: grade desaturate

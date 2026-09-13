@@ -126,7 +126,7 @@ jobs:
       - name: Concat fogged slices, mux narration, gate
         run: |
           cd videos/${{ github.event.inputs.project }}
-          mkdir -p renders
+          mkdir -p renders .work   # .work does not exist in a fresh checkout
           ls $GITHUB_WORKSPACE/fogparts/fogged-*.mp4 | sort -t- -k2 -n | sed "s|^|file '|; s|$|'|" > /tmp/fl.txt
           ffmpeg -hide_banner -loglevel error -y -f concat -safe 0 -i /tmp/fl.txt -c copy .work/fogged.mp4
           ffmpeg -hide_banner -loglevel error -y -i .work/fogged.mp4 -i assets/audio/narration.m4a \

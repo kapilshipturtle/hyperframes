@@ -54,6 +54,7 @@ jobs:
         with:
           name: clips-${{ matrix.chunk }}
           path: videos/${{ github.event.inputs.project }}/.work/clips/*.mp4
+          if-no-files-found: error
           retention-days: 3
 
   join:
@@ -103,8 +104,12 @@ jobs:
             --chunk ${{ matrix.chunk }} --of ${{ github.event.inputs.chunks }} --jobs 2
       - uses: actions/upload-artifact@v4
         with:
+          # Name the file explicitly. A glob here silently uploaded an EMPTY artifact when the
+          # write path and the upload path disagreed, and the failure only surfaced two stages
+          # later as "No files to concat".
           name: fogged-${{ matrix.chunk }}
-          path: videos/${{ github.event.inputs.project }}/.work/fogged-*.mp4
+          path: videos/${{ github.event.inputs.project }}/.work/fogged-${{ matrix.chunk }}.mp4
+          if-no-files-found: error
           retention-days: 3
 
   finish:
@@ -122,7 +127,7 @@ jobs:
         run: |
           cd videos/${{ github.event.inputs.project }}
           mkdir -p renders
-          ls $GITHUB_WORKSPACE/fogparts/*.mp4 | sort -V | sed "s|^|file '|; s|$|'|" > /tmp/fl.txt
+          ls $GITHUB_WORKSPACE/fogparts/fogged-*.mp4 | sort -t- -k2 -n | sed "s|^|file '|; s|$|'|" > /tmp/fl.txt
           ffmpeg -hide_banner -loglevel error -y -f concat -safe 0 -i /tmp/fl.txt -c copy .work/fogged.mp4
           ffmpeg -hide_banner -loglevel error -y -i .work/fogged.mp4 -i assets/audio/narration.m4a \
             -c:v copy -c:a aac -b:a 160k -af loudnorm=I=-26:TP=-2:LRA=11 -shortest renders/film.mp4

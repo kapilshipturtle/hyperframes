@@ -1,0 +1,134 @@
+name: render-sleep-video
+# Renders a long sleep video as parallel ffmpeg jobs on free GitHub runners.
+#
+# WHY NOT A BROWSER RENDER: a 2h/30fps film is 216,000 frames and HyperFrames' capture
+# stages ~2MB/frame (~422GB) against a runner's ~14GB. This is pure ffmpeg.
+# WHY NOT GPU: measured VAAPI 9.5s vs 10.7s CPU (11%) -- the `blend` filter is the
+# bottleneck, not the encoder. Concurrency is the only real multiplier.
+#
+# GitHub free accounts cap at 20 CONCURRENT jobs (a matrix may declare more, they queue):
+# https://docs.github.com/en/actions/reference/limits
+#
+# THREE STAGES, because fog must be continuous across the WHOLE film:
+#   1. clips   (matrix) -- each job renders its share of scenes with --no-fog
+#   2. join    (single) -- concat all clips losslessly into one base video
+#   3. fog     (matrix) -- each job fogs its time-slice, seeking into the fog by
+#                          (chunkStart % fogDuration) so the smoke never restarts
+#   4. finish  (single) -- concat fogged chunks, mux narration, run the style gate
+on:
+  workflow_dispatch:
+    inputs:
+      project: { description: "project dir under videos/", required: true }
+      chunks:  { description: "parallel jobs (GitHub free cap is 20 concurrent)", required: false, default: "20" }
+
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.mk.outputs.matrix }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: mk
+        run: echo "matrix=$(python3 -c "import json;print(json.dumps(list(range(int('${{ github.event.inputs.chunks }}')))))")" >> $GITHUB_OUTPUT
+
+  clips:
+    needs: plan
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    strategy:
+      fail-fast: false
+      matrix:
+        chunk: ${{ fromJSON(needs.plan.outputs.matrix) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: "20" }
+      - run: sudo apt-get update && sudo apt-get install -y ffmpeg python3-pil
+      - name: Render this chunk's clips (no fog -- fog is applied after the join)
+        run: |
+          cd videos/${{ github.event.inputs.project }}
+          node ci/sleep/render-all.mjs --scenes .hyperframes/scenes.json \
+            --images .media/scenes --out-dir .work/clips --no-fog --jobs 2 \
+            --chunk ${{ matrix.chunk }} --of ${{ github.event.inputs.chunks }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: clips-${{ matrix.chunk }}
+          path: videos/${{ github.event.inputs.project }}/.work/clips/*.mp4
+          retention-days: 3
+
+  join:
+    needs: clips
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: "20" }
+      - run: sudo apt-get update && sudo apt-get install -y ffmpeg
+      - uses: actions/download-artifact@v4
+        with: { pattern: clips-*, merge-multiple: true, path: allclips }
+      - name: Concat clips losslessly
+        run: |
+          cd videos/${{ github.event.inputs.project }}
+          mkdir -p .work
+          node ci/sleep/concat-clips.mjs --clips-dir $GITHUB_WORKSPACE/allclips --out .work/base.mp4
+      - uses: actions/upload-artifact@v4
+        with:
+          name: base
+          path: videos/${{ github.event.inputs.project }}/.work/base.mp4
+          retention-days: 3
+
+  fog:
+    needs: [plan, join]
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    strategy:
+      fail-fast: false
+      matrix:
+        chunk: ${{ fromJSON(needs.plan.outputs.matrix) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: "20" }
+      - run: sudo apt-get update && sudo apt-get install -y ffmpeg
+      - uses: actions/download-artifact@v4
+        with: { name: base, path: basein }
+      - name: Fog this time-slice (continuous across chunks)
+        run: |
+          cd videos/${{ github.event.inputs.project }}
+          mkdir -p ~/.hyperframes-tools/sleep-long-video/assets
+          cp ci/sleep/assets/fog-calm.mp4 ~/.hyperframes-tools/sleep-long-video/assets/
+          node ci/sleep/fog-slice.mjs --in $GITHUB_WORKSPACE/basein/base.mp4 \
+            --out .work/fogged-${{ matrix.chunk }}.mp4 \
+            --chunk ${{ matrix.chunk }} --of ${{ github.event.inputs.chunks }} --jobs 2
+      - uses: actions/upload-artifact@v4
+        with:
+          name: fogged-${{ matrix.chunk }}
+          path: videos/${{ github.event.inputs.project }}/.work/fogged-*.mp4
+          retention-days: 3
+
+  finish:
+    needs: fog
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: "20" }
+      - run: sudo apt-get update && sudo apt-get install -y ffmpeg python3-pil
+      - uses: actions/download-artifact@v4
+        with: { pattern: fogged-*, merge-multiple: true, path: fogparts }
+      - name: Concat fogged slices, mux narration, gate
+        run: |
+          cd videos/${{ github.event.inputs.project }}
+          mkdir -p renders
+          ls $GITHUB_WORKSPACE/fogparts/*.mp4 | sort -V | sed "s|^|file '|; s|$|'|" > /tmp/fl.txt
+          ffmpeg -hide_banner -loglevel error -y -f concat -safe 0 -i /tmp/fl.txt -c copy .work/fogged.mp4
+          ffmpeg -hide_banner -loglevel error -y -i .work/fogged.mp4 -i assets/audio/narration.m4a \
+            -c:v copy -c:a aac -b:a 160k -af loudnorm=I=-26:TP=-2:LRA=11 -shortest renders/film.mp4
+          node ci/sleep/verify-style.mjs --video renders/film.mp4
+      - uses: actions/upload-artifact@v4
+        with:
+          name: film
+          path: videos/${{ github.event.inputs.project }}/renders/film.mp4
+          retention-days: 14

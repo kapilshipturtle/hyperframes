@@ -1,0 +1,162 @@
+[
+ {
+  "id": "001",
+  "start": 0,
+  "duration": 12.81,
+  "moveIndex": 0,
+  "text": "A Day in Ancient Rome Tonight we are going to spend one ordinary day in the city of Rome, about eighteen hundred years ago. Not a famous",
+  "visual": "a small dark ancient settlement at night, one dim warm window light"
+ },
+ {
+  "id": "002",
+  "start": 12.81,
+  "duration": 12.81,
+  "moveIndex": 1,
+  "text": "day. No battle, no emperor dying, no fire. Just a Tuesday, if they had called it that, in a city of a million people, most of whom",
+  "visual": "a low fire burning in a dark stone hearth, embers glowing, smoke drifting"
+ },
+ {
+  "id": "003",
+  "start": 26.32,
+  "duration": 14.12,
+  "moveIndex": 2,
+  "text": "history never bothered to write down. We will begin before the sun comes up, and we will stay until the last lamps go out. There is nothing you need to remember. Nothing is",
+  "visual": "an unrolled scroll and a reed pen on a dark wooden table, lit by one low lamp"
+ },
+ {
+  "id": "004",
+  "start": 40.44,
+  "duration": 14.12,
+  "moveIndex": 3,
+  "text": "going to happen that requires your attention. You can let this drift past you, and if you fall asleep somewhere in the middle of the morning, you will have missed nothing that matters.",
+  "visual": "a dark small room at night, a simple bed, a shuttered window with faint light beyond"
+ },
+ {
+  "id": "005",
+  "start": 55.26,
+  "duration": 12.81,
+  "moveIndex": 0,
+  "text": "Let us begin in the dark. It is the hour before dawn, and Rome is not silent. It has not been silent all night. By law,",
+  "visual": "a dark sky at the hour before dawn, the faintest grey light at the horizon"
+ },
+ {
+  "id": "006",
+  "start": 68.07,
+  "duration": 12.81,
+  "moveIndex": 1,
+  "text": "carts and wagons are forbidden inside the city walls during daylight hours, which sounds sensible until you realise what it means: every delivery, every load of",
+  "visual": "a small dark ancient settlement at night, one dim warm window light"
+ },
+ {
+  "id": "007",
+  "start": 81.58,
+  "duration": 14.57,
+  "moveIndex": 2,
+  "text": "stone, every barrel of wine, every sack of grain that the city needs has to be dragged through the streets in darkness. So the night belongs to the wheels. They",
+  "visual": "the dark interior of a stone granary, sacks stacked in shadow, one shaft of dim light"
+ },
+ {
+  "id": "008",
+  "start": 96.15,
+  "duration": 14.57,
+  "moveIndex": 3,
+  "text": "are wooden wheels, iron-rimmed, on stone paving. There is no way to make that quiet. A poet who lived here complained that it was impossible to sleep in Rome unless",
+  "visual": "a narrow dark Roman street at night, a wooden cart on wet paving stones"
+ },
+ {
+  "id": "009",
+  "start": 111.42,
+  "duration": 13.05,
+  "moveIndex": 0,
+  "text": "you were very rich, and by rich he meant rich enough to own a house with a garden around it, far enough back from the street that the noise arrived",
+  "visual": "a dark stone doorway at night, a single lamp burning beside it"
+ },
+ {
+  "id": "010",
+  "start": 124.47,
+  "duration": 13.05,
+  "moveIndex": 1,
+  "text": "softened. Everyone else simply learned to sleep through it, the way people learn to sleep beside a railway line, or the way you might have learned to sleep through traffic.",
+  "visual": "a dark small room at night, a simple bed, a shuttered window with faint light beyond"
+ },
+ {
+  "id": "011",
+  "start": 138.22,
+  "duration": 14.94,
+  "moveIndex": 2,
+  "text": "Above the noise, the apartment blocks are dark. They are called insulae, which means islands, and they rise four and five and sometimes six storeys over the narrow streets.",
+  "visual": "tall dark Roman apartment blocks leaning over a narrow lane, one shutter lit from within"
+ },
+ {
+  "id": "012",
+  "start": 153.86,
+  "duration": 14.57,
+  "moveIndex": 3,
+  "text": "The higher you live, the poorer you are, and the further you have to carry your water up the stairs. There is no running water above the ground floor. There is no fireplace in most",
+  "visual": "dark worn hand tools resting on a wooden bench, one dim light above"
+ },
+ {
+  "id": "013",
+  "start": 168.43,
+  "duration": 14.57,
+  "moveIndex": 0,
+  "text": "of them. There is no toilet. There is, in a great many of them, no window worth the name, only a shutter onto a street so narrow that the building opposite is an arm's",
+  "visual": "a small dark ancient settlement at night, one dim warm window light"
+ },
+ {
+  "id": "014",
+  "start": 183.7,
+  "duration": 14.92,
+  "moveIndex": 1,
+  "text": "length away. In one of those rooms, someone is already awake. She is a baker's wife, or perhaps the baker herself, in one of the hundreds of small bakeries scattered",
+  "visual": "a dim stone bakery interior at night, a glowing brick oven mouth, loaves on a wooden board"
+ },
+ {
+  "id": "015",
+  "start": 198.62,
+  "duration": 14.92,
+  "moveIndex": 2,
+  "text": "through the city. Her day begins now, in the dark, because bread has to be ready when the city wakes. The dough was mixed last night. The great stone mill",
+  "visual": "a dim stone bakery interior at night, a glowing brick oven mouth, loaves on a wooden board, seen from a distance"
+ },
+ {
+  "id": "016",
+  "start": 214.24,
+  "duration": 19.96,
+  "moveIndex": 3,
+  "text": "in the back room has already been turning for an hour, pushed by a donkey walking in slow circles, and if there is no donkey, pushed by a person walking those same circles, which was a punishment so miserable that Roman writers used it as a threat.",
+  "visual": "a dark sky at the hour before dawn, the faintest grey light at the horizon"
+ },
+ {
+  "id": "017",
+  "start": 234.9,
+  "duration": 15.13,
+  "moveIndex": 0,
+  "text": "The oven is a dome of brick, and it has been heating since the middle of the night. You do not bake bread in a Roman oven the way you might imagine. You build a fire inside",
+  "visual": "a dim stone bakery interior at night, a glowing brick oven mouth, loaves on a wooden board"
+ },
+ {
+  "id": "018",
+  "start": 250.03,
+  "duration": 15.13,
+  "moveIndex": 1,
+  "text": "it, you let it burn down, you rake out the embers, and you bake in the stored heat of the bricks. It is all timing and memory. There is no dial. She knows the oven is ready",
+  "visual": "a dim stone bakery interior at night, a glowing brick oven mouth, loaves on a wooden board, seen from a low angle"
+ },
+ {
+  "id": "019",
+  "start": 265.86,
+  "duration": 16.92,
+  "moveIndex": 2,
+  "text": "by holding her hand near the mouth of it, and by how the flour behaves when she throws a pinch inside. Outside, the sky over the eastern hills is just beginning to lose its blackness.",
+  "visual": "a dim stone bakery interior at night, a glowing brick oven mouth, loaves on a wooden board, seen from a distance"
+ },
+ {
+  "id": "020",
+  "start": 283.48,
+  "duration": 14.73,
+  "moveIndex": 3,
+  "text": "The Romans did not measure time the way you do. This matters more than it sounds. They divided the daylight into twelve hours, from sunrise to sunset, no matter how",
+  "visual": "a dark sky at the hour before dawn, the faintest grey light at the horizon"
+ }
+]

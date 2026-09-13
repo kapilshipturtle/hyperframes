@@ -44,6 +44,21 @@ const dry = has("dry-run");
 
 const all = JSON.parse(readFileSync(scenesPath, "utf8"));
 if (!Array.isArray(all) || !all.length) die("scenes file is empty");
+
+// HOLD EACH IMAGE UNTIL THE NEXT SCENE STARTS. The timeline carries deliberate silent
+// pauses between scenes (measured: 370 gaps of 0.70s, -110 dBFS = digital silence, 259s
+// total). `duration` covers only the spoken part, so rendering it verbatim produced
+// 145.5 min of video against 149.9 min of narration -- and `-shortest` silently dropped
+// the last 4.3 minutes of the film. Render span = next.start - this.start.
+{
+  const byStart = [...all].sort((a, b) => a.start - b.start);
+  for (let i = 0; i < byStart.length; i++) {
+    const next = byStart[i + 1];
+    const span = next ? +(next.start - byStart[i].start).toFixed(3) : byStart[i].duration;
+    // only ever extend, never truncate a scene
+    if (span > byStart[i].duration) byStart[i].duration = span;
+  }
+}
 mkdirSync(outDir, { recursive: true });
 const manifest = join(outDir, "_manifest.json");
 

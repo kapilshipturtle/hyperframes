@@ -73,8 +73,17 @@ for d in dirs:
 import json
 print(json.dumps({"p5":float(np.mean(p5))*100,"p10":float(np.mean(p10))*100}))
 `;
-let fog = { p5: 0, p10: 0 };
-try { fog = JSON.parse(execFileSync("python3", ["-c", fogPy], { encoding: "utf8" })); } catch {}
+// Do NOT swallow this. A crashed measurement previously reported fog 0.00, which is
+// indistinguishable from "the video has no fog" and sent a whole debugging run down the
+// wrong path. Missing numpy is an environment bug; fail loudly instead.
+let fog;
+try { fog = JSON.parse(execFileSync("python3", ["-c", fogPy], { encoding: "utf8" })); }
+catch (e) {
+  console.error("verify-style: fog measurement FAILED to run (not the same as fog being absent).");
+  console.error(String(e.stderr || e.message || e).trim().split("\n").slice(-3).join("\n"));
+  console.error("install numpy: sudo apt-get install -y python3-numpy");
+  process.exit(2);
+}
 
 // frames are only removed AFTER every check has read them (an earlier cleanup here made
 // the fog gate silently report 0.00 on a video whose fog was measurably fine)

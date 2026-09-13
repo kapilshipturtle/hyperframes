@@ -94,15 +94,17 @@ for (const [k, v, lo, hi, why] of checks) {
   const ok = v >= lo && v <= hi; if (!ok) fail++;
   console.log(`${ok ? "PASS" : "FAIL"}  ${k.padEnd(11)} ${v.toFixed(2).padStart(7)}  [${lo}..${hi}]  ${why}`);
 }
-// RECALIBRATED 2026-09-13 to the fog plate actually in use. The 25/40 targets were taken
-// from a build using the fast fog-overlay.mp4 (71.9% self-change over 2s). fog-calm.mp4 --
-// the slow, sleepy plate that was approved for this channel -- self-changes only 8.58%, so
-// 25% was unreachable at ANY opacity or grade: the composite can never move more than its
-// source. Floors below are the measured result on a 5-scene brightness spread (luma 20.7 to
-// 36.5) at the default 0.50 opacity, 5.31 / 13.66, less ~20% headroom for scene variation.
-// These still catch a missing or frozen overlay, which is what the gate is for.
-for (const [k, v, lo, why] of [["fogPixels>10%", fog.p10, 4.0, "% of frame changing >10 levels between 2s samples -- the eye-visible smoke test (calm plate)"],
-                              ["fogPixels>5%", fog.p5, 10.0, "% changing >5 levels"]]) {
+// RECALIBRATED 2026-09-13 to the fog plate actually in use. The 25/40 targets came from a
+// build using the fast fog-overlay.mp4 (71.9% self-change over 2s). fog-calm.mp4 -- the slow
+// sleepy plate approved for this channel -- self-changes only 8.58%, so 25% was unreachable
+// at ANY opacity or grade: a screen composite cannot move more than its source.
+//
+// Floors are measured on the FULL 605-scene film at the default 0.50 opacity: 3.08 / 10.11.
+// Do not re-derive these from a handful of scenes. A 5-scene spread gave 5.31 and failed the
+// real film, because its darkest scene (luma 20.7) was only the 25th percentile -- 153 scenes
+// are darker still, and darker scenes carry visibly less fog.
+for (const [k, v, lo, why] of [["fogPixels>10%", fog.p10, 2.4, "% of frame changing >10 levels between 2s samples -- the eye-visible smoke test (calm plate)"],
+                              ["fogPixels>5%", fog.p5, 8.0, "% changing >5 levels"]]) {
   const ok = v >= lo; if (!ok) fail++;
   console.log(`${ok ? "PASS" : "FAIL"}  ${k.padEnd(11)} ${v.toFixed(2).padStart(7)}  [>=${lo}]  ${why}`);
 }

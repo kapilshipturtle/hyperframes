@@ -90,7 +90,10 @@ function runOne(s, attempt = 1) {
   return new Promise((resolve) => {
     const part = join(outDir, `${s.id}.part.mp4`);
     const args = [clipScript, "--image", join(images, `${s.id}.png`), "--out", part,
-      "--duration", String(s.duration), "--index", String(s.moveIndex ?? 0)];
+      "--duration", String(s.duration), "--index", String(s.moveIndex ?? 0),
+      // the scene's own start time in the film -- render-clip uses it to offset the fog so
+      // the smoke is continuous across cuts even though clips render independently
+      "--start", String(s.start ?? 0)];
     // --no-fog MUST be forwarded: render-clip refuses to run without a fog source, so a
     // bare-clip CI job failed on every scene until this was passed through.
     if (has("no-fog")) args.push("--no-fog");

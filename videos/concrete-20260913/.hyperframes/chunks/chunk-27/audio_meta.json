@@ -1,0 +1,661 @@
+{
+  "bgm": null,
+  "voices": [
+    {
+      "frame": 1,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 1222.32,
+      "duration_s": 5.04,
+      "words": [
+        {
+          "text": "Forterra,",
+          "start": 0,
+          "end": 0.46
+        },
+        {
+          "text": "which",
+          "start": 0.46,
+          "end": 0.64
+        },
+        {
+          "text": "converts",
+          "start": 1.17,
+          "end": 1.34
+        },
+        {
+          "text": "kiln",
+          "start": 1.34,
+          "end": 1.6
+        },
+        {
+          "text": "carbon",
+          "start": 1.6,
+          "end": 2
+        },
+        {
+          "text": "dioxide",
+          "start": 2,
+          "end": 2.47
+        },
+        {
+          "text": "into",
+          "start": 2.47,
+          "end": 2.64
+        },
+        {
+          "text": "a",
+          "start": 2.73,
+          "end": 2.76
+        },
+        {
+          "text": "reactive",
+          "start": 3.01,
+          "end": 3.34
+        },
+        {
+          "text": "calcium",
+          "start": 3.34,
+          "end": 3.81
+        },
+        {
+          "text": "carbonate",
+          "start": 3.81,
+          "end": 4.38
+        },
+        {
+          "text": "cement,",
+          "start": 4.65,
+          "end": 5.04
+        }
+      ]
+    },
+    {
+      "frame": 2,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 1227.36,
+      "duration_s": 4.24,
+      "words": [
+        {
+          "text": "has",
+          "start": 0,
+          "end": 0.02
+        },
+        {
+          "text": "Microsoft",
+          "start": 0.24,
+          "end": 0.54
+        },
+        {
+          "text": "investment",
+          "start": 0.54,
+          "end": 0.86
+        },
+        {
+          "text": "behind",
+          "start": 1.39,
+          "end": 1.47
+        },
+        {
+          "text": "a",
+          "start": 1.47,
+          "end": 1.52
+        },
+        {
+          "text": "400,000-ton-per-year",
+          "start": 1.52,
+          "end": 3.38
+        },
+        {
+          "text": "facility.",
+          "start": 3.4,
+          "end": 4.12
+        }
+      ]
+    },
+    {
+      "frame": 3,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 1231.6,
+      "duration_s": 6.65,
+      "words": [
+        {
+          "text": "Brimstone,",
+          "start": 0,
+          "end": 0.55
+        },
+        {
+          "text": "working",
+          "start": 0.55,
+          "end": 0.72
+        },
+        {
+          "text": "from",
+          "start": 0.72,
+          "end": 1.26
+        },
+        {
+          "text": "calcium",
+          "start": 1.26,
+          "end": 1.69
+        },
+        {
+          "text": "silicate",
+          "start": 1.69,
+          "end": 2.17
+        },
+        {
+          "text": "rock",
+          "start": 2.21,
+          "end": 2.45
+        },
+        {
+          "text": "rather",
+          "start": 2.45,
+          "end": 2.72
+        },
+        {
+          "text": "than",
+          "start": 2.72,
+          "end": 3.09
+        },
+        {
+          "text": "limestone,",
+          "start": 3.09,
+          "end": 3.77
+        },
+        {
+          "text": "has",
+          "start": 3.87,
+          "end": 3.96
+        },
+        {
+          "text": "an",
+          "start": 3.96,
+          "end": 4.08
+        },
+        {
+          "text": "Amazon",
+          "start": 4.08,
+          "end": 4.4
+        },
+        {
+          "text": "reservation",
+          "start": 4.46,
+          "end": 5.27
+        },
+        {
+          "text": "on",
+          "start": 5.27,
+          "end": 5.5
+        },
+        {
+          "text": "output",
+          "start": 5.5,
+          "end": 5.88
+        },
+        {
+          "text": "from",
+          "start": 5.88,
+          "end": 6.1
+        },
+        {
+          "text": "a",
+          "start": 6.1,
+          "end": 6.65
+        }
+      ]
+    },
+    {
+      "frame": 4,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 1238.25,
+      "duration_s": 3.11,
+      "words": [
+        {
+          "text": "planned",
+          "start": 0,
+          "end": 0.12
+        },
+        {
+          "text": "Oakland",
+          "start": 0.12,
+          "end": 0.64
+        },
+        {
+          "text": "plant.",
+          "start": 0.64,
+          "end": 1.27
+        },
+        {
+          "text": "Meta",
+          "start": 1.27,
+          "end": 1.49
+        },
+        {
+          "text": "has",
+          "start": 1.49,
+          "end": 1.64
+        },
+        {
+          "text": "worked",
+          "start": 1.74,
+          "end": 1.97
+        },
+        {
+          "text": "with",
+          "start": 1.97,
+          "end": 2.11
+        },
+        {
+          "text": "carbon",
+          "start": 2.11,
+          "end": 2.64
+        },
+        {
+          "text": "built.",
+          "start": 2.64,
+          "end": 2.99
+        }
+      ]
+    },
+    {
+      "frame": 5,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 1241.36,
+      "duration_s": 2.18,
+      "words": [
+        {
+          "text": "Biomason",
+          "start": 0,
+          "end": 0.36
+        },
+        {
+          "text": "grows",
+          "start": 0.36,
+          "end": 0.66
+        },
+        {
+          "text": "binder",
+          "start": 0.66,
+          "end": 0.75
+        },
+        {
+          "text": "biologically.",
+          "start": 1.25,
+          "end": 1.94
+        }
+      ]
+    },
+    {
+      "frame": 6,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 1243.54,
+      "duration_s": 3.34,
+      "words": [
+        {
+          "text": "Blue",
+          "start": 0,
+          "end": 0.04
+        },
+        {
+          "text": "Planet",
+          "start": 0.04,
+          "end": 0.44
+        },
+        {
+          "text": "makes",
+          "start": 0.44,
+          "end": 0.62
+        },
+        {
+          "text": "aggregate",
+          "start": 1.15,
+          "end": 1.37
+        },
+        {
+          "text": "out",
+          "start": 1.37,
+          "end": 1.57
+        },
+        {
+          "text": "of",
+          "start": 1.57,
+          "end": 1.7
+        },
+        {
+          "text": "waste",
+          "start": 1.7,
+          "end": 2.03
+        },
+        {
+          "text": "carbon",
+          "start": 2.03,
+          "end": 2.43
+        },
+        {
+          "text": "dioxide.",
+          "start": 2.43,
+          "end": 3.07
+        }
+      ]
+    },
+    {
+      "frame": 7,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 1246.88,
+      "duration_s": 6.51,
+      "words": [
+        {
+          "text": "Several",
+          "start": 0,
+          "end": 0.14
+        },
+        {
+          "text": "roots,",
+          "start": 0.14,
+          "end": 0.5
+        },
+        {
+          "text": "several",
+          "start": 0.5,
+          "end": 0.62
+        },
+        {
+          "text": "chemistries,",
+          "start": 1.07,
+          "end": 1.53
+        },
+        {
+          "text": "and",
+          "start": 1.53,
+          "end": 1.68
+        },
+        {
+          "text": "a",
+          "start": 1.68,
+          "end": 1.73
+        },
+        {
+          "text": "set",
+          "start": 1.73,
+          "end": 1.84
+        },
+        {
+          "text": "of",
+          "start": 1.96,
+          "end": 1.98
+        },
+        {
+          "text": "technology",
+          "start": 1.98,
+          "end": 2.5
+        },
+        {
+          "text": "buyers",
+          "start": 2.5,
+          "end": 2.63
+        },
+        {
+          "text": "who",
+          "start": 2.63,
+          "end": 2.99
+        },
+        {
+          "text": "have",
+          "start": 2.99,
+          "end": 3.17
+        },
+        {
+          "text": "concluded",
+          "start": 3.17,
+          "end": 3.49
+        },
+        {
+          "text": "independently",
+          "start": 3.94,
+          "end": 4.54
+        },
+        {
+          "text": "that",
+          "start": 4.54,
+          "end": 4.59
+        },
+        {
+          "text": "this",
+          "start": 4.59,
+          "end": 5.1
+        },
+        {
+          "text": "problem",
+          "start": 5.1,
+          "end": 5.5
+        },
+        {
+          "text": "is",
+          "start": 5.5,
+          "end": 5.62
+        },
+        {
+          "text": "worth",
+          "start": 5.62,
+          "end": 5.94
+        },
+        {
+          "text": "prepaying",
+          "start": 5.94,
+          "end": 6.51
+        }
+      ]
+    },
+    {
+      "frame": 8,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 1253.39,
+      "duration_s": 6.79,
+      "words": [
+        {
+          "text": "to",
+          "start": 0,
+          "end": 0.06
+        },
+        {
+          "text": "solve.",
+          "start": 0.41,
+          "end": 0.69
+        },
+        {
+          "text": "And",
+          "start": 0.69,
+          "end": 0.91
+        },
+        {
+          "text": "the",
+          "start": 0.91,
+          "end": 0.99
+        },
+        {
+          "text": "honest",
+          "start": 0.99,
+          "end": 1.3
+        },
+        {
+          "text": "measurement,",
+          "start": 1.3,
+          "end": 1.98
+        },
+        {
+          "text": "which",
+          "start": 2.06,
+          "end": 2.24
+        },
+        {
+          "text": "almost",
+          "start": 2.24,
+          "end": 2.55
+        },
+        {
+          "text": "nobody",
+          "start": 2.55,
+          "end": 2.75
+        },
+        {
+          "text": "covering",
+          "start": 2.86,
+          "end": 3.28
+        },
+        {
+          "text": "this",
+          "start": 3.28,
+          "end": 3.49
+        },
+        {
+          "text": "story",
+          "start": 3.49,
+          "end": 3.56
+        },
+        {
+          "text": "puts",
+          "start": 3.9,
+          "end": 3.96
+        },
+        {
+          "text": "in,",
+          "start": 4.06,
+          "end": 4.16
+        },
+        {
+          "text": "30,000",
+          "start": 4.16,
+          "end": 5.04
+        },
+        {
+          "text": "tons",
+          "start": 5.04,
+          "end": 5.21
+        },
+        {
+          "text": "a",
+          "start": 5.24,
+          "end": 5.29
+        },
+        {
+          "text": "year",
+          "start": 5.63,
+          "end": 5.71
+        },
+        {
+          "text": "against",
+          "start": 5.71,
+          "end": 6.22
+        },
+        {
+          "text": "a",
+          "start": 6.22,
+          "end": 6.28
+        },
+        {
+          "text": "global",
+          "start": 6.28,
+          "end": 6.79
+        }
+      ]
+    },
+    {
+      "frame": 9,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 1260.18,
+      "duration_s": 2.98,
+      "words": [
+        {
+          "text": "market",
+          "start": 0,
+          "end": 0.42
+        },
+        {
+          "text": "of",
+          "start": 0.42,
+          "end": 0.57
+        },
+        {
+          "text": "4",
+          "start": 0.57,
+          "end": 0.68
+        },
+        {
+          "text": "billion,",
+          "start": 0.78,
+          "end": 1.44
+        },
+        {
+          "text": "is",
+          "start": 1.46,
+          "end": 1.49
+        },
+        {
+          "text": "a",
+          "start": 1.6,
+          "end": 1.68
+        },
+        {
+          "text": "rounding",
+          "start": 1.83,
+          "end": 2.3
+        },
+        {
+          "text": "error.",
+          "start": 2.3,
+          "end": 2.98
+        }
+      ]
+    },
+    {
+      "frame": 10,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 1263.16,
+      "duration_s": 2.72,
+      "words": [
+        {
+          "text": "It",
+          "start": 0,
+          "end": 0.22
+        },
+        {
+          "text": "would",
+          "start": 0.22,
+          "end": 0.39
+        },
+        {
+          "text": "not",
+          "start": 0.47,
+          "end": 0.61
+        },
+        {
+          "text": "have",
+          "start": 0.61,
+          "end": 0.82
+        },
+        {
+          "text": "supplied",
+          "start": 0.82,
+          "end": 1.37
+        },
+        {
+          "text": "one",
+          "start": 1.37,
+          "end": 1.53
+        },
+        {
+          "text": "large",
+          "start": 1.53,
+          "end": 1.84
+        },
+        {
+          "text": "project.",
+          "start": 1.84,
+          "end": 2.5
+        }
+      ]
+    }
+  ],
+  "sfx": []
+}

@@ -1,0 +1,811 @@
+{
+  "bgm": null,
+  "voices": [
+    {
+      "frame": 1,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 1140.56,
+      "duration_s": 3.72,
+      "words": [
+        {
+          "text": "It",
+          "start": 0,
+          "end": 0.22
+        },
+        {
+          "text": "said",
+          "start": 0.22,
+          "end": 0.3
+        },
+        {
+          "text": "it",
+          "start": 0.3,
+          "end": 0.36
+        },
+        {
+          "text": "was",
+          "start": 0.47,
+          "end": 0.55
+        },
+        {
+          "text": "working",
+          "start": 0.55,
+          "end": 0.82
+        },
+        {
+          "text": "through",
+          "start": 0.9,
+          "end": 0.91
+        },
+        {
+          "text": "alternative",
+          "start": 1.37,
+          "end": 1.81
+        },
+        {
+          "text": "scale-up",
+          "start": 1.81,
+          "end": 2.21
+        },
+        {
+          "text": "plans",
+          "start": 2.21,
+          "end": 2.46
+        },
+        {
+          "text": "and",
+          "start": 2.46,
+          "end": 2.61
+        },
+        {
+          "text": "had",
+          "start": 2.61,
+          "end": 2.76
+        },
+        {
+          "text": "several",
+          "start": 2.76,
+          "end": 2.85
+        },
+        {
+          "text": "options.",
+          "start": 3.21,
+          "end": 3.7
+        }
+      ]
+    },
+    {
+      "frame": 2,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 1144.28,
+      "duration_s": 6.09,
+      "words": [
+        {
+          "text": "It",
+          "start": 0,
+          "end": 0.07
+        },
+        {
+          "text": "said",
+          "start": 0.2,
+          "end": 0.26
+        },
+        {
+          "text": "it",
+          "start": 0.26,
+          "end": 0.34
+        },
+        {
+          "text": "remained",
+          "start": 0.37,
+          "end": 0.73
+        },
+        {
+          "text": "in",
+          "start": 0.73,
+          "end": 0.82
+        },
+        {
+          "text": "dialogue",
+          "start": 0.82,
+          "end": 0.85
+        },
+        {
+          "text": "with",
+          "start": 1.35,
+          "end": 1.41
+        },
+        {
+          "text": "the",
+          "start": 1.41,
+          "end": 1.55
+        },
+        {
+          "text": "Department",
+          "start": 1.55,
+          "end": 2.03
+        },
+        {
+          "text": "of",
+          "start": 2.03,
+          "end": 2.05
+        },
+        {
+          "text": "Energy,",
+          "start": 2.15,
+          "end": 2.5
+        },
+        {
+          "text": "Massachusetts'",
+          "start": 2.5,
+          "end": 3.19
+        },
+        {
+          "text": "state",
+          "start": 3.19,
+          "end": 3.43
+        },
+        {
+          "text": "administration",
+          "start": 3.43,
+          "end": 4.26
+        },
+        {
+          "text": "had",
+          "start": 4.26,
+          "end": 4.48
+        },
+        {
+          "text": "tried",
+          "start": 4.48,
+          "end": 4.85
+        },
+        {
+          "text": "to",
+          "start": 4.85,
+          "end": 4.99
+        },
+        {
+          "text": "close",
+          "start": 4.99,
+          "end": 5.13
+        },
+        {
+          "text": "the",
+          "start": 5.13,
+          "end": 5.63
+        },
+        {
+          "text": "gap.",
+          "start": 5.63,
+          "end": 6.08
+        }
+      ]
+    },
+    {
+      "frame": 3,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 1150.37,
+      "duration_s": 3.85,
+      "words": [
+        {
+          "text": "A",
+          "start": 0,
+          "end": 0.05
+        },
+        {
+          "text": "smaller",
+          "start": 0.21,
+          "end": 0.49
+        },
+        {
+          "text": "version",
+          "start": 0.49,
+          "end": 0.81
+        },
+        {
+          "text": "of",
+          "start": 0.92,
+          "end": 0.98
+        },
+        {
+          "text": "the",
+          "start": 1.04,
+          "end": 1.24
+        },
+        {
+          "text": "project",
+          "start": 1.36,
+          "end": 1.68
+        },
+        {
+          "text": "on",
+          "start": 1.68,
+          "end": 1.8
+        },
+        {
+          "text": "an",
+          "start": 1.8,
+          "end": 1.92
+        },
+        {
+          "text": "adjacent",
+          "start": 1.92,
+          "end": 2.43
+        },
+        {
+          "text": "lot",
+          "start": 2.43,
+          "end": 2.62
+        },
+        {
+          "text": "was",
+          "start": 2.62,
+          "end": 2.81
+        },
+        {
+          "text": "discussed.",
+          "start": 2.81,
+          "end": 3.63
+        }
+      ]
+    },
+    {
+      "frame": 4,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 1154.22,
+      "duration_s": 1.78,
+      "words": [
+        {
+          "text": "The",
+          "start": 0,
+          "end": 0.01
+        },
+        {
+          "text": "arithmetic",
+          "start": 0.01,
+          "end": 0.6
+        },
+        {
+          "text": "did",
+          "start": 0.75,
+          "end": 1
+        },
+        {
+          "text": "not",
+          "start": 1.15,
+          "end": 1.23
+        },
+        {
+          "text": "work.",
+          "start": 1.23,
+          "end": 1.78
+        }
+      ]
+    },
+    {
+      "frame": 5,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 1156,
+      "duration_s": 6.18,
+      "words": [
+        {
+          "text": "On",
+          "start": 0,
+          "end": 0.22
+        },
+        {
+          "text": "March",
+          "start": 0.22,
+          "end": 0.37
+        },
+        {
+          "text": "12,",
+          "start": 0.47,
+          "end": 0.79
+        },
+        {
+          "text": "2026,",
+          "start": 0.79,
+          "end": 1.53
+        },
+        {
+          "text": "Sublime",
+          "start": 1.53,
+          "end": 1.9
+        },
+        {
+          "text": "confirmed",
+          "start": 1.9,
+          "end": 2.38
+        },
+        {
+          "text": "it",
+          "start": 2.38,
+          "end": 2.48
+        },
+        {
+          "text": "had",
+          "start": 2.48,
+          "end": 2.64
+        },
+        {
+          "text": "laid",
+          "start": 2.64,
+          "end": 2.82
+        },
+        {
+          "text": "off",
+          "start": 2.84,
+          "end": 2.87
+        },
+        {
+          "text": "approximately",
+          "start": 3.21,
+          "end": 3.71
+        },
+        {
+          "text": "two-thirds",
+          "start": 3.71,
+          "end": 4.24
+        },
+        {
+          "text": "of",
+          "start": 4.24,
+          "end": 4.34
+        },
+        {
+          "text": "its",
+          "start": 4.34,
+          "end": 4.5
+        },
+        {
+          "text": "workforce,",
+          "start": 4.5,
+          "end": 5.78
+        }
+      ]
+    },
+    {
+      "frame": 6,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 1162.18,
+      "duration_s": 5.78,
+      "words": [
+        {
+          "text": "attributing",
+          "start": 0,
+          "end": 0.31
+        },
+        {
+          "text": "the",
+          "start": 0.31,
+          "end": 0.45
+        },
+        {
+          "text": "decision",
+          "start": 0.45,
+          "end": 0.62
+        },
+        {
+          "text": "to",
+          "start": 0.83,
+          "end": 0.93
+        },
+        {
+          "text": "the",
+          "start": 0.93,
+          "end": 1.15
+        },
+        {
+          "text": "loss",
+          "start": 1.15,
+          "end": 1.26
+        },
+        {
+          "text": "of",
+          "start": 1.26,
+          "end": 1.35
+        },
+        {
+          "text": "the",
+          "start": 1.35,
+          "end": 1.49
+        },
+        {
+          "text": "federal",
+          "start": 1.49,
+          "end": 1.83
+        },
+        {
+          "text": "grant",
+          "start": 1.83,
+          "end": 2.06
+        },
+        {
+          "text": "and",
+          "start": 2.06,
+          "end": 2.21
+        },
+        {
+          "text": "the",
+          "start": 2.21,
+          "end": 2.35
+        },
+        {
+          "text": "compounding",
+          "start": 2.35,
+          "end": 2.63
+        },
+        {
+          "text": "difficulty",
+          "start": 2.99,
+          "end": 3.44
+        },
+        {
+          "text": "of",
+          "start": 3.44,
+          "end": 3.66
+        },
+        {
+          "text": "financing",
+          "start": 3.66,
+          "end": 4.25
+        },
+        {
+          "text": "scale-up",
+          "start": 4.25,
+          "end": 4.85
+        },
+        {
+          "text": "without",
+          "start": 4.85,
+          "end": 5.37
+        },
+        {
+          "text": "it.",
+          "start": 5.37,
+          "end": 5.78
+        }
+      ]
+    },
+    {
+      "frame": 7,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 1167.96,
+      "duration_s": 5.74,
+      "words": [
+        {
+          "text": "By",
+          "start": 0,
+          "end": 0.22
+        },
+        {
+          "text": "then,",
+          "start": 0.22,
+          "end": 0.49
+        },
+        {
+          "text": "the",
+          "start": 0.49,
+          "end": 0.67
+        },
+        {
+          "text": "appeals",
+          "start": 0.67,
+          "end": 0.84
+        },
+        {
+          "text": "process",
+          "start": 1.37,
+          "end": 1.53
+        },
+        {
+          "text": "had",
+          "start": 1.53,
+          "end": 1.71
+        },
+        {
+          "text": "been",
+          "start": 1.71,
+          "end": 1.96
+        },
+        {
+          "text": "running",
+          "start": 1.96,
+          "end": 2.39
+        },
+        {
+          "text": "for",
+          "start": 2.39,
+          "end": 2.57
+        },
+        {
+          "text": "close",
+          "start": 2.57,
+          "end": 2.84
+        },
+        {
+          "text": "to",
+          "start": 2.84,
+          "end": 3.21
+        },
+        {
+          "text": "10",
+          "start": 3.21,
+          "end": 3.36
+        },
+        {
+          "text": "months,",
+          "start": 3.38,
+          "end": 3.86
+        },
+        {
+          "text": "with",
+          "start": 3.99,
+          "end": 4.11
+        },
+        {
+          "text": "very",
+          "start": 4.11,
+          "end": 4.36
+        },
+        {
+          "text": "little",
+          "start": 4.36,
+          "end": 4.58
+        },
+        {
+          "text": "movement.",
+          "start": 4.86,
+          "end": 5.51
+        }
+      ]
+    },
+    {
+      "frame": 8,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 1173.7,
+      "duration_s": 4.38,
+      "words": [
+        {
+          "text": "Reporting",
+          "start": 0,
+          "end": 0.17
+        },
+        {
+          "text": "on",
+          "start": 0.25,
+          "end": 0.28
+        },
+        {
+          "text": "the",
+          "start": 0.28,
+          "end": 0.41
+        },
+        {
+          "text": "wider",
+          "start": 0.41,
+          "end": 0.6
+        },
+        {
+          "text": "program",
+          "start": 0.6,
+          "end": 0.65
+        },
+        {
+          "text": "describes",
+          "start": 1.15,
+          "end": 1.37
+        },
+        {
+          "text": "the",
+          "start": 1.37,
+          "end": 1.5
+        },
+        {
+          "text": "same",
+          "start": 1.5,
+          "end": 1.68
+        },
+        {
+          "text": "pattern",
+          "start": 1.68,
+          "end": 2
+        },
+        {
+          "text": "across",
+          "start": 2,
+          "end": 2.26
+        },
+        {
+          "text": "many",
+          "start": 2.27,
+          "end": 2.45
+        },
+        {
+          "text": "of",
+          "start": 2.45,
+          "end": 2.54
+        },
+        {
+          "text": "the",
+          "start": 2.54,
+          "end": 2.62
+        },
+        {
+          "text": "canceled",
+          "start": 2.99,
+          "end": 3.04
+        },
+        {
+          "text": "awards.",
+          "start": 3.16,
+          "end": 4.16
+        }
+      ]
+    },
+    {
+      "frame": 9,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 1178.08,
+      "duration_s": 6.34,
+      "words": [
+        {
+          "text": "Some",
+          "start": 0,
+          "end": 0.01
+        },
+        {
+          "text": "recipients",
+          "start": 0.01,
+          "end": 0.58
+        },
+        {
+          "text": "withdrawing",
+          "start": 0.58,
+          "end": 1.21
+        },
+        {
+          "text": "and",
+          "start": 1.21,
+          "end": 1.38
+        },
+        {
+          "text": "seeking",
+          "start": 1.38,
+          "end": 1.78
+        },
+        {
+          "text": "private",
+          "start": 1.78,
+          "end": 2.18
+        },
+        {
+          "text": "money,",
+          "start": 2.18,
+          "end": 2.57
+        },
+        {
+          "text": "some",
+          "start": 2.57,
+          "end": 2.65
+        },
+        {
+          "text": "litigating,",
+          "start": 2.97,
+          "end": 3.48
+        },
+        {
+          "text": "many",
+          "start": 3.48,
+          "end": 3.49
+        },
+        {
+          "text": "still",
+          "start": 3.77,
+          "end": 3.99
+        },
+        {
+          "text": "inside",
+          "start": 3.99,
+          "end": 4.36
+        },
+        {
+          "text": "an",
+          "start": 4.36,
+          "end": 4.6
+        },
+        {
+          "text": "internal",
+          "start": 4.6,
+          "end": 4.9
+        },
+        {
+          "text": "appeals",
+          "start": 4.9,
+          "end": 5.2
+        },
+        {
+          "text": "process",
+          "start": 5.26,
+          "end": 5.29
+        },
+        {
+          "text": "at",
+          "start": 5.29,
+          "end": 5.75
+        },
+        {
+          "text": "an",
+          "start": 5.75,
+          "end": 5.82
+        },
+        {
+          "text": "agency",
+          "start": 5.82,
+          "end": 6.13
+        },
+        {
+          "text": "that",
+          "start": 6.13,
+          "end": 6.34
+        }
+      ]
+    },
+    {
+      "frame": 10,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 1184.42,
+      "duration_s": 3.56,
+      "words": [
+        {
+          "text": "went",
+          "start": 0,
+          "end": 0.1
+        },
+        {
+          "text": "through",
+          "start": 0.21,
+          "end": 0.56
+        },
+        {
+          "text": "large",
+          "start": 0.57,
+          "end": 0.83
+        },
+        {
+          "text": "staff",
+          "start": 0.83,
+          "end": 0.91
+        },
+        {
+          "text": "reductions",
+          "start": 1.25,
+          "end": 1.61
+        },
+        {
+          "text": "in",
+          "start": 1.61,
+          "end": 1.71
+        },
+        {
+          "text": "the",
+          "start": 1.71,
+          "end": 1.75
+        },
+        {
+          "text": "same",
+          "start": 2.16,
+          "end": 2.33
+        },
+        {
+          "text": "period.",
+          "start": 2.41,
+          "end": 3.34
+        }
+      ]
+    }
+  ],
+  "sfx": []
+}

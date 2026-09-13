@@ -1,0 +1,1955 @@
+{
+ "10": {
+  "archetype": "none",
+  "enterAt": 3.12,
+  "reason": "number signal but no figure found in the beat text",
+  "enterAtSource": "cue-word-lead"
+ },
+ "11": {
+  "archetype": "none",
+  "enterAt": 0.94,
+  "reason": "prose — footage carries it"
+ },
+ "12": {
+  "archetype": "none",
+  "enterAt": 0.84,
+  "reason": "prose — footage carries it"
+ },
+ "13": {
+  "archetype": "number-badge",
+  "value": "2,640 degrees",
+  "unit": "",
+  "label": "",
+  "position": "upper-left",
+  "enterAt": 1.39,
+  "reason": "figure 2,640 degrees on a badge",
+  "placement": "middle-left"
+ },
+ "14": {
+  "archetype": "none",
+  "enterAt": 1.33,
+  "reason": "prose — footage carries it"
+ },
+ "15": {
+  "archetype": "number-badge",
+  "value": "44%",
+  "unit": "",
+  "label": "",
+  "position": "upper-left",
+  "enterAt": 0.97,
+  "reason": "figure 44% on a badge",
+  "placement": "middle-center"
+ },
+ "16": {
+  "archetype": "none",
+  "enterAt": 1.25,
+  "reason": "prose — footage carries it"
+ },
+ "17": {
+  "archetype": "none",
+  "enterAt": 1.09,
+  "reason": "prose — footage carries it"
+ },
+ "18": {
+  "archetype": "none",
+  "enterAt": 1.13,
+  "reason": "prose — footage carries it"
+ },
+ "19": {
+  "archetype": "none",
+  "enterAt": 0.8,
+  "reason": "prose — footage carries it"
+ },
+ "20": {
+  "archetype": "none",
+  "enterAt": 1.26,
+  "reason": "prose — footage carries it"
+ },
+ "21": {
+  "archetype": "none",
+  "enterAt": 1.27,
+  "reason": "prose — footage carries it"
+ },
+ "22": {
+  "archetype": "title-card",
+  "title": "the claim",
+  "kicker": "Part 2",
+  "enterAt": 0.2,
+  "reason": "section start \"the-claim\" — template section-start device",
+  "placement": "middle-left"
+ },
+ "23": {
+  "archetype": "keyword-flash",
+  "text": "NO KILN, NO FLAME",
+  "position": "center",
+  "enterAt": 3.04,
+  "reason": "stressed keyword",
+  "enterAtSource": "cue-word-lead",
+  "placement": "middle-center",
+  "entrance": "pop-scale"
+ },
+ "24": {
+  "archetype": "keyword-flash",
+  "text": "ROOM TEMPERATURE",
+  "position": "center",
+  "enterAt": 2.36,
+  "reason": "stressed keyword",
+  "enterAtSource": "cue-word-lead",
+  "placement": "middle-left"
+ },
+ "25": {
+  "archetype": "none",
+  "enterAt": 1.23,
+  "reason": "prose — footage carries it"
+ },
+ "26": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "27": {
+  "archetype": "number-badge",
+  "value": "600,000",
+  "unit": "",
+  "label": "",
+  "position": "upper-left",
+  "enterAt": 1.35,
+  "reason": "figure 600,000 on a badge",
+  "placement": "middle-center"
+ },
+ "28": {
+  "archetype": "year-stamp",
+  "text": "2025",
+  "position": "lower-right",
+  "enterAt": 4.93,
+  "reason": "year 2025",
+  "enterAtSource": "cue-word-lead"
+ },
+ "29": {
+  "archetype": "none",
+  "enterAt": 1.3,
+  "reason": "prose — footage carries it"
+ },
+ "30": {
+  "archetype": "none",
+  "enterAt": 1.29,
+  "reason": "prose — footage carries it"
+ },
+ "31": {
+  "archetype": "none",
+  "enterAt": 0.8,
+  "reason": "prose — footage carries it"
+ },
+ "32": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "33": {
+  "archetype": "none",
+  "enterAt": 1.32,
+  "reason": "prose — footage carries it"
+ },
+ "34": {
+  "archetype": "number-badge",
+  "value": "$87 million",
+  "unit": "",
+  "label": "",
+  "position": "upper-left",
+  "enterAt": 1.4,
+  "reason": "figure $87 million on a badge",
+  "placement": "middle-right"
+ },
+ "35": {
+  "archetype": "none",
+  "enterAt": 0.8,
+  "reason": "prose — footage carries it"
+ },
+ "36": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "37": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "38": {
+  "archetype": "title-card",
+  "title": "the kiln",
+  "kicker": "Part 3",
+  "enterAt": 0.2,
+  "reason": "section start \"the-kiln\" — template section-start device",
+  "placement": "middle-center",
+  "entrance": "pop-scale"
+ },
+ "39": {
+  "archetype": "year-stamp",
+  "text": "1824",
+  "position": "lower-right",
+  "enterAt": 4.29,
+  "reason": "year 1824",
+  "enterAtSource": "cue-word-lead"
+ },
+ "40": {
+  "archetype": "none",
+  "enterAt": 1.28,
+  "reason": "prose — footage carries it"
+ },
+ "41": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "42": {
+  "archetype": "none",
+  "enterAt": 1.27,
+  "reason": "prose — footage carries it"
+ },
+ "43": {
+  "archetype": "none",
+  "enterAt": 0.85,
+  "reason": "prose — footage carries it"
+ },
+ "44": {
+  "archetype": "none",
+  "enterAt": 0.8,
+  "reason": "prose — footage carries it"
+ },
+ "45": {
+  "archetype": "number-badge",
+  "value": "1,450 degrees",
+  "unit": "",
+  "label": "",
+  "position": "upper-left",
+  "enterAt": 1.27,
+  "reason": "figure 1,450 degrees on a badge",
+  "placement": "middle-left"
+ },
+ "46": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "47": {
+  "archetype": "none",
+  "enterAt": 1.38,
+  "reason": "prose — footage carries it"
+ },
+ "48": {
+  "archetype": "none",
+  "enterAt": 1.04,
+  "reason": "prose — footage carries it"
+ },
+ "49": {
+  "archetype": "none",
+  "enterAt": 1.37,
+  "reason": "prose — footage carries it"
+ },
+ "50": {
+  "archetype": "none",
+  "enterAt": 0.8,
+  "reason": "prose — footage carries it"
+ },
+ "51": {
+  "archetype": "none",
+  "enterAt": 1.37,
+  "reason": "prose — footage carries it"
+ },
+ "52": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "53": {
+  "archetype": "none",
+  "enterAt": 1.34,
+  "reason": "prose — footage carries it"
+ },
+ "54": {
+  "archetype": "none",
+  "enterAt": 0.8,
+  "reason": "prose — footage carries it"
+ },
+ "55": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "56": {
+  "archetype": "definition-callout",
+  "term": "calcination Let's",
+  "definition": "CALCINATION",
+  "enterAt": 1.3,
+  "reason": "jargon",
+  "enterAtSource": "cue-word-lead",
+  "placement": "middle-center"
+ },
+ "57": {
+  "archetype": "none",
+  "enterAt": 0.85,
+  "reason": "prose — footage carries it"
+ },
+ "58": {
+  "archetype": "keyword-flash",
+  "text": "IT IS THE REACTION",
+  "position": "center",
+  "enterAt": 1.42,
+  "reason": "stressed keyword",
+  "enterAtSource": "cue-word-lead",
+  "placement": "middle-right"
+ },
+ "59": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "60": {
+  "archetype": "number-badge",
+  "value": "8%",
+  "unit": "",
+  "label": "",
+  "position": "upper-left",
+  "enterAt": 1.4,
+  "reason": "figure 8% on a badge",
+  "placement": "middle-center",
+  "entrance": "pop-scale"
+ },
+ "61": {
+  "archetype": "none",
+  "enterAt": 0.8,
+  "reason": "prose — footage carries it"
+ },
+ "62": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "63": {
+  "archetype": "none",
+  "enterAt": 0.8,
+  "reason": "prose — footage carries it"
+ },
+ "64": {
+  "archetype": "title-card",
+  "title": "what was tried",
+  "kicker": "Part 4",
+  "enterAt": 0.2,
+  "reason": "section start \"what-was-tried\" — template section-start device",
+  "placement": "lower-center"
+ },
+ "65": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "66": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "67": {
+  "archetype": "none",
+  "enterAt": 0.8,
+  "reason": "prose — footage carries it"
+ },
+ "68": {
+  "archetype": "none",
+  "enterAt": 1.27,
+  "reason": "prose — footage carries it"
+ },
+ "69": {
+  "archetype": "none",
+  "enterAt": 1.12,
+  "reason": "prose — footage carries it"
+ },
+ "70": {
+  "archetype": "none",
+  "enterAt": 1.13,
+  "reason": "prose — footage carries it"
+ },
+ "71": {
+  "archetype": "none",
+  "enterAt": 1.13,
+  "reason": "prose — footage carries it"
+ },
+ "72": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "73": {
+  "archetype": "none",
+  "enterAt": 0.8,
+  "reason": "prose — footage carries it"
+ },
+ "74": {
+  "archetype": "none",
+  "enterAt": 0.95,
+  "reason": "prose — footage carries it"
+ },
+ "75": {
+  "archetype": "none",
+  "enterAt": 1.21,
+  "reason": "prose — footage carries it"
+ },
+ "76": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "77": {
+  "archetype": "none",
+  "enterAt": 0.8,
+  "reason": "prose — footage carries it"
+ },
+ "78": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "79": {
+  "archetype": "none",
+  "enterAt": 1.23,
+  "reason": "prose — footage carries it"
+ },
+ "80": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "81": {
+  "archetype": "none",
+  "enterAt": 0.97,
+  "reason": "prose — footage carries it"
+ },
+ "82": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "83": {
+  "archetype": "none",
+  "enterAt": 1.04,
+  "reason": "prose — footage carries it"
+ },
+ "84": {
+  "archetype": "none",
+  "enterAt": 1.2,
+  "reason": "prose — footage carries it"
+ },
+ "85": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "86": {
+  "archetype": "none",
+  "enterAt": 0.8,
+  "reason": "prose — footage carries it"
+ },
+ "87": {
+  "archetype": "title-card",
+  "title": "the electrochemists",
+  "kicker": "Part 5",
+  "enterAt": 0.2,
+  "reason": "section start \"the-electrochemists\" — template section-start device",
+  "placement": "middle-center"
+ },
+ "88": {
+  "archetype": "solid-box-label",
+  "text": "SUBLIME SYSTEMS",
+  "position": "upper-left",
+  "variant": "primary",
+  "enterAt": 1.98,
+  "reason": "new-topic",
+  "enterAtSource": "cue-word-lead",
+  "placement": "middle-left"
+ },
+ "89": {
+  "archetype": "year-stamp",
+  "text": "2020",
+  "position": "lower-right",
+  "enterAt": 5.49,
+  "reason": "year 2020",
+  "enterAtSource": "cue-word-lead"
+ },
+ "90": {
+  "archetype": "none",
+  "enterAt": 0.8,
+  "reason": "prose — footage carries it"
+ },
+ "91": {
+  "archetype": "solid-box-label",
+  "text": "MIT",
+  "position": "upper-left",
+  "variant": "primary",
+  "enterAt": 2.82,
+  "reason": "new-topic",
+  "enterAtSource": "cue-word-lead",
+  "placement": "middle-center",
+  "entrance": "pop-scale"
+ },
+ "92": {
+  "archetype": "none",
+  "enterAt": 1.27,
+  "reason": "prose — footage carries it"
+ },
+ "93": {
+  "archetype": "keyword-flash",
+  "text": "ELECTROCHEMISTS",
+  "position": "center",
+  "enterAt": 1.48,
+  "reason": "stressed keyword",
+  "enterAtSource": "cue-word-lead",
+  "placement": "middle-right"
+ },
+ "94": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "95": {
+  "archetype": "none",
+  "enterAt": 0.8,
+  "reason": "prose — footage carries it"
+ },
+ "96": {
+  "archetype": "none",
+  "enterAt": 1.39,
+  "reason": "prose — footage carries it"
+ },
+ "97": {
+  "archetype": "none",
+  "enterAt": 0.8,
+  "reason": "prose — footage carries it"
+ },
+ "98": {
+  "archetype": "number-badge",
+  "value": "1450 degrees",
+  "unit": "",
+  "label": "",
+  "position": "upper-left",
+  "enterAt": 1.31,
+  "reason": "figure 1450 degrees on a badge",
+  "placement": "middle-center"
+ },
+ "99": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "100": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "101": {
+  "archetype": "definition-callout",
+  "term": "Electrochemistry opposite",
+  "definition": "ELECTROCHEMISTRY",
+  "enterAt": 3.4,
+  "reason": "jargon",
+  "enterAtSource": "cue-word-lead",
+  "placement": "lower-center"
+ },
+ "102": {
+  "archetype": "none",
+  "enterAt": 0.8,
+  "reason": "prose — footage carries it"
+ },
+ "103": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "104": {
+  "archetype": "none",
+  "enterAt": 0.93,
+  "reason": "prose — footage carries it"
+ },
+ "105": {
+  "archetype": "none",
+  "enterAt": 0.8,
+  "reason": "prose — footage carries it"
+ },
+ "106": {
+  "archetype": "none",
+  "enterAt": 1.35,
+  "reason": "prose — footage carries it"
+ },
+ "107": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "108": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "109": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "110": {
+  "archetype": "none",
+  "enterAt": 0.8,
+  "reason": "prose — footage carries it"
+ },
+ "111": {
+  "archetype": "keyword-flash",
+  "text": "NO FLAME TO DECARBONIZE",
+  "position": "center",
+  "enterAt": 3.49,
+  "reason": "stressed keyword",
+  "enterAtSource": "cue-word-lead",
+  "placement": "middle-center",
+  "entrance": "pop-scale"
+ },
+ "112": {
+  "archetype": "none",
+  "enterAt": 1.18,
+  "reason": "prose — footage carries it"
+ },
+ "113": {
+  "archetype": "keyword-flash",
+  "text": "NO LIMESTONE",
+  "position": "center",
+  "enterAt": 1.65,
+  "reason": "stressed keyword",
+  "enterAtSource": "cue-word-lead",
+  "placement": "middle-left"
+ },
+ "114": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "115": {
+  "archetype": "none",
+  "enterAt": 1.33,
+  "reason": "prose — footage carries it"
+ },
+ "116": {
+  "archetype": "none",
+  "enterAt": 0.88,
+  "reason": "prose — footage carries it"
+ },
+ "117": {
+  "archetype": "keyword-flash",
+  "text": "A DIFFERENT ANSWER",
+  "position": "center",
+  "enterAt": 4.18,
+  "reason": "stressed keyword",
+  "enterAtSource": "cue-word-lead",
+  "placement": "middle-center"
+ },
+ "118": {
+  "archetype": "none",
+  "enterAt": 1.13,
+  "reason": "prose — footage carries it"
+ },
+ "119": {
+  "archetype": "title-card",
+  "title": "what follows",
+  "kicker": "Part 6",
+  "enterAt": 0.2,
+  "reason": "section start \"what-follows\" — template section-start device",
+  "placement": "middle-right"
+ },
+ "120": {
+  "archetype": "number-badge",
+  "value": "30",
+  "unit": "",
+  "label": "",
+  "position": "upper-left",
+  "enterAt": 1.4,
+  "reason": "figure 30 on a badge",
+  "placement": "middle-center",
+  "entrance": "pop-scale"
+ },
+ "121": {
+  "archetype": "none",
+  "enterAt": 1.09,
+  "reason": "prose — footage carries it"
+ },
+ "122": {
+  "archetype": "none",
+  "enterAt": 1.39,
+  "reason": "prose — footage carries it"
+ },
+ "123": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "124": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "125": {
+  "archetype": "none",
+  "enterAt": 1.05,
+  "reason": "prose — footage carries it"
+ },
+ "126": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "127": {
+  "archetype": "none",
+  "enterAt": 1.33,
+  "reason": "prose — footage carries it"
+ },
+ "128": {
+  "archetype": "none",
+  "enterAt": 0.98,
+  "reason": "prose — footage carries it"
+ },
+ "129": {
+  "archetype": "none",
+  "enterAt": 1.26,
+  "reason": "prose — footage carries it"
+ },
+ "130": {
+  "archetype": "none",
+  "enterAt": 0.98,
+  "reason": "prose — footage carries it"
+ },
+ "131": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "132": {
+  "archetype": "none",
+  "enterAt": 0.8,
+  "reason": "prose — footage carries it"
+ },
+ "133": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "134": {
+  "archetype": "keyword-flash",
+  "text": "WILL ANYONE BUILD IT?",
+  "position": "center",
+  "enterAt": 1.86,
+  "reason": "stressed keyword",
+  "enterAtSource": "cue-word-lead",
+  "placement": "lower-center"
+ },
+ "135": {
+  "archetype": "title-card",
+  "title": "the graveyard",
+  "kicker": "Part 7",
+  "enterAt": 0.2,
+  "reason": "section start \"the-graveyard\" — template section-start device",
+  "placement": "middle-center"
+ },
+ "136": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "137": {
+  "archetype": "year-stamp",
+  "text": "2012",
+  "position": "lower-right",
+  "enterAt": 6.2,
+  "reason": "year 2012",
+  "enterAtSource": "cue-word-lead"
+ },
+ "138": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "139": {
+  "archetype": "none",
+  "enterAt": 0.8,
+  "reason": "prose — footage carries it"
+ },
+ "140": {
+  "archetype": "none",
+  "enterAt": 0.8,
+  "reason": "prose — footage carries it"
+ },
+ "141": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "142": {
+  "archetype": "keyword-flash",
+  "text": "LIABILITY",
+  "position": "center",
+  "enterAt": 4.33,
+  "reason": "stressed keyword",
+  "enterAtSource": "cue-word-lead",
+  "placement": "middle-left"
+ },
+ "143": {
+  "archetype": "none",
+  "enterAt": 0.8,
+  "reason": "prose — footage carries it"
+ },
+ "144": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "145": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "146": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "147": {
+  "archetype": "none",
+  "enterAt": 0.85,
+  "reason": "prose — footage carries it"
+ },
+ "148": {
+  "archetype": "keyword-flash",
+  "text": "IN THE PAPERWORK",
+  "position": "center",
+  "enterAt": 4.27,
+  "reason": "stressed keyword",
+  "enterAtSource": "cue-word-lead",
+  "placement": "middle-center",
+  "entrance": "pop-scale"
+ },
+ "149": {
+  "archetype": "title-card",
+  "title": "the paperwork",
+  "kicker": "Part 8",
+  "enterAt": 0.2,
+  "reason": "section start \"the-paperwork\" — template section-start device",
+  "placement": "middle-right"
+ },
+ "150": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "151": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "152": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "153": {
+  "archetype": "none",
+  "enterAt": 0.8,
+  "reason": "prose — footage carries it"
+ },
+ "154": {
+  "archetype": "definition-callout",
+  "term": "performance standard",
+  "definition": "PERFORMANCE STANDARD",
+  "enterAt": 1.24,
+  "reason": "jargon",
+  "enterAtSource": "cue-word-lead",
+  "placement": "middle-center"
+ },
+ "155": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "156": {
+  "archetype": "none",
+  "enterAt": 1.07,
+  "reason": "prose — footage carries it"
+ },
+ "157": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "158": {
+  "archetype": "none",
+  "enterAt": 1.39,
+  "reason": "prose — footage carries it"
+ },
+ "159": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "160": {
+  "archetype": "keyword-flash",
+  "text": "DROP-IN REPLACEMENT",
+  "position": "center",
+  "enterAt": 5.89,
+  "reason": "stressed keyword",
+  "enterAtSource": "cue-word-lead",
+  "placement": "lower-center"
+ },
+ "161": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "162": {
+  "archetype": "year-stamp",
+  "text": "2024",
+  "position": "lower-right",
+  "enterAt": 3.8,
+  "reason": "year 2024",
+  "enterAtSource": "cue-word-lead"
+ },
+ "163": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "164": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "165": {
+  "archetype": "none",
+  "enterAt": 0.8,
+  "reason": "prose — footage carries it"
+ },
+ "166": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "167": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "168": {
+  "archetype": "keyword-flash",
+  "text": "A BORING DAY",
+  "position": "center",
+  "enterAt": 3.88,
+  "reason": "stressed keyword",
+  "enterAtSource": "cue-word-lead",
+  "placement": "upper-center",
+  "entrance": "pop-scale"
+ },
+ "169": {
+  "archetype": "none",
+  "enterAt": 0.8,
+  "reason": "prose — footage carries it"
+ },
+ "170": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "171": {
+  "archetype": "none",
+  "enterAt": 1.38,
+  "reason": "prose — footage carries it"
+ },
+ "172": {
+  "archetype": "title-card",
+  "title": "rome",
+  "kicker": "Part 9",
+  "enterAt": 0.2,
+  "reason": "section start \"rome\" — template section-start device",
+  "placement": "middle-center"
+ },
+ "173": {
+  "archetype": "location-stamp",
+  "place": "ROMAN CONCRETE",
+  "enterAt": 3.96,
+  "reason": "named place",
+  "enterAtSource": "cue-word-lead"
+ },
+ "174": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "175": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "176": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "177": {
+  "archetype": "none",
+  "enterAt": 1.34,
+  "reason": "prose — footage carries it"
+ },
+ "178": {
+  "archetype": "number-badge",
+  "value": "1,450 degree",
+  "unit": "",
+  "label": "",
+  "position": "upper-left",
+  "enterAt": 1.4,
+  "reason": "figure 1,450 degree on a badge",
+  "placement": "middle-left"
+ },
+ "179": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "180": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "181": {
+  "archetype": "none",
+  "enterAt": 1.3,
+  "reason": "prose — footage carries it"
+ },
+ "182": {
+  "archetype": "solid-box-label",
+  "text": "MIT",
+  "position": "upper-left",
+  "variant": "primary",
+  "enterAt": 6.27,
+  "reason": "new-topic",
+  "enterAtSource": "cue-word-lead",
+  "placement": "middle-right"
+ },
+ "183": {
+  "archetype": "none",
+  "enterAt": 1.24,
+  "reason": "prose — footage carries it"
+ },
+ "184": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "185": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "186": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "187": {
+  "archetype": "keyword-flash",
+  "text": "SELF-HEALING",
+  "position": "center",
+  "enterAt": 4.84,
+  "reason": "stressed keyword",
+  "enterAtSource": "cue-word-lead",
+  "placement": "lower-center",
+  "entrance": "pop-scale"
+ },
+ "188": {
+  "archetype": "none",
+  "enterAt": 0.8,
+  "reason": "prose — footage carries it"
+ },
+ "189": {
+  "archetype": "none",
+  "enterAt": 0.9,
+  "reason": "prose — footage carries it"
+ },
+ "190": {
+  "archetype": "none",
+  "enterAt": 1.1,
+  "reason": "prose — footage carries it"
+ },
+ "191": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "192": {
+  "archetype": "none",
+  "enterAt": 0.89,
+  "reason": "prose — footage carries it"
+ },
+ "193": {
+  "archetype": "none",
+  "enterAt": 0.8,
+  "reason": "prose — footage carries it"
+ },
+ "194": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "195": {
+  "archetype": "none",
+  "enterAt": 0.8,
+  "reason": "prose — footage carries it"
+ },
+ "196": {
+  "archetype": "none",
+  "enterAt": 0.8,
+  "reason": "prose — footage carries it"
+ },
+ "197": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "198": {
+  "archetype": "none",
+  "enterAt": 1.3,
+  "reason": "prose — footage carries it"
+ },
+ "199": {
+  "archetype": "keyword-flash",
+  "text": "MAKING IT COLD AGAIN",
+  "position": "center",
+  "enterAt": 4.6,
+  "reason": "stressed keyword",
+  "enterAtSource": "cue-word-lead",
+  "placement": "upper-center"
+ },
+ "200": {
+  "archetype": "title-card",
+  "title": "the money",
+  "kicker": "Part 10",
+  "enterAt": 0.2,
+  "reason": "section start \"the-money\" — template section-start device",
+  "placement": "upper-right"
+ },
+ "201": {
+  "archetype": "none",
+  "enterAt": 0.8,
+  "reason": "prose — footage carries it"
+ },
+ "202": {
+  "archetype": "keyword-flash",
+  "text": "WHO PUT MONEY IN?",
+  "position": "center",
+  "enterAt": 4,
+  "reason": "stressed keyword",
+  "enterAtSource": "cue-word-lead",
+  "placement": "upper-left"
+ },
+ "203": {
+  "archetype": "none",
+  "enterAt": 0.8,
+  "reason": "prose — footage carries it"
+ },
+ "204": {
+  "archetype": "year-stamp",
+  "text": "2024",
+  "position": "lower-right",
+  "enterAt": 1.6,
+  "reason": "year 2024",
+  "enterAtSource": "cue-word-lead"
+ },
+ "205": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "206": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "207": {
+  "archetype": "none",
+  "enterAt": 0.8,
+  "reason": "prose — footage carries it"
+ },
+ "208": {
+  "archetype": "none",
+  "enterAt": 0.8,
+  "reason": "prose — footage carries it"
+ },
+ "209": {
+  "archetype": "none",
+  "enterAt": 0.97,
+  "reason": "prose — footage carries it"
+ },
+ "210": {
+  "archetype": "none",
+  "enterAt": 1.05,
+  "reason": "prose — footage carries it"
+ },
+ "211": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "212": {
+  "archetype": "none",
+  "enterAt": 0.8,
+  "reason": "prose — footage carries it"
+ },
+ "213": {
+  "archetype": "keyword-flash",
+  "text": "CHECKS AND TONNAGE",
+  "position": "center",
+  "enterAt": 2.96,
+  "reason": "stressed keyword",
+  "enterAtSource": "cue-word-lead",
+  "placement": "lower-left",
+  "entrance": "pop-scale"
+ },
+ "214": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "215": {
+  "archetype": "none",
+  "enterAt": 0.8,
+  "reason": "prose — footage carries it"
+ },
+ "216": {
+  "archetype": "year-stamp",
+  "text": "2025",
+  "position": "lower-right",
+  "enterAt": 6.46,
+  "reason": "year 2025",
+  "enterAtSource": "cue-word-lead"
+ },
+ "217": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "218": {
+  "archetype": "none",
+  "enterAt": 1.02,
+  "reason": "prose — footage carries it"
+ },
+ "219": {
+  "archetype": "keyword-flash",
+  "text": "BINDING",
+  "position": "center",
+  "enterAt": 4.52,
+  "reason": "stressed keyword",
+  "enterAtSource": "cue-word-lead",
+  "placement": "middle-center"
+ },
+ "220": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "221": {
+  "archetype": "none",
+  "enterAt": 1.11,
+  "reason": "prose — footage carries it"
+ },
+ "222": {
+  "archetype": "none",
+  "enterAt": 0.8,
+  "reason": "prose — footage carries it"
+ },
+ "223": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "224": {
+  "archetype": "none",
+  "enterAt": 1.38,
+  "reason": "prose — footage carries it"
+ },
+ "225": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "226": {
+  "archetype": "number-badge",
+  "value": "$200 million",
+  "unit": "",
+  "label": "",
+  "position": "upper-left",
+  "enterAt": 1.4,
+  "reason": "figure $200 million on a badge",
+  "placement": "middle-left"
+ },
+ "227": {
+  "archetype": "none",
+  "enterAt": 0.88,
+  "reason": "prose — footage carries it"
+ },
+ "228": {
+  "archetype": "year-stamp",
+  "text": "2025",
+  "position": "lower-right",
+  "enterAt": 6.16,
+  "reason": "year 2025",
+  "enterAtSource": "cue-word-lead"
+ },
+ "229": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "230": {
+  "archetype": "title-card",
+  "title": "holyoke",
+  "kicker": "Part 11",
+  "enterAt": 0.2,
+  "reason": "section start \"holyoke\" — template section-start device",
+  "placement": "middle-right"
+ },
+ "231": {
+  "archetype": "number-badge",
+  "value": "2024",
+  "unit": "",
+  "label": "",
+  "position": "upper-left",
+  "enterAt": 1.4,
+  "reason": "figure 2024 on a badge",
+  "placement": "lower-center",
+  "entrance": "pop-scale"
+ },
+ "232": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "233": {
+  "archetype": "number-badge",
+  "value": "30,000",
+  "unit": "",
+  "label": "",
+  "position": "upper-left",
+  "enterAt": 0.8,
+  "reason": "figure 30,000 on a badge",
+  "placement": "upper-center"
+ },
+ "234": {
+  "archetype": "number-badge",
+  "value": "2025",
+  "unit": "",
+  "label": "",
+  "position": "upper-left",
+  "enterAt": 1.4,
+  "reason": "figure 2025 on a badge",
+  "placement": "upper-right"
+ },
+ "235": {
+  "archetype": "number-badge",
+  "value": "$150 million",
+  "unit": "",
+  "label": "",
+  "position": "upper-left",
+  "enterAt": 1.38,
+  "reason": "figure $150 million on a badge",
+  "placement": "upper-left"
+ },
+ "236": {
+  "archetype": "location-stamp",
+  "place": "HOLYOKE, MA",
+  "enterAt": 5.21,
+  "reason": "named place",
+  "enterAtSource": "cue-word-lead"
+ },
+ "237": {
+  "archetype": "none",
+  "enterAt": 0.89,
+  "reason": "prose — footage carries it"
+ },
+ "238": {
+  "archetype": "location-stamp",
+  "place": "HOLYOKE, MA",
+  "enterAt": 1.24,
+  "reason": "named place",
+  "enterAtSource": "cue-word-lead"
+ },
+ "239": {
+  "archetype": "number-badge",
+  "value": "19",
+  "unit": "",
+  "label": "",
+  "position": "upper-left",
+  "enterAt": 1.4,
+  "reason": "figure 19 on a badge",
+  "placement": "lower-left",
+  "entrance": "pop-scale"
+ },
+ "240": {
+  "archetype": "none",
+  "enterAt": 0.89,
+  "reason": "prose — footage carries it"
+ },
+ "241": {
+  "archetype": "none",
+  "enterAt": 0.84,
+  "reason": "prose — footage carries it"
+ },
+ "242": {
+  "archetype": "none",
+  "enterAt": 0.8,
+  "reason": "prose — footage carries it"
+ },
+ "243": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "244": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "245": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "246": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "247": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "248": {
+  "archetype": "none",
+  "enterAt": 1.31,
+  "reason": "prose — footage carries it"
+ },
+ "249": {
+  "archetype": "keyword-flash",
+  "text": "HALF THE MONEY GONE",
+  "position": "center",
+  "enterAt": 4.06,
+  "reason": "stressed keyword",
+  "enterAtSource": "cue-word-lead",
+  "placement": "lower-right"
+ },
+ "250": {
+  "archetype": "title-card",
+  "title": "the cancellation",
+  "kicker": "Part 12",
+  "enterAt": 0.2,
+  "reason": "section start \"the-cancellation\" — template section-start device",
+  "placement": "middle-center"
+ },
+ "251": {
+  "archetype": "year-stamp",
+  "text": "2025",
+  "position": "lower-right",
+  "enterAt": 6.34,
+  "reason": "year 2025",
+  "enterAtSource": "cue-word-lead"
+ },
+ "252": {
+  "archetype": "number-badge",
+  "value": "$3.7 billion",
+  "unit": "",
+  "label": "",
+  "position": "upper-left",
+  "enterAt": 0.99,
+  "reason": "figure $3.7 billion on a badge",
+  "placement": "middle-left"
+ },
+ "253": {
+  "archetype": "number-badge",
+  "value": "$87 million",
+  "unit": "",
+  "label": "",
+  "position": "upper-left",
+  "enterAt": 0.8,
+  "reason": "figure $87 million on a badge",
+  "placement": "middle-right",
+  "entrance": "pop-scale"
+ },
+ "254": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "255": {
+  "archetype": "none",
+  "enterAt": 1.16,
+  "reason": "prose — footage carries it"
+ },
+ "256": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "257": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "258": {
+  "archetype": "none",
+  "enterAt": 0.91,
+  "reason": "prose — footage carries it"
+ },
+ "259": {
+  "archetype": "number-badge",
+  "value": "50%",
+  "unit": "",
+  "label": "",
+  "position": "upper-left",
+  "enterAt": 0.86,
+  "reason": "figure 50% on a badge",
+  "placement": "lower-center"
+ },
+ "260": {
+  "archetype": "number-badge",
+  "value": "4,",
+  "unit": "",
+  "label": "",
+  "position": "upper-left",
+  "enterAt": 1.4,
+  "reason": "figure 4, on a badge",
+  "placement": "upper-center"
+ },
+ "261": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "262": {
+  "archetype": "none",
+  "enterAt": 1.12,
+  "reason": "prose — footage carries it"
+ },
+ "263": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "264": {
+  "archetype": "none",
+  "enterAt": 1.16,
+  "reason": "prose — footage carries it"
+ },
+ "265": {
+  "archetype": "keyword-flash",
+  "text": "THE ARITHMETIC FAILED",
+  "position": "center",
+  "enterAt": 1.38,
+  "reason": "stressed keyword",
+  "enterAtSource": "cue-word-lead",
+  "placement": "upper-right"
+ },
+ "266": {
+  "archetype": "year-stamp",
+  "text": "2026",
+  "position": "lower-right",
+  "enterAt": 5.78,
+  "reason": "year 2026",
+  "enterAtSource": "cue-word-lead"
+ },
+ "267": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "268": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "269": {
+  "archetype": "none",
+  "enterAt": 1.31,
+  "reason": "prose — footage carries it"
+ },
+ "270": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "271": {
+  "archetype": "none",
+  "enterAt": 1.07,
+  "reason": "prose — footage carries it"
+ },
+ "272": {
+  "archetype": "keyword-flash",
+  "text": "THOSE ARE THE FACTS",
+  "position": "center",
+  "enterAt": 4.3,
+  "reason": "stressed keyword",
+  "enterAtSource": "cue-word-lead",
+  "placement": "upper-left",
+  "entrance": "pop-scale"
+ },
+ "273": {
+  "archetype": "title-card",
+  "title": "what remains",
+  "kicker": "Part 13",
+  "enterAt": 0.2,
+  "reason": "section start \"what-remains\" — template section-start device",
+  "placement": "lower-left"
+ },
+ "274": {
+  "archetype": "keyword-flash",
+  "text": "STILL WORKS",
+  "position": "center",
+  "enterAt": 0.8,
+  "reason": "stressed keyword",
+  "placement": "lower-right"
+ },
+ "275": {
+  "archetype": "none",
+  "enterAt": 0.8,
+  "reason": "prose — footage carries it"
+ },
+ "276": {
+  "archetype": "none",
+  "enterAt": 0.8,
+  "reason": "prose — footage carries it"
+ },
+ "277": {
+  "archetype": "none",
+  "enterAt": 0.84,
+  "reason": "prose — footage carries it"
+ },
+ "278": {
+  "archetype": "none",
+  "enterAt": 1,
+  "reason": "prose — footage carries it"
+ },
+ "279": {
+  "archetype": "year-stamp",
+  "text": "2026",
+  "position": "lower-right",
+  "enterAt": 6.17,
+  "reason": "year 2026",
+  "enterAtSource": "cue-word-lead"
+ },
+ "280": {
+  "archetype": "year-stamp",
+  "text": "2030",
+  "position": "lower-right",
+  "enterAt": 3.27,
+  "reason": "year 2030",
+  "enterAtSource": "cue-word-lead"
+ },
+ "281": {
+  "archetype": "none",
+  "enterAt": 0.8,
+  "reason": "prose — footage carries it"
+ },
+ "282": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "283": {
+  "archetype": "solid-box-label",
+  "text": "MICROSOFT",
+  "position": "upper-left",
+  "variant": "primary",
+  "enterAt": 3.84,
+  "reason": "new-topic",
+  "enterAtSource": "cue-word-lead",
+  "placement": "middle-center"
+ },
+ "284": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "285": {
+  "archetype": "none",
+  "enterAt": 0.93,
+  "reason": "prose — footage carries it"
+ },
+ "286": {
+  "archetype": "none",
+  "enterAt": 0.8,
+  "reason": "prose — footage carries it"
+ },
+ "287": {
+  "archetype": "none",
+  "enterAt": 1,
+  "reason": "prose — footage carries it"
+ },
+ "288": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "289": {
+  "archetype": "number-badge",
+  "value": "30,000",
+  "unit": "",
+  "label": "",
+  "position": "upper-left",
+  "enterAt": 1.4,
+  "reason": "figure 30,000 on a badge",
+  "placement": "middle-left",
+  "entrance": "pop-scale"
+ },
+ "290": {
+  "archetype": "none",
+  "enterAt": 0.89,
+  "reason": "prose — footage carries it"
+ },
+ "291": {
+  "archetype": "none",
+  "enterAt": 0.82,
+  "reason": "prose — footage carries it"
+ },
+ "292": {
+  "archetype": "location-stamp",
+  "place": "HOLYOKE, MA",
+  "enterAt": 3.64,
+  "reason": "named place",
+  "enterAtSource": "cue-word-lead"
+ },
+ "293": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "294": {
+  "archetype": "none",
+  "enterAt": 0.85,
+  "reason": "prose — footage carries it"
+ },
+ "295": {
+  "archetype": "none",
+  "enterAt": 0.85,
+  "reason": "prose — footage carries it"
+ },
+ "296": {
+  "archetype": "keyword-flash",
+  "text": "THE PROOF",
+  "position": "center",
+  "enterAt": 3.46,
+  "reason": "stressed keyword",
+  "enterAtSource": "cue-word-lead",
+  "placement": "middle-right"
+ },
+ "297": {
+  "archetype": "none",
+  "enterAt": 1.25,
+  "reason": "prose — footage carries it"
+ },
+ "298": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "299": {
+  "archetype": "title-card",
+  "title": "where it stands",
+  "kicker": "Part 14",
+  "enterAt": 0.2,
+  "reason": "section start \"where-it-stands\" — template section-start device",
+  "placement": "lower-center"
+ },
+ "300": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "301": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "302": {
+  "archetype": "solid-box-label",
+  "text": "MICROSOFT",
+  "position": "upper-left",
+  "variant": "primary",
+  "enterAt": 4.5,
+  "reason": "new-topic",
+  "enterAtSource": "cue-word-lead",
+  "placement": "upper-center"
+ },
+ "303": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "304": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "305": {
+  "archetype": "none",
+  "enterAt": 1.23,
+  "reason": "prose — footage carries it"
+ },
+ "306": {
+  "archetype": "keyword-flash",
+  "text": "NOT BEING REPLACED",
+  "position": "center",
+  "enterAt": 1.52,
+  "reason": "stressed keyword",
+  "enterAtSource": "cue-word-lead",
+  "placement": "upper-right",
+  "entrance": "pop-scale"
+ },
+ "307": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "308": {
+  "archetype": "none",
+  "enterAt": 1.32,
+  "reason": "prose — footage carries it"
+ },
+ "309": {
+  "archetype": "none",
+  "enterAt": 1.27,
+  "reason": "prose — footage carries it"
+ },
+ "310": {
+  "archetype": "none",
+  "enterAt": 1.31,
+  "reason": "prose — footage carries it"
+ },
+ "311": {
+  "archetype": "keyword-flash",
+  "text": "DOESN'T GET HOT",
+  "position": "center",
+  "enterAt": 5.44,
+  "reason": "stressed keyword",
+  "enterAtSource": "cue-word-lead",
+  "placement": "upper-left"
+ },
+ "312": {
+  "archetype": "none",
+  "enterAt": 1,
+  "reason": "prose — footage carries it"
+ },
+ "313": {
+  "archetype": "none",
+  "enterAt": 1.14,
+  "reason": "prose — footage carries it"
+ },
+ "314": {
+  "archetype": "solid-box-label",
+  "text": "MIT",
+  "position": "upper-left",
+  "variant": "primary",
+  "enterAt": 5.52,
+  "reason": "new-topic",
+  "enterAtSource": "cue-word-lead",
+  "placement": "lower-left"
+ },
+ "315": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "316": {
+  "archetype": "none",
+  "enterAt": 0.8,
+  "reason": "prose — footage carries it"
+ },
+ "317": {
+  "archetype": "number-badge",
+  "value": "$87 million",
+  "unit": "",
+  "label": "",
+  "position": "upper-left",
+  "enterAt": 1.4,
+  "reason": "figure $87 million on a badge",
+  "placement": "lower-right"
+ },
+ "318": {
+  "archetype": "none",
+  "enterAt": 0.85,
+  "reason": "prose — footage carries it"
+ },
+ "319": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "320": {
+  "archetype": "none",
+  "enterAt": 1.25,
+  "reason": "prose — footage carries it"
+ },
+ "321": {
+  "archetype": "none",
+  "enterAt": 0.8,
+  "reason": "prose — footage carries it"
+ },
+ "01": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "02": {
+  "archetype": "none",
+  "enterAt": 1.31,
+  "reason": "prose — footage carries it"
+ },
+ "03": {
+  "archetype": "none",
+  "enterAt": 1.4,
+  "reason": "prose — footage carries it"
+ },
+ "04": {
+  "archetype": "none",
+  "enterAt": 1.19,
+  "reason": "prose — footage carries it"
+ },
+ "05": {
+  "archetype": "none",
+  "enterAt": 1.37,
+  "reason": "prose — footage carries it"
+ },
+ "06": {
+  "archetype": "none",
+  "enterAt": 0.8,
+  "reason": "prose — footage carries it"
+ },
+ "07": {
+  "archetype": "number-badge",
+  "value": "1,450 degrees",
+  "unit": "",
+  "label": "",
+  "position": "upper-left",
+  "enterAt": 1.4,
+  "reason": "figure 1,450 degrees on a badge",
+  "placement": "middle-center",
+  "entrance": "pop-scale"
+ },
+ "08": {
+  "archetype": "none",
+  "enterAt": 0.85,
+  "reason": "prose — footage carries it"
+ },
+ "09": {
+  "archetype": "none",
+  "enterAt": 0.8,
+  "reason": "prose — footage carries it"
+ }
+}

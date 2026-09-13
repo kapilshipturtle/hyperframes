@@ -1,0 +1,858 @@
+{
+  "beats": [
+    {
+      "id": "23",
+      "text": "No kiln, no flame, no limestone.",
+      "start": 87,
+      "end": 90.44,
+      "durationSeconds": 3.44,
+      "words": [
+        {
+          "text": "No",
+          "start": 87,
+          "end": 87.24
+        },
+        {
+          "text": "kiln,",
+          "start": 87.24,
+          "end": 87.84
+        },
+        {
+          "text": "no",
+          "start": 87.84,
+          "end": 88.39
+        },
+        {
+          "text": "flame,",
+          "start": 88.39,
+          "end": 88.89
+        },
+        {
+          "text": "no",
+          "start": 88.89,
+          "end": 89.08
+        },
+        {
+          "text": "limestone.",
+          "start": 89.09,
+          "end": 90.44
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "text": "It runs at about room temperature, on electricity.",
+      "start": 90.44,
+      "end": 93.2,
+      "durationSeconds": 2.76,
+      "words": [
+        {
+          "text": "It",
+          "start": 90.44,
+          "end": 90.66
+        },
+        {
+          "text": "runs",
+          "start": 90.66,
+          "end": 90.8
+        },
+        {
+          "text": "at",
+          "start": 90.91,
+          "end": 90.92
+        },
+        {
+          "text": "about",
+          "start": 90.92,
+          "end": 91.22
+        },
+        {
+          "text": "room",
+          "start": 91.22,
+          "end": 91.31
+        },
+        {
+          "text": "temperature,",
+          "start": 91.81,
+          "end": 92.22
+        },
+        {
+          "text": "on",
+          "start": 92.22,
+          "end": 92.34
+        },
+        {
+          "text": "electricity.",
+          "start": 92.34,
+          "end": 93.2
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "text": "And what it produces is not a substitute, not a blend, not an additive.",
+      "start": 93.2,
+      "end": 97.3,
+      "durationSeconds": 4.1,
+      "words": [
+        {
+          "text": "And",
+          "start": 93.2,
+          "end": 93.42
+        },
+        {
+          "text": "what",
+          "start": 93.42,
+          "end": 93.59
+        },
+        {
+          "text": "it",
+          "start": 93.67,
+          "end": 93.78
+        },
+        {
+          "text": "produces",
+          "start": 93.78,
+          "end": 94.04
+        },
+        {
+          "text": "is",
+          "start": 94.25,
+          "end": 94.43
+        },
+        {
+          "text": "not",
+          "start": 94.57,
+          "end": 94.62
+        },
+        {
+          "text": "a",
+          "start": 94.62,
+          "end": 94.68
+        },
+        {
+          "text": "substitute,",
+          "start": 94.68,
+          "end": 95.47
+        },
+        {
+          "text": "not",
+          "start": 95.47,
+          "end": 95.66
+        },
+        {
+          "text": "a",
+          "start": 95.66,
+          "end": 95.7
+        },
+        {
+          "text": "blend,",
+          "start": 95.72,
+          "end": 96.07
+        },
+        {
+          "text": "not",
+          "start": 96.07,
+          "end": 96.41
+        },
+        {
+          "text": "an",
+          "start": 96.41,
+          "end": 96.5
+        },
+        {
+          "text": "additive.",
+          "start": 96.58,
+          "end": 97.3
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "text": "It is cement, certified to the same standard as the ordinary stuff, poured into the foundation of a real building in Boston",
+      "start": 97.3,
+      "end": 103.69,
+      "durationSeconds": 6.39,
+      "words": [
+        {
+          "text": "It",
+          "start": 97.3,
+          "end": 97.41
+        },
+        {
+          "text": "is",
+          "start": 97.41,
+          "end": 97.52
+        },
+        {
+          "text": "cement,",
+          "start": 97.52,
+          "end": 97.97
+        },
+        {
+          "text": "certified",
+          "start": 97.97,
+          "end": 98.14
+        },
+        {
+          "text": "to",
+          "start": 98.14,
+          "end": 98.67
+        },
+        {
+          "text": "the",
+          "start": 98.67,
+          "end": 98.79
+        },
+        {
+          "text": "same",
+          "start": 98.79,
+          "end": 99.02
+        },
+        {
+          "text": "standard",
+          "start": 99.02,
+          "end": 99.49
+        },
+        {
+          "text": "as",
+          "start": 99.49,
+          "end": 99.59
+        },
+        {
+          "text": "the",
+          "start": 99.63,
+          "end": 99.76
+        },
+        {
+          "text": "ordinary",
+          "start": 99.76,
+          "end": 100.12
+        },
+        {
+          "text": "stuff,",
+          "start": 100.5,
+          "end": 100.57
+        },
+        {
+          "text": "poured",
+          "start": 100.68,
+          "end": 100.99
+        },
+        {
+          "text": "into",
+          "start": 100.99,
+          "end": 101.01
+        },
+        {
+          "text": "the",
+          "start": 101.29,
+          "end": 101.39
+        },
+        {
+          "text": "foundation",
+          "start": 101.39,
+          "end": 101.88
+        },
+        {
+          "text": "of",
+          "start": 101.88,
+          "end": 102.09
+        },
+        {
+          "text": "a",
+          "start": 102.09,
+          "end": 102.3
+        },
+        {
+          "text": "real",
+          "start": 102.3,
+          "end": 102.57
+        },
+        {
+          "text": "building",
+          "start": 102.57,
+          "end": 102.92
+        },
+        {
+          "text": "in",
+          "start": 103.12,
+          "end": 103.27
+        },
+        {
+          "text": "Boston",
+          "start": 103.45,
+          "end": 103.69
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "text": "with a binding order from Microsoft for over 600,000 tons.",
+      "start": 103.69,
+      "end": 108.2,
+      "durationSeconds": 4.51,
+      "words": [
+        {
+          "text": "with",
+          "start": 103.69,
+          "end": 103.97
+        },
+        {
+          "text": "a",
+          "start": 103.97,
+          "end": 104.04
+        },
+        {
+          "text": "binding",
+          "start": 104.04,
+          "end": 104.53
+        },
+        {
+          "text": "order",
+          "start": 104.53,
+          "end": 104.88
+        },
+        {
+          "text": "from",
+          "start": 104.88,
+          "end": 104.95
+        },
+        {
+          "text": "Microsoft",
+          "start": 105.29,
+          "end": 105.79
+        },
+        {
+          "text": "for",
+          "start": 105.79,
+          "end": 106.07
+        },
+        {
+          "text": "over",
+          "start": 106.07,
+          "end": 106.28
+        },
+        {
+          "text": "600,000",
+          "start": 106.28,
+          "end": 107.68
+        },
+        {
+          "text": "tons.",
+          "start": 107.68,
+          "end": 108.2
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "text": "And in May of 2025, the federal grant paying for half of their first factory was cancelled.",
+      "start": 108.2,
+      "end": 113.53,
+      "durationSeconds": 5.33,
+      "words": [
+        {
+          "text": "And",
+          "start": 108.2,
+          "end": 108.42
+        },
+        {
+          "text": "in",
+          "start": 108.42,
+          "end": 108.5
+        },
+        {
+          "text": "May",
+          "start": 108.5,
+          "end": 108.68
+        },
+        {
+          "text": "of",
+          "start": 108.68,
+          "end": 108.8
+        },
+        {
+          "text": "2025,",
+          "start": 108.8,
+          "end": 109.66
+        },
+        {
+          "text": "the",
+          "start": 109.66,
+          "end": 109.84
+        },
+        {
+          "text": "federal",
+          "start": 109.84,
+          "end": 110.25
+        },
+        {
+          "text": "grant",
+          "start": 110.26,
+          "end": 110.58
+        },
+        {
+          "text": "paying",
+          "start": 110.58,
+          "end": 110.95
+        },
+        {
+          "text": "for",
+          "start": 110.95,
+          "end": 111.04
+        },
+        {
+          "text": "half",
+          "start": 111.04,
+          "end": 111.41
+        },
+        {
+          "text": "of",
+          "start": 111.41,
+          "end": 111.49
+        },
+        {
+          "text": "their",
+          "start": 111.58,
+          "end": 111.8
+        },
+        {
+          "text": "first",
+          "start": 111.8,
+          "end": 111.91
+        },
+        {
+          "text": "factory",
+          "start": 112.19,
+          "end": 112.54
+        },
+        {
+          "text": "was",
+          "start": 112.54,
+          "end": 112.71
+        },
+        {
+          "text": "cancelled.",
+          "start": 112.71,
+          "end": 113.53
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "text": "If this is the kind of thing you stay to the end of, a like helps more than you'd think.",
+      "start": 113.53,
+      "end": 117.88,
+      "durationSeconds": 4.35,
+      "words": [
+        {
+          "text": "If",
+          "start": 113.53,
+          "end": 113.78
+        },
+        {
+          "text": "this",
+          "start": 113.78,
+          "end": 113.92
+        },
+        {
+          "text": "is",
+          "start": 114.03,
+          "end": 114.04
+        },
+        {
+          "text": "the",
+          "start": 114.04,
+          "end": 114.22
+        },
+        {
+          "text": "kind",
+          "start": 114.22,
+          "end": 114.38
+        },
+        {
+          "text": "of",
+          "start": 114.38,
+          "end": 114.655
+        },
+        {
+          "text": "thing",
+          "start": 114.655,
+          "end": 114.93
+        },
+        {
+          "text": "you",
+          "start": 114.93,
+          "end": 115.06
+        },
+        {
+          "text": "stay",
+          "start": 115.06,
+          "end": 115.29
+        },
+        {
+          "text": "to",
+          "start": 115.3,
+          "end": 115.42
+        },
+        {
+          "text": "the",
+          "start": 115.42,
+          "end": 115.6
+        },
+        {
+          "text": "end",
+          "start": 115.6,
+          "end": 115.78
+        },
+        {
+          "text": "of,",
+          "start": 115.78,
+          "end": 116.02
+        },
+        {
+          "text": "a",
+          "start": 116.02,
+          "end": 116.06
+        },
+        {
+          "text": "like",
+          "start": 116.08,
+          "end": 116.32
+        },
+        {
+          "text": "helps",
+          "start": 116.32,
+          "end": 116.43
+        },
+        {
+          "text": "more",
+          "start": 116.77,
+          "end": 116.86
+        },
+        {
+          "text": "than",
+          "start": 116.94,
+          "end": 117.1
+        },
+        {
+          "text": "you'd",
+          "start": 117.1,
+          "end": 117.28
+        },
+        {
+          "text": "think.",
+          "start": 117.55,
+          "end": 117.88
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "text": "And subscribing with notifications on means the next one actually finds you.",
+      "start": 117.88,
+      "end": 122.18,
+      "durationSeconds": 4.3,
+      "words": [
+        {
+          "text": "And",
+          "start": 117.88,
+          "end": 118.1
+        },
+        {
+          "text": "subscribing",
+          "start": 118.1,
+          "end": 118.7
+        },
+        {
+          "text": "with",
+          "start": 118.71,
+          "end": 118.75
+        },
+        {
+          "text": "notifications",
+          "start": 119.25,
+          "end": 119.75
+        },
+        {
+          "text": "on",
+          "start": 119.75,
+          "end": 119.87
+        },
+        {
+          "text": "means",
+          "start": 119.87,
+          "end": 120.16
+        },
+        {
+          "text": "the",
+          "start": 120.16,
+          "end": 120.34
+        },
+        {
+          "text": "next",
+          "start": 120.35,
+          "end": 120.59
+        },
+        {
+          "text": "one",
+          "start": 120.59,
+          "end": 120.72
+        },
+        {
+          "text": "actually",
+          "start": 121.09,
+          "end": 121.24
+        },
+        {
+          "text": "finds",
+          "start": 121.26,
+          "end": 121.55
+        },
+        {
+          "text": "you.",
+          "start": 121.55,
+          "end": 121.96
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "text": "What follows is three things.",
+      "start": 122.18,
+      "end": 124.37,
+      "durationSeconds": 2.19,
+      "words": [
+        {
+          "text": "What",
+          "start": 122.18,
+          "end": 122.31
+        },
+        {
+          "text": "follows",
+          "start": 122.31,
+          "end": 122.78
+        },
+        {
+          "text": "is",
+          "start": 122.92,
+          "end": 123.07
+        },
+        {
+          "text": "three",
+          "start": 123.33,
+          "end": 123.54
+        },
+        {
+          "text": "things.",
+          "start": 123.54,
+          "end": 124.36
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "text": "A mineral that is nearly half carbon dioxide by weight, and why that single fact has defeated 60 years of good engineering.",
+      "start": 124.37,
+      "end": 130.69,
+      "durationSeconds": 6.32,
+      "words": [
+        {
+          "text": "A",
+          "start": 124.37,
+          "end": 124.41
+        },
+        {
+          "text": "mineral",
+          "start": 124.58,
+          "end": 124.75
+        },
+        {
+          "text": "that",
+          "start": 124.83,
+          "end": 125.03
+        },
+        {
+          "text": "is",
+          "start": 125.03,
+          "end": 125.15
+        },
+        {
+          "text": "nearly",
+          "start": 125.15,
+          "end": 125.23
+        },
+        {
+          "text": "half",
+          "start": 125.23,
+          "end": 125.74
+        },
+        {
+          "text": "carbon",
+          "start": 125.74,
+          "end": 126.08
+        },
+        {
+          "text": "dioxide",
+          "start": 126.08,
+          "end": 126.41
+        },
+        {
+          "text": "by",
+          "start": 126.54,
+          "end": 126.59
+        },
+        {
+          "text": "weight,",
+          "start": 126.59,
+          "end": 127.05
+        },
+        {
+          "text": "and",
+          "start": 127.05,
+          "end": 127.18
+        },
+        {
+          "text": "why",
+          "start": 127.21,
+          "end": 127.23
+        },
+        {
+          "text": "that",
+          "start": 127.56,
+          "end": 127.62
+        },
+        {
+          "text": "single",
+          "start": 127.74,
+          "end": 127.97
+        },
+        {
+          "text": "fact",
+          "start": 127.97,
+          "end": 128.07
+        },
+        {
+          "text": "has",
+          "start": 128.34,
+          "end": 128.37
+        },
+        {
+          "text": "defeated",
+          "start": 128.37,
+          "end": 128.88
+        },
+        {
+          "text": "60",
+          "start": 129.14,
+          "end": 129.26
+        },
+        {
+          "text": "years",
+          "start": 129.26,
+          "end": 129.54
+        },
+        {
+          "text": "of",
+          "start": 129.54,
+          "end": 129.65
+        },
+        {
+          "text": "good",
+          "start": 129.65,
+          "end": 129.76
+        },
+        {
+          "text": "engineering.",
+          "start": 130.29,
+          "end": 130.68
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "text": "A concrete pour in Boston's seaport where the most remarkable thing that happened was nothing.",
+      "start": 130.69,
+      "end": 135.08,
+      "durationSeconds": 4.39,
+      "words": [
+        {
+          "text": "A",
+          "start": 130.69,
+          "end": 130.72
+        },
+        {
+          "text": "concrete",
+          "start": 130.9,
+          "end": 131.07
+        },
+        {
+          "text": "pour",
+          "start": 131.15,
+          "end": 131.3
+        },
+        {
+          "text": "in",
+          "start": 131.3,
+          "end": 131.39
+        },
+        {
+          "text": "Boston's",
+          "start": 131.39,
+          "end": 131.77
+        },
+        {
+          "text": "seaport",
+          "start": 131.77,
+          "end": 132.09
+        },
+        {
+          "text": "where",
+          "start": 132.09,
+          "end": 132.33
+        },
+        {
+          "text": "the",
+          "start": 132.33,
+          "end": 132.47
+        },
+        {
+          "text": "most",
+          "start": 132.47,
+          "end": 132.66
+        },
+        {
+          "text": "remarkable",
+          "start": 132.66,
+          "end": 133.14
+        },
+        {
+          "text": "thing",
+          "start": 133.15,
+          "end": 133.39
+        },
+        {
+          "text": "that",
+          "start": 133.39,
+          "end": 133.52
+        },
+        {
+          "text": "happened",
+          "start": 133.89,
+          "end": 133.97
+        },
+        {
+          "text": "was",
+          "start": 134.06,
+          "end": 134.24
+        },
+        {
+          "text": "nothing.",
+          "start": 134.46,
+          "end": 135.08
+        }
+      ]
+    }
+  ]
+}

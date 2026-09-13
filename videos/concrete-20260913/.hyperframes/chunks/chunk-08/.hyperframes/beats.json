@@ -1,0 +1,634 @@
+{
+  "beats": [
+    {
+      "id": "86",
+      "text": "and everyone kept attacking the fire.",
+      "start": 346.06,
+      "end": 348.7,
+      "durationSeconds": 2.64,
+      "words": [
+        {
+          "text": "and",
+          "start": 346.06,
+          "end": 346.26
+        },
+        {
+          "text": "everyone",
+          "start": 346.26,
+          "end": 346.69
+        },
+        {
+          "text": "kept",
+          "start": 346.8,
+          "end": 347.08
+        },
+        {
+          "text": "attacking",
+          "start": 347.08,
+          "end": 347.48
+        },
+        {
+          "text": "the",
+          "start": 347.84,
+          "end": 347.9
+        },
+        {
+          "text": "fire.",
+          "start": 348.02,
+          "end": 348.34
+        }
+      ]
+    },
+    {
+      "id": "87",
+      "text": "Until two people at MIT stopped trying to make the kiln better and asked whether the kiln needed to exist.",
+      "start": 348.7,
+      "end": 354.26,
+      "durationSeconds": 5.56,
+      "words": [
+        {
+          "text": "Until",
+          "start": 348.7,
+          "end": 348.74
+        },
+        {
+          "text": "two",
+          "start": 348.74,
+          "end": 348.84
+        },
+        {
+          "text": "people",
+          "start": 348.95,
+          "end": 349.21
+        },
+        {
+          "text": "at",
+          "start": 349.21,
+          "end": 349.32
+        },
+        {
+          "text": "MIT",
+          "start": 349.32,
+          "end": 349.35
+        },
+        {
+          "text": "stopped",
+          "start": 349.35,
+          "end": 349.86
+        },
+        {
+          "text": "trying",
+          "start": 349.86,
+          "end": 350.17
+        },
+        {
+          "text": "to",
+          "start": 350.17,
+          "end": 350.27
+        },
+        {
+          "text": "make",
+          "start": 350.27,
+          "end": 350.48
+        },
+        {
+          "text": "the",
+          "start": 350.48,
+          "end": 350.55
+        },
+        {
+          "text": "kiln",
+          "start": 350.66,
+          "end": 350.85
+        },
+        {
+          "text": "better",
+          "start": 350.85,
+          "end": 351.17
+        },
+        {
+          "text": "and",
+          "start": 351.17,
+          "end": 351.3
+        },
+        {
+          "text": "asked",
+          "start": 351.32,
+          "end": 351.35
+        },
+        {
+          "text": "whether",
+          "start": 351.69,
+          "end": 351.96
+        },
+        {
+          "text": "the",
+          "start": 351.96,
+          "end": 352.18
+        },
+        {
+          "text": "kiln",
+          "start": 352.42,
+          "end": 352.56
+        },
+        {
+          "text": "needed",
+          "start": 352.67,
+          "end": 353.02
+        },
+        {
+          "text": "to",
+          "start": 353.02,
+          "end": 353.57
+        },
+        {
+          "text": "exist.",
+          "start": 353.57,
+          "end": 354.26
+        }
+      ]
+    },
+    {
+      "id": "88",
+      "text": "The company is called Sublime Systems.",
+      "start": 354.26,
+      "end": 356.64,
+      "durationSeconds": 2.38,
+      "words": [
+        {
+          "text": "The",
+          "start": 354.26,
+          "end": 354.58
+        },
+        {
+          "text": "company",
+          "start": 354.58,
+          "end": 355
+        },
+        {
+          "text": "is",
+          "start": 355,
+          "end": 355.13
+        },
+        {
+          "text": "called",
+          "start": 355.13,
+          "end": 355.23
+        },
+        {
+          "text": "Sublime",
+          "start": 355.71,
+          "end": 355.97
+        },
+        {
+          "text": "Systems.",
+          "start": 355.97,
+          "end": 356.64
+        }
+      ]
+    },
+    {
+      "id": "89",
+      "text": "It spun out of MIT in March of 2020, on Pi Day, the same week the pandemic shut down the country,",
+      "start": 356.64,
+      "end": 362.53,
+      "durationSeconds": 5.89,
+      "words": [
+        {
+          "text": "It",
+          "start": 356.64,
+          "end": 356.86
+        },
+        {
+          "text": "spun",
+          "start": 356.86,
+          "end": 356.98
+        },
+        {
+          "text": "out",
+          "start": 356.98,
+          "end": 357.15
+        },
+        {
+          "text": "of",
+          "start": 357.15,
+          "end": 357.26
+        },
+        {
+          "text": "MIT",
+          "start": 357.26,
+          "end": 357.43
+        },
+        {
+          "text": "in",
+          "start": 357.43,
+          "end": 357.48
+        },
+        {
+          "text": "March",
+          "start": 357.54,
+          "end": 357.55
+        },
+        {
+          "text": "of",
+          "start": 357.55,
+          "end": 358.01
+        },
+        {
+          "text": "2020,",
+          "start": 358.01,
+          "end": 358.71
+        },
+        {
+          "text": "on",
+          "start": 358.82,
+          "end": 358.87
+        },
+        {
+          "text": "Pi",
+          "start": 358.87,
+          "end": 358.98
+        },
+        {
+          "text": "Day,",
+          "start": 358.98,
+          "end": 359.26
+        },
+        {
+          "text": "the",
+          "start": 359.26,
+          "end": 359.43
+        },
+        {
+          "text": "same",
+          "start": 359.43,
+          "end": 359.51
+        },
+        {
+          "text": "week",
+          "start": 359.84,
+          "end": 359.89
+        },
+        {
+          "text": "the",
+          "start": 359.89,
+          "end": 360.06
+        },
+        {
+          "text": "pandemic",
+          "start": 360.06,
+          "end": 360.35
+        },
+        {
+          "text": "shut",
+          "start": 360.63,
+          "end": 360.75
+        },
+        {
+          "text": "down",
+          "start": 360.75,
+          "end": 361.15
+        },
+        {
+          "text": "the",
+          "start": 361.15,
+          "end": 361.38
+        },
+        {
+          "text": "country,",
+          "start": 361.38,
+          "end": 362
+        }
+      ]
+    },
+    {
+      "id": "90",
+      "text": "founded by Professor Yetming Chang and Dr.",
+      "start": 362.53,
+      "end": 364.78,
+      "durationSeconds": 2.25,
+      "words": [
+        {
+          "text": "founded",
+          "start": 362.53,
+          "end": 362.54
+        },
+        {
+          "text": "by",
+          "start": 362.54,
+          "end": 362.68
+        },
+        {
+          "text": "Professor",
+          "start": 362.68,
+          "end": 363.21
+        },
+        {
+          "text": "Yetming",
+          "start": 363.34,
+          "end": 363.84
+        },
+        {
+          "text": "Chang",
+          "start": 363.84,
+          "end": 364
+        },
+        {
+          "text": "and",
+          "start": 364.36,
+          "end": 364.42
+        },
+        {
+          "text": "Dr.",
+          "start": 364.42,
+          "end": 364.78
+        }
+      ]
+    },
+    {
+      "id": "91",
+      "text": "Leah Ellis, a former MIT post-doc.",
+      "start": 364.78,
+      "end": 368,
+      "durationSeconds": 3.22,
+      "words": [
+        {
+          "text": "Leah",
+          "start": 364.78,
+          "end": 364.87
+        },
+        {
+          "text": "Ellis,",
+          "start": 365.15,
+          "end": 365.57
+        },
+        {
+          "text": "a",
+          "start": 365.57,
+          "end": 365.64
+        },
+        {
+          "text": "former",
+          "start": 365.64,
+          "end": 366.06
+        },
+        {
+          "text": "MIT",
+          "start": 366.12,
+          "end": 366.29
+        },
+        {
+          "text": "post-doc.",
+          "start": 366.3,
+          "end": 368
+        }
+      ]
+    },
+    {
+      "id": "92",
+      "text": "And the important thing about both of them, is that neither is a cement person.",
+      "start": 368,
+      "end": 372.22,
+      "durationSeconds": 4.22,
+      "words": [
+        {
+          "text": "And",
+          "start": 368,
+          "end": 368.22
+        },
+        {
+          "text": "the",
+          "start": 368.22,
+          "end": 368.34
+        },
+        {
+          "text": "important",
+          "start": 368.34,
+          "end": 368.81
+        },
+        {
+          "text": "thing",
+          "start": 368.81,
+          "end": 368.87
+        },
+        {
+          "text": "about",
+          "start": 369.37,
+          "end": 369.44
+        },
+        {
+          "text": "both",
+          "start": 369.44,
+          "end": 369.67
+        },
+        {
+          "text": "of",
+          "start": 369.67,
+          "end": 369.78
+        },
+        {
+          "text": "them,",
+          "start": 369.78,
+          "end": 370.07
+        },
+        {
+          "text": "is",
+          "start": 370.18,
+          "end": 370.23
+        },
+        {
+          "text": "that",
+          "start": 370.23,
+          "end": 370.46
+        },
+        {
+          "text": "neither",
+          "start": 370.46,
+          "end": 370.82
+        },
+        {
+          "text": "is",
+          "start": 370.86,
+          "end": 370.87
+        },
+        {
+          "text": "a",
+          "start": 370.98,
+          "end": 371
+        },
+        {
+          "text": "cement",
+          "start": 371.21,
+          "end": 371.36
+        },
+        {
+          "text": "person.",
+          "start": 371.38,
+          "end": 372
+        }
+      ]
+    },
+    {
+      "id": "93",
+      "text": "They are electrochemists.",
+      "start": 372.22,
+      "end": 374.1,
+      "durationSeconds": 1.88,
+      "words": [
+        {
+          "text": "They",
+          "start": 372.22,
+          "end": 372.3
+        },
+        {
+          "text": "are",
+          "start": 372.3,
+          "end": 372.52
+        },
+        {
+          "text": "electrochemists.",
+          "start": 372.52,
+          "end": 373.88
+        }
+      ]
+    },
+    {
+      "id": "94",
+      "text": "Battery people. Chiang's other companies include Form Energy, which is building iron-air batteries designed to store electricity for",
+      "start": 374.1,
+      "end": 380.86,
+      "durationSeconds": 6.76,
+      "words": [
+        {
+          "text": "Battery",
+          "start": 374.1,
+          "end": 374.27
+        },
+        {
+          "text": "people.",
+          "start": 374.35,
+          "end": 374.75
+        },
+        {
+          "text": "Chiang's",
+          "start": 374.99,
+          "end": 375.24
+        },
+        {
+          "text": "other",
+          "start": 375.35,
+          "end": 375.56
+        },
+        {
+          "text": "companies",
+          "start": 375.56,
+          "end": 375.72
+        },
+        {
+          "text": "include",
+          "start": 376.25,
+          "end": 376.44
+        },
+        {
+          "text": "Form",
+          "start": 376.44,
+          "end": 376.65
+        },
+        {
+          "text": "Energy,",
+          "start": 376.65,
+          "end": 377.07
+        },
+        {
+          "text": "which",
+          "start": 377.07,
+          "end": 377.34
+        },
+        {
+          "text": "is",
+          "start": 377.34,
+          "end": 377.45
+        },
+        {
+          "text": "building",
+          "start": 377.45,
+          "end": 377.72
+        },
+        {
+          "text": "iron-air",
+          "start": 378.08,
+          "end": 378.3
+        },
+        {
+          "text": "batteries",
+          "start": 378.3,
+          "end": 378.58
+        },
+        {
+          "text": "designed",
+          "start": 378.87,
+          "end": 379.32
+        },
+        {
+          "text": "to",
+          "start": 379.32,
+          "end": 379.54
+        },
+        {
+          "text": "store",
+          "start": 379.54,
+          "end": 379.83
+        },
+        {
+          "text": "electricity",
+          "start": 379.83,
+          "end": 380.14
+        },
+        {
+          "text": "for",
+          "start": 380.69,
+          "end": 380.86
+        }
+      ]
+    },
+    {
+      "id": "95",
+      "text": "a hundred hours at a stretch.",
+      "start": 380.86,
+      "end": 382.8,
+      "durationSeconds": 1.94,
+      "words": [
+        {
+          "text": "a",
+          "start": 380.86,
+          "end": 380.93
+        },
+        {
+          "text": "hundred",
+          "start": 380.93,
+          "end": 381.37
+        },
+        {
+          "text": "hours",
+          "start": 381.5,
+          "end": 381.8
+        },
+        {
+          "text": "at",
+          "start": 381.81,
+          "end": 381.95
+        },
+        {
+          "text": "a",
+          "start": 381.95,
+          "end": 382.02
+        },
+        {
+          "text": "stretch.",
+          "start": 382.02,
+          "end": 382.8
+        }
+      ]
+    }
+  ]
+}

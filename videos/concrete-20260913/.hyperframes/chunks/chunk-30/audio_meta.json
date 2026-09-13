@@ -1,0 +1,731 @@
+{
+  "bgm": null,
+  "voices": [
+    {
+      "frame": 1,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 1360.42,
+      "duration_s": 3.33,
+      "words": [
+        {
+          "text": "If",
+          "start": 0,
+          "end": 0.24
+        },
+        {
+          "text": "you",
+          "start": 0.24,
+          "end": 0.34
+        },
+        {
+          "text": "got",
+          "start": 0.34,
+          "end": 0.53
+        },
+        {
+          "text": "something",
+          "start": 0.53,
+          "end": 0.86
+        },
+        {
+          "text": "out",
+          "start": 0.86,
+          "end": 1.39
+        },
+        {
+          "text": "of",
+          "start": 1.39,
+          "end": 1.44
+        },
+        {
+          "text": "this,",
+          "start": 1.44,
+          "end": 1.83
+        },
+        {
+          "text": "a",
+          "start": 1.83,
+          "end": 1.89
+        },
+        {
+          "text": "like",
+          "start": 1.89,
+          "end": 2.07
+        },
+        {
+          "text": "genuinely",
+          "start": 2.19,
+          "end": 2.74
+        },
+        {
+          "text": "helps.",
+          "start": 2.74,
+          "end": 3.33
+        }
+      ]
+    },
+    {
+      "frame": 2,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 1363.75,
+      "duration_s": 3.79,
+      "words": [
+        {
+          "text": "And",
+          "start": 0,
+          "end": 0.23
+        },
+        {
+          "text": "subscribing",
+          "start": 0.23,
+          "end": 0.81
+        },
+        {
+          "text": "with",
+          "start": 0.81,
+          "end": 0.88
+        },
+        {
+          "text": "notifications",
+          "start": 1.38,
+          "end": 1.77
+        },
+        {
+          "text": "on",
+          "start": 1.77,
+          "end": 1.88
+        },
+        {
+          "text": "means",
+          "start": 1.88,
+          "end": 2.07
+        },
+        {
+          "text": "you'll",
+          "start": 2.19,
+          "end": 2.49
+        },
+        {
+          "text": "catch",
+          "start": 2.5,
+          "end": 2.78
+        },
+        {
+          "text": "the",
+          "start": 2.78,
+          "end": 2.86
+        },
+        {
+          "text": "next",
+          "start": 2.86,
+          "end": 3.22
+        },
+        {
+          "text": "one.",
+          "start": 3.22,
+          "end": 3.57
+        }
+      ]
+    },
+    {
+      "frame": 3,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 1367.54,
+      "duration_s": 5.92,
+      "words": [
+        {
+          "text": "There's",
+          "start": 0,
+          "end": 0.13
+        },
+        {
+          "text": "a",
+          "start": 0.13,
+          "end": 0.25
+        },
+        {
+          "text": "related",
+          "start": 0.25,
+          "end": 0.52
+        },
+        {
+          "text": "video",
+          "start": 0.52,
+          "end": 0.62
+        },
+        {
+          "text": "on",
+          "start": 0.78,
+          "end": 0.87
+        },
+        {
+          "text": "screen",
+          "start": 1.15,
+          "end": 1.18
+        },
+        {
+          "text": "right",
+          "start": 1.18,
+          "end": 1.43
+        },
+        {
+          "text": "now",
+          "start": 1.43,
+          "end": 1.58
+        },
+        {
+          "text": "about",
+          "start": 1.58,
+          "end": 1.83
+        },
+        {
+          "text": "the",
+          "start": 1.83,
+          "end": 1.98
+        },
+        {
+          "text": "Iron",
+          "start": 1.98,
+          "end": 2.18
+        },
+        {
+          "text": "Air",
+          "start": 2.18,
+          "end": 2.33
+        },
+        {
+          "text": "Battery",
+          "start": 2.33,
+          "end": 2.62
+        },
+        {
+          "text": "Company",
+          "start": 2.99,
+          "end": 3.03
+        },
+        {
+          "text": "founded",
+          "start": 3.03,
+          "end": 3.46
+        },
+        {
+          "text": "by",
+          "start": 3.46,
+          "end": 3.68
+        },
+        {
+          "text": "the",
+          "start": 3.68,
+          "end": 3.85
+        },
+        {
+          "text": "same",
+          "start": 3.93,
+          "end": 4.28
+        },
+        {
+          "text": "MIT",
+          "start": 4.28,
+          "end": 4.33
+        },
+        {
+          "text": "professor.",
+          "start": 4.83,
+          "end": 5.7
+        }
+      ]
+    },
+    {
+      "frame": 4,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 1373.46,
+      "duration_s": 6.14,
+      "words": [
+        {
+          "text": "Different",
+          "start": 0,
+          "end": 0.31
+        },
+        {
+          "text": "material,",
+          "start": 0.31,
+          "end": 0.88
+        },
+        {
+          "text": "same",
+          "start": 0.88,
+          "end": 1.15
+        },
+        {
+          "text": "idea",
+          "start": 1.15,
+          "end": 1.37
+        },
+        {
+          "text": "about",
+          "start": 1.37,
+          "end": 1.67
+        },
+        {
+          "text": "replacing",
+          "start": 1.67,
+          "end": 2.2
+        },
+        {
+          "text": "fire",
+          "start": 2.2,
+          "end": 2.44
+        },
+        {
+          "text": "with",
+          "start": 2.44,
+          "end": 2.62
+        },
+        {
+          "text": "electrons,",
+          "start": 2.99,
+          "end": 3.38
+        },
+        {
+          "text": "and",
+          "start": 3.38,
+          "end": 3.48
+        },
+        {
+          "text": "a",
+          "start": 3.48,
+          "end": 3.77
+        },
+        {
+          "text": "factory",
+          "start": 3.77,
+          "end": 3.96
+        },
+        {
+          "text": "going",
+          "start": 3.96,
+          "end": 4.22
+        },
+        {
+          "text": "up",
+          "start": 4.22,
+          "end": 4.3
+        },
+        {
+          "text": "on",
+          "start": 4.3,
+          "end": 4.56
+        },
+        {
+          "text": "a",
+          "start": 4.56,
+          "end": 4.61
+        },
+        {
+          "text": "dead",
+          "start": 4.61,
+          "end": 4.98
+        },
+        {
+          "text": "steel",
+          "start": 4.98,
+          "end": 5.18
+        },
+        {
+          "text": "mill.",
+          "start": 5.71,
+          "end": 6.14
+        }
+      ]
+    },
+    {
+      "frame": 5,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 1379.6,
+      "duration_s": 1.86,
+      "words": [
+        {
+          "text": "One",
+          "start": 0,
+          "end": 0.22
+        },
+        {
+          "text": "question",
+          "start": 0.22,
+          "end": 0.71
+        },
+        {
+          "text": "before",
+          "start": 0.71,
+          "end": 0.84
+        },
+        {
+          "text": "you",
+          "start": 0.84,
+          "end": 1.37
+        },
+        {
+          "text": "go.",
+          "start": 1.37,
+          "end": 1.64
+        }
+      ]
+    },
+    {
+      "frame": 6,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 1381.46,
+      "duration_s": 4.72,
+      "words": [
+        {
+          "text": "The",
+          "start": 0,
+          "end": 0.05
+        },
+        {
+          "text": "gap",
+          "start": 0.05,
+          "end": 0.32
+        },
+        {
+          "text": "here",
+          "start": 0.32,
+          "end": 0.6
+        },
+        {
+          "text": "is",
+          "start": 0.6,
+          "end": 0.83
+        },
+        {
+          "text": "$87",
+          "start": 0.83,
+          "end": 1.49
+        },
+        {
+          "text": "million",
+          "start": 1.49,
+          "end": 2.05
+        },
+        {
+          "text": "on",
+          "start": 2.11,
+          "end": 2.28
+        },
+        {
+          "text": "a",
+          "start": 2.3,
+          "end": 2.39
+        },
+        {
+          "text": "$150",
+          "start": 2.39,
+          "end": 3.29
+        },
+        {
+          "text": "million",
+          "start": 3.29,
+          "end": 3.92
+        },
+        {
+          "text": "plant.",
+          "start": 3.92,
+          "end": 4.69
+        }
+      ]
+    },
+    {
+      "frame": 7,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 1386.18,
+      "duration_s": 2.82,
+      "words": [
+        {
+          "text": "If",
+          "start": 0,
+          "end": 0.07
+        },
+        {
+          "text": "that",
+          "start": 0.2,
+          "end": 0.25
+        },
+        {
+          "text": "money",
+          "start": 0.25,
+          "end": 0.48
+        },
+        {
+          "text": "isn't",
+          "start": 0.48,
+          "end": 0.7
+        },
+        {
+          "text": "coming",
+          "start": 0.7,
+          "end": 0.82
+        },
+        {
+          "text": "from",
+          "start": 0.95,
+          "end": 1.14
+        },
+        {
+          "text": "Washington,",
+          "start": 1.35,
+          "end": 1.7
+        },
+        {
+          "text": "where",
+          "start": 1.7,
+          "end": 1.93
+        },
+        {
+          "text": "should",
+          "start": 1.93,
+          "end": 2.2
+        },
+        {
+          "text": "it",
+          "start": 2.2,
+          "end": 2.27
+        },
+        {
+          "text": "come",
+          "start": 2.31,
+          "end": 2.46
+        },
+        {
+          "text": "from?",
+          "start": 2.47,
+          "end": 2.82
+        }
+      ]
+    },
+    {
+      "frame": 8,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 1389,
+      "duration_s": 5.33,
+      "words": [
+        {
+          "text": "The",
+          "start": 0,
+          "end": 0.26
+        },
+        {
+          "text": "cement",
+          "start": 0.26,
+          "end": 0.52
+        },
+        {
+          "text": "incumbents",
+          "start": 0.52,
+          "end": 0.91
+        },
+        {
+          "text": "who",
+          "start": 1.04,
+          "end": 1.2
+        },
+        {
+          "text": "already",
+          "start": 1.41,
+          "end": 1.59
+        },
+        {
+          "text": "own",
+          "start": 1.59,
+          "end": 1.75
+        },
+        {
+          "text": "the",
+          "start": 1.75,
+          "end": 1.91
+        },
+        {
+          "text": "old",
+          "start": 1.91,
+          "end": 2.07
+        },
+        {
+          "text": "plants,",
+          "start": 2.07,
+          "end": 2.49
+        },
+        {
+          "text": "the",
+          "start": 2.49,
+          "end": 2.65
+        },
+        {
+          "text": "tech",
+          "start": 2.65,
+          "end": 2.86
+        },
+        {
+          "text": "companies",
+          "start": 2.86,
+          "end": 3.34
+        },
+        {
+          "text": "who",
+          "start": 3.42,
+          "end": 3.5
+        },
+        {
+          "text": "already",
+          "start": 3.5,
+          "end": 3.74
+        },
+        {
+          "text": "signed",
+          "start": 4.18,
+          "end": 4.29
+        },
+        {
+          "text": "up",
+          "start": 4.29,
+          "end": 4.31
+        },
+        {
+          "text": "to",
+          "start": 4.43,
+          "end": 4.51
+        },
+        {
+          "text": "buy",
+          "start": 4.51,
+          "end": 4.68
+        },
+        {
+          "text": "the",
+          "start": 4.68,
+          "end": 4.8
+        },
+        {
+          "text": "output,",
+          "start": 4.86,
+          "end": 5.29
+        }
+      ]
+    },
+    {
+      "frame": 9,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 1394.33,
+      "duration_s": 4.17,
+      "words": [
+        {
+          "text": "or",
+          "start": 0,
+          "end": 0.07
+        },
+        {
+          "text": "private",
+          "start": 0.07,
+          "end": 0.46
+        },
+        {
+          "text": "investors",
+          "start": 0.46,
+          "end": 0.9
+        },
+        {
+          "text": "who'd",
+          "start": 0.96,
+          "end": 1.24
+        },
+        {
+          "text": "want",
+          "start": 1.24,
+          "end": 1.45
+        },
+        {
+          "text": "to",
+          "start": 1.46,
+          "end": 1.5
+        },
+        {
+          "text": "return",
+          "start": 1.83,
+          "end": 1.9
+        },
+        {
+          "text": "before",
+          "start": 2.01,
+          "end": 2.31
+        },
+        {
+          "text": "a",
+          "start": 2.31,
+          "end": 2.34
+        },
+        {
+          "text": "single-ton",
+          "start": 2.62,
+          "end": 3.11
+        },
+        {
+          "text": "ships?",
+          "start": 3.11,
+          "end": 3.95
+        }
+      ]
+    },
+    {
+      "frame": 10,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 1398.5,
+      "duration_s": 2.18,
+      "words": [
+        {
+          "text": "Pick",
+          "start": 0,
+          "end": 0.02
+        },
+        {
+          "text": "one",
+          "start": 0.02,
+          "end": 0.17
+        },
+        {
+          "text": "and",
+          "start": 0.25,
+          "end": 0.38
+        },
+        {
+          "text": "say",
+          "start": 0.38,
+          "end": 0.56
+        },
+        {
+          "text": "what",
+          "start": 0.56,
+          "end": 0.65
+        },
+        {
+          "text": "you'd",
+          "start": 0.78,
+          "end": 1.1
+        },
+        {
+          "text": "want",
+          "start": 1.15,
+          "end": 1.34
+        },
+        {
+          "text": "in",
+          "start": 1.34,
+          "end": 1.46
+        },
+        {
+          "text": "exchange.",
+          "start": 1.46,
+          "end": 2.18
+        }
+      ]
+    }
+  ],
+  "sfx": []
+}

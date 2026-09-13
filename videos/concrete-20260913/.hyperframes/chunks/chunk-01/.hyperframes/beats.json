@@ -1,0 +1,713 @@
+{
+  "beats": [
+    {
+      "id": "12",
+      "text": "That kiln has two carbon problems, not one.",
+      "start": 46.38,
+      "end": 49.18,
+      "durationSeconds": 2.8,
+      "words": [
+        {
+          "text": "That",
+          "start": 46.38,
+          "end": 46.44
+        },
+        {
+          "text": "kiln",
+          "start": 46.44,
+          "end": 46.72
+        },
+        {
+          "text": "has",
+          "start": 46.72,
+          "end": 46.93
+        },
+        {
+          "text": "two",
+          "start": 46.93,
+          "end": 47
+        },
+        {
+          "text": "carbon",
+          "start": 47.53,
+          "end": 47.57
+        },
+        {
+          "text": "problems,",
+          "start": 47.57,
+          "end": 48.22
+        },
+        {
+          "text": "not",
+          "start": 48.34,
+          "end": 48.45
+        },
+        {
+          "text": "one.",
+          "start": 48.49,
+          "end": 48.96
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "text": "The first is obvious. You are burning fuel to reach 2,640 degrees.",
+      "start": 49.18,
+      "end": 53.8,
+      "durationSeconds": 4.62,
+      "words": [
+        {
+          "text": "The",
+          "start": 49.18,
+          "end": 49.19
+        },
+        {
+          "text": "first",
+          "start": 49.19,
+          "end": 49.58
+        },
+        {
+          "text": "is",
+          "start": 49.58,
+          "end": 49.73
+        },
+        {
+          "text": "obvious.",
+          "start": 49.73,
+          "end": 50.52
+        },
+        {
+          "text": "You",
+          "start": 50.52,
+          "end": 50.74
+        },
+        {
+          "text": "are",
+          "start": 50.74,
+          "end": 50.91
+        },
+        {
+          "text": "burning",
+          "start": 50.99,
+          "end": 51.33
+        },
+        {
+          "text": "fuel",
+          "start": 51.38,
+          "end": 51.39
+        },
+        {
+          "text": "to",
+          "start": 51.39,
+          "end": 51.89
+        },
+        {
+          "text": "reach",
+          "start": 51.89,
+          "end": 52.13
+        },
+        {
+          "text": "2,640",
+          "start": 52.13,
+          "end": 53.07
+        },
+        {
+          "text": "degrees.",
+          "start": 53.07,
+          "end": 53.8
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "text": "The second is the one that has trapped this entire industry for two centuries.",
+      "start": 53.8,
+      "end": 58.22,
+      "durationSeconds": 4.42,
+      "words": [
+        {
+          "text": "The",
+          "start": 53.8,
+          "end": 54.02
+        },
+        {
+          "text": "second",
+          "start": 54.02,
+          "end": 54.35
+        },
+        {
+          "text": "is",
+          "start": 54.35,
+          "end": 54.47
+        },
+        {
+          "text": "the",
+          "start": 54.47,
+          "end": 54.62
+        },
+        {
+          "text": "one",
+          "start": 54.64,
+          "end": 54.67
+        },
+        {
+          "text": "that",
+          "start": 54.67,
+          "end": 55.17
+        },
+        {
+          "text": "has",
+          "start": 55.17,
+          "end": 55.26
+        },
+        {
+          "text": "trapped",
+          "start": 55.26,
+          "end": 55.69
+        },
+        {
+          "text": "this",
+          "start": 55.69,
+          "end": 55.85
+        },
+        {
+          "text": "entire",
+          "start": 55.97,
+          "end": 56.3
+        },
+        {
+          "text": "industry",
+          "start": 56.31,
+          "end": 56.64
+        },
+        {
+          "text": "for",
+          "start": 56.64,
+          "end": 57.01
+        },
+        {
+          "text": "two",
+          "start": 57.01,
+          "end": 57.16
+        },
+        {
+          "text": "centuries.",
+          "start": 57.18,
+          "end": 58
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "text": "Sandstone is roughly 44% carbon dioxide by weight.",
+      "start": 58.22,
+      "end": 61.44,
+      "durationSeconds": 3.22,
+      "words": [
+        {
+          "text": "Sandstone",
+          "start": 58.22,
+          "end": 58.58
+        },
+        {
+          "text": "is",
+          "start": 58.58,
+          "end": 58.7
+        },
+        {
+          "text": "roughly",
+          "start": 58.7,
+          "end": 58.84
+        },
+        {
+          "text": "44%",
+          "start": 59.37,
+          "end": 59.61
+        },
+        {
+          "text": "carbon",
+          "start": 59.61,
+          "end": 60
+        },
+        {
+          "text": "dioxide",
+          "start": 60,
+          "end": 60.45
+        },
+        {
+          "text": "by",
+          "start": 60.45,
+          "end": 60.58
+        },
+        {
+          "text": "weight.",
+          "start": 60.58,
+          "end": 61.22
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "text": "Nearly half the rock, by mass, is carbon dioxide waiting to leave.",
+      "start": 61.44,
+      "end": 65.62,
+      "durationSeconds": 4.18,
+      "words": [
+        {
+          "text": "Nearly",
+          "start": 61.44,
+          "end": 61.61
+        },
+        {
+          "text": "half",
+          "start": 61.69,
+          "end": 61.91
+        },
+        {
+          "text": "the",
+          "start": 61.91,
+          "end": 62.06
+        },
+        {
+          "text": "rock,",
+          "start": 62.12,
+          "end": 62.55
+        },
+        {
+          "text": "by",
+          "start": 62.59,
+          "end": 62.69
+        },
+        {
+          "text": "mass,",
+          "start": 62.69,
+          "end": 63.11
+        },
+        {
+          "text": "is",
+          "start": 63.11,
+          "end": 63.25
+        },
+        {
+          "text": "carbon",
+          "start": 63.25,
+          "end": 63.67
+        },
+        {
+          "text": "dioxide",
+          "start": 63.67,
+          "end": 64.04
+        },
+        {
+          "text": "waiting",
+          "start": 64.43,
+          "end": 64.65
+        },
+        {
+          "text": "to",
+          "start": 64.65,
+          "end": 64.79
+        },
+        {
+          "text": "leave.",
+          "start": 64.79,
+          "end": 65.4
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "text": "Heat it and it leaves. That release has nothing to do with the fuel.",
+      "start": 65.62,
+      "end": 69.26,
+      "durationSeconds": 3.64,
+      "words": [
+        {
+          "text": "Heat",
+          "start": 65.62,
+          "end": 65.72
+        },
+        {
+          "text": "it",
+          "start": 65.72,
+          "end": 65.88
+        },
+        {
+          "text": "and",
+          "start": 65.88,
+          "end": 66.12
+        },
+        {
+          "text": "it",
+          "start": 66.12,
+          "end": 66.24
+        },
+        {
+          "text": "leaves.",
+          "start": 66.76,
+          "end": 67.02
+        },
+        {
+          "text": "That",
+          "start": 67.02,
+          "end": 67.24
+        },
+        {
+          "text": "release",
+          "start": 67.24,
+          "end": 67.58
+        },
+        {
+          "text": "has",
+          "start": 67.58,
+          "end": 67.73
+        },
+        {
+          "text": "nothing",
+          "start": 67.73,
+          "end": 67.86
+        },
+        {
+          "text": "to",
+          "start": 68.07,
+          "end": 68.19
+        },
+        {
+          "text": "do",
+          "start": 68.19,
+          "end": 68.39
+        },
+        {
+          "text": "with",
+          "start": 68.39,
+          "end": 68.49
+        },
+        {
+          "text": "the",
+          "start": 68.49,
+          "end": 68.64
+        },
+        {
+          "text": "fuel.",
+          "start": 68.64,
+          "end": 69.04
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "text": "Switch the kiln to hydrogen, to electricity, to sunlight.",
+      "start": 69.26,
+      "end": 73.04,
+      "durationSeconds": 3.78,
+      "words": [
+        {
+          "text": "Switch",
+          "start": 69.26,
+          "end": 69.43
+        },
+        {
+          "text": "the",
+          "start": 69.51,
+          "end": 69.67
+        },
+        {
+          "text": "kiln",
+          "start": 69.67,
+          "end": 69.91
+        },
+        {
+          "text": "to",
+          "start": 69.91,
+          "end": 70.41
+        },
+        {
+          "text": "hydrogen,",
+          "start": 70.41,
+          "end": 70.8
+        },
+        {
+          "text": "to",
+          "start": 70.8,
+          "end": 70.94
+        },
+        {
+          "text": "electricity,",
+          "start": 70.94,
+          "end": 71.86
+        },
+        {
+          "text": "to",
+          "start": 71.86,
+          "end": 71.91
+        },
+        {
+          "text": "sunlight.",
+          "start": 72.25,
+          "end": 72.74
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "text": "The rock still breathes out.",
+      "start": 73.04,
+      "end": 75.24,
+      "durationSeconds": 2.2,
+      "words": [
+        {
+          "text": "The",
+          "start": 73.04,
+          "end": 73.09
+        },
+        {
+          "text": "rock",
+          "start": 73.09,
+          "end": 73.46
+        },
+        {
+          "text": "still",
+          "start": 73.46,
+          "end": 73.66
+        },
+        {
+          "text": "breathes",
+          "start": 74.19,
+          "end": 74.65
+        },
+        {
+          "text": "out.",
+          "start": 74.65,
+          "end": 75.24
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "text": "So when people say cement is hard to decarbonize, this is what they actually mean.",
+      "start": 75.24,
+      "end": 79.44,
+      "durationSeconds": 4.2,
+      "words": [
+        {
+          "text": "So",
+          "start": 75.24,
+          "end": 75.46
+        },
+        {
+          "text": "when",
+          "start": 75.46,
+          "end": 75.58
+        },
+        {
+          "text": "people",
+          "start": 75.58,
+          "end": 75.92
+        },
+        {
+          "text": "say",
+          "start": 75.92,
+          "end": 76.08
+        },
+        {
+          "text": "cement",
+          "start": 76.08,
+          "end": 76.11
+        },
+        {
+          "text": "is",
+          "start": 76.11,
+          "end": 76.61
+        },
+        {
+          "text": "hard",
+          "start": 76.61,
+          "end": 76.79
+        },
+        {
+          "text": "to",
+          "start": 76.79,
+          "end": 76.9
+        },
+        {
+          "text": "decarbonize,",
+          "start": 76.9,
+          "end": 77.64
+        },
+        {
+          "text": "this",
+          "start": 77.64,
+          "end": 77.87
+        },
+        {
+          "text": "is",
+          "start": 77.87,
+          "end": 77.98
+        },
+        {
+          "text": "what",
+          "start": 77.98,
+          "end": 78.08
+        },
+        {
+          "text": "they",
+          "start": 78.08,
+          "end": 78.45
+        },
+        {
+          "text": "actually",
+          "start": 78.45,
+          "end": 78.91
+        },
+        {
+          "text": "mean.",
+          "start": 78.91,
+          "end": 79.44
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "text": "It is not an engineering shortfall, it is the chemistry of the raw material.",
+      "start": 79.44,
+      "end": 83.68,
+      "durationSeconds": 4.24,
+      "words": [
+        {
+          "text": "It",
+          "start": 79.44,
+          "end": 79.66
+        },
+        {
+          "text": "is",
+          "start": 79.66,
+          "end": 79.68
+        },
+        {
+          "text": "not",
+          "start": 79.68,
+          "end": 79.83
+        },
+        {
+          "text": "an",
+          "start": 79.91,
+          "end": 79.99
+        },
+        {
+          "text": "engineering",
+          "start": 79.99,
+          "end": 80.28
+        },
+        {
+          "text": "shortfall,",
+          "start": 80.81,
+          "end": 81.38
+        },
+        {
+          "text": "it",
+          "start": 81.38,
+          "end": 81.49
+        },
+        {
+          "text": "is",
+          "start": 81.49,
+          "end": 81.52
+        },
+        {
+          "text": "the",
+          "start": 81.62,
+          "end": 81.81
+        },
+        {
+          "text": "chemistry",
+          "start": 81.81,
+          "end": 82.26
+        },
+        {
+          "text": "of",
+          "start": 82.37,
+          "end": 82.43
+        },
+        {
+          "text": "the",
+          "start": 82.64,
+          "end": 82.69
+        },
+        {
+          "text": "raw",
+          "start": 82.69,
+          "end": 82.88
+        },
+        {
+          "text": "material.",
+          "start": 82.88,
+          "end": 83.68
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "text": "Two people at MIT built a machine that skips both problems.",
+      "start": 83.68,
+      "end": 87,
+      "durationSeconds": 3.32,
+      "words": [
+        {
+          "text": "Two",
+          "start": 83.68,
+          "end": 83.9
+        },
+        {
+          "text": "people",
+          "start": 83.9,
+          "end": 84.26
+        },
+        {
+          "text": "at",
+          "start": 84.26,
+          "end": 84.38
+        },
+        {
+          "text": "MIT",
+          "start": 84.38,
+          "end": 84.52
+        },
+        {
+          "text": "built",
+          "start": 84.58,
+          "end": 84.59
+        },
+        {
+          "text": "a",
+          "start": 84.59,
+          "end": 85.05
+        },
+        {
+          "text": "machine",
+          "start": 85.05,
+          "end": 85.41
+        },
+        {
+          "text": "that",
+          "start": 85.41,
+          "end": 85.67
+        },
+        {
+          "text": "skips",
+          "start": 85.67,
+          "end": 85.97
+        },
+        {
+          "text": "both",
+          "start": 86.01,
+          "end": 86.25
+        },
+        {
+          "text": "problems.",
+          "start": 86.25,
+          "end": 87
+        }
+      ]
+    }
+  ]
+}

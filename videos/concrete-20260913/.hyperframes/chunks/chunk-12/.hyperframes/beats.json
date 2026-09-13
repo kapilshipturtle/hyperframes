@@ -1,0 +1,769 @@
+{
+  "beats": [
+    {
+      "id": "127",
+      "text": "Because the process is electrochemical, rather than thermal, it can ramp up and down.",
+      "start": 521.78,
+      "end": 526.21,
+      "durationSeconds": 4.43,
+      "words": [
+        {
+          "text": "Because",
+          "start": 521.78,
+          "end": 521.95
+        },
+        {
+          "text": "the",
+          "start": 522.03,
+          "end": 522.16
+        },
+        {
+          "text": "process",
+          "start": 522.16,
+          "end": 522.38
+        },
+        {
+          "text": "is",
+          "start": 522.56,
+          "end": 522.69
+        },
+        {
+          "text": "electrochemical,",
+          "start": 522.93,
+          "end": 523.63
+        },
+        {
+          "text": "rather",
+          "start": 523.73,
+          "end": 524.06
+        },
+        {
+          "text": "than",
+          "start": 524.08,
+          "end": 524.32
+        },
+        {
+          "text": "thermal,",
+          "start": 524.32,
+          "end": 524.86
+        },
+        {
+          "text": "it",
+          "start": 524.94,
+          "end": 524.98
+        },
+        {
+          "text": "can",
+          "start": 524.98,
+          "end": 525.16
+        },
+        {
+          "text": "ramp",
+          "start": 525.16,
+          "end": 525.27
+        },
+        {
+          "text": "up",
+          "start": 525.27,
+          "end": 525.55
+        },
+        {
+          "text": "and",
+          "start": 525.55,
+          "end": 525.7
+        },
+        {
+          "text": "down.",
+          "start": 525.7,
+          "end": 526.14
+        }
+      ]
+    },
+    {
+      "id": "128",
+      "text": "A rotary kiln is a thermal mass the size of a building.",
+      "start": 526.21,
+      "end": 529.48,
+      "durationSeconds": 3.27,
+      "words": [
+        {
+          "text": "A",
+          "start": 526.21,
+          "end": 526.27
+        },
+        {
+          "text": "rotary",
+          "start": 526.42,
+          "end": 526.69
+        },
+        {
+          "text": "kiln",
+          "start": 526.69,
+          "end": 526.97
+        },
+        {
+          "text": "is",
+          "start": 526.97,
+          "end": 527.04
+        },
+        {
+          "text": "a",
+          "start": 527.04,
+          "end": 527.57
+        },
+        {
+          "text": "thermal",
+          "start": 527.57,
+          "end": 527.67
+        },
+        {
+          "text": "mass",
+          "start": 527.67,
+          "end": 527.95
+        },
+        {
+          "text": "the",
+          "start": 527.95,
+          "end": 528.16
+        },
+        {
+          "text": "size",
+          "start": 528.16,
+          "end": 528.44
+        },
+        {
+          "text": "of",
+          "start": 528.44,
+          "end": 528.58
+        },
+        {
+          "text": "a",
+          "start": 528.58,
+          "end": 528.65
+        },
+        {
+          "text": "building.",
+          "start": 528.65,
+          "end": 529.48
+        }
+      ]
+    },
+    {
+      "id": "129",
+      "text": "You do not switch it off because electricity got expensive at 4 in the afternoon.",
+      "start": 529.48,
+      "end": 533.69,
+      "durationSeconds": 4.21,
+      "words": [
+        {
+          "text": "You",
+          "start": 529.48,
+          "end": 529.7
+        },
+        {
+          "text": "do",
+          "start": 529.7,
+          "end": 529.76
+        },
+        {
+          "text": "not",
+          "start": 529.76,
+          "end": 529.84
+        },
+        {
+          "text": "switch",
+          "start": 529.95,
+          "end": 530.28
+        },
+        {
+          "text": "it",
+          "start": 530.28,
+          "end": 530.32
+        },
+        {
+          "text": "off",
+          "start": 530.32,
+          "end": 530.85
+        },
+        {
+          "text": "because",
+          "start": 530.85,
+          "end": 530.97
+        },
+        {
+          "text": "electricity",
+          "start": 530.97,
+          "end": 531.53
+        },
+        {
+          "text": "got",
+          "start": 531.66,
+          "end": 531.77
+        },
+        {
+          "text": "expensive",
+          "start": 531.8,
+          "end": 532.29
+        },
+        {
+          "text": "at",
+          "start": 532.31,
+          "end": 532.35
+        },
+        {
+          "text": "4",
+          "start": 532.35,
+          "end": 532.69
+        },
+        {
+          "text": "in",
+          "start": 532.69,
+          "end": 532.7
+        },
+        {
+          "text": "the",
+          "start": 532.7,
+          "end": 532.87
+        },
+        {
+          "text": "afternoon.",
+          "start": 532.87,
+          "end": 533.68
+        }
+      ]
+    },
+    {
+      "id": "130",
+      "text": "A stack of electrochemical cells can follow a grid.",
+      "start": 533.69,
+      "end": 536.96,
+      "durationSeconds": 3.27,
+      "words": [
+        {
+          "text": "A",
+          "start": 533.69,
+          "end": 533.75
+        },
+        {
+          "text": "stack",
+          "start": 533.9,
+          "end": 534.07
+        },
+        {
+          "text": "of",
+          "start": 534.15,
+          "end": 534.25
+        },
+        {
+          "text": "electrochemical",
+          "start": 534.25,
+          "end": 535.33
+        },
+        {
+          "text": "cells",
+          "start": 535.33,
+          "end": 535.69
+        },
+        {
+          "text": "can",
+          "start": 535.69,
+          "end": 535.9
+        },
+        {
+          "text": "follow",
+          "start": 535.9,
+          "end": 536.33
+        },
+        {
+          "text": "a",
+          "start": 536.33,
+          "end": 536.4
+        },
+        {
+          "text": "grid.",
+          "start": 536.4,
+          "end": 536.96
+        }
+      ]
+    },
+    {
+      "id": "131",
+      "text": "On a power system increasingly built around wind and solar, a heavy industrial process that can throttle is not just cleaner,",
+      "start": 536.96,
+      "end": 543.74,
+      "durationSeconds": 6.78,
+      "words": [
+        {
+          "text": "On",
+          "start": 536.96,
+          "end": 537.07
+        },
+        {
+          "text": "a",
+          "start": 537.07,
+          "end": 537.18
+        },
+        {
+          "text": "power",
+          "start": 537.18,
+          "end": 537.35
+        },
+        {
+          "text": "system",
+          "start": 537.43,
+          "end": 537.76
+        },
+        {
+          "text": "increasingly",
+          "start": 537.76,
+          "end": 538.45
+        },
+        {
+          "text": "built",
+          "start": 538.45,
+          "end": 538.74
+        },
+        {
+          "text": "around",
+          "start": 538.74,
+          "end": 539.01
+        },
+        {
+          "text": "wind",
+          "start": 539.14,
+          "end": 539.32
+        },
+        {
+          "text": "and",
+          "start": 539.32,
+          "end": 539.48
+        },
+        {
+          "text": "solar,",
+          "start": 539.49,
+          "end": 539.83
+        },
+        {
+          "text": "a",
+          "start": 539.88,
+          "end": 539.9
+        },
+        {
+          "text": "heavy",
+          "start": 540.16,
+          "end": 540.23
+        },
+        {
+          "text": "industrial",
+          "start": 540.34,
+          "end": 540.67
+        },
+        {
+          "text": "process",
+          "start": 540.95,
+          "end": 541.28
+        },
+        {
+          "text": "that",
+          "start": 541.5,
+          "end": 541.58
+        },
+        {
+          "text": "can",
+          "start": 541.58,
+          "end": 541.8
+        },
+        {
+          "text": "throttle",
+          "start": 541.8,
+          "end": 542.12
+        },
+        {
+          "text": "is",
+          "start": 542.12,
+          "end": 542.65
+        },
+        {
+          "text": "not",
+          "start": 542.65,
+          "end": 542.77
+        },
+        {
+          "text": "just",
+          "start": 542.77,
+          "end": 543.07
+        },
+        {
+          "text": "cleaner,",
+          "start": 543.07,
+          "end": 543.74
+        }
+      ]
+    },
+    {
+      "id": "132",
+      "text": "it is a different kind of asset.",
+      "start": 543.74,
+      "end": 546.12,
+      "durationSeconds": 2.38,
+      "words": [
+        {
+          "text": "it",
+          "start": 543.74,
+          "end": 543.89
+        },
+        {
+          "text": "is",
+          "start": 543.89,
+          "end": 544.04
+        },
+        {
+          "text": "a",
+          "start": 544.04,
+          "end": 544.1
+        },
+        {
+          "text": "different",
+          "start": 544.49,
+          "end": 544.79
+        },
+        {
+          "text": "kind",
+          "start": 544.79,
+          "end": 544.98
+        },
+        {
+          "text": "of",
+          "start": 544.98,
+          "end": 545.27
+        },
+        {
+          "text": "asset.",
+          "start": 545.27,
+          "end": 545.86
+        }
+      ]
+    },
+    {
+      "id": "133",
+      "text": "Which leaves exactly one question, and it is the question that has killed every previous attempt to reinvent cement.",
+      "start": 546.12,
+      "end": 552.86,
+      "durationSeconds": 6.74,
+      "words": [
+        {
+          "text": "Which",
+          "start": 546.12,
+          "end": 546.19
+        },
+        {
+          "text": "leaves",
+          "start": 546.19,
+          "end": 546.54
+        },
+        {
+          "text": "exactly",
+          "start": 546.54,
+          "end": 546.74
+        },
+        {
+          "text": "one",
+          "start": 546.93,
+          "end": 547.11
+        },
+        {
+          "text": "question,",
+          "start": 547.27,
+          "end": 547.68
+        },
+        {
+          "text": "and",
+          "start": 547.68,
+          "end": 547.85
+        },
+        {
+          "text": "it",
+          "start": 547.85,
+          "end": 547.96
+        },
+        {
+          "text": "is",
+          "start": 547.96,
+          "end": 547.98
+        },
+        {
+          "text": "the",
+          "start": 548.07,
+          "end": 548.24
+        },
+        {
+          "text": "question",
+          "start": 548.24,
+          "end": 548.7
+        },
+        {
+          "text": "that",
+          "start": 548.7,
+          "end": 548.77
+        },
+        {
+          "text": "has",
+          "start": 548.77,
+          "end": 549.11
+        },
+        {
+          "text": "killed",
+          "start": 549.11,
+          "end": 549.45
+        },
+        {
+          "text": "every",
+          "start": 549.45,
+          "end": 549.6
+        },
+        {
+          "text": "previous",
+          "start": 549.89,
+          "end": 550.28
+        },
+        {
+          "text": "attempt",
+          "start": 550.5,
+          "end": 550.91
+        },
+        {
+          "text": "to",
+          "start": 550.91,
+          "end": 551.09
+        },
+        {
+          "text": "reinvent",
+          "start": 551.09,
+          "end": 551.81
+        },
+        {
+          "text": "cement.",
+          "start": 551.81,
+          "end": 552.64
+        }
+      ]
+    },
+    {
+      "id": "134",
+      "text": "Will anyone be allowed to build with it?",
+      "start": 552.86,
+      "end": 555.12,
+      "durationSeconds": 2.26,
+      "words": [
+        {
+          "text": "Will",
+          "start": 552.86,
+          "end": 552.89
+        },
+        {
+          "text": "anyone",
+          "start": 552.89,
+          "end": 553.27
+        },
+        {
+          "text": "be",
+          "start": 553.27,
+          "end": 553.38
+        },
+        {
+          "text": "allowed",
+          "start": 553.38,
+          "end": 553.51
+        },
+        {
+          "text": "to",
+          "start": 553.51,
+          "end": 554.01
+        },
+        {
+          "text": "build",
+          "start": 554.01,
+          "end": 554.28
+        },
+        {
+          "text": "with",
+          "start": 554.28,
+          "end": 554.53
+        },
+        {
+          "text": "it?",
+          "start": 554.53,
+          "end": 554.9
+        }
+      ]
+    },
+    {
+      "id": "135",
+      "text": "Because this is not the first time someone has claimed to have fixed cement.",
+      "start": 555.12,
+      "end": 558.84,
+      "durationSeconds": 3.72,
+      "words": [
+        {
+          "text": "Because",
+          "start": 555.12,
+          "end": 555.29
+        },
+        {
+          "text": "this",
+          "start": 555.37,
+          "end": 555.53
+        },
+        {
+          "text": "is",
+          "start": 555.53,
+          "end": 555.63
+        },
+        {
+          "text": "not",
+          "start": 555.63,
+          "end": 555.74
+        },
+        {
+          "text": "the",
+          "start": 555.74,
+          "end": 556.005
+        },
+        {
+          "text": "first",
+          "start": 556.005,
+          "end": 556.27
+        },
+        {
+          "text": "time",
+          "start": 556.27,
+          "end": 556.49
+        },
+        {
+          "text": "someone",
+          "start": 556.49,
+          "end": 556.89
+        },
+        {
+          "text": "has",
+          "start": 556.89,
+          "end": 556.97
+        },
+        {
+          "text": "claimed",
+          "start": 557.07,
+          "end": 557.46
+        },
+        {
+          "text": "to",
+          "start": 557.46,
+          "end": 557.57
+        },
+        {
+          "text": "have",
+          "start": 557.57,
+          "end": 557.74
+        },
+        {
+          "text": "fixed",
+          "start": 557.74,
+          "end": 558.11
+        },
+        {
+          "text": "cement.",
+          "start": 558.11,
+          "end": 558.6
+        }
+      ]
+    },
+    {
+      "id": "136",
+      "text": "Novacem, out of Imperial College London, proposed a magnesium-based cement that would absorb carbon dioxide as",
+      "start": 558.84,
+      "end": 565.7,
+      "durationSeconds": 6.86,
+      "words": [
+        {
+          "text": "Novacem,",
+          "start": 558.84,
+          "end": 559.23
+        },
+        {
+          "text": "out",
+          "start": 559.23,
+          "end": 559.43
+        },
+        {
+          "text": "of",
+          "start": 559.43,
+          "end": 559.48
+        },
+        {
+          "text": "Imperial",
+          "start": 560.01,
+          "end": 560.09
+        },
+        {
+          "text": "College",
+          "start": 560.09,
+          "end": 560.56
+        },
+        {
+          "text": "London,",
+          "start": 560.56,
+          "end": 561.09
+        },
+        {
+          "text": "proposed",
+          "start": 561.09,
+          "end": 561.46
+        },
+        {
+          "text": "a",
+          "start": 561.62,
+          "end": 561.67
+        },
+        {
+          "text": "magnesium-based",
+          "start": 561.85,
+          "end": 562.67
+        },
+        {
+          "text": "cement",
+          "start": 562.67,
+          "end": 563.07
+        },
+        {
+          "text": "that",
+          "start": 563.07,
+          "end": 563.22
+        },
+        {
+          "text": "would",
+          "start": 563.49,
+          "end": 563.66
+        },
+        {
+          "text": "absorb",
+          "start": 563.66,
+          "end": 564.15
+        },
+        {
+          "text": "carbon",
+          "start": 564.38,
+          "end": 564.78
+        },
+        {
+          "text": "dioxide",
+          "start": 564.78,
+          "end": 564.98
+        },
+        {
+          "text": "as",
+          "start": 565.53,
+          "end": 565.7
+        }
+      ]
+    }
+  ]
+}

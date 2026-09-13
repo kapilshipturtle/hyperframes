@@ -1,0 +1,849 @@
+{
+  "beats": [
+    {
+      "id": "179",
+      "text": "They had lime, volcanic ash from around the Bay of Naples, seawater, and aggregate.",
+      "start": 766.9,
+      "end": 771.98,
+      "durationSeconds": 5.08,
+      "words": [
+        {
+          "text": "They",
+          "start": 766.9,
+          "end": 766.96
+        },
+        {
+          "text": "had",
+          "start": 766.96,
+          "end": 767.17
+        },
+        {
+          "text": "lime,",
+          "start": 767.17,
+          "end": 767.52
+        },
+        {
+          "text": "volcanic",
+          "start": 768.05,
+          "end": 768.15
+        },
+        {
+          "text": "ash",
+          "start": 768.15,
+          "end": 768.36
+        },
+        {
+          "text": "from",
+          "start": 768.36,
+          "end": 768.64
+        },
+        {
+          "text": "around",
+          "start": 768.64,
+          "end": 769.06
+        },
+        {
+          "text": "the",
+          "start": 769.06,
+          "end": 769.27
+        },
+        {
+          "text": "Bay",
+          "start": 769.27,
+          "end": 769.48
+        },
+        {
+          "text": "of",
+          "start": 769.48,
+          "end": 769.53
+        },
+        {
+          "text": "Naples,",
+          "start": 769.89,
+          "end": 770.18
+        },
+        {
+          "text": "seawater,",
+          "start": 770.18,
+          "end": 770.88
+        },
+        {
+          "text": "and",
+          "start": 770.88,
+          "end": 771.09
+        },
+        {
+          "text": "aggregate.",
+          "start": 771.09,
+          "end": 771.98
+        }
+      ]
+    },
+    {
+      "id": "180",
+      "text": "For a long time the standard explanation was the ash, the pozzolanic reaction between volcanic glass and lime producing",
+      "start": 771.98,
+      "end": 778.56,
+      "durationSeconds": 6.58,
+      "words": [
+        {
+          "text": "For",
+          "start": 771.98,
+          "end": 772.09
+        },
+        {
+          "text": "a",
+          "start": 772.09,
+          "end": 772.2
+        },
+        {
+          "text": "long",
+          "start": 772.2,
+          "end": 772.37
+        },
+        {
+          "text": "time",
+          "start": 772.45,
+          "end": 772.65
+        },
+        {
+          "text": "the",
+          "start": 772.65,
+          "end": 772.8
+        },
+        {
+          "text": "standard",
+          "start": 772.8,
+          "end": 773.35
+        },
+        {
+          "text": "explanation",
+          "start": 773.35,
+          "end": 773.95
+        },
+        {
+          "text": "was",
+          "start": 773.95,
+          "end": 774.04
+        },
+        {
+          "text": "the",
+          "start": 774.16,
+          "end": 774.27
+        },
+        {
+          "text": "ash,",
+          "start": 774.31,
+          "end": 774.57
+        },
+        {
+          "text": "the",
+          "start": 774.57,
+          "end": 774.74
+        },
+        {
+          "text": "pozzolanic",
+          "start": 774.74,
+          "end": 775.27
+        },
+        {
+          "text": "reaction",
+          "start": 775.36,
+          "end": 775.68
+        },
+        {
+          "text": "between",
+          "start": 775.97,
+          "end": 776.18
+        },
+        {
+          "text": "volcanic",
+          "start": 776.18,
+          "end": 776.56
+        },
+        {
+          "text": "glass",
+          "start": 777.02,
+          "end": 777.19
+        },
+        {
+          "text": "and",
+          "start": 777.27,
+          "end": 777.47
+        },
+        {
+          "text": "lime",
+          "start": 777.47,
+          "end": 777.64
+        },
+        {
+          "text": "producing",
+          "start": 778.17,
+          "end": 778.56
+        }
+      ]
+    },
+    {
+      "id": "181",
+      "text": "a durable binder. That is real, and it is genuinely part of the answer.",
+      "start": 778.56,
+      "end": 782.89,
+      "durationSeconds": 4.33,
+      "words": [
+        {
+          "text": "a",
+          "start": 778.56,
+          "end": 778.64
+        },
+        {
+          "text": "durable",
+          "start": 778.64,
+          "end": 779.23
+        },
+        {
+          "text": "binder.",
+          "start": 779.23,
+          "end": 780.02
+        },
+        {
+          "text": "That",
+          "start": 780.24,
+          "end": 780.29
+        },
+        {
+          "text": "is",
+          "start": 780.29,
+          "end": 780.41
+        },
+        {
+          "text": "real,",
+          "start": 780.49,
+          "end": 780.82
+        },
+        {
+          "text": "and",
+          "start": 780.82,
+          "end": 780.89
+        },
+        {
+          "text": "it",
+          "start": 781.02,
+          "end": 781.13
+        },
+        {
+          "text": "is",
+          "start": 781.23,
+          "end": 781.25
+        },
+        {
+          "text": "genuinely",
+          "start": 781.39,
+          "end": 781.88
+        },
+        {
+          "text": "part",
+          "start": 781.88,
+          "end": 782.07
+        },
+        {
+          "text": "of",
+          "start": 782.2,
+          "end": 782.28
+        },
+        {
+          "text": "the",
+          "start": 782.28,
+          "end": 782.48
+        },
+        {
+          "text": "answer.",
+          "start": 782.48,
+          "end": 782.89
+        }
+      ]
+    },
+    {
+      "id": "182",
+      "text": "But recent MIT research pushed further, examining the small white mineral lumps found scattered through Roman concrete.",
+      "start": 782.89,
+      "end": 789.56,
+      "durationSeconds": 6.67,
+      "words": [
+        {
+          "text": "But",
+          "start": 782.89,
+          "end": 783.36
+        },
+        {
+          "text": "recent",
+          "start": 783.36,
+          "end": 783.63
+        },
+        {
+          "text": "MIT",
+          "start": 783.63,
+          "end": 783.79
+        },
+        {
+          "text": "research",
+          "start": 783.79,
+          "end": 783.98
+        },
+        {
+          "text": "pushed",
+          "start": 784.51,
+          "end": 784.56
+        },
+        {
+          "text": "further,",
+          "start": 784.56,
+          "end": 785.06
+        },
+        {
+          "text": "examining",
+          "start": 785.06,
+          "end": 785.56
+        },
+        {
+          "text": "the",
+          "start": 785.56,
+          "end": 785.72
+        },
+        {
+          "text": "small",
+          "start": 785.72,
+          "end": 785.96
+        },
+        {
+          "text": "white",
+          "start": 785.99,
+          "end": 786.01
+        },
+        {
+          "text": "mineral",
+          "start": 786.35,
+          "end": 786.67
+        },
+        {
+          "text": "lumps",
+          "start": 786.67,
+          "end": 786.84
+        },
+        {
+          "text": "found",
+          "start": 787.13,
+          "end": 787.22
+        },
+        {
+          "text": "scattered",
+          "start": 787.22,
+          "end": 787.72
+        },
+        {
+          "text": "through",
+          "start": 788.02,
+          "end": 788.33
+        },
+        {
+          "text": "Roman",
+          "start": 788.33,
+          "end": 788.62
+        },
+        {
+          "text": "concrete.",
+          "start": 789.17,
+          "end": 789.56
+        }
+      ]
+    },
+    {
+      "id": "183",
+      "text": "For two centuries those lumps were treated as evidence of sloppy mixing.",
+      "start": 789.56,
+      "end": 793.68,
+      "durationSeconds": 4.12,
+      "words": [
+        {
+          "text": "For",
+          "start": 789.56,
+          "end": 789.78
+        },
+        {
+          "text": "two",
+          "start": 789.78,
+          "end": 789.92
+        },
+        {
+          "text": "centuries",
+          "start": 789.92,
+          "end": 790.37
+        },
+        {
+          "text": "those",
+          "start": 790.46,
+          "end": 790.5
+        },
+        {
+          "text": "lumps",
+          "start": 790.83,
+          "end": 791.07
+        },
+        {
+          "text": "were",
+          "start": 791.07,
+          "end": 791.31
+        },
+        {
+          "text": "treated",
+          "start": 791.31,
+          "end": 791.61
+        },
+        {
+          "text": "as",
+          "start": 791.74,
+          "end": 791.85
+        },
+        {
+          "text": "evidence",
+          "start": 791.88,
+          "end": 792.35
+        },
+        {
+          "text": "of",
+          "start": 792.35,
+          "end": 792.41
+        },
+        {
+          "text": "sloppy",
+          "start": 792.77,
+          "end": 792.84
+        },
+        {
+          "text": "mixing.",
+          "start": 792.94,
+          "end": 793.27
+        }
+      ]
+    },
+    {
+      "id": "184",
+      "text": "They are not. The research indicates they are the product of hot mixing, using quick lime rather than only slaked lime,",
+      "start": 793.68,
+      "end": 799.59,
+      "durationSeconds": 5.91,
+      "words": [
+        {
+          "text": "They",
+          "start": 793.68,
+          "end": 793.85
+        },
+        {
+          "text": "are",
+          "start": 793.93,
+          "end": 794.17
+        },
+        {
+          "text": "not.",
+          "start": 794.17,
+          "end": 794.8
+        },
+        {
+          "text": "The",
+          "start": 794.8,
+          "end": 795.02
+        },
+        {
+          "text": "research",
+          "start": 795.02,
+          "end": 795.37
+        },
+        {
+          "text": "indicates",
+          "start": 795.37,
+          "end": 795.62
+        },
+        {
+          "text": "they",
+          "start": 795.83,
+          "end": 796.05
+        },
+        {
+          "text": "are",
+          "start": 796.17,
+          "end": 796.2
+        },
+        {
+          "text": "the",
+          "start": 796.2,
+          "end": 796.35
+        },
+        {
+          "text": "product",
+          "start": 796.35,
+          "end": 796.72
+        },
+        {
+          "text": "of",
+          "start": 796.72,
+          "end": 796.82
+        },
+        {
+          "text": "hot",
+          "start": 796.82,
+          "end": 796.87
+        },
+        {
+          "text": "mixing,",
+          "start": 796.97,
+          "end": 797.38
+        },
+        {
+          "text": "using",
+          "start": 797.38,
+          "end": 797.62
+        },
+        {
+          "text": "quick",
+          "start": 797.63,
+          "end": 797.67
+        },
+        {
+          "text": "lime",
+          "start": 798.01,
+          "end": 798.1
+        },
+        {
+          "text": "rather",
+          "start": 798.18,
+          "end": 798.42
+        },
+        {
+          "text": "than",
+          "start": 798.42,
+          "end": 798.51
+        },
+        {
+          "text": "only",
+          "start": 798.94,
+          "end": 798.97
+        },
+        {
+          "text": "slaked",
+          "start": 798.97,
+          "end": 799.34
+        },
+        {
+          "text": "lime,",
+          "start": 799.34,
+          "end": 799.59
+        }
+      ]
+    },
+    {
+      "id": "185",
+      "text": "which raises the temperature of the mix and leaves behind reactive calcium-rich deposits inside the hardened material,",
+      "start": 799.59,
+      "end": 806.15,
+      "durationSeconds": 6.56,
+      "words": [
+        {
+          "text": "which",
+          "start": 799.59,
+          "end": 800.09
+        },
+        {
+          "text": "raises",
+          "start": 800.09,
+          "end": 800.41
+        },
+        {
+          "text": "the",
+          "start": 800.41,
+          "end": 800.6
+        },
+        {
+          "text": "temperature",
+          "start": 800.6,
+          "end": 801.3
+        },
+        {
+          "text": "of",
+          "start": 801.3,
+          "end": 801.42
+        },
+        {
+          "text": "the",
+          "start": 801.42,
+          "end": 801.56
+        },
+        {
+          "text": "mix",
+          "start": 801.56,
+          "end": 801.93
+        },
+        {
+          "text": "and",
+          "start": 801.93,
+          "end": 801.99
+        },
+        {
+          "text": "leaves",
+          "start": 802.1,
+          "end": 802.37
+        },
+        {
+          "text": "behind",
+          "start": 802.37,
+          "end": 802.75
+        },
+        {
+          "text": "reactive",
+          "start": 802.75,
+          "end": 803.24
+        },
+        {
+          "text": "calcium-rich",
+          "start": 803.25,
+          "end": 803.96
+        },
+        {
+          "text": "deposits",
+          "start": 804.18,
+          "end": 804.46
+        },
+        {
+          "text": "inside",
+          "start": 804.46,
+          "end": 804.78
+        },
+        {
+          "text": "the",
+          "start": 804.78,
+          "end": 805.33
+        },
+        {
+          "text": "hardened",
+          "start": 805.33,
+          "end": 805.53
+        },
+        {
+          "text": "material,",
+          "start": 805.53,
+          "end": 806.15
+        }
+      ]
+    },
+    {
+      "id": "186",
+      "text": "and when a crack later opens and water reaches one, it dissolves, reacts, and recrystallizes.",
+      "start": 806.15,
+      "end": 812.38,
+      "durationSeconds": 6.23,
+      "words": [
+        {
+          "text": "and",
+          "start": 806.15,
+          "end": 806.34
+        },
+        {
+          "text": "when",
+          "start": 806.34,
+          "end": 806.59
+        },
+        {
+          "text": "a",
+          "start": 806.59,
+          "end": 806.65
+        },
+        {
+          "text": "crack",
+          "start": 806.65,
+          "end": 806.8
+        },
+        {
+          "text": "later",
+          "start": 807.17,
+          "end": 807.27
+        },
+        {
+          "text": "opens",
+          "start": 807.34,
+          "end": 807.58
+        },
+        {
+          "text": "and",
+          "start": 807.58,
+          "end": 807.67
+        },
+        {
+          "text": "water",
+          "start": 807.95,
+          "end": 808.08
+        },
+        {
+          "text": "reaches",
+          "start": 808.08,
+          "end": 808.54
+        },
+        {
+          "text": "one,",
+          "start": 808.82,
+          "end": 808.96
+        },
+        {
+          "text": "it",
+          "start": 809.07,
+          "end": 809.13
+        },
+        {
+          "text": "dissolves,",
+          "start": 809.13,
+          "end": 809.96
+        },
+        {
+          "text": "reacts,",
+          "start": 809.98,
+          "end": 810.57
+        },
+        {
+          "text": "and",
+          "start": 810.57,
+          "end": 810.8
+        },
+        {
+          "text": "recrystallizes.",
+          "start": 810.8,
+          "end": 812.16
+        }
+      ]
+    },
+    {
+      "id": "187",
+      "text": "The crack fills itself. The Romans built a self-healing material and, as far as anyone can tell,",
+      "start": 812.38,
+      "end": 817.62,
+      "durationSeconds": 5.24,
+      "words": [
+        {
+          "text": "The",
+          "start": 812.38,
+          "end": 812.4
+        },
+        {
+          "text": "crack",
+          "start": 812.4,
+          "end": 812.8
+        },
+        {
+          "text": "fills",
+          "start": 812.8,
+          "end": 813
+        },
+        {
+          "text": "itself.",
+          "start": 813.53,
+          "end": 813.92
+        },
+        {
+          "text": "The",
+          "start": 813.92,
+          "end": 814.14
+        },
+        {
+          "text": "Romans",
+          "start": 814.14,
+          "end": 814.46
+        },
+        {
+          "text": "built",
+          "start": 814.46,
+          "end": 814.74
+        },
+        {
+          "text": "a",
+          "start": 814.75,
+          "end": 814.79
+        },
+        {
+          "text": "self-healing",
+          "start": 814.82,
+          "end": 815.54
+        },
+        {
+          "text": "material",
+          "start": 815.54,
+          "end": 815.97
+        },
+        {
+          "text": "and,",
+          "start": 816.1,
+          "end": 816.32
+        },
+        {
+          "text": "as",
+          "start": 816.32,
+          "end": 816.42
+        },
+        {
+          "text": "far",
+          "start": 816.44,
+          "end": 816.62
+        },
+        {
+          "text": "as",
+          "start": 816.62,
+          "end": 816.74
+        },
+        {
+          "text": "anyone",
+          "start": 816.74,
+          "end": 816.79
+        },
+        {
+          "text": "can",
+          "start": 817.13,
+          "end": 817.19
+        },
+        {
+          "text": "tell,",
+          "start": 817.3,
+          "end": 817.62
+        }
+      ]
+    },
+    {
+      "id": "188",
+      "text": "did not fully know it.",
+      "start": 817.62,
+      "end": 819.38,
+      "durationSeconds": 1.76,
+      "words": [
+        {
+          "text": "did",
+          "start": 817.62,
+          "end": 817.91
+        },
+        {
+          "text": "not",
+          "start": 817.91,
+          "end": 818
+        },
+        {
+          "text": "fully",
+          "start": 818,
+          "end": 818.3
+        },
+        {
+          "text": "know",
+          "start": 818.3,
+          "end": 818.5
+        },
+        {
+          "text": "it.",
+          "start": 818.78,
+          "end": 819.38
+        }
+      ]
+    }
+  ]
+}

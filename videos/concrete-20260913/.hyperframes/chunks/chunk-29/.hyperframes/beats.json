@@ -1,0 +1,944 @@
+{
+  "beats": [
+    {
+      "id": "302",
+      "text": "reserved by two of the largest cement companies on Earth and ordered bindingly by Microsoft,",
+      "start": 1312.42,
+      "end": 1317.32,
+      "durationSeconds": 4.9,
+      "words": [
+        {
+          "text": "reserved",
+          "start": 1312.42,
+          "end": 1312.87
+        },
+        {
+          "text": "by",
+          "start": 1312.87,
+          "end": 1312.99
+        },
+        {
+          "text": "two",
+          "start": 1312.99,
+          "end": 1313.16
+        },
+        {
+          "text": "of",
+          "start": 1313.16,
+          "end": 1313.27
+        },
+        {
+          "text": "the",
+          "start": 1313.27,
+          "end": 1313.42
+        },
+        {
+          "text": "largest",
+          "start": 1313.43,
+          "end": 1313.84
+        },
+        {
+          "text": "cement",
+          "start": 1313.84,
+          "end": 1314.18
+        },
+        {
+          "text": "companies",
+          "start": 1314.18,
+          "end": 1314.7
+        },
+        {
+          "text": "on",
+          "start": 1314.7,
+          "end": 1314.88
+        },
+        {
+          "text": "Earth",
+          "start": 1314.88,
+          "end": 1315.18
+        },
+        {
+          "text": "and",
+          "start": 1315.18,
+          "end": 1315.54
+        },
+        {
+          "text": "ordered",
+          "start": 1315.54,
+          "end": 1315.95
+        },
+        {
+          "text": "bindingly",
+          "start": 1315.95,
+          "end": 1316.51
+        },
+        {
+          "text": "by",
+          "start": 1316.51,
+          "end": 1316.69
+        },
+        {
+          "text": "Microsoft,",
+          "start": 1316.69,
+          "end": 1317.32
+        }
+      ]
+    },
+    {
+      "id": "303",
+      "text": "sighted on a river in a city that made paper for a hundred years, and a first factory that has not been built because half its",
+      "start": 1317.32,
+      "end": 1323.84,
+      "durationSeconds": 6.52,
+      "words": [
+        {
+          "text": "sighted",
+          "start": 1317.32,
+          "end": 1317.75
+        },
+        {
+          "text": "on",
+          "start": 1317.75,
+          "end": 1317.87
+        },
+        {
+          "text": "a",
+          "start": 1317.87,
+          "end": 1317.93
+        },
+        {
+          "text": "river",
+          "start": 1317.93,
+          "end": 1318.16
+        },
+        {
+          "text": "in",
+          "start": 1318.24,
+          "end": 1318.25
+        },
+        {
+          "text": "a",
+          "start": 1318.25,
+          "end": 1318.53
+        },
+        {
+          "text": "city",
+          "start": 1318.53,
+          "end": 1318.61
+        },
+        {
+          "text": "that",
+          "start": 1318.7,
+          "end": 1318.92
+        },
+        {
+          "text": "made",
+          "start": 1318.92,
+          "end": 1319.03
+        },
+        {
+          "text": "paper",
+          "start": 1319.31,
+          "end": 1319.48
+        },
+        {
+          "text": "for",
+          "start": 1319.48,
+          "end": 1319.67
+        },
+        {
+          "text": "a",
+          "start": 1319.67,
+          "end": 1319.83
+        },
+        {
+          "text": "hundred",
+          "start": 1320.06,
+          "end": 1320.23
+        },
+        {
+          "text": "years,",
+          "start": 1320.31,
+          "end": 1320.68
+        },
+        {
+          "text": "and",
+          "start": 1320.68,
+          "end": 1320.92
+        },
+        {
+          "text": "a",
+          "start": 1320.92,
+          "end": 1320.97
+        },
+        {
+          "text": "first",
+          "start": 1321.21,
+          "end": 1321.3
+        },
+        {
+          "text": "factory",
+          "start": 1321.3,
+          "end": 1321.75
+        },
+        {
+          "text": "that",
+          "start": 1321.75,
+          "end": 1321.9
+        },
+        {
+          "text": "has",
+          "start": 1322.02,
+          "end": 1322.19
+        },
+        {
+          "text": "not",
+          "start": 1322.19,
+          "end": 1322.37
+        },
+        {
+          "text": "been",
+          "start": 1322.37,
+          "end": 1322.63
+        },
+        {
+          "text": "built",
+          "start": 1322.63,
+          "end": 1322.71
+        },
+        {
+          "text": "because",
+          "start": 1323.05,
+          "end": 1323.4
+        },
+        {
+          "text": "half",
+          "start": 1323.4,
+          "end": 1323.54
+        },
+        {
+          "text": "its",
+          "start": 1323.82,
+          "end": 1323.84
+        }
+      ]
+    },
+    {
+      "id": "304",
+      "text": "funding was withdrawn and the two-thirds of a company that used to be there is gone.",
+      "start": 1323.84,
+      "end": 1329.26,
+      "durationSeconds": 5.42,
+      "words": [
+        {
+          "text": "funding",
+          "start": 1323.84,
+          "end": 1324.29
+        },
+        {
+          "text": "was",
+          "start": 1324.29,
+          "end": 1324.43
+        },
+        {
+          "text": "withdrawn",
+          "start": 1324.78,
+          "end": 1325.22
+        },
+        {
+          "text": "and",
+          "start": 1325.22,
+          "end": 1325.38
+        },
+        {
+          "text": "the",
+          "start": 1325.38,
+          "end": 1325.88
+        },
+        {
+          "text": "two-thirds",
+          "start": 1325.88,
+          "end": 1326.38
+        },
+        {
+          "text": "of",
+          "start": 1326.38,
+          "end": 1326.52
+        },
+        {
+          "text": "a",
+          "start": 1326.52,
+          "end": 1326.59
+        },
+        {
+          "text": "company",
+          "start": 1326.59,
+          "end": 1327.09
+        },
+        {
+          "text": "that",
+          "start": 1327.09,
+          "end": 1327.38
+        },
+        {
+          "text": "used",
+          "start": 1327.39,
+          "end": 1327.43
+        },
+        {
+          "text": "to",
+          "start": 1327.77,
+          "end": 1327.82
+        },
+        {
+          "text": "be",
+          "start": 1327.82,
+          "end": 1327.96
+        },
+        {
+          "text": "there",
+          "start": 1327.96,
+          "end": 1328.26
+        },
+        {
+          "text": "is",
+          "start": 1328.26,
+          "end": 1328.55
+        },
+        {
+          "text": "gone.",
+          "start": 1328.55,
+          "end": 1329.04
+        }
+      ]
+    },
+    {
+      "id": "305",
+      "text": "Look down again at that floor. Nothing about it is going to change soon.",
+      "start": 1329.26,
+      "end": 1333.35,
+      "durationSeconds": 4.09,
+      "words": [
+        {
+          "text": "Look",
+          "start": 1329.26,
+          "end": 1329.3
+        },
+        {
+          "text": "down",
+          "start": 1329.3,
+          "end": 1329.56
+        },
+        {
+          "text": "again",
+          "start": 1329.56,
+          "end": 1329.86
+        },
+        {
+          "text": "at",
+          "start": 1329.88,
+          "end": 1329.91
+        },
+        {
+          "text": "that",
+          "start": 1330.01,
+          "end": 1330.28
+        },
+        {
+          "text": "floor.",
+          "start": 1330.41,
+          "end": 1330.86
+        },
+        {
+          "text": "Nothing",
+          "start": 1331.08,
+          "end": 1331.25
+        },
+        {
+          "text": "about",
+          "start": 1331.33,
+          "end": 1331.63
+        },
+        {
+          "text": "it",
+          "start": 1331.63,
+          "end": 1331.7
+        },
+        {
+          "text": "is",
+          "start": 1331.7,
+          "end": 1331.965
+        },
+        {
+          "text": "going",
+          "start": 1331.965,
+          "end": 1332.23
+        },
+        {
+          "text": "to",
+          "start": 1332.23,
+          "end": 1332.34
+        },
+        {
+          "text": "change",
+          "start": 1332.34,
+          "end": 1332.72
+        },
+        {
+          "text": "soon.",
+          "start": 1332.72,
+          "end": 1333.2
+        }
+      ]
+    },
+    {
+      "id": "306",
+      "text": "Ordinary Portland cement is not being replaced.",
+      "start": 1333.35,
+      "end": 1335.27,
+      "durationSeconds": 1.92,
+      "words": [
+        {
+          "text": "Ordinary",
+          "start": 1333.35,
+          "end": 1333.59
+        },
+        {
+          "text": "Portland",
+          "start": 1333.67,
+          "end": 1333.99
+        },
+        {
+          "text": "cement",
+          "start": 1333.99,
+          "end": 1334.07
+        },
+        {
+          "text": "is",
+          "start": 1334.25,
+          "end": 1334.39
+        },
+        {
+          "text": "not",
+          "start": 1334.39,
+          "end": 1334.57
+        },
+        {
+          "text": "being",
+          "start": 1334.57,
+          "end": 1334.8
+        },
+        {
+          "text": "replaced.",
+          "start": 1334.8,
+          "end": 1335.27
+        }
+      ]
+    },
+    {
+      "id": "307",
+      "text": "It is not being phased out, and there is a very good chance it will still be the default material for everything you walk on for the rest",
+      "start": 1335.27,
+      "end": 1341.6,
+      "durationSeconds": 6.33,
+      "words": [
+        {
+          "text": "It",
+          "start": 1335.27,
+          "end": 1335.425
+        },
+        {
+          "text": "is",
+          "start": 1335.425,
+          "end": 1335.58
+        },
+        {
+          "text": "not",
+          "start": 1335.58,
+          "end": 1335.71
+        },
+        {
+          "text": "being",
+          "start": 1335.71,
+          "end": 1335.97
+        },
+        {
+          "text": "phased",
+          "start": 1335.97,
+          "end": 1336.18
+        },
+        {
+          "text": "out,",
+          "start": 1336.3,
+          "end": 1336.53
+        },
+        {
+          "text": "and",
+          "start": 1336.53,
+          "end": 1336.73
+        },
+        {
+          "text": "there",
+          "start": 1336.73,
+          "end": 1336.94
+        },
+        {
+          "text": "is",
+          "start": 1336.94,
+          "end": 1337.04
+        },
+        {
+          "text": "a",
+          "start": 1337.04,
+          "end": 1337.09
+        },
+        {
+          "text": "very",
+          "start": 1337.09,
+          "end": 1337.29
+        },
+        {
+          "text": "good",
+          "start": 1337.29,
+          "end": 1337.42
+        },
+        {
+          "text": "chance",
+          "start": 1337.54,
+          "end": 1337.8
+        },
+        {
+          "text": "it",
+          "start": 1337.8,
+          "end": 1337.9
+        },
+        {
+          "text": "will",
+          "start": 1337.9,
+          "end": 1338.1
+        },
+        {
+          "text": "still",
+          "start": 1338.1,
+          "end": 1338.21
+        },
+        {
+          "text": "be",
+          "start": 1338.21,
+          "end": 1338.57
+        },
+        {
+          "text": "the",
+          "start": 1338.57,
+          "end": 1338.61
+        },
+        {
+          "text": "default",
+          "start": 1338.61,
+          "end": 1339.06
+        },
+        {
+          "text": "material",
+          "start": 1339.3,
+          "end": 1339.58
+        },
+        {
+          "text": "for",
+          "start": 1339.58,
+          "end": 1339.77
+        },
+        {
+          "text": "everything",
+          "start": 1339.77,
+          "end": 1339.92
+        },
+        {
+          "text": "you",
+          "start": 1340.45,
+          "end": 1340.59
+        },
+        {
+          "text": "walk",
+          "start": 1340.59,
+          "end": 1340.84
+        },
+        {
+          "text": "on",
+          "start": 1340.84,
+          "end": 1340.96
+        },
+        {
+          "text": "for",
+          "start": 1340.96,
+          "end": 1341.14
+        },
+        {
+          "text": "the",
+          "start": 1341.14,
+          "end": 1341.34
+        },
+        {
+          "text": "rest",
+          "start": 1341.34,
+          "end": 1341.58
+        }
+      ]
+    },
+    {
+      "id": "308",
+      "text": "of your life. Four billion tons a year does not turn on a policy decision or a press release.",
+      "start": 1341.6,
+      "end": 1346,
+      "durationSeconds": 4.4,
+      "words": [
+        {
+          "text": "of",
+          "start": 1341.6,
+          "end": 1341.71
+        },
+        {
+          "text": "your",
+          "start": 1341.71,
+          "end": 1341.92
+        },
+        {
+          "text": "life.",
+          "start": 1342.21,
+          "end": 1342.44
+        },
+        {
+          "text": "Four",
+          "start": 1342.44,
+          "end": 1342.66
+        },
+        {
+          "text": "billion",
+          "start": 1342.66,
+          "end": 1343.02
+        },
+        {
+          "text": "tons",
+          "start": 1343.02,
+          "end": 1343.23
+        },
+        {
+          "text": "a",
+          "start": 1343.23,
+          "end": 1343.28
+        },
+        {
+          "text": "year",
+          "start": 1343.28,
+          "end": 1343.31
+        },
+        {
+          "text": "does",
+          "start": 1343.65,
+          "end": 1343.67
+        },
+        {
+          "text": "not",
+          "start": 1343.81,
+          "end": 1343.86
+        },
+        {
+          "text": "turn",
+          "start": 1343.86,
+          "end": 1344.07
+        },
+        {
+          "text": "on",
+          "start": 1344.07,
+          "end": 1344.17
+        },
+        {
+          "text": "a",
+          "start": 1344.17,
+          "end": 1344.22
+        },
+        {
+          "text": "policy",
+          "start": 1344.22,
+          "end": 1344.49
+        },
+        {
+          "text": "decision",
+          "start": 1344.62,
+          "end": 1344.96
+        },
+        {
+          "text": "or",
+          "start": 1344.97,
+          "end": 1345.07
+        },
+        {
+          "text": "a",
+          "start": 1345.07,
+          "end": 1345.12
+        },
+        {
+          "text": "press",
+          "start": 1345.12,
+          "end": 1345.28
+        },
+        {
+          "text": "release.",
+          "start": 1345.65,
+          "end": 1346
+        }
+      ]
+    },
+    {
+      "id": "309",
+      "text": "But for 2,000 years, the story of this material was heat.",
+      "start": 1346,
+      "end": 1350.22,
+      "durationSeconds": 4.22,
+      "words": [
+        {
+          "text": "But",
+          "start": 1346,
+          "end": 1346.22
+        },
+        {
+          "text": "for",
+          "start": 1346.22,
+          "end": 1346.39
+        },
+        {
+          "text": "2,000",
+          "start": 1346.47,
+          "end": 1346.84
+        },
+        {
+          "text": "years,",
+          "start": 1347.37,
+          "end": 1347.79
+        },
+        {
+          "text": "the",
+          "start": 1347.79,
+          "end": 1347.99
+        },
+        {
+          "text": "story",
+          "start": 1347.99,
+          "end": 1348.29
+        },
+        {
+          "text": "of",
+          "start": 1348.33,
+          "end": 1348.45
+        },
+        {
+          "text": "this",
+          "start": 1348.45,
+          "end": 1348.72
+        },
+        {
+          "text": "material",
+          "start": 1348.72,
+          "end": 1349.26
+        },
+        {
+          "text": "was",
+          "start": 1349.38,
+          "end": 1349.46
+        },
+        {
+          "text": "heat.",
+          "start": 1349.46,
+          "end": 1350
+        }
+      ]
+    },
+    {
+      "id": "310",
+      "text": "Hotter kilns, bigger kilns, better fuel, higher temperatures.",
+      "start": 1350.22,
+      "end": 1354.58,
+      "durationSeconds": 4.36,
+      "words": [
+        {
+          "text": "Hotter",
+          "start": 1350.22,
+          "end": 1350.39
+        },
+        {
+          "text": "kilns,",
+          "start": 1350.47,
+          "end": 1350.87
+        },
+        {
+          "text": "bigger",
+          "start": 1351.37,
+          "end": 1351.45
+        },
+        {
+          "text": "kilns,",
+          "start": 1351.45,
+          "end": 1351.98
+        },
+        {
+          "text": "better",
+          "start": 1351.98,
+          "end": 1352.44
+        },
+        {
+          "text": "fuel,",
+          "start": 1352.44,
+          "end": 1352.84
+        },
+        {
+          "text": "higher",
+          "start": 1353.21,
+          "end": 1353.36
+        },
+        {
+          "text": "temperatures.",
+          "start": 1353.38,
+          "end": 1354.58
+        }
+      ]
+    },
+    {
+      "id": "311",
+      "text": "The thing that may end that era does not get hot at all, and the only reason it is not being built right now is money.",
+      "start": 1354.58,
+      "end": 1360.42,
+      "durationSeconds": 5.84,
+      "words": [
+        {
+          "text": "The",
+          "start": 1354.58,
+          "end": 1354.82
+        },
+        {
+          "text": "thing",
+          "start": 1354.82,
+          "end": 1354.99
+        },
+        {
+          "text": "that",
+          "start": 1355.07,
+          "end": 1355.25
+        },
+        {
+          "text": "may",
+          "start": 1355.25,
+          "end": 1355.41
+        },
+        {
+          "text": "end",
+          "start": 1355.41,
+          "end": 1355.47
+        },
+        {
+          "text": "that",
+          "start": 1355.56,
+          "end": 1355.79
+        },
+        {
+          "text": "era",
+          "start": 1355.79,
+          "end": 1355.97
+        },
+        {
+          "text": "does",
+          "start": 1355.97,
+          "end": 1356.17
+        },
+        {
+          "text": "not",
+          "start": 1356.17,
+          "end": 1356.33
+        },
+        {
+          "text": "get",
+          "start": 1356.33,
+          "end": 1356.49
+        },
+        {
+          "text": "hot",
+          "start": 1356.49,
+          "end": 1356.65
+        },
+        {
+          "text": "at",
+          "start": 1356.65,
+          "end": 1356.67
+        },
+        {
+          "text": "all,",
+          "start": 1356.78,
+          "end": 1357.03
+        },
+        {
+          "text": "and",
+          "start": 1357.03,
+          "end": 1357.19
+        },
+        {
+          "text": "the",
+          "start": 1357.19,
+          "end": 1357.35
+        },
+        {
+          "text": "only",
+          "start": 1357.35,
+          "end": 1357.45
+        },
+        {
+          "text": "reason",
+          "start": 1357.81,
+          "end": 1357.9
+        },
+        {
+          "text": "it",
+          "start": 1357.98,
+          "end": 1358.01
+        },
+        {
+          "text": "is",
+          "start": 1358.01,
+          "end": 1358.12
+        },
+        {
+          "text": "not",
+          "start": 1358.12,
+          "end": 1358.3
+        },
+        {
+          "text": "being",
+          "start": 1358.58,
+          "end": 1358.73
+        },
+        {
+          "text": "built",
+          "start": 1358.75,
+          "end": 1359.09
+        },
+        {
+          "text": "right",
+          "start": 1359.09,
+          "end": 1359.23
+        },
+        {
+          "text": "now",
+          "start": 1359.23,
+          "end": 1359.73
+        },
+        {
+          "text": "is",
+          "start": 1359.73,
+          "end": 1359.83
+        },
+        {
+          "text": "money.",
+          "start": 1359.83,
+          "end": 1360.42
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,751 @@
+{
+  "bgm": null,
+  "voices": [
+    {
+      "frame": 1,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 382.8,
+      "duration_s": 4.64,
+      "words": [
+        {
+          "text": "That",
+          "start": 0,
+          "end": 0.22
+        },
+        {
+          "text": "background",
+          "start": 0.22,
+          "end": 0.63
+        },
+        {
+          "text": "is",
+          "start": 0.63,
+          "end": 0.72
+        },
+        {
+          "text": "not",
+          "start": 0.72,
+          "end": 0.84
+        },
+        {
+          "text": "a",
+          "start": 0.84,
+          "end": 0.87
+        },
+        {
+          "text": "footnote,",
+          "start": 0.9,
+          "end": 1.34
+        },
+        {
+          "text": "it",
+          "start": 1.37,
+          "end": 1.43
+        },
+        {
+          "text": "is",
+          "start": 1.43,
+          "end": 1.52
+        },
+        {
+          "text": "the",
+          "start": 1.52,
+          "end": 1.65
+        },
+        {
+          "text": "whole",
+          "start": 1.65,
+          "end": 1.87
+        },
+        {
+          "text": "reason",
+          "start": 1.87,
+          "end": 2.05
+        },
+        {
+          "text": "the",
+          "start": 2.18,
+          "end": 2.27
+        },
+        {
+          "text": "answer",
+          "start": 2.27,
+          "end": 2.53
+        },
+        {
+          "text": "looks",
+          "start": 2.53,
+          "end": 2.76
+        },
+        {
+          "text": "the",
+          "start": 2.76,
+          "end": 2.84
+        },
+        {
+          "text": "way",
+          "start": 2.84,
+          "end": 3.21
+        },
+        {
+          "text": "it",
+          "start": 3.21,
+          "end": 3.45
+        },
+        {
+          "text": "does.",
+          "start": 3.45,
+          "end": 4.42
+        }
+      ]
+    },
+    {
+      "frame": 2,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 387.44,
+      "duration_s": 1.86,
+      "words": [
+        {
+          "text": "Because",
+          "start": 0,
+          "end": 0.17
+        },
+        {
+          "text": "heat",
+          "start": 0.25,
+          "end": 0.41
+        },
+        {
+          "text": "is",
+          "start": 0.41,
+          "end": 0.51
+        },
+        {
+          "text": "a",
+          "start": 0.51,
+          "end": 0.57
+        },
+        {
+          "text": "blunt",
+          "start": 0.57,
+          "end": 0.65
+        },
+        {
+          "text": "instrument.",
+          "start": 1.15,
+          "end": 1.64
+        }
+      ]
+    },
+    {
+      "frame": 3,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 389.3,
+      "duration_s": 4.36,
+      "words": [
+        {
+          "text": "When",
+          "start": 0,
+          "end": 0.05
+        },
+        {
+          "text": "you",
+          "start": 0.05,
+          "end": 0.14
+        },
+        {
+          "text": "heat",
+          "start": 0.25,
+          "end": 0.51
+        },
+        {
+          "text": "a",
+          "start": 0.51,
+          "end": 0.58
+        },
+        {
+          "text": "rock",
+          "start": 0.58,
+          "end": 0.65
+        },
+        {
+          "text": "to",
+          "start": 0.83,
+          "end": 0.97
+        },
+        {
+          "text": "1450",
+          "start": 1.15,
+          "end": 1.78
+        },
+        {
+          "text": "degrees,",
+          "start": 1.78,
+          "end": 2.38
+        },
+        {
+          "text": "you",
+          "start": 2.38,
+          "end": 2.58
+        },
+        {
+          "text": "are",
+          "start": 2.58,
+          "end": 2.65
+        },
+        {
+          "text": "not",
+          "start": 2.65,
+          "end": 2.99
+        },
+        {
+          "text": "targeting",
+          "start": 2.99,
+          "end": 3.49
+        },
+        {
+          "text": "anything.",
+          "start": 3.77,
+          "end": 4.36
+        }
+      ]
+    },
+    {
+      "frame": 4,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 393.66,
+      "duration_s": 6.18,
+      "words": [
+        {
+          "text": "You",
+          "start": 0,
+          "end": 0.24
+        },
+        {
+          "text": "are",
+          "start": 0.24,
+          "end": 0.34
+        },
+        {
+          "text": "pouring",
+          "start": 0.34,
+          "end": 0.7
+        },
+        {
+          "text": "energy",
+          "start": 0.7,
+          "end": 0.86
+        },
+        {
+          "text": "into",
+          "start": 1.02,
+          "end": 1.24
+        },
+        {
+          "text": "every",
+          "start": 1.39,
+          "end": 1.51
+        },
+        {
+          "text": "atom",
+          "start": 1.51,
+          "end": 1.72
+        },
+        {
+          "text": "in",
+          "start": 1.72,
+          "end": 1.82
+        },
+        {
+          "text": "the",
+          "start": 1.82,
+          "end": 1.98
+        },
+        {
+          "text": "kiln",
+          "start": 1.98,
+          "end": 2.19
+        },
+        {
+          "text": "and",
+          "start": 2.19,
+          "end": 2.31
+        },
+        {
+          "text": "hoping",
+          "start": 2.35,
+          "end": 2.67
+        },
+        {
+          "text": "the",
+          "start": 2.67,
+          "end": 2.83
+        },
+        {
+          "text": "bonds",
+          "start": 2.83,
+          "end": 2.89
+        },
+        {
+          "text": "you",
+          "start": 3.22,
+          "end": 3.26
+        },
+        {
+          "text": "want",
+          "start": 3.26,
+          "end": 3.47
+        },
+        {
+          "text": "to",
+          "start": 3.47,
+          "end": 3.66
+        },
+        {
+          "text": "break",
+          "start": 3.66,
+          "end": 3.73
+        },
+        {
+          "text": "happen",
+          "start": 4.16,
+          "end": 4.32
+        },
+        {
+          "text": "to",
+          "start": 4.41,
+          "end": 4.46
+        },
+        {
+          "text": "be",
+          "start": 4.46,
+          "end": 4.59
+        },
+        {
+          "text": "the",
+          "start": 4.59,
+          "end": 4.76
+        },
+        {
+          "text": "weakest",
+          "start": 4.77,
+          "end": 4.78
+        },
+        {
+          "text": "ones",
+          "start": 5.31,
+          "end": 5.5
+        },
+        {
+          "text": "present.",
+          "start": 5.5,
+          "end": 6.18
+        }
+      ]
+    },
+    {
+      "frame": 5,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 399.84,
+      "duration_s": 6.74,
+      "words": [
+        {
+          "text": "It",
+          "start": 0,
+          "end": 0.22
+        },
+        {
+          "text": "works.",
+          "start": 0.22,
+          "end": 0.84
+        },
+        {
+          "text": "It",
+          "start": 0.84,
+          "end": 1.22
+        },
+        {
+          "text": "is",
+          "start": 1.22,
+          "end": 1.34
+        },
+        {
+          "text": "also,",
+          "start": 1.34,
+          "end": 1.82
+        },
+        {
+          "text": "in",
+          "start": 1.84,
+          "end": 1.87
+        },
+        {
+          "text": "a",
+          "start": 2,
+          "end": 2.09
+        },
+        {
+          "text": "very",
+          "start": 2.37,
+          "end": 2.44
+        },
+        {
+          "text": "literal",
+          "start": 2.44,
+          "end": 3.04
+        },
+        {
+          "text": "sense,",
+          "start": 3.04,
+          "end": 3.64
+        },
+        {
+          "text": "the",
+          "start": 3.64,
+          "end": 3.84
+        },
+        {
+          "text": "least",
+          "start": 4.21,
+          "end": 4.32
+        },
+        {
+          "text": "selective",
+          "start": 4.38,
+          "end": 5.09
+        },
+        {
+          "text": "tool",
+          "start": 5.09,
+          "end": 5.43
+        },
+        {
+          "text": "available.",
+          "start": 5.43,
+          "end": 6.51
+        }
+      ]
+    },
+    {
+      "frame": 6,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 406.58,
+      "duration_s": 3.8,
+      "words": [
+        {
+          "text": "Electrochemistry",
+          "start": 0,
+          "end": 0.45
+        },
+        {
+          "text": "is",
+          "start": 0.45,
+          "end": 0.54
+        },
+        {
+          "text": "the",
+          "start": 0.54,
+          "end": 0.62
+        },
+        {
+          "text": "opposite.",
+          "start": 0.68,
+          "end": 1.18
+        },
+        {
+          "text": "Run",
+          "start": 1.18,
+          "end": 1.4
+        },
+        {
+          "text": "a",
+          "start": 1.4,
+          "end": 1.43
+        },
+        {
+          "text": "current",
+          "start": 1.43,
+          "end": 1.87
+        },
+        {
+          "text": "through",
+          "start": 1.87,
+          "end": 2.02
+        },
+        {
+          "text": "water",
+          "start": 2.55,
+          "end": 2.65
+        },
+        {
+          "text": "and",
+          "start": 2.65,
+          "end": 2.84
+        },
+        {
+          "text": "it",
+          "start": 2.84,
+          "end": 2.97
+        },
+        {
+          "text": "splits.",
+          "start": 2.97,
+          "end": 3.58
+        }
+      ]
+    },
+    {
+      "frame": 7,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 410.38,
+      "duration_s": 2.63,
+      "words": [
+        {
+          "text": "Acid",
+          "start": 0,
+          "end": 0.06
+        },
+        {
+          "text": "forms",
+          "start": 0.06,
+          "end": 0.41
+        },
+        {
+          "text": "at",
+          "start": 0.41,
+          "end": 0.55
+        },
+        {
+          "text": "one",
+          "start": 0.55,
+          "end": 0.62
+        },
+        {
+          "text": "electrode,",
+          "start": 1.15,
+          "end": 1.54
+        },
+        {
+          "text": "base",
+          "start": 1.54,
+          "end": 1.82
+        },
+        {
+          "text": "at",
+          "start": 1.82,
+          "end": 1.85
+        },
+        {
+          "text": "the",
+          "start": 1.96,
+          "end": 2.17
+        },
+        {
+          "text": "other.",
+          "start": 2.17,
+          "end": 2.63
+        }
+      ]
+    },
+    {
+      "frame": 8,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 413.01,
+      "duration_s": 6.99,
+      "words": [
+        {
+          "text": "That",
+          "start": 0,
+          "end": 0.37
+        },
+        {
+          "text": "gives",
+          "start": 0.37,
+          "end": 0.54
+        },
+        {
+          "text": "you,",
+          "start": 0.62,
+          "end": 0.81
+        },
+        {
+          "text": "on",
+          "start": 0.81,
+          "end": 0.9
+        },
+        {
+          "text": "demand,",
+          "start": 0.9,
+          "end": 1.28
+        },
+        {
+          "text": "two",
+          "start": 1.28,
+          "end": 1.52
+        },
+        {
+          "text": "chemically",
+          "start": 1.52,
+          "end": 1.9
+        },
+        {
+          "text": "aggressive",
+          "start": 1.9,
+          "end": 2.38
+        },
+        {
+          "text": "environments",
+          "start": 2.38,
+          "end": 2.96
+        },
+        {
+          "text": "sitting",
+          "start": 2.96,
+          "end": 3.02
+        },
+        {
+          "text": "side-by-side",
+          "start": 3.36,
+          "end": 3.85
+        },
+        {
+          "text": "inside",
+          "start": 4.17,
+          "end": 4.34
+        },
+        {
+          "text": "a",
+          "start": 4.34,
+          "end": 4.42
+        },
+        {
+          "text": "device",
+          "start": 4.42,
+          "end": 4.77
+        },
+        {
+          "text": "at",
+          "start": 4.77,
+          "end": 5.32
+        },
+        {
+          "text": "ordinary",
+          "start": 5.32,
+          "end": 5.5
+        },
+        {
+          "text": "room",
+          "start": 5.5,
+          "end": 5.77
+        },
+        {
+          "text": "temperature.",
+          "start": 5.77,
+          "end": 6.77
+        }
+      ]
+    },
+    {
+      "frame": 9,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 420,
+      "duration_s": 3.1,
+      "words": [
+        {
+          "text": "Feed",
+          "start": 0,
+          "end": 0.01
+        },
+        {
+          "text": "rock",
+          "start": 0.01,
+          "end": 0.17
+        },
+        {
+          "text": "into",
+          "start": 0.25,
+          "end": 0.47
+        },
+        {
+          "text": "that",
+          "start": 0.47,
+          "end": 0.62
+        },
+        {
+          "text": "and",
+          "start": 0.62,
+          "end": 0.99
+        },
+        {
+          "text": "you",
+          "start": 0.99,
+          "end": 1.01
+        },
+        {
+          "text": "can",
+          "start": 1.15,
+          "end": 1.21
+        },
+        {
+          "text": "pull",
+          "start": 1.21,
+          "end": 1.44
+        },
+        {
+          "text": "specific",
+          "start": 1.44,
+          "end": 1.83
+        },
+        {
+          "text": "things",
+          "start": 1.96,
+          "end": 2.26
+        },
+        {
+          "text": "out",
+          "start": 2.26,
+          "end": 2.43
+        },
+        {
+          "text": "of",
+          "start": 2.43,
+          "end": 2.54
+        },
+        {
+          "text": "it.",
+          "start": 2.54,
+          "end": 2.65
+        }
+      ]
+    },
+    {
+      "frame": 10,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 423.1,
+      "duration_s": 1.7,
+      "words": [
+        {
+          "text": "Calcium",
+          "start": 0,
+          "end": 0.21
+        },
+        {
+          "text": "here,",
+          "start": 0.29,
+          "end": 0.62
+        },
+        {
+          "text": "silicates",
+          "start": 0.62,
+          "end": 1.17
+        },
+        {
+          "text": "there.",
+          "start": 1.19,
+          "end": 1.7
+        }
+      ]
+    }
+  ],
+  "sfx": []
+}

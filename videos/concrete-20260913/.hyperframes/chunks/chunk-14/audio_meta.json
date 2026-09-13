@@ -1,0 +1,819 @@
+{
+  "bgm": null,
+  "voices": [
+    {
+      "frame": 1,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 616.6,
+      "duration_s": 4.67,
+      "words": [
+        {
+          "text": "This",
+          "start": 0,
+          "end": 0.26
+        },
+        {
+          "text": "is",
+          "start": 0.26,
+          "end": 0.34
+        },
+        {
+          "text": "where",
+          "start": 0.34,
+          "end": 0.59
+        },
+        {
+          "text": "the",
+          "start": 0.59,
+          "end": 0.73
+        },
+        {
+          "text": "interesting",
+          "start": 0.73,
+          "end": 0.89
+        },
+        {
+          "text": "part",
+          "start": 1.41,
+          "end": 1.49
+        },
+        {
+          "text": "of",
+          "start": 1.49,
+          "end": 1.59
+        },
+        {
+          "text": "this",
+          "start": 1.59,
+          "end": 1.79
+        },
+        {
+          "text": "story",
+          "start": 1.79,
+          "end": 2.04
+        },
+        {
+          "text": "actually",
+          "start": 2.04,
+          "end": 2.44
+        },
+        {
+          "text": "lives,",
+          "start": 2.44,
+          "end": 2.79
+        },
+        {
+          "text": "not",
+          "start": 2.79,
+          "end": 2.88
+        },
+        {
+          "text": "in",
+          "start": 2.88,
+          "end": 3.065
+        },
+        {
+          "text": "the",
+          "start": 3.065,
+          "end": 3.25
+        },
+        {
+          "text": "lab,",
+          "start": 3.25,
+          "end": 3.44
+        },
+        {
+          "text": "in",
+          "start": 3.44,
+          "end": 3.54
+        },
+        {
+          "text": "the",
+          "start": 3.54,
+          "end": 3.74
+        },
+        {
+          "text": "paperwork.",
+          "start": 3.98,
+          "end": 4.67
+        }
+      ]
+    },
+    {
+      "frame": 2,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 621.27,
+      "duration_s": 6.81,
+      "words": [
+        {
+          "text": "In",
+          "start": 0,
+          "end": 0.51
+        },
+        {
+          "text": "September",
+          "start": 0.51,
+          "end": 1.11
+        },
+        {
+          "text": "of",
+          "start": 1.11,
+          "end": 1.66
+        },
+        {
+          "text": "2023,",
+          "start": 1.66,
+          "end": 2.36
+        },
+        {
+          "text": "Sublime",
+          "start": 2.46,
+          "end": 3.01
+        },
+        {
+          "text": "Cement",
+          "start": 3.01,
+          "end": 3.16
+        },
+        {
+          "text": "received",
+          "start": 3.5,
+          "end": 4
+        },
+        {
+          "text": "an",
+          "start": 4.27,
+          "end": 4.29
+        },
+        {
+          "text": "ASTM",
+          "start": 4.29,
+          "end": 4.61
+        },
+        {
+          "text": "C1157",
+          "start": 4.61,
+          "end": 5.63
+        },
+        {
+          "text": "designation.",
+          "start": 5.67,
+          "end": 6.81
+        }
+      ]
+    },
+    {
+      "frame": 3,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 628.08,
+      "duration_s": 5.44,
+      "words": [
+        {
+          "text": "That",
+          "start": 0,
+          "end": 0.22
+        },
+        {
+          "text": "string",
+          "start": 0.22,
+          "end": 0.49
+        },
+        {
+          "text": "of",
+          "start": 0.49,
+          "end": 0.59
+        },
+        {
+          "text": "characters",
+          "start": 0.59,
+          "end": 0.82
+        },
+        {
+          "text": "is",
+          "start": 1.05,
+          "end": 1.17
+        },
+        {
+          "text": "the",
+          "start": 1.17,
+          "end": 1.37
+        },
+        {
+          "text": "single",
+          "start": 1.37,
+          "end": 1.62
+        },
+        {
+          "text": "most",
+          "start": 1.62,
+          "end": 1.82
+        },
+        {
+          "text": "important",
+          "start": 1.82,
+          "end": 2.26
+        },
+        {
+          "text": "fact",
+          "start": 2.26,
+          "end": 2.46
+        },
+        {
+          "text": "in",
+          "start": 2.46,
+          "end": 2.56
+        },
+        {
+          "text": "this",
+          "start": 2.56,
+          "end": 2.76
+        },
+        {
+          "text": "video,",
+          "start": 2.76,
+          "end": 3.04
+        },
+        {
+          "text": "and",
+          "start": 3.21,
+          "end": 3.24
+        },
+        {
+          "text": "it",
+          "start": 3.24,
+          "end": 3.27
+        },
+        {
+          "text": "deserves",
+          "start": 3.38,
+          "end": 3.7
+        },
+        {
+          "text": "unpacking.",
+          "start": 4.02,
+          "end": 5.44
+        }
+      ]
+    },
+    {
+      "frame": 4,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 633.52,
+      "duration_s": 5.88,
+      "words": [
+        {
+          "text": "Most",
+          "start": 0,
+          "end": 0.22
+        },
+        {
+          "text": "cement",
+          "start": 0.22,
+          "end": 0.5
+        },
+        {
+          "text": "is",
+          "start": 0.5,
+          "end": 0.6
+        },
+        {
+          "text": "specified",
+          "start": 0.6,
+          "end": 0.82
+        },
+        {
+          "text": "under",
+          "start": 0.82,
+          "end": 1.1
+        },
+        {
+          "text": "a",
+          "start": 1.1,
+          "end": 1.38
+        },
+        {
+          "text": "standard",
+          "start": 1.38,
+          "end": 1.77
+        },
+        {
+          "text": "that",
+          "start": 1.77,
+          "end": 1.97
+        },
+        {
+          "text": "describes",
+          "start": 1.97,
+          "end": 2.43
+        },
+        {
+          "text": "what",
+          "start": 2.43,
+          "end": 2.63
+        },
+        {
+          "text": "cement",
+          "start": 2.63,
+          "end": 2.84
+        },
+        {
+          "text": "must",
+          "start": 2.84,
+          "end": 3.21
+        },
+        {
+          "text": "be",
+          "start": 3.21,
+          "end": 3.23
+        },
+        {
+          "text": "made",
+          "start": 3.23,
+          "end": 3.43
+        },
+        {
+          "text": "of,",
+          "start": 3.43,
+          "end": 4.12
+        },
+        {
+          "text": "a",
+          "start": 4.13,
+          "end": 4.19
+        },
+        {
+          "text": "prescriptive",
+          "start": 4.34,
+          "end": 4.96
+        },
+        {
+          "text": "standard.",
+          "start": 5.49,
+          "end": 5.88
+        }
+      ]
+    },
+    {
+      "frame": 5,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 639.4,
+      "duration_s": 5.33,
+      "words": [
+        {
+          "text": "If",
+          "start": 0,
+          "end": 0.22
+        },
+        {
+          "text": "your",
+          "start": 0.22,
+          "end": 0.33
+        },
+        {
+          "text": "material",
+          "start": 0.33,
+          "end": 0.75
+        },
+        {
+          "text": "is",
+          "start": 0.75,
+          "end": 0.84
+        },
+        {
+          "text": "not",
+          "start": 0.84,
+          "end": 1.03
+        },
+        {
+          "text": "made",
+          "start": 1.03,
+          "end": 1.25
+        },
+        {
+          "text": "the",
+          "start": 1.37,
+          "end": 1.41
+        },
+        {
+          "text": "approved",
+          "start": 1.41,
+          "end": 1.84
+        },
+        {
+          "text": "way,",
+          "start": 1.84,
+          "end": 2.07
+        },
+        {
+          "text": "it",
+          "start": 2.18,
+          "end": 2.21
+        },
+        {
+          "text": "does",
+          "start": 2.21,
+          "end": 2.43
+        },
+        {
+          "text": "not",
+          "start": 2.43,
+          "end": 2.59
+        },
+        {
+          "text": "qualify,",
+          "start": 2.59,
+          "end": 3.04
+        },
+        {
+          "text": "no",
+          "start": 3.04,
+          "end": 3.21
+        },
+        {
+          "text": "matter",
+          "start": 3.21,
+          "end": 3.5
+        },
+        {
+          "text": "how",
+          "start": 3.5,
+          "end": 3.66
+        },
+        {
+          "text": "well",
+          "start": 3.66,
+          "end": 3.71
+        },
+        {
+          "text": "it",
+          "start": 3.71,
+          "end": 4.18
+        },
+        {
+          "text": "performs.",
+          "start": 4.18,
+          "end": 5.32
+        }
+      ]
+    },
+    {
+      "frame": 6,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 644.73,
+      "duration_s": 1.95,
+      "words": [
+        {
+          "text": "C1157",
+          "start": 0,
+          "end": 0.81
+        },
+        {
+          "text": "is",
+          "start": 0.92,
+          "end": 0.95
+        },
+        {
+          "text": "different.",
+          "start": 1.36,
+          "end": 1.95
+        }
+      ]
+    },
+    {
+      "frame": 7,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 646.68,
+      "duration_s": 1.64,
+      "words": [
+        {
+          "text": "It",
+          "start": 0,
+          "end": 0.22
+        },
+        {
+          "text": "is",
+          "start": 0.22,
+          "end": 0.24
+        },
+        {
+          "text": "a",
+          "start": 0.24,
+          "end": 0.3
+        },
+        {
+          "text": "performance",
+          "start": 0.3,
+          "end": 0.82
+        },
+        {
+          "text": "standard.",
+          "start": 1.37,
+          "end": 1.64
+        }
+      ]
+    },
+    {
+      "frame": 8,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 648.32,
+      "duration_s": 5.05,
+      "words": [
+        {
+          "text": "It",
+          "start": 0,
+          "end": 0.22
+        },
+        {
+          "text": "describes",
+          "start": 0.22,
+          "end": 0.71
+        },
+        {
+          "text": "what",
+          "start": 0.71,
+          "end": 0.84
+        },
+        {
+          "text": "the",
+          "start": 0.96,
+          "end": 1.15
+        },
+        {
+          "text": "cement",
+          "start": 1.37,
+          "end": 1.55
+        },
+        {
+          "text": "must",
+          "start": 1.55,
+          "end": 1.81
+        },
+        {
+          "text": "do,",
+          "start": 1.81,
+          "end": 2.06
+        },
+        {
+          "text": "strength",
+          "start": 2.06,
+          "end": 2.59
+        },
+        {
+          "text": "development,",
+          "start": 2.59,
+          "end": 3.43
+        },
+        {
+          "text": "setting",
+          "start": 3.43,
+          "end": 3.7
+        },
+        {
+          "text": "time,",
+          "start": 3.99,
+          "end": 4.27
+        },
+        {
+          "text": "durability,",
+          "start": 4.27,
+          "end": 5.05
+        }
+      ]
+    },
+    {
+      "frame": 9,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 653.37,
+      "duration_s": 3.57,
+      "words": [
+        {
+          "text": "sulfate",
+          "start": 0,
+          "end": 0.51
+        },
+        {
+          "text": "resistance.",
+          "start": 0.73,
+          "end": 1.35
+        },
+        {
+          "text": "It",
+          "start": 1.35,
+          "end": 1.73
+        },
+        {
+          "text": "is",
+          "start": 1.73,
+          "end": 1.83
+        },
+        {
+          "text": "silent",
+          "start": 1.83,
+          "end": 2.3
+        },
+        {
+          "text": "on",
+          "start": 2.3,
+          "end": 2.36
+        },
+        {
+          "text": "how",
+          "start": 2.45,
+          "end": 2.66
+        },
+        {
+          "text": "you",
+          "start": 2.88,
+          "end": 2.94
+        },
+        {
+          "text": "made",
+          "start": 2.94,
+          "end": 3.25
+        },
+        {
+          "text": "it.",
+          "start": 3.25,
+          "end": 3.57
+        }
+      ]
+    },
+    {
+      "frame": 10,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 656.94,
+      "duration_s": 5.58,
+      "words": [
+        {
+          "text": "So",
+          "start": 0,
+          "end": 0.16
+        },
+        {
+          "text": "a",
+          "start": 0.16,
+          "end": 0.32
+        },
+        {
+          "text": "material",
+          "start": 0.32,
+          "end": 0.67
+        },
+        {
+          "text": "produced",
+          "start": 0.67,
+          "end": 0.92
+        },
+        {
+          "text": "in",
+          "start": 1.08,
+          "end": 1.19
+        },
+        {
+          "text": "an",
+          "start": 1.19,
+          "end": 1.29
+        },
+        {
+          "text": "electrochemical",
+          "start": 1.47,
+          "end": 2.06
+        },
+        {
+          "text": "cell",
+          "start": 2.06,
+          "end": 2.16
+        },
+        {
+          "text": "at",
+          "start": 2.27,
+          "end": 2.37
+        },
+        {
+          "text": "room",
+          "start": 2.37,
+          "end": 2.58
+        },
+        {
+          "text": "temperature",
+          "start": 2.58,
+          "end": 2.94
+        },
+        {
+          "text": "from",
+          "start": 3.3,
+          "end": 3.36
+        },
+        {
+          "text": "industrial",
+          "start": 3.36,
+          "end": 3.8
+        },
+        {
+          "text": "waste",
+          "start": 4.09,
+          "end": 4.2
+        },
+        {
+          "text": "can",
+          "start": 4.2,
+          "end": 4.42
+        },
+        {
+          "text": "be",
+          "start": 4.42,
+          "end": 4.5
+        },
+        {
+          "text": "specified",
+          "start": 4.5,
+          "end": 5.01
+        },
+        {
+          "text": "under",
+          "start": 5.01,
+          "end": 5.07
+        },
+        {
+          "text": "it,",
+          "start": 5.41,
+          "end": 5.58
+        }
+      ]
+    },
+    {
+      "frame": 11,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 662.52,
+      "duration_s": 4.64,
+      "words": [
+        {
+          "text": "tested",
+          "start": 0,
+          "end": 0.36
+        },
+        {
+          "text": "against",
+          "start": 0.36,
+          "end": 0.67
+        },
+        {
+          "text": "it,",
+          "start": 0.8,
+          "end": 1.02
+        },
+        {
+          "text": "and",
+          "start": 1.02,
+          "end": 1.2
+        },
+        {
+          "text": "used",
+          "start": 1.2,
+          "end": 1.44
+        },
+        {
+          "text": "under",
+          "start": 1.44,
+          "end": 1.49
+        },
+        {
+          "text": "it,",
+          "start": 1.83,
+          "end": 1.88
+        },
+        {
+          "text": "because",
+          "start": 2,
+          "end": 2.32
+        },
+        {
+          "text": "the",
+          "start": 2.32,
+          "end": 2.61
+        },
+        {
+          "text": "standard",
+          "start": 2.61,
+          "end": 3.08
+        },
+        {
+          "text": "asks",
+          "start": 3.3,
+          "end": 3.41
+        },
+        {
+          "text": "about",
+          "start": 3.41,
+          "end": 3.81
+        },
+        {
+          "text": "behavior,",
+          "start": 3.82,
+          "end": 4.64
+        }
+      ]
+    }
+  ],
+  "sfx": []
+}

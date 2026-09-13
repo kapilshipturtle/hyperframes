@@ -1,0 +1,828 @@
+{
+  "beats": [
+    {
+      "id": "148",
+      "text": "This is where the interesting part of this story actually lives, not in the lab, in the paperwork.",
+      "start": 616.6,
+      "end": 621.27,
+      "durationSeconds": 4.67,
+      "words": [
+        {
+          "text": "This",
+          "start": 616.6,
+          "end": 616.86
+        },
+        {
+          "text": "is",
+          "start": 616.86,
+          "end": 616.94
+        },
+        {
+          "text": "where",
+          "start": 616.94,
+          "end": 617.19
+        },
+        {
+          "text": "the",
+          "start": 617.19,
+          "end": 617.33
+        },
+        {
+          "text": "interesting",
+          "start": 617.33,
+          "end": 617.49
+        },
+        {
+          "text": "part",
+          "start": 618.01,
+          "end": 618.09
+        },
+        {
+          "text": "of",
+          "start": 618.09,
+          "end": 618.19
+        },
+        {
+          "text": "this",
+          "start": 618.19,
+          "end": 618.39
+        },
+        {
+          "text": "story",
+          "start": 618.39,
+          "end": 618.64
+        },
+        {
+          "text": "actually",
+          "start": 618.64,
+          "end": 619.04
+        },
+        {
+          "text": "lives,",
+          "start": 619.04,
+          "end": 619.39
+        },
+        {
+          "text": "not",
+          "start": 619.39,
+          "end": 619.48
+        },
+        {
+          "text": "in",
+          "start": 619.48,
+          "end": 619.665
+        },
+        {
+          "text": "the",
+          "start": 619.665,
+          "end": 619.85
+        },
+        {
+          "text": "lab,",
+          "start": 619.85,
+          "end": 620.04
+        },
+        {
+          "text": "in",
+          "start": 620.04,
+          "end": 620.14
+        },
+        {
+          "text": "the",
+          "start": 620.14,
+          "end": 620.34
+        },
+        {
+          "text": "paperwork.",
+          "start": 620.58,
+          "end": 621.27
+        }
+      ]
+    },
+    {
+      "id": "149",
+      "text": "In September of 2023, Sublime Cement received an ASTM C1157 designation.",
+      "start": 621.27,
+      "end": 628.08,
+      "durationSeconds": 6.81,
+      "words": [
+        {
+          "text": "In",
+          "start": 621.27,
+          "end": 621.78
+        },
+        {
+          "text": "September",
+          "start": 621.78,
+          "end": 622.38
+        },
+        {
+          "text": "of",
+          "start": 622.38,
+          "end": 622.93
+        },
+        {
+          "text": "2023,",
+          "start": 622.93,
+          "end": 623.63
+        },
+        {
+          "text": "Sublime",
+          "start": 623.73,
+          "end": 624.28
+        },
+        {
+          "text": "Cement",
+          "start": 624.28,
+          "end": 624.43
+        },
+        {
+          "text": "received",
+          "start": 624.77,
+          "end": 625.27
+        },
+        {
+          "text": "an",
+          "start": 625.54,
+          "end": 625.56
+        },
+        {
+          "text": "ASTM",
+          "start": 625.56,
+          "end": 625.88
+        },
+        {
+          "text": "C1157",
+          "start": 625.88,
+          "end": 626.9
+        },
+        {
+          "text": "designation.",
+          "start": 626.94,
+          "end": 628.08
+        }
+      ]
+    },
+    {
+      "id": "150",
+      "text": "That string of characters is the single most important fact in this video, and it deserves unpacking.",
+      "start": 628.08,
+      "end": 633.52,
+      "durationSeconds": 5.44,
+      "words": [
+        {
+          "text": "That",
+          "start": 628.08,
+          "end": 628.3
+        },
+        {
+          "text": "string",
+          "start": 628.3,
+          "end": 628.57
+        },
+        {
+          "text": "of",
+          "start": 628.57,
+          "end": 628.67
+        },
+        {
+          "text": "characters",
+          "start": 628.67,
+          "end": 628.9
+        },
+        {
+          "text": "is",
+          "start": 629.13,
+          "end": 629.25
+        },
+        {
+          "text": "the",
+          "start": 629.25,
+          "end": 629.45
+        },
+        {
+          "text": "single",
+          "start": 629.45,
+          "end": 629.7
+        },
+        {
+          "text": "most",
+          "start": 629.7,
+          "end": 629.9
+        },
+        {
+          "text": "important",
+          "start": 629.9,
+          "end": 630.34
+        },
+        {
+          "text": "fact",
+          "start": 630.34,
+          "end": 630.54
+        },
+        {
+          "text": "in",
+          "start": 630.54,
+          "end": 630.64
+        },
+        {
+          "text": "this",
+          "start": 630.64,
+          "end": 630.84
+        },
+        {
+          "text": "video,",
+          "start": 630.84,
+          "end": 631.12
+        },
+        {
+          "text": "and",
+          "start": 631.29,
+          "end": 631.32
+        },
+        {
+          "text": "it",
+          "start": 631.32,
+          "end": 631.35
+        },
+        {
+          "text": "deserves",
+          "start": 631.46,
+          "end": 631.78
+        },
+        {
+          "text": "unpacking.",
+          "start": 632.1,
+          "end": 633.52
+        }
+      ]
+    },
+    {
+      "id": "151",
+      "text": "Most cement is specified under a standard that describes what cement must be made of, a prescriptive standard.",
+      "start": 633.52,
+      "end": 639.4,
+      "durationSeconds": 5.88,
+      "words": [
+        {
+          "text": "Most",
+          "start": 633.52,
+          "end": 633.74
+        },
+        {
+          "text": "cement",
+          "start": 633.74,
+          "end": 634.02
+        },
+        {
+          "text": "is",
+          "start": 634.02,
+          "end": 634.12
+        },
+        {
+          "text": "specified",
+          "start": 634.12,
+          "end": 634.34
+        },
+        {
+          "text": "under",
+          "start": 634.34,
+          "end": 634.62
+        },
+        {
+          "text": "a",
+          "start": 634.62,
+          "end": 634.9
+        },
+        {
+          "text": "standard",
+          "start": 634.9,
+          "end": 635.29
+        },
+        {
+          "text": "that",
+          "start": 635.29,
+          "end": 635.49
+        },
+        {
+          "text": "describes",
+          "start": 635.49,
+          "end": 635.95
+        },
+        {
+          "text": "what",
+          "start": 635.95,
+          "end": 636.15
+        },
+        {
+          "text": "cement",
+          "start": 636.15,
+          "end": 636.36
+        },
+        {
+          "text": "must",
+          "start": 636.36,
+          "end": 636.73
+        },
+        {
+          "text": "be",
+          "start": 636.73,
+          "end": 636.75
+        },
+        {
+          "text": "made",
+          "start": 636.75,
+          "end": 636.95
+        },
+        {
+          "text": "of,",
+          "start": 636.95,
+          "end": 637.64
+        },
+        {
+          "text": "a",
+          "start": 637.65,
+          "end": 637.71
+        },
+        {
+          "text": "prescriptive",
+          "start": 637.86,
+          "end": 638.48
+        },
+        {
+          "text": "standard.",
+          "start": 639.01,
+          "end": 639.4
+        }
+      ]
+    },
+    {
+      "id": "152",
+      "text": "If your material is not made the approved way, it does not qualify, no matter how well it performs.",
+      "start": 639.4,
+      "end": 644.73,
+      "durationSeconds": 5.33,
+      "words": [
+        {
+          "text": "If",
+          "start": 639.4,
+          "end": 639.62
+        },
+        {
+          "text": "your",
+          "start": 639.62,
+          "end": 639.73
+        },
+        {
+          "text": "material",
+          "start": 639.73,
+          "end": 640.15
+        },
+        {
+          "text": "is",
+          "start": 640.15,
+          "end": 640.24
+        },
+        {
+          "text": "not",
+          "start": 640.24,
+          "end": 640.43
+        },
+        {
+          "text": "made",
+          "start": 640.43,
+          "end": 640.65
+        },
+        {
+          "text": "the",
+          "start": 640.77,
+          "end": 640.81
+        },
+        {
+          "text": "approved",
+          "start": 640.81,
+          "end": 641.24
+        },
+        {
+          "text": "way,",
+          "start": 641.24,
+          "end": 641.47
+        },
+        {
+          "text": "it",
+          "start": 641.58,
+          "end": 641.61
+        },
+        {
+          "text": "does",
+          "start": 641.61,
+          "end": 641.83
+        },
+        {
+          "text": "not",
+          "start": 641.83,
+          "end": 641.99
+        },
+        {
+          "text": "qualify,",
+          "start": 641.99,
+          "end": 642.44
+        },
+        {
+          "text": "no",
+          "start": 642.44,
+          "end": 642.61
+        },
+        {
+          "text": "matter",
+          "start": 642.61,
+          "end": 642.9
+        },
+        {
+          "text": "how",
+          "start": 642.9,
+          "end": 643.06
+        },
+        {
+          "text": "well",
+          "start": 643.06,
+          "end": 643.11
+        },
+        {
+          "text": "it",
+          "start": 643.11,
+          "end": 643.58
+        },
+        {
+          "text": "performs.",
+          "start": 643.58,
+          "end": 644.72
+        }
+      ]
+    },
+    {
+      "id": "153",
+      "text": "C1157 is different.",
+      "start": 644.73,
+      "end": 646.68,
+      "durationSeconds": 1.95,
+      "words": [
+        {
+          "text": "C1157",
+          "start": 644.73,
+          "end": 645.54
+        },
+        {
+          "text": "is",
+          "start": 645.65,
+          "end": 645.68
+        },
+        {
+          "text": "different.",
+          "start": 646.09,
+          "end": 646.68
+        }
+      ]
+    },
+    {
+      "id": "154",
+      "text": "It is a performance standard.",
+      "start": 646.68,
+      "end": 648.32,
+      "durationSeconds": 1.64,
+      "words": [
+        {
+          "text": "It",
+          "start": 646.68,
+          "end": 646.9
+        },
+        {
+          "text": "is",
+          "start": 646.9,
+          "end": 646.92
+        },
+        {
+          "text": "a",
+          "start": 646.92,
+          "end": 646.98
+        },
+        {
+          "text": "performance",
+          "start": 646.98,
+          "end": 647.5
+        },
+        {
+          "text": "standard.",
+          "start": 648.05,
+          "end": 648.32
+        }
+      ]
+    },
+    {
+      "id": "155",
+      "text": "It describes what the cement must do, strength development, setting time, durability,",
+      "start": 648.32,
+      "end": 653.37,
+      "durationSeconds": 5.05,
+      "words": [
+        {
+          "text": "It",
+          "start": 648.32,
+          "end": 648.54
+        },
+        {
+          "text": "describes",
+          "start": 648.54,
+          "end": 649.03
+        },
+        {
+          "text": "what",
+          "start": 649.03,
+          "end": 649.16
+        },
+        {
+          "text": "the",
+          "start": 649.28,
+          "end": 649.47
+        },
+        {
+          "text": "cement",
+          "start": 649.69,
+          "end": 649.87
+        },
+        {
+          "text": "must",
+          "start": 649.87,
+          "end": 650.13
+        },
+        {
+          "text": "do,",
+          "start": 650.13,
+          "end": 650.38
+        },
+        {
+          "text": "strength",
+          "start": 650.38,
+          "end": 650.91
+        },
+        {
+          "text": "development,",
+          "start": 650.91,
+          "end": 651.75
+        },
+        {
+          "text": "setting",
+          "start": 651.75,
+          "end": 652.02
+        },
+        {
+          "text": "time,",
+          "start": 652.31,
+          "end": 652.59
+        },
+        {
+          "text": "durability,",
+          "start": 652.59,
+          "end": 653.37
+        }
+      ]
+    },
+    {
+      "id": "156",
+      "text": "sulfate resistance. It is silent on how you made it.",
+      "start": 653.37,
+      "end": 656.94,
+      "durationSeconds": 3.57,
+      "words": [
+        {
+          "text": "sulfate",
+          "start": 653.37,
+          "end": 653.88
+        },
+        {
+          "text": "resistance.",
+          "start": 654.1,
+          "end": 654.72
+        },
+        {
+          "text": "It",
+          "start": 654.72,
+          "end": 655.1
+        },
+        {
+          "text": "is",
+          "start": 655.1,
+          "end": 655.2
+        },
+        {
+          "text": "silent",
+          "start": 655.2,
+          "end": 655.67
+        },
+        {
+          "text": "on",
+          "start": 655.67,
+          "end": 655.73
+        },
+        {
+          "text": "how",
+          "start": 655.82,
+          "end": 656.03
+        },
+        {
+          "text": "you",
+          "start": 656.25,
+          "end": 656.31
+        },
+        {
+          "text": "made",
+          "start": 656.31,
+          "end": 656.62
+        },
+        {
+          "text": "it.",
+          "start": 656.62,
+          "end": 656.94
+        }
+      ]
+    },
+    {
+      "id": "157",
+      "text": "So a material produced in an electrochemical cell at room temperature from industrial waste can be specified under it,",
+      "start": 656.94,
+      "end": 662.52,
+      "durationSeconds": 5.58,
+      "words": [
+        {
+          "text": "So",
+          "start": 656.94,
+          "end": 657.1
+        },
+        {
+          "text": "a",
+          "start": 657.1,
+          "end": 657.26
+        },
+        {
+          "text": "material",
+          "start": 657.26,
+          "end": 657.61
+        },
+        {
+          "text": "produced",
+          "start": 657.61,
+          "end": 657.86
+        },
+        {
+          "text": "in",
+          "start": 658.02,
+          "end": 658.13
+        },
+        {
+          "text": "an",
+          "start": 658.13,
+          "end": 658.23
+        },
+        {
+          "text": "electrochemical",
+          "start": 658.41,
+          "end": 659
+        },
+        {
+          "text": "cell",
+          "start": 659,
+          "end": 659.1
+        },
+        {
+          "text": "at",
+          "start": 659.21,
+          "end": 659.31
+        },
+        {
+          "text": "room",
+          "start": 659.31,
+          "end": 659.52
+        },
+        {
+          "text": "temperature",
+          "start": 659.52,
+          "end": 659.88
+        },
+        {
+          "text": "from",
+          "start": 660.24,
+          "end": 660.3
+        },
+        {
+          "text": "industrial",
+          "start": 660.3,
+          "end": 660.74
+        },
+        {
+          "text": "waste",
+          "start": 661.03,
+          "end": 661.14
+        },
+        {
+          "text": "can",
+          "start": 661.14,
+          "end": 661.36
+        },
+        {
+          "text": "be",
+          "start": 661.36,
+          "end": 661.44
+        },
+        {
+          "text": "specified",
+          "start": 661.44,
+          "end": 661.95
+        },
+        {
+          "text": "under",
+          "start": 661.95,
+          "end": 662.01
+        },
+        {
+          "text": "it,",
+          "start": 662.35,
+          "end": 662.52
+        }
+      ]
+    },
+    {
+      "id": "158",
+      "text": "tested against it, and used under it, because the standard asks about behavior,",
+      "start": 662.52,
+      "end": 667.16,
+      "durationSeconds": 4.64,
+      "words": [
+        {
+          "text": "tested",
+          "start": 662.52,
+          "end": 662.88
+        },
+        {
+          "text": "against",
+          "start": 662.88,
+          "end": 663.19
+        },
+        {
+          "text": "it,",
+          "start": 663.32,
+          "end": 663.54
+        },
+        {
+          "text": "and",
+          "start": 663.54,
+          "end": 663.72
+        },
+        {
+          "text": "used",
+          "start": 663.72,
+          "end": 663.96
+        },
+        {
+          "text": "under",
+          "start": 663.96,
+          "end": 664.01
+        },
+        {
+          "text": "it,",
+          "start": 664.35,
+          "end": 664.4
+        },
+        {
+          "text": "because",
+          "start": 664.52,
+          "end": 664.84
+        },
+        {
+          "text": "the",
+          "start": 664.84,
+          "end": 665.13
+        },
+        {
+          "text": "standard",
+          "start": 665.13,
+          "end": 665.6
+        },
+        {
+          "text": "asks",
+          "start": 665.82,
+          "end": 665.93
+        },
+        {
+          "text": "about",
+          "start": 665.93,
+          "end": 666.33
+        },
+        {
+          "text": "behavior,",
+          "start": 666.34,
+          "end": 667.16
+        }
+      ]
+    }
+  ]
+}

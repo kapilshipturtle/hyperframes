@@ -1,0 +1,704 @@
+{
+  "beats": [
+    {
+      "id": "34",
+      "text": "And an $87 million line item in a Department of Energy portfolio that, when it disappeared,",
+      "start": 135.08,
+      "end": 140.46,
+      "durationSeconds": 5.38,
+      "words": [
+        {
+          "text": "And",
+          "start": 135.08,
+          "end": 135.46
+        },
+        {
+          "text": "an",
+          "start": 135.46,
+          "end": 135.54
+        },
+        {
+          "text": "$87",
+          "start": 135.54,
+          "end": 135.96
+        },
+        {
+          "text": "million",
+          "start": 135.96,
+          "end": 136.09
+        },
+        {
+          "text": "line",
+          "start": 136.61,
+          "end": 136.62
+        },
+        {
+          "text": "item",
+          "start": 136.62,
+          "end": 136.86
+        },
+        {
+          "text": "in",
+          "start": 136.86,
+          "end": 136.97
+        },
+        {
+          "text": "a",
+          "start": 136.98,
+          "end": 137.04
+        },
+        {
+          "text": "Department",
+          "start": 137.04,
+          "end": 137.64
+        },
+        {
+          "text": "of",
+          "start": 137.64,
+          "end": 137.74
+        },
+        {
+          "text": "Energy",
+          "start": 137.76,
+          "end": 138.06
+        },
+        {
+          "text": "portfolio",
+          "start": 138.45,
+          "end": 138.66
+        },
+        {
+          "text": "that,",
+          "start": 138.66,
+          "end": 138.95
+        },
+        {
+          "text": "when",
+          "start": 139.22,
+          "end": 139.26
+        },
+        {
+          "text": "it",
+          "start": 139.26,
+          "end": 139.38
+        },
+        {
+          "text": "disappeared,",
+          "start": 139.38,
+          "end": 140.21
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "text": "took a factory with it.",
+      "start": 140.46,
+      "end": 142.29,
+      "durationSeconds": 1.83,
+      "words": [
+        {
+          "text": "took",
+          "start": 140.46,
+          "end": 140.63
+        },
+        {
+          "text": "a",
+          "start": 140.71,
+          "end": 140.74
+        },
+        {
+          "text": "factory",
+          "start": 140.74,
+          "end": 141.08
+        },
+        {
+          "text": "with",
+          "start": 141.61,
+          "end": 141.84
+        },
+        {
+          "text": "it.",
+          "start": 141.84,
+          "end": 142.29
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "text": "But before any of that means anything, you need to understand what a cement kiln actually is, and why it has survived,",
+      "start": 142.29,
+      "end": 148.33,
+      "durationSeconds": 6.04,
+      "words": [
+        {
+          "text": "But",
+          "start": 142.29,
+          "end": 142.58
+        },
+        {
+          "text": "before",
+          "start": 142.58,
+          "end": 142.75
+        },
+        {
+          "text": "any",
+          "start": 142.83,
+          "end": 142.99
+        },
+        {
+          "text": "of",
+          "start": 142.99,
+          "end": 143.09
+        },
+        {
+          "text": "that",
+          "start": 143.09,
+          "end": 143.2
+        },
+        {
+          "text": "means",
+          "start": 143.29,
+          "end": 143.41
+        },
+        {
+          "text": "anything,",
+          "start": 143.73,
+          "end": 144.08
+        },
+        {
+          "text": "you",
+          "start": 144.08,
+          "end": 144.24
+        },
+        {
+          "text": "need",
+          "start": 144.24,
+          "end": 144.42
+        },
+        {
+          "text": "to",
+          "start": 144.54,
+          "end": 144.55
+        },
+        {
+          "text": "understand",
+          "start": 144.55,
+          "end": 145.08
+        },
+        {
+          "text": "what",
+          "start": 145.08,
+          "end": 145.2
+        },
+        {
+          "text": "a",
+          "start": 145.28,
+          "end": 145.3
+        },
+        {
+          "text": "cement",
+          "start": 145.57,
+          "end": 145.65
+        },
+        {
+          "text": "kiln",
+          "start": 145.74,
+          "end": 145.86
+        },
+        {
+          "text": "actually",
+          "start": 145.86,
+          "end": 146.36
+        },
+        {
+          "text": "is,",
+          "start": 146.52,
+          "end": 146.67
+        },
+        {
+          "text": "and",
+          "start": 146.67,
+          "end": 146.91
+        },
+        {
+          "text": "why",
+          "start": 146.91,
+          "end": 147.15
+        },
+        {
+          "text": "it",
+          "start": 147.15,
+          "end": 147.21
+        },
+        {
+          "text": "has",
+          "start": 147.3,
+          "end": 147.51
+        },
+        {
+          "text": "survived,",
+          "start": 147.73,
+          "end": 148.33
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "text": "essentially unchanged in principle since Victorian England.",
+      "start": 148.33,
+      "end": 152.98,
+      "durationSeconds": 4.65,
+      "words": [
+        {
+          "text": "essentially",
+          "start": 148.33,
+          "end": 149.17
+        },
+        {
+          "text": "unchanged",
+          "start": 149.57,
+          "end": 149.91
+        },
+        {
+          "text": "in",
+          "start": 149.91,
+          "end": 150.06
+        },
+        {
+          "text": "principle",
+          "start": 150.35,
+          "end": 150.78
+        },
+        {
+          "text": "since",
+          "start": 150.78,
+          "end": 150.95
+        },
+        {
+          "text": "Victorian",
+          "start": 151.22,
+          "end": 151.87
+        },
+        {
+          "text": "England.",
+          "start": 151.89,
+          "end": 152.76
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "text": "Start with respect, because the kiln has earned it.",
+      "start": 152.98,
+      "end": 156.42,
+      "durationSeconds": 3.44,
+      "words": [
+        {
+          "text": "Start",
+          "start": 152.98,
+          "end": 153.13
+        },
+        {
+          "text": "with",
+          "start": 153.23,
+          "end": 153.42
+        },
+        {
+          "text": "respect,",
+          "start": 153.42,
+          "end": 154.08
+        },
+        {
+          "text": "because",
+          "start": 154.14,
+          "end": 154.6
+        },
+        {
+          "text": "the",
+          "start": 154.6,
+          "end": 154.81
+        },
+        {
+          "text": "kiln",
+          "start": 154.81,
+          "end": 155.11
+        },
+        {
+          "text": "has",
+          "start": 155.11,
+          "end": 155.33
+        },
+        {
+          "text": "earned",
+          "start": 155.33,
+          "end": 155.6
+        },
+        {
+          "text": "it.",
+          "start": 155.92,
+          "end": 156.2
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "text": "Portland cement was patented in 1824 by a bricklayer in Leeds named Joseph Aspden.",
+      "start": 156.42,
+      "end": 161.11,
+      "durationSeconds": 4.69,
+      "words": [
+        {
+          "text": "Portland",
+          "start": 156.42,
+          "end": 156.69
+        },
+        {
+          "text": "cement",
+          "start": 156.69,
+          "end": 157.02
+        },
+        {
+          "text": "was",
+          "start": 157.05,
+          "end": 157.07
+        },
+        {
+          "text": "patented",
+          "start": 157.57,
+          "end": 157.73
+        },
+        {
+          "text": "in",
+          "start": 157.73,
+          "end": 157.85
+        },
+        {
+          "text": "1824",
+          "start": 157.85,
+          "end": 158.59
+        },
+        {
+          "text": "by",
+          "start": 158.59,
+          "end": 158.7
+        },
+        {
+          "text": "a",
+          "start": 158.72,
+          "end": 158.77
+        },
+        {
+          "text": "bricklayer",
+          "start": 158.77,
+          "end": 159.39
+        },
+        {
+          "text": "in",
+          "start": 159.41,
+          "end": 159.49
+        },
+        {
+          "text": "Leeds",
+          "start": 159.58,
+          "end": 159.82
+        },
+        {
+          "text": "named",
+          "start": 159.82,
+          "end": 159.91
+        },
+        {
+          "text": "Joseph",
+          "start": 160.19,
+          "end": 160.5
+        },
+        {
+          "text": "Aspden.",
+          "start": 160.5,
+          "end": 161.11
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "text": "The modern version of his idea is one of the great machines of industrial civilization.",
+      "start": 161.11,
+      "end": 165.37,
+      "durationSeconds": 4.26,
+      "words": [
+        {
+          "text": "The",
+          "start": 161.11,
+          "end": 161.34
+        },
+        {
+          "text": "modern",
+          "start": 161.34,
+          "end": 161.61
+        },
+        {
+          "text": "version",
+          "start": 161.61,
+          "end": 161.94
+        },
+        {
+          "text": "of",
+          "start": 161.94,
+          "end": 162.11
+        },
+        {
+          "text": "his",
+          "start": 162.11,
+          "end": 162.27
+        },
+        {
+          "text": "idea",
+          "start": 162.27,
+          "end": 162.49
+        },
+        {
+          "text": "is",
+          "start": 162.49,
+          "end": 162.6
+        },
+        {
+          "text": "one",
+          "start": 162.6,
+          "end": 162.76
+        },
+        {
+          "text": "of",
+          "start": 162.76,
+          "end": 162.87
+        },
+        {
+          "text": "the",
+          "start": 162.87,
+          "end": 163.03
+        },
+        {
+          "text": "great",
+          "start": 163.03,
+          "end": 163.31
+        },
+        {
+          "text": "machines",
+          "start": 163.31,
+          "end": 163.76
+        },
+        {
+          "text": "of",
+          "start": 163.76,
+          "end": 163.87
+        },
+        {
+          "text": "industrial",
+          "start": 163.87,
+          "end": 164.42
+        },
+        {
+          "text": "civilization.",
+          "start": 164.5,
+          "end": 165.36
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "text": "A steel tube, sometimes 60 meters long, tilted a few degrees, rotating slowly,",
+      "start": 165.37,
+      "end": 170.56,
+      "durationSeconds": 5.19,
+      "words": [
+        {
+          "text": "A",
+          "start": 165.37,
+          "end": 165.43
+        },
+        {
+          "text": "steel",
+          "start": 165.58,
+          "end": 165.75
+        },
+        {
+          "text": "tube,",
+          "start": 165.83,
+          "end": 166.2
+        },
+        {
+          "text": "sometimes",
+          "start": 166.73,
+          "end": 166.84
+        },
+        {
+          "text": "60",
+          "start": 166.84,
+          "end": 167.26
+        },
+        {
+          "text": "meters",
+          "start": 167.26,
+          "end": 167.63
+        },
+        {
+          "text": "long,",
+          "start": 167.69,
+          "end": 168.1
+        },
+        {
+          "text": "tilted",
+          "start": 168.1,
+          "end": 168.21
+        },
+        {
+          "text": "a",
+          "start": 168.57,
+          "end": 168.59
+        },
+        {
+          "text": "few",
+          "start": 168.59,
+          "end": 168.8
+        },
+        {
+          "text": "degrees,",
+          "start": 168.8,
+          "end": 169.43
+        },
+        {
+          "text": "rotating",
+          "start": 169.43,
+          "end": 169.94
+        },
+        {
+          "text": "slowly,",
+          "start": 170.21,
+          "end": 170.56
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "text": "lined with refractory brick, with a flame at the low end.",
+      "start": 170.56,
+      "end": 174.81,
+      "durationSeconds": 4.25,
+      "words": [
+        {
+          "text": "lined",
+          "start": 170.56,
+          "end": 170.9
+        },
+        {
+          "text": "with",
+          "start": 170.91,
+          "end": 171.16
+        },
+        {
+          "text": "refractory",
+          "start": 171.5,
+          "end": 172.09
+        },
+        {
+          "text": "brick,",
+          "start": 172.09,
+          "end": 172.66
+        },
+        {
+          "text": "with",
+          "start": 172.66,
+          "end": 172.99
+        },
+        {
+          "text": "a",
+          "start": 172.99,
+          "end": 173.07
+        },
+        {
+          "text": "flame",
+          "start": 173.07,
+          "end": 173.48
+        },
+        {
+          "text": "at",
+          "start": 173.48,
+          "end": 173.64
+        },
+        {
+          "text": "the",
+          "start": 173.64,
+          "end": 173.88
+        },
+        {
+          "text": "low",
+          "start": 173.88,
+          "end": 174.1
+        },
+        {
+          "text": "end.",
+          "start": 174.11,
+          "end": 174.68
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "text": "Crushed limestone and clay go in cold at the top.",
+      "start": 174.81,
+      "end": 177.66,
+      "durationSeconds": 2.85,
+      "words": [
+        {
+          "text": "Crushed",
+          "start": 174.81,
+          "end": 175.07
+        },
+        {
+          "text": "limestone",
+          "start": 175.15,
+          "end": 175.5
+        },
+        {
+          "text": "and",
+          "start": 175.71,
+          "end": 175.91
+        },
+        {
+          "text": "clay",
+          "start": 176.05,
+          "end": 176.17
+        },
+        {
+          "text": "go",
+          "start": 176.17,
+          "end": 176.3
+        },
+        {
+          "text": "in",
+          "start": 176.3,
+          "end": 176.43
+        },
+        {
+          "text": "cold",
+          "start": 176.43,
+          "end": 176.69
+        },
+        {
+          "text": "at",
+          "start": 176.69,
+          "end": 176.75
+        },
+        {
+          "text": "the",
+          "start": 176.86,
+          "end": 176.97
+        },
+        {
+          "text": "top.",
+          "start": 177.01,
+          "end": 177.44
+        }
+      ]
+    }
+  ]
+}

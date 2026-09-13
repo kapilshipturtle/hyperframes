@@ -1,0 +1,759 @@
+{
+  "beats": [
+    {
+      "id": "212",
+      "text": "it is Holsim and C.R.H.",
+      "start": 909.85,
+      "end": 911.94,
+      "durationSeconds": 2.09,
+      "words": [
+        {
+          "text": "it",
+          "start": 909.85,
+          "end": 909.99
+        },
+        {
+          "text": "is",
+          "start": 909.99,
+          "end": 910.17
+        },
+        {
+          "text": "Holsim",
+          "start": 910.17,
+          "end": 910.56
+        },
+        {
+          "text": "and",
+          "start": 910.56,
+          "end": 910.77
+        },
+        {
+          "text": "C.R.H.",
+          "start": 910.77,
+          "end": 911.64
+        }
+      ]
+    },
+    {
+      "id": "213",
+      "text": "Instead, they wrote checks and reserve tonnage.",
+      "start": 911.94,
+      "end": 915.3,
+      "durationSeconds": 3.36,
+      "words": [
+        {
+          "text": "Instead,",
+          "start": 911.94,
+          "end": 912.39
+        },
+        {
+          "text": "they",
+          "start": 912.39,
+          "end": 912.56
+        },
+        {
+          "text": "wrote",
+          "start": 912.56,
+          "end": 913.1
+        },
+        {
+          "text": "checks",
+          "start": 913.1,
+          "end": 913.53
+        },
+        {
+          "text": "and",
+          "start": 913.53,
+          "end": 913.75
+        },
+        {
+          "text": "reserve",
+          "start": 913.75,
+          "end": 914.28
+        },
+        {
+          "text": "tonnage.",
+          "start": 914.28,
+          "end": 915.08
+        }
+      ]
+    },
+    {
+      "id": "214",
+      "text": "That is not a press release. That is two incumbents deciding that being early to the thing that threatens them is cheaper than being",
+      "start": 915.3,
+      "end": 921.78,
+      "durationSeconds": 6.48,
+      "words": [
+        {
+          "text": "That",
+          "start": 915.3,
+          "end": 915.34
+        },
+        {
+          "text": "is",
+          "start": 915.34,
+          "end": 915.44
+        },
+        {
+          "text": "not",
+          "start": 915.55,
+          "end": 915.66
+        },
+        {
+          "text": "a",
+          "start": 915.66,
+          "end": 915.72
+        },
+        {
+          "text": "press",
+          "start": 915.72,
+          "end": 915.9
+        },
+        {
+          "text": "release.",
+          "start": 916.45,
+          "end": 916.72
+        },
+        {
+          "text": "That",
+          "start": 916.72,
+          "end": 916.94
+        },
+        {
+          "text": "is",
+          "start": 916.94,
+          "end": 917.03
+        },
+        {
+          "text": "two",
+          "start": 917.03,
+          "end": 917.08
+        },
+        {
+          "text": "incumbents",
+          "start": 917.19,
+          "end": 917.56
+        },
+        {
+          "text": "deciding",
+          "start": 918.09,
+          "end": 918.11
+        },
+        {
+          "text": "that",
+          "start": 918.11,
+          "end": 918.32
+        },
+        {
+          "text": "being",
+          "start": 918.32,
+          "end": 918.58
+        },
+        {
+          "text": "early",
+          "start": 918.58,
+          "end": 918.77
+        },
+        {
+          "text": "to",
+          "start": 918.9,
+          "end": 918.94
+        },
+        {
+          "text": "the",
+          "start": 918.94,
+          "end": 919.09
+        },
+        {
+          "text": "thing",
+          "start": 919.09,
+          "end": 919.35
+        },
+        {
+          "text": "that",
+          "start": 919.35,
+          "end": 919.54
+        },
+        {
+          "text": "threatens",
+          "start": 919.56,
+          "end": 920.03
+        },
+        {
+          "text": "them",
+          "start": 920.1,
+          "end": 920.24
+        },
+        {
+          "text": "is",
+          "start": 920.24,
+          "end": 920.4
+        },
+        {
+          "text": "cheaper",
+          "start": 920.62,
+          "end": 921.01
+        },
+        {
+          "text": "than",
+          "start": 921.01,
+          "end": 921.22
+        },
+        {
+          "text": "being",
+          "start": 921.77,
+          "end": 921.78
+        }
+      ]
+    },
+    {
+      "id": "215",
+      "text": "late to it. Then the customer side.",
+      "start": 921.78,
+      "end": 924.12,
+      "durationSeconds": 2.34,
+      "words": [
+        {
+          "text": "late",
+          "start": 921.78,
+          "end": 922.12
+        },
+        {
+          "text": "to",
+          "start": 922.12,
+          "end": 922.29
+        },
+        {
+          "text": "it.",
+          "start": 922.29,
+          "end": 922.76
+        },
+        {
+          "text": "Then",
+          "start": 922.98,
+          "end": 923
+        },
+        {
+          "text": "the",
+          "start": 923,
+          "end": 923.15
+        },
+        {
+          "text": "customer",
+          "start": 923.23,
+          "end": 923.58
+        },
+        {
+          "text": "side.",
+          "start": 923.66,
+          "end": 924.12
+        }
+      ]
+    },
+    {
+      "id": "216",
+      "text": "On May 22, 2025, Microsoft signed a binding agreement to purchase up to 622,500",
+      "start": 924.12,
+      "end": 930.98,
+      "durationSeconds": 6.86,
+      "words": [
+        {
+          "text": "On",
+          "start": 924.12,
+          "end": 924.34
+        },
+        {
+          "text": "May",
+          "start": 924.34,
+          "end": 924.49
+        },
+        {
+          "text": "22,",
+          "start": 924.51,
+          "end": 924.99
+        },
+        {
+          "text": "2025,",
+          "start": 925.49,
+          "end": 926.1
+        },
+        {
+          "text": "Microsoft",
+          "start": 926.1,
+          "end": 926.77
+        },
+        {
+          "text": "signed",
+          "start": 926.77,
+          "end": 926.96
+        },
+        {
+          "text": "a",
+          "start": 926.96,
+          "end": 927.33
+        },
+        {
+          "text": "binding",
+          "start": 927.33,
+          "end": 927.8
+        },
+        {
+          "text": "agreement",
+          "start": 927.8,
+          "end": 928.47
+        },
+        {
+          "text": "to",
+          "start": 928.47,
+          "end": 928.62
+        },
+        {
+          "text": "purchase",
+          "start": 928.62,
+          "end": 929.21
+        },
+        {
+          "text": "up",
+          "start": 929.21,
+          "end": 929.36
+        },
+        {
+          "text": "to",
+          "start": 929.36,
+          "end": 929.45
+        },
+        {
+          "text": "622,500",
+          "start": 929.52,
+          "end": 930.98
+        }
+      ]
+    },
+    {
+      "id": "217",
+      "text": "metric tons of sublime cement over six to nine years, an agreement tied to the output of the first commercial",
+      "start": 930.98,
+      "end": 937.43,
+      "durationSeconds": 6.45,
+      "words": [
+        {
+          "text": "metric",
+          "start": 930.98,
+          "end": 931.52
+        },
+        {
+          "text": "tons",
+          "start": 931.74,
+          "end": 931.8
+        },
+        {
+          "text": "of",
+          "start": 931.8,
+          "end": 931.88
+        },
+        {
+          "text": "sublime",
+          "start": 931.99,
+          "end": 932.34
+        },
+        {
+          "text": "cement",
+          "start": 932.34,
+          "end": 932.89
+        },
+        {
+          "text": "over",
+          "start": 932.89,
+          "end": 933.13
+        },
+        {
+          "text": "six",
+          "start": 933.13,
+          "end": 933.34
+        },
+        {
+          "text": "to",
+          "start": 933.34,
+          "end": 933.48
+        },
+        {
+          "text": "nine",
+          "start": 933.48,
+          "end": 933.76
+        },
+        {
+          "text": "years,",
+          "start": 933.76,
+          "end": 934.24
+        },
+        {
+          "text": "an",
+          "start": 934.24,
+          "end": 934.36
+        },
+        {
+          "text": "agreement",
+          "start": 934.73,
+          "end": 935.01
+        },
+        {
+          "text": "tied",
+          "start": 935.01,
+          "end": 935.22
+        },
+        {
+          "text": "to",
+          "start": 935.22,
+          "end": 935.51
+        },
+        {
+          "text": "the",
+          "start": 935.51,
+          "end": 935.64
+        },
+        {
+          "text": "output",
+          "start": 935.64,
+          "end": 936.04
+        },
+        {
+          "text": "of",
+          "start": 936.04,
+          "end": 936.11
+        },
+        {
+          "text": "the",
+          "start": 936.37,
+          "end": 936.41
+        },
+        {
+          "text": "first",
+          "start": 936.41,
+          "end": 936.78
+        },
+        {
+          "text": "commercial",
+          "start": 937,
+          "end": 937.43
+        }
+      ]
+    },
+    {
+      "id": "218",
+      "text": "plant, aimed substantially at data center construction.",
+      "start": 937.43,
+      "end": 940.84,
+      "durationSeconds": 3.41,
+      "words": [
+        {
+          "text": "plant,",
+          "start": 937.43,
+          "end": 937.87
+        },
+        {
+          "text": "aimed",
+          "start": 938.15,
+          "end": 938.2
+        },
+        {
+          "text": "substantially",
+          "start": 938.2,
+          "end": 939.05
+        },
+        {
+          "text": "at",
+          "start": 939.05,
+          "end": 939.18
+        },
+        {
+          "text": "data",
+          "start": 939.18,
+          "end": 939.44
+        },
+        {
+          "text": "center",
+          "start": 939.44,
+          "end": 939.62
+        },
+        {
+          "text": "construction.",
+          "start": 939.99,
+          "end": 940.84
+        }
+      ]
+    },
+    {
+      "id": "219",
+      "text": "Read the word binding again. This is not a memorandum of understanding or a letter of intent.",
+      "start": 940.84,
+      "end": 945.76,
+      "durationSeconds": 4.92,
+      "words": [
+        {
+          "text": "Read",
+          "start": 940.84,
+          "end": 941.06
+        },
+        {
+          "text": "the",
+          "start": 941.06,
+          "end": 941.22
+        },
+        {
+          "text": "word",
+          "start": 941.31,
+          "end": 941.45
+        },
+        {
+          "text": "binding",
+          "start": 941.45,
+          "end": 941.66
+        },
+        {
+          "text": "again.",
+          "start": 942.12,
+          "end": 942.32
+        },
+        {
+          "text": "This",
+          "start": 942.54,
+          "end": 942.57
+        },
+        {
+          "text": "is",
+          "start": 942.57,
+          "end": 942.68
+        },
+        {
+          "text": "not",
+          "start": 942.79,
+          "end": 942.87
+        },
+        {
+          "text": "a",
+          "start": 942.87,
+          "end": 942.93
+        },
+        {
+          "text": "memorandum",
+          "start": 942.93,
+          "end": 943.16
+        },
+        {
+          "text": "of",
+          "start": 943.16,
+          "end": 943.69
+        },
+        {
+          "text": "understanding",
+          "start": 943.69,
+          "end": 944.38
+        },
+        {
+          "text": "or",
+          "start": 944.5,
+          "end": 944.6
+        },
+        {
+          "text": "a",
+          "start": 944.6,
+          "end": 944.66
+        },
+        {
+          "text": "letter",
+          "start": 944.66,
+          "end": 945.03
+        },
+        {
+          "text": "of",
+          "start": 945.03,
+          "end": 945.14
+        },
+        {
+          "text": "intent.",
+          "start": 945.15,
+          "end": 945.76
+        }
+      ]
+    },
+    {
+      "id": "220",
+      "text": "It is a company with among the most sophisticated procurement operations in existence, committing to buy hundreds of thousands of",
+      "start": 945.76,
+      "end": 952.15,
+      "durationSeconds": 6.39,
+      "words": [
+        {
+          "text": "It",
+          "start": 945.76,
+          "end": 945.87
+        },
+        {
+          "text": "is",
+          "start": 945.87,
+          "end": 945.98
+        },
+        {
+          "text": "a",
+          "start": 945.98,
+          "end": 946.01
+        },
+        {
+          "text": "company",
+          "start": 946.01,
+          "end": 946.37
+        },
+        {
+          "text": "with",
+          "start": 946.37,
+          "end": 946.56
+        },
+        {
+          "text": "among",
+          "start": 946.56,
+          "end": 946.63
+        },
+        {
+          "text": "the",
+          "start": 946.81,
+          "end": 946.98
+        },
+        {
+          "text": "most",
+          "start": 947.13,
+          "end": 947.18
+        },
+        {
+          "text": "sophisticated",
+          "start": 947.18,
+          "end": 947.81
+        },
+        {
+          "text": "procurement",
+          "start": 947.94,
+          "end": 948.41
+        },
+        {
+          "text": "operations",
+          "start": 948.41,
+          "end": 948.6
+        },
+        {
+          "text": "in",
+          "start": 948.97,
+          "end": 949.04
+        },
+        {
+          "text": "existence,",
+          "start": 949.14,
+          "end": 949.6
+        },
+        {
+          "text": "committing",
+          "start": 949.75,
+          "end": 950.2
+        },
+        {
+          "text": "to",
+          "start": 950.2,
+          "end": 950.42
+        },
+        {
+          "text": "buy",
+          "start": 950.42,
+          "end": 950.57
+        },
+        {
+          "text": "hundreds",
+          "start": 950.57,
+          "end": 951.02
+        },
+        {
+          "text": "of",
+          "start": 951.16,
+          "end": 951.31
+        },
+        {
+          "text": "thousands",
+          "start": 951.57,
+          "end": 952
+        },
+        {
+          "text": "of",
+          "start": 952,
+          "end": 952.15
+        }
+      ]
+    },
+    {
+      "id": "221",
+      "text": "tons of a material from a factory that did not yet exist.",
+      "start": 952.15,
+      "end": 955.84,
+      "durationSeconds": 3.69,
+      "words": [
+        {
+          "text": "tons",
+          "start": 952.15,
+          "end": 952.45
+        },
+        {
+          "text": "of",
+          "start": 952.45,
+          "end": 952.6
+        },
+        {
+          "text": "a",
+          "start": 952.6,
+          "end": 952.66
+        },
+        {
+          "text": "material",
+          "start": 952.66,
+          "end": 953.04
+        },
+        {
+          "text": "from",
+          "start": 953.41,
+          "end": 953.56
+        },
+        {
+          "text": "a",
+          "start": 953.58,
+          "end": 953.64
+        },
+        {
+          "text": "factory",
+          "start": 953.64,
+          "end": 953.9
+        },
+        {
+          "text": "that",
+          "start": 954.19,
+          "end": 954.47
+        },
+        {
+          "text": "did",
+          "start": 954.47,
+          "end": 954.69
+        },
+        {
+          "text": "not",
+          "start": 954.69,
+          "end": 954.79
+        },
+        {
+          "text": "yet",
+          "start": 955.05,
+          "end": 955.11
+        },
+        {
+          "text": "exist.",
+          "start": 955.16,
+          "end": 955.84
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,746 @@
+{
+  "bgm": null,
+  "voices": [
+    {
+      "frame": 1,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 1095.12,
+      "duration_s": 3.3,
+      "words": [
+        {
+          "text": "totaling",
+          "start": 0,
+          "end": 0.65
+        },
+        {
+          "text": "$3.7",
+          "start": 0.95,
+          "end": 1.94
+        },
+        {
+          "text": "billion.",
+          "start": 1.94,
+          "end": 3.12
+        }
+      ]
+    },
+    {
+      "frame": 2,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 1098.42,
+      "duration_s": 2.42,
+      "words": [
+        {
+          "text": "Sublime's",
+          "start": 0,
+          "end": 0.36
+        },
+        {
+          "text": "$87",
+          "start": 0.36,
+          "end": 0.64
+        },
+        {
+          "text": "million",
+          "start": 1.19,
+          "end": 1.2
+        },
+        {
+          "text": "award",
+          "start": 1.2,
+          "end": 1.5
+        },
+        {
+          "text": "was",
+          "start": 1.5,
+          "end": 1.68
+        },
+        {
+          "text": "one",
+          "start": 1.68,
+          "end": 1.86
+        },
+        {
+          "text": "of",
+          "start": 1.86,
+          "end": 1.89
+        },
+        {
+          "text": "them.",
+          "start": 1.99,
+          "end": 2.42
+        }
+      ]
+    },
+    {
+      "frame": 3,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 1100.84,
+      "duration_s": 6.05,
+      "words": [
+        {
+          "text": "The",
+          "start": 0,
+          "end": 0.22
+        },
+        {
+          "text": "department",
+          "start": 0.22,
+          "end": 0.61
+        },
+        {
+          "text": "stated",
+          "start": 0.61,
+          "end": 0.82
+        },
+        {
+          "text": "that",
+          "start": 0.82,
+          "end": 1.08
+        },
+        {
+          "text": "the",
+          "start": 1.08,
+          "end": 1.22
+        },
+        {
+          "text": "awards",
+          "start": 1.37,
+          "end": 1.5
+        },
+        {
+          "text": "in",
+          "start": 1.5,
+          "end": 1.59
+        },
+        {
+          "text": "question",
+          "start": 1.59,
+          "end": 1.97
+        },
+        {
+          "text": "had",
+          "start": 1.97,
+          "end": 2.06
+        },
+        {
+          "text": "been",
+          "start": 2.18,
+          "end": 2.29
+        },
+        {
+          "text": "approved",
+          "start": 2.33,
+          "end": 2.67
+        },
+        {
+          "text": "in",
+          "start": 2.67,
+          "end": 2.77
+        },
+        {
+          "text": "the",
+          "start": 2.77,
+          "end": 2.84
+        },
+        {
+          "text": "closing",
+          "start": 3.2,
+          "end": 3.24
+        },
+        {
+          "text": "period",
+          "start": 3.24,
+          "end": 3.52
+        },
+        {
+          "text": "of",
+          "start": 3.52,
+          "end": 3.68
+        },
+        {
+          "text": "the",
+          "start": 3.9,
+          "end": 3.91
+        },
+        {
+          "text": "previous",
+          "start": 3.91,
+          "end": 4.5
+        },
+        {
+          "text": "administration.",
+          "start": 5.05,
+          "end": 5.88
+        }
+      ]
+    },
+    {
+      "frame": 4,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 1106.89,
+      "duration_s": 3.87,
+      "words": [
+        {
+          "text": "Sublime",
+          "start": 0,
+          "end": 0.22
+        },
+        {
+          "text": "said",
+          "start": 0.3,
+          "end": 0.46
+        },
+        {
+          "text": "at",
+          "start": 0.46,
+          "end": 0.56
+        },
+        {
+          "text": "the",
+          "start": 0.56,
+          "end": 0.67
+        },
+        {
+          "text": "time",
+          "start": 0.73,
+          "end": 0.74
+        },
+        {
+          "text": "that",
+          "start": 0.74,
+          "end": 1.2
+        },
+        {
+          "text": "it",
+          "start": 1.2,
+          "end": 1.31
+        },
+        {
+          "text": "would",
+          "start": 1.31,
+          "end": 1.59
+        },
+        {
+          "text": "continue",
+          "start": 1.59,
+          "end": 2.05
+        },
+        {
+          "text": "and",
+          "start": 2.05,
+          "end": 2.22
+        },
+        {
+          "text": "would",
+          "start": 2.22,
+          "end": 2.5
+        },
+        {
+          "text": "seek",
+          "start": 2.5,
+          "end": 2.67
+        },
+        {
+          "text": "funding",
+          "start": 3.04,
+          "end": 3.13
+        },
+        {
+          "text": "elsewhere.",
+          "start": 3.21,
+          "end": 3.87
+        }
+      ]
+    },
+    {
+      "frame": 5,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 1110.76,
+      "duration_s": 5.4,
+      "words": [
+        {
+          "text": "It",
+          "start": 0,
+          "end": 0.22
+        },
+        {
+          "text": "publicly",
+          "start": 0.22,
+          "end": 0.53
+        },
+        {
+          "text": "argued",
+          "start": 0.53,
+          "end": 0.82
+        },
+        {
+          "text": "that",
+          "start": 0.83,
+          "end": 0.87
+        },
+        {
+          "text": "its",
+          "start": 1.05,
+          "end": 1.22
+        },
+        {
+          "text": "technology",
+          "start": 1.37,
+          "end": 1.75
+        },
+        {
+          "text": "served",
+          "start": 1.75,
+          "end": 2.05
+        },
+        {
+          "text": "stated",
+          "start": 2.05,
+          "end": 2.39
+        },
+        {
+          "text": "federal",
+          "start": 2.39,
+          "end": 2.76
+        },
+        {
+          "text": "priorities",
+          "start": 2.76,
+          "end": 3.29
+        },
+        {
+          "text": "directly,",
+          "start": 3.38,
+          "end": 3.72
+        },
+        {
+          "text": "onshoring",
+          "start": 3.98,
+          "end": 4.52
+        },
+        {
+          "text": "manufacturing,",
+          "start": 4.78,
+          "end": 5.4
+        }
+      ]
+    },
+    {
+      "frame": 6,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 1116.16,
+      "duration_s": 6.55,
+      "words": [
+        {
+          "text": "adding",
+          "start": 0,
+          "end": 0.03
+        },
+        {
+          "text": "American",
+          "start": 0.53,
+          "end": 0.78
+        },
+        {
+          "text": "jobs,",
+          "start": 0.78,
+          "end": 1.11
+        },
+        {
+          "text": "supporting",
+          "start": 1.11,
+          "end": 1.64
+        },
+        {
+          "text": "critical",
+          "start": 1.67,
+          "end": 2
+        },
+        {
+          "text": "minerals",
+          "start": 2.37,
+          "end": 2.57
+        },
+        {
+          "text": "production,",
+          "start": 2.57,
+          "end": 3.24
+        },
+        {
+          "text": "and",
+          "start": 3.24,
+          "end": 3.4
+        },
+        {
+          "text": "reducing",
+          "start": 3.4,
+          "end": 3.74
+        },
+        {
+          "text": "dependence",
+          "start": 4.12,
+          "end": 4.4
+        },
+        {
+          "text": "on",
+          "start": 4.4,
+          "end": 4.5
+        },
+        {
+          "text": "a",
+          "start": 4.5,
+          "end": 4.55
+        },
+        {
+          "text": "building",
+          "start": 4.55,
+          "end": 4.74
+        },
+        {
+          "text": "material",
+          "start": 5.27,
+          "end": 5.35
+        },
+        {
+          "text": "the",
+          "start": 5.35,
+          "end": 5.5
+        },
+        {
+          "text": "United",
+          "start": 5.5,
+          "end": 5.8
+        },
+        {
+          "text": "States",
+          "start": 5.8,
+          "end": 6.1
+        },
+        {
+          "text": "currently",
+          "start": 6.1,
+          "end": 6.55
+        }
+      ]
+    },
+    {
+      "frame": 7,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 1122.71,
+      "duration_s": 3.05,
+      "words": [
+        {
+          "text": "imports",
+          "start": 0,
+          "end": 0.19
+        },
+        {
+          "text": "by",
+          "start": 0.19,
+          "end": 0.56
+        },
+        {
+          "text": "the",
+          "start": 0.56,
+          "end": 0.6
+        },
+        {
+          "text": "tens",
+          "start": 0.6,
+          "end": 0.8
+        },
+        {
+          "text": "of",
+          "start": 0.8,
+          "end": 0.9
+        },
+        {
+          "text": "millions",
+          "start": 0.9,
+          "end": 1.35
+        },
+        {
+          "text": "of",
+          "start": 1.57,
+          "end": 1.72
+        },
+        {
+          "text": "tons.",
+          "start": 1.72,
+          "end": 3.05
+        }
+      ]
+    },
+    {
+      "frame": 8,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 1125.76,
+      "duration_s": 2.87,
+      "words": [
+        {
+          "text": "The",
+          "start": 0,
+          "end": 0.22
+        },
+        {
+          "text": "grant",
+          "start": 0.22,
+          "end": 0.5
+        },
+        {
+          "text": "was",
+          "start": 0.5,
+          "end": 0.69
+        },
+        {
+          "text": "going",
+          "start": 0.69,
+          "end": 0.84
+        },
+        {
+          "text": "to",
+          "start": 1,
+          "end": 1.11
+        },
+        {
+          "text": "fund",
+          "start": 1.11,
+          "end": 1.38
+        },
+        {
+          "text": "50%",
+          "start": 1.38,
+          "end": 1.81
+        },
+        {
+          "text": "of",
+          "start": 1.81,
+          "end": 1.93
+        },
+        {
+          "text": "the",
+          "start": 1.93,
+          "end": 2.06
+        },
+        {
+          "text": "Holyoke",
+          "start": 2.18,
+          "end": 2.56
+        },
+        {
+          "text": "plant.",
+          "start": 2.56,
+          "end": 2.87
+        }
+      ]
+    },
+    {
+      "frame": 9,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 1128.63,
+      "duration_s": 6.69,
+      "words": [
+        {
+          "text": "On",
+          "start": 0,
+          "end": 0.47
+        },
+        {
+          "text": "December",
+          "start": 0.47,
+          "end": 0.78
+        },
+        {
+          "text": "4,",
+          "start": 0.78,
+          "end": 1.04
+        },
+        {
+          "text": "2025,",
+          "start": 1.04,
+          "end": 1.79
+        },
+        {
+          "text": "Sublime",
+          "start": 1.79,
+          "end": 2.16
+        },
+        {
+          "text": "announced",
+          "start": 2.16,
+          "end": 2.64
+        },
+        {
+          "text": "it",
+          "start": 2.64,
+          "end": 2.73
+        },
+        {
+          "text": "was",
+          "start": 2.74,
+          "end": 2.9
+        },
+        {
+          "text": "pausing",
+          "start": 2.9,
+          "end": 3.1
+        },
+        {
+          "text": "work",
+          "start": 3.45,
+          "end": 3.48
+        },
+        {
+          "text": "on",
+          "start": 3.48,
+          "end": 3.53
+        },
+        {
+          "text": "Holyoke",
+          "start": 3.63,
+          "end": 3.94
+        },
+        {
+          "text": "and",
+          "start": 3.94,
+          "end": 3.96
+        },
+        {
+          "text": "cutting",
+          "start": 4.24,
+          "end": 4.49
+        },
+        {
+          "text": "10%",
+          "start": 4.49,
+          "end": 5.24
+        },
+        {
+          "text": "of",
+          "start": 5.24,
+          "end": 5.47
+        },
+        {
+          "text": "its",
+          "start": 5.47,
+          "end": 5.64
+        },
+        {
+          "text": "workforce.",
+          "start": 5.72,
+          "end": 6.69
+        }
+      ]
+    },
+    {
+      "frame": 10,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 1135.32,
+      "duration_s": 5.24,
+      "words": [
+        {
+          "text": "The",
+          "start": 0,
+          "end": 0.22
+        },
+        {
+          "text": "company",
+          "start": 0.22,
+          "end": 0.39
+        },
+        {
+          "text": "said",
+          "start": 0.47,
+          "end": 0.66
+        },
+        {
+          "text": "the",
+          "start": 0.66,
+          "end": 0.8
+        },
+        {
+          "text": "loss",
+          "start": 0.8,
+          "end": 0.87
+        },
+        {
+          "text": "of",
+          "start": 0.97,
+          "end": 1.08
+        },
+        {
+          "text": "the",
+          "start": 1.08,
+          "end": 1.22
+        },
+        {
+          "text": "award",
+          "start": 1.37,
+          "end": 1.45
+        },
+        {
+          "text": "had",
+          "start": 1.45,
+          "end": 1.59
+        },
+        {
+          "text": "created",
+          "start": 1.59,
+          "end": 1.92
+        },
+        {
+          "text": "real",
+          "start": 1.92,
+          "end": 2.06
+        },
+        {
+          "text": "difficulty",
+          "start": 2.18,
+          "end": 2.58
+        },
+        {
+          "text": "in",
+          "start": 2.58,
+          "end": 2.67
+        },
+        {
+          "text": "assembling",
+          "start": 2.67,
+          "end": 2.84
+        },
+        {
+          "text": "the",
+          "start": 3.21,
+          "end": 3.36
+        },
+        {
+          "text": "rest",
+          "start": 3.58,
+          "end": 3.67
+        },
+        {
+          "text": "of",
+          "start": 3.67,
+          "end": 3.72
+        },
+        {
+          "text": "the",
+          "start": 3.83,
+          "end": 4.05
+        },
+        {
+          "text": "capital",
+          "start": 4.05,
+          "end": 4.2
+        },
+        {
+          "text": "stack.",
+          "start": 4.73,
+          "end": 5.24
+        }
+      ]
+    }
+  ],
+  "sfx": []
+}

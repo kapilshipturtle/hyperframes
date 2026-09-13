@@ -1,0 +1,889 @@
+{
+  "beats": [
+    {
+      "id": "76",
+      "text": "And it needs a pipeline and a permanent storage site that most plants simply do not have next door.",
+      "start": 299.64,
+      "end": 304.54,
+      "durationSeconds": 4.9,
+      "words": [
+        {
+          "text": "And",
+          "start": 299.64,
+          "end": 299.86
+        },
+        {
+          "text": "it",
+          "start": 299.86,
+          "end": 299.9
+        },
+        {
+          "text": "needs",
+          "start": 299.9,
+          "end": 300.16
+        },
+        {
+          "text": "a",
+          "start": 300.16,
+          "end": 300.21
+        },
+        {
+          "text": "pipeline",
+          "start": 300.21,
+          "end": 300.46
+        },
+        {
+          "text": "and",
+          "start": 300.61,
+          "end": 300.79
+        },
+        {
+          "text": "a",
+          "start": 300.79,
+          "end": 300.83
+        },
+        {
+          "text": "permanent",
+          "start": 301.01,
+          "end": 301.32
+        },
+        {
+          "text": "storage",
+          "start": 301.32,
+          "end": 301.69
+        },
+        {
+          "text": "site",
+          "start": 301.69,
+          "end": 301.9
+        },
+        {
+          "text": "that",
+          "start": 301.9,
+          "end": 302.1
+        },
+        {
+          "text": "most",
+          "start": 302.11,
+          "end": 302.32
+        },
+        {
+          "text": "plants",
+          "start": 302.32,
+          "end": 302.48
+        },
+        {
+          "text": "simply",
+          "start": 302.85,
+          "end": 302.96
+        },
+        {
+          "text": "do",
+          "start": 303.02,
+          "end": 303.06
+        },
+        {
+          "text": "not",
+          "start": 303.06,
+          "end": 303.22
+        },
+        {
+          "text": "have",
+          "start": 303.22,
+          "end": 303.34
+        },
+        {
+          "text": "next",
+          "start": 303.63,
+          "end": 303.72
+        },
+        {
+          "text": "door.",
+          "start": 303.94,
+          "end": 304.54
+        }
+      ]
+    },
+    {
+      "id": "77",
+      "text": "So sit with the shape of this for a moment.",
+      "start": 304.54,
+      "end": 306.77,
+      "durationSeconds": 2.23,
+      "words": [
+        {
+          "text": "So",
+          "start": 304.54,
+          "end": 304.94
+        },
+        {
+          "text": "sit",
+          "start": 304.94,
+          "end": 305
+        },
+        {
+          "text": "with",
+          "start": 305,
+          "end": 305.23
+        },
+        {
+          "text": "the",
+          "start": 305.23,
+          "end": 305.39
+        },
+        {
+          "text": "shape",
+          "start": 305.39,
+          "end": 305.56
+        },
+        {
+          "text": "of",
+          "start": 305.68,
+          "end": 305.8
+        },
+        {
+          "text": "this",
+          "start": 305.8,
+          "end": 306.09
+        },
+        {
+          "text": "for",
+          "start": 306.09,
+          "end": 306.2
+        },
+        {
+          "text": "a",
+          "start": 306.2,
+          "end": 306.25
+        },
+        {
+          "text": "moment.",
+          "start": 306.25,
+          "end": 306.77
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "text": "The most used manufactured material on Earth, made by a process whose emissions are written into the molecular structure of the input.",
+      "start": 306.77,
+      "end": 313.49,
+      "durationSeconds": 6.72,
+      "words": [
+        {
+          "text": "The",
+          "start": 306.77,
+          "end": 307.06
+        },
+        {
+          "text": "most",
+          "start": 307.06,
+          "end": 307.21
+        },
+        {
+          "text": "used",
+          "start": 307.31,
+          "end": 307.42
+        },
+        {
+          "text": "manufactured",
+          "start": 307.42,
+          "end": 307.68
+        },
+        {
+          "text": "material",
+          "start": 308.21,
+          "end": 308.49
+        },
+        {
+          "text": "on",
+          "start": 308.49,
+          "end": 308.59
+        },
+        {
+          "text": "Earth,",
+          "start": 308.59,
+          "end": 308.91
+        },
+        {
+          "text": "made",
+          "start": 309.02,
+          "end": 309.13
+        },
+        {
+          "text": "by",
+          "start": 309.17,
+          "end": 309.26
+        },
+        {
+          "text": "a",
+          "start": 309.26,
+          "end": 309.3
+        },
+        {
+          "text": "process",
+          "start": 309.31,
+          "end": 309.66
+        },
+        {
+          "text": "whose",
+          "start": 309.67,
+          "end": 309.71
+        },
+        {
+          "text": "emissions",
+          "start": 310.05,
+          "end": 310.42
+        },
+        {
+          "text": "are",
+          "start": 310.42,
+          "end": 310.54
+        },
+        {
+          "text": "written",
+          "start": 310.83,
+          "end": 311.04
+        },
+        {
+          "text": "into",
+          "start": 311.26,
+          "end": 311.29
+        },
+        {
+          "text": "the",
+          "start": 311.29,
+          "end": 311.4
+        },
+        {
+          "text": "molecular",
+          "start": 311.51,
+          "end": 311.86
+        },
+        {
+          "text": "structure",
+          "start": 312.41,
+          "end": 312.62
+        },
+        {
+          "text": "of",
+          "start": 312.62,
+          "end": 312.74
+        },
+        {
+          "text": "the",
+          "start": 312.74,
+          "end": 312.93
+        },
+        {
+          "text": "input.",
+          "start": 312.93,
+          "end": 313.48
+        }
+      ]
+    },
+    {
+      "id": "79",
+      "text": "A product so cheap that shipping at any real distance costs more than making it.",
+      "start": 313.49,
+      "end": 317.6,
+      "durationSeconds": 4.11,
+      "words": [
+        {
+          "text": "A",
+          "start": 313.49,
+          "end": 313.54
+        },
+        {
+          "text": "product",
+          "start": 313.7,
+          "end": 313.96
+        },
+        {
+          "text": "so",
+          "start": 313.96,
+          "end": 314.08
+        },
+        {
+          "text": "cheap",
+          "start": 314.08,
+          "end": 314.3
+        },
+        {
+          "text": "that",
+          "start": 314.38,
+          "end": 314.39
+        },
+        {
+          "text": "shipping",
+          "start": 314.85,
+          "end": 315.1
+        },
+        {
+          "text": "at",
+          "start": 315.1,
+          "end": 315.21
+        },
+        {
+          "text": "any",
+          "start": 315.22,
+          "end": 315.4
+        },
+        {
+          "text": "real",
+          "start": 315.4,
+          "end": 315.54
+        },
+        {
+          "text": "distance",
+          "start": 315.65,
+          "end": 316.12
+        },
+        {
+          "text": "costs",
+          "start": 316.12,
+          "end": 316.32
+        },
+        {
+          "text": "more",
+          "start": 316.32,
+          "end": 316.69
+        },
+        {
+          "text": "than",
+          "start": 316.69,
+          "end": 316.9
+        },
+        {
+          "text": "making",
+          "start": 316.9,
+          "end": 317.18
+        },
+        {
+          "text": "it.",
+          "start": 317.38,
+          "end": 317.6
+        }
+      ]
+    },
+    {
+      "id": "80",
+      "text": "An industry with thousands of existing plants, each one a billion dollar asset, with decades of life left.",
+      "start": 317.6,
+      "end": 324.04,
+      "durationSeconds": 6.44,
+      "words": [
+        {
+          "text": "An",
+          "start": 317.6,
+          "end": 317.82
+        },
+        {
+          "text": "industry",
+          "start": 317.82,
+          "end": 318.2
+        },
+        {
+          "text": "with",
+          "start": 318.2,
+          "end": 318.41
+        },
+        {
+          "text": "thousands",
+          "start": 318.97,
+          "end": 318.98
+        },
+        {
+          "text": "of",
+          "start": 318.98,
+          "end": 319.1
+        },
+        {
+          "text": "existing",
+          "start": 319.1,
+          "end": 319.58
+        },
+        {
+          "text": "plants,",
+          "start": 319.58,
+          "end": 320.06
+        },
+        {
+          "text": "each",
+          "start": 320.06,
+          "end": 320.3
+        },
+        {
+          "text": "one",
+          "start": 320.3,
+          "end": 320.44
+        },
+        {
+          "text": "a",
+          "start": 320.44,
+          "end": 320.81
+        },
+        {
+          "text": "billion",
+          "start": 320.81,
+          "end": 320.96
+        },
+        {
+          "text": "dollar",
+          "start": 320.98,
+          "end": 321.3
+        },
+        {
+          "text": "asset,",
+          "start": 321.59,
+          "end": 321.74
+        },
+        {
+          "text": "with",
+          "start": 321.74,
+          "end": 321.98
+        },
+        {
+          "text": "decades",
+          "start": 321.98,
+          "end": 322.18
+        },
+        {
+          "text": "of",
+          "start": 322.66,
+          "end": 322.68
+        },
+        {
+          "text": "life",
+          "start": 322.68,
+          "end": 323.17
+        },
+        {
+          "text": "left.",
+          "start": 323.17,
+          "end": 324.04
+        }
+      ]
+    },
+    {
+      "id": "81",
+      "text": "And one more pressure, specific to the United States.",
+      "start": 324.04,
+      "end": 327.26,
+      "durationSeconds": 3.22,
+      "words": [
+        {
+          "text": "And",
+          "start": 324.04,
+          "end": 324.26
+        },
+        {
+          "text": "one",
+          "start": 324.26,
+          "end": 324.4
+        },
+        {
+          "text": "more",
+          "start": 324.4,
+          "end": 324.65
+        },
+        {
+          "text": "pressure,",
+          "start": 324.65,
+          "end": 325.26
+        },
+        {
+          "text": "specific",
+          "start": 325.41,
+          "end": 325.75
+        },
+        {
+          "text": "to",
+          "start": 325.75,
+          "end": 325.87
+        },
+        {
+          "text": "the",
+          "start": 325.87,
+          "end": 326.05
+        },
+        {
+          "text": "United",
+          "start": 326.05,
+          "end": 326.42
+        },
+        {
+          "text": "States.",
+          "start": 326.42,
+          "end": 326.89
+        }
+      ]
+    },
+    {
+      "id": "82",
+      "text": "America does not make enough of its own. The country imports tens of millions of tons of cement a year.",
+      "start": 327.26,
+      "end": 332.34,
+      "durationSeconds": 5.08,
+      "words": [
+        {
+          "text": "America",
+          "start": 327.26,
+          "end": 327.39
+        },
+        {
+          "text": "does",
+          "start": 327.39,
+          "end": 327.59
+        },
+        {
+          "text": "not",
+          "start": 327.59,
+          "end": 327.73
+        },
+        {
+          "text": "make",
+          "start": 327.73,
+          "end": 327.88
+        },
+        {
+          "text": "enough",
+          "start": 327.94,
+          "end": 327.95
+        },
+        {
+          "text": "of",
+          "start": 327.95,
+          "end": 328.41
+        },
+        {
+          "text": "its",
+          "start": 328.41,
+          "end": 328.49
+        },
+        {
+          "text": "own.",
+          "start": 328.49,
+          "end": 328.84
+        },
+        {
+          "text": "The",
+          "start": 328.84,
+          "end": 329.06
+        },
+        {
+          "text": "country",
+          "start": 329.06,
+          "end": 329.45
+        },
+        {
+          "text": "imports",
+          "start": 329.45,
+          "end": 329.66
+        },
+        {
+          "text": "tens",
+          "start": 329.66,
+          "end": 330.21
+        },
+        {
+          "text": "of",
+          "start": 330.21,
+          "end": 330.24
+        },
+        {
+          "text": "millions",
+          "start": 330.24,
+          "end": 330.73
+        },
+        {
+          "text": "of",
+          "start": 330.73,
+          "end": 330.85
+        },
+        {
+          "text": "tons",
+          "start": 330.85,
+          "end": 331.09
+        },
+        {
+          "text": "of",
+          "start": 331.09,
+          "end": 331.21
+        },
+        {
+          "text": "cement",
+          "start": 331.21,
+          "end": 331.58
+        },
+        {
+          "text": "a",
+          "start": 331.58,
+          "end": 331.64
+        },
+        {
+          "text": "year.",
+          "start": 331.64,
+          "end": 332.12
+        }
+      ]
+    },
+    {
+      "id": "83",
+      "text": "That is not a climate statistic. That is a supply chain statistic.",
+      "start": 332.34,
+      "end": 335.8,
+      "durationSeconds": 3.46,
+      "words": [
+        {
+          "text": "That",
+          "start": 332.34,
+          "end": 332.36
+        },
+        {
+          "text": "is",
+          "start": 332.36,
+          "end": 332.48
+        },
+        {
+          "text": "not",
+          "start": 332.59,
+          "end": 332.66
+        },
+        {
+          "text": "a",
+          "start": 332.66,
+          "end": 332.72
+        },
+        {
+          "text": "climate",
+          "start": 332.72,
+          "end": 332.94
+        },
+        {
+          "text": "statistic.",
+          "start": 333.49,
+          "end": 333.92
+        },
+        {
+          "text": "That",
+          "start": 334.14,
+          "end": 334.17
+        },
+        {
+          "text": "is",
+          "start": 334.17,
+          "end": 334.28
+        },
+        {
+          "text": "a",
+          "start": 334.28,
+          "end": 334.39
+        },
+        {
+          "text": "supply",
+          "start": 334.39,
+          "end": 334.72
+        },
+        {
+          "text": "chain",
+          "start": 334.72,
+          "end": 334.79
+        },
+        {
+          "text": "statistic.",
+          "start": 335.29,
+          "end": 335.8
+        }
+      ]
+    },
+    {
+      "id": "84",
+      "text": "And it is the reason this story has an audience across the political spectrum.",
+      "start": 335.8,
+      "end": 339.8,
+      "durationSeconds": 4,
+      "words": [
+        {
+          "text": "And",
+          "start": 335.8,
+          "end": 336.02
+        },
+        {
+          "text": "it",
+          "start": 336.02,
+          "end": 336.08
+        },
+        {
+          "text": "is",
+          "start": 336.08,
+          "end": 336.16
+        },
+        {
+          "text": "the",
+          "start": 336.27,
+          "end": 336.36
+        },
+        {
+          "text": "reason",
+          "start": 336.36,
+          "end": 336.62
+        },
+        {
+          "text": "this",
+          "start": 336.7,
+          "end": 336.71
+        },
+        {
+          "text": "story",
+          "start": 337.17,
+          "end": 337.23
+        },
+        {
+          "text": "has",
+          "start": 337.23,
+          "end": 337.4
+        },
+        {
+          "text": "an",
+          "start": 337.4,
+          "end": 337.51
+        },
+        {
+          "text": "audience",
+          "start": 337.51,
+          "end": 337.85
+        },
+        {
+          "text": "across",
+          "start": 337.98,
+          "end": 338.32
+        },
+        {
+          "text": "the",
+          "start": 338.33,
+          "end": 338.5
+        },
+        {
+          "text": "political",
+          "start": 338.5,
+          "end": 339.03
+        },
+        {
+          "text": "spectrum.",
+          "start": 339.03,
+          "end": 339.8
+        }
+      ]
+    },
+    {
+      "id": "85",
+      "text": "For 60 years, the process emission did not budge, not because nobody tried, because the problem was in the rock,",
+      "start": 339.8,
+      "end": 346.06,
+      "durationSeconds": 6.26,
+      "words": [
+        {
+          "text": "For",
+          "start": 339.8,
+          "end": 340.02
+        },
+        {
+          "text": "60",
+          "start": 340.02,
+          "end": 340.34
+        },
+        {
+          "text": "years,",
+          "start": 340.34,
+          "end": 340.67
+        },
+        {
+          "text": "the",
+          "start": 340.75,
+          "end": 340.9
+        },
+        {
+          "text": "process",
+          "start": 341.17,
+          "end": 341.36
+        },
+        {
+          "text": "emission",
+          "start": 341.36,
+          "end": 341.84
+        },
+        {
+          "text": "did",
+          "start": 341.84,
+          "end": 342.02
+        },
+        {
+          "text": "not",
+          "start": 342.02,
+          "end": 342.2
+        },
+        {
+          "text": "budge,",
+          "start": 342.2,
+          "end": 342.62
+        },
+        {
+          "text": "not",
+          "start": 342.62,
+          "end": 342.67
+        },
+        {
+          "text": "because",
+          "start": 343.01,
+          "end": 343.22
+        },
+        {
+          "text": "nobody",
+          "start": 343.22,
+          "end": 343.5
+        },
+        {
+          "text": "tried,",
+          "start": 343.79,
+          "end": 344
+        },
+        {
+          "text": "because",
+          "start": 344,
+          "end": 344.38
+        },
+        {
+          "text": "the",
+          "start": 344.41,
+          "end": 344.42
+        },
+        {
+          "text": "problem",
+          "start": 344.86,
+          "end": 345.12
+        },
+        {
+          "text": "was",
+          "start": 345.12,
+          "end": 345.31
+        },
+        {
+          "text": "in",
+          "start": 345.31,
+          "end": 345.46
+        },
+        {
+          "text": "the",
+          "start": 345.46,
+          "end": 345.51
+        },
+        {
+          "text": "rock,",
+          "start": 345.93,
+          "end": 346.06
+        }
+      ]
+    }
+  ]
+}

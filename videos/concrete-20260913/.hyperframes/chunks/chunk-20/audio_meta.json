@@ -1,0 +1,751 @@
+{
+  "bgm": null,
+  "voices": [
+    {
+      "frame": 1,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 909.85,
+      "duration_s": 2.09,
+      "words": [
+        {
+          "text": "it",
+          "start": 0,
+          "end": 0.14
+        },
+        {
+          "text": "is",
+          "start": 0.14,
+          "end": 0.32
+        },
+        {
+          "text": "Holsim",
+          "start": 0.32,
+          "end": 0.71
+        },
+        {
+          "text": "and",
+          "start": 0.71,
+          "end": 0.92
+        },
+        {
+          "text": "C.R.H.",
+          "start": 0.92,
+          "end": 1.79
+        }
+      ]
+    },
+    {
+      "frame": 2,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 911.94,
+      "duration_s": 3.36,
+      "words": [
+        {
+          "text": "Instead,",
+          "start": 0,
+          "end": 0.45
+        },
+        {
+          "text": "they",
+          "start": 0.45,
+          "end": 0.62
+        },
+        {
+          "text": "wrote",
+          "start": 0.62,
+          "end": 1.16
+        },
+        {
+          "text": "checks",
+          "start": 1.16,
+          "end": 1.59
+        },
+        {
+          "text": "and",
+          "start": 1.59,
+          "end": 1.81
+        },
+        {
+          "text": "reserve",
+          "start": 1.81,
+          "end": 2.34
+        },
+        {
+          "text": "tonnage.",
+          "start": 2.34,
+          "end": 3.14
+        }
+      ]
+    },
+    {
+      "frame": 3,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 915.3,
+      "duration_s": 6.48,
+      "words": [
+        {
+          "text": "That",
+          "start": 0,
+          "end": 0.04
+        },
+        {
+          "text": "is",
+          "start": 0.04,
+          "end": 0.14
+        },
+        {
+          "text": "not",
+          "start": 0.25,
+          "end": 0.36
+        },
+        {
+          "text": "a",
+          "start": 0.36,
+          "end": 0.42
+        },
+        {
+          "text": "press",
+          "start": 0.42,
+          "end": 0.6
+        },
+        {
+          "text": "release.",
+          "start": 1.15,
+          "end": 1.42
+        },
+        {
+          "text": "That",
+          "start": 1.42,
+          "end": 1.64
+        },
+        {
+          "text": "is",
+          "start": 1.64,
+          "end": 1.73
+        },
+        {
+          "text": "two",
+          "start": 1.73,
+          "end": 1.78
+        },
+        {
+          "text": "incumbents",
+          "start": 1.89,
+          "end": 2.26
+        },
+        {
+          "text": "deciding",
+          "start": 2.79,
+          "end": 2.81
+        },
+        {
+          "text": "that",
+          "start": 2.81,
+          "end": 3.02
+        },
+        {
+          "text": "being",
+          "start": 3.02,
+          "end": 3.28
+        },
+        {
+          "text": "early",
+          "start": 3.28,
+          "end": 3.47
+        },
+        {
+          "text": "to",
+          "start": 3.6,
+          "end": 3.64
+        },
+        {
+          "text": "the",
+          "start": 3.64,
+          "end": 3.79
+        },
+        {
+          "text": "thing",
+          "start": 3.79,
+          "end": 4.05
+        },
+        {
+          "text": "that",
+          "start": 4.05,
+          "end": 4.24
+        },
+        {
+          "text": "threatens",
+          "start": 4.26,
+          "end": 4.73
+        },
+        {
+          "text": "them",
+          "start": 4.8,
+          "end": 4.94
+        },
+        {
+          "text": "is",
+          "start": 4.94,
+          "end": 5.1
+        },
+        {
+          "text": "cheaper",
+          "start": 5.32,
+          "end": 5.71
+        },
+        {
+          "text": "than",
+          "start": 5.71,
+          "end": 5.92
+        },
+        {
+          "text": "being",
+          "start": 6.47,
+          "end": 6.48
+        }
+      ]
+    },
+    {
+      "frame": 4,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 921.78,
+      "duration_s": 2.34,
+      "words": [
+        {
+          "text": "late",
+          "start": 0,
+          "end": 0.34
+        },
+        {
+          "text": "to",
+          "start": 0.34,
+          "end": 0.51
+        },
+        {
+          "text": "it.",
+          "start": 0.51,
+          "end": 0.98
+        },
+        {
+          "text": "Then",
+          "start": 1.2,
+          "end": 1.22
+        },
+        {
+          "text": "the",
+          "start": 1.22,
+          "end": 1.37
+        },
+        {
+          "text": "customer",
+          "start": 1.45,
+          "end": 1.8
+        },
+        {
+          "text": "side.",
+          "start": 1.88,
+          "end": 2.34
+        }
+      ]
+    },
+    {
+      "frame": 5,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 924.12,
+      "duration_s": 6.86,
+      "words": [
+        {
+          "text": "On",
+          "start": 0,
+          "end": 0.22
+        },
+        {
+          "text": "May",
+          "start": 0.22,
+          "end": 0.37
+        },
+        {
+          "text": "22,",
+          "start": 0.39,
+          "end": 0.87
+        },
+        {
+          "text": "2025,",
+          "start": 1.37,
+          "end": 1.98
+        },
+        {
+          "text": "Microsoft",
+          "start": 1.98,
+          "end": 2.65
+        },
+        {
+          "text": "signed",
+          "start": 2.65,
+          "end": 2.84
+        },
+        {
+          "text": "a",
+          "start": 2.84,
+          "end": 3.21
+        },
+        {
+          "text": "binding",
+          "start": 3.21,
+          "end": 3.68
+        },
+        {
+          "text": "agreement",
+          "start": 3.68,
+          "end": 4.35
+        },
+        {
+          "text": "to",
+          "start": 4.35,
+          "end": 4.5
+        },
+        {
+          "text": "purchase",
+          "start": 4.5,
+          "end": 5.09
+        },
+        {
+          "text": "up",
+          "start": 5.09,
+          "end": 5.24
+        },
+        {
+          "text": "to",
+          "start": 5.24,
+          "end": 5.33
+        },
+        {
+          "text": "622,500",
+          "start": 5.4,
+          "end": 6.86
+        }
+      ]
+    },
+    {
+      "frame": 6,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 930.98,
+      "duration_s": 6.45,
+      "words": [
+        {
+          "text": "metric",
+          "start": 0,
+          "end": 0.54
+        },
+        {
+          "text": "tons",
+          "start": 0.76,
+          "end": 0.82
+        },
+        {
+          "text": "of",
+          "start": 0.82,
+          "end": 0.9
+        },
+        {
+          "text": "sublime",
+          "start": 1.01,
+          "end": 1.36
+        },
+        {
+          "text": "cement",
+          "start": 1.36,
+          "end": 1.91
+        },
+        {
+          "text": "over",
+          "start": 1.91,
+          "end": 2.15
+        },
+        {
+          "text": "six",
+          "start": 2.15,
+          "end": 2.36
+        },
+        {
+          "text": "to",
+          "start": 2.36,
+          "end": 2.5
+        },
+        {
+          "text": "nine",
+          "start": 2.5,
+          "end": 2.78
+        },
+        {
+          "text": "years,",
+          "start": 2.78,
+          "end": 3.26
+        },
+        {
+          "text": "an",
+          "start": 3.26,
+          "end": 3.38
+        },
+        {
+          "text": "agreement",
+          "start": 3.75,
+          "end": 4.03
+        },
+        {
+          "text": "tied",
+          "start": 4.03,
+          "end": 4.24
+        },
+        {
+          "text": "to",
+          "start": 4.24,
+          "end": 4.53
+        },
+        {
+          "text": "the",
+          "start": 4.53,
+          "end": 4.66
+        },
+        {
+          "text": "output",
+          "start": 4.66,
+          "end": 5.06
+        },
+        {
+          "text": "of",
+          "start": 5.06,
+          "end": 5.13
+        },
+        {
+          "text": "the",
+          "start": 5.39,
+          "end": 5.43
+        },
+        {
+          "text": "first",
+          "start": 5.43,
+          "end": 5.8
+        },
+        {
+          "text": "commercial",
+          "start": 6.02,
+          "end": 6.45
+        }
+      ]
+    },
+    {
+      "frame": 7,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 937.43,
+      "duration_s": 3.41,
+      "words": [
+        {
+          "text": "plant,",
+          "start": 0,
+          "end": 0.44
+        },
+        {
+          "text": "aimed",
+          "start": 0.72,
+          "end": 0.77
+        },
+        {
+          "text": "substantially",
+          "start": 0.77,
+          "end": 1.62
+        },
+        {
+          "text": "at",
+          "start": 1.62,
+          "end": 1.75
+        },
+        {
+          "text": "data",
+          "start": 1.75,
+          "end": 2.01
+        },
+        {
+          "text": "center",
+          "start": 2.01,
+          "end": 2.19
+        },
+        {
+          "text": "construction.",
+          "start": 2.56,
+          "end": 3.41
+        }
+      ]
+    },
+    {
+      "frame": 8,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 940.84,
+      "duration_s": 4.92,
+      "words": [
+        {
+          "text": "Read",
+          "start": 0,
+          "end": 0.22
+        },
+        {
+          "text": "the",
+          "start": 0.22,
+          "end": 0.38
+        },
+        {
+          "text": "word",
+          "start": 0.47,
+          "end": 0.61
+        },
+        {
+          "text": "binding",
+          "start": 0.61,
+          "end": 0.82
+        },
+        {
+          "text": "again.",
+          "start": 1.28,
+          "end": 1.48
+        },
+        {
+          "text": "This",
+          "start": 1.7,
+          "end": 1.73
+        },
+        {
+          "text": "is",
+          "start": 1.73,
+          "end": 1.84
+        },
+        {
+          "text": "not",
+          "start": 1.95,
+          "end": 2.03
+        },
+        {
+          "text": "a",
+          "start": 2.03,
+          "end": 2.09
+        },
+        {
+          "text": "memorandum",
+          "start": 2.09,
+          "end": 2.32
+        },
+        {
+          "text": "of",
+          "start": 2.32,
+          "end": 2.85
+        },
+        {
+          "text": "understanding",
+          "start": 2.85,
+          "end": 3.54
+        },
+        {
+          "text": "or",
+          "start": 3.66,
+          "end": 3.76
+        },
+        {
+          "text": "a",
+          "start": 3.76,
+          "end": 3.82
+        },
+        {
+          "text": "letter",
+          "start": 3.82,
+          "end": 4.19
+        },
+        {
+          "text": "of",
+          "start": 4.19,
+          "end": 4.3
+        },
+        {
+          "text": "intent.",
+          "start": 4.31,
+          "end": 4.92
+        }
+      ]
+    },
+    {
+      "frame": 9,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 945.76,
+      "duration_s": 6.39,
+      "words": [
+        {
+          "text": "It",
+          "start": 0,
+          "end": 0.11
+        },
+        {
+          "text": "is",
+          "start": 0.11,
+          "end": 0.22
+        },
+        {
+          "text": "a",
+          "start": 0.22,
+          "end": 0.25
+        },
+        {
+          "text": "company",
+          "start": 0.25,
+          "end": 0.61
+        },
+        {
+          "text": "with",
+          "start": 0.61,
+          "end": 0.8
+        },
+        {
+          "text": "among",
+          "start": 0.8,
+          "end": 0.87
+        },
+        {
+          "text": "the",
+          "start": 1.05,
+          "end": 1.22
+        },
+        {
+          "text": "most",
+          "start": 1.37,
+          "end": 1.42
+        },
+        {
+          "text": "sophisticated",
+          "start": 1.42,
+          "end": 2.05
+        },
+        {
+          "text": "procurement",
+          "start": 2.18,
+          "end": 2.65
+        },
+        {
+          "text": "operations",
+          "start": 2.65,
+          "end": 2.84
+        },
+        {
+          "text": "in",
+          "start": 3.21,
+          "end": 3.28
+        },
+        {
+          "text": "existence,",
+          "start": 3.38,
+          "end": 3.84
+        },
+        {
+          "text": "committing",
+          "start": 3.99,
+          "end": 4.44
+        },
+        {
+          "text": "to",
+          "start": 4.44,
+          "end": 4.66
+        },
+        {
+          "text": "buy",
+          "start": 4.66,
+          "end": 4.81
+        },
+        {
+          "text": "hundreds",
+          "start": 4.81,
+          "end": 5.26
+        },
+        {
+          "text": "of",
+          "start": 5.4,
+          "end": 5.55
+        },
+        {
+          "text": "thousands",
+          "start": 5.81,
+          "end": 6.24
+        },
+        {
+          "text": "of",
+          "start": 6.24,
+          "end": 6.39
+        }
+      ]
+    },
+    {
+      "frame": 10,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 952.15,
+      "duration_s": 3.69,
+      "words": [
+        {
+          "text": "tons",
+          "start": 0,
+          "end": 0.3
+        },
+        {
+          "text": "of",
+          "start": 0.3,
+          "end": 0.45
+        },
+        {
+          "text": "a",
+          "start": 0.45,
+          "end": 0.51
+        },
+        {
+          "text": "material",
+          "start": 0.51,
+          "end": 0.89
+        },
+        {
+          "text": "from",
+          "start": 1.26,
+          "end": 1.41
+        },
+        {
+          "text": "a",
+          "start": 1.43,
+          "end": 1.49
+        },
+        {
+          "text": "factory",
+          "start": 1.49,
+          "end": 1.75
+        },
+        {
+          "text": "that",
+          "start": 2.04,
+          "end": 2.32
+        },
+        {
+          "text": "did",
+          "start": 2.32,
+          "end": 2.54
+        },
+        {
+          "text": "not",
+          "start": 2.54,
+          "end": 2.64
+        },
+        {
+          "text": "yet",
+          "start": 2.9,
+          "end": 2.96
+        },
+        {
+          "text": "exist.",
+          "start": 3.01,
+          "end": 3.69
+        }
+      ]
+    }
+  ],
+  "sfx": []
+}

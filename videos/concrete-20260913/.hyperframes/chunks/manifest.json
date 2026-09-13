@@ -1,0 +1,346 @@
+{
+  "totalChunks": 31,
+  "chunks": [
+    {
+      "index": 0,
+      "dirName": "chunk-00",
+      "originalBeatRange": [
+        "01",
+        "11"
+      ],
+      "frameCount": 11,
+      "sourceCount": 11,
+      "totalDurationSeconds": 46.16
+    },
+    {
+      "index": 1,
+      "dirName": "chunk-01",
+      "originalBeatRange": [
+        "12",
+        "22"
+      ],
+      "frameCount": 11,
+      "sourceCount": 11,
+      "totalDurationSeconds": 40.62
+    },
+    {
+      "index": 2,
+      "dirName": "chunk-02",
+      "originalBeatRange": [
+        "23",
+        "33"
+      ],
+      "frameCount": 11,
+      "sourceCount": 11,
+      "totalDurationSeconds": 48.08
+    },
+    {
+      "index": 3,
+      "dirName": "chunk-03",
+      "originalBeatRange": [
+        "34",
+        "43"
+      ],
+      "frameCount": 10,
+      "sourceCount": 10,
+      "totalDurationSeconds": 42.58
+    },
+    {
+      "index": 4,
+      "dirName": "chunk-04",
+      "originalBeatRange": [
+        "44",
+        "54"
+      ],
+      "frameCount": 11,
+      "sourceCount": 11,
+      "totalDurationSeconds": 43.28
+    },
+    {
+      "index": 5,
+      "dirName": "chunk-05",
+      "originalBeatRange": [
+        "55",
+        "64"
+      ],
+      "frameCount": 10,
+      "sourceCount": 10,
+      "totalDurationSeconds": 35.64
+    },
+    {
+      "index": 6,
+      "dirName": "chunk-06",
+      "originalBeatRange": [
+        "65",
+        "75"
+      ],
+      "frameCount": 11,
+      "sourceCount": 11,
+      "totalDurationSeconds": 43.06
+    },
+    {
+      "index": 7,
+      "dirName": "chunk-07",
+      "originalBeatRange": [
+        "76",
+        "85"
+      ],
+      "frameCount": 10,
+      "sourceCount": 10,
+      "totalDurationSeconds": 46.42
+    },
+    {
+      "index": 8,
+      "dirName": "chunk-08",
+      "originalBeatRange": [
+        "86",
+        "95"
+      ],
+      "frameCount": 10,
+      "sourceCount": 10,
+      "totalDurationSeconds": 36.74
+    },
+    {
+      "index": 9,
+      "dirName": "chunk-09",
+      "originalBeatRange": [
+        "96",
+        "105"
+      ],
+      "frameCount": 10,
+      "sourceCount": 10,
+      "totalDurationSeconds": 42
+    },
+    {
+      "index": 10,
+      "dirName": "chunk-10",
+      "originalBeatRange": [
+        "106",
+        "116"
+      ],
+      "frameCount": 11,
+      "sourceCount": 11,
+      "totalDurationSeconds": 48.46
+    },
+    {
+      "index": 11,
+      "dirName": "chunk-11",
+      "originalBeatRange": [
+        "117",
+        "126"
+      ],
+      "frameCount": 10,
+      "sourceCount": 10,
+      "totalDurationSeconds": 48.52
+    },
+    {
+      "index": 12,
+      "dirName": "chunk-12",
+      "originalBeatRange": [
+        "127",
+        "136"
+      ],
+      "frameCount": 10,
+      "sourceCount": 10,
+      "totalDurationSeconds": 43.92
+    },
+    {
+      "index": 13,
+      "dirName": "chunk-13",
+      "originalBeatRange": [
+        "137",
+        "147"
+      ],
+      "frameCount": 11,
+      "sourceCount": 11,
+      "totalDurationSeconds": 50.9
+    },
+    {
+      "index": 14,
+      "dirName": "chunk-14",
+      "originalBeatRange": [
+        "148",
+        "158"
+      ],
+      "frameCount": 11,
+      "sourceCount": 11,
+      "totalDurationSeconds": 50.56
+    },
+    {
+      "index": 15,
+      "dirName": "chunk-15",
+      "originalBeatRange": [
+        "159",
+        "168"
+      ],
+      "frameCount": 10,
+      "sourceCount": 10,
+      "totalDurationSeconds": 52.32
+    },
+    {
+      "index": 16,
+      "dirName": "chunk-16",
+      "originalBeatRange": [
+        "169",
+        "178"
+      ],
+      "frameCount": 10,
+      "sourceCount": 10,
+      "totalDurationSeconds": 47.42
+    },
+    {
+      "index": 17,
+      "dirName": "chunk-17",
+      "originalBeatRange": [
+        "179",
+        "188"
+      ],
+      "frameCount": 10,
+      "sourceCount": 10,
+      "totalDurationSeconds": 52.48
+    },
+    {
+      "index": 18,
+      "dirName": "chunk-18",
+      "originalBeatRange": [
+        "189",
+        "200"
+      ],
+      "frameCount": 12,
+      "sourceCount": 12,
+      "totalDurationSeconds": 50.41
+    },
+    {
+      "index": 19,
+      "dirName": "chunk-19",
+      "originalBeatRange": [
+        "201",
+        "211"
+      ],
+      "frameCount": 11,
+      "sourceCount": 11,
+      "totalDurationSeconds": 40.06
+    },
+    {
+      "index": 20,
+      "dirName": "chunk-20",
+      "originalBeatRange": [
+        "212",
+        "221"
+      ],
+      "frameCount": 10,
+      "sourceCount": 10,
+      "totalDurationSeconds": 45.99
+    },
+    {
+      "index": 21,
+      "dirName": "chunk-21",
+      "originalBeatRange": [
+        "222",
+        "231"
+      ],
+      "frameCount": 10,
+      "sourceCount": 10,
+      "totalDurationSeconds": 48.1
+    },
+    {
+      "index": 22,
+      "dirName": "chunk-22",
+      "originalBeatRange": [
+        "232",
+        "241"
+      ],
+      "frameCount": 10,
+      "sourceCount": 10,
+      "totalDurationSeconds": 41.24
+    },
+    {
+      "index": 23,
+      "dirName": "chunk-23",
+      "originalBeatRange": [
+        "242",
+        "251"
+      ],
+      "frameCount": 10,
+      "sourceCount": 10,
+      "totalDurationSeconds": 49.94
+    },
+    {
+      "index": 24,
+      "dirName": "chunk-24",
+      "originalBeatRange": [
+        "252",
+        "261"
+      ],
+      "frameCount": 10,
+      "sourceCount": 10,
+      "totalDurationSeconds": 45.44
+    },
+    {
+      "index": 25,
+      "dirName": "chunk-25",
+      "originalBeatRange": [
+        "262",
+        "271"
+      ],
+      "frameCount": 10,
+      "sourceCount": 10,
+      "totalDurationSeconds": 47.42
+    },
+    {
+      "index": 26,
+      "dirName": "chunk-26",
+      "originalBeatRange": [
+        "272",
+        "281"
+      ],
+      "frameCount": 10,
+      "sourceCount": 10,
+      "totalDurationSeconds": 34.34
+    },
+    {
+      "index": 27,
+      "dirName": "chunk-27",
+      "originalBeatRange": [
+        "282",
+        "291"
+      ],
+      "frameCount": 10,
+      "sourceCount": 10,
+      "totalDurationSeconds": 43.56
+    },
+    {
+      "index": 28,
+      "dirName": "chunk-28",
+      "originalBeatRange": [
+        "292",
+        "301"
+      ],
+      "frameCount": 10,
+      "sourceCount": 10,
+      "totalDurationSeconds": 46.54
+    },
+    {
+      "index": 29,
+      "dirName": "chunk-29",
+      "originalBeatRange": [
+        "302",
+        "311"
+      ],
+      "frameCount": 10,
+      "sourceCount": 10,
+      "totalDurationSeconds": 48
+    },
+    {
+      "index": 30,
+      "dirName": "chunk-30",
+      "originalBeatRange": [
+        "312",
+        "321"
+      ],
+      "frameCount": 10,
+      "sourceCount": 10,
+      "totalDurationSeconds": 40.26
+    }
+  ]
+}

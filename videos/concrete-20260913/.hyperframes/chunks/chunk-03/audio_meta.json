@@ -1,0 +1,696 @@
+{
+  "bgm": null,
+  "voices": [
+    {
+      "frame": 1,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 135.08,
+      "duration_s": 5.38,
+      "words": [
+        {
+          "text": "And",
+          "start": 0,
+          "end": 0.38
+        },
+        {
+          "text": "an",
+          "start": 0.38,
+          "end": 0.46
+        },
+        {
+          "text": "$87",
+          "start": 0.46,
+          "end": 0.88
+        },
+        {
+          "text": "million",
+          "start": 0.88,
+          "end": 1.01
+        },
+        {
+          "text": "line",
+          "start": 1.53,
+          "end": 1.54
+        },
+        {
+          "text": "item",
+          "start": 1.54,
+          "end": 1.78
+        },
+        {
+          "text": "in",
+          "start": 1.78,
+          "end": 1.89
+        },
+        {
+          "text": "a",
+          "start": 1.9,
+          "end": 1.96
+        },
+        {
+          "text": "Department",
+          "start": 1.96,
+          "end": 2.56
+        },
+        {
+          "text": "of",
+          "start": 2.56,
+          "end": 2.66
+        },
+        {
+          "text": "Energy",
+          "start": 2.68,
+          "end": 2.98
+        },
+        {
+          "text": "portfolio",
+          "start": 3.37,
+          "end": 3.58
+        },
+        {
+          "text": "that,",
+          "start": 3.58,
+          "end": 3.87
+        },
+        {
+          "text": "when",
+          "start": 4.14,
+          "end": 4.18
+        },
+        {
+          "text": "it",
+          "start": 4.18,
+          "end": 4.3
+        },
+        {
+          "text": "disappeared,",
+          "start": 4.3,
+          "end": 5.13
+        }
+      ]
+    },
+    {
+      "frame": 2,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 140.46,
+      "duration_s": 1.83,
+      "words": [
+        {
+          "text": "took",
+          "start": 0,
+          "end": 0.17
+        },
+        {
+          "text": "a",
+          "start": 0.25,
+          "end": 0.28
+        },
+        {
+          "text": "factory",
+          "start": 0.28,
+          "end": 0.62
+        },
+        {
+          "text": "with",
+          "start": 1.15,
+          "end": 1.38
+        },
+        {
+          "text": "it.",
+          "start": 1.38,
+          "end": 1.83
+        }
+      ]
+    },
+    {
+      "frame": 3,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 142.29,
+      "duration_s": 6.04,
+      "words": [
+        {
+          "text": "But",
+          "start": 0,
+          "end": 0.29
+        },
+        {
+          "text": "before",
+          "start": 0.29,
+          "end": 0.46
+        },
+        {
+          "text": "any",
+          "start": 0.54,
+          "end": 0.7
+        },
+        {
+          "text": "of",
+          "start": 0.7,
+          "end": 0.8
+        },
+        {
+          "text": "that",
+          "start": 0.8,
+          "end": 0.91
+        },
+        {
+          "text": "means",
+          "start": 1,
+          "end": 1.12
+        },
+        {
+          "text": "anything,",
+          "start": 1.44,
+          "end": 1.79
+        },
+        {
+          "text": "you",
+          "start": 1.79,
+          "end": 1.95
+        },
+        {
+          "text": "need",
+          "start": 1.95,
+          "end": 2.13
+        },
+        {
+          "text": "to",
+          "start": 2.25,
+          "end": 2.26
+        },
+        {
+          "text": "understand",
+          "start": 2.26,
+          "end": 2.79
+        },
+        {
+          "text": "what",
+          "start": 2.79,
+          "end": 2.91
+        },
+        {
+          "text": "a",
+          "start": 2.99,
+          "end": 3.01
+        },
+        {
+          "text": "cement",
+          "start": 3.28,
+          "end": 3.36
+        },
+        {
+          "text": "kiln",
+          "start": 3.45,
+          "end": 3.57
+        },
+        {
+          "text": "actually",
+          "start": 3.57,
+          "end": 4.07
+        },
+        {
+          "text": "is,",
+          "start": 4.23,
+          "end": 4.38
+        },
+        {
+          "text": "and",
+          "start": 4.38,
+          "end": 4.62
+        },
+        {
+          "text": "why",
+          "start": 4.62,
+          "end": 4.86
+        },
+        {
+          "text": "it",
+          "start": 4.86,
+          "end": 4.92
+        },
+        {
+          "text": "has",
+          "start": 5.01,
+          "end": 5.22
+        },
+        {
+          "text": "survived,",
+          "start": 5.44,
+          "end": 6.04
+        }
+      ]
+    },
+    {
+      "frame": 4,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 148.33,
+      "duration_s": 4.65,
+      "words": [
+        {
+          "text": "essentially",
+          "start": 0,
+          "end": 0.84
+        },
+        {
+          "text": "unchanged",
+          "start": 1.24,
+          "end": 1.58
+        },
+        {
+          "text": "in",
+          "start": 1.58,
+          "end": 1.73
+        },
+        {
+          "text": "principle",
+          "start": 2.02,
+          "end": 2.45
+        },
+        {
+          "text": "since",
+          "start": 2.45,
+          "end": 2.62
+        },
+        {
+          "text": "Victorian",
+          "start": 2.89,
+          "end": 3.54
+        },
+        {
+          "text": "England.",
+          "start": 3.56,
+          "end": 4.43
+        }
+      ]
+    },
+    {
+      "frame": 5,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 152.98,
+      "duration_s": 3.44,
+      "words": [
+        {
+          "text": "Start",
+          "start": 0,
+          "end": 0.15
+        },
+        {
+          "text": "with",
+          "start": 0.25,
+          "end": 0.44
+        },
+        {
+          "text": "respect,",
+          "start": 0.44,
+          "end": 1.1
+        },
+        {
+          "text": "because",
+          "start": 1.16,
+          "end": 1.62
+        },
+        {
+          "text": "the",
+          "start": 1.62,
+          "end": 1.83
+        },
+        {
+          "text": "kiln",
+          "start": 1.83,
+          "end": 2.13
+        },
+        {
+          "text": "has",
+          "start": 2.13,
+          "end": 2.35
+        },
+        {
+          "text": "earned",
+          "start": 2.35,
+          "end": 2.62
+        },
+        {
+          "text": "it.",
+          "start": 2.94,
+          "end": 3.22
+        }
+      ]
+    },
+    {
+      "frame": 6,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 156.42,
+      "duration_s": 4.69,
+      "words": [
+        {
+          "text": "Portland",
+          "start": 0,
+          "end": 0.27
+        },
+        {
+          "text": "cement",
+          "start": 0.27,
+          "end": 0.6
+        },
+        {
+          "text": "was",
+          "start": 0.63,
+          "end": 0.65
+        },
+        {
+          "text": "patented",
+          "start": 1.15,
+          "end": 1.31
+        },
+        {
+          "text": "in",
+          "start": 1.31,
+          "end": 1.43
+        },
+        {
+          "text": "1824",
+          "start": 1.43,
+          "end": 2.17
+        },
+        {
+          "text": "by",
+          "start": 2.17,
+          "end": 2.28
+        },
+        {
+          "text": "a",
+          "start": 2.3,
+          "end": 2.35
+        },
+        {
+          "text": "bricklayer",
+          "start": 2.35,
+          "end": 2.97
+        },
+        {
+          "text": "in",
+          "start": 2.99,
+          "end": 3.07
+        },
+        {
+          "text": "Leeds",
+          "start": 3.16,
+          "end": 3.4
+        },
+        {
+          "text": "named",
+          "start": 3.4,
+          "end": 3.49
+        },
+        {
+          "text": "Joseph",
+          "start": 3.77,
+          "end": 4.08
+        },
+        {
+          "text": "Aspden.",
+          "start": 4.08,
+          "end": 4.69
+        }
+      ]
+    },
+    {
+      "frame": 7,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 161.11,
+      "duration_s": 4.26,
+      "words": [
+        {
+          "text": "The",
+          "start": 0,
+          "end": 0.23
+        },
+        {
+          "text": "modern",
+          "start": 0.23,
+          "end": 0.5
+        },
+        {
+          "text": "version",
+          "start": 0.5,
+          "end": 0.83
+        },
+        {
+          "text": "of",
+          "start": 0.83,
+          "end": 1
+        },
+        {
+          "text": "his",
+          "start": 1,
+          "end": 1.16
+        },
+        {
+          "text": "idea",
+          "start": 1.16,
+          "end": 1.38
+        },
+        {
+          "text": "is",
+          "start": 1.38,
+          "end": 1.49
+        },
+        {
+          "text": "one",
+          "start": 1.49,
+          "end": 1.65
+        },
+        {
+          "text": "of",
+          "start": 1.65,
+          "end": 1.76
+        },
+        {
+          "text": "the",
+          "start": 1.76,
+          "end": 1.92
+        },
+        {
+          "text": "great",
+          "start": 1.92,
+          "end": 2.2
+        },
+        {
+          "text": "machines",
+          "start": 2.2,
+          "end": 2.65
+        },
+        {
+          "text": "of",
+          "start": 2.65,
+          "end": 2.76
+        },
+        {
+          "text": "industrial",
+          "start": 2.76,
+          "end": 3.31
+        },
+        {
+          "text": "civilization.",
+          "start": 3.39,
+          "end": 4.25
+        }
+      ]
+    },
+    {
+      "frame": 8,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 165.37,
+      "duration_s": 5.19,
+      "words": [
+        {
+          "text": "A",
+          "start": 0,
+          "end": 0.06
+        },
+        {
+          "text": "steel",
+          "start": 0.21,
+          "end": 0.38
+        },
+        {
+          "text": "tube,",
+          "start": 0.46,
+          "end": 0.83
+        },
+        {
+          "text": "sometimes",
+          "start": 1.36,
+          "end": 1.47
+        },
+        {
+          "text": "60",
+          "start": 1.47,
+          "end": 1.89
+        },
+        {
+          "text": "meters",
+          "start": 1.89,
+          "end": 2.26
+        },
+        {
+          "text": "long,",
+          "start": 2.32,
+          "end": 2.73
+        },
+        {
+          "text": "tilted",
+          "start": 2.73,
+          "end": 2.84
+        },
+        {
+          "text": "a",
+          "start": 3.2,
+          "end": 3.22
+        },
+        {
+          "text": "few",
+          "start": 3.22,
+          "end": 3.43
+        },
+        {
+          "text": "degrees,",
+          "start": 3.43,
+          "end": 4.06
+        },
+        {
+          "text": "rotating",
+          "start": 4.06,
+          "end": 4.57
+        },
+        {
+          "text": "slowly,",
+          "start": 4.84,
+          "end": 5.19
+        }
+      ]
+    },
+    {
+      "frame": 9,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 170.56,
+      "duration_s": 4.25,
+      "words": [
+        {
+          "text": "lined",
+          "start": 0,
+          "end": 0.34
+        },
+        {
+          "text": "with",
+          "start": 0.35,
+          "end": 0.6
+        },
+        {
+          "text": "refractory",
+          "start": 0.94,
+          "end": 1.53
+        },
+        {
+          "text": "brick,",
+          "start": 1.53,
+          "end": 2.1
+        },
+        {
+          "text": "with",
+          "start": 2.1,
+          "end": 2.43
+        },
+        {
+          "text": "a",
+          "start": 2.43,
+          "end": 2.51
+        },
+        {
+          "text": "flame",
+          "start": 2.51,
+          "end": 2.92
+        },
+        {
+          "text": "at",
+          "start": 2.92,
+          "end": 3.08
+        },
+        {
+          "text": "the",
+          "start": 3.08,
+          "end": 3.32
+        },
+        {
+          "text": "low",
+          "start": 3.32,
+          "end": 3.54
+        },
+        {
+          "text": "end.",
+          "start": 3.55,
+          "end": 4.12
+        }
+      ]
+    },
+    {
+      "frame": 10,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 174.81,
+      "duration_s": 2.85,
+      "words": [
+        {
+          "text": "Crushed",
+          "start": 0,
+          "end": 0.26
+        },
+        {
+          "text": "limestone",
+          "start": 0.34,
+          "end": 0.69
+        },
+        {
+          "text": "and",
+          "start": 0.9,
+          "end": 1.1
+        },
+        {
+          "text": "clay",
+          "start": 1.24,
+          "end": 1.36
+        },
+        {
+          "text": "go",
+          "start": 1.36,
+          "end": 1.49
+        },
+        {
+          "text": "in",
+          "start": 1.49,
+          "end": 1.62
+        },
+        {
+          "text": "cold",
+          "start": 1.62,
+          "end": 1.88
+        },
+        {
+          "text": "at",
+          "start": 1.88,
+          "end": 1.94
+        },
+        {
+          "text": "the",
+          "start": 2.05,
+          "end": 2.16
+        },
+        {
+          "text": "top.",
+          "start": 2.2,
+          "end": 2.63
+        }
+      ]
+    }
+  ],
+  "sfx": []
+}

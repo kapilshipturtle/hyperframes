@@ -1,0 +1,749 @@
+{
+  "beats": [
+    {
+      "id": "242",
+      "text": "The hydropower stayed.",
+      "start": 1045.18,
+      "end": 1047.02,
+      "durationSeconds": 1.84,
+      "words": [
+        {
+          "text": "The",
+          "start": 1045.18,
+          "end": 1045.21
+        },
+        {
+          "text": "hydropower",
+          "start": 1045.21,
+          "end": 1045.83
+        },
+        {
+          "text": "stayed.",
+          "start": 1046.33,
+          "end": 1046.8
+        }
+      ]
+    },
+    {
+      "id": "243",
+      "text": "That is why Sublime chose it, a process that needs large amounts of clean electricity, sited on a river that has been generating",
+      "start": 1047.02,
+      "end": 1053.79,
+      "durationSeconds": 6.77,
+      "words": [
+        {
+          "text": "That",
+          "start": 1047.02,
+          "end": 1047.05
+        },
+        {
+          "text": "is",
+          "start": 1047.05,
+          "end": 1047.16
+        },
+        {
+          "text": "why",
+          "start": 1047.27,
+          "end": 1047.37
+        },
+        {
+          "text": "Sublime",
+          "start": 1047.37,
+          "end": 1047.65
+        },
+        {
+          "text": "chose",
+          "start": 1047.65,
+          "end": 1048.17
+        },
+        {
+          "text": "it,",
+          "start": 1048.17,
+          "end": 1048.38
+        },
+        {
+          "text": "a",
+          "start": 1048.38,
+          "end": 1048.44
+        },
+        {
+          "text": "process",
+          "start": 1048.44,
+          "end": 1048.85
+        },
+        {
+          "text": "that",
+          "start": 1048.98,
+          "end": 1049.14
+        },
+        {
+          "text": "needs",
+          "start": 1049.14,
+          "end": 1049.46
+        },
+        {
+          "text": "large",
+          "start": 1049.46,
+          "end": 1049.64
+        },
+        {
+          "text": "amounts",
+          "start": 1050.01,
+          "end": 1050.23
+        },
+        {
+          "text": "of",
+          "start": 1050.23,
+          "end": 1050.36
+        },
+        {
+          "text": "clean",
+          "start": 1050.36,
+          "end": 1050.5
+        },
+        {
+          "text": "electricity,",
+          "start": 1050.79,
+          "end": 1051.4
+        },
+        {
+          "text": "sited",
+          "start": 1051.61,
+          "end": 1051.92
+        },
+        {
+          "text": "on",
+          "start": 1051.92,
+          "end": 1051.95
+        },
+        {
+          "text": "a",
+          "start": 1052.07,
+          "end": 1052.11
+        },
+        {
+          "text": "river",
+          "start": 1052.11,
+          "end": 1052.42
+        },
+        {
+          "text": "that",
+          "start": 1052.42,
+          "end": 1052.47
+        },
+        {
+          "text": "has",
+          "start": 1052.47,
+          "end": 1052.97
+        },
+        {
+          "text": "been",
+          "start": 1052.97,
+          "end": 1053.14
+        },
+        {
+          "text": "generating",
+          "start": 1053.14,
+          "end": 1053.79
+        }
+      ]
+    },
+    {
+      "id": "244",
+      "text": "power for 150 years in a city that lost its industry and has been trying to replace it since.",
+      "start": 1053.79,
+      "end": 1059.94,
+      "durationSeconds": 6.15,
+      "words": [
+        {
+          "text": "power",
+          "start": 1053.79,
+          "end": 1054.1
+        },
+        {
+          "text": "for",
+          "start": 1054.12,
+          "end": 1054.3
+        },
+        {
+          "text": "150",
+          "start": 1054.3,
+          "end": 1054.88
+        },
+        {
+          "text": "years",
+          "start": 1054.98,
+          "end": 1055.2
+        },
+        {
+          "text": "in",
+          "start": 1055.2,
+          "end": 1055.3
+        },
+        {
+          "text": "a",
+          "start": 1055.3,
+          "end": 1055.59
+        },
+        {
+          "text": "city",
+          "start": 1055.59,
+          "end": 1055.65
+        },
+        {
+          "text": "that",
+          "start": 1055.65,
+          "end": 1055.91
+        },
+        {
+          "text": "lost",
+          "start": 1055.91,
+          "end": 1056.12
+        },
+        {
+          "text": "its",
+          "start": 1056.17,
+          "end": 1056.2
+        },
+        {
+          "text": "industry",
+          "start": 1056.66,
+          "end": 1057.04
+        },
+        {
+          "text": "and",
+          "start": 1057.04,
+          "end": 1057.25
+        },
+        {
+          "text": "has",
+          "start": 1057.25,
+          "end": 1057.31
+        },
+        {
+          "text": "been",
+          "start": 1057.31,
+          "end": 1057.82
+        },
+        {
+          "text": "trying",
+          "start": 1057.82,
+          "end": 1058.23
+        },
+        {
+          "text": "to",
+          "start": 1058.23,
+          "end": 1058.38
+        },
+        {
+          "text": "replace",
+          "start": 1058.38,
+          "end": 1058.9
+        },
+        {
+          "text": "it",
+          "start": 1058.91,
+          "end": 1059.06
+        },
+        {
+          "text": "since.",
+          "start": 1059.06,
+          "end": 1059.72
+        }
+      ]
+    },
+    {
+      "id": "245",
+      "text": "70 to 90 permanent jobs, hundreds during construction, state tax credits,",
+      "start": 1059.94,
+      "end": 1064.76,
+      "durationSeconds": 4.82,
+      "words": [
+        {
+          "text": "70",
+          "start": 1059.94,
+          "end": 1060.11
+        },
+        {
+          "text": "to",
+          "start": 1060.19,
+          "end": 1060.26
+        },
+        {
+          "text": "90",
+          "start": 1060.26,
+          "end": 1060.54
+        },
+        {
+          "text": "permanent",
+          "start": 1061.09,
+          "end": 1061.29
+        },
+        {
+          "text": "jobs,",
+          "start": 1061.29,
+          "end": 1061.69
+        },
+        {
+          "text": "hundreds",
+          "start": 1061.69,
+          "end": 1062.2
+        },
+        {
+          "text": "during",
+          "start": 1062.23,
+          "end": 1062.56
+        },
+        {
+          "text": "construction,",
+          "start": 1062.93,
+          "end": 1063.61
+        },
+        {
+          "text": "state",
+          "start": 1063.71,
+          "end": 1063.95
+        },
+        {
+          "text": "tax",
+          "start": 1063.95,
+          "end": 1064.15
+        },
+        {
+          "text": "credits,",
+          "start": 1064.15,
+          "end": 1064.76
+        }
+      ]
+    },
+    {
+      "id": "246",
+      "text": "local tax increment financing, a mayor's office, and a congressional delegation at the ribbon cuttings and the test pours.",
+      "start": 1064.76,
+      "end": 1072.64,
+      "durationSeconds": 7.88,
+      "words": [
+        {
+          "text": "local",
+          "start": 1064.76,
+          "end": 1065.05
+        },
+        {
+          "text": "tax",
+          "start": 1065.1,
+          "end": 1065.3
+        },
+        {
+          "text": "increment",
+          "start": 1065.3,
+          "end": 1065.92
+        },
+        {
+          "text": "financing,",
+          "start": 1065.92,
+          "end": 1066.92
+        },
+        {
+          "text": "a",
+          "start": 1066.93,
+          "end": 1066.97
+        },
+        {
+          "text": "mayor's",
+          "start": 1067.14,
+          "end": 1067.28
+        },
+        {
+          "text": "office,",
+          "start": 1067.39,
+          "end": 1067.76
+        },
+        {
+          "text": "and",
+          "start": 1067.76,
+          "end": 1067.94
+        },
+        {
+          "text": "a",
+          "start": 1067.94,
+          "end": 1068
+        },
+        {
+          "text": "congressional",
+          "start": 1068.29,
+          "end": 1068.72
+        },
+        {
+          "text": "delegation",
+          "start": 1068.72,
+          "end": 1069.27
+        },
+        {
+          "text": "at",
+          "start": 1069.27,
+          "end": 1069.38
+        },
+        {
+          "text": "the",
+          "start": 1069.38,
+          "end": 1069.54
+        },
+        {
+          "text": "ribbon",
+          "start": 1069.54,
+          "end": 1069.76
+        },
+        {
+          "text": "cuttings",
+          "start": 1070.03,
+          "end": 1070.28
+        },
+        {
+          "text": "and",
+          "start": 1070.3,
+          "end": 1070.46
+        },
+        {
+          "text": "the",
+          "start": 1070.46,
+          "end": 1070.61
+        },
+        {
+          "text": "test",
+          "start": 1070.61,
+          "end": 1070.92
+        },
+        {
+          "text": "pours.",
+          "start": 1070.92,
+          "end": 1072.41
+        }
+      ]
+    },
+    {
+      "id": "247",
+      "text": "Everything was in place, certification, a signed anchor customer, incumbent investment,",
+      "start": 1072.64,
+      "end": 1077.7,
+      "durationSeconds": 5.06,
+      "words": [
+        {
+          "text": "Everything",
+          "start": 1072.64,
+          "end": 1073.06
+        },
+        {
+          "text": "was",
+          "start": 1073.06,
+          "end": 1073.24
+        },
+        {
+          "text": "in",
+          "start": 1073.24,
+          "end": 1073.29
+        },
+        {
+          "text": "place,",
+          "start": 1073.7,
+          "end": 1073.82
+        },
+        {
+          "text": "certification,",
+          "start": 1073.82,
+          "end": 1074.78
+        },
+        {
+          "text": "a",
+          "start": 1074.78,
+          "end": 1074.84
+        },
+        {
+          "text": "signed",
+          "start": 1074.84,
+          "end": 1075.22
+        },
+        {
+          "text": "anchor",
+          "start": 1075.22,
+          "end": 1075.27
+        },
+        {
+          "text": "customer,",
+          "start": 1075.63,
+          "end": 1076.13
+        },
+        {
+          "text": "incumbent",
+          "start": 1076.41,
+          "end": 1076.81
+        },
+        {
+          "text": "investment,",
+          "start": 1076.81,
+          "end": 1077.68
+        }
+      ]
+    },
+    {
+      "id": "248",
+      "text": "a site, a power source, a construction timeline.",
+      "start": 1077.7,
+      "end": 1082.08,
+      "durationSeconds": 4.38,
+      "words": [
+        {
+          "text": "a",
+          "start": 1077.7,
+          "end": 1077.77
+        },
+        {
+          "text": "site,",
+          "start": 1077.9,
+          "end": 1078.35
+        },
+        {
+          "text": "a",
+          "start": 1078.35,
+          "end": 1078.44
+        },
+        {
+          "text": "power",
+          "start": 1078.44,
+          "end": 1078.55
+        },
+        {
+          "text": "source,",
+          "start": 1079.05,
+          "end": 1079.69
+        },
+        {
+          "text": "a",
+          "start": 1079.69,
+          "end": 1079.75
+        },
+        {
+          "text": "construction",
+          "start": 1079.78,
+          "end": 1080.95
+        },
+        {
+          "text": "timeline.",
+          "start": 1081.06,
+          "end": 1082.08
+        }
+      ]
+    },
+    {
+      "id": "249",
+      "text": "And then a single line in a federal portfolio review removed half the money.",
+      "start": 1082.08,
+      "end": 1086.54,
+      "durationSeconds": 4.46,
+      "words": [
+        {
+          "text": "And",
+          "start": 1082.08,
+          "end": 1082.3
+        },
+        {
+          "text": "then",
+          "start": 1082.3,
+          "end": 1082.47
+        },
+        {
+          "text": "a",
+          "start": 1082.55,
+          "end": 1082.59
+        },
+        {
+          "text": "single",
+          "start": 1082.59,
+          "end": 1082.9
+        },
+        {
+          "text": "line",
+          "start": 1082.98,
+          "end": 1082.99
+        },
+        {
+          "text": "in",
+          "start": 1082.99,
+          "end": 1083.225
+        },
+        {
+          "text": "a",
+          "start": 1083.225,
+          "end": 1083.46
+        },
+        {
+          "text": "federal",
+          "start": 1083.46,
+          "end": 1083.88
+        },
+        {
+          "text": "portfolio",
+          "start": 1083.88,
+          "end": 1084.46
+        },
+        {
+          "text": "review",
+          "start": 1084.46,
+          "end": 1084.85
+        },
+        {
+          "text": "removed",
+          "start": 1084.85,
+          "end": 1085.3
+        },
+        {
+          "text": "half",
+          "start": 1085.3,
+          "end": 1085.56
+        },
+        {
+          "text": "the",
+          "start": 1085.56,
+          "end": 1085.75
+        },
+        {
+          "text": "money.",
+          "start": 1085.75,
+          "end": 1086.32
+        }
+      ]
+    },
+    {
+      "id": "250",
+      "text": "Here is the sequence, plainly.",
+      "start": 1086.54,
+      "end": 1088.38,
+      "durationSeconds": 1.84,
+      "words": [
+        {
+          "text": "Here",
+          "start": 1086.54,
+          "end": 1086.6
+        },
+        {
+          "text": "is",
+          "start": 1086.6,
+          "end": 1086.68
+        },
+        {
+          "text": "the",
+          "start": 1086.79,
+          "end": 1086.95
+        },
+        {
+          "text": "sequence,",
+          "start": 1086.95,
+          "end": 1087.66
+        },
+        {
+          "text": "plainly.",
+          "start": 1087.7,
+          "end": 1088.38
+        }
+      ]
+    },
+    {
+      "id": "251",
+      "text": "At the end of May 2025, the Department of Energy announced the cancellation of funding for 24 projects,",
+      "start": 1088.38,
+      "end": 1095.12,
+      "durationSeconds": 6.74,
+      "words": [
+        {
+          "text": "At",
+          "start": 1088.38,
+          "end": 1088.62
+        },
+        {
+          "text": "the",
+          "start": 1088.62,
+          "end": 1088.67
+        },
+        {
+          "text": "end",
+          "start": 1088.67,
+          "end": 1088.76
+        },
+        {
+          "text": "of",
+          "start": 1088.87,
+          "end": 1088.94
+        },
+        {
+          "text": "May",
+          "start": 1088.94,
+          "end": 1089.09
+        },
+        {
+          "text": "2025,",
+          "start": 1089.09,
+          "end": 1089.88
+        },
+        {
+          "text": "the",
+          "start": 1089.88,
+          "end": 1090.04
+        },
+        {
+          "text": "Department",
+          "start": 1090.04,
+          "end": 1090.6
+        },
+        {
+          "text": "of",
+          "start": 1090.6,
+          "end": 1090.69
+        },
+        {
+          "text": "Energy",
+          "start": 1090.73,
+          "end": 1091.04
+        },
+        {
+          "text": "announced",
+          "start": 1091.04,
+          "end": 1091.24
+        },
+        {
+          "text": "the",
+          "start": 1091.61,
+          "end": 1091.7
+        },
+        {
+          "text": "cancellation",
+          "start": 1091.78,
+          "end": 1092.11
+        },
+        {
+          "text": "of",
+          "start": 1092.39,
+          "end": 1092.48
+        },
+        {
+          "text": "funding",
+          "start": 1092.48,
+          "end": 1092.92
+        },
+        {
+          "text": "for",
+          "start": 1093.18,
+          "end": 1093.29
+        },
+        {
+          "text": "24",
+          "start": 1093.29,
+          "end": 1093.78
+        },
+        {
+          "text": "projects,",
+          "start": 1094.33,
+          "end": 1095.01
+        }
+      ]
+    }
+  ]
+}

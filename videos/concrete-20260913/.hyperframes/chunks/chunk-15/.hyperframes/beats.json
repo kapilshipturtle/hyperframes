@@ -1,0 +1,849 @@
+{
+  "beats": [
+    {
+      "id": "159",
+      "text": "not birth. That single procedural door is the difference between a laboratory curiosity and a product.",
+      "start": 667.16,
+      "end": 673.02,
+      "durationSeconds": 5.86,
+      "words": [
+        {
+          "text": "not",
+          "start": 667.16,
+          "end": 667.4
+        },
+        {
+          "text": "birth.",
+          "start": 667.4,
+          "end": 668.08
+        },
+        {
+          "text": "That",
+          "start": 668.3,
+          "end": 668.31
+        },
+        {
+          "text": "single",
+          "start": 668.31,
+          "end": 668.66
+        },
+        {
+          "text": "procedural",
+          "start": 668.66,
+          "end": 668.92
+        },
+        {
+          "text": "door",
+          "start": 669.45,
+          "end": 669.48
+        },
+        {
+          "text": "is",
+          "start": 669.48,
+          "end": 669.59
+        },
+        {
+          "text": "the",
+          "start": 669.59,
+          "end": 669.76
+        },
+        {
+          "text": "difference",
+          "start": 669.76,
+          "end": 670.35
+        },
+        {
+          "text": "between",
+          "start": 670.35,
+          "end": 670.75
+        },
+        {
+          "text": "a",
+          "start": 670.75,
+          "end": 670.81
+        },
+        {
+          "text": "laboratory",
+          "start": 670.81,
+          "end": 671.37
+        },
+        {
+          "text": "curiosity",
+          "start": 671.46,
+          "end": 671.78
+        },
+        {
+          "text": "and",
+          "start": 672.06,
+          "end": 672.1
+        },
+        {
+          "text": "a",
+          "start": 672.1,
+          "end": 672.15
+        },
+        {
+          "text": "product.",
+          "start": 672.15,
+          "end": 672.67
+        }
+      ]
+    },
+    {
+      "id": "160",
+      "text": "Sublime calls its output a drop-in replacement for ordinary Portland cement, and drop-in is the load-bearing phrase,",
+      "start": 673.02,
+      "end": 679.31,
+      "durationSeconds": 6.29,
+      "words": [
+        {
+          "text": "Sublime",
+          "start": 673.02,
+          "end": 673.23
+        },
+        {
+          "text": "calls",
+          "start": 673.31,
+          "end": 673.56
+        },
+        {
+          "text": "its",
+          "start": 673.56,
+          "end": 673.68
+        },
+        {
+          "text": "output",
+          "start": 673.68,
+          "end": 673.945
+        },
+        {
+          "text": "a",
+          "start": 673.945,
+          "end": 674.21
+        },
+        {
+          "text": "drop-in",
+          "start": 674.21,
+          "end": 674.57
+        },
+        {
+          "text": "replacement",
+          "start": 674.57,
+          "end": 675.25
+        },
+        {
+          "text": "for",
+          "start": 675.25,
+          "end": 675.43
+        },
+        {
+          "text": "ordinary",
+          "start": 675.43,
+          "end": 675.68
+        },
+        {
+          "text": "Portland",
+          "start": 676.05,
+          "end": 676.41
+        },
+        {
+          "text": "cement,",
+          "start": 676.41,
+          "end": 676.89
+        },
+        {
+          "text": "and",
+          "start": 676.89,
+          "end": 677.07
+        },
+        {
+          "text": "drop-in",
+          "start": 677.07,
+          "end": 677.43
+        },
+        {
+          "text": "is",
+          "start": 677.43,
+          "end": 677.78
+        },
+        {
+          "text": "the",
+          "start": 677.78,
+          "end": 677.91
+        },
+        {
+          "text": "load-bearing",
+          "start": 677.91,
+          "end": 678.4
+        },
+        {
+          "text": "phrase,",
+          "start": 678.93,
+          "end": 679.31
+        }
+      ]
+    },
+    {
+      "id": "161",
+      "text": "no new mixers, no new trucks, no retrained crews, no new code variants for every project.",
+      "start": 679.31,
+      "end": 685.38,
+      "durationSeconds": 6.07,
+      "words": [
+        {
+          "text": "no",
+          "start": 679.31,
+          "end": 679.45
+        },
+        {
+          "text": "new",
+          "start": 679.45,
+          "end": 679.61
+        },
+        {
+          "text": "mixers,",
+          "start": 679.74,
+          "end": 680.22
+        },
+        {
+          "text": "no",
+          "start": 680.22,
+          "end": 680.36
+        },
+        {
+          "text": "new",
+          "start": 680.36,
+          "end": 680.43
+        },
+        {
+          "text": "trucks,",
+          "start": 680.77,
+          "end": 681.13
+        },
+        {
+          "text": "no",
+          "start": 681.13,
+          "end": 681.26
+        },
+        {
+          "text": "retrained",
+          "start": 681.26,
+          "end": 681.9
+        },
+        {
+          "text": "crews,",
+          "start": 681.9,
+          "end": 682.39
+        },
+        {
+          "text": "no",
+          "start": 682.42,
+          "end": 682.53
+        },
+        {
+          "text": "new",
+          "start": 682.53,
+          "end": 682.83
+        },
+        {
+          "text": "code",
+          "start": 683.06,
+          "end": 683.14
+        },
+        {
+          "text": "variants",
+          "start": 683.14,
+          "end": 683.65
+        },
+        {
+          "text": "for",
+          "start": 683.74,
+          "end": 683.75
+        },
+        {
+          "text": "every",
+          "start": 684.21,
+          "end": 684.36
+        },
+        {
+          "text": "project.",
+          "start": 684.36,
+          "end": 685.13
+        }
+      ]
+    },
+    {
+      "id": "162",
+      "text": "Then, in May of 2024, it got poured.",
+      "start": 685.38,
+      "end": 689.58,
+      "durationSeconds": 4.2,
+      "words": [
+        {
+          "text": "Then,",
+          "start": 685.38,
+          "end": 685.76
+        },
+        {
+          "text": "in",
+          "start": 685.76,
+          "end": 685.96
+        },
+        {
+          "text": "May",
+          "start": 685.96,
+          "end": 686.03
+        },
+        {
+          "text": "of",
+          "start": 686.03,
+          "end": 686.53
+        },
+        {
+          "text": "2024,",
+          "start": 686.53,
+          "end": 687.88
+        },
+        {
+          "text": "it",
+          "start": 687.88,
+          "end": 688
+        },
+        {
+          "text": "got",
+          "start": 688.36,
+          "end": 688.38
+        },
+        {
+          "text": "poured.",
+          "start": 688.38,
+          "end": 689.36
+        }
+      ]
+    },
+    {
+      "id": "163",
+      "text": "Three tons of sublime cement went into a foundation pour in Boston's Seaport District, in what was described as the largest net-zero commercial",
+      "start": 689.58,
+      "end": 695.9,
+      "durationSeconds": 6.32,
+      "words": [
+        {
+          "text": "Three",
+          "start": 689.58,
+          "end": 689.64
+        },
+        {
+          "text": "tons",
+          "start": 689.64,
+          "end": 689.86
+        },
+        {
+          "text": "of",
+          "start": 689.86,
+          "end": 689.97
+        },
+        {
+          "text": "sublime",
+          "start": 689.97,
+          "end": 690.18
+        },
+        {
+          "text": "cement",
+          "start": 690.18,
+          "end": 690.73
+        },
+        {
+          "text": "went",
+          "start": 690.73,
+          "end": 690.92
+        },
+        {
+          "text": "into",
+          "start": 690.92,
+          "end": 691.14
+        },
+        {
+          "text": "a",
+          "start": 691.14,
+          "end": 691.19
+        },
+        {
+          "text": "foundation",
+          "start": 691.19,
+          "end": 691.75
+        },
+        {
+          "text": "pour",
+          "start": 691.75,
+          "end": 691.97
+        },
+        {
+          "text": "in",
+          "start": 691.97,
+          "end": 692.08
+        },
+        {
+          "text": "Boston's",
+          "start": 692.08,
+          "end": 692.53
+        },
+        {
+          "text": "Seaport",
+          "start": 692.57,
+          "end": 692.91
+        },
+        {
+          "text": "District,",
+          "start": 692.91,
+          "end": 693.56
+        },
+        {
+          "text": "in",
+          "start": 693.56,
+          "end": 693.6
+        },
+        {
+          "text": "what",
+          "start": 693.6,
+          "end": 693.68
+        },
+        {
+          "text": "was",
+          "start": 693.68,
+          "end": 693.9
+        },
+        {
+          "text": "described",
+          "start": 693.9,
+          "end": 694.32
+        },
+        {
+          "text": "as",
+          "start": 694.32,
+          "end": 694.41
+        },
+        {
+          "text": "the",
+          "start": 694.41,
+          "end": 694.52
+        },
+        {
+          "text": "largest",
+          "start": 694.52,
+          "end": 695.05
+        },
+        {
+          "text": "net-zero",
+          "start": 695.05,
+          "end": 695.37
+        },
+        {
+          "text": "commercial",
+          "start": 695.37,
+          "end": 695.9
+        }
+      ]
+    },
+    {
+      "id": "164",
+      "text": "building in the city, placed by Turner Construction, the largest domestic contractor in the United States,",
+      "start": 695.9,
+      "end": 701.86,
+      "durationSeconds": 5.96,
+      "words": [
+        {
+          "text": "building",
+          "start": 695.9,
+          "end": 696.33
+        },
+        {
+          "text": "in",
+          "start": 696.33,
+          "end": 696.43
+        },
+        {
+          "text": "the",
+          "start": 696.43,
+          "end": 696.52
+        },
+        {
+          "text": "city,",
+          "start": 696.8,
+          "end": 696.9
+        },
+        {
+          "text": "placed",
+          "start": 696.9,
+          "end": 697.22
+        },
+        {
+          "text": "by",
+          "start": 697.22,
+          "end": 697.32
+        },
+        {
+          "text": "Turner",
+          "start": 697.32,
+          "end": 697.39
+        },
+        {
+          "text": "Construction,",
+          "start": 697.67,
+          "end": 698.96
+        },
+        {
+          "text": "the",
+          "start": 698.96,
+          "end": 699.18
+        },
+        {
+          "text": "largest",
+          "start": 699.18,
+          "end": 699.58
+        },
+        {
+          "text": "domestic",
+          "start": 699.58,
+          "end": 699.8
+        },
+        {
+          "text": "contractor",
+          "start": 700.33,
+          "end": 700.7
+        },
+        {
+          "text": "in",
+          "start": 700.7,
+          "end": 700.82
+        },
+        {
+          "text": "the",
+          "start": 700.82,
+          "end": 701
+        },
+        {
+          "text": "United",
+          "start": 701,
+          "end": 701.37
+        },
+        {
+          "text": "States,",
+          "start": 701.37,
+          "end": 701.81
+        }
+      ]
+    },
+    {
+      "id": "165",
+      "text": "not a test slab in a parking lot.",
+      "start": 701.86,
+      "end": 703.69,
+      "durationSeconds": 1.83,
+      "words": [
+        {
+          "text": "not",
+          "start": 701.86,
+          "end": 701.87
+        },
+        {
+          "text": "a",
+          "start": 701.87,
+          "end": 702.17
+        },
+        {
+          "text": "test",
+          "start": 702.17,
+          "end": 702.35
+        },
+        {
+          "text": "slab",
+          "start": 702.35,
+          "end": 702.6
+        },
+        {
+          "text": "in",
+          "start": 702.6,
+          "end": 702.67
+        },
+        {
+          "text": "a",
+          "start": 702.67,
+          "end": 702.95
+        },
+        {
+          "text": "parking",
+          "start": 702.95,
+          "end": 703.22
+        },
+        {
+          "text": "lot.",
+          "start": 703.22,
+          "end": 703.55
+        }
+      ]
+    },
+    {
+      "id": "166",
+      "text": "A structural pour by a contractor with everything to lose, on a real project with a real schedule.",
+      "start": 703.69,
+      "end": 709.84,
+      "durationSeconds": 6.15,
+      "words": [
+        {
+          "text": "A",
+          "start": 703.69,
+          "end": 703.75
+        },
+        {
+          "text": "structural",
+          "start": 703.9,
+          "end": 704.48
+        },
+        {
+          "text": "pour",
+          "start": 704.48,
+          "end": 704.55
+        },
+        {
+          "text": "by",
+          "start": 704.73,
+          "end": 704.91
+        },
+        {
+          "text": "a",
+          "start": 704.91,
+          "end": 705.05
+        },
+        {
+          "text": "contractor",
+          "start": 705.05,
+          "end": 705.71
+        },
+        {
+          "text": "with",
+          "start": 705.71,
+          "end": 705.97
+        },
+        {
+          "text": "everything",
+          "start": 706,
+          "end": 706.5
+        },
+        {
+          "text": "to",
+          "start": 706.5,
+          "end": 706.89
+        },
+        {
+          "text": "lose,",
+          "start": 706.89,
+          "end": 707.3
+        },
+        {
+          "text": "on",
+          "start": 707.3,
+          "end": 707.38
+        },
+        {
+          "text": "a",
+          "start": 707.38,
+          "end": 707.67
+        },
+        {
+          "text": "real",
+          "start": 707.67,
+          "end": 707.8
+        },
+        {
+          "text": "project",
+          "start": 707.8,
+          "end": 708.26
+        },
+        {
+          "text": "with",
+          "start": 708.53,
+          "end": 708.59
+        },
+        {
+          "text": "a",
+          "start": 708.64,
+          "end": 708.65
+        },
+        {
+          "text": "real",
+          "start": 708.68,
+          "end": 708.95
+        },
+        {
+          "text": "schedule.",
+          "start": 708.95,
+          "end": 709.84
+        }
+      ]
+    },
+    {
+      "id": "167",
+      "text": "And the most credible thing anyone has said about this entire technology is what Ellis said about that day.",
+      "start": 709.84,
+      "end": 715.2,
+      "durationSeconds": 5.36,
+      "words": [
+        {
+          "text": "And",
+          "start": 709.84,
+          "end": 710.06
+        },
+        {
+          "text": "the",
+          "start": 710.06,
+          "end": 710.14
+        },
+        {
+          "text": "most",
+          "start": 710.14,
+          "end": 710.34
+        },
+        {
+          "text": "credible",
+          "start": 710.34,
+          "end": 710.66
+        },
+        {
+          "text": "thing",
+          "start": 710.74,
+          "end": 710.75
+        },
+        {
+          "text": "anyone",
+          "start": 711.21,
+          "end": 711.3
+        },
+        {
+          "text": "has",
+          "start": 711.3,
+          "end": 711.45
+        },
+        {
+          "text": "said",
+          "start": 711.45,
+          "end": 711.65
+        },
+        {
+          "text": "about",
+          "start": 711.65,
+          "end": 711.89
+        },
+        {
+          "text": "this",
+          "start": 711.89,
+          "end": 712.1
+        },
+        {
+          "text": "entire",
+          "start": 712.1,
+          "end": 712.4
+        },
+        {
+          "text": "technology",
+          "start": 712.4,
+          "end": 712.68
+        },
+        {
+          "text": "is",
+          "start": 712.68,
+          "end": 713.05
+        },
+        {
+          "text": "what",
+          "start": 713.05,
+          "end": 713.2
+        },
+        {
+          "text": "Ellis",
+          "start": 713.22,
+          "end": 713.54
+        },
+        {
+          "text": "said",
+          "start": 713.78,
+          "end": 713.9
+        },
+        {
+          "text": "about",
+          "start": 713.9,
+          "end": 714.33
+        },
+        {
+          "text": "that",
+          "start": 714.33,
+          "end": 714.43
+        },
+        {
+          "text": "day.",
+          "start": 714.92,
+          "end": 715.2
+        }
+      ]
+    },
+    {
+      "id": "168",
+      "text": "It was a boring day in construction, because everything worked.",
+      "start": 715.2,
+      "end": 719.48,
+      "durationSeconds": 4.28,
+      "words": [
+        {
+          "text": "It",
+          "start": 715.2,
+          "end": 715.42
+        },
+        {
+          "text": "was",
+          "start": 715.42,
+          "end": 715.55
+        },
+        {
+          "text": "a",
+          "start": 715.55,
+          "end": 715.67
+        },
+        {
+          "text": "boring",
+          "start": 715.67,
+          "end": 716.02
+        },
+        {
+          "text": "day",
+          "start": 716.03,
+          "end": 716.07
+        },
+        {
+          "text": "in",
+          "start": 716.24,
+          "end": 716.39
+        },
+        {
+          "text": "construction,",
+          "start": 716.57,
+          "end": 717.27
+        },
+        {
+          "text": "because",
+          "start": 717.38,
+          "end": 717.87
+        },
+        {
+          "text": "everything",
+          "start": 717.87,
+          "end": 718.56
+        },
+        {
+          "text": "worked.",
+          "start": 718.58,
+          "end": 719.26
+        }
+      ]
+    }
+  ]
+}

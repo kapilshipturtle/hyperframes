@@ -1,0 +1,739 @@
+{
+  "beats": [
+    {
+      "id": "312",
+      "text": "If you got something out of this, a like genuinely helps.",
+      "start": 1360.42,
+      "end": 1363.75,
+      "durationSeconds": 3.33,
+      "words": [
+        {
+          "text": "If",
+          "start": 1360.42,
+          "end": 1360.66
+        },
+        {
+          "text": "you",
+          "start": 1360.66,
+          "end": 1360.76
+        },
+        {
+          "text": "got",
+          "start": 1360.76,
+          "end": 1360.95
+        },
+        {
+          "text": "something",
+          "start": 1360.95,
+          "end": 1361.28
+        },
+        {
+          "text": "out",
+          "start": 1361.28,
+          "end": 1361.81
+        },
+        {
+          "text": "of",
+          "start": 1361.81,
+          "end": 1361.86
+        },
+        {
+          "text": "this,",
+          "start": 1361.86,
+          "end": 1362.25
+        },
+        {
+          "text": "a",
+          "start": 1362.25,
+          "end": 1362.31
+        },
+        {
+          "text": "like",
+          "start": 1362.31,
+          "end": 1362.49
+        },
+        {
+          "text": "genuinely",
+          "start": 1362.61,
+          "end": 1363.16
+        },
+        {
+          "text": "helps.",
+          "start": 1363.16,
+          "end": 1363.75
+        }
+      ]
+    },
+    {
+      "id": "313",
+      "text": "And subscribing with notifications on means you'll catch the next one.",
+      "start": 1363.75,
+      "end": 1367.54,
+      "durationSeconds": 3.79,
+      "words": [
+        {
+          "text": "And",
+          "start": 1363.75,
+          "end": 1363.98
+        },
+        {
+          "text": "subscribing",
+          "start": 1363.98,
+          "end": 1364.56
+        },
+        {
+          "text": "with",
+          "start": 1364.56,
+          "end": 1364.63
+        },
+        {
+          "text": "notifications",
+          "start": 1365.13,
+          "end": 1365.52
+        },
+        {
+          "text": "on",
+          "start": 1365.52,
+          "end": 1365.63
+        },
+        {
+          "text": "means",
+          "start": 1365.63,
+          "end": 1365.82
+        },
+        {
+          "text": "you'll",
+          "start": 1365.94,
+          "end": 1366.24
+        },
+        {
+          "text": "catch",
+          "start": 1366.25,
+          "end": 1366.53
+        },
+        {
+          "text": "the",
+          "start": 1366.53,
+          "end": 1366.61
+        },
+        {
+          "text": "next",
+          "start": 1366.61,
+          "end": 1366.97
+        },
+        {
+          "text": "one.",
+          "start": 1366.97,
+          "end": 1367.32
+        }
+      ]
+    },
+    {
+      "id": "314",
+      "text": "There's a related video on screen right now about the Iron Air Battery Company founded by the same MIT professor.",
+      "start": 1367.54,
+      "end": 1373.46,
+      "durationSeconds": 5.92,
+      "words": [
+        {
+          "text": "There's",
+          "start": 1367.54,
+          "end": 1367.67
+        },
+        {
+          "text": "a",
+          "start": 1367.67,
+          "end": 1367.79
+        },
+        {
+          "text": "related",
+          "start": 1367.79,
+          "end": 1368.06
+        },
+        {
+          "text": "video",
+          "start": 1368.06,
+          "end": 1368.16
+        },
+        {
+          "text": "on",
+          "start": 1368.32,
+          "end": 1368.41
+        },
+        {
+          "text": "screen",
+          "start": 1368.69,
+          "end": 1368.72
+        },
+        {
+          "text": "right",
+          "start": 1368.72,
+          "end": 1368.97
+        },
+        {
+          "text": "now",
+          "start": 1368.97,
+          "end": 1369.12
+        },
+        {
+          "text": "about",
+          "start": 1369.12,
+          "end": 1369.37
+        },
+        {
+          "text": "the",
+          "start": 1369.37,
+          "end": 1369.52
+        },
+        {
+          "text": "Iron",
+          "start": 1369.52,
+          "end": 1369.72
+        },
+        {
+          "text": "Air",
+          "start": 1369.72,
+          "end": 1369.87
+        },
+        {
+          "text": "Battery",
+          "start": 1369.87,
+          "end": 1370.16
+        },
+        {
+          "text": "Company",
+          "start": 1370.53,
+          "end": 1370.57
+        },
+        {
+          "text": "founded",
+          "start": 1370.57,
+          "end": 1371
+        },
+        {
+          "text": "by",
+          "start": 1371,
+          "end": 1371.22
+        },
+        {
+          "text": "the",
+          "start": 1371.22,
+          "end": 1371.39
+        },
+        {
+          "text": "same",
+          "start": 1371.47,
+          "end": 1371.82
+        },
+        {
+          "text": "MIT",
+          "start": 1371.82,
+          "end": 1371.87
+        },
+        {
+          "text": "professor.",
+          "start": 1372.37,
+          "end": 1373.24
+        }
+      ]
+    },
+    {
+      "id": "315",
+      "text": "Different material, same idea about replacing fire with electrons, and a factory going up on a dead steel mill.",
+      "start": 1373.46,
+      "end": 1379.6,
+      "durationSeconds": 6.14,
+      "words": [
+        {
+          "text": "Different",
+          "start": 1373.46,
+          "end": 1373.77
+        },
+        {
+          "text": "material,",
+          "start": 1373.77,
+          "end": 1374.34
+        },
+        {
+          "text": "same",
+          "start": 1374.34,
+          "end": 1374.61
+        },
+        {
+          "text": "idea",
+          "start": 1374.61,
+          "end": 1374.83
+        },
+        {
+          "text": "about",
+          "start": 1374.83,
+          "end": 1375.13
+        },
+        {
+          "text": "replacing",
+          "start": 1375.13,
+          "end": 1375.66
+        },
+        {
+          "text": "fire",
+          "start": 1375.66,
+          "end": 1375.9
+        },
+        {
+          "text": "with",
+          "start": 1375.9,
+          "end": 1376.08
+        },
+        {
+          "text": "electrons,",
+          "start": 1376.45,
+          "end": 1376.84
+        },
+        {
+          "text": "and",
+          "start": 1376.84,
+          "end": 1376.94
+        },
+        {
+          "text": "a",
+          "start": 1376.94,
+          "end": 1377.23
+        },
+        {
+          "text": "factory",
+          "start": 1377.23,
+          "end": 1377.42
+        },
+        {
+          "text": "going",
+          "start": 1377.42,
+          "end": 1377.68
+        },
+        {
+          "text": "up",
+          "start": 1377.68,
+          "end": 1377.76
+        },
+        {
+          "text": "on",
+          "start": 1377.76,
+          "end": 1378.02
+        },
+        {
+          "text": "a",
+          "start": 1378.02,
+          "end": 1378.07
+        },
+        {
+          "text": "dead",
+          "start": 1378.07,
+          "end": 1378.44
+        },
+        {
+          "text": "steel",
+          "start": 1378.44,
+          "end": 1378.64
+        },
+        {
+          "text": "mill.",
+          "start": 1379.17,
+          "end": 1379.6
+        }
+      ]
+    },
+    {
+      "id": "316",
+      "text": "One question before you go.",
+      "start": 1379.6,
+      "end": 1381.46,
+      "durationSeconds": 1.86,
+      "words": [
+        {
+          "text": "One",
+          "start": 1379.6,
+          "end": 1379.82
+        },
+        {
+          "text": "question",
+          "start": 1379.82,
+          "end": 1380.31
+        },
+        {
+          "text": "before",
+          "start": 1380.31,
+          "end": 1380.44
+        },
+        {
+          "text": "you",
+          "start": 1380.44,
+          "end": 1380.97
+        },
+        {
+          "text": "go.",
+          "start": 1380.97,
+          "end": 1381.24
+        }
+      ]
+    },
+    {
+      "id": "317",
+      "text": "The gap here is $87 million on a $150 million plant.",
+      "start": 1381.46,
+      "end": 1386.18,
+      "durationSeconds": 4.72,
+      "words": [
+        {
+          "text": "The",
+          "start": 1381.46,
+          "end": 1381.51
+        },
+        {
+          "text": "gap",
+          "start": 1381.51,
+          "end": 1381.78
+        },
+        {
+          "text": "here",
+          "start": 1381.78,
+          "end": 1382.06
+        },
+        {
+          "text": "is",
+          "start": 1382.06,
+          "end": 1382.29
+        },
+        {
+          "text": "$87",
+          "start": 1382.29,
+          "end": 1382.95
+        },
+        {
+          "text": "million",
+          "start": 1382.95,
+          "end": 1383.51
+        },
+        {
+          "text": "on",
+          "start": 1383.57,
+          "end": 1383.74
+        },
+        {
+          "text": "a",
+          "start": 1383.76,
+          "end": 1383.85
+        },
+        {
+          "text": "$150",
+          "start": 1383.85,
+          "end": 1384.75
+        },
+        {
+          "text": "million",
+          "start": 1384.75,
+          "end": 1385.38
+        },
+        {
+          "text": "plant.",
+          "start": 1385.38,
+          "end": 1386.15
+        }
+      ]
+    },
+    {
+      "id": "318",
+      "text": "If that money isn't coming from Washington, where should it come from?",
+      "start": 1386.18,
+      "end": 1389,
+      "durationSeconds": 2.82,
+      "words": [
+        {
+          "text": "If",
+          "start": 1386.18,
+          "end": 1386.25
+        },
+        {
+          "text": "that",
+          "start": 1386.38,
+          "end": 1386.43
+        },
+        {
+          "text": "money",
+          "start": 1386.43,
+          "end": 1386.66
+        },
+        {
+          "text": "isn't",
+          "start": 1386.66,
+          "end": 1386.88
+        },
+        {
+          "text": "coming",
+          "start": 1386.88,
+          "end": 1387
+        },
+        {
+          "text": "from",
+          "start": 1387.13,
+          "end": 1387.32
+        },
+        {
+          "text": "Washington,",
+          "start": 1387.53,
+          "end": 1387.88
+        },
+        {
+          "text": "where",
+          "start": 1387.88,
+          "end": 1388.11
+        },
+        {
+          "text": "should",
+          "start": 1388.11,
+          "end": 1388.38
+        },
+        {
+          "text": "it",
+          "start": 1388.38,
+          "end": 1388.45
+        },
+        {
+          "text": "come",
+          "start": 1388.49,
+          "end": 1388.64
+        },
+        {
+          "text": "from?",
+          "start": 1388.65,
+          "end": 1389
+        }
+      ]
+    },
+    {
+      "id": "319",
+      "text": "The cement incumbents who already own the old plants, the tech companies who already signed up to buy the output,",
+      "start": 1389,
+      "end": 1394.33,
+      "durationSeconds": 5.33,
+      "words": [
+        {
+          "text": "The",
+          "start": 1389,
+          "end": 1389.26
+        },
+        {
+          "text": "cement",
+          "start": 1389.26,
+          "end": 1389.52
+        },
+        {
+          "text": "incumbents",
+          "start": 1389.52,
+          "end": 1389.91
+        },
+        {
+          "text": "who",
+          "start": 1390.04,
+          "end": 1390.2
+        },
+        {
+          "text": "already",
+          "start": 1390.41,
+          "end": 1390.59
+        },
+        {
+          "text": "own",
+          "start": 1390.59,
+          "end": 1390.75
+        },
+        {
+          "text": "the",
+          "start": 1390.75,
+          "end": 1390.91
+        },
+        {
+          "text": "old",
+          "start": 1390.91,
+          "end": 1391.07
+        },
+        {
+          "text": "plants,",
+          "start": 1391.07,
+          "end": 1391.49
+        },
+        {
+          "text": "the",
+          "start": 1391.49,
+          "end": 1391.65
+        },
+        {
+          "text": "tech",
+          "start": 1391.65,
+          "end": 1391.86
+        },
+        {
+          "text": "companies",
+          "start": 1391.86,
+          "end": 1392.34
+        },
+        {
+          "text": "who",
+          "start": 1392.42,
+          "end": 1392.5
+        },
+        {
+          "text": "already",
+          "start": 1392.5,
+          "end": 1392.74
+        },
+        {
+          "text": "signed",
+          "start": 1393.18,
+          "end": 1393.29
+        },
+        {
+          "text": "up",
+          "start": 1393.29,
+          "end": 1393.31
+        },
+        {
+          "text": "to",
+          "start": 1393.43,
+          "end": 1393.51
+        },
+        {
+          "text": "buy",
+          "start": 1393.51,
+          "end": 1393.68
+        },
+        {
+          "text": "the",
+          "start": 1393.68,
+          "end": 1393.8
+        },
+        {
+          "text": "output,",
+          "start": 1393.86,
+          "end": 1394.29
+        }
+      ]
+    },
+    {
+      "id": "320",
+      "text": "or private investors who'd want to return before a single-ton ships?",
+      "start": 1394.33,
+      "end": 1398.5,
+      "durationSeconds": 4.17,
+      "words": [
+        {
+          "text": "or",
+          "start": 1394.33,
+          "end": 1394.4
+        },
+        {
+          "text": "private",
+          "start": 1394.4,
+          "end": 1394.79
+        },
+        {
+          "text": "investors",
+          "start": 1394.79,
+          "end": 1395.23
+        },
+        {
+          "text": "who'd",
+          "start": 1395.29,
+          "end": 1395.57
+        },
+        {
+          "text": "want",
+          "start": 1395.57,
+          "end": 1395.78
+        },
+        {
+          "text": "to",
+          "start": 1395.79,
+          "end": 1395.83
+        },
+        {
+          "text": "return",
+          "start": 1396.16,
+          "end": 1396.23
+        },
+        {
+          "text": "before",
+          "start": 1396.34,
+          "end": 1396.64
+        },
+        {
+          "text": "a",
+          "start": 1396.64,
+          "end": 1396.67
+        },
+        {
+          "text": "single-ton",
+          "start": 1396.95,
+          "end": 1397.44
+        },
+        {
+          "text": "ships?",
+          "start": 1397.44,
+          "end": 1398.28
+        }
+      ]
+    },
+    {
+      "id": "321",
+      "text": "Pick one and say what you'd want in exchange.",
+      "start": 1398.5,
+      "end": 1400.68,
+      "durationSeconds": 2.18,
+      "words": [
+        {
+          "text": "Pick",
+          "start": 1398.5,
+          "end": 1398.52
+        },
+        {
+          "text": "one",
+          "start": 1398.52,
+          "end": 1398.67
+        },
+        {
+          "text": "and",
+          "start": 1398.75,
+          "end": 1398.88
+        },
+        {
+          "text": "say",
+          "start": 1398.88,
+          "end": 1399.06
+        },
+        {
+          "text": "what",
+          "start": 1399.06,
+          "end": 1399.15
+        },
+        {
+          "text": "you'd",
+          "start": 1399.28,
+          "end": 1399.6
+        },
+        {
+          "text": "want",
+          "start": 1399.65,
+          "end": 1399.84
+        },
+        {
+          "text": "in",
+          "start": 1399.84,
+          "end": 1399.96
+        },
+        {
+          "text": "exchange.",
+          "start": 1399.96,
+          "end": 1400.68
+        }
+      ]
+    }
+  ]
+}

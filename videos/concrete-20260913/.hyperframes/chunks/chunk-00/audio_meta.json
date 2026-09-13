@@ -1,0 +1,804 @@
+{
+  "bgm": null,
+  "voices": [
+    {
+      "frame": 1,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 0.22,
+      "duration_s": 5.96,
+      "words": [
+        {
+          "text": "Look",
+          "start": 0,
+          "end": 0.28
+        },
+        {
+          "text": "down,",
+          "start": 0.28,
+          "end": 0.89
+        },
+        {
+          "text": "whatever",
+          "start": 1.15,
+          "end": 1.39
+        },
+        {
+          "text": "is",
+          "start": 1.39,
+          "end": 1.51
+        },
+        {
+          "text": "under",
+          "start": 1.51,
+          "end": 1.81
+        },
+        {
+          "text": "your",
+          "start": 1.81,
+          "end": 2.05
+        },
+        {
+          "text": "feet",
+          "start": 2.05,
+          "end": 2.28
+        },
+        {
+          "text": "right",
+          "start": 2.29,
+          "end": 2.59
+        },
+        {
+          "text": "now,",
+          "start": 2.59,
+          "end": 2.85
+        },
+        {
+          "text": "a",
+          "start": 2.85,
+          "end": 2.99
+        },
+        {
+          "text": "floor,",
+          "start": 2.99,
+          "end": 3.49
+        },
+        {
+          "text": "a",
+          "start": 3.76,
+          "end": 3.77
+        },
+        {
+          "text": "sidewalk,",
+          "start": 3.77,
+          "end": 4.39
+        },
+        {
+          "text": "a",
+          "start": 4.39,
+          "end": 4.64
+        },
+        {
+          "text": "parking",
+          "start": 4.64,
+          "end": 5.06
+        },
+        {
+          "text": "structure,",
+          "start": 5.06,
+          "end": 5.96
+        }
+      ]
+    },
+    {
+      "frame": 2,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 6.18,
+      "duration_s": 4.36,
+      "words": [
+        {
+          "text": "the",
+          "start": 0,
+          "end": 0.22
+        },
+        {
+          "text": "slab",
+          "start": 0.22,
+          "end": 0.39
+        },
+        {
+          "text": "your",
+          "start": 0.47,
+          "end": 0.66
+        },
+        {
+          "text": "building",
+          "start": 0.66,
+          "end": 0.84
+        },
+        {
+          "text": "is",
+          "start": 0.84,
+          "end": 1.37
+        },
+        {
+          "text": "standing",
+          "start": 1.37,
+          "end": 1.76
+        },
+        {
+          "text": "on,",
+          "start": 1.76,
+          "end": 2
+        },
+        {
+          "text": "there",
+          "start": 2,
+          "end": 2.29
+        },
+        {
+          "text": "is",
+          "start": 2.33,
+          "end": 2.43
+        },
+        {
+          "text": "a",
+          "start": 2.43,
+          "end": 2.48
+        },
+        {
+          "text": "very",
+          "start": 2.49,
+          "end": 2.73
+        },
+        {
+          "text": "high",
+          "start": 2.73,
+          "end": 2.84
+        },
+        {
+          "text": "chance",
+          "start": 3.21,
+          "end": 3.32
+        },
+        {
+          "text": "it",
+          "start": 3.38,
+          "end": 3.46
+        },
+        {
+          "text": "is",
+          "start": 3.46,
+          "end": 3.58
+        },
+        {
+          "text": "concrete.",
+          "start": 3.58,
+          "end": 4.36
+        }
+      ]
+    },
+    {
+      "frame": 3,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 10.54,
+      "duration_s": 6.91,
+      "words": [
+        {
+          "text": "The",
+          "start": 0,
+          "end": 0.22
+        },
+        {
+          "text": "stairwell",
+          "start": 0.22,
+          "end": 0.75
+        },
+        {
+          "text": "you",
+          "start": 0.75,
+          "end": 0.84
+        },
+        {
+          "text": "use,",
+          "start": 0.94,
+          "end": 1.23
+        },
+        {
+          "text": "the",
+          "start": 1.37,
+          "end": 1.45
+        },
+        {
+          "text": "pipe",
+          "start": 1.45,
+          "end": 1.7
+        },
+        {
+          "text": "carrying",
+          "start": 1.7,
+          "end": 2.21
+        },
+        {
+          "text": "water",
+          "start": 2.21,
+          "end": 2.52
+        },
+        {
+          "text": "to",
+          "start": 2.53,
+          "end": 2.65
+        },
+        {
+          "text": "your",
+          "start": 2.65,
+          "end": 2.84
+        },
+        {
+          "text": "kitchen,",
+          "start": 3.21,
+          "end": 3.52
+        },
+        {
+          "text": "the",
+          "start": 3.52,
+          "end": 3.62
+        },
+        {
+          "text": "bridge",
+          "start": 3.62,
+          "end": 3.71
+        },
+        {
+          "text": "you",
+          "start": 3.71,
+          "end": 3.99
+        },
+        {
+          "text": "crossed",
+          "start": 3.99,
+          "end": 4.16
+        },
+        {
+          "text": "this",
+          "start": 4.16,
+          "end": 4.28
+        },
+        {
+          "text": "morning",
+          "start": 4.5,
+          "end": 4.81
+        },
+        {
+          "text": "without",
+          "start": 4.81,
+          "end": 5.12
+        },
+        {
+          "text": "looking",
+          "start": 5.65,
+          "end": 5.87
+        },
+        {
+          "text": "at",
+          "start": 5.87,
+          "end": 6.01
+        },
+        {
+          "text": "it",
+          "start": 6.02,
+          "end": 6.17
+        },
+        {
+          "text": "once.",
+          "start": 6.17,
+          "end": 6.74
+        }
+      ]
+    },
+    {
+      "frame": 4,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 17.45,
+      "duration_s": 3.95,
+      "words": [
+        {
+          "text": "Concrete",
+          "start": 0,
+          "end": 0.22
+        },
+        {
+          "text": "is",
+          "start": 0.3,
+          "end": 0.4
+        },
+        {
+          "text": "the",
+          "start": 0.4,
+          "end": 0.56
+        },
+        {
+          "text": "second",
+          "start": 0.56,
+          "end": 0.68
+        },
+        {
+          "text": "most",
+          "start": 0.68,
+          "end": 1.2
+        },
+        {
+          "text": "used",
+          "start": 1.2,
+          "end": 1.38
+        },
+        {
+          "text": "substance",
+          "start": 1.38,
+          "end": 1.88
+        },
+        {
+          "text": "on",
+          "start": 1.9,
+          "end": 2.02
+        },
+        {
+          "text": "this",
+          "start": 2.02,
+          "end": 2.25
+        },
+        {
+          "text": "planet,",
+          "start": 2.25,
+          "end": 2.67
+        },
+        {
+          "text": "only",
+          "start": 2.67,
+          "end": 3.04
+        },
+        {
+          "text": "water",
+          "start": 3.04,
+          "end": 3.23
+        },
+        {
+          "text": "beats",
+          "start": 3.23,
+          "end": 3.52
+        },
+        {
+          "text": "it.",
+          "start": 3.52,
+          "end": 3.95
+        }
+      ]
+    },
+    {
+      "frame": 5,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 21.4,
+      "duration_s": 4.58,
+      "words": [
+        {
+          "text": "And",
+          "start": 0,
+          "end": 0.22
+        },
+        {
+          "text": "the",
+          "start": 0.22,
+          "end": 0.37
+        },
+        {
+          "text": "grey",
+          "start": 0.47,
+          "end": 0.64
+        },
+        {
+          "text": "powder",
+          "start": 0.64,
+          "end": 0.84
+        },
+        {
+          "text": "that",
+          "start": 0.84,
+          "end": 1.37
+        },
+        {
+          "text": "holds",
+          "start": 1.37,
+          "end": 1.61
+        },
+        {
+          "text": "it",
+          "start": 1.61,
+          "end": 1.73
+        },
+        {
+          "text": "together,",
+          "start": 1.73,
+          "end": 2.39
+        },
+        {
+          "text": "cement,",
+          "start": 2.39,
+          "end": 2.85
+        },
+        {
+          "text": "is",
+          "start": 2.91,
+          "end": 2.93
+        },
+        {
+          "text": "made",
+          "start": 3.21,
+          "end": 3.3
+        },
+        {
+          "text": "in",
+          "start": 3.38,
+          "end": 3.43
+        },
+        {
+          "text": "one",
+          "start": 3.43,
+          "end": 3.62
+        },
+        {
+          "text": "specific",
+          "start": 3.62,
+          "end": 4.14
+        },
+        {
+          "text": "way.",
+          "start": 4.14,
+          "end": 4.58
+        }
+      ]
+    },
+    {
+      "frame": 6,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 25.98,
+      "duration_s": 2.04,
+      "words": [
+        {
+          "text": "You",
+          "start": 0,
+          "end": 0.26
+        },
+        {
+          "text": "take",
+          "start": 0.26,
+          "end": 0.43
+        },
+        {
+          "text": "limestone",
+          "start": 0.51,
+          "end": 0.86
+        },
+        {
+          "text": "out",
+          "start": 0.99,
+          "end": 1.14
+        },
+        {
+          "text": "of",
+          "start": 1.25,
+          "end": 1.27
+        },
+        {
+          "text": "the",
+          "start": 1.41,
+          "end": 1.48
+        },
+        {
+          "text": "ground.",
+          "start": 1.48,
+          "end": 2.04
+        }
+      ]
+    },
+    {
+      "frame": 7,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 28.02,
+      "duration_s": 6.74,
+      "words": [
+        {
+          "text": "You",
+          "start": 0,
+          "end": 0.22
+        },
+        {
+          "text": "put",
+          "start": 0.22,
+          "end": 0.37
+        },
+        {
+          "text": "it",
+          "start": 0.47,
+          "end": 0.51
+        },
+        {
+          "text": "in",
+          "start": 0.51,
+          "end": 0.64
+        },
+        {
+          "text": "a",
+          "start": 0.64,
+          "end": 0.69
+        },
+        {
+          "text": "kiln,",
+          "start": 0.69,
+          "end": 1.05
+        },
+        {
+          "text": "you",
+          "start": 1.05,
+          "end": 1.37
+        },
+        {
+          "text": "heat",
+          "start": 1.37,
+          "end": 1.53
+        },
+        {
+          "text": "that",
+          "start": 1.53,
+          "end": 1.79
+        },
+        {
+          "text": "kiln",
+          "start": 1.79,
+          "end": 2.04
+        },
+        {
+          "text": "to",
+          "start": 2.04,
+          "end": 2.07
+        },
+        {
+          "text": "about",
+          "start": 2.17,
+          "end": 2.48
+        },
+        {
+          "text": "1,450",
+          "start": 2.49,
+          "end": 3.39
+        },
+        {
+          "text": "degrees",
+          "start": 3.39,
+          "end": 3.7
+        },
+        {
+          "text": "Celsius,",
+          "start": 3.99,
+          "end": 4.42
+        },
+        {
+          "text": "roughly",
+          "start": 4.42,
+          "end": 4.87
+        },
+        {
+          "text": "2,640",
+          "start": 4.87,
+          "end": 5.78
+        },
+        {
+          "text": "Fahrenheit,",
+          "start": 6.12,
+          "end": 6.74
+        }
+      ]
+    },
+    {
+      "frame": 8,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 34.76,
+      "duration_s": 2.84,
+      "words": [
+        {
+          "text": "hot",
+          "start": 0,
+          "end": 0.53
+        },
+        {
+          "text": "enough",
+          "start": 0.53,
+          "end": 0.72
+        },
+        {
+          "text": "that",
+          "start": 0.72,
+          "end": 1.02
+        },
+        {
+          "text": "the",
+          "start": 1.02,
+          "end": 1.22
+        },
+        {
+          "text": "rock",
+          "start": 1.23,
+          "end": 1.54
+        },
+        {
+          "text": "stops",
+          "start": 1.54,
+          "end": 1.91
+        },
+        {
+          "text": "being",
+          "start": 1.91,
+          "end": 2.01
+        },
+        {
+          "text": "rock.",
+          "start": 2.37,
+          "end": 2.84
+        }
+      ]
+    },
+    {
+      "frame": 9,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 37.6,
+      "duration_s": 2.12,
+      "words": [
+        {
+          "text": "Out",
+          "start": 0,
+          "end": 0.22
+        },
+        {
+          "text": "the",
+          "start": 0.22,
+          "end": 0.39
+        },
+        {
+          "text": "other",
+          "start": 0.47,
+          "end": 0.73
+        },
+        {
+          "text": "end",
+          "start": 0.73,
+          "end": 0.84
+        },
+        {
+          "text": "comes",
+          "start": 0.84,
+          "end": 1.37
+        },
+        {
+          "text": "cement.",
+          "start": 1.37,
+          "end": 1.9
+        }
+      ]
+    },
+    {
+      "frame": 10,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 39.72,
+      "duration_s": 3.52,
+      "words": [
+        {
+          "text": "The",
+          "start": 0,
+          "end": 0.02
+        },
+        {
+          "text": "world",
+          "start": 0.02,
+          "end": 0.42
+        },
+        {
+          "text": "does",
+          "start": 0.42,
+          "end": 0.6
+        },
+        {
+          "text": "this",
+          "start": 0.6,
+          "end": 1.15
+        },
+        {
+          "text": "about",
+          "start": 1.15,
+          "end": 1.46
+        },
+        {
+          "text": "4",
+          "start": 1.46,
+          "end": 1.7
+        },
+        {
+          "text": "billion",
+          "start": 1.7,
+          "end": 2.26
+        },
+        {
+          "text": "tons",
+          "start": 2.27,
+          "end": 2.59
+        },
+        {
+          "text": "a",
+          "start": 2.59,
+          "end": 2.63
+        },
+        {
+          "text": "year.",
+          "start": 2.99,
+          "end": 3.3
+        }
+      ]
+    },
+    {
+      "frame": 11,
+      "path": "assets/audio/narration.mp3",
+      "mediaStart": 43.24,
+      "duration_s": 3.14,
+      "words": [
+        {
+          "text": "Here",
+          "start": 0,
+          "end": 0.02
+        },
+        {
+          "text": "is",
+          "start": 0.02,
+          "end": 0.14
+        },
+        {
+          "text": "the",
+          "start": 0.25,
+          "end": 0.32
+        },
+        {
+          "text": "part",
+          "start": 0.32,
+          "end": 0.56
+        },
+        {
+          "text": "almost",
+          "start": 0.56,
+          "end": 0.65
+        },
+        {
+          "text": "nobody",
+          "start": 1.15,
+          "end": 1.28
+        },
+        {
+          "text": "outside",
+          "start": 1.28,
+          "end": 1.71
+        },
+        {
+          "text": "the",
+          "start": 1.71,
+          "end": 1.84
+        },
+        {
+          "text": "industry",
+          "start": 1.96,
+          "end": 2.38
+        },
+        {
+          "text": "knows.",
+          "start": 2.38,
+          "end": 2.92
+        }
+      ]
+    }
+  ],
+  "sfx": []
+}

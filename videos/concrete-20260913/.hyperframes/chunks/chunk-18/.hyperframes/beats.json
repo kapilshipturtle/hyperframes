@@ -1,0 +1,892 @@
+{
+  "beats": [
+    {
+      "id": "189",
+      "text": "Now put the two ends of this story next to each other.",
+      "start": 819.38,
+      "end": 822.38,
+      "durationSeconds": 3,
+      "words": [
+        {
+          "text": "Now",
+          "start": 819.38,
+          "end": 819.78
+        },
+        {
+          "text": "put",
+          "start": 819.78,
+          "end": 819.9
+        },
+        {
+          "text": "the",
+          "start": 819.9,
+          "end": 820.07
+        },
+        {
+          "text": "two",
+          "start": 820.07,
+          "end": 820.23
+        },
+        {
+          "text": "ends",
+          "start": 820.23,
+          "end": 820.4
+        },
+        {
+          "text": "of",
+          "start": 820.4,
+          "end": 820.58
+        },
+        {
+          "text": "this",
+          "start": 820.58,
+          "end": 820.81
+        },
+        {
+          "text": "story",
+          "start": 820.93,
+          "end": 821.09
+        },
+        {
+          "text": "next",
+          "start": 821.09,
+          "end": 821.32
+        },
+        {
+          "text": "to",
+          "start": 821.32,
+          "end": 821.43
+        },
+        {
+          "text": "each",
+          "start": 821.43,
+          "end": 821.62
+        },
+        {
+          "text": "other.",
+          "start": 821.74,
+          "end": 822.16
+        }
+      ]
+    },
+    {
+      "id": "190",
+      "text": "For two thousand years cement got hotter.",
+      "start": 822.38,
+      "end": 826.05,
+      "durationSeconds": 3.67,
+      "words": [
+        {
+          "text": "For",
+          "start": 822.38,
+          "end": 822.46
+        },
+        {
+          "text": "two",
+          "start": 822.46,
+          "end": 822.76
+        },
+        {
+          "text": "thousand",
+          "start": 822.76,
+          "end": 823.57
+        },
+        {
+          "text": "years",
+          "start": 823.57,
+          "end": 824.08
+        },
+        {
+          "text": "cement",
+          "start": 824.08,
+          "end": 824.64
+        },
+        {
+          "text": "got",
+          "start": 824.69,
+          "end": 824.98
+        },
+        {
+          "text": "hotter.",
+          "start": 825.37,
+          "end": 825.86
+        }
+      ]
+    },
+    {
+      "id": "191",
+      "text": "Aspidants kiln, then rotary kilns, then bigger rotary kilns, then pre-calciners and pre-heaters,",
+      "start": 826.05,
+      "end": 831.48,
+      "durationSeconds": 5.43,
+      "words": [
+        {
+          "text": "Aspidants",
+          "start": 826.05,
+          "end": 826.45
+        },
+        {
+          "text": "kiln,",
+          "start": 826.45,
+          "end": 826.78
+        },
+        {
+          "text": "then",
+          "start": 826.78,
+          "end": 826.81
+        },
+        {
+          "text": "rotary",
+          "start": 826.99,
+          "end": 827.35
+        },
+        {
+          "text": "kilns,",
+          "start": 827.35,
+          "end": 827.74
+        },
+        {
+          "text": "then",
+          "start": 827.74,
+          "end": 827.97
+        },
+        {
+          "text": "bigger",
+          "start": 827.97,
+          "end": 828.32
+        },
+        {
+          "text": "rotary",
+          "start": 828.32,
+          "end": 828.66
+        },
+        {
+          "text": "kilns,",
+          "start": 828.66,
+          "end": 829.05
+        },
+        {
+          "text": "then",
+          "start": 829.15,
+          "end": 829.23
+        },
+        {
+          "text": "pre-calciners",
+          "start": 829.32,
+          "end": 830.01
+        },
+        {
+          "text": "and",
+          "start": 830.01,
+          "end": 830.18
+        },
+        {
+          "text": "pre-heaters,",
+          "start": 830.18,
+          "end": 831.26
+        }
+      ]
+    },
+    {
+      "id": "192",
+      "text": "every generation reaching higher temperatures more efficiently.",
+      "start": 831.48,
+      "end": 834.46,
+      "durationSeconds": 2.98,
+      "words": [
+        {
+          "text": "every",
+          "start": 831.48,
+          "end": 831.51
+        },
+        {
+          "text": "generation",
+          "start": 831.51,
+          "end": 832
+        },
+        {
+          "text": "reaching",
+          "start": 832,
+          "end": 832.13
+        },
+        {
+          "text": "higher",
+          "start": 832.63,
+          "end": 832.71
+        },
+        {
+          "text": "temperatures",
+          "start": 832.71,
+          "end": 833.31
+        },
+        {
+          "text": "more",
+          "start": 833.31,
+          "end": 833.51
+        },
+        {
+          "text": "efficiently.",
+          "start": 833.51,
+          "end": 834.13
+        }
+      ]
+    },
+    {
+      "id": "193",
+      "text": "Heat was the axis of progress.",
+      "start": 834.46,
+      "end": 836.16,
+      "durationSeconds": 1.7,
+      "words": [
+        {
+          "text": "Heat",
+          "start": 834.46,
+          "end": 834.52
+        },
+        {
+          "text": "was",
+          "start": 834.52,
+          "end": 834.73
+        },
+        {
+          "text": "the",
+          "start": 834.73,
+          "end": 834.94
+        },
+        {
+          "text": "axis",
+          "start": 834.94,
+          "end": 835.08
+        },
+        {
+          "text": "of",
+          "start": 835.21,
+          "end": 835.35
+        },
+        {
+          "text": "progress.",
+          "start": 835.61,
+          "end": 836.16
+        }
+      ]
+    },
+    {
+      "id": "194",
+      "text": "The entire industrial history of this material is a story about temperature, and the most promising route out of its emissions",
+      "start": 836.16,
+      "end": 842.92,
+      "durationSeconds": 6.76,
+      "words": [
+        {
+          "text": "The",
+          "start": 836.16,
+          "end": 836.38
+        },
+        {
+          "text": "entire",
+          "start": 836.38,
+          "end": 836.71
+        },
+        {
+          "text": "industrial",
+          "start": 836.71,
+          "end": 837
+        },
+        {
+          "text": "history",
+          "start": 837.53,
+          "end": 837.78
+        },
+        {
+          "text": "of",
+          "start": 837.78,
+          "end": 837.89
+        },
+        {
+          "text": "this",
+          "start": 837.89,
+          "end": 838.15
+        },
+        {
+          "text": "material",
+          "start": 838.15,
+          "end": 838.64
+        },
+        {
+          "text": "is",
+          "start": 838.65,
+          "end": 838.77
+        },
+        {
+          "text": "a",
+          "start": 838.77,
+          "end": 838.83
+        },
+        {
+          "text": "story",
+          "start": 838.83,
+          "end": 839
+        },
+        {
+          "text": "about",
+          "start": 839.37,
+          "end": 839.45
+        },
+        {
+          "text": "temperature,",
+          "start": 839.54,
+          "end": 840.26
+        },
+        {
+          "text": "and",
+          "start": 840.26,
+          "end": 840.44
+        },
+        {
+          "text": "the",
+          "start": 840.44,
+          "end": 840.62
+        },
+        {
+          "text": "most",
+          "start": 840.62,
+          "end": 840.75
+        },
+        {
+          "text": "promising",
+          "start": 841.18,
+          "end": 841.53
+        },
+        {
+          "text": "route",
+          "start": 841.53,
+          "end": 841.78
+        },
+        {
+          "text": "out",
+          "start": 841.78,
+          "end": 842.04
+        },
+        {
+          "text": "of",
+          "start": 842.04,
+          "end": 842.15
+        },
+        {
+          "text": "its",
+          "start": 842.33,
+          "end": 842.35
+        },
+        {
+          "text": "emissions",
+          "start": 842.35,
+          "end": 842.92
+        }
+      ]
+    },
+    {
+      "id": "195",
+      "text": "runs at about the temperature of this room.",
+      "start": 842.92,
+      "end": 845.56,
+      "durationSeconds": 2.64,
+      "words": [
+        {
+          "text": "runs",
+          "start": 842.92,
+          "end": 843.17
+        },
+        {
+          "text": "at",
+          "start": 843.17,
+          "end": 843.25
+        },
+        {
+          "text": "about",
+          "start": 843.29,
+          "end": 843.61
+        },
+        {
+          "text": "the",
+          "start": 843.61,
+          "end": 843.78
+        },
+        {
+          "text": "temperature",
+          "start": 844.17,
+          "end": 844.5
+        },
+        {
+          "text": "of",
+          "start": 844.5,
+          "end": 844.62
+        },
+        {
+          "text": "this",
+          "start": 844.62,
+          "end": 844.67
+        },
+        {
+          "text": "room.",
+          "start": 844.95,
+          "end": 845.4
+        }
+      ]
+    },
+    {
+      "id": "196",
+      "text": "Sublime itself points at the connection.",
+      "start": 845.56,
+      "end": 847.46,
+      "durationSeconds": 1.9,
+      "words": [
+        {
+          "text": "Sublime",
+          "start": 845.56,
+          "end": 845.77
+        },
+        {
+          "text": "itself",
+          "start": 845.87,
+          "end": 846.1
+        },
+        {
+          "text": "points",
+          "start": 846.1,
+          "end": 846.24
+        },
+        {
+          "text": "at",
+          "start": 846.43,
+          "end": 846.55
+        },
+        {
+          "text": "the",
+          "start": 846.55,
+          "end": 846.77
+        },
+        {
+          "text": "connection.",
+          "start": 846.77,
+          "end": 847.46
+        }
+      ]
+    },
+    {
+      "id": "197",
+      "text": "Its cement chemistry draws on the older lime and silicate approach, and the company argues the result is more durable than ordinary",
+      "start": 847.46,
+      "end": 853.88,
+      "durationSeconds": 6.42,
+      "words": [
+        {
+          "text": "Its",
+          "start": 847.46,
+          "end": 847.7
+        },
+        {
+          "text": "cement",
+          "start": 847.7,
+          "end": 847.98
+        },
+        {
+          "text": "chemistry",
+          "start": 847.98,
+          "end": 848.3
+        },
+        {
+          "text": "draws",
+          "start": 848.3,
+          "end": 848.85
+        },
+        {
+          "text": "on",
+          "start": 848.85,
+          "end": 848.87
+        },
+        {
+          "text": "the",
+          "start": 848.87,
+          "end": 849.04
+        },
+        {
+          "text": "older",
+          "start": 849.04,
+          "end": 849.32
+        },
+        {
+          "text": "lime",
+          "start": 849.32,
+          "end": 849.53
+        },
+        {
+          "text": "and",
+          "start": 849.53,
+          "end": 849.71
+        },
+        {
+          "text": "silicate",
+          "start": 849.71,
+          "end": 850.16
+        },
+        {
+          "text": "approach,",
+          "start": 850.16,
+          "end": 850.72
+        },
+        {
+          "text": "and",
+          "start": 850.72,
+          "end": 850.89
+        },
+        {
+          "text": "the",
+          "start": 850.89,
+          "end": 851.06
+        },
+        {
+          "text": "company",
+          "start": 851.06,
+          "end": 851.19
+        },
+        {
+          "text": "argues",
+          "start": 851.47,
+          "end": 851.84
+        },
+        {
+          "text": "the",
+          "start": 851.84,
+          "end": 852.06
+        },
+        {
+          "text": "result",
+          "start": 852.06,
+          "end": 852.38
+        },
+        {
+          "text": "is",
+          "start": 852.38,
+          "end": 852.5
+        },
+        {
+          "text": "more",
+          "start": 852.5,
+          "end": 852.66
+        },
+        {
+          "text": "durable",
+          "start": 852.66,
+          "end": 853.21
+        },
+        {
+          "text": "than",
+          "start": 853.21,
+          "end": 853.4
+        },
+        {
+          "text": "ordinary",
+          "start": 853.4,
+          "end": 853.88
+        }
+      ]
+    },
+    {
+      "id": "198",
+      "text": "Portland cement in most applications, which is an odd thing to sit with.",
+      "start": 853.88,
+      "end": 858.2,
+      "durationSeconds": 4.32,
+      "words": [
+        {
+          "text": "Portland",
+          "start": 853.88,
+          "end": 854.34
+        },
+        {
+          "text": "cement",
+          "start": 854.36,
+          "end": 854.66
+        },
+        {
+          "text": "in",
+          "start": 854.66,
+          "end": 855.04
+        },
+        {
+          "text": "most",
+          "start": 855.04,
+          "end": 855.08
+        },
+        {
+          "text": "applications,",
+          "start": 855.08,
+          "end": 855.93
+        },
+        {
+          "text": "which",
+          "start": 855.93,
+          "end": 856.23
+        },
+        {
+          "text": "is",
+          "start": 856.23,
+          "end": 856.35
+        },
+        {
+          "text": "an",
+          "start": 856.35,
+          "end": 856.43
+        },
+        {
+          "text": "odd",
+          "start": 856.69,
+          "end": 856.72
+        },
+        {
+          "text": "thing",
+          "start": 856.94,
+          "end": 857.11
+        },
+        {
+          "text": "to",
+          "start": 857.19,
+          "end": 857.32
+        },
+        {
+          "text": "sit",
+          "start": 857.32,
+          "end": 857.54
+        },
+        {
+          "text": "with.",
+          "start": 857.54,
+          "end": 858.2
+        }
+      ]
+    },
+    {
+      "id": "199",
+      "text": "Two hundred years of making cement hotter, and the way out might be making it cold again.",
+      "start": 858.2,
+      "end": 863.2,
+      "durationSeconds": 5,
+      "words": [
+        {
+          "text": "Two",
+          "start": 858.2,
+          "end": 858.42
+        },
+        {
+          "text": "hundred",
+          "start": 858.42,
+          "end": 858.81
+        },
+        {
+          "text": "years",
+          "start": 858.81,
+          "end": 859.02
+        },
+        {
+          "text": "of",
+          "start": 859.02,
+          "end": 859.57
+        },
+        {
+          "text": "making",
+          "start": 859.57,
+          "end": 859.61
+        },
+        {
+          "text": "cement",
+          "start": 859.61,
+          "end": 859.98
+        },
+        {
+          "text": "hotter,",
+          "start": 859.98,
+          "end": 860.47
+        },
+        {
+          "text": "and",
+          "start": 860.47,
+          "end": 860.65
+        },
+        {
+          "text": "the",
+          "start": 860.65,
+          "end": 860.83
+        },
+        {
+          "text": "way",
+          "start": 860.83,
+          "end": 861.01
+        },
+        {
+          "text": "out",
+          "start": 861.01,
+          "end": 861.07
+        },
+        {
+          "text": "might",
+          "start": 861.41,
+          "end": 861.5
+        },
+        {
+          "text": "be",
+          "start": 861.58,
+          "end": 861.62
+        },
+        {
+          "text": "making",
+          "start": 861.62,
+          "end": 861.9
+        },
+        {
+          "text": "it",
+          "start": 861.9,
+          "end": 862.19
+        },
+        {
+          "text": "cold",
+          "start": 862.19,
+          "end": 862.36
+        },
+        {
+          "text": "again.",
+          "start": 862.36,
+          "end": 862.79
+        }
+      ]
+    },
+    {
+      "id": "200",
+      "text": "That is the science. The science was never going to be the hard part, because the question that decides whether any of this reaches",
+      "start": 863.2,
+      "end": 869.79,
+      "durationSeconds": 6.59,
+      "words": [
+        {
+          "text": "That",
+          "start": 863.2,
+          "end": 863.28
+        },
+        {
+          "text": "is",
+          "start": 863.28,
+          "end": 863.34
+        },
+        {
+          "text": "the",
+          "start": 863.45,
+          "end": 863.65
+        },
+        {
+          "text": "science.",
+          "start": 863.65,
+          "end": 864.42
+        },
+        {
+          "text": "The",
+          "start": 864.42,
+          "end": 864.64
+        },
+        {
+          "text": "science",
+          "start": 864.64,
+          "end": 864.93
+        },
+        {
+          "text": "was",
+          "start": 864.93,
+          "end": 865.08
+        },
+        {
+          "text": "never",
+          "start": 865.08,
+          "end": 865.26
+        },
+        {
+          "text": "going",
+          "start": 865.35,
+          "end": 865.38
+        },
+        {
+          "text": "to",
+          "start": 865.38,
+          "end": 865.79
+        },
+        {
+          "text": "be",
+          "start": 865.79,
+          "end": 865.8
+        },
+        {
+          "text": "the",
+          "start": 865.8,
+          "end": 865.95
+        },
+        {
+          "text": "hard",
+          "start": 865.95,
+          "end": 866.15
+        },
+        {
+          "text": "part,",
+          "start": 866.15,
+          "end": 866.45
+        },
+        {
+          "text": "because",
+          "start": 866.45,
+          "end": 866.81
+        },
+        {
+          "text": "the",
+          "start": 866.81,
+          "end": 866.96
+        },
+        {
+          "text": "question",
+          "start": 866.96,
+          "end": 867.26
+        },
+        {
+          "text": "that",
+          "start": 867.26,
+          "end": 867.63
+        },
+        {
+          "text": "decides",
+          "start": 867.63,
+          "end": 867.93
+        },
+        {
+          "text": "whether",
+          "start": 867.93,
+          "end": 868.12
+        },
+        {
+          "text": "any",
+          "start": 868.62,
+          "end": 868.66
+        },
+        {
+          "text": "of",
+          "start": 868.66,
+          "end": 868.76
+        },
+        {
+          "text": "this",
+          "start": 868.87,
+          "end": 869.18
+        },
+        {
+          "text": "reaches",
+          "start": 869.18,
+          "end": 869.79
+        }
+      ]
+    }
+  ]
+}

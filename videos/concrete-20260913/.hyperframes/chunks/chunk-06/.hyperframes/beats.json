@@ -1,0 +1,783 @@
+{
+  "beats": [
+    {
+      "id": "65",
+      "text": "Carbon cleaner fuel. It works, and it addresses the smaller half of the problem.",
+      "start": 256.58,
+      "end": 261.66,
+      "durationSeconds": 5.08,
+      "words": [
+        {
+          "text": "Carbon",
+          "start": 256.58,
+          "end": 256.73
+        },
+        {
+          "text": "cleaner",
+          "start": 256.74,
+          "end": 257.17
+        },
+        {
+          "text": "fuel.",
+          "start": 257.17,
+          "end": 257.64
+        },
+        {
+          "text": "It",
+          "start": 257.64,
+          "end": 257.86
+        },
+        {
+          "text": "works,",
+          "start": 257.86,
+          "end": 258.28
+        },
+        {
+          "text": "and",
+          "start": 258.28,
+          "end": 258.46
+        },
+        {
+          "text": "it",
+          "start": 258.48,
+          "end": 258.51
+        },
+        {
+          "text": "addresses",
+          "start": 259.01,
+          "end": 259.28
+        },
+        {
+          "text": "the",
+          "start": 259.28,
+          "end": 259.49
+        },
+        {
+          "text": "smaller",
+          "start": 259.49,
+          "end": 260
+        },
+        {
+          "text": "half",
+          "start": 260,
+          "end": 260.29
+        },
+        {
+          "text": "of",
+          "start": 260.29,
+          "end": 260.43
+        },
+        {
+          "text": "the",
+          "start": 260.43,
+          "end": 260.51
+        },
+        {
+          "text": "problem.",
+          "start": 260.85,
+          "end": 261.34
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "text": "Replace some of the clinker with blast furnace slag or coal fly ash, genuinely effective, widely used,",
+      "start": 261.66,
+      "end": 267.04,
+      "durationSeconds": 5.38,
+      "words": [
+        {
+          "text": "Replace",
+          "start": 261.66,
+          "end": 261.83
+        },
+        {
+          "text": "some",
+          "start": 261.91,
+          "end": 262.11
+        },
+        {
+          "text": "of",
+          "start": 262.11,
+          "end": 262.23
+        },
+        {
+          "text": "the",
+          "start": 262.23,
+          "end": 262.31
+        },
+        {
+          "text": "clinker",
+          "start": 262.4,
+          "end": 262.83
+        },
+        {
+          "text": "with",
+          "start": 262.83,
+          "end": 263.07
+        },
+        {
+          "text": "blast",
+          "start": 263.07,
+          "end": 263.37
+        },
+        {
+          "text": "furnace",
+          "start": 263.37,
+          "end": 263.8
+        },
+        {
+          "text": "slag",
+          "start": 263.8,
+          "end": 264.04
+        },
+        {
+          "text": "or",
+          "start": 264.04,
+          "end": 264.16
+        },
+        {
+          "text": "coal",
+          "start": 264.16,
+          "end": 264.28
+        },
+        {
+          "text": "fly",
+          "start": 264.28,
+          "end": 264.65
+        },
+        {
+          "text": "ash,",
+          "start": 264.65,
+          "end": 264.88
+        },
+        {
+          "text": "genuinely",
+          "start": 264.88,
+          "end": 265.14
+        },
+        {
+          "text": "effective,",
+          "start": 265.43,
+          "end": 266.03
+        },
+        {
+          "text": "widely",
+          "start": 266.42,
+          "end": 266.59
+        },
+        {
+          "text": "used,",
+          "start": 266.67,
+          "end": 267.04
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "text": "and quietly running out.",
+      "start": 267.04,
+      "end": 268.94,
+      "durationSeconds": 1.9,
+      "words": [
+        {
+          "text": "and",
+          "start": 267.04,
+          "end": 267.07
+        },
+        {
+          "text": "quietly",
+          "start": 267.57,
+          "end": 267.76
+        },
+        {
+          "text": "running",
+          "start": 267.76,
+          "end": 268.25
+        },
+        {
+          "text": "out.",
+          "start": 268.25,
+          "end": 268.7
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "text": "Because the supply of both depends on steel mills and coal plants that are closing.",
+      "start": 268.94,
+      "end": 273.18,
+      "durationSeconds": 4.24,
+      "words": [
+        {
+          "text": "Because",
+          "start": 268.94,
+          "end": 269.11
+        },
+        {
+          "text": "the",
+          "start": 269.19,
+          "end": 269.3
+        },
+        {
+          "text": "supply",
+          "start": 269.3,
+          "end": 269.54
+        },
+        {
+          "text": "of",
+          "start": 269.65,
+          "end": 269.66
+        },
+        {
+          "text": "both",
+          "start": 269.66,
+          "end": 270.09
+        },
+        {
+          "text": "depends",
+          "start": 270.09,
+          "end": 270.4
+        },
+        {
+          "text": "on",
+          "start": 270.4,
+          "end": 270.51
+        },
+        {
+          "text": "steel",
+          "start": 270.51,
+          "end": 270.77
+        },
+        {
+          "text": "mills",
+          "start": 270.79,
+          "end": 271.09
+        },
+        {
+          "text": "and",
+          "start": 271.09,
+          "end": 271.26
+        },
+        {
+          "text": "coal",
+          "start": 271.26,
+          "end": 271.49
+        },
+        {
+          "text": "plants",
+          "start": 271.49,
+          "end": 271.57
+        },
+        {
+          "text": "that",
+          "start": 271.93,
+          "end": 272.01
+        },
+        {
+          "text": "are",
+          "start": 272.1,
+          "end": 272.24
+        },
+        {
+          "text": "closing.",
+          "start": 272.24,
+          "end": 272.96
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "text": "Improve kiln efficiency, recover waste heat, grind smarter.",
+      "start": 273.18,
+      "end": 276.9,
+      "durationSeconds": 3.72,
+      "words": [
+        {
+          "text": "Improve",
+          "start": 273.18,
+          "end": 273.35
+        },
+        {
+          "text": "kiln",
+          "start": 273.43,
+          "end": 273.67
+        },
+        {
+          "text": "efficiency,",
+          "start": 273.67,
+          "end": 274.46
+        },
+        {
+          "text": "recover",
+          "start": 274.46,
+          "end": 274.92
+        },
+        {
+          "text": "waste",
+          "start": 274.92,
+          "end": 275.23
+        },
+        {
+          "text": "heat,",
+          "start": 275.23,
+          "end": 275.64
+        },
+        {
+          "text": "grind",
+          "start": 275.64,
+          "end": 275.8
+        },
+        {
+          "text": "smarter.",
+          "start": 276.17,
+          "end": 276.66
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "text": "Every one of those worked. Every one of them mattered less than the one before it.",
+      "start": 276.9,
+      "end": 280.68,
+      "durationSeconds": 3.78,
+      "words": [
+        {
+          "text": "Every",
+          "start": 276.9,
+          "end": 276.97
+        },
+        {
+          "text": "one",
+          "start": 276.97,
+          "end": 277.04
+        },
+        {
+          "text": "of",
+          "start": 277.15,
+          "end": 277.25
+        },
+        {
+          "text": "those",
+          "start": 277.25,
+          "end": 277.5
+        },
+        {
+          "text": "worked.",
+          "start": 277.5,
+          "end": 278.08
+        },
+        {
+          "text": "Every",
+          "start": 278.3,
+          "end": 278.35
+        },
+        {
+          "text": "one",
+          "start": 278.35,
+          "end": 278.44
+        },
+        {
+          "text": "of",
+          "start": 278.55,
+          "end": 278.62
+        },
+        {
+          "text": "them",
+          "start": 278.62,
+          "end": 278.83
+        },
+        {
+          "text": "mattered",
+          "start": 278.83,
+          "end": 278.95
+        },
+        {
+          "text": "less",
+          "start": 279.45,
+          "end": 279.5
+        },
+        {
+          "text": "than",
+          "start": 279.5,
+          "end": 279.72
+        },
+        {
+          "text": "the",
+          "start": 279.72,
+          "end": 279.88
+        },
+        {
+          "text": "one",
+          "start": 279.88,
+          "end": 280.04
+        },
+        {
+          "text": "before",
+          "start": 280.04,
+          "end": 280.35
+        },
+        {
+          "text": "it.",
+          "start": 280.36,
+          "end": 280.68
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "text": "Then there is carbon capture, which is where most of the money has gone.",
+      "start": 280.68,
+      "end": 284.46,
+      "durationSeconds": 3.78,
+      "words": [
+        {
+          "text": "Then",
+          "start": 280.68,
+          "end": 280.9
+        },
+        {
+          "text": "there",
+          "start": 280.9,
+          "end": 281.18
+        },
+        {
+          "text": "is",
+          "start": 281.18,
+          "end": 281.29
+        },
+        {
+          "text": "carbon",
+          "start": 281.29,
+          "end": 281.5
+        },
+        {
+          "text": "capture,",
+          "start": 282.03,
+          "end": 282.14
+        },
+        {
+          "text": "which",
+          "start": 282.14,
+          "end": 282.42
+        },
+        {
+          "text": "is",
+          "start": 282.42,
+          "end": 282.53
+        },
+        {
+          "text": "where",
+          "start": 282.53,
+          "end": 282.73
+        },
+        {
+          "text": "most",
+          "start": 282.86,
+          "end": 283.03
+        },
+        {
+          "text": "of",
+          "start": 283.03,
+          "end": 283.14
+        },
+        {
+          "text": "the",
+          "start": 283.14,
+          "end": 283.31
+        },
+        {
+          "text": "money",
+          "start": 283.31,
+          "end": 283.52
+        },
+        {
+          "text": "has",
+          "start": 283.58,
+          "end": 283.61
+        },
+        {
+          "text": "gone.",
+          "start": 283.89,
+          "end": 284.24
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "text": "Plant equipment onto the kiln, catch the carbon dioxide as it leaves, compress it, pipe it somewhere,",
+      "start": 284.46,
+      "end": 289.82,
+      "durationSeconds": 5.36,
+      "words": [
+        {
+          "text": "Plant",
+          "start": 284.46,
+          "end": 284.55
+        },
+        {
+          "text": "equipment",
+          "start": 284.55,
+          "end": 285.05
+        },
+        {
+          "text": "onto",
+          "start": 285.1,
+          "end": 285.11
+        },
+        {
+          "text": "the",
+          "start": 285.11,
+          "end": 285.61
+        },
+        {
+          "text": "kiln,",
+          "start": 285.61,
+          "end": 285.9
+        },
+        {
+          "text": "catch",
+          "start": 285.9,
+          "end": 286.21
+        },
+        {
+          "text": "the",
+          "start": 286.21,
+          "end": 286.3
+        },
+        {
+          "text": "carbon",
+          "start": 286.41,
+          "end": 286.74
+        },
+        {
+          "text": "dioxide",
+          "start": 286.75,
+          "end": 287.08
+        },
+        {
+          "text": "as",
+          "start": 287.19,
+          "end": 287.23
+        },
+        {
+          "text": "it",
+          "start": 287.23,
+          "end": 287.45
+        },
+        {
+          "text": "leaves,",
+          "start": 287.45,
+          "end": 287.92
+        },
+        {
+          "text": "compress",
+          "start": 287.92,
+          "end": 288.42
+        },
+        {
+          "text": "it,",
+          "start": 288.42,
+          "end": 288.66
+        },
+        {
+          "text": "pipe",
+          "start": 288.66,
+          "end": 288.82
+        },
+        {
+          "text": "it",
+          "start": 289.09,
+          "end": 289.12
+        },
+        {
+          "text": "somewhere,",
+          "start": 289.34,
+          "end": 289.82
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "text": "put it underground. The engineering is real.",
+      "start": 289.82,
+      "end": 292.44,
+      "durationSeconds": 2.62,
+      "words": [
+        {
+          "text": "put",
+          "start": 289.82,
+          "end": 289.96
+        },
+        {
+          "text": "it",
+          "start": 289.96,
+          "end": 290.49
+        },
+        {
+          "text": "underground.",
+          "start": 290.49,
+          "end": 291.08
+        },
+        {
+          "text": "The",
+          "start": 291.08,
+          "end": 291.3
+        },
+        {
+          "text": "engineering",
+          "start": 291.3,
+          "end": 291.89
+        },
+        {
+          "text": "is",
+          "start": 291.89,
+          "end": 291.95
+        },
+        {
+          "text": "real.",
+          "start": 292.01,
+          "end": 292.44
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "text": "The problem is that it makes a cheap product expensive.",
+      "start": 292.44,
+      "end": 295.62,
+      "durationSeconds": 3.18,
+      "words": [
+        {
+          "text": "The",
+          "start": 292.44,
+          "end": 292.66
+        },
+        {
+          "text": "problem",
+          "start": 292.66,
+          "end": 293.05
+        },
+        {
+          "text": "is",
+          "start": 293.05,
+          "end": 293.17
+        },
+        {
+          "text": "that",
+          "start": 293.17,
+          "end": 293.28
+        },
+        {
+          "text": "it",
+          "start": 293.4,
+          "end": 293.52
+        },
+        {
+          "text": "makes",
+          "start": 293.81,
+          "end": 293.83
+        },
+        {
+          "text": "a",
+          "start": 293.83,
+          "end": 293.89
+        },
+        {
+          "text": "cheap",
+          "start": 293.89,
+          "end": 294.19
+        },
+        {
+          "text": "product",
+          "start": 294.19,
+          "end": 294.49
+        },
+        {
+          "text": "expensive.",
+          "start": 294.62,
+          "end": 295.28
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "text": "Capture equipment needs its own energy supply, which means burning more to catch more.",
+      "start": 295.62,
+      "end": 299.64,
+      "durationSeconds": 4.02,
+      "words": [
+        {
+          "text": "Capture",
+          "start": 295.62,
+          "end": 295.78
+        },
+        {
+          "text": "equipment",
+          "start": 295.79,
+          "end": 296.21
+        },
+        {
+          "text": "needs",
+          "start": 296.21,
+          "end": 296.49
+        },
+        {
+          "text": "its",
+          "start": 296.49,
+          "end": 296.77
+        },
+        {
+          "text": "own",
+          "start": 296.77,
+          "end": 296.88
+        },
+        {
+          "text": "energy",
+          "start": 296.88,
+          "end": 297.21
+        },
+        {
+          "text": "supply,",
+          "start": 297.21,
+          "end": 297.65
+        },
+        {
+          "text": "which",
+          "start": 297.65,
+          "end": 297.9
+        },
+        {
+          "text": "means",
+          "start": 297.92,
+          "end": 298.19
+        },
+        {
+          "text": "burning",
+          "start": 298.19,
+          "end": 298.25
+        },
+        {
+          "text": "more",
+          "start": 298.61,
+          "end": 298.8
+        },
+        {
+          "text": "to",
+          "start": 298.8,
+          "end": 298.91
+        },
+        {
+          "text": "catch",
+          "start": 298.91,
+          "end": 299.1
+        },
+        {
+          "text": "more.",
+          "start": 299.38,
+          "end": 299.64
+        }
+      ]
+    }
+  ]
+}

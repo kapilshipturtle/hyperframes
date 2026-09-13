@@ -1,0 +1,823 @@
+{
+  "beats": [
+    {
+      "id": "106",
+      "text": "Not by cooking the rock, but by dissolving it and reassembling the pieces you want.",
+      "start": 424.8,
+      "end": 429.31,
+      "durationSeconds": 4.51,
+      "words": [
+        {
+          "text": "Not",
+          "start": 424.8,
+          "end": 425.02
+        },
+        {
+          "text": "by",
+          "start": 425.02,
+          "end": 425.1
+        },
+        {
+          "text": "cooking",
+          "start": 425.1,
+          "end": 425.53
+        },
+        {
+          "text": "the",
+          "start": 425.53,
+          "end": 425.64
+        },
+        {
+          "text": "rock,",
+          "start": 425.7,
+          "end": 426.08
+        },
+        {
+          "text": "but",
+          "start": 426.17,
+          "end": 426.26
+        },
+        {
+          "text": "by",
+          "start": 426.26,
+          "end": 426.38
+        },
+        {
+          "text": "dissolving",
+          "start": 426.38,
+          "end": 427
+        },
+        {
+          "text": "it",
+          "start": 427,
+          "end": 427.09
+        },
+        {
+          "text": "and",
+          "start": 427.13,
+          "end": 427.3
+        },
+        {
+          "text": "reassembling",
+          "start": 427.3,
+          "end": 428.04
+        },
+        {
+          "text": "the",
+          "start": 428.04,
+          "end": 428.22
+        },
+        {
+          "text": "pieces",
+          "start": 428.22,
+          "end": 428.5
+        },
+        {
+          "text": "you",
+          "start": 428.5,
+          "end": 428.79
+        },
+        {
+          "text": "want.",
+          "start": 428.79,
+          "end": 429.31
+        }
+      ]
+    },
+    {
+      "id": "107",
+      "text": "That is Sublime's process, and the company describes it plainly, an electrochemical system that extracts reactive calcium and silicates",
+      "start": 429.31,
+      "end": 435.79,
+      "durationSeconds": 6.48,
+      "words": [
+        {
+          "text": "That",
+          "start": 429.31,
+          "end": 429.54
+        },
+        {
+          "text": "is",
+          "start": 429.54,
+          "end": 429.63
+        },
+        {
+          "text": "Sublime's",
+          "start": 429.63,
+          "end": 430.1
+        },
+        {
+          "text": "process,",
+          "start": 430.1,
+          "end": 430.57
+        },
+        {
+          "text": "and",
+          "start": 430.69,
+          "end": 430.73
+        },
+        {
+          "text": "the",
+          "start": 430.73,
+          "end": 430.89
+        },
+        {
+          "text": "company",
+          "start": 430.89,
+          "end": 431.26
+        },
+        {
+          "text": "describes",
+          "start": 431.26,
+          "end": 431.74
+        },
+        {
+          "text": "it",
+          "start": 431.74,
+          "end": 431.82
+        },
+        {
+          "text": "plainly,",
+          "start": 431.83,
+          "end": 432.31
+        },
+        {
+          "text": "an",
+          "start": 432.31,
+          "end": 432.36
+        },
+        {
+          "text": "electrochemical",
+          "start": 432.53,
+          "end": 433.32
+        },
+        {
+          "text": "system",
+          "start": 433.32,
+          "end": 433.72
+        },
+        {
+          "text": "that",
+          "start": 433.72,
+          "end": 433.94
+        },
+        {
+          "text": "extracts",
+          "start": 433.94,
+          "end": 434.36
+        },
+        {
+          "text": "reactive",
+          "start": 434.36,
+          "end": 434.56
+        },
+        {
+          "text": "calcium",
+          "start": 435.09,
+          "end": 435.16
+        },
+        {
+          "text": "and",
+          "start": 435.16,
+          "end": 435.32
+        },
+        {
+          "text": "silicates",
+          "start": 435.32,
+          "end": 435.77
+        }
+      ]
+    },
+    {
+      "id": "108",
+      "text": "from a range of raw materials at ambient temperature, using clean electricity and carbon-free inputs to produce",
+      "start": 435.79,
+      "end": 442.55,
+      "durationSeconds": 6.76,
+      "words": [
+        {
+          "text": "from",
+          "start": 435.79,
+          "end": 436
+        },
+        {
+          "text": "a",
+          "start": 436.01,
+          "end": 436.06
+        },
+        {
+          "text": "range",
+          "start": 436.06,
+          "end": 436.32
+        },
+        {
+          "text": "of",
+          "start": 436.32,
+          "end": 436.42
+        },
+        {
+          "text": "raw",
+          "start": 436.42,
+          "end": 436.56
+        },
+        {
+          "text": "materials",
+          "start": 436.93,
+          "end": 437.04
+        },
+        {
+          "text": "at",
+          "start": 437.1,
+          "end": 437.16
+        },
+        {
+          "text": "ambient",
+          "start": 437.16,
+          "end": 437.42
+        },
+        {
+          "text": "temperature,",
+          "start": 437.71,
+          "end": 438.56
+        },
+        {
+          "text": "using",
+          "start": 438.78,
+          "end": 438.93
+        },
+        {
+          "text": "clean",
+          "start": 438.95,
+          "end": 439.29
+        },
+        {
+          "text": "electricity",
+          "start": 439.3,
+          "end": 440.13
+        },
+        {
+          "text": "and",
+          "start": 440.13,
+          "end": 440.35
+        },
+        {
+          "text": "carbon-free",
+          "start": 440.35,
+          "end": 441.17
+        },
+        {
+          "text": "inputs",
+          "start": 441.17,
+          "end": 441.4
+        },
+        {
+          "text": "to",
+          "start": 441.76,
+          "end": 441.77
+        },
+        {
+          "text": "produce",
+          "start": 441.77,
+          "end": 442.26
+        }
+      ]
+    },
+    {
+      "id": "109",
+      "text": "cement. Read the two halves of that again, because they solve two different problems.",
+      "start": 442.55,
+      "end": 447.2,
+      "durationSeconds": 4.65,
+      "words": [
+        {
+          "text": "cement.",
+          "start": 442.55,
+          "end": 443.02
+        },
+        {
+          "text": "Read",
+          "start": 443.24,
+          "end": 443.25
+        },
+        {
+          "text": "the",
+          "start": 443.25,
+          "end": 443.41
+        },
+        {
+          "text": "two",
+          "start": 443.49,
+          "end": 443.59
+        },
+        {
+          "text": "halves",
+          "start": 443.59,
+          "end": 443.84
+        },
+        {
+          "text": "of",
+          "start": 443.84,
+          "end": 444.23
+        },
+        {
+          "text": "that",
+          "start": 444.23,
+          "end": 444.25
+        },
+        {
+          "text": "again,",
+          "start": 444.39,
+          "end": 444.68
+        },
+        {
+          "text": "because",
+          "start": 444.68,
+          "end": 445.07
+        },
+        {
+          "text": "they",
+          "start": 445.08,
+          "end": 445.31
+        },
+        {
+          "text": "solve",
+          "start": 445.35,
+          "end": 445.61
+        },
+        {
+          "text": "two",
+          "start": 445.61,
+          "end": 445.78
+        },
+        {
+          "text": "different",
+          "start": 445.78,
+          "end": 446.31
+        },
+        {
+          "text": "problems.",
+          "start": 446.4,
+          "end": 447.04
+        }
+      ]
+    },
+    {
+      "id": "110",
+      "text": "Ambient temperature kills the fuel emission.",
+      "start": 447.2,
+      "end": 449.5,
+      "durationSeconds": 2.3,
+      "words": [
+        {
+          "text": "Ambient",
+          "start": 447.2,
+          "end": 447.41
+        },
+        {
+          "text": "temperature",
+          "start": 447.41,
+          "end": 447.86
+        },
+        {
+          "text": "kills",
+          "start": 448,
+          "end": 448.28
+        },
+        {
+          "text": "the",
+          "start": 448.41,
+          "end": 448.44
+        },
+        {
+          "text": "fuel",
+          "start": 448.44,
+          "end": 448.65
+        },
+        {
+          "text": "emission.",
+          "start": 448.65,
+          "end": 449.28
+        }
+      ]
+    },
+    {
+      "id": "111",
+      "text": "There is no flame to decarbonize because there is no flame.",
+      "start": 449.5,
+      "end": 453.39,
+      "durationSeconds": 3.89,
+      "words": [
+        {
+          "text": "There",
+          "start": 449.5,
+          "end": 449.65
+        },
+        {
+          "text": "is",
+          "start": 449.75,
+          "end": 449.81
+        },
+        {
+          "text": "no",
+          "start": 449.81,
+          "end": 449.95
+        },
+        {
+          "text": "flame",
+          "start": 449.95,
+          "end": 450.12
+        },
+        {
+          "text": "to",
+          "start": 450.33,
+          "end": 450.49
+        },
+        {
+          "text": "decarbonize",
+          "start": 450.65,
+          "end": 451.33
+        },
+        {
+          "text": "because",
+          "start": 451.33,
+          "end": 451.87
+        },
+        {
+          "text": "there",
+          "start": 451.87,
+          "end": 452.12
+        },
+        {
+          "text": "is",
+          "start": 452.12,
+          "end": 452.49
+        },
+        {
+          "text": "no",
+          "start": 452.49,
+          "end": 452.55
+        },
+        {
+          "text": "flame.",
+          "start": 452.66,
+          "end": 452.99
+        }
+      ]
+    },
+    {
+      "id": "112",
+      "text": "Calcium-free inputs kills the process emission, and this is the part that actually matters.",
+      "start": 453.39,
+      "end": 457.32,
+      "durationSeconds": 3.93,
+      "words": [
+        {
+          "text": "Calcium-free",
+          "start": 453.39,
+          "end": 453.84
+        },
+        {
+          "text": "inputs",
+          "start": 453.84,
+          "end": 454.06
+        },
+        {
+          "text": "kills",
+          "start": 454.14,
+          "end": 454.15
+        },
+        {
+          "text": "the",
+          "start": 454.15,
+          "end": 454.61
+        },
+        {
+          "text": "process",
+          "start": 454.61,
+          "end": 454.89
+        },
+        {
+          "text": "emission,",
+          "start": 454.89,
+          "end": 455.31
+        },
+        {
+          "text": "and",
+          "start": 455.42,
+          "end": 455.53
+        },
+        {
+          "text": "this",
+          "start": 455.57,
+          "end": 455.74
+        },
+        {
+          "text": "is",
+          "start": 455.74,
+          "end": 455.84
+        },
+        {
+          "text": "the",
+          "start": 455.84,
+          "end": 455.99
+        },
+        {
+          "text": "part",
+          "start": 455.99,
+          "end": 456.08
+        },
+        {
+          "text": "that",
+          "start": 456.08,
+          "end": 456.45
+        },
+        {
+          "text": "actually",
+          "start": 456.45,
+          "end": 456.79
+        },
+        {
+          "text": "matters.",
+          "start": 456.79,
+          "end": 457.32
+        }
+      ]
+    },
+    {
+      "id": "113",
+      "text": "The process does not need limestone.",
+      "start": 457.32,
+      "end": 459.37,
+      "durationSeconds": 2.05,
+      "words": [
+        {
+          "text": "The",
+          "start": 457.32,
+          "end": 457.54
+        },
+        {
+          "text": "process",
+          "start": 457.54,
+          "end": 457.95
+        },
+        {
+          "text": "does",
+          "start": 457.95,
+          "end": 458.14
+        },
+        {
+          "text": "not",
+          "start": 458.14,
+          "end": 458.42
+        },
+        {
+          "text": "need",
+          "start": 458.42,
+          "end": 458.7
+        },
+        {
+          "text": "limestone.",
+          "start": 458.7,
+          "end": 459.37
+        }
+      ]
+    },
+    {
+      "id": "114",
+      "text": "It can work from non-carbonate rock, low-value stone, and industrial waste, material with no carbon dioxide locked",
+      "start": 459.37,
+      "end": 465.89,
+      "durationSeconds": 6.52,
+      "words": [
+        {
+          "text": "It",
+          "start": 459.37,
+          "end": 459.66
+        },
+        {
+          "text": "can",
+          "start": 459.66,
+          "end": 459.74
+        },
+        {
+          "text": "work",
+          "start": 459.74,
+          "end": 459.98
+        },
+        {
+          "text": "from",
+          "start": 459.98,
+          "end": 460.22
+        },
+        {
+          "text": "non-carbonate",
+          "start": 460.22,
+          "end": 461.01
+        },
+        {
+          "text": "rock,",
+          "start": 461.01,
+          "end": 461.37
+        },
+        {
+          "text": "low-value",
+          "start": 461.37,
+          "end": 461.92
+        },
+        {
+          "text": "stone,",
+          "start": 461.92,
+          "end": 462.29
+        },
+        {
+          "text": "and",
+          "start": 462.34,
+          "end": 462.37
+        },
+        {
+          "text": "industrial",
+          "start": 462.65,
+          "end": 463.15
+        },
+        {
+          "text": "waste,",
+          "start": 463.15,
+          "end": 463.58
+        },
+        {
+          "text": "material",
+          "start": 463.58,
+          "end": 464.02
+        },
+        {
+          "text": "with",
+          "start": 464.29,
+          "end": 464.41
+        },
+        {
+          "text": "no",
+          "start": 464.41,
+          "end": 464.64
+        },
+        {
+          "text": "carbon",
+          "start": 464.64,
+          "end": 464.98
+        },
+        {
+          "text": "dioxide",
+          "start": 464.98,
+          "end": 465.24
+        },
+        {
+          "text": "locked",
+          "start": 465.79,
+          "end": 465.89
+        }
+      ]
+    },
+    {
+      "id": "115",
+      "text": "inside it to release. You cannot capture an emission that was never created.",
+      "start": 465.89,
+      "end": 470.32,
+      "durationSeconds": 4.43,
+      "words": [
+        {
+          "text": "inside",
+          "start": 465.89,
+          "end": 466.31
+        },
+        {
+          "text": "it",
+          "start": 466.31,
+          "end": 466.45
+        },
+        {
+          "text": "to",
+          "start": 466.45,
+          "end": 466.49
+        },
+        {
+          "text": "release.",
+          "start": 466.58,
+          "end": 467.26
+        },
+        {
+          "text": "You",
+          "start": 467.26,
+          "end": 467.56
+        },
+        {
+          "text": "cannot",
+          "start": 467.56,
+          "end": 467.85
+        },
+        {
+          "text": "capture",
+          "start": 467.85,
+          "end": 468.16
+        },
+        {
+          "text": "an",
+          "start": 468.16,
+          "end": 468.71
+        },
+        {
+          "text": "emission",
+          "start": 468.71,
+          "end": 468.81
+        },
+        {
+          "text": "that",
+          "start": 468.81,
+          "end": 469.04
+        },
+        {
+          "text": "was",
+          "start": 469.04,
+          "end": 469.21
+        },
+        {
+          "text": "never",
+          "start": 469.21,
+          "end": 469.4
+        },
+        {
+          "text": "created.",
+          "start": 469.51,
+          "end": 470.1
+        }
+      ]
+    },
+    {
+      "id": "116",
+      "text": "This is not a cleaner kiln. It is not a better limestone.",
+      "start": 470.32,
+      "end": 473.26,
+      "durationSeconds": 2.94,
+      "words": [
+        {
+          "text": "This",
+          "start": 470.32,
+          "end": 470.34
+        },
+        {
+          "text": "is",
+          "start": 470.34,
+          "end": 470.46
+        },
+        {
+          "text": "not",
+          "start": 470.57,
+          "end": 470.64
+        },
+        {
+          "text": "a",
+          "start": 470.64,
+          "end": 470.7
+        },
+        {
+          "text": "cleaner",
+          "start": 470.7,
+          "end": 470.92
+        },
+        {
+          "text": "kiln.",
+          "start": 471.1,
+          "end": 471.56
+        },
+        {
+          "text": "It",
+          "start": 471.56,
+          "end": 471.78
+        },
+        {
+          "text": "is",
+          "start": 471.78,
+          "end": 471.82
+        },
+        {
+          "text": "not",
+          "start": 471.82,
+          "end": 471.92
+        },
+        {
+          "text": "a",
+          "start": 472.03,
+          "end": 472.07
+        },
+        {
+          "text": "better",
+          "start": 472.07,
+          "end": 472.38
+        },
+        {
+          "text": "limestone.",
+          "start": 472.93,
+          "end": 473.26
+        }
+      ]
+    }
+  ]
+}

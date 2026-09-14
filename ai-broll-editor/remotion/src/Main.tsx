@@ -25,8 +25,8 @@ export const Main: React.FC<MainProps> = (props) => {
 
   return (
     <AbsoluteFill style={{ backgroundColor: "#000" }}>
-      {/* music */}
-      {tracks.music.map((m) => <MusicAudio key={m.id} item={m} duck={props.duckCurveValues} />)}
+      {/* music (spec 14: audio is mixed by FFmpeg; only rendered here when renderAudio is set, e.g. Studio) */}
+      {props.renderAudio ? tracks.music.map((m) => <MusicAudio key={m.id} item={m} duck={props.duckCurveValues} />) : null}
 
       {/* broll (+ per-item grade when sections differ) */}
       {brollGradeless ? (
@@ -78,17 +78,17 @@ export const Main: React.FC<MainProps> = (props) => {
       {/* captions */}
       {tracks.captions.enabled ? <Captions pages={tracks.captions.pages} style={tracks.captions.style} /> : null}
 
-      {/* sfx */}
-      {tracks.sfx.map((s) => (
+      {/* sfx + narration: FFmpeg audio_mix.ts owns the mix; rendered only when renderAudio is set */}
+      {props.renderAudio ? tracks.sfx.map((s) => (
         <Sequence key={s.id} from={s.from} layout="none">
           <Audio src={resolveSrc(s.src)} volume={s.volume} />
         </Sequence>
-      ))}
-
-      {/* narration: untouched */}
-      <Sequence from={props.narration.startFrame} layout="none">
-        <Audio src={resolveSrc(props.narration.src)} />
-      </Sequence>
+      )) : null}
+      {props.renderAudio ? (
+        <Sequence from={props.narration.startFrame} layout="none">
+          <Audio src={resolveSrc(props.narration.src)} />
+        </Sequence>
+      ) : null}
     </AbsoluteFill>
   );
 };

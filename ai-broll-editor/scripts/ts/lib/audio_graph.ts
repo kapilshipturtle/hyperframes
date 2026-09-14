@@ -16,10 +16,13 @@ export interface AudioMixOverride { narration?: Timeline["narration"]; music?: M
 export interface ResolvedAudio { narration: Timeline["narration"]; music: MusicItem[]; sfx: SfxItem[]; duckThreshold: number; duckRatio: number }
 
 export function resolveAudioTracks(t: Timeline, o: AudioMixOverride | null): ResolvedAudio {
+  // Spec 14: every delay is `from / 30 * 1000` from the SAME timeline.json. The Brain's audio-mix.json carries
+  // ms-shaped items (delayMs) for other consumers; only its ducking parameters are honoured here.
+  for (const s of t.tracks.sfx) if (!Number.isFinite(s.from) || s.from < 0) throw new Error(`sfx ${s.id}: invalid from ${s.from}`);
   return {
-    narration: o?.narration ?? t.narration,
-    music: o?.music ?? t.tracks.music,
-    sfx: o?.sfx ?? t.tracks.sfx,
+    narration: t.narration,
+    music: t.tracks.music,
+    sfx: t.tracks.sfx,
     duckThreshold: o?.duckThreshold ?? 0.02,
     duckRatio: o?.duckRatio ?? 8,
   };

@@ -128,6 +128,13 @@ jobs:
         with:
           name: job-${{ inputs.job_id }}-inputs
           path: ai-broll-editor/work/${{ inputs.job_id }}
+      - name: Restore previous run's job state for render-only (optional; assets.json, prepared/, transcript, plans)
+        if: inputs.stage == 'render-only'
+        uses: actions/download-artifact@v4
+        continue-on-error: true
+        with:
+          name: job-${{ inputs.job_id }}
+          path: ai-broll-editor/work/${{ inputs.job_id }}
 
       - name: Check job dir
         run: |

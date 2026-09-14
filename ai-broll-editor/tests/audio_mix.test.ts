@@ -43,13 +43,16 @@ describe("audio graph", () => {
     expect(g.filterComplex).toContain("[voice][mduck][st0]amix=inputs=3:normalize=0:dropout_transition=0:duration=first,alimiter=limit=0.95[out]");
   });
 
-  it("audio-mix.json overrides win over timeline tracks", () => {
+  it("timeline tracks are the single source of truth; audio-mix.json only tunes ducking (spec 14)", () => {
     const t = { narration: { src: "n.m4a", startFrame: 0 }, tracks: { music: [music()], sfx: [] } } as unknown as Timeline;
     const a = resolveAudioTracks(t, { music: [], duckRatio: 4 });
-    expect(a.music).toEqual([]);
+    expect(a.music).toHaveLength(1);
     expect(a.duckRatio).toBe(4);
     const g = buildPremix(a, resolve, [], 300);
-    expect(g.filterComplex).not.toContain("sidechaincompress");
-    expect(g.filterComplex).toContain("[voice]alimiter=limit=0.95[out]");
+    expect(g.filterComplex).toContain("sidechaincompress");
+  });
+  it("rejects a negative or missing sfx frame", () => {
+    const t = { narration: { src: "n.m4a", startFrame: 0 }, tracks: { music: [], sfx: [{ id: "s", from: -3, src: "x.mp3", volume: 0.3, tag: "pop", reason: "" }] } } as unknown as Timeline;
+    expect(() => resolveAudioTracks(t, null)).toThrow(/invalid from/);
   });
 });

@@ -80,9 +80,13 @@ def face_edge_penalty(frame_path: Path) -> tuple[float, Optional[str]]:
     if img is None:
         return 0.0, None
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-    cascade_path = Path(cv2.data.haarcascades) / "haarcascade_frontalface_default.xml"
-    cascade = cv2.CascadeClassifier(str(cascade_path))
-    if cascade.empty():
+    try:
+        # OpenCV 5 dropped CascadeClassifier from the core wheel; the penalty is optional (spec 8.8 "cheap")
+        cascade_path = Path(cv2.data.haarcascades) / "haarcascade_frontalface_default.xml"
+        cascade = cv2.CascadeClassifier(str(cascade_path))
+        if cascade.empty():
+            return 0.0, None
+    except (AttributeError, Exception):
         return 0.0, None
     faces = cascade.detectMultiScale(gray, scaleFactor=1.15, minNeighbors=4, minSize=(24, 24))
     h, w = gray.shape[:2]

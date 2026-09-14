@@ -273,7 +273,7 @@ export function assignShots(ctx: Ctx, cuts: Cut[], parts: Map<string, string[]>)
       if (base.motion.type === "speed-ramp" && !base.motion.playbackRate) base.motion.playbackRate = 1;
       // media list
       const cellAssets = [a2, ...base.extraAssets];
-      base.media = cellAssets.map((a, k) => ({ src: srcFor(ctx, c.beatId, a), kind: a.kind, startFromFrame: 0, ...(base.gridLabels?.[k] ? { label: base.gridLabels[k] } : {}) }));
+      base.media = cellAssets.map((a, k) => ({ src: srcFor(ctx, c.beatId, a), kind: a.kind, startFromFrame: 0, ...(a.height > a.width ? { portrait: true } : {}), ...(base.gridLabels?.[k] ? { label: base.gridLabels[k] } : {}) }));
       if (base.continuation && prev) base.media[0].startFromFrame = 0; // finalised in P6 (frame domain)
       if (!base.continuation) for (const a of cellAssets) ledger.take(a, endFrame);
       else for (const a of cellAssets) ledger.touch(a, endFrame);

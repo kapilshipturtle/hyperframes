@@ -148,6 +148,9 @@
                     "freezeAfterFrame": {
                       "type": "integer",
                       "minimum": 0
+                    },
+                    "portrait": {
+                      "type": "boolean"
                     }
                   },
                   "required": [

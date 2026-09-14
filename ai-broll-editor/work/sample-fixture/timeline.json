@@ -153,6 +153,7 @@
         "media": [
           {
             "kind": "image",
+            "portrait": true,
             "src": "assets/0004.jpg",
             "startFromFrame": 0
           }
@@ -371,6 +372,7 @@
         "media": [
           {
             "kind": "image",
+            "portrait": true,
             "src": "assets/0011.jpg",
             "startFromFrame": 0
           }
@@ -640,6 +642,7 @@
         "media": [
           {
             "kind": "image",
+            "portrait": true,
             "src": "assets/0018.jpg",
             "startFromFrame": 0
           }
@@ -942,6 +945,7 @@
         "media": [
           {
             "kind": "image",
+            "portrait": true,
             "src": "assets/0025.jpg",
             "startFromFrame": 0
           }

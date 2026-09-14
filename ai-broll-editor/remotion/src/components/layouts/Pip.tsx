@@ -6,10 +6,13 @@ import { BlurPlate, MotionMedia, type LayoutProps } from "./shared";
 export const PipOverBlur: React.FC<LayoutProps> = ({ item }) => {
   const m = item.media[0];
   const sd = item.tier === "archival" || item.tier === "y2";
+  // portrait media gets a tall centred window; landscape (archival / SD) media fills ~84 % of the width
+  const portrait = !!m?.portrait;
+  const padding = sd ? "6% 8%" : portrait ? "3% 30%" : "6% 8%";
   return (
     <AbsoluteFill style={{ backgroundColor: "#000" }}>
-      {m ? <BlurPlate media={m} /> : null}
-      <AbsoluteFill style={{ padding: sd ? "6% 18%" : "4% 22%" }}>
+      {m ? <BlurPlate media={m} brightness={0.85} /> : null}
+      <AbsoluteFill style={{ padding }}>
         <div style={{ position: "relative", width: "100%", height: "100%", overflow: "hidden", borderRadius: sd ? 0 : 12, boxShadow: "0 30px 80px rgba(0,0,0,0.55)", filter: sd ? "sepia(0.2) contrast(1.05)" : undefined }}>
           <MotionMedia item={item} objectFit="contain" />
         </div>

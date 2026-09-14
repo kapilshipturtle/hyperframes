@@ -146,7 +146,7 @@ export type Assets = Record<string, BeatAssets>;
 
 // ---------- timeline.json ----------
 export type Route = "ffmpeg" | "remotion";
-export interface MediaRef { src: string; kind: "video" | "image"; startFromFrame: number; label?: string; freezeAfterFrame?: number }
+export interface MediaRef { src: string; kind: "video" | "image"; startFromFrame: number; label?: string; freezeAfterFrame?: number; portrait?: boolean }
 export interface TransitionIn { type: TransitionType; durationInFrames: number; direction?: Direction }
 export interface Credit { text: string; corner?: "bottom-left" | "bottom-right" }
 export interface BrollItem {

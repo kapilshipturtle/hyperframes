@@ -31,9 +31,9 @@ export const useEnter = (at: number, config: { damping?: number; stiffness?: num
 };
 
 /** Blurred, scaled copy of the media used as a background plate (blur capped, spec 13.1). */
-export const BlurPlate: React.FC<{ media: MediaRef; blur?: number }> = ({ media, blur = 24 }) => (
+export const BlurPlate: React.FC<{ media: MediaRef; blur?: number; brightness?: number }> = ({ media, blur = 24, brightness = 0.6 }) => (
   <AbsoluteFill style={{ overflow: "hidden" }}>
-    <AbsoluteFill style={{ transform: "scale(1.15)", filter: `blur(${clampBlur(blur)}px) brightness(0.6)` }}>
+    <AbsoluteFill style={{ transform: "scale(1.15)", filter: `blur(${clampBlur(blur)}px) brightness(${brightness})` }}>
       <MediaEl media={media} />
     </AbsoluteFill>
   </AbsoluteFill>

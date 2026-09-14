@@ -510,7 +510,8 @@ class Sourcer:
         portrait = bool(width and height and width < height)
         if portrait:
             reasons.append("portrait: route to pip-over-blur")
-        sd = kind == "video" and 0 < height < 720
+        # spec 8.5 / 11.6 rule 2: the SD-archival treatment is for Internet Archive film, not a 1366 px stock clip (which upscales fine)
+        sd = c.source == "archiveorg" and kind == "video" and 0 < height < 720
         probe = local
         offset_ms = 0
         if c.source == "archiveorg" and kind == "video":

@@ -128,13 +128,18 @@ jobs:
         with:
           name: job-${{ inputs.job_id }}-inputs
           path: ai-broll-editor/work/${{ inputs.job_id }}
-      - name: Restore previous run's job state for render-only (optional; assets.json, prepared/, transcript, plans)
+      - name: Restore previous run's job state for render-only (latest job-<id> artifact from any earlier run)
         if: inputs.stage == 'render-only'
-        uses: actions/download-artifact@v4
-        continue-on-error: true
-        with:
-          name: job-${{ inputs.job_id }}
-          path: ai-broll-editor/work/${{ inputs.job_id }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          # actions/download-artifact only sees the current run; use the API to find the newest job-$JOB artifact (1-day retention)
+          RUN_ID=$(gh api "repos/$GITHUB_REPOSITORY/actions/artifacts?name=job-$JOB&per_page=5" \
+            --jq '[.artifacts[] | select(.expired==false)] | sort_by(.created_at) | last | .workflow_run.id // empty')
+          if [ -z "$RUN_ID" ]; then echo "::warning::no unexpired job-$JOB artifact found; render-only needs work/$JOB committed"; exit 0; fi
+          echo "restoring job-$JOB from run $RUN_ID"
+          gh run download "$RUN_ID" -n "job-$JOB" -D "work/$JOB"
+          ls "work/$JOB" | head -40
 
       - name: Check job dir
         run: |

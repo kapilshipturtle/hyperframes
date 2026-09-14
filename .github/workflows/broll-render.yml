@@ -197,10 +197,10 @@ jobs:
         run: python scripts/py/youtube_cc.py --job "$JOB"
 
       # ---------------- both stages ----------------
-      - name: Brain + validate
+      - name: Brain + validate (structure only; media is prepared in the next step)
         run: |
           npm run brain -- --job "$JOB"
-          npm run validate -- --job "$JOB"
+          npm run validate -- --job "$JOB" --skip-media
 
       - name: Prepare needs + prepare assets
         run: |

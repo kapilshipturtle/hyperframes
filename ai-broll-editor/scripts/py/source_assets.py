@@ -6,7 +6,7 @@ Chain: user asset -> pexels videos -> pexels photos -> openverse -> wikimedia ->
 Inputs : work/<id>/plans/*.json (ShotPlan), work/<id>/beats.json, work/<id>/job.yaml
 Outputs: work/<id>/assets.json (types.ts Assets), work/<id>/sourcing.log.jsonl (one line per beat),
          downloads under work/<id>/assets/<source>_<kind>_<id>.<ext>
-Pexels is paced (12 s floor), backed off on 429 (X-Ratelimit-Reset) and cached 24 h by normalised query.
+Pexels is paced adaptively (2 s, jumping to a 12 s floor after a real 429, relaxing back on success), backed off on 429 (X-Ratelimit-Reset) and cached 24 h by normalised query.
 Every HTTP request has an 8 s timeout. Nothing is ever generated.
 """
 from __future__ import annotations
@@ -26,7 +26,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import archive_org  # noqa: E402
 import pick_shot  # noqa: E402
 import score_clip  # noqa: E402
-from broll_common import (HTTP_TIMEOUT_S, PEXELS_FLOOR_S, DiskCache, HttpError, Pacer, anomaly, append_jsonl,  # noqa: E402
+from broll_common import (HTTP_TIMEOUT_S, PEXELS_BASE_S, PEXELS_FLOOR_S, DiskCache, HttpError, Pacer, anomaly, append_jsonl,  # noqa: E402
                           cache_dir, download, dump_json, http_get_json, job_dir, load_job_config, load_json, log,
                           media_info, normalise_query, run)
 
@@ -42,7 +42,7 @@ LETTERBOX_REJECT = 0.25
 PHASH_MIN = 8
 IA_MAX_MB = 300
 
-PEXELS_PACER = Pacer(PEXELS_FLOOR_S)
+PEXELS_PACER = Pacer(PEXELS_BASE_S, ceiling_s=PEXELS_FLOOR_S, base_s=PEXELS_BASE_S)  # adaptive: 2 s, 12 s after a 429
 OTHER_PACER = Pacer(1.0)
 _WIKI_OK = re.compile(r"^(cc0|cc[\s-]by(?:[\s-]sa)?(?:[\s-]\d(\.\d)?)?|public domain|pd[\s-]|pd$)", re.I)
 _WIKI_BAD = re.compile(r"\b(nc|nd)\b", re.I)

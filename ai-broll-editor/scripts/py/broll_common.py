@@ -19,7 +19,8 @@ from typing import Any, Callable, Iterable, Optional
 
 PKG_ROOT = Path(__file__).resolve().parents[2]
 HTTP_TIMEOUT_S = 8.0
-PEXELS_FLOOR_S = 12.0
+PEXELS_FLOOR_S = 12.0       # ceiling after a real 429 (measured safe)
+PEXELS_BASE_S = 2.0         # starting interval; adaptive pacer relaxes back to this after successes
 CACHE_TTL_S = 24 * 3600
 FPS = 30
 
@@ -175,6 +176,16 @@ class Pacer:
     def mark(self) -> None:
         self._last = self.clock()
 
+    # Adaptive pacing: start fast, jump to the measured-safe ceiling on a real 429, relax after successes.
+    ceiling_s: float = field(default=0.0)      # 0 = fixed interval (legacy behaviour)
+    base_s: float = field(default=0.0)
+    def penalise(self) -> None:
+        if self.ceiling_s > 0:
+            self.min_interval_s = self.ceiling_s
+    def relax(self) -> None:
+        if self.ceiling_s > 0 and self.min_interval_s > self.base_s:
+            self.min_interval_s = max(self.base_s, self.min_interval_s - 1.0)
+
 
 @dataclass
 class DiskCache:
@@ -264,11 +275,15 @@ def http_get(
                     wait = max(wait, min(rv, 900.0))
                 except ValueError:
                     pass
+            if r.status_code == 429 and pacer is not None:
+                pacer.penalise()
             log(f"[http] {r.status_code} on {redact(url)}; retrying in {wait:.0f}s (attempt {attempt + 1}/{retries})")
             sleep(wait)
             continue
         if r.status_code >= 400:
             raise HttpError(r.status_code, f"HTTP {r.status_code} from {redact(url)}: {r.text[:200]}", dict(r.headers))
+        if pacer is not None:
+            pacer.relax()
         return r
     assert last_err is not None
     raise last_err

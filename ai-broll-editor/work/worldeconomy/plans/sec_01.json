@@ -1,0 +1,849 @@
+{
+  "sectionId": "sec_01",
+  "mood": "documentary",
+  "musicTag": "documentary-ambient",
+  "grade": "muted-documentary",
+  "shots": [
+    {
+      "beatId": "b_0001",
+      "importance": 5,
+      "visualIntent": "slow drone push over a dense modern city skyline at dawn, haze on the horizon",
+      "layoutPreference": "fullscreen-clip",
+      "queries": [
+        "city skyline aerial dawn",
+        "metropolis drone haze",
+        "skyscrapers morning fog"
+      ],
+      "preferMotion": true,
+      "shotScale": "wide",
+      "transitionFamily": "documentary",
+      "text": {
+        "content": "its moment is unique",
+        "anchorWordId": 8,
+        "style": "slide-up-mask",
+        "position": "lower-left"
+      },
+      "sfx": [
+        "whoosh-soft"
+      ],
+      "motion": {
+        "type": "none"
+      },
+      "grid": null
+    },
+    {
+      "beatId": "b_0002",
+      "importance": 3,
+      "visualIntent": "close-up of a hand turning yellowed pages of an antique history book",
+      "layoutPreference": "fullscreen-image-kenburns",
+      "queries": [
+        "antique book pages closeup",
+        "old manuscript library",
+        "hand turning old book"
+      ],
+      "preferMotion": false,
+      "shotScale": "close",
+      "transitionFamily": "cut",
+      "text": null,
+      "sfx": [],
+      "motion": {
+        "type": "ken-burns",
+        "to": "right",
+        "zoom": 1.1
+      },
+      "grid": null
+    },
+    {
+      "beatId": "b_0003",
+      "importance": 4,
+      "visualIntent": "sunlight breaking through clouds over ancient ruins, wide and slow",
+      "layoutPreference": "fullscreen-clip",
+      "queries": [
+        "ancient ruins sunlight clouds",
+        "roman columns golden hour",
+        "sunbeams through clouds landscape"
+      ],
+      "preferMotion": true,
+      "shotScale": "wide",
+      "transitionFamily": "documentary",
+      "text": {
+        "content": "far more important",
+        "anchorWordId": 34,
+        "style": "highlight-marker",
+        "position": "lower-center"
+      },
+      "sfx": [
+        "pop"
+      ],
+      "motion": {
+        "type": "none"
+      },
+      "grid": null
+    },
+    {
+      "beatId": "b_0004",
+      "importance": 4,
+      "visualIntent": "three tight frames: marching soldiers, a trading floor, stacked coins",
+      "layoutPreference": "grid-3",
+      "queries": [
+        "soldiers marching archive",
+        "stock exchange trading floor",
+        "stacked gold coins closeup"
+      ],
+      "preferMotion": true,
+      "shotScale": "medium",
+      "transitionFamily": "documentary",
+      "text": null,
+      "sfx": [
+        "click"
+      ],
+      "motion": {
+        "type": "none"
+      },
+      "grid": {
+        "cells": 3,
+        "labels": [
+          "Wars",
+          "Markets",
+          "Currencies"
+        ]
+      }
+    },
+    {
+      "beatId": "b_0005",
+      "importance": 5,
+      "visualIntent": "slow pan across an old world map with continents illuminated",
+      "layoutPreference": "fullscreen-image-kenburns",
+      "queries": [
+        "antique world map parchment",
+        "old globe closeup",
+        "vintage atlas continents"
+      ],
+      "preferMotion": false,
+      "shotScale": "medium",
+      "transitionFamily": "calm",
+      "text": {
+        "content": "same repeating patterns",
+        "anchorWordId": 47,
+        "style": "kinetic-bold",
+        "position": "lower-left"
+      },
+      "sfx": [
+        "whoosh-soft"
+      ],
+      "motion": {
+        "type": "ken-burns",
+        "to": "left",
+        "zoom": 1.14
+      },
+      "grid": null
+    },
+    {
+      "beatId": "b_0006",
+      "importance": 4,
+      "visualIntent": "ocean waves rising and falling in slow motion, rhythmic like a pulse",
+      "layoutPreference": "fullscreen-clip",
+      "queries": [
+        "ocean waves slow motion",
+        "tide rising falling beach",
+        "sea swell aerial"
+      ],
+      "preferMotion": true,
+      "shotScale": "wide",
+      "transitionFamily": "documentary",
+      "text": null,
+      "sfx": [],
+      "motion": {
+        "type": "speed-ramp",
+        "playbackRate": 0.7
+      },
+      "grid": null
+    },
+    {
+      "beatId": "b_0007",
+      "importance": 2,
+      "visualIntent": "archaeologist brushing dust off an artifact in a dig site",
+      "layoutPreference": "fullscreen-clip",
+      "queries": [
+        "archaeologist excavation brush",
+        "archaeological dig site",
+        "uncovering artifact soil"
+      ],
+      "preferMotion": true,
+      "shotScale": "close",
+      "transitionFamily": "cut",
+      "text": null,
+      "sfx": [],
+      "motion": {
+        "type": "none"
+      },
+      "grid": null
+    },
+    {
+      "beatId": "b_0008",
+      "importance": 5,
+      "visualIntent": "bold channel title card over a dark textured parchment background",
+      "layoutPreference": "typographic-card",
+      "queries": [
+        "parchment texture dark",
+        "aged paper background",
+        "ink on old paper"
+      ],
+      "preferMotion": false,
+      "shotScale": "medium",
+      "transitionFamily": "documentary",
+      "text": {
+        "content": "World Economy Reborn",
+        "anchorWordId": 80,
+        "style": "kinetic-bold",
+        "position": "center"
+      },
+      "sfx": [
+        "impact-soft"
+      ],
+      "motion": {
+        "type": "none"
+      },
+      "grid": null
+    },
+    {
+      "beatId": "b_0009",
+      "importance": 4,
+      "visualIntent": "horizontal timeline strip of eras flowing left to right over a train tracks vanishing point",
+      "layoutPreference": "timeline-strip",
+      "queries": [
+        "railway tracks vanishing point",
+        "long road horizon aerial",
+        "river winding aerial"
+      ],
+      "preferMotion": true,
+      "shotScale": "wide",
+      "transitionFamily": "documentary",
+      "text": {
+        "content": "one connected timeline",
+        "anchorWordId": 93,
+        "style": "slide-up-mask",
+        "position": "lower-center"
+      },
+      "sfx": [
+        "swoosh-short"
+      ],
+      "motion": {
+        "type": "none"
+      },
+      "grid": null
+    },
+    {
+      "beatId": "b_0010",
+      "importance": 2,
+      "visualIntent": "person standing alone on a quiet hilltop looking over a city far below",
+      "layoutPreference": "fullscreen-clip",
+      "queries": [
+        "man standing hilltop overlooking city",
+        "person silhouette viewpoint",
+        "quiet mountain overlook"
+      ],
+      "preferMotion": true,
+      "shotScale": "wide",
+      "transitionFamily": "calm",
+      "text": null,
+      "sfx": [],
+      "motion": {
+        "type": "none"
+      },
+      "grid": null
+    },
+    {
+      "beatId": "b_0011",
+      "importance": 3,
+      "visualIntent": "three fast frames of frantic finance: ticker screens, a crowded newsroom, a phone alert",
+      "layoutPreference": "grid-3",
+      "queries": [
+        "stock ticker screens red",
+        "newsroom busy television",
+        "smartphone notification alert"
+      ],
+      "preferMotion": true,
+      "shotScale": "close",
+      "transitionFamily": "documentary",
+      "text": null,
+      "sfx": [
+        "click"
+      ],
+      "motion": {
+        "type": "none"
+      },
+      "grid": {
+        "cells": 3,
+        "labels": [
+          "Predictions",
+          "Hype",
+          "Panic"
+        ]
+      }
+    },
+    {
+      "beatId": "b_0012",
+      "importance": 3,
+      "visualIntent": "slow aerial over tectonic desert canyon layers, forces carved into rock",
+      "layoutPreference": "fullscreen-image-kenburns",
+      "queries": [
+        "canyon rock layers aerial",
+        "desert geology strata",
+        "eroded cliffs landscape"
+      ],
+      "preferMotion": false,
+      "shotScale": "wide",
+      "transitionFamily": "calm",
+      "text": {
+        "content": "silently shape everything",
+        "anchorWordId": 124,
+        "style": "typewriter",
+        "position": "lower-left"
+      },
+      "sfx": [
+        "typewriter-key"
+      ],
+      "motion": {
+        "type": "ken-burns",
+        "to": "top",
+        "zoom": 1.12
+      },
+      "grid": null
+    },
+    {
+      "beatId": "b_0013",
+      "importance": 4,
+      "visualIntent": "crowd of people crossing a busy street, seen from above, time-lapse",
+      "layoutPreference": "fullscreen-clip",
+      "queries": [
+        "crowd crossing street timelapse",
+        "pedestrians aerial crosswalk",
+        "busy plaza people above"
+      ],
+      "preferMotion": true,
+      "shotScale": "wide",
+      "transitionFamily": "documentary",
+      "text": null,
+      "sfx": [],
+      "motion": {
+        "type": "speed-ramp",
+        "playbackRate": 1.5
+      },
+      "grid": null
+    },
+    {
+      "beatId": "b_0014",
+      "importance": 4,
+      "visualIntent": "split: crumbling ancient amphitheatre on the left, narration key phrase on the right",
+      "layoutPreference": "split-left-media-right-text",
+      "queries": [
+        "ancient amphitheatre ruins",
+        "abandoned temple overgrown",
+        "collapsed stone city"
+      ],
+      "preferMotion": false,
+      "shotScale": "medium",
+      "transitionFamily": "documentary",
+      "text": {
+        "content": "civilizations rise and decline",
+        "anchorWordId": 148,
+        "style": "outline-stroke",
+        "position": "right-panel"
+      },
+      "sfx": [
+        "whoosh-soft"
+      ],
+      "motion": {
+        "type": "none"
+      },
+      "grid": null
+    },
+    {
+      "beatId": "b_0015",
+      "importance": 2,
+      "visualIntent": "macro of an old clock's gears turning steadily",
+      "layoutPreference": "fullscreen-clip",
+      "queries": [
+        "clock gears macro turning",
+        "antique clockwork mechanism",
+        "pendulum swinging closeup"
+      ],
+      "preferMotion": true,
+      "shotScale": "close",
+      "transitionFamily": "cut",
+      "text": null,
+      "sfx": [],
+      "motion": {
+        "type": "none"
+      },
+      "grid": null
+    },
+    {
+      "beatId": "b_0016",
+      "importance": 3,
+      "visualIntent": "two flags side by side rippling in the wind against grey sky",
+      "layoutPreference": "comparison-split",
+      "queries": [
+        "national flags waving wind",
+        "flags government building",
+        "two flags side by side"
+      ],
+      "preferMotion": true,
+      "shotScale": "medium",
+      "transitionFamily": "documentary",
+      "text": null,
+      "sfx": [
+        "swoosh-short"
+      ],
+      "motion": {
+        "type": "none"
+      },
+      "grid": null
+    },
+    {
+      "beatId": "b_0017",
+      "importance": 3,
+      "visualIntent": "server room corridor lit blue, then a central bank facade at night",
+      "layoutPreference": "fullscreen-clip",
+      "queries": [
+        "data center corridor blue",
+        "bank vault door",
+        "central bank building night"
+      ],
+      "preferMotion": true,
+      "shotScale": "medium",
+      "transitionFamily": "documentary",
+      "text": {
+        "content": "unseen financial systems",
+        "anchorWordId": 170,
+        "style": "slide-up-mask",
+        "position": "lower-right"
+      },
+      "sfx": [
+        "pop"
+      ],
+      "motion": {
+        "type": "none"
+      },
+      "grid": null
+    },
+    {
+      "beatId": "b_0018",
+      "importance": 2,
+      "visualIntent": "slow drift over a sundial shadow or vinyl record spinning, rhythm metaphor",
+      "layoutPreference": "fullscreen-image-kenburns",
+      "queries": [
+        "vinyl record spinning closeup",
+        "metronome ticking",
+        "sundial shadow stone"
+      ],
+      "preferMotion": false,
+      "shotScale": "close",
+      "transitionFamily": "calm",
+      "text": null,
+      "sfx": [],
+      "motion": {
+        "type": "ken-burns",
+        "to": "bottom-left",
+        "zoom": 1.1
+      },
+      "grid": null
+    },
+    {
+      "beatId": "b_0019",
+      "importance": 4,
+      "visualIntent": "camel caravan crossing dunes, then stacks of banknotes being counted",
+      "layoutPreference": "comparison-split",
+      "queries": [
+        "camel caravan desert dunes",
+        "silk road caravan",
+        "banknotes counting machine"
+      ],
+      "preferMotion": true,
+      "shotScale": "wide",
+      "transitionFamily": "documentary",
+      "text": null,
+      "sfx": [
+        "whoosh-soft"
+      ],
+      "motion": {
+        "type": "none"
+      },
+      "grid": null
+    },
+    {
+      "beatId": "b_0020",
+      "importance": 3,
+      "visualIntent": "handshake between suited officials at a summit table with microphones",
+      "layoutPreference": "fullscreen-clip",
+      "queries": [
+        "diplomats handshake summit",
+        "conference table microphones",
+        "international meeting delegates"
+      ],
+      "preferMotion": true,
+      "shotScale": "medium",
+      "transitionFamily": "cut",
+      "text": {
+        "content": "powerful new alliances",
+        "anchorWordId": 204,
+        "style": "highlight-marker",
+        "position": "lower-left"
+      },
+      "sfx": [
+        "pop"
+      ],
+      "motion": {
+        "type": "none"
+      },
+      "grid": null
+    },
+    {
+      "beatId": "b_0021",
+      "importance": 4,
+      "visualIntent": "calm marble palace hall giving way to storm clouds over a city, split left/right",
+      "layoutPreference": "comparison-split",
+      "queries": [
+        "marble palace hall columns",
+        "storm clouds over city timelapse",
+        "lightning skyline night"
+      ],
+      "preferMotion": true,
+      "shotScale": "wide",
+      "transitionFamily": "documentary",
+      "text": null,
+      "sfx": [
+        "swoosh-short"
+      ],
+      "motion": {
+        "type": "none"
+      },
+      "grid": null
+    },
+    {
+      "beatId": "b_0022",
+      "importance": 3,
+      "visualIntent": "hands assembling a wooden jigsaw puzzle on a table, top-down",
+      "layoutPreference": "fullscreen-clip",
+      "queries": [
+        "hands jigsaw puzzle top down",
+        "puzzle pieces wooden table",
+        "fitting puzzle piece closeup"
+      ],
+      "preferMotion": true,
+      "shotScale": "close",
+      "transitionFamily": "documentary",
+      "text": {
+        "content": "piece of the puzzle",
+        "anchorWordId": 224,
+        "style": "caption-box",
+        "position": "lower-center"
+      },
+      "sfx": [
+        "click"
+      ],
+      "motion": {
+        "type": "none"
+      },
+      "grid": null
+    },
+    {
+      "beatId": "b_0023",
+      "importance": 2,
+      "visualIntent": "slow zoom on a chalkboard covered in diagrams and arrows",
+      "layoutPreference": "fullscreen-image-kenburns",
+      "queries": [
+        "chalkboard diagrams arrows",
+        "blackboard equations lecture",
+        "whiteboard flowchart closeup"
+      ],
+      "preferMotion": false,
+      "shotScale": "medium",
+      "transitionFamily": "calm",
+      "text": null,
+      "sfx": [],
+      "motion": {
+        "type": "ken-burns",
+        "to": "center",
+        "zoom": 1.08
+      },
+      "grid": null
+    },
+    {
+      "beatId": "b_0024",
+      "importance": 5,
+      "visualIntent": "person's eyes reflecting a wall of glowing news screens, then pulling back",
+      "layoutPreference": "fullscreen-clip",
+      "queries": [
+        "eyes reflection screen glow",
+        "person watching wall of monitors",
+        "news screens control room"
+      ],
+      "preferMotion": true,
+      "shotScale": "close",
+      "transitionFamily": "documentary",
+      "text": {
+        "content": "never see today's news",
+        "anchorWordId": 253,
+        "style": "kinetic-bold",
+        "position": "center"
+      },
+      "sfx": [
+        "impact-soft"
+      ],
+      "motion": {
+        "type": "slow-zoom-out"
+      },
+      "grid": null
+    },
+    {
+      "beatId": "b_0025",
+      "importance": 3,
+      "visualIntent": "starling murmuration forming shapes against a dusk sky",
+      "layoutPreference": "fullscreen-clip",
+      "queries": [
+        "starling murmuration dusk",
+        "flock of birds swirling sky",
+        "schooling fish pattern"
+      ],
+      "preferMotion": true,
+      "shotScale": "wide",
+      "transitionFamily": "cut",
+      "text": null,
+      "sfx": [],
+      "motion": {
+        "type": "none"
+      },
+      "grid": null
+    },
+    {
+      "beatId": "b_0026",
+      "importance": 3,
+      "visualIntent": "lighthouse beam sweeping across dark sea, seen from the cliffs",
+      "layoutPreference": "fullscreen-image-kenburns",
+      "queries": [
+        "lighthouse beam night sea",
+        "lighthouse cliff dusk",
+        "radar dish rotating"
+      ],
+      "preferMotion": false,
+      "shotScale": "wide",
+      "transitionFamily": "calm",
+      "text": {
+        "content": "spot signals",
+        "anchorWordId": 270,
+        "style": "slide-up-mask",
+        "position": "lower-left"
+      },
+      "sfx": [
+        "whoosh-soft"
+      ],
+      "motion": {
+        "type": "ken-burns",
+        "to": "top-right",
+        "zoom": 1.12
+      },
+      "grid": null
+    },
+    {
+      "beatId": "b_0027",
+      "importance": 4,
+      "visualIntent": "tilt up from ancient stone steps to a glass skyscraper towering behind them",
+      "layoutPreference": "fullscreen-clip",
+      "queries": [
+        "ancient stone steps modern city",
+        "old and new architecture contrast",
+        "historic building glass tower"
+      ],
+      "preferMotion": true,
+      "shotScale": "wide",
+      "transitionFamily": "documentary",
+      "text": {
+        "content": "thousands of years old",
+        "anchorWordId": 287,
+        "style": "outline-stroke",
+        "position": "lower-right"
+      },
+      "sfx": [
+        "pop"
+      ],
+      "motion": {
+        "type": "none"
+      },
+      "grid": null
+    },
+    {
+      "beatId": "b_0028",
+      "importance": 2,
+      "visualIntent": "person reading alone by a window in a wood-paneled library",
+      "layoutPreference": "fullscreen-clip",
+      "queries": [
+        "person reading library window",
+        "study desk lamp thinking",
+        "reading room wooden shelves"
+      ],
+      "preferMotion": true,
+      "shotScale": "medium",
+      "transitionFamily": "cut",
+      "text": null,
+      "sfx": [],
+      "motion": {
+        "type": "none"
+      },
+      "grid": null
+    },
+    {
+      "beatId": "b_0029",
+      "importance": 3,
+      "visualIntent": "three frames: currency exchange board, parliament dome, pyramid at sunset",
+      "layoutPreference": "grid-3",
+      "queries": [
+        "currency exchange board",
+        "parliament dome building",
+        "pyramids giza sunset"
+      ],
+      "preferMotion": false,
+      "shotScale": "medium",
+      "transitionFamily": "documentary",
+      "text": null,
+      "sfx": [
+        "click"
+      ],
+      "motion": {
+        "type": "none"
+      },
+      "grid": {
+        "cells": 3,
+        "labels": [
+          "Finance",
+          "Geopolitics",
+          "Civilizations"
+        ]
+      }
+    },
+    {
+      "beatId": "b_0030",
+      "importance": 2,
+      "visualIntent": "slow drift over rows of archive shelves with boxed documents",
+      "layoutPreference": "fullscreen-image-kenburns",
+      "queries": [
+        "archive shelves boxes rows",
+        "museum storage documents",
+        "national archives corridor"
+      ],
+      "preferMotion": false,
+      "shotScale": "medium",
+      "transitionFamily": "calm",
+      "text": null,
+      "sfx": [],
+      "motion": {
+        "type": "ken-burns",
+        "to": "right",
+        "zoom": 1.1
+      },
+      "grid": null
+    },
+    {
+      "beatId": "b_0031",
+      "importance": 4,
+      "visualIntent": "split: telescope observatory dome at night left, key question phrase right",
+      "layoutPreference": "split-left-media-right-text",
+      "queries": [
+        "observatory telescope night sky",
+        "astronomer looking through telescope",
+        "stargazing milky way"
+      ],
+      "preferMotion": true,
+      "shotScale": "wide",
+      "transitionFamily": "documentary",
+      "text": {
+        "content": "why it's happening",
+        "anchorWordId": 320,
+        "style": "typewriter",
+        "position": "right-panel"
+      },
+      "sfx": [
+        "typewriter-key"
+      ],
+      "motion": {
+        "type": "none"
+      },
+      "grid": null
+    },
+    {
+      "beatId": "b_0032",
+      "importance": 3,
+      "visualIntent": "traveler stepping off a train onto a platform, warm light",
+      "layoutPreference": "fullscreen-clip",
+      "queries": [
+        "traveler arriving train platform",
+        "person walking into light doorway",
+        "footsteps stone path forward"
+      ],
+      "preferMotion": true,
+      "shotScale": "medium",
+      "transitionFamily": "cut",
+      "text": null,
+      "sfx": [],
+      "motion": {
+        "type": "none"
+      },
+      "grid": null
+    },
+    {
+      "beatId": "b_0033",
+      "importance": 4,
+      "visualIntent": "long winding mountain road at sunrise seen from a drone",
+      "layoutPreference": "fullscreen-clip",
+      "queries": [
+        "winding mountain road sunrise drone",
+        "road through valley aerial",
+        "path through forest morning"
+      ],
+      "preferMotion": true,
+      "shotScale": "wide",
+      "transitionFamily": "documentary",
+      "text": {
+        "content": "Welcome to the cycles",
+        "anchorWordId": 347,
+        "style": "slide-up-mask",
+        "position": "lower-center"
+      },
+      "sfx": [
+        "whoosh-soft"
+      ],
+      "motion": {
+        "type": "none"
+      },
+      "grid": null
+    },
+    {
+      "beatId": "b_0034",
+      "importance": 5,
+      "visualIntent": "channel name lockup on a dark parchment card, closing the intro",
+      "layoutPreference": "typographic-card",
+      "queries": [
+        "dark textured background",
+        "sunrise over earth horizon",
+        "globe rotating dark"
+      ],
+      "preferMotion": false,
+      "shotScale": "medium",
+      "transitionFamily": "calm",
+      "text": {
+        "content": "World Economy Reborn",
+        "anchorWordId": 352,
+        "style": "kinetic-bold",
+        "position": "center"
+      },
+      "sfx": [
+        "impact-soft"
+      ],
+      "motion": {
+        "type": "none"
+      },
+      "grid": null
+    }
+  ]
+}

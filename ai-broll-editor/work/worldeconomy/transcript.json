@@ -1,0 +1,3798 @@
+{
+  "audioPath": "narration_norm.m4a",
+  "durationMs": 122201,
+  "language": "en",
+  "engine": "whispercpp",
+  "words": [
+    {
+      "id": 0,
+      "text": "In",
+      "startMs": 130,
+      "endMs": 160,
+      "conf": 0.969,
+      "rms": -47.66,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 1,
+      "text": "every",
+      "startMs": 160,
+      "endMs": 460,
+      "conf": 0.996,
+      "rms": -16.29,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 2,
+      "text": "century,",
+      "startMs": 460,
+      "endMs": 1360,
+      "conf": 0.995,
+      "rms": -31.37,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 3,
+      "text": "humanity",
+      "startMs": 1360,
+      "endMs": 1580,
+      "conf": 0.988,
+      "rms": -14.63,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 4,
+      "text": "believes",
+      "startMs": 1580,
+      "endMs": 2110,
+      "conf": 0.995,
+      "rms": -15.79,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 5,
+      "text": "its",
+      "startMs": 2110,
+      "endMs": 2310,
+      "conf": 0.943,
+      "rms": -22.6,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 6,
+      "text": "moment",
+      "startMs": 2310,
+      "endMs": 2710,
+      "conf": 0.991,
+      "rms": -20.49,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 7,
+      "text": "is",
+      "startMs": 2710,
+      "endMs": 2840,
+      "conf": 0.995,
+      "rms": -21.97,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 8,
+      "text": "unique,",
+      "startMs": 2840,
+      "endMs": 3500,
+      "conf": 0.996,
+      "rms": -48.04,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 9,
+      "text": "that",
+      "startMs": 3500,
+      "endMs": 3580,
+      "conf": 0.712,
+      "rms": -29.21,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 10,
+      "text": "today's",
+      "startMs": 3580,
+      "endMs": 3930,
+      "conf": 0.993,
+      "rms": -18.31,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 11,
+      "text": "crises",
+      "startMs": 3930,
+      "endMs": 4240,
+      "conf": 0.994,
+      "rms": -19.17,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 12,
+      "text": "are",
+      "startMs": 4240,
+      "endMs": 4320,
+      "conf": 0.977,
+      "rms": -25.32,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 13,
+      "text": "brand",
+      "startMs": 4320,
+      "endMs": 4640,
+      "conf": 0.974,
+      "rms": -20.93,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 14,
+      "text": "new,",
+      "startMs": 4640,
+      "endMs": 5280,
+      "conf": 0.871,
+      "rms": -39.05,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 15,
+      "text": "and",
+      "startMs": 5280,
+      "endMs": 5470,
+      "conf": 0.998,
+      "rms": -51.44,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 16,
+      "text": "that",
+      "startMs": 5470,
+      "endMs": 5660,
+      "conf": 0.995,
+      "rms": -22.74,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 17,
+      "text": "history",
+      "startMs": 5660,
+      "endMs": 6050,
+      "conf": 0.998,
+      "rms": -21.32,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 18,
+      "text": "has",
+      "startMs": 6050,
+      "endMs": 6210,
+      "conf": 0.998,
+      "rms": -24.68,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 19,
+      "text": "nothing",
+      "startMs": 6210,
+      "endMs": 6600,
+      "conf": 0.999,
+      "rms": -24.85,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 20,
+      "text": "left",
+      "startMs": 6600,
+      "endMs": 6820,
+      "conf": 0.992,
+      "rms": -30.19,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 21,
+      "text": "to",
+      "startMs": 6820,
+      "endMs": 6930,
+      "conf": 0.999,
+      "rms": -29.02,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 22,
+      "text": "teach",
+      "startMs": 6930,
+      "endMs": 7230,
+      "conf": 0.999,
+      "rms": -36.75,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 23,
+      "text": "us.",
+      "startMs": 7230,
+      "endMs": 7520,
+      "conf": 0.999,
+      "rms": -44.0,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 24,
+      "text": "But",
+      "startMs": 7520,
+      "endMs": 7760,
+      "conf": 0.859,
+      "rms": -47.4,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 25,
+      "text": "the",
+      "startMs": 7760,
+      "endMs": 7960,
+      "conf": 0.978,
+      "rms": -28.13,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 26,
+      "text": "truth",
+      "startMs": 7960,
+      "endMs": 8330,
+      "conf": 0.993,
+      "rms": -26.63,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 27,
+      "text": "is",
+      "startMs": 8330,
+      "endMs": 8540,
+      "conf": 0.992,
+      "rms": -28.84,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 28,
+      "text": "far",
+      "startMs": 8540,
+      "endMs": 8700,
+      "conf": 0.996,
+      "rms": -16.89,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 29,
+      "text": "more",
+      "startMs": 8700,
+      "endMs": 8990,
+      "conf": 0.994,
+      "rms": -20.32,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 30,
+      "text": "fascinating",
+      "startMs": 8990,
+      "endMs": 10020,
+      "conf": 0.99,
+      "rms": -37.14,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 31,
+      "text": "and",
+      "startMs": 10020,
+      "endMs": 10080,
+      "conf": 0.164,
+      "rms": -31.06,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 32,
+      "text": "far",
+      "startMs": 10080,
+      "endMs": 10240,
+      "conf": 0.785,
+      "rms": -26.93,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 33,
+      "text": "more",
+      "startMs": 10240,
+      "endMs": 10480,
+      "conf": 0.625,
+      "rms": -21.17,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 34,
+      "text": "important.",
+      "startMs": 10480,
+      "endMs": 11340,
+      "conf": 0.999,
+      "rms": -29.24,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 35,
+      "text": "Because",
+      "startMs": 11340,
+      "endMs": 11850,
+      "conf": 0.979,
+      "rms": -34.79,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 36,
+      "text": "behind",
+      "startMs": 11850,
+      "endMs": 12290,
+      "conf": 0.983,
+      "rms": -17.12,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 37,
+      "text": "wars,",
+      "startMs": 12290,
+      "endMs": 12720,
+      "conf": 0.967,
+      "rms": -16.34,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 38,
+      "text": "markets,",
+      "startMs": 12720,
+      "endMs": 13380,
+      "conf": 0.999,
+      "rms": -32.91,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 39,
+      "text": "currencies,",
+      "startMs": 13380,
+      "endMs": 14240,
+      "conf": 0.998,
+      "rms": -25.46,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 40,
+      "text": "and",
+      "startMs": 14240,
+      "endMs": 14460,
+      "conf": 0.996,
+      "rms": -21.13,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 41,
+      "text": "global",
+      "startMs": 14460,
+      "endMs": 14890,
+      "conf": 0.949,
+      "rms": -24.1,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 42,
+      "text": "power",
+      "startMs": 14890,
+      "endMs": 15250,
+      "conf": 0.998,
+      "rms": -39.46,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 43,
+      "text": "lie",
+      "startMs": 15250,
+      "endMs": 15600,
+      "conf": 0.928,
+      "rms": -44.17,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 44,
+      "text": "the",
+      "startMs": 15600,
+      "endMs": 15770,
+      "conf": 0.996,
+      "rms": -15.8,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 45,
+      "text": "same",
+      "startMs": 15770,
+      "endMs": 16000,
+      "conf": 0.954,
+      "rms": -13.8,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 46,
+      "text": "repeating",
+      "startMs": 16000,
+      "endMs": 16400,
+      "conf": 0.611,
+      "rms": -15.28,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 47,
+      "text": "patterns",
+      "startMs": 16400,
+      "endMs": 16800,
+      "conf": 0.974,
+      "rms": -21.36,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 48,
+      "text": "that",
+      "startMs": 16800,
+      "endMs": 17070,
+      "conf": 1.0,
+      "rms": -31.24,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 49,
+      "text": "shaped",
+      "startMs": 17070,
+      "endMs": 17470,
+      "conf": 0.986,
+      "rms": -20.1,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 50,
+      "text": "Rome,",
+      "startMs": 17470,
+      "endMs": 17870,
+      "conf": 0.998,
+      "rms": -27.63,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 51,
+      "text": "China,",
+      "startMs": 17870,
+      "endMs": 18340,
+      "conf": 0.998,
+      "rms": -24.5,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 52,
+      "text": "Europe,",
+      "startMs": 18340,
+      "endMs": 18870,
+      "conf": 1.0,
+      "rms": -32.9,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 53,
+      "text": "and",
+      "startMs": 18870,
+      "endMs": 19050,
+      "conf": 0.993,
+      "rms": -20.33,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 54,
+      "text": "America.",
+      "startMs": 19050,
+      "endMs": 19740,
+      "conf": 0.999,
+      "rms": -45.7,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 55,
+      "text": "Patterns",
+      "startMs": 19740,
+      "endMs": 20280,
+      "conf": 0.978,
+      "rms": -16.37,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 56,
+      "text": "that",
+      "startMs": 20280,
+      "endMs": 20550,
+      "conf": 0.999,
+      "rms": -17.12,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 57,
+      "text": "rise,",
+      "startMs": 20550,
+      "endMs": 20950,
+      "conf": 0.998,
+      "rms": -30.28,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 58,
+      "text": "fall,",
+      "startMs": 20950,
+      "endMs": 21350,
+      "conf": 0.996,
+      "rms": -26.25,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 59,
+      "text": "and",
+      "startMs": 21350,
+      "endMs": 21550,
+      "conf": 0.998,
+      "rms": -20.2,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 60,
+      "text": "rise",
+      "startMs": 21550,
+      "endMs": 21820,
+      "conf": 0.999,
+      "rms": -19.14,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 61,
+      "text": "again,",
+      "startMs": 21820,
+      "endMs": 22240,
+      "conf": 0.998,
+      "rms": -32.41,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 62,
+      "text": "forming",
+      "startMs": 22240,
+      "endMs": 22620,
+      "conf": 0.962,
+      "rms": -37.83,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 63,
+      "text": "the",
+      "startMs": 22620,
+      "endMs": 22780,
+      "conf": 0.999,
+      "rms": -19.51,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 64,
+      "text": "economic",
+      "startMs": 22780,
+      "endMs": 23210,
+      "conf": 0.995,
+      "rms": -18.21,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 65,
+      "text": "heartbeat",
+      "startMs": 23210,
+      "endMs": 23700,
+      "conf": 0.984,
+      "rms": -30.18,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 66,
+      "text": "of",
+      "startMs": 23700,
+      "endMs": 23800,
+      "conf": 0.999,
+      "rms": -25.0,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 67,
+      "text": "our",
+      "startMs": 23800,
+      "endMs": 23950,
+      "conf": 0.998,
+      "rms": -23.95,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 68,
+      "text": "world.",
+      "startMs": 23950,
+      "endMs": 24390,
+      "conf": 0.999,
+      "rms": -33.09,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 69,
+      "text": "This",
+      "startMs": 24390,
+      "endMs": 24840,
+      "conf": 0.989,
+      "rms": -50.09,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 70,
+      "text": "channel",
+      "startMs": 24840,
+      "endMs": 24990,
+      "conf": 0.997,
+      "rms": -25.06,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 71,
+      "text": "exists",
+      "startMs": 24990,
+      "endMs": 25300,
+      "conf": 0.999,
+      "rms": -16.66,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 72,
+      "text": "to",
+      "startMs": 25300,
+      "endMs": 25400,
+      "conf": 0.998,
+      "rms": -22.96,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 73,
+      "text": "uncover",
+      "startMs": 25400,
+      "endMs": 25780,
+      "conf": 0.998,
+      "rms": -25.54,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 74,
+      "text": "those",
+      "startMs": 25780,
+      "endMs": 26050,
+      "conf": 0.976,
+      "rms": -23.57,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 75,
+      "text": "patterns.",
+      "startMs": 26050,
+      "endMs": 26720,
+      "conf": 0.999,
+      "rms": -26.02,
+      "gapAfterMs": 1090
+    },
+    {
+      "id": 76,
+      "text": "Welcome",
+      "startMs": 27810,
+      "endMs": 28020,
+      "conf": 0.996,
+      "rms": -20.03,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 77,
+      "text": "to",
+      "startMs": 28020,
+      "endMs": 28140,
+      "conf": 0.999,
+      "rms": -17.6,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 78,
+      "text": "World",
+      "startMs": 28140,
+      "endMs": 28440,
+      "conf": 0.858,
+      "rms": -15.07,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 79,
+      "text": "Economy",
+      "startMs": 28440,
+      "endMs": 28860,
+      "conf": 0.987,
+      "rms": -18.7,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 80,
+      "text": "Reborn,",
+      "startMs": 28860,
+      "endMs": 29230,
+      "conf": 0.975,
+      "rms": -23.81,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 81,
+      "text": "where",
+      "startMs": 29230,
+      "endMs": 29760,
+      "conf": 0.995,
+      "rms": -53.72,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 82,
+      "text": "history,",
+      "startMs": 29760,
+      "endMs": 30180,
+      "conf": 0.986,
+      "rms": -20.22,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 83,
+      "text": "economics,",
+      "startMs": 30180,
+      "endMs": 30850,
+      "conf": 0.993,
+      "rms": -21.95,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 84,
+      "text": "and",
+      "startMs": 30850,
+      "endMs": 31110,
+      "conf": 0.994,
+      "rms": -28.91,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 85,
+      "text": "global",
+      "startMs": 31110,
+      "endMs": 31390,
+      "conf": 0.999,
+      "rms": -21.69,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 86,
+      "text": "power",
+      "startMs": 31390,
+      "endMs": 31960,
+      "conf": 0.998,
+      "rms": -32.2,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 87,
+      "text": "aren't",
+      "startMs": 31960,
+      "endMs": 32080,
+      "conf": 0.902,
+      "rms": -23.62,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 88,
+      "text": "separate",
+      "startMs": 32080,
+      "endMs": 32400,
+      "conf": 0.987,
+      "rms": -28.77,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 89,
+      "text": "stories,",
+      "startMs": 32400,
+      "endMs": 32960,
+      "conf": 1.0,
+      "rms": -24.48,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 90,
+      "text": "but",
+      "startMs": 32960,
+      "endMs": 33130,
+      "conf": 0.998,
+      "rms": -37.9,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 91,
+      "text": "one",
+      "startMs": 33130,
+      "endMs": 33550,
+      "conf": 0.995,
+      "rms": -45.58,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 92,
+      "text": "connected",
+      "startMs": 33550,
+      "endMs": 33870,
+      "conf": 0.999,
+      "rms": -23.93,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 93,
+      "text": "timeline",
+      "startMs": 33870,
+      "endMs": 34370,
+      "conf": 0.992,
+      "rms": -19.76,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 94,
+      "text": "revealing",
+      "startMs": 34370,
+      "endMs": 34930,
+      "conf": 0.964,
+      "rms": -17.15,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 95,
+      "text": "how",
+      "startMs": 34930,
+      "endMs": 35110,
+      "conf": 0.999,
+      "rms": -15.76,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 96,
+      "text": "the",
+      "startMs": 35110,
+      "endMs": 35290,
+      "conf": 0.999,
+      "rms": -20.15,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 97,
+      "text": "world",
+      "startMs": 35290,
+      "endMs": 35660,
+      "conf": 0.999,
+      "rms": -23.11,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 98,
+      "text": "truly",
+      "startMs": 35660,
+      "endMs": 35910,
+      "conf": 0.998,
+      "rms": -19.94,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 99,
+      "text": "works.",
+      "startMs": 35910,
+      "endMs": 36640,
+      "conf": 0.999,
+      "rms": -35.16,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 100,
+      "text": "Here",
+      "startMs": 36640,
+      "endMs": 36760,
+      "conf": 0.97,
+      "rms": -10.71,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 101,
+      "text": "we",
+      "startMs": 36760,
+      "endMs": 36900,
+      "conf": 0.648,
+      "rms": -13.89,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 102,
+      "text": "step",
+      "startMs": 36900,
+      "endMs": 37310,
+      "conf": 0.996,
+      "rms": -29.54,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 103,
+      "text": "back",
+      "startMs": 37310,
+      "endMs": 37360,
+      "conf": 0.979,
+      "rms": -19.53,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 104,
+      "text": "from",
+      "startMs": 37360,
+      "endMs": 37520,
+      "conf": 0.716,
+      "rms": -29.35,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 105,
+      "text": "the",
+      "startMs": 37520,
+      "endMs": 37710,
+      "conf": 0.998,
+      "rms": -25.31,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 106,
+      "text": "noise.",
+      "startMs": 37710,
+      "endMs": 38150,
+      "conf": 0.992,
+      "rms": -24.97,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 107,
+      "text": "No",
+      "startMs": 38150,
+      "endMs": 38600,
+      "conf": 0.997,
+      "rms": -49.19,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 108,
+      "text": "market",
+      "startMs": 38600,
+      "endMs": 38740,
+      "conf": 0.998,
+      "rms": -15.35,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 109,
+      "text": "predictions,",
+      "startMs": 38740,
+      "endMs": 39710,
+      "conf": 0.998,
+      "rms": -27.75,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 110,
+      "text": "no",
+      "startMs": 39710,
+      "endMs": 39730,
+      "conf": 0.997,
+      "rms": -26.54,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 111,
+      "text": "investment",
+      "startMs": 39730,
+      "endMs": 40350,
+      "conf": 1.0,
+      "rms": -21.43,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 112,
+      "text": "hype,",
+      "startMs": 40350,
+      "endMs": 40750,
+      "conf": 0.997,
+      "rms": -39.19,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 113,
+      "text": "no",
+      "startMs": 40750,
+      "endMs": 40880,
+      "conf": 0.957,
+      "rms": -24.28,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 114,
+      "text": "breaking",
+      "startMs": 40880,
+      "endMs": 41400,
+      "conf": 0.996,
+      "rms": -19.35,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 115,
+      "text": "news",
+      "startMs": 41400,
+      "endMs": 41980,
+      "conf": 0.972,
+      "rms": -47.34,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 116,
+      "text": "panic.",
+      "startMs": 41980,
+      "endMs": 42170,
+      "conf": 0.999,
+      "rms": -23.59,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 117,
+      "text": "Instead,",
+      "startMs": 42170,
+      "endMs": 42970,
+      "conf": 0.993,
+      "rms": -33.55,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 118,
+      "text": "we",
+      "startMs": 42970,
+      "endMs": 43040,
+      "conf": 0.871,
+      "rms": -29.18,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 119,
+      "text": "explore",
+      "startMs": 43040,
+      "endMs": 43440,
+      "conf": 0.974,
+      "rms": -19.5,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 120,
+      "text": "the",
+      "startMs": 43440,
+      "endMs": 43610,
+      "conf": 1.0,
+      "rms": -14.1,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 121,
+      "text": "larger",
+      "startMs": 43610,
+      "endMs": 43940,
+      "conf": 0.998,
+      "rms": -18.47,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 122,
+      "text": "forces",
+      "startMs": 43940,
+      "endMs": 44290,
+      "conf": 0.999,
+      "rms": -26.05,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 123,
+      "text": "that",
+      "startMs": 44290,
+      "endMs": 44530,
+      "conf": 0.998,
+      "rms": -27.65,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 124,
+      "text": "silently",
+      "startMs": 44530,
+      "endMs": 44980,
+      "conf": 0.999,
+      "rms": -20.15,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 125,
+      "text": "shape",
+      "startMs": 44980,
+      "endMs": 45260,
+      "conf": 0.995,
+      "rms": -18.31,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 126,
+      "text": "everything.",
+      "startMs": 45260,
+      "endMs": 45890,
+      "conf": 0.999,
+      "rms": -23.83,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 127,
+      "text": "Forces",
+      "startMs": 45890,
+      "endMs": 46520,
+      "conf": 0.981,
+      "rms": -45.12,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 128,
+      "text": "most",
+      "startMs": 46520,
+      "endMs": 46590,
+      "conf": 0.992,
+      "rms": -19.41,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 129,
+      "text": "people",
+      "startMs": 46590,
+      "endMs": 46930,
+      "conf": 0.999,
+      "rms": -16.42,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 130,
+      "text": "never",
+      "startMs": 46930,
+      "endMs": 47220,
+      "conf": 0.998,
+      "rms": -18.52,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 131,
+      "text": "learn",
+      "startMs": 47220,
+      "endMs": 47510,
+      "conf": 0.886,
+      "rms": -14.96,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 132,
+      "text": "about,",
+      "startMs": 47510,
+      "endMs": 48140,
+      "conf": 0.998,
+      "rms": -29.11,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 133,
+      "text": "yet",
+      "startMs": 48140,
+      "endMs": 48160,
+      "conf": 0.988,
+      "rms": -31.61,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 134,
+      "text": "affect",
+      "startMs": 48160,
+      "endMs": 48480,
+      "conf": 0.977,
+      "rms": -22.64,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 135,
+      "text": "every",
+      "startMs": 48480,
+      "endMs": 48790,
+      "conf": 0.999,
+      "rms": -15.64,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 136,
+      "text": "nation,",
+      "startMs": 48790,
+      "endMs": 49310,
+      "conf": 0.999,
+      "rms": -29.09,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 137,
+      "text": "every",
+      "startMs": 49310,
+      "endMs": 49600,
+      "conf": 0.996,
+      "rms": -15.62,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 138,
+      "text": "empire,",
+      "startMs": 49600,
+      "endMs": 50110,
+      "conf": 0.989,
+      "rms": -20.19,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 139,
+      "text": "and",
+      "startMs": 50110,
+      "endMs": 50290,
+      "conf": 0.998,
+      "rms": -17.46,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 140,
+      "text": "every",
+      "startMs": 50290,
+      "endMs": 50590,
+      "conf": 0.998,
+      "rms": -19.88,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 141,
+      "text": "generation.",
+      "startMs": 50590,
+      "endMs": 51420,
+      "conf": 0.999,
+      "rms": -41.49,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 142,
+      "text": "You'll",
+      "startMs": 51420,
+      "endMs": 51800,
+      "conf": 0.995,
+      "rms": -50.87,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 143,
+      "text": "discover",
+      "startMs": 51800,
+      "endMs": 52310,
+      "conf": 0.999,
+      "rms": -16.24,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 144,
+      "text": "how",
+      "startMs": 52310,
+      "endMs": 52520,
+      "conf": 0.999,
+      "rms": -18.69,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 145,
+      "text": "economies",
+      "startMs": 52520,
+      "endMs": 53070,
+      "conf": 0.998,
+      "rms": -21.11,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 146,
+      "text": "transform,",
+      "startMs": 53070,
+      "endMs": 53840,
+      "conf": 0.999,
+      "rms": -26.46,
+      "gapAfterMs": 180
+    },
+    {
+      "id": 147,
+      "text": "why",
+      "startMs": 54020,
+      "endMs": 54030,
+      "conf": 0.995,
+      "rms": -28.98,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 148,
+      "text": "civilizations",
+      "startMs": 54030,
+      "endMs": 54800,
+      "conf": 0.99,
+      "rms": -19.21,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 149,
+      "text": "rise",
+      "startMs": 54800,
+      "endMs": 55040,
+      "conf": 0.999,
+      "rms": -21.02,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 150,
+      "text": "and",
+      "startMs": 55040,
+      "endMs": 55220,
+      "conf": 0.943,
+      "rms": -16.62,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 151,
+      "text": "decline,",
+      "startMs": 55220,
+      "endMs": 55760,
+      "conf": 0.999,
+      "rms": -19.4,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 152,
+      "text": "and",
+      "startMs": 55760,
+      "endMs": 55940,
+      "conf": 0.967,
+      "rms": -24.02,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 153,
+      "text": "which",
+      "startMs": 55940,
+      "endMs": 56240,
+      "conf": 0.986,
+      "rms": -28.15,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 154,
+      "text": "long-term",
+      "startMs": 56240,
+      "endMs": 56780,
+      "conf": 0.997,
+      "rms": -19.21,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 155,
+      "text": "cycles",
+      "startMs": 56780,
+      "endMs": 57140,
+      "conf": 0.999,
+      "rms": -22.04,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 156,
+      "text": "repeat",
+      "startMs": 57140,
+      "endMs": 57580,
+      "conf": 0.998,
+      "rms": -30.06,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 157,
+      "text": "across",
+      "startMs": 57580,
+      "endMs": 57840,
+      "conf": 0.957,
+      "rms": -28.16,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 158,
+      "text": "centuries.",
+      "startMs": 57840,
+      "endMs": 58320,
+      "conf": 0.965,
+      "rms": -24.71,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 159,
+      "text": "We'll",
+      "startMs": 58320,
+      "endMs": 59040,
+      "conf": 0.547,
+      "rms": -42.99,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 160,
+      "text": "examine",
+      "startMs": 59040,
+      "endMs": 59450,
+      "conf": 1.0,
+      "rms": -12.04,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 161,
+      "text": "the",
+      "startMs": 59450,
+      "endMs": 59650,
+      "conf": 0.999,
+      "rms": -23.13,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 162,
+      "text": "push",
+      "startMs": 59650,
+      "endMs": 59840,
+      "conf": 0.999,
+      "rms": -20.75,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 163,
+      "text": "and",
+      "startMs": 59840,
+      "endMs": 60120,
+      "conf": 0.985,
+      "rms": -26.63,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 164,
+      "text": "pull",
+      "startMs": 60120,
+      "endMs": 60250,
+      "conf": 0.999,
+      "rms": -14.13,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 165,
+      "text": "between",
+      "startMs": 60250,
+      "endMs": 60680,
+      "conf": 0.997,
+      "rms": -26.08,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 166,
+      "text": "superpowers,",
+      "startMs": 60680,
+      "endMs": 61400,
+      "conf": 0.994,
+      "rms": -23.13,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 167,
+      "text": "the",
+      "startMs": 61400,
+      "endMs": 61780,
+      "conf": 0.999,
+      "rms": -45.27,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 168,
+      "text": "unseen",
+      "startMs": 61780,
+      "endMs": 61930,
+      "conf": 0.997,
+      "rms": -15.86,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 169,
+      "text": "financial",
+      "startMs": 61930,
+      "endMs": 62460,
+      "conf": 0.999,
+      "rms": -18.74,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 170,
+      "text": "systems",
+      "startMs": 62460,
+      "endMs": 62900,
+      "conf": 0.996,
+      "rms": -26.13,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 171,
+      "text": "beneath",
+      "startMs": 62900,
+      "endMs": 63330,
+      "conf": 0.999,
+      "rms": -26.59,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 172,
+      "text": "them,",
+      "startMs": 63330,
+      "endMs": 64000,
+      "conf": 0.999,
+      "rms": -37.22,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 173,
+      "text": "the",
+      "startMs": 64000,
+      "endMs": 64030,
+      "conf": 0.504,
+      "rms": -20.47,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 174,
+      "text": "decisions",
+      "startMs": 64030,
+      "endMs": 64400,
+      "conf": 0.573,
+      "rms": -15.49,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 175,
+      "text": "that",
+      "startMs": 64400,
+      "endMs": 64620,
+      "conf": 1.0,
+      "rms": -19.06,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 176,
+      "text": "shift",
+      "startMs": 64620,
+      "endMs": 64900,
+      "conf": 0.999,
+      "rms": -23.39,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 177,
+      "text": "global",
+      "startMs": 64900,
+      "endMs": 65240,
+      "conf": 0.999,
+      "rms": -28.96,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 178,
+      "text": "influence,",
+      "startMs": 65240,
+      "endMs": 65850,
+      "conf": 0.999,
+      "rms": -24.13,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 179,
+      "text": "and",
+      "startMs": 65850,
+      "endMs": 66020,
+      "conf": 0.997,
+      "rms": -30.92,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 180,
+      "text": "the",
+      "startMs": 66020,
+      "endMs": 66370,
+      "conf": 0.996,
+      "rms": -51.2,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 181,
+      "text": "historical",
+      "startMs": 66370,
+      "endMs": 66760,
+      "conf": 0.999,
+      "rms": -19.9,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 182,
+      "text": "rhythms",
+      "startMs": 66760,
+      "endMs": 67140,
+      "conf": 0.999,
+      "rms": -17.22,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 183,
+      "text": "that",
+      "startMs": 67140,
+      "endMs": 67360,
+      "conf": 0.998,
+      "rms": -26.07,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 184,
+      "text": "drive",
+      "startMs": 67360,
+      "endMs": 67670,
+      "conf": 0.999,
+      "rms": -31.82,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 185,
+      "text": "every",
+      "startMs": 67670,
+      "endMs": 67990,
+      "conf": 0.999,
+      "rms": -24.91,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 186,
+      "text": "major",
+      "startMs": 67990,
+      "endMs": 68210,
+      "conf": 1.0,
+      "rms": -20.35,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 187,
+      "text": "turning",
+      "startMs": 68210,
+      "endMs": 68600,
+      "conf": 1.0,
+      "rms": -20.79,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 188,
+      "text": "point,",
+      "startMs": 68600,
+      "endMs": 68960,
+      "conf": 0.997,
+      "rms": -26.86,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 189,
+      "text": "from",
+      "startMs": 68960,
+      "endMs": 69200,
+      "conf": 0.995,
+      "rms": -41.43,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 190,
+      "text": "ancient",
+      "startMs": 69200,
+      "endMs": 69880,
+      "conf": 0.998,
+      "rms": -44.22,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 191,
+      "text": "trade",
+      "startMs": 69880,
+      "endMs": 70040,
+      "conf": 0.999,
+      "rms": -17.39,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 192,
+      "text": "routes",
+      "startMs": 70040,
+      "endMs": 70450,
+      "conf": 0.987,
+      "rms": -19.5,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 193,
+      "text": "to",
+      "startMs": 70450,
+      "endMs": 70580,
+      "conf": 0.902,
+      "rms": -19.07,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 194,
+      "text": "modern",
+      "startMs": 70580,
+      "endMs": 70990,
+      "conf": 0.996,
+      "rms": -31.01,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 195,
+      "text": "reserve",
+      "startMs": 70990,
+      "endMs": 71460,
+      "conf": 0.992,
+      "rms": -17.33,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 196,
+      "text": "currencies,",
+      "startMs": 71460,
+      "endMs": 72330,
+      "conf": 0.999,
+      "rms": -29.8,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 197,
+      "text": "from",
+      "startMs": 72330,
+      "endMs": 72590,
+      "conf": 0.986,
+      "rms": -46.89,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 198,
+      "text": "forgotten",
+      "startMs": 72590,
+      "endMs": 72950,
+      "conf": 0.999,
+      "rms": -22.03,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 199,
+      "text": "monetary",
+      "startMs": 72950,
+      "endMs": 73280,
+      "conf": 0.994,
+      "rms": -17.44,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 200,
+      "text": "rules",
+      "startMs": 73280,
+      "endMs": 73520,
+      "conf": 0.962,
+      "rms": -14.48,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 201,
+      "text": "to",
+      "startMs": 73520,
+      "endMs": 73680,
+      "conf": 0.831,
+      "rms": -17.77,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 202,
+      "text": "powerful",
+      "startMs": 73680,
+      "endMs": 74140,
+      "conf": 0.999,
+      "rms": -27.39,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 203,
+      "text": "new",
+      "startMs": 74140,
+      "endMs": 74310,
+      "conf": 0.949,
+      "rms": -19.64,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 204,
+      "text": "alliances,",
+      "startMs": 74310,
+      "endMs": 74940,
+      "conf": 0.999,
+      "rms": -20.37,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 205,
+      "text": "from",
+      "startMs": 74940,
+      "endMs": 75050,
+      "conf": 0.997,
+      "rms": -36.18,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 206,
+      "text": "the",
+      "startMs": 75050,
+      "endMs": 75530,
+      "conf": 0.998,
+      "rms": -45.68,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 207,
+      "text": "stability",
+      "startMs": 75530,
+      "endMs": 75860,
+      "conf": 1.0,
+      "rms": -20.13,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 208,
+      "text": "of",
+      "startMs": 75860,
+      "endMs": 75970,
+      "conf": 1.0,
+      "rms": -11.61,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 209,
+      "text": "past",
+      "startMs": 75970,
+      "endMs": 76250,
+      "conf": 0.998,
+      "rms": -17.92,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 210,
+      "text": "empires",
+      "startMs": 76250,
+      "endMs": 76610,
+      "conf": 0.999,
+      "rms": -18.06,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 211,
+      "text": "to",
+      "startMs": 76610,
+      "endMs": 76720,
+      "conf": 0.703,
+      "rms": -23.64,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 212,
+      "text": "the",
+      "startMs": 76720,
+      "endMs": 76890,
+      "conf": 0.999,
+      "rms": -20.5,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 213,
+      "text": "turbulence",
+      "startMs": 76890,
+      "endMs": 77470,
+      "conf": 0.998,
+      "rms": -26.57,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 214,
+      "text": "of",
+      "startMs": 77470,
+      "endMs": 77580,
+      "conf": 1.0,
+      "rms": -15.62,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 215,
+      "text": "today's",
+      "startMs": 77580,
+      "endMs": 78080,
+      "conf": 0.999,
+      "rms": -21.37,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 216,
+      "text": "world.",
+      "startMs": 78080,
+      "endMs": 78400,
+      "conf": 0.985,
+      "rms": -18.33,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 217,
+      "text": "Each",
+      "startMs": 78400,
+      "endMs": 78660,
+      "conf": 0.992,
+      "rms": -35.35,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 218,
+      "text": "video",
+      "startMs": 78660,
+      "endMs": 79040,
+      "conf": 1.0,
+      "rms": -52.51,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 219,
+      "text": "reveals",
+      "startMs": 79040,
+      "endMs": 79450,
+      "conf": 0.998,
+      "rms": -27.22,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 220,
+      "text": "another",
+      "startMs": 79450,
+      "endMs": 79800,
+      "conf": 0.999,
+      "rms": -12.27,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 221,
+      "text": "piece",
+      "startMs": 79800,
+      "endMs": 80100,
+      "conf": 0.999,
+      "rms": -18.33,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 222,
+      "text": "of",
+      "startMs": 80100,
+      "endMs": 80220,
+      "conf": 1.0,
+      "rms": -17.96,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 223,
+      "text": "the",
+      "startMs": 80220,
+      "endMs": 80390,
+      "conf": 0.999,
+      "rms": -22.89,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 224,
+      "text": "puzzle,",
+      "startMs": 80390,
+      "endMs": 80880,
+      "conf": 1.0,
+      "rms": -24.91,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 225,
+      "text": "not",
+      "startMs": 80880,
+      "endMs": 81050,
+      "conf": 0.992,
+      "rms": -29.43,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 226,
+      "text": "to",
+      "startMs": 81050,
+      "endMs": 81390,
+      "conf": 0.999,
+      "rms": -50.51,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 227,
+      "text": "tell",
+      "startMs": 81390,
+      "endMs": 81420,
+      "conf": 1.0,
+      "rms": -21.8,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 228,
+      "text": "you",
+      "startMs": 81420,
+      "endMs": 81600,
+      "conf": 0.997,
+      "rms": -24.74,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 229,
+      "text": "what",
+      "startMs": 81600,
+      "endMs": 81840,
+      "conf": 0.998,
+      "rms": -20.73,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 230,
+      "text": "will",
+      "startMs": 81840,
+      "endMs": 82150,
+      "conf": 0.997,
+      "rms": -19.61,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 231,
+      "text": "happen",
+      "startMs": 82150,
+      "endMs": 82480,
+      "conf": 0.987,
+      "rms": -23.09,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 232,
+      "text": "next,",
+      "startMs": 82480,
+      "endMs": 83120,
+      "conf": 0.969,
+      "rms": -36.1,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 233,
+      "text": "but",
+      "startMs": 83120,
+      "endMs": 83340,
+      "conf": 1.0,
+      "rms": -62.62,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 234,
+      "text": "to",
+      "startMs": 83340,
+      "endMs": 83360,
+      "conf": 0.996,
+      "rms": -57.05,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 235,
+      "text": "help",
+      "startMs": 83360,
+      "endMs": 83520,
+      "conf": 0.999,
+      "rms": -26.49,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 236,
+      "text": "you",
+      "startMs": 83520,
+      "endMs": 83710,
+      "conf": 0.999,
+      "rms": -24.97,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 237,
+      "text": "understand",
+      "startMs": 83710,
+      "endMs": 84110,
+      "conf": 0.996,
+      "rms": -19.19,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 238,
+      "text": "why",
+      "startMs": 84110,
+      "endMs": 84240,
+      "conf": 0.999,
+      "rms": -14.53,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 239,
+      "text": "events",
+      "startMs": 84240,
+      "endMs": 84500,
+      "conf": 0.999,
+      "rms": -19.41,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 240,
+      "text": "happen",
+      "startMs": 84500,
+      "endMs": 84780,
+      "conf": 0.996,
+      "rms": -20.52,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 241,
+      "text": "at",
+      "startMs": 84780,
+      "endMs": 84900,
+      "conf": 0.97,
+      "rms": -28.55,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 242,
+      "text": "all.",
+      "startMs": 84900,
+      "endMs": 85200,
+      "conf": 1.0,
+      "rms": -20.79,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 243,
+      "text": "Because",
+      "startMs": 85200,
+      "endMs": 86080,
+      "conf": 0.968,
+      "rms": -46.4,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 244,
+      "text": "once",
+      "startMs": 86080,
+      "endMs": 86220,
+      "conf": 0.925,
+      "rms": -18.92,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 245,
+      "text": "you",
+      "startMs": 86220,
+      "endMs": 86500,
+      "conf": 0.999,
+      "rms": -22.11,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 246,
+      "text": "see",
+      "startMs": 86500,
+      "endMs": 86810,
+      "conf": 0.995,
+      "rms": -16.99,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 247,
+      "text": "the",
+      "startMs": 86810,
+      "endMs": 86880,
+      "conf": 0.987,
+      "rms": -12.61,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 248,
+      "text": "world",
+      "startMs": 86880,
+      "endMs": 87200,
+      "conf": 0.97,
+      "rms": -15.28,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 249,
+      "text": "through",
+      "startMs": 87200,
+      "endMs": 87380,
+      "conf": 0.987,
+      "rms": -26.83,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 250,
+      "text": "these",
+      "startMs": 87380,
+      "endMs": 87600,
+      "conf": 0.576,
+      "rms": -16.96,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 251,
+      "text": "cycles,",
+      "startMs": 87600,
+      "endMs": 88100,
+      "conf": 0.999,
+      "rms": -21.85,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 252,
+      "text": "you'll",
+      "startMs": 88100,
+      "endMs": 88480,
+      "conf": 0.996,
+      "rms": -36.34,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 253,
+      "text": "never",
+      "startMs": 88480,
+      "endMs": 88840,
+      "conf": 1.0,
+      "rms": -48.02,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 254,
+      "text": "see",
+      "startMs": 88840,
+      "endMs": 88980,
+      "conf": 0.999,
+      "rms": -20.12,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 255,
+      "text": "today's",
+      "startMs": 88980,
+      "endMs": 89410,
+      "conf": 0.996,
+      "rms": -15.88,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 256,
+      "text": "news",
+      "startMs": 89410,
+      "endMs": 89660,
+      "conf": 0.997,
+      "rms": -19.91,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 257,
+      "text": "the",
+      "startMs": 89660,
+      "endMs": 89850,
+      "conf": 0.997,
+      "rms": -15.76,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 258,
+      "text": "same",
+      "startMs": 89850,
+      "endMs": 90100,
+      "conf": 0.999,
+      "rms": -21.13,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 259,
+      "text": "way",
+      "startMs": 90100,
+      "endMs": 90290,
+      "conf": 0.999,
+      "rms": -16.76,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 260,
+      "text": "again.",
+      "startMs": 90290,
+      "endMs": 90770,
+      "conf": 0.996,
+      "rms": -18.42,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 261,
+      "text": "You'll",
+      "startMs": 90770,
+      "endMs": 91410,
+      "conf": 0.998,
+      "rms": -49.42,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 262,
+      "text": "recognize",
+      "startMs": 91410,
+      "endMs": 91740,
+      "conf": 0.998,
+      "rms": -16.98,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 263,
+      "text": "patterns",
+      "startMs": 91740,
+      "endMs": 92320,
+      "conf": 0.999,
+      "rms": -23.01,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 264,
+      "text": "where",
+      "startMs": 92320,
+      "endMs": 92560,
+      "conf": 0.891,
+      "rms": -22.54,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 265,
+      "text": "others",
+      "startMs": 92560,
+      "endMs": 92800,
+      "conf": 0.962,
+      "rms": -20.38,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 266,
+      "text": "see",
+      "startMs": 92800,
+      "endMs": 92960,
+      "conf": 0.749,
+      "rms": -22.35,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 267,
+      "text": "chaos.",
+      "startMs": 92960,
+      "endMs": 93420,
+      "conf": 0.999,
+      "rms": -24.4,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 268,
+      "text": "You'll",
+      "startMs": 93420,
+      "endMs": 93800,
+      "conf": 0.999,
+      "rms": -44.14,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 269,
+      "text": "spot",
+      "startMs": 93800,
+      "endMs": 94040,
+      "conf": 1.0,
+      "rms": -26.21,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 270,
+      "text": "signals",
+      "startMs": 94040,
+      "endMs": 94390,
+      "conf": 0.999,
+      "rms": -21.24,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 271,
+      "text": "long",
+      "startMs": 94390,
+      "endMs": 94710,
+      "conf": 0.998,
+      "rms": -22.85,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 272,
+      "text": "before",
+      "startMs": 94710,
+      "endMs": 94960,
+      "conf": 1.0,
+      "rms": -16.45,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 273,
+      "text": "the",
+      "startMs": 94960,
+      "endMs": 95120,
+      "conf": 1.0,
+      "rms": -22.25,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 274,
+      "text": "world",
+      "startMs": 95120,
+      "endMs": 95420,
+      "conf": 1.0,
+      "rms": -22.75,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 275,
+      "text": "reacts.",
+      "startMs": 95420,
+      "endMs": 95930,
+      "conf": 0.999,
+      "rms": -28.9,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 276,
+      "text": "And",
+      "startMs": 95930,
+      "endMs": 96100,
+      "conf": 0.927,
+      "rms": -41.39,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 277,
+      "text": "you'll",
+      "startMs": 96100,
+      "endMs": 96670,
+      "conf": 0.998,
+      "rms": -41.54,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 278,
+      "text": "understand",
+      "startMs": 96670,
+      "endMs": 97020,
+      "conf": 0.999,
+      "rms": -18.19,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 279,
+      "text": "how",
+      "startMs": 97020,
+      "endMs": 97190,
+      "conf": 0.998,
+      "rms": -17.87,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 280,
+      "text": "our",
+      "startMs": 97190,
+      "endMs": 97360,
+      "conf": 0.994,
+      "rms": -14.45,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 281,
+      "text": "present",
+      "startMs": 97360,
+      "endMs": 97840,
+      "conf": 0.991,
+      "rms": -22.69,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 282,
+      "text": "moment",
+      "startMs": 97840,
+      "endMs": 98210,
+      "conf": 1.0,
+      "rms": -18.55,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 283,
+      "text": "fits",
+      "startMs": 98210,
+      "endMs": 98470,
+      "conf": 0.998,
+      "rms": -28.29,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 284,
+      "text": "into",
+      "startMs": 98470,
+      "endMs": 98710,
+      "conf": 0.999,
+      "rms": -21.69,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 285,
+      "text": "a",
+      "startMs": 98710,
+      "endMs": 98770,
+      "conf": 0.999,
+      "rms": -20.45,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 286,
+      "text": "story",
+      "startMs": 98770,
+      "endMs": 99080,
+      "conf": 1.0,
+      "rms": -21.23,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 287,
+      "text": "thousands",
+      "startMs": 99080,
+      "endMs": 99640,
+      "conf": 0.995,
+      "rms": -24.02,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 288,
+      "text": "of",
+      "startMs": 99640,
+      "endMs": 99760,
+      "conf": 0.999,
+      "rms": -26.42,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 289,
+      "text": "years",
+      "startMs": 99760,
+      "endMs": 100070,
+      "conf": 1.0,
+      "rms": -25.11,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 290,
+      "text": "old.",
+      "startMs": 100070,
+      "endMs": 100430,
+      "conf": 1.0,
+      "rms": -41.03,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 291,
+      "text": "This",
+      "startMs": 100430,
+      "endMs": 101030,
+      "conf": 0.995,
+      "rms": -55.72,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 292,
+      "text": "channel",
+      "startMs": 101030,
+      "endMs": 101130,
+      "conf": 0.999,
+      "rms": -23.78,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 293,
+      "text": "is",
+      "startMs": 101130,
+      "endMs": 101290,
+      "conf": 0.999,
+      "rms": -23.92,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 294,
+      "text": "for",
+      "startMs": 101290,
+      "endMs": 101440,
+      "conf": 1.0,
+      "rms": -19.88,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 295,
+      "text": "anyone",
+      "startMs": 101440,
+      "endMs": 101810,
+      "conf": 0.999,
+      "rms": -23.22,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 296,
+      "text": "who",
+      "startMs": 101810,
+      "endMs": 102000,
+      "conf": 0.999,
+      "rms": -18.5,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 297,
+      "text": "wants",
+      "startMs": 102000,
+      "endMs": 102400,
+      "conf": 0.998,
+      "rms": -22.49,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 298,
+      "text": "to",
+      "startMs": 102400,
+      "endMs": 102560,
+      "conf": 0.989,
+      "rms": -31.3,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 299,
+      "text": "think",
+      "startMs": 102560,
+      "endMs": 102800,
+      "conf": 0.919,
+      "rms": -29.41,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 300,
+      "text": "deeper,",
+      "startMs": 102800,
+      "endMs": 103650,
+      "conf": 0.999,
+      "rms": -39.44,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 301,
+      "text": "anyone",
+      "startMs": 103650,
+      "endMs": 103680,
+      "conf": 0.992,
+      "rms": -11.17,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 302,
+      "text": "fascinated",
+      "startMs": 103680,
+      "endMs": 104330,
+      "conf": 0.999,
+      "rms": -19.99,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 303,
+      "text": "by",
+      "startMs": 104330,
+      "endMs": 104440,
+      "conf": 0.999,
+      "rms": -15.81,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 304,
+      "text": "global",
+      "startMs": 104440,
+      "endMs": 104820,
+      "conf": 0.998,
+      "rms": -23.99,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 305,
+      "text": "finance,",
+      "startMs": 104820,
+      "endMs": 105380,
+      "conf": 0.999,
+      "rms": -17.06,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 306,
+      "text": "geopolitics,",
+      "startMs": 105380,
+      "endMs": 106220,
+      "conf": 0.992,
+      "rms": -30.98,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 307,
+      "text": "civilizations,",
+      "startMs": 106220,
+      "endMs": 107140,
+      "conf": 0.997,
+      "rms": -21.86,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 308,
+      "text": "and",
+      "startMs": 107140,
+      "endMs": 107320,
+      "conf": 0.998,
+      "rms": -17.05,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 309,
+      "text": "long-term",
+      "startMs": 107320,
+      "endMs": 108000,
+      "conf": 0.999,
+      "rms": -20.13,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 310,
+      "text": "history,",
+      "startMs": 108000,
+      "endMs": 108800,
+      "conf": 0.965,
+      "rms": -28.07,
+      "gapAfterMs": 150
+    },
+    {
+      "id": 311,
+      "text": "anyone",
+      "startMs": 108950,
+      "endMs": 109170,
+      "conf": 0.997,
+      "rms": -12.33,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 312,
+      "text": "who",
+      "startMs": 109170,
+      "endMs": 109350,
+      "conf": 0.999,
+      "rms": -15.58,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 313,
+      "text": "wonders",
+      "startMs": 109350,
+      "endMs": 109790,
+      "conf": 0.982,
+      "rms": -17.87,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 314,
+      "text": "not",
+      "startMs": 109790,
+      "endMs": 109970,
+      "conf": 0.988,
+      "rms": -14.43,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 315,
+      "text": "just",
+      "startMs": 109970,
+      "endMs": 110220,
+      "conf": 0.997,
+      "rms": -28.97,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 316,
+      "text": "what",
+      "startMs": 110220,
+      "endMs": 110470,
+      "conf": 0.998,
+      "rms": -25.3,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 317,
+      "text": "is",
+      "startMs": 110470,
+      "endMs": 110590,
+      "conf": 0.996,
+      "rms": -20.61,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 318,
+      "text": "happening",
+      "startMs": 110590,
+      "endMs": 111150,
+      "conf": 1.0,
+      "rms": -26.19,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 319,
+      "text": "but",
+      "startMs": 111150,
+      "endMs": 111330,
+      "conf": 0.492,
+      "rms": -24.48,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 320,
+      "text": "why",
+      "startMs": 111330,
+      "endMs": 111510,
+      "conf": 0.993,
+      "rms": -16.86,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 321,
+      "text": "it's",
+      "startMs": 111510,
+      "endMs": 111750,
+      "conf": 0.997,
+      "rms": -24.61,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 322,
+      "text": "happening",
+      "startMs": 111750,
+      "endMs": 112520,
+      "conf": 1.0,
+      "rms": -38.49,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 323,
+      "text": "and",
+      "startMs": 112520,
+      "endMs": 112590,
+      "conf": 0.699,
+      "rms": -44.19,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 324,
+      "text": "what",
+      "startMs": 112590,
+      "endMs": 112670,
+      "conf": 0.998,
+      "rms": -21.46,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 325,
+      "text": "it",
+      "startMs": 112670,
+      "endMs": 112750,
+      "conf": 0.996,
+      "rms": -16.83,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 326,
+      "text": "means",
+      "startMs": 112750,
+      "endMs": 112960,
+      "conf": 0.999,
+      "rms": -15.72,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 327,
+      "text": "for",
+      "startMs": 112960,
+      "endMs": 113120,
+      "conf": 0.984,
+      "rms": -13.79,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 328,
+      "text": "the",
+      "startMs": 113120,
+      "endMs": 113200,
+      "conf": 0.837,
+      "rms": -26.46,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 329,
+      "text": "future.",
+      "startMs": 113200,
+      "endMs": 113740,
+      "conf": 1.0,
+      "rms": -27.08,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 330,
+      "text": "If",
+      "startMs": 113740,
+      "endMs": 113940,
+      "conf": 0.997,
+      "rms": -54.53,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 331,
+      "text": "that",
+      "startMs": 113940,
+      "endMs": 114190,
+      "conf": 0.999,
+      "rms": -50.23,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 332,
+      "text": "sounds",
+      "startMs": 114190,
+      "endMs": 114480,
+      "conf": 0.999,
+      "rms": -22.8,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 333,
+      "text": "like",
+      "startMs": 114480,
+      "endMs": 114720,
+      "conf": 1.0,
+      "rms": -17.51,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 334,
+      "text": "you,",
+      "startMs": 114720,
+      "endMs": 115020,
+      "conf": 0.998,
+      "rms": -19.04,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 335,
+      "text": "you're",
+      "startMs": 115020,
+      "endMs": 115210,
+      "conf": 0.999,
+      "rms": -16.23,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 336,
+      "text": "in",
+      "startMs": 115210,
+      "endMs": 115680,
+      "conf": 1.0,
+      "rms": -49.56,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 337,
+      "text": "the",
+      "startMs": 115680,
+      "endMs": 115750,
+      "conf": 1.0,
+      "rms": -38.1,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 338,
+      "text": "right",
+      "startMs": 115750,
+      "endMs": 115990,
+      "conf": 1.0,
+      "rms": -15.59,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 339,
+      "text": "place.",
+      "startMs": 115990,
+      "endMs": 116480,
+      "conf": 1.0,
+      "rms": -24.16,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 340,
+      "text": "Welcome",
+      "startMs": 116480,
+      "endMs": 117030,
+      "conf": 0.993,
+      "rms": -45.11,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 341,
+      "text": "to",
+      "startMs": 117030,
+      "endMs": 117120,
+      "conf": 0.999,
+      "rms": -41.36,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 342,
+      "text": "the",
+      "startMs": 117120,
+      "endMs": 117210,
+      "conf": 0.987,
+      "rms": -19.29,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 343,
+      "text": "journey.",
+      "startMs": 117210,
+      "endMs": 118130,
+      "conf": 0.982,
+      "rms": -27.21,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 344,
+      "text": "Welcome",
+      "startMs": 118130,
+      "endMs": 118240,
+      "conf": 0.653,
+      "rms": -20.39,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 345,
+      "text": "to",
+      "startMs": 118240,
+      "endMs": 118410,
+      "conf": 0.998,
+      "rms": -23.08,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 346,
+      "text": "the",
+      "startMs": 118410,
+      "endMs": 118670,
+      "conf": 0.995,
+      "rms": -18.85,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 347,
+      "text": "cycles.",
+      "startMs": 118670,
+      "endMs": 119450,
+      "conf": 0.991,
+      "rms": -32.98,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 348,
+      "text": "Welcome",
+      "startMs": 119450,
+      "endMs": 119770,
+      "conf": 0.999,
+      "rms": -22.81,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 349,
+      "text": "to",
+      "startMs": 119770,
+      "endMs": 120360,
+      "conf": 0.995,
+      "rms": -41.48,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 350,
+      "text": "World",
+      "startMs": 120360,
+      "endMs": 120660,
+      "conf": 0.876,
+      "rms": -18.92,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 351,
+      "text": "Economy",
+      "startMs": 120660,
+      "endMs": 121270,
+      "conf": 0.986,
+      "rms": -23.13,
+      "gapAfterMs": 0
+    },
+    {
+      "id": 352,
+      "text": "Reborn.",
+      "startMs": 121270,
+      "endMs": 121840,
+      "conf": 0.974,
+      "rms": -26.32,
+      "gapAfterMs": 361
+    }
+  ],
+  "segments": [
+    {
+      "id": 0,
+      "text": "In every century, humanity believes its moment is unique, that today's crises are brand new, and that history has nothing left to teach us.",
+      "startMs": 130,
+      "endMs": 7520,
+      "wordIds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ]
+    },
+    {
+      "id": 1,
+      "text": "But the truth is far more fascinating and far more important.",
+      "startMs": 7520,
+      "endMs": 11340,
+      "wordIds": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34
+      ]
+    },
+    {
+      "id": 2,
+      "text": "Because behind wars, markets, currencies, and global power lie the same repeating patterns that shaped Rome, China, Europe, and America.",
+      "startMs": 11340,
+      "endMs": 19740,
+      "wordIds": [
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54
+      ]
+    },
+    {
+      "id": 3,
+      "text": "Patterns that rise, fall, and rise again, forming the economic heartbeat of our world.",
+      "startMs": 19740,
+      "endMs": 24390,
+      "wordIds": [
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68
+      ]
+    },
+    {
+      "id": 4,
+      "text": "This channel exists to uncover those patterns.",
+      "startMs": 24390,
+      "endMs": 26720,
+      "wordIds": [
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75
+      ]
+    },
+    {
+      "id": 5,
+      "text": "Welcome to World Economy Reborn, where history, economics, and global power aren't separate stories, but one connected timeline revealing how the world truly works.",
+      "startMs": 27810,
+      "endMs": 36640,
+      "wordIds": [
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99
+      ]
+    },
+    {
+      "id": 6,
+      "text": "Here we step back from the noise.",
+      "startMs": 36640,
+      "endMs": 38150,
+      "wordIds": [
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106
+      ]
+    },
+    {
+      "id": 7,
+      "text": "No market predictions, no investment hype, no breaking news panic.",
+      "startMs": 38150,
+      "endMs": 42170,
+      "wordIds": [
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116
+      ]
+    },
+    {
+      "id": 8,
+      "text": "Instead, we explore the larger forces that silently shape everything.",
+      "startMs": 42170,
+      "endMs": 45890,
+      "wordIds": [
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126
+      ]
+    },
+    {
+      "id": 9,
+      "text": "Forces most people never learn about, yet affect every nation, every empire, and every generation.",
+      "startMs": 45890,
+      "endMs": 51420,
+      "wordIds": [
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141
+      ]
+    },
+    {
+      "id": 10,
+      "text": "You'll discover how economies transform, why civilizations rise and decline, and which long-term cycles repeat across centuries.",
+      "startMs": 51420,
+      "endMs": 58320,
+      "wordIds": [
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158
+      ]
+    },
+    {
+      "id": 11,
+      "text": "We'll examine the push and pull between superpowers, the unseen financial systems beneath them, the decisions that shift global influence, and the historical rhythms that drive every major turning point, from ancient trade routes to modern reserve currencies, from forgotten monetary rules to powerful new alliances, from the stability of past empires to the turbulence of today's world.",
+      "startMs": 58320,
+      "endMs": 78400,
+      "wordIds": [
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209,
+        210,
+        211,
+        212,
+        213,
+        214,
+        215,
+        216
+      ]
+    },
+    {
+      "id": 12,
+      "text": "Each video reveals another piece of the puzzle, not to tell you what will happen next, but to help you understand why events happen at all.",
+      "startMs": 78400,
+      "endMs": 85200,
+      "wordIds": [
+        217,
+        218,
+        219,
+        220,
+        221,
+        222,
+        223,
+        224,
+        225,
+        226,
+        227,
+        228,
+        229,
+        230,
+        231,
+        232,
+        233,
+        234,
+        235,
+        236,
+        237,
+        238,
+        239,
+        240,
+        241,
+        242
+      ]
+    },
+    {
+      "id": 13,
+      "text": "Because once you see the world through these cycles, you'll never see today's news the same way again.",
+      "startMs": 85200,
+      "endMs": 90770,
+      "wordIds": [
+        243,
+        244,
+        245,
+        246,
+        247,
+        248,
+        249,
+        250,
+        251,
+        252,
+        253,
+        254,
+        255,
+        256,
+        257,
+        258,
+        259,
+        260
+      ]
+    },
+    {
+      "id": 14,
+      "text": "You'll recognize patterns where others see chaos.",
+      "startMs": 90770,
+      "endMs": 93420,
+      "wordIds": [
+        261,
+        262,
+        263,
+        264,
+        265,
+        266,
+        267
+      ]
+    },
+    {
+      "id": 15,
+      "text": "You'll spot signals long before the world reacts.",
+      "startMs": 93420,
+      "endMs": 95930,
+      "wordIds": [
+        268,
+        269,
+        270,
+        271,
+        272,
+        273,
+        274,
+        275
+      ]
+    },
+    {
+      "id": 16,
+      "text": "And you'll understand how our present moment fits into a story thousands of years old.",
+      "startMs": 95930,
+      "endMs": 100430,
+      "wordIds": [
+        276,
+        277,
+        278,
+        279,
+        280,
+        281,
+        282,
+        283,
+        284,
+        285,
+        286,
+        287,
+        288,
+        289,
+        290
+      ]
+    },
+    {
+      "id": 17,
+      "text": "This channel is for anyone who wants to think deeper, anyone fascinated by global finance, geopolitics, civilizations, and long-term history, anyone who wonders not just what is happening but why it's happening and what it means for the future.",
+      "startMs": 100430,
+      "endMs": 113740,
+      "wordIds": [
+        291,
+        292,
+        293,
+        294,
+        295,
+        296,
+        297,
+        298,
+        299,
+        300,
+        301,
+        302,
+        303,
+        304,
+        305,
+        306,
+        307,
+        308,
+        309,
+        310,
+        311,
+        312,
+        313,
+        314,
+        315,
+        316,
+        317,
+        318,
+        319,
+        320,
+        321,
+        322,
+        323,
+        324,
+        325,
+        326,
+        327,
+        328,
+        329
+      ]
+    },
+    {
+      "id": 18,
+      "text": "If that sounds like you, you're in the right place.",
+      "startMs": 113740,
+      "endMs": 116480,
+      "wordIds": [
+        330,
+        331,
+        332,
+        333,
+        334,
+        335,
+        336,
+        337,
+        338,
+        339
+      ]
+    },
+    {
+      "id": 19,
+      "text": "Welcome to the journey.",
+      "startMs": 116480,
+      "endMs": 118130,
+      "wordIds": [
+        340,
+        341,
+        342,
+        343
+      ]
+    },
+    {
+      "id": 20,
+      "text": "Welcome to the cycles.",
+      "startMs": 118130,
+      "endMs": 119450,
+      "wordIds": [
+        344,
+        345,
+        346,
+        347
+      ]
+    },
+    {
+      "id": 21,
+      "text": "Welcome to World Economy Reborn.",
+      "startMs": 119450,
+      "endMs": 121840,
+      "wordIds": [
+        348,
+        349,
+        350,
+        351,
+        352
+      ]
+    }
+  ],
+  "silences": [
+    {
+      "startMs": 3016,
+      "endMs": 3470
+    },
+    {
+      "startMs": 4972,
+      "endMs": 5400
+    },
+    {
+      "startMs": 9502,
+      "endMs": 9995
+    },
+    {
+      "startMs": 19189,
+      "endMs": 19684
+    },
+    {
+      "startMs": 24225,
+      "endMs": 24827
+    },
+    {
+      "startMs": 26806,
+      "endMs": 27816
+    },
+    {
+      "startMs": 29234,
+      "endMs": 29762
+    },
+    {
+      "startMs": 38189,
+      "endMs": 38596
+    },
+    {
+      "startMs": 41540,
+      "endMs": 41995
+    },
+    {
+      "startMs": 50976,
+      "endMs": 51755
+    },
+    {
+      "startMs": 69407,
+      "endMs": 69842
+    },
+    {
+      "startMs": 75024,
+      "endMs": 75491
+    },
+    {
+      "startMs": 78582,
+      "endMs": 79013
+    },
+    {
+      "startMs": 82898,
+      "endMs": 83351
+    },
+    {
+      "startMs": 85393,
+      "endMs": 86068
+    },
+    {
+      "startMs": 90791,
+      "endMs": 91349
+    },
+    {
+      "startMs": 100218,
+      "endMs": 101040
+    },
+    {
+      "startMs": 113656,
+      "endMs": 114144
+    },
+    {
+      "startMs": 115250,
+      "endMs": 115707
+    },
+    {
+      "startMs": 116651,
+      "endMs": 117053
+    }
+  ]
+}

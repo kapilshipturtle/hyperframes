@@ -1,0 +1,317 @@
+[
+  {
+    "tag": "click",
+    "file": "sfx/click-01.mp3",
+    "durationMs": 144,
+    "source": "Kenney (kenney.nl), Interface Sounds / UI Audio / Impact Sounds packs",
+    "license": "CC0"
+  },
+  {
+    "tag": "click",
+    "file": "sfx/click-02.mp3",
+    "durationMs": 48,
+    "source": "Kenney (kenney.nl), Interface Sounds / UI Audio / Impact Sounds packs",
+    "license": "CC0"
+  },
+  {
+    "tag": "click",
+    "file": "sfx/click-03.mp3",
+    "durationMs": 48,
+    "source": "Kenney (kenney.nl), Interface Sounds / UI Audio / Impact Sounds packs",
+    "license": "CC0"
+  },
+  {
+    "tag": "click",
+    "file": "sfx/click-04.mp3",
+    "durationMs": 48,
+    "source": "Kenney (kenney.nl), Interface Sounds / UI Audio / Impact Sounds packs",
+    "license": "CC0"
+  },
+  {
+    "tag": "click",
+    "file": "sfx/click-05.mp3",
+    "durationMs": 48,
+    "source": "Kenney (kenney.nl), Interface Sounds / UI Audio / Impact Sounds packs",
+    "license": "CC0"
+  },
+  {
+    "tag": "counter-tick-loop",
+    "file": "sfx/counter-tick-loop-01.mp3",
+    "durationMs": 72,
+    "source": "Kenney (kenney.nl), Interface Sounds / UI Audio / Impact Sounds packs",
+    "license": "CC0"
+  },
+  {
+    "tag": "counter-tick-loop",
+    "file": "sfx/counter-tick-loop-02.mp3",
+    "durationMs": 48,
+    "source": "Kenney (kenney.nl), Interface Sounds / UI Audio / Impact Sounds packs",
+    "license": "CC0"
+  },
+  {
+    "tag": "counter-tick-loop",
+    "file": "sfx/counter-tick-loop-03.mp3",
+    "durationMs": 96,
+    "source": "Kenney (kenney.nl), Interface Sounds / UI Audio / Impact Sounds packs",
+    "license": "CC0"
+  },
+  {
+    "tag": "ding",
+    "file": "sfx/ding-01.mp3",
+    "durationMs": 336,
+    "source": "Kenney (kenney.nl), Interface Sounds / UI Audio / Impact Sounds packs",
+    "license": "CC0"
+  },
+  {
+    "tag": "ding",
+    "file": "sfx/ding-02.mp3",
+    "durationMs": 600,
+    "source": "Kenney (kenney.nl), Interface Sounds / UI Audio / Impact Sounds packs",
+    "license": "CC0"
+  },
+  {
+    "tag": "ding",
+    "file": "sfx/ding-03.mp3",
+    "durationMs": 360,
+    "source": "Kenney (kenney.nl), Interface Sounds / UI Audio / Impact Sounds packs",
+    "license": "CC0"
+  },
+  {
+    "tag": "ding",
+    "file": "sfx/ding-04.mp3",
+    "durationMs": 528,
+    "source": "Kenney (kenney.nl), Interface Sounds / UI Audio / Impact Sounds packs",
+    "license": "CC0"
+  },
+  {
+    "tag": "glitch",
+    "file": "sfx/glitch-01.mp3",
+    "durationMs": 72,
+    "source": "Kenney (kenney.nl), Interface Sounds / UI Audio / Impact Sounds packs",
+    "license": "CC0"
+  },
+  {
+    "tag": "glitch",
+    "file": "sfx/glitch-02.mp3",
+    "durationMs": 72,
+    "source": "Kenney (kenney.nl), Interface Sounds / UI Audio / Impact Sounds packs",
+    "license": "CC0"
+  },
+  {
+    "tag": "glitch",
+    "file": "sfx/glitch-03.mp3",
+    "durationMs": 48,
+    "source": "Kenney (kenney.nl), Interface Sounds / UI Audio / Impact Sounds packs",
+    "license": "CC0"
+  },
+  {
+    "tag": "glitch",
+    "file": "sfx/glitch-04.mp3",
+    "durationMs": 72,
+    "source": "Kenney (kenney.nl), Interface Sounds / UI Audio / Impact Sounds packs",
+    "license": "CC0"
+  },
+  {
+    "tag": "impact-soft",
+    "file": "sfx/impact-soft-01.mp3",
+    "durationMs": 168,
+    "source": "Kenney (kenney.nl), Interface Sounds / UI Audio / Impact Sounds packs",
+    "license": "CC0"
+  },
+  {
+    "tag": "impact-soft",
+    "file": "sfx/impact-soft-02.mp3",
+    "durationMs": 240,
+    "source": "Kenney (kenney.nl), Interface Sounds / UI Audio / Impact Sounds packs",
+    "license": "CC0"
+  },
+  {
+    "tag": "impact-soft",
+    "file": "sfx/impact-soft-03.mp3",
+    "durationMs": 192,
+    "source": "Kenney (kenney.nl), Interface Sounds / UI Audio / Impact Sounds packs",
+    "license": "CC0"
+  },
+  {
+    "tag": "impact-soft",
+    "file": "sfx/impact-soft-04.mp3",
+    "durationMs": 192,
+    "source": "Kenney (kenney.nl), Interface Sounds / UI Audio / Impact Sounds packs",
+    "license": "CC0"
+  },
+  {
+    "tag": "impact-soft",
+    "file": "sfx/impact-soft-05.mp3",
+    "durationMs": 192,
+    "source": "Kenney (kenney.nl), Interface Sounds / UI Audio / Impact Sounds packs",
+    "license": "CC0"
+  },
+  {
+    "tag": "pop",
+    "file": "sfx/pop-01.mp3",
+    "durationMs": 168,
+    "source": "Kenney (kenney.nl), Interface Sounds / UI Audio / Impact Sounds packs",
+    "license": "CC0"
+  },
+  {
+    "tag": "pop",
+    "file": "sfx/pop-02.mp3",
+    "durationMs": 240,
+    "source": "Kenney (kenney.nl), Interface Sounds / UI Audio / Impact Sounds packs",
+    "license": "CC0"
+  },
+  {
+    "tag": "pop",
+    "file": "sfx/pop-03.mp3",
+    "durationMs": 240,
+    "source": "Kenney (kenney.nl), Interface Sounds / UI Audio / Impact Sounds packs",
+    "license": "CC0"
+  },
+  {
+    "tag": "pop",
+    "file": "sfx/pop-04.mp3",
+    "durationMs": 336,
+    "source": "Kenney (kenney.nl), Interface Sounds / UI Audio / Impact Sounds packs",
+    "license": "CC0"
+  },
+  {
+    "tag": "pop",
+    "file": "sfx/pop-05.mp3",
+    "durationMs": 144,
+    "source": "Kenney (kenney.nl), Interface Sounds / UI Audio / Impact Sounds packs",
+    "license": "CC0"
+  },
+  {
+    "tag": "pop",
+    "file": "sfx/pop-06.mp3",
+    "durationMs": 216,
+    "source": "Kenney (kenney.nl), Interface Sounds / UI Audio / Impact Sounds packs",
+    "license": "CC0"
+  },
+  {
+    "tag": "swoosh-short",
+    "file": "sfx/swoosh-short-01.mp3",
+    "durationMs": 1056,
+    "source": "Kenney (kenney.nl), Interface Sounds / UI Audio / Impact Sounds packs",
+    "license": "CC0"
+  },
+  {
+    "tag": "swoosh-short",
+    "file": "sfx/swoosh-short-02.mp3",
+    "durationMs": 1056,
+    "source": "Kenney (kenney.nl), Interface Sounds / UI Audio / Impact Sounds packs",
+    "license": "CC0"
+  },
+  {
+    "tag": "swoosh-short",
+    "file": "sfx/swoosh-short-03.mp3",
+    "durationMs": 1056,
+    "source": "Kenney (kenney.nl), Interface Sounds / UI Audio / Impact Sounds packs",
+    "license": "CC0"
+  },
+  {
+    "tag": "swoosh-short",
+    "file": "sfx/swoosh-short-04.mp3",
+    "durationMs": 1032,
+    "source": "Kenney (kenney.nl), Interface Sounds / UI Audio / Impact Sounds packs",
+    "license": "CC0"
+  },
+  {
+    "tag": "swoosh-short",
+    "file": "sfx/swoosh-short-05.mp3",
+    "durationMs": 1056,
+    "source": "Kenney (kenney.nl), Interface Sounds / UI Audio / Impact Sounds packs",
+    "license": "CC0"
+  },
+  {
+    "tag": "tick",
+    "file": "sfx/tick-01.mp3",
+    "durationMs": 72,
+    "source": "Kenney (kenney.nl), Interface Sounds / UI Audio / Impact Sounds packs",
+    "license": "CC0"
+  },
+  {
+    "tag": "tick",
+    "file": "sfx/tick-02.mp3",
+    "durationMs": 48,
+    "source": "Kenney (kenney.nl), Interface Sounds / UI Audio / Impact Sounds packs",
+    "license": "CC0"
+  },
+  {
+    "tag": "tick",
+    "file": "sfx/tick-03.mp3",
+    "durationMs": 96,
+    "source": "Kenney (kenney.nl), Interface Sounds / UI Audio / Impact Sounds packs",
+    "license": "CC0"
+  },
+  {
+    "tag": "typewriter-key",
+    "file": "sfx/typewriter-key-01.mp3",
+    "durationMs": 144,
+    "source": "Kenney (kenney.nl), Interface Sounds / UI Audio / Impact Sounds packs",
+    "license": "CC0"
+  },
+  {
+    "tag": "typewriter-key",
+    "file": "sfx/typewriter-key-02.mp3",
+    "durationMs": 96,
+    "source": "Kenney (kenney.nl), Interface Sounds / UI Audio / Impact Sounds packs",
+    "license": "CC0"
+  },
+  {
+    "tag": "typewriter-key",
+    "file": "sfx/typewriter-key-03.mp3",
+    "durationMs": 120,
+    "source": "Kenney (kenney.nl), Interface Sounds / UI Audio / Impact Sounds packs",
+    "license": "CC0"
+  },
+  {
+    "tag": "typewriter-key",
+    "file": "sfx/typewriter-key-04.mp3",
+    "durationMs": 72,
+    "source": "Kenney (kenney.nl), Interface Sounds / UI Audio / Impact Sounds packs",
+    "license": "CC0"
+  },
+  {
+    "tag": "typewriter-key",
+    "file": "sfx/typewriter-key-05.mp3",
+    "durationMs": 72,
+    "source": "Kenney (kenney.nl), Interface Sounds / UI Audio / Impact Sounds packs",
+    "license": "CC0"
+  },
+  {
+    "tag": "whoosh-soft",
+    "file": "sfx/whoosh-soft-01.mp3",
+    "durationMs": 288,
+    "source": "Kenney (kenney.nl), Interface Sounds / UI Audio / Impact Sounds packs",
+    "license": "CC0"
+  },
+  {
+    "tag": "whoosh-soft",
+    "file": "sfx/whoosh-soft-02.mp3",
+    "durationMs": 288,
+    "source": "Kenney (kenney.nl), Interface Sounds / UI Audio / Impact Sounds packs",
+    "license": "CC0"
+  },
+  {
+    "tag": "whoosh-soft",
+    "file": "sfx/whoosh-soft-03.mp3",
+    "durationMs": 240,
+    "source": "Kenney (kenney.nl), Interface Sounds / UI Audio / Impact Sounds packs",
+    "license": "CC0"
+  },
+  {
+    "tag": "whoosh-soft",
+    "file": "sfx/whoosh-soft-04.mp3",
+    "durationMs": 456,
+    "source": "Kenney (kenney.nl), Interface Sounds / UI Audio / Impact Sounds packs",
+    "license": "CC0"
+  },
+  {
+    "tag": "whoosh-soft",
+    "file": "sfx/whoosh-soft-05.mp3",
+    "durationMs": 552,
+    "source": "Kenney (kenney.nl), Interface Sounds / UI Audio / Impact Sounds packs",
+    "license": "CC0"
+  }
+]

@@ -330,6 +330,13 @@
                 "type": "null"
               }
             ]
+          },
+          "emphasisWordIds": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "minimum": 0
+            }
           }
         },
         "required": [

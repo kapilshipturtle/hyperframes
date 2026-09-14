@@ -1,0 +1,39 @@
+# ai-broll-editor job configuration. Copy to work/<job_id>/job.yaml and edit.
+job_id: worldeconomy
+input_audio: input.mp3            # relative to the job dir
+language: en
+fps: 30
+width: 1920
+height: 1080
+style_preset: documentary          # documentary | energetic | calm | tech
+grade: muted-documentary           # see references/effects-catalogue.md 16.5; Director may override per section
+brand:
+  primary: "#F5F0E8"
+  accent: "#E8590C"
+  font_heading: "Bebas Neue"
+  font_body: "Inter"
+transcription:
+  engine: groq                     # groq | whispercpp | whisperx
+  align: true                      # WhisperX forced alignment after Groq
+  glossary: ""                     # comma-separated proper nouns for the Whisper prompt
+  corrections: {}                  # {"wrong": "right"} applied before on-screen text
+sources:                           # order is fixed by the spec; toggles only
+  pexels: true
+  openverse: true
+  wikimedia: true
+  nasa: true
+  archiveorg: true
+youtube: false                     # Tier Y1 (Creative Commons only), home machine only
+youtube_short_clip: false          # Tier Y2 opt-in (< 5.0 s, no audio, credited); read references/youtube-policy.md first
+captions: false
+music: true
+sfx: true
+brain:
+  lead_ms: 100                     # 80..120
+  clip_threshold: 0.26
+  hero_threshold: 0.30
+  typographic_cap: 0.15
+render:
+  workers: 18
+  runner: ubuntu-latest            # or self-hosted
+  draft: false                     # true = crf 20 veryfast, false = crf 18 medium

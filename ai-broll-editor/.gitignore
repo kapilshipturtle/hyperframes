@@ -3,7 +3,16 @@ work/*/
 !work/sample-fixture/
 !work/.gitkeep
 whisper.cpp/
-assets/sfx/*.mp3
-assets/sfx/*.wav
-assets/music/*.mp3
+assets/sfx/raw/
+assets/music/raw/
 *.log
+
+# proof job: commit only inputs the runner needs
+!work/worldeconomy/
+work/worldeconomy/*
+!work/worldeconomy/input.mp3
+!work/worldeconomy/job.yaml
+!work/worldeconomy/transcript.json
+!work/worldeconomy/beats.json
+!work/worldeconomy/plans/
+__pycache__/

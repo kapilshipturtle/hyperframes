@@ -110,6 +110,7 @@ export interface Shot {
   stat?: { value: number; prefix?: string; suffix?: string; label?: string } | null;
   quote?: { text: string; attribution?: string } | null;
   listLines?: string[] | null;
+  emphasisWordIds?: number[];   // spec 7: Director emphasis flags, merged by the Brain (11.4)
 }
 export interface ShotPlan { sectionId: string; mood: Mood; musicTag: MusicTag; grade: Grade; shots: Shot[] }
 

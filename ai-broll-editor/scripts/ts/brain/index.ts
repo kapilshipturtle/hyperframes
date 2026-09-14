@@ -122,7 +122,7 @@ function compute(jobDir: string, inputs: ReturnType<typeof loadInputs>, log: Pla
   const ctx = buildCtx(jobDir, inputs, log);
   log.log("P0", "seed", `seed ${ctx.seed}; ${ctx.words.length} words; ${ctx.beats.beats.length} beats; ${ctx.sections.length} sections; ${ctx.totalFrames} frames`);
   // P3 emphasis (computed first: P1 prefers splitting before strong words, 11.4 a)
-  ctx.emphasis = computeEmphasis({ words: ctx.words, beats: ctx.beats.beats, sections: ctx.beats.sections });
+  ctx.emphasis = computeEmphasis({ words: ctx.words, beats: ctx.beats.beats, sections: ctx.beats.sections, shots: [...inputs.plans.values()].flatMap((p) => p.shots) });
   const strong = [...ctx.emphasis.values()].filter((v) => v >= 1).length;
   log.log("P3", "emphasis", `${strong} strong words, ${[...ctx.emphasis.values()].filter((v) => v >= 0.5 && v < 1).length} medium`);
   // re-plan fallback sections now that emphasis exists (key phrases for text)

@@ -1,9 +1,9 @@
 // P3 emphasis map (spec 11.4).
 // emph = 0.45*z(rms) + 0.25*z(duration) + 0.15*(gapBefore > 250) + 0.15*(director emphasis)
 // z-scores are computed within the section. strong >= 1.0, medium >= 0.5.
-import type { Beat, Section, Word } from "../types.js";
+import type { Beat, Section, Shot, Word } from "../types.js";
 
-export interface EmphasisInput { words: Word[]; beats: Beat[]; sections: Section[] }
+export interface EmphasisInput { words: Word[]; beats: Beat[]; sections: Section[]; shots?: Shot[] }
 
 function zscores(vals: (number | undefined)[]): number[] {
   const present = vals.filter((v): v is number => typeof v === "number" && Number.isFinite(v));
@@ -19,6 +19,7 @@ export function computeEmphasis(inp: EmphasisInput): Map<number, number> {
   const beatById = new Map(inp.beats.map((b) => [b.id, b]));
   const directorIds = new Set<number>();
   for (const b of inp.beats) for (const id of b.emphasisWordIds ?? []) directorIds.add(id);
+  for (const sh of inp.shots ?? []) for (const id of sh.emphasisWordIds ?? []) directorIds.add(id);  // spec 7 Director flags
   const sections = inp.sections.length ? inp.sections : [{ id: "all", beatIds: inp.beats.map((b) => b.id) } as Section];
   const seen = new Set<number>();
   for (const s of sections) {

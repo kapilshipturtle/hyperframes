@@ -1,0 +1,50 @@
+[
+  {
+    "mood": "calm-piano",
+    "file": "music/calm-piano-01.mp3",
+    "bpm": 136,
+    "durationMs": 177480,
+    "source": "Incompetech (Kevin MacLeod)",
+    "license": "CC BY 4.0"
+  },
+  {
+    "mood": "documentary-ambient",
+    "file": "music/documentary-ambient-01.mp3",
+    "bpm": 129,
+    "durationMs": 195936,
+    "source": "Incompetech (Kevin MacLeod)",
+    "license": "CC BY 4.0"
+  },
+  {
+    "mood": "hopeful-strings",
+    "file": "music/hopeful-strings-01.mp3",
+    "bpm": 96,
+    "durationMs": 205176,
+    "source": "Incompetech (Kevin MacLeod)",
+    "license": "CC BY 4.0"
+  },
+  {
+    "mood": "tech-minimal",
+    "file": "music/tech-minimal-01.mp3",
+    "bpm": 152,
+    "durationMs": 231288,
+    "source": "Incompetech (Kevin MacLeod)",
+    "license": "CC BY 4.0"
+  },
+  {
+    "mood": "tension-drone",
+    "file": "music/tension-drone-01.mp3",
+    "bpm": 129,
+    "durationMs": 135072,
+    "source": "Incompetech (Kevin MacLeod)",
+    "license": "CC BY 4.0"
+  },
+  {
+    "mood": "upbeat-corporate",
+    "file": "music/upbeat-corporate-01.mp3",
+    "bpm": 92,
+    "durationMs": 220080,
+    "source": "Incompetech (Kevin MacLeod)",
+    "license": "CC BY 4.0"
+  }
+]

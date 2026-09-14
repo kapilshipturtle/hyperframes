@@ -138,7 +138,9 @@ jobs:
             --jq '[.artifacts[] | select(.expired==false)] | sort_by(.created_at) | last | .workflow_run.id // empty')
           if [ -z "$RUN_ID" ]; then echo "::warning::no unexpired job-$JOB artifact found; render-only needs work/$JOB committed"; exit 0; fi
           echo "restoring job-$JOB from run $RUN_ID"
-          gh run download "$RUN_ID" -n "job-$JOB" -D "work/$JOB"
+          # gh refuses to overwrite committed files (job.yaml, transcript, plans); extract aside then overlay
+          rm -rf /tmp/restore && gh run download "$RUN_ID" -n "job-$JOB" -D /tmp/restore
+          cp -a /tmp/restore/. "work/$JOB/" && rm -rf /tmp/restore
           ls "work/$JOB" | head -40
 
       - name: Check job dir

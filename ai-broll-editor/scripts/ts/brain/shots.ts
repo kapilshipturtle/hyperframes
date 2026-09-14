@@ -314,6 +314,12 @@ export function assignShots(ctx: Ctx, cuts: Cut[], parts: Map<string, string[]>)
         ctx.log.warn(`rule 10: Y2 asset ${base.asset.assetId} on ${c.beatId} exceeds 149 frames and no stock alternate exists; P6 will clamp by splitting`);
       }
     }
+    // a Director-preferred typographic-card (asset present) still needs its key phrase (rule 9 text, real words only)
+    if (base.layout === "typographic-card" && !base.keyPhrase) {
+      const kp = keyPhrase(ctx.emphasis, beatWords.length ? beatWords : words, 2, 5);
+      base.keyPhrase = kp.text || text.split(/\s+/).slice(0, 3).join(" ");
+      ctx.log.log("P4", "key-phrase", `typographic-card by Director preference; key phrase "${base.keyPhrase}"`, { beatId: c.beatId });
+    }
     shots.push(base);
     logShot(ctx, base);
   }

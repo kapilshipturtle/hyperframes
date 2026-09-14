@@ -46,7 +46,7 @@
 {"pass":"P4","decision":"layout:fullscreen-clip","reason":"asset pexels_v_0002 (pexels, video, score 0.35000000000000003)","beatId":"b_0002"}
 {"pass":"P4","decision":"layout:fullscreen-clip","reason":"asset pexels_v_0003 (pexels, video, score 0.33)","beatId":"b_0003","overrides":["asset-kind: fullscreen-image-kenburns -> fullscreen-clip (asset is a video)"]}
 {"pass":"P4","decision":"layout:pip-over-blur","reason":"asset pexels_p_0004 (pexels, image, score 0.31)","beatId":"b_0004","overrides":["asset-kind: fullscreen-clip -> fullscreen-image-kenburns (asset is an image)","rule 1: fullscreen-image-kenburns -> pip-over-blur (portrait asset)"]}
-{"pass":"P4","decision":"layout:typographic-card","reason":"typographic card \"by hand.\"","beatId":"b_0005","overrides":["rule 9: split-left-media-right-text -> typographic-card (no asset passed threshold after all sources)"]}
+{"pass":"P4","decision":"layout:typographic-card","reason":"typographic card \"by hand\"","beatId":"b_0005","overrides":["rule 9: split-left-media-right-text -> typographic-card (no asset passed threshold after all sources)"]}
 {"pass":"P4","decision":"layout:fullscreen-image-kenburns","reason":"asset pexels_p_0006 (pexels, image, score 0.30000000000000004)","beatId":"b_0006","overrides":["asset-kind: fullscreen-clip -> fullscreen-image-kenburns (asset is an image)"]}
 {"pass":"P4","decision":"layout:stat-counter","reason":"asset pexels_v_0007 (wikimedia, video, score 0.34)","beatId":"b_0007"}
 {"pass":"P4","decision":"layout:stat-counter","reason":"asset pexels_v_0008 (pexels, video, score 0.33)","beatId":"b_0008","overrides":["rule 7: fullscreen-clip -> stat-counter (number with unit in \"That is a 97 percent drop, and it happen\")"]}

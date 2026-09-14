@@ -37,7 +37,7 @@ Result: PASS; 41 warnings
 
 ## Typographic cards
 - b_0001 @61: "Today we"
-- b_0005 @564: "by hand."
+- b_0005 @564: "by hand"
 - b_0014 @1831: "and 40"
 - b_0023 @3096: "But the"
 - b_0032 @4156: "truck hauling"

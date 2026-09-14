@@ -66,5 +66,7 @@ export function keyPhrase(emph: Map<number, number>, words: Word[], minLen = 2, 
       if (v > bv + 1e-9) { bv = v; best = win; }
     }
   }
-  return { text: best.map((w) => w.text).join(" "), wordIds: best.map((w) => w.id) };
+  // on-screen phrase: drop trailing/leading punctuation ("history, economics," -> "history, economics")
+  const text = best.map((w) => w.text).join(" ").replace(/^[\s"“”'(\[,;:.!?-]+|[\s"“”')\],;:.!?-]+$/g, "");
+  return { text, wordIds: best.map((w) => w.id) };
 }

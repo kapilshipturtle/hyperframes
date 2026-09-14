@@ -168,3 +168,11 @@ job id.
 Format: `- [ ] <symptom>: <cause>. <fix>. (<date>, <job_id>)`. Put the code
 fix in the same commit. If the fix is a new hard rule, it also needs an
 invariant, a validator check and a property test (brain.md section 17).
+
+## Found during the first proof run (2026-09-14, job worldeconomy)
+
+- [ ] `npm ci` fails on the runner running `tsx scripts/ts/prepare_assets.ts`: npm treats a script literally named `prepare` as a lifecycle hook. Never name a package.json script `prepare`, `install`, `postinstall` or `prepublish`. Fixed by removing it; asset preparation is `scripts/py/prepare_assets.py`.
+- [ ] Director output rejected with "must NOT have additional properties emphasisWordIds": the shotplan schema lacked the spec 7 field. Shots now carry optional `emphasisWordIds` and the Brain merges them into P3 emphasis. Any new Director field must be added to types.ts, the schema and director-system.md together.
+- [ ] vitest picked up `whisper.cpp/examples/**/*.spec.js` after the local whisper.cpp install. `vitest.config.ts` now restricts tests to `tests/**`.
+- [ ] Segmenter property test: absorbing a lone punctuation-split tail into a neighbour could push a beat over 6.0 s with no pause inside it. The segmenter now leaves an unmergeable short group alone and the Brain's P1 repair handles it in frames.
+- [ ] Kenney zip links on kenney.nl change per release; scrape the asset page for the current `kenney.nl/media/pages/assets/.../*.zip` URL instead of hard-coding it. Kenney has no whooshes or risers; `whoosh-hard`, `riser-short` and `camera-shutter` tags still need Mixkit or YouTube Audio Library files.

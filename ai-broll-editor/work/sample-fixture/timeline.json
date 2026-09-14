@@ -66,7 +66,7 @@
         "media": [
           {
             "kind": "video",
-            "src": "prepared/b_0002.mp4",
+            "src": "assets/0002.mp4",
             "startFromFrame": 0
           }
         ],
@@ -93,7 +93,7 @@
         "media": [
           {
             "kind": "video",
-            "src": "prepared/b_0003.mp4",
+            "src": "assets/0003.mp4",
             "startFromFrame": 0
           }
         ],
@@ -123,7 +123,7 @@
         "media": [
           {
             "kind": "image",
-            "src": "prepared/b_0003b.jpg",
+            "src": "assets/0003b.jpg",
             "startFromFrame": 0
           }
         ],
@@ -153,7 +153,7 @@
         "media": [
           {
             "kind": "image",
-            "src": "prepared/b_0004.jpg",
+            "src": "assets/0004.jpg",
             "startFromFrame": 0
           }
         ],
@@ -204,7 +204,7 @@
         "media": [
           {
             "kind": "image",
-            "src": "prepared/b_0006.jpg",
+            "src": "assets/0006.jpg",
             "startFromFrame": 0
           }
         ],
@@ -237,7 +237,7 @@
         "media": [
           {
             "kind": "video",
-            "src": "prepared/b_0007.mp4",
+            "src": "assets/0007.mp4",
             "startFromFrame": 0
           }
         ],
@@ -271,7 +271,7 @@
         "media": [
           {
             "kind": "video",
-            "src": "prepared/b_0008.mp4",
+            "src": "assets/0008.mp4",
             "startFromFrame": 0
           }
         ],
@@ -305,7 +305,7 @@
         "media": [
           {
             "kind": "video",
-            "src": "prepared/b_0009.mp4",
+            "src": "assets/0009.mp4",
             "startFromFrame": 0
           }
         ],
@@ -338,13 +338,13 @@
           {
             "kind": "video",
             "label": "Rotterdam",
-            "src": "prepared/b_0010.mp4",
+            "src": "assets/0010.mp4",
             "startFromFrame": 0
           },
           {
             "kind": "image",
             "label": "Singapore",
-            "src": "prepared/b_0010b.jpg",
+            "src": "assets/0010b.jpg",
             "startFromFrame": 0
           }
         ],
@@ -371,7 +371,7 @@
         "media": [
           {
             "kind": "image",
-            "src": "prepared/b_0011.jpg",
+            "src": "assets/0011.jpg",
             "startFromFrame": 0
           }
         ],
@@ -401,7 +401,7 @@
         "media": [
           {
             "kind": "video",
-            "src": "prepared/b_0011b.mp4",
+            "src": "assets/0011b.mp4",
             "startFromFrame": 0
           }
         ],
@@ -435,19 +435,19 @@
           {
             "kind": "video",
             "label": "Railways,",
-            "src": "prepared/b_0012.mp4",
+            "src": "assets/0012.mp4",
             "startFromFrame": 0
           },
           {
             "kind": "image",
             "label": "truckers",
-            "src": "prepared/b_0012b.jpg",
+            "src": "assets/0012b.jpg",
             "startFromFrame": 0
           },
           {
             "kind": "video",
             "label": "and",
-            "src": "prepared/b_0012c.mp4",
+            "src": "assets/0012c.mp4",
             "startFromFrame": 0
           }
         ],
@@ -474,7 +474,7 @@
         "media": [
           {
             "kind": "video",
-            "src": "prepared/b_0013.mp4",
+            "src": "assets/0013.mp4",
             "startFromFrame": 0
           }
         ],
@@ -522,7 +522,7 @@
         "media": [
           {
             "kind": "video",
-            "src": "prepared/b_0015.mp4",
+            "src": "assets/0015.mp4",
             "startFromFrame": 0
           }
         ],
@@ -549,7 +549,7 @@
         "media": [
           {
             "kind": "video",
-            "src": "prepared/b_0016.mp4",
+            "src": "assets/0016.mp4",
             "startFromFrame": 0
           }
         ],
@@ -577,7 +577,7 @@
         "media": [
           {
             "kind": "video",
-            "src": "prepared/b_0017.mp4",
+            "src": "assets/0017.mp4",
             "startFromFrame": 0
           }
         ],
@@ -610,7 +610,7 @@
         "media": [
           {
             "kind": "image",
-            "src": "prepared/b_0017b.jpg",
+            "src": "assets/0017b.jpg",
             "startFromFrame": 0
           }
         ],
@@ -640,7 +640,7 @@
         "media": [
           {
             "kind": "image",
-            "src": "prepared/b_0018.jpg",
+            "src": "assets/0018.jpg",
             "startFromFrame": 0
           }
         ],
@@ -674,7 +674,7 @@
         "media": [
           {
             "kind": "image",
-            "src": "prepared/b_0019.jpg",
+            "src": "assets/0019.jpg",
             "startFromFrame": 0
           }
         ],
@@ -704,7 +704,7 @@
         "media": [
           {
             "kind": "video",
-            "src": "prepared/b_0020.mp4",
+            "src": "assets/0020.mp4",
             "startFromFrame": 0
           }
         ],
@@ -738,19 +738,19 @@
           {
             "kind": "image",
             "label": "Laptop",
-            "src": "prepared/b_0021.jpg",
+            "src": "assets/0021.jpg",
             "startFromFrame": 0
           },
           {
             "kind": "image",
             "label": "Phone",
-            "src": "prepared/b_0021b.jpg",
+            "src": "assets/0021b.jpg",
             "startFromFrame": 0
           },
           {
             "kind": "video",
             "label": "Notes",
-            "src": "prepared/b_0021c.mp4",
+            "src": "assets/0021c.mp4",
             "startFromFrame": 0
           }
         ],
@@ -780,7 +780,7 @@
         "media": [
           {
             "kind": "image",
-            "src": "prepared/b_0022.jpg",
+            "src": "assets/0022.jpg",
             "startFromFrame": 0
           }
         ],
@@ -810,7 +810,7 @@
         "media": [
           {
             "kind": "image",
-            "src": "prepared/b_0022b.jpg",
+            "src": "assets/0022b.jpg",
             "startFromFrame": 0
           }
         ],
@@ -882,7 +882,7 @@
         "media": [
           {
             "kind": "video",
-            "src": "prepared/b_0024.mp4",
+            "src": "assets/0024.mp4",
             "startFromFrame": 0
           }
         ],
@@ -912,7 +912,7 @@
         "media": [
           {
             "kind": "image",
-            "src": "prepared/b_0024b.jpg",
+            "src": "assets/0024b.jpg",
             "startFromFrame": 0
           }
         ],
@@ -942,7 +942,7 @@
         "media": [
           {
             "kind": "image",
-            "src": "prepared/b_0025.jpg",
+            "src": "assets/0025.jpg",
             "startFromFrame": 0
           }
         ],
@@ -972,7 +972,7 @@
         "media": [
           {
             "kind": "video",
-            "src": "prepared/b_0026.mp4",
+            "src": "assets/0026.mp4",
             "startFromFrame": 0
           }
         ],
@@ -1002,7 +1002,7 @@
         "media": [
           {
             "kind": "image",
-            "src": "prepared/b_0027.jpg",
+            "src": "assets/0027.jpg",
             "startFromFrame": 0
           }
         ],
@@ -1032,7 +1032,7 @@
         "media": [
           {
             "kind": "image",
-            "src": "prepared/b_0028.jpg",
+            "src": "assets/0028.jpg",
             "startFromFrame": 0
           }
         ],
@@ -1065,7 +1065,7 @@
         "media": [
           {
             "kind": "video",
-            "src": "prepared/b_0029.mp4",
+            "src": "assets/0029.mp4",
             "startFromFrame": 0
           }
         ],
@@ -1092,7 +1092,7 @@
         "media": [
           {
             "kind": "video",
-            "src": "prepared/b_0030.mp4",
+            "src": "assets/0030.mp4",
             "startFromFrame": 0
           }
         ],
@@ -1122,7 +1122,7 @@
         "media": [
           {
             "kind": "image",
-            "src": "prepared/b_0031.jpg",
+            "src": "assets/0031.jpg",
             "startFromFrame": 0
           }
         ],
@@ -1173,7 +1173,7 @@
         "media": [
           {
             "kind": "image",
-            "src": "prepared/b_0033.jpg",
+            "src": "assets/0033.jpg",
             "startFromFrame": 0
           }
         ],
@@ -1203,7 +1203,7 @@
         "media": [
           {
             "kind": "image",
-            "src": "prepared/b_0033b.jpg",
+            "src": "assets/0033b.jpg",
             "startFromFrame": 0
           }
         ],
@@ -1233,7 +1233,7 @@
         "media": [
           {
             "kind": "video",
-            "src": "prepared/b_0034.mp4",
+            "src": "assets/0034.mp4",
             "startFromFrame": 0
           }
         ],

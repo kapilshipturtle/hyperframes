@@ -34,7 +34,7 @@ main(() => {
   const assets = readJson<Assets>(join(jobDir, "assets.json"), "assets.json");
   const needs = computeNeeds(timeline);
   const missing = Object.keys(needs).filter((beatId) => !assets[beatId]?.chosen);
-  if (missing.length) throw new CliError(`timeline references media for beats with no chosen asset in assets.json: ${missing.join(", ")}`);
+  if (missing.length) console.warn(`warn: timeline references media for beats with no chosen asset in assets.json (prepare_assets.py resolves by path): ${missing.join(", ")}`);
   const dest = join(jobDir, "prepare-needs.json");
   writeJson(dest, needs);
   const n = Object.keys(needs).length;

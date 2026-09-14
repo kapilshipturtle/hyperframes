@@ -36,7 +36,13 @@ function parseStat(text: string): { value: number; prefix?: string; suffix?: str
 }
 const isQuotation = (text: string): boolean => /["“”]/.test(text) || /\b(said|wrote)\b/i.test(text);
 const isCcBy = (a: Asset): boolean => /\bBY\b/i.test(a.license) || a.tier === "y1";
-const mediaSrc = (a: Asset): string => a.preparedPath ?? a.localPath;
+/** Media path for an asset used by a beat: the per-beat prepared trim from prepared/manifest.json when it exists, else the raw download.
+ *  A preparedPath always belongs to ONE beat's trim, so it is never reused for another beat (borrowed/alternate assets). */
+export const srcFor = (ctx: Ctx, beatId: string, a: Asset): string => {
+  const m = ctx.prepared[`${beatId}:${a.assetId}`] ?? (ctx.prepared[beatId]?.assetId === a.assetId ? ctx.prepared[beatId] : undefined);
+  return m?.path ?? a.localPath;
+};
+const mediaSrc = (a: Asset): string => a.localPath;
 
 interface Use { uses: number; lastEnd: number }
 
@@ -267,7 +273,7 @@ export function assignShots(ctx: Ctx, cuts: Cut[], parts: Map<string, string[]>)
       if (base.motion.type === "speed-ramp" && !base.motion.playbackRate) base.motion.playbackRate = 1;
       // media list
       const cellAssets = [a2, ...base.extraAssets];
-      base.media = cellAssets.map((a, k) => ({ src: mediaSrc(a), kind: a.kind, startFromFrame: 0, ...(base.gridLabels?.[k] ? { label: base.gridLabels[k] } : {}) }));
+      base.media = cellAssets.map((a, k) => ({ src: srcFor(ctx, c.beatId, a), kind: a.kind, startFromFrame: 0, ...(base.gridLabels?.[k] ? { label: base.gridLabels[k] } : {}) }));
       if (base.continuation && prev) base.media[0].startFromFrame = 0; // finalised in P6 (frame domain)
       if (!base.continuation) for (const a of cellAssets) ledger.take(a, endFrame);
       else for (const a of cellAssets) ledger.touch(a, endFrame);
@@ -291,7 +297,7 @@ export function assignShots(ctx: Ctx, cuts: Cut[], parts: Map<string, string[]>)
           asset: stock, tier: stock.tier, credit: isCcBy(stock) && stock.attribution ? { text: stock.attribution, corner: "bottom-right" } : null,
           layout: stock.kind === "image" ? "fullscreen-image-kenburns" : "fullscreen-clip", extraAssets: [], gridLabels: undefined, stat: undefined, quote: undefined, listLines: undefined,
           motion: stock.kind === "image" ? { type: "ken-burns", to: KB_ANCHORS[ctx.rngFor(`motion:${c.id}-rest`).int(KB_ANCHORS.length)], zoom: 1.08 } : { type: "none" },
-          media: [{ src: mediaSrc(stock), kind: stock.kind, startFromFrame: 0 }], overrides: ["rule 10: remainder after Y2 clamp"], continuation: false, heldMoment: false };
+          media: [{ src: srcFor(ctx, c.beatId, stock), kind: stock.kind, startFromFrame: 0 }], overrides: ["rule 10: remainder after Y2 clamp"], continuation: false, heldMoment: false };
         ledger.take(stock, endFrame);
         shots.push(rest); logShot(ctx, rest);
         continue;
@@ -300,7 +306,7 @@ export function assignShots(ctx: Ctx, cuts: Cut[], parts: Map<string, string[]>)
       if (stock) {
         base.asset = stock; base.tier = stock.tier; base.credit = isCcBy(stock) && stock.attribution ? { text: stock.attribution, corner: "bottom-right" } : null;
         base.layout = stock.kind === "image" ? "fullscreen-image-kenburns" : "fullscreen-clip"; base.extraAssets = [];
-        base.media = [{ src: mediaSrc(stock), kind: stock.kind, startFromFrame: 0 }];
+        base.media = [{ src: srcFor(ctx, c.beatId, stock), kind: stock.kind, startFromFrame: 0 }];
         base.motion = stock.kind === "image" ? { type: "ken-burns", to: "center", zoom: 1.08 } : { type: "none" };
         base.overrides.push("rule 10: Y2 too long to clamp on a word start; stock alternate used");
         ledger.take(stock, endFrame);

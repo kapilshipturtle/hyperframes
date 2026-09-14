@@ -41,7 +41,7 @@ def load_needs(job: Path, need_path: Optional[Path], assets: dict) -> dict[str, 
         raw = load_json(need_path)
         out = {}
         for bid, v in raw.items():
-            out[bid] = {"neededFrames": int(v.get("neededFrames", 0)), "headPadFrames": int(v.get("headPadFrames", 0) or 0)}
+            out[bid] = {"neededFrames": int(v.get("neededFrames", 0)), "headPadFrames": int(v.get("headPadFrames", 0) or 0), "media": list(v.get("media") or [])}
         return out
     if need_path:
         anomaly(job, "prepare_assets", f"{need_path} missing; deriving needs from beats.json + 0.2 s")
@@ -134,62 +134,89 @@ def main(argv: Optional[list[str]] = None) -> int:
     mpath = out_dir / "manifest.json"
     manifest: dict = load_json(mpath) if mpath.exists() else {}
 
+    # index every asset in the project (chosen + alternates) by id and by localPath so borrowed / alternate
+    # assets referenced by the timeline can be trimmed FOR THE BEAT that uses them (Brain srcFor reads the manifest)
+    by_id: dict = {}
+    by_path: dict = {}
+    for entry in assets.values():
+        if not isinstance(entry, dict):
+            continue
+        for a in [entry.get("chosen")] + list(entry.get("alternates") or []):
+            if a and a.get("assetId"):
+                by_id.setdefault(a["assetId"], a)
+                if a.get("localPath"):
+                    by_path.setdefault(a["localPath"], a)
+
     done = skipped = failed = 0
-    for bid, entry in sorted(assets.items()):
+    for bid in sorted(needs):
         if only and bid not in only:
             continue
-        chosen = entry.get("chosen") if isinstance(entry, dict) else None
-        if not chosen:
-            continue
-        need = needs.get(bid)
-        if not need:
-            anomaly(job, "prepare_assets", f"{bid}: no needed length known; skipping", beatId=bid)
-            failed += 1
-            continue
-        src = Path(chosen["localPath"])
-        if not src.is_absolute():
-            src = job / src
-        if not src.exists():
-            anomaly(job, "prepare_assets", f"{bid}: source missing {src}", beatId=bid)
-            failed += 1
-            continue
-        h = input_hash(src, chosen, need)
-        ext = ".mp4" if chosen["kind"] == "video" else ".jpg"
-        dest = out_dir / f"{bid}{ext}"
-        rel = f"prepared/{dest.name}"
-        prev = manifest.get(bid)
-        if not args.force and prev and prev.get("hash") == h and dest.exists() and dest.stat().st_size > 0:
-            chosen["preparedPath"] = rel
-            skipped += 1
-            continue
-        try:
-            info = media_info(src)
-            if chosen["kind"] == "video" and not info["isImage"]:
-                plan = plan_video(chosen, need, info)
-                prepare_video(src, dest, plan)
-                for n in plan["notes"]:
-                    anomaly(job, "prepare_assets", f"{bid}: {n}", beatId=bid)
-                rec = {"hash": h, "path": rel, "kind": "video", "plan": plan}
-            else:
-                mode = prepare_image(src, dest, info)
-                rec = {"hash": h, "path": rel, "kind": "image", "plan": {"path": mode}}
-            out_info = media_info(dest)
-            rec["out"] = {k: out_info[k] for k in ("width", "height", "fps", "durationMs")}
-            if rec["kind"] == "video":
-                want = need["neededFrames"] + int(need.get("headPadFrames") or 0)
-                got = int(round(out_info["durationMs"] / 1000.0 * FPS))
-                if got < want:
-                    anomaly(job, "prepare_assets", f"{bid}: prepared {got} frames < needed {want}", beatId=bid)
-                if out_info["hasAudio"]:
-                    anomaly(job, "prepare_assets", f"{bid}: prepared file unexpectedly has audio", beatId=bid)
-            manifest[bid] = rec
-            chosen["preparedPath"] = rel
-            done += 1
-            log(f"[prepare] {bid}: {rel} ({rec['plan'].get('path')}) {rec['out']}")
-        except Exception as e:  # noqa: BLE001
-            anomaly(job, "prepare_assets", f"{bid}: ffmpeg failed: {e}", beatId=bid)
-            failed += 1
-        dump_json(mpath, manifest)
+        need = needs[bid]
+        entry = assets.get(bid) if isinstance(assets.get(bid), dict) else {}
+        own = (entry or {}).get("chosen")
+        # media referenced by the timeline for this beat (prepare_needs.ts), else the beat's own chosen asset
+        refs = list(need.get("media") or [])
+        targets = []
+        for ref in refs:
+            a = by_path.get(ref) or by_id.get(ref)
+            if a is None and own and ref == own.get("preparedPath"):
+                a = own
+            if a is None:
+                anomaly(job, "prepare_assets", f"{bid}: timeline media {ref} matches no asset in assets.json", beatId=bid)
+                failed += 1
+                continue
+            targets.append(a)
+        if not targets and own:
+            targets = [own]
+        for a in targets:
+            is_own = bool(own) and own.get("assetId") == a.get("assetId")
+            key = bid if is_own else f"{bid}:{a['assetId']}"
+            src = Path(a["localPath"])
+            if not src.is_absolute():
+                src = job / src
+            if not src.exists():
+                anomaly(job, "prepare_assets", f"{bid}: source missing {src}", beatId=bid)
+                failed += 1
+                continue
+            h = input_hash(src, a, need)
+            ext = ".mp4" if a["kind"] == "video" else ".jpg"
+            dest = out_dir / (f"{bid}{ext}" if is_own else f"{bid}__{a['assetId']}{ext}")
+            rel = f"prepared/{dest.name}"
+            prev = manifest.get(key)
+            if not args.force and prev and prev.get("hash") == h and dest.exists() and dest.stat().st_size > 0:
+                if is_own:
+                    own["preparedPath"] = rel
+                skipped += 1
+                continue
+            try:
+                info = media_info(src)
+                if a["kind"] == "video" and not info["isImage"]:
+                    plan = plan_video(a, need, info)
+                    prepare_video(src, dest, plan)
+                    for n in plan["notes"]:
+                        anomaly(job, "prepare_assets", f"{bid}: {n}", beatId=bid)
+                    rec = {"hash": h, "assetId": a["assetId"], "path": rel, "kind": "video", "plan": plan}
+                else:
+                    mode = prepare_image(src, dest, info)
+                    rec = {"hash": h, "assetId": a["assetId"], "path": rel, "kind": "image", "plan": {"path": mode}}
+                out_info = media_info(dest)
+                rec["out"] = {k: out_info[k] for k in ("width", "height", "fps", "durationMs")}
+                if rec["kind"] == "video":
+                    want = need["neededFrames"] + int(need.get("headPadFrames") or 0)
+                    got = int(round(out_info["durationMs"] / 1000.0 * FPS))
+                    if got < want:
+                        anomaly(job, "prepare_assets", f"{bid}: prepared {got} frames < needed {want}", beatId=bid)
+                    if out_info["hasAudio"]:
+                        anomaly(job, "prepare_assets", f"{bid}: prepared file unexpectedly has audio", beatId=bid)
+                manifest[key] = rec
+                if is_own:
+                    own["preparedPath"] = rel
+                done += 1
+                log(f"[prepare] {key}: {rel} ({rec['plan'].get('path')}) {rec['out']}")
+            except Exception as e:  # noqa: BLE001
+                anomaly(job, "prepare_assets", f"{bid}: ffmpeg failed: {e}", beatId=bid)
+                failed += 1
+            dump_json(mpath, manifest)
     dump_json(apath, assets)
     log(f"[prepare] done={done} skipped(unchanged)={skipped} failed={failed}")
     return 1 if failed and not done and not skipped else 0

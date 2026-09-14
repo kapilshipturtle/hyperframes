@@ -1,7 +1,7 @@
 // P6 frame quantisation and drift proof (spec 11.8). msToFrame from types.ts is the ONLY ms -> frame conversion.
 import { msToFrame, MIN_SHOT_FRAMES, MAX_SHOT_FRAMES, MAX_Y2_FRAMES } from "../types.js";
 import type { Ctx, WorkShot } from "./model.js";
-import { kenBurnsPeak } from "./shots.js";
+import { srcFor, kenBurnsPeak } from "./shots.js";
 
 export interface ShotFrames { beatId: string; from: number; durationInFrames: number }
 export interface CutLike { beatId: string; cutMs: number }
@@ -129,7 +129,7 @@ export function quantiseShots(ctx: Ctx, shots: WorkShot[]): WorkShot[] {
       if (cur.asset && alt) {
         second.asset = alt; second.tier = alt.tier; second.continuation = false; second.extraAssets = [];
         second.layout = alt.kind === "image" ? "fullscreen-image-kenburns" : "fullscreen-clip";
-        second.media = [{ src: alt.preparedPath ?? alt.localPath, kind: alt.kind, startFromFrame: 0 }];
+        second.media = [{ src: srcFor(ctx, cur.beatId, alt), kind: alt.kind, startFromFrame: 0 }];
         second.motion = alt.kind === "image" ? { type: "ken-burns", to: "center", zoom: 1.08 } : { type: "none" };
         second.credit = /\bBY\b/i.test(alt.license) && alt.attribution ? { text: alt.attribution, corner: "bottom-right" } : null;
         second.gridLabels = undefined; second.quote = undefined;

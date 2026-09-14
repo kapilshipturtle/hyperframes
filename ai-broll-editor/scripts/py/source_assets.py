@@ -68,6 +68,7 @@ class Candidate:
     channel_title: Optional[str] = None
     source_video_id: Optional[str] = None
     local_path: Optional[Path] = None   # pre-downloaded (user, youtube)
+    thumb_url: Optional[str] = None      # small preview for CLIP pre-scoring before the full download
     extra: dict = field(default_factory=dict)
 
     @property
@@ -105,6 +106,7 @@ def parse_pexels_videos(data: dict) -> list[Candidate]:
                              src_url=v.get("url", ""), license="Pexels License", attribution=f"Video by {user} on Pexels",
                              width=int(f.get("width") or v.get("width") or 0), height=int(f.get("height") or v.get("height") or 0),
                              duration_ms=int(float(v.get("duration") or 0) * 1000), ext="mp4",
+                             thumb_url=v.get("image"),
                              extra={"fps": f.get("fps"), "quality": f.get("quality")}))
     return out
 
@@ -123,7 +125,8 @@ def parse_pexels_photos(data: dict) -> list[Candidate]:
             w = 1880
         out.append(Candidate(source="pexels", step="pexels_photo", kind="image", cid=str(p["id"]), download_url=link,
                              src_url=p.get("url", ""), license="Pexels License",
-                             attribution=f"Photo by {p.get('photographer') or 'Unknown'} on Pexels", width=w, height=h, ext="jpg"))
+                             attribution=f"Photo by {p.get('photographer') or 'Unknown'} on Pexels", width=w, height=h, ext="jpg",
+                             thumb_url=src.get("medium")))
     return out
 
 
@@ -289,6 +292,7 @@ class Sourcer:
     def __init__(self, job: Path, cfg: dict, *, sources: list[str], dry_run: bool, accept_unscored: bool,
                  max_per_query: int, max_candidates: int, session=None):
         self.job = job
+        self.current_threshold = 0.26
         self.cfg = cfg
         self.sources = sources
         self.dry_run = dry_run
@@ -466,8 +470,29 @@ class Sourcer:
         self.eval_cache[key] = res
         return res
 
+    THUMB_MARGIN = 0.06   # a thumbnail scoring this far under the threshold is not worth a full download
+
+    def prescore(self, c: Candidate, intent: str, threshold: float) -> Optional[float]:
+        """CLIP-score the provider thumbnail (spec 8.6 scoring on frames, applied before the download). None = no thumbnail."""
+        if not c.thumb_url or not score_clip.clip_available():
+            return None
+        dest = self.assets_dir / "thumbs" / f"{c.source}_{c.kind}_{re.sub(r'[^A-Za-z0-9_-]+', '-', c.cid)[:80]}.jpg"
+        dest.parent.mkdir(parents=True, exist_ok=True)
+        try:
+            if not dest.exists():
+                download(c.thumb_url, dest, timeout=HTTP_TIMEOUT_S, max_bytes=5 * 1024 * 1024)
+            return float(score_clip.score(intent, [dest]))
+        except Exception as e:  # noqa: BLE001
+            log(f"[prescore] {c.asset_id}: thumbnail failed ({type(e).__name__}); downloading the full file")
+            return None
+
     def _evaluate(self, c: Candidate, intent: str, need_ms: int, keywords: list[str]) -> dict:
         reasons: list[str] = []
+        pre = self.prescore(c, intent, self.current_threshold)
+        if pre is not None and pre < self.current_threshold - self.THUMB_MARGIN:
+            return {"ok": False, "reject": f"thumbnail pre-score {pre:.3f} < {self.current_threshold - self.THUMB_MARGIN:.2f}; not downloaded"}
+        if pre is not None:
+            reasons.append(f"thumbnail pre-score {pre:.3f}")
         try:
             local = self.fetch(c)
         except Exception as e:  # noqa: BLE001
@@ -560,6 +585,7 @@ class Sourcer:
         importance = int(shot.get("importance", 3))
         brain = self.cfg.get("brain") or {}
         threshold = float(brain.get("hero_threshold", 0.30)) if importance >= 5 else float(brain.get("clip_threshold", 0.26))
+        self.current_threshold = threshold
         intent = shot.get("visualIntent") or " ".join(shot.get("queries") or []) or beat.get("text", "")
         need_ms = max(1500, int(beat["endMs"] - beat["startMs"]) + 600)
         keywords = [t for q in shot.get("queries") or [] for t in re.split(r"\s+", q) if len(t) >= 3]

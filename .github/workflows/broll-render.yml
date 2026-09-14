@@ -207,8 +207,10 @@ jobs:
           npm run prepare-needs -- --job "$JOB"
           python scripts/py/prepare_assets.py --job "$JOB"
 
-      - name: Re-validate against prepared media
-        run: npm run validate -- --job "$JOB"
+      - name: Brain again on prepared media (deterministic; media src now prepared/*.mp4) + full validate
+        run: |
+          npm run brain -- --job "$JOB"
+          npm run validate -- --job "$JOB"
 
       - name: FFmpeg segments (Tier 2)
         run: npm run ffmpeg-segments -- --job "$JOB"

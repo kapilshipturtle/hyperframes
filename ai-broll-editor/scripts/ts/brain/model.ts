@@ -88,6 +88,7 @@ export interface Ctx {
   sections: SectionCtx[];
   sectionById: Map<string, SectionCtx>;
   assets: Assets;
+  prepared: Record<string, { assetId: string; path: string }>;  // prepared/manifest.json: `beatId` (own chosen) or `beatId:assetId`
   sfxPack: SfxManifestEntry[];
   musicPack: MusicManifestEntry[];
   rmsBins: number[] | null;      // 50 ms RMS bins (dBFS)

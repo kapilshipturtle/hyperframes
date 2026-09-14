@@ -104,7 +104,9 @@ function buildCtx(jobDir: string, inputs: ReturnType<typeof loadInputs>, log: Pl
   });
   const ctx: Ctx = {
     jobDir, job, seed, rng: makeRng(seed), rngFor: (key: string) => makeRng(`${seed}:${key}`), log, transcript, words, wordById, beats, beatById, sections, sectionById: new Map(sections.map((s) => [s.section.id, s])),
-    assets, sfxPack: inputs.sfxPack, musicPack: inputs.musicPack, rmsBins: inputs.rms,
+    assets: structuredClone(assets) as Assets,  // the run mutates headPadFrames; keep inputs pristine for I12 re-runs
+    prepared: loadPrepared(jobDir),
+    sfxPack: inputs.sfxPack, musicPack: inputs.musicPack, rmsBins: inputs.rms,
     leadMs: job.brain?.lead_ms ?? 100, clipThreshold: job.brain?.clip_threshold ?? 0.26, heroThreshold: job.brain?.hero_threshold ?? 0.30, typographicCap: job.brain?.typographic_cap ?? 0.15,
     totalFrames: msToFrame(transcript.durationMs), emphasis: new Map(),
   };
@@ -117,6 +119,16 @@ const prettySource = (a: Asset): string => ({ pexels: "Pexels", openverse: "Open
 const creditText = (a: Asset): string => a.attribution ?? (a.tier === "y2" || a.tier === "y1" ? `Clip: ${a.channelTitle ?? "YouTube"}` : `${prettySource(a)} ${a.assetId}`);
 
 /** The whole deterministic pipeline P0..P11 on already-loaded inputs. */
+/** prepared/manifest.json written by scripts/py/prepare_assets.py: {"<beatId>" | "<beatId>:<assetId>": {assetId, path, ...}} */
+function loadPrepared(jobDir: string): Record<string, { assetId: string; path: string }> {
+  const p = path.join(jobDir, "prepared", "manifest.json");
+  if (!exists(p)) return {};
+  const raw = readJson<Record<string, { assetId?: string; path?: string }>>(p) ?? {};
+  const out: Record<string, { assetId: string; path: string }> = {};
+  for (const k of Object.keys(raw).sort()) { const r = raw[k]; if (r && r.assetId && r.path) out[k] = { assetId: r.assetId, path: r.path }; }
+  return out;
+}
+
 function compute(jobDir: string, inputs: ReturnType<typeof loadInputs>, log: PlacementLog) {
   // P0 normalise + seed
   const ctx = buildCtx(jobDir, inputs, log);
@@ -188,7 +200,7 @@ function compute(jobDir: string, inputs: ReturnType<typeof loadInputs>, log: Pla
     duckCurve: "duckCurve.json", fps: 30,
   };
   assertInvariants(ctx, timeline, shots);
-  return { timeline, chunks, audioMix, duck, credits: { lines, y2 }, shots };
+  return { timeline, chunks, audioMix, duck, credits: { lines, y2 }, shots, assets: ctx.assets };
 }
 
 function toItem(ctx: Ctx, s: WorkShot): BrollItem {
@@ -314,7 +326,7 @@ export function runBrain(jobDir: string, opts: BrainOptions = {}): BrainResult {
     log.log("repair", "changed-segments", changedSegments.length ? changedSegments.join(",") : "none");
   }
   // 11.7 headPadFrames written back into assets.json (only when it changes something)
-  const assetsOut = inputs.assets;
+  const assetsOut = first.assets;
   if (opts.write !== false) {
     fs.writeFileSync(path.join(jobDir, "timeline.json"), stableStringify(first.timeline, 2) + "\n");
     fs.writeFileSync(path.join(jobDir, "chunks.json"), stableStringify(first.chunks, 2) + "\n");

@@ -44,8 +44,7 @@ export function splitLong(ws: Word[]): Word[][] {
 
 /**
  * Merge groups shorter than MIN into the shorter neighbour, as long as the merged span stays <= MAX.
- * A short group that cannot be merged anywhere without exceeding MAX is merged into the shorter neighbour anyway
- * only when it is a lone tail of < 3 words; otherwise it stays (the Brain's frame-domain enforceBounds handles it).
+ * A short group that cannot be merged anywhere without exceeding MAX stays short; the Brain's P1 repair handles it.
  */
 export function mergeShort(groups: Word[][]): Word[][] {
   const g = groups.filter((x) => x.length > 0).map((x) => x.slice());
@@ -62,10 +61,7 @@ export function mergeShort(groups: Word[][]): Word[][] {
       let target: number | null = null;
       if (cands.length === 2) target = span(g[i - 1]) <= span(g[i + 1]) ? i - 1 : i + 1; // shorter neighbour
       else if (cands.length === 1) target = cands[0];
-      else if (g[i].length < 3) {
-        // lone tail: absorb into the shorter neighbour even if it slightly exceeds MAX (Brain re-splits in frames)
-        if (prev && next) target = span(prev) <= span(next) ? i - 1 : i + 1; else target = prev ? i - 1 : i + 1;
-      }
+      // no neighbour fits within MAX: leave the short group; the Brain's P1 beat repair merges/splits it in frames (spec 11.3)
       if (target === null) continue;
       if (target < i) { g[target] = [...g[target], ...g[i]]; g.splice(i, 1); }
       else { g[target] = [...g[i], ...g[target]]; g.splice(i, 1); }

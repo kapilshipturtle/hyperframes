@@ -9,7 +9,6 @@
     "transcribe:whispercpp": "tsx scripts/ts/transcribe_whispercpp.ts",
     "segment": "tsx scripts/ts/segment.ts",
     "direct": "tsx scripts/ts/direct.ts",
-    "prepare": "tsx scripts/ts/prepare_assets.ts",
     "brain": "tsx scripts/ts/brain/index.ts",
     "validate": "tsx scripts/ts/validate.ts",
     "chunks": "tsx scripts/ts/chunks.ts",

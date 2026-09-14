@@ -1,0 +1,3157 @@
+{
+  "audioPath": "narration_norm.m4a",
+  "durationMs": 156616,
+  "language": "en",
+  "engine": "synthetic",
+  "words": [
+    {
+      "id": 0,
+      "text": "Today",
+      "startMs": 1400,
+      "endMs": 1664,
+      "conf": 0.95,
+      "rms": -23.8,
+      "gapAfterMs": 105
+    },
+    {
+      "id": 1,
+      "text": "we",
+      "startMs": 1769,
+      "endMs": 2086,
+      "conf": 0.95,
+      "rms": -22.1,
+      "gapAfterMs": 130
+    },
+    {
+      "id": 2,
+      "text": "are",
+      "startMs": 2216,
+      "endMs": 2513,
+      "conf": 0.95,
+      "rms": -25.1,
+      "gapAfterMs": 119
+    },
+    {
+      "id": 3,
+      "text": "going",
+      "startMs": 2632,
+      "endMs": 3095,
+      "conf": 0.95,
+      "rms": -25.9,
+      "gapAfterMs": 58
+    },
+    {
+      "id": 4,
+      "text": "to",
+      "startMs": 3153,
+      "endMs": 3449,
+      "conf": 0.95,
+      "rms": -25.6,
+      "gapAfterMs": 73
+    },
+    {
+      "id": 5,
+      "text": "break",
+      "startMs": 3522,
+      "endMs": 3914,
+      "conf": 0.95,
+      "rms": -23.8,
+      "gapAfterMs": 95
+    },
+    {
+      "id": 6,
+      "text": "down",
+      "startMs": 4009,
+      "endMs": 4380,
+      "conf": 0.95,
+      "rms": -26,
+      "gapAfterMs": 122
+    },
+    {
+      "id": 7,
+      "text": "how",
+      "startMs": 4502,
+      "endMs": 4807,
+      "conf": 0.95,
+      "rms": -24.9,
+      "gapAfterMs": 84
+    },
+    {
+      "id": 8,
+      "text": "the",
+      "startMs": 4891,
+      "endMs": 5133,
+      "conf": 0.95,
+      "rms": -24.7,
+      "gapAfterMs": 75
+    },
+    {
+      "id": 9,
+      "text": "modern",
+      "startMs": 5208,
+      "endMs": 5685,
+      "conf": 0.95,
+      "rms": -28.4,
+      "gapAfterMs": 61
+    },
+    {
+      "id": 10,
+      "text": "shipping",
+      "startMs": 5746,
+      "endMs": 6188,
+      "conf": 0.95,
+      "rms": -28.4,
+      "gapAfterMs": 70
+    },
+    {
+      "id": 11,
+      "text": "container",
+      "startMs": 6258,
+      "endMs": 6747,
+      "conf": 0.95,
+      "rms": -20.4,
+      "gapAfterMs": 131
+    },
+    {
+      "id": 12,
+      "text": "changed",
+      "startMs": 6878,
+      "endMs": 7230,
+      "conf": 0.95,
+      "rms": -23.6,
+      "gapAfterMs": 105
+    },
+    {
+      "id": 13,
+      "text": "the",
+      "startMs": 7335,
+      "endMs": 7640,
+      "conf": 0.95,
+      "rms": -24.9,
+      "gapAfterMs": 42
+    },
+    {
+      "id": 14,
+      "text": "world.",
+      "startMs": 7682,
+      "endMs": 7961,
+      "conf": 0.95,
+      "rms": -20.2,
+      "gapAfterMs": 556
+    },
+    {
+      "id": 15,
+      "text": "In",
+      "startMs": 8517,
+      "endMs": 8757,
+      "conf": 0.95,
+      "rms": -28.2,
+      "gapAfterMs": 42
+    },
+    {
+      "id": 16,
+      "text": "1956,",
+      "startMs": 8799,
+      "endMs": 9191,
+      "conf": 0.95,
+      "rms": -22.2,
+      "gapAfterMs": 337
+    },
+    {
+      "id": 17,
+      "text": "a",
+      "startMs": 9528,
+      "endMs": 9710,
+      "conf": 0.95,
+      "rms": -19.2,
+      "gapAfterMs": 78
+    },
+    {
+      "id": 18,
+      "text": "trucker",
+      "startMs": 9788,
+      "endMs": 10218,
+      "conf": 0.95,
+      "rms": -19.2,
+      "gapAfterMs": 133
+    },
+    {
+      "id": 19,
+      "text": "named",
+      "startMs": 10351,
+      "endMs": 10633,
+      "conf": 0.95,
+      "rms": -25.5,
+      "gapAfterMs": 76
+    },
+    {
+      "id": 20,
+      "text": "Malcom",
+      "startMs": 10709,
+      "endMs": 11033,
+      "conf": 0.95,
+      "rms": -28.6,
+      "gapAfterMs": 70
+    },
+    {
+      "id": 21,
+      "text": "McLean",
+      "startMs": 11103,
+      "endMs": 11412,
+      "conf": 0.95,
+      "rms": -21.4,
+      "gapAfterMs": 90
+    },
+    {
+      "id": 22,
+      "text": "loaded",
+      "startMs": 11502,
+      "endMs": 12001,
+      "conf": 0.95,
+      "rms": -27.9,
+      "gapAfterMs": 61
+    },
+    {
+      "id": 23,
+      "text": "58",
+      "startMs": 12062,
+      "endMs": 12285,
+      "conf": 0.95,
+      "rms": -22.2,
+      "gapAfterMs": 125
+    },
+    {
+      "id": 24,
+      "text": "boxes",
+      "startMs": 12410,
+      "endMs": 12899,
+      "conf": 0.95,
+      "rms": -26.5,
+      "gapAfterMs": 153
+    },
+    {
+      "id": 25,
+      "text": "onto",
+      "startMs": 13052,
+      "endMs": 13498,
+      "conf": 0.95,
+      "rms": -20.9,
+      "gapAfterMs": 92
+    },
+    {
+      "id": 26,
+      "text": "a",
+      "startMs": 13590,
+      "endMs": 13932,
+      "conf": 0.95,
+      "rms": -23.7,
+      "gapAfterMs": 86
+    },
+    {
+      "id": 27,
+      "text": "converted",
+      "startMs": 14018,
+      "endMs": 14348,
+      "conf": 0.95,
+      "rms": -21.3,
+      "gapAfterMs": 87
+    },
+    {
+      "id": 28,
+      "text": "tanker.",
+      "startMs": 14435,
+      "endMs": 14907,
+      "conf": 0.95,
+      "rms": -26.2,
+      "gapAfterMs": 830
+    },
+    {
+      "id": 29,
+      "text": "Before",
+      "startMs": 15737,
+      "endMs": 16056,
+      "conf": 0.95,
+      "rms": -27.8,
+      "gapAfterMs": 48
+    },
+    {
+      "id": 30,
+      "text": "that,",
+      "startMs": 16104,
+      "endMs": 16593,
+      "conf": 0.95,
+      "rms": -25,
+      "gapAfterMs": 320
+    },
+    {
+      "id": 31,
+      "text": "loading",
+      "startMs": 16913,
+      "endMs": 17258,
+      "conf": 0.95,
+      "rms": -23.1,
+      "gapAfterMs": 135
+    },
+    {
+      "id": 32,
+      "text": "a",
+      "startMs": 17393,
+      "endMs": 17585,
+      "conf": 0.95,
+      "rms": -27.4,
+      "gapAfterMs": 47
+    },
+    {
+      "id": 33,
+      "text": "ship",
+      "startMs": 17632,
+      "endMs": 18037,
+      "conf": 0.95,
+      "rms": -22.4,
+      "gapAfterMs": 91
+    },
+    {
+      "id": 34,
+      "text": "took",
+      "startMs": 18128,
+      "endMs": 18567,
+      "conf": 0.95,
+      "rms": -23.2,
+      "gapAfterMs": 48
+    },
+    {
+      "id": 35,
+      "text": "weeks,",
+      "startMs": 18615,
+      "endMs": 19041,
+      "conf": 0.95,
+      "rms": -21,
+      "gapAfterMs": 338
+    },
+    {
+      "id": 36,
+      "text": "and",
+      "startMs": 19379,
+      "endMs": 19813,
+      "conf": 0.95,
+      "rms": -19.3,
+      "gapAfterMs": 77
+    },
+    {
+      "id": 37,
+      "text": "dock",
+      "startMs": 19890,
+      "endMs": 20174,
+      "conf": 0.95,
+      "rms": -24.7,
+      "gapAfterMs": 58
+    },
+    {
+      "id": 38,
+      "text": "workers",
+      "startMs": 20232,
+      "endMs": 20526,
+      "conf": 0.95,
+      "rms": -24.6,
+      "gapAfterMs": 110
+    },
+    {
+      "id": 39,
+      "text": "moved",
+      "startMs": 20636,
+      "endMs": 20999,
+      "conf": 0.95,
+      "rms": -21.2,
+      "gapAfterMs": 160
+    },
+    {
+      "id": 40,
+      "text": "every",
+      "startMs": 21159,
+      "endMs": 21625,
+      "conf": 0.95,
+      "rms": -27.6,
+      "gapAfterMs": 134
+    },
+    {
+      "id": 41,
+      "text": "sack",
+      "startMs": 21759,
+      "endMs": 22212,
+      "conf": 0.95,
+      "rms": -28.1,
+      "gapAfterMs": 66
+    },
+    {
+      "id": 42,
+      "text": "by",
+      "startMs": 22278,
+      "endMs": 22614,
+      "conf": 0.95,
+      "rms": -21,
+      "gapAfterMs": 48
+    },
+    {
+      "id": 43,
+      "text": "hand.",
+      "startMs": 22662,
+      "endMs": 23096,
+      "conf": 0.95,
+      "rms": -19.9,
+      "gapAfterMs": 718
+    },
+    {
+      "id": 44,
+      "text": "The",
+      "startMs": 23814,
+      "endMs": 24104,
+      "conf": 0.95,
+      "rms": -28,
+      "gapAfterMs": 146
+    },
+    {
+      "id": 45,
+      "text": "container",
+      "startMs": 24250,
+      "endMs": 24626,
+      "conf": 0.95,
+      "rms": -27.3,
+      "gapAfterMs": 154
+    },
+    {
+      "id": 46,
+      "text": "cut",
+      "startMs": 24780,
+      "endMs": 25077,
+      "conf": 0.95,
+      "rms": -24.6,
+      "gapAfterMs": 72
+    },
+    {
+      "id": 47,
+      "text": "the",
+      "startMs": 25149,
+      "endMs": 25501,
+      "conf": 0.95,
+      "rms": -24.7,
+      "gapAfterMs": 55
+    },
+    {
+      "id": 48,
+      "text": "cost",
+      "startMs": 25556,
+      "endMs": 25790,
+      "conf": 0.95,
+      "rms": -19.8,
+      "gapAfterMs": 81
+    },
+    {
+      "id": 49,
+      "text": "of",
+      "startMs": 25871,
+      "endMs": 26082,
+      "conf": 0.95,
+      "rms": -25.8,
+      "gapAfterMs": 159
+    },
+    {
+      "id": 50,
+      "text": "loading",
+      "startMs": 26241,
+      "endMs": 26702,
+      "conf": 0.95,
+      "rms": -19.6,
+      "gapAfterMs": 94
+    },
+    {
+      "id": 51,
+      "text": "a",
+      "startMs": 26796,
+      "endMs": 27138,
+      "conf": 0.95,
+      "rms": -21.5,
+      "gapAfterMs": 59
+    },
+    {
+      "id": 52,
+      "text": "ton",
+      "startMs": 27197,
+      "endMs": 27503,
+      "conf": 0.95,
+      "rms": -22.1,
+      "gapAfterMs": 50
+    },
+    {
+      "id": 53,
+      "text": "of",
+      "startMs": 27553,
+      "endMs": 27843,
+      "conf": 0.95,
+      "rms": -20.2,
+      "gapAfterMs": 103
+    },
+    {
+      "id": 54,
+      "text": "cargo",
+      "startMs": 27946,
+      "endMs": 28295,
+      "conf": 0.95,
+      "rms": -26.7,
+      "gapAfterMs": 46
+    },
+    {
+      "id": 55,
+      "text": "from",
+      "startMs": 28341,
+      "endMs": 28612,
+      "conf": 0.95,
+      "rms": -23.1,
+      "gapAfterMs": 142
+    },
+    {
+      "id": 56,
+      "text": "5.86",
+      "startMs": 28754,
+      "endMs": 29018,
+      "conf": 0.95,
+      "rms": -19.9,
+      "gapAfterMs": 138
+    },
+    {
+      "id": 57,
+      "text": "dollars",
+      "startMs": 29156,
+      "endMs": 29510,
+      "conf": 0.95,
+      "rms": -22.1,
+      "gapAfterMs": 82
+    },
+    {
+      "id": 58,
+      "text": "to",
+      "startMs": 29592,
+      "endMs": 30003,
+      "conf": 0.95,
+      "rms": -22.6,
+      "gapAfterMs": 150
+    },
+    {
+      "id": 59,
+      "text": "16",
+      "startMs": 30153,
+      "endMs": 30565,
+      "conf": 0.95,
+      "rms": -22.2,
+      "gapAfterMs": 108
+    },
+    {
+      "id": 60,
+      "text": "cents.",
+      "startMs": 30673,
+      "endMs": 30995,
+      "conf": 0.95,
+      "rms": -28.8,
+      "gapAfterMs": 638
+    },
+    {
+      "id": 61,
+      "text": "That",
+      "startMs": 31633,
+      "endMs": 31973,
+      "conf": 0.95,
+      "rms": -24.3,
+      "gapAfterMs": 69
+    },
+    {
+      "id": 62,
+      "text": "is",
+      "startMs": 32042,
+      "endMs": 32386,
+      "conf": 0.95,
+      "rms": -23.8,
+      "gapAfterMs": 109
+    },
+    {
+      "id": 63,
+      "text": "a",
+      "startMs": 32495,
+      "endMs": 32678,
+      "conf": 0.95,
+      "rms": -21.4,
+      "gapAfterMs": 78
+    },
+    {
+      "id": 64,
+      "text": "97",
+      "startMs": 32756,
+      "endMs": 33113,
+      "conf": 0.95,
+      "rms": -14.5,
+      "gapAfterMs": 49
+    },
+    {
+      "id": 65,
+      "text": "percent",
+      "startMs": 33162,
+      "endMs": 33595,
+      "conf": 0.95,
+      "rms": -23.7,
+      "gapAfterMs": 154
+    },
+    {
+      "id": 66,
+      "text": "drop,",
+      "startMs": 33749,
+      "endMs": 34147,
+      "conf": 0.95,
+      "rms": -22.7,
+      "gapAfterMs": 297
+    },
+    {
+      "id": 67,
+      "text": "and",
+      "startMs": 34444,
+      "endMs": 34836,
+      "conf": 0.95,
+      "rms": -23.2,
+      "gapAfterMs": 57
+    },
+    {
+      "id": 68,
+      "text": "it",
+      "startMs": 34893,
+      "endMs": 35255,
+      "conf": 0.95,
+      "rms": -24.4,
+      "gapAfterMs": 55
+    },
+    {
+      "id": 69,
+      "text": "happened",
+      "startMs": 35310,
+      "endMs": 35745,
+      "conf": 0.95,
+      "rms": -25.3,
+      "gapAfterMs": 82
+    },
+    {
+      "id": 70,
+      "text": "almost",
+      "startMs": 35827,
+      "endMs": 36101,
+      "conf": 0.95,
+      "rms": -28.5,
+      "gapAfterMs": 148
+    },
+    {
+      "id": 71,
+      "text": "overnight.",
+      "startMs": 36249,
+      "endMs": 36766,
+      "conf": 0.95,
+      "rms": -23.3,
+      "gapAfterMs": 625
+    },
+    {
+      "id": 72,
+      "text": "Ports",
+      "startMs": 37391,
+      "endMs": 37874,
+      "conf": 0.95,
+      "rms": -22.9,
+      "gapAfterMs": 92
+    },
+    {
+      "id": 73,
+      "text": "like",
+      "startMs": 37966,
+      "endMs": 38335,
+      "conf": 0.95,
+      "rms": -27.2,
+      "gapAfterMs": 151
+    },
+    {
+      "id": 74,
+      "text": "Rotterdam",
+      "startMs": 38486,
+      "endMs": 38863,
+      "conf": 0.95,
+      "rms": -19.5,
+      "gapAfterMs": 124
+    },
+    {
+      "id": 75,
+      "text": "and",
+      "startMs": 38987,
+      "endMs": 39239,
+      "conf": 0.95,
+      "rms": -28.6,
+      "gapAfterMs": 72
+    },
+    {
+      "id": 76,
+      "text": "Singapore",
+      "startMs": 39311,
+      "endMs": 39692,
+      "conf": 0.95,
+      "rms": -24.7,
+      "gapAfterMs": 78
+    },
+    {
+      "id": 77,
+      "text": "grew",
+      "startMs": 39770,
+      "endMs": 40096,
+      "conf": 0.95,
+      "rms": -22.9,
+      "gapAfterMs": 108
+    },
+    {
+      "id": 78,
+      "text": "into",
+      "startMs": 40204,
+      "endMs": 40519,
+      "conf": 0.95,
+      "rms": -28.4,
+      "gapAfterMs": 64
+    },
+    {
+      "id": 79,
+      "text": "giant",
+      "startMs": 40583,
+      "endMs": 41040,
+      "conf": 0.95,
+      "rms": -19.3,
+      "gapAfterMs": 80
+    },
+    {
+      "id": 80,
+      "text": "machines",
+      "startMs": 41120,
+      "endMs": 41427,
+      "conf": 0.95,
+      "rms": -23.2,
+      "gapAfterMs": 125
+    },
+    {
+      "id": 81,
+      "text": "built",
+      "startMs": 41552,
+      "endMs": 41947,
+      "conf": 0.95,
+      "rms": -23.4,
+      "gapAfterMs": 91
+    },
+    {
+      "id": 82,
+      "text": "around",
+      "startMs": 42038,
+      "endMs": 42481,
+      "conf": 0.95,
+      "rms": -23.6,
+      "gapAfterMs": 151
+    },
+    {
+      "id": 83,
+      "text": "one",
+      "startMs": 42632,
+      "endMs": 42911,
+      "conf": 0.95,
+      "rms": -22.7,
+      "gapAfterMs": 93
+    },
+    {
+      "id": 84,
+      "text": "steel",
+      "startMs": 43004,
+      "endMs": 43292,
+      "conf": 0.95,
+      "rms": -19.8,
+      "gapAfterMs": 156
+    },
+    {
+      "id": 85,
+      "text": "box.",
+      "startMs": 43448,
+      "endMs": 43814,
+      "conf": 0.95,
+      "rms": -27.3,
+      "gapAfterMs": 814
+    },
+    {
+      "id": 86,
+      "text": "So",
+      "startMs": 44628,
+      "endMs": 44886,
+      "conf": 0.95,
+      "rms": -19.8,
+      "gapAfterMs": 123
+    },
+    {
+      "id": 87,
+      "text": "why",
+      "startMs": 45009,
+      "endMs": 45265,
+      "conf": 0.95,
+      "rms": -19.1,
+      "gapAfterMs": 99
+    },
+    {
+      "id": 88,
+      "text": "did",
+      "startMs": 45364,
+      "endMs": 45818,
+      "conf": 0.95,
+      "rms": -20.7,
+      "gapAfterMs": 117
+    },
+    {
+      "id": 89,
+      "text": "it",
+      "startMs": 45935,
+      "endMs": 46144,
+      "conf": 0.95,
+      "rms": -19.8,
+      "gapAfterMs": 88
+    },
+    {
+      "id": 90,
+      "text": "take",
+      "startMs": 46232,
+      "endMs": 46544,
+      "conf": 0.95,
+      "rms": -26.3,
+      "gapAfterMs": 46
+    },
+    {
+      "id": 91,
+      "text": "so",
+      "startMs": 46590,
+      "endMs": 46799,
+      "conf": 0.95,
+      "rms": -27.4,
+      "gapAfterMs": 73
+    },
+    {
+      "id": 92,
+      "text": "long",
+      "startMs": 46872,
+      "endMs": 47284,
+      "conf": 0.95,
+      "rms": -27.1,
+      "gapAfterMs": 113
+    },
+    {
+      "id": 93,
+      "text": "for",
+      "startMs": 47397,
+      "endMs": 47714,
+      "conf": 0.95,
+      "rms": -21.4,
+      "gapAfterMs": 74
+    },
+    {
+      "id": 94,
+      "text": "anyone",
+      "startMs": 47788,
+      "endMs": 48218,
+      "conf": 0.95,
+      "rms": -22,
+      "gapAfterMs": 100
+    },
+    {
+      "id": 95,
+      "text": "to",
+      "startMs": 48318,
+      "endMs": 48629,
+      "conf": 0.95,
+      "rms": -21.2,
+      "gapAfterMs": 69
+    },
+    {
+      "id": 96,
+      "text": "standardise",
+      "startMs": 48698,
+      "endMs": 49065,
+      "conf": 0.95,
+      "rms": -22.4,
+      "gapAfterMs": 40
+    },
+    {
+      "id": 97,
+      "text": "the",
+      "startMs": 49105,
+      "endMs": 49481,
+      "conf": 0.95,
+      "rms": -23.6,
+      "gapAfterMs": 121
+    },
+    {
+      "id": 98,
+      "text": "size?",
+      "startMs": 49602,
+      "endMs": 50013,
+      "conf": 0.95,
+      "rms": -23.2,
+      "gapAfterMs": 2024
+    },
+    {
+      "id": 99,
+      "text": "Railways,",
+      "startMs": 52037,
+      "endMs": 52376,
+      "conf": 0.95,
+      "rms": -24.2,
+      "gapAfterMs": 238
+    },
+    {
+      "id": 100,
+      "text": "truckers",
+      "startMs": 52614,
+      "endMs": 52942,
+      "conf": 0.95,
+      "rms": -26.2,
+      "gapAfterMs": 64
+    },
+    {
+      "id": 101,
+      "text": "and",
+      "startMs": 53006,
+      "endMs": 53442,
+      "conf": 0.95,
+      "rms": -25.6,
+      "gapAfterMs": 127
+    },
+    {
+      "id": 102,
+      "text": "shipping",
+      "startMs": 53569,
+      "endMs": 53935,
+      "conf": 0.95,
+      "rms": -19.8,
+      "gapAfterMs": 157
+    },
+    {
+      "id": 103,
+      "text": "lines",
+      "startMs": 54092,
+      "endMs": 54362,
+      "conf": 0.95,
+      "rms": -28.9,
+      "gapAfterMs": 68
+    },
+    {
+      "id": 104,
+      "text": "all",
+      "startMs": 54430,
+      "endMs": 54724,
+      "conf": 0.95,
+      "rms": -28.9,
+      "gapAfterMs": 149
+    },
+    {
+      "id": 105,
+      "text": "wanted",
+      "startMs": 54873,
+      "endMs": 55210,
+      "conf": 0.95,
+      "rms": -23.9,
+      "gapAfterMs": 159
+    },
+    {
+      "id": 106,
+      "text": "their",
+      "startMs": 55369,
+      "endMs": 55775,
+      "conf": 0.95,
+      "rms": -27.7,
+      "gapAfterMs": 149
+    },
+    {
+      "id": 107,
+      "text": "own",
+      "startMs": 55924,
+      "endMs": 56195,
+      "conf": 0.95,
+      "rms": -20,
+      "gapAfterMs": 105
+    },
+    {
+      "id": 108,
+      "text": "dimensions.",
+      "startMs": 56300,
+      "endMs": 56840,
+      "conf": 0.95,
+      "rms": -26.5,
+      "gapAfterMs": 658
+    },
+    {
+      "id": 109,
+      "text": "It",
+      "startMs": 57498,
+      "endMs": 57887,
+      "conf": 0.95,
+      "rms": -26.2,
+      "gapAfterMs": 47
+    },
+    {
+      "id": 110,
+      "text": "took",
+      "startMs": 57934,
+      "endMs": 58277,
+      "conf": 0.95,
+      "rms": -24.4,
+      "gapAfterMs": 55
+    },
+    {
+      "id": 111,
+      "text": "a",
+      "startMs": 58332,
+      "endMs": 58619,
+      "conf": 0.95,
+      "rms": -24,
+      "gapAfterMs": 150
+    },
+    {
+      "id": 112,
+      "text": "decade",
+      "startMs": 58769,
+      "endMs": 59080,
+      "conf": 0.95,
+      "rms": -22.3,
+      "gapAfterMs": 79
+    },
+    {
+      "id": 113,
+      "text": "of",
+      "startMs": 59159,
+      "endMs": 59375,
+      "conf": 0.95,
+      "rms": -24.1,
+      "gapAfterMs": 93
+    },
+    {
+      "id": 114,
+      "text": "arguments",
+      "startMs": 59468,
+      "endMs": 59795,
+      "conf": 0.95,
+      "rms": -20.4,
+      "gapAfterMs": 143
+    },
+    {
+      "id": 115,
+      "text": "before",
+      "startMs": 59938,
+      "endMs": 60361,
+      "conf": 0.95,
+      "rms": -19.3,
+      "gapAfterMs": 70
+    },
+    {
+      "id": 116,
+      "text": "the",
+      "startMs": 60431,
+      "endMs": 60813,
+      "conf": 0.95,
+      "rms": -27.7,
+      "gapAfterMs": 100
+    },
+    {
+      "id": 117,
+      "text": "20",
+      "startMs": 60913,
+      "endMs": 61143,
+      "conf": 0.95,
+      "rms": -17.3,
+      "gapAfterMs": 144
+    },
+    {
+      "id": 118,
+      "text": "foot",
+      "startMs": 61287,
+      "endMs": 61541,
+      "conf": 0.95,
+      "rms": -24.4,
+      "gapAfterMs": 158
+    },
+    {
+      "id": 119,
+      "text": "and",
+      "startMs": 61699,
+      "endMs": 62004,
+      "conf": 0.95,
+      "rms": -20.2,
+      "gapAfterMs": 149
+    },
+    {
+      "id": 120,
+      "text": "40",
+      "startMs": 62153,
+      "endMs": 62493,
+      "conf": 0.95,
+      "rms": -16.9,
+      "gapAfterMs": 105
+    },
+    {
+      "id": 121,
+      "text": "foot",
+      "startMs": 62598,
+      "endMs": 62972,
+      "conf": 0.95,
+      "rms": -28.8,
+      "gapAfterMs": 146
+    },
+    {
+      "id": 122,
+      "text": "boxes",
+      "startMs": 63118,
+      "endMs": 63465,
+      "conf": 0.95,
+      "rms": -23.8,
+      "gapAfterMs": 113
+    },
+    {
+      "id": 123,
+      "text": "won.",
+      "startMs": 63578,
+      "endMs": 63976,
+      "conf": 0.95,
+      "rms": -27.2,
+      "gapAfterMs": 539
+    },
+    {
+      "id": 124,
+      "text": "Once",
+      "startMs": 64515,
+      "endMs": 64917,
+      "conf": 0.95,
+      "rms": -24.4,
+      "gapAfterMs": 142
+    },
+    {
+      "id": 125,
+      "text": "they",
+      "startMs": 65059,
+      "endMs": 65456,
+      "conf": 0.95,
+      "rms": -25.4,
+      "gapAfterMs": 80
+    },
+    {
+      "id": 126,
+      "text": "did,",
+      "startMs": 65536,
+      "endMs": 65804,
+      "conf": 0.95,
+      "rms": -25.9,
+      "gapAfterMs": 312
+    },
+    {
+      "id": 127,
+      "text": "a",
+      "startMs": 66116,
+      "endMs": 66469,
+      "conf": 0.95,
+      "rms": -24.5,
+      "gapAfterMs": 42
+    },
+    {
+      "id": 128,
+      "text": "crane",
+      "startMs": 66511,
+      "endMs": 66792,
+      "conf": 0.95,
+      "rms": -21.2,
+      "gapAfterMs": 147
+    },
+    {
+      "id": 129,
+      "text": "could",
+      "startMs": 66939,
+      "endMs": 67380,
+      "conf": 0.95,
+      "rms": -19.4,
+      "gapAfterMs": 95
+    },
+    {
+      "id": 130,
+      "text": "move",
+      "startMs": 67475,
+      "endMs": 67857,
+      "conf": 0.95,
+      "rms": -24.4,
+      "gapAfterMs": 81
+    },
+    {
+      "id": 131,
+      "text": "a",
+      "startMs": 67938,
+      "endMs": 68262,
+      "conf": 0.95,
+      "rms": -28.4,
+      "gapAfterMs": 63
+    },
+    {
+      "id": 132,
+      "text": "box",
+      "startMs": 68325,
+      "endMs": 68546,
+      "conf": 0.95,
+      "rms": -21.5,
+      "gapAfterMs": 55
+    },
+    {
+      "id": 133,
+      "text": "from",
+      "startMs": 68601,
+      "endMs": 68846,
+      "conf": 0.95,
+      "rms": -20.9,
+      "gapAfterMs": 141
+    },
+    {
+      "id": 134,
+      "text": "ship",
+      "startMs": 68987,
+      "endMs": 69429,
+      "conf": 0.95,
+      "rms": -20.2,
+      "gapAfterMs": 77
+    },
+    {
+      "id": 135,
+      "text": "to",
+      "startMs": 69506,
+      "endMs": 69909,
+      "conf": 0.95,
+      "rms": -23.1,
+      "gapAfterMs": 78
+    },
+    {
+      "id": 136,
+      "text": "train",
+      "startMs": 69987,
+      "endMs": 70378,
+      "conf": 0.95,
+      "rms": -21.1,
+      "gapAfterMs": 59
+    },
+    {
+      "id": 137,
+      "text": "in",
+      "startMs": 70437,
+      "endMs": 70814,
+      "conf": 0.95,
+      "rms": -20.4,
+      "gapAfterMs": 96
+    },
+    {
+      "id": 138,
+      "text": "under",
+      "startMs": 70910,
+      "endMs": 71379,
+      "conf": 0.95,
+      "rms": -22.5,
+      "gapAfterMs": 100
+    },
+    {
+      "id": 139,
+      "text": "two",
+      "startMs": 71479,
+      "endMs": 71897,
+      "conf": 0.95,
+      "rms": -22.4,
+      "gapAfterMs": 43
+    },
+    {
+      "id": 140,
+      "text": "minutes.",
+      "startMs": 71940,
+      "endMs": 72431,
+      "conf": 0.95,
+      "rms": -23.6,
+      "gapAfterMs": 516
+    },
+    {
+      "id": 141,
+      "text": "Economists",
+      "startMs": 72947,
+      "endMs": 73309,
+      "conf": 0.95,
+      "rms": -23.9,
+      "gapAfterMs": 143
+    },
+    {
+      "id": 142,
+      "text": "later",
+      "startMs": 73452,
+      "endMs": 73822,
+      "conf": 0.95,
+      "rms": -19.3,
+      "gapAfterMs": 148
+    },
+    {
+      "id": 143,
+      "text": "estimated",
+      "startMs": 73970,
+      "endMs": 74381,
+      "conf": 0.95,
+      "rms": -23.5,
+      "gapAfterMs": 77
+    },
+    {
+      "id": 144,
+      "text": "that",
+      "startMs": 74458,
+      "endMs": 74707,
+      "conf": 0.95,
+      "rms": -19.2,
+      "gapAfterMs": 88
+    },
+    {
+      "id": 145,
+      "text": "containers",
+      "startMs": 74795,
+      "endMs": 75216,
+      "conf": 0.95,
+      "rms": -24.4,
+      "gapAfterMs": 157
+    },
+    {
+      "id": 146,
+      "text": "boosted",
+      "startMs": 75373,
+      "endMs": 75688,
+      "conf": 0.95,
+      "rms": -25.6,
+      "gapAfterMs": 88
+    },
+    {
+      "id": 147,
+      "text": "trade",
+      "startMs": 75776,
+      "endMs": 76240,
+      "conf": 0.95,
+      "rms": -27.7,
+      "gapAfterMs": 150
+    },
+    {
+      "id": 148,
+      "text": "between",
+      "startMs": 76390,
+      "endMs": 76818,
+      "conf": 0.95,
+      "rms": -23.3,
+      "gapAfterMs": 117
+    },
+    {
+      "id": 149,
+      "text": "countries",
+      "startMs": 76935,
+      "endMs": 77324,
+      "conf": 0.95,
+      "rms": -19.6,
+      "gapAfterMs": 53
+    },
+    {
+      "id": 150,
+      "text": "by",
+      "startMs": 77377,
+      "endMs": 77618,
+      "conf": 0.95,
+      "rms": -23.6,
+      "gapAfterMs": 78
+    },
+    {
+      "id": 151,
+      "text": "700",
+      "startMs": 77696,
+      "endMs": 77964,
+      "conf": 0.95,
+      "rms": -15.7,
+      "gapAfterMs": 153
+    },
+    {
+      "id": 152,
+      "text": "percent.",
+      "startMs": 78117,
+      "endMs": 78553,
+      "conf": 0.95,
+      "rms": -25.4,
+      "gapAfterMs": 722
+    },
+    {
+      "id": 153,
+      "text": "The",
+      "startMs": 79275,
+      "endMs": 79528,
+      "conf": 0.95,
+      "rms": -20.5,
+      "gapAfterMs": 82
+    },
+    {
+      "id": 154,
+      "text": "historian",
+      "startMs": 79610,
+      "endMs": 80119,
+      "conf": 0.95,
+      "rms": -27.9,
+      "gapAfterMs": 69
+    },
+    {
+      "id": 155,
+      "text": "Marc",
+      "startMs": 80188,
+      "endMs": 80583,
+      "conf": 0.95,
+      "rms": -21.3,
+      "gapAfterMs": 52
+    },
+    {
+      "id": 156,
+      "text": "Levinson",
+      "startMs": 80635,
+      "endMs": 81144,
+      "conf": 0.95,
+      "rms": -26.5,
+      "gapAfterMs": 83
+    },
+    {
+      "id": 157,
+      "text": "wrote",
+      "startMs": 81227,
+      "endMs": 81531,
+      "conf": 0.95,
+      "rms": -22,
+      "gapAfterMs": 129
+    },
+    {
+      "id": 158,
+      "text": "that",
+      "startMs": 81660,
+      "endMs": 82011,
+      "conf": 0.95,
+      "rms": -27,
+      "gapAfterMs": 41
+    },
+    {
+      "id": 159,
+      "text": "the",
+      "startMs": 82052,
+      "endMs": 82477,
+      "conf": 0.95,
+      "rms": -22.1,
+      "gapAfterMs": 155
+    },
+    {
+      "id": 160,
+      "text": "box",
+      "startMs": 82632,
+      "endMs": 82880,
+      "conf": 0.95,
+      "rms": -23.1,
+      "gapAfterMs": 48
+    },
+    {
+      "id": 161,
+      "text": "made",
+      "startMs": 82928,
+      "endMs": 83382,
+      "conf": 0.95,
+      "rms": -21.3,
+      "gapAfterMs": 115
+    },
+    {
+      "id": 162,
+      "text": "the",
+      "startMs": 83497,
+      "endMs": 83838,
+      "conf": 0.95,
+      "rms": -25.3,
+      "gapAfterMs": 103
+    },
+    {
+      "id": 163,
+      "text": "world",
+      "startMs": 83941,
+      "endMs": 84261,
+      "conf": 0.95,
+      "rms": -21.6,
+      "gapAfterMs": 43
+    },
+    {
+      "id": 164,
+      "text": "smaller",
+      "startMs": 84304,
+      "endMs": 84661,
+      "conf": 0.95,
+      "rms": -27.6,
+      "gapAfterMs": 76
+    },
+    {
+      "id": 165,
+      "text": "and",
+      "startMs": 84737,
+      "endMs": 85183,
+      "conf": 0.95,
+      "rms": -24,
+      "gapAfterMs": 133
+    },
+    {
+      "id": 166,
+      "text": "the",
+      "startMs": 85316,
+      "endMs": 85580,
+      "conf": 0.95,
+      "rms": -28.3,
+      "gapAfterMs": 154
+    },
+    {
+      "id": 167,
+      "text": "economy",
+      "startMs": 85734,
+      "endMs": 86098,
+      "conf": 0.95,
+      "rms": -25.3,
+      "gapAfterMs": 97
+    },
+    {
+      "id": 168,
+      "text": "bigger.",
+      "startMs": 86195,
+      "endMs": 86652,
+      "conf": 0.95,
+      "rms": -21.9,
+      "gapAfterMs": 723
+    },
+    {
+      "id": 169,
+      "text": "Think",
+      "startMs": 87375,
+      "endMs": 87787,
+      "conf": 0.95,
+      "rms": -26.2,
+      "gapAfterMs": 106
+    },
+    {
+      "id": 170,
+      "text": "about",
+      "startMs": 87893,
+      "endMs": 88340,
+      "conf": 0.95,
+      "rms": -26.5,
+      "gapAfterMs": 48
+    },
+    {
+      "id": 171,
+      "text": "the",
+      "startMs": 88388,
+      "endMs": 88836,
+      "conf": 0.95,
+      "rms": -25.1,
+      "gapAfterMs": 104
+    },
+    {
+      "id": 172,
+      "text": "laptop,",
+      "startMs": 88940,
+      "endMs": 89441,
+      "conf": 0.95,
+      "rms": -25.1,
+      "gapAfterMs": 336
+    },
+    {
+      "id": 173,
+      "text": "the",
+      "startMs": 89777,
+      "endMs": 90194,
+      "conf": 0.95,
+      "rms": -24.1,
+      "gapAfterMs": 131
+    },
+    {
+      "id": 174,
+      "text": "phone",
+      "startMs": 90325,
+      "endMs": 90812,
+      "conf": 0.95,
+      "rms": -26.2,
+      "gapAfterMs": 90
+    },
+    {
+      "id": 175,
+      "text": "and",
+      "startMs": 90902,
+      "endMs": 91218,
+      "conf": 0.95,
+      "rms": -21,
+      "gapAfterMs": 125
+    },
+    {
+      "id": 176,
+      "text": "the",
+      "startMs": 91343,
+      "endMs": 91613,
+      "conf": 0.95,
+      "rms": -19.1,
+      "gapAfterMs": 102
+    },
+    {
+      "id": 177,
+      "text": "notebook",
+      "startMs": 91715,
+      "endMs": 92083,
+      "conf": 0.95,
+      "rms": -19.1,
+      "gapAfterMs": 41
+    },
+    {
+      "id": 178,
+      "text": "on",
+      "startMs": 92124,
+      "endMs": 92467,
+      "conf": 0.95,
+      "rms": -26.4,
+      "gapAfterMs": 122
+    },
+    {
+      "id": 179,
+      "text": "your",
+      "startMs": 92589,
+      "endMs": 92821,
+      "conf": 0.95,
+      "rms": -21.4,
+      "gapAfterMs": 40
+    },
+    {
+      "id": 180,
+      "text": "desk",
+      "startMs": 92861,
+      "endMs": 93241,
+      "conf": 0.95,
+      "rms": -20,
+      "gapAfterMs": 56
+    },
+    {
+      "id": 181,
+      "text": "right",
+      "startMs": 93297,
+      "endMs": 93654,
+      "conf": 0.95,
+      "rms": -25.1,
+      "gapAfterMs": 114
+    },
+    {
+      "id": 182,
+      "text": "now.",
+      "startMs": 93768,
+      "endMs": 94112,
+      "conf": 0.95,
+      "rms": -20.9,
+      "gapAfterMs": 600
+    },
+    {
+      "id": 183,
+      "text": "Each",
+      "startMs": 94712,
+      "endMs": 95117,
+      "conf": 0.95,
+      "rms": -23,
+      "gapAfterMs": 91
+    },
+    {
+      "id": 184,
+      "text": "one",
+      "startMs": 95208,
+      "endMs": 95464,
+      "conf": 0.95,
+      "rms": -28.5,
+      "gapAfterMs": 147
+    },
+    {
+      "id": 185,
+      "text": "probably",
+      "startMs": 95611,
+      "endMs": 96064,
+      "conf": 0.95,
+      "rms": -26.4,
+      "gapAfterMs": 153
+    },
+    {
+      "id": 186,
+      "text": "crossed",
+      "startMs": 96217,
+      "endMs": 96708,
+      "conf": 0.95,
+      "rms": -23.5,
+      "gapAfterMs": 111
+    },
+    {
+      "id": 187,
+      "text": "an",
+      "startMs": 96819,
+      "endMs": 97031,
+      "conf": 0.95,
+      "rms": -28.4,
+      "gapAfterMs": 49
+    },
+    {
+      "id": 188,
+      "text": "ocean",
+      "startMs": 97080,
+      "endMs": 97426,
+      "conf": 0.95,
+      "rms": -20.7,
+      "gapAfterMs": 157
+    },
+    {
+      "id": 189,
+      "text": "inside",
+      "startMs": 97583,
+      "endMs": 98064,
+      "conf": 0.95,
+      "rms": -26.1,
+      "gapAfterMs": 138
+    },
+    {
+      "id": 190,
+      "text": "one",
+      "startMs": 98202,
+      "endMs": 98456,
+      "conf": 0.95,
+      "rms": -22.6,
+      "gapAfterMs": 60
+    },
+    {
+      "id": 191,
+      "text": "of",
+      "startMs": 98516,
+      "endMs": 98796,
+      "conf": 0.95,
+      "rms": -26,
+      "gapAfterMs": 110
+    },
+    {
+      "id": 192,
+      "text": "these",
+      "startMs": 98906,
+      "endMs": 99324,
+      "conf": 0.95,
+      "rms": -22,
+      "gapAfterMs": 120
+    },
+    {
+      "id": 193,
+      "text": "boxes.",
+      "startMs": 99444,
+      "endMs": 99900,
+      "conf": 0.95,
+      "rms": -24.8,
+      "gapAfterMs": 932
+    },
+    {
+      "id": 194,
+      "text": "But",
+      "startMs": 100832,
+      "endMs": 101185,
+      "conf": 0.95,
+      "rms": -20.9,
+      "gapAfterMs": 91
+    },
+    {
+      "id": 195,
+      "text": "the",
+      "startMs": 101276,
+      "endMs": 101572,
+      "conf": 0.95,
+      "rms": -20.8,
+      "gapAfterMs": 111
+    },
+    {
+      "id": 196,
+      "text": "story",
+      "startMs": 101683,
+      "endMs": 102004,
+      "conf": 0.95,
+      "rms": -24.2,
+      "gapAfterMs": 85
+    },
+    {
+      "id": 197,
+      "text": "is",
+      "startMs": 102089,
+      "endMs": 102303,
+      "conf": 0.95,
+      "rms": -25.7,
+      "gapAfterMs": 41
+    },
+    {
+      "id": 198,
+      "text": "not",
+      "startMs": 102344,
+      "endMs": 102593,
+      "conf": 0.95,
+      "rms": -27.7,
+      "gapAfterMs": 131
+    },
+    {
+      "id": 199,
+      "text": "only",
+      "startMs": 102724,
+      "endMs": 103130,
+      "conf": 0.95,
+      "rms": -25.1,
+      "gapAfterMs": 155
+    },
+    {
+      "id": 200,
+      "text": "about",
+      "startMs": 103285,
+      "endMs": 103741,
+      "conf": 0.95,
+      "rms": -23.3,
+      "gapAfterMs": 118
+    },
+    {
+      "id": 201,
+      "text": "efficiency.",
+      "startMs": 103859,
+      "endMs": 104341,
+      "conf": 0.95,
+      "rms": -24.7,
+      "gapAfterMs": 1652
+    },
+    {
+      "id": 202,
+      "text": "Whole",
+      "startMs": 105993,
+      "endMs": 106328,
+      "conf": 0.95,
+      "rms": -22.2,
+      "gapAfterMs": 143
+    },
+    {
+      "id": 203,
+      "text": "neighbourhoods",
+      "startMs": 106471,
+      "endMs": 107069,
+      "conf": 0.95,
+      "rms": -24.8,
+      "gapAfterMs": 155
+    },
+    {
+      "id": 204,
+      "text": "of",
+      "startMs": 107224,
+      "endMs": 107537,
+      "conf": 0.95,
+      "rms": -19.4,
+      "gapAfterMs": 96
+    },
+    {
+      "id": 205,
+      "text": "dock",
+      "startMs": 107633,
+      "endMs": 107897,
+      "conf": 0.95,
+      "rms": -27.1,
+      "gapAfterMs": 46
+    },
+    {
+      "id": 206,
+      "text": "workers",
+      "startMs": 107943,
+      "endMs": 108340,
+      "conf": 0.95,
+      "rms": -22.8,
+      "gapAfterMs": 116
+    },
+    {
+      "id": 207,
+      "text": "lost",
+      "startMs": 108456,
+      "endMs": 108734,
+      "conf": 0.95,
+      "rms": -21.1,
+      "gapAfterMs": 136
+    },
+    {
+      "id": 208,
+      "text": "their",
+      "startMs": 108870,
+      "endMs": 109336,
+      "conf": 0.95,
+      "rms": -24.3,
+      "gapAfterMs": 155
+    },
+    {
+      "id": 209,
+      "text": "jobs",
+      "startMs": 109491,
+      "endMs": 109776,
+      "conf": 0.95,
+      "rms": -25.9,
+      "gapAfterMs": 142
+    },
+    {
+      "id": 210,
+      "text": "within",
+      "startMs": 109918,
+      "endMs": 110342,
+      "conf": 0.95,
+      "rms": -20.9,
+      "gapAfterMs": 150
+    },
+    {
+      "id": 211,
+      "text": "a",
+      "startMs": 110492,
+      "endMs": 110706,
+      "conf": 0.95,
+      "rms": -24.6,
+      "gapAfterMs": 126
+    },
+    {
+      "id": 212,
+      "text": "few",
+      "startMs": 110832,
+      "endMs": 111131,
+      "conf": 0.95,
+      "rms": -22,
+      "gapAfterMs": 72
+    },
+    {
+      "id": 213,
+      "text": "years.",
+      "startMs": 111203,
+      "endMs": 111632,
+      "conf": 0.95,
+      "rms": -24.9,
+      "gapAfterMs": 756
+    },
+    {
+      "id": 214,
+      "text": "Cities",
+      "startMs": 112388,
+      "endMs": 112737,
+      "conf": 0.95,
+      "rms": -27.5,
+      "gapAfterMs": 55
+    },
+    {
+      "id": 215,
+      "text": "that",
+      "startMs": 112792,
+      "endMs": 113145,
+      "conf": 0.95,
+      "rms": -22.2,
+      "gapAfterMs": 105
+    },
+    {
+      "id": 216,
+      "text": "refused",
+      "startMs": 113250,
+      "endMs": 113729,
+      "conf": 0.95,
+      "rms": -22.9,
+      "gapAfterMs": 69
+    },
+    {
+      "id": 217,
+      "text": "to",
+      "startMs": 113798,
+      "endMs": 114156,
+      "conf": 0.95,
+      "rms": -20.8,
+      "gapAfterMs": 131
+    },
+    {
+      "id": 218,
+      "text": "rebuild",
+      "startMs": 114287,
+      "endMs": 114589,
+      "conf": 0.95,
+      "rms": -19.9,
+      "gapAfterMs": 66
+    },
+    {
+      "id": 219,
+      "text": "their",
+      "startMs": 114655,
+      "endMs": 115029,
+      "conf": 0.95,
+      "rms": -20.9,
+      "gapAfterMs": 97
+    },
+    {
+      "id": 220,
+      "text": "ports,",
+      "startMs": 115126,
+      "endMs": 115586,
+      "conf": 0.95,
+      "rms": -26.5,
+      "gapAfterMs": 255
+    },
+    {
+      "id": 221,
+      "text": "like",
+      "startMs": 115841,
+      "endMs": 116272,
+      "conf": 0.95,
+      "rms": -21.1,
+      "gapAfterMs": 150
+    },
+    {
+      "id": 222,
+      "text": "New",
+      "startMs": 116422,
+      "endMs": 116838,
+      "conf": 0.95,
+      "rms": -19.6,
+      "gapAfterMs": 89
+    },
+    {
+      "id": 223,
+      "text": "York's",
+      "startMs": 116927,
+      "endMs": 117353,
+      "conf": 0.95,
+      "rms": -27.3,
+      "gapAfterMs": 102
+    },
+    {
+      "id": 224,
+      "text": "Manhattan",
+      "startMs": 117455,
+      "endMs": 117923,
+      "conf": 0.95,
+      "rms": -20.4,
+      "gapAfterMs": 42
+    },
+    {
+      "id": 225,
+      "text": "piers,",
+      "startMs": 117965,
+      "endMs": 118354,
+      "conf": 0.95,
+      "rms": -27.2,
+      "gapAfterMs": 305
+    },
+    {
+      "id": 226,
+      "text": "faded.",
+      "startMs": 118659,
+      "endMs": 119019,
+      "conf": 0.95,
+      "rms": -24.5,
+      "gapAfterMs": 882
+    },
+    {
+      "id": 227,
+      "text": "Cities",
+      "startMs": 119901,
+      "endMs": 120205,
+      "conf": 0.95,
+      "rms": -26.8,
+      "gapAfterMs": 42
+    },
+    {
+      "id": 228,
+      "text": "that",
+      "startMs": 120247,
+      "endMs": 120623,
+      "conf": 0.95,
+      "rms": -20.7,
+      "gapAfterMs": 102
+    },
+    {
+      "id": 229,
+      "text": "embraced",
+      "startMs": 120725,
+      "endMs": 121258,
+      "conf": 0.95,
+      "rms": -25.7,
+      "gapAfterMs": 71
+    },
+    {
+      "id": 230,
+      "text": "the",
+      "startMs": 121329,
+      "endMs": 121776,
+      "conf": 0.95,
+      "rms": -20.8,
+      "gapAfterMs": 67
+    },
+    {
+      "id": 231,
+      "text": "box,",
+      "startMs": 121843,
+      "endMs": 122230,
+      "conf": 0.95,
+      "rms": -21.6,
+      "gapAfterMs": 256
+    },
+    {
+      "id": 232,
+      "text": "like",
+      "startMs": 122486,
+      "endMs": 122730,
+      "conf": 0.95,
+      "rms": -23.2,
+      "gapAfterMs": 111
+    },
+    {
+      "id": 233,
+      "text": "Oakland,",
+      "startMs": 122841,
+      "endMs": 123277,
+      "conf": 0.95,
+      "rms": -25.5,
+      "gapAfterMs": 269
+    },
+    {
+      "id": 234,
+      "text": "boomed.",
+      "startMs": 123546,
+      "endMs": 123963,
+      "conf": 0.95,
+      "rms": -19.4,
+      "gapAfterMs": 717
+    },
+    {
+      "id": 235,
+      "text": "Today",
+      "startMs": 124680,
+      "endMs": 125055,
+      "conf": 0.95,
+      "rms": -21.4,
+      "gapAfterMs": 145
+    },
+    {
+      "id": 236,
+      "text": "about",
+      "startMs": 125200,
+      "endMs": 125602,
+      "conf": 0.95,
+      "rms": -19.5,
+      "gapAfterMs": 54
+    },
+    {
+      "id": 237,
+      "text": "90",
+      "startMs": 125656,
+      "endMs": 125999,
+      "conf": 0.95,
+      "rms": -18.8,
+      "gapAfterMs": 63
+    },
+    {
+      "id": 238,
+      "text": "percent",
+      "startMs": 126062,
+      "endMs": 126486,
+      "conf": 0.95,
+      "rms": -21.3,
+      "gapAfterMs": 115
+    },
+    {
+      "id": 239,
+      "text": "of",
+      "startMs": 126601,
+      "endMs": 126947,
+      "conf": 0.95,
+      "rms": -27.4,
+      "gapAfterMs": 124
+    },
+    {
+      "id": 240,
+      "text": "everything",
+      "startMs": 127071,
+      "endMs": 127436,
+      "conf": 0.95,
+      "rms": -25.2,
+      "gapAfterMs": 58
+    },
+    {
+      "id": 241,
+      "text": "you",
+      "startMs": 127494,
+      "endMs": 127740,
+      "conf": 0.95,
+      "rms": -22.3,
+      "gapAfterMs": 71
+    },
+    {
+      "id": 242,
+      "text": "buy",
+      "startMs": 127811,
+      "endMs": 128264,
+      "conf": 0.95,
+      "rms": -26.9,
+      "gapAfterMs": 74
+    },
+    {
+      "id": 243,
+      "text": "travels",
+      "startMs": 128338,
+      "endMs": 128640,
+      "conf": 0.95,
+      "rms": -27.8,
+      "gapAfterMs": 58
+    },
+    {
+      "id": 244,
+      "text": "by",
+      "startMs": 128698,
+      "endMs": 129055,
+      "conf": 0.95,
+      "rms": -28.7,
+      "gapAfterMs": 56
+    },
+    {
+      "id": 245,
+      "text": "sea",
+      "startMs": 129111,
+      "endMs": 129441,
+      "conf": 0.95,
+      "rms": -20.7,
+      "gapAfterMs": 82
+    },
+    {
+      "id": 246,
+      "text": "at",
+      "startMs": 129523,
+      "endMs": 129839,
+      "conf": 0.95,
+      "rms": -28.4,
+      "gapAfterMs": 121
+    },
+    {
+      "id": 247,
+      "text": "some",
+      "startMs": 129960,
+      "endMs": 130269,
+      "conf": 0.95,
+      "rms": -20.1,
+      "gapAfterMs": 46
+    },
+    {
+      "id": 248,
+      "text": "point.",
+      "startMs": 130315,
+      "endMs": 130690,
+      "conf": 0.95,
+      "rms": -24.5,
+      "gapAfterMs": 694
+    },
+    {
+      "id": 249,
+      "text": "And",
+      "startMs": 131384,
+      "endMs": 131814,
+      "conf": 0.95,
+      "rms": -22.5,
+      "gapAfterMs": 46
+    },
+    {
+      "id": 250,
+      "text": "most",
+      "startMs": 131860,
+      "endMs": 132179,
+      "conf": 0.95,
+      "rms": -19.5,
+      "gapAfterMs": 137
+    },
+    {
+      "id": 251,
+      "text": "of",
+      "startMs": 132316,
+      "endMs": 132524,
+      "conf": 0.95,
+      "rms": -20.2,
+      "gapAfterMs": 98
+    },
+    {
+      "id": 252,
+      "text": "it",
+      "startMs": 132622,
+      "endMs": 133034,
+      "conf": 0.95,
+      "rms": -26.2,
+      "gapAfterMs": 82
+    },
+    {
+      "id": 253,
+      "text": "moves",
+      "startMs": 133116,
+      "endMs": 133381,
+      "conf": 0.95,
+      "rms": -25.3,
+      "gapAfterMs": 77
+    },
+    {
+      "id": 254,
+      "text": "inside",
+      "startMs": 133458,
+      "endMs": 133960,
+      "conf": 0.95,
+      "rms": -21.4,
+      "gapAfterMs": 62
+    },
+    {
+      "id": 255,
+      "text": "a",
+      "startMs": 134022,
+      "endMs": 134291,
+      "conf": 0.95,
+      "rms": -20.3,
+      "gapAfterMs": 60
+    },
+    {
+      "id": 256,
+      "text": "container",
+      "startMs": 134351,
+      "endMs": 134826,
+      "conf": 0.95,
+      "rms": -27.6,
+      "gapAfterMs": 111
+    },
+    {
+      "id": 257,
+      "text": "that",
+      "startMs": 134937,
+      "endMs": 135396,
+      "conf": 0.95,
+      "rms": -25,
+      "gapAfterMs": 150
+    },
+    {
+      "id": 258,
+      "text": "costs",
+      "startMs": 135546,
+      "endMs": 136024,
+      "conf": 0.95,
+      "rms": -21.4,
+      "gapAfterMs": 105
+    },
+    {
+      "id": 259,
+      "text": "less",
+      "startMs": 136129,
+      "endMs": 136374,
+      "conf": 0.95,
+      "rms": -23,
+      "gapAfterMs": 101
+    },
+    {
+      "id": 260,
+      "text": "to",
+      "startMs": 136475,
+      "endMs": 136822,
+      "conf": 0.95,
+      "rms": -25.8,
+      "gapAfterMs": 125
+    },
+    {
+      "id": 261,
+      "text": "ship",
+      "startMs": 136947,
+      "endMs": 137293,
+      "conf": 0.95,
+      "rms": -21.3,
+      "gapAfterMs": 66
+    },
+    {
+      "id": 262,
+      "text": "than",
+      "startMs": 137359,
+      "endMs": 137810,
+      "conf": 0.95,
+      "rms": -28.5,
+      "gapAfterMs": 45
+    },
+    {
+      "id": 263,
+      "text": "your",
+      "startMs": 137855,
+      "endMs": 138232,
+      "conf": 0.95,
+      "rms": -24,
+      "gapAfterMs": 159
+    },
+    {
+      "id": 264,
+      "text": "lunch.",
+      "startMs": 138391,
+      "endMs": 138671,
+      "conf": 0.95,
+      "rms": -23.3,
+      "gapAfterMs": 522
+    },
+    {
+      "id": 265,
+      "text": "So",
+      "startMs": 139193,
+      "endMs": 139473,
+      "conf": 0.95,
+      "rms": -26.5,
+      "gapAfterMs": 73
+    },
+    {
+      "id": 266,
+      "text": "next",
+      "startMs": 139546,
+      "endMs": 139834,
+      "conf": 0.95,
+      "rms": -19.8,
+      "gapAfterMs": 115
+    },
+    {
+      "id": 267,
+      "text": "time",
+      "startMs": 139949,
+      "endMs": 140304,
+      "conf": 0.95,
+      "rms": -27.9,
+      "gapAfterMs": 86
+    },
+    {
+      "id": 268,
+      "text": "you",
+      "startMs": 140390,
+      "endMs": 140636,
+      "conf": 0.95,
+      "rms": -20.8,
+      "gapAfterMs": 116
+    },
+    {
+      "id": 269,
+      "text": "see",
+      "startMs": 140752,
+      "endMs": 141154,
+      "conf": 0.95,
+      "rms": -26.5,
+      "gapAfterMs": 128
+    },
+    {
+      "id": 270,
+      "text": "a",
+      "startMs": 141282,
+      "endMs": 141518,
+      "conf": 0.95,
+      "rms": -28.6,
+      "gapAfterMs": 52
+    },
+    {
+      "id": 271,
+      "text": "truck",
+      "startMs": 141570,
+      "endMs": 141977,
+      "conf": 0.95,
+      "rms": -19.8,
+      "gapAfterMs": 53
+    },
+    {
+      "id": 272,
+      "text": "hauling",
+      "startMs": 142030,
+      "endMs": 142530,
+      "conf": 0.95,
+      "rms": -24.2,
+      "gapAfterMs": 97
+    },
+    {
+      "id": 273,
+      "text": "a",
+      "startMs": 142627,
+      "endMs": 143003,
+      "conf": 0.95,
+      "rms": -27.2,
+      "gapAfterMs": 111
+    },
+    {
+      "id": 274,
+      "text": "rusty",
+      "startMs": 143114,
+      "endMs": 143463,
+      "conf": 0.95,
+      "rms": -23.1,
+      "gapAfterMs": 85
+    },
+    {
+      "id": 275,
+      "text": "steel",
+      "startMs": 143548,
+      "endMs": 143838,
+      "conf": 0.95,
+      "rms": -19,
+      "gapAfterMs": 98
+    },
+    {
+      "id": 276,
+      "text": "box,",
+      "startMs": 143936,
+      "endMs": 144374,
+      "conf": 0.95,
+      "rms": -26.7,
+      "gapAfterMs": 273
+    },
+    {
+      "id": 277,
+      "text": "remember",
+      "startMs": 144647,
+      "endMs": 145060,
+      "conf": 0.95,
+      "rms": -27.3,
+      "gapAfterMs": 79
+    },
+    {
+      "id": 278,
+      "text": "it",
+      "startMs": 145139,
+      "endMs": 145362,
+      "conf": 0.95,
+      "rms": -19.6,
+      "gapAfterMs": 68
+    },
+    {
+      "id": 279,
+      "text": "is",
+      "startMs": 145430,
+      "endMs": 145673,
+      "conf": 0.95,
+      "rms": -26,
+      "gapAfterMs": 110
+    },
+    {
+      "id": 280,
+      "text": "one",
+      "startMs": 145783,
+      "endMs": 146209,
+      "conf": 0.95,
+      "rms": -27.7,
+      "gapAfterMs": 99
+    },
+    {
+      "id": 281,
+      "text": "of",
+      "startMs": 146308,
+      "endMs": 146535,
+      "conf": 0.95,
+      "rms": -21,
+      "gapAfterMs": 109
+    },
+    {
+      "id": 282,
+      "text": "the",
+      "startMs": 146644,
+      "endMs": 146940,
+      "conf": 0.95,
+      "rms": -22.3,
+      "gapAfterMs": 88
+    },
+    {
+      "id": 283,
+      "text": "most",
+      "startMs": 147028,
+      "endMs": 147356,
+      "conf": 0.95,
+      "rms": -26.5,
+      "gapAfterMs": 110
+    },
+    {
+      "id": 284,
+      "text": "important",
+      "startMs": 147466,
+      "endMs": 147896,
+      "conf": 0.95,
+      "rms": -25.3,
+      "gapAfterMs": 49
+    },
+    {
+      "id": 285,
+      "text": "inventions",
+      "startMs": 147945,
+      "endMs": 148434,
+      "conf": 0.95,
+      "rms": -23.9,
+      "gapAfterMs": 138
+    },
+    {
+      "id": 286,
+      "text": "of",
+      "startMs": 148572,
+      "endMs": 148895,
+      "conf": 0.95,
+      "rms": -26.4,
+      "gapAfterMs": 135
+    },
+    {
+      "id": 287,
+      "text": "the",
+      "startMs": 149030,
+      "endMs": 149254,
+      "conf": 0.95,
+      "rms": -22.2,
+      "gapAfterMs": 111
+    },
+    {
+      "id": 288,
+      "text": "twentieth",
+      "startMs": 149365,
+      "endMs": 149856,
+      "conf": 0.95,
+      "rms": -26,
+      "gapAfterMs": 51
+    },
+    {
+      "id": 289,
+      "text": "century.",
+      "startMs": 149907,
+      "endMs": 150376,
+      "conf": 0.95,
+      "rms": -27.5,
+      "gapAfterMs": 626
+    },
+    {
+      "id": 290,
+      "text": "That",
+      "startMs": 151002,
+      "endMs": 151301,
+      "conf": 0.95,
+      "rms": -24.6,
+      "gapAfterMs": 44
+    },
+    {
+      "id": 291,
+      "text": "is",
+      "startMs": 151345,
+      "endMs": 151751,
+      "conf": 0.95,
+      "rms": -19.9,
+      "gapAfterMs": 115
+    },
+    {
+      "id": 292,
+      "text": "the",
+      "startMs": 151866,
+      "endMs": 152133,
+      "conf": 0.95,
+      "rms": -25.4,
+      "gapAfterMs": 72
+    },
+    {
+      "id": 293,
+      "text": "story",
+      "startMs": 152205,
+      "endMs": 152463,
+      "conf": 0.95,
+      "rms": -25.3,
+      "gapAfterMs": 151
+    },
+    {
+      "id": 294,
+      "text": "of",
+      "startMs": 152614,
+      "endMs": 152949,
+      "conf": 0.95,
+      "rms": -25.7,
+      "gapAfterMs": 137
+    },
+    {
+      "id": 295,
+      "text": "the",
+      "startMs": 153086,
+      "endMs": 153536,
+      "conf": 0.95,
+      "rms": -28.6,
+      "gapAfterMs": 51
+    },
+    {
+      "id": 296,
+      "text": "box.",
+      "startMs": 153587,
+      "endMs": 154016,
+      "conf": 0.95,
+      "rms": -23.1,
+      "gapAfterMs": 0
+    }
+  ],
+  "segments": [
+    {
+      "id": 0,
+      "text": "Today we are going to break down how the modern shipping container changed the world.",
+      "startMs": 1400,
+      "endMs": 7961,
+      "wordIds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ]
+    },
+    {
+      "id": 1,
+      "text": "In 1956, a trucker named Malcom McLean loaded 58 boxes onto a converted tanker.",
+      "startMs": 8517,
+      "endMs": 14907,
+      "wordIds": [
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28
+      ]
+    },
+    {
+      "id": 2,
+      "text": "Before that, loading a ship took weeks, and dock workers moved every sack by hand.",
+      "startMs": 15737,
+      "endMs": 23096,
+      "wordIds": [
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43
+      ]
+    },
+    {
+      "id": 3,
+      "text": "The container cut the cost of loading a ton of cargo from 5.86 dollars to 16 cents.",
+      "startMs": 23814,
+      "endMs": 30995,
+      "wordIds": [
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60
+      ]
+    },
+    {
+      "id": 4,
+      "text": "That is a 97 percent drop, and it happened almost overnight.",
+      "startMs": 31633,
+      "endMs": 36766,
+      "wordIds": [
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71
+      ]
+    },
+    {
+      "id": 5,
+      "text": "Ports like Rotterdam and Singapore grew into giant machines built around one steel box.",
+      "startMs": 37391,
+      "endMs": 43814,
+      "wordIds": [
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85
+      ]
+    },
+    {
+      "id": 6,
+      "text": "So why did it take so long for anyone to standardise the size?",
+      "startMs": 44628,
+      "endMs": 50013,
+      "wordIds": [
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98
+      ]
+    },
+    {
+      "id": 7,
+      "text": "Railways, truckers and shipping lines all wanted their own dimensions.",
+      "startMs": 52037,
+      "endMs": 56840,
+      "wordIds": [
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108
+      ]
+    },
+    {
+      "id": 8,
+      "text": "It took a decade of arguments before the 20 foot and 40 foot boxes won.",
+      "startMs": 57498,
+      "endMs": 63976,
+      "wordIds": [
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123
+      ]
+    },
+    {
+      "id": 9,
+      "text": "Once they did, a crane could move a box from ship to train in under two minutes.",
+      "startMs": 64515,
+      "endMs": 72431,
+      "wordIds": [
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140
+      ]
+    },
+    {
+      "id": 10,
+      "text": "Economists later estimated that containers boosted trade between countries by 700 percent.",
+      "startMs": 72947,
+      "endMs": 78553,
+      "wordIds": [
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150,
+        151,
+        152
+      ]
+    },
+    {
+      "id": 11,
+      "text": "The historian Marc Levinson wrote that the box made the world smaller and the economy bigger.",
+      "startMs": 79275,
+      "endMs": 86652,
+      "wordIds": [
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168
+      ]
+    },
+    {
+      "id": 12,
+      "text": "Think about the laptop, the phone and the notebook on your desk right now.",
+      "startMs": 87375,
+      "endMs": 94112,
+      "wordIds": [
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182
+      ]
+    },
+    {
+      "id": 13,
+      "text": "Each one probably crossed an ocean inside one of these boxes.",
+      "startMs": 94712,
+      "endMs": 99900,
+      "wordIds": [
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193
+      ]
+    },
+    {
+      "id": 14,
+      "text": "But the story is not only about efficiency.",
+      "startMs": 100832,
+      "endMs": 104341,
+      "wordIds": [
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200,
+        201
+      ]
+    },
+    {
+      "id": 15,
+      "text": "Whole neighbourhoods of dock workers lost their jobs within a few years.",
+      "startMs": 105993,
+      "endMs": 111632,
+      "wordIds": [
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209,
+        210,
+        211,
+        212,
+        213
+      ]
+    },
+    {
+      "id": 16,
+      "text": "Cities that refused to rebuild their ports, like New York's Manhattan piers, faded.",
+      "startMs": 112388,
+      "endMs": 119019,
+      "wordIds": [
+        214,
+        215,
+        216,
+        217,
+        218,
+        219,
+        220,
+        221,
+        222,
+        223,
+        224,
+        225,
+        226
+      ]
+    },
+    {
+      "id": 17,
+      "text": "Cities that embraced the box, like Oakland, boomed.",
+      "startMs": 119901,
+      "endMs": 123963,
+      "wordIds": [
+        227,
+        228,
+        229,
+        230,
+        231,
+        232,
+        233,
+        234
+      ]
+    },
+    {
+      "id": 18,
+      "text": "Today about 90 percent of everything you buy travels by sea at some point.",
+      "startMs": 124680,
+      "endMs": 130690,
+      "wordIds": [
+        235,
+        236,
+        237,
+        238,
+        239,
+        240,
+        241,
+        242,
+        243,
+        244,
+        245,
+        246,
+        247,
+        248
+      ]
+    },
+    {
+      "id": 19,
+      "text": "And most of it moves inside a container that costs less to ship than your lunch.",
+      "startMs": 131384,
+      "endMs": 138671,
+      "wordIds": [
+        249,
+        250,
+        251,
+        252,
+        253,
+        254,
+        255,
+        256,
+        257,
+        258,
+        259,
+        260,
+        261,
+        262,
+        263,
+        264
+      ]
+    },
+    {
+      "id": 20,
+      "text": "So next time you see a truck hauling a rusty steel box, remember it is one of the most important inventions of the twentieth century.",
+      "startMs": 139193,
+      "endMs": 150376,
+      "wordIds": [
+        265,
+        266,
+        267,
+        268,
+        269,
+        270,
+        271,
+        272,
+        273,
+        274,
+        275,
+        276,
+        277,
+        278,
+        279,
+        280,
+        281,
+        282,
+        283,
+        284,
+        285,
+        286,
+        287,
+        288,
+        289
+      ]
+    },
+    {
+      "id": 21,
+      "text": "That is the story of the box.",
+      "startMs": 151002,
+      "endMs": 154016,
+      "wordIds": [
+        290,
+        291,
+        292,
+        293,
+        294,
+        295,
+        296
+      ]
+    }
+  ],
+  "silences": []
+}

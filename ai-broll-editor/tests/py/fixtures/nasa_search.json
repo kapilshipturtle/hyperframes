@@ -1,0 +1,4 @@
+{"collection":{"version":"1.0","items":[
+ {"href":"https://images-assets.nasa.gov/image/PIA12345/collection.json","data":[{"nasa_id":"PIA12345","title":"Orion Nebula","media_type":"image"}],"links":[{"href":"https://images-assets.nasa.gov/image/PIA12345/PIA12345~thumb.jpg","rel":"preview"}]},
+ {"href":"https://images-assets.nasa.gov/video/KSC-1/collection.json","data":[{"nasa_id":"KSC-1","title":"Launch","media_type":"video"}],"links":[]},
+ {"href":"https://images-assets.nasa.gov/audio/A/collection.json","data":[{"nasa_id":"A","title":"Audio","media_type":"audio"}],"links":[]}]}}

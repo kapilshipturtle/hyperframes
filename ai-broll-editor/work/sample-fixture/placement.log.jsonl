@@ -1,0 +1,293 @@
+{"pass":"warn","decision":"warning","reason":"no shot plan for sec_02: rule-based planner fallback"}
+{"pass":"P0","decision":"seed","reason":"seed 5aae6b7ce175703ac24ea1277084fa4b66a73ffe; 297 words; 34 beats; 2 sections; 4698 frames"}
+{"pass":"P3","decision":"emphasis","reason":"3 strong words, 46 medium"}
+{"pass":"P2","decision":"cut:chapter-card","reason":"section sec_01 (hook) titled \"The Box That Shrank the World\": chapter-card 2553 ms, ends on word #3 start [0..2553 ms]","beatId":"b_0001"}
+{"pass":"P2","decision":"cut:beat","reason":"first B-roll of sec_01 after chapter-card, word #3 [2553..4420 ms]","beatId":"b_0001"}
+{"pass":"P2","decision":"cut:beat","reason":"word #7 start 4502 minus lead 100 [4420..9428 ms]","beatId":"b_0002"}
+{"pass":"P2","decision":"cut:beat","reason":"word #17 start 9528 minus lead 100 [9428..15637 ms]","beatId":"b_0003"}
+{"pass":"P2","decision":"cut:beat","reason":"word #29 start 15737 minus lead 100 [15637..19279 ms]","beatId":"b_0004"}
+{"pass":"P2","decision":"cut:beat","reason":"word #36 start 19379 minus lead 100 [19279..23714 ms]","beatId":"b_0005"}
+{"pass":"P2","decision":"cut:beat","reason":"word #44 start 23814 minus lead 100 [23714..26141 ms]","beatId":"b_0006"}
+{"pass":"P2","decision":"cut:beat","reason":"word #50 start 26241 minus lead 100 [26141..31533 ms]","beatId":"b_0007"}
+{"pass":"P2","decision":"cut:beat","reason":"word #61 start 31633 minus lead 100 [31533..37291 ms]","beatId":"b_0008"}
+{"pass":"P2","decision":"cut:beat","reason":"word #72 start 37391 minus lead 100 [37291..38903 ms]","beatId":"b_0009"}
+{"pass":"P2","decision":"cut:beat","reason":"word #75 start 38987 minus lead 100 [38903..44528 ms]","beatId":"b_0010"}
+{"pass":"P2","decision":"cut:beat","reason":"word #86 start 44628 minus lead 100 [44528..51937 ms]","beatId":"b_0011"}
+{"pass":"P2","decision":"cut:beat","reason":"word #99 start 52037 minus lead 100 [51937..57398 ms]","beatId":"b_0012"}
+{"pass":"P2","decision":"cut:beat","reason":"word #109 start 57498 minus lead 100 [57398..61599 ms]","beatId":"b_0013"}
+{"pass":"P2","decision":"cut:beat","reason":"word #119 start 61699 minus lead 100 [61599..66016 ms]","beatId":"b_0014"}
+{"pass":"P2","decision":"cut:beat","reason":"word #127 start 66116 minus lead 100 [66016..68887 ms]","beatId":"b_0015"}
+{"pass":"P2","decision":"cut:beat","reason":"word #134 start 68987 minus lead 100 [68887..72847 ms]","beatId":"b_0016"}
+{"pass":"P2","decision":"cut:beat","reason":"word #141 start 72947 minus lead 100 [72847..79175 ms]","beatId":"b_0017"}
+{"pass":"P2","decision":"cut:beat","reason":"word #153 start 79275 minus lead 100 [79175..84701 ms]","beatId":"b_0018"}
+{"pass":"P2","decision":"cut:beat","reason":"word #165 start 84737 minus lead 100 [84701..87275 ms]","beatId":"b_0019"}
+{"pass":"P2","decision":"cut:beat","reason":"word #169 start 87375 minus lead 100 [87275..89677 ms]","beatId":"b_0020"}
+{"pass":"P2","decision":"cut:beat","reason":"word #173 start 89777 minus lead 100 [89677..94612 ms]","beatId":"b_0021"}
+{"pass":"P2","decision":"cut:beat","reason":"word #183 start 94712 minus lead 100 [94612..100732 ms]","beatId":"b_0022"}
+{"pass":"P2","decision":"cut:chapter-card","reason":"section sec_02 (story) titled \"Winners and Losers\": chapter-card 2453 ms, ends on word #200 start [100732..103185 ms]","beatId":"b_0023"}
+{"pass":"P2","decision":"cut:beat","reason":"first B-roll of sec_02 after chapter-card, word #200 [103185..105893 ms]","beatId":"b_0023"}
+{"pass":"P2","decision":"cut:beat","reason":"word #202 start 105993 minus lead 100 [105893..112288 ms]","beatId":"b_0024"}
+{"pass":"P2","decision":"cut:beat","reason":"word #214 start 112388 minus lead 100 [112288..115741 ms]","beatId":"b_0025"}
+{"pass":"P2","decision":"cut:beat","reason":"word #221 start 115841 minus lead 100 [115741..119801 ms]","beatId":"b_0026"}
+{"pass":"P2","decision":"cut:beat","reason":"word #227 start 119901 minus lead 100 [119801..124580 ms]","beatId":"b_0027"}
+{"pass":"P2","decision":"cut:beat","reason":"word #235 start 124680 minus lead 100 [124580..126987 ms]","beatId":"b_0028"}
+{"pass":"P2","decision":"cut:beat","reason":"word #240 start 127071 minus lead 100 [126987..131284 ms]","beatId":"b_0029"}
+{"pass":"P2","decision":"cut:beat","reason":"word #249 start 131384 minus lead 100 [131284..135446 ms]","beatId":"b_0030"}
+{"pass":"P2","decision":"cut:beat","reason":"word #258 start 135546 minus lead 100 [135446..139093 ms]","beatId":"b_0031"}
+{"pass":"P2","decision":"cut:beat","reason":"word #265 start 139193 minus lead 100 [139093..144547 ms]","beatId":"b_0032"}
+{"pass":"P2","decision":"cut:beat","reason":"word #277 start 144647 minus lead 100 [144547..150902 ms]","beatId":"b_0033"}
+{"pass":"P2","decision":"cut:beat","reason":"word #290 start 151002 minus lead 100 [150902..154116 ms]","beatId":"b_0034"}
+{"pass":"P2","decision":"cut:end-card","reason":"narration ends at 154016 ms, audio at 156616 ms: end-card fills the tail [154116..156616 ms]","beatId":"b_0034"}
+{"pass":"P4","decision":"layout:chapter-card","reason":"section sec_01 (hook) titled \"The Box That Shrank the World\": chapter-card 2553 ms, ends on word #3 start","beatId":"b_0001"}
+{"pass":"P4","decision":"reject-asset","reason":"pexels_v_0001 clipScore 0.290 < 0.300","beatId":"b_0001"}
+{"pass":"P4","decision":"reject-asset","reason":"pexels_p_0001b clipScore 0.270 < 0.280","beatId":"b_0001"}
+{"pass":"P4","decision":"reject-asset","reason":"pexels_v_0001c clipScore 0.260 < 0.280","beatId":"b_0001"}
+{"pass":"P4","decision":"layout:typographic-card","reason":"typographic card \"Today we\"","beatId":"b_0001","overrides":["rule 9: fullscreen-clip -> typographic-card (no asset passed threshold after all sources)"]}
+{"pass":"P4","decision":"layout:fullscreen-clip","reason":"asset pexels_v_0002 (pexels, video, score 0.35000000000000003)","beatId":"b_0002"}
+{"pass":"P4","decision":"layout:fullscreen-clip","reason":"asset pexels_v_0003 (pexels, video, score 0.33)","beatId":"b_0003","overrides":["asset-kind: fullscreen-image-kenburns -> fullscreen-clip (asset is a video)"]}
+{"pass":"P4","decision":"layout:pip-over-blur","reason":"asset pexels_p_0004 (pexels, image, score 0.31)","beatId":"b_0004","overrides":["asset-kind: fullscreen-clip -> fullscreen-image-kenburns (asset is an image)","rule 1: fullscreen-image-kenburns -> pip-over-blur (portrait asset)"]}
+{"pass":"P4","decision":"layout:typographic-card","reason":"typographic card \"by hand.\"","beatId":"b_0005","overrides":["rule 9: split-left-media-right-text -> typographic-card (no asset passed threshold after all sources)"]}
+{"pass":"P4","decision":"layout:fullscreen-image-kenburns","reason":"asset pexels_p_0006 (pexels, image, score 0.30000000000000004)","beatId":"b_0006","overrides":["asset-kind: fullscreen-clip -> fullscreen-image-kenburns (asset is an image)"]}
+{"pass":"P4","decision":"layout:stat-counter","reason":"asset pexels_v_0007 (wikimedia, video, score 0.34)","beatId":"b_0007"}
+{"pass":"P4","decision":"layout:stat-counter","reason":"asset pexels_v_0008 (pexels, video, score 0.33)","beatId":"b_0008","overrides":["rule 7: fullscreen-clip -> stat-counter (number with unit in \"That is a 97 percent drop, and it happen\")"]}
+{"pass":"P4","decision":"layout:fullscreen-clip","reason":"asset pexels_v_0009 (pexels, video, score 0.30000000000000004)","beatId":"b_0009"}
+{"pass":"P4","decision":"layout:grid-2","reason":"asset pexels_v_0010 (pexels, video, score 0.30000000000000004)","beatId":"b_0010"}
+{"pass":"P4","decision":"layout:pip-over-blur","reason":"asset pexels_p_0011 (pexels, image, score 0.31)","beatId":"b_0011","overrides":["asset-kind: fullscreen-clip -> fullscreen-image-kenburns (asset is an image)","rule 1: fullscreen-image-kenburns -> pip-over-blur (portrait asset)"]}
+{"pass":"P4","decision":"layout:grid-3","reason":"asset pexels_v_0012 (pexels, video, score 0.34)","beatId":"b_0012","overrides":["rule 4: text becomes grid labels"]}
+{"pass":"P4","decision":"layout:fullscreen-clip","reason":"asset pexels_v_0013 (pexels, video, score 0.33)","beatId":"b_0013"}
+{"pass":"P4","decision":"layout:typographic-card","reason":"typographic card \"and 40\"","beatId":"b_0014","overrides":["rule 9: fullscreen-image-kenburns -> typographic-card (no asset passed threshold after all sources)"]}
+{"pass":"P4","decision":"layout:fullscreen-clip","reason":"asset pexels_v_0015 (pexels, video, score 0.36000000000000004)","beatId":"b_0015"}
+{"pass":"P4","decision":"layout:fullscreen-clip","reason":"asset pexels_v_0016 (pexels, video, score 0.34)","beatId":"b_0016"}
+{"pass":"P4","decision":"layout:stat-counter","reason":"asset pexels_v_0017 (pexels, video, score 0.29000000000000004)","beatId":"b_0017","overrides":["rule 7: fullscreen-clip -> stat-counter (number with unit in \"Economists later estimated that containe\")"]}
+{"pass":"P4","decision":"layout:quote-card","reason":"asset pexels_p_0018 (pexels, image, score 0.31)","beatId":"b_0018"}
+{"pass":"P4","decision":"layout:fullscreen-image-kenburns","reason":"asset pexels_p_0019 (pexels, image, score 0.36000000000000004)","beatId":"b_0019","overrides":["asset-kind: fullscreen-clip -> fullscreen-image-kenburns (asset is an image)"]}
+{"pass":"P4","decision":"layout:fullscreen-clip","reason":"asset pexels_v_0020 (pexels, video, score 0.32)","beatId":"b_0020"}
+{"pass":"P4","decision":"layout:grid-3","reason":"asset pexels_p_0021 (pexels, image, score 0.32)","beatId":"b_0021"}
+{"pass":"P4","decision":"layout:fullscreen-image-kenburns","reason":"asset pexels_p_0022 (pexels, image, score 0.31000000000000005)","beatId":"b_0022","overrides":["asset-kind: fullscreen-clip -> fullscreen-image-kenburns (asset is an image)"]}
+{"pass":"P4","decision":"layout:chapter-card","reason":"section sec_02 (story) titled \"Winners and Losers\": chapter-card 2453 ms, ends on word #200 start","beatId":"b_0023"}
+{"pass":"P4","decision":"layout:typographic-card","reason":"typographic card \"But the\"","beatId":"b_0023","overrides":["rule 9: fullscreen-clip -> typographic-card (no asset passed threshold after all sources)"]}
+{"pass":"P4","decision":"layout:fullscreen-clip","reason":"asset pexels_v_0024 (pexels, video, score 0.33)","beatId":"b_0024","overrides":["asset-kind: fullscreen-image-kenburns -> fullscreen-clip (asset is a video)"]}
+{"pass":"P4","decision":"layout:pip-over-blur","reason":"asset pexels_p_0025 (pexels, image, score 0.31)","beatId":"b_0025","overrides":["asset-kind: fullscreen-clip -> fullscreen-image-kenburns (asset is an image)","rule 1: fullscreen-image-kenburns -> pip-over-blur (portrait asset)"]}
+{"pass":"P4","decision":"layout:fullscreen-clip","reason":"asset pexels_v_0026 (pexels, video, score 0.28)","beatId":"b_0026","overrides":["asset-kind: fullscreen-image-kenburns -> fullscreen-clip (asset is a video)"]}
+{"pass":"P4","decision":"layout:fullscreen-image-kenburns","reason":"asset pexels_p_0027 (pexels, image, score 0.28)","beatId":"b_0027","overrides":["asset-kind: fullscreen-clip -> fullscreen-image-kenburns (asset is an image)"]}
+{"pass":"P4","decision":"layout:split-left-media-right-text","reason":"asset pexels_p_0028 (pexels, image, score 0.28)","beatId":"b_0028","overrides":["rule 5: fullscreen-image-kenburns -> split-left-media-right-text (three consecutive fullscreen layouts)","text in panel"]}
+{"pass":"P4","decision":"layout:pip-over-blur","reason":"asset pexels_v_0029 (wikimedia, video, score 0.34)","beatId":"b_0029","overrides":["rule 2: fullscreen-clip -> pip-over-blur (SD archival asset, vintage sub-grade)","grade: vintage"]}
+{"pass":"P4","decision":"layout:fullscreen-clip","reason":"asset pexels_v_0030 (pexels, video, score 0.29000000000000004)","beatId":"b_0030","overrides":["asset-kind: fullscreen-image-kenburns -> fullscreen-clip (asset is a video)"]}
+{"pass":"P4","decision":"layout:fullscreen-image-kenburns","reason":"asset pexels_p_0031 (pexels, image, score 0.30000000000000004)","beatId":"b_0031","overrides":["asset-kind: fullscreen-clip -> fullscreen-image-kenburns (asset is an image)"]}
+{"pass":"P4","decision":"layout:typographic-card","reason":"typographic card \"truck hauling\"","beatId":"b_0032","overrides":["rule 9: fullscreen-image-kenburns -> typographic-card (no asset passed threshold after all sources)"]}
+{"pass":"P4","decision":"layout:fullscreen-image-kenburns","reason":"asset pexels_p_0033 (pexels, image, score 0.29000000000000004)","beatId":"b_0033","overrides":["asset-kind: fullscreen-clip -> fullscreen-image-kenburns (asset is an image)"]}
+{"pass":"P4","decision":"layout:fullscreen-clip","reason":"asset pexels_v_0034 (pexels, video, score 0.35000000000000003)","beatId":"b_0034","overrides":["asset-kind: fullscreen-image-kenburns -> fullscreen-clip (asset is a video)","rule 5 (post-P6): fullscreen-clip -> split-left-media-right-text"]}
+{"pass":"P4","decision":"layout:end-card","reason":"narration ends at 154016 ms, audio at 156616 ms: end-card fills the tail","beatId":"b_0034"}
+{"pass":"P5","decision":"transition:cut","reason":"first shot","beatId":"b_0001"}
+{"pass":"P5","decision":"transition:fade","reason":"card boundary uses the section default fade; scaled down 2 frames: adjacent shot under 2.2 s","beatId":"b_0001","durationInFrames":16}
+{"pass":"P5","decision":"transition:cut","reason":"family documentary","beatId":"b_0002","durationInFrames":0}
+{"pass":"P5","decision":"transition:luma-dissolve","reason":"family calm","beatId":"b_0003","durationInFrames":15}
+{"pass":"P5","decision":"transition:cut","reason":"family documentary","beatId":"b_0004","durationInFrames":0}
+{"pass":"P5","decision":"transition:fade","reason":"card boundary uses the section default fade","beatId":"b_0005","durationInFrames":14}
+{"pass":"P5","decision":"transition:cut","reason":"family documentary","beatId":"b_0006","durationInFrames":0}
+{"pass":"P5","decision":"transition:whip-pan","reason":"family energetic; zoom-punch gated: first word not strong","beatId":"b_0007","durationInFrames":10}
+{"pass":"P5","decision":"transition:slide","reason":"family energetic; zoom-punch gated: first word not strong","beatId":"b_0008","durationInFrames":13}
+{"pass":"P5","decision":"transition:cut","reason":"family documentary","beatId":"b_0009","durationInFrames":0}
+{"pass":"P5","decision":"transition:cut","reason":"family documentary","beatId":"b_0010","durationInFrames":0}
+{"pass":"P5","decision":"transition:luma-dissolve","reason":"family calm","beatId":"b_0011","durationInFrames":18}
+{"pass":"P5","decision":"transition:fade","reason":"family documentary","beatId":"b_0012","durationInFrames":14}
+{"pass":"P5","decision":"transition:cut","reason":"family documentary","beatId":"b_0013","durationInFrames":0}
+{"pass":"P5","decision":"transition:fade","reason":"card boundary uses the section default fade; rotation: only one type available","beatId":"b_0014","durationInFrames":17}
+{"pass":"P5","decision":"transition:cut","reason":"family documentary","beatId":"b_0015","durationInFrames":0}
+{"pass":"P5","decision":"transition:whip-pan","reason":"family energetic; zoom-punch gated: first word not strong","beatId":"b_0016","durationInFrames":6}
+{"pass":"P5","decision":"transition:fade","reason":"family documentary","beatId":"b_0017","durationInFrames":18}
+{"pass":"P5","decision":"transition:luma-dissolve","reason":"family calm","beatId":"b_0018","durationInFrames":12}
+{"pass":"P5","decision":"transition:fade","reason":"family documentary","beatId":"b_0019","durationInFrames":14}
+{"pass":"P5","decision":"transition:cut","reason":"family documentary","beatId":"b_0020","durationInFrames":0}
+{"pass":"P5","decision":"transition:cut","reason":"family documentary","beatId":"b_0021","durationInFrames":0}
+{"pass":"P5","decision":"transition:luma-dissolve","reason":"family calm","beatId":"b_0022","durationInFrames":13}
+{"pass":"P5","decision":"transition:fade","reason":"card boundary uses the section default fade","beatId":"b_0023","durationInFrames":13}
+{"pass":"P5","decision":"transition:cut","reason":"card boundary uses the section default fade; cadence: story allows one visible transition every 3 cuts","beatId":"b_0023","durationInFrames":0}
+{"pass":"P5","decision":"transition:cut","reason":"family documentary","beatId":"b_0024","durationInFrames":0}
+{"pass":"P5","decision":"transition:cut","reason":"family documentary","beatId":"b_0025","durationInFrames":0}
+{"pass":"P5","decision":"transition:cut","reason":"family documentary","beatId":"b_0026","durationInFrames":0}
+{"pass":"P5","decision":"transition:cut","reason":"family documentary","beatId":"b_0027","durationInFrames":0}
+{"pass":"P5","decision":"transition:cut","reason":"family documentary","beatId":"b_0028","durationInFrames":0}
+{"pass":"P5","decision":"transition:cut","reason":"family documentary","beatId":"b_0029","durationInFrames":0}
+{"pass":"P5","decision":"transition:cut","reason":"family documentary","beatId":"b_0030","durationInFrames":0}
+{"pass":"P5","decision":"transition:cut","reason":"family documentary","beatId":"b_0031","durationInFrames":0}
+{"pass":"P5","decision":"transition:fade","reason":"card boundary uses the section default fade; rotation: only one type available","beatId":"b_0032","durationInFrames":17}
+{"pass":"P5","decision":"transition:cut","reason":"family documentary","beatId":"b_0033","durationInFrames":0}
+{"pass":"P5","decision":"transition:cut","reason":"family documentary","beatId":"b_0034","durationInFrames":0}
+{"pass":"P5","decision":"transition:cut","reason":"card boundary uses the section default fade; cadence: story allows one visible transition every 3 cuts","beatId":"b_0034","durationInFrames":0}
+{"pass":"P6","decision":"split-long","reason":"b_0003 (186 f > 180) split at frame 389: strongest word #25 start minus 3 frames; second half uses pexels_p_0003b","beatId":"b_0003","from":389}
+{"pass":"P6","decision":"split-long","reason":"b_0011 (222 f > 180) split at frame 1431: strongest word #94 start minus 3 frames; second half uses pexels_v_0011b","beatId":"b_0011","from":1431}
+{"pass":"P6","decision":"split-long","reason":"b_0017 (190 f > 180) split at frame 2328: strongest word #151 start minus 3 frames; second half uses pexels_p_0017b","beatId":"b_0017","from":2328}
+{"pass":"P6","decision":"split-long","reason":"b_0022 (184 f > 180) split at frame 2964: strongest word #192 start minus 3 frames; second half uses pexels_p_0022b","beatId":"b_0022","from":2964}
+{"pass":"P6","decision":"split-long","reason":"b_0024 (192 f > 180) split at frame 3295: strongest word #210 start minus 3 frames; second half uses pexels_p_0024b","beatId":"b_0024","from":3295}
+{"pass":"P6","decision":"split-long","reason":"b_0033 (191 f > 180) split at frame 4435: strongest word #285 start minus 3 frames; second half uses pexels_p_0033b","beatId":"b_0033","from":4435}
+{"pass":"P6","decision":"frames","reason":"cut 0, net 77, transition 0","beatId":"b_0001","from":0,"durationInFrames":77}
+{"pass":"P6","decision":"frames","reason":"cut 77, net 56, transition 16","beatId":"b_0001","from":61,"durationInFrames":72}
+{"pass":"P6","decision":"frames","reason":"cut 133, net 150, transition 0","beatId":"b_0002","from":133,"durationInFrames":150}
+{"pass":"P6","decision":"frames","reason":"cut 283, net 106, transition 15","beatId":"b_0003","from":268,"durationInFrames":121}
+{"pass":"P6","decision":"frames","reason":"cut 389, net 80, transition 0","beatId":"b_0003","from":389,"durationInFrames":80}
+{"pass":"P6","decision":"frames","reason":"cut 469, net 109, transition 0","beatId":"b_0004","from":469,"durationInFrames":109}
+{"pass":"P6","decision":"frames","reason":"cut 578, net 133, transition 14","beatId":"b_0005","from":564,"durationInFrames":147}
+{"pass":"P6","decision":"frames","reason":"cut 711, net 73, transition 0","beatId":"b_0006","from":711,"durationInFrames":73}
+{"pass":"P6","decision":"frames","reason":"cut 784, net 162, transition 10","beatId":"b_0007","from":774,"durationInFrames":172}
+{"pass":"P6","decision":"frames","reason":"cut 946, net 173, transition 13","beatId":"b_0008","from":933,"durationInFrames":186}
+{"pass":"P6","decision":"frames","reason":"cut 1119, net 48, transition 0","beatId":"b_0009","from":1119,"durationInFrames":48}
+{"pass":"P6","decision":"frames","reason":"cut 1167, net 169, transition 0","beatId":"b_0010","from":1167,"durationInFrames":169}
+{"pass":"P6","decision":"frames","reason":"cut 1336, net 95, transition 18","beatId":"b_0011","from":1318,"durationInFrames":113}
+{"pass":"P6","decision":"frames","reason":"cut 1431, net 127, transition 0","beatId":"b_0011","from":1431,"durationInFrames":127}
+{"pass":"P6","decision":"frames","reason":"cut 1558, net 164, transition 14","beatId":"b_0012","from":1544,"durationInFrames":178}
+{"pass":"P6","decision":"frames","reason":"cut 1722, net 126, transition 0","beatId":"b_0013","from":1722,"durationInFrames":126}
+{"pass":"P6","decision":"frames","reason":"cut 1848, net 132, transition 17","beatId":"b_0014","from":1831,"durationInFrames":149}
+{"pass":"P6","decision":"frames","reason":"cut 1980, net 87, transition 0","beatId":"b_0015","from":1980,"durationInFrames":87}
+{"pass":"P6","decision":"frames","reason":"cut 2067, net 118, transition 6","beatId":"b_0016","from":2061,"durationInFrames":124}
+{"pass":"P6","decision":"frames","reason":"cut 2185, net 143, transition 18","beatId":"b_0017","from":2167,"durationInFrames":161}
+{"pass":"P6","decision":"frames","reason":"cut 2328, net 47, transition 0","beatId":"b_0017","from":2328,"durationInFrames":47}
+{"pass":"P6","decision":"frames","reason":"cut 2375, net 166, transition 12","beatId":"b_0018","from":2363,"durationInFrames":178}
+{"pass":"P6","decision":"frames","reason":"cut 2541, net 77, transition 14","beatId":"b_0019","from":2527,"durationInFrames":91}
+{"pass":"P6","decision":"frames","reason":"cut 2618, net 72, transition 0","beatId":"b_0020","from":2618,"durationInFrames":72}
+{"pass":"P6","decision":"frames","reason":"cut 2690, net 148, transition 0","beatId":"b_0021","from":2690,"durationInFrames":148}
+{"pass":"P6","decision":"frames","reason":"cut 2838, net 126, transition 13","beatId":"b_0022","from":2825,"durationInFrames":139}
+{"pass":"P6","decision":"frames","reason":"cut 2964, net 58, transition 0","beatId":"b_0022","from":2964,"durationInFrames":58}
+{"pass":"P6","decision":"frames","reason":"cut 3022, net 74, transition 13","beatId":"b_0023","from":3009,"durationInFrames":87}
+{"pass":"P6","decision":"frames","reason":"cut 3096, net 81, transition 0","beatId":"b_0023","from":3096,"durationInFrames":81}
+{"pass":"P6","decision":"frames","reason":"cut 3177, net 118, transition 0","beatId":"b_0024","from":3177,"durationInFrames":118}
+{"pass":"P6","decision":"frames","reason":"cut 3295, net 74, transition 0","beatId":"b_0024","from":3295,"durationInFrames":74}
+{"pass":"P6","decision":"frames","reason":"cut 3369, net 103, transition 0","beatId":"b_0025","from":3369,"durationInFrames":103}
+{"pass":"P6","decision":"frames","reason":"cut 3472, net 122, transition 0","beatId":"b_0026","from":3472,"durationInFrames":122}
+{"pass":"P6","decision":"frames","reason":"cut 3594, net 143, transition 0","beatId":"b_0027","from":3594,"durationInFrames":143}
+{"pass":"P6","decision":"frames","reason":"cut 3737, net 73, transition 0","beatId":"b_0028","from":3737,"durationInFrames":73}
+{"pass":"P6","decision":"frames","reason":"cut 3810, net 129, transition 0","beatId":"b_0029","from":3810,"durationInFrames":129}
+{"pass":"P6","decision":"frames","reason":"cut 3939, net 124, transition 0","beatId":"b_0030","from":3939,"durationInFrames":124}
+{"pass":"P6","decision":"frames","reason":"cut 4063, net 110, transition 0","beatId":"b_0031","from":4063,"durationInFrames":110}
+{"pass":"P6","decision":"frames","reason":"cut 4173, net 163, transition 17","beatId":"b_0032","from":4156,"durationInFrames":180}
+{"pass":"P6","decision":"frames","reason":"cut 4336, net 99, transition 0","beatId":"b_0033","from":4336,"durationInFrames":99}
+{"pass":"P6","decision":"frames","reason":"cut 4435, net 92, transition 0","beatId":"b_0033","from":4435,"durationInFrames":92}
+{"pass":"P6","decision":"frames","reason":"cut 4527, net 96, transition 0","beatId":"b_0034","from":4527,"durationInFrames":96}
+{"pass":"P6","decision":"frames","reason":"cut 4623, net 75, transition 0","beatId":"b_0034","from":4623,"durationInFrames":75}
+{"pass":"P6","decision":"variety","reason":"b_0003-b: three consecutive fullscreen layouts after frame edits; fullscreen-image-kenburns -> split-right-media-left-text","beatId":"b_0003"}
+{"pass":"P6","decision":"variety","reason":"b_0034: three consecutive fullscreen layouts after frame edits; fullscreen-clip -> split-left-media-right-text","beatId":"b_0034"}
+{"pass":"P7","decision":"text-dropped","reason":"unreadable window (14 frames)","beatId":"b_0003"}
+{"pass":"P7","decision":"text-dropped","reason":"\"58 boxes\" is not a verbatim run inside shot b_0003-b (I5)","beatId":"b_0003"}
+{"pass":"P7","decision":"text-dropped","reason":"\"standardise the size\" is not a verbatim run inside shot b_0011 (I5)","beatId":"b_0011"}
+{"pass":"P7","decision":"text","reason":"\"standardise the size\" anchored #98, lower-left; re-anchored #96 -> #98 (weak)","beatId":"b_0011","from":1486,"durationInFrames":58}
+{"pass":"P7","decision":"text-as-labels","reason":"rule 4: text on grid-3 became labels or was dropped","beatId":"b_0012"}
+{"pass":"P7","decision":"text","reason":"\"under two minutes\" anchored #138, lower-right","beatId":"b_0016","from":2125,"durationInFrames":55}
+{"pass":"P7","decision":"text","reason":"\"700 percent\" anchored #151, center","beatId":"b_0017","from":2329,"durationInFrames":41}
+{"pass":"P7","decision":"text","reason":"\"crossed an ocean\" anchored #186, lower-left; re-anchored #187 -> #186 (weak)","beatId":"b_0022","from":2885,"durationInFrames":58}
+{"pass":"P7","decision":"text-dropped","reason":"\"crossed an ocean\" is not a verbatim run inside shot b_0022-b (I5)","beatId":"b_0022"}
+{"pass":"P7","decision":"text","reason":"\"about 90\" anchored #236, right-panel; split layout: text lives in the panel","beatId":"b_0028","from":3754,"durationInFrames":48}
+{"pass":"P7","decision":"text","reason":"\"And most\" anchored #249, lower-right","beatId":"b_0030","from":3940,"durationInFrames":48}
+{"pass":"P7","decision":"text","reason":"\"costs less\" anchored #258, lower-left","beatId":"b_0031","from":4064,"durationInFrames":48}
+{"pass":"P7","decision":"text","reason":"\"That is\" anchored #291, right-panel; re-anchored #290 -> #291 (weak); split layout: text lives in the panel","beatId":"b_0034","from":4538,"durationInFrames":48}
+{"pass":"P8","decision":"stat-counter","reason":"count 60 frames from 788","beatId":"b_0007","from":788,"durationInFrames":60}
+{"pass":"P8","decision":"stat-counter","reason":"count 60 frames from 950","beatId":"b_0008","from":950,"durationInFrames":60}
+{"pass":"P8","decision":"grid-reveal","reason":"2 cells, stagger 10, labels +4","beatId":"b_0010","from":1173}
+{"pass":"P8","decision":"grid-reveal","reason":"3 cells, stagger 10, labels +4","beatId":"b_0012","from":1564}
+{"pass":"P8","decision":"stat-counter","reason":"count 60 frames from 2189","beatId":"b_0017","from":2189,"durationInFrames":60}
+{"pass":"P8","decision":"grid-reveal","reason":"3 cells, stagger 10, labels +4","beatId":"b_0021","from":2696}
+{"pass":"P9","decision":"sfx:whoosh-soft","reason":"transition-in b_0001 (fade); file sfx/whoosh-soft-03.mp3; gain 0.35","from":61}
+{"pass":"P9","decision":"sfx:whoosh-soft","reason":"transition-in b_0003 (luma-dissolve); file sfx/whoosh-soft-01.mp3; gain 0.35","from":268}
+{"pass":"P9","decision":"sfx:whoosh-soft","reason":"transition-in b_0005 (fade); file sfx/whoosh-soft-03.mp3; gain 0.402","from":564}
+{"pass":"P9","decision":"sfx:whoosh-hard","reason":"transition-in b_0007 (whip-pan); file sfx/whoosh-hard-01.mp3; gain 0.35","from":774}
+{"pass":"P9","decision":"sfx:tick","reason":"counter tick b_0007; file sfx/tick-01.mp3; gain 0.12","from":788}
+{"pass":"P9","decision":"sfx:tick","reason":"counter tick b_0007; file sfx/tick-01.mp3; gain 0.12","from":794}
+{"pass":"P9","decision":"sfx:tick","reason":"counter tick b_0007; file sfx/tick-01.mp3; gain 0.12","from":800}
+{"pass":"P9","decision":"sfx:tick","reason":"counter tick b_0007; file sfx/tick-01.mp3; gain 0.12","from":806}
+{"pass":"P9","decision":"sfx:tick","reason":"counter tick b_0007; file sfx/tick-01.mp3; gain 0.12","from":812}
+{"pass":"P9","decision":"sfx:tick","reason":"counter tick b_0007; file sfx/tick-01.mp3; gain 0.12","from":818}
+{"pass":"P9","decision":"sfx:tick","reason":"counter tick b_0007; file sfx/tick-01.mp3; gain 0.12","from":824}
+{"pass":"P9","decision":"sfx:tick","reason":"counter tick b_0007; file sfx/tick-01.mp3; gain 0.12","from":830}
+{"pass":"P9","decision":"sfx:tick","reason":"counter tick b_0007; file sfx/tick-01.mp3; gain 0.12","from":836}
+{"pass":"P9","decision":"sfx:tick","reason":"counter tick b_0007; file sfx/tick-01.mp3; gain 0.12","from":842}
+{"pass":"P9","decision":"sfx:swoosh-short","reason":"transition-in b_0008 (slide); file sfx/swoosh-ltr-01.mp3; gain 0.35","from":933}
+{"pass":"P9","decision":"sfx:tick","reason":"counter tick b_0008; file sfx/tick-01.mp3; gain 0.12","from":950}
+{"pass":"P9","decision":"sfx:tick","reason":"counter tick b_0008; file sfx/tick-01.mp3; gain 0.12","from":956}
+{"pass":"P9","decision":"sfx:tick","reason":"counter tick b_0008; file sfx/tick-01.mp3; gain 0.12","from":962}
+{"pass":"P9","decision":"sfx:tick","reason":"counter tick b_0008; file sfx/tick-01.mp3; gain 0.12","from":968}
+{"pass":"P9","decision":"sfx:tick","reason":"counter tick b_0008; file sfx/tick-01.mp3; gain 0.12","from":974}
+{"pass":"P9","decision":"sfx:tick","reason":"counter tick b_0008; file sfx/tick-01.mp3; gain 0.12","from":980}
+{"pass":"P9","decision":"sfx:tick","reason":"counter tick b_0008; file sfx/tick-01.mp3; gain 0.12","from":986}
+{"pass":"P9","decision":"sfx:tick","reason":"counter tick b_0008; file sfx/tick-01.mp3; gain 0.12","from":992}
+{"pass":"P9","decision":"sfx:tick","reason":"counter tick b_0008; file sfx/tick-01.mp3; gain 0.12","from":998}
+{"pass":"P9","decision":"sfx:tick","reason":"counter tick b_0008; file sfx/tick-01.mp3; gain 0.12","from":1004}
+{"pass":"P9","decision":"sfx:click","reason":"grid cell 1 b_0010; file sfx/click-02.mp3; gain 0.25","from":1173}
+{"pass":"P9","decision":"sfx-dropped","reason":"grid cell 2 b_0010: spacing (10 < 45 frames after s_001173_click)"}
+{"pass":"P9","decision":"sfx:whoosh-soft","reason":"transition-in b_0011 (luma-dissolve); file sfx/whoosh-soft-02.mp3; gain 0.35","from":1318}
+{"pass":"P9","decision":"sfx:pop","reason":"text-in t_b_0011-b; file sfx/pop-03.mp3; gain 0.3","from":1486}
+{"pass":"P9","decision":"sfx:whoosh-soft","reason":"transition-in b_0012 (fade); file sfx/whoosh-soft-03.mp3; gain 0.35","from":1544}
+{"pass":"P9","decision":"sfx-dropped","reason":"grid cell 1 b_0012: spacing (20 < 45 frames after s_001544_whoosh-soft)"}
+{"pass":"P9","decision":"sfx-dropped","reason":"grid cell 2 b_0012: spacing (30 < 45 frames after s_001544_whoosh-soft)"}
+{"pass":"P9","decision":"sfx-dropped","reason":"grid cell 3 b_0012: spacing (40 < 45 frames after s_001544_whoosh-soft)"}
+{"pass":"P9","decision":"sfx:whoosh-soft","reason":"transition-in b_0014 (fade); file sfx/whoosh-soft-02.mp3; gain 0.35","from":1831}
+{"pass":"P9","decision":"sfx:whoosh-hard","reason":"transition-in b_0016 (whip-pan); file sfx/whoosh-hard-02.mp3; gain 0.35","from":2061}
+{"pass":"P9","decision":"sfx:typewriter-key","reason":"text-in t_b_0016; file sfx/typewriter-01.mp3; gain 0.2","from":2125}
+{"pass":"P9","decision":"sfx-dropped","reason":"transition-in b_0017 (fade): spacing (42 < 45 frames after s_002125_typewriter-key)"}
+{"pass":"P9","decision":"sfx:tick","reason":"counter tick b_0017; file sfx/tick-01.mp3; gain 0.12","from":2189}
+{"pass":"P9","decision":"sfx:tick","reason":"counter tick b_0017; file sfx/tick-01.mp3; gain 0.12","from":2195}
+{"pass":"P9","decision":"sfx:tick","reason":"counter tick b_0017; file sfx/tick-01.mp3; gain 0.12","from":2201}
+{"pass":"P9","decision":"sfx:tick","reason":"counter tick b_0017; file sfx/tick-01.mp3; gain 0.12","from":2207}
+{"pass":"P9","decision":"sfx:tick","reason":"counter tick b_0017; file sfx/tick-01.mp3; gain 0.12","from":2213}
+{"pass":"P9","decision":"sfx:tick","reason":"counter tick b_0017; file sfx/tick-01.mp3; gain 0.12","from":2219}
+{"pass":"P9","decision":"sfx:tick","reason":"counter tick b_0017; file sfx/tick-01.mp3; gain 0.12","from":2225}
+{"pass":"P9","decision":"sfx:tick","reason":"counter tick b_0017; file sfx/tick-01.mp3; gain 0.12","from":2231}
+{"pass":"P9","decision":"sfx:tick","reason":"counter tick b_0017; file sfx/tick-01.mp3; gain 0.12","from":2237}
+{"pass":"P9","decision":"sfx:tick","reason":"counter tick b_0017; file sfx/tick-01.mp3; gain 0.12","from":2243}
+{"pass":"P9","decision":"sfx:pop","reason":"text-in t_b_0017-b; file sfx/pop-02.mp3; gain 0.3","from":2329}
+{"pass":"P9","decision":"sfx-dropped","reason":"transition-in b_0018 (luma-dissolve): spacing (34 < 45 frames after s_002329_pop)"}
+{"pass":"P9","decision":"sfx:whoosh-soft","reason":"transition-in b_0019 (fade); file sfx/whoosh-soft-03.mp3; gain 0.35","from":2527}
+{"pass":"P9","decision":"sfx:click","reason":"grid cell 1 b_0021; file sfx/click-01.mp3; gain 0.25","from":2696}
+{"pass":"P9","decision":"sfx-dropped","reason":"grid cell 2 b_0021: spacing (10 < 45 frames after s_002696_click)"}
+{"pass":"P9","decision":"sfx-dropped","reason":"grid cell 3 b_0021: spacing (20 < 45 frames after s_002696_click)"}
+{"pass":"P9","decision":"sfx:whoosh-soft","reason":"transition-in b_0022 (luma-dissolve); file sfx/whoosh-soft-01.mp3; gain 0.35","from":2825}
+{"pass":"P9","decision":"sfx:pop","reason":"text-in t_b_0022; file sfx/pop-01.mp3; gain 0.3","from":2885}
+{"pass":"P9","decision":"sfx:riser-short","reason":"riser before chapter-card b_0023-card; file sfx/riser-short-01.mp3; gain 0.255","from":2977}
+{"pass":"P9","decision":"sfx-dropped","reason":"transition-in b_0023-card (fade): spacing (32 < 45 frames after s_002977_riser-short)"}
+{"pass":"P9","decision":"sfx:pop","reason":"text-in t_b_0028; file sfx/pop-02.mp3; gain 0.255","from":3754}
+{"pass":"P9","decision":"sfx:pop","reason":"text-in t_b_0030; file sfx/pop-03.mp3; gain 0.255","from":3940}
+{"pass":"P9","decision":"sfx:pop","reason":"text-in t_b_0031; file sfx/pop-02.mp3; gain 0.255","from":4064}
+{"pass":"P9","decision":"sfx:whoosh-soft","reason":"transition-in b_0032 (fade); file sfx/whoosh-soft-03.mp3; gain 0.298","from":4156}
+{"pass":"P9","decision":"sfx:pop","reason":"text-in t_b_0034; file sfx/pop-03.mp3; gain 0.255","from":4538}
+{"pass":"P10","decision":"music","reason":"documentary-ambient -> music/documentary-ambient-01.mp3 for sec_01,sec_02 at 0.12; loops at bar boundaries x2","from":0,"durationInFrames":4698}
+{"pass":"P11","decision":"route:remotion","reason":"layout chapter-card","beatId":"b_0001","from":0,"durationInFrames":77}
+{"pass":"P11","decision":"route:remotion","reason":"layout typographic-card, fade over a Remotion shot","beatId":"b_0001","from":61,"durationInFrames":72}
+{"pass":"P11","decision":"route:ffmpeg","reason":"plain full-screen shot with cut/fade","beatId":"b_0002","from":133,"durationInFrames":150}
+{"pass":"P11","decision":"route:remotion","reason":"transition luma-dissolve","beatId":"b_0003","from":268,"durationInFrames":121}
+{"pass":"P11","decision":"route:remotion","reason":"layout split-right-media-left-text","beatId":"b_0003","from":389,"durationInFrames":80}
+{"pass":"P11","decision":"route:remotion","reason":"layout pip-over-blur","beatId":"b_0004","from":469,"durationInFrames":109}
+{"pass":"P11","decision":"route:remotion","reason":"layout typographic-card, fade over a Remotion shot","beatId":"b_0005","from":564,"durationInFrames":147}
+{"pass":"P11","decision":"route:ffmpeg","reason":"plain full-screen shot with cut/fade","beatId":"b_0006","from":711,"durationInFrames":73}
+{"pass":"P11","decision":"route:remotion","reason":"layout stat-counter, motiongfx, transition whip-pan, corner credit","beatId":"b_0007","from":774,"durationInFrames":172}
+{"pass":"P11","decision":"route:remotion","reason":"layout stat-counter, motiongfx, transition slide","beatId":"b_0008","from":933,"durationInFrames":186}
+{"pass":"P11","decision":"route:ffmpeg","reason":"plain full-screen shot with cut/fade","beatId":"b_0009","from":1119,"durationInFrames":48}
+{"pass":"P11","decision":"route:remotion","reason":"layout grid-2","beatId":"b_0010","from":1167,"durationInFrames":169}
+{"pass":"P11","decision":"route:remotion","reason":"layout pip-over-blur, transition luma-dissolve","beatId":"b_0011","from":1318,"durationInFrames":113}
+{"pass":"P11","decision":"route:remotion","reason":"text","beatId":"b_0011","from":1431,"durationInFrames":127}
+{"pass":"P11","decision":"route:remotion","reason":"layout grid-3, fade over a Remotion shot","beatId":"b_0012","from":1544,"durationInFrames":178}
+{"pass":"P11","decision":"route:ffmpeg","reason":"plain full-screen shot with cut/fade","beatId":"b_0013","from":1722,"durationInFrames":126}
+{"pass":"P11","decision":"route:remotion","reason":"layout typographic-card","beatId":"b_0014","from":1831,"durationInFrames":149}
+{"pass":"P11","decision":"route:ffmpeg","reason":"plain full-screen shot with cut/fade","beatId":"b_0015","from":1980,"durationInFrames":87}
+{"pass":"P11","decision":"route:remotion","reason":"text, transition whip-pan, motion handheld","beatId":"b_0016","from":2061,"durationInFrames":124}
+{"pass":"P11","decision":"route:remotion","reason":"layout stat-counter, motiongfx, fade over a Remotion shot","beatId":"b_0017","from":2167,"durationInFrames":161}
+{"pass":"P11","decision":"route:remotion","reason":"text","beatId":"b_0017","from":2328,"durationInFrames":47}
+{"pass":"P11","decision":"route:remotion","reason":"layout quote-card, transition luma-dissolve","beatId":"b_0018","from":2363,"durationInFrames":178}
+{"pass":"P11","decision":"route:remotion","reason":"fade over a Remotion shot","beatId":"b_0019","from":2527,"durationInFrames":91}
+{"pass":"P11","decision":"route:ffmpeg","reason":"plain full-screen shot with cut/fade","beatId":"b_0020","from":2618,"durationInFrames":72}
+{"pass":"P11","decision":"route:remotion","reason":"layout grid-3","beatId":"b_0021","from":2690,"durationInFrames":148}
+{"pass":"P11","decision":"route:remotion","reason":"text, transition luma-dissolve","beatId":"b_0022","from":2825,"durationInFrames":139}
+{"pass":"P11","decision":"route:ffmpeg","reason":"plain full-screen shot with cut/fade","beatId":"b_0022","from":2964,"durationInFrames":58}
+{"pass":"P11","decision":"route:remotion","reason":"layout chapter-card","beatId":"b_0023","from":3009,"durationInFrames":87}
+{"pass":"P11","decision":"route:remotion","reason":"layout typographic-card","beatId":"b_0023","from":3096,"durationInFrames":81}
+{"pass":"P11","decision":"route:ffmpeg","reason":"plain full-screen shot with cut/fade","beatId":"b_0024","from":3177,"durationInFrames":118}
+{"pass":"P11","decision":"route:ffmpeg","reason":"plain full-screen shot with cut/fade","beatId":"b_0024","from":3295,"durationInFrames":74}
+{"pass":"P11","decision":"route:remotion","reason":"layout pip-over-blur","beatId":"b_0025","from":3369,"durationInFrames":103}
+{"pass":"P11","decision":"route:ffmpeg","reason":"plain full-screen shot with cut/fade","beatId":"b_0026","from":3472,"durationInFrames":122}
+{"pass":"P11","decision":"route:ffmpeg","reason":"plain full-screen shot with cut/fade","beatId":"b_0027","from":3594,"durationInFrames":143}
+{"pass":"P11","decision":"route:remotion","reason":"layout split-left-media-right-text, text","beatId":"b_0028","from":3737,"durationInFrames":73}
+{"pass":"P11","decision":"route:remotion","reason":"layout pip-over-blur, motiongfx, corner credit","beatId":"b_0029","from":3810,"durationInFrames":129}
+{"pass":"P11","decision":"route:remotion","reason":"text","beatId":"b_0030","from":3939,"durationInFrames":124}
+{"pass":"P11","decision":"route:remotion","reason":"text","beatId":"b_0031","from":4063,"durationInFrames":110}
+{"pass":"P11","decision":"route:remotion","reason":"layout typographic-card, fade over a Remotion shot","beatId":"b_0032","from":4156,"durationInFrames":180}
+{"pass":"P11","decision":"route:ffmpeg","reason":"plain full-screen shot with cut/fade","beatId":"b_0033","from":4336,"durationInFrames":99}
+{"pass":"P11","decision":"route:ffmpeg","reason":"plain full-screen shot with cut/fade","beatId":"b_0033","from":4435,"durationInFrames":92}
+{"pass":"P11","decision":"route:remotion","reason":"layout split-left-media-right-text, text","beatId":"b_0034","from":4527,"durationInFrames":96}
+{"pass":"P11","decision":"route:remotion","reason":"layout end-card","beatId":"b_0034","from":4623,"durationInFrames":75}

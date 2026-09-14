@@ -1,0 +1,133 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://ai-broll-editor/schemas/beats.schema.json",
+  "title": "beats.json",
+  "description": "Sections and beats (ms). Spec 10.2.",
+  "type": "object",
+  "properties": {
+    "sections": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^sec_[0-9]+$"
+          },
+          "title": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "kind": {
+            "type": "string",
+            "enum": [
+              "hook",
+              "explain",
+              "story",
+              "list",
+              "comparison",
+              "outro"
+            ]
+          },
+          "startMs": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "endMs": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "beatIds": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "id",
+          "title",
+          "kind",
+          "startMs",
+          "endMs",
+          "beatIds"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "beats": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^b_[0-9]+$"
+          },
+          "sectionId": {
+            "type": "string"
+          },
+          "startMs": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "endMs": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "wordIds": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "minItems": 1
+          },
+          "text": {
+            "type": "string"
+          },
+          "nextWordStartMs": {
+            "anyOf": [
+              {
+                "type": "integer",
+                "minimum": 0
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "emphasisWordIds": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "minimum": 0
+            }
+          }
+        },
+        "required": [
+          "id",
+          "sectionId",
+          "startMs",
+          "endMs",
+          "wordIds",
+          "text",
+          "nextWordStartMs",
+          "emphasisWordIds"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "sections",
+    "beats"
+  ],
+  "additionalProperties": false
+}

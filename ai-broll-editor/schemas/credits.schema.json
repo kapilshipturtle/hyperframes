@@ -1,0 +1,78 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://ai-broll-editor/schemas/credits.schema.json",
+  "title": "credits.json",
+  "description": "Attribution lines emitted with the final video (I11). Same line shape as timeline.tracks.credits.",
+  "type": "object",
+  "properties": {
+    "jobId": {
+      "type": "string"
+    },
+    "lines": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "source": {
+            "type": "string"
+          },
+          "text": {
+            "type": "string"
+          },
+          "beatId": {
+            "type": "string"
+          },
+          "tier": {
+            "type": "string",
+            "enum": [
+              "stock",
+              "archival",
+              "y1",
+              "y2",
+              "user"
+            ]
+          }
+        },
+        "required": [
+          "source",
+          "text"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "y2Clips": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "beatId": {
+            "type": "string"
+          },
+          "sourceVideoId": {
+            "type": "string"
+          },
+          "channelTitle": {
+            "type": "string"
+          },
+          "durationInFrames": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 149
+          }
+        },
+        "required": [
+          "beatId",
+          "sourceVideoId",
+          "channelTitle",
+          "durationInFrames"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "jobId",
+    "lines"
+  ],
+  "additionalProperties": false
+}

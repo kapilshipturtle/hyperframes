@@ -1,0 +1,17 @@
+# Full stage requirements for the GitHub Actions runner (ubuntu-latest, Python 3.12, CPU only).
+# Install torch from the CPU index first so open_clip does not pull CUDA wheels:
+#   pip install --index-url https://download.pytorch.org/whl/cpu torch==2.4.1 torchaudio==2.4.1
+#   pip install -r scripts/py/requirements.txt
+requests>=2.32,<3
+pyyaml>=6.0
+groq>=0.11,<1
+whisperx==3.3.4
+torch==2.4.1
+torchaudio==2.4.1
+open_clip_torch>=2.26,<3
+imagehash>=4.3
+pillow>=10.4
+opencv-python-headless>=4.10,<5
+scenedetect[opencv]>=0.6.4
+yt-dlp>=2025.1.12
+numpy>=1.26,<3

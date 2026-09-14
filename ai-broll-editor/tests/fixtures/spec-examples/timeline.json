@@ -1,0 +1,13 @@
+{ "fps": 30, "width": 1920, "height": 1080, "durationInFrames": 55903, "jobId": "job", "seed": "spec-example",
+  "narration": { "src": "narration_norm.m4a", "startFrame": 0 }, "grade": "clean-cool",
+  "tracks": {
+    "broll": [ { "id": "b_0001", "beatId": "b_0001", "sectionId": "sec_01", "from": 0, "durationInFrames": 116, "route": "ffmpeg", "segmentId": "seg_0001", "layout": "fullscreen-clip",
+        "media": [ { "src": "prepared/b_0001.mp4", "kind": "video", "startFromFrame": 0 } ], "motion": { "type": "ken-burns", "to": "top-right", "zoom": 1.12 },
+        "transitionIn": { "type": "cut", "durationInFrames": 0 }, "credit": null } ],
+    "text": [ { "id": "t_0001", "beatId": "b_0001", "from": 40, "durationInFrames": 70, "content": "Break it down", "style": "kinetic-bold", "position": "lower-left", "anchorWordId": 4 } ],
+    "motiongfx": [],
+    "sfx": [ { "id": "s_0001", "from": 104, "src": "sfx/whoosh-soft-02.mp3", "volume": 0.35, "tag": "whoosh-soft", "reason": "transition-in b_0002" } ],
+    "music": [ { "id": "m_0001", "from": 0, "durationInFrames": 2850, "src": "music/upbeat-corporate-01.mp3", "volume": 0.14, "fadeInFrames": 30, "fadeOutFrames": 45, "sectionIds": ["sec_01"], "tag": "upbeat-corporate" } ],
+    "captions": { "enabled": false, "style": "karaoke-bottom", "pages": [] },
+    "credits": [ { "source": "Pexels", "text": "Video by X on Pexels" }, { "source": "YouTube", "text": "Clip: Channel Y (CC BY)" } ] },
+  "placementLog": "work/job/placement.log.jsonl" }

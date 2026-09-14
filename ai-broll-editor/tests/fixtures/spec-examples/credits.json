@@ -1,0 +1,2 @@
+{ "jobId": "job", "lines": [ { "source": "Pexels", "text": "Video by X on Pexels", "beatId": "b_0001", "tier": "stock" } ],
+  "y2Clips": [ { "beatId": "b_0042", "sourceVideoId": "dQw4w9WgXcQ", "channelTitle": "Channel Y", "durationInFrames": 120 } ] }

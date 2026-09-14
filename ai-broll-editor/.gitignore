@@ -1,0 +1,9 @@
+node_modules/
+work/*/
+!work/sample-fixture/
+!work/.gitkeep
+whisper.cpp/
+assets/sfx/*.mp3
+assets/sfx/*.wav
+assets/music/*.mp3
+*.log

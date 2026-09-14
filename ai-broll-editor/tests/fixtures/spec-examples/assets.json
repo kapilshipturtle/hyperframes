@@ -1,0 +1,4 @@
+{ "b_0001": { "chosen": { "assetId": "pexels_v_881234", "kind": "video", "source": "pexels", "srcUrl": "https://www.pexels.com/video/881234/", "localPath": "assets/pexels_v_881234.mp4",
+   "preparedPath": "prepared/b_0001.mp4", "inMs": 2000, "outMs": 5940, "width": 1920, "height": 1080, "fps": 30, "clipScore": 0.31, "sceneScore": 0.06,
+   "license": "Pexels License", "attribution": "Video by X on Pexels", "tier": "stock", "reasons": ["best clipScore of 12 candidates","moderate motion","no watermark"] },
+   "alternates": [] } }

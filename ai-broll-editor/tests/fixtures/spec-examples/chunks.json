@@ -1,0 +1,2 @@
+[ { "id": "seg_0001", "route": "ffmpeg", "fromFrame": 0, "toFrame": 899, "hash": "sha1-example", "brollIds": ["b_0001"] },
+  { "id": "seg_0002", "route": "remotion", "fromFrame": 900, "toFrame": 1499, "hash": "sha1-example-2", "brollIds": ["b_0002"] } ]

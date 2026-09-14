@@ -1,0 +1,396 @@
+{
+  "duckCurve": "duckCurve.json",
+  "fps": 30,
+  "music": [
+    {
+      "delayMs": 0,
+      "durationMs": 156600,
+      "fadeInMs": 1000,
+      "fadeOutMs": 1500,
+      "id": "m_sec_01_documentary-ambient",
+      "loopAtMs": [
+        58667,
+        117333
+      ],
+      "src": "music/documentary-ambient-01.mp3",
+      "volume": 0.12
+    }
+  ],
+  "narration": {
+    "delayMs": 0,
+    "src": "narration_norm.m4a"
+  },
+  "sfx": [
+    {
+      "delayMs": 2033,
+      "id": "s_000061_whoosh-soft",
+      "src": "sfx/whoosh-soft-03.mp3",
+      "tag": "whoosh-soft",
+      "volume": 0.35
+    },
+    {
+      "delayMs": 8933,
+      "id": "s_000268_whoosh-soft",
+      "src": "sfx/whoosh-soft-01.mp3",
+      "tag": "whoosh-soft",
+      "volume": 0.35
+    },
+    {
+      "delayMs": 18800,
+      "id": "s_000564_whoosh-soft",
+      "src": "sfx/whoosh-soft-03.mp3",
+      "tag": "whoosh-soft",
+      "volume": 0.402
+    },
+    {
+      "delayMs": 25800,
+      "id": "s_000774_whoosh-hard",
+      "src": "sfx/whoosh-hard-01.mp3",
+      "tag": "whoosh-hard",
+      "volume": 0.35
+    },
+    {
+      "delayMs": 26267,
+      "id": "s_000788_tick",
+      "src": "sfx/tick-01.mp3",
+      "tag": "tick",
+      "volume": 0.12
+    },
+    {
+      "delayMs": 26467,
+      "id": "s_000794_tick",
+      "src": "sfx/tick-01.mp3",
+      "tag": "tick",
+      "volume": 0.12
+    },
+    {
+      "delayMs": 26667,
+      "id": "s_000800_tick",
+      "src": "sfx/tick-01.mp3",
+      "tag": "tick",
+      "volume": 0.12
+    },
+    {
+      "delayMs": 26867,
+      "id": "s_000806_tick",
+      "src": "sfx/tick-01.mp3",
+      "tag": "tick",
+      "volume": 0.12
+    },
+    {
+      "delayMs": 27067,
+      "id": "s_000812_tick",
+      "src": "sfx/tick-01.mp3",
+      "tag": "tick",
+      "volume": 0.12
+    },
+    {
+      "delayMs": 27267,
+      "id": "s_000818_tick",
+      "src": "sfx/tick-01.mp3",
+      "tag": "tick",
+      "volume": 0.12
+    },
+    {
+      "delayMs": 27467,
+      "id": "s_000824_tick",
+      "src": "sfx/tick-01.mp3",
+      "tag": "tick",
+      "volume": 0.12
+    },
+    {
+      "delayMs": 27667,
+      "id": "s_000830_tick",
+      "src": "sfx/tick-01.mp3",
+      "tag": "tick",
+      "volume": 0.12
+    },
+    {
+      "delayMs": 27867,
+      "id": "s_000836_tick",
+      "src": "sfx/tick-01.mp3",
+      "tag": "tick",
+      "volume": 0.12
+    },
+    {
+      "delayMs": 28067,
+      "id": "s_000842_tick",
+      "src": "sfx/tick-01.mp3",
+      "tag": "tick",
+      "volume": 0.12
+    },
+    {
+      "delayMs": 31100,
+      "id": "s_000933_swoosh-short",
+      "src": "sfx/swoosh-ltr-01.mp3",
+      "tag": "swoosh-short",
+      "volume": 0.35
+    },
+    {
+      "delayMs": 31667,
+      "id": "s_000950_tick",
+      "src": "sfx/tick-01.mp3",
+      "tag": "tick",
+      "volume": 0.12
+    },
+    {
+      "delayMs": 31867,
+      "id": "s_000956_tick",
+      "src": "sfx/tick-01.mp3",
+      "tag": "tick",
+      "volume": 0.12
+    },
+    {
+      "delayMs": 32067,
+      "id": "s_000962_tick",
+      "src": "sfx/tick-01.mp3",
+      "tag": "tick",
+      "volume": 0.12
+    },
+    {
+      "delayMs": 32267,
+      "id": "s_000968_tick",
+      "src": "sfx/tick-01.mp3",
+      "tag": "tick",
+      "volume": 0.12
+    },
+    {
+      "delayMs": 32467,
+      "id": "s_000974_tick",
+      "src": "sfx/tick-01.mp3",
+      "tag": "tick",
+      "volume": 0.12
+    },
+    {
+      "delayMs": 32667,
+      "id": "s_000980_tick",
+      "src": "sfx/tick-01.mp3",
+      "tag": "tick",
+      "volume": 0.12
+    },
+    {
+      "delayMs": 32867,
+      "id": "s_000986_tick",
+      "src": "sfx/tick-01.mp3",
+      "tag": "tick",
+      "volume": 0.12
+    },
+    {
+      "delayMs": 33067,
+      "id": "s_000992_tick",
+      "src": "sfx/tick-01.mp3",
+      "tag": "tick",
+      "volume": 0.12
+    },
+    {
+      "delayMs": 33267,
+      "id": "s_000998_tick",
+      "src": "sfx/tick-01.mp3",
+      "tag": "tick",
+      "volume": 0.12
+    },
+    {
+      "delayMs": 33467,
+      "id": "s_001004_tick",
+      "src": "sfx/tick-01.mp3",
+      "tag": "tick",
+      "volume": 0.12
+    },
+    {
+      "delayMs": 39100,
+      "id": "s_001173_click",
+      "src": "sfx/click-02.mp3",
+      "tag": "click",
+      "volume": 0.25
+    },
+    {
+      "delayMs": 43933,
+      "id": "s_001318_whoosh-soft",
+      "src": "sfx/whoosh-soft-02.mp3",
+      "tag": "whoosh-soft",
+      "volume": 0.35
+    },
+    {
+      "delayMs": 49533,
+      "id": "s_001486_pop",
+      "src": "sfx/pop-03.mp3",
+      "tag": "pop",
+      "volume": 0.3
+    },
+    {
+      "delayMs": 51467,
+      "id": "s_001544_whoosh-soft",
+      "src": "sfx/whoosh-soft-03.mp3",
+      "tag": "whoosh-soft",
+      "volume": 0.35
+    },
+    {
+      "delayMs": 61033,
+      "id": "s_001831_whoosh-soft",
+      "src": "sfx/whoosh-soft-02.mp3",
+      "tag": "whoosh-soft",
+      "volume": 0.35
+    },
+    {
+      "delayMs": 68700,
+      "id": "s_002061_whoosh-hard",
+      "src": "sfx/whoosh-hard-02.mp3",
+      "tag": "whoosh-hard",
+      "volume": 0.35
+    },
+    {
+      "delayMs": 70833,
+      "id": "s_002125_typewriter-key",
+      "src": "sfx/typewriter-01.mp3",
+      "tag": "typewriter-key",
+      "volume": 0.2
+    },
+    {
+      "delayMs": 72967,
+      "id": "s_002189_tick",
+      "src": "sfx/tick-01.mp3",
+      "tag": "tick",
+      "volume": 0.12
+    },
+    {
+      "delayMs": 73167,
+      "id": "s_002195_tick",
+      "src": "sfx/tick-01.mp3",
+      "tag": "tick",
+      "volume": 0.12
+    },
+    {
+      "delayMs": 73367,
+      "id": "s_002201_tick",
+      "src": "sfx/tick-01.mp3",
+      "tag": "tick",
+      "volume": 0.12
+    },
+    {
+      "delayMs": 73567,
+      "id": "s_002207_tick",
+      "src": "sfx/tick-01.mp3",
+      "tag": "tick",
+      "volume": 0.12
+    },
+    {
+      "delayMs": 73767,
+      "id": "s_002213_tick",
+      "src": "sfx/tick-01.mp3",
+      "tag": "tick",
+      "volume": 0.12
+    },
+    {
+      "delayMs": 73967,
+      "id": "s_002219_tick",
+      "src": "sfx/tick-01.mp3",
+      "tag": "tick",
+      "volume": 0.12
+    },
+    {
+      "delayMs": 74167,
+      "id": "s_002225_tick",
+      "src": "sfx/tick-01.mp3",
+      "tag": "tick",
+      "volume": 0.12
+    },
+    {
+      "delayMs": 74367,
+      "id": "s_002231_tick",
+      "src": "sfx/tick-01.mp3",
+      "tag": "tick",
+      "volume": 0.12
+    },
+    {
+      "delayMs": 74567,
+      "id": "s_002237_tick",
+      "src": "sfx/tick-01.mp3",
+      "tag": "tick",
+      "volume": 0.12
+    },
+    {
+      "delayMs": 74767,
+      "id": "s_002243_tick",
+      "src": "sfx/tick-01.mp3",
+      "tag": "tick",
+      "volume": 0.12
+    },
+    {
+      "delayMs": 77633,
+      "id": "s_002329_pop",
+      "src": "sfx/pop-02.mp3",
+      "tag": "pop",
+      "volume": 0.3
+    },
+    {
+      "delayMs": 84233,
+      "id": "s_002527_whoosh-soft",
+      "src": "sfx/whoosh-soft-03.mp3",
+      "tag": "whoosh-soft",
+      "volume": 0.35
+    },
+    {
+      "delayMs": 89867,
+      "id": "s_002696_click",
+      "src": "sfx/click-01.mp3",
+      "tag": "click",
+      "volume": 0.25
+    },
+    {
+      "delayMs": 94167,
+      "id": "s_002825_whoosh-soft",
+      "src": "sfx/whoosh-soft-01.mp3",
+      "tag": "whoosh-soft",
+      "volume": 0.35
+    },
+    {
+      "delayMs": 96167,
+      "id": "s_002885_pop",
+      "src": "sfx/pop-01.mp3",
+      "tag": "pop",
+      "volume": 0.3
+    },
+    {
+      "delayMs": 99233,
+      "id": "s_002977_riser-short",
+      "src": "sfx/riser-short-01.mp3",
+      "tag": "riser-short",
+      "volume": 0.255
+    },
+    {
+      "delayMs": 125133,
+      "id": "s_003754_pop",
+      "src": "sfx/pop-02.mp3",
+      "tag": "pop",
+      "volume": 0.255
+    },
+    {
+      "delayMs": 131333,
+      "id": "s_003940_pop",
+      "src": "sfx/pop-03.mp3",
+      "tag": "pop",
+      "volume": 0.255
+    },
+    {
+      "delayMs": 135467,
+      "id": "s_004064_pop",
+      "src": "sfx/pop-02.mp3",
+      "tag": "pop",
+      "volume": 0.255
+    },
+    {
+      "delayMs": 138533,
+      "id": "s_004156_whoosh-soft",
+      "src": "sfx/whoosh-soft-03.mp3",
+      "tag": "whoosh-soft",
+      "volume": 0.298
+    },
+    {
+      "delayMs": 151267,
+      "id": "s_004538_pop",
+      "src": "sfx/pop-03.mp3",
+      "tag": "pop",
+      "volume": 0.255
+    }
+  ]
+}

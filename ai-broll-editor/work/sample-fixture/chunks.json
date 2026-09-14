@@ -1,0 +1,244 @@
+[
+  {
+    "brollIds": [
+      "b_0001-card",
+      "b_0001"
+    ],
+    "fromFrame": 0,
+    "hash": "517e41a7e2ec640b1225a82e30c3afb8bb0f36cd",
+    "id": "seg_0001",
+    "route": "remotion",
+    "toFrame": 132
+  },
+  {
+    "brollIds": [
+      "b_0002"
+    ],
+    "fromFrame": 133,
+    "hash": "aee513057f5e46a382395e067775140dbe20db36",
+    "id": "seg_0002",
+    "route": "ffmpeg",
+    "toFrame": 239
+  },
+  {
+    "brollIds": [
+      "b_0002",
+      "b_0003",
+      "b_0003-b",
+      "b_0004",
+      "b_0005"
+    ],
+    "fromFrame": 240,
+    "hash": "b2e0858b5ea49b26ca7864624d45092464b4ebab",
+    "id": "seg_0003",
+    "route": "remotion",
+    "toFrame": 710
+  },
+  {
+    "brollIds": [
+      "b_0006"
+    ],
+    "fromFrame": 711,
+    "hash": "5d8dcbc40f7815617901fc99821cb7561f01f163",
+    "id": "seg_0004",
+    "route": "ffmpeg",
+    "toFrame": 749
+  },
+  {
+    "brollIds": [
+      "b_0006",
+      "b_0007",
+      "b_0008"
+    ],
+    "fromFrame": 750,
+    "hash": "57a42b3ea928b81a79b63983c9b0533a9f0cc54d",
+    "id": "seg_0005",
+    "route": "remotion",
+    "toFrame": 1118
+  },
+  {
+    "brollIds": [
+      "b_0009"
+    ],
+    "fromFrame": 1119,
+    "hash": "47ec0ef64ba0d2b8cbff940a7152909b56d71f81",
+    "id": "seg_0006",
+    "route": "ffmpeg",
+    "toFrame": 1139
+  },
+  {
+    "brollIds": [
+      "b_0009",
+      "b_0010",
+      "b_0011",
+      "b_0011-b",
+      "b_0012"
+    ],
+    "fromFrame": 1140,
+    "hash": "266809a846a59afba955997639dca05a3f6eaa34",
+    "id": "seg_0007",
+    "route": "remotion",
+    "toFrame": 1721
+  },
+  {
+    "brollIds": [
+      "b_0013"
+    ],
+    "fromFrame": 1722,
+    "hash": "2b27729952a44b5ded78421af655a7e846997fcd",
+    "id": "seg_0008",
+    "route": "ffmpeg",
+    "toFrame": 1829
+  },
+  {
+    "brollIds": [
+      "b_0013",
+      "b_0014"
+    ],
+    "fromFrame": 1830,
+    "hash": "8a7046cef05cbf20a4ba251be787a5d616c3a195",
+    "id": "seg_0009",
+    "route": "remotion",
+    "toFrame": 1979
+  },
+  {
+    "brollIds": [
+      "b_0015"
+    ],
+    "fromFrame": 1980,
+    "hash": "0b8c90f8deb9cdfa92ed7606ee418a335c27e840",
+    "id": "seg_0010",
+    "route": "ffmpeg",
+    "toFrame": 2039
+  },
+  {
+    "brollIds": [
+      "b_0015",
+      "b_0016",
+      "b_0017",
+      "b_0017-b",
+      "b_0018",
+      "b_0019"
+    ],
+    "fromFrame": 2040,
+    "hash": "62ed937c54a78d2adf6b4c374f9a58e1c1877653",
+    "id": "seg_0011",
+    "route": "remotion",
+    "toFrame": 2617
+  },
+  {
+    "brollIds": [
+      "b_0020"
+    ],
+    "fromFrame": 2618,
+    "hash": "be2758d12e1952e4454f82f6f5693cb46152742a",
+    "id": "seg_0012",
+    "route": "ffmpeg",
+    "toFrame": 2669
+  },
+  {
+    "brollIds": [
+      "b_0020",
+      "b_0021",
+      "b_0022"
+    ],
+    "fromFrame": 2670,
+    "hash": "ae35436992942f4485eed389bee6df7a0722ccea",
+    "id": "seg_0013",
+    "route": "remotion",
+    "toFrame": 2963
+  },
+  {
+    "brollIds": [
+      "b_0022-b"
+    ],
+    "fromFrame": 2964,
+    "hash": "db9ced8e81bf76090112975d6349c477a0d3271e",
+    "id": "seg_0014",
+    "route": "ffmpeg",
+    "toFrame": 2999
+  },
+  {
+    "brollIds": [
+      "b_0022-b",
+      "b_0023-card",
+      "b_0023"
+    ],
+    "fromFrame": 3000,
+    "hash": "9f1868a835a50ad7c2f5fd8c3a73884946516483",
+    "id": "seg_0015",
+    "route": "remotion",
+    "toFrame": 3176
+  },
+  {
+    "brollIds": [
+      "b_0024",
+      "b_0024-b"
+    ],
+    "fromFrame": 3177,
+    "hash": "ea650855ba36b83979cb1c71699eb345ff631686",
+    "id": "seg_0016",
+    "route": "ffmpeg",
+    "toFrame": 3359
+  },
+  {
+    "brollIds": [
+      "b_0024-b",
+      "b_0025"
+    ],
+    "fromFrame": 3360,
+    "hash": "0560aebdfedef2b9403a305caeb2faefc09b1061",
+    "id": "seg_0017",
+    "route": "remotion",
+    "toFrame": 3471
+  },
+  {
+    "brollIds": [
+      "b_0026",
+      "b_0027"
+    ],
+    "fromFrame": 3472,
+    "hash": "953d0545a994072ed78b92033bfbfd8e12496cb8",
+    "id": "seg_0018",
+    "route": "ffmpeg",
+    "toFrame": 3719
+  },
+  {
+    "brollIds": [
+      "b_0027",
+      "b_0028",
+      "b_0029",
+      "b_0030",
+      "b_0031",
+      "b_0032"
+    ],
+    "fromFrame": 3720,
+    "hash": "d19dfed97c2d9a896bda31fbc562cc0b9e5413a5",
+    "id": "seg_0019",
+    "route": "remotion",
+    "toFrame": 4335
+  },
+  {
+    "brollIds": [
+      "b_0033",
+      "b_0033-b"
+    ],
+    "fromFrame": 4336,
+    "hash": "ec6f0752e2b11bc63fe46bc2b85ab300728dc45f",
+    "id": "seg_0020",
+    "route": "ffmpeg",
+    "toFrame": 4499
+  },
+  {
+    "brollIds": [
+      "b_0033-b",
+      "b_0034",
+      "end-card"
+    ],
+    "fromFrame": 4500,
+    "hash": "1bb1e27f57b242cd2b3caec6daca4381e19c0bb2",
+    "id": "seg_0021",
+    "route": "remotion",
+    "toFrame": 4697
+  }
+]

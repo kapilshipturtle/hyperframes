@@ -1,0 +1,51 @@
+{
+  "name": "ai-broll-editor",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Real-footage B-roll editor: word-timed placement Brain + Remotion/FFmpeg hybrid renderer",
+  "scripts": {
+    "ingest": "tsx scripts/ts/ingest.ts",
+    "transcribe:whispercpp": "tsx scripts/ts/transcribe_whispercpp.ts",
+    "segment": "tsx scripts/ts/segment.ts",
+    "direct": "tsx scripts/ts/direct.ts",
+    "prepare": "tsx scripts/ts/prepare_assets.ts",
+    "brain": "tsx scripts/ts/brain/index.ts",
+    "validate": "tsx scripts/ts/validate.ts",
+    "chunks": "tsx scripts/ts/chunks.ts",
+    "ffmpeg-segments": "tsx scripts/ts/ffmpeg_segments.ts",
+    "normalize-segment": "tsx scripts/ts/normalize_segment.ts",
+    "audio-mix": "tsx scripts/ts/audio_mix.ts",
+    "concat": "tsx scripts/ts/concat.ts",
+    "qc-stills": "tsx scripts/ts/qc_stills.ts",
+    "test": "vitest run",
+    "studio": "remotion studio remotion/src/index.ts --config remotion/remotion.config.ts",
+    "render": "remotion render remotion/src/index.ts Main --config remotion/remotion.config.ts",
+    "schema-check": "tsx scripts/ts/schema_check.ts",
+    "prepare-needs": "tsx scripts/ts/prepare_needs.ts",
+    "qc-apply": "tsx scripts/ts/qc_apply.ts"
+  },
+  "dependencies": {
+    "@remotion/captions": "4.0.524",
+    "@remotion/cli": "4.0.524",
+    "@remotion/google-fonts": "4.0.524",
+    "@remotion/install-whisper-cpp": "4.0.524",
+    "@remotion/media": "4.0.524",
+    "@remotion/transitions": "4.0.524",
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1",
+    "js-yaml": "^4.1.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "remotion": "4.0.524"
+  },
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^22.15.0",
+    "@types/react": "^19.1.0",
+    "fast-check": "^3.23.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.8.0",
+    "vitest": "^3.1.0"
+  }
+}

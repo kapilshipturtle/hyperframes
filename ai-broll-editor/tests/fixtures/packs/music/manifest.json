@@ -1,0 +1,8 @@
+[
+  {"mood":"upbeat-corporate","file":"music/upbeat-corporate-01.mp3","bpm":120,"durationMs":95000,"source":"yt-audio-library","license":"Free"},
+  {"mood":"calm-piano","file":"music/calm-piano-01.mp3","bpm":72,"durationMs":180000,"source":"incompetech","license":"CC BY 4.0"},
+  {"mood":"documentary-ambient","file":"music/documentary-ambient-01.mp3","bpm":90,"durationMs":60000,"source":"yt-audio-library","license":"Free"},
+  {"mood":"tech-minimal","file":"music/tech-minimal-01.mp3","bpm":110,"durationMs":150000,"source":"yt-audio-library","license":"Free"},
+  {"mood":"tension-drone","file":"music/tension-drone-01.mp3","bpm":80,"durationMs":200000,"source":"yt-audio-library","license":"Free"},
+  {"mood":"hopeful-strings","file":"music/hopeful-strings-01.mp3","bpm":100,"durationMs":170000,"source":"yt-audio-library","license":"Free"}
+]

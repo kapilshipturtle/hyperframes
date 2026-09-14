@@ -1,0 +1,8 @@
+{ "sectionId": "sec_01", "mood": "energetic", "musicTag": "upbeat-corporate", "grade": "clean-cool",
+  "shots": [ { "beatId": "b_0001", "importance": 4, "visualIntent": "aerial city skyline at dusk, traffic timelapse",
+     "layoutPreference": "fullscreen-clip", "queries": ["city skyline aerial dusk", "timelapse traffic night"], "preferMotion": true, "shotScale": "wide",
+     "transitionFamily": "energetic", "text": { "content": "Break it down", "anchorWordId": 4, "style": "kinetic-bold", "position": "lower-left" },
+     "sfx": ["whoosh-soft","pop"], "motion": { "type": "ken-burns", "to": "top-right", "zoom": 1.12 }, "grid": null },
+   { "beatId": "b_0002", "importance": 2, "visualIntent": "three tools: laptop, phone, notebook", "layoutPreference": "grid-3",
+     "queries": ["laptop desk closeup","smartphone hand","notebook writing"], "grid": { "cells": 3, "labels": ["Laptop","Phone","Notes"] },
+     "transitionFamily": "cut", "text": null, "sfx": ["click"], "motion": { "type": "none" } } ] }

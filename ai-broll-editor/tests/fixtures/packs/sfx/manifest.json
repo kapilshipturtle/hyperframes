@@ -1,0 +1,19 @@
+[
+  {"tag":"whoosh-soft","file":"sfx/whoosh-soft-01.mp3","durationMs":600,"source":"kenney","license":"CC0"},
+  {"tag":"whoosh-soft","file":"sfx/whoosh-soft-02.mp3","durationMs":650,"source":"kenney","license":"CC0"},
+  {"tag":"whoosh-soft","file":"sfx/whoosh-soft-03.mp3","durationMs":700,"source":"kenney","license":"CC0"},
+  {"tag":"whoosh-hard","file":"sfx/whoosh-hard-01.mp3","durationMs":500,"source":"kenney","license":"CC0"},
+  {"tag":"whoosh-hard","file":"sfx/whoosh-hard-02.mp3","durationMs":520,"source":"kenney","license":"CC0"},
+  {"tag":"swoosh-short","file":"sfx/swoosh-ltr-01.mp3","durationMs":400,"source":"kenney","license":"CC0","direction":"ltr"},
+  {"tag":"swoosh-short","file":"sfx/swoosh-rtl-01.mp3","durationMs":400,"source":"kenney","license":"CC0","direction":"rtl"},
+  {"tag":"pop","file":"sfx/pop-01.mp3","durationMs":200,"source":"kenney","license":"CC0"},
+  {"tag":"pop","file":"sfx/pop-02.mp3","durationMs":220,"source":"kenney","license":"CC0"},
+  {"tag":"pop","file":"sfx/pop-03.mp3","durationMs":210,"source":"kenney","license":"CC0"},
+  {"tag":"click","file":"sfx/click-01.mp3","durationMs":120,"source":"kenney","license":"CC0"},
+  {"tag":"click","file":"sfx/click-02.mp3","durationMs":120,"source":"kenney","license":"CC0"},
+  {"tag":"tick","file":"sfx/tick-01.mp3","durationMs":80,"source":"kenney","license":"CC0"},
+  {"tag":"impact-soft","file":"sfx/impact-soft-01.mp3","durationMs":900,"source":"mixkit","license":"Mixkit"},
+  {"tag":"glitch","file":"sfx/glitch-01.mp3","durationMs":400,"source":"mixkit","license":"Mixkit"},
+  {"tag":"riser-short","file":"sfx/riser-short-01.mp3","durationMs":1600,"source":"mixkit","license":"Mixkit"},
+  {"tag":"typewriter-key","file":"sfx/typewriter-01.mp3","durationMs":100,"source":"kenney","license":"CC0"}
+]

@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://ai-broll-editor/schemas/chunks.schema.json",
+  "title": "chunks.json",
+  "description": "Render chunks in frame order. Spec 10.6.",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^seg_[0-9]+$"
+      },
+      "route": {
+        "type": "string",
+        "enum": [
+          "ffmpeg",
+          "remotion"
+        ]
+      },
+      "fromFrame": {
+        "type": "integer",
+        "minimum": 0
+      },
+      "toFrame": {
+        "type": "integer",
+        "minimum": 0
+      },
+      "hash": {
+        "type": "string",
+        "minLength": 1
+      },
+      "brollIds": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    },
+    "required": [
+      "id",
+      "route",
+      "fromFrame",
+      "toFrame",
+      "hash",
+      "brollIds"
+    ],
+    "additionalProperties": false
+  }
+}

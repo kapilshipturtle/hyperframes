@@ -1,0 +1,12 @@
+{"page":1,"per_page":15,"total_results":2,"url":"https://www.pexels.com/videos/","videos":[
+ {"id":881234,"width":3840,"height":2160,"duration":14,"url":"https://www.pexels.com/video/city-881234/","image":"https://images.pexels.com/videos/881234/x.jpeg",
+  "user":{"id":1,"name":"Jane Doe","url":"https://www.pexels.com/@jane"},
+  "video_files":[
+    {"id":1,"quality":"uhd","file_type":"video/mp4","width":3840,"height":2160,"fps":29.97,"link":"https://player.vimeo.com/external/uhd.mp4"},
+    {"id":2,"quality":"hd","file_type":"video/mp4","width":1920,"height":1080,"fps":29.97,"link":"https://player.vimeo.com/external/hd1080.mp4"},
+    {"id":3,"quality":"hd","file_type":"video/mp4","width":1280,"height":720,"fps":29.97,"link":"https://player.vimeo.com/external/hd720.mp4"},
+    {"id":4,"quality":"sd","file_type":"video/mp4","width":640,"height":360,"fps":29.97,"link":"https://player.vimeo.com/external/sd.mp4"}]},
+ {"id":7,"width":1280,"height":720,"duration":9,"url":"https://www.pexels.com/video/7/","user":{"id":2,"name":"Bob"},
+  "video_files":[
+    {"id":5,"quality":"hd","file_type":"video/mp4","width":1280,"height":720,"fps":25,"link":"https://player.vimeo.com/external/b720.mp4"},
+    {"id":6,"quality":"hls","file_type":"video/mp4","width":null,"height":null,"fps":null,"link":"https://player.vimeo.com/external/x.m3u8"}]}]}

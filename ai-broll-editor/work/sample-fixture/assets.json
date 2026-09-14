@@ -1,0 +1,1955 @@
+{
+  "b_0001": {
+    "chosen": {
+      "assetId": "pexels_v_0001",
+      "kind": "video",
+      "source": "pexels",
+      "srcUrl": "https://www.pexels.com/video/0001",
+      "localPath": "assets/0001.mp4",
+      "preparedPath": "prepared/b_0001.mp4",
+      "inMs": 1000,
+      "outMs": 7400,
+      "width": 1920,
+      "height": 1080,
+      "fps": 30,
+      "durationMs": 20000,
+      "clipScore": 0.29000000000000004,
+      "sceneScore": 0.06,
+      "license": "Pexels License",
+      "attribution": "Video by Creator 0001 on Pexels",
+      "tier": "stock",
+      "reasons": [
+        "fixture"
+      ]
+    },
+    "alternates": [
+      {
+        "assetId": "pexels_p_0001b",
+        "kind": "image",
+        "source": "pexels",
+        "srcUrl": "https://www.pexels.com/image/0001b",
+        "localPath": "assets/0001b.jpg",
+        "preparedPath": "prepared/b_0001b.jpg",
+        "inMs": 1000,
+        "outMs": 7400,
+        "width": 1920,
+        "height": 1080,
+        "fps": 30,
+        "durationMs": 20000,
+        "clipScore": 0.27,
+        "sceneScore": 0.06,
+        "license": "Pexels License",
+        "attribution": "Video by Creator 0001 on Pexels",
+        "tier": "stock",
+        "reasons": [
+          "fixture"
+        ]
+      },
+      {
+        "assetId": "pexels_v_0001c",
+        "kind": "video",
+        "source": "pexels",
+        "srcUrl": "https://www.pexels.com/video/0001c",
+        "localPath": "assets/0001c.mp4",
+        "preparedPath": "prepared/b_0001c.mp4",
+        "inMs": 1000,
+        "outMs": 7400,
+        "width": 1920,
+        "height": 1080,
+        "fps": 30,
+        "durationMs": 20000,
+        "clipScore": 0.26,
+        "sceneScore": 0.06,
+        "license": "Pexels License",
+        "attribution": "Video by Creator 0001 on Pexels",
+        "tier": "stock",
+        "reasons": [
+          "fixture"
+        ]
+      }
+    ]
+  },
+  "b_0002": {
+    "chosen": {
+      "assetId": "pexels_v_0002",
+      "kind": "video",
+      "source": "pexels",
+      "srcUrl": "https://www.pexels.com/video/0002",
+      "localPath": "assets/0002.mp4",
+      "preparedPath": "prepared/b_0002.mp4",
+      "inMs": 1000,
+      "outMs": 7400,
+      "width": 1920,
+      "height": 1080,
+      "fps": 30,
+      "durationMs": 20000,
+      "clipScore": 0.35000000000000003,
+      "sceneScore": 0.06,
+      "license": "Pexels License",
+      "attribution": "Video by Creator 0002 on Pexels",
+      "tier": "stock",
+      "reasons": [
+        "fixture"
+      ],
+      "headPadFrames": 12
+    },
+    "alternates": [
+      {
+        "assetId": "pexels_p_0002b",
+        "kind": "image",
+        "source": "pexels",
+        "srcUrl": "https://www.pexels.com/image/0002b",
+        "localPath": "assets/0002b.jpg",
+        "preparedPath": "prepared/b_0002b.jpg",
+        "inMs": 1000,
+        "outMs": 7400,
+        "width": 1920,
+        "height": 1080,
+        "fps": 30,
+        "durationMs": 20000,
+        "clipScore": 0.27,
+        "sceneScore": 0.06,
+        "license": "Pexels License",
+        "attribution": "Video by Creator 0002 on Pexels",
+        "tier": "stock",
+        "reasons": [
+          "fixture"
+        ]
+      },
+      {
+        "assetId": "pexels_v_0002c",
+        "kind": "video",
+        "source": "pexels",
+        "srcUrl": "https://www.pexels.com/video/0002c",
+        "localPath": "assets/0002c.mp4",
+        "preparedPath": "prepared/b_0002c.mp4",
+        "inMs": 1000,
+        "outMs": 7400,
+        "width": 1920,
+        "height": 1080,
+        "fps": 30,
+        "durationMs": 20000,
+        "clipScore": 0.26,
+        "sceneScore": 0.06,
+        "license": "Pexels License",
+        "attribution": "Video by Creator 0002 on Pexels",
+        "tier": "stock",
+        "reasons": [
+          "fixture"
+        ]
+      }
+    ]
+  },
+  "b_0003": {
+    "chosen": {
+      "assetId": "pexels_v_0003",
+      "kind": "video",
+      "source": "pexels",
+      "srcUrl": "https://www.pexels.com/video/0003",
+      "localPath": "assets/0003.mp4",
+      "preparedPath": "prepared/b_0003.mp4",
+      "inMs": 1000,
+      "outMs": 7400,
+      "width": 1920,
+      "height": 1080,
+      "fps": 30,
+      "durationMs": 20000,
+      "clipScore": 0.33,
+      "sceneScore": 0.06,
+      "license": "Pexels License",
+      "attribution": "Video by Creator 0003 on Pexels",
+      "tier": "stock",
+      "reasons": [
+        "fixture"
+      ],
+      "headPadFrames": 15
+    },
+    "alternates": [
+      {
+        "assetId": "pexels_p_0003b",
+        "kind": "image",
+        "source": "pexels",
+        "srcUrl": "https://www.pexels.com/image/0003b",
+        "localPath": "assets/0003b.jpg",
+        "preparedPath": "prepared/b_0003b.jpg",
+        "inMs": 1000,
+        "outMs": 7400,
+        "width": 1920,
+        "height": 1080,
+        "fps": 30,
+        "durationMs": 20000,
+        "clipScore": 0.27,
+        "sceneScore": 0.06,
+        "license": "Pexels License",
+        "attribution": "Video by Creator 0003 on Pexels",
+        "tier": "stock",
+        "reasons": [
+          "fixture"
+        ]
+      },
+      {
+        "assetId": "pexels_v_0003c",
+        "kind": "video",
+        "source": "pexels",
+        "srcUrl": "https://www.pexels.com/video/0003c",
+        "localPath": "assets/0003c.mp4",
+        "preparedPath": "prepared/b_0003c.mp4",
+        "inMs": 1000,
+        "outMs": 7400,
+        "width": 1920,
+        "height": 1080,
+        "fps": 30,
+        "durationMs": 20000,
+        "clipScore": 0.26,
+        "sceneScore": 0.06,
+        "license": "Pexels License",
+        "attribution": "Video by Creator 0003 on Pexels",
+        "tier": "stock",
+        "reasons": [
+          "fixture"
+        ]
+      }
+    ]
+  },
+  "b_0004": {
+    "chosen": {
+      "assetId": "pexels_p_0004",
+      "kind": "image",
+      "source": "pexels",
+      "srcUrl": "https://www.pexels.com/image/0004",
+      "localPath": "assets/0004.jpg",
+      "preparedPath": "prepared/b_0004.jpg",
+      "inMs": 1000,
+      "outMs": 7400,
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "durationMs": 20000,
+      "clipScore": 0.31,
+      "sceneScore": 0.06,
+      "license": "Pexels License",
+      "attribution": "Video by Creator 0004 on Pexels",
+      "tier": "stock",
+      "reasons": [
+        "fixture"
+      ]
+    },
+    "alternates": [
+      {
+        "assetId": "pexels_v_0004b",
+        "kind": "video",
+        "source": "pexels",
+        "srcUrl": "https://www.pexels.com/video/0004b",
+        "localPath": "assets/0004b.mp4",
+        "preparedPath": "prepared/b_0004b.mp4",
+        "inMs": 1000,
+        "outMs": 7400,
+        "width": 1920,
+        "height": 1080,
+        "fps": 30,
+        "durationMs": 20000,
+        "clipScore": 0.27,
+        "sceneScore": 0.06,
+        "license": "Pexels License",
+        "attribution": "Video by Creator 0004 on Pexels",
+        "tier": "stock",
+        "reasons": [
+          "fixture"
+        ]
+      }
+    ]
+  },
+  "b_0005": {
+    "chosen": null,
+    "alternates": []
+  },
+  "b_0006": {
+    "chosen": {
+      "assetId": "pexels_p_0006",
+      "kind": "image",
+      "source": "pexels",
+      "srcUrl": "https://www.pexels.com/image/0006",
+      "localPath": "assets/0006.jpg",
+      "preparedPath": "prepared/b_0006.jpg",
+      "inMs": 1000,
+      "outMs": 7400,
+      "width": 1920,
+      "height": 1080,
+      "fps": 30,
+      "durationMs": 20000,
+      "clipScore": 0.30000000000000004,
+      "sceneScore": 0.06,
+      "license": "Pexels License",
+      "attribution": "Video by Creator 0006 on Pexels",
+      "tier": "stock",
+      "reasons": [
+        "fixture"
+      ]
+    },
+    "alternates": [
+      {
+        "assetId": "pexels_p_0006b",
+        "kind": "image",
+        "source": "pexels",
+        "srcUrl": "https://www.pexels.com/image/0006b",
+        "localPath": "assets/0006b.jpg",
+        "preparedPath": "prepared/b_0006b.jpg",
+        "inMs": 1000,
+        "outMs": 7400,
+        "width": 1920,
+        "height": 1080,
+        "fps": 30,
+        "durationMs": 20000,
+        "clipScore": 0.27,
+        "sceneScore": 0.06,
+        "license": "Pexels License",
+        "attribution": "Video by Creator 0006 on Pexels",
+        "tier": "stock",
+        "reasons": [
+          "fixture"
+        ]
+      },
+      {
+        "assetId": "pexels_v_0006c",
+        "kind": "video",
+        "source": "pexels",
+        "srcUrl": "https://www.pexels.com/video/0006c",
+        "localPath": "assets/0006c.mp4",
+        "preparedPath": "prepared/b_0006c.mp4",
+        "inMs": 1000,
+        "outMs": 7400,
+        "width": 1920,
+        "height": 1080,
+        "fps": 30,
+        "durationMs": 20000,
+        "clipScore": 0.26,
+        "sceneScore": 0.06,
+        "license": "Pexels License",
+        "attribution": "Video by Creator 0006 on Pexels",
+        "tier": "stock",
+        "reasons": [
+          "fixture"
+        ]
+      }
+    ]
+  },
+  "b_0007": {
+    "chosen": {
+      "assetId": "pexels_v_0007",
+      "kind": "video",
+      "source": "wikimedia",
+      "srcUrl": "https://www.pexels.com/video/0007",
+      "localPath": "assets/0007.mp4",
+      "preparedPath": "prepared/b_0007.mp4",
+      "inMs": 1000,
+      "outMs": 7400,
+      "width": 1920,
+      "height": 1080,
+      "fps": 30,
+      "durationMs": 20000,
+      "clipScore": 0.34,
+      "sceneScore": 0.06,
+      "license": "CC BY-SA 4.0",
+      "attribution": "Photo: Author 0007, Wikimedia Commons, CC BY-SA 4.0",
+      "tier": "archival",
+      "reasons": [
+        "fixture"
+      ],
+      "sd": true,
+      "headPadFrames": 10
+    },
+    "alternates": []
+  },
+  "b_0008": {
+    "chosen": {
+      "assetId": "pexels_v_0008",
+      "kind": "video",
+      "source": "pexels",
+      "srcUrl": "https://www.pexels.com/video/0008",
+      "localPath": "assets/0008.mp4",
+      "preparedPath": "prepared/b_0008.mp4",
+      "inMs": 1000,
+      "outMs": 7400,
+      "width": 1920,
+      "height": 1080,
+      "fps": 30,
+      "durationMs": 20000,
+      "clipScore": 0.33,
+      "sceneScore": 0.06,
+      "license": "Pexels License",
+      "attribution": "Video by Creator 0008 on Pexels",
+      "tier": "stock",
+      "reasons": [
+        "fixture"
+      ],
+      "headPadFrames": 13
+    },
+    "alternates": [
+      {
+        "assetId": "pexels_p_0008b",
+        "kind": "image",
+        "source": "pexels",
+        "srcUrl": "https://www.pexels.com/image/0008b",
+        "localPath": "assets/0008b.jpg",
+        "preparedPath": "prepared/b_0008b.jpg",
+        "inMs": 1000,
+        "outMs": 7400,
+        "width": 1920,
+        "height": 1080,
+        "fps": 30,
+        "durationMs": 20000,
+        "clipScore": 0.27,
+        "sceneScore": 0.06,
+        "license": "Pexels License",
+        "attribution": "Video by Creator 0008 on Pexels",
+        "tier": "stock",
+        "reasons": [
+          "fixture"
+        ]
+      },
+      {
+        "assetId": "pexels_v_0008c",
+        "kind": "video",
+        "source": "pexels",
+        "srcUrl": "https://www.pexels.com/video/0008c",
+        "localPath": "assets/0008c.mp4",
+        "preparedPath": "prepared/b_0008c.mp4",
+        "inMs": 1000,
+        "outMs": 7400,
+        "width": 1920,
+        "height": 1080,
+        "fps": 30,
+        "durationMs": 20000,
+        "clipScore": 0.26,
+        "sceneScore": 0.06,
+        "license": "Pexels License",
+        "attribution": "Video by Creator 0008 on Pexels",
+        "tier": "stock",
+        "reasons": [
+          "fixture"
+        ]
+      }
+    ]
+  },
+  "b_0009": {
+    "chosen": {
+      "assetId": "pexels_v_0009",
+      "kind": "video",
+      "source": "pexels",
+      "srcUrl": "https://www.pexels.com/video/0009",
+      "localPath": "assets/0009.mp4",
+      "preparedPath": "prepared/b_0009.mp4",
+      "inMs": 1000,
+      "outMs": 7400,
+      "width": 1920,
+      "height": 1080,
+      "fps": 30,
+      "durationMs": 20000,
+      "clipScore": 0.30000000000000004,
+      "sceneScore": 0.06,
+      "license": "Pexels License",
+      "attribution": "Video by Creator 0009 on Pexels",
+      "tier": "stock",
+      "reasons": [
+        "fixture"
+      ]
+    },
+    "alternates": [
+      {
+        "assetId": "pexels_p_0009b",
+        "kind": "image",
+        "source": "pexels",
+        "srcUrl": "https://www.pexels.com/image/0009b",
+        "localPath": "assets/0009b.jpg",
+        "preparedPath": "prepared/b_0009b.jpg",
+        "inMs": 1000,
+        "outMs": 7400,
+        "width": 1920,
+        "height": 1080,
+        "fps": 30,
+        "durationMs": 20000,
+        "clipScore": 0.27,
+        "sceneScore": 0.06,
+        "license": "Pexels License",
+        "attribution": "Video by Creator 0009 on Pexels",
+        "tier": "stock",
+        "reasons": [
+          "fixture"
+        ]
+      },
+      {
+        "assetId": "pexels_v_0009c",
+        "kind": "video",
+        "source": "pexels",
+        "srcUrl": "https://www.pexels.com/video/0009c",
+        "localPath": "assets/0009c.mp4",
+        "preparedPath": "prepared/b_0009c.mp4",
+        "inMs": 1000,
+        "outMs": 7400,
+        "width": 1920,
+        "height": 1080,
+        "fps": 30,
+        "durationMs": 20000,
+        "clipScore": 0.26,
+        "sceneScore": 0.06,
+        "license": "Pexels License",
+        "attribution": "Video by Creator 0009 on Pexels",
+        "tier": "stock",
+        "reasons": [
+          "fixture"
+        ]
+      }
+    ]
+  },
+  "b_0010": {
+    "chosen": {
+      "assetId": "pexels_v_0010",
+      "kind": "video",
+      "source": "pexels",
+      "srcUrl": "https://www.pexels.com/video/0010",
+      "localPath": "assets/0010.mp4",
+      "preparedPath": "prepared/b_0010.mp4",
+      "inMs": 1000,
+      "outMs": 7400,
+      "width": 1920,
+      "height": 1080,
+      "fps": 30,
+      "durationMs": 20000,
+      "clipScore": 0.30000000000000004,
+      "sceneScore": 0.06,
+      "license": "Pexels License",
+      "attribution": "Video by Creator 0010 on Pexels",
+      "tier": "stock",
+      "reasons": [
+        "fixture"
+      ],
+      "headPadFrames": 16
+    },
+    "alternates": [
+      {
+        "assetId": "pexels_p_0010b",
+        "kind": "image",
+        "source": "pexels",
+        "srcUrl": "https://www.pexels.com/image/0010b",
+        "localPath": "assets/0010b.jpg",
+        "preparedPath": "prepared/b_0010b.jpg",
+        "inMs": 1000,
+        "outMs": 7400,
+        "width": 1920,
+        "height": 1080,
+        "fps": 30,
+        "durationMs": 20000,
+        "clipScore": 0.27,
+        "sceneScore": 0.06,
+        "license": "Pexels License",
+        "attribution": "Video by Creator 0010 on Pexels",
+        "tier": "stock",
+        "reasons": [
+          "fixture"
+        ]
+      },
+      {
+        "assetId": "pexels_v_0010c",
+        "kind": "video",
+        "source": "pexels",
+        "srcUrl": "https://www.pexels.com/video/0010c",
+        "localPath": "assets/0010c.mp4",
+        "preparedPath": "prepared/b_0010c.mp4",
+        "inMs": 1000,
+        "outMs": 7400,
+        "width": 1920,
+        "height": 1080,
+        "fps": 30,
+        "durationMs": 20000,
+        "clipScore": 0.26,
+        "sceneScore": 0.06,
+        "license": "Pexels License",
+        "attribution": "Video by Creator 0010 on Pexels",
+        "tier": "stock",
+        "reasons": [
+          "fixture"
+        ]
+      }
+    ]
+  },
+  "b_0011": {
+    "chosen": {
+      "assetId": "pexels_p_0011",
+      "kind": "image",
+      "source": "pexels",
+      "srcUrl": "https://www.pexels.com/image/0011",
+      "localPath": "assets/0011.jpg",
+      "preparedPath": "prepared/b_0011.jpg",
+      "inMs": 1000,
+      "outMs": 7400,
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "durationMs": 20000,
+      "clipScore": 0.31,
+      "sceneScore": 0.06,
+      "license": "Pexels License",
+      "attribution": "Video by Creator 0011 on Pexels",
+      "tier": "stock",
+      "reasons": [
+        "fixture"
+      ],
+      "headPadFrames": 18
+    },
+    "alternates": [
+      {
+        "assetId": "pexels_v_0011b",
+        "kind": "video",
+        "source": "pexels",
+        "srcUrl": "https://www.pexels.com/video/0011b",
+        "localPath": "assets/0011b.mp4",
+        "preparedPath": "prepared/b_0011b.mp4",
+        "inMs": 1000,
+        "outMs": 7400,
+        "width": 1920,
+        "height": 1080,
+        "fps": 30,
+        "durationMs": 20000,
+        "clipScore": 0.27,
+        "sceneScore": 0.06,
+        "license": "Pexels License",
+        "attribution": "Video by Creator 0011 on Pexels",
+        "tier": "stock",
+        "reasons": [
+          "fixture"
+        ]
+      }
+    ]
+  },
+  "b_0012": {
+    "chosen": {
+      "assetId": "pexels_v_0012",
+      "kind": "video",
+      "source": "pexels",
+      "srcUrl": "https://www.pexels.com/video/0012",
+      "localPath": "assets/0012.mp4",
+      "preparedPath": "prepared/b_0012.mp4",
+      "inMs": 1000,
+      "outMs": 7400,
+      "width": 1920,
+      "height": 1080,
+      "fps": 30,
+      "durationMs": 20000,
+      "clipScore": 0.34,
+      "sceneScore": 0.06,
+      "license": "Pexels License",
+      "attribution": "Video by Creator 0012 on Pexels",
+      "tier": "stock",
+      "reasons": [
+        "fixture"
+      ],
+      "headPadFrames": 14
+    },
+    "alternates": [
+      {
+        "assetId": "pexels_p_0012b",
+        "kind": "image",
+        "source": "pexels",
+        "srcUrl": "https://www.pexels.com/image/0012b",
+        "localPath": "assets/0012b.jpg",
+        "preparedPath": "prepared/b_0012b.jpg",
+        "inMs": 1000,
+        "outMs": 7400,
+        "width": 1920,
+        "height": 1080,
+        "fps": 30,
+        "durationMs": 20000,
+        "clipScore": 0.27,
+        "sceneScore": 0.06,
+        "license": "Pexels License",
+        "attribution": "Video by Creator 0012 on Pexels",
+        "tier": "stock",
+        "reasons": [
+          "fixture"
+        ]
+      },
+      {
+        "assetId": "pexels_v_0012c",
+        "kind": "video",
+        "source": "pexels",
+        "srcUrl": "https://www.pexels.com/video/0012c",
+        "localPath": "assets/0012c.mp4",
+        "preparedPath": "prepared/b_0012c.mp4",
+        "inMs": 1000,
+        "outMs": 7400,
+        "width": 1920,
+        "height": 1080,
+        "fps": 30,
+        "durationMs": 20000,
+        "clipScore": 0.26,
+        "sceneScore": 0.06,
+        "license": "Pexels License",
+        "attribution": "Video by Creator 0012 on Pexels",
+        "tier": "stock",
+        "reasons": [
+          "fixture"
+        ]
+      }
+    ]
+  },
+  "b_0013": {
+    "chosen": {
+      "assetId": "pexels_v_0013",
+      "kind": "video",
+      "source": "pexels",
+      "srcUrl": "https://www.pexels.com/video/0013",
+      "localPath": "assets/0013.mp4",
+      "preparedPath": "prepared/b_0013.mp4",
+      "inMs": 1000,
+      "outMs": 7400,
+      "width": 1920,
+      "height": 1080,
+      "fps": 30,
+      "durationMs": 20000,
+      "clipScore": 0.33,
+      "sceneScore": 0.06,
+      "license": "Pexels License",
+      "attribution": "Video by Creator 0013 on Pexels",
+      "tier": "stock",
+      "reasons": [
+        "fixture"
+      ]
+    },
+    "alternates": [
+      {
+        "assetId": "pexels_p_0013b",
+        "kind": "image",
+        "source": "pexels",
+        "srcUrl": "https://www.pexels.com/image/0013b",
+        "localPath": "assets/0013b.jpg",
+        "preparedPath": "prepared/b_0013b.jpg",
+        "inMs": 1000,
+        "outMs": 7400,
+        "width": 1920,
+        "height": 1080,
+        "fps": 30,
+        "durationMs": 20000,
+        "clipScore": 0.27,
+        "sceneScore": 0.06,
+        "license": "Pexels License",
+        "attribution": "Video by Creator 0013 on Pexels",
+        "tier": "stock",
+        "reasons": [
+          "fixture"
+        ]
+      },
+      {
+        "assetId": "pexels_v_0013c",
+        "kind": "video",
+        "source": "pexels",
+        "srcUrl": "https://www.pexels.com/video/0013c",
+        "localPath": "assets/0013c.mp4",
+        "preparedPath": "prepared/b_0013c.mp4",
+        "inMs": 1000,
+        "outMs": 7400,
+        "width": 1920,
+        "height": 1080,
+        "fps": 30,
+        "durationMs": 20000,
+        "clipScore": 0.26,
+        "sceneScore": 0.06,
+        "license": "Pexels License",
+        "attribution": "Video by Creator 0013 on Pexels",
+        "tier": "stock",
+        "reasons": [
+          "fixture"
+        ]
+      }
+    ]
+  },
+  "b_0014": {
+    "chosen": null,
+    "alternates": []
+  },
+  "b_0015": {
+    "chosen": {
+      "assetId": "pexels_v_0015",
+      "kind": "video",
+      "source": "pexels",
+      "srcUrl": "https://www.pexels.com/video/0015",
+      "localPath": "assets/0015.mp4",
+      "preparedPath": "prepared/b_0015.mp4",
+      "inMs": 1000,
+      "outMs": 7400,
+      "width": 1920,
+      "height": 1080,
+      "fps": 30,
+      "durationMs": 20000,
+      "clipScore": 0.36000000000000004,
+      "sceneScore": 0.06,
+      "license": "Pexels License",
+      "attribution": "Video by Creator 0015 on Pexels",
+      "tier": "stock",
+      "reasons": [
+        "fixture"
+      ]
+    },
+    "alternates": [
+      {
+        "assetId": "pexels_p_0015b",
+        "kind": "image",
+        "source": "pexels",
+        "srcUrl": "https://www.pexels.com/image/0015b",
+        "localPath": "assets/0015b.jpg",
+        "preparedPath": "prepared/b_0015b.jpg",
+        "inMs": 1000,
+        "outMs": 7400,
+        "width": 1920,
+        "height": 1080,
+        "fps": 30,
+        "durationMs": 20000,
+        "clipScore": 0.27,
+        "sceneScore": 0.06,
+        "license": "Pexels License",
+        "attribution": "Video by Creator 0015 on Pexels",
+        "tier": "stock",
+        "reasons": [
+          "fixture"
+        ]
+      },
+      {
+        "assetId": "pexels_v_0015c",
+        "kind": "video",
+        "source": "pexels",
+        "srcUrl": "https://www.pexels.com/video/0015c",
+        "localPath": "assets/0015c.mp4",
+        "preparedPath": "prepared/b_0015c.mp4",
+        "inMs": 1000,
+        "outMs": 7400,
+        "width": 1920,
+        "height": 1080,
+        "fps": 30,
+        "durationMs": 20000,
+        "clipScore": 0.26,
+        "sceneScore": 0.06,
+        "license": "Pexels License",
+        "attribution": "Video by Creator 0015 on Pexels",
+        "tier": "stock",
+        "reasons": [
+          "fixture"
+        ]
+      }
+    ]
+  },
+  "b_0016": {
+    "chosen": {
+      "assetId": "pexels_v_0016",
+      "kind": "video",
+      "source": "pexels",
+      "srcUrl": "https://www.pexels.com/video/0016",
+      "localPath": "assets/0016.mp4",
+      "preparedPath": "prepared/b_0016.mp4",
+      "inMs": 1000,
+      "outMs": 7400,
+      "width": 1920,
+      "height": 1080,
+      "fps": 30,
+      "durationMs": 20000,
+      "clipScore": 0.34,
+      "sceneScore": 0.06,
+      "license": "Pexels License",
+      "attribution": "Video by Creator 0016 on Pexels",
+      "tier": "stock",
+      "reasons": [
+        "fixture"
+      ],
+      "headPadFrames": 6
+    },
+    "alternates": [
+      {
+        "assetId": "pexels_p_0016b",
+        "kind": "image",
+        "source": "pexels",
+        "srcUrl": "https://www.pexels.com/image/0016b",
+        "localPath": "assets/0016b.jpg",
+        "preparedPath": "prepared/b_0016b.jpg",
+        "inMs": 1000,
+        "outMs": 7400,
+        "width": 1920,
+        "height": 1080,
+        "fps": 30,
+        "durationMs": 20000,
+        "clipScore": 0.27,
+        "sceneScore": 0.06,
+        "license": "Pexels License",
+        "attribution": "Video by Creator 0016 on Pexels",
+        "tier": "stock",
+        "reasons": [
+          "fixture"
+        ]
+      },
+      {
+        "assetId": "pexels_v_0016c",
+        "kind": "video",
+        "source": "pexels",
+        "srcUrl": "https://www.pexels.com/video/0016c",
+        "localPath": "assets/0016c.mp4",
+        "preparedPath": "prepared/b_0016c.mp4",
+        "inMs": 1000,
+        "outMs": 7400,
+        "width": 1920,
+        "height": 1080,
+        "fps": 30,
+        "durationMs": 20000,
+        "clipScore": 0.26,
+        "sceneScore": 0.06,
+        "license": "Pexels License",
+        "attribution": "Video by Creator 0016 on Pexels",
+        "tier": "stock",
+        "reasons": [
+          "fixture"
+        ]
+      }
+    ]
+  },
+  "b_0017": {
+    "chosen": {
+      "assetId": "pexels_v_0017",
+      "kind": "video",
+      "source": "pexels",
+      "srcUrl": "https://www.pexels.com/video/0017",
+      "localPath": "assets/0017.mp4",
+      "preparedPath": "prepared/b_0017.mp4",
+      "inMs": 1000,
+      "outMs": 7400,
+      "width": 1920,
+      "height": 1080,
+      "fps": 30,
+      "durationMs": 20000,
+      "clipScore": 0.29000000000000004,
+      "sceneScore": 0.06,
+      "license": "Pexels License",
+      "attribution": "Video by Creator 0017 on Pexels",
+      "tier": "stock",
+      "reasons": [
+        "fixture"
+      ],
+      "headPadFrames": 18
+    },
+    "alternates": [
+      {
+        "assetId": "pexels_p_0017b",
+        "kind": "image",
+        "source": "pexels",
+        "srcUrl": "https://www.pexels.com/image/0017b",
+        "localPath": "assets/0017b.jpg",
+        "preparedPath": "prepared/b_0017b.jpg",
+        "inMs": 1000,
+        "outMs": 7400,
+        "width": 1920,
+        "height": 1080,
+        "fps": 30,
+        "durationMs": 20000,
+        "clipScore": 0.27,
+        "sceneScore": 0.06,
+        "license": "Pexels License",
+        "attribution": "Video by Creator 0017 on Pexels",
+        "tier": "stock",
+        "reasons": [
+          "fixture"
+        ]
+      },
+      {
+        "assetId": "pexels_v_0017c",
+        "kind": "video",
+        "source": "pexels",
+        "srcUrl": "https://www.pexels.com/video/0017c",
+        "localPath": "assets/0017c.mp4",
+        "preparedPath": "prepared/b_0017c.mp4",
+        "inMs": 1000,
+        "outMs": 7400,
+        "width": 1920,
+        "height": 1080,
+        "fps": 30,
+        "durationMs": 20000,
+        "clipScore": 0.26,
+        "sceneScore": 0.06,
+        "license": "Pexels License",
+        "attribution": "Video by Creator 0017 on Pexels",
+        "tier": "stock",
+        "reasons": [
+          "fixture"
+        ]
+      }
+    ]
+  },
+  "b_0018": {
+    "chosen": {
+      "assetId": "pexels_p_0018",
+      "kind": "image",
+      "source": "pexels",
+      "srcUrl": "https://www.pexels.com/image/0018",
+      "localPath": "assets/0018.jpg",
+      "preparedPath": "prepared/b_0018.jpg",
+      "inMs": 1000,
+      "outMs": 7400,
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "durationMs": 20000,
+      "clipScore": 0.31,
+      "sceneScore": 0.06,
+      "license": "Pexels License",
+      "attribution": "Video by Creator 0018 on Pexels",
+      "tier": "stock",
+      "reasons": [
+        "fixture"
+      ],
+      "headPadFrames": 12
+    },
+    "alternates": [
+      {
+        "assetId": "pexels_v_0018b",
+        "kind": "video",
+        "source": "pexels",
+        "srcUrl": "https://www.pexels.com/video/0018b",
+        "localPath": "assets/0018b.mp4",
+        "preparedPath": "prepared/b_0018b.mp4",
+        "inMs": 1000,
+        "outMs": 7400,
+        "width": 1920,
+        "height": 1080,
+        "fps": 30,
+        "durationMs": 20000,
+        "clipScore": 0.27,
+        "sceneScore": 0.06,
+        "license": "Pexels License",
+        "attribution": "Video by Creator 0018 on Pexels",
+        "tier": "stock",
+        "reasons": [
+          "fixture"
+        ]
+      }
+    ]
+  },
+  "b_0019": {
+    "chosen": {
+      "assetId": "pexels_p_0019",
+      "kind": "image",
+      "source": "pexels",
+      "srcUrl": "https://www.pexels.com/image/0019",
+      "localPath": "assets/0019.jpg",
+      "preparedPath": "prepared/b_0019.jpg",
+      "inMs": 1000,
+      "outMs": 7400,
+      "width": 1920,
+      "height": 1080,
+      "fps": 30,
+      "durationMs": 20000,
+      "clipScore": 0.36000000000000004,
+      "sceneScore": 0.06,
+      "license": "Pexels License",
+      "attribution": "Video by Creator 0019 on Pexels",
+      "tier": "stock",
+      "reasons": [
+        "fixture"
+      ],
+      "headPadFrames": 14
+    },
+    "alternates": [
+      {
+        "assetId": "pexels_p_0019b",
+        "kind": "image",
+        "source": "pexels",
+        "srcUrl": "https://www.pexels.com/image/0019b",
+        "localPath": "assets/0019b.jpg",
+        "preparedPath": "prepared/b_0019b.jpg",
+        "inMs": 1000,
+        "outMs": 7400,
+        "width": 1920,
+        "height": 1080,
+        "fps": 30,
+        "durationMs": 20000,
+        "clipScore": 0.27,
+        "sceneScore": 0.06,
+        "license": "Pexels License",
+        "attribution": "Video by Creator 0019 on Pexels",
+        "tier": "stock",
+        "reasons": [
+          "fixture"
+        ]
+      },
+      {
+        "assetId": "pexels_v_0019c",
+        "kind": "video",
+        "source": "pexels",
+        "srcUrl": "https://www.pexels.com/video/0019c",
+        "localPath": "assets/0019c.mp4",
+        "preparedPath": "prepared/b_0019c.mp4",
+        "inMs": 1000,
+        "outMs": 7400,
+        "width": 1920,
+        "height": 1080,
+        "fps": 30,
+        "durationMs": 20000,
+        "clipScore": 0.26,
+        "sceneScore": 0.06,
+        "license": "Pexels License",
+        "attribution": "Video by Creator 0019 on Pexels",
+        "tier": "stock",
+        "reasons": [
+          "fixture"
+        ]
+      }
+    ]
+  },
+  "b_0020": {
+    "chosen": {
+      "assetId": "pexels_v_0020",
+      "kind": "video",
+      "source": "pexels",
+      "srcUrl": "https://www.pexels.com/video/0020",
+      "localPath": "assets/0020.mp4",
+      "preparedPath": "prepared/b_0020.mp4",
+      "inMs": 1000,
+      "outMs": 7400,
+      "width": 1920,
+      "height": 1080,
+      "fps": 30,
+      "durationMs": 20000,
+      "clipScore": 0.32,
+      "sceneScore": 0.06,
+      "license": "Pexels License",
+      "attribution": "Video by Creator 0020 on Pexels",
+      "tier": "stock",
+      "reasons": [
+        "fixture"
+      ]
+    },
+    "alternates": [
+      {
+        "assetId": "pexels_p_0020b",
+        "kind": "image",
+        "source": "pexels",
+        "srcUrl": "https://www.pexels.com/image/0020b",
+        "localPath": "assets/0020b.jpg",
+        "preparedPath": "prepared/b_0020b.jpg",
+        "inMs": 1000,
+        "outMs": 7400,
+        "width": 1920,
+        "height": 1080,
+        "fps": 30,
+        "durationMs": 20000,
+        "clipScore": 0.27,
+        "sceneScore": 0.06,
+        "license": "Pexels License",
+        "attribution": "Video by Creator 0020 on Pexels",
+        "tier": "stock",
+        "reasons": [
+          "fixture"
+        ]
+      },
+      {
+        "assetId": "pexels_v_0020c",
+        "kind": "video",
+        "source": "pexels",
+        "srcUrl": "https://www.pexels.com/video/0020c",
+        "localPath": "assets/0020c.mp4",
+        "preparedPath": "prepared/b_0020c.mp4",
+        "inMs": 1000,
+        "outMs": 7400,
+        "width": 1920,
+        "height": 1080,
+        "fps": 30,
+        "durationMs": 20000,
+        "clipScore": 0.26,
+        "sceneScore": 0.06,
+        "license": "Pexels License",
+        "attribution": "Video by Creator 0020 on Pexels",
+        "tier": "stock",
+        "reasons": [
+          "fixture"
+        ]
+      }
+    ]
+  },
+  "b_0021": {
+    "chosen": {
+      "assetId": "pexels_p_0021",
+      "kind": "image",
+      "source": "pexels",
+      "srcUrl": "https://www.pexels.com/image/0021",
+      "localPath": "assets/0021.jpg",
+      "preparedPath": "prepared/b_0021.jpg",
+      "inMs": 1000,
+      "outMs": 7400,
+      "width": 1920,
+      "height": 1080,
+      "fps": 30,
+      "durationMs": 20000,
+      "clipScore": 0.32,
+      "sceneScore": 0.06,
+      "license": "Pexels License",
+      "attribution": "Video by Creator 0021 on Pexels",
+      "tier": "stock",
+      "reasons": [
+        "fixture"
+      ],
+      "headPadFrames": 18
+    },
+    "alternates": [
+      {
+        "assetId": "pexels_p_0021b",
+        "kind": "image",
+        "source": "pexels",
+        "srcUrl": "https://www.pexels.com/image/0021b",
+        "localPath": "assets/0021b.jpg",
+        "preparedPath": "prepared/b_0021b.jpg",
+        "inMs": 1000,
+        "outMs": 7400,
+        "width": 1920,
+        "height": 1080,
+        "fps": 30,
+        "durationMs": 20000,
+        "clipScore": 0.27,
+        "sceneScore": 0.06,
+        "license": "Pexels License",
+        "attribution": "Video by Creator 0021 on Pexels",
+        "tier": "stock",
+        "reasons": [
+          "fixture"
+        ]
+      },
+      {
+        "assetId": "pexels_v_0021c",
+        "kind": "video",
+        "source": "pexels",
+        "srcUrl": "https://www.pexels.com/video/0021c",
+        "localPath": "assets/0021c.mp4",
+        "preparedPath": "prepared/b_0021c.mp4",
+        "inMs": 1000,
+        "outMs": 7400,
+        "width": 1920,
+        "height": 1080,
+        "fps": 30,
+        "durationMs": 20000,
+        "clipScore": 0.26,
+        "sceneScore": 0.06,
+        "license": "Pexels License",
+        "attribution": "Video by Creator 0021 on Pexels",
+        "tier": "stock",
+        "reasons": [
+          "fixture"
+        ]
+      }
+    ]
+  },
+  "b_0022": {
+    "chosen": {
+      "assetId": "pexels_p_0022",
+      "kind": "image",
+      "source": "pexels",
+      "srcUrl": "https://www.pexels.com/image/0022",
+      "localPath": "assets/0022.jpg",
+      "preparedPath": "prepared/b_0022.jpg",
+      "inMs": 1000,
+      "outMs": 7400,
+      "width": 1920,
+      "height": 1080,
+      "fps": 30,
+      "durationMs": 20000,
+      "clipScore": 0.31000000000000005,
+      "sceneScore": 0.06,
+      "license": "Pexels License",
+      "attribution": "Video by Creator 0022 on Pexels",
+      "tier": "stock",
+      "reasons": [
+        "fixture"
+      ],
+      "headPadFrames": 13
+    },
+    "alternates": [
+      {
+        "assetId": "pexels_p_0022b",
+        "kind": "image",
+        "source": "pexels",
+        "srcUrl": "https://www.pexels.com/image/0022b",
+        "localPath": "assets/0022b.jpg",
+        "preparedPath": "prepared/b_0022b.jpg",
+        "inMs": 1000,
+        "outMs": 7400,
+        "width": 1920,
+        "height": 1080,
+        "fps": 30,
+        "durationMs": 20000,
+        "clipScore": 0.27,
+        "sceneScore": 0.06,
+        "license": "Pexels License",
+        "attribution": "Video by Creator 0022 on Pexels",
+        "tier": "stock",
+        "reasons": [
+          "fixture"
+        ]
+      },
+      {
+        "assetId": "pexels_v_0022c",
+        "kind": "video",
+        "source": "pexels",
+        "srcUrl": "https://www.pexels.com/video/0022c",
+        "localPath": "assets/0022c.mp4",
+        "preparedPath": "prepared/b_0022c.mp4",
+        "inMs": 1000,
+        "outMs": 7400,
+        "width": 1920,
+        "height": 1080,
+        "fps": 30,
+        "durationMs": 20000,
+        "clipScore": 0.26,
+        "sceneScore": 0.06,
+        "license": "Pexels License",
+        "attribution": "Video by Creator 0022 on Pexels",
+        "tier": "stock",
+        "reasons": [
+          "fixture"
+        ]
+      }
+    ]
+  },
+  "b_0023": {
+    "chosen": null,
+    "alternates": []
+  },
+  "b_0024": {
+    "chosen": {
+      "assetId": "pexels_v_0024",
+      "kind": "video",
+      "source": "pexels",
+      "srcUrl": "https://www.pexels.com/video/0024",
+      "localPath": "assets/0024.mp4",
+      "preparedPath": "prepared/b_0024.mp4",
+      "inMs": 1000,
+      "outMs": 7400,
+      "width": 1920,
+      "height": 1080,
+      "fps": 30,
+      "durationMs": 20000,
+      "clipScore": 0.33,
+      "sceneScore": 0.06,
+      "license": "Pexels License",
+      "attribution": "Video by Creator 0024 on Pexels",
+      "tier": "stock",
+      "reasons": [
+        "fixture"
+      ]
+    },
+    "alternates": [
+      {
+        "assetId": "pexels_p_0024b",
+        "kind": "image",
+        "source": "pexels",
+        "srcUrl": "https://www.pexels.com/image/0024b",
+        "localPath": "assets/0024b.jpg",
+        "preparedPath": "prepared/b_0024b.jpg",
+        "inMs": 1000,
+        "outMs": 7400,
+        "width": 1920,
+        "height": 1080,
+        "fps": 30,
+        "durationMs": 20000,
+        "clipScore": 0.27,
+        "sceneScore": 0.06,
+        "license": "Pexels License",
+        "attribution": "Video by Creator 0024 on Pexels",
+        "tier": "stock",
+        "reasons": [
+          "fixture"
+        ]
+      },
+      {
+        "assetId": "pexels_v_0024c",
+        "kind": "video",
+        "source": "pexels",
+        "srcUrl": "https://www.pexels.com/video/0024c",
+        "localPath": "assets/0024c.mp4",
+        "preparedPath": "prepared/b_0024c.mp4",
+        "inMs": 1000,
+        "outMs": 7400,
+        "width": 1920,
+        "height": 1080,
+        "fps": 30,
+        "durationMs": 20000,
+        "clipScore": 0.26,
+        "sceneScore": 0.06,
+        "license": "Pexels License",
+        "attribution": "Video by Creator 0024 on Pexels",
+        "tier": "stock",
+        "reasons": [
+          "fixture"
+        ]
+      }
+    ]
+  },
+  "b_0025": {
+    "chosen": {
+      "assetId": "pexels_p_0025",
+      "kind": "image",
+      "source": "pexels",
+      "srcUrl": "https://www.pexels.com/image/0025",
+      "localPath": "assets/0025.jpg",
+      "preparedPath": "prepared/b_0025.jpg",
+      "inMs": 1000,
+      "outMs": 7400,
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "durationMs": 20000,
+      "clipScore": 0.31,
+      "sceneScore": 0.06,
+      "license": "Pexels License",
+      "attribution": "Video by Creator 0025 on Pexels",
+      "tier": "stock",
+      "reasons": [
+        "fixture"
+      ]
+    },
+    "alternates": [
+      {
+        "assetId": "pexels_v_0025b",
+        "kind": "video",
+        "source": "pexels",
+        "srcUrl": "https://www.pexels.com/video/0025b",
+        "localPath": "assets/0025b.mp4",
+        "preparedPath": "prepared/b_0025b.mp4",
+        "inMs": 1000,
+        "outMs": 7400,
+        "width": 1920,
+        "height": 1080,
+        "fps": 30,
+        "durationMs": 20000,
+        "clipScore": 0.27,
+        "sceneScore": 0.06,
+        "license": "Pexels License",
+        "attribution": "Video by Creator 0025 on Pexels",
+        "tier": "stock",
+        "reasons": [
+          "fixture"
+        ]
+      }
+    ]
+  },
+  "b_0026": {
+    "chosen": {
+      "assetId": "pexels_v_0026",
+      "kind": "video",
+      "source": "pexels",
+      "srcUrl": "https://www.pexels.com/video/0026",
+      "localPath": "assets/0026.mp4",
+      "preparedPath": "prepared/b_0026.mp4",
+      "inMs": 1000,
+      "outMs": 7400,
+      "width": 1920,
+      "height": 1080,
+      "fps": 30,
+      "durationMs": 20000,
+      "clipScore": 0.28,
+      "sceneScore": 0.06,
+      "license": "Pexels License",
+      "attribution": "Video by Creator 0026 on Pexels",
+      "tier": "stock",
+      "reasons": [
+        "fixture"
+      ]
+    },
+    "alternates": [
+      {
+        "assetId": "pexels_p_0026b",
+        "kind": "image",
+        "source": "pexels",
+        "srcUrl": "https://www.pexels.com/image/0026b",
+        "localPath": "assets/0026b.jpg",
+        "preparedPath": "prepared/b_0026b.jpg",
+        "inMs": 1000,
+        "outMs": 7400,
+        "width": 1920,
+        "height": 1080,
+        "fps": 30,
+        "durationMs": 20000,
+        "clipScore": 0.27,
+        "sceneScore": 0.06,
+        "license": "Pexels License",
+        "attribution": "Video by Creator 0026 on Pexels",
+        "tier": "stock",
+        "reasons": [
+          "fixture"
+        ]
+      },
+      {
+        "assetId": "pexels_v_0026c",
+        "kind": "video",
+        "source": "pexels",
+        "srcUrl": "https://www.pexels.com/video/0026c",
+        "localPath": "assets/0026c.mp4",
+        "preparedPath": "prepared/b_0026c.mp4",
+        "inMs": 1000,
+        "outMs": 7400,
+        "width": 1920,
+        "height": 1080,
+        "fps": 30,
+        "durationMs": 20000,
+        "clipScore": 0.26,
+        "sceneScore": 0.06,
+        "license": "Pexels License",
+        "attribution": "Video by Creator 0026 on Pexels",
+        "tier": "stock",
+        "reasons": [
+          "fixture"
+        ]
+      }
+    ]
+  },
+  "b_0027": {
+    "chosen": {
+      "assetId": "pexels_p_0027",
+      "kind": "image",
+      "source": "pexels",
+      "srcUrl": "https://www.pexels.com/image/0027",
+      "localPath": "assets/0027.jpg",
+      "preparedPath": "prepared/b_0027.jpg",
+      "inMs": 1000,
+      "outMs": 7400,
+      "width": 1920,
+      "height": 1080,
+      "fps": 30,
+      "durationMs": 20000,
+      "clipScore": 0.28,
+      "sceneScore": 0.06,
+      "license": "Pexels License",
+      "attribution": "Video by Creator 0027 on Pexels",
+      "tier": "stock",
+      "reasons": [
+        "fixture"
+      ]
+    },
+    "alternates": [
+      {
+        "assetId": "pexels_p_0027b",
+        "kind": "image",
+        "source": "pexels",
+        "srcUrl": "https://www.pexels.com/image/0027b",
+        "localPath": "assets/0027b.jpg",
+        "preparedPath": "prepared/b_0027b.jpg",
+        "inMs": 1000,
+        "outMs": 7400,
+        "width": 1920,
+        "height": 1080,
+        "fps": 30,
+        "durationMs": 20000,
+        "clipScore": 0.27,
+        "sceneScore": 0.06,
+        "license": "Pexels License",
+        "attribution": "Video by Creator 0027 on Pexels",
+        "tier": "stock",
+        "reasons": [
+          "fixture"
+        ]
+      },
+      {
+        "assetId": "pexels_v_0027c",
+        "kind": "video",
+        "source": "pexels",
+        "srcUrl": "https://www.pexels.com/video/0027c",
+        "localPath": "assets/0027c.mp4",
+        "preparedPath": "prepared/b_0027c.mp4",
+        "inMs": 1000,
+        "outMs": 7400,
+        "width": 1920,
+        "height": 1080,
+        "fps": 30,
+        "durationMs": 20000,
+        "clipScore": 0.26,
+        "sceneScore": 0.06,
+        "license": "Pexels License",
+        "attribution": "Video by Creator 0027 on Pexels",
+        "tier": "stock",
+        "reasons": [
+          "fixture"
+        ]
+      }
+    ]
+  },
+  "b_0028": {
+    "chosen": {
+      "assetId": "pexels_p_0028",
+      "kind": "image",
+      "source": "pexels",
+      "srcUrl": "https://www.pexels.com/image/0028",
+      "localPath": "assets/0028.jpg",
+      "preparedPath": "prepared/b_0028.jpg",
+      "inMs": 1000,
+      "outMs": 7400,
+      "width": 1920,
+      "height": 1080,
+      "fps": 30,
+      "durationMs": 20000,
+      "clipScore": 0.28,
+      "sceneScore": 0.06,
+      "license": "Pexels License",
+      "attribution": "Video by Creator 0028 on Pexels",
+      "tier": "stock",
+      "reasons": [
+        "fixture"
+      ]
+    },
+    "alternates": [
+      {
+        "assetId": "pexels_p_0028b",
+        "kind": "image",
+        "source": "pexels",
+        "srcUrl": "https://www.pexels.com/image/0028b",
+        "localPath": "assets/0028b.jpg",
+        "preparedPath": "prepared/b_0028b.jpg",
+        "inMs": 1000,
+        "outMs": 7400,
+        "width": 1920,
+        "height": 1080,
+        "fps": 30,
+        "durationMs": 20000,
+        "clipScore": 0.27,
+        "sceneScore": 0.06,
+        "license": "Pexels License",
+        "attribution": "Video by Creator 0028 on Pexels",
+        "tier": "stock",
+        "reasons": [
+          "fixture"
+        ]
+      },
+      {
+        "assetId": "pexels_v_0028c",
+        "kind": "video",
+        "source": "pexels",
+        "srcUrl": "https://www.pexels.com/video/0028c",
+        "localPath": "assets/0028c.mp4",
+        "preparedPath": "prepared/b_0028c.mp4",
+        "inMs": 1000,
+        "outMs": 7400,
+        "width": 1920,
+        "height": 1080,
+        "fps": 30,
+        "durationMs": 20000,
+        "clipScore": 0.26,
+        "sceneScore": 0.06,
+        "license": "Pexels License",
+        "attribution": "Video by Creator 0028 on Pexels",
+        "tier": "stock",
+        "reasons": [
+          "fixture"
+        ]
+      }
+    ]
+  },
+  "b_0029": {
+    "chosen": {
+      "assetId": "pexels_v_0029",
+      "kind": "video",
+      "source": "wikimedia",
+      "srcUrl": "https://www.pexels.com/video/0029",
+      "localPath": "assets/0029.mp4",
+      "preparedPath": "prepared/b_0029.mp4",
+      "inMs": 1000,
+      "outMs": 7400,
+      "width": 1920,
+      "height": 1080,
+      "fps": 30,
+      "durationMs": 20000,
+      "clipScore": 0.34,
+      "sceneScore": 0.06,
+      "license": "CC BY-SA 4.0",
+      "attribution": "Photo: Author 0029, Wikimedia Commons, CC BY-SA 4.0",
+      "tier": "archival",
+      "reasons": [
+        "fixture"
+      ],
+      "sd": true
+    },
+    "alternates": []
+  },
+  "b_0030": {
+    "chosen": {
+      "assetId": "pexels_v_0030",
+      "kind": "video",
+      "source": "pexels",
+      "srcUrl": "https://www.pexels.com/video/0030",
+      "localPath": "assets/0030.mp4",
+      "preparedPath": "prepared/b_0030.mp4",
+      "inMs": 1000,
+      "outMs": 7400,
+      "width": 1920,
+      "height": 1080,
+      "fps": 30,
+      "durationMs": 20000,
+      "clipScore": 0.29000000000000004,
+      "sceneScore": 0.06,
+      "license": "Pexels License",
+      "attribution": "Video by Creator 0030 on Pexels",
+      "tier": "stock",
+      "reasons": [
+        "fixture"
+      ]
+    },
+    "alternates": [
+      {
+        "assetId": "pexels_p_0030b",
+        "kind": "image",
+        "source": "pexels",
+        "srcUrl": "https://www.pexels.com/image/0030b",
+        "localPath": "assets/0030b.jpg",
+        "preparedPath": "prepared/b_0030b.jpg",
+        "inMs": 1000,
+        "outMs": 7400,
+        "width": 1920,
+        "height": 1080,
+        "fps": 30,
+        "durationMs": 20000,
+        "clipScore": 0.27,
+        "sceneScore": 0.06,
+        "license": "Pexels License",
+        "attribution": "Video by Creator 0030 on Pexels",
+        "tier": "stock",
+        "reasons": [
+          "fixture"
+        ]
+      },
+      {
+        "assetId": "pexels_v_0030c",
+        "kind": "video",
+        "source": "pexels",
+        "srcUrl": "https://www.pexels.com/video/0030c",
+        "localPath": "assets/0030c.mp4",
+        "preparedPath": "prepared/b_0030c.mp4",
+        "inMs": 1000,
+        "outMs": 7400,
+        "width": 1920,
+        "height": 1080,
+        "fps": 30,
+        "durationMs": 20000,
+        "clipScore": 0.26,
+        "sceneScore": 0.06,
+        "license": "Pexels License",
+        "attribution": "Video by Creator 0030 on Pexels",
+        "tier": "stock",
+        "reasons": [
+          "fixture"
+        ]
+      }
+    ]
+  },
+  "b_0031": {
+    "chosen": {
+      "assetId": "pexels_p_0031",
+      "kind": "image",
+      "source": "pexels",
+      "srcUrl": "https://www.pexels.com/image/0031",
+      "localPath": "assets/0031.jpg",
+      "preparedPath": "prepared/b_0031.jpg",
+      "inMs": 1000,
+      "outMs": 7400,
+      "width": 1920,
+      "height": 1080,
+      "fps": 30,
+      "durationMs": 20000,
+      "clipScore": 0.30000000000000004,
+      "sceneScore": 0.06,
+      "license": "Pexels License",
+      "attribution": "Video by Creator 0031 on Pexels",
+      "tier": "stock",
+      "reasons": [
+        "fixture"
+      ]
+    },
+    "alternates": [
+      {
+        "assetId": "pexels_p_0031b",
+        "kind": "image",
+        "source": "pexels",
+        "srcUrl": "https://www.pexels.com/image/0031b",
+        "localPath": "assets/0031b.jpg",
+        "preparedPath": "prepared/b_0031b.jpg",
+        "inMs": 1000,
+        "outMs": 7400,
+        "width": 1920,
+        "height": 1080,
+        "fps": 30,
+        "durationMs": 20000,
+        "clipScore": 0.27,
+        "sceneScore": 0.06,
+        "license": "Pexels License",
+        "attribution": "Video by Creator 0031 on Pexels",
+        "tier": "stock",
+        "reasons": [
+          "fixture"
+        ]
+      },
+      {
+        "assetId": "pexels_v_0031c",
+        "kind": "video",
+        "source": "pexels",
+        "srcUrl": "https://www.pexels.com/video/0031c",
+        "localPath": "assets/0031c.mp4",
+        "preparedPath": "prepared/b_0031c.mp4",
+        "inMs": 1000,
+        "outMs": 7400,
+        "width": 1920,
+        "height": 1080,
+        "fps": 30,
+        "durationMs": 20000,
+        "clipScore": 0.26,
+        "sceneScore": 0.06,
+        "license": "Pexels License",
+        "attribution": "Video by Creator 0031 on Pexels",
+        "tier": "stock",
+        "reasons": [
+          "fixture"
+        ]
+      }
+    ]
+  },
+  "b_0032": {
+    "chosen": null,
+    "alternates": []
+  },
+  "b_0033": {
+    "chosen": {
+      "assetId": "pexels_p_0033",
+      "kind": "image",
+      "source": "pexels",
+      "srcUrl": "https://www.pexels.com/image/0033",
+      "localPath": "assets/0033.jpg",
+      "preparedPath": "prepared/b_0033.jpg",
+      "inMs": 1000,
+      "outMs": 7400,
+      "width": 1920,
+      "height": 1080,
+      "fps": 30,
+      "durationMs": 20000,
+      "clipScore": 0.29000000000000004,
+      "sceneScore": 0.06,
+      "license": "Pexels License",
+      "attribution": "Video by Creator 0033 on Pexels",
+      "tier": "stock",
+      "reasons": [
+        "fixture"
+      ]
+    },
+    "alternates": [
+      {
+        "assetId": "pexels_p_0033b",
+        "kind": "image",
+        "source": "pexels",
+        "srcUrl": "https://www.pexels.com/image/0033b",
+        "localPath": "assets/0033b.jpg",
+        "preparedPath": "prepared/b_0033b.jpg",
+        "inMs": 1000,
+        "outMs": 7400,
+        "width": 1920,
+        "height": 1080,
+        "fps": 30,
+        "durationMs": 20000,
+        "clipScore": 0.27,
+        "sceneScore": 0.06,
+        "license": "Pexels License",
+        "attribution": "Video by Creator 0033 on Pexels",
+        "tier": "stock",
+        "reasons": [
+          "fixture"
+        ]
+      },
+      {
+        "assetId": "pexels_v_0033c",
+        "kind": "video",
+        "source": "pexels",
+        "srcUrl": "https://www.pexels.com/video/0033c",
+        "localPath": "assets/0033c.mp4",
+        "preparedPath": "prepared/b_0033c.mp4",
+        "inMs": 1000,
+        "outMs": 7400,
+        "width": 1920,
+        "height": 1080,
+        "fps": 30,
+        "durationMs": 20000,
+        "clipScore": 0.26,
+        "sceneScore": 0.06,
+        "license": "Pexels License",
+        "attribution": "Video by Creator 0033 on Pexels",
+        "tier": "stock",
+        "reasons": [
+          "fixture"
+        ]
+      }
+    ]
+  },
+  "b_0034": {
+    "chosen": {
+      "assetId": "pexels_v_0034",
+      "kind": "video",
+      "source": "pexels",
+      "srcUrl": "https://www.pexels.com/video/0034",
+      "localPath": "assets/0034.mp4",
+      "preparedPath": "prepared/b_0034.mp4",
+      "inMs": 1000,
+      "outMs": 7400,
+      "width": 1920,
+      "height": 1080,
+      "fps": 30,
+      "durationMs": 20000,
+      "clipScore": 0.35000000000000003,
+      "sceneScore": 0.06,
+      "license": "Pexels License",
+      "attribution": "Video by Creator 0034 on Pexels",
+      "tier": "stock",
+      "reasons": [
+        "fixture"
+      ]
+    },
+    "alternates": [
+      {
+        "assetId": "pexels_p_0034b",
+        "kind": "image",
+        "source": "pexels",
+        "srcUrl": "https://www.pexels.com/image/0034b",
+        "localPath": "assets/0034b.jpg",
+        "preparedPath": "prepared/b_0034b.jpg",
+        "inMs": 1000,
+        "outMs": 7400,
+        "width": 1920,
+        "height": 1080,
+        "fps": 30,
+        "durationMs": 20000,
+        "clipScore": 0.27,
+        "sceneScore": 0.06,
+        "license": "Pexels License",
+        "attribution": "Video by Creator 0034 on Pexels",
+        "tier": "stock",
+        "reasons": [
+          "fixture"
+        ]
+      },
+      {
+        "assetId": "pexels_v_0034c",
+        "kind": "video",
+        "source": "pexels",
+        "srcUrl": "https://www.pexels.com/video/0034c",
+        "localPath": "assets/0034c.mp4",
+        "preparedPath": "prepared/b_0034c.mp4",
+        "inMs": 1000,
+        "outMs": 7400,
+        "width": 1920,
+        "height": 1080,
+        "fps": 30,
+        "durationMs": 20000,
+        "clipScore": 0.26,
+        "sceneScore": 0.06,
+        "license": "Pexels License",
+        "attribution": "Video by Creator 0034 on Pexels",
+        "tier": "stock",
+        "reasons": [
+          "fixture"
+        ]
+      }
+    ]
+  }
+}

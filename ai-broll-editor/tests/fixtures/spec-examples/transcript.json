@@ -1,0 +1,4 @@
+{ "audioPath": "narration_norm.m4a", "durationMs": 1863420, "language": "en", "engine": "groq-whisper-large-v3-turbo+whisperx-align",
+  "words": [ { "id": 0, "text": "Today", "startMs": 120, "endMs": 410, "conf": 0.98, "rms": -21.4, "gapAfterMs": 20 } ],
+  "segments": [ { "id": 0, "text": "Today we ...", "startMs": 120, "endMs": 4380, "wordIds": [0,1,2] } ],
+  "silences": [ { "startMs": 4380, "endMs": 5010 } ] }

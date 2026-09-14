@@ -1,0 +1,335 @@
+name: broll-render
+
+# ai-broll-editor pipeline on free GitHub-hosted runners (spec-v3 section 19, adapted to this repo).
+#
+# STAGES
+#   full        ingest -> transcribe (Groq + WhisperX align; whisper.cpp fallback) -> segment -> [director] -> source
+#               -> prepare -> brain -> validate -> ffmpeg segments -> Remotion matrix -> finish.
+#               The Director (scripts/ts/direct.ts) calls `claude -p`, which only exists in the local Claude
+#               Code session. CI therefore expects work/<job>/plans/*.json to be COMMITTED or restored from the
+#               `job-<job_id>-inputs` artifact; when plans/ are absent it runs `direct.ts --fallback-only`
+#               (rule-based planner) so the run still completes.
+#   render-only brain -> validate -> ffmpeg segments -> Remotion matrix -> finish, assuming
+#               work/<job>/{job.yaml,transcript.json,beats.json,plans/,assets.json,prepared/} are present in
+#               the repo or restored from a `job-<job_id>-inputs` artifact uploaded by an earlier run.
+#
+# The YouTube stage (Y1/Y2 sourcing) runs only when `runner` is self-hosted (home IP, spec 13.4 / 8).
+# Free-tier requirement: unmetered only while the repo is PUBLIC.
+
+on:
+  workflow_dispatch:
+    inputs:
+      job_id:
+        description: "Job id (work/<job_id>/ inside ai-broll-editor)"
+        required: true
+        type: string
+      stage:
+        description: "Pipeline stage"
+        required: true
+        type: choice
+        default: render-only
+        options: [full, render-only]
+      workers:
+        description: "Max Remotion matrix workers"
+        required: false
+        default: "18"
+        type: string
+      runner:
+        description: "Runner label (ubuntu-latest or self-hosted)"
+        required: false
+        default: ubuntu-latest
+        type: string
+  push:
+    paths:
+      - "ai-broll-editor/**"
+
+concurrency:
+  group: broll-render-${{ inputs.job_id || github.sha }}
+  cancel-in-progress: false
+
+env:
+  NODE_OPTIONS: --max-old-space-size=6144
+  JOB: ${{ inputs.job_id }}
+
+defaults:
+  run:
+    working-directory: ai-broll-editor
+
+jobs:
+  # Spec 11.14 I12 + every builder's unit tests, on any push touching the package.
+  brain-check:
+    if: github.event_name == 'push'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: ai-broll-editor/package-lock.json
+      - run: npm ci
+      - name: Install ffmpeg
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+      - name: Type-check
+        run: npx tsc --noEmit -p tsconfig.json
+      - name: Unit + determinism tests (I12)
+        run: npm test
+
+  plan:
+    if: github.event_name == 'workflow_dispatch'
+    runs-on: ${{ inputs.runner }}
+    timeout-minutes: 300
+    outputs:
+      chunks: ${{ steps.matrix.outputs.chunks }}
+      has_remotion: ${{ steps.matrix.outputs.has_remotion }}
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Free runner disk space
+        run: |
+          echo "before:"; df -h / | tail -1
+          sudo rm -rf /usr/share/dotnet /usr/local/lib/android /opt/ghc \
+                      /usr/local/share/boost "$AGENT_TOOLSDIRECTORY" \
+                      /usr/local/share/powershell /usr/share/swift || true
+          sudo apt-get clean || true
+          echo "after:"; df -h / | tail -1
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: ai-broll-editor/package-lock.json
+      - run: npm ci
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: ai-broll-editor/scripts/py/requirements-light.txt
+      - run: pip install -r scripts/py/requirements-light.txt
+      - name: Install full Python requirements (Groq, WhisperX, open_clip; full stage only)
+        if: inputs.stage == 'full'
+        run: pip install --extra-index-url https://download.pytorch.org/whl/cpu -r scripts/py/requirements.txt
+
+      - name: Install ffmpeg
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+
+      - name: Cache Remotion Chrome
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/remotion
+          key: chrome-${{ runner.os }}-${{ hashFiles('ai-broll-editor/package-lock.json') }}
+      - run: npx remotion browser ensure
+
+      - name: Restore job inputs artifact (optional)
+        uses: actions/download-artifact@v4
+        continue-on-error: true
+        with:
+          name: job-${{ inputs.job_id }}-inputs
+          path: ai-broll-editor/work/${{ inputs.job_id }}
+
+      - name: Check job dir
+        run: |
+          test -f "work/$JOB/job.yaml" || { echo "::error::work/$JOB/job.yaml missing (commit it or upload a job-$JOB-inputs artifact)"; exit 1; }
+
+      # ---------------- full stage only ----------------
+      - name: Cache whisper.cpp
+        if: inputs.stage == 'full'
+        uses: actions/cache@v4
+        with:
+          path: ai-broll-editor/whisper.cpp
+          key: whispercpp-1.7.5-small.en-${{ runner.os }}
+
+      - name: Ingest
+        if: inputs.stage == 'full'
+        run: npm run ingest -- --job "$JOB"
+
+      - name: "Transcribe (spec D5: Groq whisper-large-v3-turbo + WhisperX align; whisper.cpp fallback)"
+        if: inputs.stage == 'full'
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+        run: |
+          if [ -f "work/$JOB/transcript.json" ]; then echo "transcript.json present; skipping ASR"; exit 0; fi
+          set +e
+          if [ -n "$GROQ_API_KEY" ]; then
+            python scripts/py/transcribe_groq.py --job "$JOB"; rc=$?
+          else
+            echo "::warning::GROQ_API_KEY secret not set; falling back to whisper.cpp (gh secret set GROQ_API_KEY)"; rc=3
+          fi
+          set -e
+          if [ "$rc" -eq 0 ]; then
+            python scripts/py/align_whisperx.py --job "$JOB"
+            python scripts/py/to_transcript_json.py --job "$JOB"
+          elif [ "$rc" -eq 3 ]; then
+            echo "::warning::Groq unavailable or daily cap hit; using whisper.cpp small.en on CPU"
+            npm run transcribe:whispercpp -- --job "$JOB"
+            python scripts/py/to_transcript_json.py --job "$JOB"
+          else
+            echo "::error::transcribe_groq.py failed with exit $rc"; exit "$rc"
+          fi
+
+      - name: Segment
+        if: inputs.stage == 'full'
+        run: npm run segment -- --job "$JOB"
+
+      - name: Director (fallback planner unless plans/ were committed)
+        if: inputs.stage == 'full'
+        run: |
+          if ls "work/$JOB/plans/"*.json >/dev/null 2>&1; then
+            echo "plans/ present (written by the local Claude session); keeping them"
+          else
+            echo "::warning::no plans/ found; the Director needs claude -p locally. Using the rule-based fallback planner."
+            npm run direct -- --job "$JOB" --fallback-only
+          fi
+
+      - name: Source assets (Pexels, Openverse, Wikimedia, NASA, Internet Archive)
+        if: inputs.stage == 'full'
+        env:
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+        run: python scripts/py/source_assets.py --job "$JOB"
+
+      - name: Source YouTube (self-hosted runner only)
+        if: inputs.stage == 'full' && inputs.runner == 'self-hosted'
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: python scripts/py/youtube_cc.py --job "$JOB"
+
+      # ---------------- both stages ----------------
+      - name: Brain + validate
+        run: |
+          npm run brain -- --job "$JOB"
+          npm run validate -- --job "$JOB"
+
+      - name: Prepare needs + prepare assets
+        run: |
+          npm run prepare-needs -- --job "$JOB"
+          python scripts/py/prepare_assets.py --job "$JOB"
+
+      - name: Re-validate against prepared media
+        run: npm run validate -- --job "$JOB"
+
+      - name: FFmpeg segments (Tier 2)
+        run: npm run ffmpeg-segments -- --job "$JOB"
+
+      - name: Build Remotion matrix from chunks.json
+        id: matrix
+        run: |
+          CH=$(npm run -s chunks -- --job "$JOB" --workers "${{ inputs.workers }}" --route remotion)
+          echo "chunks=$CH" >> "$GITHUB_OUTPUT"
+          echo "has_remotion=$([ "$CH" != "[]" ] && echo true || echo false)" >> "$GITHUB_OUTPUT"
+          echo "remotion chunks: $(echo "$CH" | jq length) (matrix cap 256)"
+          [ "$(echo "$CH" | jq length)" -le 256 ] || { echo "::error::more than 256 Remotion chunks; raise the chunk size"; exit 1; }
+
+      - name: Upload job state (inputs + timeline + ffmpeg segments)
+        uses: actions/upload-artifact@v4
+        with:
+          name: job-${{ inputs.job_id }}
+          path: ai-broll-editor/work/${{ inputs.job_id }}
+          retention-days: 1
+          compression-level: 0
+          if-no-files-found: error
+
+  render:
+    needs: plan
+    if: needs.plan.outputs.has_remotion == 'true'
+    runs-on: ${{ inputs.runner }}
+    timeout-minutes: 300
+    strategy:
+      max-parallel: 18
+      fail-fast: false
+      matrix:
+        chunk: ${{ fromJSON(needs.plan.outputs.chunks) }}
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: ai-broll-editor/package-lock.json
+      - run: npm ci
+      - name: Install ffmpeg
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+      - name: Cache Remotion Chrome
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/remotion
+          key: chrome-${{ runner.os }}-${{ hashFiles('ai-broll-editor/package-lock.json') }}
+      - run: npx remotion browser ensure
+      - uses: actions/download-artifact@v4
+        with:
+          name: job-${{ inputs.job_id }}
+          path: ai-broll-editor/work/${{ inputs.job_id }}
+
+      - name: Render ${{ matrix.chunk.id }} (frames ${{ matrix.chunk.fromFrame }}-${{ matrix.chunk.toFrame }})
+        env:
+          BROLL_JOB_DIR: work/${{ inputs.job_id }}
+        run: |
+          npx remotion render remotion/src/index.ts Main "work/$JOB/segments/${{ matrix.chunk.id }}.mp4" \
+            --config remotion/remotion.config.ts \
+            --props="work/$JOB/timeline.json" \
+            --frames=${{ matrix.chunk.fromFrame }}-${{ matrix.chunk.toFrame }} \
+            --codec h264 --crf 18 --x264-preset veryfast \
+            --concurrency 2 --timeout 120000 --muted --log info
+          npm run normalize-segment -- "work/$JOB/segments/${{ matrix.chunk.id }}.mp4"
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: seg-${{ inputs.job_id }}-${{ matrix.chunk.id }}
+          path: ai-broll-editor/work/${{ inputs.job_id }}/segments/${{ matrix.chunk.id }}.mp4
+          retention-days: 1
+          if-no-files-found: error
+
+  finish:
+    needs: [plan, render]
+    # run even when there were no Remotion chunks (render skipped), but not when a render failed
+    if: always() && needs.plan.result == 'success' && (needs.render.result == 'success' || needs.render.result == 'skipped')
+    runs-on: ${{ inputs.runner }}
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: ai-broll-editor/package-lock.json
+      - run: npm ci
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: ai-broll-editor/scripts/py/requirements-light.txt
+      - run: pip install -r scripts/py/requirements-light.txt
+      - name: Install ffmpeg
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+
+      - uses: actions/download-artifact@v4
+        with:
+          name: job-${{ inputs.job_id }}
+          path: ai-broll-editor/work/${{ inputs.job_id }}
+      - name: Download Remotion segments
+        if: needs.render.result == 'success'
+        uses: actions/download-artifact@v4
+        with:
+          pattern: seg-${{ inputs.job_id }}-*
+          merge-multiple: true
+          path: ai-broll-editor/work/${{ inputs.job_id }}/segments
+
+      - name: Audio mix
+        run: npm run audio-mix -- --job "$JOB"
+      - name: Concat + mux + asserts
+        run: npm run concat -- --job "$JOB"
+      - name: QC stills + contact sheets
+        run: npm run qc-stills -- --job "$JOB"
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: final-${{ inputs.job_id }}
+          path: |
+            ai-broll-editor/work/${{ inputs.job_id }}/final.mp4
+            ai-broll-editor/work/${{ inputs.job_id }}/report.md
+            ai-broll-editor/work/${{ inputs.job_id }}/credits.json
+            ai-broll-editor/work/${{ inputs.job_id }}/qc/
+          retention-days: 7
+          if-no-files-found: error

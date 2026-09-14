@@ -1,0 +1,5 @@
+{"result_count":3,"page_count":1,"results":[
+ {"id":"a1","title":"Eiffel Tower 1900","creator":"Someone","url":"https://upload.wikimedia.org/eiffel.jpg","foreign_landing_url":"https://commons.wikimedia.org/wiki/File:Eiffel.jpg",
+  "license":"by","license_version":"2.0","license_url":"https://creativecommons.org/licenses/by/2.0/","attribution":"\"Eiffel Tower 1900\" by Someone is licensed under CC BY 2.0.","width":2048,"height":1365},
+ {"id":"a2","title":"NC one","creator":"X","url":"https://x/nc.jpg","license":"by-nc","license_version":"4.0","attribution":"nc","width":1000,"height":700},
+ {"id":"a3","title":"CC0 one","creator":"Y","url":"https://x/zero.png","license":"cc0","license_version":"1.0","attribution":"\"CC0 one\" by Y is marked with CC0 1.0.","width":1600,"height":900}]}

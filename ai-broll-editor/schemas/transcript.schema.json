@@ -1,0 +1,135 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://ai-broll-editor/schemas/transcript.schema.json",
+  "title": "transcript.json",
+  "description": "Word-timed transcript (ms). Spec 10.1.",
+  "type": "object",
+  "properties": {
+    "audioPath": {
+      "type": "string"
+    },
+    "durationMs": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "language": {
+      "type": "string"
+    },
+    "engine": {
+      "type": "string"
+    },
+    "words": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "text": {
+            "type": "string",
+            "minLength": 1
+          },
+          "startMs": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "endMs": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "conf": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "rms": {
+            "type": "number"
+          },
+          "gapAfterMs": {
+            "type": "integer",
+            "minimum": 0
+          }
+        },
+        "required": [
+          "id",
+          "text",
+          "startMs",
+          "endMs",
+          "conf"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "segments": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "text": {
+            "type": "string"
+          },
+          "startMs": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "endMs": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "wordIds": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "minimum": 0
+            }
+          }
+        },
+        "required": [
+          "id",
+          "text",
+          "startMs",
+          "endMs",
+          "wordIds"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "silences": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "startMs": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "endMs": {
+            "type": "integer",
+            "minimum": 0
+          }
+        },
+        "required": [
+          "startMs",
+          "endMs"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "audioPath",
+    "durationMs",
+    "language",
+    "engine",
+    "words",
+    "segments",
+    "silences"
+  ],
+  "additionalProperties": false
+}

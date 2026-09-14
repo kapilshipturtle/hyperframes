@@ -1,0 +1,8 @@
+# Light requirements for the plan job (no torch, no whisperx). Enough for
+# to_transcript_json.py, emphasis.py, build_sfx_pack.py, prepare_assets.py and the tests.
+requests>=2.32,<3
+pyyaml>=6.0
+pillow>=10.4
+imagehash>=4.3
+numpy>=1.26,<3
+pytest>=8

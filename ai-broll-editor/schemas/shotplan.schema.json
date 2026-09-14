@@ -1,0 +1,360 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://ai-broll-editor/schemas/shotplan.schema.json",
+  "title": "shotplan.json",
+  "description": "Director output per section: intent only, no times. Spec 10.3 / 7.",
+  "type": "object",
+  "properties": {
+    "sectionId": {
+      "type": "string"
+    },
+    "mood": {
+      "type": "string",
+      "enum": [
+        "energetic",
+        "calm",
+        "documentary",
+        "tech",
+        "dramatic"
+      ]
+    },
+    "musicTag": {
+      "type": "string",
+      "enum": [
+        "upbeat-corporate",
+        "calm-piano",
+        "tension-drone",
+        "documentary-ambient",
+        "tech-minimal",
+        "hopeful-strings"
+      ]
+    },
+    "grade": {
+      "type": "string",
+      "enum": [
+        "clean-cool",
+        "warm-film",
+        "teal-orange",
+        "muted-documentary",
+        "high-contrast-bw",
+        "vibrant",
+        "night",
+        "vintage"
+      ]
+    },
+    "shots": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "beatId": {
+            "type": "string"
+          },
+          "importance": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 5
+          },
+          "visualIntent": {
+            "type": "string"
+          },
+          "layoutPreference": {
+            "type": "string",
+            "enum": [
+              "fullscreen-clip",
+              "fullscreen-image-kenburns",
+              "split-left-media-right-text",
+              "split-right-media-left-text",
+              "grid-2",
+              "grid-3",
+              "grid-4",
+              "pip-over-blur",
+              "quote-card",
+              "stat-counter",
+              "list-reveal",
+              "chapter-card",
+              "end-card",
+              "lower-third",
+              "comparison-split",
+              "device-frame",
+              "map-pin",
+              "timeline-strip",
+              "typographic-card"
+            ]
+          },
+          "queries": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 1,
+            "maxItems": 5
+          },
+          "preferMotion": {
+            "type": "boolean"
+          },
+          "shotScale": {
+            "type": "string",
+            "enum": [
+              "wide",
+              "medium",
+              "close"
+            ]
+          },
+          "transitionFamily": {
+            "type": "string",
+            "enum": [
+              "cut",
+              "energetic",
+              "calm",
+              "documentary",
+              "tech"
+            ]
+          },
+          "text": {
+            "anyOf": [
+              {
+                "type": "object",
+                "properties": {
+                  "content": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "anchorWordId": {
+                    "type": "integer",
+                    "minimum": 0
+                  },
+                  "style": {
+                    "type": "string",
+                    "enum": [
+                      "kinetic-bold",
+                      "typewriter",
+                      "highlight-marker",
+                      "lower-third-name",
+                      "big-number",
+                      "caption-box",
+                      "outline-stroke",
+                      "gradient-fill",
+                      "slide-up-mask",
+                      "word-by-word-pop"
+                    ]
+                  },
+                  "position": {
+                    "type": "string",
+                    "enum": [
+                      "lower-left",
+                      "lower-center",
+                      "lower-right",
+                      "center",
+                      "upper-left",
+                      "upper-right",
+                      "left-panel",
+                      "right-panel"
+                    ]
+                  }
+                },
+                "required": [
+                  "content",
+                  "anchorWordId",
+                  "style",
+                  "position"
+                ],
+                "additionalProperties": false
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "sfx": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": [
+                "whoosh-soft",
+                "whoosh-hard",
+                "swoosh-short",
+                "pop",
+                "click",
+                "tick",
+                "impact-soft",
+                "glitch",
+                "camera-shutter",
+                "typewriter-key",
+                "riser-short",
+                "ding",
+                "counter-tick-loop"
+              ]
+            }
+          },
+          "motion": {
+            "type": "object",
+            "properties": {
+              "type": {
+                "type": "string",
+                "enum": [
+                  "none",
+                  "ken-burns",
+                  "parallax-drift",
+                  "slow-zoom-out",
+                  "handheld",
+                  "speed-ramp",
+                  "freeze-end"
+                ]
+              },
+              "to": {
+                "type": "string",
+                "enum": [
+                  "center",
+                  "top-left",
+                  "top",
+                  "top-right",
+                  "left",
+                  "right",
+                  "bottom-left",
+                  "bottom",
+                  "bottom-right"
+                ]
+              },
+              "zoom": {
+                "type": "number",
+                "minimum": 1,
+                "maximum": 2
+              },
+              "peakFrame": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "playbackRate": {
+                "type": "number",
+                "minimum": 0.1,
+                "maximum": 4
+              }
+            },
+            "required": [
+              "type"
+            ],
+            "additionalProperties": false
+          },
+          "grid": {
+            "anyOf": [
+              {
+                "type": "object",
+                "properties": {
+                  "cells": {
+                    "type": "integer",
+                    "enum": [
+                      2,
+                      3,
+                      4
+                    ]
+                  },
+                  "labels": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  }
+                },
+                "required": [
+                  "cells",
+                  "labels"
+                ],
+                "additionalProperties": false
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "stat": {
+            "anyOf": [
+              {
+                "type": "object",
+                "properties": {
+                  "value": {
+                    "type": "number"
+                  },
+                  "prefix": {
+                    "type": "string"
+                  },
+                  "suffix": {
+                    "type": "string"
+                  },
+                  "label": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "value"
+                ],
+                "additionalProperties": false
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "quote": {
+            "anyOf": [
+              {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string"
+                  },
+                  "attribution": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "listLines": {
+            "anyOf": [
+              {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        },
+        "required": [
+          "beatId",
+          "importance",
+          "visualIntent",
+          "layoutPreference",
+          "queries",
+          "transitionFamily",
+          "text",
+          "sfx",
+          "motion",
+          "grid"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 1
+    }
+  },
+  "required": [
+    "sectionId",
+    "mood",
+    "musicTag",
+    "grade",
+    "shots"
+  ],
+  "additionalProperties": false
+}

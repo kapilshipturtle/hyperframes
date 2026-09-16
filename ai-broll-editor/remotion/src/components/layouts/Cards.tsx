@@ -1,7 +1,7 @@
 import React from "react";
 import { AbsoluteFill, Easing, interpolate, spring, useCurrentFrame, useVideoConfig } from "remotion";
 import { BrandBg, MotionMedia, Scrim, ease, safePx, type LayoutProps } from "./shared";
-import { BEBAS, INTER, PLAYFAIR } from "../../util/fonts";
+import { BEBAS, INTER, DISPLAY } from "../../util/fonts";
 import { BRAND } from "../../util/brand";
 
 /** Title enters frame 6, subtitle frame 14 (spring). Optional media dimmed behind. */
@@ -69,8 +69,8 @@ export const QuoteCard: React.FC<LayoutProps> = ({ item }) => {
     <BrandBg variant="paper">
       {item.media[0] ? <AbsoluteFill style={{ opacity: 0.12 }}><MotionMedia item={item} /></AbsoluteFill> : null}
       <AbsoluteFill style={{ justifyContent: "center", alignItems: "center", padding: `0 ${safePx(1920) * 3}px`, textAlign: "center" }}>
-        <div style={{ fontFamily: PLAYFAIR, fontSize: 200, lineHeight: 0.4, color: BRAND.accent, opacity: q }}>“</div>
-        <div style={{ fontFamily: PLAYFAIR, fontSize: 64, lineHeight: 1.25, color: BRAND.ink, opacity: q, transform: `translateY(${(1 - q) * 30}px)` }}>{item.quote?.text ?? item.keyPhrase ?? ""}</div>
+        <div style={{ fontFamily: DISPLAY, fontSize: 200, lineHeight: 0.4, color: BRAND.accent, opacity: q }}>“</div>
+        <div style={{ fontFamily: DISPLAY, fontSize: 64, lineHeight: 1.25, color: BRAND.ink, opacity: q, transform: `translateY(${(1 - q) * 30}px)` }}>{item.quote?.text ?? item.keyPhrase ?? ""}</div>
         {item.quote?.attribution ? <div style={{ fontFamily: INTER, fontSize: 34, color: "#475569", marginTop: 36, opacity: a }}>— {item.quote.attribution}</div> : null}
       </AbsoluteFill>
     </BrandBg>

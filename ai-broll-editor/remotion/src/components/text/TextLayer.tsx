@@ -1,11 +1,17 @@
 import React from "react";
 import { AbsoluteFill, Easing, interpolate, spring, useCurrentFrame, useVideoConfig } from "remotion";
 import type { TextItem, TextPosition, TextStyle } from "../../types";
-import { BEBAS, INTER, PLAYFAIR } from "../../util/fonts";
-import { BRAND, SAFE } from "../../util/brand";
+import { BEBAS, INTER, DISPLAY, trackingEm, scaledShadow } from "../../util/fonts";
+import { BRAND, SAFE, scrimGradient } from "../../util/brand";
 
-const ENTER = 8;
-const EXIT = 6;
+// Entrance 360 ms, exit 200 ms (~0.55x). Exits are FASTER than entrances and do not
+// reverse them — the text continues in its original direction and dissolves. Reversing
+// the entrance is a template tell.
+const ENTER = 11;   // ~360 ms @30fps
+const EXIT = 6;     // ~200 ms @30fps
+// ease-out-expo in, ease-in-expo out. Never linear: linear motion reads as robotic.
+const EASE_OUT_EXPO = Easing.bezier(0.16, 1, 0.3, 1);
+const EASE_IN_EXPO = Easing.bezier(0.7, 0, 0.84, 0);
 
 /** Position -> absolute box inside the 5 % safe area. */
 export const positionStyle = (pos: TextPosition): React.CSSProperties => {
@@ -31,18 +37,42 @@ const isUpper = (p: TextPosition) => p.startsWith("upper");
 const useEnvelope = (dur: number) => {
   const f = useCurrentFrame();
   const { fps } = useVideoConfig();
-  const enter = spring({ frame: f, fps, config: { damping: 200, stiffness: 170, mass: 0.7 }, durationInFrames: ENTER });
-  const exit = interpolate(f, [dur - EXIT, dur], [1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp", easing: Easing.in(Easing.quad) });
-  return { f, enter, exit, opacity: Math.min(enter, exit) };
+  void fps;
+  // Entrance: eased 0..1 over ENTER frames.
+  const enter = interpolate(f, [0, ENTER], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp", easing: EASE_OUT_EXPO });
+  // Opacity resolves faster than position (first ~45 % of the entrance), so the text is
+  // readable before it finishes settling.
+  const enterOpacity = interpolate(f, [0, ENTER * 0.45], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp", easing: EASE_OUT_EXPO });
+  const exit = interpolate(f, [dur - EXIT, dur], [1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp", easing: EASE_IN_EXPO });
+  // The exit continues UP rather than reversing the entrance.
+  const exitShift = interpolate(f, [dur - EXIT, dur], [0, -0.18], { extrapolateLeft: "clamp", extrapolateRight: "clamp", easing: EASE_IN_EXPO });
+  const exitBlur = interpolate(f, [dur - EXIT, dur], [0, 6], { extrapolateLeft: "clamp", extrapolateRight: "clamp", easing: EASE_IN_EXPO });
+  // Entrance blur 4 -> 0 over the first 70 % of the entrance.
+  const enterBlur = interpolate(f, [0, ENTER * 0.7], [4, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp", easing: EASE_OUT_EXPO });
+  return {
+    f, enter, exit,
+    opacity: Math.min(enterOpacity, exit),
+    blurPx: Math.max(enterBlur, exitBlur),
+    shiftEm: exitShift,
+  };
 };
 
 export type TextLayerProps = { item: TextItem; overMedia?: boolean };
 
+/** Type sizes are expressed as % of FRAME HEIGHT so they scale to 4K. Hardcoded px
+ *  assumed 1080p and broke at any other canvas. */
+const usePctH = () => {
+  const { height } = useVideoConfig();
+  return (pctH: number) => Math.round((pctH / 100) * height);
+};
+
 /** Gradient scrim (lower/upper positions) or 40 % box (everything else) whenever text sits over media. */
 const ScrimFor: React.FC<{ pos: TextPosition; opacity: number }> = ({ pos, opacity }) => {
-  if (isLower(pos)) return <AbsoluteFill style={{ top: "55%", background: "linear-gradient(0deg, rgba(0,0,0,0.7), rgba(0,0,0,0))", opacity }} />;
-  if (isUpper(pos)) return <AbsoluteFill style={{ bottom: "60%", background: "linear-gradient(180deg, rgba(0,0,0,0.65), rgba(0,0,0,0))", opacity }} />;
-  return null; // panel / center styles carry their own 40 % box (see boxBg)
+  // Four-stop eased gradient, not two. A two-stop gradient creates a Mach band — the eye
+  // perceives a false edge where it ends — and that edge is the cheap-overlay tell.
+  if (isLower(pos)) return <AbsoluteFill style={{ top: "30%", background: scrimGradient("bottom", 0.80), opacity }} />;
+  if (isUpper(pos)) return <AbsoluteFill style={{ bottom: "30%", background: scrimGradient("top", 0.55), opacity }} />;
+  return null; // panel / center styles carry their own box (see boxBg)
 };
 const boxBg = (pos: TextPosition, overMedia: boolean): React.CSSProperties =>
   overMedia && !isLower(pos) && !isUpper(pos) ? { background: "rgba(0,0,0,0.4)", padding: "18px 32px", borderRadius: 10 } : {};
@@ -77,14 +107,33 @@ const WordByWord: React.FC<{ item: TextItem; render: (w: string, p: number, i: n
 
 const StyledText: React.FC<{ item: TextItem; env: Env }> = ({ item, env }) => {
   const { f, enter } = env;
+  const pctH = usePctH();
   const style: TextStyle = item.style;
+  // ONE accented word per phrase, chosen by hash of the text — not `i % 4`, which
+  // produces a visible repeating cycle across the film.
+  const words = item.content.split(/\s+/);
+  const accentWord = words.length > 2
+    ? [...item.content].reduce((a, c) => (a * 31 + c.charCodeAt(0)) >>> 0, 7) % words.length
+    : -1;
   switch (style) {
-    case "kinetic-bold":
+    case "kinetic-bold": {
+      // Masked slide-up: the letters emerge from an invisible edge rather than simply
+      // moving. The mask is what reads as broadcast; a bare slide reads as generic.
+      const px = pctH(8.2);
       return (
-        <div style={{ fontFamily: BEBAS, fontSize: 110, lineHeight: 1, color: "#fff", textShadow: "0 6px 30px rgba(0,0,0,0.5)", transform: `translateY(${(1 - enter) * 60}px) skewX(${(1 - enter) * -8}deg)`, letterSpacing: 2 }}>
-          {item.content}
+        <div style={{ overflow: "hidden", padding: "0.06em 0" }}>
+          <div style={{
+            fontFamily: DISPLAY, fontWeight: 800, fontSize: px, lineHeight: 1.05,
+            color: BRAND.white, textShadow: scaledShadow(px),
+            letterSpacing: `${trackingEm(8.2)}em`,
+            transform: `translateY(${(1 - enter) * 0.55 + env.shiftEm}em)`,
+            filter: env.blurPx > 0.1 ? `blur(${env.blurPx.toFixed(2)}px)` : undefined,
+          }}>
+            {item.content}
+          </div>
         </div>
       );
+    }
     case "typewriter": {
       const chars = Math.floor(interpolate(f, [0, Math.max(1, item.durationInFrames * 0.45)], [0, item.content.length], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }));
       const caret = Math.floor(f / 8) % 2 === 0;
@@ -97,7 +146,7 @@ const StyledText: React.FC<{ item: TextItem; env: Env }> = ({ item, env }) => {
     case "highlight-marker": {
       const w = interpolate(f, [2, 14], [0, 100], { extrapolateLeft: "clamp", extrapolateRight: "clamp", easing: Easing.out(Easing.cubic) });
       return (
-        <div style={{ fontFamily: INTER, fontWeight: 800, fontSize: 68, color: BRAND.ink, lineHeight: 1.25, backgroundImage: `linear-gradient(${BRAND.accent}, ${BRAND.accent})`, backgroundRepeat: "no-repeat", backgroundSize: `${w}% 100%`, padding: "6px 18px", display: "inline" }}>
+        <div style={{ fontFamily: DISPLAY, fontWeight: 800, fontSize: pctH(5.6), letterSpacing: `${trackingEm(5.6)}em`, color: BRAND.ink, lineHeight: 1.25, backgroundImage: `linear-gradient(${BRAND.accent}, ${BRAND.accent})`, backgroundRepeat: "no-repeat", backgroundSize: `${w}% 100%`, padding: "6px 18px", display: "inline" }}>
           {item.content}
         </div>
       );
@@ -108,8 +157,8 @@ const StyledText: React.FC<{ item: TextItem; env: Env }> = ({ item, env }) => {
         <div style={{ display: "flex", alignItems: "stretch" }}>
           <div style={{ width: 12, background: BRAND.accent, transform: `scaleY(${enter})`, transformOrigin: "bottom" }} />
           <div style={{ padding: "14px 28px", background: "rgba(0,0,0,0.6)", clipPath: `inset(0 ${(1 - enter) * 100}% 0 0)` }}>
-            <div style={{ fontFamily: INTER, fontWeight: 800, fontSize: 46, color: "#fff" }}>{name}</div>
-            {role ? <div style={{ fontFamily: INTER, fontSize: 30, color: BRAND.muted }}>{role}</div> : null}
+            <div style={{ fontFamily: DISPLAY, fontWeight: 700, fontSize: pctH(3.8), color: BRAND.white, letterSpacing: `${trackingEm(3.8)}em` }}>{name}</div>
+            {role ? <div style={{ fontFamily: DISPLAY, fontWeight: 500, fontSize: pctH(2.2), color: BRAND.muted, letterSpacing: `${trackingEm(2.2, true)}em`, textTransform: "uppercase" }}>{role}</div> : null}
           </div>
         </div>
       );
@@ -121,33 +170,38 @@ const StyledText: React.FC<{ item: TextItem; env: Env }> = ({ item, env }) => {
       const p = interpolate(f, [0, Math.max(1, Math.min(40, item.durationInFrames * 0.5))], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp", easing: Easing.out(Easing.cubic) });
       const shown = Number.isFinite(num) ? (Number.isInteger(num) ? Math.round(num * p) : (num * p).toFixed(1)) : item.content;
       return (
-        <div style={{ fontFamily: BEBAS, fontSize: 220, lineHeight: 1, color: "#fff", textShadow: "0 10px 40px rgba(0,0,0,0.55)", fontVariantNumeric: "tabular-nums" }}>
+        <div style={{ fontFamily: DISPLAY, fontWeight: 900, fontSize: pctH(17), lineHeight: 0.95, color: BRAND.white, textShadow: scaledShadow(pctH(17), 0.5), fontVariantNumeric: "tabular-nums", letterSpacing: `${trackingEm(17)}em` }}>
           <span style={{ color: BRAND.accent }}>{prefix}</span>{shown}<span style={{ color: BRAND.accent }}>{suffix}</span>
         </div>
       );
     }
     case "caption-box":
       return (
-        <div style={{ fontFamily: INTER, fontWeight: 600, fontSize: 44, color: "#fff", background: "rgba(0,0,0,0.72)", padding: "18px 30px", borderRadius: 8, lineHeight: 1.3, transform: `translateY(${(1 - enter) * 30}px)` }}>
+        <div style={{ fontFamily: DISPLAY, fontWeight: 600, fontSize: pctH(4.4), color: BRAND.white, background: "rgba(0,0,0,0.72)", padding: "0.38em 0.62em", borderRadius: 8, lineHeight: 1.3, letterSpacing: `${trackingEm(4.4)}em`, transform: `translateY(${(1 - enter) * 0.3 + env.shiftEm}em)` }}>
           {item.content}
         </div>
       );
     case "outline-stroke":
       return (
-        <div style={{ fontFamily: BEBAS, fontSize: 130, lineHeight: 1, color: "transparent", WebkitTextStroke: "3px #fff", letterSpacing: 4, transform: `scale(${0.9 + 0.1 * enter})` }}>
+        <div style={{ fontFamily: DISPLAY, fontWeight: 900, fontSize: pctH(9.5), lineHeight: 1, color: "transparent", WebkitTextStroke: `${Math.max(2, Math.round(pctH(9.5) * 0.025))}px ${BRAND.white}`, letterSpacing: `${trackingEm(9.5)}em`, transform: `scale(${0.9 + 0.1 * enter})` }}>
           {item.content}
         </div>
       );
     case "gradient-fill":
       return (
-        <div style={{ fontFamily: BEBAS, fontSize: 120, lineHeight: 1, backgroundImage: `linear-gradient(90deg, ${BRAND.accent}, #FDE68A, #F97316)`, backgroundClip: "text", WebkitBackgroundClip: "text", color: "transparent", transform: `translateY(${(1 - enter) * 40}px)` }}>
+        <div style={{ fontFamily: DISPLAY, fontWeight: 900, fontSize: pctH(9), lineHeight: 1, letterSpacing: `${trackingEm(9)}em`, backgroundImage: `linear-gradient(90deg, ${BRAND.accent}, #FDE68A, #F97316)`, backgroundClip: "text", WebkitBackgroundClip: "text", color: "transparent", transform: `translateY(${(1 - enter) * 40}px)` }}>
           {item.content}
         </div>
       );
     case "slide-up-mask":
       return (
-        <div style={{ overflow: "hidden", padding: "4px 0" }}>
-          <div style={{ fontFamily: PLAYFAIR, fontWeight: 700, fontSize: 84, lineHeight: 1.1, color: "#fff", textShadow: "0 4px 20px rgba(0,0,0,0.5)", transform: `translateY(${(1 - enter) * 110}%)` }}>
+        <div style={{ overflow: "hidden", padding: "0.06em 0" }}>
+          <div style={{
+            fontFamily: DISPLAY, fontWeight: 700, fontSize: pctH(7.6), lineHeight: 1.1,
+            color: BRAND.white, textShadow: scaledShadow(pctH(7.6)),
+            letterSpacing: `${trackingEm(7.6)}em`,
+            transform: `translateY(${(1 - enter) * 110}%)`,
+          }}>
             {item.content}
           </div>
         </div>
@@ -158,7 +212,7 @@ const StyledText: React.FC<{ item: TextItem; env: Env }> = ({ item, env }) => {
         <WordByWord
           item={item}
           render={(w, p, i) => (
-            <span style={{ fontFamily: BEBAS, fontSize: 104, lineHeight: 1.05, color: i % 4 === 3 ? BRAND.accent : "#fff", textShadow: "0 6px 24px rgba(0,0,0,0.5)", display: "inline-block", opacity: p, transform: `scale(${0.6 + 0.4 * p})` }}>
+            <span style={{ fontFamily: DISPLAY, fontWeight: 800, fontSize: pctH(7.8), lineHeight: 1.05, letterSpacing: `${trackingEm(7.8)}em`, color: accentWord === i ? BRAND.accent : BRAND.white, textShadow: scaledShadow(pctH(7.8)), display: "inline-block", opacity: p, transform: `scale(${0.6 + 0.4 * p})` }}>
               {w}
             </span>
           )}

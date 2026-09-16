@@ -4,6 +4,7 @@ import { layoutFamily, msToFrame } from "../types.js";
 import type { Ctx, WorkShot } from "./model.js";
 import { strongestWord } from "./emphasis.js";
 import { verbatimRun } from "./shots.js";
+import { preset as stylePreset } from "./style.js";
 
 const WINDOW_FRAMES = 1800;   // rule 6: 60 s window
 const DENSITY_CAP = 0.5;
@@ -70,6 +71,24 @@ export function placeText(ctx: Ctx, shots: WorkShot[]): TextItem[] {
     items.push(item);
     ctx.log.log("P7", "text", `"${plan.text.content}" anchored #${anchor}, ${position}${reasons.length ? "; " + reasons.join("; ") : ""}`, { beatId: s.beatId, from, durationInFrames: dur });
   }
+  // rule 6b (new): ONE text system per film.
+  //
+  // The Director may assign a different style to every beat; a 2-minute film came back
+  // with six unrelated typographic systems (serif slide-up, condensed kinetic,
+  // monospace typewriter, outline, highlight, box). Professional work uses one system
+  // with varied INTENSITY. The preset names which styles are allowed; anything else is
+  // remapped to the film's dominant style rather than dropped, so the text survives.
+  const allowed = new Set(stylePreset(ctx.job.style_preset).typography.styles_allowed);
+  const counts = new Map<string, number>();
+  for (const t of items) if (allowed.has(t.style)) counts.set(t.style, (counts.get(t.style) ?? 0) + 1);
+  const dominant = [...counts.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))[0]?.[0]
+    ?? [...allowed][0] ?? "kinetic-bold";
+  for (const t of items) {
+    if (allowed.has(t.style)) continue;
+    ctx.log.log("P7", "style-unified", `${t.style} -> ${dominant} (not in this preset's system)`, { beatId: t.beatId });
+    t.style = dominant as typeof t.style;
+  }
+
   // rule 6: density cap, at most 50 % of beats in any 60 s window carry text; drop lowest importance first
   const beatShots = shots.filter((s) => s.kind === "beat" || s.kind === "split");
   let changed = true;

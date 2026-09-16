@@ -4,12 +4,12 @@ import type { BrollItem, MediaRef } from "../../types";
 import { MediaEl } from "../../util/media";
 import { MotionWrap, motionPlaybackRate } from "../motion/MotionWrap";
 import { BRAND, SAFE, clampBlur } from "../../util/brand";
-import { BEBAS, INTER, PLAYFAIR } from "../../util/fonts";
+import { BEBAS, INTER, DISPLAY } from "../../util/fonts";
 import { strHash } from "../../util/hash";
 
 export type LayoutProps = { item: BrollItem };
 
-export const FONTS = { INTER, BEBAS, PLAYFAIR };
+export const FONTS = { INTER, BEBAS, DISPLAY };
 export const safePx = (dim: number): number => Math.round(dim * SAFE);
 
 /** Media with the item's motion applied. */

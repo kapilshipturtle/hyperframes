@@ -73,18 +73,35 @@ export function itemStream(item: BrollItem, inputIndex: number, frames: number, 
     // Oversized prepared still (2560x1440): zoompan reads it directly and outputs 1920x1080; otherwise fit.
     const chain = zp ? `${zp},setsar=1` : fit;
     return {
-      input: { args: ["-loop", "1", "-framerate", String(FPS), "-t", dur, "-i", src] },
+      // A full extra second on the loop for the same reason as the video branch:
+      // trim=end_frame cuts back to exactly `frames`, so the headroom costs nothing.
+      input: { args: ["-loop", "1", "-framerate", String(FPS), "-t", framesToSeconds(frames + FPS), "-i", src] },
       filter: `[${inputIndex}:v]${chain},${tail}`,
     };
   }
   const startFrame = media.startFromFrame + skipFrames;
   const ss = startFrame > 0 ? ["-ss", framesToSeconds(startFrame)] : [];
-  // -t reads a little extra so decoder warm-up never starves the trim; tpad clones the last frame if the clip is short (never loops).
+  // -t reads a little extra so decoder warm-up never starves the trim.
   const readDur = framesToSeconds(frames + 6);
   const motion = zp ? `,${zp}` : "";
+  // tpad MUST be able to cover a source clip that is shorter than the shot.
+  //
+  // `stop_duration` was the shot's own length, which silently assumed the source is at
+  // least that long. A stock clip shorter than the shot therefore produced fewer than
+  // `frames` frames: zoompan (d=1) passes frames through 1:1 and never extends, tpad
+  // topped up only to `dur` measured from the padded stream's start, and
+  // trim=end_frame then cut the stream before the following xfade's offset — ffmpeg
+  // reports "Failed to configure output pad on Parsed_xfade_N" and exits 234.
+  //
+  // This was unreachable while shots were capped at 6 s (every prepared clip was long
+  // enough). Raising the cap to 14 s for deliberate holds made it reachable.
+  //
+  // Padding generously is free: trim=end_frame immediately cuts back to exactly
+  // `frames`, so the only cost is cloned frames that are then discarded.
+  const padDur = framesToSeconds(frames + FPS); // a full extra second of headroom
   return {
     input: { args: [...ss, "-t", readDur, "-i", src] },
-    filter: `[${inputIndex}:v]fps=${FPS},${fit}${motion},tpad=stop_mode=clone:stop_duration=${dur},${tail}`,
+    filter: `[${inputIndex}:v]fps=${FPS},${fit}${motion},tpad=stop_mode=clone:stop_duration=${padDur},${tail}`,
   };
 }
 

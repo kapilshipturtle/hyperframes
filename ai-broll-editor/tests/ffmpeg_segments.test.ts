@@ -68,7 +68,10 @@ describe("buildSegmentGraph", () => {
     const g = buildSegmentGraph(chunk, [a, b, c], grade, resolve);
     expect(g.inputs[0].args.slice(0, 2)).toEqual(["-f", "lavfi"]);
     expect(g.inputs[0].args.at(-1)).toContain("color=c=0x336699:s=1920x1080:r=30");
-    expect(g.inputs[1].args).toEqual(["-loop", "1", "-framerate", "30", "-t", "3.0", "-i", "/abs/prepared/b.jpg"]);
+    // 90 frames + 1 s of headroom. The source must be able to OUTLAST the shot:
+    // trim=end_frame cuts back to exactly 90, but a stream that ends early starves the
+    // following xfade ("Failed to configure output pad on Parsed_xfade_N").
+    expect(g.inputs[1].args).toEqual(["-loop", "1", "-framerate", "30", "-t", "4.0", "-i", "/abs/prepared/b.jpg"]);
     expect(g.filterComplex).toContain("zoompan=z='1.1200-0.1200*on/89':x='iw-iw/zoom':y='0'");
     expect(g.inputs[2].args.slice(0, 2)).toEqual(["-ss", "1.5"]);
     expect(zoompanFilter(item({ id: "z", from: 0, durationInFrames: 61, motion: { type: "ken-burns", zoom: 1.1 } }), 61)).toContain("z='1+0.1000*on/60'");
@@ -78,5 +81,31 @@ describe("buildSegmentGraph", () => {
     const chunk: Chunk = { id: "s", route: "ffmpeg", fromFrame: 100, toFrame: 199, hash: "h", brollIds: [] };
     const ids = itemsInChunk([item({ id: "late", from: 200, durationInFrames: 50 }), item({ id: "in", from: 150, durationInFrames: 50 }), item({ id: "early", from: 0, durationInFrames: 100 }), item({ id: "span", from: 90, durationInFrames: 60 })], chunk).map((i) => i.id);
     expect(ids).toEqual(["span", "in"]);
+  });
+});
+
+describe("short-source headroom", () => {
+  it("pads every stream past the shot so a short clip cannot starve an xfade", async () => {
+    const { itemStream } = await import("../scripts/ts/lib/ffmpeg_graph.js");
+    const mk = (kind: "video" | "image") => ({
+      id: "x", beatId: "b", sectionId: "s", from: 0, durationInFrames: 400,
+      route: "ffmpeg" as const, segmentId: "seg_0001", layout: "fullscreen-clip" as const,
+      media: [{ src: `prepared/x.${kind === "video" ? "mp4" : "jpg"}`, kind, startFromFrame: 0 }],
+      motion: { type: "none" as const }, transitionIn: { type: "cut" as const, durationInFrames: 0 },
+      credit: null,
+    });
+    // A 400-frame (13.3 s) hold — the length the raised beat cap now allows.
+    const vid = itemStream(mk("video") as never, 0, 400, 0, (s) => s);
+    expect(vid.filter).toMatch(/tpad=stop_mode=clone:stop_duration=/);
+    const padded = Number(/stop_duration=([\d.]+)/.exec(vid.filter)![1]);
+    expect(padded).toBeGreaterThan(400 / 30); // strictly longer than the shot itself
+
+    const img = itemStream(mk("image") as never, 0, 400, 0, (s) => s);
+    const loopDur = Number(img.input.args[img.input.args.indexOf("-t") + 1]);
+    expect(loopDur).toBeGreaterThan(400 / 30);
+
+    // and both still trim back to exactly the shot length
+    expect(vid.filter).toContain("trim=end_frame=400");
+    expect(img.filter).toContain("trim=end_frame=400");
   });
 });

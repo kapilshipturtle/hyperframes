@@ -100,3 +100,33 @@ describe("scrim", () => {
     expect(scrimGradient("bottom", 0.8)).toContain("rgba(0,0,0,0) 70%");
   });
 });
+
+describe("ffmpeg chain bounding", () => {
+  it("never chains more than MAX_FFMPEG_XFADES transitions per segment", async () => {
+    const { buildSegments, chunkSegments, MAX_FFMPEG_XFADES } = await import("../scripts/ts/brain/route.js");
+    type Any = Record<string, unknown>;
+    const items: Any[] = [];
+    let f = 0;
+    for (let i = 0; i < 12; i++) {
+      const T = i > 0 && i % 2 === 1 ? 12 : 0;
+      items.push({
+        id: `b_${i}`, beatId: `b_${i}`, sectionId: "s1", from: f - T, durationInFrames: 120 + T,
+        route: "ffmpeg", segmentId: "", layout: "fullscreen-clip",
+        media: [{ src: "x.mp4", kind: "video", startFromFrame: 0 }],
+        motion: { type: "none" }, transitionIn: { type: T ? "fade" : "cut", durationInFrames: T }, credit: null,
+      });
+      f += 120;
+    }
+    // Each xfade consumes T frames of overlap; a long chain leaves the accumulated
+    // stream shorter than the next offset and ffmpeg fails to configure the pad.
+    const segs = chunkSegments(buildSegments(items as never, f), items as never);
+    for (const s of segs) {
+      const inSeg = items.filter((it) => {
+        const c = (it.from as number) + ((it.transitionIn as Any).durationInFrames as number);
+        return c >= s.fromFrame && c <= s.toFrame;
+      });
+      const fades = inSeg.filter((it, k) => k > 0 && ((it.transitionIn as Any).durationInFrames as number) > 0).length;
+      expect(fades, `${s.id} chains ${fades} xfades`).toBeLessThanOrEqual(MAX_FFMPEG_XFADES);
+    }
+  });
+});

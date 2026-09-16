@@ -10,6 +10,15 @@ const FFMPEG_TRANSITIONS = new Set(["cut", "fade"]);
 const FFMPEG_MOTION = new Set(["none", "ken-burns", "slow-zoom-out"]);
 const FFMPEG_GRADES = new Set<Grade>(GRADES); // every grade in 16.5 has an FFmpeg pair
 export const MAX_REMOTION_CHUNK = 4000;
+/** Max xfade transitions chained into one FFmpeg filter_complex.
+ *
+ *  Each xfade consumes T frames of overlap, so a long chain leaves the accumulated
+ *  stream shorter than the next xfade's offset and ffmpeg fails with
+ *  "Failed to configure output pad on Parsed_xfade_N". This was latent while only ~22 %
+ *  of shots routed to FFmpeg (longest chain 3 items); raising that to ~68 % produced an
+ *  8-item chain and exposed it. Splitting at a hard cut costs one extra concat and
+ *  never breaks a transition. */
+export const MAX_FFMPEG_XFADES = 2;
 
 /** Route each broll item; the previous item's route matters for fade (both shots must be FFmpeg-routable, 11.7). */
 export function routeItems(items: BrollItem[], texts: TextItem[], gfx: MotionGfxItem[], log: PlacementLog): void {
@@ -63,6 +72,28 @@ export function chunkSegments(segs: Segment[], items: BrollItem[] = []): Segment
   const insideTransition = (b: number) => items.some((it) => it.transitionIn.durationInFrames > 0 && b > it.from && b < it.from + it.transitionIn.durationInFrames);
   for (const s of segs) {
     const len = s.toFrame - s.fromFrame + 1;
+    if (s.route === "ffmpeg") {
+      // Split a long FFmpeg run so no filter_complex chains more than
+      // MAX_FFMPEG_XFADES transitions. Boundaries land on HARD CUTS only.
+      const inSeg = items.filter((it) => {
+        const cut = it.from + it.transitionIn.durationInFrames;
+        return cut >= s.fromFrame && cut <= s.toFrame;
+      });
+      let fades = 0;
+      let from = s.fromFrame;
+      let emitted = false;
+      for (let i = 1; i < inSeg.length; i++) {
+        const it = inSeg[i];
+        const isFade = it.transitionIn.type !== "cut" && it.transitionIn.durationInFrames > 0;
+        if (isFade) { fades++; continue; }
+        if (fades >= MAX_FFMPEG_XFADES) {
+          const cut = it.from + it.transitionIn.durationInFrames;
+          out.push({ id: "", route: "ffmpeg", fromFrame: from, toFrame: cut - 1 });
+          from = cut; fades = 0; emitted = true;
+        }
+      }
+      if (emitted) { out.push({ id: "", route: "ffmpeg", fromFrame: from, toFrame: s.toFrame }); continue; }
+    }
     if (s.route === "remotion" && len > MAX_REMOTION_CHUNK) {
       const parts = Math.ceil(len / MAX_REMOTION_CHUNK);
       const step = Math.floor(len / parts / 30) * 30 || Math.floor(len / parts);

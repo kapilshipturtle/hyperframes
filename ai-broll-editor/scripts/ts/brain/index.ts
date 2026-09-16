@@ -22,6 +22,8 @@ import { SfxPack, sfxCandidates, scheduleSfx, MIN_GAP } from "./sfx.js";
 import { layoutMusic, parseRms, duckCurve } from "./music.js";
 import { routeItems, buildSegments, chunkSegments, hashChunks, assignSegmentIds } from "./route.js";
 import { fallbackPlan } from "./planner.js";
+import { planLongHold, markLayoutClock, reportRhythm } from "./rhythm.js";
+import { preset as stylePreset } from "./style.js";
 
 const here = path.dirname(fileURLToPath(import.meta.url));
 export const PACKAGE_ROOT = path.resolve(here, "..", "..", "..");
@@ -148,11 +150,17 @@ function compute(jobDir: string, inputs: ReturnType<typeof loadInputs>, log: Pla
   const cuts = cutPoints(ctx, beats);
   // P4 shots
   const shots = assignShots(ctx, cuts, parts);
+  // P4.5 rhythm: the two clocks (layout period, deliberate long hold). Must run BEFORE
+  // quantise so the hold survives frame-domain splitting.
+  const style = stylePreset(ctx.job.style_preset, (m) => log.warn(m));
+  planLongHold(ctx, shots, ctx.totalFrames);
+  markLayoutClock(ctx, shots, 30);
   // P5 transitions
   assignTransitions(ctx, shots);
   // P6 quantise
   quantiseShots(ctx, shots);
   enforceVariety(ctx, shots); // rule 5 after frame-domain splits/merges
+  reportRhythm(ctx, shots, ctx.totalFrames, style, 30);
   // P7 text
   const texts = placeText(ctx, shots);
   // P8 motion graphics
@@ -226,6 +234,8 @@ function toItem(ctx: Ctx, s: WorkShot): BrollItem {
 class InvariantError extends Error {}
 function assertInvariants(ctx: Ctx, tl: Timeline, shots: WorkShot[]): void {
   const fail = (code: string, msg: string) => { throw new InvariantError(`${code} violated: ${msg}`); };
+  const heldIds = new Set(shots.filter((s) => s.longHold).map((s) => s.id));
+  const holdCap = Math.max(0, ...shots.filter((s) => s.longHold).map((s) => s.longHoldTargetFrames ?? 0));
   const b = tl.tracks.broll;
   const cut = (it: BrollItem) => it.from + it.transitionIn.durationInFrames;
   const net = (it: BrollItem) => it.durationInFrames - it.transitionIn.durationInFrames;
@@ -236,7 +246,10 @@ function assertInvariants(ctx: Ctx, tl: Timeline, shots: WorkShot[]): void {
   if (b.reduce((a, it) => a + net(it), 0) !== tl.durationInFrames) fail("I1", "sum of net durations != durationInFrames");
   // I2 bounds
   for (const it of b) {
-    if (net(it) < MIN_SHOT_FRAMES || net(it) > MAX_SHOT_FRAMES) fail("I2", `${it.id} net ${net(it)} frames`);
+    // The deliberate long hold is exempt from the upper bound by design (law 2).
+    const isHold = heldIds.has(it.id);
+    const upper = isHold ? Math.max(MAX_SHOT_FRAMES, holdCap) : MAX_SHOT_FRAMES;
+    if (net(it) < MIN_SHOT_FRAMES || net(it) > upper) fail("I2", `${it.id} net ${net(it)} frames`);
     if (it.tier === "y2" && it.durationInFrames > MAX_Y2_FRAMES) fail("I2", `${it.id} Y2 ${it.durationInFrames} frames > ${MAX_Y2_FRAMES}`);
   }
   // I3 transition completes at the cut frame; durations within family range; overlap fits in the previous shot

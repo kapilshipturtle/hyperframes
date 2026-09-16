@@ -5,7 +5,19 @@ import path from "node:path";
 import type { Beat, Beats, Section, SectionKind, Transcript, Word } from "./types.js";
 
 export const MIN = 1500;
-export const MAX = 6000;
+// Beats may run to 14 s. The old 6 s cap made a deliberate long hold architecturally
+// IMPOSSIBLE: measured long-form editing puts one 30-60 s hold at 72-92 % of runtime
+// (scaled to ~9 % of runtime for short films), and every professional documentary
+// profile wants a p90 shot of 7-14 s. A 6 s ceiling forces uniform medium-speed
+// cutting, which is the texture of an assembled video rather than an edited one.
+//
+// Beats near the top of this range are rare by construction — splitLong only leaves a
+// long beat when there is no clause boundary to split on, which is exactly the
+// sentence that deserves to breathe.
+export const MAX = 14000;
+// Above this, a beat is split even without a clause boundary: past ~14 s a single
+// stock shot has nothing left to show.
+export const HARD_MAX = 14000;
 export const GAP_SPLIT = 350;
 export const CONJ = new Set(["and", "but", "because", "so", "which", "while", "then", "or", "when", "although", "however", "since"]);
 

@@ -1,0 +1,94 @@
+{
+  "_comment": "Editing style presets. Researched 2026-09-16. Every field is tagged in _evidence: 'measured' = frame-by-frame study, 'standard' = published spec, 'knob' = unpublished craft folklore, tune against your own corpus. NEVER present a 'knob' value as fact.",
+  "_laws": {
+    "_comment": "Cross-cutting laws measured across MKBHD/Fireship/Hormozi/22-video corpus (writepanda.ai). These apply to EVERY preset and are the difference between 'cuts a lot' and 'edited'.",
+    "layout_period_seconds": [20, 40],
+    "layout_period_note": "Layout/framing family alternates on its own clock, INDEPENDENT of shot length. A pipeline with only one clock reads generic no matter how good each shot is.",
+    "long_hold": { "duration_s": [12, 30], "position_pct": [0.72, 0.92], "count": 1 },
+    "long_hold_note": "Measured value is 30-60s at 72-92% of runtime. Clamped to 12-30s here because our films are ~2 min, where a 45s hold is a third of the video. Scale with runtime.",
+    "hook": { "cuts_in_first_30s": [10, 18], "then": "settle to body rate" },
+    "tail": { "cuts_in_last_30s": [2, 5] }
+  },
+  "presets": {
+    "documentary": {
+      "label": "Documentary — measured house profile",
+      "_evidence": { "pacing": "measured (repo corpus, ci/documentary-broll)", "craft": "standard", "budgets": "knob" },
+      "pacing": {
+        "beat_s": [3.0, 12.0],
+        "cuts_per_min": [6, 14],
+        "median_shot_s": [3.5, 7.0],
+        "p90_shot_s": [7, 14],
+        "cutting_swing_min_s": 2.2
+      },
+      "dynamic_profile": { "hook_cpm": 16, "body_cpm": 10, "tail_cpm": 5 },
+      "motion": {
+        "static_share": [0.30, 0.40],
+        "max_rate_pct_per_s": 4.0,
+        "drift_pct_per_s": [0.6, 0.9],
+        "ken_burns_pct_per_s": [1.5, 3.0],
+        "video_gets_motion_only_if_held_s": 8.0
+      },
+      "transitions": { "soft_share": [0.08, 0.20], "types": ["fade", "luma-dissolve"], "duration_frames": [12, 20] },
+      "typography": {
+        "family": "Archivo",
+        "case": "sentence",
+        "text_pct": "#F5F3EF",
+        "ink": "#12100E",
+        "accent": "#E4552B",
+        "accent_max_share_of_shots": 0.20,
+        "size_pct_h": { "key_phrase": [7.5, 9.0], "stat": [14, 20], "stat_label": [2.2, 2.8], "chapter": [9, 12], "lower_third": [3.5, 4.2], "caption": [4, 5], "credit": [1.4, 1.7] },
+        "styles_allowed": ["kinetic-bold", "caption-box", "lower-third-name", "big-number"]
+      },
+      "texture": { "grain": 0.03, "vignette": true, "lift_black_ire": 2.5 },
+      "negative_constraints": ["no serif display type", "max 2 text styles per film", "no split-screen without a comparison reason", "no transition on more than 20% of cuts"]
+    },
+    "explainer-fast": {
+      "label": "Retention explainer — footage-driven",
+      "_evidence": { "pacing": "measured (repo corpus + Fireship study)", "craft": "standard", "budgets": "knob" },
+      "pacing": { "beat_s": [1.6, 6.0], "cuts_per_min": [12, 19], "median_shot_s": [2.0, 4.0], "p90_shot_s": [4, 9], "cutting_swing_min_s": 1.6 },
+      "dynamic_profile": { "hook_cpm": 24, "body_cpm": 16, "tail_cpm": 8 },
+      "motion": { "static_share": [0.25, 0.35], "max_rate_pct_per_s": 5.0, "drift_pct_per_s": [0.8, 1.2], "ken_burns_pct_per_s": [2.0, 3.5], "video_gets_motion_only_if_held_s": 6.0 },
+      "transitions": { "soft_share": [0.05, 0.12], "types": ["fade", "whip-pan", "zoom-punch"], "duration_frames": [6, 14] },
+      "typography": {
+        "family": "Archivo", "case": "upper", "text_pct": "#FFFFFF", "ink": "#101010", "accent": "#F2B01E",
+        "accent_max_share_of_shots": 0.25,
+        "size_pct_h": { "key_phrase": [8, 10], "stat": [16, 22], "stat_label": [2.2, 2.8], "chapter": [10, 13], "lower_third": [3.5, 4.2], "caption": [4.5, 5.5], "credit": [1.4, 1.7] },
+        "styles_allowed": ["kinetic-bold", "word-by-word-pop", "big-number"]
+      },
+      "texture": { "grain": 0.02, "vignette": true, "lift_black_ire": 1.5 },
+      "negative_constraints": ["no serif display type", "max 2 text styles per film", "no dissolve longer than 14 frames"]
+    },
+    "cinematic-journalist": {
+      "label": "Cinematic journalist — texture-forward (Johnny Harris lineage)",
+      "_evidence": { "pacing": "knob (no published measurement)", "craft": "standard", "texture": "knob" },
+      "pacing": { "beat_s": [2.5, 14.0], "cuts_per_min": [8, 15], "median_shot_s": [3.0, 6.0], "p90_shot_s": [8, 16], "cutting_swing_min_s": 2.6 },
+      "dynamic_profile": { "hook_cpm": 18, "body_cpm": 11, "tail_cpm": 4 },
+      "motion": { "static_share": [0.30, 0.40], "max_rate_pct_per_s": 4.0, "drift_pct_per_s": [0.6, 1.0], "ken_burns_pct_per_s": [1.5, 3.0], "video_gets_motion_only_if_held_s": 8.0 },
+      "transitions": { "soft_share": [0.10, 0.22], "types": ["fade", "luma-dissolve", "whip-pan"], "duration_frames": [10, 18] },
+      "typography": {
+        "family": "Archivo", "case": "upper", "text_pct": "#F5F3EF", "ink": "#12100E", "accent": "#E4552B",
+        "accent_max_share_of_shots": 0.18,
+        "size_pct_h": { "key_phrase": [7, 9], "stat": [14, 20], "stat_label": [2.2, 2.8], "chapter": [9, 12], "lower_third": [3.5, 4.2], "caption": [4, 5], "credit": [1.4, 1.7] },
+        "styles_allowed": ["kinetic-bold", "caption-box", "lower-third-name"]
+      },
+      "texture": { "grain": 0.045, "vignette": true, "lift_black_ire": 3.0, "halation": 0.10 },
+      "negative_constraints": ["no serif display type", "max 2 text styles per film", "texture must be global, never per-shot"]
+    },
+    "clean-minimal": {
+      "label": "Clean minimal — map/data explainer (Wendover lineage)",
+      "_evidence": { "pacing": "knob", "craft": "standard" },
+      "pacing": { "beat_s": [3.0, 14.0], "cuts_per_min": [6, 11], "median_shot_s": [4.5, 7.5], "p90_shot_s": [10, 17], "cutting_swing_min_s": 2.8 },
+      "dynamic_profile": { "hook_cpm": 12, "body_cpm": 8, "tail_cpm": 4 },
+      "motion": { "static_share": [0.35, 0.45], "max_rate_pct_per_s": 3.0, "drift_pct_per_s": [0.5, 0.8], "ken_burns_pct_per_s": [1.2, 2.2], "video_gets_motion_only_if_held_s": 10.0 },
+      "transitions": { "soft_share": [0.05, 0.14], "types": ["fade"], "duration_frames": [12, 18] },
+      "typography": {
+        "family": "Inter", "case": "sentence", "text_pct": "#F7F7F5", "ink": "#14161A", "accent": "#2E7DD1",
+        "accent_max_share_of_shots": 0.15,
+        "size_pct_h": { "key_phrase": [6.5, 8], "stat": [13, 18], "stat_label": [2.0, 2.6], "chapter": [8, 11], "lower_third": [3.2, 4.0], "caption": [4, 5], "credit": [1.4, 1.7] },
+        "styles_allowed": ["caption-box", "lower-third-name", "big-number"]
+      },
+      "texture": { "grain": 0.0, "vignette": false, "lift_black_ire": 0.0 },
+      "negative_constraints": ["NO grain", "NO vignette", "NO texture of any kind — cleanliness IS the style", "no serif display type", "max 2 text styles per film"]
+    }
+  }
+}

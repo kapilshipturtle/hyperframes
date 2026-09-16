@@ -9,7 +9,9 @@ export const msToFrame = (ms: number): number => Math.round((ms / 1000) * FPS);
 export const frameToMs = (f: number): number => Math.round((f / FPS) * 1000);
 
 export const MIN_SHOT_FRAMES = 45;
-export const MAX_SHOT_FRAMES = 180;
+// 14 s at 30 fps. Raised from 180 (6 s) so a deliberate hold is representable at all —
+// see the note on MAX in segment.ts. The Brain still splits anything longer.
+export const MAX_SHOT_FRAMES = 420;
 export const MAX_Y2_FRAMES = 149;
 
 // ---------- transcript.json ----------

@@ -67,7 +67,14 @@ function reuseOk(shots: WorkShot[], assetId: string, from: number, to: number, b
   return beats.size < 2 || beats.has(beatId);
 }
 
-function maxFor(s: WorkShot): number { return s.asset?.tier === "y2" ? MAX_Y2_FRAMES - s.transitionIn.durationInFrames : MAX_SHOT_FRAMES; }
+function maxFor(s: WorkShot): number {
+  // The film's one deliberate hold is allowed to run to its target: splitting it would
+  // undo the very thing it exists to do (law 2, the deliberate slow-down).
+  if (s.longHold && s.longHoldTargetFrames) {
+    return Math.max(s.longHoldTargetFrames, MAX_SHOT_FRAMES);
+  }
+  return s.asset?.tier === "y2" ? MAX_Y2_FRAMES - s.transitionIn.durationInFrames : MAX_SHOT_FRAMES;
+}
 
 /** P6 on WorkShots: quantise, enforce 45..180 (Y2 45..149), set from/durationInFrames, freeze frames, Ken Burns peaks. */
 export function quantiseShots(ctx: Ctx, shots: WorkShot[]): WorkShot[] {

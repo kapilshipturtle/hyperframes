@@ -37,11 +37,11 @@
       {
         "beatId": "b_0001",
         "credit": null,
-        "durationInFrames": 72,
-        "from": 61,
+        "durationInFrames": 194,
+        "from": 59,
         "grade": "muted-documentary",
         "id": "b_0001",
-        "keyPhrase": "Today we",
+        "keyPhrase": "container changed",
         "layout": "typographic-card",
         "media": [],
         "motion": {
@@ -51,20 +51,21 @@
         "sectionId": "sec_01",
         "segmentId": "seg_0001",
         "transitionIn": {
-          "durationInFrames": 16,
+          "durationInFrames": 18,
           "type": "fade"
         }
       },
       {
         "beatId": "b_0002",
         "credit": null,
-        "durationInFrames": 150,
-        "from": 133,
+        "durationInFrames": 216,
+        "from": 253,
         "grade": "muted-documentary",
         "id": "b_0002",
         "layout": "fullscreen-clip",
         "media": [
           {
+            "freezeAfterFrame": 191,
             "kind": "video",
             "src": "assets/0002.mp4",
             "startFromFrame": 0
@@ -85,20 +86,21 @@
       {
         "beatId": "b_0003",
         "credit": null,
-        "durationInFrames": 121,
-        "from": 268,
+        "durationInFrames": 257,
+        "from": 454,
         "grade": "muted-documentary",
         "id": "b_0003",
         "layout": "fullscreen-clip",
         "media": [
           {
+            "freezeAfterFrame": 191,
             "kind": "video",
             "src": "assets/0003.mp4",
             "startFromFrame": 0
           }
         ],
         "motion": {
-          "peakFrame": 26,
+          "peakFrame": 127,
           "to": "top-right",
           "type": "ken-burns",
           "zoom": 1.12
@@ -113,40 +115,10 @@
         }
       },
       {
-        "beatId": "b_0003",
-        "credit": null,
-        "durationInFrames": 80,
-        "from": 389,
-        "grade": "muted-documentary",
-        "id": "b_0003-b",
-        "layout": "fullscreen-image-kenburns",
-        "media": [
-          {
-            "kind": "image",
-            "src": "assets/0003b.jpg",
-            "startFromFrame": 0
-          }
-        ],
-        "motion": {
-          "peakFrame": 3,
-          "to": "center",
-          "type": "ken-burns",
-          "zoom": 1.08
-        },
-        "route": "ffmpeg",
-        "sectionId": "sec_01",
-        "segmentId": "seg_0004",
-        "tier": "stock",
-        "transitionIn": {
-          "durationInFrames": 0,
-          "type": "cut"
-        }
-      },
-      {
         "beatId": "b_0004",
         "credit": null,
-        "durationInFrames": 109,
-        "from": 469,
+        "durationInFrames": 235,
+        "from": 711,
         "grade": "muted-documentary",
         "id": "b_0004",
         "layout": "pip-over-blur",
@@ -159,14 +131,14 @@
           }
         ],
         "motion": {
-          "peakFrame": 89,
+          "peakFrame": 76,
           "to": "center",
           "type": "ken-burns",
           "zoom": 1.11
         },
         "route": "remotion",
         "sectionId": "sec_01",
-        "segmentId": "seg_0005",
+        "segmentId": "seg_0003",
         "tier": "stock",
         "transitionIn": {
           "durationInFrames": 0,
@@ -176,11 +148,11 @@
       {
         "beatId": "b_0005",
         "credit": null,
-        "durationInFrames": 147,
-        "from": 564,
+        "durationInFrames": 187,
+        "from": 932,
         "grade": "muted-documentary",
         "id": "b_0005",
-        "keyPhrase": "by hand",
+        "keyPhrase": "97 percent",
         "layout": "typographic-card",
         "media": [],
         "motion": {
@@ -188,7 +160,7 @@
         },
         "route": "remotion",
         "sectionId": "sec_01",
-        "segmentId": "seg_0005",
+        "segmentId": "seg_0003",
         "transitionIn": {
           "durationInFrames": 14,
           "type": "fade"
@@ -197,8 +169,8 @@
       {
         "beatId": "b_0006",
         "credit": null,
-        "durationInFrames": 73,
-        "from": 711,
+        "durationInFrames": 217,
+        "from": 1119,
         "grade": "muted-documentary",
         "id": "b_0006",
         "layout": "fullscreen-image-kenburns",
@@ -210,14 +182,14 @@
           }
         ],
         "motion": {
-          "peakFrame": 56,
+          "peakFrame": 98,
           "to": "top-left",
           "type": "ken-burns",
           "zoom": 1.1600000000000001
         },
         "route": "ffmpeg",
         "sectionId": "sec_01",
-        "segmentId": "seg_0006",
+        "segmentId": "seg_0004",
         "tier": "stock",
         "transitionIn": {
           "durationInFrames": 0,
@@ -230,13 +202,14 @@
           "corner": "bottom-right",
           "text": "Photo: Author 0007, Wikimedia Commons, CC BY-SA 4.0"
         },
-        "durationInFrames": 172,
-        "from": 774,
+        "durationInFrames": 232,
+        "from": 1326,
         "grade": "muted-documentary",
         "id": "b_0007",
         "layout": "stat-counter",
         "media": [
           {
+            "freezeAfterFrame": 191,
             "kind": "video",
             "src": "assets/0007.mp4",
             "startFromFrame": 0
@@ -247,7 +220,7 @@
         },
         "route": "remotion",
         "sectionId": "sec_01",
-        "segmentId": "seg_0007",
+        "segmentId": "seg_0005",
         "stat": {
           "countFrames": 60,
           "label": "cost per ton",
@@ -264,11 +237,11 @@
       {
         "beatId": "b_0008",
         "credit": null,
-        "durationInFrames": 186,
-        "from": 933,
+        "durationInFrames": 177,
+        "from": 1545,
         "grade": "muted-documentary",
         "id": "b_0008",
-        "layout": "stat-counter",
+        "layout": "fullscreen-clip",
         "media": [
           {
             "kind": "video",
@@ -281,13 +254,7 @@
         },
         "route": "remotion",
         "sectionId": "sec_01",
-        "segmentId": "seg_0007",
-        "stat": {
-          "countFrames": 60,
-          "label": "97 percent drop",
-          "suffix": "%",
-          "value": 97
-        },
+        "segmentId": "seg_0005",
         "tier": "stock",
         "transitionIn": {
           "direction": "from-left",
@@ -298,13 +265,14 @@
       {
         "beatId": "b_0009",
         "credit": null,
-        "durationInFrames": 48,
-        "from": 1119,
+        "durationInFrames": 210,
+        "from": 1722,
         "grade": "muted-documentary",
         "id": "b_0009",
         "layout": "fullscreen-clip",
         "media": [
           {
+            "freezeAfterFrame": 191,
             "kind": "video",
             "src": "assets/0009.mp4",
             "startFromFrame": 0
@@ -315,7 +283,7 @@
         },
         "route": "ffmpeg",
         "sectionId": "sec_01",
-        "segmentId": "seg_0008",
+        "segmentId": "seg_0006",
         "tier": "stock",
         "transitionIn": {
           "durationInFrames": 0,
@@ -325,8 +293,8 @@
       {
         "beatId": "b_0010",
         "credit": null,
-        "durationInFrames": 169,
-        "from": 1167,
+        "durationInFrames": 253,
+        "from": 1932,
         "grade": "muted-documentary",
         "gridLabels": [
           "Rotterdam",
@@ -337,6 +305,7 @@
         "layout": "grid-2",
         "media": [
           {
+            "freezeAfterFrame": 191,
             "kind": "video",
             "label": "Rotterdam",
             "src": "assets/0010.mp4",
@@ -354,7 +323,7 @@
         },
         "route": "remotion",
         "sectionId": "sec_01",
-        "segmentId": "seg_0009",
+        "segmentId": "seg_0007",
         "tier": "stock",
         "transitionIn": {
           "durationInFrames": 0,
@@ -364,8 +333,8 @@
       {
         "beatId": "b_0011",
         "credit": null,
-        "durationInFrames": 113,
-        "from": 1318,
+        "durationInFrames": 208,
+        "from": 2167,
         "grade": "muted-documentary",
         "id": "b_0011",
         "layout": "pip-over-blur",
@@ -378,14 +347,14 @@
           }
         ],
         "motion": {
-          "peakFrame": 43,
+          "peakFrame": 164,
           "to": "top-right",
           "type": "ken-burns",
           "zoom": 1.08
         },
         "route": "remotion",
         "sectionId": "sec_01",
-        "segmentId": "seg_0009",
+        "segmentId": "seg_0007",
         "tier": "stock",
         "transitionIn": {
           "durationInFrames": 18,
@@ -393,62 +362,29 @@
         }
       },
       {
-        "beatId": "b_0011",
-        "credit": null,
-        "durationInFrames": 127,
-        "from": 1431,
-        "grade": "muted-documentary",
-        "id": "b_0011-b",
-        "layout": "fullscreen-clip",
-        "media": [
-          {
-            "kind": "video",
-            "src": "assets/0011b.mp4",
-            "startFromFrame": 0
-          }
-        ],
-        "motion": {
-          "type": "none"
-        },
-        "route": "remotion",
-        "sectionId": "sec_01",
-        "segmentId": "seg_0009",
-        "tier": "stock",
-        "transitionIn": {
-          "durationInFrames": 0,
-          "type": "cut"
-        }
-      },
-      {
         "beatId": "b_0012",
         "credit": null,
-        "durationInFrames": 178,
-        "from": 1544,
+        "durationInFrames": 257,
+        "from": 2361,
         "grade": "muted-documentary",
-        "gridLabels": [
-          "Railways,",
-          "truckers",
-          "and"
-        ],
         "gridStaggerFrames": 10,
         "id": "b_0012",
         "layout": "grid-3",
         "media": [
           {
+            "freezeAfterFrame": 191,
             "kind": "video",
-            "label": "Railways,",
             "src": "assets/0012.mp4",
             "startFromFrame": 0
           },
           {
             "kind": "image",
-            "label": "truckers",
             "src": "assets/0012b.jpg",
             "startFromFrame": 0
           },
           {
+            "freezeAfterFrame": 191,
             "kind": "video",
-            "label": "and",
             "src": "assets/0012c.mp4",
             "startFromFrame": 0
           }
@@ -458,7 +394,7 @@
         },
         "route": "remotion",
         "sectionId": "sec_01",
-        "segmentId": "seg_0009",
+        "segmentId": "seg_0007",
         "tier": "stock",
         "transitionIn": {
           "durationInFrames": 14,
@@ -468,13 +404,14 @@
       {
         "beatId": "b_0013",
         "credit": null,
-        "durationInFrames": 126,
-        "from": 1722,
+        "durationInFrames": 220,
+        "from": 2618,
         "grade": "muted-documentary",
         "id": "b_0013",
         "layout": "fullscreen-clip",
         "media": [
           {
+            "freezeAfterFrame": 191,
             "kind": "video",
             "src": "assets/0013.mp4",
             "startFromFrame": 0
@@ -485,7 +422,7 @@
         },
         "route": "ffmpeg",
         "sectionId": "sec_01",
-        "segmentId": "seg_0010",
+        "segmentId": "seg_0008",
         "tier": "stock",
         "transitionIn": {
           "durationInFrames": 0,
@@ -495,11 +432,11 @@
       {
         "beatId": "b_0014",
         "credit": null,
-        "durationInFrames": 149,
-        "from": 1831,
+        "durationInFrames": 201,
+        "from": 2821,
         "grade": "muted-documentary",
         "id": "b_0014",
-        "keyPhrase": "and 40",
+        "keyPhrase": "these boxes",
         "layout": "typographic-card",
         "media": [],
         "motion": {
@@ -507,7 +444,7 @@
         },
         "route": "remotion",
         "sectionId": "sec_01",
-        "segmentId": "seg_0011",
+        "segmentId": "seg_0009",
         "transitionIn": {
           "durationInFrames": 17,
           "type": "fade"
@@ -515,9 +452,30 @@
       },
       {
         "beatId": "b_0015",
+        "cardTitle": "Winners and Losers",
         "credit": null,
-        "durationInFrames": 87,
-        "from": 1980,
+        "durationInFrames": 90,
+        "from": 3006,
+        "grade": "muted-documentary",
+        "id": "b_0015-card",
+        "layout": "chapter-card",
+        "media": [],
+        "motion": {
+          "type": "none"
+        },
+        "route": "remotion",
+        "sectionId": "sec_02",
+        "segmentId": "seg_0009",
+        "transitionIn": {
+          "durationInFrames": 16,
+          "type": "fade"
+        }
+      },
+      {
+        "beatId": "b_0015",
+        "credit": null,
+        "durationInFrames": 81,
+        "from": 3096,
         "grade": "muted-documentary",
         "id": "b_0015",
         "layout": "fullscreen-clip",
@@ -532,8 +490,8 @@
           "type": "none"
         },
         "route": "ffmpeg",
-        "sectionId": "sec_01",
-        "segmentId": "seg_0012",
+        "sectionId": "sec_02",
+        "segmentId": "seg_0010",
         "tier": "stock",
         "transitionIn": {
           "durationInFrames": 0,
@@ -543,8 +501,8 @@
       {
         "beatId": "b_0016",
         "credit": null,
-        "durationInFrames": 124,
-        "from": 2061,
+        "durationInFrames": 192,
+        "from": 3177,
         "grade": "muted-documentary",
         "id": "b_0016",
         "layout": "fullscreen-clip",
@@ -556,75 +514,43 @@
           }
         ],
         "motion": {
-          "type": "handheld"
+          "peakFrame": 121,
+          "to": "center",
+          "type": "ken-burns",
+          "zoom": 1.1
         },
         "route": "remotion",
-        "sectionId": "sec_01",
-        "segmentId": "seg_0013",
+        "sectionId": "sec_02",
+        "segmentId": "seg_0011",
         "tier": "stock",
         "transitionIn": {
-          "direction": "from-right",
-          "durationInFrames": 6,
-          "type": "whip-pan"
+          "durationInFrames": 0,
+          "type": "cut"
         }
       },
       {
         "beatId": "b_0017",
         "credit": null,
-        "durationInFrames": 161,
-        "from": 2167,
+        "durationInFrames": 225,
+        "from": 3369,
         "grade": "muted-documentary",
         "id": "b_0017",
-        "layout": "stat-counter",
+        "layout": "fullscreen-clip",
         "media": [
           {
+            "freezeAfterFrame": 191,
             "kind": "video",
             "src": "assets/0017.mp4",
             "startFromFrame": 0
           }
         ],
         "motion": {
-          "type": "none"
+          "type": "slow-zoom-out",
+          "zoom": 1.07
         },
-        "route": "remotion",
-        "sectionId": "sec_01",
-        "segmentId": "seg_0013",
-        "stat": {
-          "countFrames": 60,
-          "label": "700 percent",
-          "suffix": "%",
-          "value": 700
-        },
-        "tier": "stock",
-        "transitionIn": {
-          "durationInFrames": 18,
-          "type": "fade"
-        }
-      },
-      {
-        "beatId": "b_0017",
-        "credit": null,
-        "durationInFrames": 47,
-        "from": 2328,
-        "grade": "muted-documentary",
-        "id": "b_0017-b",
-        "layout": "fullscreen-image-kenburns",
-        "media": [
-          {
-            "kind": "image",
-            "src": "assets/0017b.jpg",
-            "startFromFrame": 0
-          }
-        ],
-        "motion": {
-          "peakFrame": 3,
-          "to": "center",
-          "type": "ken-burns",
-          "zoom": 1.08
-        },
-        "route": "remotion",
-        "sectionId": "sec_01",
-        "segmentId": "seg_0013",
+        "route": "ffmpeg",
+        "sectionId": "sec_02",
+        "segmentId": "seg_0012",
         "tier": "stock",
         "transitionIn": {
           "durationInFrames": 0,
@@ -634,11 +560,11 @@
       {
         "beatId": "b_0018",
         "credit": null,
-        "durationInFrames": 178,
-        "from": 2363,
+        "durationInFrames": 143,
+        "from": 3594,
         "grade": "muted-documentary",
         "id": "b_0018",
-        "layout": "quote-card",
+        "layout": "pip-over-blur",
         "media": [
           {
             "kind": "image",
@@ -648,32 +574,28 @@
           }
         ],
         "motion": {
-          "peakFrame": 125,
-          "to": "bottom",
+          "peakFrame": 112,
+          "to": "center",
           "type": "ken-burns",
-          "zoom": 1.12
-        },
-        "quote": {
-          "attribution": "Marc Levinson",
-          "text": "the box made the world smaller and the economy bigger"
+          "zoom": 1.1
         },
         "route": "remotion",
-        "sectionId": "sec_01",
+        "sectionId": "sec_02",
         "segmentId": "seg_0013",
         "tier": "stock",
         "transitionIn": {
-          "durationInFrames": 12,
-          "type": "luma-dissolve"
+          "durationInFrames": 0,
+          "type": "cut"
         }
       },
       {
         "beatId": "b_0019",
         "credit": null,
-        "durationInFrames": 91,
-        "from": 2527,
+        "durationInFrames": 202,
+        "from": 3737,
         "grade": "muted-documentary",
         "id": "b_0019",
-        "layout": "fullscreen-image-kenburns",
+        "layout": "stat-counter",
         "media": [
           {
             "kind": "image",
@@ -682,421 +604,38 @@
           }
         ],
         "motion": {
-          "peakFrame": 59,
+          "peakFrame": 19,
           "to": "bottom-left",
           "type": "ken-burns",
           "zoom": 1.1400000000000001
         },
         "route": "remotion",
-        "sectionId": "sec_01",
+        "sectionId": "sec_02",
         "segmentId": "seg_0013",
+        "stat": {
+          "countFrames": 60,
+          "suffix": "%",
+          "value": 90
+        },
         "tier": "stock",
         "transitionIn": {
-          "durationInFrames": 14,
-          "type": "fade"
+          "durationInFrames": 0,
+          "type": "cut"
         }
       },
       {
         "beatId": "b_0020",
         "credit": null,
-        "durationInFrames": 72,
-        "from": 2618,
+        "durationInFrames": 234,
+        "from": 3939,
         "grade": "muted-documentary",
         "id": "b_0020",
         "layout": "fullscreen-clip",
         "media": [
           {
+            "freezeAfterFrame": 191,
             "kind": "video",
             "src": "assets/0020.mp4",
-            "startFromFrame": 0
-          }
-        ],
-        "motion": {
-          "type": "none"
-        },
-        "route": "ffmpeg",
-        "sectionId": "sec_01",
-        "segmentId": "seg_0014",
-        "tier": "stock",
-        "transitionIn": {
-          "durationInFrames": 0,
-          "type": "cut"
-        }
-      },
-      {
-        "beatId": "b_0021",
-        "credit": null,
-        "durationInFrames": 148,
-        "from": 2690,
-        "grade": "muted-documentary",
-        "gridLabels": [
-          "Laptop",
-          "Phone",
-          "Notes"
-        ],
-        "gridStaggerFrames": 10,
-        "id": "b_0021",
-        "layout": "grid-3",
-        "media": [
-          {
-            "kind": "image",
-            "label": "Laptop",
-            "src": "assets/0021.jpg",
-            "startFromFrame": 0
-          },
-          {
-            "kind": "image",
-            "label": "Phone",
-            "src": "assets/0021b.jpg",
-            "startFromFrame": 0
-          },
-          {
-            "kind": "video",
-            "label": "Notes",
-            "src": "assets/0021c.mp4",
-            "startFromFrame": 0
-          }
-        ],
-        "motion": {
-          "peakFrame": 61,
-          "to": "bottom-left",
-          "type": "ken-burns",
-          "zoom": 1.07
-        },
-        "route": "remotion",
-        "sectionId": "sec_01",
-        "segmentId": "seg_0015",
-        "tier": "stock",
-        "transitionIn": {
-          "durationInFrames": 0,
-          "type": "cut"
-        }
-      },
-      {
-        "beatId": "b_0022",
-        "credit": null,
-        "durationInFrames": 139,
-        "from": 2825,
-        "grade": "muted-documentary",
-        "id": "b_0022",
-        "layout": "fullscreen-image-kenburns",
-        "media": [
-          {
-            "kind": "image",
-            "src": "assets/0022.jpg",
-            "startFromFrame": 0
-          }
-        ],
-        "motion": {
-          "peakFrame": 62,
-          "to": "top",
-          "type": "ken-burns",
-          "zoom": 1.08
-        },
-        "route": "remotion",
-        "sectionId": "sec_01",
-        "segmentId": "seg_0015",
-        "tier": "stock",
-        "transitionIn": {
-          "durationInFrames": 13,
-          "type": "luma-dissolve"
-        }
-      },
-      {
-        "beatId": "b_0022",
-        "credit": null,
-        "durationInFrames": 58,
-        "from": 2964,
-        "grade": "muted-documentary",
-        "id": "b_0022-b",
-        "layout": "fullscreen-image-kenburns",
-        "media": [
-          {
-            "kind": "image",
-            "src": "assets/0022b.jpg",
-            "startFromFrame": 0
-          }
-        ],
-        "motion": {
-          "peakFrame": 3,
-          "to": "center",
-          "type": "ken-burns",
-          "zoom": 1.08
-        },
-        "route": "ffmpeg",
-        "sectionId": "sec_01",
-        "segmentId": "seg_0016",
-        "tier": "stock",
-        "transitionIn": {
-          "durationInFrames": 0,
-          "type": "cut"
-        }
-      },
-      {
-        "beatId": "b_0023",
-        "cardTitle": "Winners and Losers",
-        "credit": null,
-        "durationInFrames": 87,
-        "from": 3009,
-        "grade": "muted-documentary",
-        "id": "b_0023-card",
-        "layout": "chapter-card",
-        "media": [],
-        "motion": {
-          "type": "none"
-        },
-        "route": "remotion",
-        "sectionId": "sec_02",
-        "segmentId": "seg_0017",
-        "transitionIn": {
-          "durationInFrames": 13,
-          "type": "fade"
-        }
-      },
-      {
-        "beatId": "b_0023",
-        "credit": null,
-        "durationInFrames": 81,
-        "from": 3096,
-        "grade": "muted-documentary",
-        "id": "b_0023",
-        "keyPhrase": "But the",
-        "layout": "typographic-card",
-        "media": [],
-        "motion": {
-          "type": "none"
-        },
-        "route": "remotion",
-        "sectionId": "sec_02",
-        "segmentId": "seg_0017",
-        "transitionIn": {
-          "durationInFrames": 0,
-          "type": "cut"
-        }
-      },
-      {
-        "beatId": "b_0024",
-        "credit": null,
-        "durationInFrames": 118,
-        "from": 3177,
-        "grade": "muted-documentary",
-        "id": "b_0024",
-        "layout": "fullscreen-clip",
-        "media": [
-          {
-            "kind": "video",
-            "src": "assets/0024.mp4",
-            "startFromFrame": 0
-          }
-        ],
-        "motion": {
-          "peakFrame": 40,
-          "to": "center",
-          "type": "ken-burns",
-          "zoom": 1.1
-        },
-        "route": "ffmpeg",
-        "sectionId": "sec_02",
-        "segmentId": "seg_0018",
-        "tier": "stock",
-        "transitionIn": {
-          "durationInFrames": 0,
-          "type": "cut"
-        }
-      },
-      {
-        "beatId": "b_0024",
-        "credit": null,
-        "durationInFrames": 74,
-        "from": 3295,
-        "grade": "muted-documentary",
-        "id": "b_0024-b",
-        "layout": "fullscreen-image-kenburns",
-        "media": [
-          {
-            "kind": "image",
-            "src": "assets/0024b.jpg",
-            "startFromFrame": 0
-          }
-        ],
-        "motion": {
-          "peakFrame": 3,
-          "to": "center",
-          "type": "ken-burns",
-          "zoom": 1.08
-        },
-        "route": "ffmpeg",
-        "sectionId": "sec_02",
-        "segmentId": "seg_0018",
-        "tier": "stock",
-        "transitionIn": {
-          "durationInFrames": 0,
-          "type": "cut"
-        }
-      },
-      {
-        "beatId": "b_0025",
-        "credit": null,
-        "durationInFrames": 103,
-        "from": 3369,
-        "grade": "muted-documentary",
-        "id": "b_0025",
-        "layout": "pip-over-blur",
-        "media": [
-          {
-            "kind": "image",
-            "portrait": true,
-            "src": "assets/0025.jpg",
-            "startFromFrame": 0
-          }
-        ],
-        "motion": {
-          "peakFrame": 71,
-          "to": "center",
-          "type": "ken-burns",
-          "zoom": 1.05
-        },
-        "route": "remotion",
-        "sectionId": "sec_02",
-        "segmentId": "seg_0019",
-        "tier": "stock",
-        "transitionIn": {
-          "durationInFrames": 0,
-          "type": "cut"
-        }
-      },
-      {
-        "beatId": "b_0026",
-        "credit": null,
-        "durationInFrames": 122,
-        "from": 3472,
-        "grade": "muted-documentary",
-        "id": "b_0026",
-        "layout": "fullscreen-clip",
-        "media": [
-          {
-            "kind": "video",
-            "src": "assets/0026.mp4",
-            "startFromFrame": 0
-          }
-        ],
-        "motion": {
-          "peakFrame": 52,
-          "to": "center",
-          "type": "ken-burns",
-          "zoom": 1.1
-        },
-        "route": "ffmpeg",
-        "sectionId": "sec_02",
-        "segmentId": "seg_0020",
-        "tier": "stock",
-        "transitionIn": {
-          "durationInFrames": 0,
-          "type": "cut"
-        }
-      },
-      {
-        "beatId": "b_0027",
-        "credit": null,
-        "durationInFrames": 143,
-        "from": 3594,
-        "grade": "muted-documentary",
-        "id": "b_0027",
-        "layout": "fullscreen-image-kenburns",
-        "media": [
-          {
-            "kind": "image",
-            "src": "assets/0027.jpg",
-            "startFromFrame": 0
-          }
-        ],
-        "motion": {
-          "peakFrame": 112,
-          "to": "top-left",
-          "type": "ken-burns",
-          "zoom": 1.1
-        },
-        "route": "ffmpeg",
-        "sectionId": "sec_02",
-        "segmentId": "seg_0020",
-        "tier": "stock",
-        "transitionIn": {
-          "durationInFrames": 0,
-          "type": "cut"
-        }
-      },
-      {
-        "beatId": "b_0028",
-        "credit": null,
-        "durationInFrames": 73,
-        "from": 3737,
-        "grade": "muted-documentary",
-        "id": "b_0028",
-        "layout": "fullscreen-clip",
-        "media": [
-          {
-            "kind": "video",
-            "src": "assets/0028c.mp4",
-            "startFromFrame": 0
-          }
-        ],
-        "motion": {
-          "peakFrame": 19,
-          "to": "center",
-          "type": "ken-burns",
-          "zoom": 1.08
-        },
-        "route": "remotion",
-        "sectionId": "sec_02",
-        "segmentId": "seg_0021",
-        "tier": "stock",
-        "transitionIn": {
-          "durationInFrames": 0,
-          "type": "cut"
-        }
-      },
-      {
-        "beatId": "b_0029",
-        "credit": {
-          "corner": "bottom-right",
-          "text": "Photo: Author 0029, Wikimedia Commons, CC BY-SA 4.0"
-        },
-        "durationInFrames": 129,
-        "from": 3810,
-        "grade": "vintage",
-        "id": "b_0029",
-        "layout": "pip-over-blur",
-        "media": [
-          {
-            "kind": "video",
-            "src": "assets/0029.mp4",
-            "startFromFrame": 0
-          }
-        ],
-        "motion": {
-          "type": "none"
-        },
-        "route": "remotion",
-        "sectionId": "sec_02",
-        "segmentId": "seg_0021",
-        "tier": "archival",
-        "transitionIn": {
-          "durationInFrames": 0,
-          "type": "cut"
-        }
-      },
-      {
-        "beatId": "b_0030",
-        "credit": null,
-        "durationInFrames": 124,
-        "from": 3939,
-        "grade": "muted-documentary",
-        "id": "b_0030",
-        "layout": "fullscreen-clip",
-        "media": [
-          {
-            "kind": "video",
-            "src": "assets/0030.mp4",
             "startFromFrame": 0
           }
         ],
@@ -1108,7 +647,7 @@
         },
         "route": "remotion",
         "sectionId": "sec_02",
-        "segmentId": "seg_0021",
+        "segmentId": "seg_0013",
         "tier": "stock",
         "transitionIn": {
           "durationInFrames": 0,
@@ -1116,80 +655,29 @@
         }
       },
       {
-        "beatId": "b_0031",
+        "beatId": "b_0021",
         "credit": null,
-        "durationInFrames": 110,
-        "from": 4063,
+        "durationInFrames": 354,
+        "from": 4173,
         "grade": "muted-documentary",
-        "id": "b_0031",
+        "id": "b_0021",
         "layout": "fullscreen-image-kenburns",
         "media": [
           {
             "kind": "image",
-            "src": "assets/0031.jpg",
+            "src": "assets/0021.jpg",
             "startFromFrame": 0
           }
         ],
         "motion": {
-          "peakFrame": 3,
-          "to": "bottom",
+          "peakFrame": 74,
+          "to": "bottom-left",
           "type": "ken-burns",
-          "zoom": 1.1600000000000001
-        },
-        "route": "remotion",
-        "sectionId": "sec_02",
-        "segmentId": "seg_0021",
-        "tier": "stock",
-        "transitionIn": {
-          "durationInFrames": 0,
-          "type": "cut"
-        }
-      },
-      {
-        "beatId": "b_0032",
-        "credit": null,
-        "durationInFrames": 180,
-        "from": 4156,
-        "grade": "muted-documentary",
-        "id": "b_0032",
-        "keyPhrase": "truck hauling",
-        "layout": "typographic-card",
-        "media": [],
-        "motion": {
-          "type": "none"
-        },
-        "route": "remotion",
-        "sectionId": "sec_02",
-        "segmentId": "seg_0021",
-        "transitionIn": {
-          "durationInFrames": 17,
-          "type": "fade"
-        }
-      },
-      {
-        "beatId": "b_0033",
-        "credit": null,
-        "durationInFrames": 99,
-        "from": 4336,
-        "grade": "muted-documentary",
-        "id": "b_0033",
-        "layout": "fullscreen-image-kenburns",
-        "media": [
-          {
-            "kind": "image",
-            "src": "assets/0033.jpg",
-            "startFromFrame": 0
-          }
-        ],
-        "motion": {
-          "peakFrame": 18,
-          "to": "left",
-          "type": "ken-burns",
-          "zoom": 1.1500000000000001
+          "zoom": 1.07
         },
         "route": "ffmpeg",
         "sectionId": "sec_02",
-        "segmentId": "seg_0022",
+        "segmentId": "seg_0014",
         "tier": "stock",
         "transitionIn": {
           "durationInFrames": 0,
@@ -1197,59 +685,27 @@
         }
       },
       {
-        "beatId": "b_0033",
-        "credit": null,
-        "durationInFrames": 92,
-        "from": 4435,
-        "grade": "muted-documentary",
-        "id": "b_0033-b",
-        "layout": "fullscreen-image-kenburns",
-        "media": [
-          {
-            "kind": "image",
-            "src": "assets/0033b.jpg",
-            "startFromFrame": 0
-          }
-        ],
-        "motion": {
-          "peakFrame": 3,
-          "to": "center",
-          "type": "ken-burns",
-          "zoom": 1.08
-        },
-        "route": "ffmpeg",
-        "sectionId": "sec_02",
-        "segmentId": "seg_0022",
-        "tier": "stock",
-        "transitionIn": {
-          "durationInFrames": 0,
-          "type": "cut"
-        }
-      },
-      {
-        "beatId": "b_0034",
+        "beatId": "b_0022",
         "credit": null,
         "durationInFrames": 96,
         "from": 4527,
         "grade": "muted-documentary",
-        "id": "b_0034",
+        "id": "b_0022",
         "layout": "fullscreen-clip",
         "media": [
           {
             "kind": "video",
-            "src": "assets/0034.mp4",
+            "src": "assets/0022c.mp4",
             "startFromFrame": 0
           }
         ],
         "motion": {
-          "peakFrame": 13,
-          "to": "center",
-          "type": "ken-burns",
-          "zoom": 1.1
+          "type": "slow-zoom-out",
+          "zoom": 1.09
         },
-        "route": "remotion",
+        "route": "ffmpeg",
         "sectionId": "sec_02",
-        "segmentId": "seg_0023",
+        "segmentId": "seg_0014",
         "tier": "stock",
         "transitionIn": {
           "durationInFrames": 0,
@@ -1257,11 +713,11 @@
         }
       },
       {
-        "beatId": "b_0034",
+        "beatId": "b_0022",
         "cardTitle": "Sources",
         "credit": null,
-        "durationInFrames": 75,
-        "from": 4623,
+        "durationInFrames": 91,
+        "from": 4607,
         "grade": "muted-documentary",
         "id": "end-card",
         "layout": "end-card",
@@ -1271,10 +727,10 @@
         },
         "route": "remotion",
         "sectionId": "sec_02",
-        "segmentId": "seg_0023",
+        "segmentId": "seg_0015",
         "transitionIn": {
-          "durationInFrames": 0,
-          "type": "cut"
+          "durationInFrames": 16,
+          "type": "fade"
         }
       }
     ],
@@ -1397,73 +853,13 @@
         "source": "Pexels",
         "text": "Video by Creator 0022 on Pexels",
         "tier": "stock"
-      },
-      {
-        "beatId": "b_0024",
-        "source": "Pexels",
-        "text": "Video by Creator 0024 on Pexels",
-        "tier": "stock"
-      },
-      {
-        "beatId": "b_0025",
-        "source": "Pexels",
-        "text": "Video by Creator 0025 on Pexels",
-        "tier": "stock"
-      },
-      {
-        "beatId": "b_0026",
-        "source": "Pexels",
-        "text": "Video by Creator 0026 on Pexels",
-        "tier": "stock"
-      },
-      {
-        "beatId": "b_0027",
-        "source": "Pexels",
-        "text": "Video by Creator 0027 on Pexels",
-        "tier": "stock"
-      },
-      {
-        "beatId": "b_0028",
-        "source": "Pexels",
-        "text": "Video by Creator 0028 on Pexels",
-        "tier": "stock"
-      },
-      {
-        "beatId": "b_0029",
-        "source": "Wikimedia Commons",
-        "text": "Photo: Author 0029, Wikimedia Commons, CC BY-SA 4.0",
-        "tier": "archival"
-      },
-      {
-        "beatId": "b_0030",
-        "source": "Pexels",
-        "text": "Video by Creator 0030 on Pexels",
-        "tier": "stock"
-      },
-      {
-        "beatId": "b_0031",
-        "source": "Pexels",
-        "text": "Video by Creator 0031 on Pexels",
-        "tier": "stock"
-      },
-      {
-        "beatId": "b_0033",
-        "source": "Pexels",
-        "text": "Video by Creator 0033 on Pexels",
-        "tier": "stock"
-      },
-      {
-        "beatId": "b_0034",
-        "source": "Pexels",
-        "text": "Video by Creator 0034 on Pexels",
-        "tier": "stock"
       }
     ],
     "motiongfx": [
       {
         "beatId": "b_0007",
-        "durationInFrames": 162,
-        "from": 784,
+        "durationInFrames": 222,
+        "from": 1336,
         "id": "g_b_0007_credit",
         "params": {
           "corner": "bottom-right",
@@ -1474,8 +870,8 @@
       },
       {
         "beatId": "b_0007",
-        "durationInFrames": 153,
-        "from": 788,
+        "durationInFrames": 213,
+        "from": 1340,
         "id": "g_b_0007_stat",
         "params": {
           "countFrames": 60,
@@ -1486,42 +882,16 @@
         "type": "stat-counter"
       },
       {
-        "beatId": "b_0008",
-        "durationInFrames": 164,
-        "from": 950,
-        "id": "g_b_0008_stat",
+        "beatId": "b_0019",
+        "durationInFrames": 193,
+        "from": 3741,
+        "id": "g_b_0019_stat",
         "params": {
           "countFrames": 60,
-          "label": "97 percent drop",
           "suffix": "%",
-          "value": 97
+          "value": 90
         },
         "type": "stat-counter"
-      },
-      {
-        "beatId": "b_0017",
-        "durationInFrames": 134,
-        "from": 2189,
-        "id": "g_b_0017_stat",
-        "params": {
-          "countFrames": 60,
-          "label": "700 percent",
-          "suffix": "%",
-          "value": 700
-        },
-        "type": "stat-counter"
-      },
-      {
-        "beatId": "b_0029",
-        "durationInFrames": 129,
-        "from": 3810,
-        "id": "g_b_0029_credit",
-        "params": {
-          "corner": "bottom-right",
-          "text": "Photo: Author 0029, Wikimedia Commons, CC BY-SA 4.0",
-          "tier": "archival"
-        },
-        "type": "corner-credit"
       }
     ],
     "music": [
@@ -1546,525 +916,306 @@
     ],
     "sfx": [
       {
-        "from": 61,
-        "id": "s_000061_whoosh-soft",
+        "from": 59,
+        "id": "s_000059_whoosh-soft",
         "reason": "transition-in b_0001 (fade)",
         "src": "sfx/whoosh-soft-03.mp3",
         "tag": "whoosh-soft",
         "volume": 0.35
       },
       {
-        "from": 268,
-        "id": "s_000268_whoosh-soft",
+        "from": 454,
+        "id": "s_000454_whoosh-soft",
         "reason": "transition-in b_0003 (luma-dissolve)",
         "src": "sfx/whoosh-soft-01.mp3",
         "tag": "whoosh-soft",
         "volume": 0.35
       },
       {
-        "from": 564,
-        "id": "s_000564_whoosh-soft",
+        "from": 932,
+        "id": "s_000932_whoosh-soft",
         "reason": "transition-in b_0005 (fade)",
         "src": "sfx/whoosh-soft-03.mp3",
         "tag": "whoosh-soft",
-        "volume": 0.402
+        "volume": 0.35
       },
       {
-        "from": 774,
-        "id": "s_000774_whoosh-hard",
+        "from": 1326,
+        "id": "s_001326_whoosh-hard",
         "reason": "transition-in b_0007 (whip-pan)",
         "src": "sfx/whoosh-hard-01.mp3",
         "tag": "whoosh-hard",
         "volume": 0.35
       },
       {
-        "from": 788,
-        "id": "s_000788_tick",
+        "from": 1340,
+        "id": "s_001340_tick",
         "reason": "counter tick b_0007",
         "src": "sfx/tick-01.mp3",
         "tag": "tick",
         "volume": 0.12
       },
       {
-        "from": 794,
-        "id": "s_000794_tick",
+        "from": 1346,
+        "id": "s_001346_tick",
         "reason": "counter tick b_0007",
         "src": "sfx/tick-01.mp3",
         "tag": "tick",
         "volume": 0.12
       },
       {
-        "from": 800,
-        "id": "s_000800_tick",
+        "from": 1352,
+        "id": "s_001352_tick",
         "reason": "counter tick b_0007",
         "src": "sfx/tick-01.mp3",
         "tag": "tick",
         "volume": 0.12
       },
       {
-        "from": 806,
-        "id": "s_000806_tick",
+        "from": 1358,
+        "id": "s_001358_tick",
         "reason": "counter tick b_0007",
         "src": "sfx/tick-01.mp3",
         "tag": "tick",
         "volume": 0.12
       },
       {
-        "from": 812,
-        "id": "s_000812_tick",
+        "from": 1364,
+        "id": "s_001364_tick",
         "reason": "counter tick b_0007",
         "src": "sfx/tick-01.mp3",
         "tag": "tick",
         "volume": 0.12
       },
       {
-        "from": 818,
-        "id": "s_000818_tick",
+        "from": 1370,
+        "id": "s_001370_tick",
         "reason": "counter tick b_0007",
         "src": "sfx/tick-01.mp3",
         "tag": "tick",
         "volume": 0.12
       },
       {
-        "from": 824,
-        "id": "s_000824_tick",
+        "from": 1376,
+        "id": "s_001376_tick",
         "reason": "counter tick b_0007",
         "src": "sfx/tick-01.mp3",
         "tag": "tick",
         "volume": 0.12
       },
       {
-        "from": 830,
-        "id": "s_000830_tick",
+        "from": 1382,
+        "id": "s_001382_tick",
         "reason": "counter tick b_0007",
         "src": "sfx/tick-01.mp3",
         "tag": "tick",
         "volume": 0.12
       },
       {
-        "from": 836,
-        "id": "s_000836_tick",
+        "from": 1388,
+        "id": "s_001388_tick",
         "reason": "counter tick b_0007",
         "src": "sfx/tick-01.mp3",
         "tag": "tick",
         "volume": 0.12
       },
       {
-        "from": 842,
-        "id": "s_000842_tick",
+        "from": 1394,
+        "id": "s_001394_tick",
         "reason": "counter tick b_0007",
         "src": "sfx/tick-01.mp3",
         "tag": "tick",
         "volume": 0.12
       },
       {
-        "from": 933,
-        "id": "s_000933_swoosh-short",
+        "from": 1545,
+        "id": "s_001545_swoosh-short",
         "reason": "transition-in b_0008 (slide)",
         "src": "sfx/swoosh-ltr-01.mp3",
         "tag": "swoosh-short",
         "volume": 0.35
       },
       {
-        "from": 950,
-        "id": "s_000950_tick",
-        "reason": "counter tick b_0008",
-        "src": "sfx/tick-01.mp3",
-        "tag": "tick",
-        "volume": 0.12
-      },
-      {
-        "from": 956,
-        "id": "s_000956_tick",
-        "reason": "counter tick b_0008",
-        "src": "sfx/tick-01.mp3",
-        "tag": "tick",
-        "volume": 0.12
-      },
-      {
-        "from": 962,
-        "id": "s_000962_tick",
-        "reason": "counter tick b_0008",
-        "src": "sfx/tick-01.mp3",
-        "tag": "tick",
-        "volume": 0.12
-      },
-      {
-        "from": 968,
-        "id": "s_000968_tick",
-        "reason": "counter tick b_0008",
-        "src": "sfx/tick-01.mp3",
-        "tag": "tick",
-        "volume": 0.12
-      },
-      {
-        "from": 974,
-        "id": "s_000974_tick",
-        "reason": "counter tick b_0008",
-        "src": "sfx/tick-01.mp3",
-        "tag": "tick",
-        "volume": 0.12
-      },
-      {
-        "from": 980,
-        "id": "s_000980_tick",
-        "reason": "counter tick b_0008",
-        "src": "sfx/tick-01.mp3",
-        "tag": "tick",
-        "volume": 0.12
-      },
-      {
-        "from": 986,
-        "id": "s_000986_tick",
-        "reason": "counter tick b_0008",
-        "src": "sfx/tick-01.mp3",
-        "tag": "tick",
-        "volume": 0.12
-      },
-      {
-        "from": 992,
-        "id": "s_000992_tick",
-        "reason": "counter tick b_0008",
-        "src": "sfx/tick-01.mp3",
-        "tag": "tick",
-        "volume": 0.12
-      },
-      {
-        "from": 998,
-        "id": "s_000998_tick",
-        "reason": "counter tick b_0008",
-        "src": "sfx/tick-01.mp3",
-        "tag": "tick",
-        "volume": 0.12
-      },
-      {
-        "from": 1004,
-        "id": "s_001004_tick",
-        "reason": "counter tick b_0008",
-        "src": "sfx/tick-01.mp3",
-        "tag": "tick",
-        "volume": 0.12
-      },
-      {
-        "from": 1173,
-        "id": "s_001173_click",
+        "from": 1938,
+        "id": "s_001938_click",
         "reason": "grid cell 1 b_0010",
         "src": "sfx/click-02.mp3",
         "tag": "click",
         "volume": 0.25
       },
       {
-        "from": 1318,
-        "id": "s_001318_whoosh-soft",
+        "from": 2167,
+        "id": "s_002167_whoosh-soft",
         "reason": "transition-in b_0011 (luma-dissolve)",
         "src": "sfx/whoosh-soft-02.mp3",
         "tag": "whoosh-soft",
         "volume": 0.35
       },
       {
-        "from": 1486,
-        "id": "s_001486_pop",
-        "reason": "text-in t_b_0011-b",
-        "src": "sfx/pop-03.mp3",
-        "tag": "pop",
-        "volume": 0.3
-      },
-      {
-        "from": 1544,
-        "id": "s_001544_whoosh-soft",
+        "from": 2361,
+        "id": "s_002361_whoosh-soft",
         "reason": "transition-in b_0012 (fade)",
         "src": "sfx/whoosh-soft-03.mp3",
         "tag": "whoosh-soft",
         "volume": 0.35
       },
       {
-        "from": 1831,
-        "id": "s_001831_whoosh-soft",
+        "from": 2821,
+        "id": "s_002821_whoosh-soft",
         "reason": "transition-in b_0014 (fade)",
         "src": "sfx/whoosh-soft-02.mp3",
         "tag": "whoosh-soft",
         "volume": 0.35
       },
       {
-        "from": 2061,
-        "id": "s_002061_whoosh-hard",
-        "reason": "transition-in b_0016 (whip-pan)",
-        "src": "sfx/whoosh-hard-02.mp3",
-        "tag": "whoosh-hard",
-        "volume": 0.35
-      },
-      {
-        "from": 2125,
-        "id": "s_002125_typewriter-key",
-        "reason": "text-in t_b_0016",
-        "src": "sfx/typewriter-01.mp3",
-        "tag": "typewriter-key",
-        "volume": 0.2
-      },
-      {
-        "from": 2189,
-        "id": "s_002189_tick",
-        "reason": "counter tick b_0017",
-        "src": "sfx/tick-01.mp3",
-        "tag": "tick",
-        "volume": 0.12
-      },
-      {
-        "from": 2195,
-        "id": "s_002195_tick",
-        "reason": "counter tick b_0017",
-        "src": "sfx/tick-01.mp3",
-        "tag": "tick",
-        "volume": 0.12
-      },
-      {
-        "from": 2201,
-        "id": "s_002201_tick",
-        "reason": "counter tick b_0017",
-        "src": "sfx/tick-01.mp3",
-        "tag": "tick",
-        "volume": 0.12
-      },
-      {
-        "from": 2207,
-        "id": "s_002207_tick",
-        "reason": "counter tick b_0017",
-        "src": "sfx/tick-01.mp3",
-        "tag": "tick",
-        "volume": 0.12
-      },
-      {
-        "from": 2213,
-        "id": "s_002213_tick",
-        "reason": "counter tick b_0017",
-        "src": "sfx/tick-01.mp3",
-        "tag": "tick",
-        "volume": 0.12
-      },
-      {
-        "from": 2219,
-        "id": "s_002219_tick",
-        "reason": "counter tick b_0017",
-        "src": "sfx/tick-01.mp3",
-        "tag": "tick",
-        "volume": 0.12
-      },
-      {
-        "from": 2225,
-        "id": "s_002225_tick",
-        "reason": "counter tick b_0017",
-        "src": "sfx/tick-01.mp3",
-        "tag": "tick",
-        "volume": 0.12
-      },
-      {
-        "from": 2231,
-        "id": "s_002231_tick",
-        "reason": "counter tick b_0017",
-        "src": "sfx/tick-01.mp3",
-        "tag": "tick",
-        "volume": 0.12
-      },
-      {
-        "from": 2237,
-        "id": "s_002237_tick",
-        "reason": "counter tick b_0017",
-        "src": "sfx/tick-01.mp3",
-        "tag": "tick",
-        "volume": 0.12
-      },
-      {
-        "from": 2243,
-        "id": "s_002243_tick",
-        "reason": "counter tick b_0017",
-        "src": "sfx/tick-01.mp3",
-        "tag": "tick",
-        "volume": 0.12
-      },
-      {
-        "from": 2329,
-        "id": "s_002329_pop",
-        "reason": "text-in t_b_0017-b",
-        "src": "sfx/pop-02.mp3",
-        "tag": "pop",
-        "volume": 0.3
-      },
-      {
-        "from": 2527,
-        "id": "s_002527_whoosh-soft",
-        "reason": "transition-in b_0019 (fade)",
-        "src": "sfx/whoosh-soft-03.mp3",
-        "tag": "whoosh-soft",
-        "volume": 0.35
-      },
-      {
-        "from": 2696,
-        "id": "s_002696_click",
-        "reason": "grid cell 1 b_0021",
-        "src": "sfx/click-01.mp3",
-        "tag": "click",
-        "volume": 0.25
-      },
-      {
-        "from": 2825,
-        "id": "s_002825_whoosh-soft",
-        "reason": "transition-in b_0022 (luma-dissolve)",
-        "src": "sfx/whoosh-soft-01.mp3",
-        "tag": "whoosh-soft",
-        "volume": 0.35
-      },
-      {
-        "from": 2885,
-        "id": "s_002885_pop",
-        "reason": "text-in t_b_0022",
-        "src": "sfx/pop-01.mp3",
-        "tag": "pop",
-        "volume": 0.3
-      },
-      {
         "from": 2977,
         "id": "s_002977_riser-short",
-        "reason": "riser before chapter-card b_0023-card",
+        "reason": "riser before chapter-card b_0015-card",
         "src": "sfx/riser-short-01.mp3",
         "tag": "riser-short",
         "volume": 0.255
       },
       {
-        "from": 3754,
-        "id": "s_003754_pop",
-        "reason": "text-in t_b_0028",
-        "src": "sfx/pop-02.mp3",
+        "from": 3192,
+        "id": "s_003192_pop",
+        "reason": "text-in t_b_0016",
+        "src": "sfx/pop-01.mp3",
         "tag": "pop",
         "volume": 0.255
+      },
+      {
+        "from": 3638,
+        "id": "s_003638_pop",
+        "reason": "text-in t_b_0018",
+        "src": "sfx/pop-03.mp3",
+        "tag": "pop",
+        "volume": 0.255
+      },
+      {
+        "from": 3741,
+        "id": "s_003741_tick",
+        "reason": "counter tick b_0019",
+        "src": "sfx/tick-01.mp3",
+        "tag": "tick",
+        "volume": 0.102
+      },
+      {
+        "from": 3747,
+        "id": "s_003747_tick",
+        "reason": "counter tick b_0019",
+        "src": "sfx/tick-01.mp3",
+        "tag": "tick",
+        "volume": 0.102
+      },
+      {
+        "from": 3753,
+        "id": "s_003753_tick",
+        "reason": "counter tick b_0019",
+        "src": "sfx/tick-01.mp3",
+        "tag": "tick",
+        "volume": 0.102
+      },
+      {
+        "from": 3759,
+        "id": "s_003759_tick",
+        "reason": "counter tick b_0019",
+        "src": "sfx/tick-01.mp3",
+        "tag": "tick",
+        "volume": 0.102
+      },
+      {
+        "from": 3765,
+        "id": "s_003765_tick",
+        "reason": "counter tick b_0019",
+        "src": "sfx/tick-01.mp3",
+        "tag": "tick",
+        "volume": 0.102
+      },
+      {
+        "from": 3771,
+        "id": "s_003771_tick",
+        "reason": "counter tick b_0019",
+        "src": "sfx/tick-01.mp3",
+        "tag": "tick",
+        "volume": 0.102
+      },
+      {
+        "from": 3777,
+        "id": "s_003777_tick",
+        "reason": "counter tick b_0019",
+        "src": "sfx/tick-01.mp3",
+        "tag": "tick",
+        "volume": 0.102
+      },
+      {
+        "from": 3783,
+        "id": "s_003783_tick",
+        "reason": "counter tick b_0019",
+        "src": "sfx/tick-01.mp3",
+        "tag": "tick",
+        "volume": 0.102
+      },
+      {
+        "from": 3789,
+        "id": "s_003789_tick",
+        "reason": "counter tick b_0019",
+        "src": "sfx/tick-01.mp3",
+        "tag": "tick",
+        "volume": 0.102
+      },
+      {
+        "from": 3795,
+        "id": "s_003795_tick",
+        "reason": "counter tick b_0019",
+        "src": "sfx/tick-01.mp3",
+        "tag": "tick",
+        "volume": 0.102
       },
       {
         "from": 3940,
         "id": "s_003940_pop",
-        "reason": "text-in t_b_0030",
-        "src": "sfx/pop-03.mp3",
+        "reason": "text-in t_b_0020",
+        "src": "sfx/pop-01.mp3",
         "tag": "pop",
         "volume": 0.255
       },
       {
-        "from": 4064,
-        "id": "s_004064_pop",
-        "reason": "text-in t_b_0031",
-        "src": "sfx/pop-02.mp3",
-        "tag": "pop",
-        "volume": 0.255
-      },
-      {
-        "from": 4156,
-        "id": "s_004156_whoosh-soft",
-        "reason": "transition-in b_0032 (fade)",
+        "from": 4607,
+        "id": "s_004607_whoosh-soft",
+        "reason": "transition-in end-card (fade)",
         "src": "sfx/whoosh-soft-03.mp3",
         "tag": "whoosh-soft",
         "volume": 0.298
-      },
-      {
-        "from": 4538,
-        "id": "s_004538_pop",
-        "reason": "text-in t_b_0034",
-        "src": "sfx/pop-03.mp3",
-        "tag": "pop",
-        "volume": 0.255
       }
     ],
     "text": [
       {
-        "anchorWordId": 98,
-        "beatId": "b_0011",
-        "content": "standardise the size",
-        "durationInFrames": 58,
-        "from": 1486,
-        "id": "t_b_0011-b",
-        "position": "lower-left",
+        "anchorWordId": 203,
+        "beatId": "b_0016",
+        "content": "neighbourhoods of",
+        "durationInFrames": 48,
+        "from": 3192,
+        "id": "t_b_0016",
+        "position": "lower-right",
         "style": "kinetic-bold"
       },
       {
-        "anchorWordId": 138,
-        "beatId": "b_0016",
-        "content": "under two minutes",
-        "durationInFrames": 55,
-        "from": 2125,
-        "id": "t_b_0016",
-        "position": "lower-right",
-        "style": "typewriter",
-        "wordFrames": [
-          {
-            "durationInFrames": 14,
-            "from": 2127,
-            "text": "under"
-          },
-          {
-            "durationInFrames": 13,
-            "from": 2144,
-            "text": "two"
-          },
-          {
-            "durationInFrames": 15,
-            "from": 2158,
-            "text": "minutes."
-          }
-        ]
-      },
-      {
-        "anchorWordId": 151,
-        "beatId": "b_0017",
-        "content": "700 percent",
-        "durationInFrames": 41,
-        "from": 2329,
-        "id": "t_b_0017-b",
-        "position": "center",
-        "style": "big-number"
-      },
-      {
-        "anchorWordId": 186,
-        "beatId": "b_0022",
-        "content": "crossed an ocean",
-        "durationInFrames": 58,
-        "from": 2885,
-        "id": "t_b_0022",
-        "position": "lower-left",
-        "style": "slide-up-mask"
-      },
-      {
-        "anchorWordId": 236,
-        "beatId": "b_0028",
-        "content": "about 90",
+        "anchorWordId": 230,
+        "beatId": "b_0018",
+        "content": "the box",
         "durationInFrames": 48,
-        "from": 3754,
-        "id": "t_b_0028",
+        "from": 3638,
+        "id": "t_b_0018",
         "position": "lower-right",
         "style": "kinetic-bold"
       },
       {
         "anchorWordId": 249,
-        "beatId": "b_0030",
+        "beatId": "b_0020",
         "content": "And most",
         "durationInFrames": 48,
         "from": 3940,
-        "id": "t_b_0030",
-        "position": "lower-right",
-        "style": "kinetic-bold"
-      },
-      {
-        "anchorWordId": 258,
-        "beatId": "b_0031",
-        "content": "costs less",
-        "durationInFrames": 48,
-        "from": 4064,
-        "id": "t_b_0031",
-        "position": "lower-left",
-        "style": "kinetic-bold"
-      },
-      {
-        "anchorWordId": 291,
-        "beatId": "b_0034",
-        "content": "That is",
-        "durationInFrames": 48,
-        "from": 4538,
-        "id": "t_b_0034",
+        "id": "t_b_0020",
         "position": "lower-right",
         "style": "kinetic-bold"
       }

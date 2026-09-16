@@ -28,6 +28,12 @@ export interface WorkShot {
   /** Set by rule 5 when this is the third full-screen shot in a row: vary the
    *  camera move rather than switching to a different layout family. */
   varyMotion?: boolean;
+  /** P4.5: this shot carries the film's one deliberate long hold. */
+  longHold?: boolean;
+  longHoldTargetFrames?: number;
+  /** P4.5 layout clock: the layout family has been running 20-40 s ("due") or past
+   *  40 s ("overdue"), so a different family is preferred here if one is legitimate. */
+  layoutChangeDue?: "due" | "overdue";
   id: string;
   beatId: string;
   beatIds: string[];      // constituent beats (after merges)

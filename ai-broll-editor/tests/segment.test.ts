@@ -50,7 +50,10 @@ describe("segment.ts (spec 6)", () => {
   });
 
   it("splitLong prefers clause boundaries and never drops words", () => {
-    const specs: WordSpec[] = Array.from({ length: 30 }, (_, i) => ({ len: 300, gap: 60, punct: i === 14 ? "," : "" }));
+    // 45 words at 360 ms each is ~16 s, comfortably past MAX (14 s) so a split is
+    // required. (This used to be 30 words, which only exceeded the old 6 s cap;
+    // MAX was raised to 14 s so a deliberate long hold is representable at all.)
+    const specs: WordSpec[] = Array.from({ length: 45 }, (_, i) => ({ len: 300, gap: 60, punct: i === 22 ? "," : "" }));
     const t = transcriptFrom(specs);
     const pieces = splitLong(t.words);
     expect(pieces.flat().map((w) => w.id)).toEqual(t.words.map((w) => w.id));

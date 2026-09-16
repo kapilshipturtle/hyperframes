@@ -347,5 +347,26 @@ jobs:
             ai-broll-editor/work/${{ inputs.job_id }}/report.md
             ai-broll-editor/work/${{ inputs.job_id }}/credits.json
             ai-broll-editor/work/${{ inputs.job_id }}/qc/
-          retention-days: 7
+          # The deliverable outlives the intermediates on purpose: segment and
+          # job-state artifacts are reproducible from the timeline, the finished
+          # film is the thing someone actually came for. 7 days expired a render
+          # before it was collected.
+          retention-days: 90
           if-no-files-found: error
+
+      # Print the size and duration in the job summary so a run can be
+      # confirmed as good without downloading 60 MB first.
+      - name: Summarise the deliverable
+        run: |
+          f="work/$JOB/final.mp4"
+          dur=$(ffprobe -v error -show_entries format=duration -of csv=p=0 "$f")
+          sz=$(du -h "$f" | cut -f1)
+          {
+            echo "## final.mp4"
+            echo ""
+            echo "| field | value |"
+            echo "|---|---|"
+            echo "| duration | ${dur}s |"
+            echo "| size | ${sz} |"
+            echo "| artifact | final-$JOB (90 day retention) |"
+          } >> "$GITHUB_STEP_SUMMARY"

@@ -242,16 +242,34 @@ export function assignShots(ctx: Ctx, cuts: Cut[], parts: Map<string, string[]>)
       }
       if (base.layout === "list-reveal") base.listLines = plan?.listLines ?? null;
       if (!base.listLines && base.layout === "list-reveal") ov("list-lines", base.layout, asset.kind === "image" ? "fullscreen-image-kenburns" : "fullscreen-clip", "no list lines");
-      // rule 5: three consecutive same-family layouts -> force a different family
+      // rule 5: break up a run of the same layout family.
+      //
+      // Consecutive FULL-SCREEN shots are NOT a defect — that is what
+      // documentary editing looks like, and every style breakdown of the
+      // genre shows full-frame footage with graphics composited on top, not
+      // footage shrunk into a panel beside text. An earlier version converted
+      // the third full-screen shot into a split-screen, which turned the
+      // Director's 2 planned splits into 9 (26 % of shots against a ~10 %
+      // professional ceiling) and manufactured key phrases nobody asked for,
+      // purely to fill the panel it had just created. That is the "assembled
+      // around text" look viewers call out.
+      //
+      // So a run of full-screens is broken with MOTION and SHOT SCALE, which
+      // is what an editor actually varies; only non-full-screen families
+      // (grids, splits, comparisons) still collapse back to full-screen,
+      // because THOSE genuinely should not repeat.
       const p1 = shots[shots.length - 1], p2 = shots[shots.length - 2];
       const famNow: LayoutFamily = layoutFamily(base.layout);
       if (p1 && p2 && layoutFamily(p1.layout) === famNow && layoutFamily(p2.layout) === famNow && famNow !== "card") {
-        let to: Layout;
-        if (famNow === "fullscreen") to = i % 2 ? "split-left-media-right-text" : "split-right-media-left-text";
-        else to = asset.kind === "image" ? "fullscreen-image-kenburns" : "fullscreen-clip";
-        ov("rule 5", base.layout, to, `three consecutive ${famNow} layouts`);
-        if (layoutFamily(to) === "split" && !hasText) base.keyPhrase = keyPhrase(ctx.emphasis, beatWords, 2, 4).text;
-        base.extraAssets = [];
+        if (famNow === "fullscreen") {
+          base.varyMotion = true;   // applied in the motion block below
+          base.overrides.push("rule 5: third full-screen in a row — varied by motion, not by layout");
+          ctx.log.log("P4", "variety", `${base.id}: three consecutive full-screen layouts; varying motion instead of switching layout`, { beatId: base.beatId });
+        } else {
+          const to: Layout = asset.kind === "image" ? "fullscreen-image-kenburns" : "fullscreen-clip";
+          ov("rule 5", base.layout, to, `three consecutive ${famNow} layouts`);
+          base.extraAssets = [];
+        }
       }
       // rule 6: two consecutive Ken Burns images -> clip if a video candidate scored >= threshold - 0.02, else alternate zoom direction
       if (base.layout === "fullscreen-image-kenburns" && p1?.layout === "fullscreen-image-kenburns") {
@@ -263,8 +281,19 @@ export function assignShots(ctx: Ctx, cuts: Cut[], parts: Map<string, string[]>)
       const a2 = base.asset!;
       const planMotion: Motion | undefined = plan?.motion;
       if (base.heldMoment) base.motion = { type: "slow-zoom-out", zoom: 1.1 };
+      else if (base.varyMotion && a2.kind === "video") {
+        // Third full-screen video in a row: give it a move so the run reads as
+        // three deliberate shots rather than one long static stretch. A gentle
+        // push is the documentary default; direction is hash-chosen, never
+        // rotated by index.
+        const rng = ctx.rngFor(`vary:${c.id}`);
+        base.motion = rng.next() < 0.5
+          ? { type: "slow-zoom-out", zoom: 1.06 + Math.round(rng.next() * 4) / 100 }
+          : { type: "ken-burns", to: KB_ANCHORS[rng.int(KB_ANCHORS.length)], zoom: 1.05 + Math.round(rng.next() * 5) / 100 };
+      }
       else if (a2.kind === "image") {
-        const zoomOut = base.overrides.some((o) => o.startsWith("rule 6: alternate zoom"));
+        const zoomOut = base.overrides.some((o) => o.startsWith("rule 6: alternate zoom"))
+          || (base.varyMotion && p1?.motion?.type === "ken-burns");
         const rng = ctx.rngFor(`motion:${c.id}`);
         const zoom = planMotion?.type === "ken-burns" && planMotion.zoom ? planMotion.zoom : 1.05 + Math.round(rng.next() * 13) / 100; // 1.05..1.18
         base.motion = zoomOut ? { type: "slow-zoom-out", zoom } : { type: "ken-burns", to: planMotion?.to ?? KB_ANCHORS[rng.int(KB_ANCHORS.length)], zoom };
@@ -352,8 +381,19 @@ export function enforceVariety(ctx: Ctx, shots: WorkShot[]): void {
     const from = s.layout;
     const beatWords = s.wordIds.map((id) => ctx.wordById.get(id)!).filter(Boolean);
     if (fam === "fullscreen") {
-      s.layout = i % 2 ? "split-left-media-right-text" : "split-right-media-left-text";
-      if (!s.plan?.text) s.keyPhrase = keyPhrase(ctx.emphasis, beatWords.length ? beatWords : ctx.beatById.get(s.beatId)!.wordIds.map((id) => ctx.wordById.get(id)!), 2, 4).text || s.asset.attribution || "";
+      // See rule 5 in assignShots: a run of full-screen shots is normal
+      // documentary grammar, so it is broken with a camera move rather than
+      // by shrinking the picture into a panel. Switching layout here also
+      // forced a manufactured key phrase to fill that panel.
+      if (s.motion.type === "none") {
+        const rng = ctx.rngFor(`vary6:${s.id}`);
+        s.motion = rng.next() < 0.5
+          ? { type: "slow-zoom-out", zoom: 1.06 + Math.round(rng.next() * 4) / 100 }
+          : { type: "ken-burns", to: KB_ANCHORS[rng.int(KB_ANCHORS.length)], zoom: 1.05 + Math.round(rng.next() * 5) / 100 };
+        s.overrides.push("rule 5 (post-P6): third full-screen in a row — varied by motion");
+        ctx.log.log("P6", "variety", `${s.id}: three consecutive full-screen layouts after frame edits; varied motion instead of switching layout`, { beatId: s.beatId });
+      }
+      continue;
     } else {
       s.layout = s.asset.kind === "image" ? "fullscreen-image-kenburns" : "fullscreen-clip";
       s.extraAssets = []; s.media = s.media.slice(0, 1); s.gridLabels = undefined; s.stat = undefined; s.quote = undefined;

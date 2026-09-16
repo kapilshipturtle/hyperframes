@@ -127,8 +127,21 @@ export async function validateJob(jobDir: string, opts: { skipMedia?: boolean; p
   for (let i = 1; i < b.length; i++) {
     if (b[i].layout === "typographic-card" || b[i - 1].layout === "typographic-card") { run = 1; continue; }
     run = layoutFamily(b[i].layout) === layoutFamily(b[i - 1].layout) ? run + 1 : 1;
+    // Full-screen runs are exempt: consecutive full-frame shots are ordinary
+    // documentary grammar. Capping them is what forced the Brain to convert
+    // every third shot into a split-screen with a manufactured key phrase.
+    if (layoutFamily(b[i].layout) === "fullscreen") continue;
     const allow = sectionKind.get(b[i].sectionId) === "hook" && netOf(b[i]) < 66 ? 3 : 2;
     if (run > allow) err(`I9: ${b[i].id} is the ${run}th consecutive ${layoutFamily(b[i].layout)} layout`);
+  }
+  // I9b: conspicuous framed layouts must stay a minority of screen time.
+  {
+    const FRAMED = new Set(["split-left-media-right-text", "split-right-media-left-text",
+      "grid-2", "grid-3", "grid-4", "comparison-split", "pip-over-blur", "timeline-strip"]);
+    const framed = b.filter((it) => FRAMED.has(it.layout)).reduce((a, it) => a + netOf(it), 0);
+    const share = framed / Math.max(1, tl.durationInFrames);
+    if (share > 0.22) warnings.push(`I9b: framed/inset layouts cover ${(share * 100).toFixed(1)} % of screen time (target <= 22 %); the film may read as a template`);
+
   }
   // I10 Y2 rules + report list
   const y2Items: { item: BrollItem; asset: Asset | undefined }[] = [];

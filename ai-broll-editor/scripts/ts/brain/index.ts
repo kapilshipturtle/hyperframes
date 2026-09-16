@@ -279,14 +279,45 @@ function assertInvariants(ctx: Ctx, tl: Timeline, shots: WorkShot[]): void {
     if (beats.size > 2) fail("I8", `asset ${id} used by ${beats.size} beats`);
     for (const x of l) for (const y of l) if (x.beatId !== y.beatId && Math.abs(x.cut - y.cut) < 2700) fail("I8", `asset ${id} reused within 2,700 frames (${x.beatId}, ${y.beatId})`);
   }
-  // I9 layout family run length <= 2 (typographic-card fallbacks excluded; 3 allowed in hook sections with < 2.2 s beats)
+  // I9 layout family run length (typographic-card fallbacks excluded).
+  //
+  // FULL-SCREEN IS EXEMPT. A run of full-frame shots is ordinary documentary
+  // grammar — the genre's style breakdowns show full-frame footage with
+  // graphics composited on top, never the picture shrunk into a panel beside
+  // text. Capping it at 2 forced rule 5 to convert every third shot into a
+  // split-screen, which took the Director's 2 planned splits to 9 (26 % of
+  // shots against a ~10 % professional ceiling) and manufactured a key phrase
+  // for each one just to fill the panel. Variety inside a full-screen run is
+  // now carried by camera move and shot scale, which is what an editor varies.
+  //
+  // The cap still applies to grids, splits and comparisons: those ARE
+  // conspicuous, and repeating them is what reads as a template.
   let run = 1;
   for (let i = 1; i < b.length; i++) {
     if (b[i].layout === "typographic-card" || b[i - 1].layout === "typographic-card") { run = 1; continue; }
     if (layoutFamily(b[i].layout) === layoutFamily(b[i - 1].layout)) run++; else run = 1;
+    if (layoutFamily(b[i].layout) === "fullscreen") continue;
     const hookShort = ctx.sectionById.get(b[i].sectionId)?.section.kind === "hook" && net(b[i]) < 66;
     if (run > (hookShort ? 3 : 2)) fail("I9", `${b[i].id}: ${run} consecutive ${layoutFamily(b[i].layout)} layouts`);
   }
+
+  // I9b (new): conspicuous non-full-screen layouts must stay a minority.
+  // This is the ceiling that keeps the film from looking assembled from a
+  // template, and it replaces the old "never 3 in a row" proxy with a direct
+  // budget on how much of the picture is framed rather than full-frame.
+  const FRAMED = new Set(["split-left-media-right-text", "split-right-media-left-text",
+    "grid-2", "grid-3", "grid-4", "comparison-split", "pip-over-blur", "timeline-strip"]);
+  const framedFrames = b.filter((it) => FRAMED.has(it.layout)).reduce((a, it) => a + net(it), 0);
+  const framedShare = framedFrames / Math.max(1, tl.durationInFrames);
+  // Warn rather than throw: the ceiling is a taste judgement, and a Director
+  // plan that genuinely calls for many grids/comparisons is legitimate. It
+  // throws only when it is so far over that the film reads as a template.
+  // Deliberately a WARNING, never a failure. The share depends on what the
+  // Director asked for and on what footage was actually available; a run that
+  // is legitimately grid-heavy should still render. This reports the number so
+  // it is visible in the run, and the ceiling is enforced upstream where the
+  // layouts are chosen, not here where the film is already built.
+  if (framedShare > 0.22) ctx.log.warn(`framed/inset layouts cover ${(framedShare * 100).toFixed(1)} % of screen time (target <= 22 %); the film may read as a template`);
   // I10 Y2 rules
   const y2Sources = new Map<string, string>();
   for (const s of shots) {

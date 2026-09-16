@@ -25,6 +25,9 @@ export interface Cut {
 
 /** P4..P6 working shot. Frames are filled by P6. */
 export interface WorkShot {
+  /** Set by rule 5 when this is the third full-screen shot in a row: vary the
+   *  camera move rather than switching to a different layout family. */
+  varyMotion?: boolean;
   id: string;
   beatId: string;
   beatIds: string[];      // constituent beats (after merges)

@@ -57,10 +57,14 @@ export function assertInvariants(tl: Timeline, durationMs: number) {
   for (const x of b) for (const m of x.media) { const l = uses.get(m.src) ?? []; l.push({ beatId: x.beatId, cut: cut(x) }); uses.set(m.src, l); }
   for (const [, l] of uses) { expect(new Set(l.map((u) => u.beatId)).size).toBeLessThanOrEqual(2); for (const u of l) for (const v of l) if (u.beatId !== v.beatId) expect(Math.abs(u.cut - v.cut)).toBeGreaterThanOrEqual(2700); }
   // I9
+  // I9: full-screen runs are EXEMPT — consecutive full-frame shots are normal
+  // documentary grammar, and capping them forced the Brain to manufacture
+  // split-screens. Conspicuous framed families are still capped.
   let run = 1;
   for (let i = 1; i < b.length; i++) {
     if (b[i].layout === "typographic-card" || b[i - 1].layout === "typographic-card") { run = 1; continue; }
     run = layoutFamily(b[i].layout) === layoutFamily(b[i - 1].layout) ? run + 1 : 1;
+    if (layoutFamily(b[i].layout) === "fullscreen") continue;
     expect(run, `${b[i].id} family run`).toBeLessThanOrEqual(3);
   }
   // I10

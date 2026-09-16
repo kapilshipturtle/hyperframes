@@ -54,14 +54,28 @@ export function zoompanFilter(item: BrollItem, frames: number): string | null {
 const SOLID = /^solid:#?([0-9a-fA-F]{6})$/;
 
 /** Build the ffmpeg -i args and per-stream filter for one item clamped to `frames` frames starting `skipFrames` into the item. */
-export function itemStream(item: BrollItem, inputIndex: number, frames: number, skipFrames: number, resolveSrc: (src: string) => string): { input: GraphInput; filter: string } {
+export function itemStream(item: BrollItem, inputIndex: number, frames: number, skipFrames: number, resolveSrc: (src: string) => string, extraFrames = 0): { input: GraphInput; filter: string } {
   const media = item.media[0];
   if (!media) throw new Error(`${item.id}: broll item has no media (layout ${item.layout} is not FFmpeg-routable without media)`);
-  const dur = framesToSeconds(frames);
+  // A stream feeding INTO an xfade must OUTLAST it. xfade reads the exiting stream up
+  // to offset+duration, and trimming to exactly `frames` leaves a ZERO-frame margin:
+  //
+  //   [s0] trim=end_frame=400        -> ends at 13.333333 s
+  //   xfade offset=12.933333 duration=0.4 -> needs [s0] through 13.333333 s
+  //
+  // With float timestamps the last requested frame lands a hair past the end of the
+  // stream and ffmpeg reports "Failed to configure output pad on Parsed_xfade_N",
+  // exit 234. The margin has always been zero; short chains happened to buffer their
+  // way past it, and the bigger graphs from longer shots no longer do.
+  //
+  // `extraFrames` is the outgoing transition length, so the exiting stream is trimmed
+  // to frames + T and genuinely covers the blend.
+  const trimFrames = frames + extraFrames;
+  const dur = framesToSeconds(trimFrames);
   const solid = SOLID.exec(media.src);
   const zp = zoompanFilter(item, frames);
   const fit = `scale=1920:1080:force_original_aspect_ratio=increase,crop=1920:1080,setsar=1`;
-  const tail = `trim=end_frame=${frames},setpts=PTS-STARTPTS,format=yuv420p`;
+  const tail = `trim=end_frame=${trimFrames},setpts=PTS-STARTPTS,format=yuv420p`;
   if (solid) {
     return {
       input: { args: ["-f", "lavfi", "-t", dur, "-i", `color=c=0x${solid[1]}:s=${SIZE}:r=${FPS}`] },
@@ -75,14 +89,14 @@ export function itemStream(item: BrollItem, inputIndex: number, frames: number, 
     return {
       // A full extra second on the loop for the same reason as the video branch:
       // trim=end_frame cuts back to exactly `frames`, so the headroom costs nothing.
-      input: { args: ["-loop", "1", "-framerate", String(FPS), "-t", framesToSeconds(frames + FPS), "-i", src] },
+      input: { args: ["-loop", "1", "-framerate", String(FPS), "-t", framesToSeconds(trimFrames + FPS), "-i", src] },
       filter: `[${inputIndex}:v]${chain},${tail}`,
     };
   }
   const startFrame = media.startFromFrame + skipFrames;
   const ss = startFrame > 0 ? ["-ss", framesToSeconds(startFrame)] : [];
   // -t reads a little extra so decoder warm-up never starves the trim.
-  const readDur = framesToSeconds(frames + 6);
+  const readDur = framesToSeconds(trimFrames + 6);
   const motion = zp ? `,${zp}` : "";
   // tpad MUST be able to cover a source clip that is shorter than the shot.
   //
@@ -98,7 +112,7 @@ export function itemStream(item: BrollItem, inputIndex: number, frames: number, 
   //
   // Padding generously is free: trim=end_frame immediately cuts back to exactly
   // `frames`, so the only cost is cloned frames that are then discarded.
-  const padDur = framesToSeconds(frames + FPS); // a full extra second of headroom
+  const padDur = framesToSeconds(trimFrames + FPS); // a full extra second of headroom
   return {
     input: { args: [...ss, "-t", readDur, "-i", src] },
     filter: `[${inputIndex}:v]fps=${FPS},${fit}${motion},tpad=stop_mode=clone:stop_duration=${padDur},${tail}`,
@@ -132,7 +146,10 @@ export function buildSegmentGraph(chunk: Chunk, allItems: BrollItem[], gradeChai
     const frames = clampEnd - clampStart;
     if (frames <= 0) throw new Error(`${chunk.id}/${it.id}: clamps to ${frames} frames`);
     const skip = clampStart - itemStart;
-    const { input, filter } = itemStream(it, inputs.length, frames, skip, resolveSrc);
+    // How long the NEXT item's transition is: this stream must outlast that blend.
+    const next = items[idx + 1];
+    const outgoingT = next && next.transitionIn.type !== "cut" ? next.transitionIn.durationInFrames : 0;
+    const { input, filter } = itemStream(it, inputs.length, frames, skip, resolveSrc, outgoingT);
     inputs.push(input);
     const label = `[s${idx}]`;
     filters.push(`${filter}${label}`);

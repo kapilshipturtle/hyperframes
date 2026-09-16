@@ -109,3 +109,35 @@ describe("short-source headroom", () => {
     expect(img.filter).toContain("trim=end_frame=400");
   });
 });
+
+describe("xfade margin", () => {
+  it("the exiting stream outlasts every xfade it feeds", async () => {
+    const { buildSegmentGraph } = await import("../scripts/ts/lib/ffmpeg_graph.js");
+    const mk = (id: string, from: number, dur: number, T: number) => ({
+      id, beatId: id, sectionId: "s1", from: from - T, durationInFrames: dur + T,
+      route: "ffmpeg", segmentId: "seg_0001", layout: "fullscreen-clip",
+      media: [{ src: `prepared/${id}.mp4`, kind: "video", startFromFrame: 0 }],
+      motion: { type: "none" },
+      transitionIn: { type: T ? "fade" : "cut", durationInFrames: T }, credit: null,
+    });
+    // A 13.3 s hold followed by a 12-frame fade — the shape the raised beat cap allows.
+    const items = [mk("a", 0, 400, 0), mk("b", 400, 200, 12), mk("c", 600, 150, 0)];
+    const chunk = { id: "seg_0001", route: "ffmpeg" as const, fromFrame: 0, toFrame: 749, hash: "h", brollIds: ["a", "b", "c"] };
+    const g = buildSegmentGraph(chunk as never, items as never, "null", (s) => s);
+
+    const trims = [...g.filterComplex.matchAll(/trim=end_frame=(\d+)/g)].map((m) => Number(m[1]));
+    const fades = [...g.filterComplex.matchAll(/xfade=transition=\w+:duration=([\d.]+):offset=([\d.]+)/g)]
+      .map((m) => ({ duration: Number(m[1]), offset: Number(m[2]) }));
+    expect(fades.length).toBeGreaterThan(0);
+
+    // xfade reads the exiting stream through offset+duration. Trimming to exactly the
+    // shot length leaves a ZERO-frame margin, and ffmpeg then fails to configure the
+    // pad ("Parsed_xfade_N", exit 234). The margin must be strictly positive.
+    const exitingSeconds = trims[0] / 30;
+    const needed = fades[0].offset + fades[0].duration;
+    expect(exitingSeconds).toBeGreaterThan(needed);
+
+    // ...and the segment still declares the exact chunk length.
+    expect(g.expectedFrames).toBe(750);
+  });
+});

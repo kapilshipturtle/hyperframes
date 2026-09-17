@@ -16,3 +16,11 @@ work/worldeconomy/*
 !work/worldeconomy/beats.json
 !work/worldeconomy/plans/
 __pycache__/
+
+# long-form proof job (26.6 min): commit only the inputs the runner needs
+!work/amphibians/
+work/amphibians/*
+!work/amphibians/input.mp3
+!work/amphibians/job.yaml
+!work/amphibians/plans/
+!work/amphibians/plans/*.json

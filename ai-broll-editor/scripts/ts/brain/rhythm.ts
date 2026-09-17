@@ -31,7 +31,11 @@ export function planLongHold(ctx: Ctx, shots: WorkShot[], totalFrames: number): 
   const [lo, hi] = holdWindowFrames(totalFrames, l);
   const target = holdTargetFrames(totalFrames, 30, l);
 
-  const inWindow = shots.filter((s) => s.cutFrame >= lo && s.cutFrame <= hi && !s.continuation);
+  // Y2 (credited YouTube excerpt) clips are capped at MAX_Y2_FRAMES for licensing, so
+  // they can never carry the hold — excluding them here avoids planning one that
+  // quantise would then have to clamp.
+  const inWindow = shots.filter((s) =>
+    s.cutFrame >= lo && s.cutFrame <= hi && !s.continuation && s.asset?.tier !== "y2");
   if (!inWindow.length) {
     ctx.log.log("P4.5", "long-hold", `no shot starts inside the ${lo}-${hi} frame window; skipped`);
     return null;

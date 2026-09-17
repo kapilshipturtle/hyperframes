@@ -130,6 +130,16 @@ export function buildSegmentGraph(chunk: Chunk, allItems: BrollItem[], gradeChai
   const items = itemsInChunk(allItems, chunk);
   if (!items.length) throw new Error(`${chunk.id}: no broll items intersect frames ${chunk.fromFrame}..${chunk.toFrame}`);
   const expectedFrames = chunkFrames(chunk);
+  // Fail HERE, with the segment named, rather than inside ffmpeg. A segment shorter
+  // than the longest transition cannot supply the blend entering the next segment, and
+  // ffmpeg reports only "Failed to configure output pad on Parsed_xfade_N" with the
+  // command truncated — which is unreadable and cost several wrong diagnoses.
+  if (expectedFrames < 18) {
+    throw new Error(
+      `${chunk.id}: ${expectedFrames} frames is shorter than the longest transition (18); ` +
+      `a segment this short cannot host a blend. This usually means a route boundary ` +
+      `snapped backwards into it (see MIN_SEGMENT_FRAMES in brain/route.ts).`);
+  }
   const inputs: GraphInput[] = [];
   const filters: string[] = [];
   const meta: SegmentGraph["items"] = [];

@@ -15,6 +15,10 @@ export const MAX_REMOTION_CHUNK = 4000;
  *  Parsed_xfade_N" failure was NOT caused by chain length — see ffmpeg_graph.ts, where
  *  tpad had too little headroom for a source clip shorter than the shot. */
 export const MAX_FFMPEG_XFADES = 8;
+/** No segment may be shorter than this. A segment must be able to host the longest
+ *  transition (18 frames) plus a little slack; a 10-frame segment was left behind by
+ *  the 30-frame snap below and could not supply the blend entering the next segment. */
+export const MIN_SEGMENT_FRAMES = 30;
 
 /** Route each broll item; the previous item's route matters for fade (both shots must be FFmpeg-routable, 11.7). */
 export function routeItems(items: BrollItem[], texts: TextItem[], gfx: MotionGfxItem[], log: PlacementLog): void {
@@ -50,8 +54,13 @@ export function buildSegments(items: BrollItem[], totalFrames: number): Segment[
     if (!last) start = 0;
     else {
       if (it.route === "remotion" && last.route === "ffmpeg") {
+        // A Remotion segment may extend backwards to a 30-frame boundary, but it must
+        // not starve the FFmpeg segment it is eating into. Those frames still have to
+        // host their own shots and any transition entering the next segment; a segment
+        // left shorter than a fade cannot supply the blend at all and ffmpeg fails to
+        // configure the xfade pad.
         const snapped = Math.floor(start / 30) * 30;
-        if (start - snapped <= 29 && snapped > last.fromFrame) start = snapped; // extend backwards up to 29 frames
+        if (start - snapped <= 29 && snapped - last.fromFrame >= MIN_SEGMENT_FRAMES) start = snapped;
       }
       last.toFrame = start - 1;
     }
@@ -83,6 +92,26 @@ export function chunkSegments(segs: Segment[], items: BrollItem[] = []): Segment
       }
       if (f <= s.toFrame) out[out.length - 1].toFrame = s.toFrame;
     } else out.push({ ...s });
+  }
+  // Final safety net: merge away any segment still shorter than a transition.
+  //
+  // The 30-frame snap is the usual cause and is guarded above, but chunk splitting and
+  // route alternation can also leave a runt behind. A segment shorter than the longest
+  // transition (18 frames) cannot supply the blend entering the next one, and ffmpeg
+  // reports only "Failed to configure output pad on Parsed_xfade_N". Merging into the
+  // neighbour that shares its route keeps every frame covered exactly once.
+  for (let i = 0; i < out.length; i++) {
+    const len = out[i].toFrame - out[i].fromFrame + 1;
+    if (len >= MIN_SEGMENT_FRAMES || out.length === 1) continue;
+    const prev = out[i - 1], next = out[i + 1];
+    const target = prev && prev.route === out[i].route ? prev
+      : next && next.route === out[i].route ? next
+      : prev ?? next;
+    if (!target) continue;
+    if (target === prev) target.toFrame = out[i].toFrame;
+    else target.fromFrame = out[i].fromFrame;
+    out.splice(i, 1);
+    i = -1; // rescan: merging can create another runt
   }
   out.forEach((s, i) => { s.id = `seg_${String(i + 1).padStart(4, "0")}`; });
   return out;

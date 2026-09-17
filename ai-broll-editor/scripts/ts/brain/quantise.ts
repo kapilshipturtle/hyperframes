@@ -68,12 +68,16 @@ function reuseOk(shots: WorkShot[], assetId: string, from: number, to: number, b
 }
 
 function maxFor(s: WorkShot): number {
+  // The Y2 cap is a LICENSING limit (short, credited, no-audio YouTube excerpts), not a
+  // pacing preference, so it outranks the deliberate hold. Checking the hold first let
+  // a Y2 clip run to 197 frames against its 149-frame cap — caught by the property test.
+  if (s.asset?.tier === "y2") return MAX_Y2_FRAMES - s.transitionIn.durationInFrames;
   // The film's one deliberate hold is allowed to run to its target: splitting it would
   // undo the very thing it exists to do (law 2, the deliberate slow-down).
   if (s.longHold && s.longHoldTargetFrames) {
     return Math.max(s.longHoldTargetFrames, MAX_SHOT_FRAMES);
   }
-  return s.asset?.tier === "y2" ? MAX_Y2_FRAMES - s.transitionIn.durationInFrames : MAX_SHOT_FRAMES;
+  return MAX_SHOT_FRAMES;
 }
 
 /** P6 on WorkShots: quantise, enforce 45..180 (Y2 45..149), set from/durationInFrames, freeze frames, Ken Burns peaks. */

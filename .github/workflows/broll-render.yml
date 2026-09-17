@@ -226,6 +226,13 @@ jobs:
           npm run brain -- --job "$JOB"
           npm run validate -- --job "$JOB"
 
+      # Print the exact filter_complex BEFORE running it. The runtime error truncates
+      # the command as "-t ..." , which cost four wrong diagnoses; this makes the real
+      # graph visible in the log whether the next step passes or fails.
+      - name: FFmpeg segments — print graphs (diagnostic)
+        run: npm run ffmpeg-segments -- --job "$JOB" --dry-run
+        continue-on-error: true
+
       - name: FFmpeg segments (Tier 2)
         run: npm run ffmpeg-segments -- --job "$JOB"
 

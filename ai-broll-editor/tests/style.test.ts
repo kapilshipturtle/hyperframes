@@ -130,3 +130,45 @@ describe("ffmpeg chain bounding", () => {
     }
   });
 });
+
+describe("segment length floor", () => {
+  it("the 30-frame snap never starves the previous segment", async () => {
+    const { buildSegments, chunkSegments } = await import("../scripts/ts/brain/route.js");
+    type Any = Record<string, unknown>;
+    const mk = (id: string, from: number, dur: number, route: "ffmpeg" | "remotion", T = 0): Any => ({
+      id, beatId: id, sectionId: "s1", from: from - T, durationInFrames: dur + T, route, segmentId: "",
+      layout: route === "ffmpeg" ? "fullscreen-clip" : "quote-card",
+      media: [{ src: "x.mp4", kind: "video", startFromFrame: 0 }], motion: { type: "none" },
+      transitionIn: { type: T ? "fade" : "cut", durationInFrames: T }, credit: null,
+    });
+    // A Remotion segment may extend backwards to a 30-frame boundary. When the
+    // preceding ffmpeg run ends just past one, that snap used to leave a 10-frame
+    // segment behind — shorter than the 12-18 frame transition entering the next
+    // segment, so ffmpeg could not configure the xfade pad.
+    for (let off = 0; off < 30; off++) {
+      const items = [
+        mk("a", 0, 60 + off, "ffmpeg"),
+        mk("b", 60 + off, 120, "remotion", 12),
+        mk("c", 180 + off, 90, "ffmpeg"),
+      ];
+      const segs = chunkSegments(buildSegments(items as never, 270 + off), items as never);
+      for (const s of segs) {
+        const len = s.toFrame - s.fromFrame + 1;
+        expect(len, `offset ${off}: ${s.id} is ${len} frames`).toBeGreaterThanOrEqual(18);
+      }
+    }
+  });
+
+  it("a too-short segment fails at plan time with a named segment, not inside ffmpeg", async () => {
+    const { buildSegmentGraph } = await import("../scripts/ts/lib/ffmpeg_graph.js");
+    const item = {
+      id: "a", beatId: "a", sectionId: "s1", from: 0, durationInFrames: 10,
+      route: "ffmpeg", segmentId: "seg_0001", layout: "fullscreen-clip",
+      media: [{ src: "prepared/a.mp4", kind: "video", startFromFrame: 0 }],
+      motion: { type: "none" }, transitionIn: { type: "cut", durationInFrames: 0 }, credit: null,
+    };
+    const chunk = { id: "seg_0006", route: "ffmpeg" as const, fromFrame: 0, toFrame: 9, hash: "h", brollIds: ["a"] };
+    expect(() => buildSegmentGraph(chunk as never, [item] as never, "null", (s) => s))
+      .toThrow(/seg_0006: 10 frames is shorter than the longest transition/);
+  });
+});

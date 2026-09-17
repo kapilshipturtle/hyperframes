@@ -6,7 +6,15 @@ import { sha1, stableStringify } from "./rng.js";
 import type { PlacementLog } from "./log.js";
 
 const FFMPEG_LAYOUTS = new Set(["fullscreen-clip", "fullscreen-image-kenburns"]);
-const FFMPEG_TRANSITIONS = new Set(["cut", "fade"]);
+// "fade" is DELIBERATELY excluded. The FFmpeg xfade path fails on real timelines with
+// "Failed to configure output pad on Parsed_xfade_N" (exit 234) and six runs of
+// diagnosis did not settle it — see docs/xfade-investigation.md for what was measured
+// and ruled out. Remotion composites transitions correctly, so a shot that ENTERS on a
+// fade routes there; every hard cut still takes the fast FFmpeg path.
+//
+// Cost: more segments render in Remotion (slower). Benefit: the pipeline works.
+// Flip this back to ["cut", "fade"] once the xfade graph is genuinely fixed.
+const FFMPEG_TRANSITIONS = new Set(["cut"]);
 const FFMPEG_MOTION = new Set(["none", "ken-burns", "slow-zoom-out"]);
 const FFMPEG_GRADES = new Set<Grade>(GRADES); // every grade in 16.5 has an FFmpeg pair
 export const MAX_REMOTION_CHUNK = 4000;

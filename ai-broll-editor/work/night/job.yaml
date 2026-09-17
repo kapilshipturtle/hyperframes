@@ -1,5 +1,5 @@
 # ai-broll-editor job configuration. Copy to work/<job_id>/job.yaml and edit.
-job_id: amphibians
+job_id: night
 input_audio: input.mp3            # relative to the job dir
 language: en
 fps: 30

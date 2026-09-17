@@ -17,10 +17,12 @@ work/worldeconomy/*
 !work/worldeconomy/plans/
 __pycache__/
 
-# long-form proof job (26.6 min): commit only the inputs the runner needs
-!work/amphibians/
-work/amphibians/*
-!work/amphibians/input.mp3
-!work/amphibians/job.yaml
-!work/amphibians/plans/
-!work/amphibians/plans/*.json
+# mid-length proof job (8.5 min): commit only the inputs the runner needs.
+# 8.5 min is ~110 shots, which fits the Pexels 200 req/hour free cap; a 27-min
+# film needs ~350 shots and would spend 2-5 HOURS just sourcing.
+!work/night/
+work/night/*
+!work/night/input.mp3
+!work/night/job.yaml
+!work/night/plans/
+!work/night/plans/*.json

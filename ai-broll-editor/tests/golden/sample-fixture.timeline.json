@@ -286,9 +286,9 @@
         "motion": {
           "type": "none"
         },
-        "route": "ffmpeg",
+        "route": "remotion",
         "sectionId": "sec_01",
-        "segmentId": "seg_0004",
+        "segmentId": "seg_0005",
         "tier": "stock",
         "transitionIn": {
           "durationInFrames": 0,
@@ -319,7 +319,7 @@
         },
         "route": "ffmpeg",
         "sectionId": "sec_01",
-        "segmentId": "seg_0004",
+        "segmentId": "seg_0006",
         "tier": "stock",
         "transitionIn": {
           "durationInFrames": 0,
@@ -350,7 +350,7 @@
         },
         "route": "remotion",
         "sectionId": "sec_01",
-        "segmentId": "seg_0005",
+        "segmentId": "seg_0007",
         "tier": "stock",
         "transitionIn": {
           "durationInFrames": 0,
@@ -381,7 +381,7 @@
         },
         "route": "remotion",
         "sectionId": "sec_01",
-        "segmentId": "seg_0005",
+        "segmentId": "seg_0007",
         "tier": "stock",
         "transitionIn": {
           "durationInFrames": 0,
@@ -409,7 +409,7 @@
         },
         "route": "ffmpeg",
         "sectionId": "sec_01",
-        "segmentId": "seg_0006",
+        "segmentId": "seg_0008",
         "tier": "stock",
         "transitionIn": {
           "durationInFrames": 0,
@@ -431,7 +431,7 @@
         },
         "route": "remotion",
         "sectionId": "sec_01",
-        "segmentId": "seg_0007",
+        "segmentId": "seg_0009",
         "transitionIn": {
           "durationInFrames": 17,
           "type": "fade"
@@ -452,7 +452,7 @@
         },
         "route": "remotion",
         "sectionId": "sec_02",
-        "segmentId": "seg_0007",
+        "segmentId": "seg_0009",
         "transitionIn": {
           "durationInFrames": 16,
           "type": "fade"
@@ -478,7 +478,7 @@
         },
         "route": "ffmpeg",
         "sectionId": "sec_02",
-        "segmentId": "seg_0008",
+        "segmentId": "seg_0010",
         "tier": "stock",
         "transitionIn": {
           "durationInFrames": 0,
@@ -508,7 +508,7 @@
         },
         "route": "remotion",
         "sectionId": "sec_02",
-        "segmentId": "seg_0009",
+        "segmentId": "seg_0011",
         "tier": "stock",
         "transitionIn": {
           "durationInFrames": 0,
@@ -537,7 +537,7 @@
         },
         "route": "ffmpeg",
         "sectionId": "sec_02",
-        "segmentId": "seg_0010",
+        "segmentId": "seg_0012",
         "tier": "stock",
         "transitionIn": {
           "durationInFrames": 0,
@@ -568,7 +568,7 @@
         },
         "route": "remotion",
         "sectionId": "sec_02",
-        "segmentId": "seg_0011",
+        "segmentId": "seg_0013",
         "tier": "stock",
         "transitionIn": {
           "durationInFrames": 0,
@@ -598,7 +598,7 @@
         },
         "route": "remotion",
         "sectionId": "sec_02",
-        "segmentId": "seg_0011",
+        "segmentId": "seg_0013",
         "stat": {
           "countFrames": 60,
           "suffix": "%",
@@ -634,7 +634,7 @@
         },
         "route": "remotion",
         "sectionId": "sec_02",
-        "segmentId": "seg_0011",
+        "segmentId": "seg_0013",
         "tier": "stock",
         "transitionIn": {
           "durationInFrames": 0,
@@ -664,7 +664,7 @@
         },
         "route": "ffmpeg",
         "sectionId": "sec_02",
-        "segmentId": "seg_0012",
+        "segmentId": "seg_0014",
         "tier": "stock",
         "transitionIn": {
           "durationInFrames": 0,
@@ -692,7 +692,7 @@
         },
         "route": "ffmpeg",
         "sectionId": "sec_02",
-        "segmentId": "seg_0012",
+        "segmentId": "seg_0014",
         "tier": "stock",
         "transitionIn": {
           "durationInFrames": 0,
@@ -714,7 +714,7 @@
         },
         "route": "remotion",
         "sectionId": "sec_02",
-        "segmentId": "seg_0013",
+        "segmentId": "seg_0015",
         "transitionIn": {
           "durationInFrames": 16,
           "type": "fade"
@@ -850,6 +850,30 @@
     ],
     "motiongfx": [
       {
+        "beatId": "b_0002",
+        "durationInFrames": 90,
+        "from": 352,
+        "id": "g_b_0002_number",
+        "params": {
+          "countFrames": 60,
+          "label": "",
+          "prefix": "",
+          "suffix": "",
+          "value": 58
+        },
+        "type": "stat-counter"
+      },
+      {
+        "beatId": "b_0006",
+        "durationInFrames": 105,
+        "from": 1145,
+        "id": "g_b_0006_place",
+        "params": {
+          "label": "Rotterdam"
+        },
+        "type": "icon-pop"
+      },
+      {
         "beatId": "b_0007",
         "durationInFrames": 222,
         "from": 1336,
@@ -860,6 +884,20 @@
           "tier": "archival"
         },
         "type": "corner-credit"
+      },
+      {
+        "beatId": "b_0009",
+        "durationInFrames": 90,
+        "from": 1817,
+        "id": "g_b_0009_number",
+        "params": {
+          "countFrames": 60,
+          "label": "",
+          "prefix": "",
+          "suffix": "",
+          "value": 20
+        },
+        "type": "stat-counter"
       },
       {
         "beatId": "b_0019",

@@ -5,6 +5,7 @@ import type { Ctx, WorkShot } from "./model.js";
 import { strongestWord } from "./emphasis.js";
 import { verbatimRun } from "./shots.js";
 import type { SfxCandidate } from "./sfx.js";
+import { findTriggers, GRAPHIC_FOR, HOLD_SECONDS, type Trigger } from "./triggers.js";
 
 export function scheduleMotionGfx(ctx: Ctx, shots: WorkShot[], texts: TextItem[]): { gfx: MotionGfxItem[]; sfx: SfxCandidate[] } {
   const gfx: MotionGfxItem[] = [];
@@ -60,6 +61,98 @@ export function scheduleMotionGfx(ctx: Ctx, shots: WorkShot[], texts: TextItem[]
       sfx.push({ frame: s.cutFrame - 45, tag: "riser-short", kind: "riser", priority: 3, sectionKind: kind, reason: `riser before chapter-card ${s.id}`, strong: false });
     }
   }
+  // ---- P8b: graphics on ORDINARY shots -------------------------------------
+  //
+  // Everything above requires a special layout (stat card, grid, list reveal),
+  // so a film of plain full-screen clips got ZERO graphics and read as a
+  // narrated slideshow. The renderer never had this restriction — motiongfx is
+  // an independent track above all b-roll — so the fix belongs here.
+  //
+  // A graphic is earned by something SPOKEN, placed within +/-1 s of its
+  // trigger word (measured: 73 % of real b-roll inserts sit in that window),
+  // never on a timer. Cadence-driven decoration is the very thing that makes an
+  // edit look automated.
+  gfx.push(...planTriggeredGfx(ctx, shots, gfx));
+
   // progress-bar-top (continuous, section-aware) is intentionally not emitted: it would force every segment to Remotion (11.13).
   return { gfx: gfx.sort((a, b) => a.from - b.from || a.id.localeCompare(b.id)), sfx };
+}
+
+
+/** Frames a graphic may sit from its trigger word: the measured +/-1 s window. */
+const TRIGGER_WINDOW_FRAMES = 30;
+/** Corpus median gap between visual inserts is 9 s; this floor keeps a dense
+ *  passage from turning into clutter while still allowing ~13 events / 2 min. */
+const MIN_GAP_FRAMES = 135; // 4.5 s
+/** Graphics must never crowd the film's one deliberate hold: that bare moment
+ *  is measured and intentional. */
+const HOLD_KEEPOUT = true;
+
+/** Plan one graphic per eligible shot from what the narration actually says. */
+function planTriggeredGfx(ctx: Ctx, shots: WorkShot[], existing: MotionGfxItem[]): MotionGfxItem[] {
+  const out: MotionGfxItem[] = [];
+  const busy = existing.map((g) => g.from).sort((a, b) => a - b);
+  let lastFrom = -Infinity;
+  let lastType = "";
+
+  for (const s of shots) {
+    if (s.longHold && HOLD_KEEPOUT) continue;           // keep the payoff bare
+    if (layoutFamily(s.layout) !== "fullscreen") continue; // specials are handled above
+    if (existing.some((g) => g.beatId === s.beatId)) continue; // one per shot
+    if (s.netFrames < 60) continue;                     // nothing under 2 s
+
+    const words = s.wordIds.map((id) => ctx.wordById.get(id)!).filter(Boolean);
+    if (!words.length) continue;
+
+    // Highest-priority trigger in this shot; ties break on word order.
+    const cands = findTriggers(words).filter((t) => GRAPHIC_FOR[t.kind]);
+    if (!cands.length) continue;
+    cands.sort((a, b) => b.priority - a.priority || a.wordId - b.wordId);
+
+    const pick = cands.find((t) => GRAPHIC_FOR[t.kind] !== lastType) ?? cands[0];
+    const type = GRAPHIC_FOR[pick.kind]!;
+    if (type === lastType) continue;                    // never twice in a row
+
+    const w = ctx.wordById.get(pick.wordId)!;
+    // Land ~10 frames BEFORE the word: a graphic that appears exactly on the
+    // word feels mechanical, one that is already arriving reads as intentional.
+    let from = msToFrame(w.startMs) - 10;
+    from = Math.max(s.cutFrame, Math.min(from, s.cutFrame + s.netFrames - 45));
+    if (Math.abs(from - (msToFrame(w.startMs) - 10)) > TRIGGER_WINDOW_FRAMES) continue;
+    if (from - lastFrom < MIN_GAP_FRAMES) continue;
+    if (busy.some((b) => Math.abs(b - from) < MIN_GAP_FRAMES)) continue;
+
+    const hold = Math.round(HOLD_SECONDS[pick.kind] * 30);
+    const dur = Math.max(45, Math.min(hold, s.cutFrame + s.netFrames - from - 5));
+    if (dur < 45) continue;                             // under 1.5 s is unreadable
+
+    out.push({
+      id: `g_${s.id}_${pick.kind}`, beatId: s.beatId, type: type as MotionGfxItem["type"],
+      from, durationInFrames: dur, params: paramsFor(pick, ctx),
+    });
+    lastFrom = from; lastType = type;
+    ctx.log.log("P8b", `gfx:${type}`, `"${pick.text}" (${pick.kind}) at frame ${from}`, { beatId: s.beatId, from, durationInFrames: dur });
+  }
+  return out;
+}
+
+/** Build the renderer params for a trigger. Kept deliberately frame-anchored:
+ *  we cannot locate objects in the footage, and a circle around nothing is
+ *  worse than no circle. */
+function paramsFor(t: Trigger, _ctx: Ctx): Record<string, unknown> {
+  switch (t.kind) {
+    case "number": {
+      const n = Number(t.text.replace(/[^0-9.]/g, ""));
+      const prefix = t.text.startsWith("$") ? "$" : "";
+      const suffix = /%/.test(t.text) ? "%"
+        : /\b(million|billion|trillion|thousand)\b/i.exec(t.text)?.[0] ?? "";
+      return { value: Number.isFinite(n) ? n : 0, prefix, suffix: suffix ? ` ${suffix}` : "", label: "", countFrames: 60 };
+    }
+    case "comparison":
+      return { labels: ["", ""], values: [100, 55] };
+    case "enumeration":
+      return { lines: [{ text: t.text, atFrame: 0 }] };
+    default:
+      return { label: t.text };
+  }
 }

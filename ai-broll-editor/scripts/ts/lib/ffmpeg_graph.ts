@@ -171,7 +171,22 @@ export function buildSegmentGraph(chunk: Chunk, allItems: BrollItem[], gradeChai
     }
     if (T > 0) {
       if (itemStart + T !== accEnd) throw new Error(`${chunk.id}/${it.id}: fade of ${T}f must start ${T} frames before the previous item ends (prev ends ${accEnd}, item starts ${itemStart})`);
-      const offset = framesToSeconds(itemStart - chunk.fromFrame);
+      // Nudge the offset half a frame EARLIER so float rounding can never leave the
+      // exiting stream a hair short.
+      //
+      // framesToSeconds uses toFixed(6), so a stream of N frames and an
+      // offset+duration that should equal N frames can disagree in the 6th decimal:
+      //   accumulated 322 frames -> "10.733333"
+      //   offset 10.166667 + duration 0.566667 = 10.733334
+      // a margin of -1e-6 s, and ffmpeg fails with "Failed to configure output pad on
+      // Parsed_xfade_N" (exit 234). Trimming streams longer does not help, because
+      // after a concat the accumulated length is the SUM of trims and lands on the
+      // boundary again.
+      //
+      // Half a frame is far below the perceptual threshold (the blend still completes
+      // at the cut frame) and puts the comparison safely on the right side of the
+      // rounding.
+      const offset = framesToSeconds(itemStart - chunk.fromFrame - 0.5);
       const out = `[x${idx}]`;
       filters.push(`${acc}${label}xfade=transition=fade:duration=${framesToSeconds(T)}:offset=${offset}${out}`);
       acc = out; accEnd = clampEnd;

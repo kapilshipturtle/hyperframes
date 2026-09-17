@@ -23,7 +23,7 @@ describe("buildSegmentGraph", () => {
     expect(g.inputs).toHaveLength(2);
   });
 
-  it("xfade offset lands the transition completion exactly at the cut frame", () => {
+  it("xfade offset lands the transition completion at the cut frame (half-frame early)", () => {
     // exiting a: 0..119 (cut at 120); entering b owns a 12-frame fade: from = 108, duration = 80 + 12
     const chunk: Chunk = { id: "seg_0001", route: "ffmpeg", fromFrame: 0, toFrame: 199, hash: "h", brollIds: ["a", "b"] };
     const b = item({ id: "b", from: 108, durationInFrames: 92, transitionIn: { type: "fade", durationInFrames: 12 } });
@@ -31,8 +31,13 @@ describe("buildSegmentGraph", () => {
     const m = /xfade=transition=fade:duration=([\d.]+):offset=([\d.]+)/.exec(g.filterComplex);
     expect(m).not.toBeNull();
     const T = Number(m![1]) * 30, offset = Number(m![2]) * 30;
-    expect(offset).toBe(108);            // (entering.from - chunk.fromFrame)
-    expect(offset + T).toBe(120);        // completes at the cut frame
+    // The offset is deliberately nudged HALF A FRAME earlier. framesToSeconds rounds at
+    // 6 dp, so an offset+duration that should equal the exiting stream's length can
+    // exceed it by 1e-6 s and ffmpeg then fails to configure the xfade pad. Half a
+    // frame is imperceptible and puts the comparison safely on the right side.
+    expect(offset).toBeCloseTo(107.5, 1);   // (entering.from - chunk.fromFrame) - 0.5
+    expect(offset + T).toBeCloseTo(119.5, 1); // completes at the cut frame, less half a frame
+    expect(offset + T).toBeLessThan(120);     // and never AFTER the exiting stream ends
     expect(g.expectedFrames).toBe(200);  // 120 + 92 - 12
   });
 
@@ -42,8 +47,9 @@ describe("buildSegmentGraph", () => {
     const b = item({ id: "b", from: 990, durationInFrames: 110, transitionIn: { type: "fade", durationInFrames: 10 } });
     const g = buildSegmentGraph(chunk, [a, b], grade, resolve);
     const m = /offset=([\d.]+)/.exec(g.filterComplex)!;
-    expect(Number(m[1]) * 30).toBe(90);
-    expect(Number(m[1]) * 30 + 10 + chunk.fromFrame).toBe(1000);
+    expect(Number(m[1]) * 30).toBeCloseTo(89.5, 1); // 90 less the half-frame nudge
+    // Absolute cut frame, less the deliberate half-frame nudge.
+    expect(Number(m[1]) * 30 + 10 + chunk.fromFrame).toBeCloseTo(999.5, 1);
   });
 
   it("clamps an item running past the chunk end and rejects gaps", () => {
@@ -139,5 +145,38 @@ describe("xfade margin", () => {
 
     // ...and the segment still declares the exact chunk length.
     expect(g.expectedFrames).toBe(750);
+  });
+});
+
+describe("xfade float margin", () => {
+  it("the exiting stream is never shorter than offset+duration, at any frame count", async () => {
+    const { buildSegmentGraph } = await import("../scripts/ts/lib/ffmpeg_graph.js");
+    const mk = (id: string, from: number, dur: number, T: number) => ({
+      id, beatId: id, sectionId: "s1", from: from - T, durationInFrames: dur + T,
+      route: "ffmpeg", segmentId: "seg_0001", layout: "fullscreen-clip",
+      media: [{ src: `prepared/${id}.mp4`, kind: "video", startFromFrame: 0 }],
+      motion: { type: "none" },
+      transitionIn: { type: T ? "fade" : "cut", durationInFrames: T }, credit: null,
+    });
+    // Sweep the shape that produced margin = -1e-6 s in CI: three hard cuts summing to
+    // an awkward total, then a 17-frame fade.
+    for (const [a, b, c] of [[167, 80, 75], [100, 100, 100], [33, 67, 101], [1, 2, 3].map((x) => x * 45) as number[]]) {
+      for (const T of [12, 14, 17, 18]) {
+        const pre = a + b + c;
+        const items = [
+          mk("a", 0, a, 0), mk("b", a, b, 0), mk("c", a + b, c, 0),
+          mk("d", pre, 152, T), mk("e", pre + 152, 90, 0),
+        ];
+        const total = pre + 152 + 90;
+        const chunk = { id: "seg_0001", route: "ffmpeg" as const, fromFrame: 0, toFrame: total - 1, hash: "h", brollIds: items.map((i) => i.id) };
+        const g = buildSegmentGraph(chunk as never, items as never, "null", (s) => s);
+        const f = [...g.filterComplex.matchAll(/xfade=transition=\w+:duration=([\d.]+):offset=([\d.]+)/g)]
+          .map((m) => ({ duration: Number(m[1]), offset: Number(m[2]) }));
+        for (const x of f) {
+          // The accumulated stream before the fade is `pre` frames.
+          expect(x.offset + x.duration, `pre=${pre} T=${T}`).toBeLessThan(pre / 30);
+        }
+      }
+    }
   });
 });

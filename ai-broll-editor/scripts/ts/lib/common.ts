@@ -142,7 +142,13 @@ export const H264_FLAGS = [
   "-color_primaries", "bt709", "-color_trc", "bt709", "-colorspace", "bt709", "-an", "-movflags", "+faststart",
 ];
 
-export function framesToSeconds(frames: number): string { return (frames / 30).toFixed(6).replace(/0+$/, "").replace(/\.$/, ".0"); }
+/** Frames -> seconds string for ffmpeg. Accepts fractional frames (see the xfade
+ *  offset nudge in ffmpeg_graph.ts). Rounds DOWN at 6 dp so a value derived from a
+ *  frame count is never longer than the stream that supplies it. */
+export function framesToSeconds(frames: number): string {
+  const s = Math.floor((frames / 30) * 1e6) / 1e6;
+  return s.toFixed(6).replace(/0+$/, "").replace(/\.$/, ".0");
+}
 
 export function main(fn: () => void | Promise<void>): void {
   Promise.resolve().then(fn).catch((e: unknown) => {

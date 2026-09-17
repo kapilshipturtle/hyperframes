@@ -1,8 +1,8 @@
 import React from "react";
 import { AbsoluteFill, spring, useCurrentFrame, useVideoConfig } from "remotion";
 import { BrandBg, MotionMedia, ease, safePx, type LayoutProps } from "./shared";
-import { BEBAS, INTER } from "../../util/fonts";
-import { BRAND } from "../../util/brand";
+import { BEBAS, INTER, DISPLAY, trackingEm, scaledShadow } from "../../util/fonts";
+import { BRAND, scrimGradient } from "../../util/brand";
 
 /** Simple stylised map outline (no network) with a pin dropping at params from cardSubtitle "x,y" in % or centre. */
 export const MapPin: React.FC<LayoutProps> = ({ item }) => {
@@ -49,8 +49,13 @@ export const TimelineStrip: React.FC<LayoutProps> = ({ item }) => {
   const x1 = 1920 - x0;
   return (
     <BrandBg>
-      {item.media[0] ? <div style={{ position: "absolute", left: 0, right: 0, top: 0, height: "52%", overflow: "hidden", opacity: 0.9 }}><MotionMedia item={item} /></div> : null}
-      {item.cardTitle ? <div style={{ position: "absolute", left: x0, top: "56%", fontFamily: BEBAS, fontSize: 64, color: "#fff" }}>{item.cardTitle}</div> : null}
+      {/* Media FILLS the frame; the strip is composited over it behind a scrim.
+          It used to occupy a 52 %-height band, leaving the bottom half as bare
+          background — a small window floating on a flat card, which is the single
+          thing that reads as a slide template rather than an edit. */}
+      {item.media[0] ? <AbsoluteFill><MotionMedia item={item} /></AbsoluteFill> : null}
+      {item.media[0] ? <AbsoluteFill style={{ background: scrimGradient("bottom", 0.82) }} /> : null}
+      {item.cardTitle ? <div style={{ position: "absolute", left: x0, bottom: "28%", fontFamily: DISPLAY, fontWeight: 800, fontSize: "5.6em", lineHeight: 1, color: BRAND.white, letterSpacing: `${trackingEm(7)}em`, textShadow: scaledShadow(96) }}>{item.cardTitle}</div> : null}
       <svg viewBox="0 0 1920 1080" style={{ position: "absolute", inset: 0, width: "100%", height: "100%" }}>
         <line x1={x0} y1={820} x2={x0 + (x1 - x0) * draw} y2={820} stroke={BRAND.accent} strokeWidth="6" />
         {pts.map((p, i) => {

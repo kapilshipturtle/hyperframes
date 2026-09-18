@@ -43,6 +43,11 @@ PHASH_MIN = 8
 IA_MAX_MB = 300
 
 PEXELS_PACER = Pacer(PEXELS_BASE_S, ceiling_s=PEXELS_FLOOR_S, base_s=PEXELS_BASE_S)  # adaptive: 2 s, 12 s after a 429
+
+# Per-host DOWNLOAD pacing. Only hosts that actually throttle media get an entry;
+# Pexels' CDN does not, and pacing it would slow every job for nothing.
+WIKIMEDIA_DOWNLOAD_PACER = Pacer(1.2, ceiling_s=8.0, base_s=1.2)
+DOWNLOAD_PACERS = {"wikimedia": WIKIMEDIA_DOWNLOAD_PACER}
 OTHER_PACER = Pacer(1.0)
 _WIKI_OK = re.compile(r"^(cc0|cc[\s-]by(?:[\s-]sa)?(?:[\s-]\d(\.\d)?)?|public domain|pd[\s-]|pd$)", re.I)
 _WIKI_BAD = re.compile(r"\b(nc|nd)\b", re.I)
@@ -430,10 +435,21 @@ class Sourcer:
         if c.local_path and c.local_path.exists():
             return c.local_path
         dest = self.assets_dir / f"{c.source}_{c.kind}_{re.sub(r'[^A-Za-z0-9_-]+', '-', c.cid)[:80]}.{c.ext}"
-        headers = {"User-Agent": "ai-broll-editor/0.1"} if c.source in ("wikimedia", "openverse") else None
+        # Wikimedia asks for a descriptive UA with contact info; a generic one is
+        # more likely to be throttled.
+        headers = ({"User-Agent": "ai-broll-editor/0.1 (+https://github.com/kapilshipturtle/hyperframes)"}
+                   if c.source in ("wikimedia", "openverse") else None)
         max_bytes = (IA_MAX_MB if c.source == "archiveorg" else 400) * 1024 * 1024
-        # media CDNs are not rate limited like the search API; no pacer on downloads
-        download(c.download_url, dest, headers=headers, timeout=HTTP_TIMEOUT_S, max_bytes=max_bytes)
+        # MEASURED 2026-09-18: upload.wikimedia.org DOES throttle downloads. An
+        # 8.5-minute job logged 369 "429 on https://upload.wikimedia.org/..." and
+        # every beat that lost its media fell back to a typographic card, so 18 of
+        # 126 shots (14 %) rendered as text on black with no footage.
+        #
+        # The old comment here ("media CDNs are not rate limited like the search
+        # API; no pacer on downloads") was simply wrong for Wikimedia. Pexels'
+        # CDN really is unthrottled, so only the hosts that need pacing get it.
+        download(c.download_url, dest, headers=headers, timeout=HTTP_TIMEOUT_S,
+                 max_bytes=max_bytes, pacer=DOWNLOAD_PACERS.get(c.source))
         c.local_path = dest
         return dest
 

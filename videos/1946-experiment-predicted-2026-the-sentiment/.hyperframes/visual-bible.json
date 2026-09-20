@@ -1,0 +1,148 @@
+{
+ "palette": { "shadow": "#241b14", "midtone": "#8a6b4a", "light": "#e8d9b8" },
+ "locations": [
+  {
+   "id": "modern-kitchen",
+   "era": "the present day, September 2026",
+   "descriptor": "A modest American kitchen at night, a small table pushed against the wall stacked with opened envelopes and a calculator, a window over the sink showing dark suburban street outside.",
+   "light": "the cool blue-white glow of an overhead LED fixture, mixed with a warmer lamp on the table",
+   "palette_note": "muted teal-grey walls, warm lamp amber, cold fluorescent white",
+   "textures": ["laminate countertop", "a stack of paper bills", "a chipped ceramic mug", "a calculator's worn keys"]
+  },
+  {
+   "id": "survey-research-center",
+   "era": "Ann Arbor, Michigan, 1946",
+   "descriptor": "A small postwar university office with a wall of grey filing cabinets, a heavy black rotary telephone, and stacks of typed questionnaire forms on a wooden desk beneath a single hanging bulb.",
+   "light": "a single hanging incandescent bulb over the desk, grey daylight through a tall sash window",
+   "palette_note": "institutional grey-green, manila folder tan, dull brass",
+   "textures": ["typed questionnaire paper", "steel filing-cabinet drawers", "a wooden desk's grain", "a rotary telephone's dial"]
+  },
+  {
+   "id": "budapest-boulevard",
+   "era": "Budapest, the early 1900s",
+   "descriptor": "A grand Budapest boulevard at the turn of the century, ornate stone apartment facades, a horse-drawn tram track, and the glass awning of a crowded coffee house on the corner.",
+   "light": "soft overcast daylight off pale stone, warm gaslight glowing inside the coffee house windows",
+   "palette_note": "pale limestone grey, warm coffee-house amber, dusty rose brick",
+   "textures": ["carved stone facades", "wrought-iron tram rails", "a coffee house's brass fittings", "cobblestone paving"]
+  },
+  {
+   "id": "gottingen-lecture-hall",
+   "era": "Göttingen, Germany, 1921",
+   "descriptor": "A steep wood-panelled university lecture hall, rows of narrow desks rising toward a high slate blackboard covered in chalked equations, tall arched windows along one side.",
+   "light": "grey northern daylight through tall arched windows, chalk dust catching in the beams",
+   "palette_note": "dark walnut brown, chalk-dust white, slate grey",
+   "textures": ["chalk-covered slate", "worn wooden desks", "leather-bound notebooks", "brass window latches"]
+  },
+  {
+   "id": "berlin-newsroom",
+   "era": "Berlin, 1923",
+   "descriptor": "A cramped financial newspaper office, desks buried under typewriters and wire-service bulletins, a large wall clock, a basket overflowing with loose banknotes near the door.",
+   "light": "harsh bare-bulb overhead light, cigarette haze catching in the beam",
+   "palette_note": "sallow newsprint yellow, iron-grey typewriters, dull banknote sepia",
+   "textures": ["stacked banknotes", "typewriter keys", "wire-service telegram paper", "a cracked leather desk chair"]
+  },
+  {
+   "id": "wartime-survey-office",
+   "era": "wartime Washington, early 1940s",
+   "descriptor": "A government wartime office lined with ration-board posters, a woman at a switchboard-style desk sorting punch cards, a map of the country pinned with coloured tacks.",
+   "light": "flat overhead fluorescent-adjacent tube light, grey daylight from a barred window",
+   "palette_note": "olive drab, ration-poster red, faded map tan",
+   "textures": ["punch cards", "a pinned wall map", "a ration-board poster", "a metal desk lamp"]
+  },
+  {
+   "id": "postwar-suburb",
+   "era": "an American suburb, the late 1940s",
+   "descriptor": "A brand-new postwar suburban street, identical small houses with fresh paint, a driveway with a gleaming new automobile, a family unloading a delivery truck of appliances.",
+   "light": "bright clean midday sun, hard-edged shadows on new concrete",
+   "palette_note": "fresh white clapboard, chrome silver, lawn green",
+   "textures": ["chrome car trim", "a wrapped refrigerator box", "fresh-poured concrete", "clapboard siding"]
+  },
+  {
+   "id": "gas-station-1970s",
+   "era": "an American gas station, 1973",
+   "descriptor": "A roadside gas station forecourt at dusk, a hand-lettered price sign propped against the pump, a long line of cars idling bumper to bumper down the block.",
+   "light": "the sodium-orange glow of the station's overhead canopy lights against a darkening sky",
+   "palette_note": "sodium orange, faded pump-red, asphalt grey",
+   "textures": ["a chalked price board", "chrome pump nozzles", "cracked asphalt", "car bumpers and tail-lights"]
+  },
+  {
+   "id": "fed-boardroom-1980",
+   "era": "Washington, D.C., 1980",
+   "descriptor": "A wood-panelled central bank boardroom, a long polished table surrounded by high-backed leather chairs, a ticker-tape machine clattering in the corner beneath a formal portrait.",
+   "light": "warm recessed ceiling light pooling on the polished table",
+   "palette_note": "dark mahogany, brass fittings, deep burgundy leather",
+   "textures": ["polished mahogany", "ticker-tape paper", "brass lamp fittings", "leather chair upholstery"]
+  },
+  {
+   "id": "foreclosed-street-2008",
+   "era": "an American suburb, late 2008",
+   "descriptor": "A quiet suburban street in the financial crisis, a foreclosure notice stapled to a front door, an unmown lawn, a realtor's faded for-sale sign leaning at an angle.",
+   "light": "flat grey overcast daylight, no shadows",
+   "palette_note": "washed-out beige, faded for-sale-sign red, overcast grey",
+   "textures": ["a stapled foreclosure notice", "a leaning wooden sign post", "overgrown lawn grass", "peeling porch paint"]
+  },
+  {
+   "id": "empty-storefront-2020",
+   "era": "a downtown street, spring 2020",
+   "descriptor": "A row of small downtown shopfronts at midday, security shutters pulled down, a single taped paper notice on a glass door, the street empty of people or traffic.",
+   "light": "flat bright midday sun with no pedestrians to cast moving shadows",
+   "palette_note": "bleached shopfront white, dull shutter grey, faded awning red",
+   "textures": ["corrugated security shutters", "taped paper notices", "empty glass storefronts", "cracked sidewalk"]
+  },
+  {
+   "id": "gas-station-2022",
+   "era": "an American gas station, June 2022",
+   "descriptor": "A modern gas station forecourt with a tall digital price sign glowing above the canopy, a driver staring up at the numbers with a fuel nozzle still in hand.",
+   "light": "the cold LED glare of the digital price sign against dusk",
+   "palette_note": "digital-sign red and white, canopy fluorescent white, asphalt black",
+   "textures": ["a backlit digital price sign", "a fuel nozzle and hose", "painted lane arrows", "canopy steel struts"]
+  },
+  {
+   "id": "fed-press-room-2026",
+   "era": "Washington, D.C., September 2026",
+   "descriptor": "A modern central bank press briefing room, a raised podium bearing the seal in front of a wall of muted television screens and a bank of microphones on stands.",
+   "light": "even bright broadcast lighting from overhead panels, screen glow reflecting on the podium",
+   "palette_note": "institutional navy, podium walnut, screen-glow blue-white",
+   "textures": ["a wood-veneer podium", "a bank of microphones", "muted television screens", "a formal seal plaque"]
+  },
+  {
+   "id": "trading-floor-2026",
+   "era": "New York, September 2026",
+   "descriptor": "A modern stock exchange floor beneath a soaring wall of glowing ticker displays, traders in shirtsleeves clustered around a terminal as numbers scroll past overhead.",
+   "light": "the cool electric glow of the ticker wall washing over the floor",
+   "palette_note": "ticker green and red, floor beige, screen-glow blue",
+   "textures": ["glowing ticker displays", "a cluttered trading terminal", "scattered paper printouts", "polished floor tile"]
+  },
+  {
+   "id": "mortgage-desk-2026",
+   "era": "a suburban home, September 2026",
+   "descriptor": "A young couple's kitchen table covered in mortgage paperwork and a laptop showing a real-estate listing, a half-packed moving box in the corner of the room.",
+   "light": "warm table lamp light against a darkening window",
+   "palette_note": "warm lamp amber, laptop screen blue, cardboard box tan",
+   "textures": ["printed mortgage paperwork", "a laptop keyboard", "cardboard packing tape", "a ceramic coffee cup"]
+  },
+  {
+   "id": "central-bank-vault",
+   "era": "a central bank vault, 2026",
+   "descriptor": "A cavernous institutional gold vault, stacked bars gleaming under rows of caged ceiling lights, a steel cart loaded with bullion beside an open vault door.",
+   "light": "hard rows of caged fluorescent-style vault lighting reflecting off metal",
+   "palette_note": "gold-bar yellow, steel grey, deep vault shadow",
+   "textures": ["stacked gold bars", "a riveted steel vault door", "a wheeled bullion cart", "caged ceiling lights"]
+  },
+  {
+   "id": "katona-study",
+   "era": "Ann Arbor, Michigan, the 1950s-60s",
+   "descriptor": "A book-lined academic study, a typewriter and stacked manuscript pages on a wide desk, framed certificates on the wall behind a tall reading lamp.",
+   "light": "a warm brass reading lamp pooling over the desk, dusk light at the window behind",
+   "palette_note": "deep bookshelf brown, brass lamp warmth, manuscript cream",
+   "textures": ["stacked manuscript pages", "a typewriter's worn keys", "leather book spines", "a framed certificate"]
+  }
+ ],
+ "motifs": [
+  "a hand-filled survey questionnaire with checked boxes",
+  "a rising and falling hand-drawn line graph",
+  "a stack of paper currency or coins",
+  "a gas-pump price display",
+  "a single lit window in an otherwise dark street"
+ ]
+}

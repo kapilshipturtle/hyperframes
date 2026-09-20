@@ -1,0 +1,535 @@
+Forty-seven point eight.
+
+That is the reading of the University of Michigan's Index of Consumer Sentiment, published on the eleventh of September, twenty twenty-six. Nine days ago. It is the second lowest figure that instrument has produced in the seventy-four years it has been running.
+
+The lowest figure it has ever produced is forty-four point eight. That was recorded four months earlier. In May. Of this same year.
+
+And the third lowest is forty-nine point eight, from April. Also this year.
+
+The three worst readings in the entire history of this measurement have all occurred within the last six months.
+
+So. If you have had a quiet feeling lately that something is out of joint. If the numbers on the news and the numbers on your own receipts seem to be describing two different countries. If you have found yourself doing arithmetic at the till that you did not used to do, and wondering privately whether the problem is the economy or whether the problem is you. Then there is something worth knowing tonight, and it is simply this.
+
+There is an instrument. It was built eighty years ago, for exactly this purpose. It is still running. It still asks the same five questions it asked your grandparents, in very nearly the same words. And it agrees with you.
+
+That instrument was invented almost by accident, by a Hungarian psychologist whose employers told him that the thing he was measuring did not matter. His name was George Katona. Very few people have heard of him. He died in nineteen eighty-one. And the little set of questions he slipped into someone else's survey, mostly to make the conversation flow more easily, turned into one of the most closely watched economic indicators in the world.
+
+This is his story, and the story of the number he left behind. We are going to take our time with it. There is nothing in it you need to do, nothing to decide, nothing to act on tonight. You can hold on to as much or as little of it as you like. The story will still be here tomorrow. So will the number.
+
+He was born in Budapest, in nineteen oh one, into a comfortable Jewish family, in a city that was at that moment one of the most confident places in Europe.
+
+Budapest in the opening years of the twentieth century was building boulevards and coffee houses and an underground railway. It was also producing, for reasons nobody has ever entirely explained, an extraordinary number of brilliant minds who would all end up somewhere else. Mathematicians, physicists, economists, film directors. A generation of them, born within twenty years of each other in the same few districts, scattered across the world by the middle of the century, quietly rebuilding whole disciplines in languages they had learned as adults.
+
+He was a quick child in a place that noticed quick children. By the time he left for Germany he was already moving faster than the ordinary academic clock. He took his doctorate in experimental psychology at the University of Göttingen in nineteen twenty-one, at the age of twenty, and was awarded the Gauss Medal for it.
+
+Göttingen at that moment was one of the great mathematical and scientific towns of the world. A small place with an enormous gravitational pull. A young man arriving there with a talent for precision would have understood very quickly the size of what he had walked into.
+
+It is worth pausing on the age, because a doctorate at twenty is not simply a matter of being clever. It means a person has spent their adolescence inside a discipline rather than beside it. Whatever ordinary furniture other young men were assembling in those years, he was assembling a way of looking at things. And the way of looking he assembled in Göttingen would still be recognisable in the work he did half a century later, on another continent, in another language, about a subject he had not yet met.
+
+What he studied was not money. It was memory. Learning. How a person comes to understand something, and how that understanding then organises everything they notice afterwards.
+
+He was trained in the tradition that came to be called Gestalt psychology, which begins from a simple and rather beautiful observation: that the mind does not assemble the world out of separate pieces. It perceives wholes. It sees a pattern before it sees the parts. And once it has settled on a pattern, the parts arrange themselves to fit.
+
+You know the effect even if you have never had a name for it. There are drawings that look like one thing, and then tip, and become another, and once they have tipped you cannot get back to the first version no matter how hard you try. Nothing on the paper changed. What changed was the organising idea you brought to it, and everything else rearranged itself around that idea instantly and without asking your permission.
+
+Gestalt psychology was the serious study of exactly that tipping. How a mind settles on an interpretation. What happens to all the details once it has. And how sudden and how total the switch is when it comes.
+
+Hold on to that, because it is the seed of everything else. A man who spends his twenties studying how human beings form a picture of a situation, and then behave according to the picture rather than according to the situation, is a man who is going to notice something that the economists of that era had trained themselves not to see.
+
+And then Germany taught him the same lesson again, in a form he could not possibly forget.
+
+In nineteen twenty-three, the German mark collapsed.
+
+Not gradually. Not in the way that prices creep upward over a decade until you look back and realise a loaf of bread costs more than it used to. It collapsed the way a building collapses. Prices doubled, and doubled again, and then doubled in an afternoon. Workers were paid twice a day so they could spend the morning's wages before the afternoon's prices caught up with them. People carried banknotes in laundry baskets. Savings that represented forty years of careful, disciplined, modest life became, over a period of months, not worth the paper they were printed on.
+
+Katona was in Germany for it. He spent those years in Berlin, working simultaneously as a financial journalist, explaining week after week to a general readership what was happening to money and why, and as a research psychologist alongside the people who were at that moment rebuilding his discipline from its foundations. Max Wertheimer. Kurt Lewin. He was in that current, in that city, in those years.
+
+Which meant he watched the collapse from two directions at once. He had to explain it in the vocabulary of the financial press, and he had the training to see it in the vocabulary of the laboratory.
+
+And what appears to have struck him, and to have stayed with him for the rest of his working life, was not the arithmetic of it. It was the behaviour.
+
+Because a hyperinflation works like this. Long before the currency is actually worthless, people begin to act as though it will be. They stop saving, because saving has become a way of losing money slowly. They buy things they do not need, immediately, because the thing will hold its value and the money will not. They demand higher wages today in anticipation of higher prices tomorrow. And every one of those responses, each of them entirely sensible from the point of view of the individual person making it, pushes the currency further down.
+
+The expectation does not merely predict the collapse. It participates in it.
+
+A young psychologist watching that would draw a conclusion that a young economist might not. He would conclude that what people believe about the future is not a commentary on the economy. It is a component of it. A moving part. Something that has to be measured if you want to understand the machine, because it is inside the machine.
+
+He had two languages, then, by the end of the nineteen twenties. He could talk about credit and prices and industrial production in the vocabulary of finance. And he could talk about perception and expectation and the formation of belief in the vocabulary of experimental psychology. Almost nobody at that time had both. It would turn out to be the single most valuable thing about him.
+
+In nineteen thirty-three the German situation made the decision for him, as it made it for so many others, and he left for the United States. He arrived as part of a very large wave of central European intellectuals who came to America in those years carrying their libraries in their heads, and who over the following two decades quietly rebuilt whole fields of American science and scholarship. He became an American citizen before the decade was out.
+
+Consider what that arrival actually involved. He came to a country in the middle of its own depression, where roughly a quarter of the workforce had been out of work a few years earlier and the wound of it was still open in every household. He had to rebuild a career in a second language, in a scholarly culture that did not yet know his name. And he arrived carrying a piece of knowledge that almost nobody around him possessed at first hand: the knowledge of what it looks like, up close, when the money in people's pockets stops meaning anything.
+
+That experience does not appear on a curriculum vitae in any useful form. It shaped everything he did for the rest of his life.
+
+The war gave him his subject.
+
+The American government, running a wartime economy, had a problem that was the exact mirror image of the one Katona had watched in Germany. Factories were producing weapons instead of washing machines. There was very little to buy. And there were far more wages in circulation than there were goods to spend them on.
+
+Which is, in ordinary circumstances, a recipe for prices to run away.
+
+The government's answer was rationing, and price controls, and war bonds. But all of those depended on something that no ministry can manufacture by decree. They depended on ordinary people choosing restraint. On a household deciding, voluntarily, to put money aside rather than to chase the few goods that were available.
+
+And so, for what may genuinely have been the first time, a government found itself urgently needing to know not what its citizens could afford, but what they intended to do.
+
+Katona worked on precisely this problem, in the Department of Agriculture's Division of Program Surveys, applying the psychology of expectation to the management of inflation. And when the war ended, he and two colleagues, Rensis Likert and Angus Campbell, moved to Ann Arbor, Michigan, and founded an institution called the Survey Research Center.
+
+The year was nineteen forty-six.
+
+That is the hinge of this entire story, so let it settle for a moment. Nineteen forty-six. A small group of people set up an office in a Midwestern university town with the intention of finding out, systematically and repeatedly, what a nation of households actually thought. Not what the aggregate statistics implied they thought. What they said, when asked, in their own kitchens.
+
+It is difficult now to convey how novel that was. We live surrounded by polling, to the point of exhaustion, and we have mostly stopped being impressed by it. In nineteen forty-six, the idea that you could take a national population, select a manageable number of households according to a defensible method, send interviewers to sit in their front rooms, and end up with a statement about the country as a whole that was actually trustworthy, was a young and slightly disreputable idea. The sampling techniques were still being argued about. The question wording was still being worked out.
+
+What Katona and his colleagues were building was not just a survey. It was the machinery for finding out what a nation thinks, which had, until quite recently, been a thing that nobody could know.
+
+The first client was the Federal Reserve.
+
+And what the Federal Reserve wanted was perfectly reasonable, and had nothing whatsoever to do with feelings.
+
+The country had just come through fifteen years of depression and war. Households had accumulated an enormous stock of savings bonds and bank deposits, because there had been so little to buy and because the government had spent four years urging them to save. Nobody in Washington knew with any confidence where that money was, who held it, or what would happen to it when the shops filled up again.
+
+So the Fed commissioned a survey of household balance sheets. Assets. Debts. Holdings. Hard numbers.
+
+Now. If you have ever tried to ask a stranger how much money they have, you already know the difficulty. People do not open with their bank balance. They need to be warmed into it. They need to feel that the conversation is a conversation and not an audit.
+
+Katona, being a psychologist rather than an accountant, designed the interview accordingly. Each section of the questionnaire would open with something broad and human and easy to answer, and only then narrow down toward the figures. You ask a person how they feel about their situation before you ask them to itemise it.
+
+So he wrote a handful of opening questions. Soft ones.
+
+How are you getting along financially these days, compared with a year ago. Looking ahead, do you think you will be better off or worse off a year from now. What about the country as a whole. Is this a good time, generally speaking, for people to buy the big things for their homes.
+
+The Federal Reserve accepted that these questions were methodologically useful. They would get the respondent talking. Fine.
+
+But the Fed also made its position perfectly clear. It had no interest whatsoever in the answers. Katona was told, in effect, that he need not bother reporting those results, because nobody at the Board was going to read them.
+
+Think about what that means. The questions were permitted as a social lubricant. A way of loosening people up before the real business began. The answers themselves were, officially, of no consequence.
+
+He reported them anyway.
+
+He reported them because he already believed, from Germany, from the war work, from twenty years of watching people behave according to their picture of the world rather than according to their circumstances, that the soft answers at the top of the page were not the preamble to the data.
+
+They were data.
+
+And that in a rich country, where most households have some amount of money that is not already committed to rent and food, the question of what they do with that margin is decided less by their means than by their mood.
+
+He put this into a distinction that is still, eighty years later, the cleanest way to understand the whole subject.
+
+Ability to buy, and willingness to buy.
+
+Ability to buy is the objective side. Your income. Your savings. Whether a lender will extend you credit, and on what terms. It sets the outer boundary of what is possible for you.
+
+Willingness to buy is everything else. Whether you feel secure in your job. Whether you think prices will be worse next year than they are now. Whether the last twelve months have left you with the sense that you are climbing or that you are slipping. It decides where, inside that boundary, you actually choose to live.
+
+And here is the observation that made him worth listening to.
+
+For the necessities, willingness barely matters. You buy food whether you feel optimistic or not. You pay the electricity bill regardless of your view of the national outlook.
+
+But for the discretionary things, the large, postponable, expensive things, the new car, the extension, the replaced boiler, the holiday, the second child, willingness is decisive. Those purchases can always wait. And a household that has quietly decided to wait looks, on paper, absolutely identical to a household that has decided to spend. Right up until the moment it doesn't.
+
+Which means that a large economy can be entirely capable of a boom, and not have one, because the people inside it have collectively and privately decided that this is not the year.
+
+His first real test of that idea came almost immediately, and he won it.
+
+At the end of the war, a great many respectable forecasters expected the American economy to fall straight back into depression. The logic was straightforward and it was not stupid. Twelve million people were coming out of uniform and looking for work. War production was being switched off. The enormous government spending that had ended the slump was about to stop. What else could follow but another slump.
+
+Katona's surveys pointed the other way. Households were not braced for disaster. They had savings, and, more to the point, they had appetite. They intended to buy.
+
+And the postwar years turned into one of the great consumer expansions in history, built on precisely the houses and cars and appliances that his interviews had found people planning for.
+
+There is a particular satisfaction in that episode which I think is worth naming, because it explains why the instrument survived at all.
+
+The forecasters who expected a slump were reasoning from the aggregates. Spending would fall because government spending was falling. Jobs would vanish because war orders were vanishing. It was competent reasoning from good data, and it was wrong.
+
+Katona was doing something much simpler and much stranger. He was asking people what they intended to do, and then believing them.
+
+On that occasion, the people knew something the aggregates did not.
+
+An indicator that gets its first big call right earns a long hearing. From nineteen fifty-two, the answers to those questions were combined into a single published figure and released on a regular schedule. The Index of Consumer Sentiment.
+
+It has been produced continuously ever since. Quarterly at first, and then, from nineteen seventy-eight, every single month without a gap, through every administration and every crisis and every boom, all the way to the reading that was published nine days ago.
+
+Let me describe the instrument itself, because its construction is the reason its numbers are worth anything at all.
+
+Each month, a sample of several hundred households is contacted, selected so as to be representative of American households in general. They are asked the same five core questions. Not similar questions. The same ones, in wording that has barely shifted in eight decades, which is the entire point. An instrument that changes its questions cannot compare one decade to another. An instrument that stubbornly refuses to change them can.
+
+The first question asks whether you and your family are better off or worse off financially than you were a year ago. That is the backward look at your own life.
+
+The second asks whether you expect to be better off or worse off financially a year from now. Forward, personal.
+
+The third asks what you think business conditions in the country as a whole will be over the next twelve months. Forward, national, near.
+
+The fourth asks whether you think the country will have continuous good times over the next five years or so, or whether there will be periods of widespread unemployment and hard times. Forward, national, far.
+
+And the fifth asks about the big things people buy for their homes, the furniture, the cooker, the refrigerator, and whether now, generally speaking, seems a good time or a bad time for people to buy them.
+
+Five questions. Two about you, three about the country. Two about where you have been, three about where you think you are going.
+
+And notice what is not in there. Nobody is asked their salary. Nobody is asked their bank balance. Nobody is asked to assess monetary policy, or interest rate decisions, or anything else that would require a person to have opinions about matters they have no real way of knowing. You are asked about your own circumstances, and about whether the weather ahead looks fair or foul.
+
+Anyone can answer that. That is why it works.
+
+The arithmetic that turns those answers into a number is deliberately unglamorous. For each question, the share of people giving a favourable answer is set against the share giving an unfavourable one, and the difference is shifted upward so that the result is never negative. Do that for all five questions, add them together, and scale the total against a fixed reference point.
+
+That is the whole method. There is no model in it. No assumption about how people ought to behave. No adjustment for what the economists think respondents should have said. It is a tally of answers, kept the same way for three-quarters of a century, and that is precisely what gives it its authority.
+
+The reference point is the first quarter of nineteen sixty-six, which is assigned the value of one hundred.
+
+I want to be careful here, because this detail gets stretched. As far as I can establish, that base period is a normalisation convention, a fixed peg chosen so the series has a scale. I have not found anything that tells us the year was selected because it represented some high-water mark of American contentment, and I am not going to tell you that it was.
+
+But whatever the reason for the choice, it does give the number a plain and inescapable meaning. It is a ratio. It says: measured against the America of nineteen sixty-six, here is where we are now.
+
+And the figure published nine days ago was forty-seven point eight.
+
+Less than half.
+
+Before we sit with that, let us walk through what this instrument has read at the worst moments of the last seventy years. Context is the thing that makes a number mean anything at all, and without it, forty-seven point eight is only a shape.
+
+The nineteen seventies were brutal for this index. The oil embargo. The queues at the petrol stations. The long grinding inflation that ate wages for the better part of a decade. Sentiment fell hard and then stayed low for years, which is itself an important observation. This is not an instrument that panics briefly and recovers. When conditions genuinely deteriorate, it grinds.
+
+The stagflation trough came in the spring of nineteen eighty. Inflation in double digits. Interest rates being driven to heights that are difficult to credit now. The index fell into the low fifties, and for more than four decades afterwards that was the number people reached for when they wanted to describe how bad things could get.
+
+Then the financial crisis. Banks failing. House prices falling through the floor. Unemployment climbing toward ten per cent. The index fell into the mid-fifties in late two thousand and eight.
+
+Notice that. It is higher than nineteen eighty. The financial crisis was, by almost every measure of damage done to the financial system, the worse event. But it did not hurt the ordinary household's sense of its own economic life quite as badly as the long inflation of the seventies had.
+
+That is a clue about what this instrument is actually sensitive to, and it is worth stopping on.
+
+The pattern, across the whole history of the series, is that this index reacts more sharply to rising prices than it does to unemployment.
+
+Which is strange at first glance, because losing a job is plainly a worse event than paying more for petrol.
+
+But unemployment happens to a minority at any given time. It happens somewhere else, to someone else, until the day it happens to you. Inflation happens to everyone simultaneously, in small amounts, several times a day, and every single instance of it is a reminder. It is a tax on your attention as much as on your income. You cannot stop noticing it.
+
+And the noticing is what the survey picks up.
+
+Then the pandemic. In the spring of twenty twenty, with the country shut, the index fell into the low seventies. A sharp drop, a genuine shock, and still more than twenty points above the nineteen eighty trough. People were frightened, but they did not believe they were being made permanently poorer. And within a couple of years, as the closures ended, the number partly recovered.
+
+And then the inflation of twenty twenty-two. In June of that year, with petrol above five dollars a gallon and prices rising at a rate nobody under sixty had experienced as an adult, the index fell to fifty point zero.
+
+A new record low. Lower than the financial crisis. Lower than the stagflation trough.
+
+It surprised a great many people, who pointed out, correctly, that unemployment at the time was extremely low and that wages were rising.
+
+That reading of fifty stood as the floor of the entire series for the next four years.
+
+It does not stand any more.
+
+The year twenty twenty-six has broken it twice.
+
+In April, the preliminary reading came in at forty-seven point six, and was then revised upward to forty-nine point eight in the final figure. Even revised up, it was the lowest reading in the survey's history. That alone was a considerable piece of news.
+
+It lasted one month.
+
+In May, the index fell again. The preliminary estimate was forty-eight point two. The final figure, published at the end of the month, came in at forty-four point eight.
+
+Note the direction of that revision. The preliminary number is drawn from the first portion of the month's interviews. The final number includes the rest. And the rest were worse. As the month went on, the picture deteriorated.
+
+Forty-four point eight. Down from forty-nine point eight in April, a fall of about ten per cent in a single month, and about fourteen per cent below where the index had stood a year earlier.
+
+Both of the two component indices reached their own record lows in that same month. The measure of how people assessed conditions right now fell to forty-five point eight. The measure of what they expected fell to forty-four point one.
+
+The cause was not mysterious. Conflict involving Iran had disrupted shipping through the Strait of Hormuz, and fuel prices had surged.
+
+Petrol is the most visible price in an economy. It is printed in numbers a metre tall on the side of the road, and you drive past it whether or not you intend to buy anything. When it rises, everybody knows immediately, and everybody is reminded again on the way home.
+
+The survey caught this directly. In that month's interviews, close to forty per cent of respondents mentioned petrol prices spontaneously, without being asked about them. Up from a third the month before.
+
+But what is more interesting is that the damage did not stop at fuel. People were not merely upset about the cost of filling a tank. They had concluded that the increase would spread. Into freight. Into food. Into everything that has to be moved, which is everything.
+
+That is the expectation doing its work. Not the price itself. The inference drawn from the price.
+
+There is one more detail in that May release that I want to give you, because it prefigures something we will come back to. The survey found that consumers holding the largest amounts of stock reported sentiment at least a third higher than everybody else. Those with middling holdings, small holdings, and no holdings at all reported sentiment that was uniformly, similarly low.
+
+The country was not evenly unhappy. It was unhappy in a pattern.
+
+Sentiment then recovered somewhat in June, which is worth saying plainly, because a story that only moves in one direction is usually a story that has been arranged. The number came back up.
+
+Then it fell in August, to fifty-one point seven, about six per cent below July, with declines across all political groups and the sharpest deterioration among older consumers, among lower and middle income households, and among people who own no stock at all.
+
+And then it fell again in September.
+
+Which brings us to the eleventh of this month.
+
+The preliminary September reading was forty-seven point eight. Down from fifty-one point seven in August. A fall of three point nine points, or about seven and a half per cent, and the second consecutive monthly decline.
+
+Economists surveyed beforehand had expected something around fifty-one. The number missed by a wide margin.
+
+Sentiment now stands about thirteen per cent below where it was a year ago, and about sixteen per cent below where it was in February, before the Iran conflict began.
+
+Now to the internals, because the September release contains something considerably more interesting than its headline.
+
+The index is built from two halves. One is called Current Economic Conditions, which measures how you judge your situation today. The other is the Index of Consumer Expectations, which measures what you think is coming.
+
+Current conditions came in at fifty point nine. That was down, but only slightly. About two per cent from the month before.
+
+Expectations came in at forty-five point eight. That was down about eleven per cent in a single month.
+
+Sit with that difference, because it is the heart of the matter.
+
+Americans did not report that today has suddenly become catastrophic. Their assessment of right now barely moved. What collapsed was their belief in the year ahead. The survey's director, Joanne Hsu, noted that year-ahead expectations for both personal finances and business conditions had plunged.
+
+That is a specific kind of damage, and it is not the same thing as misery. It is the withdrawal of an assumption. The assumption that things get better.
+
+And the assumption that things get better is doing a great deal more work in an economy than most people realise. It is what makes a twenty-five year old take on a mortgage. It is what makes a family decide on a third child. It is what makes a small business owner sign a lease on a larger unit. Every single one of those decisions is a bet that next year will be at least as good as this one.
+
+The inflation expectations moved as well. Expectations for prices over the coming year jumped to four point six per cent, up from four per cent the month before. And the longer-run measure, what people expect over the next five years, ticked up to three point four per cent after sitting at three point three for three consecutive months.
+
+That longer number is the one that economists watch most nervously. Short-run expectations move with the price of petrol. Long-run expectations move with something deeper. With whether people still believe that prices will eventually settle down at all.
+
+Hsu attributed the decline to a resurgence in fuel prices and to trade tensions, with consumers anticipating further pressure on household budgets to come.
+
+And one note, for the sake of accuracy: forty-seven point eight is the preliminary figure, drawn from the first portion of the month's interviews. The final September reading is due at the end of the month. It may come in slightly higher, as April's did. It may come in lower, as May's did. The preliminary number is what we have.
+
+Now we come to the part that makes this particular moment strange, and that I suspect is the real reason the number has stayed in so many people's minds this week.
+
+On the Friday before last, when that reading was published, and again at the close of trading this past Friday, the American stock market was sitting very close to the highest level it has ever reached.
+
+The S and P five hundred closed at about seven thousand six hundred and fifty. The technology-heavy Nasdaq closed above twenty-six thousand five hundred. The Dow was above fifty-three thousand.
+
+Equities at records. The mood at a near-record low. Both facts printed in the same week, about the same country, at the same time.
+
+Now, I want to be precise here, because it would be easy to overstate this and I would rather not.
+
+Not everything is at a record. Gold, for instance, reached an all-time high of roughly five and a half thousand dollars an ounce back in January of this year, and has since fallen about twenty-two per cent. It trades somewhere in the four thousand three hundreds now. Silver, which broke through a price ceiling that had held for forty-five years and then spiked above one hundred dollars an ounce early this year, has since given back something like a third of that and trades in the sixties.
+
+So the metals are not at records either. They are well below their own highs from earlier in this same extraordinary year.
+
+But there is a detail buried in the gold market that speaks to the same pattern as that May survey finding, and I think it is worth a moment.
+
+While the gold price was falling through the second quarter of this year, the world's central banks bought more of it than they have ever bought in a second quarter. Two hundred and eighty-nine tonnes. An increase of sixty-two per cent on the year before. Prices were posting their steepest quarterly decline in a decade, and the largest institutional buyers in the world responded by accelerating.
+
+Set that beside the household data. Institutions accumulating into weakness. Households, particularly households that own nothing, reporting the worst sentiment ever recorded.
+
+Meanwhile, the yield on the ten-year Treasury note closed above five per cent on the sixteenth of September, its highest level since July of two thousand and seven.
+
+So: equities at records. Metals off their highs but with central banks buying heavily. Borrowing costs at levels not seen since before the financial crisis. And the mood of the population at very nearly the lowest point ever measured.
+
+It is tempting to treat that as a contradiction, or as evidence that one of these measurements must simply be wrong.
+
+I do not think it is either. I think they are measuring different populations.
+
+Because a stock index measures the expected future earnings of large companies, and the ownership of those companies is concentrated in a fairly narrow slice of households. Most families, if they own shares at all, own them inside a retirement account they do not open, in amounts that do not change how the month goes. The market rising does not lower the electricity bill.
+
+Whereas the Michigan survey contacts several hundred households chosen to look like the country.
+
+When those two measurements diverge this far, the honest conclusion is not that the country is confused. It is that the country's experience is not evenly distributed. Which is, as it happens, exactly what the survey itself found in May, when it reported that the wealthiest stockholders felt a third better than everybody else.
+
+And that, I suspect, is the real source of the peculiar disorientation that a lot of people describe at the moment.
+
+It is not that anybody is lying. The market reports are accurate. The employment figures are accurate. The survey is accurate. They are simply accounts of different rooms in the same house. And the person listening to all of them at once, in a kitchen, at the end of a month, with a stack of bills, cannot make them agree, and quietly concludes that the fault must lie somewhere in their own understanding.
+
+It does not. The accounts do not agree because the experiences do not.
+
+So what is filling that gap. What, specifically, are people looking at.
+
+Start with the thing they cannot avoid looking at.
+
+In the August inflation figures, the price of petrol was up twenty-seven point four per cent compared with a year earlier. The energy category as a whole was up sixteen point three per cent. And petrol on its own accounted for more than a third of the entire monthly increase in consumer prices.
+
+Overall inflation was running at roughly three point four per cent a year. Which sounds moderate. And would be, if it were spread evenly.
+
+It is not spread evenly. It is concentrated in the one price that every single household pays and watches.
+
+Then electricity. Residential electricity prices are up about seven per cent over the past year, and roughly twenty-seven per cent since twenty nineteen. Take a five year view of household utilities as a whole and the picture is starker still: electricity up about a third, water up more than forty per cent, natural gas up around sixty.
+
+But the price statistics understate what is actually happening underneath them. Something in the region of one in six American households is currently behind on an energy bill. Total household utility arrears are projected to reach something like twenty-five billion dollars by the end of this year.
+
+That is not a price statistic. That is an arrears statistic. And arrears are what you get when the price has already outrun the budget, and the difference is being carried forward, month after month, in the hope that something changes.
+
+Then housing. The thirty-year fixed mortgage rate stood at about six point nine per cent in the middle of September, up from roughly six point three five per cent a year ago. It is going up, not down. And the median price of an existing home reached a record of about four hundred and thirty-four thousand dollars in July.
+
+Rates up and prices up at the same time is an unusual combination, and it produces a very specific feeling in a person of ordinary means who has been saving toward a deposit. The feeling that the target is moving away from you faster than you are moving toward it.
+
+Notice what all three of those have in common. Fuel. Power. Shelter.
+
+They are the three things a household cannot opt out of. You can decide not to replace the sofa. You cannot decide not to heat the house, or not to get to work, or not to live somewhere.
+
+When price pressure concentrates in the categories that are furthest from being optional, the headline rate of inflation stops describing what people are actually experiencing. A moderate average, built out of cheap electronics and expensive necessities, does not feel moderate to anybody. It feels like the necessities.
+
+Because the necessities are what you buy.
+
+And then, on the sixteenth of September, five days after that sentiment reading, the Federal Reserve raised interest rates.
+
+Twenty-five basis points, taking the target range to three point seven five to four per cent. A unanimous vote, twelve to nothing. The first increase in three years.
+
+In its statement, the committee said that inflation remains elevated, and that the decision would support a more timely return to its two per cent goal. In the projections released alongside, sixteen of the nineteen officials indicated they expected at least one further increase before the year is out.
+
+The chair, Kevin Warsh, spoke afterwards about the persistence of inflation risks, and pointed at the same time to signs of underlying strength in the economy.
+
+Hold those two things side by side, because together they are the entire emotional situation of this year in miniature.
+
+The economy shows signs of strengthening. Inflation is elevated and has been for too long.
+
+Both statements are true. They are simply true about different people's lives.
+
+Now I want to give you the strongest case against everything I have just told you. Because the case is real, and because an argument that has not been tested against its best opponent is not worth carrying around.
+
+There are three serious objections to reading very much into forty-seven point eight.
+
+The first is contamination by politics. Over the last decade or so, answers to these questions have become extraordinarily partisan. Whether a respondent shares a party with the sitting president now predicts their reported sentiment to a degree that would have astonished Katona, and the gap between the two parties' average answers has widened enormously over that period. When half the country is answering a question about the economy and half is answering a question about the government, the average of their answers is a strange object.
+
+The second objection is methodological. Response rates to telephone surveys have been falling for years, particularly among younger people, and in recent years the Michigan survey has shifted its interviewing method to keep pace. Changes of that kind are never entirely neutral. A different mode of interviewing produces somewhat different answers, and there is a reasonable argument that some part of the drop from the old normal to the new normal reflects a change in the thermometer rather than a change in the country. Anyone comparing a twenty twenty-six reading directly against a nineteen eighty reading is, to some degree, comparing two instruments.
+
+The third objection is the most practically damaging. Sentiment and spending have come apart.
+
+For most of this index's history, when people said they felt bad, they subsequently spent less. Which is precisely what made the instrument valuable. In recent years, they have said they felt terrible and then gone out and spent anyway. Retail sales have held up. Travel has held up. The link between the mood and the money has become much looser than it once was.
+
+And an indicator that no longer forecasts the thing it was built to forecast has lost part of its claim on our attention.
+
+Those are strong arguments. I would not want to be on the wrong side of any of them in a seminar. And Katona himself, for all his brilliance, had a forecasting record that was mixed rather than magical. He got the postwar boom right when the profession got it wrong. He was wrong about plenty of other things. An honest account has to say so.
+
+But there is one finding in this month's release that survives all three objections, and it is the reason the September number is worth talking about at all.
+
+The declines were bipartisan.
+
+The survey's own director reported that Democrats and Republicans alike posted sizable declines this month, and that independents were little changed from August. August, the month before, had shown the same pattern: declines across all political groups.
+
+That is precisely what you would not see if this were partisan noise. Partisan noise moves one group down and the other group up. It leaves one flat while the other swings. It does not move both major groups down together, in the same month, twice in a row.
+
+And the methodological objection, real as it is, applies to the level of the index rather than to its movements within the recent period. April's forty-nine point eight, May's forty-four point eight, August's fifty-one point seven, September's forty-seven point eight. Those were all produced by the same instrument, in the same way, within six months of one another. The fall across this year is a fall measured against itself.
+
+As for the decoupling of mood from spending, that one deserves rather more care than it usually gets. It is entirely possible for people to feel worse and to keep spending for quite a long time. If they are spending out of savings. If they are spending on credit. Or simply because the things they are buying are not optional, which is exactly what we just established about fuel, power and shelter.
+
+Spending that continues while the mood collapses is not necessarily evidence that the mood is wrong.
+
+It can also be evidence that the spending is not a choice.
+
+So here is where the honest ground lies.
+
+Nobody should tell you that this number predicts a recession. It does not. It is true, and striking, that the index currently sits below the level it held at the start of every recession since monthly readings began. That is a fact about where we are. It is not a forecast about where we are going. Sentiment has been low before without a downturn following. It will be low again.
+
+What the number is, with certainty, is a measurement. It is the most consistent long-run measurement anybody has of how the population of a country feels about its own economic life.
+
+And that measurement has, three times in the last six months, printed the three worst readings it has ever produced.
+
+Which brings us back to Katona, and to the question of what he thought this sort of thing actually does.
+
+His central claim, the one he spent thirty years defending against economists who found it unserious, was that expectations are not passive. They do not sit above the economy commenting on it. They reach down into it and alter it.
+
+The mechanism is not complicated.
+
+Consider a household that has been meaning to replace a car. The car still runs. It is not a good moment. Prices seem high, the future seems unclear, and the sensible thing, obviously, is to wait until things settle down.
+
+So they wait.
+
+There is no drama in that decision. No headline. It is not even a sacrifice, particularly. It is prudence.
+
+Now multiply it. Ten million households, each making a small, sensible, entirely private decision to postpone. Nobody has panicked. Nobody has done anything foolish.
+
+And yet the car factory's order book thins, and the factory slows a shift, and the people on that shift become households who are now extremely certain that this is not the year to replace anything.
+
+That is what Katona meant when he insisted that the subjective is causal. In an economy where a large share of purchases are postponable, the decision to wait is itself an economic event.
+
+And the same thing happens in the other direction, with the same total absence of drama. A small firm that has been thinking about a second van, and a second driver, decides to give it another year. Nobody announces it. There is no redundancy, because there was never a hire. The person who would have had that job simply never hears about it, and goes on looking, and reports to an interviewer some months later that they do not feel the year ahead looks promising.
+
+The decision and the sentiment are the same event, seen from two ends.
+
+But, and this is the part of his thinking that gets flattened whenever he is invoked, he did not believe the mechanism ran in only one direction. And he did not believe it was a trap.
+
+He was very firm about this. He thought human beings act on their understanding of a situation, and that understanding can change, sometimes very suddenly, when the facts underneath it change. He had built his entire psychology on the insight that the mind reorganises the picture, and that when it does, all the parts snap into a new arrangement at once.
+
+Which means the same machinery that drags an economy down can lift it.
+
+Sentiment recovers. It recovered after nineteen eighty. It recovered after two thousand and eight. It recovered, partly, in June of this year.
+
+The point of the instrument was never to deliver a verdict. It was to make visible something that had previously been invisible to the people making decisions. That the population's picture of the future is a real quantity. That it moves. That it can be measured. And that it matters.
+
+There is one more thing in the September data that I think is worth turning over slowly before we let this go.
+
+Remember the split. Current conditions down about two per cent. Expectations down about eleven.
+
+What that describes is a country that is not saying today is unbearable. It is saying that it has stopped assuming tomorrow will be better.
+
+That is a quieter injury than a crash, and in some ways a heavier one.
+
+A crash is an event. It has a date. Things visibly break, and afterwards there is rebuilding, and the rebuilding is itself a kind of hope.
+
+What the index is picking up instead is the slow removal of an assumption. The background assumption that effort compounds. That next year will be a slightly better version of this one. That the direction of travel is upward, even when a particular month is hard.
+
+That assumption is not written down anywhere. It does not appear in any set of accounts. But an enormous amount rests on it.
+
+And it is precisely the sort of thing that a survey of feelings will detect long before it shows up in any measure of output.
+
+Which, if you think about it, is the exact case Katona was making in nineteen forty-six, to a client who had told him nobody would be interested.
+
+The Federal Reserve sponsored that first survey because it wanted to know what households owned. Katona gave them what they asked for. The Survey of Consumer Finances ran for the Fed for a quarter of a century, from nineteen forty-six until the early nineteen seventies.
+
+And alongside it, in the questions that were supposed to be nothing more than a warm-up, he was quietly building the thing that outlasted all of it.
+
+He stayed at Michigan. He founded a programme in economic behaviour there in nineteen forty-seven. He wrote books with titles that now read as rather understated. On the psychological analysis of economic behaviour. On the mass consumption society. On the powerful consumer.
+
+He was elected a fellow of the American Psychological Association, the American Statistical Association, and the American Economic Association, which is an unusual set of three to hold at once and tells you something about how difficult he was to categorise. Some people called him the dean of behavioural economics, decades before that field had a name or a following.
+
+That last book title tells you what he actually thought he had discovered. Not that consumers were fragile, or irrational, or in need of management. But that they had become a genuine force in their own right. Large enough, and free enough, and possessed of enough discretionary money, that their collective mood was now one of the moving parts of a modern economy rather than a passive response to it.
+
+Before the war, most households had almost nothing left over once the essentials were paid for, so their feelings had very little room in which to express themselves. Afterwards, they did. That, to him, was the great change of the century. And it was the reason his five questions were worth asking.
+
+He retired in the early nineteen seventies. He died in nineteen eighty-one, at the age of seventy-nine, having lived to see his index become a standard fixture of the American economic calendar, reported on the wires, watched by traders, folded into the government's own composite of leading indicators.
+
+He died at almost exactly the moment his instrument was recording the depths of the stagflation era.
+
+He never saw the readings of this year.
+
+And this is the part I keep returning to, so I will leave it with you plainly and without any embroidery.
+
+The survey programme began in nineteen forty-six. Eighty years ago. It was built by a man who had personally watched money become worthless, who had been trained to believe that human beings respond to the picture in their heads rather than to the raw facts in front of them, and who was told by his own employer that the thing he was measuring did not matter.
+
+It has now been running long enough to have watched the entire American postwar experience from beginning to end.
+
+It watched the boom that the economists said would not come. It watched the assembly lines and the new suburbs and the first credit cards. It watched the oil shocks and the queues and the long inflation. It watched the disinflation that followed, and the crash of two thousand and eight, and the slow grinding recovery after it, and the pandemic, and the inflation after that.
+
+And in the eightieth year of its operation, over the course of six months, it produced the three lowest readings it has ever produced.
+
+That is not a prediction. Nothing in it tells you what next year holds. The instrument does not know. Katona did not know. Neither do I.
+
+But it does tell you something about right now. And if you have been carrying a private suspicion that your own experience of this economy does not match the description of it that you keep hearing, then the instrument is not going to argue with you.
+
+It has been asking several hundred households the same five plain questions, month after month, for longer than almost anyone alive can properly remember.
+
+And it is currently reading less than half of what it read in nineteen sixty-six.
+
+You are not the only one who noticed.
+
+There is, I think, a small comfort buried in this. It is not the comfort of a solution. It is the comfort of company, and of accuracy.
+
+Because one of the more tiring things about a stretch of years like this one is the private suspicion that you are getting it wrong. That the difficulty is personal. That everybody else has worked out something you have not, and that if you were a little more capable, or a little better organised, the arithmetic at the end of the month would come out differently.
+
+That suspicion is corrosive, and extremely common, and largely mistaken.
+
+Several hundred households a month, chosen to stand in for the whole country, are reporting the same thing. Across both parties. Across most of the map. Most sharply among older people, among lower and middle income households, and among people who own no stock at all.
+
+It is not a defect of character. It is a reading on a gauge. And the gauge is old, and careful, and it has seen a great deal.
+
+And gauges move. That is worth remembering as you let this go.
+
+Forty-nine point eight in April. Forty-four point eight in May. A recovery in June. Fifty-one point seven in August. Forty-seven point eight in September.
+
+The line does not fall in a straight and tidy way. And it has never yet fallen forever.
+
+Every low in the history of this series has, sooner or later, been followed by a rise. And the rise has usually begun some time before anybody was able to explain why.
+
+Which is not a promise about next year. It is only an observation about the shape of the line. And the line has a shape. It descends, and it hangs about at the bottom for longer than anyone finds tolerable, and then, at some point that is only ever obvious in hindsight, it turns.
+
+That has happened after every one of the low points we walked through tonight. Nineteen eighty. Two thousand and eight. Twenty twenty. Twenty twenty-two. The instrument recorded the bottom of each of them, and then it recorded the climb out, in the same five questions, asked in the same words.
+
+Katona would have said that this is exactly what you should expect. That the picture people hold of their situation is not a fixed thing but a working hypothesis, constantly under revision, and that the revision, when it finally comes, tends to come all at once. The way a shape you have been staring at for a long time suddenly resolves into something else, and you find you cannot go back to not seeing it.
+
+He would also have pointed out, probably with some satisfaction, that the only reason we are able to have this conversation at all is that in nineteen forty-six a man was told his questions were unimportant, and asked them anyway.
+
+So that is the story.
+
+A boy from Budapest with a doctorate at twenty. A currency dissolving in Germany while he watched it from both sides at once, as a journalist and as a psychologist. A crossing, a war, a new country and a new language.
+
+An office in Ann Arbor in nineteen forty-six, and five questions written to make strangers comfortable, which were never supposed to be reported, and which turned into the longest continuous record of how a nation feels about its own life that anybody has ever assembled.
+
+And a number, published nine days ago, on an ordinary Friday, which said out loud what a great many people had already quietly concluded.
+
+Forty-seven point eight.
+
+The instrument is still running. The interviews will go out again next month, and the month after that, and the same five questions will be asked in very nearly the same words they were asked in the nineteen forties. Somebody will answer them while making dinner. Somebody will answer them honestly, and think nothing more of it.
+
+And whatever the answer turns out to be, it will be written down and added to a line that now stretches back eighty years. Which is long enough to have recorded every bad year the country has had, and every recovery that followed one.
+
+That is all. There is nothing to do with this tonight.
+
+It will keep.

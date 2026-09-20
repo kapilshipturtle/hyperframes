@@ -1,0 +1,2287 @@
+{
+ "shots": [
+  {
+   "id": "001",
+   "location_id": "modern-kitchen",
+   "shot_role": "establishing",
+   "shot_scale_note": "far back, static, the whole space in frame",
+   "subject": "a person at a kitchen table staring at a newspaper headline printed with a stark economic number",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "002",
+   "location_id": "modern-kitchen",
+   "shot_role": "wide",
+   "shot_scale_note": "eye level from the doorway, the space opening away",
+   "subject": "a person setting down a newspaper beside a small stack of household bills",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "003",
+   "location_id": "modern-kitchen",
+   "shot_role": "atmosphere",
+   "shot_scale_note": "looking down the length of the place, movement far off",
+   "subject": "a close view of scattered household bills and a folded newspaper on a worn table",
+   "is_abstract_cover": true
+  },
+  {
+   "id": "004",
+   "location_id": "modern-kitchen",
+   "shot_role": "detail",
+   "shot_scale_note": "tight on the face, the background dissolving into haze",
+   "subject": "a hand running a finger down a printed column of monthly grocery receipts",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "005",
+   "location_id": "modern-kitchen",
+   "shot_role": "macro_texture",
+   "shot_scale_note": "extreme close-up, the surface and the hands on it filling the frame, shallow focus",
+   "subject": "a close view of a hand tapping numbers into an old calculator",
+   "is_abstract_cover": true
+  },
+  {
+   "id": "006",
+   "location_id": "modern-kitchen",
+   "shot_role": "medium",
+   "shot_scale_note": "slightly low, close to the near figure",
+   "subject": "a person leaning back from the table, rubbing tired eyes over scattered papers",
+   "emotion": "quiet waiting",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "007",
+   "location_id": "modern-kitchen",
+   "shot_role": "atmosphere",
+   "shot_scale_note": "looking down the length of the place, movement far off",
+   "subject": "a dim kitchen at night, a single lamp lighting a cluttered table of paperwork",
+   "is_abstract_cover": true
+  },
+  {
+   "id": "008",
+   "location_id": "modern-kitchen",
+   "shot_role": "wide",
+   "shot_scale_note": "low, the floor running away toward the light",
+   "subject": "a person setting aside the newspaper, looking toward the dark window",
+   "emotion": "grief, restrained and quiet",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "009",
+   "location_id": "modern-kitchen",
+   "shot_role": "establishing",
+   "shot_scale_note": "far back, static, the whole space in frame",
+   "subject": "a person closing a laptop at the kitchen table, settling in to listen",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "010",
+   "location_id": "modern-kitchen",
+   "shot_role": "wide",
+   "shot_scale_note": "a little off axis, the far corner just in frame",
+   "subject": "a person leaning back in a kitchen chair, arms folded, listening quietly",
+   "emotion": "quiet waiting",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "011",
+   "location_id": "budapest-boulevard",
+   "shot_role": "detail",
+   "shot_scale_note": "low and close, the subject against the dark",
+   "subject": "an old family photograph of a comfortable Jewish household in early-1900s Budapest",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "012",
+   "location_id": "budapest-boulevard",
+   "shot_role": "establishing",
+   "shot_scale_note": "far back, static, the whole space in frame",
+   "subject": "workers laying new tram rails along a grand Budapest boulevard lined with coffee houses",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "013",
+   "location_id": "budapest-boulevard",
+   "shot_role": "medium",
+   "shot_scale_note": "just off centre, the lit faces to one side",
+   "subject": "well-dressed patrons debating physics and mathematics over coffee at a crowded cafe table",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "014",
+   "location_id": "budapest-boulevard",
+   "shot_role": "wide",
+   "shot_scale_note": "a little off axis, the far corner just in frame",
+   "subject": "a quick, watchful boy standing apart from other children on a Budapest street corner",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "015",
+   "location_id": "budapest-boulevard",
+   "shot_role": "detail",
+   "shot_scale_note": "low and close, the subject against the dark",
+   "subject": "a young man boarding a train out of Budapest, a single travelling case in hand",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "016",
+   "location_id": "gottingen-lecture-hall",
+   "shot_role": "wide",
+   "shot_scale_note": "eye level, square to the far side",
+   "subject": "a young man walking alone into a grand Gottingen university hall lined with lecture rooms",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "017",
+   "location_id": "gottingen-lecture-hall",
+   "shot_role": "macro_texture",
+   "shot_scale_note": "so close the surface loses its outline",
+   "subject": "a close view of a bronze medal and a doctoral certificate laid on a wooden desk",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "018",
+   "location_id": "gottingen-lecture-hall",
+   "shot_role": "medium",
+   "shot_scale_note": "square on, half the group in shadow",
+   "subject": "a young scholar bent over a desk of papers late into the night in Gottingen",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "019",
+   "location_id": "gottingen-lecture-hall",
+   "shot_role": "detail",
+   "shot_scale_note": "low and close, the subject against the dark",
+   "subject": "a hand tracing an equation chalked on a lecture hall's slate blackboard",
+   "emotion": "quiet waiting",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "020",
+   "location_id": "gottingen-lecture-hall",
+   "shot_role": "establishing",
+   "shot_scale_note": "high and back, looking down the length of the space",
+   "subject": "a lecture hall chalkboard covered in diagrams of perception experiments",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "021",
+   "location_id": "gottingen-lecture-hall",
+   "shot_role": "atmosphere",
+   "shot_scale_note": "looking down the length of the place, movement far off",
+   "subject": "chalk dust drifting in a shaft of light across an empty lecture hall",
+   "is_abstract_cover": true
+  },
+  {
+   "id": "022",
+   "location_id": "gottingen-lecture-hall",
+   "shot_role": "macro_texture",
+   "shot_scale_note": "so close the surface loses its outline",
+   "subject": "a close view of an optical illusion sketched in chalk on a slate board",
+   "is_abstract_cover": true
+  },
+  {
+   "id": "023",
+   "location_id": "gottingen-lecture-hall",
+   "shot_role": "wide",
+   "shot_scale_note": "eye level, square to the far side",
+   "subject": "students in a lecture hall staring at a drawing that seems to shift between two images",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "024",
+   "location_id": "gottingen-lecture-hall",
+   "shot_role": "detail",
+   "shot_scale_note": "low and close, the subject against the dark",
+   "subject": "a hand redrawing the same ambiguous figure again on a notebook page",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "025",
+   "location_id": "gottingen-lecture-hall",
+   "shot_role": "wide",
+   "shot_scale_note": "a little off axis, the far corner just in frame",
+   "subject": "a lecturer gesturing at a chalked diagram while students lean forward, absorbed",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "026",
+   "location_id": "gottingen-lecture-hall",
+   "shot_role": "medium",
+   "shot_scale_note": "just off centre, the lit faces to one side",
+   "subject": "a young Katona taking notes intently in a crowded Gottingen lecture hall",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "027",
+   "location_id": "gottingen-lecture-hall",
+   "shot_role": "wide",
+   "shot_scale_note": "eye level, square to the far side",
+   "subject": "a young scholar walking out of the lecture hall alone, deep in thought",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "028",
+   "location_id": "berlin-newsroom",
+   "shot_role": "establishing",
+   "shot_scale_note": "high and back, looking down the length of the space",
+   "subject": "a Berlin newspaper office wall clock ticking above a room stacked with wire bulletins",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "029",
+   "location_id": "berlin-newsroom",
+   "shot_role": "detail",
+   "shot_scale_note": "just above the working surface, hands and face half lit",
+   "subject": "a factory foreman handing workers a second wage packet in the same afternoon",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "030",
+   "location_id": "berlin-newsroom",
+   "shot_role": "wide",
+   "shot_scale_note": "eye level, square to the far side",
+   "subject": "a woman carrying a laundry basket overflowing with worthless banknotes through a Berlin street",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "031",
+   "location_id": "berlin-newsroom",
+   "shot_role": "establishing",
+   "shot_scale_note": "set back in a corner, everything held in one frame",
+   "subject": "a young financial journalist typing at a cluttered desk in a Berlin newsroom",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "032",
+   "location_id": "berlin-newsroom",
+   "shot_role": "medium",
+   "shot_scale_note": "square on, half the group in shadow",
+   "subject": "Katona and fellow psychologists deep in discussion around a newsroom table",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "033",
+   "location_id": "berlin-newsroom",
+   "shot_role": "wide",
+   "shot_scale_note": "eye level from the doorway, the space opening away",
+   "subject": "a journalist reading a wire bulletin aloud to colleagues gathered around his desk",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "034",
+   "location_id": "berlin-newsroom",
+   "shot_role": "atmosphere",
+   "shot_scale_note": "still and wide, the place breathing, figures small and distant",
+   "subject": "a newsroom window overlooking a Berlin street thick with evening haze",
+   "is_abstract_cover": true
+  },
+  {
+   "id": "035",
+   "location_id": "berlin-newsroom",
+   "shot_role": "detail",
+   "shot_scale_note": "tight on the face, the background dissolving into haze",
+   "subject": "a shopkeeper hastily rewriting a chalked price sign for the second time that day",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "036",
+   "location_id": "berlin-newsroom",
+   "shot_role": "macro_texture",
+   "shot_scale_note": "flat on to the surface, every mark and wear visible",
+   "subject": "a close view of a basket crammed with devalued paper currency",
+   "is_abstract_cover": true
+  },
+  {
+   "id": "037",
+   "location_id": "berlin-newsroom",
+   "shot_role": "wide",
+   "shot_scale_note": "eye level from the doorway, the space opening away",
+   "subject": "a crowd pressing into a shop doorway to buy goods before prices rise again",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "038",
+   "location_id": "berlin-newsroom",
+   "shot_role": "medium",
+   "shot_scale_note": "waist height, the figures filling the middle of the frame",
+   "subject": "Katona at his newsroom desk, pausing mid-sentence to think something through",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "039",
+   "location_id": "wartime-survey-office",
+   "shot_role": "establishing",
+   "shot_scale_note": "set back in a corner, everything held in one frame",
+   "subject": "a newly-arrived emigre scholar sitting nervously across a desk at his first American job interview",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "040",
+   "location_id": "wartime-survey-office",
+   "shot_role": "atmosphere",
+   "shot_scale_note": "still, the air itself catching the light",
+   "subject": "a small office window looking out over a depression-era American street",
+   "is_abstract_cover": true
+  },
+  {
+   "id": "041",
+   "location_id": "wartime-survey-office",
+   "shot_role": "wide",
+   "shot_scale_note": "eye level, square to the far side",
+   "subject": "a young immigrant scholar unpacking a crate of books in a modest office",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "042",
+   "location_id": "wartime-survey-office",
+   "shot_role": "detail",
+   "shot_scale_note": "low and close, the subject against the dark",
+   "subject": "a hand filling out American citizenship papers at a wooden desk",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "043",
+   "location_id": "wartime-survey-office",
+   "shot_role": "wide",
+   "shot_scale_note": "a little off axis, the far corner just in frame",
+   "subject": "a scholar poring over English-language journals stacked on an office desk",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "044",
+   "location_id": "wartime-survey-office",
+   "shot_role": "detail",
+   "shot_scale_note": "tight on the face, the background dissolving into haze",
+   "subject": "an unemployment line glimpsed through an office window on a grey depression-era street",
+   "emotion": "concentration and effort",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "045",
+   "location_id": "wartime-survey-office",
+   "shot_role": "medium",
+   "shot_scale_note": "waist height, the figures filling the middle of the frame",
+   "subject": "a scholar practicing English phrases aloud while typing at a borrowed desk",
+   "emotion": "quiet waiting",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "046",
+   "location_id": "wartime-survey-office",
+   "shot_role": "wide",
+   "shot_scale_note": "eye level from the doorway, the space opening away",
+   "subject": "a scholar alone at his desk late at night, papers piled around him",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "047",
+   "location_id": "wartime-survey-office",
+   "shot_role": "establishing",
+   "shot_scale_note": "at the threshold, the whole depth of the place visible",
+   "subject": "a wartime government office lined with ration-board posters and pinned maps",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "048",
+   "location_id": "wartime-survey-office",
+   "shot_role": "macro_texture",
+   "shot_scale_note": "so close the surface loses its outline",
+   "subject": "a close view of a factory floor retooled from washing machines to artillery shells",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "049",
+   "location_id": "wartime-survey-office",
+   "shot_role": "detail",
+   "shot_scale_note": "close in on the main subject, everything around it falling into shadow",
+   "subject": "a grocer's shelf nearly bare, a hand-lettered ration notice taped to the window",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "050",
+   "location_id": "wartime-survey-office",
+   "shot_role": "wide",
+   "shot_scale_note": "a little off axis, the far corner just in frame",
+   "subject": "a family at a kitchen table deciding to set money aside instead of spending it",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "051",
+   "location_id": "wartime-survey-office",
+   "shot_role": "medium",
+   "shot_scale_note": "slightly low, close to the near figure",
+   "subject": "a government economist studying stacks of survey forms at a cluttered desk",
+   "emotion": "wonder and curiosity",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "052",
+   "location_id": "wartime-survey-office",
+   "shot_role": "wide",
+   "shot_scale_note": "eye level, square to the far side",
+   "subject": "Katona at his desk in the Department of Agriculture, drafting a survey questionnaire",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "053",
+   "location_id": "survey-research-center",
+   "shot_role": "establishing",
+   "shot_scale_note": "set back in a corner, everything held in one frame",
+   "subject": "Katona and two colleagues unpacking boxes into a small new office in Ann Arbor, 1946",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "054",
+   "location_id": "survey-research-center",
+   "shot_role": "detail",
+   "shot_scale_note": "just above the working surface, hands and face half lit",
+   "subject": "a hand-painted sign reading Survey Research Center being hung above an office door",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "055",
+   "location_id": "survey-research-center",
+   "shot_role": "wide",
+   "shot_scale_note": "eye level from the doorway, the space opening away",
+   "subject": "interviewers gathered around a table planning routes to visit households across the country",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "056",
+   "location_id": "survey-research-center",
+   "shot_role": "macro_texture",
+   "shot_scale_note": "extreme close-up, the surface and the hands on it filling the frame, shallow focus",
+   "subject": "a close view of a stack of freshly typed household survey questionnaires",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "057",
+   "location_id": "survey-research-center",
+   "shot_role": "atmosphere",
+   "shot_scale_note": "still, the air itself catching the light",
+   "subject": "an interviewer sitting at a kitchen table in a stranger's home, notebook open",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "058",
+   "location_id": "survey-research-center",
+   "shot_role": "medium",
+   "shot_scale_note": "square on, half the group in shadow",
+   "subject": "researchers debating survey wording around a chalkboard covered in sample questions",
+   "emotion": "quiet waiting",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "059",
+   "location_id": "survey-research-center",
+   "shot_role": "detail",
+   "shot_scale_note": "low and close, the subject against the dark",
+   "subject": "a hand filing a completed household survey into a drawer of similar forms",
+   "emotion": "quiet waiting",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "060",
+   "location_id": "survey-research-center",
+   "shot_role": "wide",
+   "shot_scale_note": "eye level from the doorway, the space opening away",
+   "subject": "Katona presenting the young Survey Research Center's plans to a visiting Federal Reserve official",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "061",
+   "location_id": "central-bank-vault",
+   "shot_role": "establishing",
+   "shot_scale_note": "at the threshold, the whole depth of the place visible",
+   "subject": "a Federal Reserve official reviewing ledgers of postwar savings bonds and bank deposits",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "062",
+   "location_id": "central-bank-vault",
+   "shot_role": "wide",
+   "shot_scale_note": "low, the floor running away toward the light",
+   "subject": "clerks stacking bundles of wartime savings bonds inside a vault",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "063",
+   "location_id": "central-bank-vault",
+   "shot_role": "detail",
+   "shot_scale_note": "close in on the main subject, everything around it falling into shadow",
+   "subject": "a hand counting a thick file of household balance-sheet records",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "064",
+   "location_id": "survey-research-center",
+   "shot_role": "establishing",
+   "shot_scale_note": "high and back, looking down the length of the space",
+   "subject": "Katona coaching a young interviewer on how to gently open a conversation about money",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "065",
+   "location_id": "survey-research-center",
+   "shot_role": "medium",
+   "shot_scale_note": "square on, half the group in shadow",
+   "subject": "an interviewer and a household guest talking easily before the notebook comes out",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "066",
+   "location_id": "survey-research-center",
+   "shot_role": "wide",
+   "shot_scale_note": "low, the floor running away toward the light",
+   "subject": "Katona sketching a soft opening question onto a draft questionnaire page",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "067",
+   "location_id": "survey-research-center",
+   "shot_role": "macro_texture",
+   "shot_scale_note": "extreme close-up, the surface and the hands on it filling the frame, shallow focus",
+   "subject": "a close view of a handwritten survey question about buying big things for the home",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "068",
+   "location_id": "survey-research-center",
+   "shot_role": "atmosphere",
+   "shot_scale_note": "held on the space, light and haze doing the work",
+   "subject": "an interviewer nodding warmly as a homeowner talks about the year ahead",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "069",
+   "location_id": "survey-research-center",
+   "shot_role": "detail",
+   "shot_scale_note": "just above the working surface, hands and face half lit",
+   "subject": "a Federal Reserve official setting the soft opening questions aside, unread",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "070",
+   "location_id": "survey-research-center",
+   "shot_role": "wide",
+   "shot_scale_note": "eye level, square to the far side",
+   "subject": "Katona quietly filing away the very answers he was told did not matter",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "071",
+   "location_id": "survey-research-center",
+   "shot_role": "medium",
+   "shot_scale_note": "just off centre, the lit faces to one side",
+   "subject": "Katona at his desk late at night, reporting the soft answers anyway",
+   "emotion": "concentration and effort",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "072",
+   "location_id": "wartime-survey-office",
+   "shot_role": "establishing",
+   "shot_scale_note": "at the threshold, the whole depth of the place visible",
+   "subject": "Katona underlining a household's answer about how they feel about their finances",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "073",
+   "location_id": "wartime-survey-office",
+   "shot_role": "atmosphere",
+   "shot_scale_note": "held on the space, light and haze doing the work",
+   "subject": "a close view of a family's modest discretionary savings jar on a shelf",
+   "is_abstract_cover": true
+  },
+  {
+   "id": "074",
+   "location_id": "wartime-survey-office",
+   "shot_role": "wide",
+   "shot_scale_note": "eye level, square to the far side",
+   "subject": "a worker collecting a paycheck at a factory window, savings book in hand",
+   "emotion": "quiet waiting",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "075",
+   "location_id": "wartime-survey-office",
+   "shot_role": "macro_texture",
+   "shot_scale_note": "so close the surface loses its outline",
+   "subject": "a bank clerk reviewing a loan application across a wooden counter",
+   "is_abstract_cover": true
+  },
+  {
+   "id": "076",
+   "location_id": "wartime-survey-office",
+   "shot_role": "atmosphere",
+   "shot_scale_note": "looking down the length of the place, movement far off",
+   "subject": "a worried factory worker glancing at a shift-schedule board on the wall",
+   "is_abstract_cover": true
+  },
+  {
+   "id": "077",
+   "location_id": "wartime-survey-office",
+   "shot_role": "macro_texture",
+   "shot_scale_note": "raking across the surface, almost touching it",
+   "subject": "a family quietly deciding against a purchase, catalogue closed on the table",
+   "is_abstract_cover": true
+  },
+  {
+   "id": "078",
+   "location_id": "wartime-survey-office",
+   "shot_role": "detail",
+   "shot_scale_note": "close in on the main subject, everything around it falling into shadow",
+   "subject": "a hand paying an electricity bill at the kitchen table without hesitation",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "079",
+   "location_id": "wartime-survey-office",
+   "shot_role": "wide",
+   "shot_scale_note": "low, the floor running away toward the light",
+   "subject": "a family looking at a car dealership window, then walking on without stopping",
+   "emotion": "quiet waiting",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "080",
+   "location_id": "postwar-suburb",
+   "shot_role": "establishing",
+   "shot_scale_note": "set back in a corner, everything held in one frame",
+   "subject": "a forecaster at a desk crossing out a demobilised soldier's job prospects",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "081",
+   "location_id": "postwar-suburb",
+   "shot_role": "wide",
+   "shot_scale_note": "eye level, square to the far side",
+   "subject": "soldiers in uniform stepping off a train into a crowded postwar station",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "082",
+   "location_id": "postwar-suburb",
+   "shot_role": "detail",
+   "shot_scale_note": "low and close, the subject against the dark",
+   "subject": "a factory floor going quiet as war production machinery is switched off",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "083",
+   "location_id": "postwar-suburb",
+   "shot_role": "medium",
+   "shot_scale_note": "square on, half the group in shadow",
+   "subject": "a returning veteran filling out a job application at a crowded employment office",
+   "emotion": "concentration and effort",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "084",
+   "location_id": "postwar-suburb",
+   "shot_role": "wide",
+   "shot_scale_note": "low, the floor running away toward the light",
+   "subject": "a family loading a new refrigerator onto a delivery truck outside their home",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "085",
+   "location_id": "postwar-suburb",
+   "shot_role": "establishing",
+   "shot_scale_note": "far back, static, the whole space in frame",
+   "subject": "a family proudly parking a brand-new car in front of their small suburban house",
+   "emotion": "concentration and effort",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "086",
+   "location_id": "postwar-suburb",
+   "shot_role": "atmosphere",
+   "shot_scale_note": "held on the space, light and haze doing the work",
+   "subject": "a delivery truck unloading appliance boxes down a sunlit suburban street",
+   "is_abstract_cover": true
+  },
+  {
+   "id": "087",
+   "location_id": "postwar-suburb",
+   "shot_role": "detail",
+   "shot_scale_note": "just above the working surface, hands and face half lit",
+   "subject": "a forecaster's crossed-out chart of predicted government spending pinned to a wall",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "088",
+   "location_id": "postwar-suburb",
+   "shot_role": "wide",
+   "shot_scale_note": "low, the floor running away toward the light",
+   "subject": "an interviewer noting a household's confident answer about buying a new car",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "089",
+   "location_id": "postwar-suburb",
+   "shot_role": "medium",
+   "shot_scale_note": "waist height, the figures filling the middle of the frame",
+   "subject": "a newspaper editor setting the first published sentiment index figure into type",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "090",
+   "location_id": "postwar-suburb",
+   "shot_role": "wide",
+   "shot_scale_note": "a little off axis, the far corner just in frame",
+   "subject": "a family reading the newly published consumer sentiment figure in the morning paper",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "091",
+   "location_id": "postwar-suburb",
+   "shot_role": "detail",
+   "shot_scale_note": "low and close, the subject against the dark",
+   "subject": "a filing clerk adding a new monthly report to a growing shelf of past readings",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "092",
+   "location_id": "postwar-suburb",
+   "shot_role": "medium",
+   "shot_scale_note": "waist height, the figures filling the middle of the frame",
+   "subject": "an interviewer knocking at a suburban door with a clipboard of survey questions",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "093",
+   "location_id": "postwar-suburb",
+   "shot_role": "macro_texture",
+   "shot_scale_note": "so close the surface loses its outline",
+   "subject": "a close view of the same five survey questions typed decade after decade",
+   "is_abstract_cover": true
+  },
+  {
+   "id": "094",
+   "location_id": "postwar-suburb",
+   "shot_role": "wide",
+   "shot_scale_note": "a little off axis, the far corner just in frame",
+   "subject": "a homeowner answering an interviewer's question about the year gone by",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "095",
+   "location_id": "survey-research-center",
+   "shot_role": "establishing",
+   "shot_scale_note": "high and back, looking down the length of the space",
+   "subject": "a homeowner considering whether their family is better off than a year ago",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "096",
+   "location_id": "survey-research-center",
+   "shot_role": "detail",
+   "shot_scale_note": "close in on the main subject, everything around it falling into shadow",
+   "subject": "an interviewer noting a household's guess about business conditions for the year ahead",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "097",
+   "location_id": "survey-research-center",
+   "shot_role": "wide",
+   "shot_scale_note": "low, the floor running away toward the light",
+   "subject": "a family discussing whether good times or hard times lie ahead for the country",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "098",
+   "location_id": "survey-research-center",
+   "shot_role": "medium",
+   "shot_scale_note": "square on, half the group in shadow",
+   "subject": "a household weighing whether now is a good time to buy a new refrigerator",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "099",
+   "location_id": "survey-research-center",
+   "shot_role": "detail",
+   "shot_scale_note": "low and close, the subject against the dark",
+   "subject": "an interviewer's notebook showing two personal questions and three about the country",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "100",
+   "location_id": "survey-research-center",
+   "shot_role": "wide",
+   "shot_scale_note": "eye level, square to the far side",
+   "subject": "an interviewer explaining that no one will ask about salary or bank balance",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "101",
+   "location_id": "survey-research-center",
+   "shot_role": "detail",
+   "shot_scale_note": "tight on the face, the background dissolving into haze",
+   "subject": "a homeowner answering plainly, at ease, with no figures required",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "102",
+   "location_id": "survey-research-center",
+   "shot_role": "wide",
+   "shot_scale_note": "a little off axis, the far corner just in frame",
+   "subject": "a researcher tallying favourable and unfavourable answers into two columns on a ledger",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "103",
+   "location_id": "modern-kitchen",
+   "shot_role": "establishing",
+   "shot_scale_note": "high and back, looking down the length of the space",
+   "subject": "a person at a kitchen table adding a column of survey scores by hand",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "104",
+   "location_id": "modern-kitchen",
+   "shot_role": "medium",
+   "shot_scale_note": "waist height, the figures filling the middle of the frame",
+   "subject": "a hand circling a single steady number amid decades of changing figures on a chart",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "105",
+   "location_id": "modern-kitchen",
+   "shot_role": "atmosphere",
+   "shot_scale_note": "still, the air itself catching the light",
+   "subject": "a close view of a calendar page marked 1966 beside a scale of one hundred",
+   "is_abstract_cover": true
+  },
+  {
+   "id": "106",
+   "location_id": "modern-kitchen",
+   "shot_role": "wide",
+   "shot_scale_note": "a little off axis, the far corner just in frame",
+   "subject": "a person tracing a printed line graph back to its starting reference point",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "107",
+   "location_id": "modern-kitchen",
+   "shot_role": "macro_texture",
+   "shot_scale_note": "raking across the surface, almost touching it",
+   "subject": "a close view of a ratio chart comparing today's number against an old baseline",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "108",
+   "location_id": "modern-kitchen",
+   "shot_role": "detail",
+   "shot_scale_note": "close in on the main subject, everything around it falling into shadow",
+   "subject": "a person underlining the figure 47.8 on a printed page, then sitting back",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "109",
+   "location_id": "modern-kitchen",
+   "shot_role": "atmosphere",
+   "shot_scale_note": "still, the air itself catching the light",
+   "subject": "a person turning back through decades of old newspaper clippings spread on a table",
+   "is_abstract_cover": true
+  },
+  {
+   "id": "110",
+   "location_id": "gas-station-1970s",
+   "shot_role": "wide",
+   "shot_scale_note": "eye level from the doorway, the space opening away",
+   "subject": "a long line of cars idling at a gas station as a hand-lettered price sign is changed",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "111",
+   "location_id": "gas-station-1970s",
+   "shot_role": "macro_texture",
+   "shot_scale_note": "flat on to the surface, every mark and wear visible",
+   "subject": "a close view of a gas pump's price dial climbing higher each week",
+   "is_abstract_cover": true
+  },
+  {
+   "id": "112",
+   "location_id": "fed-boardroom-1980",
+   "shot_role": "atmosphere",
+   "shot_scale_note": "still, the air itself catching the light",
+   "subject": "a central bank official studying a chart of double-digit interest rates by lamplight",
+   "is_abstract_cover": true
+  },
+  {
+   "id": "113",
+   "location_id": "foreclosed-street-2008",
+   "shot_role": "establishing",
+   "shot_scale_note": "far back, static, the whole space in frame",
+   "subject": "a real-estate agent hammering a for-sale sign into an overgrown suburban lawn",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "114",
+   "location_id": "foreclosed-street-2008",
+   "shot_role": "wide",
+   "shot_scale_note": "eye level from the doorway, the space opening away",
+   "subject": "a bank teller taping a closure notice across a branch's glass door",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "115",
+   "location_id": "foreclosed-street-2008",
+   "shot_role": "medium",
+   "shot_scale_note": "square on, half the group in shadow",
+   "subject": "a laid-off worker carrying a box of belongings out of an office building",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "116",
+   "location_id": "foreclosed-street-2008",
+   "shot_role": "detail",
+   "shot_scale_note": "tight on the face, the background dissolving into haze",
+   "subject": "a family reading a foreclosure notice stapled to their own front door",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "117",
+   "location_id": "foreclosed-street-2008",
+   "shot_role": "wide",
+   "shot_scale_note": "eye level, square to the far side",
+   "subject": "a family comparing a job-loss headline against a rising grocery receipt at the table",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "118",
+   "location_id": "foreclosed-street-2008",
+   "shot_role": "macro_texture",
+   "shot_scale_note": "raking across the surface, almost touching it",
+   "subject": "a close view of a grocery receipt with several prices circled in pen",
+   "is_abstract_cover": true
+  },
+  {
+   "id": "119",
+   "location_id": "survey-research-center",
+   "shot_role": "establishing",
+   "shot_scale_note": "at the threshold, the whole depth of the place visible",
+   "subject": "an interviewer marking a household's answer that mentions rising prices unprompted",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "120",
+   "location_id": "empty-storefront-2020",
+   "shot_role": "wide",
+   "shot_scale_note": "a little off axis, the far corner just in frame",
+   "subject": "a shopkeeper pulling a security shutter down over a darkened storefront",
+   "emotion": "quiet waiting",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "121",
+   "location_id": "empty-storefront-2020",
+   "shot_role": "detail",
+   "shot_scale_note": "low and close, the subject against the dark",
+   "subject": "a family watching news of closures from their living room window",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "122",
+   "location_id": "gas-station-2022",
+   "shot_role": "medium",
+   "shot_scale_note": "waist height, the figures filling the middle of the frame",
+   "subject": "a driver watching the total climb past a hundred dollars at the pump",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "123",
+   "location_id": "modern-kitchen",
+   "shot_role": "establishing",
+   "shot_scale_note": "set back in a corner, everything held in one frame",
+   "subject": "a person circling a record-low number on a printed page at the kitchen table",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "124",
+   "location_id": "modern-kitchen",
+   "shot_role": "wide",
+   "shot_scale_note": "a little off axis, the far corner just in frame",
+   "subject": "a person setting down two printed reports, one showing low unemployment, one showing low sentiment",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "125",
+   "location_id": "modern-kitchen",
+   "shot_role": "detail",
+   "shot_scale_note": "low and close, the subject against the dark",
+   "subject": "a hand crossing out an old record-low figure and writing a lower one beside it",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "126",
+   "location_id": "modern-kitchen",
+   "shot_role": "medium",
+   "shot_scale_note": "waist height, the figures filling the middle of the frame",
+   "subject": "a person reading a headline calling April's number the lowest ever recorded",
+   "emotion": "quiet waiting",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "127",
+   "location_id": "modern-kitchen",
+   "shot_role": "wide",
+   "shot_scale_note": "low, the floor running away toward the light",
+   "subject": "a person turning the page to find May's revised figure lower still",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "128",
+   "location_id": "modern-kitchen",
+   "shot_role": "detail",
+   "shot_scale_note": "just above the working surface, hands and face half lit",
+   "subject": "a person tracing how the month's later interviews pulled the final number down",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "129",
+   "location_id": "gas-station-2022",
+   "shot_role": "establishing",
+   "shot_scale_note": "high and back, looking down the length of the space",
+   "subject": "a person reading that both halves of the survey hit record lows in the same month",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "130",
+   "location_id": "gas-station-2022",
+   "shot_role": "wide",
+   "shot_scale_note": "low, the floor running away toward the light",
+   "subject": "a driver checking a phone headline about record-low consumer sentiment while refuelling",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "131",
+   "location_id": "gas-station-2022",
+   "shot_role": "medium",
+   "shot_scale_note": "waist height, the figures filling the middle of the frame",
+   "subject": "a family tracing shipping lanes near the Strait of Hormuz on a map, worried",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "132",
+   "location_id": "gas-station-2022",
+   "shot_role": "establishing",
+   "shot_scale_note": "high and back, looking down the length of the space",
+   "subject": "a driver glancing up at a tall digital price sign towering over the forecourt",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "133",
+   "location_id": "gas-station-2022",
+   "shot_role": "wide",
+   "shot_scale_note": "a little off axis, the far corner just in frame",
+   "subject": "a commuter noticing the same high price again on the drive home",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "134",
+   "location_id": "gas-station-2022",
+   "shot_role": "detail",
+   "shot_scale_note": "tight on the face, the background dissolving into haze",
+   "subject": "an interviewer noting that a respondent brought up gas prices without being asked",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "135",
+   "location_id": "gas-station-2022",
+   "shot_role": "wide",
+   "shot_scale_note": "eye level, square to the far side",
+   "subject": "a delivery truck idling at a loading dock as freight costs are recalculated",
+   "emotion": "concentration and effort",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "136",
+   "location_id": "trading-floor-2026",
+   "shot_role": "macro_texture",
+   "shot_scale_note": "raking across the surface, almost touching it",
+   "subject": "a broker checking a portfolio balance, visibly more at ease than colleagues nearby",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "137",
+   "location_id": "trading-floor-2026",
+   "shot_role": "atmosphere",
+   "shot_scale_note": "looking down the length of the place, movement far off",
+   "subject": "two traders comparing very different moods over the same day's market report",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "138",
+   "location_id": "trading-floor-2026",
+   "shot_role": "medium",
+   "shot_scale_note": "just off centre, the lit faces to one side",
+   "subject": "a room of mixed expressions, some relieved, most quietly uneasy",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "139",
+   "location_id": "modern-kitchen",
+   "shot_role": "atmosphere",
+   "shot_scale_note": "still and wide, the place breathing, figures small and distant",
+   "subject": "a person noticing the sentiment number tick back upward on the news, cautiously relieved",
+   "is_abstract_cover": true
+  },
+  {
+   "id": "140",
+   "location_id": "modern-kitchen",
+   "shot_role": "establishing",
+   "shot_scale_note": "far back, static, the whole space in frame",
+   "subject": "a person reading that the number fell again in August, expression falling with it",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "141",
+   "location_id": "modern-kitchen",
+   "shot_role": "wide",
+   "shot_scale_note": "low, the floor running away toward the light",
+   "subject": "a person reading the September headline number aloud from a phone screen",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "142",
+   "location_id": "modern-kitchen",
+   "shot_role": "detail",
+   "shot_scale_note": "just above the working surface, hands and face half lit",
+   "subject": "a person comparing the new figure against economists' printed predictions",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "143",
+   "location_id": "modern-kitchen",
+   "shot_role": "wide",
+   "shot_scale_note": "eye level from the doorway, the space opening away",
+   "subject": "a person calculating how far the number has fallen since last February",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "144",
+   "location_id": "modern-kitchen",
+   "shot_role": "macro_texture",
+   "shot_scale_note": "extreme close-up, the surface and the hands on it filling the frame, shallow focus",
+   "subject": "a report split into two labelled halves on the page",
+   "emotion": "concentration and effort",
+   "is_abstract_cover": true
+  },
+  {
+   "id": "145",
+   "location_id": "modern-kitchen",
+   "shot_role": "detail",
+   "shot_scale_note": "tight on the face, the background dissolving into haze",
+   "subject": "a person underlining current conditions on one line and expectations on another",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "146",
+   "location_id": "modern-kitchen",
+   "shot_role": "medium",
+   "shot_scale_note": "square on, half the group in shadow",
+   "subject": "a person noticing expectations fell far more sharply than today's conditions",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "147",
+   "location_id": "modern-kitchen",
+   "shot_role": "atmosphere",
+   "shot_scale_note": "held on the space, light and haze doing the work",
+   "subject": "a person sitting still, realising today feels the same but tomorrow feels worse",
+   "is_abstract_cover": true
+  },
+  {
+   "id": "148",
+   "location_id": "mortgage-desk-2026",
+   "shot_role": "establishing",
+   "shot_scale_note": "far back, static, the whole space in frame",
+   "subject": "a young couple pausing over mortgage paperwork, suddenly unsure about next year",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "149",
+   "location_id": "mortgage-desk-2026",
+   "shot_role": "macro_texture",
+   "shot_scale_note": "so close the surface loses its outline",
+   "subject": "a close view of a calendar page for next year, left blank",
+   "emotion": "concentration and effort",
+   "is_abstract_cover": true
+  },
+  {
+   "id": "150",
+   "location_id": "mortgage-desk-2026",
+   "shot_role": "wide",
+   "shot_scale_note": "eye level from the doorway, the space opening away",
+   "subject": "a young couple signing a mortgage application at their kitchen table",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "151",
+   "location_id": "mortgage-desk-2026",
+   "shot_role": "detail",
+   "shot_scale_note": "just above the working surface, hands and face half lit",
+   "subject": "a couple setting a moving box down, weighing whether to go ahead",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "152",
+   "location_id": "mortgage-desk-2026",
+   "shot_role": "wide",
+   "shot_scale_note": "low, the floor running away toward the light",
+   "subject": "a person recalculating a household budget against a higher expected inflation rate",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "153",
+   "location_id": "gas-station-2022",
+   "shot_role": "establishing",
+   "shot_scale_note": "far back, static, the whole space in frame",
+   "subject": "a commuter frowning at a digital sign showing a slightly higher price than last week",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "154",
+   "location_id": "gas-station-2022",
+   "shot_role": "wide",
+   "shot_scale_note": "eye level from the doorway, the space opening away",
+   "subject": "a family debating whether prices will ever settle, groceries still in the trunk",
+   "emotion": "quiet waiting",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "155",
+   "location_id": "gas-station-2022",
+   "shot_role": "medium",
+   "shot_scale_note": "square on, half the group in shadow",
+   "subject": "a driver pulling away from the pump, still thinking about next year's budget",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "156",
+   "location_id": "gas-station-2022",
+   "shot_role": "detail",
+   "shot_scale_note": "tight on the face, the background dissolving into haze",
+   "subject": "a person noting that this month's figure is only preliminary, final count still to come",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "157",
+   "location_id": "gas-station-2022",
+   "shot_role": "wide",
+   "shot_scale_note": "eye level, square to the far side",
+   "subject": "a person setting the report aside, waiting for next month's numbers",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "158",
+   "location_id": "trading-floor-2026",
+   "shot_role": "establishing",
+   "shot_scale_note": "high and back, looking down the length of the space",
+   "subject": "traders cheering near a screen showing the market at a record high",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "159",
+   "location_id": "trading-floor-2026",
+   "shot_role": "medium",
+   "shot_scale_note": "square on, half the group in shadow",
+   "subject": "a trading floor screen scrolling record numbers for the S&P, Nasdaq and Dow",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "160",
+   "location_id": "trading-floor-2026",
+   "shot_role": "wide",
+   "shot_scale_note": "a little off axis, the far corner just in frame",
+   "subject": "a trader celebrating at his terminal while a headline behind him reports falling sentiment",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "161",
+   "location_id": "central-bank-vault",
+   "shot_role": "detail",
+   "shot_scale_note": "low and close, the subject against the dark",
+   "subject": "a clerk checking a gold-price chart that has slipped well off its own record",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "162",
+   "location_id": "central-bank-vault",
+   "shot_role": "establishing",
+   "shot_scale_note": "far back, static, the whole space in frame",
+   "subject": "a clerk checking a ledger recording gold's fall from its January peak",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "163",
+   "location_id": "central-bank-vault",
+   "shot_role": "atmosphere",
+   "shot_scale_note": "still, the air itself catching the light",
+   "subject": "a close view of a silver bar catalogued far below its own record price",
+   "is_abstract_cover": true
+  },
+  {
+   "id": "164",
+   "location_id": "central-bank-vault",
+   "shot_role": "wide",
+   "shot_scale_note": "a little off axis, the far corner just in frame",
+   "subject": "an analyst comparing this year's metal prices against their earlier record highs",
+   "emotion": "grief, restrained and quiet",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "165",
+   "location_id": "central-bank-vault",
+   "shot_role": "detail",
+   "shot_scale_note": "low and close, the subject against the dark",
+   "subject": "a central bank clerk logging a large gold purchase during a falling market",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "166",
+   "location_id": "central-bank-vault",
+   "shot_role": "establishing",
+   "shot_scale_note": "far back, static, the whole space in frame",
+   "subject": "workers wheeling a loaded bullion cart past rows of stacked gold bars",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "167",
+   "location_id": "central-bank-vault",
+   "shot_role": "wide",
+   "shot_scale_note": "low, the floor running away toward the light",
+   "subject": "a clerk comparing a vault's swelling gold reserves against household survey data on a clipboard",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "168",
+   "location_id": "central-bank-vault",
+   "shot_role": "macro_texture",
+   "shot_scale_note": "flat on to the surface, every mark and wear visible",
+   "subject": "a close view of a bond-yield chart climbing to its highest point in years",
+   "is_abstract_cover": true
+  },
+  {
+   "id": "169",
+   "location_id": "trading-floor-2026",
+   "shot_role": "establishing",
+   "shot_scale_note": "high and back, looking down the length of the space",
+   "subject": "an analyst separating a stock index chart from a household sentiment chart on two screens",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "170",
+   "location_id": "trading-floor-2026",
+   "shot_role": "medium",
+   "shot_scale_note": "just off centre, the lit faces to one side",
+   "subject": "an analyst annotating that the two charts are measuring different populations, not disagreeing",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "171",
+   "location_id": "trading-floor-2026",
+   "shot_role": "wide",
+   "shot_scale_note": "eye level, square to the far side",
+   "subject": "a trader glancing at a retirement statement most households never open",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "172",
+   "location_id": "trading-floor-2026",
+   "shot_role": "detail",
+   "shot_scale_note": "low and close, the subject against the dark",
+   "subject": "a household's grocery total unaffected by the record market number on the news",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "173",
+   "location_id": "trading-floor-2026",
+   "shot_role": "medium",
+   "shot_scale_note": "square on, half the group in shadow",
+   "subject": "an interviewer's clipboard of ordinary households set beside a wall of trading screens",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "174",
+   "location_id": "trading-floor-2026",
+   "shot_role": "wide",
+   "shot_scale_note": "low, the floor running away toward the light",
+   "subject": "a wealthy shareholder and an ordinary household both filling out the same survey",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "175",
+   "location_id": "modern-kitchen",
+   "shot_role": "detail",
+   "shot_scale_note": "close in on the main subject, everything around it falling into shadow",
+   "subject": "a person setting down two accurate but conflicting reports, unsure which one to trust",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "176",
+   "location_id": "modern-kitchen",
+   "shot_role": "establishing",
+   "shot_scale_note": "high and back, looking down the length of the space",
+   "subject": "a person at a kitchen table at month's end, a stack of bills beside two newspapers",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "177",
+   "location_id": "modern-kitchen",
+   "shot_role": "wide",
+   "shot_scale_note": "a little off axis, the far corner just in frame",
+   "subject": "a person shaking their head, certain the fault isn't in their own arithmetic",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "178",
+   "location_id": "modern-kitchen",
+   "shot_role": "macro_texture",
+   "shot_scale_note": "so close the surface loses its outline",
+   "subject": "a hand circling the price of gas on a grocery-and-fuel budget sheet",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "179",
+   "location_id": "modern-kitchen",
+   "shot_role": "atmosphere",
+   "shot_scale_note": "still and wide, the place breathing, figures small and distant",
+   "subject": "a close view of an energy bill with the total underlined twice",
+   "is_abstract_cover": true
+  },
+  {
+   "id": "180",
+   "location_id": "modern-kitchen",
+   "shot_role": "wide",
+   "shot_scale_note": "eye level, square to the far side",
+   "subject": "a person separating average inflation from the actual prices climbing on their receipts",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "181",
+   "location_id": "modern-kitchen",
+   "shot_role": "detail",
+   "shot_scale_note": "tight on the face, the background dissolving into haze",
+   "subject": "a person comparing this year's electricity bill against one from several years back",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "182",
+   "location_id": "modern-kitchen",
+   "shot_role": "medium",
+   "shot_scale_note": "square on, half the group in shadow",
+   "subject": "a person adding up water, electricity and gas bills rising side by side",
+   "emotion": "quiet waiting",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "183",
+   "location_id": "modern-kitchen",
+   "shot_role": "wide",
+   "shot_scale_note": "eye level from the doorway, the space opening away",
+   "subject": "a person setting aside a stack of overdue utility notices in a growing pile",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "184",
+   "location_id": "mortgage-desk-2026",
+   "shot_role": "establishing",
+   "shot_scale_note": "far back, static, the whole space in frame",
+   "subject": "a person calculating how far behind their utility payments have fallen",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "185",
+   "location_id": "mortgage-desk-2026",
+   "shot_role": "detail",
+   "shot_scale_note": "tight on the face, the background dissolving into haze",
+   "subject": "a person carrying forward last month's unpaid balance onto this month's bill",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "186",
+   "location_id": "mortgage-desk-2026",
+   "shot_role": "medium",
+   "shot_scale_note": "square on, half the group in shadow",
+   "subject": "a couple checking a rising mortgage-rate figure against their monthly budget",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "187",
+   "location_id": "mortgage-desk-2026",
+   "shot_role": "wide",
+   "shot_scale_note": "eye level from the doorway, the space opening away",
+   "subject": "a couple watching a home's asking price climb faster than their savings",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "188",
+   "location_id": "mortgage-desk-2026",
+   "shot_role": "macro_texture",
+   "shot_scale_note": "extreme close-up, the surface and the hands on it filling the frame, shallow focus",
+   "subject": "a couple's savings jar sitting far short of a marked deposit goal on a chart",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "189",
+   "location_id": "modern-kitchen",
+   "shot_role": "atmosphere",
+   "shot_scale_note": "still, the air itself catching the light",
+   "subject": "a person choosing to keep the heat on while skipping a new sofa",
+   "emotion": "concentration and effort",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "190",
+   "location_id": "modern-kitchen",
+   "shot_role": "wide",
+   "shot_scale_note": "eye level from the doorway, the space opening away",
+   "subject": "a person separating the month's optional purchases from the ones that can't wait",
+   "emotion": "concentration and effort",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "191",
+   "location_id": "modern-kitchen",
+   "shot_role": "detail",
+   "shot_scale_note": "just above the working surface, hands and face half lit",
+   "subject": "a person paying the electricity bill first, setting the rest aside",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "192",
+   "location_id": "fed-press-room-2026",
+   "shot_role": "establishing",
+   "shot_scale_note": "set back in a corner, everything held in one frame",
+   "subject": "a central bank chair stepping up to a podium to announce a rate increase",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "193",
+   "location_id": "fed-press-room-2026",
+   "shot_role": "atmosphere",
+   "shot_scale_note": "still and wide, the place breathing, figures small and distant",
+   "subject": "a printed statement on the podium reading that inflation remains elevated",
+   "is_abstract_cover": true
+  },
+  {
+   "id": "194",
+   "location_id": "fed-press-room-2026",
+   "shot_role": "wide",
+   "shot_scale_note": "eye level from the doorway, the space opening away",
+   "subject": "officials at a long table each raising a hand in a unanimous vote",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "195",
+   "location_id": "fed-press-room-2026",
+   "shot_role": "medium",
+   "shot_scale_note": "square on, half the group in shadow",
+   "subject": "the chair speaking evenly about both inflation risk and economic strength",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "196",
+   "location_id": "fed-press-room-2026",
+   "shot_role": "detail",
+   "shot_scale_note": "tight on the face, the background dissolving into haze",
+   "subject": "a reporter writing down two contradictory but both accurate lines from the briefing",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "197",
+   "location_id": "fed-press-room-2026",
+   "shot_role": "wide",
+   "shot_scale_note": "eye level, square to the far side",
+   "subject": "a reporter raising a hand to challenge the chair's confident statement",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "198",
+   "location_id": "fed-press-room-2026",
+   "shot_role": "macro_texture",
+   "shot_scale_note": "raking across the surface, almost touching it",
+   "subject": "a printed list of objections pinned beside the chair's own remarks",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "199",
+   "location_id": "fed-press-room-2026",
+   "shot_role": "medium",
+   "shot_scale_note": "square on, half the group in shadow",
+   "subject": "two reporters from opposing outlets comparing notes on the same briefing",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "200",
+   "location_id": "survey-research-center",
+   "shot_role": "establishing",
+   "shot_scale_note": "high and back, looking down the length of the space",
+   "subject": "a researcher sorting survey responses into two piles by political party",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "201",
+   "location_id": "survey-research-center",
+   "shot_role": "wide",
+   "shot_scale_note": "a little off axis, the far corner just in frame",
+   "subject": "an interviewer noting how few younger respondents still answer a landline call",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "202",
+   "location_id": "survey-research-center",
+   "shot_role": "atmosphere",
+   "shot_scale_note": "still, the air itself catching the light",
+   "subject": "a researcher switching a printed questionnaire for a tablet mid-interview",
+   "is_abstract_cover": true
+  },
+  {
+   "id": "203",
+   "location_id": "survey-research-center",
+   "shot_role": "detail",
+   "shot_scale_note": "close in on the main subject, everything around it falling into shadow",
+   "subject": "a researcher comparing an old paper form against a new digital one side by side",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "204",
+   "location_id": "survey-research-center",
+   "shot_role": "wide",
+   "shot_scale_note": "eye level from the doorway, the space opening away",
+   "subject": "a researcher laying a 1980s questionnaire beside a 2026 one on the same desk",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "205",
+   "location_id": "survey-research-center",
+   "shot_role": "macro_texture",
+   "shot_scale_note": "flat on to the surface, every mark and wear visible",
+   "subject": "a shopper filling a cart despite a worried expression at the register",
+   "is_abstract_cover": true
+  },
+  {
+   "id": "206",
+   "location_id": "survey-research-center",
+   "shot_role": "atmosphere",
+   "shot_scale_note": "still, the air itself catching the light",
+   "subject": "a family boarding a flight despite an earlier interview describing money worries",
+   "emotion": "concentration and effort",
+   "is_abstract_cover": true
+  },
+  {
+   "id": "207",
+   "location_id": "survey-research-center",
+   "shot_role": "detail",
+   "shot_scale_note": "close in on the main subject, everything around it falling into shadow",
+   "subject": "a researcher noting that the survey's old link to spending has grown loose",
+   "emotion": "grief, restrained and quiet",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "208",
+   "location_id": "survey-research-center",
+   "shot_role": "establishing",
+   "shot_scale_note": "high and back, looking down the length of the space",
+   "subject": "Katona reviewing a forecast he got wrong, unbothered, moving to the next chart",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "209",
+   "location_id": "survey-research-center",
+   "shot_role": "wide",
+   "shot_scale_note": "a little off axis, the far corner just in frame",
+   "subject": "a researcher circling one September finding that survives every objection raised",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "210",
+   "location_id": "survey-research-center",
+   "shot_role": "macro_texture",
+   "shot_scale_note": "extreme close-up, the surface and the hands on it filling the frame, shallow focus",
+   "subject": "a chart showing declines among both political parties marked in matching red",
+   "is_abstract_cover": true
+  },
+  {
+   "id": "211",
+   "location_id": "survey-research-center",
+   "shot_role": "medium",
+   "shot_scale_note": "just off centre, the lit faces to one side",
+   "subject": "a researcher pointing out that both groups' lines fall together, not apart",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "212",
+   "location_id": "survey-research-center",
+   "shot_role": "wide",
+   "shot_scale_note": "a little off axis, the far corner just in frame",
+   "subject": "two overlapping line charts falling in the same direction across the same month",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "213",
+   "location_id": "survey-research-center",
+   "shot_role": "atmosphere",
+   "shot_scale_note": "held on the space, light and haze doing the work",
+   "subject": "a hand laying four monthly reports side by side on the same desk",
+   "is_abstract_cover": true
+  },
+  {
+   "id": "214",
+   "location_id": "survey-research-center",
+   "shot_role": "detail",
+   "shot_scale_note": "close in on the main subject, everything around it falling into shadow",
+   "subject": "a researcher confirming all four readings came from the very same instrument",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "215",
+   "location_id": "survey-research-center",
+   "shot_role": "wide",
+   "shot_scale_note": "low, the floor running away toward the light",
+   "subject": "a researcher setting spending receipts beside a sentiment chart that disagrees with them",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "216",
+   "location_id": "gas-station-2022",
+   "shot_role": "establishing",
+   "shot_scale_note": "at the threshold, the whole depth of the place visible",
+   "subject": "a shopper paying by credit card despite an anxious glance at the register total",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "217",
+   "location_id": "gas-station-2022",
+   "shot_role": "macro_texture",
+   "shot_scale_note": "raking across the surface, almost touching it",
+   "subject": "a credit card statement growing longer beside a strained household budget",
+   "is_abstract_cover": true
+  },
+  {
+   "id": "218",
+   "location_id": "gas-station-2022",
+   "shot_role": "atmosphere",
+   "shot_scale_note": "still and wide, the place breathing, figures small and distant",
+   "subject": "a person setting aside a recession headline, unconvinced it applies to them",
+   "is_abstract_cover": true
+  },
+  {
+   "id": "219",
+   "location_id": "gas-station-2022",
+   "shot_role": "macro_texture",
+   "shot_scale_note": "so close the surface loses its outline",
+   "subject": "a chart's line sitting low without a downturn yet following it",
+   "is_abstract_cover": true
+  },
+  {
+   "id": "220",
+   "location_id": "gas-station-2022",
+   "shot_role": "wide",
+   "shot_scale_note": "low, the floor running away toward the light",
+   "subject": "a household's monthly answer added to the country's single most consistent chart",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "221",
+   "location_id": "gas-station-2022",
+   "shot_role": "detail",
+   "shot_scale_note": "close in on the main subject, everything around it falling into shadow",
+   "subject": "a person setting three record-low reports side by side from the same year",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "222",
+   "location_id": "gas-station-1970s",
+   "shot_role": "establishing",
+   "shot_scale_note": "high and back, looking down the length of the space",
+   "subject": "a mechanic waving off a customer's question about trading in an old, still-running car",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "223",
+   "location_id": "gas-station-1970s",
+   "shot_role": "medium",
+   "shot_scale_note": "square on, half the group in shadow",
+   "subject": "a family looking over a still-functional old car parked in the driveway",
+   "emotion": "quiet waiting",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "224",
+   "location_id": "gas-station-1970s",
+   "shot_role": "wide",
+   "shot_scale_note": "low, the floor running away toward the light",
+   "subject": "a family deciding, without any drama, to wait one more year on a big purchase",
+   "emotion": "quiet waiting",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "225",
+   "location_id": "gas-station-1970s",
+   "shot_role": "detail",
+   "shot_scale_note": "close in on the main subject, everything around it falling into shadow",
+   "subject": "a factory manager noticing the order book for new cars thinning quietly",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "226",
+   "location_id": "gas-station-1970s",
+   "shot_role": "medium",
+   "shot_scale_note": "slightly low, close to the near figure",
+   "subject": "a factory floor running one fewer shift, workers filing out early",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "227",
+   "location_id": "gas-station-1970s",
+   "shot_role": "wide",
+   "shot_scale_note": "a little off axis, the far corner just in frame",
+   "subject": "a worker leaving the closed shift, already certain not to spend on anything big this year",
+   "emotion": "quiet waiting",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "228",
+   "location_id": "gas-station-1970s",
+   "shot_role": "detail",
+   "shot_scale_note": "tight on the face, the background dissolving into haze",
+   "subject": "a small business owner setting aside plans for a second delivery van",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "229",
+   "location_id": "gas-station-1970s",
+   "shot_role": "atmosphere",
+   "shot_scale_note": "still and wide, the place breathing, figures small and distant",
+   "subject": "a hopeful driver who never got the delivery job still checking listings",
+   "is_abstract_cover": true
+  },
+  {
+   "id": "230",
+   "location_id": "gas-station-1970s",
+   "shot_role": "macro_texture",
+   "shot_scale_note": "flat on to the surface, every mark and wear visible",
+   "subject": "a single decision and a single feeling shown as the same quiet moment",
+   "is_abstract_cover": true
+  },
+  {
+   "id": "231",
+   "location_id": "gas-station-1970s",
+   "shot_role": "atmosphere",
+   "shot_scale_note": "held on the space, light and haze doing the work",
+   "subject": "a family's understanding of their situation visibly shifting after new facts arrive",
+   "is_abstract_cover": true
+  },
+  {
+   "id": "232",
+   "location_id": "gas-station-1970s",
+   "shot_role": "macro_texture",
+   "shot_scale_note": "extreme close-up, the surface and the hands on it filling the frame, shallow focus",
+   "subject": "a puzzle image resolving suddenly from one picture into another in someone's hands",
+   "emotion": "concentration and effort",
+   "is_abstract_cover": true
+  },
+  {
+   "id": "233",
+   "location_id": "gas-station-1970s",
+   "shot_role": "wide",
+   "shot_scale_note": "low, the floor running away toward the light",
+   "subject": "a shift supervisor posting an extra shift back onto the schedule board",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "234",
+   "location_id": "empty-storefront-2020",
+   "shot_role": "establishing",
+   "shot_scale_note": "at the threshold, the whole depth of the place visible",
+   "subject": "a shopkeeper raising a security shutter back up after months closed",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "235",
+   "location_id": "empty-storefront-2020",
+   "shot_role": "wide",
+   "shot_scale_note": "eye level from the doorway, the space opening away",
+   "subject": "a family in a doorway watching the street slowly fill with people again",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "236",
+   "location_id": "empty-storefront-2020",
+   "shot_role": "medium",
+   "shot_scale_note": "waist height, the figures filling the middle of the frame",
+   "subject": "a person comparing this month's small drop in today against a larger drop in tomorrow",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "237",
+   "location_id": "empty-storefront-2020",
+   "shot_role": "atmosphere",
+   "shot_scale_note": "still, the air itself catching the light",
+   "subject": "a person realising the injury isn't today, it's the missing hope for next year",
+   "is_abstract_cover": true
+  },
+  {
+   "id": "238",
+   "location_id": "empty-storefront-2020",
+   "shot_role": "macro_texture",
+   "shot_scale_note": "flat on to the surface, every mark and wear visible",
+   "subject": "workers beginning to rebuild a boarded storefront, hope visible in the work itself",
+   "is_abstract_cover": true
+  },
+  {
+   "id": "239",
+   "location_id": "empty-storefront-2020",
+   "shot_role": "detail",
+   "shot_scale_note": "low and close, the subject against the dark",
+   "subject": "a person crossing out next year's planned improvement on a home budget sheet",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "240",
+   "location_id": "empty-storefront-2020",
+   "shot_role": "wide",
+   "shot_scale_note": "eye level from the doorway, the space opening away",
+   "subject": "a family setting aside a survey of feelings that predicts more than the numbers alone",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "241",
+   "location_id": "empty-storefront-2020",
+   "shot_role": "detail",
+   "shot_scale_note": "just above the working surface, hands and face half lit",
+   "subject": "a Federal Reserve clerk filing a 1946 survey nobody expected anyone to read",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "242",
+   "location_id": "katona-study",
+   "shot_role": "establishing",
+   "shot_scale_note": "set back in a corner, everything held in one frame",
+   "subject": "Katona filing a completed household survey report bound for the Federal Reserve",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "243",
+   "location_id": "katona-study",
+   "shot_role": "atmosphere",
+   "shot_scale_note": "still and wide, the place breathing, figures small and distant",
+   "subject": "Katona at his desk, quietly starting a research programme no one asked for",
+   "is_abstract_cover": true
+  },
+  {
+   "id": "244",
+   "location_id": "katona-study",
+   "shot_role": "macro_texture",
+   "shot_scale_note": "raking across the surface, almost touching it",
+   "subject": "a shelf of Katona's books, their plain understated titles catching lamplight",
+   "is_abstract_cover": true
+  },
+  {
+   "id": "245",
+   "location_id": "katona-study",
+   "shot_role": "wide",
+   "shot_scale_note": "a little off axis, the far corner just in frame",
+   "subject": "a wall of framed fellowship certificates from three different academic societies",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "246",
+   "location_id": "katona-study",
+   "shot_role": "medium",
+   "shot_scale_note": "just off centre, the lit faces to one side",
+   "subject": "colleagues debating which field Katona actually belongs to, unable to agree",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "247",
+   "location_id": "katona-study",
+   "shot_role": "wide",
+   "shot_scale_note": "eye level, square to the far side",
+   "subject": "Katona underlining the word powerful in his own book's title draft",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "248",
+   "location_id": "katona-study",
+   "shot_role": "detail",
+   "shot_scale_note": "low and close, the subject against the dark",
+   "subject": "Katona sketching how a household's mood became one moving part of an economy",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "249",
+   "location_id": "katona-study",
+   "shot_role": "wide",
+   "shot_scale_note": "a little off axis, the far corner just in frame",
+   "subject": "an old photograph of a bare postwar table beside a full modern one",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "250",
+   "location_id": "katona-study",
+   "shot_role": "atmosphere",
+   "shot_scale_note": "still and wide, the place breathing, figures small and distant",
+   "subject": "Katona setting down his pen for the last time before retirement",
+   "emotion": "grief, restrained and quiet",
+   "is_abstract_cover": true
+  },
+  {
+   "id": "251",
+   "location_id": "modern-kitchen",
+   "shot_role": "establishing",
+   "shot_scale_note": "set back in a corner, everything held in one frame",
+   "subject": "a person tracing the index's long history through decades of newspaper clippings",
+   "emotion": "grief, restrained and quiet",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "252",
+   "location_id": "modern-kitchen",
+   "shot_role": "macro_texture",
+   "shot_scale_note": "flat on to the surface, every mark and wear visible",
+   "subject": "a close view of an old obituary notice beside a stagflation-era headline",
+   "is_abstract_cover": true
+  },
+  {
+   "id": "253",
+   "location_id": "modern-kitchen",
+   "shot_role": "medium",
+   "shot_scale_note": "slightly low, close to the near figure",
+   "subject": "a person reflecting on a man who believed feelings could be measured like facts",
+   "emotion": "concentration and effort",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "254",
+   "location_id": "modern-kitchen",
+   "shot_role": "wide",
+   "shot_scale_note": "eye level, square to the far side",
+   "subject": "a person turning page after page of the index's eighty-year record",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "255",
+   "location_id": "modern-kitchen",
+   "shot_role": "detail",
+   "shot_scale_note": "tight on the face, the background dissolving into haze",
+   "subject": "a scrapbook page showing assembly lines, new suburbs and early credit cards",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "256",
+   "location_id": "modern-kitchen",
+   "shot_role": "wide",
+   "shot_scale_note": "a little off axis, the far corner just in frame",
+   "subject": "a scrapbook page showing gas lines, then a slow recovery, then a pandemic",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "257",
+   "location_id": "modern-kitchen",
+   "shot_role": "atmosphere",
+   "shot_scale_note": "held on the space, light and haze doing the work",
+   "subject": "a person closing the scrapbook on the year's third record-low reading",
+   "is_abstract_cover": true
+  },
+  {
+   "id": "258",
+   "location_id": "modern-kitchen",
+   "shot_role": "medium",
+   "shot_scale_note": "waist height, the figures filling the middle of the frame",
+   "subject": "a person admitting aloud that no one, including the instrument, knows what comes next",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "259",
+   "location_id": "modern-kitchen",
+   "shot_role": "macro_texture",
+   "shot_scale_note": "so close the surface loses its outline",
+   "subject": "a person recognising their own private doubt printed plainly in someone else's survey",
+   "is_abstract_cover": true
+  },
+  {
+   "id": "260",
+   "location_id": "mortgage-desk-2026",
+   "shot_role": "establishing",
+   "shot_scale_note": "set back in a corner, everything held in one frame",
+   "subject": "a young couple reading that today's reading is under half of a 1966 benchmark",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "261",
+   "location_id": "mortgage-desk-2026",
+   "shot_role": "wide",
+   "shot_scale_note": "eye level, square to the far side",
+   "subject": "a couple realising they are far from alone in how they've been feeling",
+   "emotion": "grief, restrained and quiet",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "262",
+   "location_id": "mortgage-desk-2026",
+   "shot_role": "atmosphere",
+   "shot_scale_note": "held on the space, light and haze doing the work",
+   "subject": "a person setting aside private guilt about their own finances after reading the survey",
+   "is_abstract_cover": true
+  },
+  {
+   "id": "263",
+   "location_id": "mortgage-desk-2026",
+   "shot_role": "macro_texture",
+   "shot_scale_note": "flat on to the surface, every mark and wear visible",
+   "subject": "a person letting go of the idea that being more careful would fix things",
+   "is_abstract_cover": true
+  },
+  {
+   "id": "264",
+   "location_id": "mortgage-desk-2026",
+   "shot_role": "detail",
+   "shot_scale_note": "tight on the face, the background dissolving into haze",
+   "subject": "a couple reading that households across the whole map report the same strain",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "265",
+   "location_id": "mortgage-desk-2026",
+   "shot_role": "wide",
+   "shot_scale_note": "eye level, square to the far side",
+   "subject": "an older couple and a young family both marking the same box on a survey",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "266",
+   "location_id": "mortgage-desk-2026",
+   "shot_role": "atmosphere",
+   "shot_scale_note": "held on the space, light and haze doing the work",
+   "subject": "a well-worn gauge dial on an old instrument, still ticking steadily",
+   "is_abstract_cover": true
+  },
+  {
+   "id": "267",
+   "location_id": "mortgage-desk-2026",
+   "shot_role": "detail",
+   "shot_scale_note": "just above the working surface, hands and face half lit",
+   "subject": "a couple tracing five monthly numbers penciled onto a small chart",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "268",
+   "location_id": "mortgage-desk-2026",
+   "shot_role": "macro_texture",
+   "shot_scale_note": "so close the surface loses its outline",
+   "subject": "a chart's line finally curving upward after a long flat stretch",
+   "is_abstract_cover": true
+  },
+  {
+   "id": "269",
+   "location_id": "gas-station-1970s",
+   "shot_role": "establishing",
+   "shot_scale_note": "far back, static, the whole space in frame",
+   "subject": "a mechanic and a customer studying the shape of an old fuel-price chart together",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "270",
+   "location_id": "gas-station-1970s",
+   "shot_role": "atmosphere",
+   "shot_scale_note": "looking down the length of the place, movement far off",
+   "subject": "a chart's line lingering near the bottom longer than anyone finds comfortable",
+   "is_abstract_cover": true
+  },
+  {
+   "id": "271",
+   "location_id": "gas-station-1970s",
+   "shot_role": "wide",
+   "shot_scale_note": "eye level from the doorway, the space opening away",
+   "subject": "a chart line finally turning upward at 1980, 2008, 2020, then 2022",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "272",
+   "location_id": "gas-station-1970s",
+   "shot_role": "medium",
+   "shot_scale_note": "waist height, the figures filling the middle of the frame",
+   "subject": "a family's mood shifting all at once, mirrored in a newly upturned chart",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "273",
+   "location_id": "gas-station-1970s",
+   "shot_role": "wide",
+   "shot_scale_note": "low, the floor running away toward the light",
+   "subject": "a person unable to see the old flat chart the same way after it turns",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "274",
+   "location_id": "gas-station-1970s",
+   "shot_role": "detail",
+   "shot_scale_note": "just above the working surface, hands and face half lit",
+   "subject": "a clerk filing an unimportant 1946 memo that later proved essential",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "275",
+   "location_id": "budapest-boulevard",
+   "shot_role": "wide",
+   "shot_scale_note": "eye level from the doorway, the space opening away",
+   "subject": "a young man boarding a train from Budapest, doctorate in hand at twenty",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "276",
+   "location_id": "berlin-newsroom",
+   "shot_role": "establishing",
+   "shot_scale_note": "far back, static, the whole space in frame",
+   "subject": "a journalist watching Berlin's currency dissolve from a newsroom desk, notebook in hand",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "277",
+   "location_id": "survey-research-center",
+   "shot_role": "macro_texture",
+   "shot_scale_note": "so close the surface loses its outline",
+   "subject": "colleagues hanging a new sign over a small Ann Arbor office door in 1946",
+   "is_abstract_cover": true
+  },
+  {
+   "id": "278",
+   "location_id": "survey-research-center",
+   "shot_role": "medium",
+   "shot_scale_note": "square on, half the group in shadow",
+   "subject": "a researcher setting five handwritten questions onto a fresh questionnaire page",
+   "emotion": "quiet waiting",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "279",
+   "location_id": "survey-research-center",
+   "shot_role": "atmosphere",
+   "shot_scale_note": "held on the space, light and haze doing the work",
+   "subject": "an interviewer knocking at a door, the same five questions in hand, decades apart",
+   "is_abstract_cover": true
+  },
+  {
+   "id": "280",
+   "location_id": "modern-kitchen",
+   "shot_role": "establishing",
+   "shot_scale_note": "high and back, looking down the length of the space",
+   "subject": "a person writing today's answer into a survey, then closing the notebook for the night",
+   "is_abstract_cover": false
+  },
+  {
+   "id": "281",
+   "location_id": "modern-kitchen",
+   "shot_role": "wide",
+   "shot_scale_note": "a little off axis, the far corner just in frame",
+   "subject": "a person turning off the kitchen lamp, the long chart resting quietly on the table",
+   "is_abstract_cover": false
+  }
+ ]
+}

@@ -14,6 +14,16 @@ videos/*/renders/
 videos/*/.hyperframes/chunks/*/.media/
 videos/*/.hyperframes/chunks/*/.hyperframes/cinematic-assets/
 videos/*/.hyperframes/chunks/*/renders/
+# Intermediate render scratch and source media for the sleep-long-video skill.
+# MEASURED on one 47-minute film: .work 7.3 GB (DepthFlow clips, join chunks,
+# per-section voice WAVs) and assets 818 MB (narration audio). Both are fully
+# re-derivable from the small *.json decision files and the script, and neither
+# was covered by the rules above -- a plain `git add -A` in that project would
+# have committed 8.1 GB into history.
+videos/*/.work/
+videos/*/assets/
+videos/*/.hyperframes/chunks/*/.work/
+videos/*/.hyperframes/chunks/*/assets/
 videos/*/.thumbnails/
 videos/*/.waveform-cache/
 videos/*/transcribe_err.log

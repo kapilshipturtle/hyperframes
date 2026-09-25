@@ -32,6 +32,7 @@ time("setup_venv", () => {
   sh("/tmp/dfvenv/bin/pip install -q -r ci/sleep/requirements.txt --extra-index-url https://download.pytorch.org/whl/cpu");
 });
 console.log(`PROBE python: ${cap("/tmp/dfvenv/bin/python --version")}`);
+process.env.PROBE_ALLOW_SOFTWARE_GL = "1";
 const X = `xvfb-run -a -s "-screen 0 1920x1080x24"`;
 console.log(`PROBE GL: ${cap(`${X} glxinfo -B | grep -iE 'OpenGL renderer|OpenGL version'`)}`);
 

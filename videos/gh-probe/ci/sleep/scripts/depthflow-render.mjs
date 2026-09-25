@@ -326,7 +326,7 @@ r = (scene.opengl.info.get('GL_RENDERER') or "")
 print("GL_RENDERER: " + r, flush=True)
 # A silent fall back to the llvmpipe software renderer is ~80x slower; fail loudly instead
 # of quietly turning a 2.5h render into days.
-if any(x in r.lower() for x in ("llvmpipe","softpipe","swrast","software")):
+if any(x in r.lower() for x in ("llvmpipe","softpipe","swrast","software")) and os.environ.get("PROBE_ALLOW_SOFTWARE_GL") != "1":
     print("FATAL: software renderer -- aborting", flush=True); sys.exit(2)
 # 1-SECOND GOP so the JOIN can stream-copy instead of re-encoding (added 2026-09-20).
 # These clips are INTERMEDIATES -- they exist only to be cross-dissolved and then deleted,

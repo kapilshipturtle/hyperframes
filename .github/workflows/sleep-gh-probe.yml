@@ -1,0 +1,93 @@
+name: sleep-gh-probe
+# MEASUREMENT ONLY. Can the CURRENT sleep-long-video pipeline (DepthFlow clips ->
+# cross-dissolve join -> snow+haze overlay) run on a free GitHub runner, and how fast?
+# Runs the real scripts, copied unmodified from the skill, on 12 real scenes (121.5 s of
+# film) from human-evolution-6-million-years, with that film's exact settings.
+# Standard runners have NO GPU, so DepthFlow gets whatever OpenGL Mesa provides -- the
+# renderer string is recorded so the result is not guessed.
+on:
+  push:
+    branches: [gh-probe]
+    paths: ["ci/sleep-probe/**", ".github/workflows/sleep-gh-probe.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: "22" }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+
+      - name: Machine
+        run: |
+          nproc; free -g; lscpu | grep -E "Model name|^CPU\(s\)"; df -h / | tail -1
+
+      - name: System packages (ffprobe, headless OpenGL)
+        run: |
+          sudo apt-get update -q
+          sudo apt-get install -y -q ffmpeg xvfb libgl1-mesa-dri libegl1 libglx-mesa0 mesa-utils
+          curl -sL https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-amd64-static.tar.xz -o /tmp/ff.tar.xz
+          mkdir -p /tmp/ff && tar -xf /tmp/ff.tar.xz -C /tmp/ff --strip-components=1
+          /tmp/ff/ffmpeg -version | head -1
+
+      - name: DepthFlow venv (same pins as the laptop)
+        run: |
+          python -m venv /tmp/dfvenv
+          /tmp/dfvenv/bin/pip install -q --upgrade pip
+          /tmp/dfvenv/bin/pip install -q -r ci/sleep-probe/requirements.txt \
+            --extra-index-url https://download.pytorch.org/whl/cpu
+          /tmp/dfvenv/bin/pip show depthflow torch | grep -E "^(Name|Version)"
+
+      - name: OpenGL renderer DepthFlow will get
+        run: |
+          xvfb-run -a -s "-screen 0 1920x1080x24" glxinfo -B | grep -iE "renderer|version" || true
+          xvfb-run -a -s "-screen 0 1920x1080x24" /tmp/dfvenv/bin/python -c "import moderngl; c=moderngl.create_context(standalone=True); print(c.info['GL_RENDERER'], c.info['GL_VERSION'])" || true
+
+      - name: 1) DepthFlow clips (12 scenes)
+        run: |
+          mkdir -p work
+          T0=$(date +%s)
+          xvfb-run -a -s "-screen 0 1920x1080x24" node ci/sleep-probe/scripts/depthflow-render.mjs \
+            --scenes ci/sleep-probe/sample/scenes.json --images ci/sleep-probe/sample/images \
+            --out-dir work/dfclips --dissolve 1.5 --style historical \
+            --motion-ramp 0.3 --motion-height 0.36 --motion-offset 0.5 --venv /tmp/dfvenv
+          echo "CLIPS_WALL=$(( $(date +%s)-T0 ))" | tee -a timings.txt
+          ls work/dfclips | wc -l
+
+      - name: 2) Cross-dissolve join
+        run: |
+          T0=$(date +%s)
+          node ci/sleep-probe/scripts/dissolve-join.mjs --clips-dir work/dfclips --out work/base.mp4 \
+            --dissolve 1.5 --chunk 12 --ffmpeg /tmp/ff/ffmpeg
+          echo "JOIN_WALL=$(( $(date +%s)-T0 ))" | tee -a timings.txt
+
+      - name: 3) Snow + haze overlay
+        run: |
+          T0=$(date +%s)
+          node ci/sleep-probe/scripts/atmosphere-pass.mjs --in work/base.mp4 --out work/atmos.mp4 \
+            --effect snow-smoke --intensity 1.0 --ffmpeg /tmp/ff/ffmpeg
+          echo "ATMOS_WALL=$(( $(date +%s)-T0 ))" | tee -a timings.txt
+
+      - name: Summary
+        if: always()
+        run: |
+          echo "FILM_SECONDS=$(ffprobe -v error -show_entries format=duration -of csv=p=0 work/base.mp4 2>/dev/null)" | tee -a timings.txt
+          cat timings.txt
+          cat timings.txt >> $GITHUB_STEP_SUMMARY
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: probe-output
+          path: |
+            timings.txt
+            work/atmos.mp4
+            work/dfclips/001.mp4
+          retention-days: 7
